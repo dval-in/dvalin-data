@@ -25,11 +25,4 @@ jobs:
       - name: Check JSON Schemas
         run: |
           npm install -g ajv-cli
-          cd schemas
-          ajv compile -s *.json
-          cd ../
-          for schema in $(ls schemas); do
-            for file in $(find data -name "*.json"); do
-              ajv validate -s schemas/$schema -d $file || exit 1
-            done
-          done
+          node scripts/validate_schemas.js
