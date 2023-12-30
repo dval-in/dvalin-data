@@ -1,0 +1,513 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "Ascension": {
+            "properties": {
+                "cost": {
+                    "type": "number"
+                },
+                "level": {
+                    "items": [
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "type": "array"
+                },
+                "mat1": {
+                    "$ref": "#/definitions/AscensionMaterial"
+                },
+                "mat2": {
+                    "$ref": "#/definitions/AscensionMaterial"
+                },
+                "mat3": {
+                    "$ref": "#/definitions/AscensionMaterial"
+                },
+                "mat4": {
+                    "$ref": "#/definitions/AscensionMaterial"
+                },
+                "stats": {
+                    "items": {
+                        "properties": {
+                            "label": {
+                                "type": "string"
+                            },
+                            "values": {
+                                "items": {
+                                    "type": [
+                                        "string",
+                                        "number"
+                                    ]
+                                },
+                                "type": "array"
+                            }
+                        },
+                        "required": [
+                            "label",
+                            "values"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "level",
+                "stats"
+            ],
+            "type": "object"
+        },
+        "AscensionMaterial": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "amount": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "rarity": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "_id",
+                "amount",
+                "id",
+                "name",
+                "rarity"
+            ],
+            "type": "object"
+        },
+        "Constellation": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "level": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "description",
+                "id",
+                "level",
+                "name"
+            ],
+            "type": "object"
+        },
+        "EArtifact": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id"
+            ],
+            "type": "object"
+        },
+        "EBanner": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id"
+            ],
+            "type": "object"
+        },
+        "EFood": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id"
+            ],
+            "type": "object"
+        },
+        "ETCGCharacterCard": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id"
+            ],
+            "type": "object"
+        },
+        "EWeapon": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id"
+            ],
+            "type": "object"
+        },
+        "Passive": {
+            "properties": {
+                "description": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "level": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "description",
+                "id",
+                "level",
+                "name"
+            ],
+            "type": "object"
+        },
+        "Skill": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "attributes": {
+                    "items": {
+                        "$ref": "#/definitions/SkillAttribute"
+                    },
+                    "type": "array"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "info": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "attributes",
+                "description",
+                "id",
+                "info",
+                "name"
+            ],
+            "type": "object"
+        },
+        "SkillAttribute": {
+            "properties": {
+                "label": {
+                    "type": "string"
+                },
+                "values": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "label",
+                "values"
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "affiliation": {
+            "type": "string"
+        },
+        "artifacts": {
+            "items": {
+                "$ref": "#/definitions/EArtifact"
+            },
+            "type": "array"
+        },
+        "ascension": {
+            "items": {
+                "$ref": "#/definitions/Ascension"
+            },
+            "type": "array"
+        },
+        "birthday": {
+            "type": "string"
+        },
+        "constellation": {
+            "type": "string"
+        },
+        "constellations": {
+            "items": {
+                "$ref": "#/definitions/Constellation"
+            },
+            "type": "array"
+        },
+        "cv": {
+            "properties": {
+                "chinese": {
+                    "type": "string"
+                },
+                "english": {
+                    "type": "string"
+                },
+                "japanese": {
+                    "type": "string"
+                },
+                "korean": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "chinese",
+                "english",
+                "japanese",
+                "korean"
+            ],
+            "type": "object"
+        },
+        "description": {
+            "type": "string"
+        },
+        "domain": {
+            "type": "string"
+        },
+        "element": {
+            "type": "string"
+        },
+        "featuredBanner": {
+            "items": {
+                "$ref": "#/definitions/EBanner"
+            },
+            "type": "array"
+        },
+        "gender": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "outfits": {
+            "items": {
+                "properties": {
+                    "_id": {
+                        "type": "number"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "picture": {
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "_id",
+                    "id",
+                    "name",
+                    "picture"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "passives": {
+            "items": {
+                "$ref": "#/definitions/Passive"
+            },
+            "type": "array"
+        },
+        "pictures": {
+            "properties": {
+                "face": {
+                    "type": "string"
+                },
+                "gachaSplash": {
+                    "type": "string"
+                },
+                "gatchaCard": {
+                    "type": "string"
+                },
+                "halfFace": {
+                    "type": "string"
+                },
+                "icon": {
+                    "type": "string"
+                },
+                "profile": {
+                    "type": "string"
+                },
+                "sideIcon": {
+                    "type": "string"
+                },
+                "weaponStance": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "face",
+                "gachaSplash",
+                "gatchaCard",
+                "halfFace",
+                "icon",
+                "profile",
+                "sideIcon",
+                "weaponStance"
+            ],
+            "type": "object"
+        },
+        "rarity": {
+            "type": "number"
+        },
+        "region": {
+            "type": "string"
+        },
+        "signatureArtifactSet": {
+            "$ref": "#/definitions/EArtifact"
+        },
+        "signatureWeapon": {
+            "$ref": "#/definitions/EWeapon"
+        },
+        "skills": {
+            "items": {
+                "$ref": "#/definitions/Skill"
+            },
+            "type": "array"
+        },
+        "specialDish": {
+            "$ref": "#/definitions/EFood"
+        },
+        "substat": {
+            "type": "string"
+        },
+        "talentMaterials": {
+            "items": {
+                "properties": {
+                    "cost": {
+                        "type": "number"
+                    },
+                    "items": {
+                        "items": {
+                            "$ref": "#/definitions/AscensionMaterial"
+                        },
+                        "type": "array"
+                    },
+                    "level": {
+                        "type": "number"
+                    }
+                },
+                "required": [
+                    "cost",
+                    "items",
+                    "level"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "tcgCharacterCard": {
+            "$ref": "#/definitions/ETCGCharacterCard"
+        },
+        "title": {
+            "type": "string"
+        },
+        "weaponType": {
+            "type": "string"
+        },
+        "weapons": {
+            "items": {
+                "$ref": "#/definitions/EWeapon"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "_id",
+        "affiliation",
+        "artifacts",
+        "ascension",
+        "birthday",
+        "constellation",
+        "constellations",
+        "cv",
+        "description",
+        "domain",
+        "element",
+        "featuredBanner",
+        "gender",
+        "id",
+        "name",
+        "outfits",
+        "passives",
+        "pictures",
+        "rarity",
+        "signatureArtifactSet",
+        "signatureWeapon",
+        "skills",
+        "specialDish",
+        "substat",
+        "talentMaterials",
+        "tcgCharacterCard",
+        "weaponType",
+        "weapons"
+    ],
+    "type": "object"
+}
+

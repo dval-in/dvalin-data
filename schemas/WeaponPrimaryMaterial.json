@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "craft": {
+            "properties": {
+                "cost": {
+                    "type": "number"
+                },
+                "items": {
+                    "items": {
+                        "properties": {
+                            "_id": {
+                                "type": "number"
+                            },
+                            "amount": {
+                                "type": "number"
+                            },
+                            "id": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "_id",
+                            "amount",
+                            "id",
+                            "name"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "cost",
+                "items"
+            ],
+            "type": "object"
+        },
+        "days": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "description": {
+            "type": "string"
+        },
+        "domain": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "rarity": {
+            "type": "number"
+        },
+        "source": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "_id",
+        "days",
+        "description",
+        "domain",
+        "id",
+        "location",
+        "name",
+        "rarity",
+        "source"
+    ],
+    "type": "object"
+}
+

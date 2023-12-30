@@ -1,0 +1,150 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "CharacterCardSkill": {
+            "properties": {
+                "desc": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "points": {
+                    "items": {
+                        "$ref": "#/definitions/SkillPoint"
+                    },
+                    "type": "array"
+                },
+                "skillTag": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "desc",
+                "id",
+                "name",
+                "points",
+                "skillTag"
+            ],
+            "type": "object"
+        },
+        "Entity": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id",
+                "name"
+            ],
+            "type": "object"
+        },
+        "SkillPoint": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "count": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "count",
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "attributes": {
+            "properties": {
+                "cardType": {
+                    "type": "string"
+                },
+                "character": {
+                    "$ref": "#/definitions/Entity"
+                },
+                "element": {
+                    "type": "string"
+                },
+                "energy": {
+                    "type": "number"
+                },
+                "faction": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "hp": {
+                    "type": "number"
+                },
+                "source": {
+                    "type": "string"
+                },
+                "talentCard": {
+                    "$ref": "#/definitions/Entity"
+                },
+                "weapon": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "cardType",
+                "element",
+                "energy",
+                "faction",
+                "hp",
+                "source",
+                "weapon"
+            ],
+            "type": "object"
+        },
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "skills": {
+            "items": {
+                "$ref": "#/definitions/CharacterCardSkill"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "_id",
+        "attributes",
+        "id",
+        "name",
+        "skills"
+    ],
+    "type": "object"
+}
+

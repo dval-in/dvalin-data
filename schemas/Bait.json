@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "craft": {
+            "properties": {
+                "items": {
+                    "items": {
+                        "properties": {
+                            "amount": {
+                                "type": "number"
+                            },
+                            "id": {
+                                "type": "string"
+                            },
+                            "name": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "amount",
+                            "id",
+                            "name"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "result": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "items",
+                "result"
+            ],
+            "type": "object"
+        },
+        "description": {
+            "type": "string"
+        },
+        "fish": {
+            "items": {
+                "properties": {
+                    "_id": {
+                        "type": "number"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "rarity": {
+                        "type": "number"
+                    }
+                },
+                "required": [
+                    "_id",
+                    "id",
+                    "name",
+                    "rarity"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "rarity": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "_id",
+        "craft",
+        "description",
+        "fish",
+        "id",
+        "name",
+        "rarity"
+    ],
+    "type": "object"
+}
+

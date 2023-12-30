@@ -1,0 +1,152 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "Entity": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id",
+                "name"
+            ],
+            "type": "object"
+        },
+        "MonsterCardSkill": {
+            "properties": {
+                "desc": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "points": {
+                    "items": {
+                        "$ref": "#/definitions/SkillPoint"
+                    },
+                    "type": "array"
+                },
+                "skillTag": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                }
+            },
+            "required": [
+                "desc",
+                "id",
+                "name",
+                "points",
+                "skillTag"
+            ],
+            "type": "object"
+        },
+        "SkillPoint": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "count": {
+                    "type": "number"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "count",
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "attributes": {
+            "properties": {
+                "cardType": {
+                    "type": "string"
+                },
+                "element": {
+                    "type": "string"
+                },
+                "energy": {
+                    "type": "number"
+                },
+                "faction": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "hp": {
+                    "type": "number"
+                },
+                "monster": {
+                    "$ref": "#/definitions/Entity"
+                },
+                "source": {
+                    "type": "string"
+                },
+                "weapon": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "cardType",
+                "element",
+                "energy",
+                "faction",
+                "hp",
+                "weapon"
+            ],
+            "type": "object"
+        },
+        "desc": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "skills": {
+            "items": {
+                "$ref": "#/definitions/MonsterCardSkill"
+            },
+            "type": "array"
+        },
+        "title": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "attributes",
+        "id",
+        "name",
+        "skills"
+    ],
+    "type": "object"
+}
+

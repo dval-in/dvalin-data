@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "description": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "source": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "_id",
+        "description",
+        "id",
+        "location",
+        "name",
+        "source"
+    ],
+    "type": "object"
+}
+
