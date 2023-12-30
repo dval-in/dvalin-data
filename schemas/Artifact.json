@@ -1,0 +1,77 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "ArtifactSet": {
+            "properties": {
+                "_id": {
+                    "type": "number"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_id",
+                "id",
+                "name"
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "circlet": {
+            "$ref": "#/definitions/ArtifactSet"
+        },
+        "flower": {
+            "$ref": "#/definitions/ArtifactSet"
+        },
+        "fourPiece": {
+            "type": "string"
+        },
+        "goblet": {
+            "$ref": "#/definitions/ArtifactSet"
+        },
+        "id": {
+            "type": "string"
+        },
+        "max_rarity": {
+            "type": "number"
+        },
+        "min_rarity": {
+            "type": "number"
+        },
+        "name": {
+            "type": "string"
+        },
+        "onePiece": {
+            "type": "string"
+        },
+        "plume": {
+            "$ref": "#/definitions/ArtifactSet"
+        },
+        "sands": {
+            "$ref": "#/definitions/ArtifactSet"
+        },
+        "twoPiece": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "id",
+        "max_rarity",
+        "min_rarity",
+        "name"
+    ],
+    "type": "object"
+}
+
