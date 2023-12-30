@@ -25,7 +25,7 @@ jobs:
       - name: Check JSON Schemas
         run: |
           npm install -g ajv-cli
-          ajv compile -s schemas/*.json -r schemas/
+          ajv compile -s schemas/*.json -r schemas/ --missing-refs
           for schema in $(ls schemas); do
             for file in $(find data -name "*.json"); do
               ajv validate -s schemas/$schema -d $file || exit 1
