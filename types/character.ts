@@ -1,9 +1,15 @@
 export interface SkillAttribute {
+	/**
+	 * @TJS-required
+	 */
 	label: string;
 	values: string[];
 }
 
 export interface Skill {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;
@@ -13,6 +19,9 @@ export interface Skill {
 }
 
 export interface Passive {
+	/**
+	 * @TJS-required
+	 */
 	id: string;
 	name: string;
 	description: string;
@@ -20,6 +29,9 @@ export interface Passive {
 }
 
 export interface Constellation {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;
@@ -28,6 +40,9 @@ export interface Constellation {
 }
 
 export interface AscensionMaterial {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;
@@ -36,11 +51,18 @@ export interface AscensionMaterial {
 }
 
 export type AscendStat = {
+	/**
+	 * @TJS-required
+	 */
 	label: string;
 	values: (string | number)[] | null;
 };
+
 export interface Ascension {
-	level: [number, number];
+	/**
+	 * @TJS-required
+	 */
+	level: [number];
 	cost?: number;
 	stats: AscendStat[];
 	mat1?: AscensionMaterial;
@@ -50,6 +72,9 @@ export interface Ascension {
 }
 
 export type CharacterVoice = {
+	/**
+	 * @TJS-required
+	 */
 	english: string;
 	chinese: string;
 	japanese: string;
@@ -57,11 +82,18 @@ export type CharacterVoice = {
 };
 
 export type TalentMaterial = {
+	/**
+	 * @TJS-required
+	 */
 	level: number;
 	cost: number;
 	items: AscensionMaterial[];
 };
+
 export type CharacterPicture = {
+	/**
+	 * @TJS-required
+	 */
 	icon: string;
 	sideIcon: string;
 	gatchaCard: string;
@@ -73,6 +105,9 @@ export type CharacterPicture = {
 };
 
 export type Outfits = {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;
@@ -80,31 +115,49 @@ export type Outfits = {
 };
 
 interface EWeapon {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 }
 
 interface EArtifact {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 }
 
 interface EFood {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 }
 
 interface EBanner {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 }
 
 interface ETCGCharacterCard {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 }
 
 export interface Character {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;
@@ -122,7 +175,7 @@ export interface Character {
 	outfits: null | Outfits[];
 	signatureWeapon: EWeapon;
 	weapons: EWeapon[];
-	signatureArtifactSet: EArtifact;
+	signatureArtifactSet: null | EArtifact;
 	artifacts: EArtifact[];
 	specialDish: EFood;
 	featuredBanner: EBanner[];

@@ -1,4 +1,7 @@
 interface ArtifactSet {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;
@@ -6,6 +9,9 @@ interface ArtifactSet {
 }
 
 export interface Artifact {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;

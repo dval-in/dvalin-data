@@ -1,0 +1,189 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "ascensions": {
+            "items": {
+                "properties": {
+                    "ascension": {
+                        "type": "number"
+                    },
+                    "cost": {
+                        "type": "number"
+                    },
+                    "level": {
+                        "type": "number"
+                    },
+                    "materials": {
+                        "items": {
+                            "properties": {
+                                "_id": {
+                                    "type": "number"
+                                },
+                                "amount": {
+                                    "type": "number"
+                                },
+                                "id": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                },
+                                "rarity": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "_id",
+                                "amount",
+                                "id",
+                                "name",
+                                "rarity"
+                            ],
+                            "type": "object"
+                        },
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "ascension",
+                    "cost",
+                    "level",
+                    "materials"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "bonus": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "domain": {
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "passive": {
+            "type": "string"
+        },
+        "rarity": {
+            "type": "number"
+        },
+        "refinementRaw": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "params": {
+                    "items": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        }
+                    ],
+                    "maxItems": 1,
+                    "minItems": 1,
+                    "type": "array"
+                },
+                "template": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "params",
+                "template"
+            ],
+            "type": "object"
+        },
+        "refinements": {
+            "items": {
+                "properties": {
+                    "desc": {
+                        "type": "string"
+                    },
+                    "refinement": {
+                        "type": "number"
+                    }
+                },
+                "required": [
+                    "desc",
+                    "refinement"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "stats": {
+            "properties": {
+                "levels": {
+                    "items": {
+                        "properties": {
+                            "ascension": {
+                                "type": "number"
+                            },
+                            "level": {
+                                "type": "number"
+                            },
+                            "primary": {
+                                "type": "number"
+                            },
+                            "secondary": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "ascension",
+                            "level",
+                            "primary"
+                        ],
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "primary": {
+                    "type": "string"
+                },
+                "secondary": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "levels",
+                "primary"
+            ],
+            "type": "object"
+        },
+        "type": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "ascensions",
+        "bonus",
+        "description",
+        "domain",
+        "id",
+        "name",
+        "passive",
+        "rarity",
+        "refinementRaw",
+        "refinements",
+        "stats",
+        "type"
+    ],
+    "type": "object"
+}
+

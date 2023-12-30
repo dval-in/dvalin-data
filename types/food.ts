@@ -1,10 +1,16 @@
 type Ingredient = {
+	/**
+	 * @TJS-required
+	 */
 	id: string;
 	name: string;
 	amount: number;
 };
 
 type FoodResult = {
+	/**
+	 * @TJS-required
+	 */
 	normal: {
 		_id: number;
 		name: string;
@@ -37,6 +43,9 @@ type FoodResult = {
 };
 
 export interface Food {
+	/**
+	 * @TJS-required
+	 */
 	_id: number;
 	id: string;
 	name: string;

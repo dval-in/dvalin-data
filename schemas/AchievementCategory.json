@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "_id": {
+            "type": "number"
+        },
+        "achievements": {
+            "items": {
+                "properties": {
+                    "desc": {
+                        "type": "string"
+                    },
+                    "hidden": {
+                        "type": "boolean"
+                    },
+                    "id": {
+                        "type": "number"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "order": {
+                        "type": "number"
+                    },
+                    "reward": {
+                        "type": "number"
+                    }
+                },
+                "required": [
+                    "desc",
+                    "hidden",
+                    "id",
+                    "name",
+                    "order",
+                    "reward"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "order": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "_id",
+        "achievements",
+        "id",
+        "name",
+        "order"
+    ],
+    "type": "object"
+}
+
