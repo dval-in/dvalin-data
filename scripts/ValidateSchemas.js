@@ -42,7 +42,7 @@ fs.readdir(dataDirectory, (err, langDirectory) => {
                             // Valid json for each file
                             jsonFiles.forEach((jsonFileName) => {
                                 const command = `ajv validate -s ${schemaPath} -d ${path.join(typePath, jsonFileName)}`
-                                console.log(`Validating ${typeName}/${jsonFileName} with schema ${typeName}`)
+                                console.log(`Validating ${lang}/${typeName}/${jsonFileName} with schema ${typeName}`)
                                 execSync(command, (err, stdout, stderr) => {
                                     if (err) {
                                         console.error(`Error validating ${jsonFileName}: ${err}`);
