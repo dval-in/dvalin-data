@@ -1,6 +1,6 @@
 {
 	"_id": 10000020,
-	"id": "razor",
+	"id": "Razor",
 	"name": "Рэйзор",
 	"title": "Инстинкт стаи",
 	"description": "Мальчик, живущий среди волков в Вольфендоме у Мондштадта, вдали от цивилизации. Ловок как молния.",
@@ -26,7 +26,7 @@
 	"skills": [
 		{
 			"_id": 10201,
-			"id": "normalAttackSteelFang",
+			"id": "NormalAttackSteelFang",
 			"name": "Стальной клык",
 			"description": "<span>Обычная атака:</span><br/>До четырёх рубящих ударов мечом.<br/><br/><span>Заряженная атака:</span><br/>Вращающаяся атака по окружающим врагам, на которую непрерывно тратится выносливость.<br/>После вращения проводит дополнительную мощную атаку мечом.<br/><br/><span>Атака в падении:</span><br/>Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
 			"info": "",
@@ -235,7 +235,7 @@
 		},
 		{
 			"_id": 10202,
-			"id": "clawAndThunder",
+			"id": "ClawAndThunder",
 			"name": "Гром и когти",
 			"description": "Выслеживает жертву, используя приёмы и методы, которые он узнал от своего учителя и своей стаи.<br/><br/><span>Быстрое нажатие:</span><br/>Удар когтями громового волка, наносящий <span>Электро урон</span> врагам впереди.<br/>При попадании Рэйзор получает символ Электро, который увеличивает скорость восстановления его энергии.<br/>Рэйзор может иметь до 3 символов Электро одновременно. Получение нового значка Электро обнуляет их длительность.<br/><br/><span>Долгое нажатие:</span><br/>Собирает энергию Электро и на небольшой площади вызывает грозу, которая наносит огромный <span>Электро урон</span>, отнимая все накопленные символы Электро. Каждый отнятый символ конвертируется в энергию для Рэйзора.",
 			"info": "Когда бьёт молния, глубоко в глазах Рэйзора вы можете увидеть, как хищник, живущий в нём, оценивает свою добычу.",
@@ -384,7 +384,7 @@
 		},
 		{
 			"_id": 10203,
-			"id": "lightningFang",
+			"id": "LightningFang",
 			"name": "Громовой клык",
 			"description": "Пробуждает внутреннего волка, который наносит <span>Электро урон</span> всем окружающим врагам. Активация навыка отнимает все накопленные символы Электро, конвертируя их в энергию для Рэйзора.<br/>На время длительности навыка волк сражается вместе с Рэйзором.<br/><br/><span>Внутренний волк:</span><br/>· Атакует вместе с обычными атаками Рэйзора, нанося <span>Электро урон</span>;<br/>· Увеличивает скорость атаки и <span>Электро сопротивление</span> Рэйзора;<br/>· Даёт Рэйзору иммунитет от урона, вызванного статусом <span>Заряжен</span>;<br/>· Заряженные атаки Рэйзора становятся недоступны;<br/>· Повышает устойчивость к прерыванию атак Рэйзора.<br/><br/>Эти эффекты заканчиваются, когда Рэйзор покидает бой.<br/>Когда Рэйзор покидает бой, оставшееся время длительности навыка возвращается к нему в виде энергии. Макс. 10 ед. энергии.",
 			"info": "Волк пробудился. Охота продолжается.",
@@ -534,19 +534,19 @@
 	],
 	"passives": [
 		{
-			"id": "awakening",
+			"id": "Awakening",
 			"name": "Пробуждение",
 			"description": "Уменьшает время отката навыка <span>Гром и когти</span> на 18%, также использование навыка <span>Громовой клык</span> полностью сбрасывает его время отката.",
 			"level": 1
 		},
 		{
-			"id": "hunger",
+			"id": "Hunger",
 			"name": "Голод",
 			"description": "Восстановление энергии Рэйзора увеличивается на 30%, когда количество его энергии опускается ниже 50%.",
 			"level": 4
 		},
 		{
-			"id": "wolvensprint",
+			"id": "Wolvensprint",
 			"name": "Вольфенспринт",
 			"description": "Уменьшает потребление выносливости активного персонажа во время спринта на 20%.<br/>Не суммируется с пассивными талантами, дающими точно такие же эффекты.",
 			"level": 0
@@ -555,42 +555,42 @@
 	"constellations": [
 		{
 			"_id": 201,
-			"id": "wolfsInstinct",
+			"id": "WolfsInstinct",
 			"name": "Волчья натура",
 			"description": "Подобранные элементальные сферы или частицы увеличивают урон Рэйзора на 10% в течение 8 сек.",
 			"level": 1
 		},
 		{
 			"_id": 202,
-			"id": "suppression",
+			"id": "Suppression",
 			"name": "Подавление",
 			"description": "Увеличивает шанс крит. попадания Рэйзора против врагов с HP ниже 30% на 10%.",
 			"level": 2
 		},
 		{
 			"_id": 203,
-			"id": "soulCompanion",
+			"id": "SoulCompanion",
 			"name": "Родственная душа",
 			"description": "Увеличивает уровень навыка <span>Громовой клык</span> на 3.<br/>Макс. уровень: 15",
 			"level": 3
 		},
 		{
 			"_id": 204,
-			"id": "bite",
+			"id": "Bite",
 			"name": "Укус",
 			"description": "При попадании быстрое нажатие навыка <span>Гром и Когти</span> понижает защиту противника на 15% в течение 7 сек.",
 			"level": 4
 		},
 		{
 			"_id": 205,
-			"id": "sharpenedClaws",
+			"id": "SharpenedClaws",
 			"name": "Заточенные когти",
 			"description": "Увеличивает уровень навыка <span>Гром и когти</span> на 3.<br/>Макс. уровень: 15",
 			"level": 5
 		},
 		{
 			"_id": 206,
-			"id": "lupusFulguris",
+			"id": "LupusFulguris",
 			"name": "Звезда Сириус",
 			"description": "Каждые 10 сек. меч Рэйзора заряжается молнией, которая высвобождается при следующей обычной атаке и наносит <span>Электро урон</span>, равный 100% от силы атаки Рэйзора.<br/>Если Рэйзор не находится под действием навыка <span>Громовой клык</span>, каждое попадание молнией по врагу даёт ему символ Электро навыка <span>Гром и когти</span>.",
 			"level": 6
@@ -725,21 +725,21 @@
 			],
 			"mat1": {
 				"_id": 104141,
-				"id": "vajradaAmethystSliver",
+				"id": "VajradaAmethystSliver",
 				"name": "Осколок аметиста Ваджрада",
 				"amount": 1,
 				"rarity": 2
 			},
 			"mat3": {
 				"_id": 100021,
-				"id": "wolfhook",
+				"id": "Wolfhook",
 				"name": "Волчий крюк",
 				"amount": 3,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112005,
-				"id": "damagedMask",
+				"id": "DamagedMask",
 				"name": "Разбитая маска",
 				"amount": 3,
 				"rarity": 1
@@ -789,28 +789,28 @@
 			],
 			"mat1": {
 				"_id": 104142,
-				"id": "vajradaAmethystFragment",
+				"id": "VajradaAmethystFragment",
 				"name": "Фрагмент аметиста Ваджрада",
 				"amount": 3,
 				"rarity": 3
 			},
 			"mat2": {
 				"_id": 113002,
-				"id": "lightningPrism",
+				"id": "LightningPrism",
 				"name": "Призма молнии",
 				"amount": 2,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100021,
-				"id": "wolfhook",
+				"id": "Wolfhook",
 				"name": "Волчий крюк",
 				"amount": 10,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112005,
-				"id": "damagedMask",
+				"id": "DamagedMask",
 				"name": "Разбитая маска",
 				"amount": 15,
 				"rarity": 1
@@ -860,28 +860,28 @@
 			],
 			"mat1": {
 				"_id": 104142,
-				"id": "vajradaAmethystFragment",
+				"id": "VajradaAmethystFragment",
 				"name": "Фрагмент аметиста Ваджрада",
 				"amount": 6,
 				"rarity": 3
 			},
 			"mat2": {
 				"_id": 113002,
-				"id": "lightningPrism",
+				"id": "LightningPrism",
 				"name": "Призма молнии",
 				"amount": 4,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100021,
-				"id": "wolfhook",
+				"id": "Wolfhook",
 				"name": "Волчий крюк",
 				"amount": 20,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112006,
-				"id": "stainedMask",
+				"id": "StainedMask",
 				"name": "Грязная маска",
 				"amount": 12,
 				"rarity": 2
@@ -931,28 +931,28 @@
 			],
 			"mat1": {
 				"_id": 104143,
-				"id": "vajradaAmethystChunk",
+				"id": "VajradaAmethystChunk",
 				"name": "Кусок аметиста Ваджрада",
 				"amount": 3,
 				"rarity": 4
 			},
 			"mat2": {
 				"_id": 113002,
-				"id": "lightningPrism",
+				"id": "LightningPrism",
 				"name": "Призма молнии",
 				"amount": 8,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100021,
-				"id": "wolfhook",
+				"id": "Wolfhook",
 				"name": "Волчий крюк",
 				"amount": 30,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112006,
-				"id": "stainedMask",
+				"id": "StainedMask",
 				"name": "Грязная маска",
 				"amount": 18,
 				"rarity": 2
@@ -1002,28 +1002,28 @@
 			],
 			"mat1": {
 				"_id": 104143,
-				"id": "vajradaAmethystChunk",
+				"id": "VajradaAmethystChunk",
 				"name": "Кусок аметиста Ваджрада",
 				"amount": 6,
 				"rarity": 4
 			},
 			"mat2": {
 				"_id": 113002,
-				"id": "lightningPrism",
+				"id": "LightningPrism",
 				"name": "Призма молнии",
 				"amount": 12,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100021,
-				"id": "wolfhook",
+				"id": "Wolfhook",
 				"name": "Волчий крюк",
 				"amount": 45,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112007,
-				"id": "ominousMask",
+				"id": "OminousMask",
 				"name": "Зловещая маска",
 				"amount": 12,
 				"rarity": 3
@@ -1073,28 +1073,28 @@
 			],
 			"mat1": {
 				"_id": 104144,
-				"id": "vajradaAmethystGemstone",
+				"id": "VajradaAmethystGemstone",
 				"name": "Драгоценный аметист Ваджрада",
 				"amount": 6,
 				"rarity": 5
 			},
 			"mat2": {
 				"_id": 113002,
-				"id": "lightningPrism",
+				"id": "LightningPrism",
 				"name": "Призма молнии",
 				"amount": 20,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100021,
-				"id": "wolfhook",
+				"id": "Wolfhook",
 				"name": "Волчий крюк",
 				"amount": 60,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112007,
-				"id": "ominousMask",
+				"id": "OminousMask",
 				"name": "Зловещая маска",
 				"amount": 24,
 				"rarity": 3
@@ -1108,14 +1108,14 @@
 			"items": [
 				{
 					"_id": 104304,
-					"id": "teachingsOfResistance",
+					"id": "TeachingsOfResistance",
 					"name": "Учения о «Борьбе»",
 					"amount": 3,
 					"rarity": 2
 				},
 				{
 					"_id": 112005,
-					"id": "damagedMask",
+					"id": "DamagedMask",
 					"name": "Разбитая маска",
 					"amount": 6,
 					"rarity": 1
@@ -1128,14 +1128,14 @@
 			"items": [
 				{
 					"_id": 104305,
-					"id": "guideToResistance",
+					"id": "GuideToResistance",
 					"name": "Указания о «Борьбе»",
 					"amount": 2,
 					"rarity": 3
 				},
 				{
 					"_id": 112006,
-					"id": "stainedMask",
+					"id": "StainedMask",
 					"name": "Грязная маска",
 					"amount": 3,
 					"rarity": 2
@@ -1148,14 +1148,14 @@
 			"items": [
 				{
 					"_id": 104305,
-					"id": "guideToResistance",
+					"id": "GuideToResistance",
 					"name": "Указания о «Борьбе»",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 112006,
-					"id": "stainedMask",
+					"id": "StainedMask",
 					"name": "Грязная маска",
 					"amount": 4,
 					"rarity": 2
@@ -1168,14 +1168,14 @@
 			"items": [
 				{
 					"_id": 104305,
-					"id": "guideToResistance",
+					"id": "GuideToResistance",
 					"name": "Указания о «Борьбе»",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 112006,
-					"id": "stainedMask",
+					"id": "StainedMask",
 					"name": "Грязная маска",
 					"amount": 6,
 					"rarity": 2
@@ -1188,14 +1188,14 @@
 			"items": [
 				{
 					"_id": 104305,
-					"id": "guideToResistance",
+					"id": "GuideToResistance",
 					"name": "Указания о «Борьбе»",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 112006,
-					"id": "stainedMask",
+					"id": "StainedMask",
 					"name": "Грязная маска",
 					"amount": 9,
 					"rarity": 2
@@ -1208,21 +1208,21 @@
 			"items": [
 				{
 					"_id": 104306,
-					"id": "philosophiesOfResistance",
+					"id": "PhilosophiesOfResistance",
 					"name": "Философия о «Борьбе»",
 					"amount": 4,
 					"rarity": 4
 				},
 				{
 					"_id": 112007,
-					"id": "ominousMask",
+					"id": "OminousMask",
 					"name": "Зловещая маска",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 113004,
-					"id": "dvalinsClaw",
+					"id": "DvalinsClaw",
 					"name": "Коготь Двалина",
 					"amount": 1,
 					"rarity": 5
@@ -1235,21 +1235,21 @@
 			"items": [
 				{
 					"_id": 104306,
-					"id": "philosophiesOfResistance",
+					"id": "PhilosophiesOfResistance",
 					"name": "Философия о «Борьбе»",
 					"amount": 6,
 					"rarity": 4
 				},
 				{
 					"_id": 112007,
-					"id": "ominousMask",
+					"id": "OminousMask",
 					"name": "Зловещая маска",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 113004,
-					"id": "dvalinsClaw",
+					"id": "DvalinsClaw",
 					"name": "Коготь Двалина",
 					"amount": 1,
 					"rarity": 5
@@ -1262,21 +1262,21 @@
 			"items": [
 				{
 					"_id": 104306,
-					"id": "philosophiesOfResistance",
+					"id": "PhilosophiesOfResistance",
 					"name": "Философия о «Борьбе»",
 					"amount": 12,
 					"rarity": 4
 				},
 				{
 					"_id": 112007,
-					"id": "ominousMask",
+					"id": "OminousMask",
 					"name": "Зловещая маска",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 113004,
-					"id": "dvalinsClaw",
+					"id": "DvalinsClaw",
 					"name": "Коготь Двалина",
 					"amount": 2,
 					"rarity": 5
@@ -1289,28 +1289,28 @@
 			"items": [
 				{
 					"_id": 104306,
-					"id": "philosophiesOfResistance",
+					"id": "PhilosophiesOfResistance",
 					"name": "Философия о «Борьбе»",
 					"amount": 16,
 					"rarity": 4
 				},
 				{
 					"_id": 112007,
-					"id": "ominousMask",
+					"id": "OminousMask",
 					"name": "Зловещая маска",
 					"amount": 12,
 					"rarity": 3
 				},
 				{
 					"_id": 113004,
-					"id": "dvalinsClaw",
+					"id": "DvalinsClaw",
 					"name": "Коготь Двалина",
 					"amount": 2,
 					"rarity": 5
 				},
 				{
 					"_id": 104319,
-					"id": "crownOfInsight",
+					"id": "CrownOfInsight",
 					"name": "Корона прозрения",
 					"amount": 1,
 					"rarity": 5
