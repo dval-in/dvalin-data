@@ -1,6 +1,6 @@
 {
 	"_id": 10000084,
-	"id": "lyney",
+	"id": "Lyney",
 	"name": "Лини",
 	"title": "Зрелищные фантасмагории",
 	"description": "Известный маг-иллюзионист из Фонтейна, отличающийся красноречием и актёрским мастерством. Завораживает публику ловкостью рук и своими речами.",
@@ -26,7 +26,7 @@
 	"skills": [
 		{
 			"_id": 10841,
-			"id": "normalAttackCardForceTranslocation",
+			"id": "NormalAttackCardForceTranslocation",
 			"name": "Форсирование карты с подменой",
 			"description": "<span>Обычная атака</span><br/>Производит до четырёх последовательных выстрелов из лука.<br/><br/><span>Атака в падении</span><br/>Выпускает град стрел, которые при приземлении персонажа наносят урон по площади.<br/><br/><span>Заряженная атака</span><br/>Более меткий <span>прицельный выстрел</span> с увеличенным уроном.<br/>Во время прицеливания на наконечнике стрелы собирается сила пламени. Эффект зависит от длительности заряда стрелы:<br/>· Уровень заряда 1: выпускает стрелу, наполненную силой Пиро, которая наносит <span>Пиро урон</span>.<br/>· Уровень заряда 2: выпускает стрелу-реквизит, которая наносит <span>Пиро урон</span> и при попадании вызывает Хохочущего котошляпа.<br/>Если во время выстрела стрелой-реквизитом у Лини более 60% HP, он жертвует частью HP и получает 1 уровень Избыточного реквизита. Эффект может складываться до 5 раз и пропадает через 30 сек. после того, как Лини покидает бой.<br/>При использовании этого способа HP Лини не может опуститься ниже 60% от его макс. HP.<br/><br/><span>Хохочущий котошляп</span><br/>· Дразнит врагов, отвлекая их атаки на себя. Котошляп может дразнить каждого из врагов один раз в 5 сек.<br/>· Его прочность зависит от макс. HP Лини.<br/>· Если его уничтожают, либо если его время заканчивается, он выстреливает в 1 противника поблизости <span>Пиротехническим снарядом</span>, который наносит <span>Пиро урон</span>.<br/>Одновременно может существовать только 1 котошляп.<br/><br/><span>Архэ: Пневма</span><br/>С некоторым интервалом, на месте попадания стрелы-реквизита нисходит Игла дыхания душ, наносящая <span>Пиро урон</span> пневмы.",
 			"info": "",
@@ -335,7 +335,7 @@
 		},
 		{
 			"_id": 10842,
-			"id": "bewilderingLights",
+			"id": "BewilderingLights",
 			"name": "Ошеломляющие огни",
 			"description": "Лини взмахивает шляпой, запуская сюрприз-фейерверк.<br/>При активации снимаются все текущие уровни Избыточного реквизита и врагам впереди наносится <span>Пиро урон по площади</span>. В зависимости от количества снятых уровней эффекта урон увеличивается. Кроме того, HP Лини восстанавливается в зависимости от его макс. HP.<br/><br/>Если на поле боя существует Хохочущий котошляп, созданный Лини, фейерверк заставит его взорваться и нанести <span>Пиро урон по площади</span>, пропорциональный урону Пиротехнического снаряда.<br/>Урон от взрыва котошляпа, наносимый таким образом, считается уроном заряженной атаки.",
 			"info": "«Это хорошо известный приём, используемый фокусниками, чтобы отвлечь внимание зрителей... А пока вы смотрите в другую сторону, шляпы с ассистенткой как не бывало. Чрезвычайно занимательно, не так ли?»",
@@ -424,7 +424,7 @@
 		},
 		{
 			"_id": 10845,
-			"id": "wondrousTrickMiracleParade",
+			"id": "WondrousTrickMiracleParade",
 			"name": "Великий фокус: Парад чудес",
 			"description": "Лини по волшебству превращается в проворного Хохочущего шляпокота. (Не путать с Хохочущим котошляпом. Это другой реквизит!)<br/>Приблизившись к врагам, Хохочущий шляпокот низвергает на врагов пламя. Каждый из них получает <span>Пиро урон</span> не более 1 раза. После истечения времени действия Лини отбрасывает личину Хохочущего шляпокота и запускает великолепный фейерверк, наносит <span>Пиро урон по площади</span>, призывает 1 Хохочущего котошляпа и получает 1 уровень Избыточного реквизита.<br/><br/>Действие Хохочущего шляпокота может быть прекращено произвольно.",
 			"info": "«Смотри внимательно. Настало мгновение неповторимого чуда, которое принадлежит только нам!»",
@@ -534,19 +534,19 @@
 	],
 	"passives": [
 		{
-			"id": "perilousPerformance",
+			"id": "PerilousPerformance",
 			"name": "Опасное выступление",
 			"description": "Если выпущенная <span>стрела-реквизит</span> расходует HP Лини, призываемый ею Хохочущий котошляп, поразив цель, восстанавливает 3 ед. энергии Лини и увеличивает урон на 80% от силы атаки.",
 			"level": 1
 		},
 		{
-			"id": "conclusiveOvation",
+			"id": "ConclusiveOvation",
 			"name": "Заключительные овации",
 			"description": "Урон Лини против врагов, находящихся под действием <span>Пиро</span> получает следующие усиления:<br/>· Увеличивает наносимый урон на 60%. <br/>· Каждый член отряда, чей элементальный тип - <span>Пиро</span> (за исключением самого Лини) увеличивает урон ещё на 20%.<br/>Повысить урон Лини против врагов под воздействием <span>Пиро</span> таким образом можно не более чем на 100%.",
 			"level": 4
 		},
 		{
-			"id": "trivialObservations",
+			"id": "TrivialObservations",
 			"name": "Тривиальные наблюдения",
 			"description": "Отмечает <span>диковинки Фонтейна</span> на мини-карте.",
 			"level": 0
@@ -555,42 +555,42 @@
 	"constellations": [
 		{
 			"_id": 841,
-			"id": "whimsicalWonders",
+			"id": "WhimsicalWonders",
 			"name": "Взбалмошные чудеса",
 			"description": "Допускает одновременное существование двух <span>Хохочущих котошляпов</span>.<br/>Кроме того, стрела-реквизит при попадании будет призывать 2 Хохочущих котошляпов, а также наделять Лини 1 дополнительным уровнем Избыточного реквизита. Эффект может возникнуть один раз в 15 сек.",
 			"level": 1
 		},
 		{
 			"_id": 842,
-			"id": "loquaciousCajoling",
+			"id": "LoquaciousCajoling",
 			"name": "Завлекательное фразёрство",
 			"description": "Каждые 2 сек. на поле боя Лини получает 1 уровень Предельного внимания, которое повышает крит. урон Лини на 20%. Эффект складывается до 3 раз и исчезает, когда Лини покидает бой.",
 			"level": 2
 		},
 		{
 			"_id": 843,
-			"id": "prestidigitation",
+			"id": "Prestidigitation",
 			"name": "Ловкость рук",
 			"description": "Увеличивает уровень навыка <span>Форсирование карты с подменой</span> на 3.<br/>Макс. уровень: 15",
 			"level": 3
 		},
 		{
 			"_id": 844,
-			"id": "wellversedWellrehearsed",
+			"id": "WellversedWellrehearsed",
 			"name": "Заученный и отрепетированный план",
 			"description": "Попадания заряженной атакой <span>Пиро</span> Лини понижают <span>Пиро сопротивление</span> поражённого врага на 20% на 6 сек.",
 			"level": 4
 		},
 		{
 			"_id": 845,
-			"id": "toPierceEnigmas",
+			"id": "ToPierceEnigmas",
 			"name": "Проникновение в тайны",
 			"description": "Увеличивает уровень навыка <span>Великий фокус: Парад чудес</span> на 3.<br/>Макс. уровень: 15",
 			"level": 5
 		},
 		{
 			"_id": 846,
-			"id": "guardedSmile",
+			"id": "GuardedSmile",
 			"name": "Неискренняя улыбка",
 			"description": "Выпустив <span>стрелу-реквизит</span>, Лини выстреливает Пиротехническим снарядом: Реприза, который наносит 80% урона Пиротехнического снаряда. Урон считается уроном заряженной атаки.",
 			"level": 6
@@ -725,21 +725,21 @@
 			],
 			"mat1": {
 				"_id": 104111,
-				"id": "agnidusAgateSliver",
+				"id": "AgnidusAgateSliver",
 				"name": "Осколок агата Агнидус",
 				"amount": 1,
 				"rarity": 2
 			},
 			"mat3": {
 				"_id": 101236,
-				"id": "rainbowRose",
+				"id": "RainbowRose",
 				"name": "Радужная роза",
 				"amount": 3,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112032,
-				"id": "recruitsInsignia",
+				"id": "RecruitsInsignia",
 				"name": "Шеврон рядового",
 				"amount": 3,
 				"rarity": 1
@@ -789,28 +789,28 @@
 			],
 			"mat1": {
 				"_id": 104112,
-				"id": "agnidusAgateFragment",
+				"id": "AgnidusAgateFragment",
 				"name": "Фрагмент агата Агнидус",
 				"amount": 3,
 				"rarity": 3
 			},
 			"mat2": {
 				"_id": 113051,
-				"id": "emperorsResolution",
+				"id": "EmperorsResolution",
 				"name": "Приговор императора",
 				"amount": 2,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 101236,
-				"id": "rainbowRose",
+				"id": "RainbowRose",
 				"name": "Радужная роза",
 				"amount": 10,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112032,
-				"id": "recruitsInsignia",
+				"id": "RecruitsInsignia",
 				"name": "Шеврон рядового",
 				"amount": 15,
 				"rarity": 1
@@ -860,28 +860,28 @@
 			],
 			"mat1": {
 				"_id": 104112,
-				"id": "agnidusAgateFragment",
+				"id": "AgnidusAgateFragment",
 				"name": "Фрагмент агата Агнидус",
 				"amount": 6,
 				"rarity": 3
 			},
 			"mat2": {
 				"_id": 113051,
-				"id": "emperorsResolution",
+				"id": "EmperorsResolution",
 				"name": "Приговор императора",
 				"amount": 4,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 101236,
-				"id": "rainbowRose",
+				"id": "RainbowRose",
 				"name": "Радужная роза",
 				"amount": 20,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112033,
-				"id": "sergeantsInsignia",
+				"id": "SergeantsInsignia",
 				"name": "Шеврон сержанта",
 				"amount": 12,
 				"rarity": 2
@@ -931,28 +931,28 @@
 			],
 			"mat1": {
 				"_id": 104113,
-				"id": "agnidusAgateChunk",
+				"id": "AgnidusAgateChunk",
 				"name": "Кусок агата Агнидус",
 				"amount": 3,
 				"rarity": 4
 			},
 			"mat2": {
 				"_id": 113051,
-				"id": "emperorsResolution",
+				"id": "EmperorsResolution",
 				"name": "Приговор императора",
 				"amount": 8,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 101236,
-				"id": "rainbowRose",
+				"id": "RainbowRose",
 				"name": "Радужная роза",
 				"amount": 30,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112033,
-				"id": "sergeantsInsignia",
+				"id": "SergeantsInsignia",
 				"name": "Шеврон сержанта",
 				"amount": 18,
 				"rarity": 2
@@ -1002,28 +1002,28 @@
 			],
 			"mat1": {
 				"_id": 104113,
-				"id": "agnidusAgateChunk",
+				"id": "AgnidusAgateChunk",
 				"name": "Кусок агата Агнидус",
 				"amount": 6,
 				"rarity": 4
 			},
 			"mat2": {
 				"_id": 113051,
-				"id": "emperorsResolution",
+				"id": "EmperorsResolution",
 				"name": "Приговор императора",
 				"amount": 12,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 101236,
-				"id": "rainbowRose",
+				"id": "RainbowRose",
 				"name": "Радужная роза",
 				"amount": 45,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112034,
-				"id": "lieutenantsInsignia",
+				"id": "LieutenantsInsignia",
 				"name": "Шеврон офицера",
 				"amount": 12,
 				"rarity": 3
@@ -1073,28 +1073,28 @@
 			],
 			"mat1": {
 				"_id": 104114,
-				"id": "agnidusAgateGemstone",
+				"id": "AgnidusAgateGemstone",
 				"name": "Драгоценный агат Агнидус",
 				"amount": 6,
 				"rarity": 5
 			},
 			"mat2": {
 				"_id": 113051,
-				"id": "emperorsResolution",
+				"id": "EmperorsResolution",
 				"name": "Приговор императора",
 				"amount": 20,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 101236,
-				"id": "rainbowRose",
+				"id": "RainbowRose",
 				"name": "Радужная роза",
 				"amount": 60,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112034,
-				"id": "lieutenantsInsignia",
+				"id": "LieutenantsInsignia",
 				"name": "Шеврон офицера",
 				"amount": 24,
 				"rarity": 3
@@ -1108,14 +1108,14 @@
 			"items": [
 				{
 					"_id": 104338,
-					"id": "teachingsOfEquity",
+					"id": "TeachingsOfEquity",
 					"name": "Учения о «Беспристрастии»",
 					"amount": 3,
 					"rarity": 2
 				},
 				{
 					"_id": 112032,
-					"id": "recruitsInsignia",
+					"id": "RecruitsInsignia",
 					"name": "Шеврон рядового",
 					"amount": 6,
 					"rarity": 1
@@ -1128,14 +1128,14 @@
 			"items": [
 				{
 					"_id": 104339,
-					"id": "guideToEquity",
+					"id": "GuideToEquity",
 					"name": "Указания о «Беспристрастии»",
 					"amount": 2,
 					"rarity": 3
 				},
 				{
 					"_id": 112033,
-					"id": "sergeantsInsignia",
+					"id": "SergeantsInsignia",
 					"name": "Шеврон сержанта",
 					"amount": 3,
 					"rarity": 2
@@ -1148,14 +1148,14 @@
 			"items": [
 				{
 					"_id": 104339,
-					"id": "guideToEquity",
+					"id": "GuideToEquity",
 					"name": "Указания о «Беспристрастии»",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 112033,
-					"id": "sergeantsInsignia",
+					"id": "SergeantsInsignia",
 					"name": "Шеврон сержанта",
 					"amount": 4,
 					"rarity": 2
@@ -1168,14 +1168,14 @@
 			"items": [
 				{
 					"_id": 104339,
-					"id": "guideToEquity",
+					"id": "GuideToEquity",
 					"name": "Указания о «Беспристрастии»",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 112033,
-					"id": "sergeantsInsignia",
+					"id": "SergeantsInsignia",
 					"name": "Шеврон сержанта",
 					"amount": 6,
 					"rarity": 2
@@ -1188,14 +1188,14 @@
 			"items": [
 				{
 					"_id": 104339,
-					"id": "guideToEquity",
+					"id": "GuideToEquity",
 					"name": "Указания о «Беспристрастии»",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 112033,
-					"id": "sergeantsInsignia",
+					"id": "SergeantsInsignia",
 					"name": "Шеврон сержанта",
 					"amount": 9,
 					"rarity": 2
@@ -1208,21 +1208,21 @@
 			"items": [
 				{
 					"_id": 104340,
-					"id": "philosophiesOfEquity",
+					"id": "PhilosophiesOfEquity",
 					"name": "Философия о «Беспристрастии»",
 					"amount": 4,
 					"rarity": 4
 				},
 				{
 					"_id": 112034,
-					"id": "lieutenantsInsignia",
+					"id": "LieutenantsInsignia",
 					"name": "Шеврон офицера",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 113047,
-					"id": "primordialGreenbloom",
+					"id": "PrimordialGreenbloom",
 					"name": "Первозданный цветок оазиса",
 					"amount": 1,
 					"rarity": 5
@@ -1235,21 +1235,21 @@
 			"items": [
 				{
 					"_id": 104340,
-					"id": "philosophiesOfEquity",
+					"id": "PhilosophiesOfEquity",
 					"name": "Философия о «Беспристрастии»",
 					"amount": 6,
 					"rarity": 4
 				},
 				{
 					"_id": 112034,
-					"id": "lieutenantsInsignia",
+					"id": "LieutenantsInsignia",
 					"name": "Шеврон офицера",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 113047,
-					"id": "primordialGreenbloom",
+					"id": "PrimordialGreenbloom",
 					"name": "Первозданный цветок оазиса",
 					"amount": 1,
 					"rarity": 5
@@ -1262,21 +1262,21 @@
 			"items": [
 				{
 					"_id": 104340,
-					"id": "philosophiesOfEquity",
+					"id": "PhilosophiesOfEquity",
 					"name": "Философия о «Беспристрастии»",
 					"amount": 12,
 					"rarity": 4
 				},
 				{
 					"_id": 112034,
-					"id": "lieutenantsInsignia",
+					"id": "LieutenantsInsignia",
 					"name": "Шеврон офицера",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 113047,
-					"id": "primordialGreenbloom",
+					"id": "PrimordialGreenbloom",
 					"name": "Первозданный цветок оазиса",
 					"amount": 2,
 					"rarity": 5
@@ -1289,28 +1289,28 @@
 			"items": [
 				{
 					"_id": 104340,
-					"id": "philosophiesOfEquity",
+					"id": "PhilosophiesOfEquity",
 					"name": "Философия о «Беспристрастии»",
 					"amount": 16,
 					"rarity": 4
 				},
 				{
 					"_id": 112034,
-					"id": "lieutenantsInsignia",
+					"id": "LieutenantsInsignia",
 					"name": "Шеврон офицера",
 					"amount": 12,
 					"rarity": 3
 				},
 				{
 					"_id": 113047,
-					"id": "primordialGreenbloom",
+					"id": "PrimordialGreenbloom",
 					"name": "Первозданный цветок оазиса",
 					"amount": 2,
 					"rarity": 5
 				},
 				{
 					"_id": 104319,
-					"id": "crownOfInsight",
+					"id": "CrownOfInsight",
 					"name": "Корона прозрения",
 					"amount": 1,
 					"rarity": 5

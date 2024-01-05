@@ -1,6 +1,6 @@
 {
 	"_id": 10000005,
-	"id": "travelerHydro",
+	"id": "TravelerHydro",
 	"name": "Путешественник (Гидро)",
 	"description": "Путешественник из другого мира, разлучённый со своей сестрой. Он отправляется в долгое путешествие, чтобы найти всех семерых Архонтов и вернуть родного человека.",
 	"weapon_type": "Одноручное оружие",
@@ -24,7 +24,7 @@
 	"skills": [
 		{
 			"_id": 100542,
-			"id": "normalAttackForeignStream",
+			"id": "NormalAttackForeignStream",
 			"name": "Чужеземный поток",
 			"description": "<span>Обычная атака:</span><br/>До пяти быстрых ударов.<br/><br/><span>Заряженная атака:</span><br/>Два быстрых взмаха мечом, на которые тратится определённое количество выносливости.<br/><br/><span>Атака в падении:</span><br/>Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
 			"info": "",
@@ -213,7 +213,7 @@
 		},
 		{
 			"_id": 10087,
-			"id": "aquacrestSaber",
+			"id": "AquacrestSaber",
 			"name": "Клинок водной эмблемы",
 			"description": "Выпускает стремительный поток, который очищает мир.<br/><br/><span>Быстрое нажатие</span><br/>Выпускает вперёд Бурные воды, которые при соприкосновении с врагами наносят <span>Гидро урон</span>.<br/><br/><span>Долгое нажатие</span><br/>Переходит в режим прицеливания и непрерывно выпускает в направлении прицеливания Капли росы, которые при попадании наносят <span>Гидро урон</span>.<br/>Навык завершается Бурными водами, выпускаемыми вперёд и при соприкосновении наносящими врагам <span>Гидро урон</span>.<br/>Затопление: при долгом нажатии, если HP путешественника выше 50%, урон Капель росы повысится пропорционально его макс. HP, причём он начнёт терять определённое количество HP каждую секунду.<br/><br/><span>Архэ: Пневма</span><br/>С некоторым интервалом после использования Бурных вод выпускает пронзающую врагов Иглу дыхания душ, которая наносит <span>Гидро урон</span> пневмы.",
 			"info": "Вы с Паймон наблюдали за рябью, пробегающей по водной глади.",
@@ -382,7 +382,7 @@
 		},
 		{
 			"_id": 10088,
-			"id": "risingWaters",
+			"id": "RisingWaters",
 			"name": "Прибывающая вода",
 			"description": "Выпускает медленно парящий пузырь, периодически наносящий <span>Гидро урон</span> врагам поблизости.",
 			"info": "Вы с Паймон изучали приливы и отливы.",
@@ -472,13 +472,13 @@
 	],
 	"passives": [
 		{
-			"id": "spotlessWaters",
+			"id": "SpotlessWaters",
 			"name": "Чистые воды",
 			"description": "Когда выпущенная долгим нажатием <span>Клинка водной эмблемы</span> Капля росы попадёт по противнику, рядом с путешественником будет создана Капля источника. Если подобрать её, она восстановит 7% HP путешественника.<br/>Таким способом можно создавать не более 1 Капли источника в секунду. При каждой активации Клинка водной эмблемы можно создать до 4 Капель источника.",
 			"level": 1
 		},
 		{
-			"id": "clearWaters",
+			"id": "ClearWaters",
 			"name": "Прозрачные воды",
 			"description": "Если Затопление, вызванное долгим нажатием <span>Клинка водной эмблемы</span>, потребило HP, Бурные воды, выпускаемые при завершении навыка, нанесут бонусный урон, равный 45% от общего количества HP путешественника, которое было израсходовано Затоплением во время действия данного навыка.<br/>Полученный таким образом бонус урона не может превышать 5000 ед.",
 			"level": 4
@@ -487,42 +487,42 @@
 	"constellations": [
 		{
 			"_id": 61,
-			"id": "swellingLake",
+			"id": "SwellingLake",
 			"name": "Вздымающееся озеро",
 			"description": "При подборе Капли источника путешественник восстанавливает 2 ед. энергии.<br/>Требуется разблокировать пассивный талант «Чистые воды».",
 			"level": 1
 		},
 		{
 			"_id": 62,
-			"id": "tricklingPurity",
+			"id": "TricklingPurity",
 			"name": "Струящаяся непорочность",
 			"description": "Скорость пузыря навыка <span>Прибывающая вода</span> снижена на 30%, а длительность увеличена на 3 сек.",
 			"level": 2
 		},
 		{
 			"_id": 63,
-			"id": "turbulentRipples",
+			"id": "TurbulentRipples",
 			"name": "Беспокойная рябь",
 			"description": "Увеличивает уровень навыка <span>Клинок водной эмблемы</span> на 3.<br/>Макс. уровень: 15",
 			"level": 3
 		},
 		{
 			"_id": 64,
-			"id": "pouringDescent",
+			"id": "PouringDescent",
 			"name": "Падающие потоки",
 			"description": "При использовании навыка <span>Клинок водной эмблемы</span> создаёт Щит водной эмблемы, поглощающий урон, равный 10% от макс. HP путешественника. <span>Гидро урон</span> поглощается с эффективностью 250%. Щит существует до конца использования навыка.<br/>Каждые 2 сек. при попадании Капель росы по противникам, когда путешественник находится под защитой Щита водной эмблемы, поглощаемый щитом урон будет восстанавливаться до 10% от макс. HP путешественника. В противном случае будет создан новый щит.",
 			"level": 4
 		},
 		{
 			"_id": 65,
-			"id": "churningWhirlpool",
+			"id": "ChurningWhirlpool",
 			"name": "Вихрящийся водоворот",
 			"description": "Увеличивает уровень навыка <span>Прибывающая вода</span> на 3.<br/>Макс. уровень: 15.",
 			"level": 5
 		},
 		{
 			"_id": 66,
-			"id": "tidesOfJustice",
+			"id": "TidesOfJustice",
 			"name": "Прибой правосудия",
 			"description": "Подобранная путешественником Капля источника восстанавливает члену отряда поблизости с наименьшим количеством HP 6% от его макс. HP.",
 			"level": 6
@@ -657,21 +657,21 @@
 			],
 			"mat1": {
 				"_id": 104101,
-				"id": "brilliantDiamondSliver",
+				"id": "BrilliantDiamondSliver",
 				"name": "Осколок бриллианта",
 				"amount": 1,
 				"rarity": 2
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "Ветряная астра",
 				"amount": 3,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112005,
-				"id": "damagedMask",
+				"id": "DamagedMask",
 				"name": "Разбитая маска",
 				"amount": 3,
 				"rarity": 1
@@ -721,21 +721,21 @@
 			],
 			"mat1": {
 				"_id": 104102,
-				"id": "brilliantDiamondFragment",
+				"id": "BrilliantDiamondFragment",
 				"name": "Фрагмент бриллианта",
 				"amount": 3,
 				"rarity": 3
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "Ветряная астра",
 				"amount": 10,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112005,
-				"id": "damagedMask",
+				"id": "DamagedMask",
 				"name": "Разбитая маска",
 				"amount": 15,
 				"rarity": 1
@@ -785,21 +785,21 @@
 			],
 			"mat1": {
 				"_id": 104102,
-				"id": "brilliantDiamondFragment",
+				"id": "BrilliantDiamondFragment",
 				"name": "Фрагмент бриллианта",
 				"amount": 6,
 				"rarity": 3
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "Ветряная астра",
 				"amount": 20,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112006,
-				"id": "stainedMask",
+				"id": "StainedMask",
 				"name": "Грязная маска",
 				"amount": 12,
 				"rarity": 2
@@ -849,21 +849,21 @@
 			],
 			"mat1": {
 				"_id": 104103,
-				"id": "brilliantDiamondChunk",
+				"id": "BrilliantDiamondChunk",
 				"name": "Кусок бриллианта",
 				"amount": 3,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "Ветряная астра",
 				"amount": 30,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112006,
-				"id": "stainedMask",
+				"id": "StainedMask",
 				"name": "Грязная маска",
 				"amount": 18,
 				"rarity": 2
@@ -913,21 +913,21 @@
 			],
 			"mat1": {
 				"_id": 104103,
-				"id": "brilliantDiamondChunk",
+				"id": "BrilliantDiamondChunk",
 				"name": "Кусок бриллианта",
 				"amount": 6,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "Ветряная астра",
 				"amount": 45,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112007,
-				"id": "ominousMask",
+				"id": "OminousMask",
 				"name": "Зловещая маска",
 				"amount": 12,
 				"rarity": 3
@@ -977,21 +977,21 @@
 			],
 			"mat1": {
 				"_id": 104104,
-				"id": "brilliantDiamondGemstone",
+				"id": "BrilliantDiamondGemstone",
 				"name": "Драгоценный бриллиант",
 				"amount": 6,
 				"rarity": 5
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "Ветряная астра",
 				"amount": 60,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112007,
-				"id": "ominousMask",
+				"id": "OminousMask",
 				"name": "Зловещая маска",
 				"amount": 24,
 				"rarity": 3
@@ -1005,14 +1005,14 @@
 			"items": [
 				{
 					"_id": 104338,
-					"id": "teachingsOfEquity",
+					"id": "TeachingsOfEquity",
 					"name": "Учения о «Беспристрастии»",
 					"amount": 3,
 					"rarity": 2
 				},
 				{
 					"_id": 112080,
-					"id": "transoceanicPearl",
+					"id": "TransoceanicPearl",
 					"name": "Жемчужина иноморья",
 					"amount": 6,
 					"rarity": 1
@@ -1025,14 +1025,14 @@
 			"items": [
 				{
 					"_id": 104342,
-					"id": "guideToJustice",
+					"id": "GuideToJustice",
 					"name": "Указания о «Справедливости»",
 					"amount": 2,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "Обломок из иноморья",
 					"amount": 3,
 					"rarity": 2
@@ -1045,14 +1045,14 @@
 			"items": [
 				{
 					"_id": 104345,
-					"id": "guideToOrder",
+					"id": "GuideToOrder",
 					"name": "Указания о «Порядке»",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "Обломок из иноморья",
 					"amount": 4,
 					"rarity": 2
@@ -1065,14 +1065,14 @@
 			"items": [
 				{
 					"_id": 104339,
-					"id": "guideToEquity",
+					"id": "GuideToEquity",
 					"name": "Указания о «Беспристрастии»",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "Обломок из иноморья",
 					"amount": 6,
 					"rarity": 2
@@ -1085,14 +1085,14 @@
 			"items": [
 				{
 					"_id": 104342,
-					"id": "guideToJustice",
+					"id": "GuideToJustice",
 					"name": "Указания о «Справедливости»",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "Обломок из иноморья",
 					"amount": 9,
 					"rarity": 2
@@ -1105,21 +1105,21 @@
 			"items": [
 				{
 					"_id": 104346,
-					"id": "philosophiesOfOrder",
+					"id": "PhilosophiesOfOrder",
 					"name": "Философия о «Порядке»",
 					"amount": 4,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "Ксенохромный кристалл",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "Объявший небосвод папоротник",
 					"amount": 1,
 					"rarity": 5
@@ -1132,21 +1132,21 @@
 			"items": [
 				{
 					"_id": 104340,
-					"id": "philosophiesOfEquity",
+					"id": "PhilosophiesOfEquity",
 					"name": "Философия о «Беспристрастии»",
 					"amount": 6,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "Ксенохромный кристалл",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "Объявший небосвод папоротник",
 					"amount": 1,
 					"rarity": 5
@@ -1159,21 +1159,21 @@
 			"items": [
 				{
 					"_id": 104343,
-					"id": "philosophiesOfJustice",
+					"id": "PhilosophiesOfJustice",
 					"name": "Философия о «Справедливости»",
 					"amount": 12,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "Ксенохромный кристалл",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "Объявший небосвод папоротник",
 					"amount": 2,
 					"rarity": 5
@@ -1186,28 +1186,28 @@
 			"items": [
 				{
 					"_id": 104346,
-					"id": "philosophiesOfOrder",
+					"id": "PhilosophiesOfOrder",
 					"name": "Философия о «Порядке»",
 					"amount": 16,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "Ксенохромный кристалл",
 					"amount": 12,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "Объявший небосвод папоротник",
 					"amount": 2,
 					"rarity": 5
 				},
 				{
 					"_id": 104319,
-					"id": "crownOfInsight",
+					"id": "CrownOfInsight",
 					"name": "Корона прозрения",
 					"amount": 1,
 					"rarity": 5

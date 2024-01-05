@@ -1,6 +1,6 @@
 {
 	"_id": 10000005,
-	"id": "travelerHydro",
+	"id": "TravelerHydro",
 	"name": "旅人 (水)",
 	"description": "世界の外から漂流してきた旅人。肉親が見知らぬ神に連れ去られたため、七神を探す旅に出た。",
 	"weapon_type": "片手剣",
@@ -24,7 +24,7 @@
 	"skills": [
 		{
 			"_id": 100542,
-			"id": "normalAttackForeignStream",
+			"id": "NormalAttackForeignStream",
 			"name": "通常攻撃·異邦の激流",
 			"description": "<span>通常攻撃</span><br/>剣による最大5段の連続攻撃を行う。<br/><br/><span>重撃</span><br/>一定のスタミナを消費し、前方に斬撃を2回放つ。<br/><br/><span>落下攻撃</span><br/>空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
 			"info": "",
@@ -213,7 +213,7 @@
 		},
 		{
 			"_id": 10087,
-			"id": "aquacrestSaber",
+			"id": "AquacrestSaber",
 			"name": "水紋の剣",
 			"description": "大地を浄化できる激流を放つ。<br/><br/><span>一回押し</span><br/>前方に向かって飛散する激流を放ち、命中した敵に<span>水元素ダメージ</span>を与える。<br/><br/><span>長押し</span><br/>照準モードに入り、狙った方向に向かって露雫を放ち続け、命中した敵に<span>水元素ダメージ</span>を与える。<br/>終了時、前方に向かって飛散する激流を放ち、命中した敵に<span>水元素ダメージ</span>を与える。<br/>充満：長押しによって発動した時、旅人のHPが50%を超えている場合、露雫によるダメージは旅人のHP上限を基にアップする。同時に、旅人は1秒毎に一定のHPを失う。<br/><br/><span>アルケー：プネウマ</span><br/>飛散する激流を放った後、敵を貫く霊息の棘が現れ、プネウマを帯びた<span>水元素ダメージ</span>を与える、一定時間ごとに発動が可能。",
 			"info": "パイモンと一緒に水面のさざ波を観察した。",
@@ -382,7 +382,7 @@
 		},
 		{
 			"_id": 10088,
-			"id": "risingWaters",
+			"id": "RisingWaters",
 			"name": "昇流統水",
 			"description": "ゆっくりと移動する浮遊水沫を放ち、近くの敵に<span>水元素ダメージ</span>を持続的に与える。",
 			"info": "パイモンと一緒に潮の満ち引きを研究した。",
@@ -472,13 +472,13 @@
 	],
 	"passives": [
 		{
-			"id": "spotlessWaters",
+			"id": "SpotlessWaters",
 			"name": "無染の清水",
 			"description": "長押しで発動した<span>水紋の剣</span>による露雫が敵に命中した後、旅人の近くに源水の雫を生成する。旅人が源水の雫を拾うと、HPが7%回復する。<br/>この方法で生成できる源水の雫は1秒毎に1個のみ。水紋の剣1回につき、生成できる源水の雫は4個まで。",
 			"level": 1
 		},
 		{
-			"id": "clearWaters",
+			"id": "ClearWaters",
 			"name": "澄明の净水",
 			"description": "長押しで<span>水紋の剣</span>を発動する時、充満によってHPを消費した場合、発動終了時に飛散する激流のダメージがアップする。ダメージアップ量は旅人がこの発動期間中に充満で消費したHPの合計の45%に相当する。<br/>この方法でアップできる上記攻撃によるダメージは5000までとなる。",
 			"level": 4
@@ -487,42 +487,42 @@
 	"constellations": [
 		{
 			"_id": 61,
-			"id": "swellingLake",
+			"id": "SwellingLake",
 			"name": "細波の湖水",
 			"description": "源水の雫を拾うと、旅人は元素エネルギーを2ポイント回復する。<br/>固有天賦「無染の清水」を解放する必要がある。",
 			"level": 1
 		},
 		{
 			"_id": 62,
-			"id": "tricklingPurity",
+			"id": "TricklingPurity",
 			"name": "潺湲の碧水",
 			"description": "<span>昇流統水</span>の浮遊水沫の移動速度-30%、継続時間+3秒。",
 			"level": 2
 		},
 		{
 			"_id": 63,
-			"id": "turbulentRipples",
+			"id": "TurbulentRipples",
 			"name": "荒天の波水",
 			"description": "<span>水紋の剣</span>のスキルLv.+3。<br/>最大Lv.15まで。",
 			"level": 3
 		},
 		{
 			"_id": 64,
-			"id": "pouringDescent",
+			"id": "PouringDescent",
 			"name": "傾落の流水",
 			"description": "<span>水紋の剣</span>を発動する時、ダメージ吸収量がHP上限の10%に値する水紋シールドを生成する。このシールドは<span>水元素ダメージ</span>に対して250%の吸収効果があり、発動完了まで持続する。<br/>2秒毎に1回、露雫が敵に命中した後、旅人が水紋シールド状態にある場合、水紋シールドのダメージ吸収量を旅人のHP上限の10%まで補充する。旅人が水紋シールド状態でない場合、水紋シールドを再生成する。",
 			"level": 4
 		},
 		{
 			"_id": 65,
-			"id": "churningWhirlpool",
+			"id": "ChurningWhirlpool",
 			"name": "回旋の曲水",
 			"description": "<span>昇流統水</span>のスキルLv.+3。<br/>最大Lv.15まで。",
 			"level": 5
 		},
 		{
 			"_id": 66,
-			"id": "tidesOfJustice",
+			"id": "TidesOfJustice",
 			"name": "正義の潮水",
 			"description": "旅人が源水の雫を拾う時、追加で周囲にいるHP割合の最も低いチーム内のキャラクターのHPを回復する。回復量はそのキャラクターのHP上限の6%に相当する。",
 			"level": 6
@@ -657,21 +657,21 @@
 			],
 			"mat1": {
 				"_id": 104101,
-				"id": "brilliantDiamondSliver",
+				"id": "BrilliantDiamondSliver",
 				"name": "輝くダイヤ·砕屑",
 				"amount": 1,
 				"rarity": 2
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "風車アスター",
 				"amount": 3,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112005,
-				"id": "damagedMask",
+				"id": "DamagedMask",
 				"name": "破損した仮面",
 				"amount": 3,
 				"rarity": 1
@@ -721,21 +721,21 @@
 			],
 			"mat1": {
 				"_id": 104102,
-				"id": "brilliantDiamondFragment",
+				"id": "BrilliantDiamondFragment",
 				"name": "輝くダイヤ·欠片",
 				"amount": 3,
 				"rarity": 3
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "風車アスター",
 				"amount": 10,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112005,
-				"id": "damagedMask",
+				"id": "DamagedMask",
 				"name": "破損した仮面",
 				"amount": 15,
 				"rarity": 1
@@ -785,21 +785,21 @@
 			],
 			"mat1": {
 				"_id": 104102,
-				"id": "brilliantDiamondFragment",
+				"id": "BrilliantDiamondFragment",
 				"name": "輝くダイヤ·欠片",
 				"amount": 6,
 				"rarity": 3
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "風車アスター",
 				"amount": 20,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112006,
-				"id": "stainedMask",
+				"id": "StainedMask",
 				"name": "汚れた仮面",
 				"amount": 12,
 				"rarity": 2
@@ -849,21 +849,21 @@
 			],
 			"mat1": {
 				"_id": 104103,
-				"id": "brilliantDiamondChunk",
+				"id": "BrilliantDiamondChunk",
 				"name": "輝くダイヤ·塊",
 				"amount": 3,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "風車アスター",
 				"amount": 30,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112006,
-				"id": "stainedMask",
+				"id": "StainedMask",
 				"name": "汚れた仮面",
 				"amount": 18,
 				"rarity": 2
@@ -913,21 +913,21 @@
 			],
 			"mat1": {
 				"_id": 104103,
-				"id": "brilliantDiamondChunk",
+				"id": "BrilliantDiamondChunk",
 				"name": "輝くダイヤ·塊",
 				"amount": 6,
 				"rarity": 4
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "風車アスター",
 				"amount": 45,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112007,
-				"id": "ominousMask",
+				"id": "OminousMask",
 				"name": "不吉な仮面",
 				"amount": 12,
 				"rarity": 3
@@ -977,21 +977,21 @@
 			],
 			"mat1": {
 				"_id": 104104,
-				"id": "brilliantDiamondGemstone",
+				"id": "BrilliantDiamondGemstone",
 				"name": "輝くダイヤ",
 				"amount": 6,
 				"rarity": 5
 			},
 			"mat3": {
 				"_id": 100024,
-				"id": "windwheelAster",
+				"id": "WindwheelAster",
 				"name": "風車アスター",
 				"amount": 60,
 				"rarity": 1
 			},
 			"mat4": {
 				"_id": 112007,
-				"id": "ominousMask",
+				"id": "OminousMask",
 				"name": "不吉な仮面",
 				"amount": 24,
 				"rarity": 3
@@ -1005,14 +1005,14 @@
 			"items": [
 				{
 					"_id": 104338,
-					"id": "teachingsOfEquity",
+					"id": "TeachingsOfEquity",
 					"name": "「公平」の教え",
 					"amount": 3,
 					"rarity": 2
 				},
 				{
 					"_id": 112080,
-					"id": "transoceanicPearl",
+					"id": "TransoceanicPearl",
 					"name": "異海の露",
 					"amount": 6,
 					"rarity": 1
@@ -1025,14 +1025,14 @@
 			"items": [
 				{
 					"_id": 104342,
-					"id": "guideToJustice",
+					"id": "GuideToJustice",
 					"name": "「正義」の導き",
 					"amount": 2,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "異海の塊",
 					"amount": 3,
 					"rarity": 2
@@ -1045,14 +1045,14 @@
 			"items": [
 				{
 					"_id": 104345,
-					"id": "guideToOrder",
+					"id": "GuideToOrder",
 					"name": "「秩序」の導き",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "異海の塊",
 					"amount": 4,
 					"rarity": 2
@@ -1065,14 +1065,14 @@
 			"items": [
 				{
 					"_id": 104339,
-					"id": "guideToEquity",
+					"id": "GuideToEquity",
 					"name": "「公平」の導き",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "異海の塊",
 					"amount": 6,
 					"rarity": 2
@@ -1085,14 +1085,14 @@
 			"items": [
 				{
 					"_id": 104342,
-					"id": "guideToJustice",
+					"id": "GuideToJustice",
 					"name": "「正義」の導き",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 112081,
-					"id": "transoceanicChunk",
+					"id": "TransoceanicChunk",
 					"name": "異海の塊",
 					"amount": 9,
 					"rarity": 2
@@ -1105,21 +1105,21 @@
 			"items": [
 				{
 					"_id": 104346,
-					"id": "philosophiesOfOrder",
+					"id": "PhilosophiesOfOrder",
 					"name": "「秩序」の哲学",
 					"amount": 4,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "色変わりの結晶",
 					"amount": 4,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "天地に生える蕨",
 					"amount": 1,
 					"rarity": 5
@@ -1132,21 +1132,21 @@
 			"items": [
 				{
 					"_id": 104340,
-					"id": "philosophiesOfEquity",
+					"id": "PhilosophiesOfEquity",
 					"name": "「公平」の哲学",
 					"amount": 6,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "色変わりの結晶",
 					"amount": 6,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "天地に生える蕨",
 					"amount": 1,
 					"rarity": 5
@@ -1159,21 +1159,21 @@
 			"items": [
 				{
 					"_id": 104343,
-					"id": "philosophiesOfJustice",
+					"id": "PhilosophiesOfJustice",
 					"name": "「正義」の哲学",
 					"amount": 12,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "色変わりの結晶",
 					"amount": 9,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "天地に生える蕨",
 					"amount": 2,
 					"rarity": 5
@@ -1186,28 +1186,28 @@
 			"items": [
 				{
 					"_id": 104346,
-					"id": "philosophiesOfOrder",
+					"id": "PhilosophiesOfOrder",
 					"name": "「秩序」の哲学",
 					"amount": 16,
 					"rarity": 4
 				},
 				{
 					"_id": 112082,
-					"id": "xenochromaticCrystal",
+					"id": "XenochromaticCrystal",
 					"name": "色変わりの結晶",
 					"amount": 12,
 					"rarity": 3
 				},
 				{
 					"_id": 113046,
-					"id": "worldspanFern",
+					"id": "WorldspanFern",
 					"name": "天地に生える蕨",
 					"amount": 2,
 					"rarity": 5
 				},
 				{
 					"_id": 104319,
-					"id": "crownOfInsight",
+					"id": "CrownOfInsight",
 					"name": "知恵の冠",
 					"amount": 1,
 					"rarity": 5
