@@ -5,7 +5,7 @@ Data repo for dval.in, exported from paimon.moe
 [GOOD Json Format](https://frzyc.github.io/genshin-optimizer/#/doc)  
 
 PascalCase ID's
-- [ ] AchievementCategory
+- [x] AchievementCategory
 - [x] Artifact
 - [x] Bait
 - [x] Character
@@ -29,3 +29,4 @@ PascalCase ID's
 - [x] WeaponEnhancementMaterial
 - [x] WeaponPrimaryMaterial
 - [x] WeaponSecondaryMaterial
+- [x] domains.json
