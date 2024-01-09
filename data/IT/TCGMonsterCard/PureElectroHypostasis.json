@@ -1,79 +1,89 @@
 {
-  "_id": 4403,
-  "id": "pure_electro_hypostasis",
-  "name": "Ipostasi di Electro pura",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 15,
-    "card_type": "Carta personaggio",
-    "energy": 2,
-    "element": "Electro",
-    "weapon": "Altre armi",
-    "faction": ["Mostro"],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "electro_crystal_projection",
-      "name": "Proiezione del Cristallo di Electro",
-      "desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
-      "skillTag": ["Attacco normale"],
-      "points": [
-        {
-          "_id": 1104,
-          "id": "electro",
-          "type": "Electro",
-          "count": 1
-        },
-        {
-          "_id": 1109,
-          "id": "unaligned_element",
-          "type": "elemento indefinito",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "rockpaperscissors_combo",
-      "name": "Combo carta, forbice, sasso",
-      "desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span> e poi, separatamente, <span style=\"color:#FFFFFFFF\">Prepara abilità</span> per <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Forbice</span> e <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Carta</span>.",
-      "skillTag": ["Abilità elementale"],
-      "points": [
-        {
-          "_id": 1104,
-          "id": "electro",
-          "type": "Electro",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "lightning_lockdown",
-      "name": "Blocco fulmineo",
-      "desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, invoca <span style=\"color:#FFFFFFFF\">Catene del Tuono tutelare</span>.",
-      "skillTag": ["Tripudio elementale"],
-      "points": [
-        {
-          "_id": 1104,
-          "id": "electro",
-          "type": "Electro",
-          "count": 3
-        },
-        {
-          "_id": 1110,
-          "id": "energy",
-          "type": "Energia",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "elemental_sedimentation_electro",
-      "name": "Sedimentazione elementale di Electro",
-      "desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Entità elementale di Electro</span>.",
-      "skillTag": ["Abilità passiva"],
-      "points": []
-    }
-  ]
+	"_id": 4403,
+	"id": "PureElectroHypostasis",
+	"name": "Ipostasi di Electro pura",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 15,
+		"card_type": "Carta personaggio",
+		"energy": 2,
+		"element": "Electro",
+		"weapon": "Altre armi",
+		"faction": [
+			"Mostro"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "ElectroCrystalProjection",
+			"name": "Proiezione del Cristallo di Electro",
+			"desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+			"skillTag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"_id": 1104,
+					"id": "Electro",
+					"type": "Electro",
+					"count": 1
+				},
+				{
+					"_id": 1109,
+					"id": "UnalignedElement",
+					"type": "elemento indefinito",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RockpaperscissorsCombo",
+			"name": "Combo carta, forbice, sasso",
+			"desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span> e poi, separatamente, <span style=\"color:#FFFFFFFF\">Prepara abilità</span> per <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Forbice</span> e <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Carta</span>.",
+			"skillTag": [
+				"Abilità elementale"
+			],
+			"points": [
+				{
+					"_id": 1104,
+					"id": "Electro",
+					"type": "Electro",
+					"count": 5
+				}
+			]
+		},
+		{
+			"id": "LightningLockdown",
+			"name": "Blocco fulmineo",
+			"desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, invoca <span style=\"color:#FFFFFFFF\">Catene del Tuono tutelare</span>.",
+			"skillTag": [
+				"Tripudio elementale"
+			],
+			"points": [
+				{
+					"_id": 1104,
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				},
+				{
+					"_id": 1110,
+					"id": "Energy",
+					"type": "Energia",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ElementalSedimentationElectro",
+			"name": "Sedimentazione elementale di Electro",
+			"desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Entità elementale di Electro</span>.",
+			"skillTag": [
+				"Abilità passiva"
+			],
+			"points": []
+		}
+	]
 }
