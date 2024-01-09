@@ -1,88 +1,99 @@
 {
-  "_id": 2601,
-  "id": "stonehide_lawachurl",
-  "name": "Vua Mũ Đá Hilichurl",
-  "title": "Vượt Ngàn Ngọn Núi - Vua Mũ Đá Hilichurl",
-  "desc": "Hãy đi đường vòng, vì phía trước là lãnh địa của \"vua\".",
-  "attributes": {
-    "hp": 8,
-    "card_type": "Thẻ Nhân Vật",
-    "energy": 2,
-    "element": "Nguyên Tố Nham",
-    "weapon": "Vũ Khí Khác",
-    "faction": ["Ma Vật", "Hilichurl"],
-    "talent_card": {
-      "_id": 3239,
-      "id": "stonehide_reforged",
-      "name": "Stonehide Reforged"
-    },
-    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Vua Mũ Đá Hilichurl",
-    "character": {
-      "id": "stonehide_lawachurl",
-      "name": "Stonehide Lawachurl"
-    }
-  },
-  "skills": [
-    {
-      "id": "plama_lawa",
-      "name": "Plama Lawa",
-      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
-      "skillTag": ["Tấn Công Thường"],
-      "points": [
-        {
-          "_id": 1106,
-          "id": "geo",
-          "type": "Nguyên Tố Nham",
-          "count": 1
-        },
-        {
-          "_id": 1109,
-          "id": "unaligned_element",
-          "type": "Nguyên Tố Không Màu",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "movo_lawa",
-      "name": "Movo Lawa",
-      "desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
-      "skillTag": ["Kỹ Năng Nguyên Tố"],
-      "points": [
-        {
-          "_id": 1106,
-          "id": "geo",
-          "type": "Nguyên Tố Nham",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "upa_shato",
-      "name": "Upa Shato",
-      "desc": "Gây 5 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
-      "skillTag": ["Kỹ Năng Nộ"],
-      "points": [
-        {
-          "_id": 1106,
-          "id": "geo",
-          "type": "Nguyên Tố Nham",
-          "count": 3
-        },
-        {
-          "_id": 1110,
-          "id": "energy",
-          "type": "Năng Lượng",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "infused_stonehide",
-      "name": "Ma Hóa: Nón Nham",
-      "desc": "(Bị Động) Khi bắt đầu chiến đấu, sẽ nhận <span style=\"color:#FFFFFFFF\">Nón Nham</span> và <span style=\"color:#FFFFFFFF\">Sức Mạnh Kiên Nham</span>.",
-      "skillTag": ["Kỹ Năng Bị Động"],
-      "points": []
-    }
-  ]
+	"_id": 2601,
+	"id": "StonehideLawachurl",
+	"name": "Vua Mũ Đá Hilichurl",
+	"title": "Vượt Ngàn Ngọn Núi - Vua Mũ Đá Hilichurl",
+	"desc": "Hãy đi đường vòng, vì phía trước là lãnh địa của \"vua\".",
+	"attributes": {
+		"hp": 8,
+		"card_type": "Thẻ Nhân Vật",
+		"energy": 2,
+		"element": "Nguyên Tố Nham",
+		"weapon": "Vũ Khí Khác",
+		"faction": [
+			"Ma Vật",
+			"Hilichurl"
+		],
+		"talent_card": {
+			"_id": 3239,
+			"id": "StonehideReforged",
+			"name": "Stonehide Reforged"
+		},
+		"source": "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Vua Mũ Đá Hilichurl",
+		"character": {
+			"id": "StonehideLawachurl",
+			"name": "Stonehide Lawachurl"
+		}
+	},
+	"skills": [
+		{
+			"id": "PlamaLawa",
+			"name": "Plama Lawa",
+			"desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+			"skillTag": [
+				"Tấn Công Thường"
+			],
+			"points": [
+				{
+					"_id": 1106,
+					"id": "Geo",
+					"type": "Nguyên Tố Nham",
+					"count": 1
+				},
+				{
+					"_id": 1109,
+					"id": "UnalignedElement",
+					"type": "Nguyên Tố Không Màu",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MovoLawa",
+			"name": "Movo Lawa",
+			"desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+			"skillTag": [
+				"Kỹ Năng Nguyên Tố"
+			],
+			"points": [
+				{
+					"_id": 1106,
+					"id": "Geo",
+					"type": "Nguyên Tố Nham",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "UpaShato",
+			"name": "Upa Shato",
+			"desc": "Gây 5 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+			"skillTag": [
+				"Kỹ Năng Nộ"
+			],
+			"points": [
+				{
+					"_id": 1106,
+					"id": "Geo",
+					"type": "Nguyên Tố Nham",
+					"count": 3
+				},
+				{
+					"_id": 1110,
+					"id": "Energy",
+					"type": "Năng Lượng",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "InfusedStonehide",
+			"name": "Ma Hóa: Nón Nham",
+			"desc": "(Bị Động) Khi bắt đầu chiến đấu, sẽ nhận <span style=\"color:#FFFFFFFF\">Nón Nham</span> và <span style=\"color:#FFFFFFFF\">Sức Mạnh Kiên Nham</span>.",
+			"skillTag": [
+				"Kỹ Năng Bị Động"
+			],
+			"points": []
+		}
+	]
 }

@@ -1,83 +1,91 @@
 {
-  "_id": 1303,
-  "id": "bennett",
-  "name": "Bennett",
-  "title": "Bennett - El Tentador del Destino",
-  "desc": "Cuando sabes que la derrota es inminente, sabes también la forma de ganar.",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Pyro",
-    "weapon": "Espada ligera",
-    "faction": ["Mondstadt"],
-    "talent_card": {
-      "_id": 3229,
-      "id": "grand_expectation",
-      "name": "Grand Expectation"
-    },
-    "source": "Se obtiene tras retar y ganar a Bennett en un duelo amistoso en la taberna Cola de Gato",
-    "character": {
-      "_id": 10000032,
-      "id": "bennett",
-      "name": "Bennett",
-      "rarity": 4
-    }
-  },
-  "skills": [
-    {
-      "id": "strike_of_fortune",
-      "name": "Espada de la suerte",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
-      "points": [
-        {
-          "_id": 1103,
-          "id": "pyro",
-          "type": "Dados Pyro",
-          "count": 1
-        },
-        {
-          "_id": 1109,
-          "id": "unaligned_element",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "passion_overload",
-      "name": "Sobrecarga de pasión",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
-      "skillTag": ["Habilidad Elemental"],
-      "points": [
-        {
-          "_id": 1103,
-          "id": "pyro",
-          "type": "Dados Pyro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "fantastic_voyage",
-      "name": "Aventura maravillosa",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea un <span style=\"color:#FFFFFFFF\">círculo de apoyo moral</span>.",
-      "skillTag": ["Habilidad Definitiva"],
-      "points": [
-        {
-          "_id": 1103,
-          "id": "pyro",
-          "type": "Dados Pyro",
-          "count": 4
-        },
-        {
-          "_id": 1110,
-          "id": "energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"_id": 1303,
+	"id": "Bennett",
+	"name": "Bennett",
+	"title": "Bennett - El Tentador del Destino",
+	"desc": "Cuando sabes que la derrota es inminente, sabes también la forma de ganar.",
+	"attributes": {
+		"hp": 10,
+		"card_type": "Carta de personaje",
+		"energy": 2,
+		"element": "Pyro",
+		"weapon": "Espada ligera",
+		"faction": [
+			"Mondstadt"
+		],
+		"talent_card": {
+			"_id": 3229,
+			"id": "GrandExpectation",
+			"name": "Grand Expectation"
+		},
+		"source": "Se obtiene tras retar y ganar a Bennett en un duelo amistoso en la taberna Cola de Gato",
+		"character": {
+			"_id": 10000032,
+			"id": "Bennett",
+			"name": "Bennett",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "StrikeOfFortune",
+			"name": "Espada de la suerte",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skillTag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"_id": 1103,
+					"id": "Pyro",
+					"type": "Dados Pyro",
+					"count": 1
+				},
+				{
+					"_id": 1109,
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "PassionOverload",
+			"name": "Sobrecarga de pasión",
+			"desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+			"skillTag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"_id": 1103,
+					"id": "Pyro",
+					"type": "Dados Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "FantasticVoyage",
+			"name": "Aventura maravillosa",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea un <span style=\"color:#FFFFFFFF\">círculo de apoyo moral</span>.",
+			"skillTag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"_id": 1103,
+					"id": "Pyro",
+					"type": "Dados Pyro",
+					"count": 4
+				},
+				{
+					"_id": 1110,
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		}
+	]
 }

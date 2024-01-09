@@ -1,59 +1,68 @@
 {
-  "_id": 3002,
-  "id": "hilichurl_shooter",
-  "name": "Hilichurl Ballestero",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 3,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Sin tipo elemental",
-    "weapon": "Otras armas",
-    "faction": ["Monstruo", "Hilichurl"],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "shooting",
-      "name": "Flechazo",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Ataque Normal"],
-      "points": [
-        {
-          "_id": 1109,
-          "id": "unaligned_element",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "multishot",
-      "name": "Multiflechazo",
-      "desc": "Inflige 5 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": ["Habilidad Definitiva"],
-      "points": [
-        {
-          "_id": 1108,
-          "id": "matching_element",
-          "type": "Dados unielementales",
-          "count": 3
-        },
-        {
-          "_id": 1110,
-          "id": "energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "hide",
-      "name": "Escondite",
-      "desc": "Pasiva: después de usar esta habilidad, el personaje cambia automáticamente al siguiente.",
-      "skillTag": ["Habilidad pasiva"],
-      "points": []
-    }
-  ]
+	"_id": 3002,
+	"id": "HilichurlShooter",
+	"name": "Hilichurl Ballestero",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 3,
+		"card_type": "Carta de personaje",
+		"energy": 2,
+		"element": "Sin tipo elemental",
+		"weapon": "Otras armas",
+		"faction": [
+			"Monstruo",
+			"Hilichurl"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Shooting",
+			"name": "Flechazo",
+			"desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skillTag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"_id": 1109,
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Multishot",
+			"name": "Multiflechazo",
+			"desc": "Inflige 5 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skillTag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"_id": 1108,
+					"id": "MatchingElement",
+					"type": "Dados unielementales",
+					"count": 3
+				},
+				{
+					"_id": 1110,
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Hide",
+			"name": "Escondite",
+			"desc": "Pasiva: después de usar esta habilidad, el personaje cambia automáticamente al siguiente.",
+			"skillTag": [
+				"Habilidad pasiva"
+			],
+			"points": []
+		}
+	]
 }

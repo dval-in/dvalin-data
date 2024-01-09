@@ -1,1102 +1,1241 @@
 {
-  "_id": 10000035,
-  "id": "qiqi",
-  "name": "Qiqi",
-  "title": "La Resurrección del Hielo",
-  "description": "Una aprendiz y recolectora de hierbas en la Farmacia Bubu. Una zombi con una tez blanca como el hueso, de pocas palabras y emociones.",
-  "weapon_type": "Espada ligera",
-  "element": "Cryo",
-  "gender": "Femenino",
-  "substat": "Bono de Curación",
-  "affiliation": "Farmacia Bubu",
-  "region": "Liyue",
-  "rarity": 5,
-  "birthday": [3, 3],
-  "constellation": "Pristina Nola",
-  "domain": "Mansión Taishan",
-  "cv": {
-    "english": "Christie Cate",
-    "chinese": "宴宁",
-    "japanese": "田村ゆかり",
-    "korean": "Lee Seul"
-  },
-  "skills": [
-    {
-      "_id": 10351,
-      "id": "normal_attack_ancient_sword_art",
-      "name": "Ataque Normal: Técnica de espada antigua",
-      "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques consecutivos con espada.<br/><br/><span>Ataque Cargado</span><br/>Consume cierta cantidad de Aguante para desatar un doble golpe de espada.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "Daño de 1er golpe",
-          "values": [
-            "37.75%",
-            "40.83%",
-            "43.9%",
-            "48.29%",
-            "51.36%",
-            "54.87%",
-            "59.7%",
-            "64.53%",
-            "69.36%",
-            "74.63%",
-            "79.9%",
-            "85.17%",
-            "90.43%",
-            "95.7%",
-            "100.97%"
-          ]
-        },
-        {
-          "label": "Daño de 2.º golpe",
-          "values": [
-            "38.87%",
-            "42.04%",
-            "45.2%",
-            "49.72%",
-            "52.88%",
-            "56.5%",
-            "61.47%",
-            "66.44%",
-            "71.42%",
-            "76.84%",
-            "82.26%",
-            "87.69%",
-            "93.11%",
-            "98.54%",
-            "103.96%"
-          ]
-        },
-        {
-          "label": "Daño de 3er golpe",
-          "values": [
-            "24.17% + 24.17%",
-            "26.13% + 26.13%",
-            "28.1% + 28.1%",
-            "30.91% + 30.91%",
-            "32.88% + 32.88%",
-            "35.12% + 35.12%",
-            "38.22% + 38.22%",
-            "41.31% + 41.31%",
-            "44.4% + 44.4%",
-            "47.77% + 47.77%",
-            "51.14% + 51.14%",
-            "54.51% + 54.51%",
-            "57.89% + 57.89%",
-            "61.26% + 61.26%",
-            "64.63% + 64.63%"
-          ]
-        },
-        {
-          "label": "Daño de 4.º golpe",
-          "values": [
-            "24.68% + 24.68%",
-            "26.69% + 26.69%",
-            "28.7% + 28.7%",
-            "31.57% + 31.57%",
-            "33.58% + 33.58%",
-            "35.87% + 35.87%",
-            "39.03% + 39.03%",
-            "42.19% + 42.19%",
-            "45.35% + 45.35%",
-            "48.79% + 48.79%",
-            "52.23% + 52.23%",
-            "55.68% + 55.68%",
-            "59.12% + 59.12%",
-            "62.57% + 62.57%",
-            "66.01% + 66.01%"
-          ]
-        },
-        {
-          "label": "Daño de 5.º golpe",
-          "values": [
-            "63.04%",
-            "68.17%",
-            "73.3%",
-            "80.63%",
-            "85.76%",
-            "91.62%",
-            "99.69%",
-            "107.75%",
-            "115.81%",
-            "124.61%",
-            "133.41%",
-            "142.2%",
-            "151%",
-            "159.79%",
-            "168.59%"
-          ]
-        },
-        {
-          "label": "Daño de ATQ Cargado",
-          "values": [
-            "64.33% + 64.33%",
-            "69.56% + 69.56%",
-            "74.8% + 74.8%",
-            "82.28% + 82.28%",
-            "87.52% + 87.52%",
-            "93.5% + 93.5%",
-            "101.73% + 101.73%",
-            "109.96% + 109.96%",
-            "118.18% + 118.18%",
-            "127.16% + 127.16%",
-            "136.14% + 136.14%",
-            "145.11% + 145.11%",
-            "154.09% + 154.09%",
-            "163.06% + 163.06%",
-            "172.04% + 172.04%"
-          ]
-        },
-        {
-          "label": "Coste de Aguante de ATQ Cargado",
-          "values": [
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts.",
-            "20 pts."
-          ]
-        },
-        {
-          "label": "Daño de Caída",
-          "values": [
-            "63.93%",
-            "69.14%",
-            "74.34%",
-            "81.77%",
-            "86.98%",
-            "92.93%",
-            "101.1%",
-            "109.28%",
-            "117.46%",
-            "126.38%",
-            "135.3%",
-            "144.22%",
-            "153.14%",
-            "162.06%",
-            "170.98%"
-          ]
-        },
-        {
-          "label": "Daño de impacto de caída baja/alta",
-          "values": [
-            "127.84% / 159.68%",
-            "138.24% / 172.67%",
-            "148.65% / 185.67%",
-            "163.51% / 204.24%",
-            "173.92% / 217.23%",
-            "185.81% / 232.09%",
-            "202.16% / 252.51%",
-            "218.51% / 272.93%",
-            "234.86% / 293.36%",
-            "252.7% / 315.64%",
-            "270.54% / 337.92%",
-            "288.38% / 360.2%",
-            "306.22% / 382.48%",
-            "324.05% / 404.76%",
-            "341.89% / 427.04%"
-          ]
-        }
-      ]
-    },
-    {
-      "_id": 10352,
-      "id": "adeptus_art_herald_of_frost",
-      "name": "Magia Adeptus: Heraldo de la escarcha",
-      "description": "Usando su talismán de sangre helada, Qiqi invoca al Heraldo de la escarcha, infligiendo <span>Daño Cryo</span> a todos los enemigos cercanos.<br/><br/><span>Heraldo de la escarcha</span><br/>·Cuando Qiqi golpea a un objetivo con sus Ataques Normales o Cargados, regenera Vida para todos los miembros de tu equipo y todos los personajes aliados cercanos. La cantidad de Vida regenerada es proporcional al ATQ de Qiqi.<br/>·Regenera una cierta cantidad de Vida del personaje en uso a intervalos regulares.<br/>·Sigue al personaje en uso para infligir <span>Daño Cryo</span> a todos los enemigos que se encuentre a su paso.",
-      "info": "“Utilizo esto para evitar el aumento de la temperatura y la podredumbre de... las valiosas hierbas medicinales del Dr. Baizhu”.",
-      "attributes": [
-        {
-          "label": "Daño de habilidad",
-          "values": [
-            "96%",
-            "103.2%",
-            "110.4%",
-            "120%",
-            "127.2%",
-            "134.4%",
-            "144%",
-            "153.6%",
-            "163.2%",
-            "172.8%",
-            "182.4%",
-            "192%",
-            "204%",
-            "216%",
-            "228%"
-          ]
-        },
-        {
-          "label": "Curación al golpear",
-          "values": [
-            "10.56% de ATQ + 67.4",
-            "11.35% de ATQ + 74",
-            "12.14% de ATQ + 81",
-            "13.2% de ATQ + 89",
-            "13.99% de ATQ + 98",
-            "14.78% de ATQ + 107",
-            "15.84% de ATQ + 116",
-            "16.9% de ATQ + 126",
-            "17.95% de ATQ + 137",
-            "19.01% de ATQ + 148",
-            "20.06% de ATQ + 160",
-            "21.12% de ATQ + 172",
-            "22.44% de ATQ + 185",
-            "23.76% de ATQ + 199",
-            "25.08% de ATQ + 213"
-          ]
-        },
-        {
-          "label": "Curación continua",
-          "values": [
-            "69.6% de ATQ + 451",
-            "74.82% de ATQ + 496",
-            "80.04% de ATQ + 544",
-            "87% de ATQ + 597",
-            "92.22% de ATQ + 653",
-            "97.44% de ATQ + 713",
-            "104.4% de ATQ + 777",
-            "111.36% de ATQ + 845",
-            "118.32% de ATQ + 916",
-            "125.28% de ATQ + 991",
-            "132.24% de ATQ + 1070",
-            "139.2% de ATQ + 1153",
-            "147.9% de ATQ + 1239",
-            "156.6% de ATQ + 1329",
-            "165.3% de ATQ + 1423"
-          ]
-        },
-        {
-          "label": "Daño de Heraldo de la escarcha",
-          "values": [
-            "36%",
-            "38.7%",
-            "41.4%",
-            "45%",
-            "47.7%",
-            "50.4%",
-            "54%",
-            "57.6%",
-            "61.2%",
-            "64.8%",
-            "68.4%",
-            "72%",
-            "76.5%",
-            "81%",
-            "85.5%"
-          ]
-        },
-        {
-          "label": "Duración",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "TdE",
-          "values": [
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s"
-          ]
-        }
-      ]
-    },
-    {
-      "_id": 10353,
-      "id": "adeptus_art_preserver_of_fortune",
-      "name": "Magia Adeptus: Preservadora de la fortuna",
-      "description": "Qiqi libera el poder Adeptus sellado dentro de su cuerpo, marcando a los enemigos cercanos con un talismán de conservación de la fortuna que inflige <span>Daño Cryo</span>.<br/><br/><span>Talismán de conservación de la fortuna</span><br/>Cuando los enemigos marcados con el talismán reciben daño, el personaje que infligió el daño regenera Vida para sí mismo.",
-      "info": "“Soy la Preservadora de la Fortuna, la Doncella de la Resurrección”.<br/><i>—Qiqi no recuerda cuándo dijo estas palabras.</i>",
-      "attributes": [
-        {
-          "label": "Daño de habilidad",
-          "values": [
-            "284.8%",
-            "306.16%",
-            "327.52%",
-            "356%",
-            "377.36%",
-            "398.72%",
-            "427.2%",
-            "455.68%",
-            "484.16%",
-            "512.64%",
-            "541.12%",
-            "569.6%",
-            "605.2%",
-            "640.8%",
-            "676.4%"
-          ]
-        },
-        {
-          "label": "Curación",
-          "values": [
-            "90% de ATQ + 577",
-            "96.75% de ATQ + 635",
-            "103.5% de ATQ + 698",
-            "112.5% de ATQ + 765",
-            "119.25% de ATQ + 837",
-            "126% de ATQ + 914",
-            "135% de ATQ + 996",
-            "144% de ATQ + 1083",
-            "153% de ATQ + 1174",
-            "162% de ATQ + 1270",
-            "171% de ATQ + 1371",
-            "180% de ATQ + 1477",
-            "191.25% de ATQ + 1588",
-            "202.5% de ATQ + 1703",
-            "213.75% de ATQ + 1824"
-          ]
-        },
-        {
-          "label": "Duración",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "TdE",
-          "values": [
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s"
-          ]
-        },
-        {
-          "label": "Energía Elemental",
-          "values": [
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "lifeprolonging_methods",
-      "name": "Elixir de vida",
-      "description": "Cuando un personaje bajo el efecto de <span>Magia Adeptus: Heraldo de la escarcha</span> provoca una Reacción Elemental, aumenta su Bono de Curación recibida en un 20% durante 8 s.",
-      "level": 1
-    },
-    {
-      "id": "a_glimpse_into_arcanum",
-      "name": "Apertura arcana",
-      "description": "Cuando Qiqi golpea a sus enemigos con un Ataque Normal o Cargado, tiene un 50% de probabilidad de ponerles un talismán de conservación de la fortuna durante 6 s. Este efecto solo puede activarse una vez cada 30 s.",
-      "level": 4
-    },
-    {
-      "id": "former_life_memories",
-      "name": "Recuerdos de una vida pasada",
-      "description": "Muestra la ubicación de los <span>objetos típicos de Liyue</span> cercanos en el minimapa.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "_id": 351,
-      "id": "ascetics_of_frost",
-      "name": "Ascetismo de la escarcha",
-      "description": "Qiqi regenera 2 pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo marcado por un talismán de conservación de la fortuna.",
-      "level": 1
-    },
-    {
-      "_id": 352,
-      "id": "frozen_to_the_bone",
-      "name": "Frío polar",
-      "description": "El daño del Ataque Normal y Cargado de Qiqi aumenta en un 15% contra enemigos afectados por <span>Cryo</span>.",
-      "level": 2
-    },
-    {
-      "_id": 353,
-      "id": "ascendant_praise",
-      "name": "Mandato celestial",
-      "description": "Aumenta el nivel de habilidad de <span>Magia Adeptus: Preservadora de la fortuna</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
-      "level": 3
-    },
-    {
-      "_id": 354,
-      "id": "divine_suppression",
-      "name": "Supresión divina",
-      "description": "Reduce en un 20% el ATQ de los objetivos marcados por el talismán de conservación de la fortuna.",
-      "level": 4
-    },
-    {
-      "_id": 355,
-      "id": "crimson_lotus_bloom",
-      "name": "Flor de loto carmesí",
-      "description": "Aumenta el nivel de habilidad de <span>Magia Adeptus: Heraldo de la escarcha</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
-      "level": 5
-    },
-    {
-      "_id": 356,
-      "id": "rite_of_resurrection",
-      "name": "Rito de la resurrección",
-      "description": "Al lanzar la habilidad <span>Magia Adeptus: Preservadora de la fortuna</span>, revive a todos los miembros del equipo cercanos que han sido derrotados y regenera un 50% de su Vida.<br/>Solo puede ocurrir una vez cada 15 min.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [1],
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": ["-", 1]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["-", "963"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["-", "22"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["-", "72"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["-", "0"]
-        }
-      ]
-    },
-    {
-      "level": [20],
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [0, 1]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["2498", "3323"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["58", "77"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["186", "248"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ]
-    },
-    {
-      "level": [40],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [1, 2]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["4973", "5559"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["115", "129"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["371", "415"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ],
-      "mat1": {
-        "_id": 104161,
-        "id": "shivada_jade_sliver",
-        "name": "Pedacito de jade shivada",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "_id": 100034,
-        "id": "violetgrass",
-        "name": "Campanita de cristal",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112008,
-        "id": "divining_scroll",
-        "name": "Pergamino guía",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [50],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [2, 3]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["6396", "7178"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["148", "167"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["477", "535"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ],
-      "mat1": {
-        "_id": 104162,
-        "id": "shivada_jade_fragment",
-        "name": "Fragmento de jade shivada",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "_id": 113010,
-        "id": "hoarfrost_core",
-        "name": "Núcleo de escarcha",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 100034,
-        "id": "violetgrass",
-        "name": "Campanita de cristal",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112008,
-        "id": "divining_scroll",
-        "name": "Pergamino guía",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [60],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [3, 4]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["8023", "8610"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["186", "200"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["598", "642"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ],
-      "mat1": {
-        "_id": 104162,
-        "id": "shivada_jade_fragment",
-        "name": "Fragmento de jade shivada",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "_id": 113010,
-        "id": "hoarfrost_core",
-        "name": "Núcleo de escarcha",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 100034,
-        "id": "violetgrass",
-        "name": "Campanita de cristal",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112009,
-        "id": "sealed_scroll",
-        "name": "Pergamino hechizado",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [70],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [4, 5]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["9463", "10050"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["220", "233"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["706", "749"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ],
-      "mat1": {
-        "_id": 104163,
-        "id": "shivada_jade_chunk",
-        "name": "Trozo de jade shivada",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "_id": 113010,
-        "id": "hoarfrost_core",
-        "name": "Núcleo de escarcha",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 100034,
-        "id": "violetgrass",
-        "name": "Campanita de cristal",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112009,
-        "id": "sealed_scroll",
-        "name": "Pergamino hechizado",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [80],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [5, 6]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["10912", "11499"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["253", "267"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["814", "857"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ],
-      "mat1": {
-        "_id": 104163,
-        "id": "shivada_jade_chunk",
-        "name": "Trozo de jade shivada",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "_id": 113010,
-        "id": "hoarfrost_core",
-        "name": "Núcleo de escarcha",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 100034,
-        "id": "violetgrass",
-        "name": "Campanita de cristal",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112010,
-        "id": "forbidden_curse_scroll",
-        "name": "Pergamino maldito",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [90],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [6, 7]
-        },
-        {
-          "label": "Vida Base",
-          "values": ["12368", "12368"]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": ["287", "287"]
-        },
-        {
-          "label": "DEF Base",
-          "values": ["922", "922"]
-        },
-        {
-          "label": "Bono de Curación",
-          "values": ["0", "0"]
-        }
-      ],
-      "mat1": {
-        "_id": 104164,
-        "id": "shivada_jade_gemstone",
-        "name": "Jade shivada",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "_id": 113010,
-        "id": "hoarfrost_core",
-        "name": "Núcleo de escarcha",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 100034,
-        "id": "violetgrass",
-        "name": "Campanita de cristal",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112010,
-        "id": "forbidden_curse_scroll",
-        "name": "Pergamino maldito",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talent_materials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "_id": 104310,
-          "id": "teachings_of_prosperity",
-          "name": "Enseñanzas de la prosperidad",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "_id": 112008,
-          "id": "divining_scroll",
-          "name": "Pergamino guía",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "_id": 104311,
-          "id": "guide_to_prosperity",
-          "name": "Guía de la prosperidad",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "_id": 112009,
-          "id": "sealed_scroll",
-          "name": "Pergamino hechizado",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "_id": 104311,
-          "id": "guide_to_prosperity",
-          "name": "Guía de la prosperidad",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "_id": 112009,
-          "id": "sealed_scroll",
-          "name": "Pergamino hechizado",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "_id": 104311,
-          "id": "guide_to_prosperity",
-          "name": "Guía de la prosperidad",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "_id": 112009,
-          "id": "sealed_scroll",
-          "name": "Pergamino hechizado",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "_id": 104311,
-          "id": "guide_to_prosperity",
-          "name": "Guía de la prosperidad",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "_id": 112009,
-          "id": "sealed_scroll",
-          "name": "Pergamino hechizado",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "_id": 104312,
-          "id": "philosophies_of_prosperity",
-          "name": "Filosofía de la prosperidad",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "_id": 112010,
-          "id": "forbidden_curse_scroll",
-          "name": "Pergamino maldito",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "_id": 113006,
-          "id": "tail_of_boreas",
-          "name": "Cola de Boreas",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "_id": 104312,
-          "id": "philosophies_of_prosperity",
-          "name": "Filosofía de la prosperidad",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "_id": 112010,
-          "id": "forbidden_curse_scroll",
-          "name": "Pergamino maldito",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "_id": 113006,
-          "id": "tail_of_boreas",
-          "name": "Cola de Boreas",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "_id": 104312,
-          "id": "philosophies_of_prosperity",
-          "name": "Filosofía de la prosperidad",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "_id": 112010,
-          "id": "forbidden_curse_scroll",
-          "name": "Pergamino maldito",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "_id": 113006,
-          "id": "tail_of_boreas",
-          "name": "Cola de Boreas",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "_id": 104312,
-          "id": "philosophies_of_prosperity",
-          "name": "Filosofía de la prosperidad",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "_id": 112010,
-          "id": "forbidden_curse_scroll",
-          "name": "Pergamino maldito",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "_id": 113006,
-          "id": "tail_of_boreas",
-          "name": "Cola de Boreas",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "_id": 104319,
-          "id": "crown_of_insight",
-          "name": "Corona de la sabiduría",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ]
+	"_id": 10000035,
+	"id": "Qiqi",
+	"name": "Qiqi",
+	"title": "La Resurrección del Hielo",
+	"description": "Una aprendiz y recolectora de hierbas en la Farmacia Bubu. Una zombi con una tez blanca como el hueso, de pocas palabras y emociones.",
+	"weapon_type": "Espada ligera",
+	"element": "Cryo",
+	"gender": "Femenino",
+	"substat": "Bono de Curación",
+	"affiliation": "Farmacia Bubu",
+	"region": "Liyue",
+	"rarity": 5,
+	"birthday": [
+		3,
+		3
+	],
+	"constellation": "Pristina Nola",
+	"domain": "Mansión Taishan",
+	"cv": {
+		"english": "Christie Cate",
+		"chinese": "宴宁",
+		"japanese": "田村ゆかり",
+		"korean": "Lee Seul"
+	},
+	"skills": [
+		{
+			"_id": 10351,
+			"id": "NormalAttackAncientSwordArt",
+			"name": "Ataque Normal: Técnica de espada antigua",
+			"description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques consecutivos con espada.<br/><br/><span>Ataque Cargado</span><br/>Consume cierta cantidad de Aguante para desatar un doble golpe de espada.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "Daño de 1er golpe",
+					"values": [
+						"37.75%",
+						"40.83%",
+						"43.9%",
+						"48.29%",
+						"51.36%",
+						"54.87%",
+						"59.7%",
+						"64.53%",
+						"69.36%",
+						"74.63%",
+						"79.9%",
+						"85.17%",
+						"90.43%",
+						"95.7%",
+						"100.97%"
+					]
+				},
+				{
+					"label": "Daño de 2.º golpe",
+					"values": [
+						"38.87%",
+						"42.04%",
+						"45.2%",
+						"49.72%",
+						"52.88%",
+						"56.5%",
+						"61.47%",
+						"66.44%",
+						"71.42%",
+						"76.84%",
+						"82.26%",
+						"87.69%",
+						"93.11%",
+						"98.54%",
+						"103.96%"
+					]
+				},
+				{
+					"label": "Daño de 3er golpe",
+					"values": [
+						"24.17% + 24.17%",
+						"26.13% + 26.13%",
+						"28.1% + 28.1%",
+						"30.91% + 30.91%",
+						"32.88% + 32.88%",
+						"35.12% + 35.12%",
+						"38.22% + 38.22%",
+						"41.31% + 41.31%",
+						"44.4% + 44.4%",
+						"47.77% + 47.77%",
+						"51.14% + 51.14%",
+						"54.51% + 54.51%",
+						"57.89% + 57.89%",
+						"61.26% + 61.26%",
+						"64.63% + 64.63%"
+					]
+				},
+				{
+					"label": "Daño de 4.º golpe",
+					"values": [
+						"24.68% + 24.68%",
+						"26.69% + 26.69%",
+						"28.7% + 28.7%",
+						"31.57% + 31.57%",
+						"33.58% + 33.58%",
+						"35.87% + 35.87%",
+						"39.03% + 39.03%",
+						"42.19% + 42.19%",
+						"45.35% + 45.35%",
+						"48.79% + 48.79%",
+						"52.23% + 52.23%",
+						"55.68% + 55.68%",
+						"59.12% + 59.12%",
+						"62.57% + 62.57%",
+						"66.01% + 66.01%"
+					]
+				},
+				{
+					"label": "Daño de 5.º golpe",
+					"values": [
+						"63.04%",
+						"68.17%",
+						"73.3%",
+						"80.63%",
+						"85.76%",
+						"91.62%",
+						"99.69%",
+						"107.75%",
+						"115.81%",
+						"124.61%",
+						"133.41%",
+						"142.2%",
+						"151%",
+						"159.79%",
+						"168.59%"
+					]
+				},
+				{
+					"label": "Daño de ATQ Cargado",
+					"values": [
+						"64.33% + 64.33%",
+						"69.56% + 69.56%",
+						"74.8% + 74.8%",
+						"82.28% + 82.28%",
+						"87.52% + 87.52%",
+						"93.5% + 93.5%",
+						"101.73% + 101.73%",
+						"109.96% + 109.96%",
+						"118.18% + 118.18%",
+						"127.16% + 127.16%",
+						"136.14% + 136.14%",
+						"145.11% + 145.11%",
+						"154.09% + 154.09%",
+						"163.06% + 163.06%",
+						"172.04% + 172.04%"
+					]
+				},
+				{
+					"label": "Coste de Aguante de ATQ Cargado",
+					"values": [
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts.",
+						"20 pts."
+					]
+				},
+				{
+					"label": "Daño de Caída",
+					"values": [
+						"63.93%",
+						"69.14%",
+						"74.34%",
+						"81.77%",
+						"86.98%",
+						"92.93%",
+						"101.1%",
+						"109.28%",
+						"117.46%",
+						"126.38%",
+						"135.3%",
+						"144.22%",
+						"153.14%",
+						"162.06%",
+						"170.98%"
+					]
+				},
+				{
+					"label": "Daño de impacto de caída baja/alta",
+					"values": [
+						"127.84% / 159.68%",
+						"138.24% / 172.67%",
+						"148.65% / 185.67%",
+						"163.51% / 204.24%",
+						"173.92% / 217.23%",
+						"185.81% / 232.09%",
+						"202.16% / 252.51%",
+						"218.51% / 272.93%",
+						"234.86% / 293.36%",
+						"252.7% / 315.64%",
+						"270.54% / 337.92%",
+						"288.38% / 360.2%",
+						"306.22% / 382.48%",
+						"324.05% / 404.76%",
+						"341.89% / 427.04%"
+					]
+				}
+			]
+		},
+		{
+			"_id": 10352,
+			"id": "AdeptusArtHeraldOfFrost",
+			"name": "Magia Adeptus: Heraldo de la escarcha",
+			"description": "Usando su talismán de sangre helada, Qiqi invoca al Heraldo de la escarcha, infligiendo <span>Daño Cryo</span> a todos los enemigos cercanos.<br/><br/><span>Heraldo de la escarcha</span><br/>·Cuando Qiqi golpea a un objetivo con sus Ataques Normales o Cargados, regenera Vida para todos los miembros de tu equipo y todos los personajes aliados cercanos. La cantidad de Vida regenerada es proporcional al ATQ de Qiqi.<br/>·Regenera una cierta cantidad de Vida del personaje en uso a intervalos regulares.<br/>·Sigue al personaje en uso para infligir <span>Daño Cryo</span> a todos los enemigos que se encuentre a su paso.",
+			"info": "“Utilizo esto para evitar el aumento de la temperatura y la podredumbre de... las valiosas hierbas medicinales del Dr. Baizhu”.",
+			"attributes": [
+				{
+					"label": "Daño de habilidad",
+					"values": [
+						"96%",
+						"103.2%",
+						"110.4%",
+						"120%",
+						"127.2%",
+						"134.4%",
+						"144%",
+						"153.6%",
+						"163.2%",
+						"172.8%",
+						"182.4%",
+						"192%",
+						"204%",
+						"216%",
+						"228%"
+					]
+				},
+				{
+					"label": "Curación al golpear",
+					"values": [
+						"10.56% de ATQ + 67.4",
+						"11.35% de ATQ + 74",
+						"12.14% de ATQ + 81",
+						"13.2% de ATQ + 89",
+						"13.99% de ATQ + 98",
+						"14.78% de ATQ + 107",
+						"15.84% de ATQ + 116",
+						"16.9% de ATQ + 126",
+						"17.95% de ATQ + 137",
+						"19.01% de ATQ + 148",
+						"20.06% de ATQ + 160",
+						"21.12% de ATQ + 172",
+						"22.44% de ATQ + 185",
+						"23.76% de ATQ + 199",
+						"25.08% de ATQ + 213"
+					]
+				},
+				{
+					"label": "Curación continua",
+					"values": [
+						"69.6% de ATQ + 451",
+						"74.82% de ATQ + 496",
+						"80.04% de ATQ + 544",
+						"87% de ATQ + 597",
+						"92.22% de ATQ + 653",
+						"97.44% de ATQ + 713",
+						"104.4% de ATQ + 777",
+						"111.36% de ATQ + 845",
+						"118.32% de ATQ + 916",
+						"125.28% de ATQ + 991",
+						"132.24% de ATQ + 1070",
+						"139.2% de ATQ + 1153",
+						"147.9% de ATQ + 1239",
+						"156.6% de ATQ + 1329",
+						"165.3% de ATQ + 1423"
+					]
+				},
+				{
+					"label": "Daño de Heraldo de la escarcha",
+					"values": [
+						"36%",
+						"38.7%",
+						"41.4%",
+						"45%",
+						"47.7%",
+						"50.4%",
+						"54%",
+						"57.6%",
+						"61.2%",
+						"64.8%",
+						"68.4%",
+						"72%",
+						"76.5%",
+						"81%",
+						"85.5%"
+					]
+				},
+				{
+					"label": "Duración",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "TdE",
+					"values": [
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s"
+					]
+				}
+			]
+		},
+		{
+			"_id": 10353,
+			"id": "AdeptusArtPreserverOfFortune",
+			"name": "Magia Adeptus: Preservadora de la fortuna",
+			"description": "Qiqi libera el poder Adeptus sellado dentro de su cuerpo, marcando a los enemigos cercanos con un talismán de conservación de la fortuna que inflige <span>Daño Cryo</span>.<br/><br/><span>Talismán de conservación de la fortuna</span><br/>Cuando los enemigos marcados con el talismán reciben daño, el personaje que infligió el daño regenera Vida para sí mismo.",
+			"info": "“Soy la Preservadora de la Fortuna, la Doncella de la Resurrección”.<br/><i>—Qiqi no recuerda cuándo dijo estas palabras.</i>",
+			"attributes": [
+				{
+					"label": "Daño de habilidad",
+					"values": [
+						"284.8%",
+						"306.16%",
+						"327.52%",
+						"356%",
+						"377.36%",
+						"398.72%",
+						"427.2%",
+						"455.68%",
+						"484.16%",
+						"512.64%",
+						"541.12%",
+						"569.6%",
+						"605.2%",
+						"640.8%",
+						"676.4%"
+					]
+				},
+				{
+					"label": "Curación",
+					"values": [
+						"90% de ATQ + 577",
+						"96.75% de ATQ + 635",
+						"103.5% de ATQ + 698",
+						"112.5% de ATQ + 765",
+						"119.25% de ATQ + 837",
+						"126% de ATQ + 914",
+						"135% de ATQ + 996",
+						"144% de ATQ + 1083",
+						"153% de ATQ + 1174",
+						"162% de ATQ + 1270",
+						"171% de ATQ + 1371",
+						"180% de ATQ + 1477",
+						"191.25% de ATQ + 1588",
+						"202.5% de ATQ + 1703",
+						"213.75% de ATQ + 1824"
+					]
+				},
+				{
+					"label": "Duración",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "TdE",
+					"values": [
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s"
+					]
+				},
+				{
+					"label": "Energía Elemental",
+					"values": [
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80",
+						"80"
+					]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "LifeprolongingMethods",
+			"name": "Elixir de vida",
+			"description": "Cuando un personaje bajo el efecto de <span>Magia Adeptus: Heraldo de la escarcha</span> provoca una Reacción Elemental, aumenta su Bono de Curación recibida en un 20% durante 8 s.",
+			"level": 1
+		},
+		{
+			"id": "AGlimpseIntoArcanum",
+			"name": "Apertura arcana",
+			"description": "Cuando Qiqi golpea a sus enemigos con un Ataque Normal o Cargado, tiene un 50% de probabilidad de ponerles un talismán de conservación de la fortuna durante 6 s. Este efecto solo puede activarse una vez cada 30 s.",
+			"level": 4
+		},
+		{
+			"id": "FormerLifeMemories",
+			"name": "Recuerdos de una vida pasada",
+			"description": "Muestra la ubicación de los <span>objetos típicos de Liyue</span> cercanos en el minimapa.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"_id": 351,
+			"id": "AsceticsOfFrost",
+			"name": "Ascetismo de la escarcha",
+			"description": "Qiqi regenera 2 pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo marcado por un talismán de conservación de la fortuna.",
+			"level": 1
+		},
+		{
+			"_id": 352,
+			"id": "FrozenToTheBone",
+			"name": "Frío polar",
+			"description": "El daño del Ataque Normal y Cargado de Qiqi aumenta en un 15% contra enemigos afectados por <span>Cryo</span>.",
+			"level": 2
+		},
+		{
+			"_id": 353,
+			"id": "AscendantPraise",
+			"name": "Mandato celestial",
+			"description": "Aumenta el nivel de habilidad de <span>Magia Adeptus: Preservadora de la fortuna</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+			"level": 3
+		},
+		{
+			"_id": 354,
+			"id": "DivineSuppression",
+			"name": "Supresión divina",
+			"description": "Reduce en un 20% el ATQ de los objetivos marcados por el talismán de conservación de la fortuna.",
+			"level": 4
+		},
+		{
+			"_id": 355,
+			"id": "CrimsonLotusBloom",
+			"name": "Flor de loto carmesí",
+			"description": "Aumenta el nivel de habilidad de <span>Magia Adeptus: Heraldo de la escarcha</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+			"level": 5
+		},
+		{
+			"_id": 356,
+			"id": "RiteOfResurrection",
+			"name": "Rito de la resurrección",
+			"description": "Al lanzar la habilidad <span>Magia Adeptus: Preservadora de la fortuna</span>, revive a todos los miembros del equipo cercanos que han sido derrotados y regenera un 50% de su Vida.<br/>Solo puede ocurrir una vez cada 15 min.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [
+				1
+			],
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						"-",
+						1
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"-",
+						"963"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"-",
+						"22"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"-",
+						"72"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"-",
+						"0"
+					]
+				}
+			]
+		},
+		{
+			"level": [
+				20
+			],
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						0,
+						1
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"2498",
+						"3323"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"58",
+						"77"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"186",
+						"248"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			]
+		},
+		{
+			"level": [
+				40
+			],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						1,
+						2
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"4973",
+						"5559"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"115",
+						"129"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"371",
+						"415"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104161,
+				"id": "ShivadaJadeSliver",
+				"name": "Pedacito de jade shivada",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"_id": 100034,
+				"id": "Violetgrass",
+				"name": "Campanita de cristal",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112008,
+				"id": "DiviningScroll",
+				"name": "Pergamino guía",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [
+				50
+			],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						2,
+						3
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"6396",
+						"7178"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"148",
+						"167"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"477",
+						"535"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104162,
+				"id": "ShivadaJadeFragment",
+				"name": "Fragmento de jade shivada",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"_id": 113010,
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 100034,
+				"id": "Violetgrass",
+				"name": "Campanita de cristal",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112008,
+				"id": "DiviningScroll",
+				"name": "Pergamino guía",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [
+				60
+			],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						3,
+						4
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"8023",
+						"8610"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"186",
+						"200"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"598",
+						"642"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104162,
+				"id": "ShivadaJadeFragment",
+				"name": "Fragmento de jade shivada",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"_id": 113010,
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 100034,
+				"id": "Violetgrass",
+				"name": "Campanita de cristal",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112009,
+				"id": "SealedScroll",
+				"name": "Pergamino hechizado",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [
+				70
+			],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						4,
+						5
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"9463",
+						"10050"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"220",
+						"233"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"706",
+						"749"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104163,
+				"id": "ShivadaJadeChunk",
+				"name": "Trozo de jade shivada",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"_id": 113010,
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 100034,
+				"id": "Violetgrass",
+				"name": "Campanita de cristal",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112009,
+				"id": "SealedScroll",
+				"name": "Pergamino hechizado",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [
+				80
+			],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						5,
+						6
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"10912",
+						"11499"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"253",
+						"267"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"814",
+						"857"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104163,
+				"id": "ShivadaJadeChunk",
+				"name": "Trozo de jade shivada",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"_id": 113010,
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 100034,
+				"id": "Violetgrass",
+				"name": "Campanita de cristal",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112010,
+				"id": "ForbiddenCurseScroll",
+				"name": "Pergamino maldito",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [
+				90
+			],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [
+						6,
+						7
+					]
+				},
+				{
+					"label": "Vida Base",
+					"values": [
+						"12368",
+						"12368"
+					]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": [
+						"287",
+						"287"
+					]
+				},
+				{
+					"label": "DEF Base",
+					"values": [
+						"922",
+						"922"
+					]
+				},
+				{
+					"label": "Bono de Curación",
+					"values": [
+						"0",
+						"0"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104164,
+				"id": "ShivadaJadeGemstone",
+				"name": "Jade shivada",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"_id": 113010,
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 100034,
+				"id": "Violetgrass",
+				"name": "Campanita de cristal",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112010,
+				"id": "ForbiddenCurseScroll",
+				"name": "Pergamino maldito",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talent_materials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"_id": 104310,
+					"id": "TeachingsOfProsperity",
+					"name": "Enseñanzas de la prosperidad",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"_id": 112008,
+					"id": "DiviningScroll",
+					"name": "Pergamino guía",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"_id": 104311,
+					"id": "GuideToProsperity",
+					"name": "Guía de la prosperidad",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"_id": 112009,
+					"id": "SealedScroll",
+					"name": "Pergamino hechizado",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"_id": 104311,
+					"id": "GuideToProsperity",
+					"name": "Guía de la prosperidad",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"_id": 112009,
+					"id": "SealedScroll",
+					"name": "Pergamino hechizado",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"_id": 104311,
+					"id": "GuideToProsperity",
+					"name": "Guía de la prosperidad",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"_id": 112009,
+					"id": "SealedScroll",
+					"name": "Pergamino hechizado",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"_id": 104311,
+					"id": "GuideToProsperity",
+					"name": "Guía de la prosperidad",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"_id": 112009,
+					"id": "SealedScroll",
+					"name": "Pergamino hechizado",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"_id": 104312,
+					"id": "PhilosophiesOfProsperity",
+					"name": "Filosofía de la prosperidad",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"_id": 112010,
+					"id": "ForbiddenCurseScroll",
+					"name": "Pergamino maldito",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"_id": 113006,
+					"id": "TailOfBoreas",
+					"name": "Cola de Boreas",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"_id": 104312,
+					"id": "PhilosophiesOfProsperity",
+					"name": "Filosofía de la prosperidad",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"_id": 112010,
+					"id": "ForbiddenCurseScroll",
+					"name": "Pergamino maldito",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"_id": 113006,
+					"id": "TailOfBoreas",
+					"name": "Cola de Boreas",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"_id": 104312,
+					"id": "PhilosophiesOfProsperity",
+					"name": "Filosofía de la prosperidad",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"_id": 112010,
+					"id": "ForbiddenCurseScroll",
+					"name": "Pergamino maldito",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"_id": 113006,
+					"id": "TailOfBoreas",
+					"name": "Cola de Boreas",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"_id": 104312,
+					"id": "PhilosophiesOfProsperity",
+					"name": "Filosofía de la prosperidad",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"_id": 112010,
+					"id": "ForbiddenCurseScroll",
+					"name": "Pergamino maldito",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"_id": 113006,
+					"id": "TailOfBoreas",
+					"name": "Cola de Boreas",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"_id": 104319,
+					"id": "CrownOfInsight",
+					"name": "Corona de la sabiduría",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	]
 }
