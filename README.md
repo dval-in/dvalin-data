@@ -6,24 +6,25 @@ Data repo for dval.in, exported from paimon.moe
 
 PascalCase ID's
 - [ ] AchievementCategory
-- [ ] Artifact
-- [ ] Bait
+- [x] Artifact
+- [x] Bait
 - [x] Character
 - [x] CharacterExpMaterial
 - [x] CommonMaterial
 - [x] ElementalStoneMaterial
-- [ ] Fish
-- [ ] FishingRod
-- [ ] Food
-- [ ] Furnishing
-- [ ] Ingredient
+- [x] Fish
+- [x] FishingRod
+- [x] Food
+- [x] Furnishing
+  - [ ] number ID's for categories?
+- [x] Ingredient
 - [x] JewelsMaterial
 - [x] LocalMaterial
-- [ ] Potion
+- [x] Potion
 - [x] TalentLvlUpMaterial
-- [ ] TCGActionCard
-- [ ] TCGCharacterCard
-- [ ] TCGMonsterCard
+- [x] TCGActionCard
+- [x] TCGCharacterCard
+- [x] TCGMonsterCard
 - [x] Weapon
 - [x] WeaponEnhancementMaterial
 - [x] WeaponPrimaryMaterial

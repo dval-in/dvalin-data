@@ -1,72 +1,81 @@
 {
-  "_id": 3304,
-  "id": "hilichurl_berserker",
-  "name": "Hilichurl-Berserker",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 4,
-    "card_type": "Figurenkarte",
-    "energy": 2,
-    "element": "Pyro",
-    "weapon": "Andere Waffen",
-    "faction": ["Monster", "Hilichurl"],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "torch_strike",
-      "name": "Fackelschlag",
-      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
-      "skillTag": ["Standardangriff"],
-      "points": [
-        {
-          "_id": 1103,
-          "id": "pyro",
-          "type": "Pyro",
-          "count": 1
-        },
-        {
-          "_id": 1109,
-          "id": "unaligned_element",
-          "type": "Würfel (beliebig)",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "hit_and_run",
-      "name": "Wilder Ansturm",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
-      "skillTag": ["Elementarfähigkeit"],
-      "points": [
-        {
-          "_id": 1103,
-          "id": "pyro",
-          "type": "Pyro",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "scorching_combo",
-      "name": "Mehrfacher Fackelschlag",
-      "desc": "Verursacht 4 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
-      "skillTag": ["Spezialfähigkeit"],
-      "points": [
-        {
-          "_id": 1103,
-          "id": "pyro",
-          "type": "Pyro",
-          "count": 3
-        },
-        {
-          "_id": 1110,
-          "id": "energy",
-          "type": "Aufladung",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"_id": 3304,
+	"id": "HilichurlBerserker",
+	"name": "Hilichurl-Berserker",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 4,
+		"card_type": "Figurenkarte",
+		"energy": 2,
+		"element": "Pyro",
+		"weapon": "Andere Waffen",
+		"faction": [
+			"Monster",
+			"Hilichurl"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "TorchStrike",
+			"name": "Fackelschlag",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+			"skillTag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"_id": 1103,
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 1
+				},
+				{
+					"_id": 1109,
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "HitAndRun",
+			"name": "Wilder Ansturm",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+			"skillTag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"_id": 1103,
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ScorchingCombo",
+			"name": "Mehrfacher Fackelschlag",
+			"desc": "Verursacht 4 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+			"skillTag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"_id": 1103,
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				},
+				{
+					"_id": 1110,
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		}
+	]
 }
