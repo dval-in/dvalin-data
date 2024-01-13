@@ -1,1081 +1,1220 @@
 {
-  "_id": 10000062,
-  "id": "aloy",
-  "name": "Aloy",
-  "title": "„Retterin aus einer anderen Welt“",
-  "description": "Sie war früher eine Ausgestoßene. Jetzt ist sie eine Jägerin mit durchdringendem Scharfsinn. Jederzeit ist sie bereit, mit Pfeil und Bogen das Richtige zu tun.",
-  "weapon_type": "Bogen",
-  "element": "Kryo",
-  "gender": "Weiblich",
-  "substat": "Kryo-SCH-Bonus",
-  "affiliation": "Wandernde Heldin",
-  "rarity": 5,
-  "birthday": [4, 4],
-  "constellation": "Nora Fortis",
-  "domain": "Vergessene Schlucht",
-  "cv": {
-    "english": "——",
-    "chinese": "沐霏",
-    "japanese": "高垣彩陽",
-    "korean": "Jo Hyeon-jung"
-  },
-  "skills": [
-    {
-      "_id": 10621,
-      "id": "normal_attack_rapid_fire",
-      "name": "Standardangriff: Schnellfeuer",
-      "description": "<span>Standardangriff</span><br/>Führt bis zu 4 Pfeilschüsse hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Führt einen <span>gezielten Schuss</span> mit höherem Schaden und höherer Genauigkeit aus.<br/>Konzentriert die eisige Kälte während des Zielens an der Pfeilspitze, die voll aufgeladen <span>Kryo-Schaden</span> verursacht.<br/><br/><span>Angriff aus dem Fall</span><br/>Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "SCH Phase 1",
-          "values": [
-            "21.12% + 23.76%",
-            "22.56% + 25.38%",
-            "24% + 27%",
-            "25.92% + 29.16%",
-            "27.36% + 30.78%",
-            "29.04% + 32.67%",
-            "31.2% + 35.1%",
-            "33.36% + 37.53%",
-            "35.52% + 39.96%",
-            "37.68% + 42.39%",
-            "39.84% + 44.82%",
-            "42% + 47.25%",
-            "44.16% + 49.68%",
-            "46.32% + 52.11%",
-            "48.48% + 54.54%"
-          ]
-        },
-        {
-          "label": "SCH Phase 2",
-          "values": [
-            "43.12%",
-            "46.06%",
-            "49%",
-            "52.92%",
-            "55.86%",
-            "59.29%",
-            "63.7%",
-            "68.11%",
-            "72.52%",
-            "76.93%",
-            "81.34%",
-            "85.75%",
-            "90.16%",
-            "94.57%",
-            "98.98%"
-          ]
-        },
-        {
-          "label": "SCH Phase 3",
-          "values": [
-            "52.8%",
-            "56.4%",
-            "60%",
-            "64.8%",
-            "68.4%",
-            "72.6%",
-            "78%",
-            "83.4%",
-            "88.8%",
-            "94.2%",
-            "99.6%",
-            "105%",
-            "110.4%",
-            "115.8%",
-            "121.2%"
-          ]
-        },
-        {
-          "label": "SCH Phase 4",
-          "values": [
-            "65.65%",
-            "70.12%",
-            "74.6%",
-            "80.57%",
-            "85.04%",
-            "90.27%",
-            "96.98%",
-            "103.69%",
-            "110.41%",
-            "117.12%",
-            "123.84%",
-            "130.55%",
-            "137.26%",
-            "143.98%",
-            "150.69%"
-          ]
-        },
-        {
-          "label": "Gezielte Schüsse",
-          "values": [
-            "43.86%",
-            "47.43%",
-            "51%",
-            "56.1%",
-            "59.67%",
-            "63.75%",
-            "69.36%",
-            "74.97%",
-            "80.58%",
-            "86.7%",
-            "92.82%",
-            "98.94%",
-            "105.06%",
-            "111.18%",
-            "117.3%"
-          ]
-        },
-        {
-          "label": "Voll aufgeladene gezielte Schüsse",
-          "values": [
-            "124%",
-            "133.3%",
-            "142.6%",
-            "155%",
-            "164.3%",
-            "173.6%",
-            "186%",
-            "198.4%",
-            "210.8%",
-            "223.2%",
-            "235.6%",
-            "248%",
-            "263.5%",
-            "279%",
-            "294.5%"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen aus niedriger/großer Höhe",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "_id": 10622,
-      "id": "frozen_wilds",
-      "name": "Frostüberzogene Felder",
-      "description": "Wirft eine Eisbombe in die Richtung des Ziels, die beim Aufkommen explodiert und <span>Kryo-Schaden</span> verursacht, sich nach der Explosion aber in viele Kälteminen aufteilt, die bei Berührung mit Gegnern oder nach einer gewissen Zeit explodieren und dabei <span>Kryo-Schaden</span> verursachen.<br/>Verringert den ANG mit Eisbomben oder Kälteminen getroffener Gegner und verleiht Aloy eine Stapelung des Effekts „Spule“.<br/>Erhält alle 0,1 s höchstens 1 Stapelung des Effekts Spule.<br/><br/><span>Spule</span><br/>· Erhöht den mit Aloys Standardangriffen verursachten Schaden gemäß der Menge an Stapelungen.<br/>· Beseitigt bei 4 Stapelungen Spule den gesamten Effekt von Spule und verleiht Aloy „Eisige Eile“, die den mit Standardangriffen verursachten Schaden zusätzlich erhöht und den mit Standardangriffen verursachten Schaden in <span>Kryo-Schaden</span> umwandelt.<br/><br/>Aloy kann während des Zustands Eisige Eile nicht den Effekt Spule erhalten.<br/>Der Effekt Spule wird 30 s nach dem Verlassen des Kampfs entfernt.",
-      "info": "Glaub mir, am Schnitt ist es noch viel kälter.",
-      "attributes": [
-        {
-          "label": "Eisbomben-SCH",
-          "values": [
-            "177.6%",
-            "190.92%",
-            "204.24%",
-            "222%",
-            "235.32%",
-            "248.64%",
-            "266.4%",
-            "284.16%",
-            "301.92%",
-            "319.68%",
-            "337.44%",
-            "355.2%",
-            "377.4%",
-            "399.6%",
-            "421.8%"
-          ]
-        },
-        {
-          "label": "Kälteminen-SCH",
-          "values": [
-            "40%",
-            "43%",
-            "46%",
-            "50%",
-            "53%",
-            "56%",
-            "60%",
-            "64%",
-            "68%",
-            "72%",
-            "76%",
-            "80%",
-            "85%",
-            "90%",
-            "95%"
-          ]
-        },
-        {
-          "label": "ANG-Malus",
-          "values": [
-            "12%",
-            "12%",
-            "12%",
-            "13%",
-            "13%",
-            "13%",
-            "14%",
-            "14%",
-            "14%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%"
-          ]
-        },
-        {
-          "label": "ANG-Malus-Dauer",
-          "values": [
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s"
-          ]
-        },
-        {
-          "label": "SCH-Bonus für Standardangriffe durch Spule",
-          "values": [
-            "5.84% / 11.69% / 17.53%",
-            "6.19% / 12.39% / 18.58%",
-            "6.54% / 13.09% / 19.63%",
-            "7% / 14% / 21%",
-            "7.35% / 14.7% / 22.05%",
-            "7.7% / 15.4% / 23.1%",
-            "8.16% / 16.31% / 24.47%",
-            "8.61% / 17.22% / 25.83%",
-            "9.06% / 18.13% / 27.2%",
-            "9.52% / 19.04% / 28.56%",
-            "9.97% / 19.95% / 29.93%",
-            "10.43% / 20.86% / 31.29%",
-            "10.89% / 21.77% / 32.66%",
-            "11.34% / 22.68% / 34.02%",
-            "11.79% / 23.59% / 35.39%"
-          ]
-        },
-        {
-          "label": "SCH-Bonus für Standardangriffe durch Eisige Eile",
-          "values": [
-            "29.23%",
-            "30.97%",
-            "32.73%",
-            "35%",
-            "36.75%",
-            "38.5%",
-            "40.78%",
-            "43.05%",
-            "45.32%",
-            "47.6%",
-            "49.88%",
-            "52.15%",
-            "54.43%",
-            "56.7%",
-            "58.97%"
-          ]
-        },
-        {
-          "label": "Dauer von Eisige Eile",
-          "values": [
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s"
-          ]
-        }
-      ]
-    },
-    {
-      "_id": 10625,
-      "id": "prophecies_of_dawn",
-      "name": "Weissagung des Morgenlichts",
-      "description": "Wirft eine Energiezelle voller Kryo-Energie und lässt sie mit einem Pfeil explodieren, um <span>Kryo-Flächenschaden</span> zu verursachen.",
-      "info": "Ob „Zero Dawn“ nun Hoffnung oder Auslöschung bedeutet, ist mittlerweile unwichtig. Aloy hat bereits ihre eigene Welt gerettet, um deren Schicksal sich die Helden darin sorgen.",
-      "attributes": [
-        {
-          "label": "Fähigkeits-SCH",
-          "values": [
-            "359.2%",
-            "386.14%",
-            "413.08%",
-            "449%",
-            "475.94%",
-            "502.88%",
-            "538.8%",
-            "574.72%",
-            "610.64%",
-            "646.56%",
-            "682.48%",
-            "718.4%",
-            "763.3%",
-            "808.2%",
-            "853.1%"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s",
-            "12 s"
-          ]
-        },
-        {
-          "label": "Elementarenergie",
-          "values": [
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "combat_override",
-      "name": "Kampf-Überbrückung",
-      "description": "Erhöht beim Erhalten des Effekts Spule von <span>Frostüberzogene Felder</span> durch Aloy 10 s lang ihren eigenen ANG um 16 % und den ANG aller anderen Truppenmitglieder in der Nähe um 8 %.",
-      "level": 1
-    },
-    {
-      "id": "strong_strike",
-      "name": "Wuchtangriff",
-      "description": "Erhöht Aloys <span>Kryo-SCH-Bonus</span> im Zustand Eisige Eile von <span>Frostüberzogene Felder</span> pro s um 3,5 %. Bis zu 35 % <span>Kryo-SCH-Bonus</span> auf diese Weise möglich.",
-      "level": 4
-    },
-    {
-      "id": "easy_does_it",
-      "name": "Jäger der Wildnis",
-      "description": "Führt dazu, dass eigene Figuren in der Truppe kleine Tiere in der Nähe, die rohes Geflügel, rohes Fleisch oder kaltes Gourmetfleisch als Beute abgeben, nicht leicht aufscheuchen, wenn Aloy in der Truppe ist.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "_id": 621,
-      "id": "star_of_another_world",
-      "name": "Stern einer anderen Welt",
-      "description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
-      "level": 1
-    },
-    {
-      "_id": 622,
-      "id": "star_of_another_world",
-      "name": "Stern einer anderen Welt",
-      "description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
-      "level": 2
-    },
-    {
-      "_id": 623,
-      "id": "star_of_another_world",
-      "name": "Stern einer anderen Welt",
-      "description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
-      "level": 3
-    },
-    {
-      "_id": 624,
-      "id": "star_of_another_world",
-      "name": "Stern einer anderen Welt",
-      "description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
-      "level": 4
-    },
-    {
-      "_id": 625,
-      "id": "star_of_another_world",
-      "name": "Stern einer anderen Welt",
-      "description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
-      "level": 5
-    },
-    {
-      "_id": 626,
-      "id": "star_of_another_world",
-      "name": "Stern einer anderen Welt",
-      "description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [1],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": ["-", 1]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["-", "848"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["-", "18"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["-", "53"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["-", "0.0%"]
-        }
-      ]
-    },
-    {
-      "level": [20],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [0, 1]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["2201", "2928"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["47", "63"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["137", "182"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["0.0%", "0.0%"]
-        }
-      ]
-    },
-    {
-      "level": [40],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [1, 2]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["4382", "4899"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["94", "105"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["272", "304"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["0.0%", "7.2%"]
-        }
-      ],
-      "mat1": {
-        "_id": 104161,
-        "id": "shivada_jade_sliver",
-        "name": "Shivada-Jade-Splitter",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "_id": 101203,
-        "id": "crystal_marrow",
-        "name": "Kristallmark",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112053,
-        "id": "spectral_husk",
-        "name": "Geisterhülle",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [50],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [2, 3]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["5636", "6325"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["121", "136"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["350", "393"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["7.2%", "14.4%"]
-        }
-      ],
-      "mat1": {
-        "_id": 104162,
-        "id": "shivada_jade_fragment",
-        "name": "Shivada-Jade-Bruchstück",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "_id": 113020,
-        "id": "crystalline_bloom",
-        "name": "Ewige Eisblume",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 101203,
-        "id": "crystal_marrow",
-        "name": "Kristallmark",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112053,
-        "id": "spectral_husk",
-        "name": "Geisterhülle",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [60],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [3, 4]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["7070", "7587"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["152", "163"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["439", "471"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["14.4%", "14.4%"]
-        }
-      ],
-      "mat1": {
-        "_id": 104162,
-        "id": "shivada_jade_fragment",
-        "name": "Shivada-Jade-Bruchstück",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "_id": 113020,
-        "id": "crystalline_bloom",
-        "name": "Ewige Eisblume",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 101203,
-        "id": "crystal_marrow",
-        "name": "Kristallmark",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112054,
-        "id": "spectral_heart",
-        "name": "Gespensterherz",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [70],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [4, 5]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["8339", "8856"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["179", "190"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["517", "550"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["14.4%", "21.6%"]
-        }
-      ],
-      "mat1": {
-        "_id": 104163,
-        "id": "shivada_jade_chunk",
-        "name": "Shivada-Jade-Brocken",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "_id": 113020,
-        "id": "crystalline_bloom",
-        "name": "Ewige Eisblume",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 101203,
-        "id": "crystal_marrow",
-        "name": "Kristallmark",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112054,
-        "id": "spectral_heart",
-        "name": "Gespensterherz",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [80],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [5, 6]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["9616", "10133"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["206", "217"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["597", "629"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["21.6%", "28.8%"]
-        }
-      ],
-      "mat1": {
-        "_id": 104163,
-        "id": "shivada_jade_chunk",
-        "name": "Shivada-Jade-Brocken",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "_id": 113020,
-        "id": "crystalline_bloom",
-        "name": "Ewige Eisblume",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 101203,
-        "id": "crystal_marrow",
-        "name": "Kristallmark",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112055,
-        "id": "spectral_nucleus",
-        "name": "Gespensterkern",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [90],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [6, 7]
-        },
-        {
-          "label": "Basis-LP",
-          "values": ["10899", "10899"]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": ["234", "234"]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": ["676", "676"]
-        },
-        {
-          "label": "Kryo-SCH-Bonus",
-          "values": ["28.8%", "28.8%"]
-        }
-      ],
-      "mat1": {
-        "_id": 104164,
-        "id": "shivada_jade_gemstone",
-        "name": "Shivada-Jade",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "_id": 113020,
-        "id": "crystalline_bloom",
-        "name": "Ewige Eisblume",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "_id": 101203,
-        "id": "crystal_marrow",
-        "name": "Kristallmark",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "_id": 112055,
-        "id": "spectral_nucleus",
-        "name": "Gespensterkern",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talent_materials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "_id": 104301,
-          "id": "teachings_of_freedom",
-          "name": "Lehren der „Freiheit“",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "_id": 112053,
-          "id": "spectral_husk",
-          "name": "Geisterhülle",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "_id": 104302,
-          "id": "guide_to_freedom",
-          "name": "Anleitung zur „Freiheit“",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "_id": 112054,
-          "id": "spectral_heart",
-          "name": "Gespensterherz",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "_id": 104302,
-          "id": "guide_to_freedom",
-          "name": "Anleitung zur „Freiheit“",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "_id": 112054,
-          "id": "spectral_heart",
-          "name": "Gespensterherz",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "_id": 104302,
-          "id": "guide_to_freedom",
-          "name": "Anleitung zur „Freiheit“",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "_id": 112054,
-          "id": "spectral_heart",
-          "name": "Gespensterherz",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "_id": 104302,
-          "id": "guide_to_freedom",
-          "name": "Anleitung zur „Freiheit“",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "_id": 112054,
-          "id": "spectral_heart",
-          "name": "Gespensterherz",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "_id": 104303,
-          "id": "philosophies_of_freedom",
-          "name": "Philosophie der „Freiheit“",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "_id": 112055,
-          "id": "spectral_nucleus",
-          "name": "Gespensterkern",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "_id": 113025,
-          "id": "molten_moment",
-          "name": "Moment der Kernschmelze",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "_id": 104303,
-          "id": "philosophies_of_freedom",
-          "name": "Philosophie der „Freiheit“",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "_id": 112055,
-          "id": "spectral_nucleus",
-          "name": "Gespensterkern",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "_id": 113025,
-          "id": "molten_moment",
-          "name": "Moment der Kernschmelze",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "_id": 104303,
-          "id": "philosophies_of_freedom",
-          "name": "Philosophie der „Freiheit“",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "_id": 112055,
-          "id": "spectral_nucleus",
-          "name": "Gespensterkern",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "_id": 113025,
-          "id": "molten_moment",
-          "name": "Moment der Kernschmelze",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "_id": 104303,
-          "id": "philosophies_of_freedom",
-          "name": "Philosophie der „Freiheit“",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "_id": 112055,
-          "id": "spectral_nucleus",
-          "name": "Gespensterkern",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "_id": 113025,
-          "id": "molten_moment",
-          "name": "Moment der Kernschmelze",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "_id": 104319,
-          "id": "crown_of_insight",
-          "name": "Krone der Weisheit",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ]
+	"_id": 10000062,
+	"id": "Aloy",
+	"name": "Aloy",
+	"title": "„Retterin aus einer anderen Welt“",
+	"description": "Sie war früher eine Ausgestoßene. Jetzt ist sie eine Jägerin mit durchdringendem Scharfsinn. Jederzeit ist sie bereit, mit Pfeil und Bogen das Richtige zu tun.",
+	"weapon_type": "Bogen",
+	"element": "Kryo",
+	"gender": "Weiblich",
+	"substat": "Kryo-SCH-Bonus",
+	"affiliation": "Wandernde Heldin",
+	"rarity": 5,
+	"birthday": [
+		4,
+		4
+	],
+	"constellation": "Nora Fortis",
+	"domain": "Vergessene Schlucht",
+	"cv": {
+		"english": "——",
+		"chinese": "沐霏",
+		"japanese": "高垣彩陽",
+		"korean": "Jo Hyeon-jung"
+	},
+	"skills": [
+		{
+			"_id": 10621,
+			"id": "NormalAttackRapidFire",
+			"name": "Standardangriff: Schnellfeuer",
+			"description": "<span>Standardangriff</span><br/>Führt bis zu 4 Pfeilschüsse hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Führt einen <span>gezielten Schuss</span> mit höherem Schaden und höherer Genauigkeit aus.<br/>Konzentriert die eisige Kälte während des Zielens an der Pfeilspitze, die voll aufgeladen <span>Kryo-Schaden</span> verursacht.<br/><br/><span>Angriff aus dem Fall</span><br/>Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "SCH Phase 1",
+					"values": [
+						"21.12% + 23.76%",
+						"22.56% + 25.38%",
+						"24% + 27%",
+						"25.92% + 29.16%",
+						"27.36% + 30.78%",
+						"29.04% + 32.67%",
+						"31.2% + 35.1%",
+						"33.36% + 37.53%",
+						"35.52% + 39.96%",
+						"37.68% + 42.39%",
+						"39.84% + 44.82%",
+						"42% + 47.25%",
+						"44.16% + 49.68%",
+						"46.32% + 52.11%",
+						"48.48% + 54.54%"
+					]
+				},
+				{
+					"label": "SCH Phase 2",
+					"values": [
+						"43.12%",
+						"46.06%",
+						"49%",
+						"52.92%",
+						"55.86%",
+						"59.29%",
+						"63.7%",
+						"68.11%",
+						"72.52%",
+						"76.93%",
+						"81.34%",
+						"85.75%",
+						"90.16%",
+						"94.57%",
+						"98.98%"
+					]
+				},
+				{
+					"label": "SCH Phase 3",
+					"values": [
+						"52.8%",
+						"56.4%",
+						"60%",
+						"64.8%",
+						"68.4%",
+						"72.6%",
+						"78%",
+						"83.4%",
+						"88.8%",
+						"94.2%",
+						"99.6%",
+						"105%",
+						"110.4%",
+						"115.8%",
+						"121.2%"
+					]
+				},
+				{
+					"label": "SCH Phase 4",
+					"values": [
+						"65.65%",
+						"70.12%",
+						"74.6%",
+						"80.57%",
+						"85.04%",
+						"90.27%",
+						"96.98%",
+						"103.69%",
+						"110.41%",
+						"117.12%",
+						"123.84%",
+						"130.55%",
+						"137.26%",
+						"143.98%",
+						"150.69%"
+					]
+				},
+				{
+					"label": "Gezielte Schüsse",
+					"values": [
+						"43.86%",
+						"47.43%",
+						"51%",
+						"56.1%",
+						"59.67%",
+						"63.75%",
+						"69.36%",
+						"74.97%",
+						"80.58%",
+						"86.7%",
+						"92.82%",
+						"98.94%",
+						"105.06%",
+						"111.18%",
+						"117.3%"
+					]
+				},
+				{
+					"label": "Voll aufgeladene gezielte Schüsse",
+					"values": [
+						"124%",
+						"133.3%",
+						"142.6%",
+						"155%",
+						"164.3%",
+						"173.6%",
+						"186%",
+						"198.4%",
+						"210.8%",
+						"223.2%",
+						"235.6%",
+						"248%",
+						"263.5%",
+						"279%",
+						"294.5%"
+					]
+				},
+				{
+					"label": "SCH beim Fallen",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "SCH beim Fallen aus niedriger/großer Höhe",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"_id": 10622,
+			"id": "FrozenWilds",
+			"name": "Frostüberzogene Felder",
+			"description": "Wirft eine Eisbombe in die Richtung des Ziels, die beim Aufkommen explodiert und <span>Kryo-Schaden</span> verursacht, sich nach der Explosion aber in viele Kälteminen aufteilt, die bei Berührung mit Gegnern oder nach einer gewissen Zeit explodieren und dabei <span>Kryo-Schaden</span> verursachen.<br/>Verringert den ANG mit Eisbomben oder Kälteminen getroffener Gegner und verleiht Aloy eine Stapelung des Effekts „Spule“.<br/>Erhält alle 0,1 s höchstens 1 Stapelung des Effekts Spule.<br/><br/><span>Spule</span><br/>· Erhöht den mit Aloys Standardangriffen verursachten Schaden gemäß der Menge an Stapelungen.<br/>· Beseitigt bei 4 Stapelungen Spule den gesamten Effekt von Spule und verleiht Aloy „Eisige Eile“, die den mit Standardangriffen verursachten Schaden zusätzlich erhöht und den mit Standardangriffen verursachten Schaden in <span>Kryo-Schaden</span> umwandelt.<br/><br/>Aloy kann während des Zustands Eisige Eile nicht den Effekt Spule erhalten.<br/>Der Effekt Spule wird 30 s nach dem Verlassen des Kampfs entfernt.",
+			"info": "Glaub mir, am Schnitt ist es noch viel kälter.",
+			"attributes": [
+				{
+					"label": "Eisbomben-SCH",
+					"values": [
+						"177.6%",
+						"190.92%",
+						"204.24%",
+						"222%",
+						"235.32%",
+						"248.64%",
+						"266.4%",
+						"284.16%",
+						"301.92%",
+						"319.68%",
+						"337.44%",
+						"355.2%",
+						"377.4%",
+						"399.6%",
+						"421.8%"
+					]
+				},
+				{
+					"label": "Kälteminen-SCH",
+					"values": [
+						"40%",
+						"43%",
+						"46%",
+						"50%",
+						"53%",
+						"56%",
+						"60%",
+						"64%",
+						"68%",
+						"72%",
+						"76%",
+						"80%",
+						"85%",
+						"90%",
+						"95%"
+					]
+				},
+				{
+					"label": "ANG-Malus",
+					"values": [
+						"12%",
+						"12%",
+						"12%",
+						"13%",
+						"13%",
+						"13%",
+						"14%",
+						"14%",
+						"14%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%"
+					]
+				},
+				{
+					"label": "ANG-Malus-Dauer",
+					"values": [
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s"
+					]
+				},
+				{
+					"label": "SCH-Bonus für Standardangriffe durch Spule",
+					"values": [
+						"5.84% / 11.69% / 17.53%",
+						"6.19% / 12.39% / 18.58%",
+						"6.54% / 13.09% / 19.63%",
+						"7% / 14% / 21%",
+						"7.35% / 14.7% / 22.05%",
+						"7.7% / 15.4% / 23.1%",
+						"8.16% / 16.31% / 24.47%",
+						"8.61% / 17.22% / 25.83%",
+						"9.06% / 18.13% / 27.2%",
+						"9.52% / 19.04% / 28.56%",
+						"9.97% / 19.95% / 29.93%",
+						"10.43% / 20.86% / 31.29%",
+						"10.89% / 21.77% / 32.66%",
+						"11.34% / 22.68% / 34.02%",
+						"11.79% / 23.59% / 35.39%"
+					]
+				},
+				{
+					"label": "SCH-Bonus für Standardangriffe durch Eisige Eile",
+					"values": [
+						"29.23%",
+						"30.97%",
+						"32.73%",
+						"35%",
+						"36.75%",
+						"38.5%",
+						"40.78%",
+						"43.05%",
+						"45.32%",
+						"47.6%",
+						"49.88%",
+						"52.15%",
+						"54.43%",
+						"56.7%",
+						"58.97%"
+					]
+				},
+				{
+					"label": "Dauer von Eisige Eile",
+					"values": [
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s"
+					]
+				}
+			]
+		},
+		{
+			"_id": 10625,
+			"id": "PropheciesOfDawn",
+			"name": "Weissagung des Morgenlichts",
+			"description": "Wirft eine Energiezelle voller Kryo-Energie und lässt sie mit einem Pfeil explodieren, um <span>Kryo-Flächenschaden</span> zu verursachen.",
+			"info": "Ob „Zero Dawn“ nun Hoffnung oder Auslöschung bedeutet, ist mittlerweile unwichtig. Aloy hat bereits ihre eigene Welt gerettet, um deren Schicksal sich die Helden darin sorgen.",
+			"attributes": [
+				{
+					"label": "Fähigkeits-SCH",
+					"values": [
+						"359.2%",
+						"386.14%",
+						"413.08%",
+						"449%",
+						"475.94%",
+						"502.88%",
+						"538.8%",
+						"574.72%",
+						"610.64%",
+						"646.56%",
+						"682.48%",
+						"718.4%",
+						"763.3%",
+						"808.2%",
+						"853.1%"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s",
+						"12 s"
+					]
+				},
+				{
+					"label": "Elementarenergie",
+					"values": [
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40",
+						"40"
+					]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "CombatOverride",
+			"name": "Kampf-Überbrückung",
+			"description": "Erhöht beim Erhalten des Effekts Spule von <span>Frostüberzogene Felder</span> durch Aloy 10 s lang ihren eigenen ANG um 16 % und den ANG aller anderen Truppenmitglieder in der Nähe um 8 %.",
+			"level": 1
+		},
+		{
+			"id": "StrongStrike",
+			"name": "Wuchtangriff",
+			"description": "Erhöht Aloys <span>Kryo-SCH-Bonus</span> im Zustand Eisige Eile von <span>Frostüberzogene Felder</span> pro s um 3,5 %. Bis zu 35 % <span>Kryo-SCH-Bonus</span> auf diese Weise möglich.",
+			"level": 4
+		},
+		{
+			"id": "EasyDoesIt",
+			"name": "Jäger der Wildnis",
+			"description": "Führt dazu, dass eigene Figuren in der Truppe kleine Tiere in der Nähe, die rohes Geflügel, rohes Fleisch oder kaltes Gourmetfleisch als Beute abgeben, nicht leicht aufscheuchen, wenn Aloy in der Truppe ist.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"_id": 621,
+			"id": "StarOfAnotherWorld",
+			"name": "Stern einer anderen Welt",
+			"description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+			"level": 1
+		},
+		{
+			"_id": 622,
+			"id": "StarOfAnotherWorld",
+			"name": "Stern einer anderen Welt",
+			"description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+			"level": 2
+		},
+		{
+			"_id": 623,
+			"id": "StarOfAnotherWorld",
+			"name": "Stern einer anderen Welt",
+			"description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+			"level": 3
+		},
+		{
+			"_id": 624,
+			"id": "StarOfAnotherWorld",
+			"name": "Stern einer anderen Welt",
+			"description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+			"level": 4
+		},
+		{
+			"_id": 625,
+			"id": "StarOfAnotherWorld",
+			"name": "Stern einer anderen Welt",
+			"description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+			"level": 5
+		},
+		{
+			"_id": 626,
+			"id": "StarOfAnotherWorld",
+			"name": "Stern einer anderen Welt",
+			"description": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [
+				1
+			],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						"-",
+						1
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"-",
+						"848"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"-",
+						"18"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"-",
+						"53"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"-",
+						"0.0%"
+					]
+				}
+			]
+		},
+		{
+			"level": [
+				20
+			],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						0,
+						1
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"2201",
+						"2928"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"47",
+						"63"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"137",
+						"182"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"0.0%",
+						"0.0%"
+					]
+				}
+			]
+		},
+		{
+			"level": [
+				40
+			],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						1,
+						2
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"4382",
+						"4899"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"94",
+						"105"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"272",
+						"304"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"0.0%",
+						"7.2%"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104161,
+				"id": "ShivadaJadeSliver",
+				"name": "Shivada-Jade-Splitter",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"_id": 101203,
+				"id": "CrystalMarrow",
+				"name": "Kristallmark",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112053,
+				"id": "SpectralHusk",
+				"name": "Geisterhülle",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [
+				50
+			],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						2,
+						3
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"5636",
+						"6325"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"121",
+						"136"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"350",
+						"393"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"7.2%",
+						"14.4%"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104162,
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada-Jade-Bruchstück",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"_id": 113020,
+				"id": "CrystallineBloom",
+				"name": "Ewige Eisblume",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 101203,
+				"id": "CrystalMarrow",
+				"name": "Kristallmark",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112053,
+				"id": "SpectralHusk",
+				"name": "Geisterhülle",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [
+				60
+			],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						3,
+						4
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"7070",
+						"7587"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"152",
+						"163"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"439",
+						"471"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"14.4%",
+						"14.4%"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104162,
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada-Jade-Bruchstück",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"_id": 113020,
+				"id": "CrystallineBloom",
+				"name": "Ewige Eisblume",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 101203,
+				"id": "CrystalMarrow",
+				"name": "Kristallmark",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112054,
+				"id": "SpectralHeart",
+				"name": "Gespensterherz",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [
+				70
+			],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						4,
+						5
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"8339",
+						"8856"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"179",
+						"190"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"517",
+						"550"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"14.4%",
+						"21.6%"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104163,
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada-Jade-Brocken",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"_id": 113020,
+				"id": "CrystallineBloom",
+				"name": "Ewige Eisblume",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 101203,
+				"id": "CrystalMarrow",
+				"name": "Kristallmark",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112054,
+				"id": "SpectralHeart",
+				"name": "Gespensterherz",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [
+				80
+			],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						5,
+						6
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"9616",
+						"10133"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"206",
+						"217"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"597",
+						"629"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"21.6%",
+						"28.8%"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104163,
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada-Jade-Brocken",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"_id": 113020,
+				"id": "CrystallineBloom",
+				"name": "Ewige Eisblume",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 101203,
+				"id": "CrystalMarrow",
+				"name": "Kristallmark",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112055,
+				"id": "SpectralNucleus",
+				"name": "Gespensterkern",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [
+				90
+			],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [
+						6,
+						7
+					]
+				},
+				{
+					"label": "Basis-LP",
+					"values": [
+						"10899",
+						"10899"
+					]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": [
+						"234",
+						"234"
+					]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": [
+						"676",
+						"676"
+					]
+				},
+				{
+					"label": "Kryo-SCH-Bonus",
+					"values": [
+						"28.8%",
+						"28.8%"
+					]
+				}
+			],
+			"mat1": {
+				"_id": 104164,
+				"id": "ShivadaJadeGemstone",
+				"name": "Shivada-Jade",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"_id": 113020,
+				"id": "CrystallineBloom",
+				"name": "Ewige Eisblume",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"_id": 101203,
+				"id": "CrystalMarrow",
+				"name": "Kristallmark",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"_id": 112055,
+				"id": "SpectralNucleus",
+				"name": "Gespensterkern",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talent_materials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"_id": 104301,
+					"id": "TeachingsOfFreedom",
+					"name": "Lehren der „Freiheit“",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"_id": 112053,
+					"id": "SpectralHusk",
+					"name": "Geisterhülle",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"_id": 104302,
+					"id": "GuideToFreedom",
+					"name": "Anleitung zur „Freiheit“",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"_id": 112054,
+					"id": "SpectralHeart",
+					"name": "Gespensterherz",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"_id": 104302,
+					"id": "GuideToFreedom",
+					"name": "Anleitung zur „Freiheit“",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"_id": 112054,
+					"id": "SpectralHeart",
+					"name": "Gespensterherz",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"_id": 104302,
+					"id": "GuideToFreedom",
+					"name": "Anleitung zur „Freiheit“",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"_id": 112054,
+					"id": "SpectralHeart",
+					"name": "Gespensterherz",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"_id": 104302,
+					"id": "GuideToFreedom",
+					"name": "Anleitung zur „Freiheit“",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"_id": 112054,
+					"id": "SpectralHeart",
+					"name": "Gespensterherz",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"_id": 104303,
+					"id": "PhilosophiesOfFreedom",
+					"name": "Philosophie der „Freiheit“",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"_id": 112055,
+					"id": "SpectralNucleus",
+					"name": "Gespensterkern",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"_id": 113025,
+					"id": "MoltenMoment",
+					"name": "Moment der Kernschmelze",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"_id": 104303,
+					"id": "PhilosophiesOfFreedom",
+					"name": "Philosophie der „Freiheit“",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"_id": 112055,
+					"id": "SpectralNucleus",
+					"name": "Gespensterkern",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"_id": 113025,
+					"id": "MoltenMoment",
+					"name": "Moment der Kernschmelze",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"_id": 104303,
+					"id": "PhilosophiesOfFreedom",
+					"name": "Philosophie der „Freiheit“",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"_id": 112055,
+					"id": "SpectralNucleus",
+					"name": "Gespensterkern",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"_id": 113025,
+					"id": "MoltenMoment",
+					"name": "Moment der Kernschmelze",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"_id": 104303,
+					"id": "PhilosophiesOfFreedom",
+					"name": "Philosophie der „Freiheit“",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"_id": 112055,
+					"id": "SpectralNucleus",
+					"name": "Gespensterkern",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"_id": 113025,
+					"id": "MoltenMoment",
+					"name": "Moment der Kernschmelze",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"_id": 104319,
+					"id": "CrownOfInsight",
+					"name": "Krone der Weisheit",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	]
 }
