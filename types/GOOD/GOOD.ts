@@ -1,20 +1,30 @@
+import { AchievementCategoryKey } from "./AchievementCategoryKey";
+import { AchievementKey } from "./AchievementKey";
 import { ArtifactSetKey } from "./ArtifactSetKey";
+import { BannerKey } from "./BannerKey";
 import { CharacterKey } from "./CharacterKey";
 import { MaterialKey } from "./MaterialKey";
+import { ServerKey } from "./ServerKey";
 import { SlotKey } from "./SlotKey";
 import { StatKey } from "./StatKey";
 import { WeaponKey } from "./WeaponKey";
+import { WishBannerKey } from "./WishBannerKey";
 
 export interface IGOOD {
 	format: "GOOD"; // A way for people to recognize this format.
 	version: number; // GOOD API version.
 	source: string; // The app that generates this data.
+	server: ServerKey;
+	ar: number; // 1-60 inclusive
 	characters?: ICharacter[];
 	artifacts?: IArtifact[];
 	weapons?: IWeapon[];
 	materials?: {
 		[key in MaterialKey]: number;
 	};
+	achievments?: IAchievement[];
+	furnishing?: IFurnishing[];
+	wishes?: IWishBanner[];
 }
 interface IArtifact {
 	setKey: ArtifactSetKey; //e.g. "GladiatorsFinale"
@@ -53,3 +63,25 @@ interface ICharacter {
 		burst: number;
 	};
 }
+
+interface IAchievement {
+	key: AchievementKey;
+	category: AchievementCategoryKey;
+	achieved: boolean;
+	preStage?: AchievementKey; // refer to the previous achievements of a series
+}
+
+interface IWishBanner {
+	key: WishBannerKey;
+	pulls: IWish[];
+}
+
+interface IWish {
+	type: "Weapon" | "Character";
+	key: WeaponKey | CharacterKey;
+	date: Date;
+	pity: 1;
+	banner: BannerKey;
+}
+
+interface IFurnishing {}
