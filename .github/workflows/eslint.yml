@@ -24,7 +24,12 @@ jobs:
           npm install --save-dev @commitlint/{config-conventional,cli}
 
       - name: Lint Commit Messages
-        run: npx commitlint --from=HEAD~1
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            npx commitlint --from=${{ github.event.pull_request.head.sha }}
+          else
+            npx commitlint --from=${{ github.sha }}
+          fi
 
   eslint:
     name: Run eslint scanning
