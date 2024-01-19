@@ -1,26 +1,32 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# ESLint is a tool for identifying and reporting on patterns
-# found in ECMAScript/JavaScript code.
-# More details at https://github.com/eslint/eslint
-# and https://eslint.org
-
-name: ESLint
+name: Convention
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+    branches: ["main"]
   schedule:
-    - cron: '43 22 * * 3'
+    - cron: "43 22 * * 3"
 
 jobs:
+  commitlint:
+    name: Lint Commit Messages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Commitlint
+        run: |
+          npm install --save-dev @commitlint/{config-conventional,cli}
+
+      - name: Lint Commit Messages
+        run: npx commitlint --from=HEAD~1
+
   eslint:
     name: Run eslint scanning
+    needs: commitlint
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -48,3 +54,10 @@ jobs:
         with:
           sarif_file: eslint-results.sarif
           wait-for-processing: true
+      - name: Set job status
+        run: echo "ESLINT_STATUS=success" >> $GITHUB_ENV
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: job-status
+          path: $GITHUB_ENV

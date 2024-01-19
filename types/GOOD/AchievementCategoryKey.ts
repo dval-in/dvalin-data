@@ -1,1 +1,1 @@
-export type AchievementCategoryKey = "";
+export type AchievementCategoryKey = '';

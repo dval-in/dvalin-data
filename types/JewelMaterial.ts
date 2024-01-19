@@ -22,5 +22,5 @@ export type JewelMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	convert?: Array<Item[]>;
+	convert?: Item[][];
 };
