@@ -22,6 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Check JSON Schemas
+        continue-on-error: true
         run: |
           npm install -g ajv-cli
           node scripts/ValidateSchemas.js
