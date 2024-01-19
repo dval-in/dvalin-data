@@ -1,12 +1,12 @@
-export interface SkillAttribute {
+export type SkillAttribute = {
 	/**
 	 * @TJS-required
 	 */
 	label: string;
 	values: string[];
-}
+};
 
-export interface Skill {
+export type Skill = {
 	/**
 	 * @TJS-required
 	 */
@@ -16,9 +16,9 @@ export interface Skill {
 	description: string;
 	info: string;
 	attributes: SkillAttribute[];
-}
+};
 
-export interface Passive {
+export type Passive = {
 	/**
 	 * @TJS-required
 	 */
@@ -26,9 +26,9 @@ export interface Passive {
 	name: string;
 	description: string;
 	level: number;
-}
+};
 
-export interface Constellation {
+export type Constellation = {
 	/**
 	 * @TJS-required
 	 */
@@ -37,9 +37,9 @@ export interface Constellation {
 	name: string;
 	description: string;
 	level: number;
-}
+};
 
-export interface AscensionMaterial {
+export type AscensionMaterial = {
 	/**
 	 * @TJS-required
 	 */
@@ -48,17 +48,17 @@ export interface AscensionMaterial {
 	name: string;
 	amount: number;
 	rarity: number;
-}
+};
 
 export type AscendStat = {
 	/**
 	 * @TJS-required
 	 */
 	label: string;
-	values: (string | number)[] | null;
+	values: Array<string | number> | undefined;
 };
 
-export interface Ascension {
+export type Ascension = {
 	/**
 	 * @TJS-required
 	 */
@@ -69,7 +69,7 @@ export interface Ascension {
 	mat2?: AscensionMaterial;
 	mat3?: AscensionMaterial;
 	mat4?: AscensionMaterial;
-}
+};
 
 export type CharacterVoice = {
 	/**
@@ -114,47 +114,47 @@ export type Outfits = {
 	picture: string;
 };
 
-interface EWeapon {
+type EWeapon = {
 	/**
 	 * @TJS-required
 	 */
 	_id: number;
 	id: string;
-}
+};
 
-interface EArtifact {
+type EArtifact = {
 	/**
 	 * @TJS-required
 	 */
 	_id: number;
 	id: string;
-}
+};
 
-interface EFood {
+type EFood = {
 	/**
 	 * @TJS-required
 	 */
 	_id: number;
 	id: string;
-}
+};
 
-interface EBanner {
+type EBanner = {
 	/**
 	 * @TJS-required
 	 */
 	_id: number;
 	id: string;
-}
+};
 
-interface ETCGCharacterCard {
+type ETCGCharacterCard = {
 	/**
 	 * @TJS-required
 	 */
 	_id: number;
 	id: string;
-}
+};
 
-export interface Character {
+export type Character = {
 	/**
 	 * @TJS-required
 	 */
@@ -172,14 +172,14 @@ export interface Character {
 	rarity: number;
 	birthday: string;
 	pictures: CharacterPicture;
-	outfits: null | Outfits[];
+	outfits: undefined | Outfits[];
 	signatureWeapon: EWeapon;
 	weapons: EWeapon[];
-	signatureArtifactSet: null | EArtifact;
+	signatureArtifactSet: undefined | EArtifact;
 	artifacts: EArtifact[];
 	specialDish: EFood;
 	featuredBanner: EBanner[];
-	tcgCharacterCard: null | ETCGCharacterCard;
+	tcgCharacterCard: undefined | ETCGCharacterCard;
 	constellation: string;
 	domain: string;
 	cv: CharacterVoice;
@@ -188,4 +188,4 @@ export interface Character {
 	constellations: Constellation[];
 	ascension: Ascension[];
 	talentMaterials: TalentMaterial[];
-}
+};

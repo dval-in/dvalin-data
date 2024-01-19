@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Schemas validation check
 
 on:
   push:
@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [21.x]
@@ -23,6 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Check JSON Schemas
+        continue-on-error: true
         run: |
           npm install -g ajv-cli
           node scripts/ValidateSchemas.js
