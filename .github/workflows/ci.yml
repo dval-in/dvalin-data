@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Schemas CHECK
 
 on:
   push:
@@ -15,6 +15,16 @@ jobs:
         node-version: [21.x]
 
     steps:
+      - name: Download job status
+        uses: actions/download-artifact@v2
+        with:
+          name: job-status
+      - name: Check job status
+        run: |
+          if grep -q "ESLINT_STATUS=failure" "$GITHUB_ENV"; then
+            echo "ESLint job failed, aborting."
+            exit 1
+          fi
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2

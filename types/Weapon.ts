@@ -46,7 +46,7 @@ type WeaponStat = {
 	levels: StatLevel[];
 };
 
-export interface Weapon {
+export type Weapon = {
 	/**
 	 * @TJS-required
 	 */
@@ -67,4 +67,4 @@ export interface Weapon {
 		params: [string[]];
 	};
 	refinements: WeaponRefinement[];
-}
+};

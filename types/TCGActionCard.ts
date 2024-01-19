@@ -1,11 +1,11 @@
-export interface ActionCardSkill {
+export type ActionCardSkill = {
 	/**
 	 * @TJS-required
 	 */
 	name: string;
 	desc: string;
-}
-interface Entity {
+};
+type Entity = {
 	/**
 	 * @TJS-required
 	 */
@@ -13,8 +13,8 @@ interface Entity {
 	id: string;
 	name: string;
 	rarity: number;
-}
-interface Energy {
+};
+type Energy = {
 	/**
 	 * @TJS-required
 	 */
@@ -22,8 +22,8 @@ interface Energy {
 	id: string;
 	type: string;
 	count: number;
-}
-export interface TCGActionCard {
+};
+export type TCGActionCard = {
 	/**
 	 * @TJS-required
 	 */
@@ -46,4 +46,4 @@ export interface TCGActionCard {
 		tags: string[];
 	};
 	skills: ActionCardSkill[];
-}
+};

@@ -1,13 +1,13 @@
-export interface FurnitureRecipe {
+export type FurnitureRecipe = {
 	/**
 	 * @TJS-required
 	 */
 	id: string;
 	name: string;
 	amount: string;
-}
+};
 
-export interface FurnitureCategory {
+export type FurnitureCategory = {
 	/**
 	 * @TJS-required
 	 */
@@ -15,9 +15,9 @@ export interface FurnitureCategory {
 	id: number;
 	category: string;
 	type?: string;
-}
+};
 
-export interface Furnishing {
+export type Furnishing = {
 	/**
 	 * @TJS-required
 	 */
@@ -32,4 +32,4 @@ export interface Furnishing {
 	exp?: number;
 	category: FurnitureCategory[];
 	recipe?: FurnitureRecipe[];
-}
+};

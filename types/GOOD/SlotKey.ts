@@ -1,1 +1,1 @@
-export type SlotKey = "flower" | "plume" | "sands" | "goblet" | "circlet";
+export type SlotKey = 'flower' | 'plume' | 'sands' | 'goblet' | 'circlet';

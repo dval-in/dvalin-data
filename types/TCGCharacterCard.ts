@@ -1,4 +1,4 @@
-interface SkillPoint {
+type SkillPoint = {
 	/**
 	 * @TJS-required
 	 */
@@ -6,16 +6,16 @@ interface SkillPoint {
 	id: string;
 	type: string;
 	count: number;
-}
-interface Entity {
+};
+type Entity = {
 	/**
 	 * @TJS-required
 	 */
 	_id: number;
 	id: string;
 	name: string;
-}
-export interface CharacterCardSkill {
+};
+export type CharacterCardSkill = {
 	/**
 	 * @TJS-required
 	 */
@@ -24,8 +24,8 @@ export interface CharacterCardSkill {
 	desc: string;
 	skillTag: string[];
 	points: SkillPoint[];
-}
-export interface TCGCharacterCard {
+};
+export type TCGCharacterCard = {
 	/**
 	 * @TJS-required
 	 */
@@ -44,4 +44,4 @@ export interface TCGCharacterCard {
 		character?: Entity;
 	};
 	skills: CharacterCardSkill[];
-}
+};
