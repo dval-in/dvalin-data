@@ -1,0 +1,19 @@
+env:
+  browser: true
+  es2021: true
+extends: xo
+overrides:
+  - extends:
+      - xo-typescript
+    files:
+      - "*.ts"
+      - "*.tsx"
+    rules:
+      "@typescript-eslint/naming-convention":
+        - "error"
+        - { "selector": "typeAlias", "format": ["PascalCase"] }
+        - { "selector": "enumMember", "format": ["PascalCase"] }
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+rules: {}

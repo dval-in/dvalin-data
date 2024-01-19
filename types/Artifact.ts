@@ -1,4 +1,4 @@
-interface ArtifactSet {
+type ArtifactSet = {
 	/**
 	 * @TJS-required
 	 */
@@ -6,9 +6,9 @@ interface ArtifactSet {
 	id: string;
 	name: string;
 	description?: string;
-}
+};
 
-export interface Artifact {
+export type Artifact = {
 	/**
 	 * @TJS-required
 	 */
@@ -25,4 +25,4 @@ export interface Artifact {
 	onePiece?: string;
 	twoPiece?: string;
 	fourPiece?: string;
-}
+};

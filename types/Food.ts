@@ -42,7 +42,7 @@ type FoodResult = {
 	};
 };
 
-export interface Food {
+export type Food = {
 	/**
 	 * @TJS-required
 	 */
@@ -54,4 +54,4 @@ export interface Food {
 	dishType: string;
 	results: FoodResult;
 	rarity: number;
-}
+};
