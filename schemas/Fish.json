@@ -1,56 +1,56 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-        "_id": {
-            "type": "number"
-        },
-        "bait": {
-            "properties": {
-                "id": {
-                    "type": "string"
-                },
-                "name": {
-                    "type": "string"
-                },
-                "rarity": {
-                    "type": "number"
-                }
-            },
-            "required": [
-                "id",
-                "name",
-                "rarity"
-            ],
-            "type": "object"
-        },
-        "description": {
-            "type": "string"
-        },
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
+    },
+    "bait": {
+      "properties": {
         "id": {
-            "type": "string"
+          "type": "string"
         },
         "name": {
-            "type": "string"
+          "type": "string"
         },
         "rarity": {
-            "type": "number"
-        },
-        "source": {
-            "items": {
-                "type": "string"
-            },
-            "type": "array"
+          "type": "number"
         }
-    },
-    "required": [
-        "_id",
-        "bait",
-        "description",
+      },
+      "required": [
         "id",
         "name",
-        "rarity",
-        "source"
-    ],
-    "type": "object"
+        "rarity"
+      ],
+      "type": "object"
+    },
+    "description": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "number"
+    },
+    "source": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "_id",
+    "bait",
+    "description",
+    "id",
+    "name",
+    "rarity",
+    "source"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-

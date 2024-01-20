@@ -1,72 +1,72 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-        "_id": {
-            "type": "number"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
+    },
+    "craft": {
+      "properties": {
+        "cost": {
+          "type": "number"
         },
-        "craft": {
+        "items": {
+          "items": {
             "properties": {
-                "cost": {
-                    "type": "number"
-                },
-                "items": {
-                    "items": {
-                        "properties": {
-                            "_id": {
-                                "type": "number"
-                            },
-                            "amount": {
-                                "type": "number"
-                            },
-                            "id": {
-                                "type": "string"
-                            },
-                            "name": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "_id",
-                            "amount",
-                            "id",
-                            "name"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                }
+              "_id": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
             },
             "required": [
-                "cost",
-                "items"
+              "_id",
+              "amount",
+              "id",
+              "name"
             ],
             "type": "object"
-        },
-        "description": {
-            "type": "string"
-        },
-        "effect": {
-            "type": "string"
-        },
-        "id": {
-            "type": "string"
-        },
-        "name": {
-            "type": "string"
-        },
-        "rarity": {
-            "type": "number"
+          },
+          "type": "array"
         }
+      },
+      "required": [
+        "cost",
+        "items"
+      ],
+      "type": "object"
     },
-    "required": [
-        "_id",
-        "craft",
-        "description",
-        "effect",
-        "id",
-        "name",
-        "rarity"
-    ],
-    "type": "object"
+    "description": {
+      "type": "string"
+    },
+    "effect": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "_id",
+    "craft",
+    "description",
+    "effect",
+    "id",
+    "name",
+    "rarity"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-

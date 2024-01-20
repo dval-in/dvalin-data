@@ -1,77 +1,148 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "definitions": {
-        "ArtifactSet": {
-            "properties": {
-                "_id": {
-                    "type": "number"
-                },
-                "description": {
-                    "type": "string"
-                },
-                "id": {
-                    "type": "string"
-                },
-                "name": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "_id",
-                "id",
-                "name"
-            ],
-            "type": "object"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
     },
-    "properties": {
+    "circlet": {
+      "properties": {
         "_id": {
-            "type": "number"
+          "type": "number"
         },
-        "circlet": {
-            "$ref": "#/definitions/ArtifactSet"
-        },
-        "flower": {
-            "$ref": "#/definitions/ArtifactSet"
-        },
-        "fourPiece": {
-            "type": "string"
-        },
-        "goblet": {
-            "$ref": "#/definitions/ArtifactSet"
+        "description": {
+          "type": "string"
         },
         "id": {
-            "type": "string"
-        },
-        "max_rarity": {
-            "type": "number"
-        },
-        "min_rarity": {
-            "type": "number"
+          "type": "string"
         },
         "name": {
-            "type": "string"
-        },
-        "onePiece": {
-            "type": "string"
-        },
-        "plume": {
-            "$ref": "#/definitions/ArtifactSet"
-        },
-        "sands": {
-            "$ref": "#/definitions/ArtifactSet"
-        },
-        "twoPiece": {
-            "type": "string"
+          "type": "string"
         }
-    },
-    "required": [
+      },
+      "required": [
         "_id",
         "id",
-        "max_rarity",
-        "min_rarity",
         "name"
-    ],
-    "type": "object"
+      ],
+      "type": "object"
+    },
+    "flower": {
+      "properties": {
+        "_id": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "id",
+        "name"
+      ],
+      "type": "object"
+    },
+    "fourPiece": {
+      "type": "string"
+    },
+    "goblet": {
+      "properties": {
+        "_id": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "id",
+        "name"
+      ],
+      "type": "object"
+    },
+    "id": {
+      "type": "string"
+    },
+    "maxRarity": {
+      "type": "number"
+    },
+    "minRarity": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "onePiece": {
+      "type": "string"
+    },
+    "plume": {
+      "properties": {
+        "_id": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "id",
+        "name"
+      ],
+      "type": "object"
+    },
+    "sands": {
+      "properties": {
+        "_id": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "_id",
+        "id",
+        "name"
+      ],
+      "type": "object"
+    },
+    "twoPiece": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "id",
+    "maxRarity",
+    "minRarity",
+    "name"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-

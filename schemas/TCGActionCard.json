@@ -1,153 +1,202 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "definitions": {
-        "ActionCardSkill": {
-            "properties": {
-                "desc": {
-                    "type": "string"
-                },
-                "name": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "desc",
-                "name"
-            ],
-            "type": "object"
-        },
-        "Energy": {
-            "properties": {
-                "_id": {
-                    "type": "number"
-                },
-                "count": {
-                    "type": "number"
-                },
-                "id": {
-                    "type": "string"
-                },
-                "type": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "_id",
-                "count",
-                "id",
-                "type"
-            ],
-            "type": "object"
-        },
-        "Entity": {
-            "properties": {
-                "_id": {
-                    "type": "number"
-                },
-                "id": {
-                    "type": "string"
-                },
-                "name": {
-                    "type": "string"
-                },
-                "rarity": {
-                    "type": "number"
-                }
-            },
-            "required": [
-                "_id",
-                "id",
-                "name",
-                "rarity"
-            ],
-            "type": "object"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
     },
-    "properties": {
-        "_id": {
-            "type": "number"
+    "attributes": {
+      "properties": {
+        "artifact": {
+          "properties": {
+            "_id": {
+              "type": "number"
+            },
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "rarity": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "_id",
+            "id",
+            "name",
+            "rarity"
+          ],
+          "type": "object"
         },
-        "attributes": {
+        "cardType": {
+          "type": "string"
+        },
+        "character": {
+          "properties": {
+            "_id": {
+              "type": "number"
+            },
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "rarity": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "_id",
+            "id",
+            "name",
+            "rarity"
+          ],
+          "type": "object"
+        },
+        "cost": {
+          "type": "number"
+        },
+        "costType": {
+          "type": "string"
+        },
+        "energy": {
+          "items": {
             "properties": {
-                "artifact": {
-                    "$ref": "#/definitions/Entity"
-                },
-                "cardType": {
-                    "type": "string"
-                },
-                "character": {
-                    "$ref": "#/definitions/Entity"
-                },
-                "cost": {
-                    "type": "number"
-                },
-                "costType": {
-                    "type": "string"
-                },
-                "energy": {
-                    "items": {
-                        "$ref": "#/definitions/Energy"
-                    },
-                    "type": "array"
-                },
-                "food": {
-                    "$ref": "#/definitions/Entity"
-                },
-                "source": {
-                    "type": "string"
-                },
-                "tags": {
-                    "items": {
-                        "type": "string"
-                    },
-                    "type": "array"
-                },
-                "weapon": {
-                    "$ref": "#/definitions/Entity"
-                }
+              "_id": {
+                "type": "number"
+              },
+              "count": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
             },
             "required": [
-                "cardType",
-                "cost",
-                "costType",
-                "energy",
-                "source",
-                "tags"
+              "_id",
+              "count",
+              "id",
+              "type"
             ],
             "type": "object"
+          },
+          "type": "array"
         },
-        "desc": {
-            "type": "string"
-        },
-        "id": {
-            "type": "string"
-        },
-        "in_play_description": {
-            "type": "string"
-        },
-        "name": {
-            "type": "string"
-        },
-        "skills": {
-            "items": {
-                "$ref": "#/definitions/ActionCardSkill"
+        "food": {
+          "properties": {
+            "_id": {
+              "type": "number"
             },
-            "type": "array"
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "rarity": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "_id",
+            "id",
+            "name",
+            "rarity"
+          ],
+          "type": "object"
         },
-        "title": {
+        "source": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
             "type": "string"
+          },
+          "type": "array"
+        },
+        "weapon": {
+          "properties": {
+            "_id": {
+              "type": "number"
+            },
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "rarity": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "_id",
+            "id",
+            "name",
+            "rarity"
+          ],
+          "type": "object"
         }
+      },
+      "required": [
+        "cardType",
+        "cost",
+        "costType",
+        "energy",
+        "source",
+        "tags"
+      ],
+      "type": "object"
     },
-    "required": [
-        "_id",
-        "attributes",
-        "desc",
-        "id",
-        "in_play_description",
-        "name",
-        "skills",
-        "title"
-    ],
-    "type": "object"
+    "desc": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "in_play_description": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "skills": {
+      "items": {
+        "properties": {
+          "desc": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "desc",
+          "name"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "attributes",
+    "desc",
+    "id",
+    "in_play_description",
+    "name",
+    "skills",
+    "title"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-
