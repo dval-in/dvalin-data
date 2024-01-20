@@ -10,7 +10,7 @@ export type Skill = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;
@@ -32,7 +32,7 @@ export type Constellation = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;
@@ -43,7 +43,7 @@ export type AscensionMaterial = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	amount: number;
@@ -108,7 +108,7 @@ export type Outfits = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	picture: string;
@@ -118,7 +118,7 @@ type EWeapon = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 };
 
@@ -126,7 +126,7 @@ type EArtifact = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 };
 
@@ -134,7 +134,7 @@ type EFood = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 };
 
@@ -142,7 +142,7 @@ type EBanner = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 };
 
@@ -150,7 +150,7 @@ type ETCGCharacterCard = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 };
 
@@ -158,7 +158,7 @@ export type Character = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	title?: string;

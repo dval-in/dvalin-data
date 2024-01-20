@@ -2,7 +2,7 @@ type Item = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	amount: number;
@@ -20,7 +20,7 @@ export type CommonMaterial = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;

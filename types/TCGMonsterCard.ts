@@ -2,7 +2,7 @@ type SkillPoint = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	type: string;
 	count: number;
@@ -11,7 +11,7 @@ type Entity = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 };
@@ -29,7 +29,7 @@ export type TCGMonsterCard = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	title?: string;

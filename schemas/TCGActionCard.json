@@ -1,16 +1,10 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "attributes": {
       "properties": {
         "artifact": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "id": {
               "type": "string"
             },
@@ -22,7 +16,6 @@
             }
           },
           "required": [
-            "_id",
             "id",
             "name",
             "rarity"
@@ -34,9 +27,6 @@
         },
         "character": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "id": {
               "type": "string"
             },
@@ -48,7 +38,6 @@
             }
           },
           "required": [
-            "_id",
             "id",
             "name",
             "rarity"
@@ -64,9 +53,6 @@
         "energy": {
           "items": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "count": {
                 "type": "number"
               },
@@ -78,7 +64,6 @@
               }
             },
             "required": [
-              "_id",
               "count",
               "id",
               "type"
@@ -89,9 +74,6 @@
         },
         "food": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "id": {
               "type": "string"
             },
@@ -103,7 +85,6 @@
             }
           },
           "required": [
-            "_id",
             "id",
             "name",
             "rarity"
@@ -121,9 +102,6 @@
         },
         "weapon": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "id": {
               "type": "string"
             },
@@ -135,7 +113,6 @@
             }
           },
           "required": [
-            "_id",
             "id",
             "name",
             "rarity"
@@ -188,7 +165,6 @@
     }
   },
   "required": [
-    "_id",
     "attributes",
     "desc",
     "id",

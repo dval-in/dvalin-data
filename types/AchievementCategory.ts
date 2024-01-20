@@ -14,7 +14,7 @@ export type AchievementCategory = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	order: number;
