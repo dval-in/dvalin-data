@@ -2,53 +2,53 @@
 export interface EventList {
     list: EventWrapper[]
     total: number
-    type_list: EventTypeList[]
+    typeList: EventTypeList[]
     alert: boolean
-    alert_id: number
+    alertId: number
     timezone: number
     t: string
-    pic_list: any[]
-    pic_total: number
-    pic_type_list: any[]
-    pic_alert: boolean
-    pic_alert_id: number
-    static_sign: string
+    picList: any[]
+    picTotal: number
+    picTypeList: any[]
+    picAlert: boolean
+    picAlertId: number
+    staticSign: string
 }
   
 export interface EventWrapper {
     list: Event[]
-    type_id: number
-    type_label: string
+    typeId: number
+    typeLabel: string
 }
   
 export interface Event {
-    ann_id: number
+    annId: number
     title: string
-    subtitle: string
+    subTitle: string
     banner: string
     content: string
-    type_label: string
-    tag_label: string
-    tag_icon: string
-    login_alert: number
+    typeLabel: string
+    tagLabel: string
+    tagIcon: string
+    loginAlert: number
     lang: string
-    start_time: string
-    end_time: string
+    startTime: string
+    endTime: string
     type: number
     remind: number
     alert: number
-    tag_start_time: string
-    tag_end_time: string
-    remind_ver: number
-    has_content: boolean
-    extra_remind: number
-    tag_icon_hover: string
+    tagStartTime: string
+    tagEndTime: string
+    remindVer: number
+    hasContent: boolean
+    extraRemind: number
+    tagIconHover: string
 }
 
 //random hoyo thing
 export interface EventTypeList {
     id: number
     name: string
-    mi18n_name: string
+    mi18nName: string
 }
   
