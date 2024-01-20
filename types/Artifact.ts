@@ -15,8 +15,8 @@ export type Artifact = {
 	_id: number;
 	id: string;
 	name: string;
-	min_rarity: number;
-	max_rarity: number;
+	minRarity: number;
+	maxRarity: number;
 	flower?: ArtifactSet;
 	plume?: ArtifactSet;
 	sands?: ArtifactSet;
