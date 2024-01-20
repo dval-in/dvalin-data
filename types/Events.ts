@@ -5,7 +5,7 @@ export interface EventList {
     typeList: EventTypeList[]
     alert: boolean
     alertId: number
-    timezone: number
+    timeZone: number
     t: string
     picList: any[]
     picTotal: number
