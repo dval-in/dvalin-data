@@ -1,9 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "craft": {
       "properties": {
         "items": {
@@ -44,9 +41,6 @@
     "fish": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "id": {
             "type": "string"
           },
@@ -58,7 +52,6 @@
           }
         },
         "required": [
-          "_id",
           "id",
           "name",
           "rarity"
@@ -78,7 +71,6 @@
     }
   },
   "required": [
-    "_id",
     "craft",
     "description",
     "fish",

@@ -1,24 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "affiliation": {
       "type": "string"
     },
     "artifacts": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "id": {
             "type": "string"
           }
         },
         "required": [
-          "_id",
           "id"
         ],
         "type": "object"
@@ -43,9 +36,6 @@
           },
           "mat1": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -60,7 +50,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -70,9 +59,6 @@
           },
           "mat2": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -87,7 +73,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -97,9 +82,6 @@
           },
           "mat3": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -114,7 +96,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -124,9 +105,6 @@
           },
           "mat4": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -141,7 +119,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -191,9 +168,6 @@
     "constellations": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "description": {
             "type": "string"
           },
@@ -208,7 +182,6 @@
           }
         },
         "required": [
-          "_id",
           "description",
           "id",
           "level",
@@ -253,15 +226,11 @@
     "featuredBanner": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "id": {
             "type": "string"
           }
         },
         "required": [
-          "_id",
           "id"
         ],
         "type": "object"
@@ -280,9 +249,6 @@
     "outfits": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "id": {
             "type": "string"
           },
@@ -294,7 +260,6 @@
           }
         },
         "required": [
-          "_id",
           "id",
           "name",
           "picture"
@@ -376,30 +341,22 @@
     },
     "signatureArtifactSet": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "id": {
           "type": "string"
         }
       },
       "required": [
-        "_id",
         "id"
       ],
       "type": "object"
     },
     "signatureWeapon": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "id": {
           "type": "string"
         }
       },
       "required": [
-        "_id",
         "id"
       ],
       "type": "object"
@@ -407,9 +364,6 @@
     "skills": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "attributes": {
             "items": {
               "properties": {
@@ -445,7 +399,6 @@
           }
         },
         "required": [
-          "_id",
           "attributes",
           "description",
           "id",
@@ -458,15 +411,11 @@
     },
     "specialDish": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "id": {
           "type": "string"
         }
       },
       "required": [
-        "_id",
         "id"
       ],
       "type": "object"
@@ -483,9 +432,6 @@
           "items": {
             "items": {
               "properties": {
-                "_id": {
-                  "type": "number"
-                },
                 "amount": {
                   "type": "number"
                 },
@@ -500,7 +446,6 @@
                 }
               },
               "required": [
-                "_id",
                 "amount",
                 "id",
                 "name",
@@ -525,15 +470,11 @@
     },
     "tcgCharacterCard": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "id": {
           "type": "string"
         }
       },
       "required": [
-        "_id",
         "id"
       ],
       "type": "object"
@@ -547,15 +488,11 @@
     "weapons": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "id": {
             "type": "string"
           }
         },
         "required": [
-          "_id",
           "id"
         ],
         "type": "object"
@@ -564,7 +501,6 @@
     }
   },
   "required": [
-    "_id",
     "affiliation",
     "artifacts",
     "ascension",

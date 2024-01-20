@@ -2,37 +2,26 @@ const fs = require('fs');
 const path = require('path');
 
 const dataDirPath = './data';
+const regex = /"_id":\s*\d+,/g;
 
-function snakeToCamel(str) {
-	return str.replace(/([-_][a-z])/g, group => group.toUpperCase().replace('-', '').replace('_', ''));
+function processFile(filePath) {
+	const data = fs.readFileSync(filePath, 'utf8');
+	const modifiedData = data.replace(regex, '');
+
+	fs.writeFileSync(filePath, modifiedData);
 }
 
-function processJsonFile(filePath) {
-	const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-
-	const newData = {};
-	for (const key in data) {
-		if (data.hasOwnProperty(key)) {
-			const newKey = snakeToCamel(key);
-			newData[newKey] = data[key];
-			if (newKey === 'birthday') {
-				newData[newKey] = `${data[key][0]}/${data[key][1]}`;
-			}
+function traverseDirectory(directory) {
+	fs.readdirSync(directory, {withFileTypes: true}).forEach(entry => {
+		const entryPath = path.join(directory, entry.name);
+		if (entry.isDirectory()) {
+			traverseDirectory(entryPath);
+		} else if (entry.isFile() && entry.name.endsWith('.json')) {
+			processFile(entryPath);
 		}
-	}
-
-	fs.writeFileSync(filePath, JSON.stringify(newData, null, 2));
+	});
 }
 
-fs.readdirSync(dataDirPath).forEach(langFolder => {
-	const characterDirPath = path.join(dataDirPath, langFolder, 'Character');
-	if (fs.existsSync(characterDirPath)) {
-		fs.readdirSync(characterDirPath).forEach(file => {
-			if (file.endsWith('.json')) {
-				processJsonFile(path.join(characterDirPath, file));
-			}
-		});
-	}
-});
+traverseDirectory(dataDirPath);
 
-console.log('JSON files have been updated.');
+console.log('Files have been processed.');

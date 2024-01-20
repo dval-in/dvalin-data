@@ -11,7 +11,7 @@ export type FurnitureCategory = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: number;
 	category: string;
 	type?: string;
@@ -21,7 +21,7 @@ export type Furnishing = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	originalId: number;
 	name: string;

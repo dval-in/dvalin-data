@@ -2,7 +2,7 @@ type FishBait = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	rarity: number;
@@ -12,7 +12,7 @@ export type Bait = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;

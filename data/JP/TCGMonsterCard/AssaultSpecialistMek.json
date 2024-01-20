@@ -1,74 +1,73 @@
 {
-	"_id": 3006,
-	"id": "AssaultSpecialistMek",
-	"name": "攻堅特化型マシナリー",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"card_type": "キャラカード",
-		"energy": 2,
-		"element": "元素タイプなし",
-		"weapon": "他の武器",
-		"faction": [
-			"魔物"
-		],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "OffensiveShieldstrike",
-			"name": "攻勢盾撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を1与える。",
-			"skillTag": [
-				"通常攻撃"
-			],
-			"points": [
-				{
-					"_id": 1109,
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DoubleStrike",
-			"name": "ダブル打撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与える。",
-			"skillTag": [
-				"元素スキル"
-			],
-			"points": [
-				{
-					"_id": 1108,
-					"id": "MatchingElement",
-					"type": "同一元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "LeapingSmash",
-			"name": "ジャンプ鈍撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を4与える。",
-			"skillTag": [
-				"元素爆発"
-			],
-			"points": [
-				{
-					"_id": 1108,
-					"id": "MatchingElement",
-					"type": "同一元素",
-					"count": 3
-				},
-				{
-					"_id": 1110,
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		}
-	]
+  "id": "AssaultSpecialistMek",
+  "name": "攻堅特化型マシナリー",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "元素タイプなし",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "OffensiveShieldstrike",
+      "name": "攻勢盾撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DoubleStrike",
+      "name": "ダブル打撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          
+          "id": "MatchingElement",
+          "type": "同一元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeapingSmash",
+      "name": "ジャンプ鈍撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を4与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          
+          "id": "MatchingElement",
+          "type": "同一元素",
+          "count": 3
+        },
+        {
+          
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ]
 }
