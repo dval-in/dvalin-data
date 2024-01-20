@@ -1,83 +1,83 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-        "characters": {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "characters": {
+      "items": {
+        "properties": {
+          "domainName": {
+            "type": "string"
+          },
+          "rotation": {
             "items": {
-                "properties": {
-                    "domainName": {
-                        "type": "string"
-                    },
-                    "rotation": {
-                        "items": {
-                            "properties": {
-                                "day": {
-                                    "type": "string"
-                                },
-                                "ids": {
-                                    "items": {
-                                        "type": "string"
-                                    },
-                                    "type": "array"
-                                }
-                            },
-                            "required": [
-                                "day",
-                                "ids"
-                            ],
-                            "type": "object"
-                        },
-                        "type": "array"
-                    }
+              "properties": {
+                "day": {
+                  "type": "string"
                 },
-                "required": [
-                    "domainName",
-                    "rotation"
-                ],
-                "type": "object"
+                "ids": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "day",
+                "ids"
+              ],
+              "type": "object"
             },
             "type": "array"
+          }
         },
-        "weapons": {
+        "required": [
+          "domainName",
+          "rotation"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "weapons": {
+      "items": {
+        "properties": {
+          "domainName": {
+            "type": "string"
+          },
+          "rotation": {
             "items": {
-                "properties": {
-                    "domainName": {
-                        "type": "string"
-                    },
-                    "rotation": {
-                        "items": {
-                            "properties": {
-                                "day": {
-                                    "type": "string"
-                                },
-                                "ids": {
-                                    "items": {
-                                        "type": "string"
-                                    },
-                                    "type": "array"
-                                }
-                            },
-                            "required": [
-                                "day",
-                                "ids"
-                            ],
-                            "type": "object"
-                        },
-                        "type": "array"
-                    }
+              "properties": {
+                "day": {
+                  "type": "string"
                 },
-                "required": [
-                    "domainName",
-                    "rotation"
-                ],
-                "type": "object"
+                "ids": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "day",
+                "ids"
+              ],
+              "type": "object"
             },
             "type": "array"
-        }
-    },
-    "required": [
-        "characters",
-        "weapons"
-    ],
-    "type": "object"
+          }
+        },
+        "required": [
+          "domainName",
+          "rotation"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "characters",
+    "weapons"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-
