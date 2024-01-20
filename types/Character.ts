@@ -170,7 +170,7 @@ export type Character = {
 	affiliation: string;
 	region?: string;
 	rarity: number;
-	birthday: string;
+	birthday: string; // MM-DD
 	pictures: CharacterPicture;
 	outfits: undefined | Outfits[];
 	signatureWeapon: EWeapon;
