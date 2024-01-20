@@ -1,74 +1,74 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-        "_id": {
-            "type": "number"
-        },
-        "endTime": {
-            "type": "string"
-        },
-        "featured": {
-            "anyOf": [
-                {
-                    "items": {
-                        "properties": {
-                            "_id": {
-                                "type": "number"
-                            },
-                            "id": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "_id",
-                            "id"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                },
-                {
-                    "items": {
-                        "properties": {
-                            "_id": {
-                                "type": "number"
-                            },
-                            "id": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "_id",
-                            "id"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                }
-            ]
-        },
-        "id": {
-            "type": "string"
-        },
-        "name": {
-            "type": "string"
-        },
-        "picture": {
-            "type": "string"
-        },
-        "startTime": {
-            "type": "string"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
     },
-    "required": [
-        "_id",
-        "endTime",
-        "featured",
-        "id",
-        "name",
-        "picture",
-        "startTime"
-    ],
-    "type": "object"
+    "endTime": {
+      "type": "string"
+    },
+    "featured": {
+      "anyOf": [
+        {
+          "items": {
+            "properties": {
+              "_id": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "_id",
+              "id"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        {
+          "items": {
+            "properties": {
+              "_id": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "_id",
+              "id"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      ]
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "startTime": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "endTime",
+    "featured",
+    "id",
+    "name",
+    "picture",
+    "startTime"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-

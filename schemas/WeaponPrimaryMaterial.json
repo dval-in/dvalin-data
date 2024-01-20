@@ -1,89 +1,89 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-        "_id": {
-            "type": "number"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
+    },
+    "craft": {
+      "properties": {
+        "cost": {
+          "type": "number"
         },
-        "craft": {
+        "items": {
+          "items": {
             "properties": {
-                "cost": {
-                    "type": "number"
-                },
-                "items": {
-                    "items": {
-                        "properties": {
-                            "_id": {
-                                "type": "number"
-                            },
-                            "amount": {
-                                "type": "number"
-                            },
-                            "id": {
-                                "type": "string"
-                            },
-                            "name": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "_id",
-                            "amount",
-                            "id",
-                            "name"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                }
+              "_id": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
             },
             "required": [
-                "cost",
-                "items"
+              "_id",
+              "amount",
+              "id",
+              "name"
             ],
             "type": "object"
-        },
-        "days": {
-            "items": {
-                "type": "string"
-            },
-            "type": "array"
-        },
-        "description": {
-            "type": "string"
-        },
-        "domain": {
-            "type": "string"
-        },
-        "id": {
-            "type": "string"
-        },
-        "location": {
-            "type": "string"
-        },
-        "name": {
-            "type": "string"
-        },
-        "rarity": {
-            "type": "number"
-        },
-        "source": {
-            "items": {
-                "type": "string"
-            },
-            "type": "array"
+          },
+          "type": "array"
         }
+      },
+      "required": [
+        "cost",
+        "items"
+      ],
+      "type": "object"
     },
-    "required": [
-        "_id",
-        "days",
-        "description",
-        "domain",
-        "id",
-        "location",
-        "name",
-        "rarity",
-        "source"
-    ],
-    "type": "object"
+    "days": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "description": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "number"
+    },
+    "source": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "_id",
+    "days",
+    "description",
+    "domain",
+    "id",
+    "location",
+    "name",
+    "rarity",
+    "source"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-

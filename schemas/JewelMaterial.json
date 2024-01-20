@@ -1,103 +1,103 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-        "_id": {
-            "type": "number"
-        },
-        "convert": {
-            "items": {
-                "items": {
-                    "properties": {
-                        "_id": {
-                            "type": "number"
-                        },
-                        "amount": {
-                            "type": "number"
-                        },
-                        "id": {
-                            "type": "string"
-                        },
-                        "name": {
-                            "type": "string"
-                        }
-                    },
-                    "required": [
-                        "_id",
-                        "amount",
-                        "id",
-                        "name"
-                    ],
-                    "type": "object"
-                },
-                "type": "array"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
+    },
+    "convert": {
+      "items": {
+        "items": {
+          "properties": {
+            "_id": {
+              "type": "number"
             },
-            "type": "array"
+            "amount": {
+              "type": "number"
+            },
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "_id",
+            "amount",
+            "id",
+            "name"
+          ],
+          "type": "object"
         },
-        "craft": {
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "craft": {
+      "properties": {
+        "cost": {
+          "type": "number"
+        },
+        "items": {
+          "items": {
             "properties": {
-                "cost": {
-                    "type": "number"
-                },
-                "items": {
-                    "items": {
-                        "properties": {
-                            "_id": {
-                                "type": "number"
-                            },
-                            "amount": {
-                                "type": "number"
-                            },
-                            "id": {
-                                "type": "string"
-                            },
-                            "name": {
-                                "type": "string"
-                            }
-                        },
-                        "required": [
-                            "_id",
-                            "amount",
-                            "id",
-                            "name"
-                        ],
-                        "type": "object"
-                    },
-                    "type": "array"
-                }
+              "_id": {
+                "type": "number"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              }
             },
             "required": [
-                "cost",
-                "items"
+              "_id",
+              "amount",
+              "id",
+              "name"
             ],
             "type": "object"
-        },
-        "description": {
-            "type": "string"
-        },
-        "id": {
-            "type": "string"
-        },
-        "name": {
-            "type": "string"
-        },
-        "rarity": {
-            "type": "number"
-        },
-        "source": {
-            "items": {
-                "type": "string"
-            },
-            "type": "array"
+          },
+          "type": "array"
         }
+      },
+      "required": [
+        "cost",
+        "items"
+      ],
+      "type": "object"
     },
-    "required": [
-        "_id",
-        "description",
-        "id",
-        "name",
-        "rarity",
-        "source"
-    ],
-    "type": "object"
+    "description": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "rarity": {
+      "type": "number"
+    },
+    "source": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "_id",
+    "description",
+    "id",
+    "name",
+    "rarity",
+    "source"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-

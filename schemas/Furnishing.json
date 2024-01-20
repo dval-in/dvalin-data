@@ -1,98 +1,90 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "definitions": {
-        "FurnitureCategory": {
-            "properties": {
-                "_id": {
-                    "type": "number"
-                },
-                "category": {
-                    "type": "string"
-                },
-                "id": {
-                    "type": "number"
-                },
-                "type": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "_id",
-                "category",
-                "id"
-            ],
-            "type": "object"
-        },
-        "FurnitureRecipe": {
-            "properties": {
-                "amount": {
-                    "type": "string"
-                },
-                "id": {
-                    "type": "string"
-                },
-                "name": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "amount",
-                "id",
-                "name"
-            ],
-            "type": "object"
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "_id": {
+      "type": "number"
     },
-    "properties": {
-        "_id": {
+    "category": {
+      "items": {
+        "properties": {
+          "_id": {
             "type": "number"
-        },
-        "category": {
-            "items": {
-                "$ref": "#/definitions/FurnitureCategory"
-            },
-            "type": "array"
-        },
-        "description": {
+          },
+          "category": {
             "type": "string"
-        },
-        "energy": {
+          },
+          "id": {
             "type": "number"
-        },
-        "exp": {
-            "type": "number"
-        },
-        "id": {
+          },
+          "type": {
             "type": "string"
+          }
         },
-        "load": {
-            "type": "number"
-        },
-        "name": {
-            "type": "string"
-        },
-        "originalId": {
-            "type": "number"
-        },
-        "rarity": {
-            "type": "number"
-        },
-        "recipe": {
-            "items": {
-                "$ref": "#/definitions/FurnitureRecipe"
-            },
-            "type": "array"
-        }
+        "required": [
+          "_id",
+          "category",
+          "id"
+        ],
+        "type": "object"
+      },
+      "type": "array"
     },
-    "required": [
-        "_id",
-        "category",
-        "description",
-        "id",
-        "name",
-        "originalId",
-        "rarity"
-    ],
-    "type": "object"
+    "description": {
+      "type": "string"
+    },
+    "energy": {
+      "type": "number"
+    },
+    "exp": {
+      "type": "number"
+    },
+    "id": {
+      "type": "string"
+    },
+    "load": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "originalId": {
+      "type": "number"
+    },
+    "rarity": {
+      "type": "number"
+    },
+    "recipe": {
+      "items": {
+        "properties": {
+          "amount": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "amount",
+          "id",
+          "name"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "_id",
+    "category",
+    "description",
+    "id",
+    "name",
+    "originalId",
+    "rarity"
+  ],
+  "type": "object",
+  "additionalProperties": false
 }
-
