@@ -112,46 +112,7 @@ export type Outfits = {
 	id: string;
 	name: string;
 	picture: string;
-};
-
-type EWeapon = {
-	/**
-	 * @TJS-required
-	 */
-
-	id: string;
-};
-
-type EArtifact = {
-	/**
-	 * @TJS-required
-	 */
-
-	id: string;
-};
-
-type EFood = {
-	/**
-	 * @TJS-required
-	 */
-
-	id: string;
-};
-
-type EBanner = {
-	/**
-	 * @TJS-required
-	 */
-
-	id: string;
-};
-
-type ETCGCharacterCard = {
-	/**
-	 * @TJS-required
-	 */
-
-	id: string;
+	description: string;
 };
 
 export type Character = {
@@ -173,13 +134,13 @@ export type Character = {
 	birthday: string; // MM-DD
 	pictures: CharacterPicture;
 	outfits: undefined | Outfits[];
-	signatureWeapon: EWeapon;
-	weapons: EWeapon[];
-	signatureArtifactSet: undefined | EArtifact;
-	artifacts: EArtifact[];
-	specialDish: EFood;
-	featuredBanner: EBanner[];
-	tcgCharacterCard: undefined | ETCGCharacterCard;
+	signatureWeapon: string; // Id
+	weapons: string[]; // Id
+	signatureArtifactSet: undefined | string; // Id
+	artifacts: string[]; // Id
+	specialDish: string; // Id
+	featuredBanner: string[];
+	tcgCharacterCard: undefined | string; // Id
 	constellation: string;
 	domain: string;
 	cv: CharacterVoice;
