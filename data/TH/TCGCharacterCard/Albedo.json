@@ -1,90 +1,83 @@
 {
-  "id": "Albedo",
-  "name": "Albedo",
-  "title": "องค์ชายชอล์กขาว - Albedo",
-  "desc": "ดินดำและชอล์กขาว สีแดงชาดและสีเหลืองทอง",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุหิน",
-    "weapon": "ดาบ",
-    "faction": [
-      "Mondstadt"
-    ],
-    "talent_card": {
-      
-      "id": "DescentOfDivinity",
-      "name": "Descent of Divinity"
+    "id": "Albedo",
+    "name": "Albedo",
+    "title": "องค์ชายชอล์กขาว - Albedo",
+    "desc": "ดินดำและชอล์กขาว สีแดงชาดและสีเหลืองทอง",
+    "attributes": {
+        "hp": 10,
+        "card_type": "การ์ดตัวละคร",
+        "energy": 2,
+        "element": "ธาตุหิน",
+        "weapon": "ดาบ",
+        "faction": [
+            "Mondstadt"
+        ],
+        "talent_card": {
+            "id": "DescentOfDivinity",
+            "name": "Descent of Divinity"
+        },
+        "source": "ได้รับหลังจากเชิญ Albedo ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+        "character": {
+            "id": "Albedo",
+            "name": "Albedo",
+            "rarity": 5
+        }
     },
-    "source": "ได้รับหลังจากเชิญ Albedo ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Albedo",
-      "name": "Albedo",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "FavoniusBladeworkWeiss",
-      "name": "Favonius Bladework - Weiss",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
+    "skills": [
         {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
+            "id": "FavoniusBladeworkWeiss",
+            "name": "Favonius Bladework - Weiss",
+            "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+            "skillTag": [
+                "โจมตีปกติ"
+            ],
+            "points": [
+                {
+                    "id": "Geo",
+                    "type": "ธาตุหิน",
+                    "count": 1
+                },
+                {
+                    "id": "UnalignedElement",
+                    "type": "ธาตุไร้สี",
+                    "count": 2
+                }
+            ]
         },
         {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "AbiogenesisSolarIsotoma",
-      "name": "Abiogenesis: Solar Isotoma",
-      "desc": "เรียก <span style=\"color:#FFFFFFFF\">Solar Isotoma</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "RiteOfProgenitureTectonicTide",
-      "name": "Rite of Progeniture: Tectonic Tide",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 4 หน่วย หากมี <span style=\"color:#FFFFFFFF\">Solar Isotoma</span> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
+            "id": "AbiogenesisSolarIsotoma",
+            "name": "Abiogenesis: Solar Isotoma",
+            "desc": "เรียก <span style=\"color:#FFFFFFFF\">Solar Isotoma</span>",
+            "skillTag": [
+                "สกิลธาตุ"
+            ],
+            "points": [
+                {
+                    "id": "Geo",
+                    "type": "ธาตุหิน",
+                    "count": 3
+                }
+            ]
         },
         {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
+            "id": "RiteOfProgenitureTectonicTide",
+            "name": "Rite of Progeniture: Tectonic Tide",
+            "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 4 หน่วย หากมี <span style=\"color:#FFFFFFFF\">Solar Isotoma</span> อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+            "skillTag": [
+                "ท่าไม้ตาย"
+            ],
+            "points": [
+                {
+                    "id": "Geo",
+                    "type": "ธาตุหิน",
+                    "count": 3
+                },
+                {
+                    "id": "Energy",
+                    "type": "พลังงาน",
+                    "count": 2
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
