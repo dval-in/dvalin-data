@@ -5,9 +5,9 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const charName = 'Charlotte';
-const charCode = '088';
-const charNameurl = 'charlotte';
+const charName = 'Chevreuse';
+const charCode = '090';
+const charNameurl = 'chevreuse';
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
 let outfitId = '';
@@ -27,7 +27,7 @@ const missingFields = {
 	},
 	signatureArtifactSet: '',
 	signatureWeapon: '',
-	specialDish: 'ExclusiveScoopGourmetColumn',
+	specialDish: 'SinTheKindThatDoesntNeedToBeDealtWith',
 	tcgCharacterCard: '',
 };
 
