@@ -5,11 +5,12 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const charName = 'Alhaitham';
+const charName = 'Aloy';
 const charCode = '062';
 const charNameurl = 'aloy';
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
+let outfitId = '';
 
 // Define the JSON object with all missing fields
 const missingFields = {
@@ -31,11 +32,11 @@ const missingFields = {
 		profile: `Character/${charName}/Profile.webp`,
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
-	signatureArtifactSet: 'GildedDreams',
-	signatureWeapon: 'LightOfFoliarIncision',
-	specialDish: 'IdealCircumstance',
-	tcgCharacterCard: 'Alhaitham',
-	weapons: ['LightOfFoliarIncision', 'PrimordialJadeCutter', 'MistsplitterReforged', 'HaranGeppakuFutsu', 'FreedomSworn', 'TheBlackSword', 'IronSting'],
+	signatureArtifactSet: '',
+	signatureWeapon: 'Predator',
+	specialDish: 'SatietyGel',
+	tcgCharacterCard: '',
+	weapons: ['PolarStar', 'SacrificialBow', 'SkywardHarp', 'ThunderingPulse', 'AquaSimulacra', 'ElegyForTheEnd', 'TheStringless'],
 };
 
 async function getOutfit() {
@@ -73,6 +74,8 @@ async function getOutfit() {
 		console.error(`Error fetching or parsing English data: ${error}`);
 		return; // Exit if unable to fetch English version
 	}
+
+	outfitId = id;
 
 	// Then, iterate over each language
 	for (const [lang, query] of Object.entries(langCorrespondence)) {
@@ -120,12 +123,13 @@ async function updateCharacterFile(filePath, outfitDataForLang) {
 
 async function updateJson(outfitsByLang) {
 	fs.readdirSync(dataDirPath).forEach(langFolder => {
-		const charFilePath = path.join(dataDirPath, langFolder, 'Character', `${global.charName}.json`);
+		const charFilePath = path.join(dataDirPath, langFolder, 'Character', `${charName}.json`);
 		if (fs.existsSync(charFilePath)) {
 			const outfitDataForLang = outfitsByLang[langFolder];
 			updateCharacterFile(charFilePath, outfitDataForLang);
 		}
 	});
+	console.log('Character files have been updated.');
 }
 
 async function downloadPictures() {
@@ -162,7 +166,7 @@ async function downloadPictures() {
 
 	// Special case for 'outfit'
 	const outfitUrl = `${honeyhunterworld}/img/i_n2${charCode}00.webp?x84769`;
-	await downloadImage('outfit', outfitUrl, directory + '/Outfit');
+	await downloadImage(outfitId, outfitUrl, directory + '/Outfit');
 }
 
 async function downloadImage(type, url, directory) {
@@ -182,10 +186,15 @@ async function downloadImage(type, url, directory) {
 	}
 }
 
-getOutfit().then(outfitsByLang => {
-	updateJson(outfitsByLang);
-});
+async function main() {
+	try {
+		const outfitsByLang = await getOutfit();
+		await updateJson(outfitsByLang);
+		await downloadPictures();
+	} catch (error) {
+		console.error('An error occurred:', error);
+	}
+}
 
-await downloadPictures();
+main();
 
-console.log('Character files have been updated.');
