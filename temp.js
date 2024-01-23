@@ -26,8 +26,8 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'Predator',
-	specialDish: 'SatietyGel',
+	signatureWeapon: 'HuntersBow',
+	specialDish: 'OutridersChampionSteak',
 	tcgCharacterCard: '',
 };
 
@@ -40,7 +40,7 @@ async function getOutfit() {
 		FR: '?lang=FR',
 		ID: '?lang=ID',
 		IT: '?lang=IT',
-		JA: '?lang=JA',
+		JP: '?lang=JA',
 		KO: '?lang=KO',
 		PT: '?lang=PT',
 		RU: '?lang=RU',
