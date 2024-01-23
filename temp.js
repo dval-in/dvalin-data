@@ -2,41 +2,39 @@ const fs = require('fs');
 const path = require('path');
 
 const dataDirPath = './data';
-const charName = 'Albedo'; // Replace with your character's name
+const charName = 'Alhaitham';
 
 // Define the JSON object with all missing fields
 const missingFields = {
 	artifacts: [
-		'HuskOfOpulentDreams',
-		'GoldenTroupe',
+		'GildedDreams',
+		'DeepwoodMemories',
 	], // Populate these fields as needed
 	featuredBanner: [
-		'SecretumSecretorum1',
-		'SecretumSecretorum2',
-		'SecretumSecretorum3',
-		'SecretumSecretorum4',
+		'CautionInConfidence1',
+		'CautionInConfidence2',
 	],
 	outfits: [{
-		id: 'NewmoonStarlight',
-		name: 'Newmoon Starlight',
-		description: 'Albedo\'s outfit. The Knights of Favonius alchemist\'s uniform that Albedo often wears when conducting his experiments',
-		picture: 'Character/Albedo/Outfit/NewmoonStarlight.png',
+		id: 'TheRational',
+		name: 'The Rational',
+		description: 'Alhaitham\'s outfit. "Don\'t bother the Scribe with trivialities... What do you think those soundproofers of his are for, anyway?" \n So observed an experienced staff member at the Temple of Silence.',
+		picture: 'Character/Alhaitham/Outfit/NewmoonStarlight.webp',
 	}],
 	pictures: {
-		icon: 'Character/Albedo/Icon.png',
-		sideIcon: 'Character/Albedo/SideIcon.png',
-		gatchaCard: 'Character/Albedo/GachaCard.png',
-		gachaSplash: 'Character/Albedo/GachaSplash.png',
-		face: 'Character/Albedo/Face.png',
-		halfFace: 'Character/Albedo/HalfFace.png',
-		profile: 'Character/Albedo/Profile.png',
-		weaponStance: 'Character/Albedo/WeaponStance.png',
+		icon: 'Character/Alhaitham/Icon.webp',
+		sideIcon: 'Character/Alhaitham/SideIcon.webp',
+		gatchaCard: 'Character/Alhaitham/GachaCard.webp',
+		gachaSplash: 'Character/Alhaitham/GachaSplash.webp',
+		face: 'Character/Alhaitham/Face.webp',
+		halfFace: 'Character/Alhaitham/HalfFace.webp',
+		profile: 'Character/Alhaitham/Profile.webp',
+		weaponStance: 'Character/Alhaitham/WeaponStance.webp',
 	},
-	signatureArtifactSet: '',
-	signatureWeapon: 'CinnabarSpindle',
-	specialDish: 'WoodlandDream',
-	tcgCharacterCard: 'Albedo',
-	weapons: ['CinnabarSpindle', 'HarbingerOfDawn', 'WolfFang'],
+	signatureArtifactSet: 'GildedDreams',
+	signatureWeapon: 'LightOfFoliarIncision',
+	specialDish: 'IdealCircumstance',
+	tcgCharacterCard: 'Alhaitham',
+	weapons: ['LightOfFoliarIncision', 'PrimordialJadeCutter', 'MistsplitterReforged', 'HaranGeppakuFutsu', 'FreedomSworn', 'TheBlackSword', 'IronSting'],
 };
 
 function updateCharacterFile(filePath) {

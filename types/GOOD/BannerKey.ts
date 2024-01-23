@@ -49,6 +49,7 @@ export type BannerKey =
 	| 'InvitationToMundaneLife3'
 	| 'OnisRoyale4'
 	| 'LeavesInTheWind3'
+	| 'CautionInConfidence2'
 	| 'SparklingSteps3'
 	| 'TapestryOfGoldenFlames4'
 	| 'ViridescentVigil1'
