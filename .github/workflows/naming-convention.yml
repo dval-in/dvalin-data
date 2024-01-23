@@ -10,30 +10,8 @@ on:
     - cron: "43 22 * * 3"
 
 jobs:
-  commitlint:
-    name: Lint Commit Messages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: Install Commitlint
-        run: |
-          npm install --save-dev @commitlint/{config-conventional,cli}
-
-      - name: Lint Commit Messages
-        run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            npx commitlint --from=${{ github.event.pull_request.head.sha }}
-          else
-            npx commitlint --from=${{ github.sha }}
-          fi
-
   eslint:
     name: Run eslint scanning
-    needs: commitlint
     runs-on: ubuntu-latest
     permissions:
       contents: read

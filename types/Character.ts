@@ -135,9 +135,7 @@ export type Character = {
 	pictures: CharacterPicture;
 	outfits: undefined | Outfits[];
 	signatureWeapon: string; // Id
-	weapons: string[]; // Id
 	signatureArtifactSet: undefined | string; // Id
-	artifacts: string[]; // Id
 	specialDish: string; // Id
 	featuredBanner: string[];
 	tcgCharacterCard: undefined | string; // Id

@@ -4,12 +4,6 @@
     "affiliation": {
       "type": "string"
     },
-    "artifacts": {
-      "items": {
-        "type": "string"
-      },
-      "type": "array"
-    },
     "ascension": {
       "items": {
         "properties": {
@@ -440,17 +434,10 @@
     },
     "weaponType": {
       "type": "string"
-    },
-    "weapons": {
-      "items": {
-        "type": "string"
-      },
-      "type": "array"
     }
   },
   "required": [
     "affiliation",
-    "artifacts",
     "ascension",
     "birthday",
     "constellation",
@@ -474,8 +461,7 @@
     "substat",
     "talentMaterials",
     "tcgCharacterCard",
-    "weaponType",
-    "weapons"
+    "weaponType"
   ],
   "type": "object",
   "additionalProperties": false
