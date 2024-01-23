@@ -5,9 +5,9 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const charName = 'Dehya';
-const charCode = '079';
-const charNameurl = 'dehya';
+const charName = 'Diluc';
+const charCode = '016';
+const charNameurl = 'diluc';
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
 let outfitId = '';
@@ -26,9 +26,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'BeaconOfTheReedSea',
-	specialDish: 'GoldflameTajine',
-	tcgCharacterCard: 'Dehya',
+	signatureWeapon: 'WolfsGravestone',
+	specialDish: 'OnceUponATimeInMondstadt',
+	tcgCharacterCard: 'Diluc',
 };
 
 async function getOutfit() {
