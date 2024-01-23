@@ -5,9 +5,9 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const charName = 'Bennett';
-const charCode = '032';
-const charNameurl = 'bennett';
+const charName = 'Candace';
+const charCode = '072';
+const charNameurl = 'candace';
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
 let outfitId = '';
@@ -26,9 +26,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'TravelersHandySword',
-	specialDish: 'TeyvatCharredEgg',
-	tcgCharacterCard: 'Bennett',
+	signatureWeapon: 'StaffOfTheScarletSands',
+	specialDish: 'UtmostCare',
+	tcgCharacterCard: 'Candace',
 };
 
 async function getOutfit() {
