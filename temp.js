@@ -5,22 +5,15 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const charName = 'Aloy';
-const charCode = '062';
-const charNameurl = 'aloy';
+const charName = 'Amber';
+const charCode = '021';
+const charNameurl = 'ambor';
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
 let outfitId = '';
 
 // Define the JSON object with all missing fields
 const missingFields = {
-	artifacts: [
-		'EmblemOfSeveredFate',
-		'GildedDreams',
-		'Lavawalker',
-		'NoblesseOblige',
-		'BlizzardStrayer',
-	],
 	featuredBanner: [],
 	pictures: {
 		icon: `Character/${charName}/Icon.webp`,
@@ -36,7 +29,6 @@ const missingFields = {
 	signatureWeapon: 'Predator',
 	specialDish: 'SatietyGel',
 	tcgCharacterCard: '',
-	weapons: ['PolarStar', 'SacrificialBow', 'SkywardHarp', 'ThunderingPulse', 'AquaSimulacra', 'ElegyForTheEnd', 'TheStringless'],
 };
 
 async function getOutfit() {
