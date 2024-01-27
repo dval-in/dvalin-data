@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'nilou_070';
+const fullLenght = 'ningguang_027';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Nilou';
+const charName = 'Ningguang';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'KeyOfKhajNisut',
-	specialDish: 'SwirlingSteps',
-	tcgCharacterCard: 'Nilou',
+	signatureWeapon: 'MemoryOfDust',
+	specialDish: 'QiankunMoraMeat',
+	tcgCharacterCard: 'Ningguang',
 };
 
 async function getOutfit() {
