@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'neuvillette_087';
+const fullLenght = 'nilou_070';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Neuvillette';
+const charName = 'Nilou';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'TomeOfTheEternalFlow',
-	specialDish: 'ConsommePurete',
-	tcgCharacterCard: '',
+	signatureWeapon: 'KeyOfKhajNisut',
+	specialDish: 'SwirlingSteps',
+	tcgCharacterCard: 'Nilou',
 };
 
 async function getOutfit() {
