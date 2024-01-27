@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'navia_091';
+const fullLenght = 'neuvillette_087';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Navia';
+const charName = 'Neuvillette';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,8 +28,8 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'Verdict',
-	specialDish: 'PickWhatYouLike',
+	signatureWeapon: 'TomeOfTheEternalFlow',
+	specialDish: 'ConsommePurete',
 	tcgCharacterCard: '',
 };
 
