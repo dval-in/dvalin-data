@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'mona_041';
+const fullLenght = 'nahida_073';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Mona';
+const charName = 'Nahida';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'WineAndSong',
-	specialDish: 'DerWeisheitLetzterSchlussLife',
-	tcgCharacterCard: 'Mona',
+	signatureWeapon: 'AThousandFloatingDreams',
+	specialDish: 'Halvamazd',
+	tcgCharacterCard: 'Nahida',
 };
 
 async function getOutfit() {
