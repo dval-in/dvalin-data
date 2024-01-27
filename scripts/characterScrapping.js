@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'noel_034';
+const fullLenght = 'qiqi_035';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Noelle';
+const charName = 'Qiqi';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'FavoniusGreatsword',
-	specialDish: 'LighterThanAirPancake',
-	tcgCharacterCard: 'Noelle',
+	signatureWeapon: 'PrototypeRancour',
+	specialDish: 'NoTomorrow',
+	tcgCharacterCard: 'Qiqi',
 };
 
 async function getOutfit() {
