@@ -5,9 +5,11 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const charName = 'Eula';
-const charCode = '051';
-const charNameurl = 'eula';
+const fullLenght = 'faruzan_076';
+const charCode = fullLenght.split('_')[1];
+const charNameurl = fullLenght.split('_')[0];
+const charName = charNameurl.charAt(0).toUpperCase() + charNameurl.slice(1).toLowerCase();
+
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
 let outfitId = '';
@@ -26,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'SongOfBrokenPines',
-	specialDish: 'StormcrestPie',
-	tcgCharacterCard: 'Eula',
+	signatureWeapon: '',
+	specialDish: 'TraditionallymadeCharcoalbakedAjilenakhCake',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
