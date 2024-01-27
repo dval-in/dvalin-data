@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'layla_074';
+const fullLenght = 'lisa_006';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Layla';
+const charName = 'Lisa';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -29,8 +29,8 @@ const missingFields = {
 	},
 	signatureArtifactSet: '',
 	signatureWeapon: '',
-	specialDish: 'ExtravagantSlumber',
-	tcgCharacterCard: '',
+	specialDish: 'MysteriousBolognese',
+	tcgCharacterCard: 'Lisa',
 };
 
 async function getOutfit() {
