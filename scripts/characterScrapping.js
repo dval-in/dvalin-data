@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'klee_029';
+const fullLenght = 'sara_056';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Klee';
+const charName = 'KujouSara';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'DodocoTales',
-	specialDish: 'FishFlavoredToast',
-	tcgCharacterCard: 'Klee',
+	signatureWeapon: 'Hamayumi',
+	specialDish: 'FaithEternal',
+	tcgCharacterCard: 'KujouSara',
 };
 
 async function getOutfit() {
