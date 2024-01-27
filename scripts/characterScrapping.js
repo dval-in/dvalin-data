@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'liney_084';
+const fullLenght = 'mika_080';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Lyney';
+const charName = 'Mika';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'TheFirstGreatMagic',
-	specialDish: 'CubicTricks',
-	tcgCharacterCard: 'Lyney',
+	signatureWeapon: 'FavoniusLance',
+	specialDish: 'SurveyorsBreakfastSandwich',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
