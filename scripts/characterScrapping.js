@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'ayaka_002';
+const fullLenght = 'ayato_066';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'KamisatoAyaka';
+const charName = 'KamisatoAyato';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'MistsplitterReforged',
-	specialDish: 'SnowOnTheHearth',
-	tcgCharacterCard: 'KamisatoAyaka',
+	signatureWeapon: 'HaranGeppakuFutsu',
+	specialDish: 'QuietElegance',
+	tcgCharacterCard: 'KamisatoAyato',
 };
 
 async function getOutfit() {
