@@ -5,7 +5,7 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'furina_089';
+const fullLenght = 'ganyu_037';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
 const charName = charNameurl.charAt(0).toUpperCase() + charNameurl.slice(1).toLowerCase();
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'SplendorOfTranquilWaters',
-	specialDish: 'PourLaJustice',
-	tcgCharacterCard: '',
+	signatureWeapon: 'AmosBow',
+	specialDish: 'ProsperousPeace',
+	tcgCharacterCard: 'Ganyu',
 };
 
 async function getOutfit() {
