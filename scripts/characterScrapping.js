@@ -5,7 +5,7 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'fischl_031';
+const fullLenght = 'freminet_085';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
 const charName = charNameurl.charAt(0).toUpperCase() + charNameurl.slice(1).toLowerCase();
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'MitternachtsWaltz',
-	specialDish: 'DieHeiligeSinfonie',
-	tcgCharacterCard: 'Fischl',
+	signatureWeapon: 'TheBell',
+	specialDish: 'SeabirdsSojourn',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
