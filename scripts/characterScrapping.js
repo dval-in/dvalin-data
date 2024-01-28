@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'razor_020';
+const fullLenght = 'rosaria_045';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Razor';
+const charName = 'Rosaria';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'FerrousShadow',
-	specialDish: 'PuppyPawHashBrown',
-	tcgCharacterCard: 'Razor',
+	signatureWeapon: 'DragonspineSpear',
+	specialDish: 'DinnerOfJudgment',
+	tcgCharacterCard: 'Rosaria',
 };
 
 async function getOutfit() {
