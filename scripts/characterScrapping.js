@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'shougun_052';
+const fullLenght = 'razor_020';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'RaidenShogun';
+const charName = 'Razor';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'EngulfingLightning',
-	specialDish: '',
-	tcgCharacterCard: 'RaidenShogun',
+	signatureWeapon: 'FerrousShadow',
+	specialDish: 'PuppyPawHashBrown',
+	tcgCharacterCard: 'Razor',
 };
 
 async function getOutfit() {
