@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'kokomi_054';
+const fullLenght = 'sayu_053';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'SangonomiyaKokomi';
+const charName = 'Sayu';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'EverlastingMoonglow',
-	specialDish: 'AStunningStratagem',
-	tcgCharacterCard: 'SangonomiyaKokomi',
+	signatureWeapon: 'DebateClub',
+	specialDish: 'DizzinessBeGoneNoJutsuVersion20',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
