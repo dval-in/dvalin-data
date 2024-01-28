@@ -1,9 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "ascensions": {
       "items": {
         "properties": {
@@ -19,9 +16,6 @@
           "materials": {
             "items": {
               "properties": {
-                "_id": {
-                  "type": "number"
-                },
                 "amount": {
                   "type": "number"
                 },
@@ -36,7 +30,6 @@
                 }
               },
               "required": [
-                "_id",
                 "amount",
                 "id",
                 "name",
@@ -170,7 +163,6 @@
     }
   },
   "required": [
-    "_id",
     "ascensions",
     "bonus",
     "description",

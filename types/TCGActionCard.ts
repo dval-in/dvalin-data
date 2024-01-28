@@ -9,7 +9,7 @@ type Entity = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	rarity: number;
@@ -18,7 +18,7 @@ type Energy = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	type: string;
 	count: number;
@@ -27,7 +27,7 @@ export type TCGActionCard = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	title: string;

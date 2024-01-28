@@ -1,89 +1,88 @@
 {
-	"_id": 3605,
-	"id": "GroundedGeoshroom",
-	"name": "Champigéo terré",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"card_type": "Carte de personnage",
-		"energy": 2,
-		"element": "Géo",
-		"weapon": "Autre arme",
-		"faction": [
-			"Monstre"
-		],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Balle de spores",
-			"desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
-			"skillTag": [
-				"Attaque normale"
-			],
-			"points": [
-				{
-					"_id": 1106,
-					"id": "Geo",
-					"type": "Géo",
-					"count": 1
-				},
-				{
-					"_id": 1109,
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Souffle rageur",
-			"desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
-			"skillTag": [
-				"Compétence élémentaire"
-			],
-			"points": [
-				{
-					"_id": 1106,
-					"id": "Geo",
-					"type": "Géo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Charge explosive",
-			"desc": "Inflige 5 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
-			"skillTag": [
-				"Déchaînement élémentaire"
-			],
-			"points": [
-				{
-					"_id": 1106,
-					"id": "Geo",
-					"type": "Géo",
-					"count": 3
-				},
-				{
-					"_id": 1110,
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Changement d'état",
-			"desc": "(Passif) Fait passer le personnage en <span style=\"color:#FFFFFFFF\">avantage topographique</span> au début du combat.<br/>Lorsque le personnage a subi des <span style=\"color:#FF9999FF\">DGT Pyro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état calciné</span>.<br/>Lorsque le personnage a subi des <span style=\"color:#FFACFFFF\">DGT Électro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état activé</span>.",
-			"skillTag": [
-				"Capacité passive"
-			],
-			"points": []
-		}
-	]
+  "id": "GroundedGeoshroom",
+  "name": "Champigéo terré",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Balle de spores",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          
+          "id": "Geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Souffle rageur",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Charge explosive",
+      "desc": "Inflige 5 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Changement d'état",
+      "desc": "(Passif) Fait passer le personnage en <span style=\"color:#FFFFFFFF\">avantage topographique</span> au début du combat.<br/>Lorsque le personnage a subi des <span style=\"color:#FF9999FF\">DGT Pyro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état calciné</span>.<br/>Lorsque le personnage a subi des <span style=\"color:#FFACFFFF\">DGT Électro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état activé</span>.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ]
 }

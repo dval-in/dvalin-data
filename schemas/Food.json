@@ -1,9 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "description": {
       "type": "string"
     },
@@ -45,9 +42,6 @@
       "properties": {
         "delicious": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "description": {
               "type": "string"
             },
@@ -59,7 +53,6 @@
             }
           },
           "required": [
-            "_id",
             "description",
             "effect",
             "name"
@@ -68,9 +61,6 @@
         },
         "normal": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "description": {
               "type": "string"
             },
@@ -82,7 +72,6 @@
             }
           },
           "required": [
-            "_id",
             "description",
             "effect",
             "name"
@@ -91,9 +80,6 @@
         },
         "special": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "character": {
               "properties": {
                 "id": {
@@ -123,7 +109,6 @@
             }
           },
           "required": [
-            "_id",
             "character",
             "description",
             "effect",
@@ -134,9 +119,6 @@
         },
         "suspicious": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "description": {
               "type": "string"
             },
@@ -148,7 +130,6 @@
             }
           },
           "required": [
-            "_id",
             "description",
             "effect",
             "name"
@@ -165,7 +146,6 @@
     }
   },
   "required": [
-    "_id",
     "description",
     "dishType",
     "id",
