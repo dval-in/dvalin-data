@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'tartaglia_033';
+const fullLenght = 'tohma_050';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Tartaglia';
+const charName = 'Thoma';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'PolarStar',
-	specialDish: 'APrizeCatch',
-	tcgCharacterCard: 'Tartaglia',
+	signatureWeapon: 'KitainCrossSpear',
+	specialDish: 'Warmth',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
