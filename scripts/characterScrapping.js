@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'tohma_050';
+const fullLenght = 'tighnari_069';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Thoma';
+const charName = 'Tighnari';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'KitainCrossSpear',
-	specialDish: 'Warmth',
-	tcgCharacterCard: '',
+	signatureWeapon: 'HuntersPath',
+	specialDish: 'ForestWatchersChoice',
+	tcgCharacterCard: 'Tighnari',
 };
 
 async function getOutfit() {
