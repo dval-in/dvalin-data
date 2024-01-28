@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'venti_022';
+const fullLenght = 'wanderer_075';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Venti';
+const charName = 'Wanderer';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'ElegyForTheEnd',
-	specialDish: 'ABuoyantBreeze',
-	tcgCharacterCard: 'Venti',
+	signatureWeapon: 'TulaytullahsRemembrance',
+	specialDish: 'ShimiChazuke',
+	tcgCharacterCard: 'Wanderer',
 };
 
 async function getOutfit() {
