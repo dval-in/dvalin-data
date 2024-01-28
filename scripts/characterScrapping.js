@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'feiyan_048';
+const fullLenght = 'yaoyao_077';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Yanfei';
+const charName = 'Yaoyao';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -29,8 +29,8 @@ const missingFields = {
 	},
 	signatureArtifactSet: '',
 	signatureWeapon: '',
-	specialDish: 'MyWay',
-	tcgCharacterCard: 'Yanfei',
+	specialDish: 'QingceHouseholdDish',
+	tcgCharacterCard: 'Yaoyao',
 };
 
 async function getOutfit() {
