@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'heizo_059';
+const fullLenght = 'sucrose_043';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'ShikanoinHeizou';
+const charName = 'Sucrose';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: '',
-	specialDish: 'TheOnlyTruth',
-	tcgCharacterCard: '',
+	signatureWeapon: 'FavoniusCodex',
+	specialDish: 'NutritiousMealV593',
+	tcgCharacterCard: 'Sucrose',
 };
 
 async function getOutfit() {
