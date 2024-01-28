@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'xiao_026';
+const fullLenght = 'xingqiu_025';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Xiao';
+const charName = 'Xingqiu';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'PrimordialJadeWingedSpear',
-	specialDish: 'SweetDream',
-	tcgCharacterCard: 'Xiao',
+	signatureWeapon: 'SilverSword',
+	specialDish: 'AllDelicacyParcels',
+	tcgCharacterCard: 'Xingqiu',
 };
 
 async function getOutfit() {
