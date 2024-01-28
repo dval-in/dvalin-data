@@ -1,14 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "circlet": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "description": {
           "type": "string"
         },
@@ -20,7 +14,6 @@
         }
       },
       "required": [
-        "_id",
         "id",
         "name"
       ],
@@ -28,9 +21,6 @@
     },
     "flower": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "description": {
           "type": "string"
         },
@@ -42,7 +32,6 @@
         }
       },
       "required": [
-        "_id",
         "id",
         "name"
       ],
@@ -53,9 +42,6 @@
     },
     "goblet": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "description": {
           "type": "string"
         },
@@ -67,7 +53,6 @@
         }
       },
       "required": [
-        "_id",
         "id",
         "name"
       ],
@@ -90,9 +75,6 @@
     },
     "plume": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "description": {
           "type": "string"
         },
@@ -104,7 +86,6 @@
         }
       },
       "required": [
-        "_id",
         "id",
         "name"
       ],
@@ -112,9 +93,6 @@
     },
     "sands": {
       "properties": {
-        "_id": {
-          "type": "number"
-        },
         "description": {
           "type": "string"
         },
@@ -126,7 +104,6 @@
         }
       },
       "required": [
-        "_id",
         "id",
         "name"
       ],
@@ -137,7 +114,6 @@
     }
   },
   "required": [
-    "_id",
     "id",
     "maxRarity",
     "minRarity",

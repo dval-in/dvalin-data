@@ -1,9 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "attributes": {
       "properties": {
         "cardType": {
@@ -26,9 +23,6 @@
         },
         "monster": {
           "properties": {
-            "_id": {
-              "type": "number"
-            },
             "id": {
               "type": "string"
             },
@@ -37,7 +31,6 @@
             }
           },
           "required": [
-            "_id",
             "id",
             "name"
           ],
@@ -84,9 +77,6 @@
           "points": {
             "items": {
               "properties": {
-                "_id": {
-                  "type": "number"
-                },
                 "count": {
                   "type": "number"
                 },
@@ -98,7 +88,6 @@
                 }
               },
               "required": [
-                "_id",
                 "count",
                 "id",
                 "type"
@@ -130,7 +119,6 @@
     }
   },
   "required": [
-    "_id",
     "attributes",
     "id",
     "name",

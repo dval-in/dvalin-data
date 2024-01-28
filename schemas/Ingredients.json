@@ -1,9 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "description": {
       "type": "string"
     },
@@ -16,9 +13,6 @@
     "processing": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "amount": {
             "type": "number"
           },
@@ -30,7 +24,6 @@
           }
         },
         "required": [
-          "_id",
           "amount",
           "id",
           "name"
@@ -42,9 +35,6 @@
     "recipes": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "id": {
             "type": "string"
           },
@@ -53,7 +43,6 @@
           }
         },
         "required": [
-          "_id",
           "id",
           "name"
         ],
@@ -69,7 +58,6 @@
     }
   },
   "required": [
-    "_id",
     "description",
     "id",
     "name"

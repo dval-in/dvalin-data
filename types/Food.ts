@@ -12,25 +12,25 @@ type FoodResult = {
 	 * @TJS-required
 	 */
 	normal: {
-		_id: number;
+
 		name: string;
 		description: string;
 		effect: string;
 	};
 	delicious: {
-		_id: number;
+
 		name: string;
 		description: string;
 		effect: string;
 	};
 	suspicious: {
-		_id: number;
+
 		name: string;
 		description: string;
 		effect: string;
 	};
 	special?: {
-		_id: number;
+
 		id: string;
 		name: string;
 		description: string;
@@ -46,7 +46,7 @@ export type Food = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;

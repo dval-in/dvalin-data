@@ -1,1181 +1,1150 @@
 {
-	"_id": 10000038,
-	"id": "Albedo",
-	"name": "Albedo",
-	"title": "El Príncipe de la Roca Caliza",
-	"description": "Alquimista Jefe de los Caballeros de Favonius y Capitán de la Compañía de Investigación. Lo llaman el “Príncipe de la Roca Caliza”.",
-	"weapon_type": "Espada ligera",
-	"element": "Geo",
-	"gender": "Masculino",
-	"substat": "Bono de Daño Geo",
-	"affiliation": "Caballeros de Favonius",
-	"region": "Mondstadt",
-	"rarity": 5,
-	"birthday": [
-		13,
-		9
-	],
-	"constellation": "Princeps Cretaceus",
-	"domain": "Cañón del olvido",
-	"cv": {
-		"english": "Khoi Dao",
-		"chinese": "Mace",
-		"japanese": "野島健児",
-		"korean": "Kim Myeong-joon"
-	},
-	"skills": [
-		{
-			"_id": 10386,
-			"id": "NormalAttackFavoniusBladeworkWeiss",
-			"name": "Ataque Normal: Técnica de espada Favonius - Albor",
-			"description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques consecutivos con espada.<br/><br/><span>Ataque Cargado</span><br/>Consume cierta cantidad de Aguante para desatar un doble golpe de espada.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "Daño de 1er golpe",
-					"values": [
-						"36.74%",
-						"39.73%",
-						"42.72%",
-						"46.99%",
-						"49.98%",
-						"53.4%",
-						"58.1%",
-						"62.8%",
-						"67.5%",
-						"72.62%",
-						"78.5%",
-						"85.41%",
-						"92.31%",
-						"99.22%",
-						"106.76%"
-					]
-				},
-				{
-					"label": "Daño de 2.º golpe",
-					"values": [
-						"36.74%",
-						"39.73%",
-						"42.72%",
-						"46.99%",
-						"49.98%",
-						"53.4%",
-						"58.1%",
-						"62.8%",
-						"67.5%",
-						"72.62%",
-						"78.5%",
-						"85.41%",
-						"92.31%",
-						"99.22%",
-						"106.76%"
-					]
-				},
-				{
-					"label": "Daño de 3er golpe",
-					"values": [
-						"47.45%",
-						"51.32%",
-						"55.18%",
-						"60.7%",
-						"64.56%",
-						"68.98%",
-						"75.04%",
-						"81.11%",
-						"87.18%",
-						"93.81%",
-						"101.39%",
-						"110.32%",
-						"119.24%",
-						"128.16%",
-						"137.89%"
-					]
-				},
-				{
-					"label": "Daño de 4.º golpe",
-					"values": [
-						"49.75%",
-						"53.8%",
-						"57.85%",
-						"63.63%",
-						"67.68%",
-						"72.31%",
-						"78.68%",
-						"85.04%",
-						"91.4%",
-						"98.34%",
-						"106.3%",
-						"115.65%",
-						"125.01%",
-						"134.36%",
-						"144.57%"
-					]
-				},
-				{
-					"label": "Daño de 5.º golpe",
-					"values": [
-						"62.07%",
-						"67.13%",
-						"72.18%",
-						"79.4%",
-						"84.45%",
-						"90.22%",
-						"98.16%",
-						"106.1%",
-						"114.04%",
-						"122.7%",
-						"132.63%",
-						"144.3%",
-						"155.97%",
-						"167.64%",
-						"180.38%"
-					]
-				},
-				{
-					"label": "Daño de ATQ Cargado",
-					"values": [
-						"47.3% + 60.2%",
-						"51.15% + 65.1%",
-						"55% + 70%",
-						"60.5% + 77%",
-						"64.35% + 81.9%",
-						"68.75% + 87.5%",
-						"74.8% + 95.2%",
-						"80.85% + 102.9%",
-						"86.9% + 110.6%",
-						"93.5% + 119%",
-						"101.06% + 128.62%",
-						"109.96% + 139.94%",
-						"118.85% + 151.26%",
-						"127.74% + 162.58%",
-						"137.44% + 174.93%"
-					]
-				},
-				{
-					"label": "Coste de Aguante de ATQ Cargado",
-					"values": [
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts."
-					]
-				},
-				{
-					"label": "Daño de Caída",
-					"values": [
-						"63.93%",
-						"69.14%",
-						"74.34%",
-						"81.77%",
-						"86.98%",
-						"92.93%",
-						"101.1%",
-						"109.28%",
-						"117.46%",
-						"126.38%",
-						"135.3%",
-						"144.22%",
-						"153.14%",
-						"162.06%",
-						"170.98%"
-					]
-				},
-				{
-					"label": "Daño de impacto de caída baja/alta",
-					"values": [
-						"127.84% / 159.68%",
-						"138.24% / 172.67%",
-						"148.65% / 185.67%",
-						"163.51% / 204.24%",
-						"173.92% / 217.23%",
-						"185.81% / 232.09%",
-						"202.16% / 252.51%",
-						"218.51% / 272.93%",
-						"234.86% / 293.36%",
-						"252.7% / 315.64%",
-						"270.54% / 337.92%",
-						"288.38% / 360.2%",
-						"306.22% / 382.48%",
-						"324.05% / 404.76%",
-						"341.89% / 427.04%"
-					]
-				}
-			]
-		},
-		{
-			"_id": 10387,
-			"id": "AbiogenesisSolarIsotoma",
-			"name": "Abiogénesis: Isotoma solar",
-			"description": "Crea una isotoma solar que inflige <span>Daño Geo en el AdE</span>.<br/><br/><span>Isotoma solar</span><br/>Características:<br/>·Cuando los enemigos situados en el centro del área de la isotoma solar reciben daño, esta se convertirá en una flor fugaz, abriéndose e infligiendo <span>Daño Geo en el AdE</span> proporcional a la DEF de Albedo.<br/>·Solo puede crearse una flor fugaz cada 2 s.<br/>·Cuando un personaje se sitúa sobre la isotoma solar, el poder de Geo se concentrará para formar una plataforma cristalizada de cierta altura sobre la que se podrán mantener los personajes.<br/>·Solamente puede existir al mismo tiempo una isotoma solar creada por Albedo, y esta se considera una <span>creación Geo</span>.<br/><br/><span>Mantener pulsado</span><br/>Controla la ubicación sobre la que tiene lugar la habilidad.",
-			"info": "Esta especie de flor Geo, cuya meta es la misma que la de la alquimia, tiene una naturaleza muy particular. Brota de la tierra con miras a ascender a los cielos, donde se convertirá en un Sol.",
-			"attributes": [
-				{
-					"label": "Daño de habilidad",
-					"values": [
-						"130.4%",
-						"140.18%",
-						"149.96%",
-						"163%",
-						"172.78%",
-						"182.56%",
-						"195.6%",
-						"208.64%",
-						"221.68%",
-						"234.72%",
-						"247.76%",
-						"260.8%",
-						"277.1%",
-						"293.4%",
-						"309.7%"
-					]
-				},
-				{
-					"label": "Daño de flor fugaz",
-					"values": [
-						"133.6% de DEF",
-						"143.62% de DEF",
-						"153.64% de DEF",
-						"167% de DEF",
-						"177.02% de DEF",
-						"187.04% de DEF",
-						"200.4% de DEF",
-						"213.76% de DEF",
-						"227.12% de DEF",
-						"240.48% de DEF",
-						"253.84% de DEF",
-						"267.2% de DEF",
-						"283.9% de DEF",
-						"300.6% de DEF",
-						"317.3% de DEF"
-					]
-				},
-				{
-					"label": "Duración",
-					"values": [
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s"
-					]
-				},
-				{
-					"label": "TdE de habilidad",
-					"values": [
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s",
-						"4 s"
-					]
-				}
-			]
-		},
-		{
-			"_id": 10388,
-			"id": "RiteOfProgenitureTectonicTide",
-			"name": "Creación: Marea tectónica",
-			"description": "Albedo ordena a sus cristales Geo que exploten, lanzándolos al frente e infligiendo <span>Daño Geo en el AdE</span>.<br/>Si en el campo de batalla ya hay una isotoma solar creada por Albedo, creará 7 flores de la muerte dentro del área de la isotoma, provocando una violenta explosión que inflige <span>Daño Geo en el AdE</span>.<br/><br/>El daño causado por la explosión y las flores de la muerte no creará una flor fugaz.",
-			"info": "Bajo las órdenes del Príncipe de la Roca Caliza, el mundo entero puede temblar.",
-			"attributes": [
-				{
-					"label": "Daño instantáneo",
-					"values": [
-						"367.2%",
-						"394.74%",
-						"422.28%",
-						"459%",
-						"486.54%",
-						"514.08%",
-						"550.8%",
-						"587.52%",
-						"624.24%",
-						"660.96%",
-						"697.68%",
-						"734.4%",
-						"780.3%",
-						"826.2%",
-						"872.1%"
-					]
-				},
-				{
-					"label": "Daño de flor de la muerte",
-					"values": [
-						"72% por flor",
-						"77.4% por flor",
-						"82.8% por flor",
-						"90% por flor",
-						"95.4% por flor",
-						"100.8% por flor",
-						"108% por flor",
-						"115.2% por flor",
-						"122.4% por flor",
-						"129.6% por flor",
-						"136.8% por flor",
-						"144% por flor",
-						"153% por flor",
-						"162% por flor",
-						"171% por flor"
-					]
-				},
-				{
-					"label": "TdE",
-					"values": [
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s"
-					]
-				},
-				{
-					"label": "Energía Elemental",
-					"values": [
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40",
-						"40"
-					]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "CalciteMight",
-			"name": "Fuerza caliza",
-			"description": "Aumenta en un 25% el daño infligido por la flor fugaz de <span>Abiogénesis: Isotoma solar</span> contra enemigos con menos del 50% de Vida.",
-			"level": 1
-		},
-		{
-			"id": "HomuncularNature",
-			"name": "Sabiduría del homúnculo",
-			"description": "<span>Creación: Marea tectónica</span> aumenta en 125 pts. la Maestría Elemental de los personajes del equipo cercanos durante 10 s.",
-			"level": 4
-		},
-		{
-			"id": "FlashOfGenius",
-			"name": "Genio de la alquimia",
-			"description": "Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"_id": 381,
-			"id": "FlowerOfEden",
-			"name": "Flor del Edén",
-			"description": "Cuando explota una flor fugaz de <span>Abiogénesis: Isotoma solar</span> creada por Albedo, este recupera 1.2 pts. de Energía Elemental.",
-			"level": 1
-		},
-		{
-			"_id": 382,
-			"id": "OpeningOfPhanerozoic",
-			"name": "Eón Fanerozoico",
-			"description": "Al explotar, las flores fugaces de <span>Abiogénesis: Isotoma solar</span> otorgan a Albedo aritmética fatídica durante 30 s:<br/>·Al utilizar <span>Creación: Marea tectónica</span>, se consumen todas las acumulaciones de aritmética fatídica y el daño infligido por las explosiones de Creación: Marea tectónica y de las flores de la muerte aumenta en una cantidad equivalente al 30% de la DEF de Albedo por cada acumulación.<br/>·Este efecto puede acumularse un máximo de 4 veces.",
-			"level": 2
-		},
-		{
-			"_id": 383,
-			"id": "GraceOfHelios",
-			"name": "Gracia de Helios",
-			"description": "Aumenta el nivel de habilidad de <span>Abiogénesis: Isotoma solar</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
-			"level": 3
-		},
-		{
-			"_id": 384,
-			"id": "DescentOfDivinity",
-			"name": "Caída divina",
-			"description": "Si los personajes en uso están en el área de la isotoma solar, aumenta en un 30% el daño de sus Ataques Descendentes.",
-			"level": 4
-		},
-		{
-			"_id": 385,
-			"id": "TideOfHadean",
-			"name": "Marea del Hádico",
-			"description": "Aumenta el nivel de habilidad de <span>Creación: Marea tectónica</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
-			"level": 5
-		},
-		{
-			"_id": 386,
-			"id": "DustOfPurification",
-			"name": "Tierra purificadora",
-			"description": "Aumenta en un 17% el daño de los personajes en uso si estos están en el área de la isotoma solar y bajo la protección de un escudo creado mediante Cristalización.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [
-				1
-			],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						"-",
-						1
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"-",
-						"1030"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"-",
-						"20"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"-",
-						"68"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"-",
-						"0.0%"
-					]
-				}
-			]
-		},
-		{
-			"level": [
-				20
-			],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						0,
-						1
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"2671",
-						"3554"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"51",
-						"67"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"177",
-						"235"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
-				}
-			]
-		},
-		{
-			"level": [
-				40
-			],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						1,
-						2
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"5317",
-						"5944"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"101",
-						"113"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"352",
-						"394"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"0.0%",
-						"7.2%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104171,
-				"id": "PrithivaTopazSliver",
-				"name": "Pedacito de topacio prithiva",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"_id": 100023,
-				"id": "Cecilia",
-				"name": "Cecilia",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112008,
-				"id": "DiviningScroll",
-				"name": "Pergamino guía",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [
-				50
-			],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						2,
-						3
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"6839",
-						"7675"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"130",
-						"146"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"453",
-						"508"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"7.2%",
-						"14.4%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104172,
-				"id": "PrithivaTopazFragment",
-				"name": "Fragmento de topacio prithiva",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"_id": 113009,
-				"id": "BasaltPillar",
-				"name": "Pilar de basalto",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100023,
-				"id": "Cecilia",
-				"name": "Cecilia",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112008,
-				"id": "DiviningScroll",
-				"name": "Pergamino guía",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [
-				60
-			],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						3,
-						4
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"8579",
-						"9207"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"163",
-						"175"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"568",
-						"610"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"14.4%",
-						"14.4%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104172,
-				"id": "PrithivaTopazFragment",
-				"name": "Fragmento de topacio prithiva",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"_id": 113009,
-				"id": "BasaltPillar",
-				"name": "Pilar de basalto",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100023,
-				"id": "Cecilia",
-				"name": "Cecilia",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112009,
-				"id": "SealedScroll",
-				"name": "Pergamino hechizado",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [
-				70
-			],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						4,
-						5
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"10119",
-						"10746"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"192",
-						"204"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"670",
-						"712"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"14.4%",
-						"21.6%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104173,
-				"id": "PrithivaTopazChunk",
-				"name": "Trozo de topacio prithiva",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"_id": 113009,
-				"id": "BasaltPillar",
-				"name": "Pilar de basalto",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100023,
-				"id": "Cecilia",
-				"name": "Cecilia",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112009,
-				"id": "SealedScroll",
-				"name": "Pergamino hechizado",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [
-				80
-			],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						5,
-						6
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"11669",
-						"12296"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"222",
-						"233"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"773",
-						"815"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"21.6%",
-						"28.8%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104173,
-				"id": "PrithivaTopazChunk",
-				"name": "Trozo de topacio prithiva",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"_id": 113009,
-				"id": "BasaltPillar",
-				"name": "Pilar de basalto",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100023,
-				"id": "Cecilia",
-				"name": "Cecilia",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112010,
-				"id": "ForbiddenCurseScroll",
-				"name": "Pergamino maldito",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [
-				90
-			],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [
-						6,
-						7
-					]
-				},
-				{
-					"label": "Vida Base",
-					"values": [
-						"13226",
-						"13226"
-					]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": [
-						"251",
-						"251"
-					]
-				},
-				{
-					"label": "DEF Base",
-					"values": [
-						"876",
-						"876"
-					]
-				},
-				{
-					"label": "Bono de Daño Geo",
-					"values": [
-						"28.8%",
-						"28.8%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104174,
-				"id": "PrithivaTopazGemstone",
-				"name": "Topacio prithiva",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"_id": 113009,
-				"id": "BasaltPillar",
-				"name": "Pilar de basalto",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100023,
-				"id": "Cecilia",
-				"name": "Cecilia",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112010,
-				"id": "ForbiddenCurseScroll",
-				"name": "Pergamino maldito",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talent_materials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"_id": 104307,
-					"id": "TeachingsOfBallad",
-					"name": "Enseñanzas de la poesía",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"_id": 112008,
-					"id": "DiviningScroll",
-					"name": "Pergamino guía",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guía de la poesía",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"_id": 112009,
-					"id": "SealedScroll",
-					"name": "Pergamino hechizado",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guía de la poesía",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"_id": 112009,
-					"id": "SealedScroll",
-					"name": "Pergamino hechizado",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guía de la poesía",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"_id": 112009,
-					"id": "SealedScroll",
-					"name": "Pergamino hechizado",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guía de la poesía",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"_id": 112009,
-					"id": "SealedScroll",
-					"name": "Pergamino hechizado",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofía de la poesía",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"_id": 112010,
-					"id": "ForbiddenCurseScroll",
-					"name": "Pergamino maldito",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"_id": 113013,
-					"id": "TuskOfMonocerosCaeli",
-					"name": "Cuerno de Monoceros Caeli",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofía de la poesía",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"_id": 112010,
-					"id": "ForbiddenCurseScroll",
-					"name": "Pergamino maldito",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"_id": 113013,
-					"id": "TuskOfMonocerosCaeli",
-					"name": "Cuerno de Monoceros Caeli",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofía de la poesía",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"_id": 112010,
-					"id": "ForbiddenCurseScroll",
-					"name": "Pergamino maldito",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"_id": 113013,
-					"id": "TuskOfMonocerosCaeli",
-					"name": "Cuerno de Monoceros Caeli",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofía de la poesía",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"_id": 112010,
-					"id": "ForbiddenCurseScroll",
-					"name": "Pergamino maldito",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"_id": 113013,
-					"id": "TuskOfMonocerosCaeli",
-					"name": "Cuerno de Monoceros Caeli",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"_id": 104319,
-					"id": "CrownOfInsight",
-					"name": "Corona de la sabiduría",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	]
+    "id": "Albedo",
+    "name": "Albedo",
+    "title": "El Príncipe de la Roca Caliza",
+    "description": "Alquimista Jefe de los Caballeros de Favonius y Capitán de la Compañía de Investigación. Lo llaman el “Príncipe de la Roca Caliza”.",
+    "weaponType": "Espada ligera",
+    "element": "Geo",
+    "gender": "Masculino",
+    "substat": "Bono de Daño Geo",
+    "affiliation": "Caballeros de Favonius",
+    "region": "Mondstadt",
+    "rarity": 5,
+    "birthday": "13/9",
+    "constellation": "Princeps Cretaceus",
+    "domain": "Cañón del olvido",
+    "cv": {
+        "english": "Khoi Dao",
+        "chinese": "Mace",
+        "japanese": "野島健児",
+        "korean": "Kim Myeong-joon"
+    },
+    "skills": [
+        {
+            "id": "NormalAttackFavoniusBladeworkWeiss",
+            "name": "Ataque Normal: Técnica de espada Favonius - Albor",
+            "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques consecutivos con espada.<br/><br/><span>Ataque Cargado</span><br/>Consume cierta cantidad de Aguante para desatar un doble golpe de espada.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+            "info": "",
+            "attributes": [
+                {
+                    "label": "Daño de 1er golpe",
+                    "values": [
+                        "36.74%",
+                        "39.73%",
+                        "42.72%",
+                        "46.99%",
+                        "49.98%",
+                        "53.4%",
+                        "58.1%",
+                        "62.8%",
+                        "67.5%",
+                        "72.62%",
+                        "78.5%",
+                        "85.41%",
+                        "92.31%",
+                        "99.22%",
+                        "106.76%"
+                    ]
+                },
+                {
+                    "label": "Daño de 2.º golpe",
+                    "values": [
+                        "36.74%",
+                        "39.73%",
+                        "42.72%",
+                        "46.99%",
+                        "49.98%",
+                        "53.4%",
+                        "58.1%",
+                        "62.8%",
+                        "67.5%",
+                        "72.62%",
+                        "78.5%",
+                        "85.41%",
+                        "92.31%",
+                        "99.22%",
+                        "106.76%"
+                    ]
+                },
+                {
+                    "label": "Daño de 3er golpe",
+                    "values": [
+                        "47.45%",
+                        "51.32%",
+                        "55.18%",
+                        "60.7%",
+                        "64.56%",
+                        "68.98%",
+                        "75.04%",
+                        "81.11%",
+                        "87.18%",
+                        "93.81%",
+                        "101.39%",
+                        "110.32%",
+                        "119.24%",
+                        "128.16%",
+                        "137.89%"
+                    ]
+                },
+                {
+                    "label": "Daño de 4.º golpe",
+                    "values": [
+                        "49.75%",
+                        "53.8%",
+                        "57.85%",
+                        "63.63%",
+                        "67.68%",
+                        "72.31%",
+                        "78.68%",
+                        "85.04%",
+                        "91.4%",
+                        "98.34%",
+                        "106.3%",
+                        "115.65%",
+                        "125.01%",
+                        "134.36%",
+                        "144.57%"
+                    ]
+                },
+                {
+                    "label": "Daño de 5.º golpe",
+                    "values": [
+                        "62.07%",
+                        "67.13%",
+                        "72.18%",
+                        "79.4%",
+                        "84.45%",
+                        "90.22%",
+                        "98.16%",
+                        "106.1%",
+                        "114.04%",
+                        "122.7%",
+                        "132.63%",
+                        "144.3%",
+                        "155.97%",
+                        "167.64%",
+                        "180.38%"
+                    ]
+                },
+                {
+                    "label": "Daño de ATQ Cargado",
+                    "values": [
+                        "47.3% + 60.2%",
+                        "51.15% + 65.1%",
+                        "55% + 70%",
+                        "60.5% + 77%",
+                        "64.35% + 81.9%",
+                        "68.75% + 87.5%",
+                        "74.8% + 95.2%",
+                        "80.85% + 102.9%",
+                        "86.9% + 110.6%",
+                        "93.5% + 119%",
+                        "101.06% + 128.62%",
+                        "109.96% + 139.94%",
+                        "118.85% + 151.26%",
+                        "127.74% + 162.58%",
+                        "137.44% + 174.93%"
+                    ]
+                },
+                {
+                    "label": "Coste de Aguante de ATQ Cargado",
+                    "values": [
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts.",
+                        "20 pts."
+                    ]
+                },
+                {
+                    "label": "Daño de Caída",
+                    "values": [
+                        "63.93%",
+                        "69.14%",
+                        "74.34%",
+                        "81.77%",
+                        "86.98%",
+                        "92.93%",
+                        "101.1%",
+                        "109.28%",
+                        "117.46%",
+                        "126.38%",
+                        "135.3%",
+                        "144.22%",
+                        "153.14%",
+                        "162.06%",
+                        "170.98%"
+                    ]
+                },
+                {
+                    "label": "Daño de impacto de caída baja/alta",
+                    "values": [
+                        "127.84% / 159.68%",
+                        "138.24% / 172.67%",
+                        "148.65% / 185.67%",
+                        "163.51% / 204.24%",
+                        "173.92% / 217.23%",
+                        "185.81% / 232.09%",
+                        "202.16% / 252.51%",
+                        "218.51% / 272.93%",
+                        "234.86% / 293.36%",
+                        "252.7% / 315.64%",
+                        "270.54% / 337.92%",
+                        "288.38% / 360.2%",
+                        "306.22% / 382.48%",
+                        "324.05% / 404.76%",
+                        "341.89% / 427.04%"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "AbiogenesisSolarIsotoma",
+            "name": "Abiogénesis: Isotoma solar",
+            "description": "Crea una isotoma solar que inflige <span>Daño Geo en el AdE</span>.<br/><br/><span>Isotoma solar</span><br/>Características:<br/>·Cuando los enemigos situados en el centro del área de la isotoma solar reciben daño, esta se convertirá en una flor fugaz, abriéndose e infligiendo <span>Daño Geo en el AdE</span> proporcional a la DEF de Albedo.<br/>·Solo puede crearse una flor fugaz cada 2 s.<br/>·Cuando un personaje se sitúa sobre la isotoma solar, el poder de Geo se concentrará para formar una plataforma cristalizada de cierta altura sobre la que se podrán mantener los personajes.<br/>·Solamente puede existir al mismo tiempo una isotoma solar creada por Albedo, y esta se considera una <span>creación Geo</span>.<br/><br/><span>Mantener pulsado</span><br/>Controla la ubicación sobre la que tiene lugar la habilidad.",
+            "info": "Esta especie de flor Geo, cuya meta es la misma que la de la alquimia, tiene una naturaleza muy particular. Brota de la tierra con miras a ascender a los cielos, donde se convertirá en un Sol.",
+            "attributes": [
+                {
+                    "label": "Daño de habilidad",
+                    "values": [
+                        "130.4%",
+                        "140.18%",
+                        "149.96%",
+                        "163%",
+                        "172.78%",
+                        "182.56%",
+                        "195.6%",
+                        "208.64%",
+                        "221.68%",
+                        "234.72%",
+                        "247.76%",
+                        "260.8%",
+                        "277.1%",
+                        "293.4%",
+                        "309.7%"
+                    ]
+                },
+                {
+                    "label": "Daño de flor fugaz",
+                    "values": [
+                        "133.6% de DEF",
+                        "143.62% de DEF",
+                        "153.64% de DEF",
+                        "167% de DEF",
+                        "177.02% de DEF",
+                        "187.04% de DEF",
+                        "200.4% de DEF",
+                        "213.76% de DEF",
+                        "227.12% de DEF",
+                        "240.48% de DEF",
+                        "253.84% de DEF",
+                        "267.2% de DEF",
+                        "283.9% de DEF",
+                        "300.6% de DEF",
+                        "317.3% de DEF"
+                    ]
+                },
+                {
+                    "label": "Duración",
+                    "values": [
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s",
+                        "30 s"
+                    ]
+                },
+                {
+                    "label": "TdE de habilidad",
+                    "values": [
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s",
+                        "4 s"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "RiteOfProgenitureTectonicTide",
+            "name": "Creación: Marea tectónica",
+            "description": "Albedo ordena a sus cristales Geo que exploten, lanzándolos al frente e infligiendo <span>Daño Geo en el AdE</span>.<br/>Si en el campo de batalla ya hay una isotoma solar creada por Albedo, creará 7 flores de la muerte dentro del área de la isotoma, provocando una violenta explosión que inflige <span>Daño Geo en el AdE</span>.<br/><br/>El daño causado por la explosión y las flores de la muerte no creará una flor fugaz.",
+            "info": "Bajo las órdenes del Príncipe de la Roca Caliza, el mundo entero puede temblar.",
+            "attributes": [
+                {
+                    "label": "Daño instantáneo",
+                    "values": [
+                        "367.2%",
+                        "394.74%",
+                        "422.28%",
+                        "459%",
+                        "486.54%",
+                        "514.08%",
+                        "550.8%",
+                        "587.52%",
+                        "624.24%",
+                        "660.96%",
+                        "697.68%",
+                        "734.4%",
+                        "780.3%",
+                        "826.2%",
+                        "872.1%"
+                    ]
+                },
+                {
+                    "label": "Daño de flor de la muerte",
+                    "values": [
+                        "72% por flor",
+                        "77.4% por flor",
+                        "82.8% por flor",
+                        "90% por flor",
+                        "95.4% por flor",
+                        "100.8% por flor",
+                        "108% por flor",
+                        "115.2% por flor",
+                        "122.4% por flor",
+                        "129.6% por flor",
+                        "136.8% por flor",
+                        "144% por flor",
+                        "153% por flor",
+                        "162% por flor",
+                        "171% por flor"
+                    ]
+                },
+                {
+                    "label": "TdE",
+                    "values": [
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s",
+                        "12 s"
+                    ]
+                },
+                {
+                    "label": "Energía Elemental",
+                    "values": [
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40",
+                        "40"
+                    ]
+                }
+            ]
+        }
+    ],
+    "passives": [
+        {
+            "id": "CalciteMight",
+            "name": "Fuerza caliza",
+            "description": "Aumenta en un 25% el daño infligido por la flor fugaz de <span>Abiogénesis: Isotoma solar</span> contra enemigos con menos del 50% de Vida.",
+            "level": 1
+        },
+        {
+            "id": "HomuncularNature",
+            "name": "Sabiduría del homúnculo",
+            "description": "<span>Creación: Marea tectónica</span> aumenta en 125 pts. la Maestría Elemental de los personajes del equipo cercanos durante 10 s.",
+            "level": 4
+        },
+        {
+            "id": "FlashOfGenius",
+            "name": "Genio de la alquimia",
+            "description": "Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble.",
+            "level": 0
+        }
+    ],
+    "constellations": [
+        {
+            "id": "FlowerOfEden",
+            "name": "Flor del Edén",
+            "description": "Cuando explota una flor fugaz de <span>Abiogénesis: Isotoma solar</span> creada por Albedo, este recupera 1.2 pts. de Energía Elemental.",
+            "level": 1
+        },
+        {
+            "id": "OpeningOfPhanerozoic",
+            "name": "Eón Fanerozoico",
+            "description": "Al explotar, las flores fugaces de <span>Abiogénesis: Isotoma solar</span> otorgan a Albedo aritmética fatídica durante 30 s:<br/>·Al utilizar <span>Creación: Marea tectónica</span>, se consumen todas las acumulaciones de aritmética fatídica y el daño infligido por las explosiones de Creación: Marea tectónica y de las flores de la muerte aumenta en una cantidad equivalente al 30% de la DEF de Albedo por cada acumulación.<br/>·Este efecto puede acumularse un máximo de 4 veces.",
+            "level": 2
+        },
+        {
+            "id": "GraceOfHelios",
+            "name": "Gracia de Helios",
+            "description": "Aumenta el nivel de habilidad de <span>Abiogénesis: Isotoma solar</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+            "level": 3
+        },
+        {
+            "id": "DescentOfDivinity",
+            "name": "Caída divina",
+            "description": "Si los personajes en uso están en el área de la isotoma solar, aumenta en un 30% el daño de sus Ataques Descendentes.",
+            "level": 4
+        },
+        {
+            "id": "TideOfHadean",
+            "name": "Marea del Hádico",
+            "description": "Aumenta el nivel de habilidad de <span>Creación: Marea tectónica</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+            "level": 5
+        },
+        {
+            "id": "DustOfPurification",
+            "name": "Tierra purificadora",
+            "description": "Aumenta en un 17% el daño de los personajes en uso si estos están en el área de la isotoma solar y bajo la protección de un escudo creado mediante Cristalización.",
+            "level": 6
+        }
+    ],
+    "ascension": [
+        {
+            "level": [
+                1
+            ],
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        "-",
+                        1
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "-",
+                        "1030"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "-",
+                        "20"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "-",
+                        "68"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "-",
+                        "0.0%"
+                    ]
+                }
+            ]
+        },
+        {
+            "level": [
+                20
+            ],
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "2671",
+                        "3554"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "51",
+                        "67"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "177",
+                        "235"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "0.0%",
+                        "0.0%"
+                    ]
+                }
+            ]
+        },
+        {
+            "level": [
+                40
+            ],
+            "cost": 20000,
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "5317",
+                        "5944"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "101",
+                        "113"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "352",
+                        "394"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "0.0%",
+                        "7.2%"
+                    ]
+                }
+            ],
+            "mat1": {
+                "id": "PrithivaTopazSliver",
+                "name": "Pedacito de topacio prithiva",
+                "amount": 1,
+                "rarity": 2
+            },
+            "mat3": {
+                "id": "Cecilia",
+                "name": "Cecilia",
+                "amount": 3,
+                "rarity": 1
+            },
+            "mat4": {
+                "id": "DiviningScroll",
+                "name": "Pergamino guía",
+                "amount": 3,
+                "rarity": 1
+            }
+        },
+        {
+            "level": [
+                50
+            ],
+            "cost": 40000,
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "6839",
+                        "7675"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "130",
+                        "146"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "453",
+                        "508"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "7.2%",
+                        "14.4%"
+                    ]
+                }
+            ],
+            "mat1": {
+                "id": "PrithivaTopazFragment",
+                "name": "Fragmento de topacio prithiva",
+                "amount": 3,
+                "rarity": 3
+            },
+            "mat2": {
+                "id": "BasaltPillar",
+                "name": "Pilar de basalto",
+                "amount": 2,
+                "rarity": 4
+            },
+            "mat3": {
+                "id": "Cecilia",
+                "name": "Cecilia",
+                "amount": 10,
+                "rarity": 1
+            },
+            "mat4": {
+                "id": "DiviningScroll",
+                "name": "Pergamino guía",
+                "amount": 15,
+                "rarity": 1
+            }
+        },
+        {
+            "level": [
+                60
+            ],
+            "cost": 60000,
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "8579",
+                        "9207"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "163",
+                        "175"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "568",
+                        "610"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "14.4%",
+                        "14.4%"
+                    ]
+                }
+            ],
+            "mat1": {
+                "id": "PrithivaTopazFragment",
+                "name": "Fragmento de topacio prithiva",
+                "amount": 6,
+                "rarity": 3
+            },
+            "mat2": {
+                "id": "BasaltPillar",
+                "name": "Pilar de basalto",
+                "amount": 4,
+                "rarity": 4
+            },
+            "mat3": {
+                "id": "Cecilia",
+                "name": "Cecilia",
+                "amount": 20,
+                "rarity": 1
+            },
+            "mat4": {
+                "id": "SealedScroll",
+                "name": "Pergamino hechizado",
+                "amount": 12,
+                "rarity": 2
+            }
+        },
+        {
+            "level": [
+                70
+            ],
+            "cost": 80000,
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "10119",
+                        "10746"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "192",
+                        "204"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "670",
+                        "712"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "14.4%",
+                        "21.6%"
+                    ]
+                }
+            ],
+            "mat1": {
+                "id": "PrithivaTopazChunk",
+                "name": "Trozo de topacio prithiva",
+                "amount": 3,
+                "rarity": 4
+            },
+            "mat2": {
+                "id": "BasaltPillar",
+                "name": "Pilar de basalto",
+                "amount": 8,
+                "rarity": 4
+            },
+            "mat3": {
+                "id": "Cecilia",
+                "name": "Cecilia",
+                "amount": 30,
+                "rarity": 1
+            },
+            "mat4": {
+                "id": "SealedScroll",
+                "name": "Pergamino hechizado",
+                "amount": 18,
+                "rarity": 2
+            }
+        },
+        {
+            "level": [
+                80
+            ],
+            "cost": 100000,
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "11669",
+                        "12296"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "222",
+                        "233"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "773",
+                        "815"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "21.6%",
+                        "28.8%"
+                    ]
+                }
+            ],
+            "mat1": {
+                "id": "PrithivaTopazChunk",
+                "name": "Trozo de topacio prithiva",
+                "amount": 6,
+                "rarity": 4
+            },
+            "mat2": {
+                "id": "BasaltPillar",
+                "name": "Pilar de basalto",
+                "amount": 12,
+                "rarity": 4
+            },
+            "mat3": {
+                "id": "Cecilia",
+                "name": "Cecilia",
+                "amount": 45,
+                "rarity": 1
+            },
+            "mat4": {
+                "id": "ForbiddenCurseScroll",
+                "name": "Pergamino maldito",
+                "amount": 12,
+                "rarity": 3
+            }
+        },
+        {
+            "level": [
+                90
+            ],
+            "cost": 120000,
+            "stats": [
+                {
+                    "label": "Ascender",
+                    "values": [
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "label": "Vida Base",
+                    "values": [
+                        "13226",
+                        "13226"
+                    ]
+                },
+                {
+                    "label": "ATQ Básico",
+                    "values": [
+                        "251",
+                        "251"
+                    ]
+                },
+                {
+                    "label": "DEF Base",
+                    "values": [
+                        "876",
+                        "876"
+                    ]
+                },
+                {
+                    "label": "Bono de Daño Geo",
+                    "values": [
+                        "28.8%",
+                        "28.8%"
+                    ]
+                }
+            ],
+            "mat1": {
+                "id": "PrithivaTopazGemstone",
+                "name": "Topacio prithiva",
+                "amount": 6,
+                "rarity": 5
+            },
+            "mat2": {
+                "id": "BasaltPillar",
+                "name": "Pilar de basalto",
+                "amount": 20,
+                "rarity": 4
+            },
+            "mat3": {
+                "id": "Cecilia",
+                "name": "Cecilia",
+                "amount": 60,
+                "rarity": 1
+            },
+            "mat4": {
+                "id": "ForbiddenCurseScroll",
+                "name": "Pergamino maldito",
+                "amount": 24,
+                "rarity": 3
+            }
+        }
+    ],
+    "talentMaterials": [
+        {
+            "level": 2,
+            "cost": 12500,
+            "items": [
+                {
+                    "id": "TeachingsOfBallad",
+                    "name": "Enseñanzas de la poesía",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "DiviningScroll",
+                    "name": "Pergamino guía",
+                    "amount": 6,
+                    "rarity": 1
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "cost": 17500,
+            "items": [
+                {
+                    "id": "GuideToBallad",
+                    "name": "Guía de la poesía",
+                    "amount": 2,
+                    "rarity": 3
+                },
+                {
+                    "id": "SealedScroll",
+                    "name": "Pergamino hechizado",
+                    "amount": 3,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "cost": 25000,
+            "items": [
+                {
+                    "id": "GuideToBallad",
+                    "name": "Guía de la poesía",
+                    "amount": 4,
+                    "rarity": 3
+                },
+                {
+                    "id": "SealedScroll",
+                    "name": "Pergamino hechizado",
+                    "amount": 4,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "cost": 30000,
+            "items": [
+                {
+                    "id": "GuideToBallad",
+                    "name": "Guía de la poesía",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "SealedScroll",
+                    "name": "Pergamino hechizado",
+                    "amount": 6,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "cost": 37500,
+            "items": [
+                {
+                    "id": "GuideToBallad",
+                    "name": "Guía de la poesía",
+                    "amount": 9,
+                    "rarity": 3
+                },
+                {
+                    "id": "SealedScroll",
+                    "name": "Pergamino hechizado",
+                    "amount": 9,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "cost": 120000,
+            "items": [
+                {
+                    "id": "PhilosophiesOfBallad",
+                    "name": "Filosofía de la poesía",
+                    "amount": 4,
+                    "rarity": 4
+                },
+                {
+                    "id": "ForbiddenCurseScroll",
+                    "name": "Pergamino maldito",
+                    "amount": 4,
+                    "rarity": 3
+                },
+                {
+                    "id": "TuskOfMonocerosCaeli",
+                    "name": "Cuerno de Monoceros Caeli",
+                    "amount": 1,
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "cost": 260000,
+            "items": [
+                {
+                    "id": "PhilosophiesOfBallad",
+                    "name": "Filosofía de la poesía",
+                    "amount": 6,
+                    "rarity": 4
+                },
+                {
+                    "id": "ForbiddenCurseScroll",
+                    "name": "Pergamino maldito",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "TuskOfMonocerosCaeli",
+                    "name": "Cuerno de Monoceros Caeli",
+                    "amount": 1,
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "cost": 450000,
+            "items": [
+                {
+                    "id": "PhilosophiesOfBallad",
+                    "name": "Filosofía de la poesía",
+                    "amount": 12,
+                    "rarity": 4
+                },
+                {
+                    "id": "ForbiddenCurseScroll",
+                    "name": "Pergamino maldito",
+                    "amount": 9,
+                    "rarity": 3
+                },
+                {
+                    "id": "TuskOfMonocerosCaeli",
+                    "name": "Cuerno de Monoceros Caeli",
+                    "amount": 2,
+                    "rarity": 5
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "cost": 700000,
+            "items": [
+                {
+                    "id": "PhilosophiesOfBallad",
+                    "name": "Filosofía de la poesía",
+                    "amount": 16,
+                    "rarity": 4
+                },
+                {
+                    "id": "ForbiddenCurseScroll",
+                    "name": "Pergamino maldito",
+                    "amount": 12,
+                    "rarity": 3
+                },
+                {
+                    "id": "TuskOfMonocerosCaeli",
+                    "name": "Cuerno de Monoceros Caeli",
+                    "amount": 2,
+                    "rarity": 5
+                },
+                {
+                    "id": "CrownOfInsight",
+                    "name": "Corona de la sabiduría",
+                    "amount": 1,
+                    "rarity": 5
+                }
+            ]
+        }
+    ],
+    "featuredBanner": [
+        "SecretumSecretorum1",
+        "SecretumSecretorum2",
+        "SecretumSecretorum3",
+        "SecretumSecretorum4"
+    ],
+    "outfits": [
+        {
+            "id": "NewmoonStarlight",
+            "name": "Brillo sideral",
+            "description": "Modelo de vestimenta de Albedo. El alquimista de los Caballeros de Favonius suele llevar esta ropa durante sus experimentos.",
+            "picture": "Character/Albedo/Outfit/NewmoonStarlight.png"
+        }
+    ],
+    "pictures": {
+        "icon": "Character/Albedo/Icon.png",
+        "sideIcon": "Character/Albedo/SideIcon.png",
+        "gatchaCard": "Character/Albedo/GachaCard.png",
+        "gachaSplash": "Character/Albedo/GachaSplash.png",
+        "face": "Character/Albedo/Face.png",
+        "halfFace": "Character/Albedo/HalfFace.png",
+        "profile": "Character/Albedo/Profile.png",
+        "weaponStance": "Character/Albedo/WeaponStance.png"
+    },
+    "signatureArtifactSet": "",
+    "signatureWeapon": "CinnabarSpindle",
+    "specialDish": "WoodlandDream",
+    "tcgCharacterCard": "Albedo"
 }

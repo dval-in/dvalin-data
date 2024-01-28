@@ -1,91 +1,83 @@
 {
-	"_id": 1604,
-	"id": "Albedo",
-	"name": "Albedo",
-	"title": "Albedo, Kreideprinz",
-	"desc": "Nigredo e calx, rubedo e citrinitas.",
-	"attributes": {
-		"hp": 10,
-		"card_type": "Carta personaggio",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Spada",
-		"faction": [
-			"Mondstadt"
-		],
-		"talent_card": {
-			"_id": 4014,
-			"id": "DescentOfDivinity",
-			"name": "Descent of Divinity"
-		},
-		"source": "Ricompensa ottenuta sfidando Albedo a duello alla Coda di Gatto e battendolo in un duello amichevole",
-		"character": {
-			"_id": 10000038,
-			"id": "Albedo",
-			"name": "Albedo",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkWeiss",
-			"name": "Tecnica di Favonius - Weiss",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
-			"skillTag": [
-				"Attacco normale"
-			],
-			"points": [
-				{
-					"_id": 1106,
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"_id": 1109,
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "AbiogenesisSolarIsotoma",
-			"name": "Abiogenesi: Isotoma solare",
-			"desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Isotoma solare</span>.",
-			"skillTag": [
-				"Abilità elementale"
-			],
-			"points": [
-				{
-					"_id": 1106,
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfProgenitureTectonicTide",
-			"name": "Rito della discendenza: Ondata tettonica",
-			"desc": "Infligge 4 <span style=\"color:#FFE699FF\">DAN da Geo</span>, se <span style=\"color:#FFFFFFFF\">Isotoma solare</span> è sul campo, DAN inflitti da questo attacco +2.",
-			"skillTag": [
-				"Tripudio elementale"
-			],
-			"points": [
-				{
-					"_id": 1106,
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"_id": 1110,
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		}
-	]
+    "id": "Albedo",
+    "name": "Albedo",
+    "title": "Albedo, Kreideprinz",
+    "desc": "Nigredo e calx, rubedo e citrinitas.",
+    "attributes": {
+        "hp": 10,
+        "card_type": "Carta personaggio",
+        "energy": 2,
+        "element": "Geo",
+        "weapon": "Spada",
+        "faction": [
+            "Mondstadt"
+        ],
+        "talent_card": {
+            "id": "DescentOfDivinity",
+            "name": "Descent of Divinity"
+        },
+        "source": "Ricompensa ottenuta sfidando Albedo a duello alla Coda di Gatto e battendolo in un duello amichevole",
+        "character": {
+            "id": "Albedo",
+            "name": "Albedo",
+            "rarity": 5
+        }
+    },
+    "skills": [
+        {
+            "id": "FavoniusBladeworkWeiss",
+            "name": "Tecnica di Favonius - Weiss",
+            "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+            "skillTag": [
+                "Attacco normale"
+            ],
+            "points": [
+                {
+                    "id": "Geo",
+                    "type": "Geo",
+                    "count": 1
+                },
+                {
+                    "id": "UnalignedElement",
+                    "type": "elemento indefinito",
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "id": "AbiogenesisSolarIsotoma",
+            "name": "Abiogenesi: Isotoma solare",
+            "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Isotoma solare</span>.",
+            "skillTag": [
+                "Abilità elementale"
+            ],
+            "points": [
+                {
+                    "id": "Geo",
+                    "type": "Geo",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "id": "RiteOfProgenitureTectonicTide",
+            "name": "Rito della discendenza: Ondata tettonica",
+            "desc": "Infligge 4 <span style=\"color:#FFE699FF\">DAN da Geo</span>, se <span style=\"color:#FFFFFFFF\">Isotoma solare</span> è sul campo, DAN inflitti da questo attacco +2.",
+            "skillTag": [
+                "Tripudio elementale"
+            ],
+            "points": [
+                {
+                    "id": "Geo",
+                    "type": "Geo",
+                    "count": 3
+                },
+                {
+                    "id": "Energy",
+                    "type": "Energia",
+                    "count": 2
+                }
+            ]
+        }
+    ]
 }

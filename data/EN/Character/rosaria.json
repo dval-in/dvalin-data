@@ -1,1161 +1,1125 @@
 {
-	"_id": 10000045,
-	"id": "Rosaria",
-	"name": "Rosaria",
-	"title": "Thorny Benevolence",
-	"description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
-	"weapon_type": "Polearm",
-	"element": "Cryo",
-	"gender": "Female",
-	"substat": "ATK%",
-	"affiliation": "Church of Favonius",
-	"region": "Mondstadt",
-	"rarity": 4,
-	"birthday": [
-		24,
-		1
-	],
-	"constellation": "Spinea Corona",
-	"domain": "Forsaken Rift",
-	"cv": {
-		"english": "Elizabeth Maxwell",
-		"chinese": "张安琪",
-		"japanese": "加隈亜衣",
-		"korean": "Kim Bo-na"
-	},
-	"skills": [
-		{
-			"_id": 10451,
-			"id": "NormalAttackSpearOfTheChurch",
-			"name": "Normal Attack: Spear of the Church",
-			"description": "<span>Normal Attack</span><br/>Performs up to 5 consecutive spear strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "1-Hit DMG",
-					"values": [
-						"52.46%",
-						"56.73%",
-						"61%",
-						"67.1%",
-						"71.37%",
-						"76.25%",
-						"82.96%",
-						"89.67%",
-						"96.38%",
-						"103.7%",
-						"111.02%",
-						"118.34%",
-						"125.66%",
-						"132.98%",
-						"140.3%"
-					]
-				},
-				{
-					"label": "2-Hit DMG",
-					"values": [
-						"51.6%",
-						"55.8%",
-						"60%",
-						"66%",
-						"70.2%",
-						"75%",
-						"81.6%",
-						"88.2%",
-						"94.8%",
-						"102%",
-						"109.2%",
-						"116.4%",
-						"123.6%",
-						"130.8%",
-						"138%"
-					]
-				},
-				{
-					"label": "3-Hit DMG",
-					"values": [
-						"31.82%×2",
-						"34.41%×2",
-						"37%×2",
-						"40.7%×2",
-						"43.29%×2",
-						"46.25%×2",
-						"50.32%×2",
-						"54.39%×2",
-						"58.46%×2",
-						"62.9%×2",
-						"67.34%×2",
-						"71.78%×2",
-						"76.22%×2",
-						"80.66%×2",
-						"85.1%×2"
-					]
-				},
-				{
-					"label": "4-Hit DMG",
-					"values": [
-						"69.66%",
-						"75.33%",
-						"81%",
-						"89.1%",
-						"94.77%",
-						"101.25%",
-						"110.16%",
-						"119.07%",
-						"127.98%",
-						"137.7%",
-						"147.42%",
-						"157.14%",
-						"166.86%",
-						"176.58%",
-						"186.3%"
-					]
-				},
-				{
-					"label": "5-Hit DMG",
-					"values": [
-						"41.62% + 43%",
-						"45.01% + 46.5%",
-						"48.4% + 50%",
-						"53.24% + 55%",
-						"56.63% + 58.5%",
-						"60.5% + 62.5%",
-						"65.82% + 68%",
-						"71.15% + 73.5%",
-						"76.47% + 79%",
-						"82.28% + 85%",
-						"88.09% + 91%",
-						"93.9% + 97%",
-						"99.7% + 103%",
-						"105.51% + 109%",
-						"111.32% + 115%"
-					]
-				},
-				{
-					"label": "Charged Attack DMG",
-					"values": [
-						"136.74%",
-						"147.87%",
-						"159%",
-						"174.9%",
-						"186.03%",
-						"198.75%",
-						"216.24%",
-						"233.73%",
-						"251.22%",
-						"270.3%",
-						"289.38%",
-						"308.46%",
-						"327.54%",
-						"346.62%",
-						"365.7%"
-					]
-				},
-				{
-					"label": "Charged Attack Stamina Cost",
-					"values": [
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25",
-						"25"
-					]
-				},
-				{
-					"label": "Plunge DMG",
-					"values": [
-						"63.93%",
-						"69.14%",
-						"74.34%",
-						"81.77%",
-						"86.98%",
-						"92.93%",
-						"101.1%",
-						"109.28%",
-						"117.46%",
-						"126.38%",
-						"135.3%",
-						"144.22%",
-						"153.14%",
-						"162.06%",
-						"170.98%"
-					]
-				},
-				{
-					"label": "Low/High Plunge DMG",
-					"values": [
-						"127.84% / 159.68%",
-						"138.24% / 172.67%",
-						"148.65% / 185.67%",
-						"163.51% / 204.24%",
-						"173.92% / 217.23%",
-						"185.81% / 232.09%",
-						"202.16% / 252.51%",
-						"218.51% / 272.93%",
-						"234.86% / 293.36%",
-						"252.7% / 315.64%",
-						"270.54% / 337.92%",
-						"288.38% / 360.2%",
-						"306.22% / 382.48%",
-						"324.05% / 404.76%",
-						"341.89% / 427.04%"
-					]
-				}
-			]
-		},
-		{
-			"_id": 10452,
-			"id": "RavagingConfession",
-			"name": "Ravaging Confession",
-			"description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <span>Cryo DMG</span>.<br/>This ability cannot be used to travel behind opponents of a larger build.",
-			"info": "Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.",
-			"attributes": [
-				{
-					"label": "Skill DMG",
-					"values": [
-						"58.4% + 136%",
-						"62.78% + 146.2%",
-						"67.16% + 156.4%",
-						"73% + 170%",
-						"77.38% + 180.2%",
-						"81.76% + 190.4%",
-						"87.6% + 204%",
-						"93.44% + 217.6%",
-						"99.28% + 231.2%",
-						"105.12% + 244.8%",
-						"110.96% + 258.4%",
-						"116.8% + 272%",
-						"124.1% + 289%",
-						"131.4% + 306%",
-						"138.7% + 323%"
-					]
-				},
-				{
-					"label": "CD",
-					"values": [
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s",
-						"6s"
-					]
-				}
-			]
-		},
-		{
-			"_id": 10453,
-			"id": "RitesOfTermination",
-			"name": "Rites of Termination",
-			"description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <span>Cryo DMG</span>.<br/>While active, the Ice Lance periodically releases a blast of cold air, dealing <span>Cryo DMG</span> to surrounding opponents.",
-			"info": "Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.",
-			"attributes": [
-				{
-					"label": "Skill DMG",
-					"values": [
-						"104% + 152%",
-						"111.8% + 163.4%",
-						"119.6% + 174.8%",
-						"130% + 190%",
-						"137.8% + 201.4%",
-						"145.6% + 212.8%",
-						"156% + 228%",
-						"166.4% + 243.2%",
-						"176.8% + 258.4%",
-						"187.2% + 273.6%",
-						"197.6% + 288.8%",
-						"208% + 304%",
-						"221% + 323%",
-						"234% + 342%",
-						"247% + 361%"
-					]
-				},
-				{
-					"label": "Ice Lance DoT",
-					"values": [
-						"132%",
-						"141.9%",
-						"151.8%",
-						"165%",
-						"174.9%",
-						"184.8%",
-						"198%",
-						"211.2%",
-						"224.4%",
-						"237.6%",
-						"250.8%",
-						"264%",
-						"280.5%",
-						"297%",
-						"313.5%"
-					]
-				},
-				{
-					"label": "Duration",
-					"values": [
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s",
-						"8s"
-					]
-				},
-				{
-					"label": "CD",
-					"values": [
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s"
-					]
-				},
-				{
-					"label": "Energy Cost",
-					"values": [
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60"
-					]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "ReginaProbationum",
-			"name": "Regina Probationum",
-			"description": "When Rosaria strikes an opponent from behind using <span>Ravaging Confession</span>, Rosaria's CRIT Rate increases by 12% for 5s.",
-			"level": 1
-		},
-		{
-			"id": "ShadowSamaritan",
-			"name": "Shadow Samaritan",
-			"description": "Casting <span>Rites of Termination</span> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.<br/>CRIT Rate Bonus gained this way cannot exceed 15%.",
-			"level": 4
-		},
-		{
-			"id": "NightWalk",
-			"name": "Night Walk",
-			"description": "At night (18:00–6:00), increases the Movement SPD of your own party members by 10%.<br/>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"_id": 451,
-			"id": "UnholyRevelation",
-			"name": "Unholy Revelation",
-			"description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
-			"level": 1
-		},
-		{
-			"_id": 452,
-			"id": "LandWithoutPromise",
-			"name": "Land Without Promise",
-			"description": "The duration of the Ice Lance created by <span>Rites of Termination</span> is increased by 4s.",
-			"level": 2
-		},
-		{
-			"_id": 453,
-			"id": "TheWagesOfSin",
-			"name": "The Wages of Sin",
-			"description": "Increases the Level of <span>Ravaging Confession</span> by 3.<br/>Maximum upgrade level is 15.",
-			"level": 3
-		},
-		{
-			"_id": 454,
-			"id": "PainfulGrace",
-			"name": "Painful Grace",
-			"description": "<span>Ravaging Confession</span>'s CRIT Hits regenerate 5 Energy for Rosaria.<br/>Can only be triggered once each time Ravaging Confession is cast.",
-			"level": 4
-		},
-		{
-			"_id": 455,
-			"id": "LastRites",
-			"name": "Last Rites",
-			"description": "Increases the Level of <span>Rites of Termination</span> by 3.<br/>Maximum upgrade level is 15.",
-			"level": 5
-		},
-		{
-			"_id": 456,
-			"id": "DivineRetribution",
-			"name": "Divine Retribution",
-			"description": "<span>Rites of Termination</span>'s attack decreases opponents' Physical RES by 20% for 10s.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [
-				1
-			],
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						"-",
-						1
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"-",
-						"1030"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"-",
-						"20"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"-",
-						"60"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"-",
-						"0.0%"
-					]
-				}
-			]
-		},
-		{
-			"level": [
-				20
-			],
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						0,
-						1
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"2647",
-						"3417"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"52",
-						"67"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"153",
-						"197"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
-				}
-			]
-		},
-		{
-			"level": [
-				40
-			],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						1,
-						2
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"5118",
-						"5665"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"100",
-						"111"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"296",
-						"327"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"0.0%",
-						"6.0%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104161,
-				"id": "ShivadaJadeSliver",
-				"name": "Shivada Jade Sliver",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"_id": 100022,
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112032,
-				"id": "RecruitsInsignia",
-				"name": "Recruit's Insignia",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [
-				50
-			],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						2,
-						3
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"6516",
-						"7245"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"127",
-						"141"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"376",
-						"418"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"6.0%",
-						"12.0%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104162,
-				"id": "ShivadaJadeFragment",
-				"name": "Shivada Jade Fragment",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"_id": 113010,
-				"id": "HoarfrostCore",
-				"name": "Hoarfrost Core",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100022,
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112032,
-				"id": "RecruitsInsignia",
-				"name": "Recruit's Insignia",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [
-				60
-			],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						3,
-						4
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"8096",
-						"8643"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"158",
-						"169"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"468",
-						"499"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"12.0%",
-						"12.0%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104162,
-				"id": "ShivadaJadeFragment",
-				"name": "Shivada Jade Fragment",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"_id": 113010,
-				"id": "HoarfrostCore",
-				"name": "Hoarfrost Core",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100022,
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112033,
-				"id": "SergeantsInsignia",
-				"name": "Sergeant's Insignia",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [
-				70
-			],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						4,
-						5
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"9493",
-						"10040"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"185",
-						"196"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"548",
-						"580"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"12.0%",
-						"18.0%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104163,
-				"id": "ShivadaJadeChunk",
-				"name": "Shivada Jade Chunk",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"_id": 113010,
-				"id": "HoarfrostCore",
-				"name": "Hoarfrost Core",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100022,
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112033,
-				"id": "SergeantsInsignia",
-				"name": "Sergeant's Insignia",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [
-				80
-			],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						5,
-						6
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"10891",
-						"11438"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"213",
-						"223"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"629",
-						"661"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"18.0%",
-						"24.0%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104163,
-				"id": "ShivadaJadeChunk",
-				"name": "Shivada Jade Chunk",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"_id": 113010,
-				"id": "HoarfrostCore",
-				"name": "Hoarfrost Core",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100022,
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112034,
-				"id": "LieutenantsInsignia",
-				"name": "Lieutenant's Insignia",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [
-				90
-			],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [
-						6,
-						7
-					]
-				},
-				{
-					"label": "Base HP",
-					"values": [
-						"12289",
-						"12289"
-					]
-				},
-				{
-					"label": "Base ATK",
-					"values": [
-						"240",
-						"240"
-					]
-				},
-				{
-					"label": "Base DEF",
-					"values": [
-						"710",
-						"710"
-					]
-				},
-				{
-					"label": "ATK%",
-					"values": [
-						"24.0%",
-						"24.0%"
-					]
-				}
-			],
-			"mat1": {
-				"_id": 104164,
-				"id": "ShivadaJadeGemstone",
-				"name": "Shivada Jade Gemstone",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"_id": 113010,
-				"id": "HoarfrostCore",
-				"name": "Hoarfrost Core",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"_id": 100022,
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"_id": 112034,
-				"id": "LieutenantsInsignia",
-				"name": "Lieutenant's Insignia",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talent_materials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"_id": 104307,
-					"id": "TeachingsOfBallad",
-					"name": "Teachings of Ballad",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"_id": 112032,
-					"id": "RecruitsInsignia",
-					"name": "Recruit's Insignia",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guide to Ballad",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"_id": 112033,
-					"id": "SergeantsInsignia",
-					"name": "Sergeant's Insignia",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guide to Ballad",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"_id": 112033,
-					"id": "SergeantsInsignia",
-					"name": "Sergeant's Insignia",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guide to Ballad",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"_id": 112033,
-					"id": "SergeantsInsignia",
-					"name": "Sergeant's Insignia",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"_id": 104308,
-					"id": "GuideToBallad",
-					"name": "Guide to Ballad",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"_id": 112033,
-					"id": "SergeantsInsignia",
-					"name": "Sergeant's Insignia",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Philosophies of Ballad",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"_id": 112034,
-					"id": "LieutenantsInsignia",
-					"name": "Lieutenant's Insignia",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"_id": 113015,
-					"id": "ShadowOfTheWarrior",
-					"name": "Shadow of the Warrior",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Philosophies of Ballad",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"_id": 112034,
-					"id": "LieutenantsInsignia",
-					"name": "Lieutenant's Insignia",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"_id": 113015,
-					"id": "ShadowOfTheWarrior",
-					"name": "Shadow of the Warrior",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Philosophies of Ballad",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"_id": 112034,
-					"id": "LieutenantsInsignia",
-					"name": "Lieutenant's Insignia",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"_id": 113015,
-					"id": "ShadowOfTheWarrior",
-					"name": "Shadow of the Warrior",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"_id": 104309,
-					"id": "PhilosophiesOfBallad",
-					"name": "Philosophies of Ballad",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"_id": 112034,
-					"id": "LieutenantsInsignia",
-					"name": "Lieutenant's Insignia",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"_id": 113015,
-					"id": "ShadowOfTheWarrior",
-					"name": "Shadow of the Warrior",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"_id": 104319,
-					"id": "CrownOfInsight",
-					"name": "Crown of Insight",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	]
+  "id": "Rosaria",
+  "name": "Rosaria",
+  "title": "Thorny Benevolence",
+  "description": "A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.",
+  "weaponType": "Polearm",
+  "element": "Cryo",
+  "gender": "Female",
+  "substat": "ATK%",
+  "affiliation": "Church of Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": "24/1",
+  "constellation": "Spinea Corona",
+  "domain": "Forsaken Rift",
+  "cv": {
+    "english": "Elizabeth Maxwell",
+    "chinese": "张安琪",
+    "japanese": "加隈亜衣",
+    "korean": "Kim Bo-na"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackSpearOfTheChurch",
+      "name": "Normal Attack: Spear of the Church",
+      "description": "<span>Normal Attack</span><br/>Performs up to 5 consecutive spear strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "52.46%",
+            "56.73%",
+            "61%",
+            "67.1%",
+            "71.37%",
+            "76.25%",
+            "82.96%",
+            "89.67%",
+            "96.38%",
+            "103.7%",
+            "111.02%",
+            "118.34%",
+            "125.66%",
+            "132.98%",
+            "140.3%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "51.6%",
+            "55.8%",
+            "60%",
+            "66%",
+            "70.2%",
+            "75%",
+            "81.6%",
+            "88.2%",
+            "94.8%",
+            "102%",
+            "109.2%",
+            "116.4%",
+            "123.6%",
+            "130.8%",
+            "138%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "31.82%×2",
+            "34.41%×2",
+            "37%×2",
+            "40.7%×2",
+            "43.29%×2",
+            "46.25%×2",
+            "50.32%×2",
+            "54.39%×2",
+            "58.46%×2",
+            "62.9%×2",
+            "67.34%×2",
+            "71.78%×2",
+            "76.22%×2",
+            "80.66%×2",
+            "85.1%×2"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "69.66%",
+            "75.33%",
+            "81%",
+            "89.1%",
+            "94.77%",
+            "101.25%",
+            "110.16%",
+            "119.07%",
+            "127.98%",
+            "137.7%",
+            "147.42%",
+            "157.14%",
+            "166.86%",
+            "176.58%",
+            "186.3%"
+          ]
+        },
+        {
+          "label": "5-Hit DMG",
+          "values": [
+            "41.62% + 43%",
+            "45.01% + 46.5%",
+            "48.4% + 50%",
+            "53.24% + 55%",
+            "56.63% + 58.5%",
+            "60.5% + 62.5%",
+            "65.82% + 68%",
+            "71.15% + 73.5%",
+            "76.47% + 79%",
+            "82.28% + 85%",
+            "88.09% + 91%",
+            "93.9% + 97%",
+            "99.7% + 103%",
+            "105.51% + 109%",
+            "111.32% + 115%"
+          ]
+        },
+        {
+          "label": "Charged Attack DMG",
+          "values": [
+            "136.74%",
+            "147.87%",
+            "159%",
+            "174.9%",
+            "186.03%",
+            "198.75%",
+            "216.24%",
+            "233.73%",
+            "251.22%",
+            "270.3%",
+            "289.38%",
+            "308.46%",
+            "327.54%",
+            "346.62%",
+            "365.7%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Ravaging Confession",
+      "description": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing <span>Cryo DMG</span>.<br/>This ability cannot be used to travel behind opponents of a larger build.",
+      "info": "Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "58.4% + 136%",
+            "62.78% + 146.2%",
+            "67.16% + 156.4%",
+            "73% + 170%",
+            "77.38% + 180.2%",
+            "81.76% + 190.4%",
+            "87.6% + 204%",
+            "93.44% + 217.6%",
+            "99.28% + 231.2%",
+            "105.12% + 244.8%",
+            "110.96% + 258.4%",
+            "116.8% + 272%",
+            "124.1% + 289%",
+            "131.4% + 306%",
+            "138.7% + 323%"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Rites of Termination",
+      "description": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal <span>Cryo DMG</span>.<br/>While active, the Ice Lance periodically releases a blast of cold air, dealing <span>Cryo DMG</span> to surrounding opponents.",
+      "info": "Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.",
+      "attributes": [
+        {
+          "label": "Skill DMG",
+          "values": [
+            "104% + 152%",
+            "111.8% + 163.4%",
+            "119.6% + 174.8%",
+            "130% + 190%",
+            "137.8% + 201.4%",
+            "145.6% + 212.8%",
+            "156% + 228%",
+            "166.4% + 243.2%",
+            "176.8% + 258.4%",
+            "187.2% + 273.6%",
+            "197.6% + 288.8%",
+            "208% + 304%",
+            "221% + 323%",
+            "234% + 342%",
+            "247% + 361%"
+          ]
+        },
+        {
+          "label": "Ice Lance DoT",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Duration",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "ReginaProbationum",
+      "name": "Regina Probationum",
+      "description": "When Rosaria strikes an opponent from behind using <span>Ravaging Confession</span>, Rosaria's CRIT Rate increases by 12% for 5s.",
+      "level": 1
+    },
+    {
+      "id": "ShadowSamaritan",
+      "name": "Shadow Samaritan",
+      "description": "Casting <span>Rites of Termination</span> increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.<br/>CRIT Rate Bonus gained this way cannot exceed 15%.",
+      "level": 4
+    },
+    {
+      "id": "NightWalk",
+      "name": "Night Walk",
+      "description": "At night (18:00–6:00), increases the Movement SPD of your own party members by 10%.<br/>Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "UnholyRevelation",
+      "name": "Unholy Revelation",
+      "description": "When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.",
+      "level": 1
+    },
+    {
+      "id": "LandWithoutPromise",
+      "name": "Land Without Promise",
+      "description": "The duration of the Ice Lance created by <span>Rites of Termination</span> is increased by 4s.",
+      "level": 2
+    },
+    {
+      "id": "TheWagesOfSin",
+      "name": "The Wages of Sin",
+      "description": "Increases the Level of <span>Ravaging Confession</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "PainfulGrace",
+      "name": "Painful Grace",
+      "description": "<span>Ravaging Confession</span>'s CRIT Hits regenerate 5 Energy for Rosaria.<br/>Can only be triggered once each time Ravaging Confession is cast.",
+      "level": 4
+    },
+    {
+      "id": "LastRites",
+      "name": "Last Rites",
+      "description": "Increases the Level of <span>Rites of Termination</span> by 3.<br/>Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "DivineRetribution",
+      "name": "Divine Retribution",
+      "description": "<span>Rites of Termination</span>'s attack decreases opponents' Physical RES by 20% for 10s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "60"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2647",
+            "3417"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "52",
+            "67"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "153",
+            "197"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "5118",
+            "5665"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "100",
+            "111"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "296",
+            "327"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeSliver",
+        "name": "Shivada Jade Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "RecruitsInsignia",
+        "name": "Recruit's Insignia",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6516",
+            "7245"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "127",
+            "141"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "376",
+            "418"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hoarfrost Core",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "RecruitsInsignia",
+        "name": "Recruit's Insignia",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8096",
+            "8643"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "158",
+            "169"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "468",
+            "499"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Shivada Jade Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hoarfrost Core",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SergeantsInsignia",
+        "name": "Sergeant's Insignia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "9493",
+            "10040"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "185",
+            "196"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "548",
+            "580"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hoarfrost Core",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SergeantsInsignia",
+        "name": "Sergeant's Insignia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10891",
+            "11438"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "213",
+            "223"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "629",
+            "661"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Shivada Jade Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hoarfrost Core",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LieutenantsInsignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "12289",
+            "12289"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "240",
+            "240"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "710",
+            "710"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeGemstone",
+        "name": "Shivada Jade Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hoarfrost Core",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LieutenantsInsignia",
+        "name": "Lieutenant's Insignia",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfBallad",
+          "name": "Teachings of Ballad",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Recruit's Insignia",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guide to Ballad",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guide to Ballad",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guide to Ballad",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guide to Ballad",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Sergeant's Insignia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Philosophies of Ballad",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Shadow of the Warrior",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Philosophies of Ballad",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Shadow of the Warrior",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Philosophies of Ballad",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Shadow of the Warrior",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Philosophies of Ballad",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Lieutenant's Insignia",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Shadow of the Warrior",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Rosaria/Icon.webp",
+    "sideIcon": "Character/Rosaria/SideIcon.webp",
+    "gatchaCard": "Character/Rosaria/GachaCard.webp",
+    "gachaSplash": "Character/Rosaria/GachaSplash.webp",
+    "face": "Character/Rosaria/Face.webp",
+    "halfFace": "Character/Rosaria/HalfFace.webp",
+    "profile": "Character/Rosaria/Profile.webp",
+    "weaponStance": "Character/Rosaria/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "DragonspineSpear",
+  "specialDish": "DinnerOfJudgment",
+  "tcgCharacterCard": "Rosaria",
+  "outfits": [
+    {
+      "id": "Executor’sThorns",
+      "name": "Executor’s Thorns",
+      "description": "Rosaria's outfit. Rosaria has heavily modified this particular Church of Favonius uniform.",
+      "picture": "Character/Rosaria/Outfit/Executor’sThorns.webp"
+    }
+  ]
 }

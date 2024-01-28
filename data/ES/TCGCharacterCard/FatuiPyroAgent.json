@@ -1,98 +1,97 @@
 {
-	"_id": 2301,
-	"id": "FatuiPyroAgent",
-	"name": "Soldado Fatui - Recaudador Pyro",
-	"title": "Recaudador - Filo liquidador",
-	"desc": "“Vivo o muerto, no puedes huir de tus deudas...”.",
-	"attributes": {
-		"hp": 9,
-		"card_type": "Carta de personaje",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Otras armas",
-		"faction": [
-			"Fatui"
-		],
-		"talent_card": {
-			"_id": 3237,
-			"id": "PaidInFull",
-			"name": "Paid in Full"
-		},
-		"source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Soldado Fatui - Recaudador Pyro de los duelos tabernarios",
-		"character": {
-			"id": "FatuiPyroAgent",
-			"name": "Fatui Pyro Agent"
-		}
-	},
-	"skills": [
-		{
-			"id": "Thrust",
-			"name": "Puñalada",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-			"skillTag": [
-				"Ataque Normal"
-			],
-			"points": [
-				{
-					"_id": 1103,
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 1
-				},
-				{
-					"_id": 1109,
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Prowl",
-			"name": "Acecho",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">sigilo</span>.",
-			"skillTag": [
-				"Habilidad Elemental"
-			],
-			"points": [
-				{
-					"_id": 1103,
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BladeAblaze",
-			"name": "Filos incineradores",
-			"desc": "Inflige 5 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
-			"skillTag": [
-				"Habilidad Definitiva"
-			],
-			"points": [
-				{
-					"_id": 1103,
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 3
-				},
-				{
-					"_id": 1110,
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StealthMaster",
-			"name": "Maestro del sigilo",
-			"desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">sigilo</span>.",
-			"skillTag": [
-				"Habilidad pasiva"
-			],
-			"points": []
-		}
-	]
+  "id": "FatuiPyroAgent",
+  "name": "Soldado Fatui - Recaudador Pyro",
+  "title": "Recaudador - Filo liquidador",
+  "desc": "“Vivo o muerto, no puedes huir de tus deudas...”.",
+  "attributes": {
+    "hp": 9,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Soldado Fatui - Recaudador Pyro de los duelos tabernarios",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "Puñalada",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Acecho",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">sigilo</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Filos incineradores",
+      "desc": "Inflige 5 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Maestro del sigilo",
+      "desc": "Pasiva: cuando comienza el combate, este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">sigilo</span>.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ]
 }

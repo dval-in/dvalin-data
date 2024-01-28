@@ -1,29 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
-    "_id": {
-      "type": "number"
-    },
     "affiliation": {
       "type": "string"
-    },
-    "artifacts": {
-      "items": {
-        "properties": {
-          "_id": {
-            "type": "number"
-          },
-          "id": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "_id",
-          "id"
-        ],
-        "type": "object"
-      },
-      "type": "array"
     },
     "ascension": {
       "items": {
@@ -43,9 +22,6 @@
           },
           "mat1": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -60,7 +36,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -70,9 +45,6 @@
           },
           "mat2": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -87,7 +59,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -97,9 +68,6 @@
           },
           "mat3": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -114,7 +82,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -124,9 +91,6 @@
           },
           "mat4": {
             "properties": {
-              "_id": {
-                "type": "number"
-              },
               "amount": {
                 "type": "number"
               },
@@ -141,7 +105,6 @@
               }
             },
             "required": [
-              "_id",
               "amount",
               "id",
               "name",
@@ -191,9 +154,6 @@
     "constellations": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "description": {
             "type": "string"
           },
@@ -208,7 +168,6 @@
           }
         },
         "required": [
-          "_id",
           "description",
           "id",
           "level",
@@ -252,19 +211,7 @@
     },
     "featuredBanner": {
       "items": {
-        "properties": {
-          "_id": {
-            "type": "number"
-          },
-          "id": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "_id",
-          "id"
-        ],
-        "type": "object"
+        "type": "string"
       },
       "type": "array"
     },
@@ -280,8 +227,8 @@
     "outfits": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
+          "description": {
+            "type": "string"
           },
           "id": {
             "type": "string"
@@ -294,7 +241,7 @@
           }
         },
         "required": [
-          "_id",
+          "description",
           "id",
           "name",
           "picture"
@@ -375,41 +322,14 @@
       "type": "string"
     },
     "signatureArtifactSet": {
-      "properties": {
-        "_id": {
-          "type": "number"
-        },
-        "id": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "_id",
-        "id"
-      ],
-      "type": "object"
+      "type": "string"
     },
     "signatureWeapon": {
-      "properties": {
-        "_id": {
-          "type": "number"
-        },
-        "id": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "_id",
-        "id"
-      ],
-      "type": "object"
+      "type": "string"
     },
     "skills": {
       "items": {
         "properties": {
-          "_id": {
-            "type": "number"
-          },
           "attributes": {
             "items": {
               "properties": {
@@ -445,7 +365,6 @@
           }
         },
         "required": [
-          "_id",
           "attributes",
           "description",
           "id",
@@ -457,19 +376,7 @@
       "type": "array"
     },
     "specialDish": {
-      "properties": {
-        "_id": {
-          "type": "number"
-        },
-        "id": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "_id",
-        "id"
-      ],
-      "type": "object"
+      "type": "string"
     },
     "substat": {
       "type": "string"
@@ -483,9 +390,6 @@
           "items": {
             "items": {
               "properties": {
-                "_id": {
-                  "type": "number"
-                },
                 "amount": {
                   "type": "number"
                 },
@@ -500,7 +404,6 @@
                 }
               },
               "required": [
-                "_id",
                 "amount",
                 "id",
                 "name",
@@ -524,49 +427,17 @@
       "type": "array"
     },
     "tcgCharacterCard": {
-      "properties": {
-        "_id": {
-          "type": "number"
-        },
-        "id": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "_id",
-        "id"
-      ],
-      "type": "object"
+      "type": "string"
     },
     "title": {
       "type": "string"
     },
     "weaponType": {
       "type": "string"
-    },
-    "weapons": {
-      "items": {
-        "properties": {
-          "_id": {
-            "type": "number"
-          },
-          "id": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "_id",
-          "id"
-        ],
-        "type": "object"
-      },
-      "type": "array"
     }
   },
   "required": [
-    "_id",
     "affiliation",
-    "artifacts",
     "ascension",
     "birthday",
     "constellation",
@@ -590,8 +461,7 @@
     "substat",
     "talentMaterials",
     "tcgCharacterCard",
-    "weaponType",
-    "weapons"
+    "weaponType"
   ],
   "type": "object",
   "additionalProperties": false

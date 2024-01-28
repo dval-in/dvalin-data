@@ -10,7 +10,7 @@ export type Skill = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;
@@ -32,7 +32,7 @@ export type Constellation = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	description: string;
@@ -43,7 +43,7 @@ export type AscensionMaterial = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	amount: number;
@@ -108,57 +108,18 @@ export type Outfits = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	picture: string;
-};
-
-type EWeapon = {
-	/**
-	 * @TJS-required
-	 */
-	_id: number;
-	id: string;
-};
-
-type EArtifact = {
-	/**
-	 * @TJS-required
-	 */
-	_id: number;
-	id: string;
-};
-
-type EFood = {
-	/**
-	 * @TJS-required
-	 */
-	_id: number;
-	id: string;
-};
-
-type EBanner = {
-	/**
-	 * @TJS-required
-	 */
-	_id: number;
-	id: string;
-};
-
-type ETCGCharacterCard = {
-	/**
-	 * @TJS-required
-	 */
-	_id: number;
-	id: string;
+	description: string;
 };
 
 export type Character = {
 	/**
 	 * @TJS-required
 	 */
-	_id: number;
+
 	id: string;
 	name: string;
 	title?: string;
@@ -170,16 +131,14 @@ export type Character = {
 	affiliation: string;
 	region?: string;
 	rarity: number;
-	birthday: string;
+	birthday: string; // MM-DD
 	pictures: CharacterPicture;
 	outfits: undefined | Outfits[];
-	signatureWeapon: EWeapon;
-	weapons: EWeapon[];
-	signatureArtifactSet: undefined | EArtifact;
-	artifacts: EArtifact[];
-	specialDish: EFood;
-	featuredBanner: EBanner[];
-	tcgCharacterCard: undefined | ETCGCharacterCard;
+	signatureWeapon: string; // Id
+	signatureArtifactSet: undefined | string; // Id
+	specialDish: string; // Id
+	featuredBanner: string[];
+	tcgCharacterCard: undefined | string; // Id
 	constellation: string;
 	domain: string;
 	cv: CharacterVoice;
