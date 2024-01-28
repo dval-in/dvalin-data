@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'zhongli_030';
+const fullLenght = 'playerboy_005';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Zhongli';
+const charName = 'Traveler';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -21,16 +21,16 @@ const missingFields = {
 		icon: `Character/${charName}/Icon.webp`,
 		sideIcon: `Character/${charName}/SideIcon.webp`,
 		gatchaCard: `Character/${charName}/GachaCard.webp`,
-		gachaSplash: `Character/${charName}/GachaSplash.webp`,
-		face: `Character/${charName}/Face.webp`,
-		halfFace: `Character/${charName}/HalfFace.webp`,
-		profile: `Character/${charName}/Profile.webp`,
-		weaponStance: `Character/${charName}/WeaponStance.webp`,
+		gachaSplash: '',
+		face: '',
+		halfFace: '',
+		profile: '',
+		weaponStance: '',
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'VortexVanquisher',
-	specialDish: 'SlowCookedBambooShootSoup',
-	tcgCharacterCard: 'Zhongli',
+	signatureWeapon: '',
+	specialDish: '',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
@@ -117,10 +117,15 @@ async function updateCharacterFile(filePath, outfitDataForLang) {
 
 async function updateJson(outfitsByLang) {
 	fs.readdirSync(dataDirPath).forEach(langFolder => {
-		const charFilePath = path.join(dataDirPath, langFolder, 'Character', `${charName}.json`);
-		if (fs.existsSync(charFilePath)) {
-			const outfitDataForLang = outfitsByLang[langFolder];
-			updateCharacterFile(charFilePath, outfitDataForLang);
+		const charFolderPath = path.join(dataDirPath, langFolder, 'Character');
+		if (fs.existsSync(charFolderPath)) {
+			fs.readdirSync(charFolderPath).forEach(file => {
+				if (file.startsWith(charName)) {
+					const charFilePath = path.join(charFolderPath, file);
+					const outfitDataForLang = outfitsByLang[langFolder];
+					updateCharacterFile(charFilePath, outfitDataForLang);
+				}
+			});
 		}
 	});
 	console.log('Character files have been updated.');
