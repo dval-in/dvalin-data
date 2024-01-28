@@ -5,10 +5,10 @@ const path = require('path');
 const axios = require('axios');
 
 const dataDirPath = './data';
-const fullLenght = 'yoimiya_049';
+const fullLenght = 'yunjin_064';
 const charCode = fullLenght.split('_')[1];
 const charNameurl = fullLenght.split('_')[0];
-const charName = 'Yoimiya';
+const charName = 'YunJin';
 
 const honeyhunterworld = 'https://genshin.honeyhunterworld.com';
 const cheerio = require('cheerio');
@@ -28,9 +28,9 @@ const missingFields = {
 		weaponStance: `Character/${charName}/WeaponStance.webp`,
 	},
 	signatureArtifactSet: '',
-	signatureWeapon: 'ThunderingPulse',
-	specialDish: 'SummerFestivalFish',
-	tcgCharacterCard: 'Yoimiya',
+	signatureWeapon: 'DragonsBane',
+	specialDish: 'CloudShroudedJade',
+	tcgCharacterCard: '',
 };
 
 async function getOutfit() {
