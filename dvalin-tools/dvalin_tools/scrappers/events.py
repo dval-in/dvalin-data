@@ -5,16 +5,16 @@ Events are returned as JSON.
 """
 
 import asyncio
-import re
+import json
 from datetime import datetime
 from enum import Enum
+from pathlib import Path
 
 import httpx
 from pydantic import BaseModel, Field
 
+from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.tags import Tags, get_tags_from_subject
-
-REPLACE_SPACES = re.compile(r"\s+")
 
 
 class Game(Enum):
@@ -39,13 +39,27 @@ class Event(BaseModel):
     game_id: Game
     message_type: MessageType
     subject: str
-    lang_subject: dict[str, str]
+    subject_i18n: dict[LanguageCode, str] = Field(default_factory=dict, exclude=True)
     created_at: datetime
     tags: set[Tags] = Field(default_factory=set)
 
     @property
     def article_url(self) -> str:
         return f"https://www.hoyolab.com/article/{self.post_id}"
+
+    def model_dump_json(
+        self, *, language: LanguageCode = LanguageCode.ENGLISH, **kwargs
+    ) -> str:
+        """Dump the model as JSON, with only the specified language.
+
+        Dump the model as JSON, with the following in the specified language:
+
+        - subject.
+        """
+        return super(
+            self.__class__,
+            self.model_copy(update={"subject": self.subject_i18n[language]}),
+        ).model_dump_json(**kwargs)
 
 
 async def get_events(
@@ -72,13 +86,16 @@ async def get_events(
     is_last = data["data"]["is_last"]
     last_id = data["data"]["last_id"]
     for event in data["data"]["list"]:
+        subject_i18n = event["post"]["multi_language_info"]["lang_subject"]
         events.append(
             Event(
                 post_id=event["post"]["post_id"],
                 game_id=Game(event["post"]["game_id"]),
                 message_type=MessageType(message_type),
                 subject=event["post"]["subject"],
-                lang_subject=event["post"]["multi_language_info"]["lang_subject"],
+                subject_i18n={
+                    LanguageCode(code): text for code, text in subject_i18n.items()
+                },
                 created_at=datetime.fromtimestamp(event["post"]["created_at"]),
                 tags=get_tags_from_subject(event["post"]["subject"]),
             )
@@ -108,8 +125,33 @@ async def get_all_events(
     return events
 
 
+def write_events(events: list[Event], data_dir: Path) -> None:
+    """Write events."""
+    for event in events:
+        for lang in event.subject_i18n.keys():
+            target_file = (
+                data_dir
+                / LANGUAGE_CODE_TO_DIR[lang]
+                / "Event"
+                / f"{event.created_at:%Y-%m}.json"
+            )
+            target_file.parent.mkdir(parents=True, exist_ok=True)
+            base = []
+            if target_file.exists():
+                with target_file.open("r", encoding="utf-8") as f:
+                    base = json.load(f)
+            with target_file.open("w", encoding="utf-8") as f:
+                dump = event.model_dump_json(
+                    indent=2,
+                    language=lang,
+                )
+                base.append(dump)
+                f.write(base)
+
+
 async def main():
     events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=80)
+
     print(f"Found {len(events)} events.")
     untagged = [event for event in events if not event.tags]
     for i, event in enumerate(events):
@@ -118,6 +160,11 @@ async def main():
     print(f"Found {len(untagged)} untagged events.")
     for i, event in enumerate(untagged):
         print(f"{i}. {event.subject} ({event.article_url})")
+
+    print(events[0])
+    print(events[0].model_dump_json(indent=2))
+    print(events[0].model_dump_json(indent=2, language=LanguageCode.FRENCH))
+    print(events[0].model_dump_json(indent=2, language=LanguageCode.KOREAN))
 
 
 if __name__ == "__main__":

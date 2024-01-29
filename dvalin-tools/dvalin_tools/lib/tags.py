@@ -1,8 +1,6 @@
 import re
 from enum import Enum, auto
 
-from dvalin_tools.scrappers.events import REPLACE_SPACES
-
 # "Is there time to sneak in some dim sum first?" — "Leonine Vanguard" Gaming
 TAG_NEW_CHARACTER_INTRO = re.compile(r"""".*" — ".*" (?P<name>.*)""")
 # Voice Artist Announcement
@@ -91,6 +89,9 @@ TAG_GENSHIN_CONCERT = re.compile(r"""GENSHIN CONCERT""", flags=re.IGNORECASE)
 TAG_VERSION_PREVIEW_PAGE = re.compile(r"""Version (?P<version>\d\.\d) Preview""")
 # #Impact4Music: "Music From Teyvat" Benefit Concert at Vienna's Musikverein Highlights
 TAG_MUSIC = re.compile(r"""music""", flags=re.IGNORECASE)
+
+
+REPLACE_SPACES = re.compile(r"\s+")
 
 
 class Tags(Enum):
