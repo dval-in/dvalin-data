@@ -5,16 +5,19 @@ Events are returned as JSON.
 """
 
 import asyncio
+from asyncio import TaskGroup
 from datetime import datetime
 from pathlib import Path
 
 import httpx
+from aiofiles import open as async_open
+from tqdm.asyncio import tqdm_asyncio
 
 from dvalin_tools.lib.constants import DATA_DIR
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.tags import get_tags_from_subject
 from dvalin_tools.models.common import Game
-from dvalin_tools.models.events import EventFile, EventI18N, MessageType
+from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
 
 
 async def get_events(
@@ -130,11 +133,62 @@ def reparse_event_files(data_dir: Path) -> None:
                 f.write(existing_events.model_dump_json(indent=2))
 
 
+async def update_event_details(
+    event: EventLocalized, *, client: httpx.AsyncClient
+) -> None:
+    """Update the details of an event."""
+    url = "https://bbs-api-os.hoyolab.com/community/post/wapi/getPostFull"
+    resp = await client.get(
+        url,
+        params={"post_id": event.post_id},
+        headers={"X-Rpc-Language": event.language.value},
+    )
+    resp_json = resp.json()
+    event.content = resp_json["data"]["post"]["post"]["content"]
+
+
+async def update_event_file_with_details(
+    event_file: EventFile, *, force: bool = False
+) -> None:
+    """Update an event file with details."""
+    async with httpx.AsyncClient() as client:
+        async with TaskGroup() as g:
+            for event in event_file:
+                if event.content and not force:
+                    continue
+                await g.create_task(update_event_details(event, client=client))
+
+
+async def update_json_file_with_details(
+    json_file: Path, *, force: bool = False
+) -> None:
+    """Update a JSON file with details."""
+    async with async_open(json_file, encoding="utf-8") as f:
+        event_file = EventFile.model_validate_json(await f.read())
+        await update_event_file_with_details(event_file, force=force)
+
+    async with async_open(json_file, "w", encoding="utf-8") as f:
+        await f.write(event_file.model_dump_json(indent=2))
+    print(f"{json_file} done.")
+
+
+async def update_all_event_files_with_details(
+    data_dir: Path, *, force: bool = False
+) -> None:
+    """Update all event files with details."""
+    tasks = []
+    for json_file in data_dir.glob("**/Event/**/*.json"):
+        tasks.append(update_json_file_with_details(json_file, force=force))
+
+    await tqdm_asyncio.gather(*tasks)
+
+
 async def main():
-    events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=99999)
-    write_events(events, DATA_DIR)
+    # events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=99999)
+    # write_events(events, DATA_DIR)
 
     # reparse_event_files(DATA_DIR)
+    await update_all_event_files_with_details(DATA_DIR)
 
 
 if __name__ == "__main__":
