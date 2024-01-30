@@ -107,29 +107,32 @@ def write_events(events: list[EventI18N], data_dir: Path) -> None:
             localized_event = event.localize(lang)
             if localized_event in existing_events.root:
                 existing_events.root.remove(localized_event)
-                existing_events.root.add(localized_event)
+            existing_events.root.add(localized_event)
 
             with target_file.open("w", encoding="utf-8") as f:
                 f.write(existing_events.model_dump_json(indent=2))
 
 
+def reparse_event_files(data_dir: Path) -> None:
+    """Reparse event files.
+
+    This parses all event files, and writes them back to disk.
+    This is useful if the schema has changed (migration, correction, etc.).
+    """
+    for event_file in data_dir.glob("**/Event/*.json"):
+        print(event_file)
+        contents = event_file.read_text(encoding="utf-8")
+        if contents.strip():
+            existing_events = EventFile.model_validate_json(contents)
+            with event_file.open("w", encoding="utf-8") as f:
+                f.write(existing_events.model_dump_json(indent=2))
+
+
 async def main():
-    events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=80)
-
+    events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=99999)
     write_events(events, DATA_DIR)
-    print(f"Found {len(events)} events.")
-    untagged = [event for event in events if not event.tags]
-    for i, event in enumerate(events):
-        print(f"{i}.{event.tags} - {event.subject} ({event.article_url})")
 
-    print(f"Found {len(untagged)} untagged events.")
-    for i, event in enumerate(untagged):
-        print(f"{i}. {event.subject} ({event.article_url})")
-
-    print(events[0])
-    print(events[0].model_dump_json(indent=2))
-    print(events[0].localize(LanguageCode.ENGLISH).model_dump_json(indent=2))
-    print(events[0].localize(LanguageCode.KOREAN).model_dump_json(indent=2))
+    # reparse_event_files(DATA_DIR)
 
 
 if __name__ == "__main__":
