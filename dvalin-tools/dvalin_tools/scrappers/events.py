@@ -93,6 +93,8 @@ def write_events(events: list[EventI18N], data_dir: Path) -> None:
                 data_dir
                 / LANGUAGE_CODE_TO_DIR[lang]
                 / "Event"
+                / f"{event.created_at:%Y}"
+                / f"{event.created_at:%m}"
                 / f"{event.created_at:%Y-%m}.json"
             )
             target_file.parent.mkdir(parents=True, exist_ok=True)
@@ -119,7 +121,7 @@ def reparse_event_files(data_dir: Path) -> None:
     This parses all event files, and writes them back to disk.
     This is useful if the schema has changed (migration, correction, etc.).
     """
-    for event_file in data_dir.glob("**/Event/*.json"):
+    for event_file in data_dir.glob("**/Event/**/*.json"):
         print(event_file)
         contents = event_file.read_text(encoding="utf-8")
         if contents.strip():
