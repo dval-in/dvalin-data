@@ -41,7 +41,12 @@ async def get_events(
     is_last = data["data"]["is_last"]
     last_id = data["data"]["last_id"]
     for event in data["data"]["list"]:
-        subject_i18n = event["post"]["multi_language_info"]["lang_subject"]
+        try:
+            subject_i18n = event["post"]["multi_language_info"]["lang_subject"]
+        except (TypeError, KeyError):
+            subject_i18n = {
+                LanguageCode.ENGLISH: event["post"]["subject"],
+            }
         events.append(
             EventI18N(
                 post_id=event["post"]["post_id"],
