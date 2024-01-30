@@ -37,14 +37,20 @@ class _Event(BaseModel):
 class EventLocalized(_Event):
     language: LanguageCode
     subject: str
+    content: str = ""
 
 
 class EventI18N(_Event):
     subject_i18n: dict[LanguageCode, str] = Field(default_factory=dict)
+    content_i18n: dict[LanguageCode, str] = Field(default_factory=dict)
 
     @property
     def subject(self) -> str:
         return self.subject_i18n[LanguageCode.ENGLISH]
+
+    @property
+    def content(self) -> str:
+        return self.content_i18n[LanguageCode.ENGLISH]
 
     def localize(self, language: LanguageCode) -> EventLocalized:
         return EventLocalized(
@@ -55,6 +61,7 @@ class EventI18N(_Event):
             tags=self.tags,
             language=language,
             subject=self.subject_i18n[language],
+            content=self.content_i18n[language],
         )
 
 
