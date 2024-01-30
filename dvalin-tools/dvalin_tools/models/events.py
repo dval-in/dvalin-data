@@ -10,6 +10,7 @@ from dvalin_tools.models.common import (
     EnumSerializeAndValidateAsStr,
     Game,
 )
+from dvalin_tools.models.network import Link
 
 
 class MessageType(Enum):
@@ -38,6 +39,7 @@ class EventLocalized(_Event):
     language: LanguageCode
     subject: str
     content: str = ""
+    links: set[Link] = Field(default_factory=set)
 
 
 class EventI18N(_Event):

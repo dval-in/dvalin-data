@@ -7,10 +7,12 @@ Events are returned as JSON.
 import asyncio
 from asyncio import TaskGroup
 from datetime import datetime
+from enum import Flag, auto
 from pathlib import Path
 
 import httpx
 from aiofiles import open as async_open
+from bs4 import BeautifulSoup
 from tqdm.asyncio import tqdm_asyncio
 
 from dvalin_tools.lib.constants import DATA_DIR
@@ -18,6 +20,15 @@ from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.tags import get_tags_from_subject
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
+from dvalin_tools.models.network import Link, LinkType
+
+
+class UpdateMode(Flag):
+    DETAILS_DL = auto()
+    LINKS = auto()
+    IMAGES_DL = auto()
+    RESOLVE_URLS = auto()
+    ALL = DETAILS_DL | LINKS | IMAGES_DL
 
 
 async def get_events(
@@ -147,38 +158,58 @@ async def update_event_details(
     event.content = resp_json["data"]["post"]["post"]["content"]
 
 
-async def update_event_file_with_details(
-    event_file: EventFile, *, force: bool = False
+async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> None:
+    """Update the links of an event."""
+    soup = BeautifulSoup(event.content, "html.parser")
+    links = {node.get("href") for node in soup.find_all("a")}
+    image_links = {node.get("src") for node in soup.select("img[src^=http]")}
+    event.links = {Link(url=link) for link in links} | {
+        Link(url=link, link_type=LinkType.IMAGE) for link in image_links
+    }
+    if resolve_urls:
+        async with asyncio.TaskGroup() as g:
+            for link in event.links:
+                g.create_task(link.resolve())
+
+
+async def update_event_file(
+    event_file: EventFile, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
 ) -> None:
     """Update an event file with details."""
     async with httpx.AsyncClient() as client:
-        async with TaskGroup() as g:
+        if mode & UpdateMode.DETAILS_DL:
+            async with TaskGroup() as g:
+                for event in event_file:
+                    if event.content and not force:
+                        continue
+                    g.create_task(update_event_details(event, client=client))
+        if mode & UpdateMode.LINKS:
             for event in event_file:
-                if event.content and not force:
-                    continue
-                await g.create_task(update_event_details(event, client=client))
+                await update_event_links(
+                    event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
+                )
 
 
-async def update_json_file_with_details(
-    json_file: Path, *, force: bool = False
+async def update_json_file(
+    json_file: Path, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
 ) -> None:
     """Update a JSON file with details."""
     async with async_open(json_file, encoding="utf-8") as f:
         event_file = EventFile.model_validate_json(await f.read())
-        await update_event_file_with_details(event_file, force=force)
+        await update_event_file(event_file, force=force, mode=mode)
 
     async with async_open(json_file, "w", encoding="utf-8") as f:
         await f.write(event_file.model_dump_json(indent=2))
     print(f"{json_file} done.")
 
 
-async def update_all_event_files_with_details(
-    data_dir: Path, *, force: bool = False
+async def update_all_event_files(
+    data_dir: Path, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
 ) -> None:
     """Update all event files with details."""
     tasks = []
     for json_file in data_dir.glob("**/Event/**/*.json"):
-        tasks.append(update_json_file_with_details(json_file, force=force))
+        tasks.append(update_json_file(json_file, force=force, mode=mode))
 
     await tqdm_asyncio.gather(*tasks)
 
@@ -188,7 +219,9 @@ async def main():
     # write_events(events, DATA_DIR)
 
     # reparse_event_files(DATA_DIR)
-    await update_all_event_files_with_details(DATA_DIR)
+    await update_all_event_files(
+        DATA_DIR, mode=UpdateMode.LINKS | UpdateMode.RESOLVE_URLS
+    )
 
 
 if __name__ == "__main__":
