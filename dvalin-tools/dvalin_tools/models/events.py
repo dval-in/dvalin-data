@@ -71,7 +71,7 @@ class EventFile(RootModel):
     root: set[EventLocalized] = Field(default_factory=set)
 
     def __iter__(self) -> Iterator[EventLocalized]:
-        return iter(sorted(self.root, key=lambda x: x.created_at))
+        return iter(sorted(self.root, key=lambda x: int(x.post_id)))
 
     @model_serializer
     def file_serialize(self) -> list[EventLocalized]:
