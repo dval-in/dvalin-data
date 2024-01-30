@@ -1,6 +1,7 @@
 from enum import Enum
+from typing import Iterator
 
-from pydantic import BaseModel, Field, RootModel, computed_field
+from pydantic import BaseModel, Field, RootModel, computed_field, model_serializer
 
 from dvalin_tools.lib.languages import LanguageCode
 from dvalin_tools.lib.tags import Tags
@@ -57,4 +58,14 @@ class EventI18N(_Event):
         )
 
 
-EventFile = RootModel[set[EventLocalized]]
+class EventFile(RootModel):
+    """A file containing events."""
+
+    root: set[EventLocalized] = Field(default_factory=set)
+
+    def __iter__(self) -> Iterator[EventLocalized]:
+        return iter(sorted(self.root, key=lambda x: x.created_at))
+
+    @model_serializer
+    def file_serialize(self) -> list[EventLocalized]:
+        return list(self)
