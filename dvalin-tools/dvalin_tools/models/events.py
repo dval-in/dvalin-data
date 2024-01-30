@@ -61,7 +61,7 @@ class EventI18N(_Event):
             tags=self.tags,
             language=language,
             subject=self.subject_i18n[language],
-            content=self.content_i18n[language],
+            content=self.content_i18n.get(language, ""),
         )
 
 
