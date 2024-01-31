@@ -11,10 +11,12 @@ from enum import Flag, auto
 from pathlib import Path
 
 import httpx
+import tqdm
 from aiofiles import open as async_open
 from bs4 import BeautifulSoup
 from tqdm.asyncio import tqdm_asyncio
 
+from dvalin_tools.lib.common import batched
 from dvalin_tools.lib.constants import DATA_DIR
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.tags import get_tags_from_subject
@@ -207,11 +209,15 @@ async def update_all_event_files(
     data_dir: Path, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
 ) -> None:
     """Update all event files with details."""
-    tasks = []
-    for json_file in data_dir.glob("**/Event/**/*.json"):
-        tasks.append(update_json_file(json_file, force=force, mode=mode))
+    batch_size = 5
+    for batch in tqdm.tqdm(
+        batched(data_dir.glob("**/Event/**/*.json"), n=batch_size), desc="Batches"
+    ):
+        tasks = []
+        for json_file in batch:
+            tasks.append(update_json_file(json_file, force=force, mode=mode))
 
-    await tqdm_asyncio.gather(*tasks)
+        await tqdm_asyncio.gather(*tasks)
 
 
 async def main():
