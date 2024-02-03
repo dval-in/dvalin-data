@@ -1,7 +1,14 @@
 from enum import Enum
 from typing import Iterator
 
-from pydantic import BaseModel, Field, RootModel, computed_field, model_serializer
+from pydantic import (
+    BaseModel,
+    Field,
+    RootModel,
+    computed_field,
+    field_serializer,
+    model_serializer,
+)
 
 from dvalin_tools.lib.languages import LanguageCode
 from dvalin_tools.lib.tags import Tags
@@ -40,6 +47,10 @@ class EventLocalized(_Event):
     subject: str
     content: str = ""
     links: set[Link] = Field(default_factory=set)
+
+    @field_serializer("links", when_used="json")
+    def sort_links(links: set[Link]) -> list[Link]:
+        return sorted(links, key=lambda x: x.index)
 
 
 class EventI18N(_Event):

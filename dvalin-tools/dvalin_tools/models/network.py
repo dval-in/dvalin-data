@@ -219,6 +219,7 @@ async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain
 
 
 class Link(BaseModel):
+    index: int | None = None
     url: str
     url_original: str
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
