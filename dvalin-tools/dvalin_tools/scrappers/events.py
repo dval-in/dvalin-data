@@ -8,7 +8,7 @@ import asyncio
 from asyncio import TaskGroup
 from datetime import datetime
 from enum import Flag, auto
-from pathlib import Path
+from itertools import count
 
 import httpx
 import tqdm
@@ -168,10 +168,28 @@ async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> No
     event.links = {Link(url=link) for link in links} | {
         Link(url=link, link_type=LinkType.IMAGE) for link in image_links
     }
+
+    update_event_links_index(event)
+
     if resolve_urls:
         async with asyncio.TaskGroup() as g:
             for link in event.links:
                 g.create_task(link.resolve())
+
+
+def update_event_links_index(event: EventLocalized) -> None:
+    """Update the index of the links of an event.
+
+    This keeps the order of the links in the content.
+    """
+    c = count(0)
+    links_with_their_position = []
+    for link in event.links:
+        links_with_their_position.append((event.content.find(link.url), link))
+
+    links_with_their_position.sort(key=lambda x: x[0])
+    for _, link in links_with_their_position:
+        link.index = next(c)
 
 
 async def update_event_file(
