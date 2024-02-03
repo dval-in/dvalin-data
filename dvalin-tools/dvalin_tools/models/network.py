@@ -154,7 +154,7 @@ class RedirectLinks:
 
 
 _cache_file = (
-    ROOT_DIR_DVALIN_DATA / "dvalin_tools" / "__scraper_cache__" / "redirect_links.json"
+    ROOT_DIR_DVALIN_DATA / "dvalin-tools" / "__scraper_cache__" / "redirect_links.json"
 )
 _redirect_link_cache = RedirectLinks(_cache_file)
 
