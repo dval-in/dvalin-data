@@ -9,11 +9,15 @@ from asyncio import TaskGroup
 from datetime import datetime
 from enum import Flag, auto
 from itertools import count
+from pathlib import Path, PurePath
 
+import aiofiles
 import httpx
 import tqdm
 from aiofiles import open as async_open
 from bs4 import BeautifulSoup
+from pydantic import AnyUrl
+from tenacity import retry, retry_if_result, stop_after_attempt, wait_fixed
 from tqdm.asyncio import tqdm_asyncio
 
 from dvalin_tools.lib.common import batched
@@ -142,6 +146,8 @@ def reparse_event_files(data_dir: Path) -> None:
         contents = event_file.read_text(encoding="utf-8")
         if contents.strip():
             existing_events = EventFile.model_validate_json(contents)
+            for event in existing_events:
+                update_event_links_index(event)
             with event_file.open("w", encoding="utf-8") as f:
                 f.write(existing_events.model_dump_json(indent=2))
 
@@ -192,8 +198,63 @@ def update_event_links_index(event: EventLocalized) -> None:
         link.index = next(c)
 
 
+async def download_event_images(
+    event: EventLocalized, directory: Path, *, client: httpx.AsyncClient
+) -> None:
+    """Download the images of an event."""
+    all_tasks = []
+    async with asyncio.TaskGroup() as g:
+        for link in event.links:
+            if link.link_type is LinkType.IMAGE:
+                try:
+                    parsed_url = AnyUrl(link.url)
+                    filename = PurePath(parsed_url.path).name
+                except ValueError:
+                    print(f"Invalid URL: {link.url}")
+                    return None
+                file_path = directory / filename
+                if file_path.exists() and link.url_local is not None:
+                    continue
+                all_tasks.append(
+                    g.create_task(download_image(link.url, file_path, client=client))
+                )
+
+    for task, link in zip(all_tasks, event.links):
+        file_path = task.result()
+        if file_path is not None:
+            link.url_local = str(file_path.relative_to(DATA_DIR).as_posix())
+
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_fixed(2),
+    retry=retry_if_result(lambda x: x is None),
+    retry_error_callback=lambda x: print(
+        f"Failed to download {x.args[0]} after {x.attempt_number} attempts."
+    ),
+)
+async def download_image(
+    url: str, file_path: Path, *, client: httpx.AsyncClient
+) -> Path | None:
+    try:
+        response = await client.get(url)
+        response.raise_for_status()
+        async with aiofiles.open(file_path, "wb") as file:
+            await file.write(response.content)
+        print(f"Downloaded {url} to {file_path}")
+    except Exception as error:
+        print(f"Error downloading {url}: {error}")
+        return None
+
+    return file_path
+
+
 async def update_event_file(
-    event_file: EventFile, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
+    event_file: EventFile,
+    event_dir: Path,
+    *,
+    force: bool = False,
+    mode: UpdateMode = UpdateMode.ALL,
 ) -> None:
     """Update an event file with details."""
     async with httpx.AsyncClient() as client:
@@ -208,6 +269,12 @@ async def update_event_file(
                 await update_event_links(
                     event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
                 )
+        if mode & UpdateMode.IMAGES_DL:
+            async with TaskGroup() as g:
+                for event in event_file:
+                    g.create_task(
+                        download_event_images(event, event_dir, client=client)
+                    )
 
 
 async def update_json_file(
@@ -216,7 +283,7 @@ async def update_json_file(
     """Update a JSON file with details."""
     async with async_open(json_file, encoding="utf-8") as f:
         event_file = EventFile.model_validate_json(await f.read())
-        await update_event_file(event_file, force=force, mode=mode)
+        await update_event_file(event_file, json_file.parent, force=force, mode=mode)
 
     async with async_open(json_file, "w", encoding="utf-8") as f:
         await f.write(event_file.model_dump_json(indent=2))
@@ -243,9 +310,7 @@ async def main():
     # write_events(events, DATA_DIR)
 
     # reparse_event_files(DATA_DIR)
-    await update_all_event_files(
-        DATA_DIR, mode=UpdateMode.LINKS | UpdateMode.RESOLVE_URLS
-    )
+    await update_all_event_files(DATA_DIR, mode=UpdateMode.IMAGES_DL)
 
 
 if __name__ == "__main__":

@@ -223,6 +223,7 @@ class Link(BaseModel):
     url: str
     url_original: str
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
+    url_local: str | None = None
     link_type: EnumSerializeAndValidateAsStr[LinkType] = LinkType.UNKNOWN
 
     def __hash__(self) -> int:
