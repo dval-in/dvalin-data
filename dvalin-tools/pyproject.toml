@@ -23,3 +23,6 @@ isort = "^5.13.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dvalin-event-scraper = "dvalin_tools.scrapers.events:main"

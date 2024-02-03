@@ -10,6 +10,7 @@ from datetime import datetime
 from enum import Flag, auto
 from itertools import count
 from pathlib import Path, PurePath
+from argparse import ArgumentParser, Namespace
 
 import aiofiles
 import httpx
@@ -305,13 +306,58 @@ async def update_all_event_files(
         await tqdm_asyncio.gather(*tasks)
 
 
-async def main():
-    # events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=99999)
-    # write_events(events, DATA_DIR)
+def get_arg_parser() -> ArgumentParser:
+    parser = ArgumentParser(description="Run scraper for Genhin Impact events.")
+    subparsers = parser.add_subparsers(dest="subcommand", required=True)
 
-    # reparse_event_files(DATA_DIR)
-    await update_all_event_files(DATA_DIR, mode=UpdateMode.IMAGES_DL)
+    get_parser = subparsers.add_parser("get", help="Get events.")
+
+    get_parser.add_argument(
+        "-l", "--limit",
+        type=int,
+        default=25,
+        help="Limit of events to get.",
+    )
+
+    subparsers.add_parser("reparse", help="Reparse event files.")
+
+    update_parser = subparsers.add_parser("update", help="Update event files.",
+                                          usage="\r\n".join(["The different modes do the following:",
+                                          "- DETAILS_DL: Download the details of the events.",
+                                          "- LINKS: Update the links of the events. It will attempt to resolve all the URLs mentioned in the content.",
+                                          "- RESOLVE_URLS: Resolve the URLs of the links of the events.",
+                                          "- IMAGES_DL: Download the images of the events.",]))
+
+    update_parser.add_argument(
+        "-f", "--force",
+        action="store_true",
+        help="Force update, even if the data is already present.",
+    )
+    update_parser.add_argument(
+        "-m", "--mode",
+        type=lambda x: UpdateMode[x.upper()],
+        required=True,
+        help=f"Update mode. Possible values: {', '.join(UpdateMode.__members__)}.",
+    )
+
+    return parser
+
+
+async def async_main(namespace: Namespace):
+    if namespace.subcommand == "get":
+        events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=namespace.limit)
+        write_events(events, DATA_DIR)
+    elif namespace.subcommand == "reparse":
+        reparse_event_files(DATA_DIR)
+    elif namespace.subcommand == "update":
+        await update_all_event_files(DATA_DIR, force=namespace.force, mode=namespace.mode)
+
+
+def main():
+    parser = get_arg_parser()
+    args = parser.parse_args()
+    asyncio.run(async_main(args))
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
