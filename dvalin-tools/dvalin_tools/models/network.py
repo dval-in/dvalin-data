@@ -3,7 +3,7 @@ import re
 from enum import Enum, auto
 from pathlib import Path
 from random import random
-from typing import Any, Literal
+from typing import Literal, Self
 from urllib.parse import urljoin
 
 import httpx
@@ -220,7 +220,7 @@ async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain
 
 class Link(BaseModel):
     index: int | None = None
-    url: str
+    url: str = ""
     url_original: str
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
     url_local: str | None = None
@@ -281,21 +281,17 @@ class Link(BaseModel):
 
         _redirect_link_cache.cache_chain(self.url_original_resolved)
 
-    @model_validator(mode="before")
-    def pre_root(cls, values: dict[str, Any]) -> dict[str, Any]:
-        if not values.get("url") and not values.get("url_original"):
-            raise ValueError("At least one of url or url_original must be set.")
-        if values.get("url") and not values.get("url_original"):
-            values["url_original"] = values["url"]
-        elif values.get("url_original") and not values.get("url"):
-            values["url"] = values["url_original"]
+    @model_validator(mode="after")
+    def pre_root(self) -> Self:
+        if self.url_original and not self.url:
+            self.url = self.url_original
 
-        if "link_type" in values:
-            return values
+        if self.link_type is not LinkType.UNKNOWN:
+            return self
 
-        values["link_type"] = cls.get_link_type(values["url"])
+        self.link_type = self.get_link_type(self.url)
 
-        return values
+        return self
 
     @staticmethod
     def get_link_type(raw_url: str) -> LinkType:

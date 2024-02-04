@@ -10,6 +10,7 @@ from argparse import ArgumentParser, Namespace
 from asyncio import TaskGroup
 from datetime import datetime
 from enum import Flag, auto
+from html import escape
 from itertools import count
 from pathlib import Path, PurePath
 
@@ -151,7 +152,7 @@ def reparse_event_files(data_dir: Path) -> None:
             for event in existing_events:
                 update_event_links_index(event)
             with event_file.open("w", encoding="utf-8") as f:
-                f.write(existing_events.model_dump_json(indent=2))
+                f.write(existing_events.model_dump_json(indent=2, by_alias=False))
 
 
 async def update_event_details(
@@ -171,10 +172,14 @@ async def update_event_details(
 async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> None:
     """Update the links of an event."""
     soup = BeautifulSoup(event.content, "html.parser")
-    links = {link for node in soup.find_all("a") if not (link := node.get("href")).startswith("mailto:")}
+    links = {
+        link
+        for node in soup.find_all("a")
+        if not (link := node.get("href")).startswith("mailto:")
+    }
     image_links = {node.get("src") for node in soup.select("img[src^=http]")}
-    event.links = {Link(url=link) for link in links} | {
-        Link(url=link, link_type=LinkType.IMAGE) for link in image_links
+    event.links = {Link(url_original=link) for link in links} | {
+        Link(url_original=link, link_type=LinkType.IMAGE) for link in image_links
     }
 
     update_event_links_index(event)
@@ -193,7 +198,15 @@ def update_event_links_index(event: EventLocalized) -> None:
     c = count(0)
     links_with_their_position = []
     for link in event.links:
-        links_with_their_position.append((event.content.find(link.url), link))
+        if link.url_original_resolved.is_empty():
+            links_with_their_position.append(
+                (event.content.find(escape(link.url_original)), link)
+            )
+        else:
+            links_with_their_position.append(
+                (event.content.find(escape(link.url_original_resolved.initial)), link)
+            )
+            link.url_original = link.url_original_resolved.initial
 
     links_with_their_position.sort(key=lambda x: x[0])
     for _, link in links_with_their_position:
