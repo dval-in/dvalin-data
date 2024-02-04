@@ -5,12 +5,13 @@ Events are returned as JSON.
 """
 
 import asyncio
+import json
+from argparse import ArgumentParser, Namespace
 from asyncio import TaskGroup
 from datetime import datetime
 from enum import Flag, auto
 from itertools import count
 from pathlib import Path, PurePath
-from argparse import ArgumentParser, Namespace
 
 import aiofiles
 import httpx
@@ -22,7 +23,7 @@ from tenacity import retry, retry_if_result, stop_after_attempt, wait_fixed
 from tqdm.asyncio import tqdm_asyncio
 
 from dvalin_tools.lib.common import batched
-from dvalin_tools.lib.constants import DATA_DIR
+from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.tags import get_tags_from_subject
 from dvalin_tools.models.common import Game
@@ -306,6 +307,12 @@ async def update_all_event_files(
         await tqdm_asyncio.gather(*tasks)
 
 
+def generate_json_schema(output: Path) -> None:
+    """Generate JSON schema for events."""
+    schema = EventFile.model_json_schema()
+    output.write_text(json.dumps(schema, indent=2) + "\n", encoding="utf-8")
+
+
 def get_arg_parser() -> ArgumentParser:
     parser = ArgumentParser(description="Run scraper for Genhin Impact events.")
     subparsers = parser.add_subparsers(dest="subcommand", required=True)
@@ -313,7 +320,8 @@ def get_arg_parser() -> ArgumentParser:
     get_parser = subparsers.add_parser("get", help="Get events.")
 
     get_parser.add_argument(
-        "-l", "--limit",
+        "-l",
+        "--limit",
         type=int,
         default=25,
         help="Limit of events to get.",
@@ -321,23 +329,44 @@ def get_arg_parser() -> ArgumentParser:
 
     subparsers.add_parser("reparse", help="Reparse event files.")
 
-    update_parser = subparsers.add_parser("update", help="Update event files.",
-                                          usage="\r\n".join(["The different modes do the following:",
-                                          "- DETAILS_DL: Download the details of the events.",
-                                          "- LINKS: Update the links of the events. It will attempt to resolve all the URLs mentioned in the content.",
-                                          "- RESOLVE_URLS: Resolve the URLs of the links of the events.",
-                                          "- IMAGES_DL: Download the images of the events.",]))
+    update_parser = subparsers.add_parser(
+        "update",
+        help="Update event files.",
+        usage="\r\n".join(
+            [
+                "The different modes do the following:",
+                "- DETAILS_DL: Download the details of the events.",
+                "- LINKS: Update the links of the events. It will attempt to resolve all the URLs mentioned in the content.",
+                "- RESOLVE_URLS: Resolve the URLs of the links of the events.",
+                "- IMAGES_DL: Download the images of the events.",
+            ]
+        ),
+    )
 
     update_parser.add_argument(
-        "-f", "--force",
+        "-f",
+        "--force",
         action="store_true",
         help="Force update, even if the data is already present.",
     )
     update_parser.add_argument(
-        "-m", "--mode",
+        "-m",
+        "--mode",
         type=lambda x: UpdateMode[x.upper()],
         required=True,
         help=f"Update mode. Possible values: {', '.join(UpdateMode.__members__)}.",
+    )
+
+    schema_parser = subparsers.add_parser(
+        "schema", help="Generate JSON schema for events."
+    )
+
+    schema_parser.add_argument(
+        "-o",
+        "--output",
+        type=Path,
+        default=ROOT_DIR_DVALIN_DATA / "schemas" / "Events.json",
+        help="Output file.",
     )
 
     return parser
@@ -345,12 +374,18 @@ def get_arg_parser() -> ArgumentParser:
 
 async def async_main(namespace: Namespace):
     if namespace.subcommand == "get":
-        events = await get_all_events(Game.GENSHIN_IMPACT, MessageType.INFO, limit=namespace.limit)
+        events = await get_all_events(
+            Game.GENSHIN_IMPACT, MessageType.INFO, limit=namespace.limit
+        )
         write_events(events, DATA_DIR)
     elif namespace.subcommand == "reparse":
         reparse_event_files(DATA_DIR)
     elif namespace.subcommand == "update":
-        await update_all_event_files(DATA_DIR, force=namespace.force, mode=namespace.mode)
+        await update_all_event_files(
+            DATA_DIR, force=namespace.force, mode=namespace.mode
+        )
+    elif namespace.subcommand == "schema":
+        generate_json_schema(namespace.output)
 
 
 def main():

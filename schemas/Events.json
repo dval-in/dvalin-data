@@ -1,190 +1,202 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "properties": {
-      "list": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "list": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "ann_id": {
-                    "type": "number"
-                  },
-                  "title": {
-                    "type": "string"
-                  },
-                  "subtitle": {
-                    "type": "string"
-                  },
-                  "banner": {
-                    "type": "string"
-                  },
-                  "content": {
-                    "type": "string"
-                  },
-                  "type_label": {
-                    "type": "string"
-                  },
-                  "tag_label": {
-                    "type": "string"
-                  },
-                  "tag_icon": {
-                    "type": "string"
-                  },
-                  "login_alert": {
-                    "type": "number"
-                  },
-                  "lang": {
-                    "type": "string"
-                  },
-                  "start_time": {
-                    "type": "string"
-                  },
-                  "end_time": {
-                    "type": "string"
-                  },
-                  "type": {
-                    "type": "number"
-                  },
-                  "remind": {
-                    "type": "number"
-                  },
-                  "alert": {
-                    "type": "number"
-                  },
-                  "tag_start_time": {
-                    "type": "string"
-                  },
-                  "tag_end_time": {
-                    "type": "string"
-                  },
-                  "remind_ver": {
-                    "type": "number"
-                  },
-                  "has_content": {
-                    "type": "boolean"
-                  },
-                  "extra_remind": {
-                    "type": "number"
-                  },
-                  "tag_icon_hover": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "ann_id",
-                  "title",
-                  "subtitle",
-                  "banner",
-                  "content",
-                  "type_label",
-                  "tag_label",
-                  "tag_icon",
-                  "login_alert",
-                  "lang",
-                  "start_time",
-                  "end_time",
-                  "type",
-                  "remind",
-                  "alert",
-                  "tag_start_time",
-                  "tag_end_time",
-                  "remind_ver",
-                  "has_content",
-                  "extra_remind",
-                  "tag_icon_hover"
-                ]
-              }
-            },
-            "type_id": {
-              "type": "number"
-            },
-            "type_label": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "list",
-            "type_id",
-            "type_label"
+  "$defs": {
+    "EventLocalized": {
+      "properties": {
+        "post_id": {
+          "title": "Post Id",
+          "type": "string"
+        },
+        "game_id": {
+          "enum": [
+            "HONKAI_IMPACT_3RD",
+            "GENSHIN_IMPACT",
+            "TEARS_OF_THEMIS",
+            "HOYOLAB",
+            "HONKAI_STAR_RAIL",
+            "ZENLESS_ZONE_ZERO"
           ]
+        },
+        "message_type": {
+          "enum": [
+            "NOTICES",
+            "EVENT",
+            "INFO"
+          ]
+        },
+        "created_at": {
+          "format": "date-time",
+          "title": "Created At",
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "enum": [
+              "NEW_CHARACTER_INTRO",
+              "VOICE_ARTIST_ANNOUNCEMENT",
+              "VERSION_EVENT_WISHES_NOTICE",
+              "VERSION_EVENT_NOTICES_COMPILATION",
+              "CHARACTER_DEMO",
+              "CHARACTER_TEASER",
+              "STORY_QUEST",
+              "VERSION_NEW_WEAPON",
+              "NEW_OUTFIT",
+              "OUTFIT_TEASER",
+              "NEW_CONTENTS_DISPLAY",
+              "WEB_EVENT_WALLPAPERS",
+              "VERSION_PREVIEW",
+              "EVENT",
+              "VERSION_TRAILER",
+              "OST_ALBUM",
+              "SPECIAL_PROGRAM_PREVIEW",
+              "DEVELOPERS_DISCUSSION",
+              "COLLECTED_MISCELLANY",
+              "VERSION_EVENTS_PREVIEW",
+              "EVENT_TEASER",
+              "VERSION_NEW_ARTIFACT",
+              "UPDATE_PREVIEW",
+              "UPDATE_DETAILS",
+              "LEY_LINE_OVERFLOW",
+              "WALLPAPERS",
+              "GENIUS_INVOKATION_TCG",
+              "CUTSCENE_ANIMATION",
+              "GENSHIN_CONCERT_2023",
+              "VERSION_PREVIEW_PAGE",
+              "MUSIC"
+            ]
+          },
+          "title": "Tags",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "language": {
+          "$ref": "#/$defs/LanguageCode"
+        },
+        "subject": {
+          "title": "Subject",
+          "type": "string"
+        },
+        "content": {
+          "default": "",
+          "title": "Content",
+          "type": "string"
+        },
+        "links": {
+          "items": {
+            "$ref": "#/$defs/Link"
+          },
+          "title": "Links",
+          "type": "array",
+          "uniqueItems": true
         }
       },
-      "total": {
-        "type": "number"
-      },
-      "type_list": {
-        "type": "array",
-        "items": {
-          "type": "object",
-          "properties": {
-            "id": {
-              "type": "number"
-            },
-            "name": {
-              "type": "string"
-            },
-            "mi18n_name": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "mi18n_name"
-          ]
-        }
-      },
-      "alert": {
-        "type": "boolean"
-      },
-      "alert_id": {
-        "type": "number"
-      },
-      "timezone": {
-        "type": "number"
-      },
-      "t": {
-        "type": "string"
-      },
-      "pic_list": {
-        "type": "array",
-        "items": {}
-      },
-      "pic_total": {
-        "type": "number"
-      },
-      "pic_type_list": {
-        "type": "array",
-        "items": {}
-      },
-      "pic_alert": {
-        "type": "boolean"
-      },
-      "pic_alert_id": {
-        "type": "number"
-      },
-      "static_sign": {
-        "type": "string"
-      }
+      "required": [
+        "post_id",
+        "game_id",
+        "message_type",
+        "created_at",
+        "language",
+        "subject"
+      ],
+      "title": "EventLocalized",
+      "type": "object"
     },
-    "required": [
-      "list",
-      "total",
-      "type_list",
-      "alert",
-      "alert_id",
-      "timezone",
-      "t",
-      "pic_list",
-      "pic_total",
-      "pic_type_list",
-      "pic_alert",
-      "pic_alert_id",
-      "static_sign"
-    ]
-  }
+    "LanguageCode": {
+      "enum": [
+        "th-th",
+        "zh-cn",
+        "zh-tw",
+        "ru-ru",
+        "id-id",
+        "ko-kr",
+        "vi-vn",
+        "it-it",
+        "ja-jp",
+        "pt-pt",
+        "tr-tr",
+        "en-us",
+        "de-de",
+        "fr-fr",
+        "es-es"
+      ],
+      "title": "LanguageCode",
+      "type": "string"
+    },
+    "Link": {
+      "properties": {
+        "index": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Index"
+        },
+        "url": {
+          "title": "Url",
+          "type": "string"
+        },
+        "url_original": {
+          "title": "Url Original",
+          "type": "string"
+        },
+        "url_original_resolved": {
+          "$ref": "#/$defs/RedirectLinkChain"
+        },
+        "url_local": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Url Local"
+        },
+        "link_type": {
+          "default": 12,
+          "enum": [
+            "IMAGE",
+            "HOYO_LINK",
+            "HOYOLAB",
+            "MIHOYO_HOYOVERSE",
+            "TWITTER",
+            "FACEBOOK",
+            "YOUTUBE",
+            "TWITCH",
+            "VK",
+            "TELEGRAM",
+            "RELATIVE",
+            "UNKNOWN",
+            "MALFORMED"
+          ]
+        }
+      },
+      "required": [
+        "url",
+        "url_original"
+      ],
+      "title": "Link",
+      "type": "object"
+    },
+    "RedirectLinkChain": {
+      "items": {
+        "type": "string"
+      },
+      "title": "RedirectLinkChain",
+      "type": "array"
+    }
+  },
+  "description": "A file containing events.",
+  "items": {
+    "$ref": "#/$defs/EventLocalized"
+  },
+  "title": "EventFile",
+  "type": "array",
+  "uniqueItems": true
+}
