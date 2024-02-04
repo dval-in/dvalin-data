@@ -2,11 +2,11 @@
   "$defs": {
     "EventLocalized": {
       "properties": {
-        "post_id": {
-          "title": "Post Id",
+        "postId": {
+          "title": "Postid",
           "type": "string"
         },
-        "game_id": {
+        "gameId": {
           "enum": [
             "HonkaiImpact3Rd",
             "GenshinImpact",
@@ -16,16 +16,15 @@
             "ZenlessZoneZero"
           ]
         },
-        "message_type": {
+        "messageType": {
           "enum": [
             "Notices",
             "Event",
             "Info"
           ]
         },
-        "created_at": {
-          "format": "date-time",
-          "title": "Created At",
+        "createdAt": {
+          "title": "Createdat",
           "type": "string"
         },
         "tags": {
@@ -65,8 +64,7 @@
             ]
           },
           "title": "Tags",
-          "type": "array",
-          "uniqueItems": true
+          "type": "array"
         },
         "language": {
           "$ref": "#/$defs/LanguageCode"
@@ -85,17 +83,22 @@
             "$ref": "#/$defs/Link"
           },
           "title": "Links",
-          "type": "array",
-          "uniqueItems": true
+          "type": "array"
+        },
+        "article_url": {
+          "readOnly": true,
+          "title": "Article Url",
+          "type": "string"
         }
       },
       "required": [
-        "post_id",
-        "game_id",
-        "message_type",
-        "created_at",
+        "postId",
+        "gameId",
+        "messageType",
+        "createdAt",
         "language",
-        "subject"
+        "subject",
+        "article_url"
       ],
       "title": "EventLocalized",
       "type": "object"
@@ -136,17 +139,18 @@
           "title": "Index"
         },
         "url": {
+          "default": "",
           "title": "Url",
           "type": "string"
         },
-        "url_original": {
-          "title": "Url Original",
+        "urlOriginal": {
+          "title": "Urloriginal",
           "type": "string"
         },
-        "url_original_resolved": {
+        "urlOriginalResolved": {
           "$ref": "#/$defs/RedirectLinkChain"
         },
-        "url_local": {
+        "urlLocal": {
           "anyOf": [
             {
               "type": "string"
@@ -156,9 +160,9 @@
             }
           ],
           "default": null,
-          "title": "Url Local"
+          "title": "Urllocal"
         },
-        "link_type": {
+        "linkType": {
           "default": 12,
           "enum": [
             "Image",
@@ -178,8 +182,7 @@
         }
       },
       "required": [
-        "url",
-        "url_original"
+        "urlOriginal"
       ],
       "title": "Link",
       "type": "object"
@@ -197,6 +200,5 @@
     "$ref": "#/$defs/EventLocalized"
   },
   "title": "EventFile",
-  "type": "array",
-  "uniqueItems": true
+  "type": "array"
 }
