@@ -319,7 +319,7 @@ async def update_all_event_files(
 
 def generate_json_schema(output: Path) -> None:
     """Generate JSON schema for events."""
-    schema = EventFile.model_json_schema()
+    schema = EventFile.model_json_schema(by_alias=True, mode="serialization")
     output.write_text(json.dumps(schema, indent=2) + "\n", encoding="utf-8")
 
 
