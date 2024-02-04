@@ -171,7 +171,7 @@ async def update_event_details(
 async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> None:
     """Update the links of an event."""
     soup = BeautifulSoup(event.content, "html.parser")
-    links = {node.get("href") for node in soup.find_all("a")}
+    links = {link for node in soup.find_all("a") if not (link := node.get("href")).startswith("mailto:")}
     image_links = {node.get("src") for node in soup.select("img[src^=http]")}
     event.links = {Link(url=link) for link in links} | {
         Link(url=link, link_type=LinkType.IMAGE) for link in image_links
