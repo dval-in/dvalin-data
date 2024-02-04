@@ -1,11 +1,17 @@
 from datetime import datetime
 from enum import Enum
-from typing import Annotated, Any, Callable, Generic, TypeVar, cast
+from typing import Annotated, Any, Callable, Generic, TypeVar
 
 from pydantic import PlainSerializer, ValidationError, WithJsonSchema, WrapValidator
+from pydantic.alias_generators import to_camel, to_pascal
 from pydantic_core.core_schema import ValidationInfo, ValidatorFunctionWrapHandler
 
-_EnumStrSerializer = PlainSerializer(lambda e: str(e.name), return_type=str)
+_PascalCaseSerializer = PlainSerializer(lambda s: to_pascal(s), return_type=str)
+_CamelCaseSerializer = PlainSerializer(lambda s: to_camel(s), return_type=str)
+_EnumStrSerializer = PlainSerializer(
+    lambda e: _PascalCaseSerializer.func(str(e.name)), return_type=str
+)
+
 T = TypeVar("T", bound=Enum)
 
 
@@ -18,7 +24,12 @@ def accept_enum_names(
         try:
             return handler(v)
         except ValidationError:
-            return handler(EnumClass.__members__[v])
+            pascal_case_members = {to_pascal(m.name): m for m in EnumClass}
+            try:
+                return handler(pascal_case_members[v])
+            except ValidationError:
+                pascal_v = to_pascal(v)
+                return handler(pascal_case_members[pascal_v])
 
     return validator_function
 
