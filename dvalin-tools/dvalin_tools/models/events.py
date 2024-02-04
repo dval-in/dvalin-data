@@ -13,6 +13,7 @@ from pydantic import (
 from dvalin_tools.lib.languages import LanguageCode
 from dvalin_tools.lib.tags import Tags
 from dvalin_tools.models.common import (
+    CamelBaseModel,
     CustomDateTime,
     EnumSerializeAndValidateAsStr,
     Game,
@@ -26,7 +27,7 @@ class MessageType(Enum):
     INFO = 3
 
 
-class _Event(BaseModel):
+class _Event(CamelBaseModel):
     post_id: str
     game_id: EnumSerializeAndValidateAsStr[Game]
     message_type: EnumSerializeAndValidateAsStr[MessageType]
@@ -40,6 +41,12 @@ class _Event(BaseModel):
     @property
     def article_url(self) -> str:
         return f"https://www.hoyolab.com/article/{self.post_id}"
+
+    @field_serializer("tags", when_used="json")
+    def sort_tags(
+        tags: set[EnumSerializeAndValidateAsStr[Tags]],
+    ) -> list[EnumSerializeAndValidateAsStr[Tags]]:
+        return sorted(tags, key=lambda x: x.value)
 
 
 class EventLocalized(_Event):

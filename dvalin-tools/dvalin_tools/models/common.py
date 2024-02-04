@@ -2,7 +2,16 @@ from datetime import datetime
 from enum import Enum
 from typing import Annotated, Any, Callable, Generic, TypeVar
 
-from pydantic import PlainSerializer, ValidationError, WithJsonSchema, WrapValidator
+from pydantic import (
+    AliasChoices,
+    AliasGenerator,
+    BaseModel,
+    ConfigDict,
+    PlainSerializer,
+    ValidationError,
+    WithJsonSchema,
+    WrapValidator,
+)
 from pydantic.alias_generators import to_camel, to_pascal
 from pydantic_core.core_schema import ValidationInfo, ValidatorFunctionWrapHandler
 
@@ -92,3 +101,15 @@ CustomDateTime = Annotated[
     datetime,
     PlainSerializer(lambda dt: dt.isoformat(), return_type=str),
 ]
+
+
+class CamelBaseModel(BaseModel):
+    """A base model that uses camel case for serialization and validation."""
+
+    model_config = ConfigDict(
+        alias_generator=AliasGenerator(
+            alias=str,
+            validation_alias=lambda s: AliasChoices(s, to_camel(s), s.lower()),
+            serialization_alias=to_camel,
+        )
+    )

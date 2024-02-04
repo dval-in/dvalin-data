@@ -152,7 +152,7 @@ def reparse_event_files(data_dir: Path) -> None:
             for event in existing_events:
                 update_event_links_index(event)
             with event_file.open("w", encoding="utf-8") as f:
-                f.write(existing_events.model_dump_json(indent=2, by_alias=False))
+                f.write(existing_events.model_dump_json(indent=2, by_alias=True))
 
 
 async def update_event_details(
