@@ -17,7 +17,7 @@ from pydantic import (
 )
 
 from dvalin_tools.lib.constants import ROOT_DIR_DVALIN_DATA
-from dvalin_tools.models.common import EnumSerializeAndValidateAsStr
+from dvalin_tools.models.common import CamelBaseModel, EnumSerializeAndValidateAsStr
 
 RE_YOUTU_BE = re.compile(r"youtu\.be/(?P<id>[^?&/]+)")
 
@@ -76,7 +76,7 @@ class RedirectLinkChain(RootModel):
         return len(self.root)
 
 
-class RedirectLinksCache(BaseModel):
+class RedirectLinksCache(CamelBaseModel):
     cache: dict[str, str] = Field(default_factory=dict)
 
     @model_serializer(when_used="json")
@@ -218,7 +218,7 @@ async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain
     return RedirectLinkChain()
 
 
-class Link(BaseModel):
+class Link(CamelBaseModel):
     index: int | None = None
     url: str = ""
     url_original: str
