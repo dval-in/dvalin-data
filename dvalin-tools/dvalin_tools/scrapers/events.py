@@ -134,8 +134,7 @@ def write_events(events: list[EventI18N], data_dir: Path) -> None:
                 existing_events.root.remove(localized_event)
             existing_events.root.add(localized_event)
 
-            with target_file.open("w", encoding="utf-8") as f:
-                f.write(existing_events.model_dump_json(indent=2))
+            existing_events.dump_json_to_file(target_file)
 
 
 def reparse_event_files(data_dir: Path) -> None:
@@ -151,8 +150,7 @@ def reparse_event_files(data_dir: Path) -> None:
             existing_events = EventFile.model_validate_json(contents)
             for event in existing_events:
                 update_event_links_index(event)
-            with event_file.open("w", encoding="utf-8") as f:
-                f.write(existing_events.model_dump_json(indent=2, by_alias=True))
+            existing_events.dump_json_to_file(event_file)
 
 
 async def update_event_details(
@@ -300,8 +298,7 @@ async def update_json_file(
         event_file = EventFile.model_validate_json(await f.read())
         await update_event_file(event_file, json_file.parent, force=force, mode=mode)
 
-    async with async_open(json_file, "w", encoding="utf-8") as f:
-        await f.write(event_file.model_dump_json(indent=2))
+    event_file.dump_json_to_file(json_file)
     print(f"{json_file} done.")
 
 

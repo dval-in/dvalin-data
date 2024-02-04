@@ -1,8 +1,8 @@
 from enum import Enum
+from pathlib import Path
 from typing import Iterator
 
 from pydantic import (
-    BaseModel,
     Field,
     RootModel,
     computed_field,
@@ -96,3 +96,6 @@ class EventFile(RootModel):
     @model_serializer
     def file_serialize(self) -> list[EventLocalized]:
         return list(self)
+
+    def dump_json_to_file(self, path: Path) -> None:
+        path.write_text(self.model_dump_json(indent=2, by_alias=True), encoding="utf-8")
