@@ -1,8 +1,8 @@
 from datetime import datetime
 from enum import Enum
-from typing import Annotated, Any, Callable, Generic, TypeVar
+from typing import Annotated, Any, Callable, Generic, TypeVar, cast
 
-from pydantic import PlainSerializer, ValidationError, WrapValidator
+from pydantic import PlainSerializer, ValidationError, WithJsonSchema, WrapValidator
 from pydantic_core.core_schema import ValidationInfo, ValidatorFunctionWrapHandler
 
 _EnumStrSerializer = PlainSerializer(lambda e: str(e.name), return_type=str)
@@ -54,9 +54,15 @@ class EnumSerializeAndValidateAsStr(Generic[T]):
 
     def __class_getitem__(
         cls, item: type[T]
-    ) -> Annotated[T, PlainSerializer, WrapValidator]:
+    ) -> Annotated[T, PlainSerializer, WrapValidator, WithJsonSchema]:
+        enum_schema = {
+            "enum": [_EnumStrSerializer.func(m) for m in item.__members__.values()]
+        }
         return Annotated[
-            item, _EnumStrSerializer, WrapValidator(accept_enum_names(item))
+            item,
+            _EnumStrSerializer,
+            WrapValidator(accept_enum_names(item)),
+            WithJsonSchema(enum_schema),
         ]
 
 
