@@ -19,7 +19,7 @@ from dvalin_tools.models.common import (
     Game,
 )
 from dvalin_tools.models.network import Link
-from dvalin_tools.models.tags import Tags
+from dvalin_tools.models.tags import Tag
 
 
 class MessageType(Enum):
@@ -33,7 +33,7 @@ class _Event(CamelBaseModel):
     game_id: EnumSerializeAndValidateAsStr[Game]
     message_type: EnumSerializeAndValidateAsStr[MessageType]
     created_at: CustomDateTime
-    tags: set[EnumSerializeAndValidateAsStr[Tags]] = Field(default_factory=set)
+    tags: set[EnumSerializeAndValidateAsStr[Tag]] = Field(default_factory=set)
 
     def __hash__(self) -> int:
         return hash(self.post_id)
@@ -45,8 +45,8 @@ class _Event(CamelBaseModel):
 
     @field_serializer("tags", when_used="json")
     def sort_tags(
-        tags: set[EnumSerializeAndValidateAsStr[Tags]],
-    ) -> list[EnumSerializeAndValidateAsStr[Tags]]:
+        tags: set[EnumSerializeAndValidateAsStr[Tag]],
+    ) -> list[EnumSerializeAndValidateAsStr[Tag]]:
         return sorted(tags, key=lambda x: x.value)
 
 

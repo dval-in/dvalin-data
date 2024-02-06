@@ -20,7 +20,7 @@ export enum MessageType {
 	Info = 3
 }
 
-export enum Tags {
+export enum Tag {
 	/**
 	 * @TJS-required
 	 */
@@ -119,7 +119,7 @@ export type Event = {
 	gameId: Game;
 	messageType: MessageType;
 	createdAt: Date;
-	tags: Array<Tags>;
+	tags: Array<Tag>;
 	language: LanguageCode;
 	subject: string;
 	content: string;
