@@ -11,7 +11,7 @@ from pydantic import (
 )
 
 from dvalin_tools.lib.languages import LanguageCode
-from dvalin_tools.lib.tags import Tags
+from dvalin_tools.models.tags import Tags
 from dvalin_tools.models.common import (
     CamelBaseModel,
     CustomDateTime,
