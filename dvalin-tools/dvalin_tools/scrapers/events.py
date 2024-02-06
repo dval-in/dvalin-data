@@ -30,7 +30,7 @@ from dvalin_tools.lib.typescript import to_typescript
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
 from dvalin_tools.models.network import Link, LinkType, RedirectLinkChain
-from dvalin_tools.models.tags import Tags, get_tags_from_subject
+from dvalin_tools.models.tags import Tag, get_tags_from_subject
 
 
 class UpdateMode(Flag):
@@ -332,7 +332,7 @@ def generate_typescript_type(output: Path) -> None:
         f.write("\n\n")
         f.write(to_typescript(MessageType, public=True))
         f.write("\n\n")
-        f.write(to_typescript(Tags, public=True, drop_enum_values=True))
+        f.write(to_typescript(Tag, public=True, drop_enum_values=True))
         f.write("\n\n")
         f.write(to_typescript(LanguageCode, public=True))
         f.write("\n\n")
