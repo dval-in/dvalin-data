@@ -1,54 +1,128 @@
 
-export type EventList = {
-	list: EventWrapper[];
-	total: number;
-	typeList: EventTypeList[];
-	alert: boolean;
-	alertId: number;
-	timeZone: number;
-	t: string;
-	picList: any[];
-	picTotal: number;
-	picTypeList: any[];
-	picAlert: boolean;
-	picAlertId: number;
-	staticSign: string;
-};
+export enum Game {
+	/**
+	 * @TJS-required
+	 */
+	HonkaiImpact3Rd,
+	GenshinImpact,
+	TearsOfThemis,
+	Hoyolab,
+	HonkaiStarRail,
+	ZenlessZoneZero
+}
 
-export type EventWrapper = {
-	list: Event[];
-	typeId: number;
-	typeLabel: string;
+export enum MessageType {
+	/**
+	 * @TJS-required
+	 */
+	Notices = 1,
+	Event = 2,
+	Info = 3
+}
+
+export enum Tags {
+	/**
+	 * @TJS-required
+	 */
+	NewCharacterIntro,
+	VoiceArtistAnnouncement,
+	VersionEventWishesNotice,
+	VersionEventNoticesCompilation,
+	CharacterDemo,
+	CharacterTeaser,
+	StoryQuest,
+	VersionNewWeapon,
+	NewOutfit,
+	OutfitTeaser,
+	NewContentsDisplay,
+	WebEventWallpapers,
+	VersionPreview,
+	Event,
+	VersionTrailer,
+	OstAlbum,
+	SpecialProgramPreview,
+	DevelopersDiscussion,
+	CollectedMiscellany,
+	VersionEventsPreview,
+	EventTeaser,
+	VersionNewArtifact,
+	UpdatePreview,
+	UpdateDetails,
+	LeyLineOverflow,
+	Wallpapers,
+	GeniusInvokationTcg,
+	CutsceneAnimation,
+	GenshinConcert2023,
+	VersionPreviewPage,
+	Music
+}
+
+export enum LanguageCode {
+	/**
+	 * @TJS-required
+	 */
+	Thai = 'th-th',
+	ChineseSimplified = 'zh-cn',
+	ChineseTraditional = 'zh-tw',
+	Russian = 'ru-ru',
+	Indonesian = 'id-id',
+	Korean = 'ko-kr',
+	Vietnamese = 'vi-vn',
+	Italian = 'it-it',
+	Japanese = 'ja-jp',
+	Portuguese = 'pt-pt',
+	Turkish = 'tr-tr',
+	English = 'en-us',
+	German = 'de-de',
+	French = 'fr-fr',
+	Spanish = 'es-es'
+}
+
+type RedirectLinkChain = Array<string>;
+
+export enum LinkType {
+	/**
+	 * @TJS-required
+	 */
+	Image,
+	HoyoLink,
+	Hoyolab,
+	MihoyoHoyoverse,
+	Twitter,
+	Facebook,
+	Youtube,
+	Twitch,
+	Vk,
+	Telegram,
+	Relative,
+	Unknown,
+	Malformed
+}
+
+export type Link = {
+	/**
+	 * @TJS-required
+	 */
+	index: number | undefined;
+	url: string;
+	urlOriginal: string;
+	urlOriginalResolved: RedirectLinkChain;
+	urlLocal: string | undefined;
+	linkType: LinkType;
 };
 
 export type Event = {
-	annId: number;
-	title: string;
-	subTitle: string;
-	banner: string;
+	/**
+	 * @TJS-required
+	 */
+	postId: string;
+	gameId: Game;
+	messageType: MessageType;
+	createdAt: Date;
+	tags: Array<Tags>;
+	language: LanguageCode;
+	subject: string;
 	content: string;
-	typeLabel: string;
-	tagLabel: string;
-	tagIcon: string;
-	loginAlert: number;
-	lang: string;
-	startTime: string;
-	endTime: string;
-	type: number;
-	remind: number;
-	alert: number;
-	tagStartTime: string;
-	tagEndTime: string;
-	remindVer: number;
-	hasContent: boolean;
-	extraRemind: number;
-	tagIconHover: string;
+	links: Array<Link>;
+	articleUrl: string;
 };
-
-// Random hoyo thing
-export type EventTypeList = {
-	id: number;
-	name: string;
-	mi18nName: string;
-};
-

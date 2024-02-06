@@ -26,10 +26,11 @@ from tqdm.asyncio import tqdm_asyncio
 from dvalin_tools.lib.common import batched
 from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
-from dvalin_tools.models.tags import get_tags_from_subject
+from dvalin_tools.lib.typescript import to_typescript
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
-from dvalin_tools.models.network import Link, LinkType
+from dvalin_tools.models.network import Link, LinkType, RedirectLinkChain
+from dvalin_tools.models.tags import Tags, get_tags_from_subject
 
 
 class UpdateMode(Flag):
@@ -323,6 +324,28 @@ def generate_json_schema(output: Path) -> None:
     output.write_text(json.dumps(schema, indent=2) + "\n", encoding="utf-8")
 
 
+def generate_typescript_type(output: Path) -> None:
+    """Generate TypeScript type for events."""
+    with output.open("w", encoding="utf-8", newline="\n") as f:
+        f.write("\n")
+        f.write(to_typescript(Game, public=True, drop_enum_values=True))
+        f.write("\n\n")
+        f.write(to_typescript(MessageType, public=True))
+        f.write("\n\n")
+        f.write(to_typescript(Tags, public=True, drop_enum_values=True))
+        f.write("\n\n")
+        f.write(to_typescript(LanguageCode, public=True))
+        f.write("\n\n")
+        f.write(to_typescript(RedirectLinkChain))
+        f.write("\n\n")
+        f.write(to_typescript(LinkType, public=True, drop_enum_values=True))
+        f.write("\n\n")
+        f.write(to_typescript(Link, public=True))
+        f.write("\n\n")
+        f.write(to_typescript(EventLocalized, public=True))
+        f.write("\n")
+
+
 def get_arg_parser() -> ArgumentParser:
     parser = ArgumentParser(description="Run scraper for Genhin Impact events.")
     subparsers = parser.add_subparsers(dest="subcommand", required=True)
@@ -372,11 +395,19 @@ def get_arg_parser() -> ArgumentParser:
     )
 
     schema_parser.add_argument(
-        "-o",
-        "--output",
+        "-s",
+        "--output-schema",
         type=Path,
         default=ROOT_DIR_DVALIN_DATA / "schemas" / "Events.json",
-        help="Output file.",
+        help="Output schema file.",
+    )
+
+    schema_parser.add_argument(
+        "-t",
+        "--output-typescript",
+        type=Path,
+        default=ROOT_DIR_DVALIN_DATA / "types" / "Events.ts",
+        help="Output TypeScript file.",
     )
 
     return parser
@@ -395,7 +426,8 @@ async def async_main(namespace: Namespace):
             DATA_DIR, force=namespace.force, mode=namespace.mode
         )
     elif namespace.subcommand == "schema":
-        generate_json_schema(namespace.output)
+        generate_json_schema(namespace.output_schema)
+        generate_typescript_type(namespace.output_typescript)
 
 
 def main():
