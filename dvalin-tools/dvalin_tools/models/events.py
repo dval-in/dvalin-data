@@ -37,7 +37,7 @@ class _Event(CamelBaseModel):
     def __hash__(self) -> int:
         return hash(self.post_id)
 
-    @computed_field
+    @computed_field(alias="articleUrl")
     @property
     def article_url(self) -> str:
         return f"https://www.hoyolab.com/article/{self.post_id}"
