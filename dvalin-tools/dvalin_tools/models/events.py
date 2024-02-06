@@ -3,6 +3,7 @@ from pathlib import Path
 from typing import Iterator
 
 from pydantic import (
+    ConfigDict,
     Field,
     RootModel,
     computed_field,
@@ -11,7 +12,6 @@ from pydantic import (
 )
 
 from dvalin_tools.lib.languages import LanguageCode
-from dvalin_tools.models.tags import Tags
 from dvalin_tools.models.common import (
     CamelBaseModel,
     CustomDateTime,
@@ -19,6 +19,7 @@ from dvalin_tools.models.common import (
     Game,
 )
 from dvalin_tools.models.network import Link
+from dvalin_tools.models.tags import Tags
 
 
 class MessageType(Enum):
@@ -50,6 +51,8 @@ class _Event(CamelBaseModel):
 
 
 class EventLocalized(_Event):
+    model_config = ConfigDict(title="Event")
+
     language: LanguageCode
     subject: str
     content: str = ""
