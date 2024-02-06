@@ -26,7 +26,7 @@ from tqdm.asyncio import tqdm_asyncio
 from dvalin_tools.lib.common import batched
 from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
-from dvalin_tools.lib.tags import get_tags_from_subject
+from dvalin_tools.models.tags import get_tags_from_subject
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
 from dvalin_tools.models.network import Link, LinkType
