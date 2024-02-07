@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dvalin-tools"
+version = "0.1.0"
+description = "Python tools for Dval.in"
+authors = ["Samuel Giffard <samuel@giffard.co>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.26.0"
+beautifulsoup4 = "^4.12.3"
+aiofiles = "^23.2.1"
+pydantic = "^2.5.3"
+tqdm = "^4.66.1"
+tenacity = "^8.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dvalin-event-scraper = "dvalin_tools.scrapers.events:main"
