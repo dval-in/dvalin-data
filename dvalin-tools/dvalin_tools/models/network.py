@@ -3,13 +3,14 @@ import re
 from enum import Enum, auto
 from pathlib import Path
 from random import random
-from typing import Literal, Self
+from typing import Annotated, Literal, Self
 from urllib.parse import urljoin
 
 import httpx
 from pydantic import (
     AnyUrl,
     BaseModel,
+    ConfigDict,
     Field,
     RootModel,
     model_serializer,
@@ -17,6 +18,7 @@ from pydantic import (
 )
 
 from dvalin_tools.lib.constants import ROOT_DIR_DVALIN_DATA
+from dvalin_tools.lib.typescript import TsAnnotation
 from dvalin_tools.models.common import CamelBaseModel, EnumSerializeAndValidateAsStr
 
 RE_YOUTU_BE = re.compile(r"youtu\.be/(?P<id>[^?&/]+)")
@@ -219,11 +221,14 @@ async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain
 
 
 class Link(CamelBaseModel):
-    index: int | None = None
+    model_config = ConfigDict(
+        plugin_settings={"typescript": {"model_annotations": ["@TJS-required"]}}
+    )
+    index: int
     url: str = ""
     url_original: str
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
-    url_local: str | None = None
+    url_local: Annotated[str | None, TsAnnotation("@nullable")] = None
     link_type: EnumSerializeAndValidateAsStr[LinkType] = LinkType.UNKNOWN
 
     def __hash__(self) -> int:

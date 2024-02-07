@@ -29,6 +29,10 @@ class MessageType(Enum):
 
 
 class _Event(CamelBaseModel):
+    model_config = ConfigDict(
+        plugin_settings={"typescript": {"model_annotations": ["@TJS-required"]}}
+    )
+
     post_id: str
     game_id: EnumSerializeAndValidateAsStr[Game]
     message_type: EnumSerializeAndValidateAsStr[MessageType]
@@ -90,6 +94,8 @@ class EventI18N(_Event):
 
 class EventFile(RootModel):
     """A file containing events."""
+
+    model_config = ConfigDict(title="Events")
 
     root: set[EventLocalized] = Field(default_factory=set)
 

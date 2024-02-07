@@ -1,66 +1,81 @@
 
-export enum Game {
-	/**
-	 * @TJS-required
-	 */
-	HonkaiImpact3Rd,
-	GenshinImpact,
-	TearsOfThemis,
-	Hoyolab,
-	HonkaiStarRail,
-	ZenlessZoneZero
+
+/** @TJS-required */
+enum _ExtAPIGame {
+	HonkaiImpact3Rd = 1,
+	GenshinImpact = 2,
+	TearsOfThemis = 4,
+	Hoyolab = 5,
+	HonkaiStarRail = 6,
+	ZenlessZoneZero = 8
 }
 
-export enum MessageType {
-	/**
-	 * @TJS-required
-	 */
+
+/** @TJS-required */
+export enum Game {
+	HonkaiImpact3Rd = 'HonkaiImpact3Rd',
+	GenshinImpact = 'GenshinImpact',
+	TearsOfThemis = 'TearsOfThemis',
+	Hoyolab = 'Hoyolab',
+	HonkaiStarRail = 'HonkaiStarRail',
+	ZenlessZoneZero = 'ZenlessZoneZero'
+}
+
+
+/** @TJS-required */
+enum _ExtAPIMessageType {
 	Notices = 1,
 	Event = 2,
 	Info = 3
 }
 
-export enum Tag {
-	/**
-	 * @TJS-required
-	 */
-	NewCharacterIntro,
-	VoiceArtistAnnouncement,
-	VersionEventWishesNotice,
-	VersionEventNoticesCompilation,
-	CharacterDemo,
-	CharacterTeaser,
-	StoryQuest,
-	VersionNewWeapon,
-	NewOutfit,
-	OutfitTeaser,
-	NewContentsDisplay,
-	WebEventWallpapers,
-	VersionPreview,
-	Event,
-	VersionTrailer,
-	OstAlbum,
-	SpecialProgramPreview,
-	DevelopersDiscussion,
-	CollectedMiscellany,
-	VersionEventsPreview,
-	EventTeaser,
-	VersionNewArtifact,
-	UpdatePreview,
-	UpdateDetails,
-	LeyLineOverflow,
-	Wallpapers,
-	GeniusInvokationTcg,
-	CutsceneAnimation,
-	GenshinConcert2023,
-	VersionPreviewPage,
-	Music
+
+/** @TJS-required */
+export enum MessageType {
+	Notices = 'Notices',
+	Event = 'Event',
+	Info = 'Info'
 }
 
+
+/** @TJS-required */
+export enum Tag {
+	NewCharacterIntro = 'NewCharacterIntro',
+	VoiceArtistAnnouncement = 'VoiceArtistAnnouncement',
+	VersionEventWishesNotice = 'VersionEventWishesNotice',
+	VersionEventNoticesCompilation = 'VersionEventNoticesCompilation',
+	CharacterDemo = 'CharacterDemo',
+	CharacterTeaser = 'CharacterTeaser',
+	StoryQuest = 'StoryQuest',
+	VersionNewWeapon = 'VersionNewWeapon',
+	NewOutfit = 'NewOutfit',
+	OutfitTeaser = 'OutfitTeaser',
+	NewContentsDisplay = 'NewContentsDisplay',
+	WebEventWallpapers = 'WebEventWallpapers',
+	VersionPreview = 'VersionPreview',
+	Event = 'Event',
+	VersionTrailer = 'VersionTrailer',
+	OstAlbum = 'OstAlbum',
+	SpecialProgramPreview = 'SpecialProgramPreview',
+	DevelopersDiscussion = 'DevelopersDiscussion',
+	CollectedMiscellany = 'CollectedMiscellany',
+	VersionEventsPreview = 'VersionEventsPreview',
+	EventTeaser = 'EventTeaser',
+	VersionNewArtifact = 'VersionNewArtifact',
+	UpdatePreview = 'UpdatePreview',
+	UpdateDetails = 'UpdateDetails',
+	LeyLineOverflow = 'LeyLineOverflow',
+	Wallpapers = 'Wallpapers',
+	GeniusInvokationTcg = 'GeniusInvokationTcg',
+	CutsceneAnimation = 'CutsceneAnimation',
+	GenshinConcert2023 = 'GenshinConcert2023',
+	VersionPreviewPage = 'VersionPreviewPage',
+	Music = 'Music'
+}
+
+
+/** @TJS-required */
 export enum LanguageCode {
-	/**
-	 * @TJS-required
-	 */
 	Thai = 'th-th',
 	ChineseSimplified = 'zh-cn',
 	ChineseTraditional = 'zh-tw',
@@ -80,41 +95,40 @@ export enum LanguageCode {
 
 type RedirectLinkChain = Array<string>;
 
+
+/** @TJS-required */
 export enum LinkType {
-	/**
-	 * @TJS-required
-	 */
-	Image,
-	HoyoLink,
-	Hoyolab,
-	MihoyoHoyoverse,
-	Twitter,
-	Facebook,
-	Youtube,
-	Twitch,
-	Vk,
-	Telegram,
-	Relative,
-	Unknown,
-	Malformed
+	Image = 'Image',
+	HoyoLink = 'HoyoLink',
+	Hoyolab = 'Hoyolab',
+	MihoyoHoyoverse = 'MihoyoHoyoverse',
+	Twitter = 'Twitter',
+	Facebook = 'Facebook',
+	Youtube = 'Youtube',
+	Twitch = 'Twitch',
+	Vk = 'Vk',
+	Telegram = 'Telegram',
+	Relative = 'Relative',
+	Unknown = 'Unknown',
+	Malformed = 'Malformed'
 }
 
+
+/** @TJS-required */
 export type Link = {
-	/**
-	 * @TJS-required
-	 */
-	index: number | undefined;
+	index: number;
 	url: string;
 	urlOriginal: string;
 	urlOriginalResolved: RedirectLinkChain;
+
+	/** @nullable */
 	urlLocal: string | undefined;
 	linkType: LinkType;
 };
 
+
+/** @TJS-required */
 export type Event = {
-	/**
-	 * @TJS-required
-	 */
 	postId: string;
 	gameId: Game;
 	messageType: MessageType;
@@ -126,3 +140,5 @@ export type Event = {
 	links: Array<Link>;
 	articleUrl: string;
 };
+
+export type Events = Array<Event>;
