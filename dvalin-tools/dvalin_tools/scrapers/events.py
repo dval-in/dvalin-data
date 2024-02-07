@@ -26,7 +26,7 @@ from tqdm.asyncio import tqdm_asyncio
 from dvalin_tools.lib.common import batched
 from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
-from dvalin_tools.lib.typescript import to_typescript
+from dvalin_tools.lib.typescript import EnumMode, to_typescript
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
 from dvalin_tools.models.network import Link, LinkType, RedirectLinkChain
@@ -328,21 +328,41 @@ def generate_typescript_type(output: Path) -> None:
     """Generate TypeScript type for events."""
     with output.open("w", encoding="utf-8", newline="\n") as f:
         f.write("\n")
-        f.write(to_typescript(Game, public=True, drop_enum_values=True))
+        f.write(
+            to_typescript(Game, enum_mode=EnumMode.PRESERVE_VALUE, name="_ExtAPIGame")
+        )
         f.write("\n\n")
-        f.write(to_typescript(MessageType, public=True))
+        f.write(to_typescript(Game, public=True, enum_mode=EnumMode.SET_VALUE_FROM_KEY))
         f.write("\n\n")
-        f.write(to_typescript(Tag, public=True, drop_enum_values=True))
+        f.write(
+            to_typescript(
+                MessageType,
+                enum_mode=EnumMode.PRESERVE_VALUE,
+                name="_ExtAPIMessageType",
+            )
+        )
+        f.write("\n\n")
+        f.write(
+            to_typescript(
+                MessageType, public=True, enum_mode=EnumMode.SET_VALUE_FROM_KEY
+            )
+        )
+        f.write("\n\n")
+        f.write(to_typescript(Tag, public=True, enum_mode=EnumMode.SET_VALUE_FROM_KEY))
         f.write("\n\n")
         f.write(to_typescript(LanguageCode, public=True))
         f.write("\n\n")
         f.write(to_typescript(RedirectLinkChain))
         f.write("\n\n")
-        f.write(to_typescript(LinkType, public=True, drop_enum_values=True))
+        f.write(
+            to_typescript(LinkType, public=True, enum_mode=EnumMode.SET_VALUE_FROM_KEY)
+        )
         f.write("\n\n")
         f.write(to_typescript(Link, public=True))
         f.write("\n\n")
         f.write(to_typescript(EventLocalized, public=True))
+        f.write("\n\n")
+        f.write(to_typescript(EventFile, public=True))
         f.write("\n")
 
 
@@ -426,7 +446,7 @@ async def async_main(namespace: Namespace):
             DATA_DIR, force=namespace.force, mode=namespace.mode
         )
     elif namespace.subcommand == "schema":
-        generate_json_schema(namespace.output_schema)
+        # generate_json_schema(namespace.output_schema)
         generate_typescript_type(namespace.output_typescript)
 
 

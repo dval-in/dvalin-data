@@ -1,107 +1,16 @@
 {
-  "$defs": {
-    "EventLocalized": {
-      "properties": {
-        "postId": {
-          "title": "Postid",
-          "type": "string"
-        },
-        "gameId": {
-          "enum": [
-            "HonkaiImpact3Rd",
-            "GenshinImpact",
-            "TearsOfThemis",
-            "Hoyolab",
-            "HonkaiStarRail",
-            "ZenlessZoneZero"
-          ]
-        },
-        "messageType": {
-          "enum": [
-            "Notices",
-            "Event",
-            "Info"
-          ]
-        },
-        "createdAt": {
-          "title": "Createdat",
-          "type": "string"
-        },
-        "tags": {
-          "items": {
-            "enum": [
-              "NewCharacterIntro",
-              "VoiceArtistAnnouncement",
-              "VersionEventWishesNotice",
-              "VersionEventNoticesCompilation",
-              "CharacterDemo",
-              "CharacterTeaser",
-              "StoryQuest",
-              "VersionNewWeapon",
-              "NewOutfit",
-              "OutfitTeaser",
-              "NewContentsDisplay",
-              "WebEventWallpapers",
-              "VersionPreview",
-              "Event",
-              "VersionTrailer",
-              "OstAlbum",
-              "SpecialProgramPreview",
-              "DevelopersDiscussion",
-              "CollectedMiscellany",
-              "VersionEventsPreview",
-              "EventTeaser",
-              "VersionNewArtifact",
-              "UpdatePreview",
-              "UpdateDetails",
-              "LeyLineOverflow",
-              "Wallpapers",
-              "GeniusInvokationTcg",
-              "CutsceneAnimation",
-              "GenshinConcert2023",
-              "VersionPreviewPage",
-              "Music"
-            ]
-          },
-          "title": "Tags",
-          "type": "array"
-        },
-        "language": {
-          "$ref": "#/$defs/LanguageCode"
-        },
-        "subject": {
-          "title": "Subject",
-          "type": "string"
-        },
-        "content": {
-          "default": "",
-          "title": "Content",
-          "type": "string"
-        },
-        "links": {
-          "items": {
-            "$ref": "#/$defs/Link"
-          },
-          "title": "Links",
-          "type": "array"
-        },
-        "articleUrl": {
-          "readOnly": true,
-          "title": "Articleurl",
-          "type": "string"
-        }
-      },
-      "required": [
-        "postId",
-        "gameId",
-        "messageType",
-        "createdAt",
-        "language",
-        "subject",
-        "articleUrl"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Game": {
+      "enum": [
+        "HonkaiImpact3Rd",
+        "GenshinImpact",
+        "TearsOfThemis",
+        "Hoyolab",
+        "HonkaiStarRail",
+        "ZenlessZoneZero"
       ],
-      "title": "Event",
-      "type": "object"
+      "type": "string"
     },
     "LanguageCode": {
       "enum": [
@@ -121,84 +30,159 @@
         "fr-fr",
         "es-es"
       ],
-      "title": "LanguageCode",
       "type": "string"
     },
-    "Link": {
-      "properties": {
-        "index": {
-          "anyOf": [
-            {
-              "type": "integer"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Index"
-        },
-        "url": {
-          "default": "",
-          "title": "Url",
-          "type": "string"
-        },
-        "urlOriginal": {
-          "title": "Urloriginal",
-          "type": "string"
-        },
-        "urlOriginalResolved": {
-          "$ref": "#/$defs/RedirectLinkChain"
-        },
-        "urlLocal": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Urllocal"
-        },
-        "linkType": {
-          "default": 12,
-          "enum": [
-            "Image",
-            "HoyoLink",
-            "Hoyolab",
-            "MihoyoHoyoverse",
-            "Twitter",
-            "Facebook",
-            "Youtube",
-            "Twitch",
-            "Vk",
-            "Telegram",
-            "Relative",
-            "Unknown",
-            "Malformed"
-          ]
-        }
-      },
-      "required": [
-        "urlOriginal"
+    "LinkType": {
+      "enum": [
+        "Image",
+        "HoyoLink",
+        "Hoyolab",
+        "MihoyoHoyoverse",
+        "Twitter",
+        "Facebook",
+        "Youtube",
+        "Twitch",
+        "Vk",
+        "Telegram",
+        "Relative",
+        "Unknown",
+        "Malformed"
       ],
-      "title": "Link",
-      "type": "object"
+      "type": "string"
     },
-    "RedirectLinkChain": {
-      "items": {
-        "type": "string"
-      },
-      "title": "RedirectLinkChain",
-      "type": "array"
+    "MessageType": {
+      "enum": [
+        "Notices",
+        "Event",
+        "Info"
+      ],
+      "type": "string"
+    },
+    "Tag": {
+      "enum": [
+        "NewCharacterIntro",
+        "VoiceArtistAnnouncement",
+        "VersionEventWishesNotice",
+        "VersionEventNoticesCompilation",
+        "CharacterDemo",
+        "CharacterTeaser",
+        "StoryQuest",
+        "VersionNewWeapon",
+        "NewOutfit",
+        "OutfitTeaser",
+        "NewContentsDisplay",
+        "WebEventWallpapers",
+        "VersionPreview",
+        "Event",
+        "VersionTrailer",
+        "OstAlbum",
+        "SpecialProgramPreview",
+        "DevelopersDiscussion",
+        "CollectedMiscellany",
+        "VersionEventsPreview",
+        "EventTeaser",
+        "VersionNewArtifact",
+        "UpdatePreview",
+        "UpdateDetails",
+        "LeyLineOverflow",
+        "Wallpapers",
+        "GeniusInvokationTcg",
+        "CutsceneAnimation",
+        "GenshinConcert2023",
+        "VersionPreviewPage",
+        "Music"
+      ],
+      "type": "string"
     }
   },
-  "description": "A file containing events.",
   "items": {
-    "$ref": "#/$defs/EventLocalized"
+    "properties": {
+      "articleUrl": {
+        "type": "string"
+      },
+      "content": {
+        "type": "string"
+      },
+      "createdAt": {
+        "format": "date-time",
+        "type": "string"
+      },
+      "gameId": {
+        "$ref": "#/definitions/Game"
+      },
+      "language": {
+        "$ref": "#/definitions/LanguageCode"
+      },
+      "links": {
+        "items": {
+          "properties": {
+            "index": {
+              "type": "number"
+            },
+            "linkType": {
+              "$ref": "#/definitions/LinkType"
+            },
+            "url": {
+              "type": "string"
+            },
+            "urlLocal": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "urlOriginal": {
+              "type": "string"
+            },
+            "urlOriginalResolved": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "index",
+            "linkType",
+            "url",
+            "urlLocal",
+            "urlOriginal",
+            "urlOriginalResolved"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "messageType": {
+        "$ref": "#/definitions/MessageType"
+      },
+      "postId": {
+        "type": "string"
+      },
+      "subject": {
+        "type": "string"
+      },
+      "tags": {
+        "items": {
+          "$ref": "#/definitions/Tag"
+        },
+        "type": "array"
+      }
+    },
+    "required": [
+      "articleUrl",
+      "content",
+      "createdAt",
+      "gameId",
+      "language",
+      "links",
+      "messageType",
+      "postId",
+      "subject",
+      "tags"
+    ],
+    "type": "object"
   },
-  "title": "EventFile",
-  "type": "array"
+  "type": "array",
+  "additionalProperties": false
 }
