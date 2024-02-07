@@ -18,7 +18,7 @@ fs.readdir(typesDirectory, (err, files) => {
 			const typeName = path.basename(file, '.ts');
 
 			// Construct the command
-			const command = `typescript-json-schema --required ${typesDirectory}/${file} ${typeName}  --out ${schemaDirectory}/${typeName}.json`;
+			const command = `typescript-json-schema --required "${typesDirectory}/${file}" ${typeName}  --out "${schemaDirectory}/${typeName}.json"`;
 
 			// Execute the command
 			exec(command, (err, stdout, stderr) => {
