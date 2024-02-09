@@ -137,6 +137,7 @@ export type Event = {
 	language: LanguageCode;
 	subject: string;
 	content: string;
+	contentOriginal: string;
 	links: Array<Link>;
 	articleUrl: string;
 };
