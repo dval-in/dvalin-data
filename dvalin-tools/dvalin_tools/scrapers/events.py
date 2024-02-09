@@ -14,18 +14,19 @@ from html import escape
 from itertools import count
 from pathlib import Path, PurePath
 
-import aiofiles
 import httpx
 import tqdm
 from aiofiles import open as async_open
 from bs4 import BeautifulSoup
-from pydantic import AnyUrl
+from httpx import URL
 from tenacity import retry, retry_if_result, stop_after_attempt, wait_fixed
 from tqdm.asyncio import tqdm_asyncio
 
 from dvalin_tools.lib.common import batched
 from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
+from dvalin_tools.lib.s3 import S3Client
+from dvalin_tools.lib.settings import DvalinSettings
 from dvalin_tools.lib.typescript import EnumMode, to_typescript
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, EventI18N, EventLocalized, MessageType
@@ -36,9 +37,9 @@ from dvalin_tools.models.tags import Tag, get_tags_from_subject
 class UpdateMode(Flag):
     DETAILS_DL = auto()
     LINKS = auto()
-    IMAGES_DL = auto()
+    IMAGES_SAVE_TO_S3 = auto()
     RESOLVE_URLS = auto()
-    ALL = DETAILS_DL | LINKS | IMAGES_DL
+    ALL = DETAILS_DL | LINKS | IMAGES_SAVE_TO_S3
 
 
 async def get_events(
@@ -220,30 +221,42 @@ def update_event_links_index(event: EventLocalized) -> None:
 
 
 async def download_event_images(
-    event: EventLocalized, directory: Path, *, client: httpx.AsyncClient
+    event: EventLocalized,
+    *,
+    force: bool = False,
+    client: httpx.AsyncClient,
+    s3_client: S3Client | None = None,
 ) -> None:
     """Download the images of an event."""
     all_tasks = []
+    modified_links = []
     async with asyncio.TaskGroup() as g:
         for link in event.links:
             if link.link_type is LinkType.IMAGE:
+                # Skip if we already have the S3 link, unless we force it.
+                if link.url_s3 and not force:
+                    continue
+                modified_links.append(link)
                 try:
-                    parsed_url = AnyUrl(link.url)
+                    parsed_url = URL(link.url)
                     filename = PurePath(parsed_url.path).name
                 except ValueError:
-                    print(f"Invalid URL: {link.url}")
-                    return None
-                file_path = directory / filename
-                if file_path.exists() and link.url_s3 is not None:
-                    continue
+                    raise ValueError(f"Invalid URL: {link.url}")
+                s3_full_path = f"event/{event.language.value}/{event.created_at:%Y}/{event.created_at:%m}/{filename}"
                 all_tasks.append(
-                    g.create_task(download_image(link.url, file_path, client=client))
+                    g.create_task(
+                        async_upload_from_remote(
+                            parsed_url, s3_full_path, client=client, s3_client=s3_client
+                        )
+                    )
                 )
 
-    for task, link in zip(all_tasks, event.links):
-        file_path = task.result()
-        if file_path is not None:
-            link.url_s3 = str(file_path.relative_to(DATA_DIR).as_posix())
+    for task, link in zip(all_tasks, modified_links):
+        url: URL = task.result()
+        if url is not None:
+            link.url_s3 = str(url)
+
+    event.content = event.get_modified_content()
 
 
 @retry(
@@ -254,28 +267,31 @@ async def download_event_images(
         f"Failed to download {x.args[0]} after {x.attempt_number} attempts."
     ),
 )
-async def download_image(
-    url: str, file_path: Path, *, client: httpx.AsyncClient
-) -> Path | None:
+async def async_upload_from_remote(
+    remote_url: URL,
+    s3_full_path: str,
+    *,
+    client: httpx.AsyncClient,
+    s3_client: S3Client,
+) -> URL | None:
     try:
-        response = await client.get(url)
-        response.raise_for_status()
-        async with aiofiles.open(file_path, "wb") as file:
-            await file.write(response.content)
-        print(f"Downloaded {url} to {file_path}")
+        url = await s3_client.async_upload_from_remote(
+            remote_url, s3_full_path, client=client
+        )
+        print(f"Saved {remote_url} to {url}")
     except Exception as error:
-        print(f"Error downloading {url}: {error}")
+        print(f"Error saving {remote_url}: {error}")
         return None
 
-    return file_path
+    return url
 
 
 async def update_event_file(
     event_file: EventFile,
-    event_dir: Path,
     *,
     force: bool = False,
     mode: UpdateMode = UpdateMode.ALL,
+    s3_client: S3Client,
 ) -> None:
     """Update an event file with details."""
     async with httpx.AsyncClient() as client:
@@ -285,26 +301,34 @@ async def update_event_file(
                     if event.content_original and not force:
                         continue
                     g.create_task(update_event_details(event, client=client))
+
         if mode & UpdateMode.LINKS:
             for event in event_file:
                 await update_event_links(
                     event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
                 )
-        if mode & UpdateMode.IMAGES_DL:
+
+        if mode & UpdateMode.IMAGES_SAVE_TO_S3:
             async with TaskGroup() as g:
                 for event in event_file:
                     g.create_task(
-                        download_event_images(event, event_dir, client=client)
+                        download_event_images(
+                            event, force=force, client=client, s3_client=s3_client
+                        )
                     )
 
 
 async def update_json_file(
-    json_file: Path, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
+    json_file: Path,
+    *,
+    force: bool = False,
+    mode: UpdateMode = UpdateMode.ALL,
+    s3_client: S3Client,
 ) -> None:
     """Update a JSON file with details."""
     async with async_open(json_file, encoding="utf-8") as f:
         event_file = EventFile.model_validate_json(await f.read())
-        await update_event_file(event_file, json_file.parent, force=force, mode=mode)
+        await update_event_file(event_file, force=force, mode=mode, s3_client=s3_client)
 
     event_file.dump_json_to_file(json_file)
     print(f"{json_file} done.")
@@ -315,12 +339,15 @@ async def update_all_event_files(
 ) -> None:
     """Update all event files with details."""
     batch_size = 5
+    s3_client = S3Client(settings=DvalinSettings())
     for batch in tqdm.tqdm(
         batched(data_dir.glob("**/Event/**/*.json"), n=batch_size), desc="Batches"
     ):
         tasks = []
         for json_file in batch:
-            tasks.append(update_json_file(json_file, force=force, mode=mode))
+            tasks.append(
+                update_json_file(json_file, force=force, mode=mode, s3_client=s3_client)
+            )
 
         await tqdm_asyncio.gather(*tasks)
 
@@ -398,7 +425,7 @@ def get_arg_parser() -> ArgumentParser:
                 "- DETAILS_DL: Download the details of the events.",
                 "- LINKS: Update the links of the events. It will attempt to resolve all the URLs mentioned in the content.",
                 "- RESOLVE_URLS: Resolve the URLs of the links of the events.",
-                "- IMAGES_DL: Download the images of the events.",
+                "- IMAGES_SAVE_TO_S3: Download the images of the events and save them to S3.",
             ]
         ),
     )
