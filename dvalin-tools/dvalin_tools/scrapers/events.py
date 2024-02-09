@@ -149,8 +149,8 @@ def reparse_event_files(data_dir: Path) -> None:
         contents = event_file.read_text(encoding="utf-8")
         if contents.strip():
             existing_events = EventFile.model_validate_json(contents)
-            for event in existing_events:
-                update_event_links_index(event)
+            # for event in existing_events:
+            #     update_event_links_index(event)
             existing_events.dump_json_to_file(event_file)
 
 
@@ -165,12 +165,12 @@ async def update_event_details(
         headers={"X-Rpc-Language": event.language.value},
     )
     resp_json = resp.json()
-    event.content = resp_json["data"]["post"]["post"]["content"]
+    event.content_original = resp_json["data"]["post"]["post"]["content"]
 
 
 async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> None:
     """Update the links of an event."""
-    soup = BeautifulSoup(event.content, "html.parser")
+    soup = BeautifulSoup(event.content_original, "html.parser")
     links = {
         link
         for node in soup.find_all("a")
@@ -199,11 +199,16 @@ def update_event_links_index(event: EventLocalized) -> None:
     for link in event.links:
         if link.url_original_resolved.is_empty():
             links_with_their_position.append(
-                (event.content.find(escape(link.url_original)), link)
+                (event.content_original.find(escape(link.url_original)), link)
             )
         else:
             links_with_their_position.append(
-                (event.content.find(escape(link.url_original_resolved.initial)), link)
+                (
+                    event.content_original.find(
+                        escape(link.url_original_resolved.initial)
+                    ),
+                    link,
+                )
             )
             link.url_original = link.url_original_resolved.initial
 
@@ -275,7 +280,7 @@ async def update_event_file(
         if mode & UpdateMode.DETAILS_DL:
             async with TaskGroup() as g:
                 for event in event_file:
-                    if event.content and not force:
+                    if event.content_original and not force:
                         continue
                     g.create_task(update_event_details(event, client=client))
         if mode & UpdateMode.LINKS:
