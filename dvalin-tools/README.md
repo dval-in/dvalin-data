@@ -10,6 +10,10 @@
     cd dvalin-data/dvalin-tools
     poetry install
     ```
+- Set your `.env` file (then customize it as needed):
+    ```bash
+    cp .env.example .env
+    ```
 
 ## Usage
 
