@@ -1,6 +1,6 @@
 from enum import Enum
 from pathlib import Path
-from typing import Iterator
+from typing import Iterator, Self
 
 from pydantic import (
     ConfigDict,
@@ -9,6 +9,7 @@ from pydantic import (
     computed_field,
     field_serializer,
     model_serializer,
+    model_validator,
 )
 
 from dvalin_tools.lib.languages import LanguageCode
@@ -60,11 +61,21 @@ class EventLocalized(_Event):
     language: LanguageCode
     subject: str
     content: str = ""
+    content_original: str = ""
     links: set[Link] = Field(default_factory=set)
 
     @field_serializer("links", when_used="json")
     def sort_links(links: set[Link]) -> list[Link]:
         return sorted(links, key=lambda x: x.index)
+
+    @model_validator(mode="after")
+    def pre_root(self) -> Self:
+        # In an older version, content was set. If content_original is empty, we set it to content.
+        if not self.content_original and self.content:
+            self.content_original = self.content
+            self.content = ""
+
+        return self
 
 
 class EventI18N(_Event):
