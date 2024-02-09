@@ -149,9 +149,9 @@ def reparse_event_files(data_dir: Path) -> None:
         contents = event_file.read_text(encoding="utf-8")
         if contents.strip():
             existing_events = EventFile.model_validate_json(contents)
-            for event in existing_events:
-                # update_event_links_index(event)
-                event.fix_malformed_links()
+            # for event in existing_events:
+            #     # update_event_links_index(event)
+            #     event.fix_malformed_links()
             existing_events.dump_json_to_file(event_file)
 
 
@@ -234,7 +234,7 @@ async def download_event_images(
                     print(f"Invalid URL: {link.url}")
                     return None
                 file_path = directory / filename
-                if file_path.exists() and link.url_local is not None:
+                if file_path.exists() and link.url_s3 is not None:
                     continue
                 all_tasks.append(
                     g.create_task(download_image(link.url, file_path, client=client))
@@ -243,7 +243,7 @@ async def download_event_images(
     for task, link in zip(all_tasks, event.links):
         file_path = task.result()
         if file_path is not None:
-            link.url_local = str(file_path.relative_to(DATA_DIR).as_posix())
+            link.url_s3 = str(file_path.relative_to(DATA_DIR).as_posix())
 
 
 @retry(
