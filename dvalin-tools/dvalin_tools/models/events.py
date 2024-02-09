@@ -75,7 +75,17 @@ class EventLocalized(_Event):
             self.content_original = self.content
             self.content = ""
 
+        self.content = self.get_modified_content()
+
         return self
+
+    def get_modified_content(self) -> str:
+        """Return a modified version of the original content.
+
+        Note:
+            For now, this is just the original content. More logic will be added later.
+        """
+        return self.content_original
 
 
 class EventI18N(_Event):
