@@ -128,12 +128,6 @@
             "url": {
               "type": "string"
             },
-            "urlLocal": {
-              "type": [
-                "string",
-                "null"
-              ]
-            },
             "urlOriginal": {
               "type": "string"
             },
@@ -142,15 +136,21 @@
                 "type": "string"
               },
               "type": "array"
+            },
+            "urlS3": {
+              "type": [
+                "string",
+                "null"
+              ]
             }
           },
           "required": [
             "index",
             "linkType",
             "url",
-            "urlLocal",
             "urlOriginal",
-            "urlOriginalResolved"
+            "urlOriginalResolved",
+            "urlS3"
           ],
           "type": "object"
         },
