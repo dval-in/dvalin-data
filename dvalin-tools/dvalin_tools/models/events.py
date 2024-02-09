@@ -88,10 +88,21 @@ class EventLocalized(_Event):
     def get_modified_content(self) -> str:
         """Return a modified version of the original content.
 
-        Note:
-            For now, this is just the original content. More logic will be added later.
+        This method replaces the original links with the s3 links if they exist.
         """
-        return self.content_original
+        content = self.content_original
+
+        for link in self.links:
+            # if we have an S3 link, we replace the original link with the S3 link
+            if link.url_s3:
+                content = content.replace(
+                    escape(link.url_original), escape(link.url_s3)
+                )
+            # if we have a resolved link, we replace the original link with the resolved link
+            elif link.url != link.url_original:
+                content = content.replace(escape(link.url_original), escape(link.url))
+
+        return content
 
     def fix_malformed_links(self) -> None:
         """Fix links that are known to be malformed."""
@@ -105,7 +116,9 @@ class EventLocalized(_Event):
 
         for link in malformed_links:
             link_copy = link.copy(deep=True)
-            new_url, new_link_type = KNOWN_MALFORMED_URLS.get(link.url_original, ("", ""))
+            new_url, new_link_type = KNOWN_MALFORMED_URLS.get(
+                link.url_original, ("", "")
+            )
             if not new_url:
                 print(f"Found an unknown malformed link: {link.url_original}")
                 continue

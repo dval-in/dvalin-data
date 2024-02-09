@@ -27,8 +27,8 @@
       dvalin-event-scraper --help
       ```
     
-### Downloading the images
+### Example: Update the event data to save images to S3
 
 ```bash
-dvalin-event-scraper update --mode=IMAGES_DL
+dvalin-event-scraper update --mode=IMAGES_SAVE_TO_S3
 ```
