@@ -1,5 +1,6 @@
 import json
 from asyncio import to_thread
+from collections import defaultdict
 from io import BytesIO
 from typing import Final
 from urllib.parse import urlunsplit
@@ -14,7 +15,7 @@ from dvalin_tools.lib.settings import DvalinSettings
 class S3Client:
     KNOWN_BUCKET: Final[str] = "event"
 
-    def __init__(self, settings: DvalinSettings, parallel_threads: int = 4):
+    def __init__(self, settings: DvalinSettings):
         self.client = Minio(
             settings.s3_endpoint,
             access_key=settings.s3_access_key,
@@ -24,7 +25,6 @@ class S3Client:
             self.client._base_url.build("GET", self.client._get_region("event"))
         ).removesuffix("/")
         self.initialized_buckets = set()
-        self.parallel_threads = parallel_threads
 
     @staticmethod
     def get_default_policy(bucket_name: str) -> dict:
@@ -45,6 +45,34 @@ class S3Client:
                 },
             ],
         }
+
+    def list_subdir_details(self, bucket_name: str) -> list[tuple[str, int, int]]:
+        """
+        List subdirectories up to depth 2 in the given bucket, including the count of objects
+        and the total size of objects in each subdir.
+
+        Args:
+            bucket_name: The name of the bucket to list subdirectories from.
+
+        Returns:
+            A list where each item is a tuple containing the subdir name,
+            the count of objects in the subdir, and the total size of these objects.
+        """
+        subdir_stats = defaultdict(lambda: {"count": 0, "size": 0})
+
+        objects = self.client.list_objects(bucket_name, recursive=True)
+
+        for obj in objects:
+            path_parts = obj.object_name.split("/")
+            if len(path_parts) > 1:
+                subdir = "/".join(path_parts[:2])  # Get only up to the second level
+                subdir_stats[subdir]["count"] += 1
+                subdir_stats[subdir]["size"] += obj.size
+
+        return [
+            (subdir, details["count"], details["size"])
+            for subdir, details in subdir_stats.items()
+        ]
 
     def initialize_bucket(self, bucket_name: str) -> None:
         if bucket_name not in self.initialized_buckets:
