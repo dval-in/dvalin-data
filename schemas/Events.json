@@ -122,6 +122,9 @@
             "index": {
               "type": "number"
             },
+            "isResolved": {
+              "type": "boolean"
+            },
             "linkType": {
               "$ref": "#/definitions/LinkType"
             },
@@ -146,6 +149,7 @@
           },
           "required": [
             "index",
+            "isResolved",
             "linkType",
             "url",
             "urlOriginal",

@@ -59,14 +59,7 @@ class RedirectLinkChain(RootModel):
     root: list[str] = Field(default_factory=list)
 
     @property
-    def has_reached_destination(self) -> bool:
-        """Check if the chain is terminated (we found the final destination)."""
-        return not self.is_empty() and not self.root[-1]
-
-    @property
     def final(self) -> str:
-        if self.has_reached_destination:
-            return self.root[-2]
         return self.root[-1]
 
     @property
@@ -74,12 +67,6 @@ class RedirectLinkChain(RootModel):
         return self.root[0]
 
     def add_redirect(self, redirect: str) -> None:
-        if self.has_reached_destination:
-            print(
-                "Warning: trying to add a redirect to a chain that has reached its destination."
-            )
-            print(f"Trying to add {redirect} to {self.root}")
-            return
         self.root.append(redirect)
 
     def is_empty(self) -> bool:
@@ -143,7 +130,7 @@ class RedirectLinks:
         for url1, url2 in zip(chain.root, chain.root[1:]):
             self.cache(url1, url2)
 
-    def find(self, url: str) -> RedirectLinkChain:
+    def find(self, url: str) -> tuple[RedirectLinkChain, bool]:
         """Find a URL in the cache and return the chain of redirects.
 
         Params:
@@ -153,21 +140,22 @@ class RedirectLinks:
             The chain of redirects, or an empty list if the URL is not in the cache.
             If there is a chain, the last element could be an empty string, to indicate
             that the URL is the final destination.
+            Also returns a boolean indicating if the URL was fully resolved.
         """
         chain_urls = RedirectLinkChain()
 
         if url not in self.links_cache.cache:
-            return chain_urls
+            return chain_urls, False
 
         chain_urls += url
 
-        while (
-            not chain_urls.has_reached_destination
-            and chain_urls.final in self.links_cache.cache
-        ):
-            chain_urls += self.links_cache.cache[chain_urls.final]
+        while chain_urls.final in self.links_cache.cache:
+            target = self.links_cache.cache[chain_urls.final]
+            if not target:
+                return chain_urls, True
+            chain_urls += target
 
-        return chain_urls
+        return chain_urls, False
 
 
 _cache_file = (
@@ -176,14 +164,16 @@ _cache_file = (
 _redirect_link_cache = RedirectLinks(_cache_file)
 
 
-async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain:
+async def resolve_url(
+    url: str, *, max_redirects: int = 10
+) -> tuple[RedirectLinkChain, bool]:
     """Resolve a shortened URL or a URL with a redirect to its final destination."""
     url_list = RedirectLinkChain([url])
-    found = _redirect_link_cache.find(url)
+    found, is_fully_resolved = _redirect_link_cache.find(url)
 
     if found:
-        if found.has_reached_destination:
-            return found
+        if is_fully_resolved:
+            return found, True
 
         # Let's start from the last element, which is the first redirect.
         url_list = found
@@ -191,7 +181,7 @@ async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain
     try:
         AnyUrl(url)
     except Exception:
-        return RedirectLinkChain()
+        return RedirectLinkChain(), False
 
     # Global redirect (because we know the whole domain changed).
     # This is actually better for 2 reasons:
@@ -221,18 +211,18 @@ async def resolve_url(url: str, *, max_redirects: int = 10) -> RedirectLinkChain
                         )
                         url_list += new_location
                     else:
-                        url_list += ""
+                        is_fully_resolved = True
                         break
             else:
                 raise RuntimeError(f"Too many redirects for {url}")
             _redirect_link_cache.cache_chain(url_list)
-            return url_list
+            return url_list, is_fully_resolved
     except httpx.HTTPError as e:
         print(f"HTTP error occurred: {e.request.url} - {e.request.headers}")
     except Exception as e:
         print(f"An error occurred: {e}")
 
-    return RedirectLinkChain()
+    return RedirectLinkChain(), False
 
 
 class Link(CamelBaseModel):
@@ -245,6 +235,7 @@ class Link(CamelBaseModel):
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
     url_s3: Annotated[str | None, TsAnnotation("@nullable")] = None
     link_type: EnumSerializeAndValidateAsStr[LinkType] = LinkType.UNKNOWN
+    is_resolved: bool = False
 
     def __hash__(self) -> int:
         return hash((self.url, self.url_original))
@@ -264,10 +255,7 @@ class Link(CamelBaseModel):
             self.resolve_youtube()
             return
 
-        if (
-            self.url_original_resolved.is_empty()
-            or not self.url_original_resolved.has_reached_destination
-        ):
+        if self.url_original_resolved.is_empty() or not self.is_resolved:
             self.url_original_resolved = await resolve_url(self.url_original)
 
             # If the url is still the original, change it if there is a redirect.
@@ -289,16 +277,17 @@ class Link(CamelBaseModel):
         if match := RE_YOUTU_BE.search(self.url_original):
             self.url = f"https://www.youtube.com/watch?v={match['id']}"
             self.url_original_resolved = RedirectLinkChain(
-                [self.url_original, self.url, ""]
+                [self.url_original, self.url]
             )
         elif "http://" in self.url_original:
             self.url = self.url_original.replace("http://", "https://")
             self.url_original_resolved = RedirectLinkChain(
-                [self.url_original, self.url, ""]
+                [self.url_original, self.url]
             )
         else:
-            self.url_original_resolved = RedirectLinkChain([self.url_original, ""])
+            self.url_original_resolved = RedirectLinkChain([self.url_original])
 
+        self.is_resolved = True
         _redirect_link_cache.cache_chain(self.url_original_resolved)
 
     @model_validator(mode="after")
