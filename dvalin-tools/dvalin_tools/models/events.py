@@ -1,4 +1,5 @@
 from enum import Enum
+from html import escape
 from pathlib import Path
 from typing import Iterator, Self
 
@@ -19,7 +20,12 @@ from dvalin_tools.models.common import (
     EnumSerializeAndValidateAsStr,
     Game,
 )
-from dvalin_tools.models.network import Link
+from dvalin_tools.models.network import (
+    KNOWN_MALFORMED_URLS,
+    Link,
+    LinkType,
+    RedirectLinkChain,
+)
 from dvalin_tools.models.tags import Tag
 
 
@@ -87,6 +93,36 @@ class EventLocalized(_Event):
         """
         return self.content_original
 
+    def fix_malformed_links(self) -> None:
+        """Fix links that are known to be malformed."""
+
+        malformed_links = [
+            link for link in self.links if link.link_type is LinkType.MALFORMED
+        ]
+
+        if not malformed_links:
+            return
+
+        for link in malformed_links:
+            link_copy = link.copy(deep=True)
+            new_url, new_link_type = KNOWN_MALFORMED_URLS.get(link.url_original, ("", ""))
+            if not new_url:
+                print(f"Found an unknown malformed link: {link.url_original}")
+                continue
+            link_copy.url = link_copy.url_original = new_url
+            link_copy.link_type = new_link_type
+            link_copy.url_original_resolved = RedirectLinkChain([new_url, ""])
+            new_content = self.content.replace(
+                escape(link.url_original), escape(new_url)
+            )
+            if new_content == self.content:
+                raise ValueError(
+                    f"Could not replace {link.url_original} with {new_url}"
+                )
+            self.links.remove(link)
+            self.links.add(link_copy)
+            self.content = new_content
+
 
 class EventI18N(_Event):
     subject_i18n: dict[LanguageCode, str] = Field(default_factory=dict)
@@ -128,4 +164,8 @@ class EventFile(RootModel):
         return list(self)
 
     def dump_json_to_file(self, path: Path) -> None:
-        path.write_text(self.model_dump_json(indent=2, by_alias=True), encoding="utf-8")
+        path.write_text(
+            self.model_dump_json(indent=2, by_alias=True),
+            encoding="utf-8",
+            newline="\n",
+        )
