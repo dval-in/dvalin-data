@@ -70,6 +70,7 @@ async def get_events(
     *,
     offset: int = 0,
     size: int = 15,
+    stop_at_post_id: int = 0,
     client: httpx.AsyncClient,
 ) -> tuple[bool, int, list[EventI18N]]:
     """Get a list of events from the API."""
@@ -94,6 +95,8 @@ async def get_events(
             subject_i18n = {
                 LanguageCode.ENGLISH: event["post"]["subject"],
             }
+        if stop_at_post_id and int(event["post"]["post_id"]) == stop_at_post_id:
+            return True, last_id, events
         events.append(
             EventI18N(
                 post_id=event["post"]["post_id"],
@@ -110,12 +113,17 @@ async def get_events(
 
 
 async def get_all_events(
-    game_id: Game, message_type: MessageType, *, batch_size: int = 15, limit: int = 25
+    game_id: Game,
+    message_type: MessageType,
+    *,
+    batch_size: int = 15,
+    limit: int = 25,
+    stop_at_post_id: int = 0,
 ) -> list[EventI18N]:
     """Get all events from the API, with a limit of ``limit`` events."""
+    events = []
+    last_id = 0
     async with httpx.AsyncClient() as client:
-        events = []
-        last_id = 0
         while True:
             this_batch_size = min(batch_size, limit - len(events))
             print(f"Getting events from {last_id} to {last_id + this_batch_size}")
@@ -124,6 +132,7 @@ async def get_all_events(
                 message_type=message_type,
                 offset=last_id,
                 size=this_batch_size,
+                stop_at_post_id=stop_at_post_id,
                 client=client,
             )
             events += new_events
@@ -132,8 +141,9 @@ async def get_all_events(
     return events
 
 
-def write_events(events: list[EventI18N], data_dir: Path) -> None:
+def write_events(events: list[EventI18N], data_dir: Path) -> list[Path]:
     """Write events."""
+    modified_event_files: list[Path] = []
     for event in events:
         for lang in event.subject_i18n.keys():
             target_file = (
@@ -159,6 +169,9 @@ def write_events(events: list[EventI18N], data_dir: Path) -> None:
             existing_events.root.add(localized_event)
 
             existing_events.dump_json_to_file(target_file)
+            modified_event_files.append(target_file)
+
+    return modified_event_files
 
 
 def reparse_event_files(data_dir: Path) -> None:
