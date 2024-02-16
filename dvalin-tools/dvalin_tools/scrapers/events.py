@@ -347,7 +347,7 @@ async def update_event_file(
         if mode & UpdateMode.LINKS:
             for event in event_file:
                 all_links_resolved = all(link.is_resolved for link in event.links)
-                if not all_links_resolved or force:
+                if force or not event.links or not all_links_resolved:
                     await update_event_links(
                         event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
                     )
