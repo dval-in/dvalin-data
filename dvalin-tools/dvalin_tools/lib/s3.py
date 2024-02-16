@@ -17,9 +17,9 @@ class S3Client:
 
     def __init__(self, settings: DvalinSettings):
         self.client = Minio(
-            settings.s3_endpoint,
-            access_key=settings.s3_access_key,
-            secret_key=settings.s3_secret_key,
+            settings.s3.endpoint,
+            access_key=settings.s3.access_key,
+            secret_key=settings.s3.secret_key,
         )
         self.s3_endpoint: str = urlunsplit(
             self.client._base_url.build("GET", self.client._get_region("event"))
