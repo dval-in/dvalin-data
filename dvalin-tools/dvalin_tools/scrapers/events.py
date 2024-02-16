@@ -13,7 +13,7 @@ from enum import Flag, auto
 from html import escape
 from itertools import count
 from pathlib import Path, PurePath
-from typing import Any, Sequence
+from typing import Any, Iterable, Sequence
 
 import httpx
 import tqdm
@@ -386,12 +386,22 @@ async def update_json_file(
 async def update_all_event_files(
     data_dir: Path, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
 ) -> None:
-    """Update all event files with details."""
+    """Update all event files."""
+    await update_event_files(
+        data_dir.glob("**/Event/**/*.json"), force=force, mode=mode
+    )
+
+
+async def update_event_files(
+    event_files: Iterable[Path],
+    *,
+    force: bool = False,
+    mode: UpdateMode = UpdateMode.ALL,
+) -> None:
+    """Update the given event files."""
     batch_size = 5
     s3_client = S3Client(settings=DvalinSettings())
-    for batch in tqdm.tqdm(
-        batched(data_dir.glob("**/Event/**/*.json"), n=batch_size), desc="Batches"
-    ):
+    for batch in tqdm.tqdm(batched(event_files, n=batch_size), desc="Batches"):
         tasks = []
         for json_file in batch:
             tasks.append(
