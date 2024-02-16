@@ -1,7 +1,9 @@
+import asyncio
 import json
 from asyncio import to_thread
 from collections import defaultdict
 from io import BytesIO
+from random import random
 from typing import Final
 from urllib.parse import urlunsplit
 
@@ -134,6 +136,7 @@ class S3Client:
     async def async_upload_from_remote(
         self, remote_url: URL, s3_full_path: str, *, client: AsyncClient
     ) -> URL:
+        await asyncio.sleep(random())
         response = await client.get(remote_url)
         content_type = determine_content_type(response.headers, response.url)
         url = await self.async_upload_file(
