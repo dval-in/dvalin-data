@@ -122,7 +122,7 @@ export type Link = {
 	urlOriginalResolved: RedirectLinkChain;
 
 	/** @nullable */
-	urlLocal: string | undefined;
+	urlS3: string | undefined;
 	linkType: LinkType;
 };
 

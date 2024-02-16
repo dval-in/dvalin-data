@@ -243,7 +243,7 @@ class Link(CamelBaseModel):
     url: str = ""
     url_original: str
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
-    url_local: Annotated[str | None, TsAnnotation("@nullable")] = None
+    url_s3: Annotated[str | None, TsAnnotation("@nullable")] = None
     link_type: EnumSerializeAndValidateAsStr[LinkType] = LinkType.UNKNOWN
 
     def __hash__(self) -> int:
