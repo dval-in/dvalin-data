@@ -124,6 +124,7 @@ export type Link = {
 	/** @nullable */
 	urlS3: string | undefined;
 	linkType: LinkType;
+	isResolved: boolean;
 };
 
 
