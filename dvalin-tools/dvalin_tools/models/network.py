@@ -3,13 +3,12 @@ import re
 from enum import Enum, auto
 from pathlib import Path
 from random import random
-from typing import Annotated, Literal, Self
+from typing import Annotated, Final, Literal, Self
 from urllib.parse import urljoin
 
 import httpx
 from pydantic import (
     AnyUrl,
-    BaseModel,
     ConfigDict,
     Field,
     RootModel,
@@ -38,6 +37,22 @@ class LinkType(Enum):
     RELATIVE = auto()
     UNKNOWN = auto()
     MALFORMED = auto()
+
+
+KNOWN_MALFORMED_URLS: Final[dict[str, tuple[str, LinkType]]] = {
+    "http://「HoYo Quiz」参加方法及びルール公開！": (
+        "https://www.hoyolab.com/article/5773278",
+        LinkType.HOYOLAB,
+    ),
+    "http://xn--hoyo%20quiz%21-bg3kza44m42ca91ar455c49e8xgcfr733b9w9aqyzr/": (
+        "https://www.hoyolab.com/article/5773278",
+        LinkType.HOYOLAB,
+    ),
+    ">https://www.youtube.com/c/GenshinImpact": (
+        "https://www.youtube.com/c/GenshinImpact",
+        LinkType.YOUTUBE,
+    ),
+}
 
 
 class RedirectLinkChain(RootModel):

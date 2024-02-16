@@ -149,8 +149,9 @@ def reparse_event_files(data_dir: Path) -> None:
         contents = event_file.read_text(encoding="utf-8")
         if contents.strip():
             existing_events = EventFile.model_validate_json(contents)
-            # for event in existing_events:
-            #     update_event_links_index(event)
+            for event in existing_events:
+                # update_event_links_index(event)
+                event.fix_malformed_links()
             existing_events.dump_json_to_file(event_file)
 
 
@@ -182,6 +183,7 @@ async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> No
     }
 
     update_event_links_index(event)
+    event.fix_malformed_links()
 
     if resolve_urls:
         async with asyncio.TaskGroup() as g:
