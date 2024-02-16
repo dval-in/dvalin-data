@@ -115,7 +115,7 @@ class EventLocalized(_Event):
             return
 
         for link in malformed_links:
-            link_copy = link.copy(deep=True)
+            link_copy: Link = link.copy(deep=True)
             new_url, new_link_type = KNOWN_MALFORMED_URLS.get(
                 link.url_original, ("", "")
             )
@@ -124,7 +124,8 @@ class EventLocalized(_Event):
                 continue
             link_copy.url = link_copy.url_original = new_url
             link_copy.link_type = new_link_type
-            link_copy.url_original_resolved = RedirectLinkChain([new_url, ""])
+            link_copy.url_original_resolved = RedirectLinkChain([new_url])
+            link_copy.is_resolved = True
             new_content = self.content.replace(
                 escape(link.url_original), escape(new_url)
             )
