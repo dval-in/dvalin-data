@@ -4,8 +4,6 @@ from pathlib import Path
 from celery import Celery, chain
 from celery.schedules import crontab
 
-from dvalin_tools.lib.common import is_in_docker
-from dvalin_tools.lib.constants import DATA_DIR
 from dvalin_tools.lib.fs_lock import fs_lock
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.settings import DvalinSettings
@@ -81,7 +79,7 @@ def process_new_events(there_are_new_events: bool) -> None:
 
 async def process_new_events_async() -> None:
     print("Processing new events async")
-    data_dir = Path("/data") if is_in_docker() else DATA_DIR
+    data_dir = settings.data_path
     latest_post_id = get_last_event_post_id(data_dir)
     events = await get_all_events(
         Game.GENSHIN_IMPACT, MessageType.INFO, limit=25, stop_at_post_id=latest_post_id

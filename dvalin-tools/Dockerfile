@@ -29,8 +29,8 @@ RUN poetry config virtualenvs.create false \
 # Copy the rest of the application code
 COPY . .
 
-# Runtime Stage
-FROM python:3.11-alpine as runtime
+# Runtime Stage (local development)
+FROM python:3.11-alpine as runtime-localdev
 LABEL authors="Samuel Giffard <samuel@giffard.co>"
 
 # Create a non-root user
@@ -45,4 +45,22 @@ COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/pytho
 COPY --from=builder /usr/local/bin /usr/local/bin
 
 # Copy application code from the builder stage
-COPY --from=builder --chown=celeryuser:celeryuser /usr/src/app .
+COPY --from=builder --chown=celeryuser:celeryuser /usr/src/app/dvalin_tools ./dvalin_tools
+
+# Dependencies for the production stage
+FROM python:3.11-alpine as prod-deps
+# Install build dependencies
+RUN apk fix && \
+    apk --no-cache --update add git git-lfs gpg less openssh patch && \
+    git lfs install
+
+WORKDIR /usr/src/data
+RUN git clone https://github.com/dval-in/dvalin-data.git
+
+# Runtime Stage (production)
+FROM runtime-localdev as runtime-prod
+
+ARG DVALIN_REPO_ROOT_DIR=${DVALIN_REPO_ROOT_DIR:-/usr/src/repo/dvalin-data}
+
+COPY --from=prod-deps --chown=celeryuser:celeryuser /usr/src/data/dvalin-data ${DVALIN_REPO_ROOT_DIR}
+COPY  --chown=celeryuser:celeryuser __scraper_cache__ /usr/src/__scraper_cache__

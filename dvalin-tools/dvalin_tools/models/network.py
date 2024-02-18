@@ -16,12 +16,12 @@ from pydantic import (
     model_validator,
 )
 
-from dvalin_tools.lib.common import is_in_docker
-from dvalin_tools.lib.constants import ROOT_DIR_DVALIN_DATA
+from dvalin_tools.lib.settings import DvalinSettings
 from dvalin_tools.lib.typescript import TsAnnotation
 from dvalin_tools.models.common import CamelBaseModel, EnumSerializeAndValidateAsStr
 
 RE_YOUTU_BE = re.compile(r"youtu\.be/(?P<id>[^?&/]+)")
+settings = DvalinSettings()
 
 
 class LinkType(Enum):
@@ -170,16 +170,7 @@ class RedirectLinks:
         return chain_urls, False
 
 
-_scraper_cache_dir = ROOT_DIR_DVALIN_DATA / "dvalin-tools" / "__scraper_cache__"
-_scraper_cache_dir_docker = Path("/usr/src/__scraper_cache__")
-
-_cache_file = (
-    _scraper_cache_dir_docker / "redirect_links.json"
-    if is_in_docker()
-    else _scraper_cache_dir / "redirect_links.json"
-)
-
-_redirect_link_cache = RedirectLinks(_cache_file)
+_redirect_link_cache = RedirectLinks(settings.cache_dir / "redirect_links.json")
 
 
 async def resolve_url(
