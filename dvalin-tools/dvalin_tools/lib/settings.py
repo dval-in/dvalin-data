@@ -1,7 +1,9 @@
+from pathlib import Path
+
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from dvalin_tools.lib.constants import ROOT_DIR_DVALIN_TOOLS
+from dvalin_tools.lib.constants import ROOT_DIR_DVALIN_DATA, ROOT_DIR_DVALIN_TOOLS
 
 PROJECT_PREFIX = "DVALIN"
 
@@ -30,8 +32,26 @@ class CelerySettings(BaseSettings):
 
 
 class DvalinSettings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=ROOT_DIR_DVALIN_TOOLS / ".env",
+        env_file_encoding="utf-8",
+        env_prefix=f"{PROJECT_PREFIX}_",
+    )
+
     s3: S3Settings = Field(default_factory=S3Settings)
     celery: CelerySettings = Field(default_factory=CelerySettings)
+    repo_root_dir: Path = Field(
+        default=ROOT_DIR_DVALIN_DATA,
+        description="The root directory of the dvalin-data repository",
+    )
+
+    @property
+    def data_path(self) -> Path:
+        return self.repo_root_dir / "data"
+
+    @property
+    def cache_dir(self) -> Path:
+        return self.repo_root_dir / "dvalin-tools" / "__scraper_cache__"
 
 
 if __name__ == "__main__":

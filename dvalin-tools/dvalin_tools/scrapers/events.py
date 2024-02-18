@@ -25,7 +25,6 @@ from tqdm.asyncio import tqdm_asyncio
 from typing_extensions import override
 
 from dvalin_tools.lib.common import batched
-from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.s3 import S3Client
 from dvalin_tools.lib.settings import DvalinSettings
@@ -459,7 +458,7 @@ def generate_typescript_type(output: Path) -> None:
         f.write("\n")
 
 
-def get_arg_parser() -> ArgumentParser:
+def get_arg_parser(settings: DvalinSettings) -> ArgumentParser:
     parser = ArgumentParser(description="Run scraper for Genhin Impact events.")
     subparsers = parser.add_subparsers(dest="subcommand", required=True)
 
@@ -513,7 +512,7 @@ def get_arg_parser() -> ArgumentParser:
         "-s",
         "--output-schema",
         type=Path,
-        default=ROOT_DIR_DVALIN_DATA / "schemas" / "Events.json",
+        default=settings.repo_root_dir / "schemas" / "Events.json",
         help="Output schema file.",
     )
 
@@ -521,24 +520,24 @@ def get_arg_parser() -> ArgumentParser:
         "-t",
         "--output-typescript",
         type=Path,
-        default=ROOT_DIR_DVALIN_DATA / "types" / "Events.ts",
+        default=settings.repo_root_dir / "types" / "Events.ts",
         help="Output TypeScript file.",
     )
 
     return parser
 
 
-async def async_main(namespace: Namespace):
+async def async_main(settings: DvalinSettings, namespace: Namespace):
     if namespace.subcommand == "get":
         events = await get_all_events(
             Game.GENSHIN_IMPACT, MessageType.INFO, limit=namespace.limit
         )
-        write_events(events, DATA_DIR)
+        write_events(events, settings.data_path)
     elif namespace.subcommand == "reparse":
-        reparse_event_files(DATA_DIR)
+        reparse_event_files(settings.data_path)
     elif namespace.subcommand == "update":
         await update_all_event_files(
-            DATA_DIR, force=namespace.force, mode=namespace.mode
+            settings.data_path, force=namespace.force, mode=namespace.mode
         )
     elif namespace.subcommand == "schema":
         # generate_json_schema(namespace.output_schema)
@@ -546,9 +545,10 @@ async def async_main(namespace: Namespace):
 
 
 def main():
-    parser = get_arg_parser()
+    settings = DvalinSettings()
+    parser = get_arg_parser(settings)
     args = parser.parse_args()
-    asyncio.run(async_main(args))
+    asyncio.run(async_main(settings, args))
 
 
 if __name__ == "__main__":
