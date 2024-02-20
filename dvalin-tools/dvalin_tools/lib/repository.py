@@ -4,11 +4,14 @@ from pathlib import Path
 from shlex import split
 from subprocess import PIPE, Popen
 
+from github import Auth, Github
+from github.GitCommit import GitCommit
 from httpx import URL
 
 from dvalin_tools.lib.settings import DvalinSettings, GitSettings
 
 AUTO_DATA_EVENT_BRANCH_PREFIX = "auto-data-event"
+COMMIT_MESSAGE_PREFIX = "feat: Auto-data: Event:"
 
 # Regex for branch that are handled by the bot
 RE_AUTO_DATA_EVENT_BRANCH = re.compile(
@@ -87,7 +90,9 @@ class Repository:
             if branch not in (self.master_name, current_branch):
                 self._execute(f"git branch -D {branch}")
 
-    def commit_and_push(self, file_list: list[Path] | None = None) -> None:
+    def commit_and_push(
+        self, file_list: list[Path] | None = None, commit_message_body: str = ""
+    ) -> None:
         if file_list is None:
             self._execute("git add .")
         else:
@@ -98,9 +103,9 @@ class Repository:
                     *[str(file.relative_to(self.path)) for file in file_list],
                 ]
             )
-        self._execute(
-            f"git commit -m 'feat: Auto-data: Event: {datetime.now():%Y-%m-%d %H:%M:%S}'"
-        )
+        commit_message = f"{COMMIT_MESSAGE_PREFIX} {datetime.now():%Y-%m-%d %H:%M:%S}\n\n{commit_message_body}"
+        commit_message = commit_message.replace("'", r"\'")
+        self._execute(["git", "commit", "-m", commit_message])
         self._execute(f"git push origin {self.get_current_branch()}")
 
     def get_remote_url(self) -> URL:
@@ -112,9 +117,55 @@ class Repository:
         token = git_settings.private_access_token
         return url_origin.copy_with(username=username, password=token)
 
+    def get_repo_name(self) -> str:
+        return self.get_remote_url().path.removeprefix("/").removesuffix(".git")
+
     @staticmethod
     def generate_auto_branch_name() -> str:
         return f"{AUTO_DATA_EVENT_BRANCH_PREFIX}/{datetime.now():%Y%m%d_%H%M%S}"
+
+    @staticmethod
+    def generate_pr_body(commits: list[GitCommit]) -> str:
+        # get all the commit messages from the commits in this PR, if they are auto-data events
+        commit_messages = [
+            commit.message
+            for commit in commits
+            if commit.message.startswith(COMMIT_MESSAGE_PREFIX)
+        ]
+        # get all `*` bullet points from the commit messages
+        points = []
+        for message in commit_messages:
+            for line in message.splitlines():
+                if line.strip().startswith("*"):
+                    points.append(line)
+        if points:
+            body = "Contains the following events:\n\n" + "\n".join(points)
+        else:
+            body = ""
+        return body
+
+    def create_or_update_pr(self) -> None:
+        gh = Github(auth=Auth.Token(git_settings.private_access_token))
+        repo_name = self.get_repo_name()
+        repo = gh.get_repo(repo_name)
+        branch = self.get_current_branch()
+        prs = repo.get_pulls(state="open", head=f"{repo_name.split('/')[0]}:{branch}")
+        # get all the commit messages from the commits in this PR, if they are auto-data events
+        commits = repo.get_commits(sha=branch)
+        pr_body = self.generate_pr_body([commit.commit for commit in commits])
+        if not list(prs):
+            print("Creating a new PR")
+            pr = repo.create_pull(
+                title=f"Auto-data: Event: {datetime.now():%Y-%m-%d %H:%M:%S}",
+                body=pr_body,
+                base=self.master_name,
+                head=branch,
+            )
+            print(f"PR created: {pr.html_url}")
+        else:
+            pr = list(prs)[0]
+            print(f"PR already exists: {pr.html_url}, updating body.")
+            pr.edit(body=pr_body)
 
 
 def prog_init(path: Path) -> None:
@@ -147,11 +198,14 @@ def loop_start(path: Path) -> None:
     print(f"Created a new temporary branch {temp_b_name}")
 
 
-def loop_end_with_changes(path: Path, files: list[Path]) -> None:
+def loop_end_with_changes(
+    path: Path, files: list[Path], commit_message_body: str = ""
+) -> None:
     repo = Repository(path)
     current_branch = repo.get_current_branch()
     if current_branch.startswith("tmp-"):
         repo.rename_current_branch(repo.generate_auto_branch_name())
         print(f"Renamed branch to {repo.get_current_branch()}")
 
-    repo.commit_and_push(files)
+    repo.commit_and_push(files, commit_message_body)
+    repo.create_or_update_pr()
