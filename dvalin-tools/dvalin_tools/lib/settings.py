@@ -31,6 +31,19 @@ class CelerySettings(BaseSettings):
     result_backend: str
 
 
+class GitSettings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=ROOT_DIR_DVALIN_TOOLS / ".env",
+        env_file_encoding="utf-8",
+        env_prefix=f"{PROJECT_PREFIX}_GIT_",
+    )
+
+    user_email: str
+    user_name: str
+    github_username: str
+    private_access_token: str
+
+
 class DvalinSettings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=ROOT_DIR_DVALIN_TOOLS / ".env",
@@ -40,6 +53,7 @@ class DvalinSettings(BaseSettings):
 
     s3: S3Settings = Field(default_factory=S3Settings)
     celery: CelerySettings = Field(default_factory=CelerySettings)
+    git: GitSettings = Field(default_factory=GitSettings)
     repo_root_dir: Path = Field(
         default=ROOT_DIR_DVALIN_DATA,
         description="The root directory of the dvalin-data repository",

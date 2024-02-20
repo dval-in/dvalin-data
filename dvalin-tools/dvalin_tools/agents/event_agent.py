@@ -6,6 +6,7 @@ from celery.schedules import crontab
 
 from dvalin_tools.lib.fs_lock import fs_lock
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
+from dvalin_tools.lib.repository import loop_end_with_changes, loop_start, prog_init
 from dvalin_tools.lib.settings import DvalinSettings
 from dvalin_tools.models.common import Game
 from dvalin_tools.models.events import EventFile, MessageType
@@ -27,6 +28,7 @@ app.conf.broker_connection_retry_on_startup = True
 
 @app.on_after_configure.connect
 def setup_periodic_tasks(sender, **kwargs) -> None:
+    prog_init(settings.repo_root_dir)
     sender.add_periodic_task(crontab(minute="*/1"), event_flow.s())
 
 
@@ -79,6 +81,7 @@ def process_new_events(there_are_new_events: bool) -> None:
 
 async def process_new_events_async() -> None:
     print("Processing new events async")
+    loop_start(settings.repo_root_dir)
     data_dir = settings.data_path
     latest_post_id = get_last_event_post_id(data_dir)
     events = await get_all_events(
@@ -88,6 +91,8 @@ async def process_new_events_async() -> None:
     modified_event_files = write_events(events, data_dir)
     await update_event_files(modified_event_files)
     print("New events processed")
+    if modified_event_files:
+        loop_end_with_changes(settings.repo_root_dir, modified_event_files)
 
 
 if __name__ == "__main__":
