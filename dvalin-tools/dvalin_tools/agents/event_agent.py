@@ -9,7 +9,7 @@ from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.repository import loop_end_with_changes, loop_start, prog_init
 from dvalin_tools.lib.settings import DvalinSettings
 from dvalin_tools.models.common import Game
-from dvalin_tools.models.events import EventFile, MessageType
+from dvalin_tools.models.events import EventFile, EventI18N, MessageType
 from dvalin_tools.scrapers.events import (
     get_all_events,
     update_event_files,
@@ -92,7 +92,20 @@ async def process_new_events_async() -> None:
     await update_event_files(modified_event_files)
     print("New events processed")
     if modified_event_files:
-        loop_end_with_changes(settings.repo_root_dir, modified_event_files)
+        loop_end_with_changes(
+            settings.repo_root_dir,
+            modified_event_files,
+            get_commit_message_body(events),
+        )
+
+
+def get_commit_message_body(events: list[EventI18N]) -> str:
+    lines = ["Contains the following events:"]
+    for event in events:
+        lines.append(f"* {event.subject} ([{event.post_id}]({event.article_url}))")
+    lines.append("")
+
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":
