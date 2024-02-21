@@ -168,7 +168,18 @@ class Repository:
             pr.edit(body=pr_body)
 
 
-def prog_init(path: Path) -> None:
+def initialize_git_repo(path: Path) -> None:
+    """Initialize git repository.
+
+    This is what this function does:
+        - Initialize git config
+        - Reset to master
+        - Destroy all local branches
+        - If auto remote exists AND it's different from current local branch, pull, check it out
+
+    Params:
+        path: Path to the repository
+    """
     repo = Repository(path)
     repo.initialize_git_config()
     repo.reset_to_master()
@@ -181,7 +192,16 @@ def prog_init(path: Path) -> None:
         print(f"Checked out remote branch {latest_remote}")
 
 
-def loop_start(path: Path) -> None:
+def prepare_local_auto_branch(path: Path) -> None:
+    """Prepare local auto branch.
+
+    This is what this function does:
+        - If auto remote exists AND it's different from current local branch, pull, check it out
+        - If not, create a new branch
+
+    Params:
+        path: Path to the repository
+    """
     repo = Repository(path)
     # if auto remote exists AND it's different from current local branch, pull, check it out
     remote_auto_branches = repo.get_remote_auto_branches()
@@ -198,9 +218,21 @@ def loop_start(path: Path) -> None:
     print(f"Created a new temporary branch {temp_b_name}")
 
 
-def loop_end_with_changes(
+def persist_on_remote(
     path: Path, files: list[Path], commit_message_body: str = ""
 ) -> None:
+    """Persist changes on remote.
+
+    This is what this function does:
+        - Rename current branch if it's a temp branch
+        - Commit and push changes
+        - Create or update PR
+
+    Params:
+        path: Path to the repository
+        files: List of files to commit and push
+        commit_message_body: The body of the commit message
+    """
     repo = Repository(path)
     current_branch = repo.get_current_branch()
     if current_branch.startswith("tmp-"):
