@@ -1,7 +1,7 @@
 import asyncio
 from pathlib import Path
 
-from celery import Celery, chain
+from celery import Celery
 from celery.schedules import crontab
 
 from dvalin_tools.lib.fs_lock import fs_lock
@@ -33,7 +33,7 @@ app.conf.broker_connection_retry_on_startup = True
 @app.on_after_configure.connect
 def setup_periodic_tasks(sender, **kwargs) -> None:
     initialize_git_repo(settings.repo_root_dir)
-    sender.add_periodic_task(crontab(minute="*/1"), event_flow.s())
+    sender.add_periodic_task(crontab(minute="*/1"), process_new_events.s())
 
 
 def get_latest_event_file(data_dir: Path) -> Path:
@@ -57,40 +57,27 @@ def get_last_event_post_id(data_dir: Path) -> int:
 
 
 @app.task
-def event_flow() -> None:
-    chain(check_new_events.s(), process_new_events.s()).delay()
-
-
-@app.task
-def check_new_events() -> bool:
-    with fs_lock("check_new_events") as lock_acquired:
-        if not lock_acquired:
-            print("Another task already has the lock")
-            return False
-        print("Checking for new events")
-        return True
-
-
-@app.task
-def process_new_events(there_are_new_events: bool) -> None:
+def process_new_events() -> None:
     with fs_lock("process_new_events") as lock_acquired:
         if not lock_acquired:
             print("Another task already has the lock")
             return
 
-        if there_are_new_events:
-            print("Processing new events")
-            asyncio.run(process_new_events_async())
+        asyncio.run(process_new_events_async())
 
 
 async def process_new_events_async() -> None:
-    print("Processing new events async")
+    print("Checking for new events...")
     prepare_local_auto_branch(settings.repo_root_dir)
     data_dir = settings.data_path
     latest_post_id = get_last_event_post_id(data_dir)
     events = await get_all_events(
         Game.GENSHIN_IMPACT, MessageType.INFO, limit=25, stop_at_post_id=latest_post_id
     )
+    if not events:
+        print("No new events")
+        return
+
     print(f"Retrieved {len(events)} new events")
     modified_event_files = write_events(events, data_dir)
     await update_event_files(modified_event_files)
