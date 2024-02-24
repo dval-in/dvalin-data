@@ -93,7 +93,11 @@ async def process_new_events_async() -> None:
 def get_commit_message_body(events: list[EventI18N]) -> str:
     lines = ["Contains the following events:"]
     for event in events:
-        lines.append(f"* {event.subject} ([{event.post_id}]({event.article_url}))")
+        lines.append(
+            f"* [{event.created_at:%Y-%m-%d %H:%M}] "
+            f"{event.subject} "
+            f"([{event.post_id}]({event.article_url}))"
+        )
     lines.append("")
 
     return "\n".join(lines)
