@@ -6,13 +6,14 @@ Events are returned as JSON.
 
 import asyncio
 import json
-from argparse import ArgumentParser, Namespace
+from argparse import Action, ArgumentParser, Namespace
 from asyncio import TaskGroup
 from datetime import datetime
 from enum import Flag, auto
 from html import escape
 from itertools import count
 from pathlib import Path, PurePath
+from typing import Any, Sequence
 
 import httpx
 import tqdm
@@ -21,6 +22,7 @@ from bs4 import BeautifulSoup
 from httpx import URL
 from tenacity import retry, retry_if_result, stop_after_attempt, wait_fixed
 from tqdm.asyncio import tqdm_asyncio
+from typing_extensions import override
 
 from dvalin_tools.lib.common import batched
 from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
@@ -40,6 +42,26 @@ class UpdateMode(Flag):
     IMAGES_SAVE_TO_S3 = auto()
     RESOLVE_URLS = auto()
     ALL = DETAILS_DL | LINKS | IMAGES_SAVE_TO_S3
+
+
+class UpdateModeArgParseAction(Action):
+    @override
+    def __call__(
+        self,
+        parser: ArgumentParser,
+        namespace: Namespace,
+        values: str | Sequence[Any] | None,
+        option_string: str | None = None,
+    ) -> None:
+        if not values:
+            raise ValueError(f"At least one value of {self.dest} is required.")
+        for value in values:
+            if not issubclass(UpdateMode, type(value)):
+                value = UpdateMode[value.upper()]
+            if getattr(namespace, self.dest) is None:
+                setattr(namespace, self.dest, value)
+            else:
+                setattr(namespace, self.dest, getattr(namespace, self.dest) | value)
 
 
 async def get_events(
@@ -179,9 +201,16 @@ async def update_event_links(event: EventLocalized, *, resolve_urls: bool) -> No
         if not (link := node.get("href")).startswith("mailto:")
     }
     image_links = {node.get("src") for node in soup.select("img[src^=http]")}
-    event.links = {Link(url_original=link) for link in links} | {
-        Link(url_original=link, link_type=LinkType.IMAGE) for link in image_links
+    new_links = {link: Link(url_original=link) for link in links} | {
+        link: Link(url_original=link, link_type=LinkType.IMAGE) for link in image_links
     }
+
+    # There are properties that we want to carry over, if they were already present.
+    for old_link in event.links:
+        if old_link.url_original in new_links:
+            new_links[old_link.url_original].url_s3 = old_link.url_s3
+
+    event.links = set(new_links.values())
 
     update_event_links_index(event)
     event.fix_malformed_links()
@@ -304,18 +333,25 @@ async def update_event_file(
 
         if mode & UpdateMode.LINKS:
             for event in event_file:
-                await update_event_links(
-                    event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
-                )
+                all_links_resolved = all(link.is_resolved for link in event.links)
+                if not all_links_resolved or force:
+                    await update_event_links(
+                        event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
+                    )
 
         if mode & UpdateMode.IMAGES_SAVE_TO_S3:
             async with TaskGroup() as g:
                 for event in event_file:
-                    g.create_task(
-                        download_event_images(
-                            event, force=force, client=client, s3_client=s3_client
-                        )
+                    any_image_missing_s3 = any(
+                        link.link_type is LinkType.IMAGE and not link.url_s3
+                        for link in event.links
                     )
+                    if any_image_missing_s3 or force:
+                        g.create_task(
+                            download_event_images(
+                                event, force=force, client=client, s3_client=s3_client
+                            )
+                        )
 
 
 async def update_json_file(
@@ -440,6 +476,8 @@ def get_arg_parser() -> ArgumentParser:
         "-m",
         "--mode",
         type=lambda x: UpdateMode[x.upper()],
+        action=UpdateModeArgParseAction,
+        nargs="+",
         required=True,
         help=f"Update mode. Possible values: {', '.join(UpdateMode.__members__)}.",
     )
