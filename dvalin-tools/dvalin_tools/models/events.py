@@ -3,6 +3,7 @@ from html import escape
 from pathlib import Path
 from typing import Iterator, Self
 
+from bs4 import BeautifulSoup, Tag
 from pydantic import (
     ConfigDict,
     Field,
@@ -85,6 +86,41 @@ class EventLocalized(_Event):
 
         return self
 
+    @staticmethod
+    def replace_url_everywhere(content: str, url_original: str, url_replacement: str) -> str:
+        """
+        Replaces exact matches of a URL in href and src attributes,
+        and as text within HTML content.
+
+        Args:
+            content: The HTML content to search through.
+            url_original: The original URL to be replaced.
+            url_replacement: The replacement URL.
+
+        Returns:
+            The updated HTML content with the URL replaced.
+        """
+        soup = BeautifulSoup(content, 'html.parser')
+
+        # Replace in href attributes
+        for tag in soup.find_all(href=url_original):
+            tag['href'] = url_replacement
+
+        # Replace in src attributes
+        for tag in soup.find_all(src=url_original):
+            tag['src'] = url_replacement
+
+        # Replace URL as exact text match
+        def replace_text(tag: Tag) -> None:
+            if tag.string == url_original:
+                tag.string = url_replacement
+
+        # Looping through all elements and replacing text where necessary
+        for text in soup.find_all(text=True):
+            replace_text(text.parent)
+
+        return str(soup)
+
     def get_modified_content(self) -> str:
         """Return a modified version of the original content.
 
@@ -95,12 +131,10 @@ class EventLocalized(_Event):
         for link in self.links:
             # if we have an S3 link, we replace the original link with the S3 link
             if link.url_s3:
-                content = content.replace(
-                    escape(link.url_original), escape(link.url_s3)
-                )
+                content = self.replace_url_everywhere(content, link.url_original, link.url_s3)
             # if we have a resolved link, we replace the original link with the resolved link
             elif link.url != link.url_original:
-                content = content.replace(escape(link.url_original), escape(link.url))
+                content = self.replace_url_everywhere(content, link.url_original, link.url)
 
         return content
 
