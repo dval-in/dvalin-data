@@ -15,7 +15,7 @@
     cp .env.example .env
     ```
 
-## Usage
+## Usage (manual)
 
 - Run the tool:
   - Windows:
@@ -31,4 +31,27 @@
 
 ```bash
 dvalin-event-scraper update --mode=IMAGES_SAVE_TO_S3
+```
+
+## Usage (automation)
+
+Use docker-compose for automation.
+
+### Local development
+
+The local dev mounts the current project into the container, so you can edit the code 
+and run the tool without rebuilding the container.
+You can use the following command to run the tool in local-dev:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.dev.yml -p dvalin-tools up -d
+```
+
+### Production
+
+The production environment bases its data on the GitHub repository.
+You can use the following command to run the tool in production:
+
+```bash
+docker compose -f docker-compose.yml up -p dvalin-tools up -d
 ```
