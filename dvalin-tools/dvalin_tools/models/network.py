@@ -54,6 +54,17 @@ KNOWN_MALFORMED_URLS: Final[dict[str, tuple[str, LinkType]]] = {
     ),
 }
 
+GLOBAL_REDIRECTS: Final[dict[str, str]] = {
+    # Global redirect (because we know the whole domain changed).
+    # This is actually better for 2 reasons:
+    # 1. We save the time of a request.
+    # 2. Mihoyo failed to do their language redirects properly. All old links go to the English version.
+    "/genshin.mihoyo.com": "/genshin.hoyoverse.com",
+    # Since 2023-08, many images are received with this wrong domain.
+    # It always results in 403.
+    "/hoyolab-upload-private.hoyolab.com/": "/upload-os-bbs.hoyolab.com/",
+}
+
 
 class RedirectLinkChain(RootModel):
     root: list[str] = Field(default_factory=list)
@@ -183,16 +194,10 @@ async def resolve_url(
     except Exception:
         return RedirectLinkChain(), False
 
-    # Global redirect (because we know the whole domain changed).
-    # This is actually better for 2 reasons:
-    # 1. We save the time of a request.
-    # 2. Mihoyo failed to do their language redirects properly. All old links go to the English version.
-    if "/genshin.mihoyo.com" in url_list.final:
-        mhy_redirect = url_list.final.replace(
-            "/genshin.mihoyo.com", "/genshin.hoyoverse.com"
-        )
-        url_list += mhy_redirect
-        _redirect_link_cache.cache(url, url_list.final)
+    for old, new in GLOBAL_REDIRECTS.items():
+        if old in url_list.final:
+            url_list += url_list.final.replace(old, new)
+            _redirect_link_cache.cache_chain(url_list)
 
     try:
         async with httpx.AsyncClient(follow_redirects=False) as client:
@@ -229,7 +234,7 @@ class Link(CamelBaseModel):
     model_config = ConfigDict(
         plugin_settings={"typescript": {"model_annotations": ["@TJS-required"]}}
     )
-    index: int
+    index: int = -1
     url: str = ""
     url_original: str
     url_original_resolved: RedirectLinkChain = Field(default_factory=RedirectLinkChain)
@@ -256,7 +261,9 @@ class Link(CamelBaseModel):
             return
 
         if self.url_original_resolved.is_empty() or not self.is_resolved:
-            self.url_original_resolved = await resolve_url(self.url_original)
+            self.url_original_resolved, self.is_resolved = await resolve_url(
+                self.url_original
+            )
 
             # If the url is still the original, change it if there is a redirect.
             if (
