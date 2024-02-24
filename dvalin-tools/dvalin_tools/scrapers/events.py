@@ -40,7 +40,7 @@ class UpdateMode(Flag):
     LINKS = auto()
     IMAGES_SAVE_TO_S3 = auto()
     RESOLVE_URLS = auto()
-    ALL = DETAILS_DL | LINKS | IMAGES_SAVE_TO_S3
+    ALL = DETAILS_DL | LINKS | IMAGES_SAVE_TO_S3 | RESOLVE_URLS
 
 
 class UpdateModeArgParseAction(Action):
