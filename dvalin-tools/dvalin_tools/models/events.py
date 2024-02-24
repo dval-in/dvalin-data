@@ -87,7 +87,9 @@ class EventLocalized(_Event):
         return self
 
     @staticmethod
-    def replace_url_everywhere(content: str, url_original: str, url_replacement: str) -> str:
+    def replace_url_everywhere(
+        content: str, url_original: str, url_replacement: str
+    ) -> str:
         """
         Replaces exact matches of a URL in href and src attributes,
         and as text within HTML content.
@@ -100,15 +102,15 @@ class EventLocalized(_Event):
         Returns:
             The updated HTML content with the URL replaced.
         """
-        soup = BeautifulSoup(content, 'html.parser')
+        soup = BeautifulSoup(content, "html.parser")
 
         # Replace in href attributes
         for tag in soup.find_all(href=url_original):
-            tag['href'] = url_replacement
+            tag["href"] = url_replacement
 
         # Replace in src attributes
         for tag in soup.find_all(src=url_original):
-            tag['src'] = url_replacement
+            tag["src"] = url_replacement
 
         # Replace URL as exact text match
         def replace_text(tag: Tag) -> None:
@@ -131,10 +133,14 @@ class EventLocalized(_Event):
         for link in self.links:
             # if we have an S3 link, we replace the original link with the S3 link
             if link.url_s3:
-                content = self.replace_url_everywhere(content, link.url_original, link.url_s3)
+                content = self.replace_url_everywhere(
+                    content, link.url_original, link.url_s3
+                )
             # if we have a resolved link, we replace the original link with the resolved link
             elif link.url != link.url_original:
-                content = self.replace_url_everywhere(content, link.url_original, link.url)
+                content = self.replace_url_everywhere(
+                    content, link.url_original, link.url
+                )
 
         return content
 
