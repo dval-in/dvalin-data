@@ -13,7 +13,7 @@ from enum import Flag, auto
 from html import escape
 from itertools import count
 from pathlib import Path, PurePath
-from typing import Any, Sequence
+from typing import Any, Iterable, Sequence
 
 import httpx
 import tqdm
@@ -25,7 +25,6 @@ from tqdm.asyncio import tqdm_asyncio
 from typing_extensions import override
 
 from dvalin_tools.lib.common import batched
-from dvalin_tools.lib.constants import DATA_DIR, ROOT_DIR_DVALIN_DATA
 from dvalin_tools.lib.languages import LANGUAGE_CODE_TO_DIR, LanguageCode
 from dvalin_tools.lib.s3 import S3Client
 from dvalin_tools.lib.settings import DvalinSettings
@@ -41,7 +40,7 @@ class UpdateMode(Flag):
     LINKS = auto()
     IMAGES_SAVE_TO_S3 = auto()
     RESOLVE_URLS = auto()
-    ALL = DETAILS_DL | LINKS | IMAGES_SAVE_TO_S3
+    ALL = DETAILS_DL | LINKS | IMAGES_SAVE_TO_S3 | RESOLVE_URLS
 
 
 class UpdateModeArgParseAction(Action):
@@ -70,6 +69,7 @@ async def get_events(
     *,
     offset: int = 0,
     size: int = 15,
+    stop_at_post_id: int = 0,
     client: httpx.AsyncClient,
 ) -> tuple[bool, int, list[EventI18N]]:
     """Get a list of events from the API."""
@@ -94,6 +94,8 @@ async def get_events(
             subject_i18n = {
                 LanguageCode.ENGLISH: event["post"]["subject"],
             }
+        if stop_at_post_id and int(event["post"]["post_id"]) == stop_at_post_id:
+            return True, last_id, events
         events.append(
             EventI18N(
                 post_id=event["post"]["post_id"],
@@ -110,12 +112,17 @@ async def get_events(
 
 
 async def get_all_events(
-    game_id: Game, message_type: MessageType, *, batch_size: int = 15, limit: int = 25
+    game_id: Game,
+    message_type: MessageType,
+    *,
+    batch_size: int = 15,
+    limit: int = 25,
+    stop_at_post_id: int = 0,
 ) -> list[EventI18N]:
     """Get all events from the API, with a limit of ``limit`` events."""
+    events = []
+    last_id = 0
     async with httpx.AsyncClient() as client:
-        events = []
-        last_id = 0
         while True:
             this_batch_size = min(batch_size, limit - len(events))
             print(f"Getting events from {last_id} to {last_id + this_batch_size}")
@@ -124,6 +131,7 @@ async def get_all_events(
                 message_type=message_type,
                 offset=last_id,
                 size=this_batch_size,
+                stop_at_post_id=stop_at_post_id,
                 client=client,
             )
             events += new_events
@@ -132,8 +140,9 @@ async def get_all_events(
     return events
 
 
-def write_events(events: list[EventI18N], data_dir: Path) -> None:
+def write_events(events: list[EventI18N], data_dir: Path) -> list[Path]:
     """Write events."""
+    modified_event_files: list[Path] = []
     for event in events:
         for lang in event.subject_i18n.keys():
             target_file = (
@@ -159,6 +168,9 @@ def write_events(events: list[EventI18N], data_dir: Path) -> None:
             existing_events.root.add(localized_event)
 
             existing_events.dump_json_to_file(target_file)
+            modified_event_files.append(target_file)
+
+    return modified_event_files
 
 
 def reparse_event_files(data_dir: Path) -> None:
@@ -334,7 +346,7 @@ async def update_event_file(
         if mode & UpdateMode.LINKS:
             for event in event_file:
                 all_links_resolved = all(link.is_resolved for link in event.links)
-                if not all_links_resolved or force:
+                if force or not event.links or not all_links_resolved:
                     await update_event_links(
                         event, resolve_urls=bool(mode & UpdateMode.RESOLVE_URLS)
                     )
@@ -373,12 +385,22 @@ async def update_json_file(
 async def update_all_event_files(
     data_dir: Path, *, force: bool = False, mode: UpdateMode = UpdateMode.ALL
 ) -> None:
-    """Update all event files with details."""
+    """Update all event files."""
+    await update_event_files(
+        data_dir.glob("**/Event/**/*.json"), force=force, mode=mode
+    )
+
+
+async def update_event_files(
+    event_files: Iterable[Path],
+    *,
+    force: bool = False,
+    mode: UpdateMode = UpdateMode.ALL,
+) -> None:
+    """Update the given event files."""
     batch_size = 5
     s3_client = S3Client(settings=DvalinSettings())
-    for batch in tqdm.tqdm(
-        batched(data_dir.glob("**/Event/**/*.json"), n=batch_size), desc="Batches"
-    ):
+    for batch in tqdm.tqdm(batched(event_files, n=batch_size), desc="Batches"):
         tasks = []
         for json_file in batch:
             tasks.append(
@@ -436,7 +458,7 @@ def generate_typescript_type(output: Path) -> None:
         f.write("\n")
 
 
-def get_arg_parser() -> ArgumentParser:
+def get_arg_parser(settings: DvalinSettings) -> ArgumentParser:
     parser = ArgumentParser(description="Run scraper for Genhin Impact events.")
     subparsers = parser.add_subparsers(dest="subcommand", required=True)
 
@@ -490,7 +512,7 @@ def get_arg_parser() -> ArgumentParser:
         "-s",
         "--output-schema",
         type=Path,
-        default=ROOT_DIR_DVALIN_DATA / "schemas" / "Events.json",
+        default=settings.repo_root_dir / "schemas" / "Events.json",
         help="Output schema file.",
     )
 
@@ -498,24 +520,24 @@ def get_arg_parser() -> ArgumentParser:
         "-t",
         "--output-typescript",
         type=Path,
-        default=ROOT_DIR_DVALIN_DATA / "types" / "Events.ts",
+        default=settings.repo_root_dir / "types" / "Events.ts",
         help="Output TypeScript file.",
     )
 
     return parser
 
 
-async def async_main(namespace: Namespace):
+async def async_main(settings: DvalinSettings, namespace: Namespace):
     if namespace.subcommand == "get":
         events = await get_all_events(
             Game.GENSHIN_IMPACT, MessageType.INFO, limit=namespace.limit
         )
-        write_events(events, DATA_DIR)
+        write_events(events, settings.data_path)
     elif namespace.subcommand == "reparse":
-        reparse_event_files(DATA_DIR)
+        reparse_event_files(settings.data_path)
     elif namespace.subcommand == "update":
         await update_all_event_files(
-            DATA_DIR, force=namespace.force, mode=namespace.mode
+            settings.data_path, force=namespace.force, mode=namespace.mode
         )
     elif namespace.subcommand == "schema":
         # generate_json_schema(namespace.output_schema)
@@ -523,9 +545,10 @@ async def async_main(namespace: Namespace):
 
 
 def main():
-    parser = get_arg_parser()
+    settings = DvalinSettings()
+    parser = get_arg_parser(settings)
     args = parser.parse_args()
-    asyncio.run(async_main(args))
+    asyncio.run(async_main(settings, args))
 
 
 if __name__ == "__main__":

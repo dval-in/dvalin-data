@@ -1,5 +1,5 @@
 from itertools import islice
-from pathlib import PurePath
+from pathlib import Path, PurePath
 
 from httpx import URL, Headers
 
@@ -70,3 +70,7 @@ def determine_content_type(headers: Headers, url: URL) -> str:
     return ENRICH_CONTENT_TYPE.get(
         PurePath(url.path).suffix[1:], "application/octet-stream"
     )
+
+
+def is_in_docker() -> bool:
+    return Path("/.dockerenv").exists()

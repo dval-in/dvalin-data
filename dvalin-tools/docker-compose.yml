@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  event_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime-prod
+    restart: unless-stopped
+    command: celery -A dvalin_tools.agents.event_agent worker --loglevel=info -B
+    environment:
+      - DVALIN_CELERY_BROKER_URL=${DVALIN_CELERY_BROKER_URL}
+      - DVALIN_CELERY_RESULT_BACKEND=${DVALIN_CELERY_RESULT_BACKEND}
+      - DVALIN_S3_ENDPOINT=${DVALIN_S3_ENDPOINT}
+      - DVALIN_S3_ACCESS_KEY=${DVALIN_S3_ACCESS_KEY}
+      - DVALIN_S3_SECRET_KEY=${DVALIN_S3_SECRET_KEY}
+      - DVALIN_GIT_USER_EMAIL=${DVALIN_GIT_USER_EMAIL}
+      - DVALIN_GIT_USER_NAME=${DVALIN_GIT_USER_NAME}
+      - DVALIN_GIT_GITHUB_USERNAME=${DVALIN_GIT_GITHUB_USERNAME}
+      - DVALIN_GIT_PRIVATE_ACCESS_TOKEN=${DVALIN_GIT_PRIVATE_ACCESS_TOKEN}
+      - DVALIN_REPO_ROOT_DIR=/usr/src/repo/dvalin-data
+    depends_on:
+      - redis
+
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
