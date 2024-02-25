@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       target: runtime-prod
+    image: ghcr.io/dval-in/dvalin-tools-event-agent:latest
     restart: unless-stopped
     command: celery -A dvalin_tools.agents.event_agent worker --loglevel=info -B
     environment:
