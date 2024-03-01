@@ -1,28 +1,25 @@
-export type Banner = {
-	/**
+/**
 	 * @TJS-required
 	 */
-
+export type Banner = {
 	id: string;
 	name: string;
-	startTime: string;
-	endTime: string;
+	startTime: Date;
+	endTime: Date;
 	featured: ECharacter[] | EWeapon[];
 	picture: string;
 };
 
-export type ECharacter = {
-	/**
+/**
 	 * @TJS-required
 	 */
-
+export type ECharacter = {
 	id: string;
 };
 
-export type EWeapon = {
-	/**
+/**
 	 * @TJS-required
 	 */
-
+export type EWeapon = {
 	id: string;
 };
