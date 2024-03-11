@@ -2,13 +2,15 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches:
-      - 'main'
     tags:
       - 'dvalin-tools-event-agent:v*'
+    paths:
+      - 'dvalin-tools/**'
   pull_request:
     branches:
       - 'main'
+    paths:
+      - 'dvalin-tools/**'
 
 env:
   REGISTRY: ghcr.io
