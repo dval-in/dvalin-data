@@ -1,6 +1,10 @@
 # Build Stage
 FROM python:3.11-alpine as builder
+
 LABEL authors="Samuel Giffard <samuel@giffard.co>"
+LABEL org.opencontainers.image.source=https://github.com/dval-in/dvalin-data
+LABEL org.opencontainers.image.description="Agent monitoring Event data for dval.in."
+
 
 # Install build dependencies
 RUN apk add --no-cache \
@@ -20,7 +24,7 @@ RUN pip install "poetry==$POETRY_VERSION"
 WORKDIR /usr/src/app
 
 # Copy project files
-COPY poetry.lock pyproject.toml ./
+COPY pyproject.toml ./
 
 # Install dependencies using Poetry in a way that they can be copied later
 RUN poetry config virtualenvs.create false \
