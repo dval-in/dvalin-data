@@ -1,89 +1,86 @@
 {
-  "id": "CracklingAxeMitachurl",
-  "name": "Crackling Axe Mitachurl",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟฟ้า",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "DuPlama",
-      "name": "Du Plama",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Upa",
-      "name": "Upa",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "OtoTiga",
-      "name": "Oto Tiga",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RippleElectroEdge",
-      "name": "Ripple Electro Edge",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Ripple Electro Edge</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "CracklingAxeMitachurl",
+	"shareid": 3403,
+	"name": "Elektrik Baltalı Dağ Azmanı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Elektrik",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar",
+			"Dağ Yabanisi"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "DuPlama",
+			"name": "Du Plama",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Upa",
+			"name": "Upa",
+			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "OtoTiga",
+			"name": "Oto Tiga",
+			"desc": "5 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RippleElectroEdge",
+			"name": "Bileyici Elektrik",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Bileyici Elektrik</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

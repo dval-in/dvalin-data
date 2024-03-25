@@ -1,79 +1,85 @@
 {
-  "id": "Gorou",
-  "name": "고로",
-  "title": "견족의 전사·고로",
-  "desc": "군대를 이끄는 충실한 대장!",
-  "attributes": {
-    "hp": 10,
-    "card_type": "캐릭터 카드",
-    "energy": 2,
-    "element": "바위 원소",
-    "weapon": "활",
-    "faction": [
-      "이나즈마"
-    ],
-    "source": "캣테일 술집에서 고로 초대 및 친선 대전 난이도 승리 후 획득"
-  },
-  "skills": [
-    {
-      "id": "RippingFangFletching",
-      "name": "야수 이빨 화살",
-      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
-      "skillTag": [
-        "일반 공격"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "바위 원소",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "무색 원소",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "InuzakaAllroundDefense",
-      "name": "이누자카 멍멍 방원진",
-      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">대장의 깃발</span>을 생성한다.",
-      "skillTag": [
-        "원소전투 스킬"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "바위 원소",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "JuugaForwardUntoVictory",
-      "name": "야수 이빨 돌격형 승전법",
-      "desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">대장의 깃발</span>을 생성한 후 <span style=\"color:#FFFFFFFF\">대장의 위용</span>을 소환한다.",
-      "skillTag": [
-        "원소폭발"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "바위 원소",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "원소 에너지",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Gorou",
+	"shareid": 283,
+	"name": "고로",
+	"title": "견족의 전사·고로",
+	"desc": "군대를 이끄는 충실한 대장!",
+	"attributes": {
+		"hp": 10,
+		"cardType": "캐릭터 카드",
+		"energy": 2,
+		"element": "바위 원소",
+		"weapon": "활",
+		"faction": [
+			"이나즈마"
+		],
+		"talentCard": {
+			"id": "RushingHoundSwiftAsTheWind",
+			"name": "Rushing Hound: Swift as the Wind"
+		},
+		"source": "캣테일 술집에서 고로 초대 및 친선 대전 난이도 승리 후 획득",
+		"character": {
+			"id": "Gorou",
+			"name": "Gorou",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "RippingFangFletching",
+			"name": "야수 이빨 화살",
+			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+			"skilltag": [
+				"일반 공격"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "바위 원소",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "무색 원소",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "InuzakaAllroundDefense",
+			"name": "이누자카 멍멍 방원진",
+			"desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">대장의 깃발</span>을 생성한다.",
+			"skilltag": [
+				"원소전투 스킬"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "바위 원소",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "JuugaForwardUntoVictory",
+			"name": "야수 이빨 돌격형 승전법",
+			"desc": "<span style=\"color:#FFE699FF\">바위 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">대장의 깃발</span>을 생성한 후 <span style=\"color:#FFFFFFFF\">대장의 위용</span>을 소환한다.",
+			"skilltag": [
+				"원소폭발"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "바위 원소",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "원소 에너지",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

@@ -1,74 +1,72 @@
 {
-  "id": "AnemoSamachurl",
-  "name": "Anemo Samachurl",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 4,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุลม",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "StaffStrike",
-      "name": "Staff Strike",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "PrayerToTheWinds",
-      "name": "Prayer to the Winds",
-      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Whirlwind</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "GaleforceShock",
-      "name": "Galeforce Shock",
-      "desc": "จะสร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "AnemoSamachurl",
+	"shareid": 3501,
+	"name": "Rüzgar Dağ Şamanı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 4,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Rüzgar",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar",
+			"Dağ Yabanisi"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "StaffStrike",
+			"name": "Asa Saldırısı",
+			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "PrayerToTheWinds",
+			"name": "Rüzgar Dansı",
+			"desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Hortum</span> çağırır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Rüzgar",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "GaleforceShock",
+			"name": "Rüzgar Dalgası Saldırısı",
+			"desc": "5 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Rüzgar",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

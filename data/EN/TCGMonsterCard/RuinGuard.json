@@ -1,82 +1,80 @@
 {
-  "id": "RuinGuard",
-  "name": "Ruin Guard",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "Character Card",
-    "energy": 2,
-    "element": "No Elemental Type",
-    "weapon": "Other Weapons",
-    "faction": [
-      "Monster"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SternBlow",
-      "name": "Stern Blow",
-      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
-      "skillTag": [
-        "Normal Attack"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Unaligned Element",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SpiralClosein",
-      "name": "Spiral Close-In",
-      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span> and then separately performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">High-Frequency Whirling Assault</span> and <span style=\"color:#FFFFFFFF\">Hyperspeed Whirling Assault</span>.",
-      "skillTag": [
-        "Elemental Skill"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Matching Element",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SuppressiveVolley",
-      "name": "Suppressive Volley",
-      "desc": "Deals 4 <span style=\"color:#FFFFFFFF\">Physical DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Seeking Missile</span> in the opponent's play area.",
-      "skillTag": [
-        "Elemental Burst"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Matching Element",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energy",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StandardArmor",
-      "name": "Standard Armor",
-      "desc": "(Passive) The <span style=\"color:#FFFFFFFF\">Physical DMG</span> this character receives is halved (Rounded up)",
-      "skillTag": [
-        "Passive Skill"
-      ],
-      "points": []
-    }
-  ]
+	"id": "RuinGuard",
+	"shareid": 3004,
+	"name": "Ruin Guard",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Character Card",
+		"energy": 2,
+		"element": "No Elemental Type",
+		"weapon": "Other Weapons",
+		"faction": [
+			"Monster"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SternBlow",
+			"name": "Stern Blow",
+			"desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+			"skilltag": [
+				"Normal Attack"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Unaligned Element",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SpiralClosein",
+			"name": "Spiral Close-In",
+			"desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span> and then separately performs \"<span style=\"color:#FFFFFFFF\">Prepare Skill</span>\" for <span style=\"color:#FFFFFFFF\">High-Frequency Whirling Assault</span> and <span style=\"color:#FFFFFFFF\">Hyperspeed Whirling Assault</span>.",
+			"skilltag": [
+				"Elemental Skill"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Matching Element",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SuppressiveVolley",
+			"name": "Suppressive Volley",
+			"desc": "Deals 4 <span style=\"color:#FFFFFFFF\">Physical DMG</span>, creates 1 <span style=\"color:#FFFFFFFF\">Seeking Missile</span> in the opponent's play area.",
+			"skilltag": [
+				"Elemental Burst"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Matching Element",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Energy",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StandardArmor",
+			"name": "Standard Armor",
+			"desc": "(Passive) The <span style=\"color:#FFFFFFFF\">Physical DMG</span> this character receives is halved (Rounded up)",
+			"skilltag": [
+				"Passive Skill"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

@@ -23,4 +23,5 @@ export type JewelMaterial = {
 		items: Item[];
 	};
 	convert?: Item[][];
+	version: string;
 };

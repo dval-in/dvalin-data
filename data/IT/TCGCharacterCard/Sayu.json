@@ -1,0 +1,85 @@
+{
+	"id": "Sayu",
+	"shareid": 320,
+	"name": "Sayu",
+	"title": "Sayu, Ninja mujina",
+	"desc": "Sempre al tuo fianco senza lasciare traccia, come il personaggio di un sogno.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta personaggio",
+		"energy": 2,
+		"element": "Anemo",
+		"weapon": "Claymore",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "SkivingNewAndImproved",
+			"name": "Skiving: New and Improved"
+		},
+		"source": "Ricompensa ottenuta sfidando Sayu a duello alla Coda di Gatto e battendola in un duello amichevole",
+		"character": {
+			"id": "Sayu",
+			"name": "Sayu",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "ShuumatsubanNinjaBlade",
+			"name": "Lama ninja della Shuumatsuban",
+			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+			"skilltag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "elemento indefinito",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "YoohooArtFuuinDash",
+			"name": "Arte Yoohoo: Scatto Fuuin",
+			"desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span> e il personaggio esegue <span style=\"color:#FFFFFFFF\">Preparazione abilità</span> per <span style=\"color:#FFFFFFFF\">Calcio turbine Fuufuu</span>.<br/>Se questo uso dell'abilità innesca Turbinio, <span style=\"color:#FFFFFFFF\">Calcio turbine Fuufuu</span> infligge DAN del tipo elementale del Turbinio.",
+			"skilltag": [
+				"Abilità elementale"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "YoohooArtMujinaFlurry",
+			"name": "Arte Yoohoo: Frullio Mujina",
+			"desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Daruma Muji-Muji</span>.",
+			"skilltag": [
+				"Tripudio elementale"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energia",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.5"
+}

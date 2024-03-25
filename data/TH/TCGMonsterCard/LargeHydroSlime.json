@@ -1,0 +1,85 @@
+{
+	"id": "LargeHydroSlime",
+	"shareid": 3207,
+	"name": "Large Hydro Slime",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "การ์ดตัวละคร",
+		"energy": 2,
+		"element": "ธาตุน้ำ",
+		"weapon": "อาวุธอื่น ๆ",
+		"faction": [
+			"มอนสเตอร์"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Ram",
+			"name": "Ram",
+			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย",
+			"skilltag": [
+				"โจมตีปกติ"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "ธาตุน้ำ",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "ธาตุไร้สี",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BubbleSpray",
+			"name": "Bubble Spray",
+			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Gurgling Bubble</span>",
+			"skilltag": [
+				"สกิลธาตุ"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "ธาตุน้ำ",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "JumpingSlam",
+			"name": "Jumping Slam",
+			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 5 หน่วย",
+			"skilltag": [
+				"ท่าไม้ตาย"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "ธาตุน้ำ",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "พลังงาน",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ElementalSedimentationHydro",
+			"name": "Elemental Sedimentation: Hydro",
+			"desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">สิ่งมีชีวิตธาตุ: น้ำ</span>",
+			"skilltag": [
+				"สกิลติดตัว"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
+}

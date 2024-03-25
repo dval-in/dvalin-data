@@ -1,0 +1,85 @@
+{
+	"id": "LargeHydroSlime",
+	"shareid": 3207,
+	"name": "Large Hydro Slime",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Kartu Karakter",
+		"energy": 2,
+		"element": "Hydro",
+		"weapon": "Senjata Lain",
+		"faction": [
+			"Monster"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Ram",
+			"name": "Ram",
+			"desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+			"skilltag": [
+				"Normal Attack"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Hydro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Elemen Tidak Selaras",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BubbleSpray",
+			"name": "Bubble Spray",
+			"desc": "Mengakibatkan 2 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/>Karakter target menerima <span style=\"color:#FFFFFFFF\">Gurgling Bubble</span>.",
+			"skilltag": [
+				"Elemental Skill"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Hydro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "JumpingSlam",
+			"name": "Jumping Slam",
+			"desc": "Mengakibatkan 5 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+			"skilltag": [
+				"Elemental Burst"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Hydro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energy",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ElementalSedimentationHydro",
+			"name": "Elemental Sedimentation: Hydro",
+			"desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Elemental Lifeform: Hydro</span>.",
+			"skilltag": [
+				"Passive Skill"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
+}

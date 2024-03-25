@@ -1,82 +1,80 @@
 {
-  "id": "RuinGuard",
-  "name": "遺蹟守衛",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "角色牌",
-    "energy": 2,
-    "element": "無元素類型",
-    "weapon": "其他武器",
-    "faction": [
-      "魔物"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SternBlow",
-      "name": "剛性打擊",
-      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
-      "skillTag": [
-        "普通攻擊"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "無色元素",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SpiralClosein",
-      "name": "旋臂近防",
-      "desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>，然後分別<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">高頻旋擊</span>和<span style=\"color:#FFFFFFFF\">超速旋擊</span>。",
-      "skillTag": [
-        "元素戰技"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "相同元素",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SuppressiveVolley",
-      "name": "壓制齊射",
-      "desc": "造成4點<span style=\"color:#FFFFFFFF\">物理傷害</span>，在敵方場上生成<span style=\"color:#FFFFFFFF\">追蹤爆彈</span>。",
-      "skillTag": [
-        "元素爆發"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "相同元素",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "充能",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StandardArmor",
-      "name": "標準外甲",
-      "desc": "【被動】此角色受到的<span style=\"color:#FFFFFFFF\">物理傷害</span>減半。（無條件進位）",
-      "skillTag": [
-        "被動技能"
-      ],
-      "points": []
-    }
-  ]
+	"id": "RuinGuard",
+	"shareid": 3004,
+	"name": "遺蹟守衛",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "角色牌",
+		"energy": 2,
+		"element": "無元素類型",
+		"weapon": "其他武器",
+		"faction": [
+			"魔物"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SternBlow",
+			"name": "剛性打擊",
+			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+			"skilltag": [
+				"普通攻擊"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "無色元素",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SpiralClosein",
+			"name": "旋臂近防",
+			"desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>，然後分別<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">高頻旋擊</span>和<span style=\"color:#FFFFFFFF\">超速旋擊</span>。",
+			"skilltag": [
+				"元素戰技"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "相同元素",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SuppressiveVolley",
+			"name": "壓制齊射",
+			"desc": "造成4點<span style=\"color:#FFFFFFFF\">物理傷害</span>，在敵方場上生成<span style=\"color:#FFFFFFFF\">追蹤爆彈</span>。",
+			"skilltag": [
+				"元素爆發"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "相同元素",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "充能",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StandardArmor",
+			"name": "標準外甲",
+			"desc": "【被動】此角色受到的<span style=\"color:#FFFFFFFF\">物理傷害</span>減半。（無條件進位）",
+			"skilltag": [
+				"被動技能"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

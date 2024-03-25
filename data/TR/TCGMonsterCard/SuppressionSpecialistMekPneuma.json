@@ -1,88 +1,85 @@
 {
-  "id": "SuppressionSpecialistMekPneuma",
-  "name": "จักรกลปราบปราม - วิญญาณ",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไม้",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "PrecisionShot",
-      "name": "Precision Shot",
-      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "WildgrassBall",
-      "name": "Wildgrass Ball",
-      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "LaunchGrenade",
-      "name": "Launch Grenade",
-      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Delayed Fuse Munitions</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ArkhePneuma",
-      "name": "คุณสมบัติพลังงาน: พลังวิญญาณ",
-      "desc": "<span style=\"color:#FFFFFFFF\">หลังจากตัวละครที่มี \"พลังปฐมภูมิ: สสาร\" สร้างความเสียหาย: </span>ตัวละครนี้จะถูกเปลี่ยนเป็น<span style=\"color:#FFFFFFFF\">\"รูปแบบไร้พลังงาน\"</span> และจะ<span style=\"color:#FFFFFFFF\">ไม่สามารถใช้สกิล</span>ได้จนกว่าจะสิ้นสุดเทิร์นนี้",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "SuppressionSpecialistMekPneuma",
+	"shareid": 3704,
+	"name": "Baskılama Uzmanı Meka - Ruh",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Doğa",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "PrecisionShot",
+			"name": "Keskin Atış",
+			"desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "WildgrassBall",
+			"name": "Yabani Ot Topu",
+			"desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "LaunchGrenade",
+			"name": "El Bombası Fırlat",
+			"desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Gecikmeli Fünye Mühimmatı</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ArkhePneuma",
+			"name": "Arkhe: Ruh",
+			"desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Öz\"e sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

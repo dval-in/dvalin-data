@@ -1,99 +1,94 @@
 {
-  "id": "Cyno",
-  "name": "Cyno",
-  "title": "การพิพากษาอันซ่อนเร้น - Cyno",
-  "desc": "สิ่งที่อยู่ในการ์ด คือความลุ่มหลงอันร้อนแรง ดั่งดวงตะวันที่แผดเผาทะเลทราย ของเจ้าหน้าที่มหามาตรา",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟฟ้า",
-    "weapon": "หอก",
-    "faction": [
-      "Sumeru"
-    ],
-    "talent_card": {
-      
-      "id": "FeatherfallJudgment",
-      "name": "Featherfall Judgment"
-    },
-    "source": "ได้รับหลังจากเชิญ Cyno ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Cyno",
-      "name": "Cyno",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "InvokersSpear",
-      "name": "Invoker's Spear",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SecretRiteChasmicSoulfarer",
-      "name": "Secret Rite: Chasmic Soulfarer",
-      "desc": "จะสร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SacredRiteWolfsSwiftness",
-      "name": "Sacred Rite: Wolf's Swiftness",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 4 หน่วย<br/>ระดับการ [ประทับร่าง] ของ <span style=\"color:#FFFFFFFF\">Pactsworn Pathclearer</span> +2",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "LawfulEnforcer",
-      "name": "Lawful Enforcer",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Pactsworn Pathclearer</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "Cyno",
+	"shareid": 29,
+	"name": "Cyno",
+	"title": "\"Sırlar Hakimi\" Cyno",
+	"desc": "Bu kart, çöldeki yakıcı güneşi andıran General Mahamatra'nın ateşli tutkusunu barındırıyor.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Elektrik",
+		"weapon": "Mızrak",
+		"faction": [
+			"Sumeru"
+		],
+		"talentCard": {
+			"id": "FeatherfallJudgment",
+			"name": "Featherfall Judgment"
+		},
+		"source": "Cyno'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Cyno",
+			"name": "Cyno",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "InvokersSpear",
+			"name": "Çağrı Mızrağı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SecretRiteChasmicSoulfarer",
+			"name": "Saklı Ayin: Ahir Rehberi",
+			"desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SacredRiteWolfsSwiftness",
+			"name": "Kutsal Ayin: Kurt Çevikliği",
+			"desc": "4 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.<br/><span style=\"color:#FFFFFFFF\">Sadık Öncü</span> Yerleşim Seviyesi 2 artar.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "LawfulEnforcer",
+			"name": "Adil İnfazcı",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Sadık Öncü</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

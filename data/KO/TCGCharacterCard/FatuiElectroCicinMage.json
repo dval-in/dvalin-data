@@ -1,0 +1,76 @@
+{
+	"id": "FatuiElectroCicinMage",
+	"shareid": 337,
+	"name": "우인단·번개 치친 술사",
+	"title": "안개 속 섬광·번개 치친 술사",
+	"desc": "…안개풀의 향이 번개 치친을 홀리는 것처럼, 기학적인 술사도 상대를 괴롭히는 쾌감에 집착한다…",
+	"attributes": {
+		"hp": 10,
+		"cardType": "캐릭터 카드",
+		"energy": 2,
+		"element": "번개 원소",
+		"weapon": "기타 무기",
+		"faction": [
+			"우인단"
+		],
+		"source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 우인단·번개 치친 술사에게 승리 후 획득"
+	},
+	"skills": [
+		{
+			"id": "HurtlingBolts",
+			"name": "번쩍이는 낙뢰",
+			"desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 준다.",
+			"skilltag": [
+				"일반 공격"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "번개 원소",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "무색 원소",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MistyCall",
+			"name": "안개의 소환",
+			"desc": "<span style=\"color:#FFFFFFFF\">번개 치친</span>을 소환한다.",
+			"skilltag": [
+				"원소전투 스킬"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "번개 원소",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ThunderingShield",
+			"name": "천둥의 가호",
+			"desc": "<span style=\"color:#FFACFFFF\">번개 원소 피해</span>를 1pt 주고 본 캐릭터에게 <span style=\"color:#FFACFFFF\">번개 원소 부착</span> 효과를 준다. <span style=\"color:#FFFFFFFF\">번개 치친 보호막</span>을 생성하고 <span style=\"color:#FFFFFFFF\">번개 분출</span>의 스킬 준비를 한다.",
+			"skilltag": [
+				"원소폭발"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "번개 원소",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "원소 에너지",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.5"
+}

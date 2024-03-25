@@ -1,6 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "properties": {
+    "_id": {
+      "type": "number"
+    },
     "achievements": {
       "items": {
         "properties": {
@@ -44,16 +47,17 @@
     "order": {
       "type": "number"
     },
-    "_id": {
-      "type": "number"
+    "version": {
+      "type": "string"
     }
   },
   "required": [
+    "_id",
     "achievements",
     "id",
     "name",
     "order",
-    "_id"
+    "version"
   ],
   "type": "object",
   "additionalProperties": false

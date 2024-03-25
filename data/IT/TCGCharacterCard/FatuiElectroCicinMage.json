@@ -1,0 +1,76 @@
+{
+	"id": "FatuiElectroCicinMage",
+	"shareid": 337,
+	"name": "Maga Cicin di Electro dei Fatui",
+	"title": "Maga Cicin di Electro, Tuono nella nebbia",
+	"desc": "...Così come l'odore dell'Erbafosca inebria le Cicin di Electro, le maghe sadiche bramano il piacere di dilettarsi con il loro nemico...",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta personaggio",
+		"energy": 2,
+		"element": "Electro",
+		"weapon": "Altre armi",
+		"faction": [
+			"Fatui"
+		],
+		"source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Maga Cicin di Electro in un duello amichevole"
+	},
+	"skills": [
+		{
+			"id": "HurtlingBolts",
+			"name": "Saette repentine",
+			"desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+			"skilltag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "elemento indefinito",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MistyCall",
+			"name": "Richiamo nebuloso",
+			"desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Cicin di Electro</span>.",
+			"skilltag": [
+				"Abilità elementale"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ThunderingShield",
+			"name": "Scudo tonante",
+			"desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, questo personaggio subisce <span style=\"color:#FFACFFFF\">Applicazione di Electro</span>, crea 1 <span style=\"color:#FFFFFFFF\">Scudo Cicin di Electro</span> e prepara <span style=\"color:#FFFFFFFF\">Tuono ruggente</span>.",
+			"skilltag": [
+				"Tripudio elementale"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energia",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.5"
+}

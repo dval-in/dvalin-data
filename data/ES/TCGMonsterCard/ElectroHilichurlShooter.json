@@ -1,73 +1,71 @@
 {
-  "id": "ElectroHilichurlShooter",
-  "name": "Hilichurl Ballestero Electro",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 3,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Electro",
-    "weapon": "Otras armas",
-    "faction": [
-      "Monstruo",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "ThunderArrow",
-      "name": "Flechazo eléctrico",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
-      "skillTag": [
-        "Ataque Normal"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Multishot",
-      "name": "Multiflechazo",
-      "desc": "Inflige 4 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
-      "skillTag": [
-        "Habilidad Definitiva"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Hide",
-      "name": "Escondite",
-      "desc": "Pasiva: después de atacar, el personaje cambia automáticamente al siguiente.",
-      "skillTag": [
-        "Habilidad pasiva"
-      ],
-      "points": []
-    }
-  ]
+	"id": "ElectroHilichurlShooter",
+	"shareid": 3402,
+	"name": "Hilichurl Ballestero Electro",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 3,
+		"cardType": "Carta de personaje",
+		"energy": 2,
+		"element": "Electro",
+		"weapon": "Otras armas",
+		"faction": [
+			"Monstruo",
+			"Hilichurl"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "ThunderArrow",
+			"name": "Flechazo eléctrico",
+			"desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Multishot",
+			"name": "Multiflechazo",
+			"desc": "Inflige 4 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Hide",
+			"name": "Escondite",
+			"desc": "Pasiva: después de atacar, el personaje cambia automáticamente al siguiente.",
+			"skilltag": [
+				"Habilidad pasiva"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

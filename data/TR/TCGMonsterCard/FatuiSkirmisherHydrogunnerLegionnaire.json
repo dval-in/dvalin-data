@@ -1,88 +1,85 @@
 {
-  "id": "FatuiSkirmisherHydrogunnerLegionnaire",
-  "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุน้ำ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "Fatui"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SkilledCharge",
-      "name": "Skilled Charge",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "CurativeBullet",
-      "name": "Curative Bullet",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และรักษา 1 หน่วย ให้แก่ตัวละครนอกสนามของฝ่ายเรา 2 ตัว",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ElementalBuffHydro",
-      "name": "Elemental Buff: Hydro",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Hydro Elemental Equipment</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "CombatResupply",
-      "name": "Combat Resupply",
-      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "FatuiSkirmisherHydrogunnerLegionnaire",
+	"shareid": 3203,
+	"name": "Fatui Avcı Eri - Lejyoner Su Topçusu",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Su",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Fatui"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SkilledCharge",
+			"name": "Stratejik Çarpışma",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "CurativeBullet",
+			"name": "Şifa Bombası",
+			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve hazırdaki 2 karakterin için de 1 Can yeniler.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ElementalBuffHydro",
+			"name": "Element Güçlendirme: Su",
+			"desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Su Elementi Ekipmanı</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CombatResupply",
+			"name": "Savaş Hazırlığı Tedariki",
+			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

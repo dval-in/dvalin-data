@@ -1,82 +1,80 @@
 {
-  "id": "RuinGuard",
-  "name": "Gardien des ruines",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "Carte de personnage",
-    "energy": 2,
-    "element": "Sans élément",
-    "weapon": "Autre arme",
-    "faction": [
-      "Monstre"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SternBlow",
-      "name": "Coup dur",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
-      "skillTag": [
-        "Attaque normale"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Élément neutre",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SpiralClosein",
-      "name": "Approche en spirale",
-      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Rotation à haute fréquence</span> et <span style=\"color:#FFFFFFFF\">Rotation à haute vitesse</span>.",
-      "skillTag": [
-        "Compétence élémentaire"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Élément identique",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SuppressiveVolley",
-      "name": "Salve suppressive",
-      "desc": "Inflige 4 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et crée un <span style=\"color:#FFFFFFFF\">missile chercheur</span> sur le terrain adverse.",
-      "skillTag": [
-        "Déchaînement élémentaire"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Élément identique",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Charge",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StandardArmor",
-      "name": "Armure standard",
-      "desc": "(Passif) Diminue les <span style=\"color:#FFFFFFFF\">DGT physiques</span> subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
-      "skillTag": [
-        "Capacité passive"
-      ],
-      "points": []
-    }
-  ]
+	"id": "RuinGuard",
+	"shareid": 3004,
+	"name": "Gardien des ruines",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Carte de personnage",
+		"energy": 2,
+		"element": "Sans élément",
+		"weapon": "Autre arme",
+		"faction": [
+			"Monstre"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SternBlow",
+			"name": "Coup dur",
+			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+			"skilltag": [
+				"Attaque normale"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Élément neutre",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SpiralClosein",
+			"name": "Approche en spirale",
+			"desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités</span> : <span style=\"color:#FFFFFFFF\">Rotation à haute fréquence</span> et <span style=\"color:#FFFFFFFF\">Rotation à haute vitesse</span>.",
+			"skilltag": [
+				"Compétence élémentaire"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Élément identique",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SuppressiveVolley",
+			"name": "Salve suppressive",
+			"desc": "Inflige 4 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span> et crée un <span style=\"color:#FFFFFFFF\">missile chercheur</span> sur le terrain adverse.",
+			"skilltag": [
+				"Déchaînement élémentaire"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Élément identique",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Charge",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StandardArmor",
+			"name": "Armure standard",
+			"desc": "(Passif) Diminue les <span style=\"color:#FFFFFFFF\">DGT physiques</span> subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
+			"skilltag": [
+				"Capacité passive"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

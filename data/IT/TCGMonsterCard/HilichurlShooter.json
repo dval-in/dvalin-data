@@ -1,67 +1,66 @@
 {
-  "id": "HilichurlShooter",
-  "name": "Hilichurl balestriere",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 3,
-    "card_type": "Carta personaggio",
-    "energy": 2,
-    "element": "Nessun tipo elementale",
-    "weapon": "Altre armi",
-    "faction": [
-      "Mostro",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "Shooting",
-      "name": "Frecciata",
-      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
-      "skillTag": [
-        "Attacco normale"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "elemento indefinito",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Multishot",
-      "name": "Raffica di frecce",
-      "desc": "Infligge 5 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
-      "skillTag": [
-        "Tripudio elementale"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Elementi corrispondenti",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energia",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Hide",
-      "name": "Colpo e fuga",
-      "desc": "(Passiva) Dopo aver usato un'abilità, questo personaggio viene sostituito con quello successivo.",
-      "skillTag": [
-        "Abilità passiva"
-      ],
-      "points": []
-    }
-  ]
+	"id": "HilichurlShooter",
+	"shareid": 3002,
+	"name": "Hilichurl balestriere",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 3,
+		"cardType": "Carta personaggio",
+		"energy": 2,
+		"element": "Nessun tipo elementale",
+		"weapon": "Altre armi",
+		"faction": [
+			"Mostro",
+			"Hilichurl"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Shooting",
+			"name": "Frecciata",
+			"desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+			"skilltag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "elemento indefinito",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Multishot",
+			"name": "Raffica di frecce",
+			"desc": "Infligge 5 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+			"skilltag": [
+				"Tripudio elementale"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Elementi corrispondenti",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energia",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Hide",
+			"name": "Colpo e fuga",
+			"desc": "(Passiva) Dopo aver usato un'abilità, questo personaggio viene sostituito con quello successivo.",
+			"skilltag": [
+				"Abilità passiva"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

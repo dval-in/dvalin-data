@@ -1,90 +1,85 @@
 {
-  "id": "Collei",
-  "name": "Collei",
-  "title": "ต้นกล้าเมื่อคราแรกแย้ม - Collei",
-  "desc": "\"การตะโกนชื่อการ์ดดัง ๆ ช่วยเพิ่มพลังขึ้นเป็นเท่าตัว... นี่คงเป็นแค่การจินตนาการไปเองแหละมั้ง?\"",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไม้",
-    "weapon": "ธนู",
-    "faction": [
-      "Sumeru"
-    ],
-    "talent_card": {
-      
-      "id": "FloralSidewinder",
-      "name": "Floral Sidewinder"
-    },
-    "source": "ได้รับหลังจากเชิญ Collei ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Collei",
-      "name": "Collei",
-      "rarity": 4
-    }
-  },
-  "skills": [
-    {
-      "id": "SupplicantsBowmanship",
-      "name": "Supplicant's Bowmanship",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "FloralBrush",
-      "name": "Floral Brush",
-      "desc": "จะสร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "TrumpcardKitty",
-      "name": "Trump-Card Kitty",
-      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Cuilein-Anbar</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Collei",
+	"shareid": 47,
+	"name": "Collei",
+	"title": "\"Yeniden Doğuş Filizi\" Collei",
+	"desc": "\"'Kartının adını yüksek sesle söylersen gücü artar.' Ciddi olamazsın, değil mi?\"",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Doğa",
+		"weapon": "Yay",
+		"faction": [
+			"Sumeru"
+		],
+		"talentCard": {
+			"id": "FloralSidewinder",
+			"name": "Floral Sidewinder"
+		},
+		"source": "Collei'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Collei",
+			"name": "Collei",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "SupplicantsBowmanship",
+			"name": "Yakarışçının Okçuluğu",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "FloralBrush",
+			"name": "Doğa Temizliği",
+			"desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "TrumpcardKitty",
+			"name": "Kedicik Kozu",
+			"desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Cuilein-Anbar</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

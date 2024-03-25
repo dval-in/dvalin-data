@@ -1,97 +1,102 @@
 {
-  "id": "ThunderManifestation",
-  "name": "Manifestation du tonnerre",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 45,
-    "card_type": "Carte de personnage",
-    "energy": 2,
-    "element": "Électro",
-    "weapon": "Autre arme",
-    "faction": [
-      "Monstre"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "ThunderousWingslash",
-      "name": "Aile galvanique",
-      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
-      "skillTag": [
-        "Attaque normale"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Électro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Élément neutre",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StrifefulLightning",
-      "name": "Foudre conflictuelle",
-      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> aux personnages adverses affectés par un <span style=\"color:#FFFFFFFF\">paratonnerre</span>. (Si aucun personnage adverse n'est éligible, les DGT sont infligés au personnage actif à la place)",
-      "skillTag": [
-        "Compétence élémentaire"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Électro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ThunderingShackles",
-      "name": "Prison tonitruante",
-      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque une <span style=\"color:#FFFFFFFF\">prison tonitruante</span>.",
-      "skillTag": [
-        "Déchaînement élémentaire"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Électro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Charge",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "LightningProbe",
-      "name": "Détection de foudre",
-      "desc": "(Passif) Crée une <span style=\"color:#FFFFFFFF\">sonde de foudre</span> sur le terrain adverse au début du combat.",
-      "skillTag": [
-        "Capacité passive"
-      ],
-      "points": []
-    },
-    {
-      "id": "ElementalSedimentationElectro",
-      "name": "Dépôt d'élément Électro",
-      "desc": "(Passif) Obtient une <span style=\"color:#FFFFFFFF\">Entité élémentaire Électro</span> au début du combat.",
-      "skillTag": [
-        "Capacité passive"
-      ],
-      "points": []
-    }
-  ]
+	"id": "ThunderManifestation",
+	"shareid": 286,
+	"name": "Manifestation du tonnerre",
+	"title": "Haine persistante : Manifestation du tonnerre",
+	"desc": "Tant que les rancunes du pays ne s'estomperont pas, le tonnerre rugissant persistera.",
+	"attributes": {
+		"hp": 45,
+		"cardType": "Carte de personnage",
+		"energy": 2,
+		"element": "Électro",
+		"weapon": "Autre arme",
+		"faction": [
+			"Monstre"
+		],
+		"talentCard": {
+			"id": "GrievingEcho",
+			"name": "Grieving Echo"
+		},
+		"source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Manifestation du tonnerre",
+		"character": {
+			"id": "ThunderManifestation",
+			"name": "Thunder Manifestation"
+		}
+	},
+	"skills": [
+		{
+			"id": "ThunderousWingslash",
+			"name": "Aile galvanique",
+			"desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+			"skilltag": [
+				"Attaque normale"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Électro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Élément neutre",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StrifefulLightning",
+			"name": "Foudre conflictuelle",
+			"desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> aux personnages adverses affectés par un <span style=\"color:#FFFFFFFF\">paratonnerre</span>. (Si aucun personnage adverse n'est éligible, les DGT sont infligés au personnage actif à la place)",
+			"skilltag": [
+				"Compétence élémentaire"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Électro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ThunderingShackles",
+			"name": "Prison tonitruante",
+			"desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et invoque une <span style=\"color:#FFFFFFFF\">prison tonitruante</span>.",
+			"skilltag": [
+				"Déchaînement élémentaire"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Électro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Charge",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "LightningProbe",
+			"name": "Détection de foudre",
+			"desc": "(Passif) Crée une <span style=\"color:#FFFFFFFF\">sonde de foudre</span> sur le terrain adverse au début du combat.",
+			"skilltag": [
+				"Capacité passive"
+			],
+			"points": []
+		},
+		{
+			"id": "ElementalSedimentationElectro",
+			"name": "Dépôt d'élément Électro",
+			"desc": "(Passif) Obtient une <span style=\"color:#FFFFFFFF\">Entité élémentaire Électro</span> au début du combat.",
+			"skilltag": [
+				"Capacité passive"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

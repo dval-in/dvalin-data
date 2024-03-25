@@ -1,90 +1,85 @@
 {
-  "id": "Xiao",
-  "name": "Xiao",
-  "title": "ยักษาผู้พิทักษ์ - Xiao",
-  "desc": "ยักษาผู้พิทักษ์ และกำราบเหล่าอสูรร้าย",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุลม",
-    "weapon": "หอก",
-    "faction": [
-      "Liyue"
-    ],
-    "talent_card": {
-      
-      "id": "ConqurerOfEvilGuardianYaksha",
-      "name": "Conqurer of Evil: Guardian Yaksha"
-    },
-    "source": "ได้รับหลังจากเชิญ Xiao ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Xiao",
-      "name": "Xiao",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "WhirlwindThrust",
-      "name": "Whirlwind Thrust",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "LemniscaticWindCycling",
-      "name": "Lemniscatic Wind Cycling",
-      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "BaneOfAllEvil",
-      "name": "Bane of All Evil",
-      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 4 หน่วย และตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Yaksha's Mask</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Xiao",
+	"shareid": 39,
+	"name": "Xiao",
+	"title": "\"Bekçi Yaksha\" Xiao",
+	"desc": "Bekçi Yaksha, tüm şerlerin laneti.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Rüzgar",
+		"weapon": "Mızrak",
+		"faction": [
+			"Liyue"
+		],
+		"talentCard": {
+			"id": "ConqurerOfEvilGuardianYaksha",
+			"name": "Conqurer of Evil: Guardian Yaksha"
+		},
+		"source": "Xiao'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Xiao",
+			"name": "Xiao",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "WhirlwindThrust",
+			"name": "Kasırga Saldırısı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Rüzgar",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "LemniscaticWindCycling",
+			"name": "Sonsuz Rüzgar Türbini",
+			"desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Rüzgar",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "BaneOfAllEvil",
+			"name": "Tüm Şerlerin Laneti",
+			"desc": "4 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Yaksha Maskesi</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Rüzgar",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

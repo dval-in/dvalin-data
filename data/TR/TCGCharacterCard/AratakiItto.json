@@ -1,90 +1,85 @@
 {
-  "id": "AratakiItto",
-  "name": "Arataki Itto",
-  "title": "ขาใหญ่ประจำ Hanamizaka - Arataki Itto",
-  "desc": "\"Arataki Itto ราชาในหมู่ราชาแห่งการดูเอล\"",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุหิน",
-    "weapon": "ดาบใหญ่",
-    "faction": [
-      "Inazuma"
-    ],
-    "talent_card": {
-      
-      "id": "AratakiIchiban",
-      "name": "Arataki Ichiban"
-    },
-    "source": "ได้รับหลังจากเชิญ Arataki Itto ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "AratakiItto",
-      "name": "Arataki Itto",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "FightClubLegend",
-      "name": "Fight Club Legend",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "MasatsuZetsugiAkaushiBurst",
-      "name": "Masatsu Zetsugi: Akaushi Burst!",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 1 หน่วย เรียก <span style=\"color:#FFFFFFFF\">Ushi</span> และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Superlative Superstrength</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "RoyalDescentBeholdIttoTheEvil",
-      "name": "Royal Descent: Behold, Itto the Evil!",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 4 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Raging Oni King</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    }
-  ]
+	"id": "AratakiItto",
+	"shareid": 46,
+	"name": "Arataki Itto",
+	"title": "\"Hanamizaka Kahramanlığı\" Arataki Itto",
+	"desc": "Arataki \"Kart Oyunlarının Yüce Şampiyonu\" Itto",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Toprak",
+		"weapon": "Çift Elli Kılıç",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "AratakiIchiban",
+			"name": "Arataki Ichiban"
+		},
+		"source": "Arataki Itto'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "AratakiItto",
+			"name": "Arataki Itto",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "FightClubLegend",
+			"name": "Dövüş Kulübü Efsanesi",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MasatsuZetsugiAkaushiBurst",
+			"name": "Masatsu Zetsugi: Akaushi Patlaması!",
+			"desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. <span style=\"color:#FFFFFFFF\">Ushi</span> çağırır. Bu karakter <span style=\"color:#FFFFFFFF\">Doğaüstü Güç</span> kazanır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "RoyalDescentBeholdIttoTheEvil",
+			"name": "Belalı Oni Kral: Itto, Dünyaya Karşı!",
+			"desc": "4 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Kızgın Oni Kralı</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

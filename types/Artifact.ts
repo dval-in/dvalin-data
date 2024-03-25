@@ -25,4 +25,5 @@ export type Artifact = {
 	onePiece?: string;
 	twoPiece?: string;
 	fourPiece?: string;
+	version: string;
 };

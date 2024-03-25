@@ -1,22 +1,32 @@
 {
-  "id": "GrievingEcho",
-  "name": "Grieving Echo",
-  "title": "Thunder Manifestation - Grieving Echo",
-  "desc": "สิ่งที่ขับเคลื่อน Thunder Manifestation คือความโกรธแค้นที่บริสุทธิ์ยิ่งกว่าเดิม",
-  "in_play_description": "เมื่อ <span style=\"color:#FFFFFFFF\">Thunder Manifestation</span> ที่มีการ์ดใบนี้อยู่ในสนาม และตัวละครฝ่ายศัตรูที่มี <span style=\"color:#FFFFFFFF\">Lightning Rod </span> ได้รับความเสียหาย: ฝ่ายเราจะจั่วการ์ด 1 ใบ (เทิร์นละ 1 ครั้ง)",
-  "attributes": {
-    "cost": 0,
-    "card_type": "การ์ดอุปกรณ์",
-    "energy": [],
-    "source": "ได้รับหลังจากสำเร็จเป้าหมายการท้าทายกับ Thunder Manifestation ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-    "tags": [
-      "พรสวรรค์"
-    ]
-  },
-  "skills": [
-    {
-      "name": "",
-      "desc": "เมื่อ <span style=\"color:#FFFFFFFF\">Thunder Manifestation</span> ที่มีการ์ดใบนี้อยู่ในสนาม และตัวละครฝ่ายศัตรูที่มี <span style=\"color:#FFFFFFFF\">Lightning Rod </span> ได้รับความเสียหาย: ฝ่ายเราจะจั่วการ์ด 1 ใบ (เทิร์นละ 1 ครั้ง)<br/>(เข้าร่วมเด็คได้ต่อเมื่อมี Thunder Manifestation อยู่ภายในเด็คเท่านั้น)"
-    }
-  ]
+	"id": "GrievingEcho",
+	"shareid": 296,
+	"name": "Kederli Yankı",
+	"title": "Yıldırım Alameti: Kederli Yankı",
+	"desc": "Yıldırım Alametini çok daha kadim bir öfke harekete geçirir...",
+	"inPlayDescription": "Bu kartı kuşanan <span style=\"color:#FFFFFFFF\">Yıldırım Alameti</span> oyundayken <span style=\"color:#FFFFFFFF\">Paratoner</span> ekli olan rakipler Hasar aldığında 1 kart çekersin. (Her Turda bir defa)",
+	"attributes": {
+		"cost": 3,
+		"costType": "Elektrik",
+		"cardType": "Ekipman Kartı",
+		"energy": [
+			{
+				"id": "Electro",
+				"type": "Elektrik",
+				"count": 3
+			}
+		],
+		"source": "Yıldırım Alametine karşı Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Dostluk Düellosundaki ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+		"tags": [
+			"Yetenek",
+			"Savaş Hamlesi"
+		]
+	},
+	"skills": [
+		{
+			"name": "",
+			"desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi</span>: Aktif karakterin <span style=\"color:#FFFFFFFF\">Yıldırım Alameti</span> olduğunda bu kartı kuşan.<br/>Yıldırım Alameti bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Hiddetli Yıldırım</span> kullanır.<br/>Bu kartı kuşanan <span style=\"color:#FFFFFFFF\">Yıldırım Alameti</span> alandayken, <span style=\"color:#FFFFFFFF\">Paratoner</span> kuşanan bir rakip Hasar aldığında 1 kart çekersin. (Her Turda bir defa)<br/>(Bu kartı destene eklemek için destende Yıldırım Alameti olmalıdır.)"
+		}
+	],
+	"version": "4.4"
 }
