@@ -147,4 +147,5 @@ export type Character = {
 	constellations: Constellation[];
 	ascension: Ascension[];
 	talentMaterials: TalentMaterial[];
+	version: string;
 };

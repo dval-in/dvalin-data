@@ -8,4 +8,5 @@ export type LocalMaterial = {
 	description: string;
 	source: string[];
 	location: string;
+	version: string;
 };

@@ -8,4 +8,5 @@ export type ExpMaterial = {
 	description: string;
 	rarity: number;
 	exp: number;
+	version: string;
 };

@@ -54,4 +54,5 @@ export type Food = {
 	dishType: string;
 	results: FoodResult;
 	rarity: number;
+	version: string;
 };

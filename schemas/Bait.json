@@ -27,11 +27,15 @@
         },
         "result": {
           "type": "number"
+        },
+        "version": {
+          "type": "string"
         }
       },
       "required": [
         "items",
-        "result"
+        "result",
+        "version"
       ],
       "type": "object"
     },
@@ -68,6 +72,9 @@
     },
     "rarity": {
       "type": "number"
+    },
+    "version": {
+      "type": "string"
     }
   },
   "required": [
@@ -76,7 +83,8 @@
     "fish",
     "id",
     "name",
-    "rarity"
+    "rarity",
+    "version"
   ],
   "type": "object",
   "additionalProperties": false

@@ -19,6 +19,7 @@ export type Bait = {
 	rarity: number;
 	craft: Craft;
 	fish: FishBait[];
+	version: string;
 };
 
 type CraftItem = {
@@ -36,4 +37,5 @@ type Craft = {
 	 */
 	items: CraftItem[];
 	result: number;
+	version: string;
 };

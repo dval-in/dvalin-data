@@ -67,4 +67,5 @@ export type Weapon = {
 		params: [string[]];
 	};
 	refinements: WeaponRefinement[];
+	version: string;
 };
