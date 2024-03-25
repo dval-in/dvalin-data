@@ -1,88 +1,85 @@
 {
-  "id": "FatuiSkirmisherCryogunnerLegionnaire",
-  "name": "Fatui Skirmisher - Cryogunner Legionnaire",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "Fatui"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "CloserangeCharge",
-      "name": "Close-Range Charge",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "FreezingSpray",
-      "name": "Freezing Spray",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "FrostCannon",
-      "name": "Frost Cannon",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย และตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Cryo Elemental Equipment</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "CombatResupply",
-      "name": "Combat Resupply",
-      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "FatuiSkirmisherCryogunnerLegionnaire",
+	"shareid": 3104,
+	"name": "Fatui Avcı Eri - Lejyoner Buz Topçusu",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Buz",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Fatui"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "CloserangeCharge",
+			"name": "Yakın Mesafeden Hücum",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "FreezingSpray",
+			"name": "Dondurucu Püskürtme",
+			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "FrostCannon",
+			"name": "Buz Topu",
+			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Buz Elementi Ekipmanı</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CombatResupply",
+			"name": "Savaş Hazırlığı Tedariki",
+			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

@@ -1,88 +1,85 @@
 {
-  "id": "GroundedGeoshroom",
-  "name": "Grounded Geoshroom",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 7,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุหิน",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SporeBullet",
-      "name": "Spore Bullet",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RagingBreath",
-      "name": "Raging Breath",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ChargingBlast",
-      "name": "Charging Blast",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StateChange",
-      "name": "State Change",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Terrain Advantage</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ไหม้เกรียม</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ตื่นตัว</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "GroundedGeoshroom",
+	"shareid": 3605,
+	"name": "Ayaklı Toprak Mantarı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 7,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Toprak",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SporeBullet",
+			"name": "Spor Mermisi",
+			"desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RagingBreath",
+			"name": "Öfkeli Nefes",
+			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ChargingBlast",
+			"name": "Yüklü Patlama",
+			"desc": "5 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StateChange",
+			"name": "Durum Değişikliği",
+			"desc": "(Pasif) Savaş başladığında, bu karakter <span style=\"color:#FFFFFFFF\">Arazi Avantajı</span> etkisinde olur.<br/>Karakter <span style=\"color:#FF9999FF\">Ateş Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Yanık</span> olur.<br/>Karakter <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Etkin</span> olur.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

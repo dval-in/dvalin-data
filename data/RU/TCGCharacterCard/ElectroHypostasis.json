@@ -1,97 +1,93 @@
 {
-  "id": "ElectroHypostasis",
-  "name": "Электро гипостазис",
-  "title": "Электро гипостазис",
-  "desc": "Кодовое название: Алеф. Высококонцентрированный Электро элемент.\\nДаже в игре «Камень, ножницы, бумага» он не признает своего поражения.",
-  "attributes": {
-    "hp": 8,
-    "card_type": "Карты персонажей",
-    "energy": 2,
-    "element": "Электро",
-    "weapon": "Прочее",
-    "faction": [
-      "Монстр"
-    ],
-    "talent_card": {
-      
-      "id": "AbsorbingPrism",
-      "name": "Absorbing Prism"
-    },
-    "source": "Награда за победу над Электро гипостазисом в Дружеской дуэли в «Кошкином хвосте»",
-    "character": {
-      "id": "ElectroHypostasis",
-      "name": "Electro Hypostasis"
-    }
-  },
-  "skills": [
-    {
-      "id": "ElectroCrystalProjection",
-      "name": "Кристаллическая проекция Электро",
-      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
-      "skillTag": [
-        "Обычная атака"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Электро",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Неопределённый элемент",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RockpaperscissorsCombo",
-      "name": "Тройное комбо",
-      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Тройное комбо: Ножницы</span> и <span style=\"color:#FFFFFFFF\">Тройное комбо: Бумага</span>.",
-      "skillTag": [
-        "Элементальный навык"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Электро",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "LightningLockdown",
-      "name": "В тисках молний",
-      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Громовые оковы</span>.",
-      "skillTag": [
-        "Взрыв стихии"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Электро",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Энергия",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ElectroCrystalCore",
-      "name": "Кристальное ядро Электро",
-      "desc": "(Пассивный) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Кристальное ядро Электро</span>.",
-      "skillTag": [
-        "Пассивный навык"
-      ],
-      "points": []
-    }
-  ]
+	"id": "ElectroHypostasis",
+	"shareid": 57,
+	"name": "Электро гипостазис",
+	"title": "Электро гипостазис",
+	"desc": "Кодовое название: Алеф. Высококонцентрированный Электро элемент.\\nДаже в игре «Камень, ножницы, бумага» он не признает своего поражения.",
+	"attributes": {
+		"hp": 8,
+		"cardType": "Карты персонажей",
+		"energy": 2,
+		"element": "Электро",
+		"weapon": "Прочее",
+		"faction": [
+			"Монстр"
+		],
+		"talentCard": {
+			"id": "AbsorbingPrism",
+			"name": "Absorbing Prism"
+		},
+		"source": "Награда за победу над Электро гипостазисом в Дружеской дуэли в «Кошкином хвосте»",
+		"character": {
+			"id": "ElectroHypostasis",
+			"name": "Electro Hypostasis"
+		}
+	},
+	"skills": [
+		{
+			"id": "ElectroCrystalProjection",
+			"name": "Кристаллическая проекция Электро",
+			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
+			"skilltag": [
+				"Обычная атака"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Электро",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Неопределённый элемент",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RockpaperscissorsCombo",
+			"name": "Тройное комбо",
+			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Тройное комбо: Ножницы</span> и <span style=\"color:#FFFFFFFF\">Тройное комбо: Бумага</span>.",
+			"skilltag": [
+				"Элементальный навык"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Электро",
+					"count": 5
+				}
+			]
+		},
+		{
+			"id": "LightningLockdown",
+			"name": "В тисках молний",
+			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Громовые оковы</span>.",
+			"skilltag": [
+				"Взрыв стихии"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Электро",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Энергия",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ElectroCrystalCore",
+			"name": "Кристальное ядро Электро",
+			"desc": "(Пассивный) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Кристальное ядро Электро</span>.",
+			"skilltag": [
+				"Пассивный навык"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

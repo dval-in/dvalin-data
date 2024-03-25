@@ -1,88 +1,85 @@
 {
-  "id": "FatuiSkirmisherPyroslingerBracer",
-  "name": "Fatui Skirmisher - Pyroslinger Bracer",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุไฟ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "Fatui"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SingleshotBullet",
-      "name": "Single-Shot Bullet",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "BurningBarrage",
-      "name": "Burning Barrage",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "FlamingCannon",
-      "name": "Flaming Cannon",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย และตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Pyro Elemental Equipment</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "CombatResupply",
-      "name": "Combat Resupply",
-      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "FatuiSkirmisherPyroslingerBracer",
+	"shareid": 3306,
+	"name": "Fatui Avcı Eri - Destek Ateş Nişancısı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Ateş",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Fatui"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SingleshotBullet",
+			"name": "Tek Atışlık Mermi",
+			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BurningBarrage",
+			"name": "Yakıcı Yağmur",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "FlamingCannon",
+			"name": "Alevli Top",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Ateş Elementi Ekipmanı</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CombatResupply",
+			"name": "Savaş Hazırlığı Tedariki",
+			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

@@ -1,79 +1,85 @@
 {
-  "id": "Gorou",
-  "name": "Gorou",
-  "title": "นักรบคู่หูผู้ซื่อสัตย์ - Gorou",
-  "desc": "ผู้นำกองทัพให้ก้าวไปข้างหน้า!",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุหิน",
-    "weapon": "ธนู",
-    "faction": [
-      "Inazuma"
-    ],
-    "source": "ได้รับหลังจากเชิญ Gorou ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
-  },
-  "skills": [
-    {
-      "id": "RippingFangFletching",
-      "name": "Ripping Fang Fletching",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "InuzakaAllroundDefense",
-      "name": "Inuzaka All-Round Defense",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">General's War-Banner</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "JuugaForwardUntoVictory",
-      "name": "Juuga: Forward Unto Victory",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">General's War-Banner</span> เรียก <span style=\"color:#FFFFFFFF\">General's Glory</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Gorou",
+	"shareid": 283,
+	"name": "Gorou",
+	"title": "\"Köpek Savaşçı\" Gorou",
+	"desc": "Sürünün lideri askerlere önderlik eder!",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Toprak",
+		"weapon": "Yay",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "RushingHoundSwiftAsTheWind",
+			"name": "Rushing Hound: Swift as the Wind"
+		},
+		"source": "Gorou'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Gorou",
+			"name": "Gorou",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "RippingFangFletching",
+			"name": "Canavar Dişi Oku",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "InuzakaAllroundDefense",
+			"name": "Inuzaka Savunma Çemberi",
+			"desc": "2 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Generalin Savaş Sancağı</span> oluşturur.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "JuugaForwardUntoVictory",
+			"name": "Juuga: Zafere Doğru",
+			"desc": "2 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir, 1 <span style=\"color:#FFFFFFFF\">Generalin Savaş Sancağı</span> oluşturur ve <span style=\"color:#FFFFFFFF\">Generalin Görkemi</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

@@ -1,80 +1,86 @@
 {
-  "id": "Lynette",
-  "name": "Lynette",
-  "title": "\"Elegance in the Shadows\" Lynette",
-  "desc": "The firmament glimpsed in a reflected moon.",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Character Card",
-    "energy": 2,
-    "element": "Anemo",
-    "weapon": "Sword",
-    "faction": [
-      "Fontaine",
-      "Fatui"
-    ],
-    "source": "Reward for inviting Lynette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
-  },
-  "skills": [
-    {
-      "id": "RapidRitesword",
-      "name": "Rapid Ritesword",
-      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
-      "skillTag": [
-        "Normal Attack"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Unaligned Element",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "EnigmaticFeint",
-      "name": "Enigmatic Feint",
-      "desc": "Deals 3 <span style=\"color:#80FFD7FF\">Anemo DMG</span>. The first time this Skill is used this Round, heal the character for 2 HP if they have no more than 8 HP, but apply <span style=\"color:#FFFFFFFF\">Overawing Assault</span> to said character.",
-      "skillTag": [
-        "Elemental Skill"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "MagicTrickAstonishingShift",
-      "name": "Magic Trick: Astonishing Shift",
-      "desc": "Deals 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Bogglecat Box</span>.",
-      "skillTag": [
-        "Elemental Burst"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energy",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Lynette",
+	"shareid": 282,
+	"name": "Lynette",
+	"title": "\"Elegance in the Shadows\" Lynette",
+	"desc": "The firmament glimpsed in a reflected moon.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Character Card",
+		"energy": 2,
+		"element": "Anemo",
+		"weapon": "Sword",
+		"faction": [
+			"Fontaine",
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "AColdBladeLikeAShadow",
+			"name": "A Cold Blade Like a Shadow"
+		},
+		"source": "Reward for inviting Lynette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+		"character": {
+			"id": "Lynette",
+			"name": "Lynette",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "RapidRitesword",
+			"name": "Rapid Ritesword",
+			"desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+			"skilltag": [
+				"Normal Attack"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Unaligned Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "EnigmaticFeint",
+			"name": "Enigmatic Feint",
+			"desc": "Deals 3 <span style=\"color:#80FFD7FF\">Anemo DMG</span>. The first time this Skill is used this Round, heal the character for 2 HP if they have no more than 8 HP, but apply <span style=\"color:#FFFFFFFF\">Overawing Assault</span> to said character.",
+			"skilltag": [
+				"Elemental Skill"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "MagicTrickAstonishingShift",
+			"name": "Magic Trick: Astonishing Shift",
+			"desc": "Deals 2 <span style=\"color:#80FFD7FF\">Anemo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Bogglecat Box</span>.",
+			"skilltag": [
+				"Elemental Burst"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energy",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

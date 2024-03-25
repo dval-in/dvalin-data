@@ -1,88 +1,93 @@
 {
-  "id": "Azhdaha",
-  "name": "Azhdaha",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 40,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุหิน",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SunderingCharge",
-      "name": "Sundering Charge",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "AuraOfMajesty",
-      "name": "Aura of Majesty",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย หากเกิดปฏิกิริยาการตกผลึก จะทำให้ตัวละคร<span style=\"color:#FFFFFFFF\">ดูดซับพลังของธาตุที่เกี่ยวข้อง</span><br/>หากตัวละครยังไม่ได้ดูดซับพลังของธาตุในสกิลนี้ จะได้รับ <span style=\"color:#FFFFFFFF\">Stone Facets: Elemental Crystallization</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "DecimatingRockfall",
-      "name": "Decimating Rockfall",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 4 หน่วย ความเสียหาย +1 ต่อธาตุแต่ละชนิดที่ถูกดูดซับ",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StoneFacets",
-      "name": "Stone Facets",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Stone Facets: Elemental Absorption</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "Azhdaha",
+	"shareid": 278,
+	"name": "Azhdaha",
+	"title": "Kadim Toprak Ejderinin Atası: Azhdaha",
+	"desc": "Bu ejder kralının prangalarının hafif şıkırtısı ile derin ve öfkeli uğultusu, tıpkı geçmiş çağların hatıraları gibi dağların içinde yankılanıyor.",
+	"attributes": {
+		"hp": 40,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Toprak",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"talentCard": {
+			"id": "LunarCyclesUnending",
+			"name": "Lunar Cycles Unending"
+		},
+		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Azhdaha ile olan Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Azhdaha",
+			"name": "Azhdaha"
+		}
+	},
+	"skills": [
+		{
+			"id": "SunderingCharge",
+			"name": "Parçalayıcı Hücum",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "AuraOfMajesty",
+			"name": "İhtişamlı Hava",
+			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Bir Kristalleşme tepkimesi oluşursa bu karakter <span style=\"color:#FFFFFFFF\">Element Emilimi</span> gerçekleştirir.<br/>Bu beceri kullanılırken karakter bir elementin gücünü henüz emmemişse <span style=\"color:#FFFFFFFF\">Taş Yüzeyler: Element Kristalleşmesi</span> eklenir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "DecimatingRockfall",
+			"name": "Ölümcül Heyelan",
+			"desc": "4 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Daha önce emilen her bir element için Hasar 1 artar.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StoneFacets",
+			"name": "Taş Yüzeyler",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Taş Yüzeyler: Element Emilimi</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

@@ -1,82 +1,80 @@
 {
-  "id": "RuinGuard",
-  "name": "Ruinenwächter",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "Figurenkarte",
-    "energy": 2,
-    "element": "Kein Elementartyp",
-    "weapon": "Andere Waffen",
-    "faction": [
-      "Monster"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SternBlow",
-      "name": "Heftiger Anschlag",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
-      "skillTag": [
-        "Standardangriff"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Würfel (beliebig)",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SpiralClosein",
-      "name": "Wirbelnde Annäherung",
-      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Hochfrequenter Wirbelangriff</span> und <span style=\"color:#FFFFFFFF\">Ultraschneller Wirbelangriff</span>.",
-      "skillTag": [
-        "Elementarfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Würfel (gleich)",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SuppressiveVolley",
-      "name": "Unterdrückungsschüsse",
-      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Verfolgungsgeschoss</span>.",
-      "skillTag": [
-        "Spezialfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Würfel (gleich)",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Aufladung",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StandardArmor",
-      "name": "Standard-Rüstung",
-      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Phys. SCH</span> an dieser Figur wird halbiert (aufgerundet).",
-      "skillTag": [
-        "Passive Fähigkeit"
-      ],
-      "points": []
-    }
-  ]
+	"id": "RuinGuard",
+	"shareid": 3004,
+	"name": "Ruinenwächter",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Kein Elementartyp",
+		"weapon": "Andere Waffen",
+		"faction": [
+			"Monster"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SternBlow",
+			"name": "Heftiger Anschlag",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SpiralClosein",
+			"name": "Wirbelnde Annäherung",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Hochfrequenter Wirbelangriff</span> und <span style=\"color:#FFFFFFFF\">Ultraschneller Wirbelangriff</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Würfel (gleich)",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SuppressiveVolley",
+			"name": "Unterdrückungsschüsse",
+			"desc": "Verursacht 4 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Verfolgungsgeschoss</span>.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Würfel (gleich)",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StandardArmor",
+			"name": "Standard-Rüstung",
+			"desc": "Passiv – <span style=\"color:#FFFFFFFF\">Phys. SCH</span> an dieser Figur wird halbiert (aufgerundet).",
+			"skilltag": [
+				"Passive Fähigkeit"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

@@ -1,106 +1,100 @@
 {
-  "id": "Ganyu",
-  "name": "Ganyu",
-  "title": "ผู้พิทักษ์แห่งจันทรา - Ganyu",
-  "desc": "\"ในเมื่อจะเอาต้นฉบับก่อนเช้าวันพรุ่งนี้ งั้นถ้าอดหลับอดนอนเขียนมันทั้งคืนก็คงจะเสร็จแหละ\"",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "ธนู",
-    "faction": [
-      "Liyue"
-    ],
-    "talent_card": {
-      
-      "id": "UndividedHeart",
-      "name": "Undivided Heart"
-    },
-    "source": "ได้รับหลังจากเชิญ Ganyu ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Ganyu",
-      "name": "Ganyu",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "LiutianArchery",
-      "name": "Liutian Archery",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "TrailOfTheQilin",
-      "name": "Trail of the Qilin",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Ice Lotus</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "FrostflakeArrow",
-      "name": "Frostflake Arrow",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "CelestialShower",
-      "name": "Celestial Shower",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย สร้าง <span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <span style=\"color:#FFFFFFFF\">Sacred Cryo Pearl</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    }
-  ]
+	"id": "Ganyu",
+	"shareid": 1,
+	"name": "Ganyu",
+	"title": "ผู้พิทักษ์แห่งจันทรา - Ganyu",
+	"desc": "\"ในเมื่อจะเอาต้นฉบับก่อนเช้าวันพรุ่งนี้ งั้นถ้าอดหลับอดนอนเขียนมันทั้งคืนก็คงจะเสร็จแหละ\"",
+	"attributes": {
+		"hp": 10,
+		"cardType": "การ์ดตัวละคร",
+		"energy": 3,
+		"element": "ธาตุน้ำแข็ง",
+		"weapon": "ธนู",
+		"faction": [
+			"Liyue"
+		],
+		"talentCard": {
+			"id": "UndividedHeart",
+			"name": "Undivided Heart"
+		},
+		"source": "ได้รับหลังจากเชิญ Ganyu ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+		"character": {
+			"id": "Ganyu",
+			"name": "Ganyu",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "LiutianArchery",
+			"name": "Liutian Archery",
+			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+			"skilltag": [
+				"โจมตีปกติ"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "ธาตุไร้สี",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "TrailOfTheQilin",
+			"name": "Trail of the Qilin",
+			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Ice Lotus</span>",
+			"skilltag": [
+				"สกิลธาตุ"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "FrostflakeArrow",
+			"name": "Frostflake Arrow",
+			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 2 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
+			"skilltag": [
+				"โจมตีปกติ"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 5
+				}
+			]
+		},
+		{
+			"id": "CelestialShower",
+			"name": "Celestial Shower",
+			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย สร้าง <span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <span style=\"color:#FFFFFFFF\">Sacred Cryo Pearl</span>",
+			"skilltag": [
+				"ท่าไม้ตาย"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "พลังงาน",
+					"count": 3
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

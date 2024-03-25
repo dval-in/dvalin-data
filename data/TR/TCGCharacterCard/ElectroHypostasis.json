@@ -1,97 +1,93 @@
 {
-  "id": "ElectroHypostasis",
-  "name": "Electro Hypostasis",
-  "title": "Electro Hypostasis",
-  "desc": "สิ่งมีชีวิตธาตุไฟฟ้าระดับสูงที่มีโค้ดเนม \"Aleph\"\\nแม้ว่าคุณจะเป่ายิงฉุบชนะ มันก็ไม่มีทางยอมรับความพ่ายแพ้",
-  "attributes": {
-    "hp": 8,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟฟ้า",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "talent_card": {
-      
-      "id": "AbsorbingPrism",
-      "name": "Absorbing Prism"
-    },
-    "source": "ได้รับหลังจากเอาชนะ Electro Hypostasis ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-    "character": {
-      "id": "ElectroHypostasis",
-      "name": "Electro Hypostasis"
-    }
-  },
-  "skills": [
-    {
-      "id": "ElectroCrystalProjection",
-      "name": "Electro Crystal Projection",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RockpaperscissorsCombo",
-      "name": "Rock-Paper-Scissors Combo",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย จากนั้นจะแยกกัน<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span> <span style=\"color:#FFFFFFFF\">Rock-Paper-Scissors Combo: Scissor</span> และ <span style=\"color:#FFFFFFFF\">Rock-Paper-Scissors Combo: Paper</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "LightningLockdown",
-      "name": "Lightning Lockdown",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Chains of Warding Thunder</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ElectroCrystalCore",
-      "name": "Electro Crystal Core",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Electro Crystal Core</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "ElectroHypostasis",
+	"shareid": 57,
+	"name": "Elektrik Hipostazı",
+	"title": "Elektrik Hipostazı",
+	"desc": "Kod adı: Aleph. Yüksek saflıkta bir Elektrik oluşumu.\\nTaş kağıt makasta bile olsa Aleph hiçbir zaman yenilgiyi kabul etmez.",
+	"attributes": {
+		"hp": 8,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Elektrik",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"talentCard": {
+			"id": "AbsorbingPrism",
+			"name": "Absorbing Prism"
+		},
+		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Elektrik Hipostazı ile olan Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "ElectroHypostasis",
+			"name": "Electro Hypostasis"
+		}
+	},
+	"skills": [
+		{
+			"id": "ElectroCrystalProjection",
+			"name": "Elektrik Kristali Yansıması",
+			"desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RockpaperscissorsCombo",
+			"name": "Taş, Kağıt, Makas Üçlüsü",
+			"desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir, ardından <span style=\"color:#FFFFFFFF\">Taş, Kağıt, Makas Üçlüsü: Makas</span> ve <span style=\"color:#FFFFFFFF\">Taş, Kağıt, Makas Üçlüsü: Kağıt</span> için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 5
+				}
+			]
+		},
+		{
+			"id": "LightningLockdown",
+			"name": "Yıldırım Hapsi",
+			"desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve <span style=\"color:#FFFFFFFF\">Koruyucu Yıldırım Zincirleri</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ElectroCrystalCore",
+			"name": "Elektrik Kristali Çekirdeği",
+			"desc": "(Pasif) Savaş başladığında bu karakter bir <span style=\"color:#FFFFFFFF\">Elektrik Kristali Çekirdeği</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

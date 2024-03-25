@@ -1,80 +1,86 @@
 {
-  "id": "Lynette",
-  "name": "Lynette",
-  "title": "เงาฉายงามสง่า - Lynette",
-  "desc": "มองเงาจันทร์เหนือผืนนที ราตรีใส",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุลม",
-    "weapon": "ดาบ",
-    "faction": [
-      "Fontaine",
-      "Fatui"
-    ],
-    "source": "ได้รับหลังจากเชิญ Lynette ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
-  },
-  "skills": [
-    {
-      "id": "RapidRitesword",
-      "name": "Rapid Ritesword",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "EnigmaticFeint",
-      "name": "Enigmatic Feint",
-      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย เมื่อใช้สกิลนี้เป็นครั้งแรกในเทิร์นนี้ และค่าพลังชีวิตของตัวเองไม่เกิน 8 หน่วย จะฟื้นฟูค่าพลังชีวิตของตัวเอง 2 หน่วย แต่จะได้รับ <span style=\"color:#FFFFFFFF\">Overawing Assault</span> ด้วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "MagicTrickAstonishingShift",
-      "name": "Magic Trick: Astonishing Shift",
-      "desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Bogglecat Box</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "ธาตุลม",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Lynette",
+	"shareid": 282,
+	"name": "Lynette",
+	"title": "เงาฉายงามสง่า - Lynette",
+	"desc": "มองเงาจันทร์เหนือผืนนที ราตรีใส",
+	"attributes": {
+		"hp": 10,
+		"cardType": "การ์ดตัวละคร",
+		"energy": 2,
+		"element": "ธาตุลม",
+		"weapon": "ดาบ",
+		"faction": [
+			"Fontaine",
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "AColdBladeLikeAShadow",
+			"name": "A Cold Blade Like a Shadow"
+		},
+		"source": "ได้รับหลังจากเชิญ Lynette ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+		"character": {
+			"id": "Lynette",
+			"name": "Lynette",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "RapidRitesword",
+			"name": "Rapid Ritesword",
+			"desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+			"skilltag": [
+				"โจมตีปกติ"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "ธาตุลม",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "ธาตุไร้สี",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "EnigmaticFeint",
+			"name": "Enigmatic Feint",
+			"desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 3 หน่วย เมื่อใช้สกิลนี้เป็นครั้งแรกในเทิร์นนี้ และค่าพลังชีวิตของตัวเองไม่เกิน 8 หน่วย จะฟื้นฟูค่าพลังชีวิตของตัวเอง 2 หน่วย แต่จะได้รับ <span style=\"color:#FFFFFFFF\">Overawing Assault</span> ด้วย",
+			"skilltag": [
+				"สกิลธาตุ"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "ธาตุลม",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "MagicTrickAstonishingShift",
+			"name": "Magic Trick: Astonishing Shift",
+			"desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Bogglecat Box</span>",
+			"skilltag": [
+				"ท่าไม้ตาย"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "ธาตุลม",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "พลังงาน",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

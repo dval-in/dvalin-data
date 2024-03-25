@@ -1,88 +1,85 @@
 {
-  "id": "AssaultSpecialistMekPneuma",
-  "name": "Спецмек: Штурм (пневма)",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "Карты персонажей",
-    "energy": 2,
-    "element": "Пиро",
-    "weapon": "Прочее",
-    "faction": [
-      "Монстр"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "UpclosePummelling",
-      "name": "Ближняя потасовка",
-      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
-      "skillTag": [
-        "Обычная атака"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Пиро",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Неопределённый элемент",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Multismash",
-      "name": "Мульти-побоище",
-      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Ведущая дубинка</span>.",
-      "skillTag": [
-        "Элементальный навык"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Пиро",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SprintingStrike",
-      "name": "Спринт-удар",
-      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 5 ед.",
-      "skillTag": [
-        "Взрыв стихии"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Пиро",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Энергия",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ArkhePneuma",
-      "name": "Энергетическое свойство: пневма",
-      "desc": "<span style=\"color:#FFFFFFFF\">Получив урон от персонажа с архэ: усия,</span> этот персонаж получает состояние «<span style=\"color:#FFFFFFFF\">Деактивировано</span>» и <span style=\"color:#FFFFFFFF\">не может использовать навыки</span> до конца раунда.",
-      "skillTag": [
-        "Пассивный навык"
-      ],
-      "points": []
-    }
-  ]
+	"id": "AssaultSpecialistMekPneuma",
+	"shareid": 3307,
+	"name": "Спецмек: Штурм (пневма)",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Карты персонажей",
+		"energy": 2,
+		"element": "Пиро",
+		"weapon": "Прочее",
+		"faction": [
+			"Монстр"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "UpclosePummelling",
+			"name": "Ближняя потасовка",
+			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+			"skilltag": [
+				"Обычная атака"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Пиро",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Неопределённый элемент",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Multismash",
+			"name": "Мульти-побоище",
+			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Ведущая дубинка</span>.",
+			"skilltag": [
+				"Элементальный навык"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Пиро",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SprintingStrike",
+			"name": "Спринт-удар",
+			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 5 ед.",
+			"skilltag": [
+				"Взрыв стихии"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Пиро",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Энергия",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ArkhePneuma",
+			"name": "Энергетическое свойство: пневма",
+			"desc": "<span style=\"color:#FFFFFFFF\">Получив урон от персонажа с архэ: усия,</span> этот персонаж получает состояние «<span style=\"color:#FFFFFFFF\">Деактивировано</span>» и <span style=\"color:#FFFFFFFF\">не может использовать навыки</span> до конца раунда.",
+			"skilltag": [
+				"Пассивный навык"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

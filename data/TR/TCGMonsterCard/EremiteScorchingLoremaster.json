@@ -1,88 +1,93 @@
 {
-  "id": "EremiteScorchingLoremaster",
-  "name": "Eremite Scorching Loremaster",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "กลุ่ม Eremite"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SearingGlare",
-      "name": "Searing Glare",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "BlazingStrike",
-      "name": "Blazing Strike",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SpiritOfOmensAwakeningPyroScorpion",
-      "name": "Spirit of Omen's Awakening: Pyro Scorpion",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Spirit of Omen: Pyro Scorpion</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SpiritOfOmensPower",
-      "name": "Spirit of Omen's Power",
-      "desc": "[ติดตัว] <span style=\"color:#FFFFFFFF\">หลังจากที่ตัวละครนี้ได้รับความเสียหาย:</span> หากค่าพลังชีวิตของตัวละครนี้ต่ำกว่า 7 หน่วย จะได้รับ<span style=\"color:#FFFFFFFF\">พลังงาน</span> 1 หน่วย (จำกัดดูเอลละ 1 ครั้ง)",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "EremiteScorchingLoremaster",
+	"shareid": 285,
+	"name": "Münzevi Alevli Hikayeci",
+	"title": "\"Şiir ve Gizli Tarih\" Münzevi Alevli Hikayeci",
+	"desc": "Hâlâ hatırlayanlar, damarlarında akan kumların ruhuna asla ihanet etmezler.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Ateş",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Münzeviler"
+		],
+		"talentCard": {
+			"id": "Scorpocalypse",
+			"name": "Scorpocalypse"
+		},
+		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Münzevi Alevli Hikayeci ile olan Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "EremiteScorchingLoremaster",
+			"name": "Eremite Scorching Loremaster"
+		}
+	},
+	"skills": [
+		{
+			"id": "SearingGlare",
+			"name": "Yakıcı Işık",
+			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BlazingStrike",
+			"name": "Alevli Darbe",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SpiritOfOmensAwakeningPyroScorpion",
+			"name": "Alamet Ruhunun Uyanışı: Ateş Akrebi",
+			"desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Alamet Ruhu: Ateş Akrebi</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SpiritOfOmensPower",
+			"name": "Alamet Ruhunun Gücü",
+			"desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra</span> 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır. (Her Düelloda bir defa)",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

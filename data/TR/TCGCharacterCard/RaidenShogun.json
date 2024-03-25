@@ -1,99 +1,94 @@
 {
-  "id": "RaidenShogun",
-  "name": "Raiden Shogun",
-  "title": "ดินแดนแห่งใจที่บริสุทธิ์ - Raiden Shogun",
-  "desc": "ห้วงสายฟ้าที่ดับสูญ ลบล้างภาพมายาทั่วโลกา",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟฟ้า",
-    "weapon": "หอก",
-    "faction": [
-      "Inazuma"
-    ],
-    "talent_card": {
-      
-      "id": "WishesUnnumbered",
-      "name": "Wishes Unnumbered"
-    },
-    "source": "ได้รับหลังจากเชิญ Raiden Shogun ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "RaidenShogun",
-      "name": "Raiden Shogun",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "Origin",
-      "name": "Origin",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "TranscendenceBalefulOmen",
-      "name": "Transcendence: Baleful Omen",
-      "desc": "เรียก <span style=\"color:#FFFFFFFF\">Eye of Stormy Judgment</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SecretArtMusouShinsetsu",
-      "name": "Secret Art: Musou Shinsetsu",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 3 หน่วย และตัวละครอื่นของฝ่ายเราได้รับ<span style=\"color:#FFFFFFFF\">พลังงาน</span> 2 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ChakraDesiderata",
-      "name": "Chakra Desiderata",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Chakra Desiderata</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "RaidenShogun",
+	"shareid": 32,
+	"name": "Şogun Raiden",
+	"title": "\"Zihnin Dinlenme Yeri\" Şogun Raiden",
+	"desc": "Sessiz yıldırımlar, bu geçici dünyayı darmadağın edecek.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Elektrik",
+		"weapon": "Mızrak",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "WishesUnnumbered",
+			"name": "Wishes Unnumbered"
+		},
+		"source": "Şogun Raiden'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "RaidenShogun",
+			"name": "Raiden Shogun",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "Origin",
+			"name": "Köken",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "TranscendenceBalefulOmen",
+			"name": "Bilinç Ötesi: Uğursuzluk Alameti",
+			"desc": "1 <span style=\"color:#FFFFFFFF\">Hiddetli Yargının Gözü</span> çağırır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SecretArtMusouShinsetsu",
+			"name": "Gizli Sanat: Musou Shinsetsu",
+			"desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve diğer karakterlerin 2 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ChakraDesiderata",
+			"name": "Çakra Desiderata",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Çakra Desiderata</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

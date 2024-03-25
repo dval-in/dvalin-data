@@ -1,96 +1,101 @@
 {
-  "id": "Lyney",
-  "name": "Lyney",
-  "title": "Das Spektakel von Fantasmagoria – Lyney",
-  "desc": "Für wen sind die Blumen im Spiegel gedacht?",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Figurenkarte",
-    "energy": 2,
-    "element": "Pyro",
-    "weapon": "Bogen",
-    "faction": [
-      "Fontaine",
-      "Fatui"
-    ],
-    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lyney in der Taverne Zum Katzenschwanz zu erhalten."
-  },
-  "skills": [
-    {
-      "id": "CardForceTranslocation",
-      "name": "Erzwungene Rochade",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
-      "skillTag": [
-        "Standardangriff"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Würfel (beliebig)",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "PropArrow",
-      "name": "Zauberrequisiten-Pfeil",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Grinsekatzenmütze</span> und sammelt 1 Stapelung von <span style=\"color:#FFFFFFFF\">Requisitenüberschuss</span>.<br/>Hat die Figur mindestens 6 LP, erleidet sie 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span>.",
-      "skillTag": [
-        "Standardangriff"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "BewilderingLights",
-      "name": "Ablenkende Lichter",
-      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
-      "skillTag": [
-        "Elementarfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "WondrousTrickMiracleParade",
-      "name": "Wundersame Magie – Parade der Wunder",
-      "desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Grinsekatzenmütze</span> und sammelt 1 Stapelung von <span style=\"color:#FFFFFFFF\">Requisitenüberschuss</span>.",
-      "skillTag": [
-        "Spezialfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Aufladung",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Lyney",
+	"shareid": 281,
+	"name": "Lyney",
+	"title": "Das Spektakel von Fantasmagoria – Lyney",
+	"desc": "Für wen sind die Blumen im Spiegel gedacht?",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Pyro",
+		"weapon": "Bogen",
+		"faction": [
+			"Fontaine",
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "ConclusiveOvation",
+			"name": "Conclusive Ovation"
+		},
+		"source": "Nach einem gewonnenen „Duell – Nett“ mit Lyney in der Taverne Zum Katzenschwanz zu erhalten.",
+		"character": {
+			"id": "Lyney",
+			"name": "Lyney",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "CardForceTranslocation",
+			"name": "Erzwungene Rochade",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "PropArrow",
+			"name": "Zauberrequisiten-Pfeil",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Grinsekatzenmütze</span> und sammelt 1 Stapelung von <span style=\"color:#FFFFFFFF\">Requisitenüberschuss</span>.<br/>Hat die Figur mindestens 6 LP, erleidet sie 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "BewilderingLights",
+			"name": "Ablenkende Lichter",
+			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "WondrousTrickMiracleParade",
+			"name": "Wundersame Magie – Parade der Wunder",
+			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Grinsekatzenmütze</span> und sammelt 1 Stapelung von <span style=\"color:#FFFFFFFF\">Requisitenüberschuss</span>.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

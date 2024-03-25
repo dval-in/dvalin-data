@@ -1,88 +1,85 @@
 {
-  "id": "FatuiSkirmisherElectrohammerVanguard",
-  "name": "Fatui Skirmisher - Electrohammer Vanguard",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุไฟฟ้า",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "Fatui"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "RapidHammerStrike",
-      "name": "Rapid Hammer Strike",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RagingCharge",
-      "name": "Raging Charge",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ThunderblastHammer",
-      "name": "Thunderblast Hammer",
-      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Electro Elemental Equipment</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "CombatResupply",
-      "name": "Combat Resupply",
-      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "FatuiSkirmisherElectrohammerVanguard",
+	"shareid": 3407,
+	"name": "Fatui Avcı Eri - Öncü Elektrik Balyoz",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Elektrik",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Fatui"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "RapidHammerStrike",
+			"name": "Hızlı Çekiç Darbesi",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RagingCharge",
+			"name": "Hiddetli Hücum",
+			"desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ThunderblastHammer",
+			"name": "Gök Gürültüsü Çekici",
+			"desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Elektrik Elementi Ekipmanı</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CombatResupply",
+			"name": "Savaş Hazırlığı Tedariki",
+			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

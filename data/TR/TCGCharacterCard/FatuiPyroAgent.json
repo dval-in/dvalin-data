@@ -1,97 +1,93 @@
 {
-  "id": "FatuiPyroAgent",
-  "name": "Fatui - Pyro Agent",
-  "title": "ใบมีดแห่งการชำระ - Agent",
-  "desc": "\"หนี้แห่งความตายไม่อาจหลีกหนี หนี้แห่งชีวิตยิ่งยากจะหลบเลี่ยง...\"",
-  "attributes": {
-    "hp": 9,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "Fatui"
-    ],
-    "talent_card": {
-      
-      "id": "PaidInFull",
-      "name": "Paid in Full"
-    },
-    "source": "ได้รับหลังจากเอาชนะ Fatui - Pyro Agent ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-    "character": {
-      "id": "FatuiPyroAgent",
-      "name": "Fatui Pyro Agent"
-    }
-  },
-  "skills": [
-    {
-      "id": "Thrust",
-      "name": "Thrust",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Prowl",
-      "name": "Prowl",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Stealth</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "BladeAblaze",
-      "name": "Blade Ablaze",
-      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StealthMaster",
-      "name": "Stealth Master",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Stealth</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "FatuiPyroAgent",
+	"shareid": 55,
+	"name": "Fatui Ateş Tetikçisi",
+	"title": "\"Hesaplaşma Kılıcı\" Tetikçi",
+	"desc": "\"Ölü ya da diri borcundan kaçamazsın.\"",
+	"attributes": {
+		"hp": 9,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Ateş",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "PaidInFull",
+			"name": "Paid in Full"
+		},
+		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Fatui Ateş Tetikçisi ile olan Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "FatuiPyroAgent",
+			"name": "Fatui Pyro Agent"
+		}
+	},
+	"skills": [
+		{
+			"id": "Thrust",
+			"name": "Saplama",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Prowl",
+			"name": "En Doğru An",
+			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Gizlilik</span> kazanır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "BladeAblaze",
+			"name": "Kül Edici Kılıçlar",
+			"desc": "5 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StealthMaster",
+			"name": "Gizlenme Ustası",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Gizlilik</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

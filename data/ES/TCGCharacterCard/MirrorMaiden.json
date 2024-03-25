@@ -1,88 +1,84 @@
 {
-  "id": "MirrorMaiden",
-  "name": "Soldado Fatui - Doncella del Espejo",
-  "title": "Doncella de Snezhnaya - Enviada del espejo",
-  "desc": "El resplandeciente espejo de agua resguarda todos los secretos...",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Hydro",
-    "weapon": "Otras armas",
-    "faction": [
-      "Fatui"
-    ],
-    "talent_card": {
-      
-      "id": "MirrorCage",
-      "name": "Mirror Cage"
-    },
-    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Soldado Fatui - Doncella del Espejo de los duelos tabernarios",
-    "character": {
-      "id": "MirrorMaiden",
-      "name": "Mirror Maiden"
-    }
-  },
-  "skills": [
-    {
-      "id": "WaterBall",
-      "name": "Hidrobomba",
-      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": [
-        "Ataque Normal"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "Hydro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "InfluxBlast",
-      "name": "Explosión acuática",
-      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo entra en el estado de <span style=\"color:#FFFFFFFF\">refracción</span>.",
-      "skillTag": [
-        "Habilidad Elemental"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "Hydro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "RippledReflection",
-      "name": "Reflejo ondulado",
-      "desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
-      "skillTag": [
-        "Habilidad Definitiva"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "Hydro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "MirrorMaiden",
+	"shareid": 54,
+	"name": "Soldado Fatui - Doncella del Espejo",
+	"title": "Doncella de Snezhnaya - Enviada del espejo",
+	"desc": "El resplandeciente espejo de agua resguarda todos los secretos...",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta de personaje",
+		"energy": 2,
+		"element": "Hydro",
+		"weapon": "Otras armas",
+		"faction": [
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "MirrorCage",
+			"name": "Mirror Cage"
+		},
+		"source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Soldado Fatui - Doncella del Espejo de los duelos tabernarios",
+		"character": {
+			"id": "MirrorMaiden",
+			"name": "Mirror Maiden"
+		}
+	},
+	"skills": [
+		{
+			"id": "WaterBall",
+			"name": "Hidrobomba",
+			"desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Hydro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "InfluxBlast",
+			"name": "Explosión acuática",
+			"desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y el personaje objetivo entra en el estado de <span style=\"color:#FFFFFFFF\">refracción</span>.",
+			"skilltag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Hydro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "RippledReflection",
+			"name": "Reflejo ondulado",
+			"desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Hydro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }
