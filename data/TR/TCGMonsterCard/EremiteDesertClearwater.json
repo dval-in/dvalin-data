@@ -1,88 +1,85 @@
 {
-  "id": "EremiteDesertClearwater",
-  "name": "Eremite Desert Clearwater",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "กลุ่ม Eremite"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "AgileThrust",
-      "name": "Agile Thrust",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "BlitzStrike",
-      "name": "Blitz Strike",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "WhirlingLashes",
-      "name": "Whirling Lashes",
-      "desc": "ตัวละครนี้ดำเนินการ<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span>: <span style=\"color:#FFFFFFFF\">Whirling Lashes: First Strike</span> และ <span style=\"color:#FFFFFFFF\">Whirling Lashes: Fixed Pattern</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "OminousSpiritUnleashedHydro",
-      "name": "Ominous Spirit Unleashed (น้ำ)",
-      "desc": "[ติดตัว] <span style=\"color:#FFFFFFFF\">หลังจากที่ตัวละครนี้ได้รับความเสียหาย:</span> หากค่าพลังชีวิตของตัวละครนี้ต่ำกว่า 7 หน่วย จะได้รับ <span style=\"color:#FFFFFFFF\">พลังงาน</span> 1 หน่วย และติดสถานะ <span style=\"color:#FFFFFFFF\">Spirit of Omen's Awakening: Hydro</span> (จำกัดดูเอลละ 1 ครั้ง)",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "EremiteDesertClearwater",
+	"shareid": 3206,
+	"name": "Münzevi Berrak Su",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Su",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Münzeviler"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "AgileThrust",
+			"name": "Çevik Atılım",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BlitzStrike",
+			"name": "Ani Saldırı Darbesi",
+			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "WhirlingLashes",
+			"name": "Döner Kırbaç",
+			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Döner Kırbaç: İlk Saldırı</span> ve <span style=\"color:#FFFFFFFF\">Döner Kırbaç: Sabit Mod</span> için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "OminousSpiritUnleashedHydro",
+			"name": "Serbest Kalan Uğursuz Ruh (Su)",
+			"desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra</span> 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır ve karaktere <span style=\"color:#FFFFFFFF\">Alamet Ruhunun Uyanışı: Su</span> eklenir. (Her Düelloda bir defa)",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

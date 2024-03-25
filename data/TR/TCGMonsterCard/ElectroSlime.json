@@ -1,72 +1,70 @@
 {
-  "id": "ElectroSlime",
-  "name": "Electro Slime",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 4,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟฟ้า",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "Bounce",
-      "name": "Bounce",
-      "desc": "จะสร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Slam",
-      "name": "Slam",
-      "desc": "จะสร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 4 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "ธาตุไฟฟ้า",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ElementalSedimentationElectro",
-      "name": "Elemental Sedimentation: Electro",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">สิ่งมีชีวิตธาตุ: ไฟฟ้า</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "ElectroSlime",
+	"shareid": 3406,
+	"name": "Elektrik Bodurlopu",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 4,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Elektrik",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Bounce",
+			"name": "Zıpla",
+			"desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Slam",
+			"name": "Şiddetli Vuruş",
+			"desc": "4 <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektrik",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ElementalSedimentationElectro",
+			"name": "Element Tortulaşması: Elektrik",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Element Yaşam Formu: Elektrik</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

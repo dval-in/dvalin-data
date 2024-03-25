@@ -1,88 +1,85 @@
 {
-  "id": "GroundedHydroshroom",
-  "name": "Grounded Hydroshroom",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 7,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SporeBullet",
-      "name": "Spore Bullet",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RagingBreath",
-      "name": "Raging Breath",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ChargingBlast",
-      "name": "Charging Blast",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StateChange",
-      "name": "State Change",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Terrain Advantage</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ไหม้เกรียม</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ตื่นตัว</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "GroundedHydroshroom",
+	"shareid": 3205,
+	"name": "Ayaklı Su Mantarı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 7,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Su",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SporeBullet",
+			"name": "Spor Mermisi",
+			"desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RagingBreath",
+			"name": "Öfkeli Nefes",
+			"desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ChargingBlast",
+			"name": "Yüklü Patlama",
+			"desc": "5 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StateChange",
+			"name": "Durum Değişikliği",
+			"desc": "(Pasif) Savaş başladığında, bu karakter <span style=\"color:#FFFFFFFF\">Arazi Avantajı</span> etkisinde olur.<br/>Karakter <span style=\"color:#FF9999FF\">Ateş Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Yanık</span> olur.<br/>Karakter <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Etkin</span> olur.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

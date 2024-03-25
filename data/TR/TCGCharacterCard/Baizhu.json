@@ -1,90 +1,85 @@
 {
-  "id": "Baizhu",
-  "name": "Baizhu",
-  "title": "หลอมจิตรวมชีพ - Baizhu",
-  "desc": "สารพันโรครุมเร้า จะหาหมอที่ไหนดี",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไม้",
-    "weapon": "สื่อเวท",
-    "faction": [
-      "Liyue"
-    ],
-    "talent_card": {
-      
-      "id": "AllThingsAreOfTheEarth",
-      "name": "All Things Are of the Earth"
-    },
-    "source": "ได้รับหลังจากเชิญ Baizhu ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Baizhu",
-      "name": "Baizhu",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "TheClassicsOfAcupuncture",
-      "name": "The Classics of Acupuncture",
-      "desc": "จะสร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "UniversalDiagnosis",
-      "name": "Universal Diagnosis",
-      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Gossamer Sprite</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "HolisticRevivification",
-      "name": "Holistic Revivification",
-      "desc": "สร้าง <span style=\"color:#FFFFFFFF\">Pulsing Clarity</span> และ <span style=\"color:#FFFFFFFF\">Seamless Shield</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Baizhu",
+	"shareid": 51,
+	"name": "Baizhu",
+	"title": "\"Ölümsüzlüğün Ötesi\" Baizhu",
+	"desc": "Birçok hastalık var ama devası nerede?",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Doğa",
+		"weapon": "Katalizör",
+		"faction": [
+			"Liyue"
+		],
+		"talentCard": {
+			"id": "AllThingsAreOfTheEarth",
+			"name": "All Things Are of the Earth"
+		},
+		"source": "Baizhu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Baizhu",
+			"name": "Baizhu",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "TheClassicsOfAcupuncture",
+			"name": "Altın Akupunktur İğneleri",
+			"desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "UniversalDiagnosis",
+			"name": "Kapsamlı Teşhis",
+			"desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Yılan Ruhu</span> çağırır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "HolisticRevivification",
+			"name": "Bütüncül İyileştirme",
+			"desc": "1 <span style=\"color:#FFFFFFFF\">Güçlü Nabız</span> ve <span style=\"color:#FFFFFFFF\">Kusursuz Kalkan</span> oluşturur.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

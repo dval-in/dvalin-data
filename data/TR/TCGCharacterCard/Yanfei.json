@@ -1,90 +1,85 @@
 {
-  "id": "Yanfei",
-  "name": "Yanfei",
-  "title": "ความไร้เดียงสาอันแสนแยบยล - Yanfei",
-  "desc": "อย่าได้ปฏิบัติตามกฎโบราณหรือกฎที่ตายตัว",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟ",
-    "weapon": "สื่อเวท",
-    "faction": [
-      "Liyue"
-    ],
-    "talent_card": {
-      
-      "id": "RightOfFinalInterpretation",
-      "name": "Right of Final Interpretation"
-    },
-    "source": "ได้รับหลังจากเชิญ Yanfei ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Yanfei",
-      "name": "Yanfei",
-      "rarity": 4
-    }
-  },
-  "skills": [
-    {
-      "id": "SealOfApproval",
-      "name": "Seal of Approval",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SignedEdict",
-      "name": "Signed Edict",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Scarlet Seal</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "DoneDeal",
-      "name": "Done Deal",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Scarlet Seal</span> และ <span style=\"color:#FFFFFFFF\">Brilliance</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Yanfei",
+	"shareid": 24,
+	"name": "Yanfei",
+	"title": "Masum Bilgelik: Yanfei",
+	"desc": "Klasikleri gözden geçirmeyen kişi, yasaları çiğnemiş olur.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Ateş",
+		"weapon": "Katalizör",
+		"faction": [
+			"Liyue"
+		],
+		"talentCard": {
+			"id": "RightOfFinalInterpretation",
+			"name": "Right of Final Interpretation"
+		},
+		"source": "Yanfei'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Yanfei",
+			"name": "Yanfei",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "SealOfApproval",
+			"name": "Tasdik Mührü",
+			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SignedEdict",
+			"name": "Kızıl Ferman",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir, ayrıca bu karakter <span style=\"color:#FFFFFFFF\">Kızıl Mühür</span> kuşanır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "DoneDeal",
+			"name": "Son Karar",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir, ayrıca karakter <span style=\"color:#FFFFFFFF\">Kızıl Mühür</span> ve <span style=\"color:#FFFFFFFF\">Parlaklık</span> kuşanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

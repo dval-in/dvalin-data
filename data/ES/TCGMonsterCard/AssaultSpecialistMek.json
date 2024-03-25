@@ -1,73 +1,71 @@
 {
-  "id": "AssaultSpecialistMek",
-  "name": "Mecaespecialista Asaltador",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Sin tipo elemental",
-    "weapon": "Otras armas",
-    "faction": [
-      "Monstruo"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "OffensiveShieldstrike",
-      "name": "Golpe de escudo",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": [
-        "Ataque Normal"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "DoubleStrike",
-      "name": "Asalto doble",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": [
-        "Habilidad Elemental"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Dados unielementales",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "LeapingSmash",
-      "name": "Abatimiento volador",
-      "desc": "Inflige 4 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": [
-        "Habilidad Definitiva"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "Dados unielementales",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "AssaultSpecialistMek",
+	"shareid": 3006,
+	"name": "Mecaespecialista Asaltador",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta de personaje",
+		"energy": 2,
+		"element": "Sin tipo elemental",
+		"weapon": "Otras armas",
+		"faction": [
+			"Monstruo"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "OffensiveShieldstrike",
+			"name": "Golpe de escudo",
+			"desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "DoubleStrike",
+			"name": "Asalto doble",
+			"desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skilltag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Dados unielementales",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "LeapingSmash",
+			"name": "Abatimiento volador",
+			"desc": "Inflige 4 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Dados unielementales",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

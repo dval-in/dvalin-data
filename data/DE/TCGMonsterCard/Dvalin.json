@@ -1,95 +1,99 @@
 {
-  "id": "Dvalin",
-  "name": "Dvalin",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "Figurenkarte",
-    "energy": 2,
-    "element": "Anemo",
-    "weapon": "Andere Waffen",
-    "faction": [
-      "Monster"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "LaceratingSlash",
-      "name": "Querkratzer",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
-      "skillTag": [
-        "Standardangriff"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Würfel (beliebig)",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "TempestuousBarrage",
-      "name": "Sturmbombardierung",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Einsturz</span>.",
-      "skillTag": [
-        "Elementarfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "DvalinsCleansing",
-      "name": "Dvalin-Sintflut",
-      "desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Endlose Strömung</span> und <span style=\"color:#FFFFFFFF\">Allerletzte Strömung</span>.",
-      "skillTag": [
-        "Elementarfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "CaelestinumFinaleTermini",
-      "name": "Caelestinum Finale Termini",
-      "desc": "Verursacht 5 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, verleiht allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">Einsturz</span>.",
-      "skillTag": [
-        "Spezialfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "Anemo",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Aufladung",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Dvalin",
+	"shareid": 287,
+	"name": "Dvalin",
+	"title": "Drache des Ostens – Dvalin",
+	"desc": "„Wie wunderbar es wäre, wenn du deine edle Erscheinung sehen würdest, wie sie über den Himmel gleitet.“\\n„Dann würdest du wissen, dass es sich lohnt, um diesen Himmel und diese Erde zu kämpfen.“",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Anemo",
+		"weapon": "Andere Waffen",
+		"faction": [
+			"Monster"
+		],
+		"talentCard": {
+			"id": "RendingVortex",
+			"name": "Rending Vortex"
+		},
+		"source": "Nach einem gewonnenen „Duell – Nett“ mit Dvalin in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+		"character": {
+			"id": "Stormterror",
+			"name": "Stormterror"
+		}
+	},
+	"skills": [
+		{
+			"id": "LaceratingSlash",
+			"name": "Querkratzer",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "TempestuousBarrage",
+			"name": "Sturmbombardierung",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Einsturz</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "DvalinsCleansing",
+			"name": "Dvalin-Sintflut",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Endlose Strömung</span> und <span style=\"color:#FFFFFFFF\">Allerletzte Strömung</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 5
+				}
+			]
+		},
+		{
+			"id": "CaelestinumFinaleTermini",
+			"name": "Caelestinum Finale Termini",
+			"desc": "Verursacht 5 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, verleiht allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">Einsturz</span>.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

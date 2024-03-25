@@ -1,90 +1,85 @@
 {
-  "id": "Qiqi",
-  "name": "Qiqi",
-  "title": "ความหนาวเย็นคืนชีพ - Qiqi",
-  "desc": "หมุนเวียนผันเปลี่ยน ไม่มีที่สิ้นสุด",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "ดาบ",
-    "faction": [
-      "Liyue"
-    ],
-    "talent_card": {
-      
-      "id": "RiteOfResurrection",
-      "name": "Rite of Resurrection"
-    },
-    "source": "ได้รับหลังจากเชิญ Qiqi ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Qiqi",
-      "name": "Qiqi",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "AncientSwordArt",
-      "name": "Ancient Sword Art",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "AdeptusArtHeraldOfFrost",
-      "name": "Adeptus Art: Herald of Frost",
-      "desc": "เรียก <span style=\"color:#FFFFFFFF\">Herald of Frost</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "AdeptusArtPreserverOfFortune",
-      "name": "Adeptus Art: Preserver of Fortune",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Fortune-Preserving Talisman</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    }
-  ]
+	"id": "Qiqi",
+	"shareid": 8,
+	"name": "Qiqi",
+	"title": "\"Buzul Diriliş\" Qiqi",
+	"desc": "Sonsuz bir döngü bu, hayat devam ediyor.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Buz",
+		"weapon": "Kılıç",
+		"faction": [
+			"Liyue"
+		],
+		"talentCard": {
+			"id": "RiteOfResurrection",
+			"name": "Rite of Resurrection"
+		},
+		"source": "Qiqi'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Qiqi",
+			"name": "Qiqi",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "AncientSwordArt",
+			"name": "Kadim Kılıç Sanatı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "AdeptusArtHeraldOfFrost",
+			"name": "Adeptus Büyüsü: Ayazın Habercisi",
+			"desc": "<span style=\"color:#FFFFFFFF\">Ayazın Habercisi</span> çağırır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "AdeptusArtPreserverOfFortune",
+			"name": "Adeptus Büyüsü: Nazar",
+			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Nazar Tılsımı</span> oluşturur.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

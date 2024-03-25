@@ -1,90 +1,85 @@
 {
-  "id": "Diluc",
-  "name": "Diluc",
-  "title": "เงาแห่งรุ่งอรุณ - Diluc",
-  "desc": "หัวใจของเขาคือศัตรูที่ยิ่งใหญ่ของเขาเอง",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุไฟ",
-    "weapon": "ดาบใหญ่",
-    "faction": [
-      "Mondstadt"
-    ],
-    "talent_card": {
-      
-      "id": "FlowingFlame",
-      "name": "Flowing Flame"
-    },
-    "source": "ได้รับจากเด็คเริ่มต้น",
-    "character": {
-      
-      "id": "Diluc",
-      "name": "Diluc",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "TemperedSword",
-      "name": "Tempered Sword",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SearingOnslaught",
-      "name": "Searing Onslaught",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย โดยที่ในแต่ละเทิร์น เมื่อใช้สกิลนี้เป็นครั้งที่สาม ความเสียหาย +2",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "Dawn",
-      "name": "Dawn",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 8 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Pyro Infusion</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    }
-  ]
+	"id": "Diluc",
+	"shareid": 17,
+	"name": "Diluc",
+	"title": "\"Şafağın Karanlık Yüzü\" Diluc",
+	"desc": "Yüreği en büyük düşmanıdır.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Ateş",
+		"weapon": "Çift Elli Kılıç",
+		"faction": [
+			"Mondstadt"
+		],
+		"talentCard": {
+			"id": "FlowingFlame",
+			"name": "Flowing Flame"
+		},
+		"source": "Başlangıç destesinden elde edilir.",
+		"character": {
+			"id": "Diluc",
+			"name": "Diluc",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "TemperedSword",
+			"name": "Akkor Kılıç",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SearingOnslaught",
+			"name": "Dağlayan Taarruz",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "Dawn",
+			"name": "Şafak",
+			"desc": "8 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Ateş Tesiri</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

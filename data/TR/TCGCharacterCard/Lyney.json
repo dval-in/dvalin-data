@@ -1,96 +1,101 @@
 {
-  "id": "Lyney",
-  "name": "Lyney",
-  "title": "มายาลวงพรางตา - Lyney",
-  "desc": "ช่อบุปผาในกระจกนี้ มีเพื่อใคร",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไฟ",
-    "weapon": "ธนู",
-    "faction": [
-      "Fontaine",
-      "Fatui"
-    ],
-    "source": "ได้รับหลังจากเชิญ Lyney ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
-  },
-  "skills": [
-    {
-      "id": "CardForceTranslocation",
-      "name": "Card Force Translocation",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "PropArrow",
-      "name": "Prop Arrow",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 2 หน่วย เรียก <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span> สะสม <span style=\"color:#FFFFFFFF\">Prop Surplus</span> 1 ชั้น<br/>หากตัวละครดังกล่าวมีค่าพลังชีวิตอย่างน้อย 6 หน่วย จะได้รับ<span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "BewilderingLights",
-      "name": "Bewildering Lights",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "WondrousTrickMiracleParade",
-      "name": "Wondrous Trick: Miracle Parade",
-      "desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย เรียก <span style=\"color:#FFFFFFFF\">Grin-Malkin Hat</span> สะสม <span style=\"color:#FFFFFFFF\">Prop Surplus</span> 1 ชั้น",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Lyney",
+	"shareid": 281,
+	"name": "Lyney",
+	"title": "\"İllüzyon Oyunu\" Lyney",
+	"desc": "Aynadaki o çiçekler... Kimin için?",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Ateş",
+		"weapon": "Yay",
+		"faction": [
+			"Fontaine",
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "ConclusiveOvation",
+			"name": "Conclusive Ovation"
+		},
+		"source": "Lyney'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Lyney",
+			"name": "Lyney",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "CardForceTranslocation",
+			"name": "Kart Gücü Aktarımı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "PropArrow",
+			"name": "Dekor Oku",
+			"desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve <span style=\"color:#FFFFFFFF\">Alaycı Kedi Şapkası</span> çağırarak 1 kademe <span style=\"color:#FFFFFFFF\">Dekor Fazlalığı</span> kazanır.<br/>Bu karakterin en az 6 Canı varsa kendine 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "BewilderingLights",
+			"name": "Büyüleyici Işıklar",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "WondrousTrickMiracleParade",
+			"name": "Harika Numara: Mucizevi Geçit Töreni",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir, 1 <span style=\"color:#FFFFFFFF\">Alaycı Kedi Şapkası</span> çağırır ve 1 kademe <span style=\"color:#FFFFFFFF\">Dekor Fazlalığı</span> kazanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

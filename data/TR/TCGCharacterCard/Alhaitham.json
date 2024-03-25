@@ -1,74 +1,85 @@
 {
-    "id": "Alhaitham",
-    "name": "Alhaitham",
-    "title": "คำวิจารณ์ซ่อนคม - Alhaitham",
-    "desc": "เรียนรู้ ใช้ความคิด และจัดการเรื่องต่าง ๆ",
-    "attributes": {
-        "hp": 10,
-        "card_type": "การ์ดตัวละคร",
-        "energy": 2,
-        "element": "ธาตุไม้",
-        "weapon": "ดาบ",
-        "faction": [
-            "Sumeru"
-        ],
-        "source": "ได้รับหลังจากเชิญ Alhaitham ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
-    },
-    "skills": [
-        {
-            "id": "AbductiveReasoning",
-            "name": "Abductive Reasoning",
-            "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-            "skillTag": [
-                "โจมตีปกติ"
-            ],
-            "points": [
-                {
-                    "id": "Dendro",
-                    "type": "ธาตุไม้",
-                    "count": 1
-                },
-                {
-                    "id": "UnalignedElement",
-                    "type": "ธาตุไร้สี",
-                    "count": 2
-                }
-            ]
-        },
-        {
-            "id": "UniversalityAnElaborationOnForm",
-            "name": "Universality: An Elaboration on Form",
-            "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 2 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror</span>",
-            "skillTag": [
-                "สกิลธาตุ"
-            ],
-            "points": [
-                {
-                    "id": "Dendro",
-                    "type": "ธาตุไม้",
-                    "count": 3
-                }
-            ]
-        },
-        {
-            "id": "ParticularFieldFettersOfPhenomena",
-            "name": "Particular Field: Fetters of Phenomena",
-            "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 4 หน่วย ใช้ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror</span> โดยความเสียหายนี้จะเพิ่ม<span style=\"color:#FFFFFFFF\">จำนวนเทิร์นต่อเนื่อง</span>ของ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror</span> ที่ใช้ไป<br/>หากการใช้<span style=\"color:#FFFFFFFF\">จำนวนเทิร์นต่อเนื่อง</span>ของ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror</span> คือ 0/1/2 ตัวละครจะได้รับ<span style=\"color:#FFFFFFFF\">จำนวนเทิร์นต่อเนื่อง</span>ของ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror</span> เป็น 3/2/1",
-            "skillTag": [
-                "ท่าไม้ตาย"
-            ],
-            "points": [
-                {
-                    "id": "Dendro",
-                    "type": "ธาตุไม้",
-                    "count": 3
-                },
-                {
-                    "id": "Energy",
-                    "type": "พลังงาน",
-                    "count": 2
-                }
-            ]
-        }
-    ]
+	"id": "Alhaitham",
+	"shareid": 284,
+	"name": "Alhaitham",
+	"title": "\"Uyarı Talimatı\" Alhaitham",
+	"desc": "Öğrenmek, düşünmek ve işleri halletmek.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Doğa",
+		"weapon": "Kılıç",
+		"faction": [
+			"Sumeru"
+		],
+		"talentCard": {
+			"id": "Structuration",
+			"name": "Structuration"
+		},
+		"source": "Alhaitham'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Alhaitham",
+			"name": "Alhaitham",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "AbductiveReasoning",
+			"name": "Sürükleyici Tartışma",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "UniversalityAnElaborationOnForm",
+			"name": "Evrensellik: Ayna Teorisi",
+			"desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> kazanır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ParticularFieldFettersOfPhenomena",
+			"name": "Bağlam Alanı: Görüntü Zinciri",
+			"desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir, <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> harcayarak <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> tarafından harcanan <span style=\"color:#FFFFFFFF\">Tur Süresi</span> miktarına göre Hasar bonusu verir.<br/><span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> tarafından harcanan <span style=\"color:#FFFFFFFF\">Tur Süresi</span> 0/1/2 ise bu karaktere 3/2/1 <span style=\"color:#FFFFFFFF\">Tur Süresi</span> bulunan <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna</span> uygulanır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

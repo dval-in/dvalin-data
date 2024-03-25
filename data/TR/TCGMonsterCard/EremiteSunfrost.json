@@ -1,88 +1,85 @@
 {
-  "id": "EremiteSunfrost",
-  "name": "Eremite Sunfrost",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "กลุ่ม Eremite"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "DoubleHack",
-      "name": "Double Hack",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "DualbladeChop",
-      "name": "Dual-Blade Chop",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "StalwartOnslaught",
-      "name": "Stalwart Onslaught",
-      "desc": "ตัวละครนี้<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span>: <span style=\"color:#FFFFFFFF\">Stalwart Onslaught: All-Out Strike</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "OminousSpiritUnleashedCryo",
-      "name": "Ominous Spirit Unleashed (น้ำแข็ง)",
-      "desc": "[ติดตัว] <span style=\"color:#FFFFFFFF\">หลังจากที่ตัวละครนี้ได้รับความเสียหาย:</span> หากค่าพลังชีวิตของตัวละครนี้ต่ำกว่า 7 หน่วย จะได้รับ <span style=\"color:#FFFFFFFF\">พลังงาน</span> 1 หน่วย และติดสถานะ <span style=\"color:#FFFFFFFF\">Spirit of Omen's Awakening: Cryo</span> (จำกัดดูเอลละ 1 ครั้ง)",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "EremiteSunfrost",
+	"shareid": 3106,
+	"name": "Münzevi Soğuk Güneş",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Buz",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Münzeviler"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "DoubleHack",
+			"name": "Çifte Vuruş",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "DualbladeChop",
+			"name": "Çifte Kılıç Kesiği",
+			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "StalwartOnslaught",
+			"name": "Cesur Taarruz",
+			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Cesur Taarruz: Topyekun Saldırı</span> için <span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span> durumuna girer.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "OminousSpiritUnleashedCryo",
+			"name": "Serbest Kalan Uğursuz Ruh (Buz)",
+			"desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra</span> 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır ve karaktere <span style=\"color:#FFFFFFFF\">Alamet Ruhunun Uyanışı: Buz</span> eklenir. (Her Düelloda bir defa)",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

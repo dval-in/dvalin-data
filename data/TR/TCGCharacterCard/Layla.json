@@ -1,79 +1,85 @@
 {
-  "id": "Layla",
-  "name": "Layla",
-  "title": "คะนึงฝันดารากาล - Layla",
-  "desc": "ราตรีมาเยือนดวงดาราผันเปลี่ยน กรงฝันจันทราผันผ่าน",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "ดาบ",
-    "faction": [
-      "Sumeru"
-    ],
-    "source": "ได้รับหลังจากเชิญ Layla ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
-  },
-  "skills": [
-    {
-      "id": "SwordOfTheRadiantPath",
-      "name": "Sword of the Radiant Path",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "NightsOfFormalFocus",
-      "name": "Nights of Formal Focus",
-      "desc": "สร้าง <span style=\"color:#FFFFFFFF\">Curtain of Slumber Shield</span> และ <span style=\"color:#FFFFFFFF\">Shooting Star</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "DreamOfTheStarstreamShaker",
-      "name": "Dream of the Star-Stream Shaker",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Celestial Dreamsphere</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Layla",
+	"shareid": 279,
+	"name": "Layla",
+	"title": "\"Bir Akşam Yıldızı Rüyası\" Layla",
+	"desc": "Gece olduğunda yıldızlar dans eder ve ay rüyaların arasında dolaşır.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Buz",
+		"weapon": "Kılıç",
+		"faction": [
+			"Sumeru"
+		],
+		"talentCard": {
+			"id": "LightsRemit",
+			"name": "Light's Remit"
+		},
+		"source": "Layla'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Layla",
+			"name": "Layla",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "SwordOfTheRadiantPath",
+			"name": "Işıltılı Yolun Kılıcı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "NightsOfFormalFocus",
+			"name": "Odaklanma Gecesi",
+			"desc": "1 <span style=\"color:#FFFFFFFF\">Uyku Perdesi Kalkanı</span> ve <span style=\"color:#FFFFFFFF\">Kayan Yıldız</span> oluşturur.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "DreamOfTheStarstreamShaker",
+			"name": "Dağılan Yıldız Akışı Rüyası",
+			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Kutsal Diyar Rüya Küresi</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }
