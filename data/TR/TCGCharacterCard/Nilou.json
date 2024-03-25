@@ -1,90 +1,85 @@
 {
-  "id": "Nilou",
-  "name": "Nilou",
-  "title": "ระบำนิโลตบลพรายแสง - Nilou",
-  "desc": "เริงระบำดังดอกบัว ทิ้งความฝันมัวชวนเมามาย",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำ",
-    "weapon": "ดาบ",
-    "faction": [
-      "Sumeru"
-    ],
-    "talent_card": {
-      
-      "id": "TheStarrySkiesTheirFlowersRain",
-      "name": "The Starry Skies Their Flowers Rain"
-    },
-    "source": "ได้รับหลังจากเชิญ Nilou ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Nilou",
-      "name": "Nilou",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "DanceOfSamser",
-      "name": "Dance of Samser",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "DanceOfHaftkarsvar",
-      "name": "Dance of Haftkarsvar",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย หากในทีมมี<span style=\"color:#80C0FFFF\">ตัวละครธาตุน้ำ</span>กับ<span style=\"color:#7EC236FF\">ตัวละครธาตุไม้</span> และไม่มีตัวละครธาตุอื่น ๆ จะทำให้เกิด <span style=\"color:#FFFFFFFF\">Golden Chalice's Bounty</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
-      "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Lingering Aeon</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Nilou",
+	"shareid": 16,
+	"name": "Nilou",
+	"title": "\"Nilüfer Işığı Dansı\" Nilou",
+	"desc": "Mest edici bir rüyadan fırlamış nilüfer yaprakları gibi süzülen adımlar.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Su",
+		"weapon": "Kılıç",
+		"faction": [
+			"Sumeru"
+		],
+		"talentCard": {
+			"id": "TheStarrySkiesTheirFlowersRain",
+			"name": "The Starry Skies Their Flowers Rain"
+		},
+		"source": "Nilou'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Nilou",
+			"name": "Nilou",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "DanceOfSamser",
+			"name": "Samser Dansı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "DanceOfHaftkarsvar",
+			"name": "Haftkarsvar Dansı",
+			"desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir. Grupta <span style=\"color:#80C0FFFF\">Su Karakterleri</span> ile <span style=\"color:#7EC236FF\">Doğa Karakterleri</span> varsa ve diğer Element türlerinden bir karakter yoksa 1 <span style=\"color:#FFFFFFFF\">Altın Kadeh</span> oluşturur.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+			"name": "Abzendegi Dansı: Uzak Düşler, Pınarların Sesi",
+			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Kalıcı Sonsuzluk</span> eklenir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

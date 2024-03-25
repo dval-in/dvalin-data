@@ -1,88 +1,85 @@
 {
-  "id": "WingedDendroshroom",
-  "name": "Крылатый Дендро моровик",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 6,
-    "card_type": "Карты персонажей",
-    "energy": 2,
-    "element": "Дендро",
-    "weapon": "Прочее",
-    "faction": [
-      "Монстр"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SporeBullet",
-      "name": "Выстрел спорами",
-      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед.",
-      "skillTag": [
-        "Обычная атака"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "Дендро",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Неопределённый элемент",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RollingSpray",
-      "name": "Выстрел-переворот",
-      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 3 ед.",
-      "skillTag": [
-        "Элементальный навык"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "Дендро",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "Divebomb",
-      "name": "Пикирующая бомбардировка",
-      "desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 5 ед.",
-      "skillTag": [
-        "Взрыв стихии"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "Дендро",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Энергия",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StateChange",
-      "name": "Смена состояния",
-      "desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Господство в воздухе</span>.<br/>Получив <span style=\"color:#FF9999FF\">Пиро урон</span>, сменится на <span style=\"color:#FFFFFFFF\">Обожжение</span>.<br/>Получив <span style=\"color:#FFACFFFF\">Электро урон</span>, сменится на <span style=\"color:#FFFFFFFF\">Оживление</span>.",
-      "skillTag": [
-        "Пассивный навык"
-      ],
-      "points": []
-    }
-  ]
+	"id": "WingedDendroshroom",
+	"shareid": 3701,
+	"name": "Крылатый Дендро моровик",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 6,
+		"cardType": "Карты персонажей",
+		"energy": 2,
+		"element": "Дендро",
+		"weapon": "Прочее",
+		"faction": [
+			"Монстр"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SporeBullet",
+			"name": "Выстрел спорами",
+			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 1 ед.",
+			"skilltag": [
+				"Обычная атака"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Дендро",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Неопределённый элемент",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RollingSpray",
+			"name": "Выстрел-переворот",
+			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 3 ед.",
+			"skilltag": [
+				"Элементальный навык"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Дендро",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "Divebomb",
+			"name": "Пикирующая бомбардировка",
+			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон</span>, 5 ед.",
+			"skilltag": [
+				"Взрыв стихии"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Дендро",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Энергия",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StateChange",
+			"name": "Смена состояния",
+			"desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Господство в воздухе</span>.<br/>Получив <span style=\"color:#FF9999FF\">Пиро урон</span>, сменится на <span style=\"color:#FFFFFFFF\">Обожжение</span>.<br/>Получив <span style=\"color:#FFACFFFF\">Электро урон</span>, сменится на <span style=\"color:#FFFFFFFF\">Оживление</span>.",
+			"skilltag": [
+				"Пассивный навык"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

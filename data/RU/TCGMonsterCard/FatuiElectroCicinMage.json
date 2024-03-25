@@ -1,0 +1,76 @@
+{
+	"id": "FatuiElectroCicinMage",
+	"shareid": 4408,
+	"name": "Фатуи: Маг Электро цицинов",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Карты персонажей",
+		"energy": 2,
+		"element": "Электро",
+		"weapon": "Прочее",
+		"faction": [
+			"Фатуи"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "HurtlingBolts",
+			"name": "Грозовые разряды",
+			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед.",
+			"skilltag": [
+				"Обычная атака"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Электро",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Неопределённый элемент",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MistyCall",
+			"name": "Зов в тумане",
+			"desc": "Призывает помощника: <span style=\"color:#FFFFFFFF\">Электро цицин</span>.",
+			"skilltag": [
+				"Элементальный навык"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Электро",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ThunderingShield",
+			"name": "Громовая защита",
+			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед., этот персонаж получает <span style=\"color:#FFACFFFF\">Эффект Электро</span>, создаёт <span style=\"color:#FFFFFFFF\">Купол Электро цицина</span> и подготавливает <span style=\"color:#FFFFFFFF\">Молниеносный взрыв</span>.",
+			"skilltag": [
+				"Взрыв стихии"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Электро",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Энергия",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.5"
+}

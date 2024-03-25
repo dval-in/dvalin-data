@@ -1,89 +1,86 @@
 {
-  "id": "WoodenShieldwallMitachurl",
-  "name": "Wooden Shieldwall Mitachurl",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไม้",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "PlataPlama",
-      "name": "Plata Plama",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "DaPlama",
-      "name": "Da Plama",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "AbaMovo",
-      "name": "Aba Movo",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "CrudewoodGreatshield",
-      "name": "Crudewood Greatshield",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Crudewood Greatshield</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "WoodenShieldwallMitachurl",
+	"shareid": 3702,
+	"name": "Ahşap Kalkanlı Dağ Azmanı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Doğa",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar",
+			"Dağ Yabanisi"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "PlataPlama",
+			"name": "Plata Plama",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "DaPlama",
+			"name": "Da Plama",
+			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "AbaMovo",
+			"name": "Aba Movo",
+			"desc": "5 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "CrudewoodGreatshield",
+			"name": "Ahşap Büyük Kalkan",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Ahşap Büyük Kalkan</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

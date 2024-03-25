@@ -1,29 +1,35 @@
 {
-  "id": "GildedDreams",
-  "name": "Gilded Dreams",
-  "title": "Golden Vision - Gilded Dreams",
-  "desc": "\"เวลาผ่านไปเนิ่นนาน การตัดสินใจที่เหลวไหลได้ถูกสั่งการลงมาพร้อมกับ ความเพ้อฝัน และใช้ความคาดหวังอันงดงามเป็นเหยื่อ หลอกล่อราษฎรไปสู่จุดจบที่ขมขื่น\"",
-  "in_play_description": "<span style=\"color:#FFFFFFFF\">ในช่วงที่ตัวละครที่มีการ์ดใบนี้เป็นตัวละครที่เข้าต่อสู้ และฝ่ายศัตรูได้รับความเสียหายปฏิกิริยาธาตุ:</span> จั่วการ์ด 1 ใบ (สูงสุดเทิร์นละ 2 ครั้ง)",
-  "attributes": {
-    "cost": 3,
-    "cost_type": "ธาตุไร้สี",
-    "card_type": "การ์ดอุปกรณ์",
-    "energy": [
-      {
-        
-        "id": "UnalignedElement",
-        "type": "ธาตุไร้สี",
-        "count": 3
-      }
-    ],
-    "tags": [
-      "อาร์ติแฟกต์"
-    ]
-  },
-  "skills": [
-    {
-      "name": "",
-      "desc": "<span style=\"color:#FFFFFFFF\">เมื่อเข้าสู่สนาม:</span> สร้าง Elemental Dice ประเภทของตัวละครที่มีการ์ดใบนี้ 1 ลูก หากในทีมของฝ่ายเรามีตัวละครประเภทของธาตุ 3 ประเภทที่แตกต่างกัน จะสร้าง<span style=\"color:#FFFFFFFF\">ธาตุสารพัดประโยชน์</span> 1 ลูก <br/><span style=\"color:#FFFFFFFF\">เมื่อตัวละครที่มีการ์ดใบนี้เป็นตัวละครที่เข้าต่อสู้ และฝ่ายศัตรูได้รับความเสียหายปฏิกิริยาธาตุ:</span> จั่วการ์ด 1 ใบ (สูงสุดเทิร์นละ 2 ครั้ง)<br/>(ตัวละครจะสามารถสวมใส่ \"อาร์ติแฟกต์\" ได้มากสุด 1 ชิ้น)"
-    }
-  ]
+	"id": "GildedDreams",
+	"shareid": 304,
+	"name": "Yaldızlı Rüyalar",
+	"title": "Altın Görüş: Yaldızlı Rüyalar",
+	"desc": "\"Bir süre sonra, yanıltıcı deliliğin yanı sıra saçma kararlar verilecekti; insanları acı bir sona doğru yönlendirmek için güzel beklentileri yem olarak kullanmak gibi.\"",
+	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Bunun eklendiği karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında</span> 1 kart çekersin. (Her Turda en fazla iki defa)",
+	"attributes": {
+		"cost": 3,
+		"costType": "Aynı Element",
+		"cardType": "Ekipman Kartı",
+		"energy": [
+			{
+				"id": "MatchingElement",
+				"type": "Aynı Element",
+				"count": 3
+			}
+		],
+		"artifact": {
+			"id": "GildedDreams",
+			"name": "Gilded Dreams",
+			"rarity": 5
+		},
+		"tags": [
+			"Yadigar"
+		]
+	},
+	"skills": [
+		{
+			"name": "",
+			"desc": "<span style=\"color:#FFFFFFFF\">Oynandığında</span> kartın eklendiği karakterle aynı Element türünden 1 Zar oluşturulur. Grubunda 3 farklı Element Türünde karakter varsa bunun yerine 2 Zar oluşturulur.<br/><span style=\"color:#FFFFFFFF\">Bunun eklendiği karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında</span> 1 kart çekersin. (Her Turda en fazla iki defa)<br/>(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+		}
+	],
+	"version": "4.5"
 }

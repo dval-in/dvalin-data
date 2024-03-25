@@ -1,74 +1,72 @@
 {
-  "id": "GeoSamachurl",
-  "name": "Geo Samachurl",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 4,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุหิน",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "StaffStrike",
-      "name": "Staff Strike",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SummoningOfStones",
-      "name": "Summoning of Stones",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Rocky Pedestal</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ShockwaveSmash",
-      "name": "Shockwave Smash",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "GeoSamachurl",
+	"shareid": 3603,
+	"name": "Toprak Dağ Şamanı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 4,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Toprak",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar",
+			"Dağ Yabanisi"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "StaffStrike",
+			"name": "Asa Saldırısı",
+			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SummoningOfStones",
+			"name": "Taşlara Çağrı",
+			"desc": "2 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Taş Kaide</span> oluşturur.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ShockwaveSmash",
+			"name": "Şok Dalgası Darbesi",
+			"desc": "5 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

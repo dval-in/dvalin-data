@@ -25,4 +25,5 @@ export type TalentLvlUpMaterial = {
 	};
 	domain?: string;
 	days?: string[];
+	version: string;
 };

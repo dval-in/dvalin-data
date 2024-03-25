@@ -1,85 +1,81 @@
 {
-  "id": "Razor",
-  "name": "Razor",
-  "title": "Razor - El Niño-lobo",
-  "desc": "“Jugar cartas ser difícil. Pero yo tener amigos...”.",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Electro",
-    "weapon": "Mandoble",
-    "faction": [
-      "Mondstadt"
-    ],
-    "source": "Se obtiene tras retar y ganar a Razor en un duelo amistoso en la taberna Cola de Gato",
-    "character": {
-      
-      "id": "Razor",
-      "name": "Razor",
-      "rarity": 4
-    }
-  },
-  "skills": [
-    {
-      "id": "SteelFang",
-      "name": "Colmillo de acero",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": [
-        "Ataque Normal"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "ClawAndThunder",
-      "name": "Garra y trueno",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
-      "skillTag": [
-        "Habilidad Elemental"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "LightningFang",
-      "name": "Colmillo relámpago",
-      "desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">lobo interior</span>.",
-      "skillTag": [
-        "Habilidad Definitiva"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Razor",
+	"shareid": 27,
+	"name": "Razor",
+	"title": "Razor - El Niño-lobo",
+	"desc": "“Jugar cartas ser difícil. Pero yo tener amigos...”.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta de personaje",
+		"energy": 2,
+		"element": "Electro",
+		"weapon": "Mandoble",
+		"faction": [
+			"Mondstadt"
+		],
+		"source": "Se obtiene tras retar y ganar a Razor en un duelo amistoso en la taberna Cola de Gato",
+		"character": {
+			"id": "Razor",
+			"name": "Razor",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "SteelFang",
+			"name": "Colmillo de acero",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "ClawAndThunder",
+			"name": "Garra y trueno",
+			"desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.",
+			"skilltag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "LightningFang",
+			"name": "Colmillo relámpago",
+			"desc": "Inflige 3 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">lobo interior</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

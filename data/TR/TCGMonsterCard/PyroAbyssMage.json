@@ -1,97 +1,94 @@
 {
-  "id": "PyroAbyssMage",
-  "name": "Pyro Abyss Mage",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 6,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุไฟ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "Flamewave",
-      "name": "Flamewave",
-      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "BlazingVisage",
-      "name": "Blazing Visage",
-      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "RiteOfTheMoltenEruption",
-      "name": "Rite of the Molten Eruption",
-      "desc": "จะสร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span> 7 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "ธาตุไฟ",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "PyroShield",
-      "name": "Pyro Shield",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Pyro Shield</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    },
-    {
-      "id": "AegisOfTheAbyss",
-      "name": "Aegis of the Abyss",
-      "desc": "[ติดตัว] หลังจากใช้สกิลในขณะที่โล่ถูกทำลาย: ได้รับ <span style=\"color:#FFFFFFFF\">Pyro Shield</span> อีกครั้ง",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "PyroAbyssMage",
+	"shareid": 5301,
+	"name": "Hiçlik Ateş Büyücüsü",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 6,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Ateş",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Flamewave",
+			"name": "Alev Dalgası",
+			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BlazingVisage",
+			"name": "Yanma Ayini",
+			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "RiteOfTheMoltenEruption",
+			"name": "Erimiş Patlama Şenliği",
+			"desc": "7 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Ateş",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "PyroShield",
+			"name": "Ateş Kalkanı",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Ateş Kalkanı</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		},
+		{
+			"id": "AegisOfTheAbyss",
+			"name": "Hiçlik Kalkanı",
+			"desc": "(Pasif) Kalkan kırıkken bu karakter bir Beceri kullanılır ve <span style=\"color:#FFFFFFFF\">Ateş Kalkanı</span> kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

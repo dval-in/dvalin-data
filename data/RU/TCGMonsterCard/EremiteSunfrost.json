@@ -1,88 +1,85 @@
 {
-  "id": "EremiteSunfrost",
-  "name": "Пустынник: Пылающий лёд",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 8,
-    "card_type": "Карты персонажей",
-    "energy": 2,
-    "element": "Крио",
-    "weapon": "Прочее",
-    "faction": [
-      "Пустынники"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "DoubleHack",
-      "name": "Двойной разрез",
-      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
-      "skillTag": [
-        "Обычная атака"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "Крио",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Неопределённый элемент",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "DualbladeChop",
-      "name": "Двусторонняя нарезка",
-      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 3 ед.",
-      "skillTag": [
-        "Элементальный навык"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "Крио",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "StalwartOnslaught",
-      "name": "Стойкий натиск",
-      "desc": "У персонажа начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Стойкий натиск: Удар по всем фронтам</span>.",
-      "skillTag": [
-        "Взрыв стихии"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "Крио",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Энергия",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "OminousSpiritUnleashedCryo",
-      "name": "Зловещий дух (Крио)",
-      "desc": "(Пассивный навык)<span style=\"color:#FFFFFFFF\">Когда этот персонаж получает урон:</span> если у этого персонажа не более 7 HP, ему добавляется 1 <span style=\"color:#FFFFFFFF\">Энергия</span> и <span style=\"color:#FFFFFFFF\">Пробуждение духа предзнаменования: Крио</span> (только 1 раз за игру).",
-      "skillTag": [
-        "Пассивный навык"
-      ],
-      "points": []
-    }
-  ]
+	"id": "EremiteSunfrost",
+	"shareid": 3106,
+	"name": "Пустынник: Пылающий лёд",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 8,
+		"cardType": "Карты персонажей",
+		"energy": 2,
+		"element": "Крио",
+		"weapon": "Прочее",
+		"faction": [
+			"Пустынники"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "DoubleHack",
+			"name": "Двойной разрез",
+			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+			"skilltag": [
+				"Обычная атака"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Крио",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Неопределённый элемент",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "DualbladeChop",
+			"name": "Двусторонняя нарезка",
+			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 3 ед.",
+			"skilltag": [
+				"Элементальный навык"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Крио",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "StalwartOnslaught",
+			"name": "Стойкий натиск",
+			"desc": "У персонажа начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Стойкий натиск: Удар по всем фронтам</span>.",
+			"skilltag": [
+				"Взрыв стихии"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Крио",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Энергия",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "OminousSpiritUnleashedCryo",
+			"name": "Зловещий дух (Крио)",
+			"desc": "(Пассивный навык)<span style=\"color:#FFFFFFFF\">Когда этот персонаж получает урон:</span> если у этого персонажа не более 7 HP, ему добавляется 1 <span style=\"color:#FFFFFFFF\">Энергия</span> и <span style=\"color:#FFFFFFFF\">Пробуждение духа предзнаменования: Крио</span> (только 1 раз за игру).",
+			"skilltag": [
+				"Пассивный навык"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

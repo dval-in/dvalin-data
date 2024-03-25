@@ -1,88 +1,85 @@
 {
-  "id": "EremiteStoneEnchanter",
-  "name": "Eremite Stone Enchanter",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุหิน",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "กลุ่ม Eremite"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "TripleGeosmash",
-      "name": "Triple Geosmash",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SplitrockSlam",
-      "name": "Splitrock Slam",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "OminousSpiritUnleashedGeo",
-      "name": "Ominous Spirit Unleashed (หิน)",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Spirit of Omen: Stone Drake</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "SpiritOfOmensPower",
-      "name": "Spirit of Omen's Power",
-      "desc": "[ติดตัว] เมื่อตัวละครได้รับความเสียหาย หากค่าพลังชีวิตไม่เกิน 7 จะได้รับการเติมพลังงาน 1 หน่วย (จำกัดดูเอลละ 1 ครั้ง)",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "EremiteStoneEnchanter",
+	"shareid": 3606,
+	"name": "Münzevi Taş Terbiyecisi",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Toprak",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Münzeviler"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "TripleGeosmash",
+			"name": "Üçlü Toprak Saldırısı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SplitrockSlam",
+			"name": "Yarık Kaya Darbesi",
+			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "OminousSpiritUnleashedGeo",
+			"name": "Serbest Kalan Uğursuz Ruh (Toprak)",
+			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Alamet Ruhu: Taş Ejderi</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "SpiritOfOmensPower",
+			"name": "Alamet Ruhunun Gücü",
+			"desc": "(Pasif) Bir karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır. (Her Düelloda bir defa)",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

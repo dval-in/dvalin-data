@@ -1,85 +1,81 @@
 {
-  "id": "Diona",
-  "name": "Diona",
-  "title": "เหมียวน้อยบาร์เทนเดอร์ - Diona",
-  "desc": "ใช้พลัง 1% ในการชงเหล้า ส่วนอีก 99%... ปฏิเสธความล้มเหลว",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "ธนู",
-    "faction": [
-      "Mondstadt"
-    ],
-    "source": "ได้รับหลังจากเชิญ Diona ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "Diona",
-      "name": "Diona",
-      "rarity": 4
-    }
-  },
-  "skills": [
-    {
-      "id": "KtzleinStyle",
-      "name": "Kätzlein Style",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "IcyPaws",
-      "name": "Icy Paws",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Cat-Claw Shield</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SignatureMix",
-      "name": "Signature Mix",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย รักษาตัวละครนี้ 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Drunken Mist</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    }
-  ]
+	"id": "Diona",
+	"shareid": 2,
+	"name": "Diona",
+	"title": "\"Kätzlein Kokteyli\" Diona",
+	"desc": "Enerjinin %1'i kokteyl yapmaya, %99'u bilinen gerçeği inkar etmeye...",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Buz",
+		"weapon": "Yay",
+		"faction": [
+			"Mondstadt"
+		],
+		"source": "Diona'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "Diona",
+			"name": "Diona",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "KtzleinStyle",
+			"name": "Kätzlein Tarzı",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "IcyPaws",
+			"name": "Buz Patisi",
+			"desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Buz Patisi Kalkanı</span> oluşturur.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SignatureMix",
+			"name": "Özel Karışım",
+			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir, bu karakterin Canını 2 yeniler ve 1 <span style=\"color:#FFFFFFFF\">Sarhoşluk Buharı</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

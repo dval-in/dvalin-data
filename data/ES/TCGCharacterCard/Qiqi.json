@@ -1,90 +1,85 @@
 {
-  "id": "Qiqi",
-  "name": "Qiqi",
-  "title": "Qiqi - La Resurrección del Hielo",
-  "desc": "El ciclo de la vida... La vida sigue.",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta de personaje",
-    "energy": 3,
-    "element": "Cryo",
-    "weapon": "Espada ligera",
-    "faction": [
-      "Liyue"
-    ],
-    "talent_card": {
-      
-      "id": "RiteOfResurrection",
-      "name": "Rite of Resurrection"
-    },
-    "source": "Se obtiene tras retar y ganar a Qiqi en un duelo amistoso en la taberna Cola de Gato",
-    "character": {
-      
-      "id": "Qiqi",
-      "name": "Qiqi",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "AncientSwordArt",
-      "name": "Técnica de espada antigua",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
-      "skillTag": [
-        "Ataque Normal"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "Cryo",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "AdeptusArtHeraldOfFrost",
-      "name": "Magia Adeptus: Heraldo de la escarcha",
-      "desc": "Invoca un <span style=\"color:#FFFFFFFF\">Heraldo de la escarcha</span>.",
-      "skillTag": [
-        "Habilidad Elemental"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "Cryo",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "AdeptusArtPreserverOfFortune",
-      "name": "Magia Adeptus: Preservadora de la fortuna",
-      "desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">talismán de conservación de la fortuna</span>.",
-      "skillTag": [
-        "Habilidad Definitiva"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "Cryo",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energía",
-          "count": 3
-        }
-      ]
-    }
-  ]
+	"id": "Qiqi",
+	"shareid": 8,
+	"name": "Qiqi",
+	"title": "Qiqi - La Resurrección del Hielo",
+	"desc": "El ciclo de la vida... La vida sigue.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta de personaje",
+		"energy": 3,
+		"element": "Cryo",
+		"weapon": "Espada ligera",
+		"faction": [
+			"Liyue"
+		],
+		"talentCard": {
+			"id": "RiteOfResurrection",
+			"name": "Rite of Resurrection"
+		},
+		"source": "Se obtiene tras retar y ganar a Qiqi en un duelo amistoso en la taberna Cola de Gato",
+		"character": {
+			"id": "Qiqi",
+			"name": "Qiqi",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "AncientSwordArt",
+			"name": "Técnica de espada antigua",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Cryo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "AdeptusArtHeraldOfFrost",
+			"name": "Magia Adeptus: Heraldo de la escarcha",
+			"desc": "Invoca un <span style=\"color:#FFFFFFFF\">Heraldo de la escarcha</span>.",
+			"skilltag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Cryo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "AdeptusArtPreserverOfFortune",
+			"name": "Magia Adeptus: Preservadora de la fortuna",
+			"desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y crea un <span style=\"color:#FFFFFFFF\">talismán de conservación de la fortuna</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Cryo",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 3
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

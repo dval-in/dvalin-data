@@ -1,97 +1,93 @@
 {
-  "id": "JadeplumeTerrorshroom",
-  "name": "Jadeplume Terrorshroom",
-  "title": "ราชาเห็ด - Jadeplume Terrorshroom",
-  "desc": "เงี่ยหูฟังอย่างเงียบ ๆ คุณจะได้ยินเสียงฝีเท้าของราชาเห็ดที่ลาดตระเวนอาณาเขตในป่าอันเงียบสงบ...",
-  "attributes": {
-    "hp": 30,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุไม้",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "talent_card": {
-      
-      "id": "ProliferatingSpores",
-      "name": "Proliferating Spores"
-    },
-    "source": "ได้รับหลังจากเอาชนะ Jadeplume Terrorshroom ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-    "character": {
-      "id": "JadeplumeTerrorshroom",
-      "name": "Jadeplume Terrorshroom"
-    }
-  },
-  "skills": [
-    {
-      "id": "MajesticDance",
-      "name": "Majestic Dance",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "VolatileSporeCloud",
-      "name": "Volatile Spore Cloud",
-      "desc": "จะสร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "FeatherSpreading",
-      "name": "Feather Spreading",
-      "desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้</span> 4 หน่วย และใช้ <span style=\"color:#FFFFFFFF\">Radical Vitality</span> ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Dendro",
-          "type": "ธาตุไม้",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RadicalVitality",
-      "name": "Radical Vitality",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Radical Vitality</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "JadeplumeTerrorshroom",
+	"shareid": 60,
+	"name": "Yeşimkuyruk Mantar Kuşu",
+	"title": "\"Mantarların Efendisi\" Yeşimkuyruk Mantar Kuşu",
+	"desc": "Sessizce ve yakından dinlersen Mantargillerin efendisinin bölgesini denetlemesini duyabilirsin...",
+	"attributes": {
+		"hp": 30,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Doğa",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"talentCard": {
+			"id": "ProliferatingSpores",
+			"name": "Proliferating Spores"
+		},
+		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Yeşimkuyruk Mantar Kuşu ile olan Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "JadeplumeTerrorshroom",
+			"name": "Jadeplume Terrorshroom"
+		}
+	},
+	"skills": [
+		{
+			"id": "MajesticDance",
+			"name": "Görkemli Dans",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "VolatileSporeCloud",
+			"name": "Dengesiz Spor Bulutu",
+			"desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "FeatherSpreading",
+			"name": "Görkemli Tüyler",
+			"desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir, <span style=\"color:#FFFFFFFF\">Radikal Canlılık</span> kademelerinin tümü harcanır ve her kademe için bu hasar 1 artar.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Doğa",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RadicalVitality",
+			"name": "Radikal Canlılık",
+			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Radikal Canlılık</span> etkisi kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

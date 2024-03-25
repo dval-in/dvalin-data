@@ -1,96 +1,101 @@
 {
-  "id": "Lyney",
-  "name": "Lyney",
-  "title": "Lyney, Spettacolo fantasmagorico",
-  "desc": "Quei fiori nello specchio... per chi sono?",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta personaggio",
-    "energy": 2,
-    "element": "Pyro",
-    "weapon": "Arco",
-    "faction": [
-      "Fontaine",
-      "Fatui"
-    ],
-    "source": "Ricompensa ottenuta sfidando Lyney a duello alla Coda di Gatto e battendolo in un duello amichevole"
-  },
-  "skills": [
-    {
-      "id": "CardForceTranslocation",
-      "name": "Traslazione forzata",
-      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
-      "skillTag": [
-        "Attacco normale"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "elemento indefinito",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "PropArrow",
-      "name": "Freccia scenica",
-      "desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, invoca un <span style=\"color:#FFFFFFFF\">Cappello sogghignante</span> e fornisce 1 accumulo di <span style=\"color:#FFFFFFFF\">Riserva scenica</span>.<br/>Se questo personaggio ha almeno 6 PS, si autoinfligge 1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span>.",
-      "skillTag": [
-        "Attacco normale"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "BewilderingLights",
-      "name": "Luci stupefacenti",
-      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
-      "skillTag": [
-        "Abilità elementale"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "WondrousTrickMiracleParade",
-      "name": "Trucco mirabolante: Corteo dei miracoli",
-      "desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Cappello sogghignante</span> e guadagna 1 accumulo di <span style=\"color:#FFFFFFFF\">Riserva scenica</span>.",
-      "skillTag": [
-        "Tripudio elementale"
-      ],
-      "points": [
-        {
-          
-          "id": "Pyro",
-          "type": "Pyro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energia",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Lyney",
+	"shareid": 281,
+	"name": "Lyney",
+	"title": "Lyney, Spettacolo fantasmagorico",
+	"desc": "Quei fiori nello specchio... per chi sono?",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta personaggio",
+		"energy": 2,
+		"element": "Pyro",
+		"weapon": "Arco",
+		"faction": [
+			"Fontaine",
+			"Fatui"
+		],
+		"talentCard": {
+			"id": "ConclusiveOvation",
+			"name": "Conclusive Ovation"
+		},
+		"source": "Ricompensa ottenuta sfidando Lyney a duello alla Coda di Gatto e battendolo in un duello amichevole",
+		"character": {
+			"id": "Lyney",
+			"name": "Lyney",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "CardForceTranslocation",
+			"name": "Traslazione forzata",
+			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+			"skilltag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "elemento indefinito",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "PropArrow",
+			"name": "Freccia scenica",
+			"desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, invoca un <span style=\"color:#FFFFFFFF\">Cappello sogghignante</span> e fornisce 1 accumulo di <span style=\"color:#FFFFFFFF\">Riserva scenica</span>.<br/>Se questo personaggio ha almeno 6 PS, si autoinfligge 1 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span>.",
+			"skilltag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "BewilderingLights",
+			"name": "Luci stupefacenti",
+			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>.",
+			"skilltag": [
+				"Abilità elementale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "WondrousTrickMiracleParade",
+			"name": "Trucco mirabolante: Corteo dei miracoli",
+			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Cappello sogghignante</span> e guadagna 1 accumulo di <span style=\"color:#FFFFFFFF\">Riserva scenica</span>.",
+			"skilltag": [
+				"Tripudio elementale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energia",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

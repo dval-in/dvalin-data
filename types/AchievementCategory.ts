@@ -20,4 +20,5 @@ export type AchievementCategory = {
 	name: string;
 	order: number;
 	achievements: Achievement[];
+	version: string;
 };

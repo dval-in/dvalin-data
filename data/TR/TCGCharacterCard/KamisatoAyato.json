@@ -1,90 +1,85 @@
 {
-  "id": "KamisatoAyato",
-  "name": "Kamisato Ayato",
-  "title": "เล่ห์เหลี่ยมแห่งเกียรติยศ - Kamisato Ayato",
-  "desc": "ต้นไม้ที่ได้รับการปกป้องจากทวยเทพ ได้แตกกิ่งก้านสาขาใหม่ออกแล้ว",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำ",
-    "weapon": "ดาบ",
-    "faction": [
-      "Inazuma"
-    ],
-    "talent_card": {
-      
-      "id": "KyoukaFuushi",
-      "name": "Kyouka Fuushi"
-    },
-    "source": "ได้รับหลังจากเชิญ Kamisato Ayato ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "KamisatoAyato",
-      "name": "Kamisato Ayato",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "KamisatoArtMarobashi",
-      "name": "Kamisato Art: Marobashi",
-      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtKyouka",
-      "name": "Kamisato Art: Kyouka",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Takimeguri Kanka</span>",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtSuiyuu",
-      "name": "Kamisato Art: Suiyuu",
-      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Garden of Purity</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Hydro",
-          "type": "ธาตุน้ำ",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "KamisatoAyato",
+	"shareid": 14,
+	"name": "Kamisato Ayato",
+	"title": "\"Metanet Abidesi\" Kamisato Ayato",
+	"desc": "İlahi olarak kutsanan selviden yeni yapraklar filizlenir.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Su",
+		"weapon": "Kılıç",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "KyoukaFuushi",
+			"name": "Kyouka Fuushi"
+		},
+		"source": "Kamisato Ayato'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "KamisatoAyato",
+			"name": "Kamisato Ayato",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "KamisatoArtMarobashi",
+			"name": "Kamisato Sanatı: Marobashi",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtKyouka",
+			"name": "Kamisato Sanatı: Kyouka",
+			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Takimeguri Kanka</span> kazanır.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtSuiyuu",
+			"name": "Kamisato Sanatı: Suiyuu",
+			"desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Saflık Bahçesi</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Hydro",
+					"type": "Su",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

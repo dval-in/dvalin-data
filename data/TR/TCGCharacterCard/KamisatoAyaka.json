@@ -1,99 +1,94 @@
 {
-  "id": "KamisatoAyaka",
-  "name": "Kamisato Ayaka",
-  "title": "กระเรียนขาวกลางหิมะ - Kamisato Ayaka",
-  "desc": "กระเรียนหวนคืน คลื่นเหมันต์ซัดสาด",
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "ดาบ",
-    "faction": [
-      "Inazuma"
-    ],
-    "talent_card": {
-      
-      "id": "KantenSenmyouBlessing",
-      "name": "Kanten Senmyou Blessing"
-    },
-    "source": "ได้รับหลังจากเชิญ Kamisato Ayaka ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-    "character": {
-      
-      "id": "KamisatoAyaka",
-      "name": "Kamisato Ayaka",
-      "rarity": 5
-    }
-  },
-  "skills": [
-    {
-      "id": "KamisatoArtKabuki",
-      "name": "Kamisato Art: Kabuki",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtHyouka",
-      "name": "Kamisato Art: Hyouka",
-      "desc": "จะสร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtSoumetsu",
-      "name": "Kamisato Art: Soumetsu",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 4 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Frostflake Seki no To</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtSenho",
-      "name": "Kamisato Art: Senho",
-      "desc": "[ติดตัว] เมื่อตัวละครนี้ถูกเปลี่ยนเป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับ <span style=\"color:#FFFFFFFF\">Cryo Elemental Infusion</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "KamisatoAyaka",
+	"shareid": 5,
+	"name": "Kamisato Ayaka",
+	"title": "\"Buz Balıkçılı\" Kamisato Ayaka",
+	"desc": "Havada uçuşan bir kar tanesi kadar narin ve bahçedeki bir balıkçıl kadar zarif.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Buz",
+		"weapon": "Kılıç",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "KantenSenmyouBlessing",
+			"name": "Kanten Senmyou Blessing"
+		},
+		"source": "Kamisato Ayaka'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+		"character": {
+			"id": "KamisatoAyaka",
+			"name": "Kamisato Ayaka",
+			"rarity": 5
+		}
+	},
+	"skills": [
+		{
+			"id": "KamisatoArtKabuki",
+			"name": "Kamisato Sanatı: Kabuki",
+			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtHyouka",
+			"name": "Kamisato Sanatı: Hyouka",
+			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtSoumetsu",
+			"name": "Kamisato Sanatı: Soumetsu",
+			"desc": "4 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Buzdan Seki no To</span> çağırır.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtSenho",
+			"name": "Kamisato Sanatı: Senho",
+			"desc": "(Pasif) Aktif karakter olarak değiştirildiğinde, bu karakter <span style=\"color:#FFFFFFFF\">Buz Element Tesiri</span> kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

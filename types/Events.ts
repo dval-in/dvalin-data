@@ -1,5 +1,4 @@
 
-
 /** @TJS-required */
 enum _ExtAPIGame {
 	HonkaiImpact3Rd = 1,
@@ -7,9 +6,8 @@ enum _ExtAPIGame {
 	TearsOfThemis = 4,
 	Hoyolab = 5,
 	HonkaiStarRail = 6,
-	ZenlessZoneZero = 8
+	ZenlessZoneZero = 8,
 }
-
 
 /** @TJS-required */
 export enum Game {
@@ -18,25 +16,22 @@ export enum Game {
 	TearsOfThemis = 'TearsOfThemis',
 	Hoyolab = 'Hoyolab',
 	HonkaiStarRail = 'HonkaiStarRail',
-	ZenlessZoneZero = 'ZenlessZoneZero'
+	ZenlessZoneZero = 'ZenlessZoneZero',
 }
-
 
 /** @TJS-required */
 enum _ExtAPIMessageType {
 	Notices = 1,
 	Event = 2,
-	Info = 3
+	Info = 3,
 }
-
 
 /** @TJS-required */
 export enum MessageType {
 	Notices = 'Notices',
 	Event = 'Event',
-	Info = 'Info'
+	Info = 'Info',
 }
-
 
 /** @TJS-required */
 export enum Tag {
@@ -70,9 +65,8 @@ export enum Tag {
 	CutsceneAnimation = 'CutsceneAnimation',
 	GenshinConcert2023 = 'GenshinConcert2023',
 	VersionPreviewPage = 'VersionPreviewPage',
-	Music = 'Music'
+	Music = 'Music',
 }
-
 
 /** @TJS-required */
 export enum LanguageCode {
@@ -90,11 +84,10 @@ export enum LanguageCode {
 	English = 'en-us',
 	German = 'de-de',
 	French = 'fr-fr',
-	Spanish = 'es-es'
+	Spanish = 'es-es',
 }
 
-type RedirectLinkChain = Array<string>;
-
+type RedirectLinkChain = string[];
 
 /** @TJS-required */
 export enum LinkType {
@@ -110,9 +103,8 @@ export enum LinkType {
 	Telegram = 'Telegram',
 	Relative = 'Relative',
 	Unknown = 'Unknown',
-	Malformed = 'Malformed'
+	Malformed = 'Malformed',
 }
-
 
 /** @TJS-required */
 export type Link = {
@@ -127,20 +119,19 @@ export type Link = {
 	isResolved: boolean;
 };
 
-
 /** @TJS-required */
 export type Event = {
 	postId: string;
 	gameId: Game;
 	messageType: MessageType;
 	createdAt: Date;
-	tags: Array<Tag>;
+	tags: Tag[];
 	language: LanguageCode;
 	subject: string;
 	content: string;
 	contentOriginal: string;
-	links: Array<Link>;
+	links: Link[];
 	articleUrl: string;
 };
 
-export type Events = Array<Event>;
+export type Events = Event[];

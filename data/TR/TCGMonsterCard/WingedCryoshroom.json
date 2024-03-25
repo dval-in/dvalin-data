@@ -1,88 +1,85 @@
 {
-  "id": "WingedCryoshroom",
-  "name": "Winged Cryoshroom",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 6,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SporeBullet",
-      "name": "Spore Bullet",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RollingSpray",
-      "name": "Rolling Spray",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "Divebomb",
-      "name": "Divebomb",
-      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StateChange",
-      "name": "State Change",
-      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Aerial Superiority</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FF9999FF\">ความเสียหายไฟ</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ไหม้เกรียม</span><br/>หลังจากตัวละครได้รับ<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span>: เปลี่ยนเป็นสถานะ<span style=\"color:#FFFFFFFF\">ตื่นตัว</span>",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "WingedCryoshroom",
+	"shareid": 3105,
+	"name": "Kanatlı Buz Mantarı",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 6,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Buz",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SporeBullet",
+			"name": "Spor Mermisi",
+			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RollingSpray",
+			"name": "Döner Sprey",
+			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "Divebomb",
+			"name": "Dalış Bombardımanı",
+			"desc": "5 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StateChange",
+			"name": "Durum Değişikliği",
+			"desc": "(Pasif) Savaş başladığında, bu karakter <span style=\"color:#FFFFFFFF\">Hava Üstünlüğü</span> etkisinde olur.<br/>Karakter <span style=\"color:#FF9999FF\">Ateş Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Yanık</span> olur.<br/>Karakter <span style=\"color:#FFACFFFF\">Elektrik Hasarı</span> aldıktan sonra <span style=\"color:#FFFFFFFF\">Etkin</span> olur.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

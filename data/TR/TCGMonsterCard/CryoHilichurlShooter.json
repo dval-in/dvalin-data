@@ -1,73 +1,71 @@
 {
-  "id": "CryoHilichurlShooter",
-  "name": "Cryo Hilichurl Shooter",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 3,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ธาตุน้ำแข็ง",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "IceArrow",
-      "name": "Ice Arrow",
-      "desc": "จะสร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Multishot",
-      "name": "Multishot",
-      "desc": "จะสร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 4 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Cryo",
-          "type": "ธาตุน้ำแข็ง",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Hide",
-      "name": "Hide",
-      "desc": "[ติดตัว] หลังจากที่ตัวละครนี้โจมตี จะเปลี่ยนเป็นตัวละครถัดไปโดยอัตโนมัติ",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "CryoHilichurlShooter",
+	"shareid": 3102,
+	"name": "Nişancı Buz Dağ Yabanisi",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 3,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Buz",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar",
+			"Dağ Yabanisi"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "IceArrow",
+			"name": "Buz Oku",
+			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Multishot",
+			"name": "Ok Üstadı",
+			"desc": "4 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Buz",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Hide",
+			"name": "Vur ve Kaç",
+			"desc": "(Pasif) Bu karakter bir hamle yaptığında, otomatik olarak bir sonraki karaktere geçiş yapılır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

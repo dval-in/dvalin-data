@@ -27,4 +27,5 @@ export type CommonMaterial = {
 	source: string[];
 	rarity: number;
 	craft?: Craft;
+	version: string;
 };

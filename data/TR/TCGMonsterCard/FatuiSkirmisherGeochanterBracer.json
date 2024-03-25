@@ -1,88 +1,85 @@
 {
-  "id": "FatuiSkirmisherGeochanterBracer",
-  "name": "Fatui Skirmisher - Geochanter Bracer",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 3,
-    "element": "ธาตุหิน",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "Fatui"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "RockProjectile",
-      "name": "Rock Projectile",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "GeocrystalBeam",
-      "name": "Geocrystal Beam",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย",
-      "skillTag": [
-        "สกิลธาตุ"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "StaffOfGeo",
-      "name": "Staff of Geo",
-      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Geo Elemental Equipment</span> และสร้าง <span style=\"color:#FFFFFFFF\">Crystal Shield</span>",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "ธาตุหิน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "CombatResupply",
-      "name": "Combat Resupply",
-      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "FatuiSkirmisherGeochanterBracer",
+	"shareid": 3604,
+	"name": "Fatui Avcı Eri - Destek Toprak İlahicisi",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Karakter Kartı",
+		"energy": 3,
+		"element": "Toprak",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Fatui"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "RockProjectile",
+			"name": "Taş Mermi",
+			"desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "GeocrystalBeam",
+			"name": "Toprak Kristali Işını",
+			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir.",
+			"skilltag": [
+				"Element Becerisi"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "StaffOfGeo",
+			"name": "Toprak Asası",
+			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Toprak Elementi Ekipmanı</span> kazanır, 1 <span style=\"color:#FFFFFFFF\">Kristal Kalkan</span> oluşturur.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Toprak",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CombatResupply",
+			"name": "Savaş Hazırlığı Tedariki",
+			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

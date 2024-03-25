@@ -1,67 +1,66 @@
 {
-  "id": "HilichurlShooter",
-  "name": "Hilichurl Shooter",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 3,
-    "card_type": "การ์ดตัวละคร",
-    "energy": 2,
-    "element": "ไม่มีธาตุ",
-    "weapon": "อาวุธอื่น ๆ",
-    "faction": [
-      "มอนสเตอร์",
-      "Hilichurl"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "Shooting",
-      "name": "Shooting",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 1 หน่วย",
-      "skillTag": [
-        "โจมตีปกติ"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "ธาตุไร้สี",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Multishot",
-      "name": "Multishot",
-      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 5 หน่วย",
-      "skillTag": [
-        "ท่าไม้ตาย"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "ธาตุชนิดเดียวกัน",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "พลังงาน",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "Hide",
-      "name": "Hide",
-      "desc": "[ติดตัว] หลังจากที่ตัวละครนี้ใช้สกิล จะเปลี่ยนเป็นตัวละครถัดไปโดยอัตโนมัติ",
-      "skillTag": [
-        "สกิลติดตัว"
-      ],
-      "points": []
-    }
-  ]
+	"id": "HilichurlShooter",
+	"shareid": 3002,
+	"name": "Nişancı Dağ Yabanisi",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 3,
+		"cardType": "Karakter Kartı",
+		"energy": 2,
+		"element": "Element Türü Yok",
+		"weapon": "Diğer Silahlar",
+		"faction": [
+			"Canavar",
+			"Dağ Yabanisi"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Shooting",
+			"name": "Ateş",
+			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Normal Saldırı"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "Nötr Element",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Multishot",
+			"name": "Ok Üstadı",
+			"desc": "5 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+			"skilltag": [
+				"Element Patlaması"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "Aynı Element",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Enerji",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "Hide",
+			"name": "Vur ve Kaç",
+			"desc": "(Pasif) Bu karakter bir beceri kullandığında, otomatik olarak bir sonraki karaktere geçiş yapılır.",
+			"skilltag": [
+				"Pasif Beceri"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }

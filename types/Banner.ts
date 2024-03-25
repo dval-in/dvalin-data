@@ -8,6 +8,7 @@ export type Banner = {
 	endTime: Date;
 	featured: ECharacter[] | EWeapon[];
 	picture: string;
+	version: string;
 };
 
 /**

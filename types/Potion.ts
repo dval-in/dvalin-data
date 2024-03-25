@@ -22,4 +22,5 @@ export type Potion = {
 		cost: number;
 		items: Item[];
 	};
+	version: string;
 };

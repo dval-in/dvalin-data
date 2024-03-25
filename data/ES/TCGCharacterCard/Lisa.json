@@ -1,90 +1,85 @@
 {
-  "id": "Lisa",
-  "name": "Lisa",
-  "title": "Lisa - La Bruja de las Rosas",
-  "desc": "Busca los secretos de la magia y espera a que la verdad se revele.",
-  "attributes": {
-    "hp": 10,
-    "card_type": "Carta de personaje",
-    "energy": 2,
-    "element": "Electro",
-    "weapon": "Catalizador",
-    "faction": [
-      "Mondstadt"
-    ],
-    "talent_card": {
-      
-      "id": "PulsatingWitch",
-      "name": "Pulsating Witch"
-    },
-    "source": "Se obtiene tras retar y ganar a Lisa en un duelo amistoso en la taberna Cola de Gato",
-    "character": {
-      
-      "id": "Lisa",
-      "name": "Lisa",
-      "rarity": 4
-    }
-  },
-  "skills": [
-    {
-      "id": "LightningTouch",
-      "name": "Toque de relámpago",
-      "desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.<br/>Si esta habilidad se ejecuta en forma de <span style=\"color:#FFFFFFFF\">Ataque Cargado</span>, el personaje en combate enemigo será afectado por <span style=\"color:#FFFFFFFF\">conducción</span>.",
-      "skillTag": [
-        "Ataque Normal"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Dado indefinido",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "VioletArc",
-      "name": "Arco violeta",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y aplica el estado de <span style=\"color:#FFFFFFFF\">conducción</span> al personaje en combate enemigo si este aún no estaba afectado por él.",
-      "skillTag": [
-        "Habilidad Elemental"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "LightningRose",
-      "name": "Rayo de la rosa",
-      "desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y crea una <span style=\"color:#FFFFFFFF\">rosa devastadora</span>.",
-      "skillTag": [
-        "Habilidad Definitiva"
-      ],
-      "points": [
-        {
-          
-          "id": "Electro",
-          "type": "Electro",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Energía",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Lisa",
+	"shareid": 34,
+	"name": "Lisa",
+	"title": "Lisa - La Bruja de las Rosas",
+	"desc": "Busca los secretos de la magia y espera a que la verdad se revele.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta de personaje",
+		"energy": 2,
+		"element": "Electro",
+		"weapon": "Catalizador",
+		"faction": [
+			"Mondstadt"
+		],
+		"talentCard": {
+			"id": "PulsatingWitch",
+			"name": "Pulsating Witch"
+		},
+		"source": "Se obtiene tras retar y ganar a Lisa en un duelo amistoso en la taberna Cola de Gato",
+		"character": {
+			"id": "Lisa",
+			"name": "Lisa",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "LightningTouch",
+			"name": "Toque de relámpago",
+			"desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro</span>.<br/>Si esta habilidad se ejecuta en forma de <span style=\"color:#FFFFFFFF\">Ataque Cargado</span>, el personaje en combate enemigo será afectado por <span style=\"color:#FFFFFFFF\">conducción</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "VioletArc",
+			"name": "Arco violeta",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y aplica el estado de <span style=\"color:#FFFFFFFF\">conducción</span> al personaje en combate enemigo si este aún no estaba afectado por él.",
+			"skilltag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "LightningRose",
+			"name": "Rayo de la rosa",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FFACFFFF\">Daño Electro</span> y crea una <span style=\"color:#FFFFFFFF\">rosa devastadora</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Electro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

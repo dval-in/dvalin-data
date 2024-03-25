@@ -1,88 +1,85 @@
 {
-  "id": "GroundedGeoshroom",
-  "name": "Laufender Geo-Pilz",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 7,
-    "card_type": "Figurenkarte",
-    "energy": 2,
-    "element": "Geo",
-    "weapon": "Andere Waffen",
-    "faction": [
-      "Monster"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "SporeBullet",
-      "name": "Sporengeschoss",
-      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
-      "skillTag": [
-        "Standardangriff"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "Geo",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "Würfel (beliebig)",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "RagingBreath",
-      "name": "Zorniger Atem",
-      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
-      "skillTag": [
-        "Elementarfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "Geo",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "ChargingBlast",
-      "name": "Explosiver Vorstoß",
-      "desc": "Verursacht 5 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
-      "skillTag": [
-        "Spezialfähigkeit"
-      ],
-      "points": [
-        {
-          
-          "id": "Geo",
-          "type": "Geo",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "Aufladung",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "StateChange",
-      "name": "Modus-Umwandlung",
-      "desc": "Passiv – Zu Beginn des Kampfes: <span style=\"color:#FFFFFFFF\">Vorteil des Geländes</span>.<br/>Nach Erleiden von <span style=\"color:#FF9999FF\">Pyro-SCH</span>: <span style=\"color:#FFFFFFFF\">Verdorrter Modus</span>.<br/>Nach Erleiden von <span style=\"color:#FFACFFFF\">Elektro-SCH</span>: <span style=\"color:#FFFFFFFF\">Aktivierter Modus</span>.",
-      "skillTag": [
-        "Passive Fähigkeit"
-      ],
-      "points": []
-    }
-  ]
+	"id": "GroundedGeoshroom",
+	"shareid": 3605,
+	"name": "Laufender Geo-Pilz",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 7,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Geo",
+		"weapon": "Andere Waffen",
+		"faction": [
+			"Monster"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "SporeBullet",
+			"name": "Sporengeschoss",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Geo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "RagingBreath",
+			"name": "Zorniger Atem",
+			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Geo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ChargingBlast",
+			"name": "Explosiver Vorstoß",
+			"desc": "Verursacht 5 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Geo",
+					"type": "Geo",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "StateChange",
+			"name": "Modus-Umwandlung",
+			"desc": "Passiv – Zu Beginn des Kampfes: <span style=\"color:#FFFFFFFF\">Vorteil des Geländes</span>.<br/>Nach Erleiden von <span style=\"color:#FF9999FF\">Pyro-SCH</span>: <span style=\"color:#FFFFFFFF\">Verdorrter Modus</span>.<br/>Nach Erleiden von <span style=\"color:#FFACFFFF\">Elektro-SCH</span>: <span style=\"color:#FFFFFFFF\">Aktivierter Modus</span>.",
+			"skilltag": [
+				"Passive Fähigkeit"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
 }
