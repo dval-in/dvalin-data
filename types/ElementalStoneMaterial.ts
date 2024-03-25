@@ -8,4 +8,5 @@ export type ElementalStoneMaterial = {
 	description: string;
 	source: string[];
 	rarity: number;
+	version: string;
 };

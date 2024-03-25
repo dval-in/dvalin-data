@@ -25,4 +25,5 @@ export type WeaponPrimaryMaterial = {
 	};
 	domain: string;
 	days: string[];
+	version: string;
 };
