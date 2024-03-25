@@ -29,6 +29,7 @@ const result = execSync(`git diff-tree --no-commit-id --name-only -r ${gitCommit
 // Remove all line that doesn't start with src/data
 const resultArray = result.split('\n').filter(line => line.startsWith('src/data'));
 
+// - camelCase
 const toCamelCase = str => {
 	if (typeof str !== 'string') {
 		str = String(str);
@@ -41,15 +42,101 @@ const toCamelCase = str => {
 		.replace(/\s+/g, '');
 };
 
+// PascalCase
 const pascalCase = str => {
 	if (typeof str !== 'string') {
 		str = String(str);
 	}
 
 	return str.replace(/_/g, ' ') // Replace underscores with spaces
+		.replace(/[_-]/g, ' ') // Replace underscores and dashes with spaces
+		.replace(/'/g, '') // Remove apostrophes
 		.split(' ') // Split into words
 		.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize first letter of each word
 		.join(''); // Join without spaces
+};
+
+const checkForExistingFile = path => fs.existsSync(path);
+
+const specialDish = {
+	Chiori: 'FashionShow',
+	Xianyun: 'EncompassingGladness',
+	Gaming: 'YummyYumCha',
+	Chevreuse: 'TheKindThatDoesntNeedToBeDealtWith',
+	Navia: '“pickWhatYouLike!”',
+	Charlotte: 'ExclusiveScoop:GourmetColumn',
+	Furina: '“pourLaJustice”',
+	Wriothesley: 'SecretSauceBbqRibs',
+	Neuvillette: '"consommePurete"',
+	Freminet: 'SeabirdsSojourn',
+	Lyney: 'CubicTricks',
+	Lynette: 'ALeisurelySip',
+	Kirara: 'EnergizingBento',
+	Kaveh: 'TheEndeavor',
+	Baizhu: 'HeatQuellingSoup',
+	Mika: 'SurveyorsBreakfastSandwich',
+	Dehya: 'GoldflameTajine',
+	Alhaitham: 'IdealCircumstance',
+	Yaoyao: 'QingceHouseholdDish',
+	Wanderer: 'ShimiChazuke',
+	Faruzan: 'TraditionallyMadeCharcoalBakedAjilenakhCake',
+	Layla: 'ExtravagantSlumber',
+	Nahida: 'Halvamazd',
+	Cyno: 'DuelSoul',
+	Nilou: 'SwirlingSteps',
+	Candace: 'UtmostCare',
+	Tighnari: 'ForestWatchersChoice',
+	Collei: 'Yearning',
+	Dori: 'ShowMeTheMora',
+	Heizou: 'TheOnlyTruth',
+	Shinobu: 'OmuriceWaltz',
+	Yelan: 'DewDippedShrimp',
+	Ayato: 'QuietElegance',
+	YaeMiko: 'FukuuchiUdon',
+	YunJin: 'CloudShroudedJade',
+	Shenhe: 'HeartstringNoodles',
+	Itto: 'WayOfTheStrong',
+	Gorou: 'VictoriousLegend',
+	Thoma: '"warmth"',
+	Aloy: 'SatietyGel',
+	Kokomi: 'AStunningStratagem',
+	Sara: 'FaithEternal',
+	Sayu: 'DizzinessBeGoneNoJutsuVersion2.0',
+	Yoimiya: 'SummerFestivalFish',
+	Kazuha: 'AllWeatherBeauty',
+	Ayaka: 'SnowOnTheHearth',
+	Yanfei: '“myWay”',
+	Rosaria: 'DinnerOfJudgement',
+	Ganyu: 'ProsperousPeace',
+	HuTao: 'GhostlyMarch',
+	Xiao: '“sweetDream”',
+	Albedo: 'WoodlandDream',
+	Tartaglia: 'APrizeCatch',
+	Zhongli: 'SlowCookedBambooShootSoup',
+	Xinyan: 'RockinRiffinChicken!',
+	Razor: 'PuppyPawHashBrown',
+	Noelle: 'LighterThanAirPancake',
+	Lisa: 'MysteriousBolognese',
+	Barbara: 'SpicyStew',
+	Jean: 'InvigoratingPizza',
+	Venti: 'ABuoyantBreeze',
+	Klee: 'FishFlavoredToast',
+	Bennett: 'TeyvatCharredEgg',
+	Chongyun: 'ColdNoodlesWithMountainDelicacies',
+	Ningguang: 'QiankunMoraMeat',
+	Qiqi: 'NoTomorrow',
+	Diluc: 'OnceUponATimeInMondstadt',
+	Amber: 'OutridersChampionSteak!',
+	Mona: 'DerWeisheitLetzterSchluss(life)',
+	Fischl: 'DieHeiligeSinfonie',
+	Beidou: 'FlashFriedFilet',
+	Sucrose: 'NutritiousMeal(v.593)',
+	Kaeya: 'FruitySkewers',
+	Keqing: 'SurvivalGrilledFish',
+	Diona: 'DefinitelyNotBarFood!',
+	Xiangling: 'WanminRestaurantsBoiledFish',
+	Xingqiu: 'AllDelicacyParcels',
+	Eula: 'StormcrestPie',
 };
 
 // Function to pascalCase each field of a json file, remove the "_id" field and CamelCasing the value of the "id" field
@@ -76,7 +163,10 @@ const updateFile = (obj, folder) => {
 	};
 
 	const updatedObj = transformObject(obj);
-	updatedObj.version = version;
+	if (folder && !checkForExistingFile(`/data/EN/${folder}/${updatedObj.id}.json`)) {
+		updatedObj.version = version;
+	}
+
 	if (folder && folder === 'Character') {
 		const objectAddition = {
 			pictures: {
@@ -91,7 +181,7 @@ const updateFile = (obj, folder) => {
 			},
 			signatureArtifactSet: '',
 			signatureWeapon: '',
-			specialDish: '',
+			specialDish: specialDish[updatedObj.id],
 			tcgCharacterCard: existInTCG(updatedObj.id) ? updatedObj.id : '',
 			outfits: [
 			]};
@@ -103,7 +193,7 @@ const updateFile = (obj, folder) => {
 
 const existInTCG = charName => {
 	const path = `/data/EN/TCGCharacterCard/${charName}.json`;
-	return fs.existsSync(path);
+	return checkForExistingFile(path);
 };
 
 const removeTrailingS = str => str.replace(/s$/, '');
@@ -114,7 +204,7 @@ resultArray.forEach(filePath => {
 	console.log('On : ', fullPath);
 	const langFolder = filePath.split('/')[2];
 	let dataFolder = filePath.split('/')[3];
-	if (!fs.existsSync(fullPath) || dataFolder === 'domains.json') {
+	if (!checkForExistingFile(fullPath) || dataFolder === 'domains.json') {
 		return; // Skip this iteration if the file does not exist
 	}
 
@@ -141,9 +231,10 @@ resultArray.forEach(filePath => {
 	const pascalCasedData = updateFile(parsedData, dataFolder);
 	const destDir = path.join(__dirname, `../data/${language}/${dataFolder}`);
 
-	if (!fs.existsSync(destDir)) {
+	if (!checkForExistingFile(destDir)) {
 		fs.mkdirSync(destDir, {recursive: true});
 	}
 
 	fs.writeFileSync(path.join(destDir, `${pascalCase(fileName)}.json`), JSON.stringify(pascalCasedData, null, '\t'));
 });
+
