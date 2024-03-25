@@ -4,7 +4,7 @@ const path = require('path');
 // Got to the ../genshin-data directory
 process.chdir(__dirname + '/../../genshin-data');
 const gitCommitHash = 'a65abf9fde838e06af96da72d86393b5f8efd85f';
-const version = '4.4';
+const version = '4.5';
 const folderMapping = {
 	'chinese-simplified': 'ZH-S',
 	'chinese-traditional': 'ZH-T',
@@ -53,7 +53,7 @@ const pascalCase = str => {
 };
 
 // Function to pascalCase each field of a json file, remove the "_id" field and CamelCasing the value of the "id" field
-const updateFile = obj => {
+const updateFile = (obj, folder) => {
 	const transformObject = obj => {
 		const newObj = {};
 		Object.keys(obj).forEach(key => {
@@ -77,7 +77,33 @@ const updateFile = obj => {
 
 	const updatedObj = transformObject(obj);
 	updatedObj.version = version;
+	if (folder && folder === 'Character') {
+		const objectAddition = {
+			pictures: {
+				icon: `Character/${updatedObj.id}/Icon.webp`,
+				sideIcon: `Character/${updatedObj.id}/SideIcon.webp`,
+				gatchaCard: `Character/${updatedObj.id}/GachaCard.webp`,
+				gachaSplash: `Character/${updatedObj.id}/GachaSplash.webp`,
+				face: `Character/${updatedObj.id}/Face.webp`,
+				halfFace: `Character/${updatedObj.id}/HalfFace.webp`,
+				profile: `Character/${updatedObj.id}/Profile.webp`,
+				weaponStance: `Character/${updatedObj.id}/WeaponStance.webp`,
+			},
+			signatureArtifactSet: '',
+			signatureWeapon: '',
+			specialDish: '',
+			tcgCharacterCard: existInTCG(updatedObj.id) ? updatedObj.id : '',
+			outfits: [
+			]};
+		Object.assign(updatedObj, objectAddition);
+	}
+
 	return updatedObj;
+};
+
+const existInTCG = charName => {
+	const path = `/data/EN/TCGCharacterCard/${charName}.json`;
+	return fs.existsSync(path);
 };
 
 const removeTrailingS = str => str.replace(/s$/, '');
@@ -96,7 +122,7 @@ resultArray.forEach(filePath => {
 
 	const data = fs.readFileSync(fullPath);
 	const parsedData = JSON.parse(data);
-	const pascalCasedData = updateFile(parsedData);
+
 	const language = folderMapping[langFolder];
 
 	// Ensure the destination directory exists
@@ -112,6 +138,7 @@ resultArray.forEach(filePath => {
 		dataFolder = removeTrailingS(dataFolder);
 	}
 
+	const pascalCasedData = updateFile(parsedData, dataFolder);
 	const destDir = path.join(__dirname, `../data/${language}/${dataFolder}`);
 
 	if (!fs.existsSync(destDir)) {
