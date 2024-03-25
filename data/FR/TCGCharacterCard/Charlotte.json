@@ -1,0 +1,76 @@
+{
+	"id": "Charlotte",
+	"shareid": 334,
+	"name": "Charlotte",
+	"title": "Charlotte · Œil pour la vérité",
+	"desc": "« Votre source fiable de l'incroyable vérité ! »",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carte de personnage",
+		"energy": 2,
+		"element": "Cryo",
+		"weapon": "Catalyseur",
+		"faction": [
+			"Fontaine"
+		],
+		"source": "Récompense pour avoir invité Charlotte à une partie amicale dans La Queue de Chat et remporté la victoire"
+	},
+	"skills": [
+		{
+			"id": "CoolcolorCapture",
+			"name": "Phototype à froid",
+			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+			"skilltag": [
+				"Attaque normale"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Cryo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Élément neutre",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "FramingFreezingPointComposition",
+			"name": "Cadrage : Composition gelée",
+			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et applique une <span style=\"color:#FFFFFFFF\">silhouette instantanée</span> à la cible.",
+			"skilltag": [
+				"Compétence élémentaire"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Cryo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "StillPhotoComprehensiveConfirmation",
+			"name": "Pose : Corroboration complète",
+			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>, soigne tous vos personnages pour 1 pt et invoque un <span style=\"color:#FFFFFFFF\">champ de flash info</span>.",
+			"skilltag": [
+				"Déchaînement élémentaire"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "Cryo",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Charge",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
+}

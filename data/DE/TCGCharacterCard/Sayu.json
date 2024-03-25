@@ -1,0 +1,85 @@
+{
+	"id": "Sayu",
+	"shareid": 320,
+	"name": "Sayu",
+	"title": "Mujina-Ninja – Sayu",
+	"desc": "Verträumt und an deiner Seite, wie eine Figur aus einem Traum.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Anemo",
+		"weapon": "Zweihänder",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "SkivingNewAndImproved",
+			"name": "Skiving: New and Improved"
+		},
+		"source": "Nach einem gewonnenen „Duell – Nett“ mit Sayu in der Taverne Zum Katzenschwanz zu erhalten.",
+		"character": {
+			"id": "Sayu",
+			"name": "Sayu",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "ShuumatsubanNinjaBlade",
+			"name": "Ninja-Klinge des Shuumatsuban",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "YoohooArtFuuinDash",
+			"name": "Juhu-Stil – Fuuin-Stoß",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, diese Figur <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Fuufuu-Windradtritt</span>.<br/>Wenn die aktuelle Fähigkeit Verwirbelung auslöst, verursacht <span style=\"color:#FFFFFFFF\">Fuufuu-Windradtritt</span> nun einen Elementar-SCH des von der Verwirbelung betroffenen Elements.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "YoohooArtMujinaFlurry",
+			"name": "Juhu-Stil – Mujina-Wirrsal",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Mujimuji-Daruma</span>.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "Anemo",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
+}

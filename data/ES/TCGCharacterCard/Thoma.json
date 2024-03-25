@@ -1,0 +1,85 @@
+{
+	"id": "Thoma",
+	"shareid": 319,
+	"name": "Thoma",
+	"title": "Thoma - El Protector de Tierras Lejanas",
+	"desc": "Un protector procedente de lejos, fiel hasta el final.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta de personaje",
+		"energy": 2,
+		"element": "Pyro",
+		"weapon": "Lanza",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "ASubordinatesSkills",
+			"name": "A Subordinate's Skills"
+		},
+		"source": "Se obtiene tras retar y ganar a Thoma en un duelo amistoso en la taberna Cola de Gato",
+		"character": {
+			"id": "Thoma",
+			"name": "Thoma",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "SwiftshatterSpear",
+			"name": "Lanza devastadora",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+			"skilltag": [
+				"Ataque Normal"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Dados Pyro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Dado indefinido",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BlazingBlessing",
+			"name": "Bendición incandescente",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea un <span style=\"color:#FFFFFFFF\">escudo llameante</span>.",
+			"skilltag": [
+				"Habilidad Elemental"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Dados Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CrimsonOoyoroi",
+			"name": "Armadura calcinante",
+			"desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea un <span style=\"color:#FFFFFFFF\">escudo llameante</span> y una <span style=\"color:#FFFFFFFF\">coraza abrasadora</span>.",
+			"skilltag": [
+				"Habilidad Definitiva"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Dados Pyro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energía",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
+}

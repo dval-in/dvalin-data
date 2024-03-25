@@ -1,0 +1,93 @@
+{
+	"id": "CryoHypostasis",
+	"shareid": 321,
+	"name": "Cryo Hypostasis",
+	"title": "Cryo Hypostasis",
+	"desc": "โค้ดเนม: \"Daleth\" สิ่งมีชีวิตธาตุน้ำแข็งระดับสูง\\nดูเหมือนจะไม่ค่อยถนัดกีฬาประเภทบอลเท่าไหร่...",
+	"attributes": {
+		"hp": 8,
+		"cardType": "การ์ดตัวละคร",
+		"energy": 2,
+		"element": "ธาตุน้ำแข็ง",
+		"weapon": "อาวุธอื่น ๆ",
+		"faction": [
+			"มอนสเตอร์"
+		],
+		"talentCard": {
+			"id": "SternfrostPrism",
+			"name": "Sternfrost Prism"
+		},
+		"source": "ได้รับหลังจากเอาชนะ Cryo Hypostasis ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+		"character": {
+			"id": "CryoHypostasis",
+			"name": "Cryo Hypostasis"
+		}
+	},
+	"skills": [
+		{
+			"id": "IcespikeShot",
+			"name": "Icespike Shot",
+			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 1 หน่วย",
+			"skilltag": [
+				"โจมตีปกติ"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "ธาตุไร้สี",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "IceRingWaltz",
+			"name": "Ice Ring Waltz",
+			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Overwhelming Ice</span>",
+			"skilltag": [
+				"สกิลธาตุ"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "PlungingIceShards",
+			"name": "Plunging Ice Shards",
+			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย สร้าง<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span></span> 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก <span style=\"color:#FFFFFFFF\">Piercing Iceridge</span>",
+			"skilltag": [
+				"ท่าไม้ตาย"
+			],
+			"points": [
+				{
+					"id": "Cryo",
+					"type": "ธาตุน้ำแข็ง",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "พลังงาน",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "CryoCrystalCore",
+			"name": "Cryo Crystal Core",
+			"desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Cryo Crystal Core</span>",
+			"skilltag": [
+				"สกิลติดตัว"
+			],
+			"points": []
+		}
+	],
+	"version": "4.4"
+}

@@ -1,0 +1,85 @@
+{
+	"id": "Thoma",
+	"shareid": 319,
+	"name": "Thoma",
+	"title": "Thoma, Protettore venuto da lontano",
+	"desc": "Un guardiano da una terra straniera, leale fino alla fine.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Carta personaggio",
+		"energy": 2,
+		"element": "Pyro",
+		"weapon": "Lancia",
+		"faction": [
+			"Inazuma"
+		],
+		"talentCard": {
+			"id": "ASubordinatesSkills",
+			"name": "A Subordinate's Skills"
+		},
+		"source": "Ricompensa ottenuta sfidando Thoma a duello alla Coda di Gatto e battendolo in un duello amichevole",
+		"character": {
+			"id": "Thoma",
+			"name": "Thoma",
+			"rarity": 4
+		}
+	},
+	"skills": [
+		{
+			"id": "SwiftshatterSpear",
+			"name": "Lancia spezzacelere",
+			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+			"skilltag": [
+				"Attacco normale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "elemento indefinito",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "BlazingBlessing",
+			"name": "Benedizione ardente",
+			"desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, genera 1 <span style=\"color:#FFFFFFFF\">Barriera ardente</span>.",
+			"skilltag": [
+				"Abilità elementale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "CrimsonOoyoroi",
+			"name": "Ooyoroi cremisi",
+			"desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span>, genera 1 <span style=\"color:#FFFFFFFF\">Barriera ardente </span>e 1 <span style=\"color:#FFFFFFFF\">Ooyoroi rovente</span>.",
+			"skilltag": [
+				"Tripudio elementale"
+			],
+			"points": [
+				{
+					"id": "Pyro",
+					"type": "Pyro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Energia",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
+}
