@@ -3,7 +3,7 @@ const path = require('path');
 
 // Got to the ../genshin-data directory
 process.chdir(__dirname + '/../../genshin-data');
-const gitCommitHash = 'f449d133ad4d3bd3ab1f9e6b45cc658daa5ece07';
+const gitCommitHash = 'a65abf9fde838e06af96da72d86393b5f8efd85f';
 const version = '4.4';
 const folderMapping = {
 	'chinese-simplified': 'ZH-S',

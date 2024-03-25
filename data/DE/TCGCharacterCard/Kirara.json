@@ -1,0 +1,76 @@
+{
+	"id": "Kirara",
+	"shareid": 336,
+	"name": "Kirara",
+	"title": "Abenteuer über den Dächern – Kirara",
+	"desc": "Mit doppeltem Schwanz und auf samtenen Pfoten erreicht sie jedes Haus.",
+	"attributes": {
+		"hp": 10,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Dendro",
+		"weapon": "Einhänder",
+		"faction": [
+			"Inazuma"
+		],
+		"source": "Nach einem gewonnenen „Duell – Nett“ mit Kirara in der Taverne Zum Katzenschwanz zu erhalten."
+	},
+	"skills": [
+		{
+			"id": "Boxcutter",
+			"name": "Kartonschnitt",
+			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Dendro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MeowteorKick",
+			"name": "Miauteoritentritt",
+			"desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Neko-Sonderzustellung</span> und 1 <span style=\"color:#FFFFFFFF\">Schild für sicheren Transport</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Dendro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SecretArtSurpriseDispatch",
+			"name": "Geheime Kunst – Besondere Überraschung",
+			"desc": "Verursacht 4 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Katzengras-Kardamom</span>.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Dendro",
+					"type": "Dendro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
+}

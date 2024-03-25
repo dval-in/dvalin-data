@@ -1,0 +1,76 @@
+{
+	"id": "FatuiElectroCicinMage",
+	"shareid": 4408,
+	"name": "Fatui – Elektro-Cicin-Zauberin",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 10,
+		"cardType": "Figurenkarte",
+		"energy": 2,
+		"element": "Elektro",
+		"weapon": "Andere Waffen",
+		"faction": [
+			"Fatui"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "HurtlingBolts",
+			"name": "Dröhnender Blitz",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.",
+			"skilltag": [
+				"Standardangriff"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektro",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "Würfel (beliebig)",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "MistyCall",
+			"name": "Vernebelter Ruf",
+			"desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Elektro-Cicin</span>.",
+			"skilltag": [
+				"Elementarfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektro",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "ThunderingShield",
+			"name": "Donnernder Schild",
+			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, verleiht der Figur das <span style=\"color:#FFACFFFF\">Elektro-Attribut</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Elektro-Cicin-Ummantelung</span> und bereitet die Fähigkeit <span style=\"color:#FFFFFFFF\">Ausbrechender Donner</span> vor.",
+			"skilltag": [
+				"Spezialfähigkeit"
+			],
+			"points": [
+				{
+					"id": "Electro",
+					"type": "Elektro",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "Aufladung",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
+}

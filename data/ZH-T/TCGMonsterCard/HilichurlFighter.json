@@ -1,74 +1,72 @@
 {
-  "id": "HilichurlFighter",
-  "name": "打手丘丘人",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 4,
-    "card_type": "角色牌",
-    "energy": 2,
-    "element": "無元素類型",
-    "weapon": "其他武器",
-    "faction": [
-      "魔物",
-      "丘丘人"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "Hit",
-      "name": "打",
-      "desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
-      "skillTag": [
-        "普通攻擊"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "無色元素",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "JumpAndHit",
-      "name": "跳起打",
-      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
-      "skillTag": [
-        "元素戰技"
-      ],
-      "points": [
-        {
-          
-          "id": "UnalignedElement",
-          "type": "無色元素",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "SwingThatClub",
-      "name": "揮來揮去",
-      "desc": "造成4點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
-      "skillTag": [
-        "元素爆發"
-      ],
-      "points": [
-        {
-          
-          "id": "MatchingElement",
-          "type": "相同元素",
-          "count": 3
-        },
-        {
-          
-          "id": "Energy",
-          "type": "充能",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "HilichurlFighter",
+	"shareid": 3001,
+	"name": "打手丘丘人",
+	"title": null,
+	"desc": null,
+	"attributes": {
+		"hp": 4,
+		"cardType": "角色牌",
+		"energy": 2,
+		"element": "無元素類型",
+		"weapon": "其他武器",
+		"faction": [
+			"魔物",
+			"丘丘人"
+		],
+		"source": null
+	},
+	"skills": [
+		{
+			"id": "Hit",
+			"name": "打",
+			"desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+			"skilltag": [
+				"普通攻擊"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "無色元素",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "JumpAndHit",
+			"name": "跳起打",
+			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+			"skilltag": [
+				"元素戰技"
+			],
+			"points": [
+				{
+					"id": "UnalignedElement",
+					"type": "無色元素",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "SwingThatClub",
+			"name": "揮來揮去",
+			"desc": "造成4點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+			"skilltag": [
+				"元素爆發"
+			],
+			"points": [
+				{
+					"id": "MatchingElement",
+					"type": "相同元素",
+					"count": 3
+				},
+				{
+					"id": "Energy",
+					"type": "充能",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }

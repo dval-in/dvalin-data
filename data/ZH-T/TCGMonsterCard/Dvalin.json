@@ -1,95 +1,99 @@
 {
-  "id": "Dvalin",
-  "name": "特瓦林",
-  "title": null,
-  "desc": null,
-  "attributes": {
-    "hp": 10,
-    "card_type": "角色牌",
-    "energy": 2,
-    "element": "風元素",
-    "weapon": "其他武器",
-    "faction": [
-      "魔物"
-    ],
-    "source": null
-  },
-  "skills": [
-    {
-      "id": "LaceratingSlash",
-      "name": "裂爪橫擊",
-      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
-      "skillTag": [
-        "普通攻擊"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "風元素",
-          "count": 1
-        },
-        {
-          
-          "id": "UnalignedElement",
-          "type": "無色元素",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": "TempestuousBarrage",
-      "name": "暴風轟擊",
-      "desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，目標角色附屬<span style=\"color:#FFFFFFFF\">坍毀</span>。",
-      "skillTag": [
-        "元素戰技"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "風元素",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "id": "DvalinsCleansing",
-      "name": "風龍滌流",
-      "desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，然後分別<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">長延滌流</span>和<span style=\"color:#FFFFFFFF\">終幕滌流</span>。",
-      "skillTag": [
-        "元素戰技"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "風元素",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "id": "CaelestinumFinaleTermini",
-      "name": "終天閉幕曲",
-      "desc": "造成5點<span style=\"color:#80FFD7FF\">風元素傷害</span>，所有敵方後臺角色附屬<span style=\"color:#FFFFFFFF\">坍毀</span>。",
-      "skillTag": [
-        "元素爆發"
-      ],
-      "points": [
-        {
-          
-          "id": "Anemo",
-          "type": "風元素",
-          "count": 4
-        },
-        {
-          
-          "id": "Energy",
-          "type": "充能",
-          "count": 2
-        }
-      ]
-    }
-  ]
+	"id": "Dvalin",
+	"shareid": 287,
+	"name": "特瓦林",
+	"title": "東風之龍·特瓦林",
+	"desc": "「如果你曾是我，看見過你在藍藍的天上滑翔的孤高模樣，見識過你的美麗身姿就好了。」\\n「如此，你就會明白，這樣的天空與大地，是值得為之奮戰的。」",
+	"attributes": {
+		"hp": 10,
+		"cardType": "角色牌",
+		"energy": 2,
+		"element": "風元素",
+		"weapon": "其他武器",
+		"faction": [
+			"魔物"
+		],
+		"talentCard": {
+			"id": "RendingVortex",
+			"name": "Rending Vortex"
+		},
+		"source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度特瓦林中獲得勝利後獲得",
+		"character": {
+			"id": "Stormterror",
+			"name": "Stormterror"
+		}
+	},
+	"skills": [
+		{
+			"id": "LaceratingSlash",
+			"name": "裂爪橫擊",
+			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+			"skilltag": [
+				"普通攻擊"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "風元素",
+					"count": 1
+				},
+				{
+					"id": "UnalignedElement",
+					"type": "無色元素",
+					"count": 2
+				}
+			]
+		},
+		{
+			"id": "TempestuousBarrage",
+			"name": "暴風轟擊",
+			"desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，目標角色附屬<span style=\"color:#FFFFFFFF\">坍毀</span>。",
+			"skilltag": [
+				"元素戰技"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "風元素",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "DvalinsCleansing",
+			"name": "風龍滌流",
+			"desc": "造成2點<span style=\"color:#80FFD7FF\">風元素傷害</span>，然後分別<span style=\"color:#FFFFFFFF\">準備技能</span>：<span style=\"color:#FFFFFFFF\">長延滌流</span>和<span style=\"color:#FFFFFFFF\">終幕滌流</span>。",
+			"skilltag": [
+				"元素戰技"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "風元素",
+					"count": 5
+				}
+			]
+		},
+		{
+			"id": "CaelestinumFinaleTermini",
+			"name": "終天閉幕曲",
+			"desc": "造成5點<span style=\"color:#80FFD7FF\">風元素傷害</span>，所有敵方後臺角色附屬<span style=\"color:#FFFFFFFF\">坍毀</span>。",
+			"skilltag": [
+				"元素爆發"
+			],
+			"points": [
+				{
+					"id": "Anemo",
+					"type": "風元素",
+					"count": 4
+				},
+				{
+					"id": "Energy",
+					"type": "充能",
+					"count": 2
+				}
+			]
+		}
+	],
+	"version": "4.4"
 }
