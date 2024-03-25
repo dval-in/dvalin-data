@@ -197,11 +197,24 @@ const existInTCG = charName => {
 };
 
 const removeTrailingS = str => str.replace(/s$/, '');
+const appendDataToFile = (filename, newData) => {
+	try {
+		const filePath = path.resolve(__dirname, filename);
+		const data = fs.readFileSync(filePath, 'utf8');
+		const json = JSON.parse(data);
+		Object.assign(json, newData);
+		console.log(json);
+		fs.writeFileSync(filePath, JSON.stringify(json, null, 2), 'utf8');
+		console.log('The file has been updated successfully.');
+	} catch (err) {
+		console.error('An error occurred:', err);
+	}
+};
 
 // For each line of result : we read the file, parse it, pascalCase it, stringify it and write it in the correct folder
 resultArray.forEach(filePath => {
 	const fullPath = path.join(__dirname, `../../genshin-data/${filePath}`);
-	console.log('On : ', fullPath);
+	// Console.log('On : ', fullPath);
 	const langFolder = filePath.split('/')[2];
 	let dataFolder = filePath.split('/')[3];
 	if (!checkForExistingFile(fullPath) || dataFolder === 'domains.json') {
@@ -221,7 +234,6 @@ resultArray.forEach(filePath => {
 		dataFolder = dataFolder.slice(3);
 		dataFolder = removeTrailingS(dataFolder);
 		dataFolder = 'TCG' + dataFolder + 'Card';
-		console.log(dataFolder);
 	}
 
 	if (dataFolder === 'Characters' || dataFolder === 'Weapons' || dataFolder === 'Ingredients') {
@@ -230,6 +242,16 @@ resultArray.forEach(filePath => {
 
 	const pascalCasedData = updateFile(parsedData, dataFolder);
 	const destDir = path.join(__dirname, `../data/${language}/${dataFolder}`);
+
+	if (language === 'EN' && (dataFolder === 'Character' || dataFolder === 'Weapon')) {
+		const dataForIndex = {
+			[pascalCasedData.id]: {
+				name: pascalCasedData.name,
+				rarity: pascalCasedData.rarity,
+			},
+		};
+		appendDataToFile(`../data/EN/${dataFolder}/index.json`, dataForIndex);
+	}
 
 	if (!checkForExistingFile(destDir)) {
 		fs.mkdirSync(destDir, {recursive: true});
