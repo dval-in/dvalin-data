@@ -236,9 +236,11 @@ resultArray.forEach(filePath => {
 		dataFolder = 'TCG' + dataFolder + 'Card';
 	}
 
-	if (dataFolder === 'Characters' || dataFolder === 'Weapons' || dataFolder === 'Ingredients') {
-		dataFolder = removeTrailingS(dataFolder);
+	if (dataFolder === 'Achievements') {
+		dataFolder = 'AchievementCategory';
 	}
+
+	dataFolder = removeTrailingS(dataFolder);
 
 	const pascalCasedData = updateFile(parsedData, dataFolder);
 	const destDir = path.join(__dirname, `../data/${language}/${dataFolder}`);
