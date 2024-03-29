@@ -1,11 +1,11 @@
 {
 	"name": "dvalin-data",
-	"dependencies": {
-		"typescript-json-schema": "^0.62.0"
-	},
 	"scripts": {
 		"schemas": "node ./scripts/GenerateSchemas.js",
 		"lint": "eslint . --ext .ts,.tsx --fix"
+	},
+	"dependencies": {
+		"typescript-json-schema": "^0.62.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^18.4.4",
