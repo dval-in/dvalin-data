@@ -68,4 +68,7 @@ export type Weapon = {
 	};
 	refinements: WeaponRefinement[];
 	version: string;
+	pictures: {
+		icon: string;
+	};
 };
