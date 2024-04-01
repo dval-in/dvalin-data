@@ -1,323 +1,308 @@
 {
-  "id": "TheDockhandsAssistant",
-  "name": "船坞长剑",
-  "description": "如今几乎绝迹的便利切割工具，能够随着使用将钝化的刀片换掉。",
-  "rarity": 4,
-  "type": "单手剑",
-  "domain": "深潮的余响",
-  "passive": "船工号子",
-  "bonus": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span>40/50/60/70/80</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span>2/2.5/3/3.5/4</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
-  "stats": {
-    "primary": "基础攻击力",
-    "secondary": "生命值%",
-    "levels": [
-      {
-        "ascension": 0,
-        "level": 1,
-        "primary": 42,
-        "secondary": 9
-      },
-      {
-        "ascension": 0,
-        "level": 20,
-        "primary": 109,
-        "secondary": 15.9
-      },
-      {
-        "ascension": 1,
-        "level": 20,
-        "primary": 135,
-        "secondary": 15.9
-      },
-      {
-        "ascension": 1,
-        "level": 40,
-        "primary": 205,
-        "secondary": 23.2
-      },
-      {
-        "ascension": 2,
-        "level": 40,
-        "primary": 231,
-        "secondary": 23.2
-      },
-      {
-        "ascension": 2,
-        "level": 50,
-        "primary": 266,
-        "secondary": 26.8
-      },
-      {
-        "ascension": 3,
-        "level": 50,
-        "primary": 292,
-        "secondary": 26.8
-      },
-      {
-        "ascension": 3,
-        "level": 60,
-        "primary": 327,
-        "secondary": 30.4
-      },
-      {
-        "ascension": 4,
-        "level": 60,
-        "primary": 353,
-        "secondary": 30.4
-      },
-      {
-        "ascension": 4,
-        "level": 70,
-        "primary": 388,
-        "secondary": 34.1
-      },
-      {
-        "ascension": 5,
-        "level": 70,
-        "primary": 414,
-        "secondary": 34.1
-      },
-      {
-        "ascension": 5,
-        "level": 80,
-        "primary": 449,
-        "secondary": 37.7
-      },
-      {
-        "ascension": 6,
-        "level": 80,
-        "primary": 475,
-        "secondary": 37.7
-      },
-      {
-        "ascension": 6,
-        "level": 90,
-        "primary": 510,
-        "secondary": 41.3
-      }
-    ]
-  },
-  "ascensions": [
-    {
-      "ascension": 0,
-      "level": 20,
-      "materials": []
+    "id": "TheDockhandsAssistant",
+    "name": "\u8239\u575e\u957f\u5251",
+    "description": "\u5982\u4eca\u51e0\u4e4e\u7edd\u8ff9\u7684\u4fbf\u5229\u5207\u5272\u5de5\u5177\uff0c\u80fd\u591f\u968f\u7740\u4f7f\u7528\u5c06\u949d\u5316\u7684\u5200\u7247\u6362\u6389\u3002",
+    "rarity": 4,
+    "type": "\u5355\u624b\u5251",
+    "domain": "\u6df1\u6f6e\u7684\u4f59\u54cd",
+    "passive": "\u8239\u5de5\u53f7\u5b50",
+    "bonus": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span>40/50/60/70/80</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span>2/2.5/3/3.5/4</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002",
+    "stats": {
+        "primary": "\u57fa\u7840\u653b\u51fb\u529b",
+        "secondary": "\u751f\u547d\u503c%",
+        "levels": [
+            {
+                "ascension": 0,
+                "level": 1,
+                "primary": 42,
+                "secondary": 9
+            },
+            {
+                "ascension": 0,
+                "level": 20,
+                "primary": 109,
+                "secondary": 15.9
+            },
+            {
+                "ascension": 1,
+                "level": 20,
+                "primary": 135,
+                "secondary": 15.9
+            },
+            {
+                "ascension": 1,
+                "level": 40,
+                "primary": 205,
+                "secondary": 23.2
+            },
+            {
+                "ascension": 2,
+                "level": 40,
+                "primary": 231,
+                "secondary": 23.2
+            },
+            {
+                "ascension": 2,
+                "level": 50,
+                "primary": 266,
+                "secondary": 26.8
+            },
+            {
+                "ascension": 3,
+                "level": 50,
+                "primary": 292,
+                "secondary": 26.8
+            },
+            {
+                "ascension": 3,
+                "level": 60,
+                "primary": 327,
+                "secondary": 30.4
+            },
+            {
+                "ascension": 4,
+                "level": 60,
+                "primary": 353,
+                "secondary": 30.4
+            },
+            {
+                "ascension": 4,
+                "level": 70,
+                "primary": 388,
+                "secondary": 34.1
+            },
+            {
+                "ascension": 5,
+                "level": 70,
+                "primary": 414,
+                "secondary": 34.1
+            },
+            {
+                "ascension": 5,
+                "level": 80,
+                "primary": 449,
+                "secondary": 37.7
+            },
+            {
+                "ascension": 6,
+                "level": 80,
+                "primary": 475,
+                "secondary": 37.7
+            },
+            {
+                "ascension": 6,
+                "level": 90,
+                "primary": 510,
+                "secondary": 41.3
+            }
+        ]
     },
-    {
-      "ascension": 1,
-      "level": 40,
-      "cost": 5000,
-      "materials": [
+    "ascensions": [
         {
-          
-          "id": "DrossOfPureSacredDewdrop",
-          "name": "纯圣露滴的滤渣",
-          "amount": 3,
-          "rarity": 2
+            "ascension": 0,
+            "level": 20,
+            "materials": []
         },
         {
-          
-          "id": "OldOperativesPocketWatch",
-          "name": "老旧的役人怀表",
-          "amount": 3,
-          "rarity": 2
+            "ascension": 1,
+            "level": 40,
+            "cost": 5000,
+            "materials": [
+                {
+                    "id": "DrossOfPureSacredDewdrop",
+                    "name": "\u7eaf\u5723\u9732\u6ef4\u7684\u6ee4\u6e23",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "OldOperativesPocketWatch",
+                    "name": "\u8001\u65e7\u7684\u5f79\u4eba\u6000\u8868",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "TransoceanicPearl",
+                    "name": "\u5f02\u6d77\u51dd\u73e0",
+                    "amount": 2,
+                    "rarity": 1
+                }
+            ]
         },
         {
-          
-          "id": "TransoceanicPearl",
-          "name": "异海凝珠",
-          "amount": 2,
-          "rarity": 1
+            "ascension": 2,
+            "level": 50,
+            "cost": 15000,
+            "materials": [
+                {
+                    "id": "SublimationOfPureSacredDewdrop",
+                    "name": "\u7eaf\u5723\u9732\u6ef4\u7684\u51dd\u534e",
+                    "amount": 3,
+                    "rarity": 3
+                },
+                {
+                    "id": "OldOperativesPocketWatch",
+                    "name": "\u8001\u65e7\u7684\u5f79\u4eba\u6000\u8868",
+                    "amount": 12,
+                    "rarity": 2
+                },
+                {
+                    "id": "TransoceanicPearl",
+                    "name": "\u5f02\u6d77\u51dd\u73e0",
+                    "amount": 8,
+                    "rarity": 1
+                }
+            ]
+        },
+        {
+            "ascension": 3,
+            "level": 60,
+            "cost": 20000,
+            "materials": [
+                {
+                    "id": "SublimationOfPureSacredDewdrop",
+                    "name": "\u7eaf\u5723\u9732\u6ef4\u7684\u51dd\u534e",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "OperativesStandardPocketWatch",
+                    "name": "\u5f79\u4eba\u7684\u5236\u5f0f\u6000\u8868",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "TransoceanicChunk",
+                    "name": "\u5f02\u6d77\u4e4b\u5757",
+                    "amount": 6,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 4,
+            "level": 70,
+            "cost": 30000,
+            "materials": [
+                {
+                    "id": "SpringOfPureSacredDewdrop",
+                    "name": "\u7eaf\u5723\u9732\u6ef4\u7684\u91b4\u6cc9",
+                    "amount": 3,
+                    "rarity": 4
+                },
+                {
+                    "id": "OperativesStandardPocketWatch",
+                    "name": "\u5f79\u4eba\u7684\u5236\u5f0f\u6000\u8868",
+                    "amount": 12,
+                    "rarity": 3
+                },
+                {
+                    "id": "TransoceanicChunk",
+                    "name": "\u5f02\u6d77\u4e4b\u5757",
+                    "amount": 9,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 5,
+            "level": 80,
+            "cost": 35000,
+            "materials": [
+                {
+                    "id": "SpringOfPureSacredDewdrop",
+                    "name": "\u7eaf\u5723\u9732\u6ef4\u7684\u91b4\u6cc9",
+                    "amount": 6,
+                    "rarity": 4
+                },
+                {
+                    "id": "OperativesConstancy",
+                    "name": "\u5f79\u4eba\u7684\u65f6\u65f6\u523b\u523b",
+                    "amount": 9,
+                    "rarity": 4
+                },
+                {
+                    "id": "XenochromaticCrystal",
+                    "name": "\u5f02\u8272\u7ed3\u6676\u77f3",
+                    "amount": 6,
+                    "rarity": 3
+                }
+            ]
+        },
+        {
+            "ascension": 6,
+            "level": 90,
+            "cost": 45000,
+            "materials": [
+                {
+                    "id": "EssenceOfPureSacredDewdrop",
+                    "name": "\u7eaf\u5723\u9732\u6ef4\u7684\u771f\u7cb9",
+                    "amount": 4,
+                    "rarity": 5
+                },
+                {
+                    "id": "OperativesConstancy",
+                    "name": "\u5f79\u4eba\u7684\u65f6\u65f6\u523b\u523b",
+                    "amount": 18,
+                    "rarity": 4
+                },
+                {
+                    "id": "XenochromaticCrystal",
+                    "name": "\u5f02\u8272\u7ed3\u6676\u77f3",
+                    "amount": 12,
+                    "rarity": 3
+                }
+            ]
         }
-      ]
+    ],
+    "refinement_raw": {
+        "name": "\u8239\u5de5\u53f7\u5b50",
+        "template": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span style=\"color:#99FFFFFF\">{0}</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span style=\"color:#99FFFFFF\">{1}</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002",
+        "params": [
+            [
+                "40",
+                "2"
+            ],
+            [
+                "50",
+                "2.5"
+            ],
+            [
+                "60",
+                "3"
+            ],
+            [
+                "70",
+                "3.5"
+            ],
+            [
+                "80",
+                "4"
+            ]
+        ]
     },
-    {
-      "ascension": 2,
-      "level": 50,
-      "cost": 15000,
-      "materials": [
+    "refinements": [
         {
-          
-          "id": "SublimationOfPureSacredDewdrop",
-          "name": "纯圣露滴的凝华",
-          "amount": 3,
-          "rarity": 3
+            "refinement": 1,
+            "desc": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span>40</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span>2</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002"
         },
         {
-          
-          "id": "OldOperativesPocketWatch",
-          "name": "老旧的役人怀表",
-          "amount": 12,
-          "rarity": 2
+            "refinement": 2,
+            "desc": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span>50</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span>2.5</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002"
         },
         {
-          
-          "id": "TransoceanicPearl",
-          "name": "异海凝珠",
-          "amount": 8,
-          "rarity": 1
+            "refinement": 3,
+            "desc": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span>60</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span>3</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002"
+        },
+        {
+            "refinement": 4,
+            "desc": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span>70</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span>3.5</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002"
+        },
+        {
+            "refinement": 5,
+            "desc": "\u53d7\u5230\u6cbb\u7597\u6216\u8fdb\u884c\u6cbb\u7597\u65f6\uff0c\u5c06\u8d4b\u4e88\u4e00\u679a\u575a\u5fcd\u6807\u8bb0\uff0c\u6301\u7eed30\u79d2\uff0c\u81f3\u591a\u62e5\u6709\u4e09\u679a\u575a\u5fcd\u6807\u8bb0\u3002\u65bd\u653e\u5143\u7d20\u6218\u6280\u6216\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u5c06\u6d88\u8017\u6240\u6709\u7684\u575a\u5fcd\u6807\u8bb0\uff0c\u4ea7\u751f\u6301\u7eed10\u79d2\u7684\u300c\u594b\u8d77\u300d\u6548\u679c\uff1a\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u63d0\u9ad8<span>80</span>\u70b9\u5143\u7d20\u7cbe\u901a\uff0c\u5e76\u5728\u6548\u679c\u4ea7\u751f2\u79d2\u540e\uff0c\u6bcf\u679a\u6d88\u8017\u7684\u575a\u5fcd\u6807\u8bb0\u4e3a\u88c5\u5907\u8005\u6062\u590d<span>4</span>\u70b9\u5143\u7d20\u80fd\u91cf\u3002\u6bcf15\u79d2\u81f3\u591a\u89e6\u53d1\u4e00\u6b21\u594b\u8d77\u6548\u679c\uff1b\u89d2\u8272\u5904\u4e8e\u961f\u4f0d\u540e\u53f0\u65f6\u4e5f\u80fd\u83b7\u5f97\u575a\u5fcd\u6807\u8bb0\u3002"
         }
-      ]
-    },
-    {
-      "ascension": 3,
-      "level": 60,
-      "cost": 20000,
-      "materials": [
-        {
-          
-          "id": "SublimationOfPureSacredDewdrop",
-          "name": "纯圣露滴的凝华",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          
-          "id": "OperativesStandardPocketWatch",
-          "name": "役人的制式怀表",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          
-          "id": "TransoceanicChunk",
-          "name": "异海之块",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 4,
-      "level": 70,
-      "cost": 30000,
-      "materials": [
-        {
-          
-          "id": "SpringOfPureSacredDewdrop",
-          "name": "纯圣露滴的醴泉",
-          "amount": 3,
-          "rarity": 4
-        },
-        {
-          
-          "id": "OperativesStandardPocketWatch",
-          "name": "役人的制式怀表",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          
-          "id": "TransoceanicChunk",
-          "name": "异海之块",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 5,
-      "level": 80,
-      "cost": 35000,
-      "materials": [
-        {
-          
-          "id": "SpringOfPureSacredDewdrop",
-          "name": "纯圣露滴的醴泉",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          
-          "id": "OperativesConstancy",
-          "name": "役人的时时刻刻",
-          "amount": 9,
-          "rarity": 4
-        },
-        {
-          
-          "id": "XenochromaticCrystal",
-          "name": "异色结晶石",
-          "amount": 6,
-          "rarity": 3
-        }
-      ]
-    },
-    {
-      "ascension": 6,
-      "level": 90,
-      "cost": 45000,
-      "materials": [
-        {
-          
-          "id": "EssenceOfPureSacredDewdrop",
-          "name": "纯圣露滴的真粹",
-          "amount": 4,
-          "rarity": 5
-        },
-        {
-          
-          "id": "OperativesConstancy",
-          "name": "役人的时时刻刻",
-          "amount": 18,
-          "rarity": 4
-        },
-        {
-          
-          "id": "XenochromaticCrystal",
-          "name": "异色结晶石",
-          "amount": 12,
-          "rarity": 3
-        }
-      ]
+    ],
+    "pictures": {
+        "icon": "Weapon/TheDockhandsAssistant/Icon.webp"
     }
-  ],
-  "refinement_raw": {
-    "name": "船工号子",
-    "template": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span style=\"color:#99FFFFFF\">{0}</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span style=\"color:#99FFFFFF\">{1}</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
-    "params": [
-      [
-        "40",
-        "2"
-      ],
-      [
-        "50",
-        "2.5"
-      ],
-      [
-        "60",
-        "3"
-      ],
-      [
-        "70",
-        "3.5"
-      ],
-      [
-        "80",
-        "4"
-      ]
-    ]
-  },
-  "refinements": [
-    {
-      "refinement": 1,
-      "desc": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span>40</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span>2</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。"
-    },
-    {
-      "refinement": 2,
-      "desc": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span>50</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span>2.5</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。"
-    },
-    {
-      "refinement": 3,
-      "desc": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span>60</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span>3</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。"
-    },
-    {
-      "refinement": 4,
-      "desc": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span>70</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span>3.5</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。"
-    },
-    {
-      "refinement": 5,
-      "desc": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高<span>80</span>点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复<span>4</span>点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。"
-    }
-  ]
 }

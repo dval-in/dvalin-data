@@ -68,6 +68,17 @@
     "passive": {
       "type": "string"
     },
+    "pictures": {
+      "properties": {
+        "icon": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "icon"
+      ],
+      "type": "object"
+    },
     "rarity": {
       "type": "number"
     },
@@ -173,6 +184,7 @@
     "id",
     "name",
     "passive",
+    "pictures",
     "rarity",
     "refinementRaw",
     "refinements",

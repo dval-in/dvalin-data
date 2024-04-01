@@ -1,323 +1,308 @@
 {
-  "id": "MistsplitterReforged",
-  "name": "雾切之回光",
-  "description": "闪烁着凄烈紫光的太刀。名之为「回光」是因为一度破碎的过去。",
-  "rarity": 5,
-  "type": "单手剑",
-  "domain": "砂流之庭",
-  "passive": "雾切御腰物",
-  "bonus": "获得<span>12%/15%/18%/21%/24%</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span>8/16/28%/10/20/35%/12/24/42%/14/28/49%/16/32/56%</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
-  "stats": {
-    "primary": "基础攻击力",
-    "secondary": "暴击伤害",
-    "levels": [
-      {
-        "ascension": 0,
-        "level": 1,
-        "primary": 48,
-        "secondary": 9.6
-      },
-      {
-        "ascension": 0,
-        "level": 20,
-        "primary": 133,
-        "secondary": 17
-      },
-      {
-        "ascension": 1,
-        "level": 20,
-        "primary": 164,
-        "secondary": 17
-      },
-      {
-        "ascension": 1,
-        "level": 40,
-        "primary": 261,
-        "secondary": 24.7
-      },
-      {
-        "ascension": 2,
-        "level": 40,
-        "primary": 292,
-        "secondary": 24.7
-      },
-      {
-        "ascension": 2,
-        "level": 50,
-        "primary": 341,
-        "secondary": 28.6
-      },
-      {
-        "ascension": 3,
-        "level": 50,
-        "primary": 373,
-        "secondary": 28.6
-      },
-      {
-        "ascension": 3,
-        "level": 60,
-        "primary": 423,
-        "secondary": 32.5
-      },
-      {
-        "ascension": 4,
-        "level": 60,
-        "primary": 455,
-        "secondary": 32.5
-      },
-      {
-        "ascension": 4,
-        "level": 70,
-        "primary": 506,
-        "secondary": 36.3
-      },
-      {
-        "ascension": 5,
-        "level": 70,
-        "primary": 537,
-        "secondary": 36.3
-      },
-      {
-        "ascension": 5,
-        "level": 80,
-        "primary": 590,
-        "secondary": 40.2
-      },
-      {
-        "ascension": 6,
-        "level": 80,
-        "primary": 621,
-        "secondary": 40.2
-      },
-      {
-        "ascension": 6,
-        "level": 90,
-        "primary": 674,
-        "secondary": 44.1
-      }
-    ]
-  },
-  "ascensions": [
-    {
-      "ascension": 0,
-      "level": 20,
-      "materials": []
+    "id": "MistsplitterReforged",
+    "name": "\u96fe\u5207\u4e4b\u56de\u5149",
+    "description": "\u95ea\u70c1\u7740\u51c4\u70c8\u7d2b\u5149\u7684\u592a\u5200\u3002\u540d\u4e4b\u4e3a\u300c\u56de\u5149\u300d\u662f\u56e0\u4e3a\u4e00\u5ea6\u7834\u788e\u7684\u8fc7\u53bb\u3002",
+    "rarity": 5,
+    "type": "\u5355\u624b\u5251",
+    "domain": "\u7802\u6d41\u4e4b\u5ead",
+    "passive": "\u96fe\u5207\u5fa1\u8170\u7269",
+    "bonus": "\u83b7\u5f97<span>12%/15%/18%/21%/24%</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span>8/16/28%/10/20/35%/12/24/42%/14/28/49%/16/32/56%</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002",
+    "stats": {
+        "primary": "\u57fa\u7840\u653b\u51fb\u529b",
+        "secondary": "\u66b4\u51fb\u4f24\u5bb3",
+        "levels": [
+            {
+                "ascension": 0,
+                "level": 1,
+                "primary": 48,
+                "secondary": 9.6
+            },
+            {
+                "ascension": 0,
+                "level": 20,
+                "primary": 133,
+                "secondary": 17
+            },
+            {
+                "ascension": 1,
+                "level": 20,
+                "primary": 164,
+                "secondary": 17
+            },
+            {
+                "ascension": 1,
+                "level": 40,
+                "primary": 261,
+                "secondary": 24.7
+            },
+            {
+                "ascension": 2,
+                "level": 40,
+                "primary": 292,
+                "secondary": 24.7
+            },
+            {
+                "ascension": 2,
+                "level": 50,
+                "primary": 341,
+                "secondary": 28.6
+            },
+            {
+                "ascension": 3,
+                "level": 50,
+                "primary": 373,
+                "secondary": 28.6
+            },
+            {
+                "ascension": 3,
+                "level": 60,
+                "primary": 423,
+                "secondary": 32.5
+            },
+            {
+                "ascension": 4,
+                "level": 60,
+                "primary": 455,
+                "secondary": 32.5
+            },
+            {
+                "ascension": 4,
+                "level": 70,
+                "primary": 506,
+                "secondary": 36.3
+            },
+            {
+                "ascension": 5,
+                "level": 70,
+                "primary": 537,
+                "secondary": 36.3
+            },
+            {
+                "ascension": 5,
+                "level": 80,
+                "primary": 590,
+                "secondary": 40.2
+            },
+            {
+                "ascension": 6,
+                "level": 80,
+                "primary": 621,
+                "secondary": 40.2
+            },
+            {
+                "ascension": 6,
+                "level": 90,
+                "primary": 674,
+                "secondary": 44.1
+            }
+        ]
     },
-    {
-      "ascension": 1,
-      "level": 40,
-      "cost": 10000,
-      "materials": [
+    "ascensions": [
         {
-          
-          "id": "CoralBranchOfADistantSea",
-          "name": "远海夷地的瑚枝",
-          "amount": 5,
-          "rarity": 2
+            "ascension": 0,
+            "level": 20,
+            "materials": []
         },
         {
-          
-          "id": "ChaosGear",
-          "name": "混沌机关",
-          "amount": 5,
-          "rarity": 2
+            "ascension": 1,
+            "level": 40,
+            "cost": 10000,
+            "materials": [
+                {
+                    "id": "CoralBranchOfADistantSea",
+                    "name": "\u8fdc\u6d77\u5937\u5730\u7684\u745a\u679d",
+                    "amount": 5,
+                    "rarity": 2
+                },
+                {
+                    "id": "ChaosGear",
+                    "name": "\u6df7\u6c8c\u673a\u5173",
+                    "amount": 5,
+                    "rarity": 2
+                },
+                {
+                    "id": "OldHandguard",
+                    "name": "\u7834\u65e7\u7684\u5200\u9561",
+                    "amount": 3,
+                    "rarity": 1
+                }
+            ]
         },
         {
-          
-          "id": "OldHandguard",
-          "name": "破旧的刀镡",
-          "amount": 3,
-          "rarity": 1
+            "ascension": 2,
+            "level": 50,
+            "cost": 20000,
+            "materials": [
+                {
+                    "id": "JeweledBranchOfADistantSea",
+                    "name": "\u8fdc\u6d77\u5937\u5730\u7684\u7389\u679d",
+                    "amount": 5,
+                    "rarity": 3
+                },
+                {
+                    "id": "ChaosGear",
+                    "name": "\u6df7\u6c8c\u673a\u5173",
+                    "amount": 18,
+                    "rarity": 2
+                },
+                {
+                    "id": "OldHandguard",
+                    "name": "\u7834\u65e7\u7684\u5200\u9561",
+                    "amount": 12,
+                    "rarity": 1
+                }
+            ]
+        },
+        {
+            "ascension": 3,
+            "level": 60,
+            "cost": 30000,
+            "materials": [
+                {
+                    "id": "JeweledBranchOfADistantSea",
+                    "name": "\u8fdc\u6d77\u5937\u5730\u7684\u7389\u679d",
+                    "amount": 9,
+                    "rarity": 3
+                },
+                {
+                    "id": "ChaosAxis",
+                    "name": "\u6df7\u6c8c\u67a2\u7ebd",
+                    "amount": 9,
+                    "rarity": 3
+                },
+                {
+                    "id": "KageuchiHandguard",
+                    "name": "\u5f71\u6253\u5200\u9561",
+                    "amount": 9,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 4,
+            "level": 70,
+            "cost": 45000,
+            "materials": [
+                {
+                    "id": "JadeBranchOfADistantSea",
+                    "name": "\u8fdc\u6d77\u5937\u5730\u7684\u743c\u679d",
+                    "amount": 5,
+                    "rarity": 4
+                },
+                {
+                    "id": "ChaosAxis",
+                    "name": "\u6df7\u6c8c\u67a2\u7ebd",
+                    "amount": 18,
+                    "rarity": 3
+                },
+                {
+                    "id": "KageuchiHandguard",
+                    "name": "\u5f71\u6253\u5200\u9561",
+                    "amount": 14,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 5,
+            "level": 80,
+            "cost": 55000,
+            "materials": [
+                {
+                    "id": "JadeBranchOfADistantSea",
+                    "name": "\u8fdc\u6d77\u5937\u5730\u7684\u743c\u679d",
+                    "amount": 9,
+                    "rarity": 4
+                },
+                {
+                    "id": "ChaosOculus",
+                    "name": "\u6df7\u6c8c\u771f\u773c",
+                    "amount": 14,
+                    "rarity": 4
+                },
+                {
+                    "id": "FamedHandguard",
+                    "name": "\u540d\u5200\u9561",
+                    "amount": 9,
+                    "rarity": 3
+                }
+            ]
+        },
+        {
+            "ascension": 6,
+            "level": 90,
+            "cost": 65000,
+            "materials": [
+                {
+                    "id": "GoldenBranchOfADistantSea",
+                    "name": "\u8fdc\u6d77\u5937\u5730\u7684\u91d1\u679d",
+                    "amount": 6,
+                    "rarity": 5
+                },
+                {
+                    "id": "ChaosOculus",
+                    "name": "\u6df7\u6c8c\u771f\u773c",
+                    "amount": 27,
+                    "rarity": 4
+                },
+                {
+                    "id": "FamedHandguard",
+                    "name": "\u540d\u5200\u9561",
+                    "amount": 18,
+                    "rarity": 3
+                }
+            ]
         }
-      ]
+    ],
+    "refinement_raw": {
+        "name": "\u96fe\u5207\u5fa1\u8170\u7269",
+        "template": "\u83b7\u5f97<span style=\"color:#99FFFFFF\">{0}</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span style=\"color:#99FFFFFF\">{1}</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002",
+        "params": [
+            [
+                "12%",
+                "8/16/28%"
+            ],
+            [
+                "15%",
+                "10/20/35%"
+            ],
+            [
+                "18%",
+                "12/24/42%"
+            ],
+            [
+                "21%",
+                "14/28/49%"
+            ],
+            [
+                "24%",
+                "16/32/56%"
+            ]
+        ]
     },
-    {
-      "ascension": 2,
-      "level": 50,
-      "cost": 20000,
-      "materials": [
+    "refinements": [
         {
-          
-          "id": "JeweledBranchOfADistantSea",
-          "name": "远海夷地的玉枝",
-          "amount": 5,
-          "rarity": 3
+            "refinement": 1,
+            "desc": "\u83b7\u5f97<span>12%</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span>8/16/28%</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002"
         },
         {
-          
-          "id": "ChaosGear",
-          "name": "混沌机关",
-          "amount": 18,
-          "rarity": 2
+            "refinement": 2,
+            "desc": "\u83b7\u5f97<span>15%</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span>10/20/35%</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002"
         },
         {
-          
-          "id": "OldHandguard",
-          "name": "破旧的刀镡",
-          "amount": 12,
-          "rarity": 1
+            "refinement": 3,
+            "desc": "\u83b7\u5f97<span>18%</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span>12/24/42%</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002"
+        },
+        {
+            "refinement": 4,
+            "desc": "\u83b7\u5f97<span>21%</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span>14/28/49%</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002"
+        },
+        {
+            "refinement": 5,
+            "desc": "\u83b7\u5f97<span>24%</span>\u6240\u6709\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\uff0c\u5e76\u80fd\u83b7\u5f97\u300c\u96fe\u5207\u4e4b\u5df4\u5370\u300d\u7684\u5a01\u52bf\u3002\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u6301\u67091/2/3\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u65f6\uff0c\u83b7\u5f97<span>16/32/56%</span>\u81ea\u5df1\u7684\u5143\u7d20\u7c7b\u578b\u7684\u5143\u7d20\u4f24\u5bb3\u52a0\u6210\u3002\u5728\u4e0b\u5217\u60c5\u51b5\u4e0b\uff0c\u89d2\u8272\u5c06\u5404\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210\u5143\u7d20\u4f24\u5bb3\u65f6\uff0c\u6301\u7eed5\u79d2\uff1b\u65bd\u653e\u5143\u7d20\u7206\u53d1\u65f6\uff0c\u6301\u7eed10\u79d2\uff1b\u6b64\u5916\uff0c\u89d2\u8272\u5143\u7d20\u80fd\u91cf\u4f4e\u4e8e100%\u65f6\uff0c\u5c06\u83b7\u5f971\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\uff0c\u6b64\u96fe\u5207\u4e4b\u5df4\u5370\u4f1a\u5728\u89d2\u8272\u7684\u5143\u7d20\u80fd\u91cf\u5145\u6ee1\u65f6\u6d88\u5931\u3002\u6bcf\u5c42\u96fe\u5207\u4e4b\u5df4\u5370\u7684\u6301\u7eed\u65f6\u95f4\u72ec\u7acb\u8ba1\u7b97\u3002"
         }
-      ]
-    },
-    {
-      "ascension": 3,
-      "level": 60,
-      "cost": 30000,
-      "materials": [
-        {
-          
-          "id": "JeweledBranchOfADistantSea",
-          "name": "远海夷地的玉枝",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          
-          "id": "ChaosAxis",
-          "name": "混沌枢纽",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          
-          "id": "KageuchiHandguard",
-          "name": "影打刀镡",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 4,
-      "level": 70,
-      "cost": 45000,
-      "materials": [
-        {
-          
-          "id": "JadeBranchOfADistantSea",
-          "name": "远海夷地的琼枝",
-          "amount": 5,
-          "rarity": 4
-        },
-        {
-          
-          "id": "ChaosAxis",
-          "name": "混沌枢纽",
-          "amount": 18,
-          "rarity": 3
-        },
-        {
-          
-          "id": "KageuchiHandguard",
-          "name": "影打刀镡",
-          "amount": 14,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 5,
-      "level": 80,
-      "cost": 55000,
-      "materials": [
-        {
-          
-          "id": "JadeBranchOfADistantSea",
-          "name": "远海夷地的琼枝",
-          "amount": 9,
-          "rarity": 4
-        },
-        {
-          
-          "id": "ChaosOculus",
-          "name": "混沌真眼",
-          "amount": 14,
-          "rarity": 4
-        },
-        {
-          
-          "id": "FamedHandguard",
-          "name": "名刀镡",
-          "amount": 9,
-          "rarity": 3
-        }
-      ]
-    },
-    {
-      "ascension": 6,
-      "level": 90,
-      "cost": 65000,
-      "materials": [
-        {
-          
-          "id": "GoldenBranchOfADistantSea",
-          "name": "远海夷地的金枝",
-          "amount": 6,
-          "rarity": 5
-        },
-        {
-          
-          "id": "ChaosOculus",
-          "name": "混沌真眼",
-          "amount": 27,
-          "rarity": 4
-        },
-        {
-          
-          "id": "FamedHandguard",
-          "name": "名刀镡",
-          "amount": 18,
-          "rarity": 3
-        }
-      ]
+    ],
+    "pictures": {
+        "icon": "Weapon/MistsplitterReforged/Icon.webp"
     }
-  ],
-  "refinement_raw": {
-    "name": "雾切御腰物",
-    "template": "获得<span style=\"color:#99FFFFFF\">{0}</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span style=\"color:#99FFFFFF\">{1}</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。",
-    "params": [
-      [
-        "12%",
-        "8/16/28%"
-      ],
-      [
-        "15%",
-        "10/20/35%"
-      ],
-      [
-        "18%",
-        "12/24/42%"
-      ],
-      [
-        "21%",
-        "14/28/49%"
-      ],
-      [
-        "24%",
-        "16/32/56%"
-      ]
-    ]
-  },
-  "refinements": [
-    {
-      "refinement": 1,
-      "desc": "获得<span>12%</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span>8/16/28%</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。"
-    },
-    {
-      "refinement": 2,
-      "desc": "获得<span>15%</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span>10/20/35%</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。"
-    },
-    {
-      "refinement": 3,
-      "desc": "获得<span>18%</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span>12/24/42%</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。"
-    },
-    {
-      "refinement": 4,
-      "desc": "获得<span>21%</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span>14/28/49%</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。"
-    },
-    {
-      "refinement": 5,
-      "desc": "获得<span>24%</span>所有元素伤害加成，并能获得「雾切之巴印」的威势。雾切之巴印：持有1/2/3层雾切之巴印时，获得<span>16/32/56%</span>自己的元素类型的元素伤害加成。在下列情况下，角色将各获得1层雾切之巴印：普通攻击造成元素伤害时，持续5秒；施放元素爆发时，持续10秒；此外，角色元素能量低于100%时，将获得1层雾切之巴印，此雾切之巴印会在角色的元素能量充满时消失。每层雾切之巴印的持续时间独立计算。"
-    }
-  ]
 }

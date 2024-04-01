@@ -1,318 +1,303 @@
 {
-  "id": "PrototypeRancour",
-  "name": "Prototype Rancour",
-  "description": "ดาบยาวโบราณที่ถูกซ่อนไว้ใน Blackcliff Forge มันสามารถตัดผ่านหินได้และดาบไม่บิ่น",
-  "rarity": 4,
-  "type": "ดาบ",
-  "domain": "ราชวังลับแห่ง Lianshan Formula",
-  "passive": "Crushed Stone",
-  "bonus": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span>4%/5%/6%/7%/8%</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที",
-  "stats": {
-    "primary": "พลังโจมตีพื้นฐาน",
-    "secondary": "โบนัสความเสียหายกายภาพ",
-    "levels": [
-      {
-        "ascension": 0,
-        "level": 1,
-        "primary": 44,
-        "secondary": 7.5
-      },
-      {
-        "ascension": 0,
-        "level": 20,
-        "primary": 119,
-        "secondary": 13.3
-      },
-      {
-        "ascension": 1,
-        "level": 20,
-        "primary": 144,
-        "secondary": 13.3
-      },
-      {
-        "ascension": 1,
-        "level": 40,
-        "primary": 226,
-        "secondary": 19.3
-      },
-      {
-        "ascension": 2,
-        "level": 40,
-        "primary": 252,
-        "secondary": 19.3
-      },
-      {
-        "ascension": 2,
-        "level": 50,
-        "primary": 293,
-        "secondary": 22.4
-      },
-      {
-        "ascension": 3,
-        "level": 50,
-        "primary": 319,
-        "secondary": 22.4
-      },
-      {
-        "ascension": 3,
-        "level": 60,
-        "primary": 361,
-        "secondary": 25.4
-      },
-      {
-        "ascension": 4,
-        "level": 60,
-        "primary": 387,
-        "secondary": 25.4
-      },
-      {
-        "ascension": 4,
-        "level": 70,
-        "primary": 429,
-        "secondary": 28.4
-      },
-      {
-        "ascension": 5,
-        "level": 70,
-        "primary": 455,
-        "secondary": 28.4
-      },
-      {
-        "ascension": 5,
-        "level": 80,
-        "primary": 497,
-        "secondary": 31.5
-      },
-      {
-        "ascension": 6,
-        "level": 80,
-        "primary": 523,
-        "secondary": 31.5
-      },
-      {
-        "ascension": 6,
-        "level": 90,
-        "primary": 565,
-        "secondary": 34.5
-      }
-    ]
-  },
-  "ascensions": [
-    {
-      "ascension": 0,
-      "level": 20,
-      "materials": []
+    "id": "PrototypeRancour",
+    "name": "Prototype Rancour",
+    "description": "\u0e14\u0e32\u0e1a\u0e22\u0e32\u0e27\u0e42\u0e1a\u0e23\u0e32\u0e13\u0e17\u0e35\u0e48\u0e16\u0e39\u0e01\u0e0b\u0e48\u0e2d\u0e19\u0e44\u0e27\u0e49\u0e43\u0e19 Blackcliff Forge \u0e21\u0e31\u0e19\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e15\u0e31\u0e14\u0e1c\u0e48\u0e32\u0e19\u0e2b\u0e34\u0e19\u0e44\u0e14\u0e49\u0e41\u0e25\u0e30\u0e14\u0e32\u0e1a\u0e44\u0e21\u0e48\u0e1a\u0e34\u0e48\u0e19",
+    "rarity": 4,
+    "type": "\u0e14\u0e32\u0e1a",
+    "domain": "\u0e23\u0e32\u0e0a\u0e27\u0e31\u0e07\u0e25\u0e31\u0e1a\u0e41\u0e2b\u0e48\u0e07 Lianshan Formula",
+    "passive": "Crushed Stone",
+    "bonus": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span>4%/5%/6%/7%/8%</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35",
+    "stats": {
+        "primary": "\u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1e\u0e37\u0e49\u0e19\u0e10\u0e32\u0e19",
+        "secondary": "\u0e42\u0e1a\u0e19\u0e31\u0e2a\u0e04\u0e27\u0e32\u0e21\u0e40\u0e2a\u0e35\u0e22\u0e2b\u0e32\u0e22\u0e01\u0e32\u0e22\u0e20\u0e32\u0e1e",
+        "levels": [
+            {
+                "ascension": 0,
+                "level": 1,
+                "primary": 44,
+                "secondary": 7.5
+            },
+            {
+                "ascension": 0,
+                "level": 20,
+                "primary": 119,
+                "secondary": 13.3
+            },
+            {
+                "ascension": 1,
+                "level": 20,
+                "primary": 144,
+                "secondary": 13.3
+            },
+            {
+                "ascension": 1,
+                "level": 40,
+                "primary": 226,
+                "secondary": 19.3
+            },
+            {
+                "ascension": 2,
+                "level": 40,
+                "primary": 252,
+                "secondary": 19.3
+            },
+            {
+                "ascension": 2,
+                "level": 50,
+                "primary": 293,
+                "secondary": 22.4
+            },
+            {
+                "ascension": 3,
+                "level": 50,
+                "primary": 319,
+                "secondary": 22.4
+            },
+            {
+                "ascension": 3,
+                "level": 60,
+                "primary": 361,
+                "secondary": 25.4
+            },
+            {
+                "ascension": 4,
+                "level": 60,
+                "primary": 387,
+                "secondary": 25.4
+            },
+            {
+                "ascension": 4,
+                "level": 70,
+                "primary": 429,
+                "secondary": 28.4
+            },
+            {
+                "ascension": 5,
+                "level": 70,
+                "primary": 455,
+                "secondary": 28.4
+            },
+            {
+                "ascension": 5,
+                "level": 80,
+                "primary": 497,
+                "secondary": 31.5
+            },
+            {
+                "ascension": 6,
+                "level": 80,
+                "primary": 523,
+                "secondary": 31.5
+            },
+            {
+                "ascension": 6,
+                "level": 90,
+                "primary": 565,
+                "secondary": 34.5
+            }
+        ]
     },
-    {
-      "ascension": 1,
-      "level": 40,
-      "cost": 5000,
-      "materials": [
+    "ascensions": [
         {
-          
-          "id": "MistVeiledLeadElixir",
-          "name": "Mist Veiled Lead Elixir",
-          "amount": 3,
-          "rarity": 2
+            "ascension": 0,
+            "level": 20,
+            "materials": []
         },
         {
-          
-          "id": "MistGrassPollen",
-          "name": "Mist Grass Pollen",
-          "amount": 3,
-          "rarity": 2
+            "ascension": 1,
+            "level": 40,
+            "cost": 5000,
+            "materials": [
+                {
+                    "id": "MistVeiledLeadElixir",
+                    "name": "Mist Veiled Lead Elixir",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "MistGrassPollen",
+                    "name": "Mist Grass Pollen",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "RecruitsInsignia",
+                    "name": "Recruit's Insignia",
+                    "amount": 2,
+                    "rarity": 1
+                }
+            ]
         },
         {
-          
-          "id": "RecruitsInsignia",
-          "name": "Recruit's Insignia",
-          "amount": 2,
-          "rarity": 1
+            "ascension": 2,
+            "level": 50,
+            "cost": 15000,
+            "materials": [
+                {
+                    "id": "MistVeiledMercuryElixir",
+                    "name": "Mist Veiled Mercury Elixir",
+                    "amount": 3,
+                    "rarity": 3
+                },
+                {
+                    "id": "MistGrassPollen",
+                    "name": "Mist Grass Pollen",
+                    "amount": 12,
+                    "rarity": 2
+                },
+                {
+                    "id": "RecruitsInsignia",
+                    "name": "Recruit's Insignia",
+                    "amount": 8,
+                    "rarity": 1
+                }
+            ]
+        },
+        {
+            "ascension": 3,
+            "level": 60,
+            "cost": 20000,
+            "materials": [
+                {
+                    "id": "MistVeiledMercuryElixir",
+                    "name": "Mist Veiled Mercury Elixir",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "MistGrass",
+                    "name": "Mist Grass",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "SergeantsInsignia",
+                    "name": "Sergeant's Insignia",
+                    "amount": 6,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 4,
+            "level": 70,
+            "cost": 30000,
+            "materials": [
+                {
+                    "id": "MistVeiledGoldElixir",
+                    "name": "Mist Veiled Gold Elixir",
+                    "amount": 3,
+                    "rarity": 4
+                },
+                {
+                    "id": "MistGrass",
+                    "name": "Mist Grass",
+                    "amount": 12,
+                    "rarity": 3
+                },
+                {
+                    "id": "SergeantsInsignia",
+                    "name": "Sergeant's Insignia",
+                    "amount": 9,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 5,
+            "level": 80,
+            "cost": 35000,
+            "materials": [
+                {
+                    "id": "MistVeiledGoldElixir",
+                    "name": "Mist Veiled Gold Elixir",
+                    "amount": 6,
+                    "rarity": 4
+                },
+                {
+                    "id": "MistGrassWick",
+                    "name": "Mist Grass Wick",
+                    "amount": 9,
+                    "rarity": 4
+                },
+                {
+                    "id": "LieutenantsInsignia",
+                    "name": "Officer's Insignia",
+                    "amount": 6,
+                    "rarity": 3
+                }
+            ]
+        },
+        {
+            "ascension": 6,
+            "level": 90,
+            "cost": 45000,
+            "materials": [
+                {
+                    "id": "MistVeiledPrimoElixir",
+                    "name": "Mist Veiled Primo Elixir",
+                    "amount": 4,
+                    "rarity": 5
+                },
+                {
+                    "id": "MistGrassWick",
+                    "name": "Mist Grass Wick",
+                    "amount": 18,
+                    "rarity": 4
+                },
+                {
+                    "id": "LieutenantsInsignia",
+                    "name": "Officer's Insignia",
+                    "amount": 12,
+                    "rarity": 3
+                }
+            ]
         }
-      ]
+    ],
+    "refinement_raw": {
+        "name": "Crushed Stone",
+        "template": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span style=\"color:#99FFFFFF\">{0}</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35",
+        "params": [
+            [
+                "4%"
+            ],
+            [
+                "5%"
+            ],
+            [
+                "6%"
+            ],
+            [
+                "7%"
+            ],
+            [
+                "8%"
+            ]
+        ]
     },
-    {
-      "ascension": 2,
-      "level": 50,
-      "cost": 15000,
-      "materials": [
+    "refinements": [
         {
-          
-          "id": "MistVeiledMercuryElixir",
-          "name": "Mist Veiled Mercury Elixir",
-          "amount": 3,
-          "rarity": 3
+            "refinement": 1,
+            "desc": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span>4%</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35"
         },
         {
-          
-          "id": "MistGrassPollen",
-          "name": "Mist Grass Pollen",
-          "amount": 12,
-          "rarity": 2
+            "refinement": 2,
+            "desc": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span>5%</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35"
         },
         {
-          
-          "id": "RecruitsInsignia",
-          "name": "Recruit's Insignia",
-          "amount": 8,
-          "rarity": 1
+            "refinement": 3,
+            "desc": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span>6%</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35"
+        },
+        {
+            "refinement": 4,
+            "desc": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span>7%</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35"
+        },
+        {
+            "refinement": 5,
+            "desc": "\u0e40\u0e21\u0e37\u0e48\u0e2d\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1b\u0e01\u0e15\u0e34\u0e2b\u0e23\u0e37\u0e2d\u0e0a\u0e32\u0e23\u0e4c\u0e08\u0e42\u0e08\u0e21\u0e15\u0e35 \u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e41\u0e25\u0e30\u0e1e\u0e25\u0e31\u0e07\u0e1b\u0e49\u0e2d\u0e07\u0e01\u0e31\u0e19\u0e08\u0e30\u0e40\u0e1e\u0e34\u0e48\u0e21\u0e02\u0e36\u0e49\u0e19 <span>8%</span> \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e27\u0e25\u0e32 6 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35 \u0e42\u0e14\u0e22\u0e08\u0e30\u0e0b\u0e49\u0e2d\u0e19\u0e17\u0e31\u0e1a\u0e44\u0e14\u0e49\u0e21\u0e32\u0e01\u0e2a\u0e38\u0e14 4 \u0e0a\u0e31\u0e49\u0e19 \u0e0b\u0e36\u0e48\u0e07\u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c\u0e19\u0e35\u0e49\u0e08\u0e30\u0e40\u0e01\u0e34\u0e14\u0e02\u0e36\u0e49\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e04\u0e23\u0e31\u0e49\u0e07\u0e43\u0e19\u0e17\u0e38\u0e01 0.3 \u0e27\u0e34\u0e19\u0e32\u0e17\u0e35"
         }
-      ]
-    },
-    {
-      "ascension": 3,
-      "level": 60,
-      "cost": 20000,
-      "materials": [
-        {
-          
-          "id": "MistVeiledMercuryElixir",
-          "name": "Mist Veiled Mercury Elixir",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          
-          "id": "MistGrass",
-          "name": "Mist Grass",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          
-          "id": "SergeantsInsignia",
-          "name": "Sergeant's Insignia",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 4,
-      "level": 70,
-      "cost": 30000,
-      "materials": [
-        {
-          
-          "id": "MistVeiledGoldElixir",
-          "name": "Mist Veiled Gold Elixir",
-          "amount": 3,
-          "rarity": 4
-        },
-        {
-          
-          "id": "MistGrass",
-          "name": "Mist Grass",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          
-          "id": "SergeantsInsignia",
-          "name": "Sergeant's Insignia",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 5,
-      "level": 80,
-      "cost": 35000,
-      "materials": [
-        {
-          
-          "id": "MistVeiledGoldElixir",
-          "name": "Mist Veiled Gold Elixir",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          
-          "id": "MistGrassWick",
-          "name": "Mist Grass Wick",
-          "amount": 9,
-          "rarity": 4
-        },
-        {
-          
-          "id": "LieutenantsInsignia",
-          "name": "Officer's Insignia",
-          "amount": 6,
-          "rarity": 3
-        }
-      ]
-    },
-    {
-      "ascension": 6,
-      "level": 90,
-      "cost": 45000,
-      "materials": [
-        {
-          
-          "id": "MistVeiledPrimoElixir",
-          "name": "Mist Veiled Primo Elixir",
-          "amount": 4,
-          "rarity": 5
-        },
-        {
-          
-          "id": "MistGrassWick",
-          "name": "Mist Grass Wick",
-          "amount": 18,
-          "rarity": 4
-        },
-        {
-          
-          "id": "LieutenantsInsignia",
-          "name": "Officer's Insignia",
-          "amount": 12,
-          "rarity": 3
-        }
-      ]
+    ],
+    "pictures": {
+        "icon": "Weapon/PrototypeRancour/Icon.webp"
     }
-  ],
-  "refinement_raw": {
-    "name": "Crushed Stone",
-    "template": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span style=\"color:#99FFFFFF\">{0}</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที",
-    "params": [
-      [
-        "4%"
-      ],
-      [
-        "5%"
-      ],
-      [
-        "6%"
-      ],
-      [
-        "7%"
-      ],
-      [
-        "8%"
-      ]
-    ]
-  },
-  "refinements": [
-    {
-      "refinement": 1,
-      "desc": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span>4%</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที"
-    },
-    {
-      "refinement": 2,
-      "desc": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span>5%</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที"
-    },
-    {
-      "refinement": 3,
-      "desc": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span>6%</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที"
-    },
-    {
-      "refinement": 4,
-      "desc": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span>7%</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที"
-    },
-    {
-      "refinement": 5,
-      "desc": "เมื่อโจมตีปกติหรือชาร์จโจมตี พลังโจมตีและพลังป้องกันจะเพิ่มขึ้น <span>8%</span> เป็นเวลา 6 วินาที โดยจะซ้อนทับได้มากสุด 4 ชั้น ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 0.3 วินาที"
-    }
-  ]
 }
