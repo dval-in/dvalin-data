@@ -1,328 +1,313 @@
 {
-  "id": "FinaleOfTheDeep",
-  "name": "海淵のフィナーレ",
-  "description": "謎めいた海淵のように沈黙する長剣。それが属する年代は見た目よりも古い。",
-  "rarity": 4,
-  "type": "片手剣",
-  "domain": "深潮の余韻",
-  "passive": "最後の崇高",
-  "bonus": "元素スキルを発動する時、攻撃力+<span>12%/15%/18%/21%/24%</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span>2.4%/3%/3.6%/4.2%/4.8%</span>を基に攻撃力がアップする。最大+<span>150/187.5/225/262.5/300</span>、継続時間15秒。",
-  "stats": {
-    "primary": "基礎攻撃力",
-    "secondary": "攻撃力%",
-    "levels": [
-      {
-        "ascension": 0,
-        "level": 1,
-        "primary": 44,
-        "secondary": 6
-      },
-      {
-        "ascension": 0,
-        "level": 20,
-        "primary": 119,
-        "secondary": 10.6
-      },
-      {
-        "ascension": 1,
-        "level": 20,
-        "primary": 144,
-        "secondary": 10.6
-      },
-      {
-        "ascension": 1,
-        "level": 40,
-        "primary": 226,
-        "secondary": 15.4
-      },
-      {
-        "ascension": 2,
-        "level": 40,
-        "primary": 252,
-        "secondary": 15.4
-      },
-      {
-        "ascension": 2,
-        "level": 50,
-        "primary": 293,
-        "secondary": 17.9
-      },
-      {
-        "ascension": 3,
-        "level": 50,
-        "primary": 319,
-        "secondary": 17.9
-      },
-      {
-        "ascension": 3,
-        "level": 60,
-        "primary": 361,
-        "secondary": 20.3
-      },
-      {
-        "ascension": 4,
-        "level": 60,
-        "primary": 387,
-        "secondary": 20.3
-      },
-      {
-        "ascension": 4,
-        "level": 70,
-        "primary": 429,
-        "secondary": 22.7
-      },
-      {
-        "ascension": 5,
-        "level": 70,
-        "primary": 455,
-        "secondary": 22.7
-      },
-      {
-        "ascension": 5,
-        "level": 80,
-        "primary": 497,
-        "secondary": 25.1
-      },
-      {
-        "ascension": 6,
-        "level": 80,
-        "primary": 523,
-        "secondary": 25.1
-      },
-      {
-        "ascension": 6,
-        "level": 90,
-        "primary": 565,
-        "secondary": 27.6
-      }
-    ]
-  },
-  "ascensions": [
-    {
-      "ascension": 0,
-      "level": 20,
-      "materials": []
+    "id": "FinaleOfTheDeep",
+    "name": "\u6d77\u6df5\u306e\u30d5\u30a3\u30ca\u30fc\u30ec",
+    "description": "\u8b0e\u3081\u3044\u305f\u6d77\u6df5\u306e\u3088\u3046\u306b\u6c88\u9ed9\u3059\u308b\u9577\u5263\u3002\u305d\u308c\u304c\u5c5e\u3059\u308b\u5e74\u4ee3\u306f\u898b\u305f\u76ee\u3088\u308a\u3082\u53e4\u3044\u3002",
+    "rarity": 4,
+    "type": "\u7247\u624b\u5263",
+    "domain": "\u6df1\u6f6e\u306e\u4f59\u97fb",
+    "passive": "\u6700\u5f8c\u306e\u5d07\u9ad8",
+    "bonus": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span>12%/15%/18%/21%/24%</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span>2.4%/3%/3.6%/4.2%/4.8%</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span>150/187.5/225/262.5/300</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002",
+    "stats": {
+        "primary": "\u57fa\u790e\u653b\u6483\u529b",
+        "secondary": "\u653b\u6483\u529b%",
+        "levels": [
+            {
+                "ascension": 0,
+                "level": 1,
+                "primary": 44,
+                "secondary": 6
+            },
+            {
+                "ascension": 0,
+                "level": 20,
+                "primary": 119,
+                "secondary": 10.6
+            },
+            {
+                "ascension": 1,
+                "level": 20,
+                "primary": 144,
+                "secondary": 10.6
+            },
+            {
+                "ascension": 1,
+                "level": 40,
+                "primary": 226,
+                "secondary": 15.4
+            },
+            {
+                "ascension": 2,
+                "level": 40,
+                "primary": 252,
+                "secondary": 15.4
+            },
+            {
+                "ascension": 2,
+                "level": 50,
+                "primary": 293,
+                "secondary": 17.9
+            },
+            {
+                "ascension": 3,
+                "level": 50,
+                "primary": 319,
+                "secondary": 17.9
+            },
+            {
+                "ascension": 3,
+                "level": 60,
+                "primary": 361,
+                "secondary": 20.3
+            },
+            {
+                "ascension": 4,
+                "level": 60,
+                "primary": 387,
+                "secondary": 20.3
+            },
+            {
+                "ascension": 4,
+                "level": 70,
+                "primary": 429,
+                "secondary": 22.7
+            },
+            {
+                "ascension": 5,
+                "level": 70,
+                "primary": 455,
+                "secondary": 22.7
+            },
+            {
+                "ascension": 5,
+                "level": 80,
+                "primary": 497,
+                "secondary": 25.1
+            },
+            {
+                "ascension": 6,
+                "level": 80,
+                "primary": 523,
+                "secondary": 25.1
+            },
+            {
+                "ascension": 6,
+                "level": 90,
+                "primary": 565,
+                "secondary": 27.6
+            }
+        ]
     },
-    {
-      "ascension": 1,
-      "level": 40,
-      "cost": 5000,
-      "materials": [
+    "ascensions": [
         {
-          
-          "id": "DrossOfPureSacredDewdrop",
-          "name": "純聖な雫の濾滓",
-          "amount": 3,
-          "rarity": 2
+            "ascension": 0,
+            "level": 20,
+            "materials": []
         },
         {
-          
-          "id": "DropOfTaintedWater",
-          "name": "濁水のひとしずく",
-          "amount": 3,
-          "rarity": 2
+            "ascension": 1,
+            "level": 40,
+            "cost": 5000,
+            "materials": [
+                {
+                    "id": "DrossOfPureSacredDewdrop",
+                    "name": "\u7d14\u8056\u306a\u96eb\u306e\u6ffe\u6ed3",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "DropOfTaintedWater",
+                    "name": "\u6fc1\u6c34\u306e\u3072\u3068\u3057\u305a\u304f",
+                    "amount": 3,
+                    "rarity": 2
+                },
+                {
+                    "id": "OldHandguard",
+                    "name": "\u53e4\u3073\u305f\u9354",
+                    "amount": 2,
+                    "rarity": 1
+                }
+            ]
         },
         {
-          
-          "id": "OldHandguard",
-          "name": "古びた鍔",
-          "amount": 2,
-          "rarity": 1
+            "ascension": 2,
+            "level": 50,
+            "cost": 15000,
+            "materials": [
+                {
+                    "id": "SublimationOfPureSacredDewdrop",
+                    "name": "\u7d14\u8056\u306a\u96eb\u306e\u6607\u83ef",
+                    "amount": 3,
+                    "rarity": 3
+                },
+                {
+                    "id": "DropOfTaintedWater",
+                    "name": "\u6fc1\u6c34\u306e\u3072\u3068\u3057\u305a\u304f",
+                    "amount": 12,
+                    "rarity": 2
+                },
+                {
+                    "id": "OldHandguard",
+                    "name": "\u53e4\u3073\u305f\u9354",
+                    "amount": 8,
+                    "rarity": 1
+                }
+            ]
+        },
+        {
+            "ascension": 3,
+            "level": 60,
+            "cost": 20000,
+            "materials": [
+                {
+                    "id": "SublimationOfPureSacredDewdrop",
+                    "name": "\u7d14\u8056\u306a\u96eb\u306e\u6607\u83ef",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "ScoopOfTaintedWater",
+                    "name": "\u6fc1\u6c34\u306e\u3072\u3068\u3059\u304f\u3044",
+                    "amount": 6,
+                    "rarity": 3
+                },
+                {
+                    "id": "KageuchiHandguard",
+                    "name": "\u5f71\u6253\u306e\u9354",
+                    "amount": 6,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 4,
+            "level": 70,
+            "cost": 30000,
+            "materials": [
+                {
+                    "id": "SpringOfPureSacredDewdrop",
+                    "name": "\u7d14\u8056\u306a\u96eb\u306e\u7518\u6cc9",
+                    "amount": 3,
+                    "rarity": 4
+                },
+                {
+                    "id": "ScoopOfTaintedWater",
+                    "name": "\u6fc1\u6c34\u306e\u3072\u3068\u3059\u304f\u3044",
+                    "amount": 12,
+                    "rarity": 3
+                },
+                {
+                    "id": "KageuchiHandguard",
+                    "name": "\u5f71\u6253\u306e\u9354",
+                    "amount": 9,
+                    "rarity": 2
+                }
+            ]
+        },
+        {
+            "ascension": 5,
+            "level": 80,
+            "cost": 35000,
+            "materials": [
+                {
+                    "id": "SpringOfPureSacredDewdrop",
+                    "name": "\u7d14\u8056\u306a\u96eb\u306e\u7518\u6cc9",
+                    "amount": 6,
+                    "rarity": 4
+                },
+                {
+                    "id": "NewbornTaintedHydroPhantasm",
+                    "name": "\u751f\u307e\u308c\u305f\u3066\u306e\u6fc1\u6c34\u5e7b\u970a",
+                    "amount": 9,
+                    "rarity": 4
+                },
+                {
+                    "id": "FamedHandguard",
+                    "name": "\u540d\u5200\u306e\u9354",
+                    "amount": 6,
+                    "rarity": 3
+                }
+            ]
+        },
+        {
+            "ascension": 6,
+            "level": 90,
+            "cost": 45000,
+            "materials": [
+                {
+                    "id": "EssenceOfPureSacredDewdrop",
+                    "name": "\u7d14\u8056\u306a\u96eb\u306e\u7cbe\u9ac4",
+                    "amount": 4,
+                    "rarity": 5
+                },
+                {
+                    "id": "NewbornTaintedHydroPhantasm",
+                    "name": "\u751f\u307e\u308c\u305f\u3066\u306e\u6fc1\u6c34\u5e7b\u970a",
+                    "amount": 18,
+                    "rarity": 4
+                },
+                {
+                    "id": "FamedHandguard",
+                    "name": "\u540d\u5200\u306e\u9354",
+                    "amount": 12,
+                    "rarity": 3
+                }
+            ]
         }
-      ]
+    ],
+    "refinement_raw": {
+        "name": "\u6700\u5f8c\u306e\u5d07\u9ad8",
+        "template": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span style=\"color:#99FFFFFF\">{1}</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span style=\"color:#99FFFFFF\">{2}</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002",
+        "params": [
+            [
+                "12%",
+                "2.4%",
+                "150"
+            ],
+            [
+                "15%",
+                "3%",
+                "187.5"
+            ],
+            [
+                "18%",
+                "3.6%",
+                "225"
+            ],
+            [
+                "21%",
+                "4.2%",
+                "262.5"
+            ],
+            [
+                "24%",
+                "4.8%",
+                "300"
+            ]
+        ]
     },
-    {
-      "ascension": 2,
-      "level": 50,
-      "cost": 15000,
-      "materials": [
+    "refinements": [
         {
-          
-          "id": "SublimationOfPureSacredDewdrop",
-          "name": "純聖な雫の昇華",
-          "amount": 3,
-          "rarity": 3
+            "refinement": 1,
+            "desc": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span>12%</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span>2.4%</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span>150</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002"
         },
         {
-          
-          "id": "DropOfTaintedWater",
-          "name": "濁水のひとしずく",
-          "amount": 12,
-          "rarity": 2
+            "refinement": 2,
+            "desc": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span>15%</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span>3%</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span>187.5</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002"
         },
         {
-          
-          "id": "OldHandguard",
-          "name": "古びた鍔",
-          "amount": 8,
-          "rarity": 1
+            "refinement": 3,
+            "desc": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span>18%</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span>3.6%</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span>225</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002"
+        },
+        {
+            "refinement": 4,
+            "desc": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span>21%</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span>4.2%</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span>262.5</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002"
+        },
+        {
+            "refinement": 5,
+            "desc": "\u5143\u7d20\u30b9\u30ad\u30eb\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u653b\u6483\u529b+<span>24%</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002\u3055\u3089\u306b\u3001HP\u4e0a\u9650\u306e25%\u3092\u57fa\u306b\u547d\u306e\u5951\u7d04\u3092\u4ed8\u4e0e\u3057\u3001\u3053\u306e\u52b9\u679c\u306f10\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u547d\u306e\u5951\u7d04\u304c\u30af\u30ea\u30a2\u3055\u308c\u305f\u6642\u3001\u30af\u30ea\u30a2\u6642\u306e\u6570\u5024\u306e<span>4.8%</span>\u3092\u57fa\u306b\u653b\u6483\u529b\u304c\u30a2\u30c3\u30d7\u3059\u308b\u3002\u6700\u5927+<span>300</span>\u3001\u7d99\u7d9a\u6642\u959315\u79d2\u3002"
         }
-      ]
-    },
-    {
-      "ascension": 3,
-      "level": 60,
-      "cost": 20000,
-      "materials": [
-        {
-          
-          "id": "SublimationOfPureSacredDewdrop",
-          "name": "純聖な雫の昇華",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          
-          "id": "ScoopOfTaintedWater",
-          "name": "濁水のひとすくい",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          
-          "id": "KageuchiHandguard",
-          "name": "影打の鍔",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 4,
-      "level": 70,
-      "cost": 30000,
-      "materials": [
-        {
-          
-          "id": "SpringOfPureSacredDewdrop",
-          "name": "純聖な雫の甘泉",
-          "amount": 3,
-          "rarity": 4
-        },
-        {
-          
-          "id": "ScoopOfTaintedWater",
-          "name": "濁水のひとすくい",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          
-          "id": "KageuchiHandguard",
-          "name": "影打の鍔",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "ascension": 5,
-      "level": 80,
-      "cost": 35000,
-      "materials": [
-        {
-          
-          "id": "SpringOfPureSacredDewdrop",
-          "name": "純聖な雫の甘泉",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          
-          "id": "NewbornTaintedHydroPhantasm",
-          "name": "生まれたての濁水幻霊",
-          "amount": 9,
-          "rarity": 4
-        },
-        {
-          
-          "id": "FamedHandguard",
-          "name": "名刀の鍔",
-          "amount": 6,
-          "rarity": 3
-        }
-      ]
-    },
-    {
-      "ascension": 6,
-      "level": 90,
-      "cost": 45000,
-      "materials": [
-        {
-          
-          "id": "EssenceOfPureSacredDewdrop",
-          "name": "純聖な雫の精髄",
-          "amount": 4,
-          "rarity": 5
-        },
-        {
-          
-          "id": "NewbornTaintedHydroPhantasm",
-          "name": "生まれたての濁水幻霊",
-          "amount": 18,
-          "rarity": 4
-        },
-        {
-          
-          "id": "FamedHandguard",
-          "name": "名刀の鍔",
-          "amount": 12,
-          "rarity": 3
-        }
-      ]
+    ],
+    "pictures": {
+        "icon": "Weapon/FinaleOfTheDeep/Icon.webp"
     }
-  ],
-  "refinement_raw": {
-    "name": "最後の崇高",
-    "template": "元素スキルを発動する時、攻撃力+<span style=\"color:#99FFFFFF\">{0}</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span style=\"color:#99FFFFFF\">{1}</span>を基に攻撃力がアップする。最大+<span style=\"color:#99FFFFFF\">{2}</span>、継続時間15秒。",
-    "params": [
-      [
-        "12%",
-        "2.4%",
-        "150"
-      ],
-      [
-        "15%",
-        "3%",
-        "187.5"
-      ],
-      [
-        "18%",
-        "3.6%",
-        "225"
-      ],
-      [
-        "21%",
-        "4.2%",
-        "262.5"
-      ],
-      [
-        "24%",
-        "4.8%",
-        "300"
-      ]
-    ]
-  },
-  "refinements": [
-    {
-      "refinement": 1,
-      "desc": "元素スキルを発動する時、攻撃力+<span>12%</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span>2.4%</span>を基に攻撃力がアップする。最大+<span>150</span>、継続時間15秒。"
-    },
-    {
-      "refinement": 2,
-      "desc": "元素スキルを発動する時、攻撃力+<span>15%</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span>3%</span>を基に攻撃力がアップする。最大+<span>187.5</span>、継続時間15秒。"
-    },
-    {
-      "refinement": 3,
-      "desc": "元素スキルを発動する時、攻撃力+<span>18%</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span>3.6%</span>を基に攻撃力がアップする。最大+<span>225</span>、継続時間15秒。"
-    },
-    {
-      "refinement": 4,
-      "desc": "元素スキルを発動する時、攻撃力+<span>21%</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span>4.2%</span>を基に攻撃力がアップする。最大+<span>262.5</span>、継続時間15秒。"
-    },
-    {
-      "refinement": 5,
-      "desc": "元素スキルを発動する時、攻撃力+<span>24%</span>、継続時間15秒。さらに、HP上限の25%を基に命の契約を付与し、この効果は10秒毎に1回のみ発動可能。命の契約がクリアされた時、クリア時の数値の<span>4.8%</span>を基に攻撃力がアップする。最大+<span>300</span>、継続時間15秒。"
-    }
-  ]
 }
