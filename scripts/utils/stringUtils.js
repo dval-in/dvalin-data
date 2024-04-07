@@ -41,4 +41,37 @@ const toCamelCase = str => {
 	return words.join('');
 };
 
-export {toPascalCase, toCamelCase};
+/**
+ * Replaces the Roman numeral at the end of a PascalCased series name with its Arabic numeral equivalent.
+ * Handles Roman numerals from I to X in mixed case due to PascalCasing.
+ *
+ * @param {string} seriesName - The PascalCased name of the series with a Roman numeral at the end.
+ * @return {string} - The series name with the Roman numeral at the end replaced by its Arabic numeral equivalent.
+ */
+const replaceRomanNumeralsPascalCased = seriesName => {
+	const romanToNumber = {
+		I: 1, II: 2, III: 3, IV: 4,
+		V: 5, VI: 6, VII: 7, VIII: 8,
+		IX: 9, X: 10,
+	};
+
+	// Regular expression to match the Roman numeral at the end of the series name, case-insensitive
+	const regex = /(I{1,3}|IV|V|VI{1,3}|IX|X)$/i;
+
+	// Attempt to find the Roman numeral at the end, converting it to uppercase for matching
+	const match = seriesName.match(regex);
+	if (!match) {
+		return seriesName;
+	} // If no match, return the original series name
+
+	const romanNumeral = match[0].toUpperCase();
+	const number = romanToNumber[romanNumeral];
+	if (!number) {
+		return seriesName;
+	} // If no numeral mapping, return the original series name
+
+	// Replace the Roman numeral at the end with its Arabic numeral equivalent
+	return seriesName.substring(0, match.index) + number;
+};
+
+export {toPascalCase, toCamelCase, replaceRomanNumeralsPascalCased};
