@@ -8,6 +8,10 @@ export type Achievement = {
 	reward: number;
 	hidden: boolean;
 	order: number;
+	version: string;
+	region?: string;
+	quest?: string;
+	questType?: 'worldQuests' | 'archonQuests' | 'commissions';
 };
 
 export type AchievementCategory = {
@@ -20,5 +24,4 @@ export type AchievementCategory = {
 	name: string;
 	order: number;
 	achievements: Achievement[];
-	version: string;
 };

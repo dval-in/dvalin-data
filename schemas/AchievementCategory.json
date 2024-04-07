@@ -22,8 +22,25 @@
           "order": {
             "type": "number"
           },
+          "quest": {
+            "type": "string"
+          },
+          "questType": {
+            "enum": [
+              "archonQuests",
+              "commissions",
+              "worldQuests"
+            ],
+            "type": "string"
+          },
+          "region": {
+            "type": "string"
+          },
           "reward": {
             "type": "number"
+          },
+          "version": {
+            "type": "string"
           }
         },
         "required": [
@@ -32,7 +49,8 @@
           "id",
           "name",
           "order",
-          "reward"
+          "reward",
+          "version"
         ],
         "type": "object"
       },
@@ -46,9 +64,6 @@
     },
     "order": {
       "type": "number"
-    },
-    "version": {
-      "type": "string"
     }
   },
   "required": [
@@ -56,8 +71,7 @@
     "achievements",
     "id",
     "name",
-    "order",
-    "version"
+    "order"
   ],
   "type": "object",
   "additionalProperties": false
