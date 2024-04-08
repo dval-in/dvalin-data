@@ -1,9 +1,9 @@
-const {exec} = require('child_process');
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import {exec} from 'child_process';
 
-const typesDirectory = path.join(__dirname, '../types');
-const schemaDirectory = path.join(__dirname, '../schemas');
+const typesDirectory = path.join('./types');
+const schemaDirectory = path.join('./schemas');
 
 // Read all TypeScript files in the directory
 fs.readdir(typesDirectory, (err, files) => {
