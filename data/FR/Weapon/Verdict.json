@@ -1,308 +1,293 @@
 {
-    "id": "Verdict",
-    "name": "Condamneur",
-    "description": "Une arme autrefois utilis\u00e9e par une jeune fille qui a abandonn\u00e9 son nom de famille, tach\u00e9e du sang de ses ennemis et de ses proches.",
-    "rarity": 5,
-    "type": "\u00c9p\u00e9e \u00e0 deux mains",
-    "domain": "\u00c9chos des mar\u00e9es profondes",
-    "passive": "Promesses des mille aubes et cr\u00e9puscules",
-    "bonus": "Augmente l'ATQ de <span>20 %/25 %/30 %/35 %/40 %</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span>18 %/22,5 %/27 %/31,5 %/36 %</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire.",
-    "stats": {
-        "primary": "ATQ de base",
-        "secondary": "Taux CRIT",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 48,
-                "secondary": 4.8
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 133,
-                "secondary": 8.5
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 164,
-                "secondary": 8.5
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 261,
-                "secondary": 12.4
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 292,
-                "secondary": 12.4
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 341,
-                "secondary": 14.3
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 373,
-                "secondary": 14.3
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 423,
-                "secondary": 16.2
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 455,
-                "secondary": 16.2
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 506,
-                "secondary": 18.2
-            },
-            {
-                "ascension": 5,
-                "level": 70,
-                "primary": 537,
-                "secondary": 18.2
-            },
-            {
-                "ascension": 5,
-                "level": 80,
-                "primary": 590,
-                "secondary": 20.1
-            },
-            {
-                "ascension": 6,
-                "level": 80,
-                "primary": 621,
-                "secondary": 20.1
-            },
-            {
-                "ascension": 6,
-                "level": 90,
-                "primary": 674,
-                "secondary": 22.1
-            }
-        ]
-    },
-    "ascensions": [
-        {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
-        },
-        {
-            "ascension": 1,
-            "level": 40,
-            "cost": 10000,
-            "materials": [
-                {
-                    "id": "FragmentOfAnAncientChord",
-                    "name": "Fragment d'un accord ancien",
-                    "amount": 5,
-                    "rarity": 2
-                },
-                {
-                    "id": "RiftCore",
-                    "name": "Noyau de faille",
-                    "amount": 5,
-                    "rarity": 2
-                },
-                {
-                    "id": "MeshingGear",
-                    "name": "Engrenage de maillage",
-                    "amount": 3,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 2,
-            "level": 50,
-            "cost": 20000,
-            "materials": [
-                {
-                    "id": "ChapterOfAnAncientChord",
-                    "name": "Chapitre d'un accord ancien",
-                    "amount": 5,
-                    "rarity": 3
-                },
-                {
-                    "id": "RiftCore",
-                    "name": "Noyau de faille",
-                    "amount": 18,
-                    "rarity": 2
-                },
-                {
-                    "id": "MeshingGear",
-                    "name": "Engrenage de maillage",
-                    "amount": 12,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 30000,
-            "materials": [
-                {
-                    "id": "ChapterOfAnAncientChord",
-                    "name": "Chapitre d'un accord ancien",
-                    "amount": 9,
-                    "rarity": 3
-                },
-                {
-                    "id": "ForeignSynapse",
-                    "name": "Synapse \u00e9trang\u00e8re",
-                    "amount": 9,
-                    "rarity": 3
-                },
-                {
-                    "id": "MechanicalSpurGear",
-                    "name": "Engrenage \u00e0 coupe droite",
-                    "amount": 9,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 45000,
-            "materials": [
-                {
-                    "id": "MovementOfAnAncientChord",
-                    "name": "Mouvement d'un accord ancien",
-                    "amount": 5,
-                    "rarity": 4
-                },
-                {
-                    "id": "ForeignSynapse",
-                    "name": "Synapse \u00e9trang\u00e8re",
-                    "amount": 18,
-                    "rarity": 3
-                },
-                {
-                    "id": "MechanicalSpurGear",
-                    "name": "Engrenage \u00e0 coupe droite",
-                    "amount": 14,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 5,
-            "level": 80,
-            "cost": 55000,
-            "materials": [
-                {
-                    "id": "MovementOfAnAncientChord",
-                    "name": "Mouvement d'un accord ancien",
-                    "amount": 9,
-                    "rarity": 4
-                },
-                {
-                    "id": "AlienLifeCore",
-                    "name": "Noyau d'organisme d'extramonde",
-                    "amount": 14,
-                    "rarity": 4
-                },
-                {
-                    "id": "ArtificedDynamicGear",
-                    "name": "Engrenage dynamique artifici\u00e9",
-                    "amount": 9,
-                    "rarity": 3
-                }
-            ]
-        },
-        {
-            "ascension": 6,
-            "level": 90,
-            "cost": 65000,
-            "materials": [
-                {
-                    "id": "EchoOfAnAncientChord",
-                    "name": "\u00c9cho d'un accord ancien",
-                    "amount": 6,
-                    "rarity": 5
-                },
-                {
-                    "id": "AlienLifeCore",
-                    "name": "Noyau d'organisme d'extramonde",
-                    "amount": 27,
-                    "rarity": 4
-                },
-                {
-                    "id": "ArtificedDynamicGear",
-                    "name": "Engrenage dynamique artifici\u00e9",
-                    "amount": 18,
-                    "rarity": 3
-                }
-            ]
-        }
-    ],
-    "refinement_raw": {
-        "name": "Promesses des mille aubes et cr\u00e9puscules",
-        "template": "Augmente l'ATQ de <span style=\"color:#99FFFFFF\">{0}</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span style=\"color:#99FFFFFF\">{1}</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire.",
-        "params": [
-            [
-                "20 %",
-                "18 %"
-            ],
-            [
-                "25 %",
-                "22,5 %"
-            ],
-            [
-                "30 %",
-                "27 %"
-            ],
-            [
-                "35 %",
-                "31,5 %"
-            ],
-            [
-                "40 %",
-                "36 %"
-            ]
-        ]
-    },
-    "refinements": [
-        {
-            "refinement": 1,
-            "desc": "Augmente l'ATQ de <span>20 %</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span>18 %</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
-        },
-        {
-            "refinement": 2,
-            "desc": "Augmente l'ATQ de <span>25 %</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span>22,5 %</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
-        },
-        {
-            "refinement": 3,
-            "desc": "Augmente l'ATQ de <span>30 %</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span>27 %</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
-        },
-        {
-            "refinement": 4,
-            "desc": "Augmente l'ATQ de <span>35 %</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span>31,5 %</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
-        },
-        {
-            "refinement": 5,
-            "desc": "Augmente l'ATQ de <span>40 %</span>. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span>36 %</span>. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
-        }
-    ],
-    "pictures": {
-        "icon": "Weapon/Verdict/Icon.webp"
-    }
+	"id": "Verdict",
+	"name": "Condamneur",
+	"description": "Une arme autrefois utilis\u00e9e par une jeune fille qui a abandonn\u00e9 son nom de famille, tach\u00e9e du sang de ses ennemis et de ses proches.",
+	"rarity": 5,
+	"type": "\u00c9p\u00e9e \u00e0 deux mains",
+	"domain": "\u00c9chos des mar\u00e9es profondes",
+	"passive": "Promesses des mille aubes et cr\u00e9puscules",
+	"bonus": "Augmente l'ATQ de 20 %/25 %/30 %/35 %/40 %. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de 18 %/22,5 %/27 %/31,5 %/36 %. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire.",
+	"stats": {
+		"primary": "ATQ de base",
+		"secondary": "Taux CRIT",
+		"levels": [
+			{
+				"ascension": 0,
+				"level": 1,
+				"primary": 48,
+				"secondary": 4.8
+			},
+			{
+				"ascension": 0,
+				"level": 20,
+				"primary": 133,
+				"secondary": 8.5
+			},
+			{
+				"ascension": 1,
+				"level": 20,
+				"primary": 164,
+				"secondary": 8.5
+			},
+			{
+				"ascension": 1,
+				"level": 40,
+				"primary": 261,
+				"secondary": 12.4
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"primary": 292,
+				"secondary": 12.4
+			},
+			{
+				"ascension": 2,
+				"level": 50,
+				"primary": 341,
+				"secondary": 14.3
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"primary": 373,
+				"secondary": 14.3
+			},
+			{
+				"ascension": 3,
+				"level": 60,
+				"primary": 423,
+				"secondary": 16.2
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"primary": 455,
+				"secondary": 16.2
+			},
+			{
+				"ascension": 4,
+				"level": 70,
+				"primary": 506,
+				"secondary": 18.2
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"primary": 537,
+				"secondary": 18.2
+			},
+			{
+				"ascension": 5,
+				"level": 80,
+				"primary": 590,
+				"secondary": 20.1
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"primary": 621,
+				"secondary": 20.1
+			},
+			{
+				"ascension": 6,
+				"level": 90,
+				"primary": 674,
+				"secondary": 22.1
+			}
+		]
+	},
+	"ascensions": [
+		{
+			"ascension": 0,
+			"level": 20,
+			"materials": []
+		},
+		{
+			"ascension": 1,
+			"level": 40,
+			"cost": 10000,
+			"materials": [
+				{
+					"id": "FragmentOfAnAncientChord",
+					"name": "Fragment d'un accord ancien",
+					"amount": 5,
+					"rarity": 2
+				},
+				{
+					"id": "RiftCore",
+					"name": "Noyau de faille",
+					"amount": 5,
+					"rarity": 2
+				},
+				{
+					"id": "MeshingGear",
+					"name": "Engrenage de maillage",
+					"amount": 3,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 2,
+			"level": 50,
+			"cost": 20000,
+			"materials": [
+				{
+					"id": "ChapterOfAnAncientChord",
+					"name": "Chapitre d'un accord ancien",
+					"amount": 5,
+					"rarity": 3
+				},
+				{
+					"id": "RiftCore",
+					"name": "Noyau de faille",
+					"amount": 18,
+					"rarity": 2
+				},
+				{
+					"id": "MeshingGear",
+					"name": "Engrenage de maillage",
+					"amount": 12,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 3,
+			"level": 60,
+			"cost": 30000,
+			"materials": [
+				{
+					"id": "ChapterOfAnAncientChord",
+					"name": "Chapitre d'un accord ancien",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ForeignSynapse",
+					"name": "Synapse \u00e9trang\u00e8re",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "MechanicalSpurGear",
+					"name": "Engrenage \u00e0 coupe droite",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 4,
+			"level": 70,
+			"cost": 45000,
+			"materials": [
+				{
+					"id": "MovementOfAnAncientChord",
+					"name": "Mouvement d'un accord ancien",
+					"amount": 5,
+					"rarity": 4
+				},
+				{
+					"id": "ForeignSynapse",
+					"name": "Synapse \u00e9trang\u00e8re",
+					"amount": 18,
+					"rarity": 3
+				},
+				{
+					"id": "MechanicalSpurGear",
+					"name": "Engrenage \u00e0 coupe droite",
+					"amount": 14,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 5,
+			"level": 80,
+			"cost": 55000,
+			"materials": [
+				{
+					"id": "MovementOfAnAncientChord",
+					"name": "Mouvement d'un accord ancien",
+					"amount": 9,
+					"rarity": 4
+				},
+				{
+					"id": "AlienLifeCore",
+					"name": "Noyau d'organisme d'extramonde",
+					"amount": 14,
+					"rarity": 4
+				},
+				{
+					"id": "ArtificedDynamicGear",
+					"name": "Engrenage dynamique artifici\u00e9",
+					"amount": 9,
+					"rarity": 3
+				}
+			]
+		},
+		{
+			"ascension": 6,
+			"level": 90,
+			"cost": 65000,
+			"materials": [
+				{
+					"id": "EchoOfAnAncientChord",
+					"name": "\u00c9cho d'un accord ancien",
+					"amount": 6,
+					"rarity": 5
+				},
+				{
+					"id": "AlienLifeCore",
+					"name": "Noyau d'organisme d'extramonde",
+					"amount": 27,
+					"rarity": 4
+				},
+				{
+					"id": "ArtificedDynamicGear",
+					"name": "Engrenage dynamique artifici\u00e9",
+					"amount": 18,
+					"rarity": 3
+				}
+			]
+		}
+	],
+	"refinement_raw": {
+		"name": "Promesses des mille aubes et cr\u00e9puscules",
+		"template": "Augmente l'ATQ de <span style=\"color:#99FFFFFF\">{0}. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de <span style=\"color:#99FFFFFF\">{1}. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire.",
+		"params": [
+			["20 %", "18 %"],
+			["25 %", "22,5 %"],
+			["30 %", "27 %"],
+			["35 %", "31,5 %"],
+			["40 %", "36 %"]
+		]
+	},
+	"refinements": [
+		{
+			"refinement": 1,
+			"desc": "Augmente l'ATQ de 20 %. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de 18 %. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
+		},
+		{
+			"refinement": 2,
+			"desc": "Augmente l'ATQ de 25 %. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de 22,5 %. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
+		},
+		{
+			"refinement": 3,
+			"desc": "Augmente l'ATQ de 30 %. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de 27 %. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
+		},
+		{
+			"refinement": 4,
+			"desc": "Augmente l'ATQ de 35 %. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de 31,5 %. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
+		},
+		{
+			"refinement": 5,
+			"desc": "Augmente l'ATQ de 40 %. Lorsqu'un personnage de l'\u00e9quipe obtient un fragment g\u00e9n\u00e9r\u00e9 par une r\u00e9action de Cristallisation, le personnage \u00e9quip\u00e9 de l'arme gagne 1 sceau pendant 15 s, ce qui augmente les DGT de ses comp\u00e9tences \u00e9l\u00e9mentaires de 36 %. Un maximum de 2 sceaux peut \u00eatre obtenu en m\u00eame temps, tous les sceaux disparaissant 0,2 s apr\u00e8s que le personnage \u00e9quip\u00e9 de l'arme inflige des DGT avec une comp\u00e9tence \u00e9l\u00e9mentaire."
+		}
+	],
+	"pictures": {
+		"icon": "Weapon/Verdict/Icon.webp"
+	}
 }

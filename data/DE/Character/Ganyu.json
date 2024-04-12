@@ -1,1205 +1,1053 @@
 {
-  "id": "Ganyu",
-  "name": "Ganyu",
-  "title": "Mondhüter",
-  "description": "Eine Sekretärin im Yuehai-Pavillon, in deren Adern das Blut eines Qilins, einer göttlichen Bestie, fließt.",
-  "weaponType": "Bogen",
-  "element": "Kryo",
-  "gender": "Weiblich",
-  "substat": "KSCH",
-  "affiliation": "Yuehai-Pavillon",
-  "region": "Liyue",
-  "rarity": 5,
-  "birthday": "2/12",
-  "constellation": "Sinae Unicornis",
-  "domain": "Villa Taishan",
-  "cv": {
-    "english": "Jennifer Losi",
-    "chinese": "林簌",
-    "japanese": "上田麗奈",
-    "korean": "Kim Seon-hye"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackLiutianArchery",
-      "name": "Standardangriff: Himmlische Schießkunst",
-      "description": "<span>Standardangriff</span><br/>Führt bis zu 6 Pfeilschüsse hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Führt einen <span>gezielten Schuss</span> mit höherem Schaden und höherer Genauigkeit aus.<br/>Konzentriert die Kälte während des Zielens an der Pfeilspitze und verursacht je nach Länge des Aufladens unterschiedliche Effekte:<br/>· Phase 1: Schießt einen Pfeil mit dem Zustand Kalt und verursacht <span>Kryo-Schaden</span>.<br/>· Phase 2: Schießt einen Frostblütenpfeil und verursacht <span>Kryo-Schaden</span>. Erblüht nach einem Treffer und verursacht erneut <span>Kryo-Flächenschaden</span>.<br/><br/><span>Angriff aus dem Fall</span><br/>Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "SCH Phase 1",
-          "values": [
-            "31.73%",
-            "34.32%",
-            "36.9%",
-            "40.59%",
-            "43.17%",
-            "46.13%",
-            "50.18%",
-            "54.24%",
-            "58.3%",
-            "62.73%",
-            "67.8%",
-            "73.77%",
-            "79.74%",
-            "85.7%",
-            "92.21%"
-          ]
-        },
-        {
-          "label": "SCH Phase 2",
-          "values": [
-            "35.6%",
-            "38.5%",
-            "41.4%",
-            "45.54%",
-            "48.44%",
-            "51.75%",
-            "56.3%",
-            "60.86%",
-            "65.41%",
-            "70.38%",
-            "76.07%",
-            "82.77%",
-            "89.46%",
-            "96.16%",
-            "103.46%"
-          ]
-        },
-        {
-          "label": "SCH Phase 3",
-          "values": [
-            "45.49%",
-            "49.2%",
-            "52.9%",
-            "58.19%",
-            "61.89%",
-            "66.12%",
-            "71.94%",
-            "77.76%",
-            "83.58%",
-            "89.93%",
-            "97.2%",
-            "105.76%",
-            "114.31%",
-            "122.87%",
-            "132.2%"
-          ]
-        },
-        {
-          "label": "SCH Phase 4",
-          "values": [
-            "45.49%",
-            "49.2%",
-            "52.9%",
-            "58.19%",
-            "61.89%",
-            "66.12%",
-            "71.94%",
-            "77.76%",
-            "83.58%",
-            "89.93%",
-            "97.2%",
-            "105.76%",
-            "114.31%",
-            "122.87%",
-            "132.2%"
-          ]
-        },
-        {
-          "label": "SCH Phase 5",
-          "values": [
-            "48.25%",
-            "52.17%",
-            "56.1%",
-            "61.71%",
-            "65.64%",
-            "70.13%",
-            "76.3%",
-            "82.47%",
-            "88.64%",
-            "95.37%",
-            "103.08%",
-            "112.16%",
-            "121.23%",
-            "130.3%",
-            "140.19%"
-          ]
-        },
-        {
-          "label": "SCH Phase 6",
-          "values": [
-            "57.62%",
-            "62.31%",
-            "67%",
-            "73.7%",
-            "78.39%",
-            "83.75%",
-            "91.12%",
-            "98.49%",
-            "105.86%",
-            "113.9%",
-            "123.11%",
-            "133.95%",
-            "144.78%",
-            "155.61%",
-            "167.43%"
-          ]
-        },
-        {
-          "label": "Gezielte Schüsse",
-          "values": [
-            "43.86%",
-            "47.43%",
-            "51%",
-            "56.1%",
-            "59.67%",
-            "63.75%",
-            "69.36%",
-            "74.97%",
-            "80.58%",
-            "86.7%",
-            "92.82%",
-            "98.94%",
-            "105.06%",
-            "111.18%",
-            "117.3%"
-          ]
-        },
-        {
-          "label": "Gezielte Schüsse Aufladephase 1",
-          "values": [
-            "124%",
-            "133.3%",
-            "142.6%",
-            "155%",
-            "164.3%",
-            "173.6%",
-            "186%",
-            "198.4%",
-            "210.8%",
-            "223.2%",
-            "235.6%",
-            "248%",
-            "263.5%",
-            "279%",
-            "294.5%"
-          ]
-        },
-        {
-          "label": "SCH bei Treffern mit Frostblütenpfeilen",
-          "values": [
-            "128%",
-            "137.6%",
-            "147.2%",
-            "160%",
-            "169.6%",
-            "179.2%",
-            "192%",
-            "204.8%",
-            "217.6%",
-            "230.4%",
-            "243.2%",
-            "256%",
-            "272%",
-            "288%",
-            "304%"
-          ]
-        },
-        {
-          "label": "SCH beim Erblühen von Frostblütenpfeilen",
-          "values": [
-            "217.6%",
-            "233.92%",
-            "250.24%",
-            "272%",
-            "288.32%",
-            "304.64%",
-            "326.4%",
-            "348.16%",
-            "369.92%",
-            "391.68%",
-            "413.44%",
-            "435.2%",
-            "462.4%",
-            "489.6%",
-            "516.8%"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen aus niedriger/großer Höhe",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "TrailOfTheQilin",
-      "name": "Spuren des Qilins",
-      "description": "Ganyu hinterlässt einen Eislotos und geht in Deckung, um den bösen Geistern und Dämonen <span>Kryo-Flächenschaden</span> zuzufügen.<br/><br/><span>Eislotos</span><br/>· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.<br/>· Beständigkeit hängt von Ganyus max. LP ab.<br/>· Erblüht bei Zerstörung oder Ablauf der Dauer und verursacht <span>Kryo-Flächenschaden</span>.",
-      "info": "„Du willst mich gesehen haben? Das musst du dir eingebildet haben. Ich war zu der Zeit noch auf Arbeit.“",
-      "attributes": [
-        {
-          "label": "Erhaltene LP",
-          "values": [
-            "120%",
-            "129%",
-            "138%",
-            "150%",
-            "159%",
-            "168%",
-            "180%",
-            "192%",
-            "204%",
-            "216%",
-            "228%",
-            "240%",
-            "255%",
-            "270%",
-            "285%"
-          ]
-        },
-        {
-          "label": "Fähigkeits-SCH",
-          "values": [
-            "132%",
-            "141.9%",
-            "151.8%",
-            "165%",
-            "174.9%",
-            "184.8%",
-            "198%",
-            "211.2%",
-            "224.4%",
-            "237.6%",
-            "250.8%",
-            "264%",
-            "280.5%",
-            "297%",
-            "313.5%"
-          ]
-        },
-        {
-          "label": "Dauer",
-          "values": [
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "CelestialShower",
-      "name": "Bändigender Niederschlag",
-      "description": "Konzentriert den Schnee und Frost in der Luft und beschwört eine Eisseelenperle, die das Böse vertreibt.<br/>Die Eisseelenperle lässt während der Wirkungsdauer fortlaufend Eiszapfen fallen, die den Gegnern im Wirkungsbereich <span>Kryo-Schaden</span> zufügen.",
-      "info": "Ohne Frage kann Ganyu einen erfrischenden Sommerregen fallen lassen. Für böse Kräfte jedoch zieht ein rauer Schneesturm auf.",
-      "attributes": [
-        {
-          "label": "Eiszapfen-SCH",
-          "values": [
-            "70.27%",
-            "75.54%",
-            "80.81%",
-            "87.84%",
-            "93.11%",
-            "98.38%",
-            "105.41%",
-            "112.44%",
-            "119.46%",
-            "126.49%",
-            "133.52%",
-            "140.54%",
-            "149.33%",
-            "158.11%",
-            "166.9%"
-          ]
-        },
-        {
-          "label": "Dauer",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "Elementarenergie",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "UndividedHeart",
-      "name": "Eintracht",
-      "description": "Erhöht nach dem Abschießen von Frostblütenpfeilen die KT folgender Frostblütenpfeile sowie der im Anschluss erblühenden Frostblüten 5 s lang um 20 %.",
-      "level": 1
-    },
-    {
-      "id": "HarmonyBetweenHeavenAndEarth",
-      "name": "Frieden zwischen Himmel und Erde",
-      "description": "Erhöht den <span>Kryo-Schaden</span> der aktuellen Figuren in der Truppe im Wirkungsbereich von <span>Bändigender Niederschlag</span> um 20 %.",
-      "level": 4
-    },
-    {
-      "id": "PreservedForTheHunt",
-      "name": "Versteckter Bogen",
-      "description": "Gibt beim Schmieden von Bögen 15 % des verbrauchten Erzes zurück.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "Dewdrinker",
-      "name": "Geschmack des Taus",
-      "description": "Verringert den <span>Kryo-WDS</span> von mit Frostblütenpfeilen von heftigen Schlägen beim Aufladen Phase 2 oder durch das Erblühen von Frostblüten getroffenen Gegnern 6 s lang um 15 %.<br/>Stellt Ganyu bei Treffern außerdem 2 Punkte Elementarenergie wieder her. Stellt für jeden heftigen Schlag mit Aufladen Phase 2 nur einmal Elementarenergie wieder her, egal ob die Frostblütenpfeile oder das Erblühen der Frostblüten Ziele treffen oder nicht.",
-      "level": 1
-    },
-    {
-      "id": "TheAuspicious",
-      "name": "Qilin-Jagd",
-      "description": "Ermöglicht 1 weitere Anwendung von <span>Spuren des Qilins</span>.",
-      "level": 2
-    },
-    {
-      "id": "Cloudstrider",
-      "name": "Ziehende Wolken",
-      "description": "Erhöht die Stufe der Fähigkeit <span>Bändigender Niederschlag</span> um 3.<br/>Höchststufe 15.",
-      "level": 3
-    },
-    {
-      "id": "WestwardSojourn",
-      "name": "Aufbruch gen Westen",
-      "description": "Erhöht den Gegnern im Wirkungsbereich von <span>Bändigender Niederschlag</span> zugefügten Schaden fortlaufend.<br/>Der anfängliche SCH-Bonus beträgt 5 %, erhöht den Schaden alle 3 s um weitere 5 % auf bis zu 25 % SCH-Bonus.<br/>Der Effekt hält nach dem Verlassen des Wirkungsbereichs bis zu 3 s.",
-      "level": 4
-    },
-    {
-      "id": "TheMerciful",
-      "name": "Rasenstutzer",
-      "description": "Erhöht die Stufe der Fähigkeit <span>Spuren des Qilins</span> um 3.<br/>Höchststufe 15.",
-      "level": 5
-    },
-    {
-      "id": "TheClement",
-      "name": "Nachsicht",
-      "description": "Nach Anwendung von <span>Spuren des Qilins</span> wird 30 s lang keine Aufladung für den nächsten Frostblütenpfeil benötigt.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "-",
-            "763"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "-",
-            "26"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "-",
-            "49"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "-",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "1978",
-            "2632"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "68",
-            "90"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "127",
-            "169"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "50.0%",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "3939",
-            "4403"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "135",
-            "151"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "253",
-            "283"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "50.0%",
-            "59.6%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeSliver",
-        "name": "Shivada-Jade-Splitter",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WhopperflowerNectar",
-        "name": "Vaniloqua-Nektar",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "5066",
-            "5686"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "173",
-            "194"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "326",
-            "366"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "59.6%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Shivada-Jade-Bruchstück",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Fluxeiskern",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WhopperflowerNectar",
-        "name": "Vaniloqua-Nektar",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "6355",
-            "6820"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "217",
-            "233"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "409",
-            "439"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "69.2%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Shivada-Jade-Bruchstück",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Fluxeiskern",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ShimmeringNectar",
-        "name": "Leuchtender Nektar",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "7495",
-            "7960"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "256",
-            "272"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "482",
-            "512"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "69.2%",
-            "78.8%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Shivada-Jade-Brocken",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Fluxeiskern",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ShimmeringNectar",
-        "name": "Leuchtender Nektar",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "8643",
-            "9108"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "295",
-            "311"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "556",
-            "586"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "78.8%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Shivada-Jade-Brocken",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Fluxeiskern",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "EnergyNectar",
-        "name": "Elementarnektar",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "9797",
-            "9797"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "335",
-            "335"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "630",
-            "630"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "88.4%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeGemstone",
-        "name": "Shivada-Jade",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Fluxeiskern",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "EnergyNectar",
-        "name": "Elementarnektar",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfDiligence",
-          "name": "Lehren des „Fleißes“",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Vaniloqua-Nektar",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Anleitung zum „Fleiß“",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Leuchtender Nektar",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Anleitung zum „Fleiß“",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Leuchtender Nektar",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Anleitung zum „Fleiß“",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Leuchtender Nektar",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Anleitung zum „Fleiß“",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Leuchtender Nektar",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophie des „Fleißes“",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Elementarnektar",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Seele des Kriegers – Schatten",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophie des „Fleißes“",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Elementarnektar",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Seele des Kriegers – Schatten",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophie des „Fleißes“",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Elementarnektar",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Seele des Kriegers – Schatten",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophie des „Fleißes“",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Elementarnektar",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Seele des Kriegers – Schatten",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Krone der Weisheit",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Ganyu/Icon.webp",
-    "sideIcon": "Character/Ganyu/SideIcon.webp",
-    "gatchaCard": "Character/Ganyu/GachaCard.webp",
-    "gachaSplash": "Character/Ganyu/GachaSplash.webp",
-    "face": "Character/Ganyu/Face.webp",
-    "halfFace": "Character/Ganyu/HalfFace.webp",
-    "profile": "Character/Ganyu/Profile.webp",
-    "weaponStance": "Character/Ganyu/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "AmosBow",
-  "specialDish": "ProsperousPeace",
-  "tcgCharacterCard": "Ganyu",
-  "outfits": [
-    {
-      "id": "FrostdewTrail",
-      "name": "Frosttau-Pfad",
-      "description": "Ganyus Kleidung. Elegante Kleidung, gesegnet von den erleuchteten Adepten.",
-      "picture": "Character/Ganyu/Outfit/FrostdewTrail.webp"
-    }
-  ]
+	"id": "Ganyu",
+	"name": "Ganyu",
+	"title": "Mondhüter",
+	"description": "Eine Sekretärin im Yuehai-Pavillon, in deren Adern das Blut eines Qilins, einer göttlichen Bestie, fließt.",
+	"weaponType": "Bogen",
+	"element": "Kryo",
+	"gender": "Weiblich",
+	"substat": "KSCH",
+	"affiliation": "Yuehai-Pavillon",
+	"region": "Liyue",
+	"rarity": 5,
+	"birthday": "2/12",
+	"constellation": "Sinae Unicornis",
+	"domain": "Villa Taishan",
+	"cv": {
+		"english": "Jennifer Losi",
+		"chinese": "林簌",
+		"japanese": "上田麗奈",
+		"korean": "Kim Seon-hye"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackLiutianArchery",
+			"name": "Standardangriff: Himmlische Schießkunst",
+			"description": "StandardangriffFührt bis zu 6 Pfeilschüsse hintereinander aus.Heftiger SchlagFührt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus.Konzentriert die Kälte während des Zielens an der Pfeilspitze und verursacht je nach Länge des Aufladens unterschiedliche Effekte:· Phase 1: Schießt einen Pfeil mit dem Zustand Kalt und verursacht Kryo-Schaden.· Phase 2: Schießt einen Frostblütenpfeil und verursacht Kryo-Schaden. Erblüht nach einem Treffer und verursacht erneut Kryo-Flächenschaden.Angriff aus dem FallSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "SCH Phase 1",
+					"values": [
+						"31.73%",
+						"34.32%",
+						"36.9%",
+						"40.59%",
+						"43.17%",
+						"46.13%",
+						"50.18%",
+						"54.24%",
+						"58.3%",
+						"62.73%",
+						"67.8%",
+						"73.77%",
+						"79.74%",
+						"85.7%",
+						"92.21%"
+					]
+				},
+				{
+					"label": "SCH Phase 2",
+					"values": [
+						"35.6%",
+						"38.5%",
+						"41.4%",
+						"45.54%",
+						"48.44%",
+						"51.75%",
+						"56.3%",
+						"60.86%",
+						"65.41%",
+						"70.38%",
+						"76.07%",
+						"82.77%",
+						"89.46%",
+						"96.16%",
+						"103.46%"
+					]
+				},
+				{
+					"label": "SCH Phase 3",
+					"values": [
+						"45.49%",
+						"49.2%",
+						"52.9%",
+						"58.19%",
+						"61.89%",
+						"66.12%",
+						"71.94%",
+						"77.76%",
+						"83.58%",
+						"89.93%",
+						"97.2%",
+						"105.76%",
+						"114.31%",
+						"122.87%",
+						"132.2%"
+					]
+				},
+				{
+					"label": "SCH Phase 4",
+					"values": [
+						"45.49%",
+						"49.2%",
+						"52.9%",
+						"58.19%",
+						"61.89%",
+						"66.12%",
+						"71.94%",
+						"77.76%",
+						"83.58%",
+						"89.93%",
+						"97.2%",
+						"105.76%",
+						"114.31%",
+						"122.87%",
+						"132.2%"
+					]
+				},
+				{
+					"label": "SCH Phase 5",
+					"values": [
+						"48.25%",
+						"52.17%",
+						"56.1%",
+						"61.71%",
+						"65.64%",
+						"70.13%",
+						"76.3%",
+						"82.47%",
+						"88.64%",
+						"95.37%",
+						"103.08%",
+						"112.16%",
+						"121.23%",
+						"130.3%",
+						"140.19%"
+					]
+				},
+				{
+					"label": "SCH Phase 6",
+					"values": [
+						"57.62%",
+						"62.31%",
+						"67%",
+						"73.7%",
+						"78.39%",
+						"83.75%",
+						"91.12%",
+						"98.49%",
+						"105.86%",
+						"113.9%",
+						"123.11%",
+						"133.95%",
+						"144.78%",
+						"155.61%",
+						"167.43%"
+					]
+				},
+				{
+					"label": "Gezielte Schüsse",
+					"values": [
+						"43.86%",
+						"47.43%",
+						"51%",
+						"56.1%",
+						"59.67%",
+						"63.75%",
+						"69.36%",
+						"74.97%",
+						"80.58%",
+						"86.7%",
+						"92.82%",
+						"98.94%",
+						"105.06%",
+						"111.18%",
+						"117.3%"
+					]
+				},
+				{
+					"label": "Gezielte Schüsse Aufladephase 1",
+					"values": [
+						"124%",
+						"133.3%",
+						"142.6%",
+						"155%",
+						"164.3%",
+						"173.6%",
+						"186%",
+						"198.4%",
+						"210.8%",
+						"223.2%",
+						"235.6%",
+						"248%",
+						"263.5%",
+						"279%",
+						"294.5%"
+					]
+				},
+				{
+					"label": "SCH bei Treffern mit Frostblütenpfeilen",
+					"values": [
+						"128%",
+						"137.6%",
+						"147.2%",
+						"160%",
+						"169.6%",
+						"179.2%",
+						"192%",
+						"204.8%",
+						"217.6%",
+						"230.4%",
+						"243.2%",
+						"256%",
+						"272%",
+						"288%",
+						"304%"
+					]
+				},
+				{
+					"label": "SCH beim Erblühen von Frostblütenpfeilen",
+					"values": [
+						"217.6%",
+						"233.92%",
+						"250.24%",
+						"272%",
+						"288.32%",
+						"304.64%",
+						"326.4%",
+						"348.16%",
+						"369.92%",
+						"391.68%",
+						"413.44%",
+						"435.2%",
+						"462.4%",
+						"489.6%",
+						"516.8%"
+					]
+				},
+				{
+					"label": "SCH beim Fallen",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "SCH beim Fallen aus niedriger/großer Höhe",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"id": "TrailOfTheQilin",
+			"name": "Spuren des Qilins",
+			"description": "Ganyu hinterlässt einen Eislotos und geht in Deckung, um den bösen Geistern und Dämonen Kryo-Flächenschaden zuzufügen.Eislotos· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.· Beständigkeit hängt von Ganyus max. LP ab.· Erblüht bei Zerstörung oder Ablauf der Dauer und verursacht Kryo-Flächenschaden.",
+			"info": "„Du willst mich gesehen haben? Das musst du dir eingebildet haben. Ich war zu der Zeit noch auf Arbeit.“",
+			"attributes": [
+				{
+					"label": "Erhaltene LP",
+					"values": [
+						"120%",
+						"129%",
+						"138%",
+						"150%",
+						"159%",
+						"168%",
+						"180%",
+						"192%",
+						"204%",
+						"216%",
+						"228%",
+						"240%",
+						"255%",
+						"270%",
+						"285%"
+					]
+				},
+				{
+					"label": "Fähigkeits-SCH",
+					"values": [
+						"132%",
+						"141.9%",
+						"151.8%",
+						"165%",
+						"174.9%",
+						"184.8%",
+						"198%",
+						"211.2%",
+						"224.4%",
+						"237.6%",
+						"250.8%",
+						"264%",
+						"280.5%",
+						"297%",
+						"313.5%"
+					]
+				},
+				{
+					"label": "Dauer",
+					"values": [
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s"
+					]
+				}
+			]
+		},
+		{
+			"id": "CelestialShower",
+			"name": "Bändigender Niederschlag",
+			"description": "Konzentriert den Schnee und Frost in der Luft und beschwört eine Eisseelenperle, die das Böse vertreibt.Die Eisseelenperle lässt während der Wirkungsdauer fortlaufend Eiszapfen fallen, die den Gegnern im Wirkungsbereich Kryo-Schaden zufügen.",
+			"info": "Ohne Frage kann Ganyu einen erfrischenden Sommerregen fallen lassen. Für böse Kräfte jedoch zieht ein rauer Schneesturm auf.",
+			"attributes": [
+				{
+					"label": "Eiszapfen-SCH",
+					"values": [
+						"70.27%",
+						"75.54%",
+						"80.81%",
+						"87.84%",
+						"93.11%",
+						"98.38%",
+						"105.41%",
+						"112.44%",
+						"119.46%",
+						"126.49%",
+						"133.52%",
+						"140.54%",
+						"149.33%",
+						"158.11%",
+						"166.9%"
+					]
+				},
+				{
+					"label": "Dauer",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "Elementarenergie",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "UndividedHeart",
+			"name": "Eintracht",
+			"description": "Erhöht nach dem Abschießen von Frostblütenpfeilen die KT folgender Frostblütenpfeile sowie der im Anschluss erblühenden Frostblüten 5 s lang um 20 %.",
+			"level": 1
+		},
+		{
+			"id": "HarmonyBetweenHeavenAndEarth",
+			"name": "Frieden zwischen Himmel und Erde",
+			"description": "Erhöht den Kryo-Schaden der aktuellen Figuren in der Truppe im Wirkungsbereich von Bändigender Niederschlag um 20 %.",
+			"level": 4
+		},
+		{
+			"id": "PreservedForTheHunt",
+			"name": "Versteckter Bogen",
+			"description": "Gibt beim Schmieden von Bögen 15 % des verbrauchten Erzes zurück.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "Dewdrinker",
+			"name": "Geschmack des Taus",
+			"description": "Verringert den Kryo-WDS von mit Frostblütenpfeilen von heftigen Schlägen beim Aufladen Phase 2 oder durch das Erblühen von Frostblüten getroffenen Gegnern 6 s lang um 15 %.Stellt Ganyu bei Treffern außerdem 2 Punkte Elementarenergie wieder her. Stellt für jeden heftigen Schlag mit Aufladen Phase 2 nur einmal Elementarenergie wieder her, egal ob die Frostblütenpfeile oder das Erblühen der Frostblüten Ziele treffen oder nicht.",
+			"level": 1
+		},
+		{
+			"id": "TheAuspicious",
+			"name": "Qilin-Jagd",
+			"description": "Ermöglicht 1 weitere Anwendung von Spuren des Qilins.",
+			"level": 2
+		},
+		{
+			"id": "Cloudstrider",
+			"name": "Ziehende Wolken",
+			"description": "Erhöht die Stufe der Fähigkeit Bändigender Niederschlag um 3.Höchststufe 15.",
+			"level": 3
+		},
+		{
+			"id": "WestwardSojourn",
+			"name": "Aufbruch gen Westen",
+			"description": "Erhöht den Gegnern im Wirkungsbereich von Bändigender Niederschlag zugefügten Schaden fortlaufend.Der anfängliche SCH-Bonus beträgt 5 %, erhöht den Schaden alle 3 s um weitere 5 % auf bis zu 25 % SCH-Bonus.Der Effekt hält nach dem Verlassen des Wirkungsbereichs bis zu 3 s.",
+			"level": 4
+		},
+		{
+			"id": "TheMerciful",
+			"name": "Rasenstutzer",
+			"description": "Erhöht die Stufe der Fähigkeit Spuren des Qilins um 3.Höchststufe 15.",
+			"level": 5
+		},
+		{
+			"id": "TheClement",
+			"name": "Nachsicht",
+			"description": "Nach Anwendung von Spuren des Qilins wird 30 s lang keine Aufladung für den nächsten Frostblütenpfeil benötigt.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["-", "763"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["-", "26"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["-", "49"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["-", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [0, 1]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["1978", "2632"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["68", "90"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["127", "169"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["50.0%", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [1, 2]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["3939", "4403"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["135", "151"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["253", "283"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["50.0%", "59.6%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeSliver",
+				"name": "Shivada-Jade-Splitter",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WhopperflowerNectar",
+				"name": "Vaniloqua-Nektar",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [2, 3]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["5066", "5686"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["173", "194"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["326", "366"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["59.6%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada-Jade-Bruchstück",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Fluxeiskern",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WhopperflowerNectar",
+				"name": "Vaniloqua-Nektar",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [3, 4]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["6355", "6820"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["217", "233"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["409", "439"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["69.2%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada-Jade-Bruchstück",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Fluxeiskern",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ShimmeringNectar",
+				"name": "Leuchtender Nektar",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [4, 5]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["7495", "7960"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["256", "272"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["482", "512"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["69.2%", "78.8%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada-Jade-Brocken",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Fluxeiskern",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ShimmeringNectar",
+				"name": "Leuchtender Nektar",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [5, 6]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["8643", "9108"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["295", "311"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["556", "586"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["78.8%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada-Jade-Brocken",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Fluxeiskern",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "EnergyNectar",
+				"name": "Elementarnektar",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [6, 7]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["9797", "9797"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["335", "335"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["630", "630"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["88.4%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeGemstone",
+				"name": "Shivada-Jade",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Fluxeiskern",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "EnergyNectar",
+				"name": "Elementarnektar",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfDiligence",
+					"name": "Lehren des „Fleißes“",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Vaniloqua-Nektar",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Anleitung zum „Fleiß“",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Leuchtender Nektar",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Anleitung zum „Fleiß“",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Leuchtender Nektar",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Anleitung zum „Fleiß“",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Leuchtender Nektar",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Anleitung zum „Fleiß“",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Leuchtender Nektar",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophie des „Fleißes“",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Elementarnektar",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Seele des Kriegers – Schatten",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophie des „Fleißes“",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Elementarnektar",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Seele des Kriegers – Schatten",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophie des „Fleißes“",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Elementarnektar",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Seele des Kriegers – Schatten",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophie des „Fleißes“",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Elementarnektar",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Seele des Kriegers – Schatten",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Krone der Weisheit",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Ganyu/Icon.webp",
+		"sideIcon": "Character/Ganyu/SideIcon.webp",
+		"gatchaCard": "Character/Ganyu/GachaCard.webp",
+		"gachaSplash": "Character/Ganyu/GachaSplash.webp",
+		"face": "Character/Ganyu/Face.webp",
+		"halfFace": "Character/Ganyu/HalfFace.webp",
+		"profile": "Character/Ganyu/Profile.webp",
+		"weaponStance": "Character/Ganyu/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "AmosBow",
+	"specialDish": "ProsperousPeace",
+	"tcgCharacterCard": "Ganyu",
+	"outfits": [
+		{
+			"id": "FrostdewTrail",
+			"name": "Frosttau-Pfad",
+			"description": "Ganyus Kleidung. Elegante Kleidung, gesegnet von den erleuchteten Adepten.",
+			"picture": "Character/Ganyu/Outfit/FrostdewTrail.webp"
+		}
+	]
 }

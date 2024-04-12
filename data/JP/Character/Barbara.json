@@ -1,1125 +1,957 @@
 {
-  "id": "Barbara",
-  "name": "バーバラ",
-  "title": "キラキラアイドル",
-  "description": "モンド城のみんなはバーバラが大好き。ちなみに「アイドル」という言葉は彼女が雑誌で見たものらしい。",
-  "weaponType": "法器",
-  "element": "水",
-  "gender": "女",
-  "substat": "HP%",
-  "affiliation": "西風教会",
-  "region": "モンド",
-  "rarity": 4,
-  "birthday": "5/7",
-  "constellation": "金杯座",
-  "domain": "忘却の峡谷",
-  "cv": {
-    "english": "Laura Stahl",
-    "chinese": "宋媛媛",
-    "japanese": "鬼頭明里",
-    "korean": "윤아영"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackWhisperOfWater",
-      "name": "通常攻撃·水の囁き",
-      "description": "<span>通常攻撃</span><br/>最大4段の連続攻撃を行い、<span>水元素ダメージ</span>を与える。<br/><br/><span>重撃</span><br/>一定のスタミナを消費し、短い詠唱をした後、敵に<span>水元素範囲ダメージ</span>を与える。<br/><br/><span>落下攻撃</span><br/>空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に<span>水元素範囲ダメージ</span>を与える。",
-      "info": "",
-      "attributes": [
-        {
-          "label": "1段ダメージ",
-          "values": [
-            "37.84%",
-            "40.68%",
-            "43.52%",
-            "47.3%",
-            "50.14%",
-            "52.98%",
-            "56.76%",
-            "60.54%",
-            "64.33%",
-            "68.11%",
-            "72.05%",
-            "77.19%",
-            "82.34%",
-            "87.49%",
-            "92.63%"
-          ]
-        },
-        {
-          "label": "2段ダメージ",
-          "values": [
-            "35.52%",
-            "38.18%",
-            "40.85%",
-            "44.4%",
-            "47.06%",
-            "49.73%",
-            "53.28%",
-            "56.83%",
-            "60.38%",
-            "63.94%",
-            "67.63%",
-            "72.46%",
-            "77.29%",
-            "82.12%",
-            "86.95%"
-          ]
-        },
-        {
-          "label": "3段ダメージ",
-          "values": [
-            "41.04%",
-            "44.12%",
-            "47.2%",
-            "51.3%",
-            "54.38%",
-            "57.46%",
-            "61.56%",
-            "65.66%",
-            "69.77%",
-            "73.87%",
-            "78.14%",
-            "83.72%",
-            "89.3%",
-            "94.88%",
-            "100.47%"
-          ]
-        },
-        {
-          "label": "4段ダメージ",
-          "values": [
-            "55.2%",
-            "59.34%",
-            "63.48%",
-            "69%",
-            "73.14%",
-            "77.28%",
-            "82.8%",
-            "88.32%",
-            "93.84%",
-            "99.36%",
-            "105.1%",
-            "112.61%",
-            "120.12%",
-            "127.62%",
-            "135.13%"
-          ]
-        },
-        {
-          "label": "重撃ダメージ",
-          "values": [
-            "166.24%",
-            "178.71%",
-            "191.18%",
-            "207.8%",
-            "220.27%",
-            "232.74%",
-            "249.36%",
-            "265.98%",
-            "282.61%",
-            "299.23%",
-            "316.52%",
-            "339.13%",
-            "361.74%",
-            "384.35%",
-            "406.96%"
-          ]
-        },
-        {
-          "label": "重撃スタミナ消費",
-          "values": [
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50",
-            "50"
-          ]
-        },
-        {
-          "label": "落下期間のダメージ",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "低空/高空落下攻撃ダメージ",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "LetTheShowBegin",
-      "name": "公演、開始♪",
-      "description": "躍動する歌声のような水の玉を召喚し、歌声の輪を作って周囲の敵に<span>水元素ダメージ</span>を与え、さらに<span>湿潤</span>状態を付与する。<br/><br/><span>歌声の輪</span><br/>·バーバラの通常攻撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量はバーバラのHP上限によって決まる。<br/>·重撃が命中した時、回復量は4倍になる。<br/>·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。<br/>·キャラクター、または接触した敵に<span>湿潤</span>状態を付与する。",
-      "info": "バーバラの音楽はみんなを治療する魔法。",
-      "attributes": [
-        {
-          "label": "命中回復量",
-          "values": [
-            "0.75%HP上限 + 72",
-            "0.81%HP上限 + 79",
-            "0.86%HP上限 + 87",
-            "0.94%HP上限 + 96",
-            "0.99%HP上限 + 105",
-            "1.05%HP上限 + 114",
-            "1.13%HP上限 + 125",
-            "1.2%HP上限 + 135",
-            "1.27%HP上限 + 147",
-            "1.35%HP上限 + 159",
-            "1.43%HP上限 + 172",
-            "1.5%HP上限 + 185",
-            "1.59%HP上限 + 199",
-            "1.69%HP上限 + 213",
-            "1.78%HP上限 + 228"
-          ]
-        },
-        {
-          "label": "継続回復量",
-          "values": [
-            "4%HP上限 + 385",
-            "4.3%HP上限 + 424",
-            "4.6%HP上限 + 465",
-            "5%HP上限 + 510",
-            "5.3%HP上限 + 559",
-            "5.6%HP上限 + 610",
-            "6%HP上限 + 664",
-            "6.4%HP上限 + 722",
-            "6.8%HP上限 + 783",
-            "7.2%HP上限 + 847",
-            "7.6%HP上限 + 915",
-            "8%HP上限 + 986",
-            "8.5%HP上限 + 1059",
-            "9%HP上限 + 1136",
-            "9.5%HP上限 + 1217"
-          ]
-        },
-        {
-          "label": "水玉ダメージ",
-          "values": [
-            "58.4%",
-            "62.78%",
-            "67.16%",
-            "73%",
-            "77.38%",
-            "81.76%",
-            "87.6%",
-            "93.44%",
-            "99.28%",
-            "105.12%",
-            "110.96%",
-            "116.8%",
-            "124.1%",
-            "131.4%",
-            "138.7%"
-          ]
-        },
-        {
-          "label": "継続時間",
-          "values": [
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒"
-          ]
-        },
-        {
-          "label": "クールタイム",
-          "values": [
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒",
-            "32秒"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ShiningMiracle",
-      "name": "シャイニングミラクル♪",
-      "description": "周囲にいる味方とチーム内の自身のキャラクター全員のHPを大量に回復する、回復量はバーバラのHP上限によって決まる。",
-      "info": "人々を癒す心はバーバラの戦う源であり、歌う力である。",
-      "attributes": [
-        {
-          "label": "回復量",
-          "values": [
-            "17.6%HP上限 + 1694",
-            "18.92%HP上限 + 1864",
-            "20.24%HP上限 + 2047",
-            "22%HP上限 + 2245",
-            "23.32%HP上限 + 2457",
-            "24.64%HP上限 + 2683",
-            "26.4%HP上限 + 2923",
-            "28.16%HP上限 + 3177",
-            "29.92%HP上限 + 3445",
-            "31.68%HP上限 + 3728",
-            "33.44%HP上限 + 4024",
-            "35.2%HP上限 + 4335",
-            "37.4%HP上限 + 4660",
-            "39.6%HP上限 + 4999",
-            "41.8%HP上限 + 5352"
-          ]
-        },
-        {
-          "label": "クールタイム",
-          "values": [
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒",
-            "20秒"
-          ]
-        },
-        {
-          "label": "元素エネルギー",
-          "values": [
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "GloriousSeason",
-      "name": "輝く季節",
-      "description": "<span>公演、開始♪</span>歌声の輪が継続している間、スタミナ消費-12%。",
-      "level": 1
-    },
-    {
-      "id": "Encore",
-      "name": "アンコール",
-      "description": "出場している自身のキャラクターが元素オーブまたは元素粒子を獲得した時、<span>公演、開始♪</span>の歌声の輪の継続時間+1秒。<br/>この方法で最大5秒まで延長可能。",
-      "level": 4
-    },
-    {
-      "id": "WithMyWholeHeart",
-      "name": "気持ち♪注入",
-      "description": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "GleefulSongs",
-      "name": "虹色の歌",
-      "description": "10秒毎に元素エネルギーを1回復する。",
-      "level": 1
-    },
-    {
-      "id": "VitalityBurst",
-      "name": "元気溌剌",
-      "description": "<span>公演、開始♪</span>のクールタイム-15%。<br/>スキル継続中、出場している自身のキャラクターの与える<span>水元素ダメージ</span>+15%。",
-      "level": 2
-    },
-    {
-      "id": "StarOfTomorrow",
-      "name": "明日の星",
-      "description": "<span>シャイニングミラクル♪</span>のスキルLv.+3。<br/>最大Lv.15まで。",
-      "level": 3
-    },
-    {
-      "id": "AttentivenessBeMyPower",
-      "name": "努力が魔法なの",
-      "description": "重撃が敵に命中する度に、バーバラの元素エネルギーが1回復する。<br/>一回で最大元素エネルギーが5まで回復できる。",
-      "level": 4
-    },
-    {
-      "id": "ThePurestCompanionship",
-      "name": "純真な絆",
-      "description": "<span>公演、開始♪</span>のスキルLv.+3。<br/>最大Lv.15まで。",
-      "level": 5
-    },
-    {
-      "id": "DedicatingEverythingToYou",
-      "name": "美しいものをあなたに",
-      "description": "バーバラが待機中の時、出場している自身のキャラクターが戦闘不能になると、下記の効果が発動される。<br/>·戦闘不能になったキャラクターを復活させる。<br/>·該当キャラクターのHPが100%回復される。<br/>この効果は15分毎に1回のみ発動可能。",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "-",
-            "821"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "-",
-            "13"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "-",
-            "56"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "-",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "2108",
-            "2721"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "34",
-            "44"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "144",
-            "186"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "0.0%",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "4076",
-            "4512"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "66",
-            "73"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "279",
-            "308"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "0.0%",
-            "6.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteSliver",
-        "name": "澄明なラピスラズリ·砕屑",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "PhilanemoMushroom",
-        "name": "慕風のマッシュルーム",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "DiviningScroll",
-        "name": "占いの絵巻",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "5189",
-            "5770"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "84",
-            "94"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "355",
-            "394"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "6.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteFragment",
-        "name": "澄明なラピスラズリ·欠片",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "CleansingHeart",
-        "name": "浄水の心",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "PhilanemoMushroom",
-        "name": "慕風のマッシュルーム",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "DiviningScroll",
-        "name": "占いの絵巻",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "6448",
-            "6884"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "105",
-            "112"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "441",
-            "470"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "12.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteFragment",
-        "name": "澄明なラピスラズリ·欠片",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "CleansingHeart",
-        "name": "浄水の心",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "PhilanemoMushroom",
-        "name": "慕風のマッシュルーム",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SealedScroll",
-        "name": "封魔の絵巻",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "7561",
-            "7996"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "123",
-            "130"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "517",
-            "546"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "12.0%",
-            "18.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteChunk",
-        "name": "澄明なラピスラズリ·塊",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "CleansingHeart",
-        "name": "浄水の心",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "PhilanemoMushroom",
-        "name": "慕風のマッシュルーム",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SealedScroll",
-        "name": "封魔の絵巻",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "8674",
-            "9110"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "141",
-            "148"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "593",
-            "623"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "18.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteChunk",
-        "name": "澄明なラピスラズリ·塊",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "CleansingHeart",
-        "name": "浄水の心",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "PhilanemoMushroom",
-        "name": "慕風のマッシュルーム",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ForbiddenCurseScroll",
-        "name": "禁呪の絵巻",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "基礎HP",
-          "values": [
-            "9787",
-            "9787"
-          ]
-        },
-        {
-          "label": "基礎攻撃力",
-          "values": [
-            "159",
-            "159"
-          ]
-        },
-        {
-          "label": "基礎防御力",
-          "values": [
-            "669",
-            "669"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "24.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteGemstone",
-        "name": "澄明なラピスラズリ",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "CleansingHeart",
-        "name": "浄水の心",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "PhilanemoMushroom",
-        "name": "慕風のマッシュルーム",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ForbiddenCurseScroll",
-        "name": "禁呪の絵巻",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfFreedom",
-          "name": "「自由」の教え",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "DiviningScroll",
-          "name": "占いの絵巻",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "「自由」の導き",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "SealedScroll",
-          "name": "封魔の絵巻",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "「自由」の導き",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "SealedScroll",
-          "name": "封魔の絵巻",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "「自由」の導き",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "SealedScroll",
-          "name": "封魔の絵巻",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "「自由」の導き",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "SealedScroll",
-          "name": "封魔の絵巻",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "「自由」の哲学",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "禁呪の絵巻",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "RingOfBoreas",
-          "name": "北風のリング",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "「自由」の哲学",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "禁呪の絵巻",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "RingOfBoreas",
-          "name": "北風のリング",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "「自由」の哲学",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "禁呪の絵巻",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "RingOfBoreas",
-          "name": "北風のリング",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "「自由」の哲学",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "ForbiddenCurseScroll",
-          "name": "禁呪の絵巻",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "RingOfBoreas",
-          "name": "北風のリング",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "知恵の冠",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Barbara/Icon.webp",
-    "sideIcon": "Character/Barbara/SideIcon.webp",
-    "gatchaCard": "Character/Barbara/GachaCard.webp",
-    "gachaSplash": "Character/Barbara/GachaSplash.webp",
-    "face": "Character/Barbara/Face.webp",
-    "halfFace": "Character/Barbara/HalfFace.webp",
-    "profile": "Character/Barbara/Profile.webp",
-    "weaponStance": "Character/Barbara/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "WineAndSong",
-  "specialDish": "SpicyStew",
-  "tcgCharacterCard": "Barbara",
-  "outfits": [
-    {
-      "id": "InnocentLonging",
-      "name": "ピュアな期待",
-      "description": "バーバラの衣装。バーバラ個人の特徴を取り入れた西風教会牧師の制服。",
-      "picture": "Character/Barbara/Outfit/InnocentLonging.webp"
-    }
-  ]
+	"id": "Barbara",
+	"name": "バーバラ",
+	"title": "キラキラアイドル",
+	"description": "モンド城のみんなはバーバラが大好き。ちなみに「アイドル」という言葉は彼女が雑誌で見たものらしい。",
+	"weaponType": "法器",
+	"element": "水",
+	"gender": "女",
+	"substat": "HP%",
+	"affiliation": "西風教会",
+	"region": "モンド",
+	"rarity": 4,
+	"birthday": "5/7",
+	"constellation": "金杯座",
+	"domain": "忘却の峡谷",
+	"cv": {
+		"english": "Laura Stahl",
+		"chinese": "宋媛媛",
+		"japanese": "鬼頭明里",
+		"korean": "윤아영"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackWhisperOfWater",
+			"name": "通常攻撃·水の囁き",
+			"description": "通常攻撃最大4段の連続攻撃を行い、水元素ダメージを与える。重撃一定のスタミナを消費し、短い詠唱をした後、敵に水元素範囲ダメージを与える。落下攻撃空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に水元素範囲ダメージを与える。",
+			"info": "",
+			"attributes": [
+				{
+					"label": "1段ダメージ",
+					"values": [
+						"37.84%",
+						"40.68%",
+						"43.52%",
+						"47.3%",
+						"50.14%",
+						"52.98%",
+						"56.76%",
+						"60.54%",
+						"64.33%",
+						"68.11%",
+						"72.05%",
+						"77.19%",
+						"82.34%",
+						"87.49%",
+						"92.63%"
+					]
+				},
+				{
+					"label": "2段ダメージ",
+					"values": [
+						"35.52%",
+						"38.18%",
+						"40.85%",
+						"44.4%",
+						"47.06%",
+						"49.73%",
+						"53.28%",
+						"56.83%",
+						"60.38%",
+						"63.94%",
+						"67.63%",
+						"72.46%",
+						"77.29%",
+						"82.12%",
+						"86.95%"
+					]
+				},
+				{
+					"label": "3段ダメージ",
+					"values": [
+						"41.04%",
+						"44.12%",
+						"47.2%",
+						"51.3%",
+						"54.38%",
+						"57.46%",
+						"61.56%",
+						"65.66%",
+						"69.77%",
+						"73.87%",
+						"78.14%",
+						"83.72%",
+						"89.3%",
+						"94.88%",
+						"100.47%"
+					]
+				},
+				{
+					"label": "4段ダメージ",
+					"values": [
+						"55.2%",
+						"59.34%",
+						"63.48%",
+						"69%",
+						"73.14%",
+						"77.28%",
+						"82.8%",
+						"88.32%",
+						"93.84%",
+						"99.36%",
+						"105.1%",
+						"112.61%",
+						"120.12%",
+						"127.62%",
+						"135.13%"
+					]
+				},
+				{
+					"label": "重撃ダメージ",
+					"values": [
+						"166.24%",
+						"178.71%",
+						"191.18%",
+						"207.8%",
+						"220.27%",
+						"232.74%",
+						"249.36%",
+						"265.98%",
+						"282.61%",
+						"299.23%",
+						"316.52%",
+						"339.13%",
+						"361.74%",
+						"384.35%",
+						"406.96%"
+					]
+				},
+				{
+					"label": "重撃スタミナ消費",
+					"values": ["50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50"]
+				},
+				{
+					"label": "落下期間のダメージ",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "低空/高空落下攻撃ダメージ",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"id": "LetTheShowBegin",
+			"name": "公演、開始♪",
+			"description": "躍動する歌声のような水の玉を召喚し、歌声の輪を作って周囲の敵に水元素ダメージを与え、さらに湿潤状態を付与する。歌声の輪·バーバラの通常攻撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量はバーバラのHP上限によって決まる。·重撃が命中した時、回復量は4倍になる。·一定時間の間隔で、出場している自身のキャラクターのHPを回復する。·キャラクター、または接触した敵に湿潤状態を付与する。",
+			"info": "バーバラの音楽はみんなを治療する魔法。",
+			"attributes": [
+				{
+					"label": "命中回復量",
+					"values": [
+						"0.75%HP上限 + 72",
+						"0.81%HP上限 + 79",
+						"0.86%HP上限 + 87",
+						"0.94%HP上限 + 96",
+						"0.99%HP上限 + 105",
+						"1.05%HP上限 + 114",
+						"1.13%HP上限 + 125",
+						"1.2%HP上限 + 135",
+						"1.27%HP上限 + 147",
+						"1.35%HP上限 + 159",
+						"1.43%HP上限 + 172",
+						"1.5%HP上限 + 185",
+						"1.59%HP上限 + 199",
+						"1.69%HP上限 + 213",
+						"1.78%HP上限 + 228"
+					]
+				},
+				{
+					"label": "継続回復量",
+					"values": [
+						"4%HP上限 + 385",
+						"4.3%HP上限 + 424",
+						"4.6%HP上限 + 465",
+						"5%HP上限 + 510",
+						"5.3%HP上限 + 559",
+						"5.6%HP上限 + 610",
+						"6%HP上限 + 664",
+						"6.4%HP上限 + 722",
+						"6.8%HP上限 + 783",
+						"7.2%HP上限 + 847",
+						"7.6%HP上限 + 915",
+						"8%HP上限 + 986",
+						"8.5%HP上限 + 1059",
+						"9%HP上限 + 1136",
+						"9.5%HP上限 + 1217"
+					]
+				},
+				{
+					"label": "水玉ダメージ",
+					"values": [
+						"58.4%",
+						"62.78%",
+						"67.16%",
+						"73%",
+						"77.38%",
+						"81.76%",
+						"87.6%",
+						"93.44%",
+						"99.28%",
+						"105.12%",
+						"110.96%",
+						"116.8%",
+						"124.1%",
+						"131.4%",
+						"138.7%"
+					]
+				},
+				{
+					"label": "継続時間",
+					"values": [
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒"
+					]
+				},
+				{
+					"label": "クールタイム",
+					"values": [
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒",
+						"32秒"
+					]
+				}
+			]
+		},
+		{
+			"id": "ShiningMiracle",
+			"name": "シャイニングミラクル♪",
+			"description": "周囲にいる味方とチーム内の自身のキャラクター全員のHPを大量に回復する、回復量はバーバラのHP上限によって決まる。",
+			"info": "人々を癒す心はバーバラの戦う源であり、歌う力である。",
+			"attributes": [
+				{
+					"label": "回復量",
+					"values": [
+						"17.6%HP上限 + 1694",
+						"18.92%HP上限 + 1864",
+						"20.24%HP上限 + 2047",
+						"22%HP上限 + 2245",
+						"23.32%HP上限 + 2457",
+						"24.64%HP上限 + 2683",
+						"26.4%HP上限 + 2923",
+						"28.16%HP上限 + 3177",
+						"29.92%HP上限 + 3445",
+						"31.68%HP上限 + 3728",
+						"33.44%HP上限 + 4024",
+						"35.2%HP上限 + 4335",
+						"37.4%HP上限 + 4660",
+						"39.6%HP上限 + 4999",
+						"41.8%HP上限 + 5352"
+					]
+				},
+				{
+					"label": "クールタイム",
+					"values": [
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒",
+						"20秒"
+					]
+				},
+				{
+					"label": "元素エネルギー",
+					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "GloriousSeason",
+			"name": "輝く季節",
+			"description": "公演、開始♪歌声の輪が継続している間、スタミナ消費-12%。",
+			"level": 1
+		},
+		{
+			"id": "Encore",
+			"name": "アンコール",
+			"description": "出場している自身のキャラクターが元素オーブまたは元素粒子を獲得した時、公演、開始♪の歌声の輪の継続時間+1秒。この方法で最大5秒まで延長可能。",
+			"level": 4
+		},
+		{
+			"id": "WithMyWholeHeart",
+			"name": "気持ち♪注入",
+			"description": "回復系料理を完璧調理した時、12%の確率で料理を2倍獲得する。",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "GleefulSongs",
+			"name": "虹色の歌",
+			"description": "10秒毎に元素エネルギーを1回復する。",
+			"level": 1
+		},
+		{
+			"id": "VitalityBurst",
+			"name": "元気溌剌",
+			"description": "公演、開始♪のクールタイム-15%。スキル継続中、出場している自身のキャラクターの与える水元素ダメージ+15%。",
+			"level": 2
+		},
+		{
+			"id": "StarOfTomorrow",
+			"name": "明日の星",
+			"description": "シャイニングミラクル♪のスキルLv.+3。最大Lv.15まで。",
+			"level": 3
+		},
+		{
+			"id": "AttentivenessBeMyPower",
+			"name": "努力が魔法なの",
+			"description": "重撃が敵に命中する度に、バーバラの元素エネルギーが1回復する。一回で最大元素エネルギーが5まで回復できる。",
+			"level": 4
+		},
+		{
+			"id": "ThePurestCompanionship",
+			"name": "純真な絆",
+			"description": "公演、開始♪のスキルLv.+3。最大Lv.15まで。",
+			"level": 5
+		},
+		{
+			"id": "DedicatingEverythingToYou",
+			"name": "美しいものをあなたに",
+			"description": "バーバラが待機中の時、出場している自身のキャラクターが戦闘不能になると、下記の効果が発動される。·戦闘不能になったキャラクターを復活させる。·該当キャラクターのHPが100%回復される。この効果は15分毎に1回のみ発動可能。",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "突破",
+					"values": ["-", 1]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["-", "821"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["-", "13"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["-", "56"]
+				},
+				{
+					"label": "HP%",
+					"values": ["-", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "突破",
+					"values": [0, 1]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["2108", "2721"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["34", "44"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["144", "186"]
+				},
+				{
+					"label": "HP%",
+					"values": ["0.0%", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [1, 2]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["4076", "4512"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["66", "73"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["279", "308"]
+				},
+				{
+					"label": "HP%",
+					"values": ["0.0%", "6.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteSliver",
+				"name": "澄明なラピスラズリ·砕屑",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "PhilanemoMushroom",
+				"name": "慕風のマッシュルーム",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "DiviningScroll",
+				"name": "占いの絵巻",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [2, 3]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["5189", "5770"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["84", "94"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["355", "394"]
+				},
+				{
+					"label": "HP%",
+					"values": ["6.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteFragment",
+				"name": "澄明なラピスラズリ·欠片",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "CleansingHeart",
+				"name": "浄水の心",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "PhilanemoMushroom",
+				"name": "慕風のマッシュルーム",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "DiviningScroll",
+				"name": "占いの絵巻",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [3, 4]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["6448", "6884"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["105", "112"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["441", "470"]
+				},
+				{
+					"label": "HP%",
+					"values": ["12.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteFragment",
+				"name": "澄明なラピスラズリ·欠片",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "CleansingHeart",
+				"name": "浄水の心",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "PhilanemoMushroom",
+				"name": "慕風のマッシュルーム",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SealedScroll",
+				"name": "封魔の絵巻",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [4, 5]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["7561", "7996"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["123", "130"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["517", "546"]
+				},
+				{
+					"label": "HP%",
+					"values": ["12.0%", "18.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteChunk",
+				"name": "澄明なラピスラズリ·塊",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "CleansingHeart",
+				"name": "浄水の心",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "PhilanemoMushroom",
+				"name": "慕風のマッシュルーム",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SealedScroll",
+				"name": "封魔の絵巻",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [5, 6]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["8674", "9110"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["141", "148"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["593", "623"]
+				},
+				{
+					"label": "HP%",
+					"values": ["18.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteChunk",
+				"name": "澄明なラピスラズリ·塊",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "CleansingHeart",
+				"name": "浄水の心",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "PhilanemoMushroom",
+				"name": "慕風のマッシュルーム",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ForbiddenCurseScroll",
+				"name": "禁呪の絵巻",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [6, 7]
+				},
+				{
+					"label": "基礎HP",
+					"values": ["9787", "9787"]
+				},
+				{
+					"label": "基礎攻撃力",
+					"values": ["159", "159"]
+				},
+				{
+					"label": "基礎防御力",
+					"values": ["669", "669"]
+				},
+				{
+					"label": "HP%",
+					"values": ["24.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteGemstone",
+				"name": "澄明なラピスラズリ",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "CleansingHeart",
+				"name": "浄水の心",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "PhilanemoMushroom",
+				"name": "慕風のマッシュルーム",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ForbiddenCurseScroll",
+				"name": "禁呪の絵巻",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfFreedom",
+					"name": "「自由」の教え",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "DiviningScroll",
+					"name": "占いの絵巻",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "「自由」の導き",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "SealedScroll",
+					"name": "封魔の絵巻",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "「自由」の導き",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "SealedScroll",
+					"name": "封魔の絵巻",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "「自由」の導き",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SealedScroll",
+					"name": "封魔の絵巻",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "「自由」の導き",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "SealedScroll",
+					"name": "封魔の絵巻",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "「自由」の哲学",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "ForbiddenCurseScroll",
+					"name": "禁呪の絵巻",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "RingOfBoreas",
+					"name": "北風のリング",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "「自由」の哲学",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "ForbiddenCurseScroll",
+					"name": "禁呪の絵巻",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "RingOfBoreas",
+					"name": "北風のリング",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "「自由」の哲学",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "ForbiddenCurseScroll",
+					"name": "禁呪の絵巻",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "RingOfBoreas",
+					"name": "北風のリング",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "「自由」の哲学",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "ForbiddenCurseScroll",
+					"name": "禁呪の絵巻",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "RingOfBoreas",
+					"name": "北風のリング",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "知恵の冠",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Barbara/Icon.webp",
+		"sideIcon": "Character/Barbara/SideIcon.webp",
+		"gatchaCard": "Character/Barbara/GachaCard.webp",
+		"gachaSplash": "Character/Barbara/GachaSplash.webp",
+		"face": "Character/Barbara/Face.webp",
+		"halfFace": "Character/Barbara/HalfFace.webp",
+		"profile": "Character/Barbara/Profile.webp",
+		"weaponStance": "Character/Barbara/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "WineAndSong",
+	"specialDish": "SpicyStew",
+	"tcgCharacterCard": "Barbara",
+	"outfits": [
+		{
+			"id": "InnocentLonging",
+			"name": "ピュアな期待",
+			"description": "バーバラの衣装。バーバラ個人の特徴を取り入れた西風教会牧師の制服。",
+			"picture": "Character/Barbara/Outfit/InnocentLonging.webp"
+		}
+	]
 }

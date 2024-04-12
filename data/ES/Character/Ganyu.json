@@ -1,1205 +1,1053 @@
 {
-  "id": "Ganyu",
-  "name": "Ganyu",
-  "title": "La Vigía del Plenilunio",
-  "description": "La secretaria del Pabellón Yuehai. La sangre de bestia iluminada Chilin fluye por sus venas.",
-  "weaponType": "Arco",
-  "element": "Cryo",
-  "gender": "Femenino",
-  "substat": "Daño CRIT",
-  "affiliation": "Pabellón Yuehai",
-  "region": "Liyue",
-  "rarity": 5,
-  "birthday": "2/12",
-  "constellation": "Sinae Unicornis",
-  "domain": "Mansión Taishan",
-  "cv": {
-    "english": "Jennifer Losi",
-    "chinese": "林簌",
-    "japanese": "上田麗奈",
-    "korean": "Kim Seon-hye"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackLiutianArchery",
-      "name": "Ataque Normal: Técnica de tiro Liutian",
-      "description": "<span>Ataque Normal</span><br/>Realiza hasta 6 disparos consecutivos con arco.<br/><br/><span>Ataque Cargado</span><br/>Realiza un <span>Disparo Preciso</span> que inflige mayor daño y tiene mayor precisión.<br/>Mientras se apunta, un aura helada se acumulará en la punta de la flecha antes de que esta sea disparada. Sus efectos serán distintos dependiendo de durante cuánto tiempo se ha cargado:<br/>Carga 1: Dispara una flecha congelada que inflige <span>Daño Cryo</span>.<br/>Carga 2: Dispara una flecha helada que inflige <span>Daño Cryo</span>. Al golpear a su objetivo, la flecha estallará, creando una explosión de escarcha e infligiendo <span>Daño Cryo en el AdE</span>.<br/><br/><span>Ataque Descendente</span><br/>Dispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "Daño de 1er golpe",
-          "values": [
-            "31.73%",
-            "34.32%",
-            "36.9%",
-            "40.59%",
-            "43.17%",
-            "46.13%",
-            "50.18%",
-            "54.24%",
-            "58.3%",
-            "62.73%",
-            "67.8%",
-            "73.77%",
-            "79.74%",
-            "85.7%",
-            "92.21%"
-          ]
-        },
-        {
-          "label": "Daño de 2.º golpe",
-          "values": [
-            "35.6%",
-            "38.5%",
-            "41.4%",
-            "45.54%",
-            "48.44%",
-            "51.75%",
-            "56.3%",
-            "60.86%",
-            "65.41%",
-            "70.38%",
-            "76.07%",
-            "82.77%",
-            "89.46%",
-            "96.16%",
-            "103.46%"
-          ]
-        },
-        {
-          "label": "Daño de 3er golpe",
-          "values": [
-            "45.49%",
-            "49.2%",
-            "52.9%",
-            "58.19%",
-            "61.89%",
-            "66.12%",
-            "71.94%",
-            "77.76%",
-            "83.58%",
-            "89.93%",
-            "97.2%",
-            "105.76%",
-            "114.31%",
-            "122.87%",
-            "132.2%"
-          ]
-        },
-        {
-          "label": "Daño de 4.º golpe",
-          "values": [
-            "45.49%",
-            "49.2%",
-            "52.9%",
-            "58.19%",
-            "61.89%",
-            "66.12%",
-            "71.94%",
-            "77.76%",
-            "83.58%",
-            "89.93%",
-            "97.2%",
-            "105.76%",
-            "114.31%",
-            "122.87%",
-            "132.2%"
-          ]
-        },
-        {
-          "label": "Daño de 5.º golpe",
-          "values": [
-            "48.25%",
-            "52.17%",
-            "56.1%",
-            "61.71%",
-            "65.64%",
-            "70.13%",
-            "76.3%",
-            "82.47%",
-            "88.64%",
-            "95.37%",
-            "103.08%",
-            "112.16%",
-            "121.23%",
-            "130.3%",
-            "140.19%"
-          ]
-        },
-        {
-          "label": "Daño de 6.º golpe",
-          "values": [
-            "57.62%",
-            "62.31%",
-            "67%",
-            "73.7%",
-            "78.39%",
-            "83.75%",
-            "91.12%",
-            "98.49%",
-            "105.86%",
-            "113.9%",
-            "123.11%",
-            "133.95%",
-            "144.78%",
-            "155.61%",
-            "167.43%"
-          ]
-        },
-        {
-          "label": "Disparo Preciso",
-          "values": [
-            "43.86%",
-            "47.43%",
-            "51%",
-            "56.1%",
-            "59.67%",
-            "63.75%",
-            "69.36%",
-            "74.97%",
-            "80.58%",
-            "86.7%",
-            "92.82%",
-            "98.94%",
-            "105.06%",
-            "111.18%",
-            "117.3%"
-          ]
-        },
-        {
-          "label": "1er Disparo Preciso cargado",
-          "values": [
-            "124%",
-            "133.3%",
-            "142.6%",
-            "155%",
-            "164.3%",
-            "173.6%",
-            "186%",
-            "198.4%",
-            "210.8%",
-            "223.2%",
-            "235.6%",
-            "248%",
-            "263.5%",
-            "279%",
-            "294.5%"
-          ]
-        },
-        {
-          "label": "Daño de flecha helada",
-          "values": [
-            "128%",
-            "137.6%",
-            "147.2%",
-            "160%",
-            "169.6%",
-            "179.2%",
-            "192%",
-            "204.8%",
-            "217.6%",
-            "230.4%",
-            "243.2%",
-            "256%",
-            "272%",
-            "288%",
-            "304%"
-          ]
-        },
-        {
-          "label": "Daño de explosión de escarcha de flecha helada",
-          "values": [
-            "217.6%",
-            "233.92%",
-            "250.24%",
-            "272%",
-            "288.32%",
-            "304.64%",
-            "326.4%",
-            "348.16%",
-            "369.92%",
-            "391.68%",
-            "413.44%",
-            "435.2%",
-            "462.4%",
-            "489.6%",
-            "516.8%"
-          ]
-        },
-        {
-          "label": "Daño de Caída",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "Daño de impacto de caída baja/alta",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "TrailOfTheQilin",
-      "name": "Senda de Chilin",
-      "description": "Ganyu da un salto atrás para dejar un loto de hielo, evitando toda impureza e infligiendo <span>Daño Cryo en el AdE</span>.<br/><span>Loto de hielo</span><br/>·Provoca continuamente a los enemigos que lo rodean, atrayéndolos para que lo ataquen.<br/>·La resistencia del loto es proporcional a la Vida Máx. de Ganyu.<br/>·Explota cuando es destruido o una vez terminada su duración, infligiendo <span>Daño Cryo en el AdE</span>.",
-      "info": "“¿Dices que me viste? Debe haber sido un error. A esas horas estaba trabajando horas extras”.",
-      "attributes": [
-        {
-          "label": "Vida del loto",
-          "values": [
-            "120% de Vida Máx.",
-            "129% de Vida Máx.",
-            "138% de Vida Máx.",
-            "150% de Vida Máx.",
-            "159% de Vida Máx.",
-            "168% de Vida Máx.",
-            "180% de Vida Máx.",
-            "192% de Vida Máx.",
-            "204% de Vida Máx.",
-            "216% de Vida Máx.",
-            "228% de Vida Máx.",
-            "240% de Vida Máx.",
-            "255% de Vida Máx.",
-            "270% de Vida Máx.",
-            "285% de Vida Máx."
-          ]
-        },
-        {
-          "label": "Daño de habilidad",
-          "values": [
-            "132%",
-            "141.9%",
-            "151.8%",
-            "165%",
-            "174.9%",
-            "184.8%",
-            "198%",
-            "211.2%",
-            "224.4%",
-            "237.6%",
-            "250.8%",
-            "264%",
-            "280.5%",
-            "297%",
-            "313.5%"
-          ]
-        },
-        {
-          "label": "Duración",
-          "values": [
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s",
-            "6 s"
-          ]
-        },
-        {
-          "label": "TdE",
-          "values": [
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "CelestialShower",
-      "name": "Diluvio celestial",
-      "description": "Fusiona nieve y escarcha en la atmósfera para invocar una perla de hielo sagrada que exorciza el mal.<br/>Mientras dure la habilidad, la perla hará llover continuamente fragmentos de hielo que golpean a los enemigos dentro de un AdE e infligen <span>Daño Cryo</span>.",
-      "info": "Ganyu puede provocar una lluvia sin problemas. Pero contra los demonios y los herejes, esa lluvia se convierte en una helada y amarga nieve.",
-      "attributes": [
-        {
-          "label": "Daño de carámbano",
-          "values": [
-            "70.27%",
-            "75.54%",
-            "80.81%",
-            "87.84%",
-            "93.11%",
-            "98.38%",
-            "105.41%",
-            "112.44%",
-            "119.46%",
-            "126.49%",
-            "133.52%",
-            "140.54%",
-            "149.33%",
-            "158.11%",
-            "166.9%"
-          ]
-        },
-        {
-          "label": "Duración",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "TdE",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "Energía Elemental",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "UndividedHeart",
-      "name": "Corazón indiviso",
-      "description": "Tras lanzar una flecha helada, aumenta en un 20% la Prob. CRIT de la siguiente flecha helada y de la explosión de escarcha causada por ella durante 5 s.",
-      "level": 1
-    },
-    {
-      "id": "HarmonyBetweenHeavenAndEarth",
-      "name": "Armonía entre el Cielo y la Tierra",
-      "description": "Los personajes en uso que se encuentren dentro del área de <span>Diluvio celestial</span> obtienen un 20% de <span>Bono de Daño Cryo</span>.",
-      "level": 4
-    },
-    {
-      "id": "PreservedForTheHunt",
-      "name": "Arco de repuesto",
-      "description": "Recupera el 15% de los minerales utilizados en la fabricación de arcos.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "Dewdrinker",
-      "name": "Bebedora de rocío",
-      "description": "Reduce en un 15% la <span>RES Cryo</span> de los enemigos golpeados por una flecha helada de Carga 2 o una explosión de escarcha durante 6 s.<br/>Además, al golpear a un enemigo, Ganyu recupera 2 pts. de Energía Elemental. Este efecto solo puede activarse una vez por cada flecha helada de Carga 2, independientemente de que tanto dicha flecha helada como la explosión de escarcha golpeen al enemigo.",
-      "level": 1
-    },
-    {
-      "id": "TheAuspicious",
-      "name": "La auspiciosa",
-      "description": "Aumenta en 1 las cargas de <span>Senda de Chilin</span>.",
-      "level": 2
-    },
-    {
-      "id": "Cloudstrider",
-      "name": "Jinete de las nubes",
-      "description": "Aumenta el nivel de habilidad de <span>Diluvio celestial</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
-      "level": 3
-    },
-    {
-      "id": "WestwardSojourn",
-      "name": "Viaje al Oeste",
-      "description": "Los enemigos que estén en el AdE de <span>Diluvio celestial</span> reciben daño adicional. Este efecto se fortalece con el tiempo.<br/>El daño comienza con un 5% adicional, y aumenta en un 5% cada 3 s hasta un máximo de un 25%.<br/>Este efecto persiste durante 3 s después de que el enemigo se aleje del AdE de la habilidad.",
-      "level": 4
-    },
-    {
-      "id": "TheMerciful",
-      "name": "La misericordiosa",
-      "description": "Aumenta el nivel de habilidad de <span>Senda de Chilin</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
-      "level": 5
-    },
-    {
-      "id": "TheClement",
-      "name": "La clemente",
-      "description": "Utilizar <span>Senda de Chilin</span> hace que durante 30 s no se requiera cargar la siguiente flecha helada.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "-",
-            "763"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "-",
-            "26"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "-",
-            "49"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "-",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "1978",
-            "2632"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "68",
-            "90"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "127",
-            "169"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "50.0%",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "3939",
-            "4403"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "135",
-            "151"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "253",
-            "283"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "50.0%",
-            "59.6%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeSliver",
-        "name": "Pedacito de jade shivada",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Flor chingxin",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WhopperflowerNectar",
-        "name": "Néctar de Megaflora",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "5066",
-            "5686"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "173",
-            "194"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "326",
-            "366"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "59.6%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Fragmento de jade shivada",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Núcleo de escarcha",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Flor chingxin",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WhopperflowerNectar",
-        "name": "Néctar de Megaflora",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "6355",
-            "6820"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "217",
-            "233"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "409",
-            "439"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "69.2%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Fragmento de jade shivada",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Núcleo de escarcha",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Flor chingxin",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ShimmeringNectar",
-        "name": "Néctar brillante",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "7495",
-            "7960"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "256",
-            "272"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "482",
-            "512"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "69.2%",
-            "78.8%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Trozo de jade shivada",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Núcleo de escarcha",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Flor chingxin",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ShimmeringNectar",
-        "name": "Néctar brillante",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "8643",
-            "9108"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "295",
-            "311"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "556",
-            "586"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "78.8%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Trozo de jade shivada",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Núcleo de escarcha",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Flor chingxin",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "EnergyNectar",
-        "name": "Néctar energético",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Vida Base",
-          "values": [
-            "9797",
-            "9797"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "335",
-            "335"
-          ]
-        },
-        {
-          "label": "DEF Base",
-          "values": [
-            "630",
-            "630"
-          ]
-        },
-        {
-          "label": "Daño CRIT",
-          "values": [
-            "88.4%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeGemstone",
-        "name": "Jade shivada",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Núcleo de escarcha",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Flor chingxin",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "EnergyNectar",
-        "name": "Néctar energético",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfDiligence",
-          "name": "Enseñanzas del esfuerzo",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Néctar de Megaflora",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guía del esfuerzo",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Néctar brillante",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guía del esfuerzo",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Néctar brillante",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guía del esfuerzo",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Néctar brillante",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guía del esfuerzo",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Néctar brillante",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Filosofía del esfuerzo",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Néctar energético",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Sombra del guerrero",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Filosofía del esfuerzo",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Néctar energético",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Sombra del guerrero",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Filosofía del esfuerzo",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Néctar energético",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Sombra del guerrero",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Filosofía del esfuerzo",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Néctar energético",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Sombra del guerrero",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Corona de la sabiduría",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Ganyu/Icon.webp",
-    "sideIcon": "Character/Ganyu/SideIcon.webp",
-    "gatchaCard": "Character/Ganyu/GachaCard.webp",
-    "gachaSplash": "Character/Ganyu/GachaSplash.webp",
-    "face": "Character/Ganyu/Face.webp",
-    "halfFace": "Character/Ganyu/HalfFace.webp",
-    "profile": "Character/Ganyu/Profile.webp",
-    "weaponStance": "Character/Ganyu/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "AmosBow",
-  "specialDish": "ProsperousPeace",
-  "tcgCharacterCard": "Ganyu",
-  "outfits": [
-    {
-      "id": "FrostdewTrail",
-      "name": "Rocío helado",
-      "description": "Modelo de vestimenta de Ganyu. El clásico atuendo de los Adeptus bendecidos con la iluminación.",
-      "picture": "Character/Ganyu/Outfit/FrostdewTrail.webp"
-    }
-  ]
+	"id": "Ganyu",
+	"name": "Ganyu",
+	"title": "La Vigía del Plenilunio",
+	"description": "La secretaria del Pabellón Yuehai. La sangre de bestia iluminada Chilin fluye por sus venas.",
+	"weaponType": "Arco",
+	"element": "Cryo",
+	"gender": "Femenino",
+	"substat": "Daño CRIT",
+	"affiliation": "Pabellón Yuehai",
+	"region": "Liyue",
+	"rarity": 5,
+	"birthday": "2/12",
+	"constellation": "Sinae Unicornis",
+	"domain": "Mansión Taishan",
+	"cv": {
+		"english": "Jennifer Losi",
+		"chinese": "林簌",
+		"japanese": "上田麗奈",
+		"korean": "Kim Seon-hye"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackLiutianArchery",
+			"name": "Ataque Normal: Técnica de tiro Liutian",
+			"description": "Ataque NormalRealiza hasta 6 disparos consecutivos con arco.Ataque CargadoRealiza un Disparo Preciso que inflige mayor daño y tiene mayor precisión.Mientras se apunta, un aura helada se acumulará en la punta de la flecha antes de que esta sea disparada. Sus efectos serán distintos dependiendo de durante cuánto tiempo se ha cargado:Carga 1: Dispara una flecha congelada que inflige Daño Cryo.Carga 2: Dispara una flecha helada que inflige Daño Cryo. Al golpear a su objetivo, la flecha estallará, creando una explosión de escarcha e infligiendo Daño Cryo en el AdE.Ataque DescendenteDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "Daño de 1er golpe",
+					"values": [
+						"31.73%",
+						"34.32%",
+						"36.9%",
+						"40.59%",
+						"43.17%",
+						"46.13%",
+						"50.18%",
+						"54.24%",
+						"58.3%",
+						"62.73%",
+						"67.8%",
+						"73.77%",
+						"79.74%",
+						"85.7%",
+						"92.21%"
+					]
+				},
+				{
+					"label": "Daño de 2.º golpe",
+					"values": [
+						"35.6%",
+						"38.5%",
+						"41.4%",
+						"45.54%",
+						"48.44%",
+						"51.75%",
+						"56.3%",
+						"60.86%",
+						"65.41%",
+						"70.38%",
+						"76.07%",
+						"82.77%",
+						"89.46%",
+						"96.16%",
+						"103.46%"
+					]
+				},
+				{
+					"label": "Daño de 3er golpe",
+					"values": [
+						"45.49%",
+						"49.2%",
+						"52.9%",
+						"58.19%",
+						"61.89%",
+						"66.12%",
+						"71.94%",
+						"77.76%",
+						"83.58%",
+						"89.93%",
+						"97.2%",
+						"105.76%",
+						"114.31%",
+						"122.87%",
+						"132.2%"
+					]
+				},
+				{
+					"label": "Daño de 4.º golpe",
+					"values": [
+						"45.49%",
+						"49.2%",
+						"52.9%",
+						"58.19%",
+						"61.89%",
+						"66.12%",
+						"71.94%",
+						"77.76%",
+						"83.58%",
+						"89.93%",
+						"97.2%",
+						"105.76%",
+						"114.31%",
+						"122.87%",
+						"132.2%"
+					]
+				},
+				{
+					"label": "Daño de 5.º golpe",
+					"values": [
+						"48.25%",
+						"52.17%",
+						"56.1%",
+						"61.71%",
+						"65.64%",
+						"70.13%",
+						"76.3%",
+						"82.47%",
+						"88.64%",
+						"95.37%",
+						"103.08%",
+						"112.16%",
+						"121.23%",
+						"130.3%",
+						"140.19%"
+					]
+				},
+				{
+					"label": "Daño de 6.º golpe",
+					"values": [
+						"57.62%",
+						"62.31%",
+						"67%",
+						"73.7%",
+						"78.39%",
+						"83.75%",
+						"91.12%",
+						"98.49%",
+						"105.86%",
+						"113.9%",
+						"123.11%",
+						"133.95%",
+						"144.78%",
+						"155.61%",
+						"167.43%"
+					]
+				},
+				{
+					"label": "Disparo Preciso",
+					"values": [
+						"43.86%",
+						"47.43%",
+						"51%",
+						"56.1%",
+						"59.67%",
+						"63.75%",
+						"69.36%",
+						"74.97%",
+						"80.58%",
+						"86.7%",
+						"92.82%",
+						"98.94%",
+						"105.06%",
+						"111.18%",
+						"117.3%"
+					]
+				},
+				{
+					"label": "1er Disparo Preciso cargado",
+					"values": [
+						"124%",
+						"133.3%",
+						"142.6%",
+						"155%",
+						"164.3%",
+						"173.6%",
+						"186%",
+						"198.4%",
+						"210.8%",
+						"223.2%",
+						"235.6%",
+						"248%",
+						"263.5%",
+						"279%",
+						"294.5%"
+					]
+				},
+				{
+					"label": "Daño de flecha helada",
+					"values": [
+						"128%",
+						"137.6%",
+						"147.2%",
+						"160%",
+						"169.6%",
+						"179.2%",
+						"192%",
+						"204.8%",
+						"217.6%",
+						"230.4%",
+						"243.2%",
+						"256%",
+						"272%",
+						"288%",
+						"304%"
+					]
+				},
+				{
+					"label": "Daño de explosión de escarcha de flecha helada",
+					"values": [
+						"217.6%",
+						"233.92%",
+						"250.24%",
+						"272%",
+						"288.32%",
+						"304.64%",
+						"326.4%",
+						"348.16%",
+						"369.92%",
+						"391.68%",
+						"413.44%",
+						"435.2%",
+						"462.4%",
+						"489.6%",
+						"516.8%"
+					]
+				},
+				{
+					"label": "Daño de Caída",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "Daño de impacto de caída baja/alta",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"id": "TrailOfTheQilin",
+			"name": "Senda de Chilin",
+			"description": "Ganyu da un salto atrás para dejar un loto de hielo, evitando toda impureza e infligiendo Daño Cryo en el AdE.Loto de hielo·Provoca continuamente a los enemigos que lo rodean, atrayéndolos para que lo ataquen.·La resistencia del loto es proporcional a la Vida Máx. de Ganyu.·Explota cuando es destruido o una vez terminada su duración, infligiendo Daño Cryo en el AdE.",
+			"info": "“¿Dices que me viste? Debe haber sido un error. A esas horas estaba trabajando horas extras”.",
+			"attributes": [
+				{
+					"label": "Vida del loto",
+					"values": [
+						"120% de Vida Máx.",
+						"129% de Vida Máx.",
+						"138% de Vida Máx.",
+						"150% de Vida Máx.",
+						"159% de Vida Máx.",
+						"168% de Vida Máx.",
+						"180% de Vida Máx.",
+						"192% de Vida Máx.",
+						"204% de Vida Máx.",
+						"216% de Vida Máx.",
+						"228% de Vida Máx.",
+						"240% de Vida Máx.",
+						"255% de Vida Máx.",
+						"270% de Vida Máx.",
+						"285% de Vida Máx."
+					]
+				},
+				{
+					"label": "Daño de habilidad",
+					"values": [
+						"132%",
+						"141.9%",
+						"151.8%",
+						"165%",
+						"174.9%",
+						"184.8%",
+						"198%",
+						"211.2%",
+						"224.4%",
+						"237.6%",
+						"250.8%",
+						"264%",
+						"280.5%",
+						"297%",
+						"313.5%"
+					]
+				},
+				{
+					"label": "Duración",
+					"values": [
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s",
+						"6 s"
+					]
+				},
+				{
+					"label": "TdE",
+					"values": [
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s"
+					]
+				}
+			]
+		},
+		{
+			"id": "CelestialShower",
+			"name": "Diluvio celestial",
+			"description": "Fusiona nieve y escarcha en la atmósfera para invocar una perla de hielo sagrada que exorciza el mal.Mientras dure la habilidad, la perla hará llover continuamente fragmentos de hielo que golpean a los enemigos dentro de un AdE e infligen Daño Cryo.",
+			"info": "Ganyu puede provocar una lluvia sin problemas. Pero contra los demonios y los herejes, esa lluvia se convierte en una helada y amarga nieve.",
+			"attributes": [
+				{
+					"label": "Daño de carámbano",
+					"values": [
+						"70.27%",
+						"75.54%",
+						"80.81%",
+						"87.84%",
+						"93.11%",
+						"98.38%",
+						"105.41%",
+						"112.44%",
+						"119.46%",
+						"126.49%",
+						"133.52%",
+						"140.54%",
+						"149.33%",
+						"158.11%",
+						"166.9%"
+					]
+				},
+				{
+					"label": "Duración",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "TdE",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "Energía Elemental",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "UndividedHeart",
+			"name": "Corazón indiviso",
+			"description": "Tras lanzar una flecha helada, aumenta en un 20% la Prob. CRIT de la siguiente flecha helada y de la explosión de escarcha causada por ella durante 5 s.",
+			"level": 1
+		},
+		{
+			"id": "HarmonyBetweenHeavenAndEarth",
+			"name": "Armonía entre el Cielo y la Tierra",
+			"description": "Los personajes en uso que se encuentren dentro del área de Diluvio celestial obtienen un 20% de Bono de Daño Cryo.",
+			"level": 4
+		},
+		{
+			"id": "PreservedForTheHunt",
+			"name": "Arco de repuesto",
+			"description": "Recupera el 15% de los minerales utilizados en la fabricación de arcos.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "Dewdrinker",
+			"name": "Bebedora de rocío",
+			"description": "Reduce en un 15% la RES Cryo de los enemigos golpeados por una flecha helada de Carga 2 o una explosión de escarcha durante 6 s.Además, al golpear a un enemigo, Ganyu recupera 2 pts. de Energía Elemental. Este efecto solo puede activarse una vez por cada flecha helada de Carga 2, independientemente de que tanto dicha flecha helada como la explosión de escarcha golpeen al enemigo.",
+			"level": 1
+		},
+		{
+			"id": "TheAuspicious",
+			"name": "La auspiciosa",
+			"description": "Aumenta en 1 las cargas de Senda de Chilin.",
+			"level": 2
+		},
+		{
+			"id": "Cloudstrider",
+			"name": "Jinete de las nubes",
+			"description": "Aumenta el nivel de habilidad de Diluvio celestial +3.Puede ser aumentado hasta Niv. 15.",
+			"level": 3
+		},
+		{
+			"id": "WestwardSojourn",
+			"name": "Viaje al Oeste",
+			"description": "Los enemigos que estén en el AdE de Diluvio celestial reciben daño adicional. Este efecto se fortalece con el tiempo.El daño comienza con un 5% adicional, y aumenta en un 5% cada 3 s hasta un máximo de un 25%.Este efecto persiste durante 3 s después de que el enemigo se aleje del AdE de la habilidad.",
+			"level": 4
+		},
+		{
+			"id": "TheMerciful",
+			"name": "La misericordiosa",
+			"description": "Aumenta el nivel de habilidad de Senda de Chilin +3.Puede ser aumentado hasta Niv. 15.",
+			"level": 5
+		},
+		{
+			"id": "TheClement",
+			"name": "La clemente",
+			"description": "Utilizar Senda de Chilin hace que durante 30 s no se requiera cargar la siguiente flecha helada.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["-", "763"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["-", "26"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["-", "49"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["-", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [0, 1]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["1978", "2632"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["68", "90"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["127", "169"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["50.0%", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [1, 2]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["3939", "4403"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["135", "151"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["253", "283"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["50.0%", "59.6%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeSliver",
+				"name": "Pedacito de jade shivada",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Flor chingxin",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WhopperflowerNectar",
+				"name": "Néctar de Megaflora",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [2, 3]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["5066", "5686"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["173", "194"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["326", "366"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["59.6%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Fragmento de jade shivada",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Flor chingxin",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WhopperflowerNectar",
+				"name": "Néctar de Megaflora",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [3, 4]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["6355", "6820"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["217", "233"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["409", "439"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["69.2%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Fragmento de jade shivada",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Flor chingxin",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ShimmeringNectar",
+				"name": "Néctar brillante",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [4, 5]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["7495", "7960"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["256", "272"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["482", "512"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["69.2%", "78.8%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Trozo de jade shivada",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Flor chingxin",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ShimmeringNectar",
+				"name": "Néctar brillante",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [5, 6]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["8643", "9108"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["295", "311"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["556", "586"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["78.8%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Trozo de jade shivada",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Flor chingxin",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "EnergyNectar",
+				"name": "Néctar energético",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [6, 7]
+				},
+				{
+					"label": "Vida Base",
+					"values": ["9797", "9797"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["335", "335"]
+				},
+				{
+					"label": "DEF Base",
+					"values": ["630", "630"]
+				},
+				{
+					"label": "Daño CRIT",
+					"values": ["88.4%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeGemstone",
+				"name": "Jade shivada",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Núcleo de escarcha",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Flor chingxin",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "EnergyNectar",
+				"name": "Néctar energético",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfDiligence",
+					"name": "Enseñanzas del esfuerzo",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Néctar de Megaflora",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guía del esfuerzo",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Néctar brillante",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guía del esfuerzo",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Néctar brillante",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guía del esfuerzo",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Néctar brillante",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guía del esfuerzo",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Néctar brillante",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Filosofía del esfuerzo",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Néctar energético",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Sombra del guerrero",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Filosofía del esfuerzo",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Néctar energético",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Sombra del guerrero",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Filosofía del esfuerzo",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Néctar energético",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Sombra del guerrero",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Filosofía del esfuerzo",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Néctar energético",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Sombra del guerrero",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Corona de la sabiduría",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Ganyu/Icon.webp",
+		"sideIcon": "Character/Ganyu/SideIcon.webp",
+		"gatchaCard": "Character/Ganyu/GachaCard.webp",
+		"gachaSplash": "Character/Ganyu/GachaSplash.webp",
+		"face": "Character/Ganyu/Face.webp",
+		"halfFace": "Character/Ganyu/HalfFace.webp",
+		"profile": "Character/Ganyu/Profile.webp",
+		"weaponStance": "Character/Ganyu/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "AmosBow",
+	"specialDish": "ProsperousPeace",
+	"tcgCharacterCard": "Ganyu",
+	"outfits": [
+		{
+			"id": "FrostdewTrail",
+			"name": "Rocío helado",
+			"description": "Modelo de vestimenta de Ganyu. El clásico atuendo de los Adeptus bendecidos con la iluminación.",
+			"picture": "Character/Ganyu/Outfit/FrostdewTrail.webp"
+		}
+	]
 }

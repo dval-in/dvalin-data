@@ -1,313 +1,293 @@
 {
-    "id": "DragonspineSpear",
-    "name": "Lance Dosdragon",
-    "description": "Une lance fabriqu\u00e9e \u00e0 partir d'un croc de dragon. Une certaine chaleur en \u00e9mane.",
-    "rarity": 4,
-    "type": "Arme d'hast",
-    "domain": "P\u00e9pini\u00e8re de c\u00e9cilias",
-    "passive": "Deuil givr\u00e9",
-    "bonus": "Les attaques normales et charg\u00e9es ont <span>60 %/70 %/80 %/90 %/100 %</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span>80 %/95 %/110 %/125 %/140 %</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span>200 %/240 %/280 %/320 %/360 %</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s.",
-    "stats": {
-        "primary": "ATQ de base",
-        "secondary": "Bonus de DGT physiques",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 41,
-                "secondary": 15
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 99,
-                "secondary": 26.5
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 125,
-                "secondary": 26.5
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 184,
-                "secondary": 38.7
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 210,
-                "secondary": 38.7
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 238,
-                "secondary": 44.7
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 264,
-                "secondary": 44.7
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 293,
-                "secondary": 50.8
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 319,
-                "secondary": 50.8
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 347,
-                "secondary": 56.8
-            },
-            {
-                "ascension": 5,
-                "level": 70,
-                "primary": 373,
-                "secondary": 56.8
-            },
-            {
-                "ascension": 5,
-                "level": 80,
-                "primary": 401,
-                "secondary": 62.9
-            },
-            {
-                "ascension": 6,
-                "level": 80,
-                "primary": 427,
-                "secondary": 62.9
-            },
-            {
-                "ascension": 6,
-                "level": 90,
-                "primary": 454,
-                "secondary": 69
-            }
-        ]
-    },
-    "ascensions": [
-        {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
-        },
-        {
-            "ascension": 1,
-            "level": 40,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "BorealWolfsMilkTooth",
-                    "name": "Dent de lait du Loup bor\u00e9al",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "MistGrassPollen",
-                    "name": "Pollen d'herbe brumeuse",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "RecruitsInsignia",
-                    "name": "Insigne de nouvelle recrue",
-                    "amount": 2,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 2,
-            "level": 50,
-            "cost": 15000,
-            "materials": [
-                {
-                    "id": "BorealWolfsCrackedTooth",
-                    "name": "Croc bris\u00e9 du Loup bor\u00e9al",
-                    "amount": 3,
-                    "rarity": 3
-                },
-                {
-                    "id": "MistGrassPollen",
-                    "name": "Pollen d'herbe brumeuse",
-                    "amount": 12,
-                    "rarity": 2
-                },
-                {
-                    "id": "RecruitsInsignia",
-                    "name": "Insigne de nouvelle recrue",
-                    "amount": 8,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 20000,
-            "materials": [
-                {
-                    "id": "BorealWolfsCrackedTooth",
-                    "name": "Croc bris\u00e9 du Loup bor\u00e9al",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "MistGrass",
-                    "name": "Herbe brumeuse",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "SergeantsInsignia",
-                    "name": "Insigne de sergent",
-                    "amount": 6,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 30000,
-            "materials": [
-                {
-                    "id": "BorealWolfsBrokenFang",
-                    "name": "Croc fendu du Loup bor\u00e9al",
-                    "amount": 3,
-                    "rarity": 4
-                },
-                {
-                    "id": "MistGrass",
-                    "name": "Herbe brumeuse",
-                    "amount": 12,
-                    "rarity": 3
-                },
-                {
-                    "id": "SergeantsInsignia",
-                    "name": "Insigne de sergent",
-                    "amount": 9,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 5,
-            "level": 80,
-            "cost": 35000,
-            "materials": [
-                {
-                    "id": "BorealWolfsBrokenFang",
-                    "name": "Croc fendu du Loup bor\u00e9al",
-                    "amount": 6,
-                    "rarity": 4
-                },
-                {
-                    "id": "MistGrassWick",
-                    "name": "M\u00e8ches d'herbe brumeuse",
-                    "amount": 9,
-                    "rarity": 4
-                },
-                {
-                    "id": "LieutenantsInsignia",
-                    "name": "Insigne d'officier",
-                    "amount": 6,
-                    "rarity": 3
-                }
-            ]
-        },
-        {
-            "ascension": 6,
-            "level": 90,
-            "cost": 45000,
-            "materials": [
-                {
-                    "id": "BorealWolfsNostalgia",
-                    "name": "Nostalgie du Loup bor\u00e9al",
-                    "amount": 4,
-                    "rarity": 5
-                },
-                {
-                    "id": "MistGrassWick",
-                    "name": "M\u00e8ches d'herbe brumeuse",
-                    "amount": 18,
-                    "rarity": 4
-                },
-                {
-                    "id": "LieutenantsInsignia",
-                    "name": "Insigne d'officier",
-                    "amount": 12,
-                    "rarity": 3
-                }
-            ]
-        }
-    ],
-    "refinement_raw": {
-        "name": "Deuil givr\u00e9",
-        "template": "Les attaques normales et charg\u00e9es ont <span style=\"color:#99FFFFFF\">{0}</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span style=\"color:#99FFFFFF\">{1}</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span style=\"color:#99FFFFFF\">{2}</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s.",
-        "params": [
-            [
-                "60 %",
-                "80 %",
-                "200 %"
-            ],
-            [
-                "70 %",
-                "95 %",
-                "240 %"
-            ],
-            [
-                "80 %",
-                "110 %",
-                "280 %"
-            ],
-            [
-                "90 %",
-                "125 %",
-                "320 %"
-            ],
-            [
-                "100 %",
-                "140 %",
-                "360 %"
-            ]
-        ]
-    },
-    "refinements": [
-        {
-            "refinement": 1,
-            "desc": "Les attaques normales et charg\u00e9es ont <span>60 %</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span>80 %</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span>200 %</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
-        },
-        {
-            "refinement": 2,
-            "desc": "Les attaques normales et charg\u00e9es ont <span>70 %</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span>95 %</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span>240 %</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
-        },
-        {
-            "refinement": 3,
-            "desc": "Les attaques normales et charg\u00e9es ont <span>80 %</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span>110 %</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span>280 %</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
-        },
-        {
-            "refinement": 4,
-            "desc": "Les attaques normales et charg\u00e9es ont <span>90 %</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span>125 %</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span>320 %</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
-        },
-        {
-            "refinement": 5,
-            "desc": "Les attaques normales et charg\u00e9es ont <span>100 %</span> de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span>140 %</span> de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span>360 %</span> de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
-        }
-    ],
-    "pictures": {
-        "icon": "Weapon/DragonspineSpear/Icon.webp"
-    }
+	"id": "DragonspineSpear",
+	"name": "Lance Dosdragon",
+	"description": "Une lance fabriqu\u00e9e \u00e0 partir d'un croc de dragon. Une certaine chaleur en \u00e9mane.",
+	"rarity": 4,
+	"type": "Arme d'hast",
+	"domain": "P\u00e9pini\u00e8re de c\u00e9cilias",
+	"passive": "Deuil givr\u00e9",
+	"bonus": "Les attaques normales et charg\u00e9es ont 60 %/70 %/80 %/90 %/100 % de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 80 %/95 %/110 %/125 %/140 % de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors 200 %/240 %/280 %/320 %/360 % de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s.",
+	"stats": {
+		"primary": "ATQ de base",
+		"secondary": "Bonus de DGT physiques",
+		"levels": [
+			{
+				"ascension": 0,
+				"level": 1,
+				"primary": 41,
+				"secondary": 15
+			},
+			{
+				"ascension": 0,
+				"level": 20,
+				"primary": 99,
+				"secondary": 26.5
+			},
+			{
+				"ascension": 1,
+				"level": 20,
+				"primary": 125,
+				"secondary": 26.5
+			},
+			{
+				"ascension": 1,
+				"level": 40,
+				"primary": 184,
+				"secondary": 38.7
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"primary": 210,
+				"secondary": 38.7
+			},
+			{
+				"ascension": 2,
+				"level": 50,
+				"primary": 238,
+				"secondary": 44.7
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"primary": 264,
+				"secondary": 44.7
+			},
+			{
+				"ascension": 3,
+				"level": 60,
+				"primary": 293,
+				"secondary": 50.8
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"primary": 319,
+				"secondary": 50.8
+			},
+			{
+				"ascension": 4,
+				"level": 70,
+				"primary": 347,
+				"secondary": 56.8
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"primary": 373,
+				"secondary": 56.8
+			},
+			{
+				"ascension": 5,
+				"level": 80,
+				"primary": 401,
+				"secondary": 62.9
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"primary": 427,
+				"secondary": 62.9
+			},
+			{
+				"ascension": 6,
+				"level": 90,
+				"primary": 454,
+				"secondary": 69
+			}
+		]
+	},
+	"ascensions": [
+		{
+			"ascension": 0,
+			"level": 20,
+			"materials": []
+		},
+		{
+			"ascension": 1,
+			"level": 40,
+			"cost": 5000,
+			"materials": [
+				{
+					"id": "BorealWolfsMilkTooth",
+					"name": "Dent de lait du Loup bor\u00e9al",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "MistGrassPollen",
+					"name": "Pollen d'herbe brumeuse",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "RecruitsInsignia",
+					"name": "Insigne de nouvelle recrue",
+					"amount": 2,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 2,
+			"level": 50,
+			"cost": 15000,
+			"materials": [
+				{
+					"id": "BorealWolfsCrackedTooth",
+					"name": "Croc bris\u00e9 du Loup bor\u00e9al",
+					"amount": 3,
+					"rarity": 3
+				},
+				{
+					"id": "MistGrassPollen",
+					"name": "Pollen d'herbe brumeuse",
+					"amount": 12,
+					"rarity": 2
+				},
+				{
+					"id": "RecruitsInsignia",
+					"name": "Insigne de nouvelle recrue",
+					"amount": 8,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 3,
+			"level": 60,
+			"cost": 20000,
+			"materials": [
+				{
+					"id": "BorealWolfsCrackedTooth",
+					"name": "Croc bris\u00e9 du Loup bor\u00e9al",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "MistGrass",
+					"name": "Herbe brumeuse",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SergeantsInsignia",
+					"name": "Insigne de sergent",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 4,
+			"level": 70,
+			"cost": 30000,
+			"materials": [
+				{
+					"id": "BorealWolfsBrokenFang",
+					"name": "Croc fendu du Loup bor\u00e9al",
+					"amount": 3,
+					"rarity": 4
+				},
+				{
+					"id": "MistGrass",
+					"name": "Herbe brumeuse",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "SergeantsInsignia",
+					"name": "Insigne de sergent",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 5,
+			"level": 80,
+			"cost": 35000,
+			"materials": [
+				{
+					"id": "BorealWolfsBrokenFang",
+					"name": "Croc fendu du Loup bor\u00e9al",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "MistGrassWick",
+					"name": "M\u00e8ches d'herbe brumeuse",
+					"amount": 9,
+					"rarity": 4
+				},
+				{
+					"id": "LieutenantsInsignia",
+					"name": "Insigne d'officier",
+					"amount": 6,
+					"rarity": 3
+				}
+			]
+		},
+		{
+			"ascension": 6,
+			"level": 90,
+			"cost": 45000,
+			"materials": [
+				{
+					"id": "BorealWolfsNostalgia",
+					"name": "Nostalgie du Loup bor\u00e9al",
+					"amount": 4,
+					"rarity": 5
+				},
+				{
+					"id": "MistGrassWick",
+					"name": "M\u00e8ches d'herbe brumeuse",
+					"amount": 18,
+					"rarity": 4
+				},
+				{
+					"id": "LieutenantsInsignia",
+					"name": "Insigne d'officier",
+					"amount": 12,
+					"rarity": 3
+				}
+			]
+		}
+	],
+	"refinement_raw": {
+		"name": "Deuil givr\u00e9",
+		"template": "Les attaques normales et charg\u00e9es ont <span style=\"color:#99FFFFFF\">{0} de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 <span style=\"color:#99FFFFFF\">{1} de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors <span style=\"color:#99FFFFFF\">{2} de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s.",
+		"params": [
+			["60 %", "80 %", "200 %"],
+			["70 %", "95 %", "240 %"],
+			["80 %", "110 %", "280 %"],
+			["90 %", "125 %", "320 %"],
+			["100 %", "140 %", "360 %"]
+		]
+	},
+	"refinements": [
+		{
+			"refinement": 1,
+			"desc": "Les attaques normales et charg\u00e9es ont 60 % de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 80 % de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors 200 % de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
+		},
+		{
+			"refinement": 2,
+			"desc": "Les attaques normales et charg\u00e9es ont 70 % de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 95 % de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors 240 % de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
+		},
+		{
+			"refinement": 3,
+			"desc": "Les attaques normales et charg\u00e9es ont 80 % de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 110 % de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors 280 % de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
+		},
+		{
+			"refinement": 4,
+			"desc": "Les attaques normales et charg\u00e9es ont 90 % de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 125 % de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors 320 % de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
+		},
+		{
+			"refinement": 5,
+			"desc": "Les attaques normales et charg\u00e9es ont 100 % de chances lorsqu'elles touchent de g\u00e9n\u00e9rer une stalactite de glace qui inflige des DGT de zone \u00e9quivalant \u00e0 140 % de l'ATQ. Si l'ennemi est affect\u00e9 par l'\u00e9l\u00e9ment Cryo, la stalactite inflige alors 360 % de l'ATQ. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 10 s."
+		}
+	],
+	"pictures": {
+		"icon": "Weapon/DragonspineSpear/Icon.webp"
+	}
 }

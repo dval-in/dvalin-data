@@ -1,303 +1,287 @@
 {
-    "id": "Rust",
-    "name": "Rust",
-    "description": "Busur besar yang terbuat dari perak, tetapi kini telah tertutup penuh oleh karat. Orang biasa jangankan menembakkan panah, mengangkatnya pun tidak sanggup.",
-    "rarity": 4,
-    "type": "Bow",
-    "domain": "Hidden Palace of Lianshan Formula",
-    "passive": "Rapid Firing",
-    "bonus": "Meningkatkan DMG Normal Attack sebesar <span>40%/50%/60%/70%/80%</span> tapi menurunkan DMG Charged Attack sebesar 10%.",
-    "stats": {
-        "primary": "Base ATK",
-        "secondary": "ATK%",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 42,
-                "secondary": 9
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 109,
-                "secondary": 15.9
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 135,
-                "secondary": 15.9
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 205,
-                "secondary": 23.2
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 231,
-                "secondary": 23.2
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 266,
-                "secondary": 26.8
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 292,
-                "secondary": 26.8
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 327,
-                "secondary": 30.4
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 353,
-                "secondary": 30.4
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 388,
-                "secondary": 34.1
-            },
-            {
-                "ascension": 5,
-                "level": 70,
-                "primary": 414,
-                "secondary": 34.1
-            },
-            {
-                "ascension": 5,
-                "level": 80,
-                "primary": 449,
-                "secondary": 37.7
-            },
-            {
-                "ascension": 6,
-                "level": 80,
-                "primary": 475,
-                "secondary": 37.7
-            },
-            {
-                "ascension": 6,
-                "level": 90,
-                "primary": 510,
-                "secondary": 41.3
-            }
-        ]
-    },
-    "ascensions": [
-        {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
-        },
-        {
-            "ascension": 1,
-            "level": 40,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "LuminousSandsFromGuyun",
-                    "name": "Luminous Sands from Guyun",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "HuntersSacrificialKnife",
-                    "name": "Hunter's Sacrificial Knife",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "DamagedMask",
-                    "name": "Damaged Mask",
-                    "amount": 2,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 2,
-            "level": 50,
-            "cost": 15000,
-            "materials": [
-                {
-                    "id": "LustrousStoneFromGuyun",
-                    "name": "Lustrous Stone from Guyun",
-                    "amount": 3,
-                    "rarity": 3
-                },
-                {
-                    "id": "HuntersSacrificialKnife",
-                    "name": "Hunter's Sacrificial Knife",
-                    "amount": 12,
-                    "rarity": 2
-                },
-                {
-                    "id": "DamagedMask",
-                    "name": "Damaged Mask",
-                    "amount": 8,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 20000,
-            "materials": [
-                {
-                    "id": "LustrousStoneFromGuyun",
-                    "name": "Lustrous Stone from Guyun",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "AgentsSacrificialKnife",
-                    "name": "Agent's Sacrificial Knife",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "StainedMask",
-                    "name": "Stained Mask",
-                    "amount": 6,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 30000,
-            "materials": [
-                {
-                    "id": "RelicFromGuyun",
-                    "name": "Relic from Guyun",
-                    "amount": 3,
-                    "rarity": 4
-                },
-                {
-                    "id": "AgentsSacrificialKnife",
-                    "name": "Agent's Sacrificial Knife",
-                    "amount": 12,
-                    "rarity": 3
-                },
-                {
-                    "id": "StainedMask",
-                    "name": "Stained Mask",
-                    "amount": 9,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 5,
-            "level": 80,
-            "cost": 35000,
-            "materials": [
-                {
-                    "id": "RelicFromGuyun",
-                    "name": "Relic from Guyun",
-                    "amount": 6,
-                    "rarity": 4
-                },
-                {
-                    "id": "InspectorsSacrificialKnife",
-                    "name": "Inspector's Sacrificial Knife",
-                    "amount": 9,
-                    "rarity": 4
-                },
-                {
-                    "id": "OminousMask",
-                    "name": "Ominous Mask",
-                    "amount": 6,
-                    "rarity": 3
-                }
-            ]
-        },
-        {
-            "ascension": 6,
-            "level": 90,
-            "cost": 45000,
-            "materials": [
-                {
-                    "id": "DivineBodyFromGuyun",
-                    "name": "Divine Body from Guyun",
-                    "amount": 4,
-                    "rarity": 5
-                },
-                {
-                    "id": "InspectorsSacrificialKnife",
-                    "name": "Inspector's Sacrificial Knife",
-                    "amount": 18,
-                    "rarity": 4
-                },
-                {
-                    "id": "OminousMask",
-                    "name": "Ominous Mask",
-                    "amount": 12,
-                    "rarity": 3
-                }
-            ]
-        }
-    ],
-    "refinement_raw": {
-        "name": "Rapid Firing",
-        "template": "Meningkatkan DMG Normal Attack sebesar <span style=\"color:#99FFFFFF\">{0}</span> tapi menurunkan DMG Charged Attack sebesar 10%.",
-        "params": [
-            [
-                "40%"
-            ],
-            [
-                "50%"
-            ],
-            [
-                "60%"
-            ],
-            [
-                "70%"
-            ],
-            [
-                "80%"
-            ]
-        ]
-    },
-    "refinements": [
-        {
-            "refinement": 1,
-            "desc": "Meningkatkan DMG Normal Attack sebesar <span>40%</span> tapi menurunkan DMG Charged Attack sebesar 10%."
-        },
-        {
-            "refinement": 2,
-            "desc": "Meningkatkan DMG Normal Attack sebesar <span>50%</span> tapi menurunkan DMG Charged Attack sebesar 10%."
-        },
-        {
-            "refinement": 3,
-            "desc": "Meningkatkan DMG Normal Attack sebesar <span>60%</span> tapi menurunkan DMG Charged Attack sebesar 10%."
-        },
-        {
-            "refinement": 4,
-            "desc": "Meningkatkan DMG Normal Attack sebesar <span>70%</span> tapi menurunkan DMG Charged Attack sebesar 10%."
-        },
-        {
-            "refinement": 5,
-            "desc": "Meningkatkan DMG Normal Attack sebesar <span>80%</span> tapi menurunkan DMG Charged Attack sebesar 10%."
-        }
-    ],
-    "pictures": {
-        "icon": "Weapon/Rust/Icon.webp"
-    }
+	"id": "Rust",
+	"name": "Rust",
+	"description": "Busur besar yang terbuat dari perak, tetapi kini telah tertutup penuh oleh karat. Orang biasa jangankan menembakkan panah, mengangkatnya pun tidak sanggup.",
+	"rarity": 4,
+	"type": "Bow",
+	"domain": "Hidden Palace of Lianshan Formula",
+	"passive": "Rapid Firing",
+	"bonus": "Meningkatkan DMG Normal Attack sebesar 40%/50%/60%/70%/80% tapi menurunkan DMG Charged Attack sebesar 10%.",
+	"stats": {
+		"primary": "Base ATK",
+		"secondary": "ATK%",
+		"levels": [
+			{
+				"ascension": 0,
+				"level": 1,
+				"primary": 42,
+				"secondary": 9
+			},
+			{
+				"ascension": 0,
+				"level": 20,
+				"primary": 109,
+				"secondary": 15.9
+			},
+			{
+				"ascension": 1,
+				"level": 20,
+				"primary": 135,
+				"secondary": 15.9
+			},
+			{
+				"ascension": 1,
+				"level": 40,
+				"primary": 205,
+				"secondary": 23.2
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"primary": 231,
+				"secondary": 23.2
+			},
+			{
+				"ascension": 2,
+				"level": 50,
+				"primary": 266,
+				"secondary": 26.8
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"primary": 292,
+				"secondary": 26.8
+			},
+			{
+				"ascension": 3,
+				"level": 60,
+				"primary": 327,
+				"secondary": 30.4
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"primary": 353,
+				"secondary": 30.4
+			},
+			{
+				"ascension": 4,
+				"level": 70,
+				"primary": 388,
+				"secondary": 34.1
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"primary": 414,
+				"secondary": 34.1
+			},
+			{
+				"ascension": 5,
+				"level": 80,
+				"primary": 449,
+				"secondary": 37.7
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"primary": 475,
+				"secondary": 37.7
+			},
+			{
+				"ascension": 6,
+				"level": 90,
+				"primary": 510,
+				"secondary": 41.3
+			}
+		]
+	},
+	"ascensions": [
+		{
+			"ascension": 0,
+			"level": 20,
+			"materials": []
+		},
+		{
+			"ascension": 1,
+			"level": 40,
+			"cost": 5000,
+			"materials": [
+				{
+					"id": "LuminousSandsFromGuyun",
+					"name": "Luminous Sands from Guyun",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "HuntersSacrificialKnife",
+					"name": "Hunter's Sacrificial Knife",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "DamagedMask",
+					"name": "Damaged Mask",
+					"amount": 2,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 2,
+			"level": 50,
+			"cost": 15000,
+			"materials": [
+				{
+					"id": "LustrousStoneFromGuyun",
+					"name": "Lustrous Stone from Guyun",
+					"amount": 3,
+					"rarity": 3
+				},
+				{
+					"id": "HuntersSacrificialKnife",
+					"name": "Hunter's Sacrificial Knife",
+					"amount": 12,
+					"rarity": 2
+				},
+				{
+					"id": "DamagedMask",
+					"name": "Damaged Mask",
+					"amount": 8,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 3,
+			"level": 60,
+			"cost": 20000,
+			"materials": [
+				{
+					"id": "LustrousStoneFromGuyun",
+					"name": "Lustrous Stone from Guyun",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "AgentsSacrificialKnife",
+					"name": "Agent's Sacrificial Knife",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "StainedMask",
+					"name": "Stained Mask",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 4,
+			"level": 70,
+			"cost": 30000,
+			"materials": [
+				{
+					"id": "RelicFromGuyun",
+					"name": "Relic from Guyun",
+					"amount": 3,
+					"rarity": 4
+				},
+				{
+					"id": "AgentsSacrificialKnife",
+					"name": "Agent's Sacrificial Knife",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "StainedMask",
+					"name": "Stained Mask",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 5,
+			"level": 80,
+			"cost": 35000,
+			"materials": [
+				{
+					"id": "RelicFromGuyun",
+					"name": "Relic from Guyun",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "InspectorsSacrificialKnife",
+					"name": "Inspector's Sacrificial Knife",
+					"amount": 9,
+					"rarity": 4
+				},
+				{
+					"id": "OminousMask",
+					"name": "Ominous Mask",
+					"amount": 6,
+					"rarity": 3
+				}
+			]
+		},
+		{
+			"ascension": 6,
+			"level": 90,
+			"cost": 45000,
+			"materials": [
+				{
+					"id": "DivineBodyFromGuyun",
+					"name": "Divine Body from Guyun",
+					"amount": 4,
+					"rarity": 5
+				},
+				{
+					"id": "InspectorsSacrificialKnife",
+					"name": "Inspector's Sacrificial Knife",
+					"amount": 18,
+					"rarity": 4
+				},
+				{
+					"id": "OminousMask",
+					"name": "Ominous Mask",
+					"amount": 12,
+					"rarity": 3
+				}
+			]
+		}
+	],
+	"refinement_raw": {
+		"name": "Rapid Firing",
+		"template": "Meningkatkan DMG Normal Attack sebesar <span style=\"color:#99FFFFFF\">{0} tapi menurunkan DMG Charged Attack sebesar 10%.",
+		"params": [["40%"], ["50%"], ["60%"], ["70%"], ["80%"]]
+	},
+	"refinements": [
+		{
+			"refinement": 1,
+			"desc": "Meningkatkan DMG Normal Attack sebesar 40% tapi menurunkan DMG Charged Attack sebesar 10%."
+		},
+		{
+			"refinement": 2,
+			"desc": "Meningkatkan DMG Normal Attack sebesar 50% tapi menurunkan DMG Charged Attack sebesar 10%."
+		},
+		{
+			"refinement": 3,
+			"desc": "Meningkatkan DMG Normal Attack sebesar 60% tapi menurunkan DMG Charged Attack sebesar 10%."
+		},
+		{
+			"refinement": 4,
+			"desc": "Meningkatkan DMG Normal Attack sebesar 70% tapi menurunkan DMG Charged Attack sebesar 10%."
+		},
+		{
+			"refinement": 5,
+			"desc": "Meningkatkan DMG Normal Attack sebesar 80% tapi menurunkan DMG Charged Attack sebesar 10%."
+		}
+	],
+	"pictures": {
+		"icon": "Weapon/Rust/Icon.webp"
+	}
 }

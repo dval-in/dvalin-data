@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackWeavingBlade",
 			"name": "Normal Attack: Weaving Blade",
-			"description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan berturut-turut.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.<br/><br/><span>Plunging Attack</span><br/>Menerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+			"description": "Normal AttackMelancarkan hingga 4 serangan berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.Plunging AttackMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
 			"info": "",
 			"attributes": [
 				{
@@ -128,23 +128,7 @@
 				},
 				{
 					"label": "Konsumsi Stamina Charged Attack",
-					"values": [
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20"
-					]
+					"values": ["20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20"]
 				},
 				{
 					"label": "DMG Selama Plunging",
@@ -191,7 +175,7 @@
 		{
 			"id": "FlutteringHasode",
 			"name": "Fluttering Hasode",
-			"description": "Menerjang dengan cepat dengan tarian selembut sutra. Saat terjangan berakhir, akan memanggil \"Tamoto\" si boneka automaton dan melancarkan serangan ke atas, mengakibatkan <span>Geo DMG Area</span> yang didasarkan pada ATK dan DEF Chiori.<br/>Saat ditahan, akan melancarkan serangan dengan cara yang berbeda.<br/><br/><span>Mode Tahan</span><br/>Memasuki mode membidik untuk menyesuaikan arah terjangan.<br/><br/><span>Tamoto</span><br/>·Menebas musuh di sekitar secara bertahap, mengakibatkan <span>Geo DMG Area</span> yang didasarkan pada ATK dan DEF Chiori;<br/>·Selama aktif, jika ada <span>Geo Construct</span> di sekitar, atau ada <span>Geo Construct</span> yang diciptakan di sekitar, maka akan memanggil satu Tamoto tambahan di sisi Karakter aktif saat ini. Maksimum satu Tamoto tambahan yang bisa dipanggil dengan cara ini, dan durasinya dihitung secara terpisah.",
+			"description": "Menerjang dengan cepat dengan tarian selembut sutra. Saat terjangan berakhir, akan memanggil \"Tamoto\" si boneka automaton dan melancarkan serangan ke atas, mengakibatkan Geo DMG Area yang didasarkan pada ATK dan DEF Chiori.Saat ditahan, akan melancarkan serangan dengan cara yang berbeda.Mode TahanMemasuki mode membidik untuk menyesuaikan arah terjangan.Tamoto·Menebas musuh di sekitar secara bertahap, mengakibatkan Geo DMG Area yang didasarkan pada ATK dan DEF Chiori;·Selama aktif, jika ada Geo Construct di sekitar, atau ada Geo Construct yang diciptakan di sekitar, maka akan memanggil satu Tamoto tambahan di sisi Karakter aktif saat ini. Maksimum satu Tamoto tambahan yang bisa dipanggil dengan cara ini, dan durasinya dihitung secara terpisah.",
 			"info": "\"Sakura merah mewarnai brokatnya, sisa wanginya yang terselip di lengan baju, bahkan bisa membuat burung oriole mabuk.\"",
 			"attributes": [
 				{
@@ -299,7 +283,7 @@
 		{
 			"id": "HiyokuTwinBlades",
 			"name": "Hiyoku: Twin Blades",
-			"description": "Menarik kedua pedang dari sarungnya, mengayunkan sebuah tebasan tajam dengan gaya menjahit, mengakibatkan <span>Geo DMG Area</span> yang didasarkan pada ATK dan DEF Chiori.",
+			"description": "Menarik kedua pedang dari sarungnya, mengayunkan sebuah tebasan tajam dengan gaya menjahit, mengakibatkan Geo DMG Area yang didasarkan pada ATK dan DEF Chiori.",
 			"info": "\"Hanya satu prinsip yang dibutuhkan untuk menembus seluruh kebenaran\".",
 			"attributes": [
 				{
@@ -344,23 +328,7 @@
 				},
 				{
 					"label": "Konsumsi Energy",
-					"values": [
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50"
-					]
+					"values": ["50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50"]
 				}
 			]
 		}
@@ -369,19 +337,19 @@
 		{
 			"id": "Tailormade",
 			"name": "Tailor-Made",
-			"description": "Dalam waktu singkat setelah melancarkan serangan ke atas dari <span>Fluttering Hasode</span>, akan menghasilkan efek yang berbeda berdasarkan pengoperasian lanjutannya: Menekan tombol Elemental Skill akan memicu Tapestry; Menekan Normal Attack akan memicu Tailoring.<br/><br/><span>Tapestry</span><br/>·Mengganti Karakter dan membuat Karakter selanjutnya memasuki medan pertempuran;<br/>·Memberikan Seize the Moment kepada seluruh Karakter di dalam party: Saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif di dalam party mengenai musuh di sekitar, maka \"Tamoto\" akan melancarkan serangan terkoordinasi dan mengakibatkan <span>Geo DMG Area</span> di posisi musuh yang setara dengan 100% DMG serangan ke atas dari Fluttering Hasode. DMG yang diakibatkan dengan cara ini dianggap sebagai DMG Elemental Skill;<br/>·Seize the Moment berlangsung selama 8 detik, serangan terkoordinasi \"Tamoto\" dapat terpicu maksimum sekali setiap 2 detik. Dalam satu kali durasi Seize the Moment, maksimum dapat memicu 2 kali serangan terkoordinasi ini.<br/><br/><span>Tailoring</span><br/>·Chiori mendapatkan <span>Geo Infusion</span> selama 5 detik.<br/><br/>Saat Chiori berada di medan pertempuran, jika tidak menekan Normal Attack atau tombol Elemental Skill lagi dalam waktu singkat setelah melancarkan serangan ke atas dari Fluttering Hasode, maka efek lanjutan Tailoring yang akan terpicu.",
+			"description": "Dalam waktu singkat setelah melancarkan serangan ke atas dari Fluttering Hasode, akan menghasilkan efek yang berbeda berdasarkan pengoperasian lanjutannya: Menekan tombol Elemental Skill akan memicu Tapestry; Menekan Normal Attack akan memicu Tailoring.Tapestry·Mengganti Karakter dan membuat Karakter selanjutnya memasuki medan pertempuran;·Memberikan Seize the Moment kepada seluruh Karakter di dalam party: Saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif di dalam party mengenai musuh di sekitar, maka \"Tamoto\" akan melancarkan serangan terkoordinasi dan mengakibatkan Geo DMG Area di posisi musuh yang setara dengan 100% DMG serangan ke atas dari Fluttering Hasode. DMG yang diakibatkan dengan cara ini dianggap sebagai DMG Elemental Skill;·Seize the Moment berlangsung selama 8 detik, serangan terkoordinasi \"Tamoto\" dapat terpicu maksimum sekali setiap 2 detik. Dalam satu kali durasi Seize the Moment, maksimum dapat memicu 2 kali serangan terkoordinasi ini.Tailoring·Chiori mendapatkan Geo Infusion selama 5 detik.Saat Chiori berada di medan pertempuran, jika tidak menekan Normal Attack atau tombol Elemental Skill lagi dalam waktu singkat setelah melancarkan serangan ke atas dari Fluttering Hasode, maka efek lanjutan Tailoring yang akan terpicu.",
 			"level": 1
 		},
 		{
 			"id": "TheFinishingTouch",
 			"name": "The Finishing Touch",
-			"description": "Saat Karakter di dalam party di sekitar menciptakan <span>Geo Construct</span>, Chiori mendapatkan 20% <span>Geo DMG Bonus</span> yang berlangsung 20 detik.",
+			"description": "Saat Karakter di dalam party di sekitar menciptakan Geo Construct, Chiori mendapatkan 20% Geo DMG Bonus yang berlangsung 20 detik.",
 			"level": 4
 		},
 		{
 			"id": "BrocadedCollarsBeauteousSilhouette",
 			"name": "Brocaded Collar's Beauteous Silhouette",
-			"description": "Saat Karakter apa pun di dalam party mengenakan kostum selain kostum semula, atau saat wind glider yang dikenakan bukan merupakan Wings of First Flight, Karakter sendiri di dalam party mendapatkan efek peningkatan kecepatan: Movement SPD meningkat 10%.<br/>Efek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss. Efek peningkatan kecepatan tidak dapat ditumpuk.",
+			"description": "Saat Karakter apa pun di dalam party mengenakan kostum selain kostum semula, atau saat wind glider yang dikenakan bukan merupakan Wings of First Flight, Karakter sendiri di dalam party mendapatkan efek peningkatan kecepatan: Movement SPD meningkat 10%.Efek ini tidak aktif dalam Domain, Domain Trounce, atau Spiral Abyss. Efek peningkatan kecepatan tidak dapat ditumpuk.",
 			"level": 0
 		}
 	],
@@ -389,165 +357,114 @@
 		{
 			"id": "SixPathsOfSageSilkcraft",
 			"name": "Six Paths of Sage Silkcraft",
-			"description": "Radius serangan area milik \"Tamoto\" si boneka automaton yang dipanggil dari <span>Fluttering Hasode</span> meningkat 50%.<br/>Selain itu, jika ada Karakter <span>Geo</span> selain Chiori di dalam party, setelah terjangan Fluttering Hasode berakhir, akan memicu efek sebagai berikut:<br/>·Memanggil satu Tamoto tambahan. Hanya boleh ada satu Tamoto milik Chiori yang dipanggil dengan cara ini dan melalui Geo Construct yang bisa dipanggil secara bersamaan.<br/>·Memicu Talenta Pasif \"The Finishing Touch\". Harus membuka Talenta Pasif \"The Finishing Touch\" terlebih dahulu.",
+			"description": "Radius serangan area milik \"Tamoto\" si boneka automaton yang dipanggil dari Fluttering Hasode meningkat 50%.Selain itu, jika ada Karakter Geo selain Chiori di dalam party, setelah terjangan Fluttering Hasode berakhir, akan memicu efek sebagai berikut:·Memanggil satu Tamoto tambahan. Hanya boleh ada satu Tamoto milik Chiori yang dipanggil dengan cara ini dan melalui Geo Construct yang bisa dipanggil secara bersamaan.·Memicu Talenta Pasif \"The Finishing Touch\". Harus membuka Talenta Pasif \"The Finishing Touch\" terlebih dahulu.",
 			"level": 1
 		},
 		{
 			"id": "InFiveColorsDyed",
 			"name": "In Five Colors Dyed",
-			"description": "Setelah melancarkan <span>Hiyoku: Twin Blades</span>, selama 10 detik berikutnya \"Kinu\" si boneka automaton sederhana akan muncul di samping Karakter aktif milik sendiri setiap 3 detik sekali. Kinu akan menyerang musuh di sekitar dan mengakibatkan <span>Geo DMG Area</span> setara dengan 170% DMG Tamoto. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Elemental Skill.<br/>Kinu akan hilang setelah menyerang satu kali atau setelah muncul selama 3 detik.",
+			"description": "Setelah melancarkan Hiyoku: Twin Blades, selama 10 detik berikutnya \"Kinu\" si boneka automaton sederhana akan muncul di samping Karakter aktif milik sendiri setiap 3 detik sekali. Kinu akan menyerang musuh di sekitar dan mengakibatkan Geo DMG Area setara dengan 170% DMG Tamoto. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Elemental Skill.Kinu akan hilang setelah menyerang satu kali atau setelah muncul selama 3 detik.",
 			"level": 2
 		},
 		{
 			"id": "FourBrocadeEmbellishments",
 			"name": "Four Brocade Embellishments",
-			"description": "Meningkatkan 3 level <span>Fluttering Hasode</span>.<br/>Maksimum: Lv. 15.",
+			"description": "Meningkatkan 3 level Fluttering Hasode.Maksimum: Lv. 15.",
 			"level": 3
 		},
 		{
 			"id": "ATailorsThreeCourtesies",
 			"name": "A Tailor's Three Courtesies",
-			"description": "Dalam 8 detik setelah memicu efek lanjutan dari Talenta Pasif Tailor-Made, saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif sendiri di dalam party mengenai musuh di sekitar, akan memanggil satu \"Kinu\" si boneka automaton sederhana di sekitar musuh. Jumlah Kinu yang bisa dipanggil melalui cara di atas adalah maksimum satu setiap 1 detik. Dalam satu durasi \"Seize the Moment\" atau efek \"Tailoring\" dari Talenta Pasif \"Tailor-Made\" berlangsung, maksimum bisa memanggil hingga 3 Kinu. Efek di atas dapat terpicu sekali setiap 15 detik.<br/>Harus membuka Talenta Pasif \"Tailor-Made\" terlebih dahulu.",
+			"description": "Dalam 8 detik setelah memicu efek lanjutan dari Talenta Pasif Tailor-Made, saat Normal Attack, Charged Attack, atau Plunging Attack Karakter aktif sendiri di dalam party mengenai musuh di sekitar, akan memanggil satu \"Kinu\" si boneka automaton sederhana di sekitar musuh. Jumlah Kinu yang bisa dipanggil melalui cara di atas adalah maksimum satu setiap 1 detik. Dalam satu durasi \"Seize the Moment\" atau efek \"Tailoring\" dari Talenta Pasif \"Tailor-Made\" berlangsung, maksimum bisa memanggil hingga 3 Kinu. Efek di atas dapat terpicu sekali setiap 15 detik.Harus membuka Talenta Pasif \"Tailor-Made\" terlebih dahulu.",
 			"level": 4
 		},
 		{
 			"id": "TwoSilkenPlumules",
 			"name": "Two Silken Plumules",
-			"description": "Meningkatkan 3 level <span>Hiyoku: Twin Blades</span>.<br/>Maksimum: Lv. 15.",
+			"description": "Meningkatkan 3 level Hiyoku: Twin Blades.Maksimum: Lv. 15.",
 			"level": 5
 		},
 		{
 			"id": "SolePrinciplePursuit",
 			"name": "Sole Principle Pursuit",
-			"description": "Setelah memicu efek lanjutan Talenta Pasif \"Tailor Made\", CD <span>Fluttering Hasode</span> Chiori sendiri berkurang 12 detik. Harus membuka Talenta Pasif \"Tailor-Made\" terlebih dahulu.<br/>Selain itu, DMG yang diakibatkan Normal Attack Chiori meningkat setara dengan 235% DEF Chiori sendiri.",
+			"description": "Setelah memicu efek lanjutan Talenta Pasif \"Tailor Made\", CD Fluttering Hasode Chiori sendiri berkurang 12 detik. Harus membuka Talenta Pasif \"Tailor-Made\" terlebih dahulu.Selain itu, DMG yang diakibatkan Normal Attack Chiori meningkat setara dengan 235% DEF Chiori sendiri.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"-",
-						"890"
-					]
+					"values": ["-", "890"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"-",
-						"25"
-					]
+					"values": ["-", "25"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"-",
-						"74"
-					]
+					"values": ["-", "74"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"-",
-						"0"
-					]
+					"values": ["-", "0"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"2310",
-						"3073"
-					]
+					"values": ["2310", "3073"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"65",
-						"87"
-					]
+					"values": ["65", "87"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"192",
-						"256"
-					]
+					"values": ["192", "256"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"4598",
-						"5141"
-					]
+					"values": ["4598", "5141"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"130",
-						"145"
-					]
+					"values": ["130", "145"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"383",
-						"428"
-					]
+					"values": ["383", "428"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -570,45 +487,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"5915",
-						"6638"
-					]
+					"values": ["5915", "6638"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"167",
-						"187"
-					]
+					"values": ["167", "187"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"493",
-						"553"
-					]
+					"values": ["493", "553"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -637,45 +537,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"7420",
-						"7962"
-					]
+					"values": ["7420", "7962"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"209",
-						"225"
-					]
+					"values": ["209", "225"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"618",
-						"663"
-					]
+					"values": ["618", "663"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -704,45 +587,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"8751",
-						"9293"
-					]
+					"values": ["8751", "9293"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"247",
-						"262"
-					]
+					"values": ["247", "262"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"729",
-						"774"
-					]
+					"values": ["729", "774"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -771,45 +637,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"10091",
-						"10634"
-					]
+					"values": ["10091", "10634"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"285",
-						"300"
-					]
+					"values": ["285", "300"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"841",
-						"886"
-					]
+					"values": ["841", "886"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -838,45 +687,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Ascend",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Base HP",
-					"values": [
-						"11438",
-						"11438"
-					]
+					"values": ["11438", "11438"]
 				},
 				{
 					"label": "Base ATK",
-					"values": [
-						"323",
-						"323"
-					]
+					"values": ["323", "323"]
 				},
 				{
 					"label": "Base DEF",
-					"values": [
-						"953",
-						"953"
-					]
+					"values": ["953", "953"]
 				},
 				{
 					"label": "CRIT Rate",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {

@@ -1,303 +1,287 @@
 {
-    "id": "WindblumeOde",
-    "name": "Windblumenode",
-    "description": "Ein Bogen, geschm\u00fcckt mit namenlosen Blumen, der die innigsten W\u00fcnsche einer ebenso namenlosen Person tr\u00e4gt.",
-    "rarity": 4,
-    "type": "Bogen",
-    "domain": "Ceciliagarten",
-    "passive": "Windblumenwunsch",
-    "bonus": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span>16 %/20 %/24 %/28 %/32 %</span>.",
-    "stats": {
-        "primary": "Basis-ANG",
-        "secondary": "Elementarkunde",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 42,
-                "secondary": 36
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 109,
-                "secondary": 64
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 135,
-                "secondary": 64
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 205,
-                "secondary": 93
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 231,
-                "secondary": 93
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 266,
-                "secondary": 107
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 292,
-                "secondary": 107
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 327,
-                "secondary": 122
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 353,
-                "secondary": 122
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 388,
-                "secondary": 136
-            },
-            {
-                "ascension": 5,
-                "level": 70,
-                "primary": 414,
-                "secondary": 136
-            },
-            {
-                "ascension": 5,
-                "level": 80,
-                "primary": 449,
-                "secondary": 151
-            },
-            {
-                "ascension": 6,
-                "level": 80,
-                "primary": 475,
-                "secondary": 151
-            },
-            {
-                "ascension": 6,
-                "level": 90,
-                "primary": 510,
-                "secondary": 165
-            }
-        ]
-    },
-    "ascensions": [
-        {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
-        },
-        {
-            "ascension": 1,
-            "level": 40,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "FettersOfTheDandelionGladiator",
-                    "name": "Fesseln des L\u00f6wenzahnk\u00e4mpfers",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "DeadLeyLineBranch",
-                    "name": "Alte Rute des Flusses der Elemente",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "WhopperflowerNectar",
-                    "name": "Vaniloqua-Nektar",
-                    "amount": 2,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 2,
-            "level": 50,
-            "cost": 15000,
-            "materials": [
-                {
-                    "id": "ChainsOfTheDandelionGladiator",
-                    "name": "Ketten des L\u00f6wenzahnk\u00e4mpfers",
-                    "amount": 3,
-                    "rarity": 3
-                },
-                {
-                    "id": "DeadLeyLineBranch",
-                    "name": "Alte Rute des Flusses der Elemente",
-                    "amount": 12,
-                    "rarity": 2
-                },
-                {
-                    "id": "WhopperflowerNectar",
-                    "name": "Vaniloqua-Nektar",
-                    "amount": 8,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 20000,
-            "materials": [
-                {
-                    "id": "ChainsOfTheDandelionGladiator",
-                    "name": "Ketten des L\u00f6wenzahnk\u00e4mpfers",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "DeadLeyLineLeaves",
-                    "name": "Verdorrte Bl\u00e4tter des Flusses der Elemente",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "ShimmeringNectar",
-                    "name": "Leuchtender Nektar",
-                    "amount": 6,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 30000,
-            "materials": [
-                {
-                    "id": "ShacklesOfTheDandelionGladiator",
-                    "name": "Schellen des L\u00f6wenzahnk\u00e4mpfers",
-                    "amount": 3,
-                    "rarity": 4
-                },
-                {
-                    "id": "DeadLeyLineLeaves",
-                    "name": "Verdorrte Bl\u00e4tter des Flusses der Elemente",
-                    "amount": 12,
-                    "rarity": 3
-                },
-                {
-                    "id": "ShimmeringNectar",
-                    "name": "Leuchtender Nektar",
-                    "amount": 9,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 5,
-            "level": 80,
-            "cost": 35000,
-            "materials": [
-                {
-                    "id": "ShacklesOfTheDandelionGladiator",
-                    "name": "Schellen des L\u00f6wenzahnk\u00e4mpfers",
-                    "amount": 6,
-                    "rarity": 4
-                },
-                {
-                    "id": "LeyLineSprout",
-                    "name": "Frische Triebe des Flusses der Elemente",
-                    "amount": 9,
-                    "rarity": 4
-                },
-                {
-                    "id": "EnergyNectar",
-                    "name": "Elementarnektar",
-                    "amount": 6,
-                    "rarity": 3
-                }
-            ]
-        },
-        {
-            "ascension": 6,
-            "level": 90,
-            "cost": 45000,
-            "materials": [
-                {
-                    "id": "DreamOfTheDandelionGladiator",
-                    "name": "Ideal des L\u00f6wenzahnkriegers",
-                    "amount": 4,
-                    "rarity": 5
-                },
-                {
-                    "id": "LeyLineSprout",
-                    "name": "Frische Triebe des Flusses der Elemente",
-                    "amount": 18,
-                    "rarity": 4
-                },
-                {
-                    "id": "EnergyNectar",
-                    "name": "Elementarnektar",
-                    "amount": 12,
-                    "rarity": 3
-                }
-            ]
-        }
-    ],
-    "refinement_raw": {
-        "name": "Windblumenwunsch",
-        "template": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span style=\"color:#99FFFFFF\">{0}</span>.",
-        "params": [
-            [
-                "16 %"
-            ],
-            [
-                "20 %"
-            ],
-            [
-                "24 %"
-            ],
-            [
-                "28 %"
-            ],
-            [
-                "32 %"
-            ]
-        ]
-    },
-    "refinements": [
-        {
-            "refinement": 1,
-            "desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span>16 %</span>."
-        },
-        {
-            "refinement": 2,
-            "desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span>20 %</span>."
-        },
-        {
-            "refinement": 3,
-            "desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span>24 %</span>."
-        },
-        {
-            "refinement": 4,
-            "desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span>28 %</span>."
-        },
-        {
-            "refinement": 5,
-            "desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span>32 %</span>."
-        }
-    ],
-    "pictures": {
-        "icon": "Weapon/WindblumeOde/Icon.webp"
-    }
+	"id": "WindblumeOde",
+	"name": "Windblumenode",
+	"description": "Ein Bogen, geschm\u00fcckt mit namenlosen Blumen, der die innigsten W\u00fcnsche einer ebenso namenlosen Person tr\u00e4gt.",
+	"rarity": 4,
+	"type": "Bogen",
+	"domain": "Ceciliagarten",
+	"passive": "Windblumenwunsch",
+	"bonus": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um 16 %/20 %/24 %/28 %/32 %.",
+	"stats": {
+		"primary": "Basis-ANG",
+		"secondary": "Elementarkunde",
+		"levels": [
+			{
+				"ascension": 0,
+				"level": 1,
+				"primary": 42,
+				"secondary": 36
+			},
+			{
+				"ascension": 0,
+				"level": 20,
+				"primary": 109,
+				"secondary": 64
+			},
+			{
+				"ascension": 1,
+				"level": 20,
+				"primary": 135,
+				"secondary": 64
+			},
+			{
+				"ascension": 1,
+				"level": 40,
+				"primary": 205,
+				"secondary": 93
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"primary": 231,
+				"secondary": 93
+			},
+			{
+				"ascension": 2,
+				"level": 50,
+				"primary": 266,
+				"secondary": 107
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"primary": 292,
+				"secondary": 107
+			},
+			{
+				"ascension": 3,
+				"level": 60,
+				"primary": 327,
+				"secondary": 122
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"primary": 353,
+				"secondary": 122
+			},
+			{
+				"ascension": 4,
+				"level": 70,
+				"primary": 388,
+				"secondary": 136
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"primary": 414,
+				"secondary": 136
+			},
+			{
+				"ascension": 5,
+				"level": 80,
+				"primary": 449,
+				"secondary": 151
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"primary": 475,
+				"secondary": 151
+			},
+			{
+				"ascension": 6,
+				"level": 90,
+				"primary": 510,
+				"secondary": 165
+			}
+		]
+	},
+	"ascensions": [
+		{
+			"ascension": 0,
+			"level": 20,
+			"materials": []
+		},
+		{
+			"ascension": 1,
+			"level": 40,
+			"cost": 5000,
+			"materials": [
+				{
+					"id": "FettersOfTheDandelionGladiator",
+					"name": "Fesseln des L\u00f6wenzahnk\u00e4mpfers",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "DeadLeyLineBranch",
+					"name": "Alte Rute des Flusses der Elemente",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Vaniloqua-Nektar",
+					"amount": 2,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 2,
+			"level": 50,
+			"cost": 15000,
+			"materials": [
+				{
+					"id": "ChainsOfTheDandelionGladiator",
+					"name": "Ketten des L\u00f6wenzahnk\u00e4mpfers",
+					"amount": 3,
+					"rarity": 3
+				},
+				{
+					"id": "DeadLeyLineBranch",
+					"name": "Alte Rute des Flusses der Elemente",
+					"amount": 12,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Vaniloqua-Nektar",
+					"amount": 8,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 3,
+			"level": 60,
+			"cost": 20000,
+			"materials": [
+				{
+					"id": "ChainsOfTheDandelionGladiator",
+					"name": "Ketten des L\u00f6wenzahnk\u00e4mpfers",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "DeadLeyLineLeaves",
+					"name": "Verdorrte Bl\u00e4tter des Flusses der Elemente",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Leuchtender Nektar",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 4,
+			"level": 70,
+			"cost": 30000,
+			"materials": [
+				{
+					"id": "ShacklesOfTheDandelionGladiator",
+					"name": "Schellen des L\u00f6wenzahnk\u00e4mpfers",
+					"amount": 3,
+					"rarity": 4
+				},
+				{
+					"id": "DeadLeyLineLeaves",
+					"name": "Verdorrte Bl\u00e4tter des Flusses der Elemente",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Leuchtender Nektar",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 5,
+			"level": 80,
+			"cost": 35000,
+			"materials": [
+				{
+					"id": "ShacklesOfTheDandelionGladiator",
+					"name": "Schellen des L\u00f6wenzahnk\u00e4mpfers",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "LeyLineSprout",
+					"name": "Frische Triebe des Flusses der Elemente",
+					"amount": 9,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Elementarnektar",
+					"amount": 6,
+					"rarity": 3
+				}
+			]
+		},
+		{
+			"ascension": 6,
+			"level": 90,
+			"cost": 45000,
+			"materials": [
+				{
+					"id": "DreamOfTheDandelionGladiator",
+					"name": "Ideal des L\u00f6wenzahnkriegers",
+					"amount": 4,
+					"rarity": 5
+				},
+				{
+					"id": "LeyLineSprout",
+					"name": "Frische Triebe des Flusses der Elemente",
+					"amount": 18,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Elementarnektar",
+					"amount": 12,
+					"rarity": 3
+				}
+			]
+		}
+	],
+	"refinement_raw": {
+		"name": "Windblumenwunsch",
+		"template": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um <span style=\"color:#99FFFFFF\">{0}.",
+		"params": [["16 %"], ["20 %"], ["24 %"], ["28 %"], ["32 %"]]
+	},
+	"refinements": [
+		{
+			"refinement": 1,
+			"desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um 16 %."
+		},
+		{
+			"refinement": 2,
+			"desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um 20 %."
+		},
+		{
+			"refinement": 3,
+			"desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um 24 %."
+		},
+		{
+			"refinement": 4,
+			"desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um 28 %."
+		},
+		{
+			"refinement": 5,
+			"desc": "Verleiht beim Ausl\u00f6sen von Elementarf\u00e4higkeiten den alten Wunsch der Windblumen und erh\u00f6ht den ANG 6 s lang um 32 %."
+		}
+	],
+	"pictures": {
+		"icon": "Weapon/WindblumeOde/Icon.webp"
+	}
 }

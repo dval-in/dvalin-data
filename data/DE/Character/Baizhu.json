@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackTheClassicsOfAcupuncture",
 			"name": "Standardangriff: Klassische Akupunktur",
-			"description": "<span>Standardangriff</span><br/>Führt bis zu 4 Angriffe nach vorn aus und verursacht <span>Dendro-Schaden</span>.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit im Bereich vor der Figur <span>Dendro-Flächenschaden</span>.<br/><br/><span>Angriff aus dem Fall</span><br/>Konzentriert die Kraft der Pflanzen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen <span>Dendro-Flächenschaden</span>.",
+			"description": "StandardangriffFührt bis zu 4 Angriffe nach vorn aus und verursacht Dendro-Schaden.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit im Bereich vor der Figur Dendro-Flächenschaden.Angriff aus dem FallKonzentriert die Kraft der Pflanzen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Dendro-Flächenschaden.",
 			"info": "",
 			"attributes": [
 				{
@@ -191,7 +191,7 @@
 		{
 			"id": "UniversalDiagnosis",
 			"name": "Universal-Diagnose",
-			"description": "Beschwört einen umherfliegenden Unruhspiral-Geist, der Gegner in der Nähe angreift und <span>Dendro-Schaden</span> verursacht.<br/>Der Unruhspiral-Geist wird nach max. 3 Angriffen, oder wenn sich keine Gegner in seiner Nähe befinden, zurückgerufen und stellt allen Truppenmitgliedern in der Nähe LP basierend auf Baizhus max. LP wieder her.",
+			"description": "Beschwört einen umherfliegenden Unruhspiral-Geist, der Gegner in der Nähe angreift und Dendro-Schaden verursacht.Der Unruhspiral-Geist wird nach max. 3 Angriffen, oder wenn sich keine Gegner in seiner Nähe befinden, zurückgerufen und stellt allen Truppenmitgliedern in der Nähe LP basierend auf Baizhus max. LP wieder her.",
 			"info": "Diejenigen unter den Medizinern, die Schein von Wirklichkeit trennen können, sind auch „diejenigen, die Krankheiten heilen können, bevor sich die Symptome zeigen“.",
 			"attributes": [
 				{
@@ -259,7 +259,7 @@
 		{
 			"id": "HolisticRevivification",
 			"name": "Ganzheitliche Heilung",
-			"description": "Begibt sich in den Zustand Pulsierende Klarheit und erzeugt einen makellosen Schild, der 250 % des <span>Dendro-Schadens</span> abhält.<br/>In diesem Zustand wird alle 2,5 s ein neuer makelloser Schild erzeugt.<br/><br/>Der makellose Schild stellt unter folgenden Umständen die LP der eigenen aktuellen Figur basierend auf Baizhus max. LP wieder her und beschwört einen Geist-Äther, der Gegner angreift und ihnen <span>Dendro-Schaden</span> zufügt:<br/>· Wenn eine Figur sich unter dem Schutz eines makellosen Schilds befindet und ein neuer makelloser Schild erzeugt wird.<br/>· Wenn der makellose Schild endet oder durch Schaden zerstört wird.",
+			"description": "Begibt sich in den Zustand Pulsierende Klarheit und erzeugt einen makellosen Schild, der 250 % des Dendro-Schadens abhält.In diesem Zustand wird alle 2,5 s ein neuer makelloser Schild erzeugt.Der makellose Schild stellt unter folgenden Umständen die LP der eigenen aktuellen Figur basierend auf Baizhus max. LP wieder her und beschwört einen Geist-Äther, der Gegner angreift und ihnen Dendro-Schaden zufügt:· Wenn eine Figur sich unter dem Schutz eines makellosen Schilds befindet und ein neuer makelloser Schild erzeugt wird.· Wenn der makellose Schild endet oder durch Schaden zerstört wird.",
 			"info": "Der, der den Glanz des Himmels und der Erde zu empfangen vermag, der sich mit seinem Inneren vor dem Äußeren bewahrt und seinen Geist in Klarheit taucht, dem werde ein Leben in Erfüllung zuteil.",
 			"attributes": [
 				{
@@ -384,23 +384,7 @@
 				},
 				{
 					"label": "Elementarenergie",
-					"values": [
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80",
-						"80"
-					]
+					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
 				}
 			]
 		}
@@ -409,13 +393,13 @@
 		{
 			"id": "FiveFortunesForever",
 			"name": "Zyklus der fünf Elemente",
-			"description": "Verleiht Baizhu auf Basis der LP der eigenen aktuellen Figur unterschiedliche Effekte:<br/>· Erhöht Baizhus Heilungsbonus um 20 %, wenn die LP weniger als 50 % betragen.<br/>· Verleiht Baizhu einen <span>Dendro-SCH-Bonus</span> von 25 %, wenn die LP 50 % oder mehr betragen.",
+			"description": "Verleiht Baizhu auf Basis der LP der eigenen aktuellen Figur unterschiedliche Effekte:· Erhöht Baizhus Heilungsbonus um 20 %, wenn die LP weniger als 50 % betragen.· Verleiht Baizhu einen Dendro-SCH-Bonus von 25 %, wenn die LP 50 % oder mehr betragen.",
 			"level": 1
 		},
 		{
 			"id": "AllThingsAreOfTheEarth",
 			"name": "Aus der Erde geboren",
-			"description": "Figuren, die Heilung durch den <span>makellosen Schild</span> erhalten, wird der Effekt „Jahr der Gunst des Grüns“ gewährt: Erhöht den Schaden, den die geheilten Figuren durch das Auslösen der Reaktionen „in Flammen“, „Sprießen“, „Supraspross“ sowie „Flammenspross“ verursachen, für je 1.000 LP (bis max. 50.000 LP) von Baizhu um 2 % und den Bonus für den Schaden, der durch die Reaktionen „Suprawuchs“ und „Rankenwuchs“ gewährt wird, für je 1.000 LP (bis max. 50.000 LP) von Baizhu um 0,8 %. Hält 6 s.",
+			"description": "Figuren, die Heilung durch den makellosen Schild erhalten, wird der Effekt „Jahr der Gunst des Grüns“ gewährt: Erhöht den Schaden, den die geheilten Figuren durch das Auslösen der Reaktionen „in Flammen“, „Sprießen“, „Supraspross“ sowie „Flammenspross“ verursachen, für je 1.000 LP (bis max. 50.000 LP) von Baizhu um 2 % und den Bonus für den Schaden, der durch die Reaktionen „Suprawuchs“ und „Rankenwuchs“ gewährt wird, für je 1.000 LP (bis max. 50.000 LP) von Baizhu um 0,8 %. Hält 6 s.",
 			"level": 4
 		},
 		{
@@ -429,165 +413,114 @@
 		{
 			"id": "AttentiveObservation",
 			"name": "Binnen eines Atemzugs",
-			"description": "Ermöglicht 1 weitere Anwendung von <span>Universal-Diagnose</span>.",
+			"description": "Ermöglicht 1 weitere Anwendung von Universal-Diagnose.",
 			"level": 1
 		},
 		{
 			"id": "IncisiveDiscernment",
 			"name": "Flink und geschickt",
-			"description": "Wenn der Angriff der aktuellen eigenen Figur in der Truppe Gegner in der Nähe trifft, setzt Baizhu Unruhspiral-Geist – Schnitter ein.<br/>Der Unruhspiral-Geist – Schnitter führt höchstens einen einzelnen Angriff aus, der <span>Dendro-Schaden</span> in Höhe von 250 % von Baizhus ANG verursacht und die LP wiederherstellt und kehrt dann zurück. Die Menge an wiederhergestellten LP entspricht 20 % der von Unruhspiral-Geist der <span>Universal-Diagnose</span> wiederhergestellten LP.<br/>Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.<br/>5 s Abklingzeit.",
+			"description": "Wenn der Angriff der aktuellen eigenen Figur in der Truppe Gegner in der Nähe trifft, setzt Baizhu Unruhspiral-Geist – Schnitter ein.Der Unruhspiral-Geist – Schnitter führt höchstens einen einzelnen Angriff aus, der Dendro-Schaden in Höhe von 250 % von Baizhus ANG verursacht und die LP wiederherstellt und kehrt dann zurück. Die Menge an wiederhergestellten LP entspricht 20 % der von Unruhspiral-Geist der Universal-Diagnose wiederhergestellten LP.Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.5 s Abklingzeit.",
 			"level": 2
 		},
 		{
 			"id": "AllAspectsStabilized",
 			"name": "Alle Symptome stabilisiert",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Ganzheitliche Heilung</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Ganzheitliche Heilung um 3.Höchststufe 15.",
 			"level": 3
 		},
 		{
 			"id": "AncientArtOfPerception",
 			"name": "Uralte Heilkunst",
-			"description": "Erhöht die Elementarkunde aller Truppenmitglieder in der Nähe bei Anwendung der Fähigkeit <span>Ganzheitliche Heilung</span> 15 s lang um 80 Punkte.",
+			"description": "Erhöht die Elementarkunde aller Truppenmitglieder in der Nähe bei Anwendung der Fähigkeit Ganzheitliche Heilung 15 s lang um 80 Punkte.",
 			"level": 4
 		},
 		{
 			"id": "TheHiddenEbbAndFlow",
 			"name": "Verborgene Ebbe und Flut",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Universal-Diagnose</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Universal-Diagnose um 3.Höchststufe 15.",
 			"level": 5
 		},
 		{
 			"id": "EliminationOfMaliciousQi",
 			"name": "Austreibung negativer Energie",
-			"description": "Erhöht den Schaden des Geist-Äthers von <span>Ganzheitliche Heilung</span> um 8 % von Baizhus max. LP.<br/>Außerdem wird jedes Mal, wenn der <span>Unruhspiral-Geist</span> oder der Unruhspiral-Geist – Schnitter einen Gegner trifft, mit einer Wahrscheinlichkeit von 100 % ein makelloser Schild der <span>Ganzheitliche Heilung</span> erschaffen. Jeder Unruhspiral-Geist oder Unruhspiral-Geist – Schnitter kann diesen Effekt jeweils nur einmal auslösen.",
+			"description": "Erhöht den Schaden des Geist-Äthers von Ganzheitliche Heilung um 8 % von Baizhus max. LP.Außerdem wird jedes Mal, wenn der Unruhspiral-Geist oder der Unruhspiral-Geist – Schnitter einen Gegner trifft, mit einer Wahrscheinlichkeit von 100 % ein makelloser Schild der Ganzheitliche Heilung erschaffen. Jeder Unruhspiral-Geist oder Unruhspiral-Geist – Schnitter kann diesen Effekt jeweils nur einmal auslösen.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"-",
-						"1039"
-					]
+					"values": ["-", "1039"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"-",
-						"15"
-					]
+					"values": ["-", "15"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"-",
-						"39"
-					]
+					"values": ["-", "39"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"-",
-						"0.0%"
-					]
+					"values": ["-", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"2695",
-						"3586"
-					]
+					"values": ["2695", "3586"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"39",
-						"52"
-					]
+					"values": ["39", "52"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"101",
-						"134"
-					]
+					"values": ["101", "134"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
+					"values": ["0.0%", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"5366",
-						"5999"
-					]
+					"values": ["5366", "5999"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"77",
-						"87"
-					]
+					"values": ["77", "87"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"201",
-						"225"
-					]
+					"values": ["201", "225"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"0.0%",
-						"7.2%"
-					]
+					"values": ["0.0%", "7.2%"]
 				}
 			],
 			"mat1": {
@@ -610,45 +543,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"6902",
-						"7747"
-					]
+					"values": ["6902", "7747"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"100",
-						"112"
-					]
+					"values": ["100", "112"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"258",
-						"290"
-					]
+					"values": ["258", "290"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"7.2%",
-						"14.4%"
-					]
+					"values": ["7.2%", "14.4%"]
 				}
 			],
 			"mat1": {
@@ -677,45 +593,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"8659",
-						"9292"
-					]
+					"values": ["8659", "9292"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"125",
-						"134"
-					]
+					"values": ["125", "134"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"324",
-						"348"
-					]
+					"values": ["324", "348"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"14.4%",
-						"14.4%"
-					]
+					"values": ["14.4%", "14.4%"]
 				}
 			],
 			"mat1": {
@@ -744,45 +643,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"10213",
-						"10846"
-					]
+					"values": ["10213", "10846"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"147",
-						"156"
-					]
+					"values": ["147", "156"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"382",
-						"406"
-					]
+					"values": ["382", "406"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"14.4%",
-						"21.6%"
-					]
+					"values": ["14.4%", "21.6%"]
 				}
 			],
 			"mat1": {
@@ -811,45 +693,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"11777",
-						"12410"
-					]
+					"values": ["11777", "12410"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"170",
-						"179"
-					]
+					"values": ["170", "179"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"441",
-						"464"
-					]
+					"values": ["441", "464"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"21.6%",
-						"28.8%"
-					]
+					"values": ["21.6%", "28.8%"]
 				}
 			],
 			"mat1": {
@@ -878,45 +743,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"13348",
-						"13348"
-					]
+					"values": ["13348", "13348"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"193",
-						"193"
-					]
+					"values": ["193", "193"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"500",
-						"500"
-					]
+					"values": ["500", "500"]
 				},
 				{
 					"label": "LP%",
-					"values": [
-						"28.8%",
-						"28.8%"
-					]
+					"values": ["28.8%", "28.8%"]
 				}
 			],
 			"mat1": {
