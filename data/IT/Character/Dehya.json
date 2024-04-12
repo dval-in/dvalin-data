@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackSandstormAssault",
 			"name": "Attacco normale: Tempesta dorata",
-			"description": "<span>Attacco normale</span><br/>Sferra fino a 4 colpi consecutivi utilizzando la sua claymore e le sue arti marziali.<br/><br/><span>Attacco caricato</span><br/>Consuma vigore nel tempo per sferrare fendenti continui.<br/>Al termine della sequenza, sferra un fendente più potente.<br/><br/><span>Attacco in picchiata</span><br/>Attacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
+			"description": "Attacco normaleSferra fino a 4 colpi consecutivi utilizzando la sua claymore e le sue arti marziali.Attacco caricatoConsuma vigore nel tempo per sferrare fendenti continui.Al termine della sequenza, sferra un fendente più potente.Attacco in picchiataAttacca scagliandosi contro il suolo da mezz'aria, infliggendo DAN agli avversari lungo la traiettoria e DAN ad area all'impatto.",
 			"info": "",
 			"attributes": [
 				{
@@ -168,23 +168,7 @@
 				},
 				{
 					"label": "Durata max",
-					"values": [
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s",
-						"5s"
-					]
+					"values": ["5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s"]
 				},
 				{
 					"label": "DAN da ATT in picchiata",
@@ -231,7 +215,7 @@
 		{
 			"id": "MoltenInferno",
 			"name": "Inferno colante",
-			"description": "Quest'arte, ideata da Dehya in persona, modifica il proprio metodo di utilizzo in base alla situazione del combattimento.<br/><br/><span>Fiamma indomita</span><br/>Quest'abilità viene scatenata se, al momento dell'uso, non è presente alcun Santuario infuocato creato da Dehya.<br/>Infligge <span>DAN da Pyro ad area</span> e crea un campo conosciuto come Santuario infuocato.<br/><br/><span>Fiamma estesa</span><br/>Quest'abilità viene sprigionata se, al momento dell'uso, esiste già un Santuario infuocato creato da Dehya.<br/>Dehya effettua un attacco con balzo, infliggendo <span>DAN da Pyro ad area</span>, per poi ricreare un Santuario infuocato nella sua nuova posizione.<br/>Un campo Santuario infuocato creato in questo modo eredita la durata restante del precedente.<br/><br/>Per la durata di ogni singolo Santuario infuocato è possibile usare 1 sola Fiamma estesa.<br/><br/><span>Santuario infuocato</span><br/>Quando un avversario all'interno di questo campo subisce DAN, viene sprigionato un attacco coordinato che infligge <span>DAN da Pyro ad area</span> in base all'ATT e ai PS max di Dehya. Quest'effetto può attivarsi una volta ogni 2,5 s.<br/>I personaggi attivi all'interno del campo ottengono un aumento della resistenza all'interruzione e, quando subiscono DAN, una porzione di questi viene mitigata e confluisce nel Sangue di Rossomanto. Dopodiché, Dehya subisce tali DAN nell'arco di 10 s. Quando i DAN mitigati accumulati dal Sangue di Rossomanto raggiungono o superano una certa percentuale dei PS max di Dehya, tale mitigazione si interrompe.<br/><br/>Può esistere 1 solo Santuario infuocato creato da Dehya alla volta.",
+			"description": "Quest'arte, ideata da Dehya in persona, modifica il proprio metodo di utilizzo in base alla situazione del combattimento.Fiamma indomitaQuest'abilità viene scatenata se, al momento dell'uso, non è presente alcun Santuario infuocato creato da Dehya.Infligge DAN da Pyro ad area e crea un campo conosciuto come Santuario infuocato.Fiamma estesaQuest'abilità viene sprigionata se, al momento dell'uso, esiste già un Santuario infuocato creato da Dehya.Dehya effettua un attacco con balzo, infliggendo DAN da Pyro ad area, per poi ricreare un Santuario infuocato nella sua nuova posizione.Un campo Santuario infuocato creato in questo modo eredita la durata restante del precedente.Per la durata di ogni singolo Santuario infuocato è possibile usare 1 sola Fiamma estesa.Santuario infuocatoQuando un avversario all'interno di questo campo subisce DAN, viene sprigionato un attacco coordinato che infligge DAN da Pyro ad area in base all'ATT e ai PS max di Dehya. Quest'effetto può attivarsi una volta ogni 2,5 s.I personaggi attivi all'interno del campo ottengono un aumento della resistenza all'interruzione e, quando subiscono DAN, una porzione di questi viene mitigata e confluisce nel Sangue di Rossomanto. Dopodiché, Dehya subisce tali DAN nell'arco di 10 s. Quando i DAN mitigati accumulati dal Sangue di Rossomanto raggiungono o superano una certa percentuale dei PS max di Dehya, tale mitigazione si interrompe.Può esistere 1 solo Santuario infuocato creato da Dehya alla volta.",
 			"info": "Percorri con me questo sentiero infuocato ed elimina ogni impurità, proprio come una bestia infuocata che discende dalle fiamme.",
 			"attributes": [
 				{
@@ -379,7 +363,7 @@
 		{
 			"id": "LeonineBite",
 			"name": "Morso leonino",
-			"description": "Sprigionando la sua furia incandescente e gettando via la sua lama, Dehya entra nello stato di Leonessa fiammante e aumenta la sua resistenza all'interruzione.<br/>Mentre è in questo stato, Dehya scatena in maniera continuativa e automatica i Pugni della Chiomardente, infliggendo <span>DAN da Pyro</span> in base al suo ATT e ai suoi PS max. Al termine dell'effetto, scaglia un Calcio inceneritore che infligge <span>DAN da Pyro ad area</span> in base ai medesimi attributi.<br/>Se, quando si sprigiona quest'abilità, è presente un Santuario infuocato creato dalla sua abilità elementale Inferno colante, Dehya lo recupera per crearne un altro quando l'effetto di Leonessa fiammante si esaurisce. Al momento del suo recupero, questo campo acquisisce la durata del campo recuperato.<br/>In questo stato, Dehya non è in grado di usare la sua abilità elementale, né di eseguire attacchi normali, caricati o in picchiata. Attacco normale: Tempesta dorata e Inferno colante vengono sostituiti da Raffica ruggente.<br/><br/><span>Raffica ruggente</span><br/>Scatenare Raffica ruggente entro 0,4 s dopo ogni Pugno della Chiomardente aumenta la velocità con cui il Pugno della Chiomardente successivo viene scagliato.",
+			"description": "Sprigionando la sua furia incandescente e gettando via la sua lama, Dehya entra nello stato di Leonessa fiammante e aumenta la sua resistenza all'interruzione.Mentre è in questo stato, Dehya scatena in maniera continuativa e automatica i Pugni della Chiomardente, infliggendo DAN da Pyro in base al suo ATT e ai suoi PS max. Al termine dell'effetto, scaglia un Calcio inceneritore che infligge DAN da Pyro ad area in base ai medesimi attributi.Se, quando si sprigiona quest'abilità, è presente un Santuario infuocato creato dalla sua abilità elementale Inferno colante, Dehya lo recupera per crearne un altro quando l'effetto di Leonessa fiammante si esaurisce. Al momento del suo recupero, questo campo acquisisce la durata del campo recuperato.In questo stato, Dehya non è in grado di usare la sua abilità elementale, né di eseguire attacchi normali, caricati o in picchiata. Attacco normale: Tempesta dorata e Inferno colante vengono sostituiti da Raffica ruggente.Raffica ruggenteScatenare Raffica ruggente entro 0,4 s dopo ogni Pugno della Chiomardente aumenta la velocità con cui il Pugno della Chiomardente successivo viene scagliato.",
 			"info": "Perfino le fiamme fluttuanti devono sottostare alla sua furia, e al suo comando si tramutano in artigli e in zanne al suo servizio.",
 			"attributes": [
 				{
@@ -424,23 +408,7 @@
 				},
 				{
 					"label": "Durata",
-					"values": [
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s",
-						"4s"
-					]
+					"values": ["4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s", "4s"]
 				},
 				{
 					"label": "TdR",
@@ -464,23 +432,7 @@
 				},
 				{
 					"label": "Costo energia",
-					"values": [
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70",
-						"70"
-					]
+					"values": ["70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70"]
 				}
 			]
 		}
@@ -489,7 +441,7 @@
 		{
 			"id": "UnstintingSuccor",
 			"name": "Generosa assistenza",
-			"description": "Entro 6 s dal recupero del campo Santuario infuocato tramite <span>Inferno colante: Fiamma estesa</span> o <span>Morso leonino</span>, Dehya subisce un 60% di DAN in meno dal Sangue di Rossomanto.<br/>Quest'effetto può attivarsi una volta ogni 2 s.<br/>Inoltre, entro 9 s dal rilascio di <span>Inferno colante: Fiamma indomita</span>, garantisce a tutti i membri del gruppo lo stato di Forma aurea. Quest'ultimo aumenta ulteriormente la resistenza all'interruzione di un personaggio all'interno del campo Santuario infuocato. Lo stato di Forma aurea può attivarsi una volta ogni 18 s.",
+			"description": "Entro 6 s dal recupero del campo Santuario infuocato tramite Inferno colante: Fiamma estesa o Morso leonino, Dehya subisce un 60% di DAN in meno dal Sangue di Rossomanto.Quest'effetto può attivarsi una volta ogni 2 s.Inoltre, entro 9 s dal rilascio di Inferno colante: Fiamma indomita, garantisce a tutti i membri del gruppo lo stato di Forma aurea. Quest'ultimo aumenta ulteriormente la resistenza all'interruzione di un personaggio all'interno del campo Santuario infuocato. Lo stato di Forma aurea può attivarsi una volta ogni 18 s.",
 			"level": 1
 		},
 		{
@@ -501,7 +453,7 @@
 		{
 			"id": "TheSunlitWay",
 			"name": "La via illuminata",
-			"description": "Di giorno (06:00-18:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.<br/>Non ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile.",
+			"description": "Di giorno (06:00-18:00), i membri del tuo gruppo ottengono l'effetto Piè veloce: la VEL di movimento aumenta di un 10%.Non ha effetto all'interno di domini, Domini della conquista o Abisso a spirale. Piè veloce non è cumulabile.",
 			"level": 0
 		}
 	],
@@ -509,165 +461,114 @@
 		{
 			"id": "TheFlameIncandescent",
 			"name": "Fiamma incandescente",
-			"description": "I PS max di Dehya aumentano di un 20%. Dehya infligge DAN bonus in base ai suoi PS max quando utilizza i seguenti attacchi:<br/>· i DAN da <span>Inferno colante</span> aumentano di un 3,6% dei suoi PS max;<br/>· i DAN da <span>Morso leonino</span> aumentano di un 6% dei suoi PS max.",
+			"description": "I PS max di Dehya aumentano di un 20%. Dehya infligge DAN bonus in base ai suoi PS max quando utilizza i seguenti attacchi:· i DAN da Inferno colante aumentano di un 3,6% dei suoi PS max;· i DAN da Morso leonino aumentano di un 6% dei suoi PS max.",
 			"level": 1
 		},
 		{
 			"id": "TheSandbladesGlittering",
 			"name": "Scintillio delle lame di sabbia",
-			"description": "Quando Dehya utilizza <span>Inferno colante: Fiamma estesa</span>, la durata del Santuario infuocato ricreato aumenta di 6 s.<br/>In aggiunta, quando un Santuario infuocato è presente sul campo e i personaggi attivi al suo interno vengono attaccati, i DAN inflitti dal suo attacco coordinato successivo aumentano di un 50%.",
+			"description": "Quando Dehya utilizza Inferno colante: Fiamma estesa, la durata del Santuario infuocato ricreato aumenta di 6 s.In aggiunta, quando un Santuario infuocato è presente sul campo e i personaggi attivi al suo interno vengono attaccati, i DAN inflitti dal suo attacco coordinato successivo aumentano di un 50%.",
 			"level": 2
 		},
 		{
 			"id": "ARageSwiftAsFire",
 			"name": "Furia rapida come il fuoco",
-			"description": "Aumenta di 3 il livello di <span>Morso leonino</span>.<br/>Il livello di potenziamento massimo è 15.",
+			"description": "Aumenta di 3 il livello di Morso leonino.Il livello di potenziamento massimo è 15.",
 			"level": 3
 		},
 		{
 			"id": "AnOathAbiding",
 			"name": "Un giuramento da rispettare",
-			"description": "Quando gli attacchi Pugno della Chiomardente e Calcio inceneritore sprigionati durante <span>Morso leonino</span> colpiscono gli avversari, Dehya recupera 1,5 di energia e un 2,5% dei suoi PS max. Quest'effetto può attivarsi una volta ogni 0,2 s.",
+			"description": "Quando gli attacchi Pugno della Chiomardente e Calcio inceneritore sprigionati durante Morso leonino colpiscono gli avversari, Dehya recupera 1,5 di energia e un 2,5% dei suoi PS max. Quest'effetto può attivarsi una volta ogni 0,2 s.",
 			"level": 4
 		},
 		{
 			"id": "TheAlphaUnleashed",
 			"name": "Alfa scatenato",
-			"description": "Aumenta di 3 il livello di <span>Inferno colante</span>.<br/>Il livello di potenziamento massimo è 15.",
+			"description": "Aumenta di 3 il livello di Inferno colante.Il livello di potenziamento massimo è 15.",
 			"level": 5
 		},
 		{
 			"id": "TheBurningClawsCleaving",
 			"name": "Squarcio degli artigli ardenti",
-			"description": "Il tasso di CRIT di <span>Morso leonino</span> aumenta di un 10%.<br/>In più, se un Pugno della Chiomardente infligge colpi CRIT a un avversario durante un singolo stato di Leonessa fiammante, i DAN da CRIT di Morso leonino aumentano di un 15% per il resto della durata di Leonessa fiammante, estendendone la durata di 0,5 s. Quest'effetto può essere attivato ogni 0,2 s. La durata può essere estesa fino a un massimo di 2 s, e in questo modo i DAN da CRIT possono aumentare fino a un 60% max.",
+			"description": "Il tasso di CRIT di Morso leonino aumenta di un 10%.In più, se un Pugno della Chiomardente infligge colpi CRIT a un avversario durante un singolo stato di Leonessa fiammante, i DAN da CRIT di Morso leonino aumentano di un 15% per il resto della durata di Leonessa fiammante, estendendone la durata di 0,5 s. Quest'effetto può essere attivato ogni 0,2 s. La durata può essere estesa fino a un massimo di 2 s, e in questo modo i DAN da CRIT possono aumentare fino a un 60% max.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"-",
-						"1220"
-					]
+					"values": ["-", "1220"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"-",
-						"21"
-					]
+					"values": ["-", "21"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"-",
-						"49"
-					]
+					"values": ["-", "49"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"-",
-						"0.0%"
-					]
+					"values": ["-", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"3165",
-						"4212"
-					]
+					"values": ["3165", "4212"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"54",
-						"71"
-					]
+					"values": ["54", "71"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"127",
-						"169"
-					]
+					"values": ["127", "169"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
+					"values": ["0.0%", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"6302",
-						"7045"
-					]
+					"values": ["6302", "7045"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"107",
-						"119"
-					]
+					"values": ["107", "119"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"252",
-						"282"
-					]
+					"values": ["252", "282"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"0.0%",
-						"7.2%"
-					]
+					"values": ["0.0%", "7.2%"]
 				}
 			],
 			"mat1": {
@@ -690,45 +591,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"8106",
-						"9097"
-					]
+					"values": ["8106", "9097"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"137",
-						"154"
-					]
+					"values": ["137", "154"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"325",
-						"364"
-					]
+					"values": ["325", "364"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"7.2%",
-						"14.4%"
-					]
+					"values": ["7.2%", "14.4%"]
 				}
 			],
 			"mat1": {
@@ -757,45 +641,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"10168",
-						"10912"
-					]
+					"values": ["10168", "10912"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"172",
-						"185"
-					]
+					"values": ["172", "185"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"407",
-						"437"
-					]
+					"values": ["407", "437"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"14.4%",
-						"14.4%"
-					]
+					"values": ["14.4%", "14.4%"]
 				}
 			],
 			"mat1": {
@@ -824,45 +691,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"11993",
-						"12736"
-					]
+					"values": ["11993", "12736"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"203",
-						"216"
-					]
+					"values": ["203", "216"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"480",
-						"510"
-					]
+					"values": ["480", "510"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"14.4%",
-						"21.6%"
-					]
+					"values": ["14.4%", "21.6%"]
 				}
 			],
 			"mat1": {
@@ -891,45 +741,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"13829",
-						"14573"
-					]
+					"values": ["13829", "14573"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"234",
-						"247"
-					]
+					"values": ["234", "247"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"554",
-						"584"
-					]
+					"values": ["554", "584"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"21.6%",
-						"28.8%"
-					]
+					"values": ["21.6%", "28.8%"]
 				}
 			],
 			"mat1": {
@@ -958,45 +791,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Fai ascendere",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "PS di base",
-					"values": [
-						"15675",
-						"15675"
-					]
+					"values": ["15675", "15675"]
 				},
 				{
 					"label": "ATT di base",
-					"values": [
-						"265",
-						"265"
-					]
+					"values": ["265", "265"]
 				},
 				{
 					"label": "DIF di base",
-					"values": [
-						"628",
-						"628"
-					]
+					"values": ["628", "628"]
 				},
 				{
 					"label": "PS%",
-					"values": [
-						"28.8%",
-						"28.8%"
-					]
+					"values": ["28.8%", "28.8%"]
 				}
 			],
 			"mat1": {

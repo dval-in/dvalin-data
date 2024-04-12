@@ -1,1205 +1,1053 @@
 {
-  "id": "Ganyu",
-  "name": "Ganyu",
-  "title": "Plenilune Gaze",
-  "description": "Seorang sekretaris di Yuehai Pavilion. Darah hewan pusaka Qilin mengalir di dalam tubuhnya.",
-  "weaponType": "Bow",
-  "element": "Cryo",
-  "gender": "Perempuan",
-  "substat": "CRIT DMG",
-  "affiliation": "Yuehai Pavilion",
-  "region": "Liyue",
-  "rarity": 5,
-  "birthday": "2/12",
-  "constellation": "Sinae Unicornis",
-  "domain": "Taishan Mansion",
-  "cv": {
-    "english": "Jennifer Losi",
-    "chinese": "林簌",
-    "japanese": "上田麗奈",
-    "korean": "Kim Seon-hye"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackLiutianArchery",
-      "name": "Normal Attack: Liutian Archery",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 6 serangan berturut-turut dengan busur.<br/><br/><span>Charged Attack</span><br/>Melancarkan sebuah <span>Serangan Membidik</span> yang lebih akurat untuk mengakibatkan DMG lebih besar.<br/>Saat membidik, es akan berkumpul di ujung anak panah. Memiliki efek yang berbeda tergantung dari lama serangannya ditahan:<br/>·Charge Tahap 1: Menembakkan panah es yang mengakibatkan <span>Cryo DMG</span>.<br/>·Charge Tahap 2: Menembakkan Frostflake Arrow yang mengakibatkan <span>Cryo DMG</span>. Frostflake Arrow akan mengembang setelah mengenai target untuk mengakibatkan <span>Cryo DMG area</span>.<br/><br/><span>Plunging Attack</span><br/>Melancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG area saat mendarat.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "DMG Tahap 1",
-          "values": [
-            "31.73%",
-            "34.32%",
-            "36.9%",
-            "40.59%",
-            "43.17%",
-            "46.13%",
-            "50.18%",
-            "54.24%",
-            "58.3%",
-            "62.73%",
-            "67.8%",
-            "73.77%",
-            "79.74%",
-            "85.7%",
-            "92.21%"
-          ]
-        },
-        {
-          "label": "DMG Tahap 2",
-          "values": [
-            "35.6%",
-            "38.5%",
-            "41.4%",
-            "45.54%",
-            "48.44%",
-            "51.75%",
-            "56.3%",
-            "60.86%",
-            "65.41%",
-            "70.38%",
-            "76.07%",
-            "82.77%",
-            "89.46%",
-            "96.16%",
-            "103.46%"
-          ]
-        },
-        {
-          "label": "DMG Tahap 3",
-          "values": [
-            "45.49%",
-            "49.2%",
-            "52.9%",
-            "58.19%",
-            "61.89%",
-            "66.12%",
-            "71.94%",
-            "77.76%",
-            "83.58%",
-            "89.93%",
-            "97.2%",
-            "105.76%",
-            "114.31%",
-            "122.87%",
-            "132.2%"
-          ]
-        },
-        {
-          "label": "DMG Tahap 4",
-          "values": [
-            "45.49%",
-            "49.2%",
-            "52.9%",
-            "58.19%",
-            "61.89%",
-            "66.12%",
-            "71.94%",
-            "77.76%",
-            "83.58%",
-            "89.93%",
-            "97.2%",
-            "105.76%",
-            "114.31%",
-            "122.87%",
-            "132.2%"
-          ]
-        },
-        {
-          "label": "DMG Tahap 5",
-          "values": [
-            "48.25%",
-            "52.17%",
-            "56.1%",
-            "61.71%",
-            "65.64%",
-            "70.13%",
-            "76.3%",
-            "82.47%",
-            "88.64%",
-            "95.37%",
-            "103.08%",
-            "112.16%",
-            "121.23%",
-            "130.3%",
-            "140.19%"
-          ]
-        },
-        {
-          "label": "DMG Tahap 6",
-          "values": [
-            "57.62%",
-            "62.31%",
-            "67%",
-            "73.7%",
-            "78.39%",
-            "83.75%",
-            "91.12%",
-            "98.49%",
-            "105.86%",
-            "113.9%",
-            "123.11%",
-            "133.95%",
-            "144.78%",
-            "155.61%",
-            "167.43%"
-          ]
-        },
-        {
-          "label": "DMG Membidik",
-          "values": [
-            "43.86%",
-            "47.43%",
-            "51%",
-            "56.1%",
-            "59.67%",
-            "63.75%",
-            "69.36%",
-            "74.97%",
-            "80.58%",
-            "86.7%",
-            "92.82%",
-            "98.94%",
-            "105.06%",
-            "111.18%",
-            "117.3%"
-          ]
-        },
-        {
-          "label": "Serangan Membidik Tahap 1",
-          "values": [
-            "124%",
-            "133.3%",
-            "142.6%",
-            "155%",
-            "164.3%",
-            "173.6%",
-            "186%",
-            "198.4%",
-            "210.8%",
-            "223.2%",
-            "235.6%",
-            "248%",
-            "263.5%",
-            "279%",
-            "294.5%"
-          ]
-        },
-        {
-          "label": "DMG Frostflake Arrow",
-          "values": [
-            "128%",
-            "137.6%",
-            "147.2%",
-            "160%",
-            "169.6%",
-            "179.2%",
-            "192%",
-            "204.8%",
-            "217.6%",
-            "230.4%",
-            "243.2%",
-            "256%",
-            "272%",
-            "288%",
-            "304%"
-          ]
-        },
-        {
-          "label": "DMG Frostflake Arrow Bloom",
-          "values": [
-            "217.6%",
-            "233.92%",
-            "250.24%",
-            "272%",
-            "288.32%",
-            "304.64%",
-            "326.4%",
-            "348.16%",
-            "369.92%",
-            "391.68%",
-            "413.44%",
-            "435.2%",
-            "462.4%",
-            "489.6%",
-            "516.8%"
-          ]
-        },
-        {
-          "label": "DMG Selama Plunging",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "DMG Plunging Attack Rendah/Tinggi",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "TrailOfTheQilin",
-      "name": "Trail of the Qilin",
-      "description": "Dengan meninggalkan sebuah Ice Lotus, Ganyu meloncat mundur dengan cepat, membuang semua ketidakmurnian dan mengakibatkan <span>Cryo DMG area</span>.<br/><br/><span>Ice Lotus</span><br/>·Terus menarik perhatian musuh di sekitar untuk menyerangnya.<br/>·HP Ice Lotus mewarisi Max HP Ganyu berdasarkan persentase tertentu.<br/>·Saat dihancurkan atau durasinya berakhir, Ice Lotus akan mengembang dengan hebat dan mengakibatkan <span>Cryo DMG area</span>.",
-      "info": "\"Kamu melihatku? Pasti salah, aku sedang lembur saat itu.\"",
-      "attributes": [
-        {
-          "label": "HP Terwariskan",
-          "values": [
-            "120%",
-            "129%",
-            "138%",
-            "150%",
-            "159%",
-            "168%",
-            "180%",
-            "192%",
-            "204%",
-            "216%",
-            "228%",
-            "240%",
-            "255%",
-            "270%",
-            "285%"
-          ]
-        },
-        {
-          "label": "DMG Skill",
-          "values": [
-            "132%",
-            "141.9%",
-            "151.8%",
-            "165%",
-            "174.9%",
-            "184.8%",
-            "198%",
-            "211.2%",
-            "224.4%",
-            "237.6%",
-            "250.8%",
-            "264%",
-            "280.5%",
-            "297%",
-            "313.5%"
-          ]
-        },
-        {
-          "label": "Durasi",
-          "values": [
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk",
-            "6 dtk"
-          ]
-        },
-        {
-          "label": "Cooldown",
-          "values": [
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk",
-            "10 dtk"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "CelestialShower",
-      "name": "Celestial Shower",
-      "description": "Mengumpulkan es dan salju di udara untuk memanggil Sacred Cryo Pearl yang membasmi iblis.<br/>Selama durasi skill, Sacred Cryo Pearl akan terus menjatuhkan bongkahan es yang mengenai musuh dalam area dan mengakibatkan <span>Cryo DMG</span>.",
-      "info": "Ganyu tentunya dapat membuat hujan manis, tapi terhadap iblis dan monster, hujannya menjadi salju yang dingin dan pahit.",
-      "attributes": [
-        {
-          "label": "DMG Ice Shard",
-          "values": [
-            "70.27%",
-            "75.54%",
-            "80.81%",
-            "87.84%",
-            "93.11%",
-            "98.38%",
-            "105.41%",
-            "112.44%",
-            "119.46%",
-            "126.49%",
-            "133.52%",
-            "140.54%",
-            "149.33%",
-            "158.11%",
-            "166.9%"
-          ]
-        },
-        {
-          "label": "Durasi",
-          "values": [
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk"
-          ]
-        },
-        {
-          "label": "Cooldown",
-          "values": [
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk",
-            "15 dtk"
-          ]
-        },
-        {
-          "label": "Konsumsi Energy",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "UndividedHeart",
-      "name": "Undivided Heart",
-      "description": "Setelah menembakkan sebuah Frostflake Arrow, meningkatkan 20% CRIT Rate dari Frostflake Arrow berikutnya serta efek ledakan yang disebabkan olehnya selama 5 detik.",
-      "level": 1
-    },
-    {
-      "id": "HarmonyBetweenHeavenAndEarth",
-      "name": "Harmony between Heaven and Earth",
-      "description": "<span>Celestial Shower</span> memberikan 20% <span>Cryo DMG Bonus</span> kepada anggota party yang berada di dalam lingkup areanya.",
-      "level": 4
-    },
-    {
-      "id": "PreservedForTheHunt",
-      "name": "Perserved for the Hunt",
-      "description": "Mengembalikan 15% jumlah Ore yang digunakan saat membuat senjata tipe Bow.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "Dewdrinker",
-      "name": "Dew-Drinker",
-      "description": "Mengurangi 15% <span>Cryo RES</span> musuh yang terkena Frostflake Arrow Charge Tahap 2 atau Frostflake Arrow Bloom selama 6 detik.<br/>Serangan ini juga akan memulihkan 2 Energy Ganyu. Efek pemulihan Energy terpicu maksimum 1 kali dalam 1 serangan, tak peduli musuh terkena Frostflake Arrow Charge Tahap 2 atau ledakan Frostflake Arrow Bloom.",
-      "level": 1
-    },
-    {
-      "id": "TheAuspicious",
-      "name": "The Auspicious",
-      "description": "Meningkatkan 1 charge <span>Trail of the Qilin</span>.",
-      "level": 2
-    },
-    {
-      "id": "Cloudstrider",
-      "name": "Cloud-Strider",
-      "description": "Meningkatkan 3 level <span>Celestial Shower</span>.<br/>Maksimum: Lv. 15.",
-      "level": 3
-    },
-    {
-      "id": "WestwardSojourn",
-      "name": "Westward Sojourn",
-      "description": "Meningkatkan DMG yang diterima musuh saat mereka berada di dalam area <span>Celestial Shower</span>. Semakin lama musuh berada di dalam area, semakin besar efek peningkatan DMG.<br/>Peningkatan DMG mula-mula 5%, dan meningkat 5% setiap 3 detik, peningkatan DMG maksimum: 25%.<br/>Efek ini bertahan selama 3 detik setelah musuh meninggalkan area.",
-      "level": 4
-    },
-    {
-      "id": "TheMerciful",
-      "name": "The Merciful",
-      "description": "Meningkatkan 3 level <span>Trail of the Qilin</span>.<br/>Maksimum: Lv. 15.",
-      "level": 5
-    },
-    {
-      "id": "TheClement",
-      "name": "The Clement",
-      "description": "Menggunakan <span>Trail of the Qilin</span> akan menyebabkan Frostflake Arrow yang ditembakkan dalam waktu 30 detik ke depan tidak memerlukan Charge.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "-",
-            "763"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "-",
-            "26"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "-",
-            "49"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "-",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "1978",
-            "2632"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "68",
-            "90"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "127",
-            "169"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "50.0%",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "3939",
-            "4403"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "135",
-            "151"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "253",
-            "283"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "50.0%",
-            "59.6%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeSliver",
-        "name": "Shivada Jade Sliver",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WhopperflowerNectar",
-        "name": "Whopperflower Nectar",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "5066",
-            "5686"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "173",
-            "194"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "326",
-            "366"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "59.6%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Shivada Jade Fragment",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Hoarfrost Core",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WhopperflowerNectar",
-        "name": "Whopperflower Nectar",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "6355",
-            "6820"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "217",
-            "233"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "409",
-            "439"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "69.2%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Shivada Jade Fragment",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Hoarfrost Core",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ShimmeringNectar",
-        "name": "Shimmering Nectar",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "7495",
-            "7960"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "256",
-            "272"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "482",
-            "512"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "69.2%",
-            "78.8%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Shivada Jade Chunk",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Hoarfrost Core",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "ShimmeringNectar",
-        "name": "Shimmering Nectar",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "8643",
-            "9108"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "295",
-            "311"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "556",
-            "586"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "78.8%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Shivada Jade Chunk",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Hoarfrost Core",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "EnergyNectar",
-        "name": "Energy Nectar",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "9797",
-            "9797"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "335",
-            "335"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "630",
-            "630"
-          ]
-        },
-        {
-          "label": "CRIT DMG",
-          "values": [
-            "88.4%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeGemstone",
-        "name": "Shivada Jade Gemstone",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "HoarfrostCore",
-        "name": "Hoarfrost Core",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "Qingxin",
-        "name": "Qingxin",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "EnergyNectar",
-        "name": "Energy Nectar",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfDiligence",
-          "name": "Teachings of \"Diligence\"",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "WhopperflowerNectar",
-          "name": "Whopperflower Nectar",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guide to \"Diligence\"",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Shimmering Nectar",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guide to \"Diligence\"",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Shimmering Nectar",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guide to \"Diligence\"",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Shimmering Nectar",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Guide to \"Diligence\"",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "ShimmeringNectar",
-          "name": "Shimmering Nectar",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophies of \"Diligence\"",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Energy Nectar",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Shadow of the Warrior",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophies of \"Diligence\"",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Energy Nectar",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Shadow of the Warrior",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophies of \"Diligence\"",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Energy Nectar",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Shadow of the Warrior",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophies of \"Diligence\"",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "EnergyNectar",
-          "name": "Energy Nectar",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "ShadowOfTheWarrior",
-          "name": "Shadow of the Warrior",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Crown of Insight",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Ganyu/Icon.webp",
-    "sideIcon": "Character/Ganyu/SideIcon.webp",
-    "gatchaCard": "Character/Ganyu/GachaCard.webp",
-    "gachaSplash": "Character/Ganyu/GachaSplash.webp",
-    "face": "Character/Ganyu/Face.webp",
-    "halfFace": "Character/Ganyu/HalfFace.webp",
-    "profile": "Character/Ganyu/Profile.webp",
-    "weaponStance": "Character/Ganyu/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "AmosBow",
-  "specialDish": "ProsperousPeace",
-  "tcgCharacterCard": "Ganyu",
-  "outfits": [
-    {
-      "id": "FrostdewTrail",
-      "name": "Frostdew Trail",
-      "description": "Model pakaian Ganyu. Pakaian klasik Adeptus yang sudah diberkahi oleh Adeptus.",
-      "picture": "Character/Ganyu/Outfit/FrostdewTrail.webp"
-    }
-  ]
+	"id": "Ganyu",
+	"name": "Ganyu",
+	"title": "Plenilune Gaze",
+	"description": "Seorang sekretaris di Yuehai Pavilion. Darah hewan pusaka Qilin mengalir di dalam tubuhnya.",
+	"weaponType": "Bow",
+	"element": "Cryo",
+	"gender": "Perempuan",
+	"substat": "CRIT DMG",
+	"affiliation": "Yuehai Pavilion",
+	"region": "Liyue",
+	"rarity": 5,
+	"birthday": "2/12",
+	"constellation": "Sinae Unicornis",
+	"domain": "Taishan Mansion",
+	"cv": {
+		"english": "Jennifer Losi",
+		"chinese": "林簌",
+		"japanese": "上田麗奈",
+		"korean": "Kim Seon-hye"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackLiutianArchery",
+			"name": "Normal Attack: Liutian Archery",
+			"description": "Normal AttackMelancarkan hingga 6 serangan berturut-turut dengan busur.Charged AttackMelancarkan sebuah Serangan Membidik yang lebih akurat untuk mengakibatkan DMG lebih besar.Saat membidik, es akan berkumpul di ujung anak panah. Memiliki efek yang berbeda tergantung dari lama serangannya ditahan:·Charge Tahap 1: Menembakkan panah es yang mengakibatkan Cryo DMG.·Charge Tahap 2: Menembakkan Frostflake Arrow yang mengakibatkan Cryo DMG. Frostflake Arrow akan mengembang setelah mengenai target untuk mengakibatkan Cryo DMG area.Plunging AttackMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG area saat mendarat.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "DMG Tahap 1",
+					"values": [
+						"31.73%",
+						"34.32%",
+						"36.9%",
+						"40.59%",
+						"43.17%",
+						"46.13%",
+						"50.18%",
+						"54.24%",
+						"58.3%",
+						"62.73%",
+						"67.8%",
+						"73.77%",
+						"79.74%",
+						"85.7%",
+						"92.21%"
+					]
+				},
+				{
+					"label": "DMG Tahap 2",
+					"values": [
+						"35.6%",
+						"38.5%",
+						"41.4%",
+						"45.54%",
+						"48.44%",
+						"51.75%",
+						"56.3%",
+						"60.86%",
+						"65.41%",
+						"70.38%",
+						"76.07%",
+						"82.77%",
+						"89.46%",
+						"96.16%",
+						"103.46%"
+					]
+				},
+				{
+					"label": "DMG Tahap 3",
+					"values": [
+						"45.49%",
+						"49.2%",
+						"52.9%",
+						"58.19%",
+						"61.89%",
+						"66.12%",
+						"71.94%",
+						"77.76%",
+						"83.58%",
+						"89.93%",
+						"97.2%",
+						"105.76%",
+						"114.31%",
+						"122.87%",
+						"132.2%"
+					]
+				},
+				{
+					"label": "DMG Tahap 4",
+					"values": [
+						"45.49%",
+						"49.2%",
+						"52.9%",
+						"58.19%",
+						"61.89%",
+						"66.12%",
+						"71.94%",
+						"77.76%",
+						"83.58%",
+						"89.93%",
+						"97.2%",
+						"105.76%",
+						"114.31%",
+						"122.87%",
+						"132.2%"
+					]
+				},
+				{
+					"label": "DMG Tahap 5",
+					"values": [
+						"48.25%",
+						"52.17%",
+						"56.1%",
+						"61.71%",
+						"65.64%",
+						"70.13%",
+						"76.3%",
+						"82.47%",
+						"88.64%",
+						"95.37%",
+						"103.08%",
+						"112.16%",
+						"121.23%",
+						"130.3%",
+						"140.19%"
+					]
+				},
+				{
+					"label": "DMG Tahap 6",
+					"values": [
+						"57.62%",
+						"62.31%",
+						"67%",
+						"73.7%",
+						"78.39%",
+						"83.75%",
+						"91.12%",
+						"98.49%",
+						"105.86%",
+						"113.9%",
+						"123.11%",
+						"133.95%",
+						"144.78%",
+						"155.61%",
+						"167.43%"
+					]
+				},
+				{
+					"label": "DMG Membidik",
+					"values": [
+						"43.86%",
+						"47.43%",
+						"51%",
+						"56.1%",
+						"59.67%",
+						"63.75%",
+						"69.36%",
+						"74.97%",
+						"80.58%",
+						"86.7%",
+						"92.82%",
+						"98.94%",
+						"105.06%",
+						"111.18%",
+						"117.3%"
+					]
+				},
+				{
+					"label": "Serangan Membidik Tahap 1",
+					"values": [
+						"124%",
+						"133.3%",
+						"142.6%",
+						"155%",
+						"164.3%",
+						"173.6%",
+						"186%",
+						"198.4%",
+						"210.8%",
+						"223.2%",
+						"235.6%",
+						"248%",
+						"263.5%",
+						"279%",
+						"294.5%"
+					]
+				},
+				{
+					"label": "DMG Frostflake Arrow",
+					"values": [
+						"128%",
+						"137.6%",
+						"147.2%",
+						"160%",
+						"169.6%",
+						"179.2%",
+						"192%",
+						"204.8%",
+						"217.6%",
+						"230.4%",
+						"243.2%",
+						"256%",
+						"272%",
+						"288%",
+						"304%"
+					]
+				},
+				{
+					"label": "DMG Frostflake Arrow Bloom",
+					"values": [
+						"217.6%",
+						"233.92%",
+						"250.24%",
+						"272%",
+						"288.32%",
+						"304.64%",
+						"326.4%",
+						"348.16%",
+						"369.92%",
+						"391.68%",
+						"413.44%",
+						"435.2%",
+						"462.4%",
+						"489.6%",
+						"516.8%"
+					]
+				},
+				{
+					"label": "DMG Selama Plunging",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "DMG Plunging Attack Rendah/Tinggi",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"id": "TrailOfTheQilin",
+			"name": "Trail of the Qilin",
+			"description": "Dengan meninggalkan sebuah Ice Lotus, Ganyu meloncat mundur dengan cepat, membuang semua ketidakmurnian dan mengakibatkan Cryo DMG area.Ice Lotus·Terus menarik perhatian musuh di sekitar untuk menyerangnya.·HP Ice Lotus mewarisi Max HP Ganyu berdasarkan persentase tertentu.·Saat dihancurkan atau durasinya berakhir, Ice Lotus akan mengembang dengan hebat dan mengakibatkan Cryo DMG area.",
+			"info": "\"Kamu melihatku? Pasti salah, aku sedang lembur saat itu.\"",
+			"attributes": [
+				{
+					"label": "HP Terwariskan",
+					"values": [
+						"120%",
+						"129%",
+						"138%",
+						"150%",
+						"159%",
+						"168%",
+						"180%",
+						"192%",
+						"204%",
+						"216%",
+						"228%",
+						"240%",
+						"255%",
+						"270%",
+						"285%"
+					]
+				},
+				{
+					"label": "DMG Skill",
+					"values": [
+						"132%",
+						"141.9%",
+						"151.8%",
+						"165%",
+						"174.9%",
+						"184.8%",
+						"198%",
+						"211.2%",
+						"224.4%",
+						"237.6%",
+						"250.8%",
+						"264%",
+						"280.5%",
+						"297%",
+						"313.5%"
+					]
+				},
+				{
+					"label": "Durasi",
+					"values": [
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk",
+						"6 dtk"
+					]
+				},
+				{
+					"label": "Cooldown",
+					"values": [
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk",
+						"10 dtk"
+					]
+				}
+			]
+		},
+		{
+			"id": "CelestialShower",
+			"name": "Celestial Shower",
+			"description": "Mengumpulkan es dan salju di udara untuk memanggil Sacred Cryo Pearl yang membasmi iblis.Selama durasi skill, Sacred Cryo Pearl akan terus menjatuhkan bongkahan es yang mengenai musuh dalam area dan mengakibatkan Cryo DMG.",
+			"info": "Ganyu tentunya dapat membuat hujan manis, tapi terhadap iblis dan monster, hujannya menjadi salju yang dingin dan pahit.",
+			"attributes": [
+				{
+					"label": "DMG Ice Shard",
+					"values": [
+						"70.27%",
+						"75.54%",
+						"80.81%",
+						"87.84%",
+						"93.11%",
+						"98.38%",
+						"105.41%",
+						"112.44%",
+						"119.46%",
+						"126.49%",
+						"133.52%",
+						"140.54%",
+						"149.33%",
+						"158.11%",
+						"166.9%"
+					]
+				},
+				{
+					"label": "Durasi",
+					"values": [
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk"
+					]
+				},
+				{
+					"label": "Cooldown",
+					"values": [
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk",
+						"15 dtk"
+					]
+				},
+				{
+					"label": "Konsumsi Energy",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "UndividedHeart",
+			"name": "Undivided Heart",
+			"description": "Setelah menembakkan sebuah Frostflake Arrow, meningkatkan 20% CRIT Rate dari Frostflake Arrow berikutnya serta efek ledakan yang disebabkan olehnya selama 5 detik.",
+			"level": 1
+		},
+		{
+			"id": "HarmonyBetweenHeavenAndEarth",
+			"name": "Harmony between Heaven and Earth",
+			"description": "Celestial Shower memberikan 20% Cryo DMG Bonus kepada anggota party yang berada di dalam lingkup areanya.",
+			"level": 4
+		},
+		{
+			"id": "PreservedForTheHunt",
+			"name": "Perserved for the Hunt",
+			"description": "Mengembalikan 15% jumlah Ore yang digunakan saat membuat senjata tipe Bow.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "Dewdrinker",
+			"name": "Dew-Drinker",
+			"description": "Mengurangi 15% Cryo RES musuh yang terkena Frostflake Arrow Charge Tahap 2 atau Frostflake Arrow Bloom selama 6 detik.Serangan ini juga akan memulihkan 2 Energy Ganyu. Efek pemulihan Energy terpicu maksimum 1 kali dalam 1 serangan, tak peduli musuh terkena Frostflake Arrow Charge Tahap 2 atau ledakan Frostflake Arrow Bloom.",
+			"level": 1
+		},
+		{
+			"id": "TheAuspicious",
+			"name": "The Auspicious",
+			"description": "Meningkatkan 1 charge Trail of the Qilin.",
+			"level": 2
+		},
+		{
+			"id": "Cloudstrider",
+			"name": "Cloud-Strider",
+			"description": "Meningkatkan 3 level Celestial Shower.Maksimum: Lv. 15.",
+			"level": 3
+		},
+		{
+			"id": "WestwardSojourn",
+			"name": "Westward Sojourn",
+			"description": "Meningkatkan DMG yang diterima musuh saat mereka berada di dalam area Celestial Shower. Semakin lama musuh berada di dalam area, semakin besar efek peningkatan DMG.Peningkatan DMG mula-mula 5%, dan meningkat 5% setiap 3 detik, peningkatan DMG maksimum: 25%.Efek ini bertahan selama 3 detik setelah musuh meninggalkan area.",
+			"level": 4
+		},
+		{
+			"id": "TheMerciful",
+			"name": "The Merciful",
+			"description": "Meningkatkan 3 level Trail of the Qilin.Maksimum: Lv. 15.",
+			"level": 5
+		},
+		{
+			"id": "TheClement",
+			"name": "The Clement",
+			"description": "Menggunakan Trail of the Qilin akan menyebabkan Frostflake Arrow yang ditembakkan dalam waktu 30 detik ke depan tidak memerlukan Charge.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Base HP",
+					"values": ["-", "763"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["-", "26"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["-", "49"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["-", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [0, 1]
+				},
+				{
+					"label": "Base HP",
+					"values": ["1978", "2632"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["68", "90"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["127", "169"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["50.0%", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [1, 2]
+				},
+				{
+					"label": "Base HP",
+					"values": ["3939", "4403"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["135", "151"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["253", "283"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["50.0%", "59.6%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeSliver",
+				"name": "Shivada Jade Sliver",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WhopperflowerNectar",
+				"name": "Whopperflower Nectar",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [2, 3]
+				},
+				{
+					"label": "Base HP",
+					"values": ["5066", "5686"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["173", "194"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["326", "366"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["59.6%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada Jade Fragment",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Hoarfrost Core",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WhopperflowerNectar",
+				"name": "Whopperflower Nectar",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [3, 4]
+				},
+				{
+					"label": "Base HP",
+					"values": ["6355", "6820"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["217", "233"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["409", "439"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["69.2%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada Jade Fragment",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Hoarfrost Core",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ShimmeringNectar",
+				"name": "Shimmering Nectar",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [4, 5]
+				},
+				{
+					"label": "Base HP",
+					"values": ["7495", "7960"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["256", "272"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["482", "512"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["69.2%", "78.8%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada Jade Chunk",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Hoarfrost Core",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "ShimmeringNectar",
+				"name": "Shimmering Nectar",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [5, 6]
+				},
+				{
+					"label": "Base HP",
+					"values": ["8643", "9108"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["295", "311"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["556", "586"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["78.8%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada Jade Chunk",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Hoarfrost Core",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "EnergyNectar",
+				"name": "Energy Nectar",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [6, 7]
+				},
+				{
+					"label": "Base HP",
+					"values": ["9797", "9797"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["335", "335"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["630", "630"]
+				},
+				{
+					"label": "CRIT DMG",
+					"values": ["88.4%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeGemstone",
+				"name": "Shivada Jade Gemstone",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "HoarfrostCore",
+				"name": "Hoarfrost Core",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "Qingxin",
+				"name": "Qingxin",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "EnergyNectar",
+				"name": "Energy Nectar",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfDiligence",
+					"name": "Teachings of \"Diligence\"",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Whopperflower Nectar",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guide to \"Diligence\"",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Shimmering Nectar",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guide to \"Diligence\"",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Shimmering Nectar",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guide to \"Diligence\"",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Shimmering Nectar",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Guide to \"Diligence\"",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Shimmering Nectar",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophies of \"Diligence\"",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Energy Nectar",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Shadow of the Warrior",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophies of \"Diligence\"",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Energy Nectar",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Shadow of the Warrior",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophies of \"Diligence\"",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Energy Nectar",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Shadow of the Warrior",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophies of \"Diligence\"",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Energy Nectar",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "ShadowOfTheWarrior",
+					"name": "Shadow of the Warrior",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Crown of Insight",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Ganyu/Icon.webp",
+		"sideIcon": "Character/Ganyu/SideIcon.webp",
+		"gatchaCard": "Character/Ganyu/GachaCard.webp",
+		"gachaSplash": "Character/Ganyu/GachaSplash.webp",
+		"face": "Character/Ganyu/Face.webp",
+		"halfFace": "Character/Ganyu/HalfFace.webp",
+		"profile": "Character/Ganyu/Profile.webp",
+		"weaponStance": "Character/Ganyu/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "AmosBow",
+	"specialDish": "ProsperousPeace",
+	"tcgCharacterCard": "Ganyu",
+	"outfits": [
+		{
+			"id": "FrostdewTrail",
+			"name": "Frostdew Trail",
+			"description": "Model pakaian Ganyu. Pakaian klasik Adeptus yang sudah diberkahi oleh Adeptus.",
+			"picture": "Character/Ganyu/Outfit/FrostdewTrail.webp"
+		}
+	]
 }

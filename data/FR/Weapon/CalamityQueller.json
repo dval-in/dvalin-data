@@ -1,308 +1,293 @@
 {
-    "id": "CalamityQueller",
-    "name": "\u00c9touffeur de calamit\u00e9s",
-    "description": "Une arme finement aff\u00fbt\u00e9e forg\u00e9e \u00e0 partir d'un cristal \u00e9trange. Sa faible lumi\u00e8re bleue semble chuchoter d'innombrables choses du pass\u00e9.",
-    "rarity": 5,
-    "type": "Arme d'hast",
-    "domain": "Palais secret de Lianshan",
-    "passive": "Pr\u00e9cepte d'an\u00e9antissement",
-    "bonus": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span>12 %/15 %/18 %/21 %/24 %</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span>3,2 %/4 %/4,8 %/5,6 %/6,4 %</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9.",
-    "stats": {
-        "primary": "ATQ de base",
-        "secondary": "ATQ%",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 49,
-                "secondary": 3.6
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 145,
-                "secondary": 6.4
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 176,
-                "secondary": 6.4
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 286,
-                "secondary": 9.3
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 317,
-                "secondary": 9.3
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 374,
-                "secondary": 10.7
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 406,
-                "secondary": 10.7
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 464,
-                "secondary": 12.2
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 495,
-                "secondary": 12.2
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 555,
-                "secondary": 13.6
-            },
-            {
-                "ascension": 5,
-                "level": 70,
-                "primary": 586,
-                "secondary": 13.6
-            },
-            {
-                "ascension": 5,
-                "level": 80,
-                "primary": 648,
-                "secondary": 15.1
-            },
-            {
-                "ascension": 6,
-                "level": 80,
-                "primary": 679,
-                "secondary": 15.1
-            },
-            {
-                "ascension": 6,
-                "level": 90,
-                "primary": 741,
-                "secondary": 16.5
-            }
-        ]
-    },
-    "ascensions": [
-        {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
-        },
-        {
-            "ascension": 1,
-            "level": 40,
-            "cost": 10000,
-            "materials": [
-                {
-                    "id": "MistVeiledLeadElixir",
-                    "name": "Plomb karstique",
-                    "amount": 5,
-                    "rarity": 2
-                },
-                {
-                    "id": "MistGrassPollen",
-                    "name": "Pollen d'herbe brumeuse",
-                    "amount": 5,
-                    "rarity": 2
-                },
-                {
-                    "id": "WhopperflowerNectar",
-                    "name": "Nectar de Fleur mensong\u00e8re",
-                    "amount": 3,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 2,
-            "level": 50,
-            "cost": 20000,
-            "materials": [
-                {
-                    "id": "MistVeiledMercuryElixir",
-                    "name": "Mercure karstique",
-                    "amount": 5,
-                    "rarity": 3
-                },
-                {
-                    "id": "MistGrassPollen",
-                    "name": "Pollen d'herbe brumeuse",
-                    "amount": 18,
-                    "rarity": 2
-                },
-                {
-                    "id": "WhopperflowerNectar",
-                    "name": "Nectar de Fleur mensong\u00e8re",
-                    "amount": 12,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 30000,
-            "materials": [
-                {
-                    "id": "MistVeiledMercuryElixir",
-                    "name": "Mercure karstique",
-                    "amount": 9,
-                    "rarity": 3
-                },
-                {
-                    "id": "MistGrass",
-                    "name": "Herbe brumeuse",
-                    "amount": 9,
-                    "rarity": 3
-                },
-                {
-                    "id": "ShimmeringNectar",
-                    "name": "Nectar miroitant",
-                    "amount": 9,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 45000,
-            "materials": [
-                {
-                    "id": "MistVeiledGoldElixir",
-                    "name": "Argent karstique",
-                    "amount": 5,
-                    "rarity": 4
-                },
-                {
-                    "id": "MistGrass",
-                    "name": "Herbe brumeuse",
-                    "amount": 18,
-                    "rarity": 3
-                },
-                {
-                    "id": "ShimmeringNectar",
-                    "name": "Nectar miroitant",
-                    "amount": 14,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 5,
-            "level": 80,
-            "cost": 55000,
-            "materials": [
-                {
-                    "id": "MistVeiledGoldElixir",
-                    "name": "Argent karstique",
-                    "amount": 9,
-                    "rarity": 4
-                },
-                {
-                    "id": "MistGrassWick",
-                    "name": "M\u00e8ches d'herbe brumeuse",
-                    "amount": 14,
-                    "rarity": 4
-                },
-                {
-                    "id": "EnergyNectar",
-                    "name": "Nectar \u00e9l\u00e9mentaire",
-                    "amount": 9,
-                    "rarity": 3
-                }
-            ]
-        },
-        {
-            "ascension": 6,
-            "level": 90,
-            "cost": 65000,
-            "materials": [
-                {
-                    "id": "MistVeiledPrimoElixir",
-                    "name": "Or karstique",
-                    "amount": 6,
-                    "rarity": 5
-                },
-                {
-                    "id": "MistGrassWick",
-                    "name": "M\u00e8ches d'herbe brumeuse",
-                    "amount": 27,
-                    "rarity": 4
-                },
-                {
-                    "id": "EnergyNectar",
-                    "name": "Nectar \u00e9l\u00e9mentaire",
-                    "amount": 18,
-                    "rarity": 3
-                }
-            ]
-        }
-    ],
-    "refinement_raw": {
-        "name": "Pr\u00e9cepte d'an\u00e9antissement",
-        "template": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span style=\"color:#99FFFFFF\">{0}</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span style=\"color:#99FFFFFF\">{1}</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9.",
-        "params": [
-            [
-                "12 %",
-                "3,2 %"
-            ],
-            [
-                "15 %",
-                "4 %"
-            ],
-            [
-                "18 %",
-                "4,8 %"
-            ],
-            [
-                "21 %",
-                "5,6 %"
-            ],
-            [
-                "24 %",
-                "6,4 %"
-            ]
-        ]
-    },
-    "refinements": [
-        {
-            "refinement": 1,
-            "desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span>12 %</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span>3,2 %</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
-        },
-        {
-            "refinement": 2,
-            "desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span>15 %</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span>4 %</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
-        },
-        {
-            "refinement": 3,
-            "desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span>18 %</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span>4,8 %</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
-        },
-        {
-            "refinement": 4,
-            "desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span>21 %</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span>5,6 %</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
-        },
-        {
-            "refinement": 5,
-            "desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span>24 %</span>. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span>6,4 %</span> toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
-        }
-    ],
-    "pictures": {
-        "icon": "Weapon/CalamityQueller/Icon.webp"
-    }
+	"id": "CalamityQueller",
+	"name": "\u00c9touffeur de calamit\u00e9s",
+	"description": "Une arme finement aff\u00fbt\u00e9e forg\u00e9e \u00e0 partir d'un cristal \u00e9trange. Sa faible lumi\u00e8re bleue semble chuchoter d'innombrables choses du pass\u00e9.",
+	"rarity": 5,
+	"type": "Arme d'hast",
+	"domain": "Palais secret de Lianshan",
+	"passive": "Pr\u00e9cepte d'an\u00e9antissement",
+	"bonus": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de 12 %/15 %/18 %/21 %/24 %. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de 3,2 %/4 %/4,8 %/5,6 %/6,4 % toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9.",
+	"stats": {
+		"primary": "ATQ de base",
+		"secondary": "ATQ%",
+		"levels": [
+			{
+				"ascension": 0,
+				"level": 1,
+				"primary": 49,
+				"secondary": 3.6
+			},
+			{
+				"ascension": 0,
+				"level": 20,
+				"primary": 145,
+				"secondary": 6.4
+			},
+			{
+				"ascension": 1,
+				"level": 20,
+				"primary": 176,
+				"secondary": 6.4
+			},
+			{
+				"ascension": 1,
+				"level": 40,
+				"primary": 286,
+				"secondary": 9.3
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"primary": 317,
+				"secondary": 9.3
+			},
+			{
+				"ascension": 2,
+				"level": 50,
+				"primary": 374,
+				"secondary": 10.7
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"primary": 406,
+				"secondary": 10.7
+			},
+			{
+				"ascension": 3,
+				"level": 60,
+				"primary": 464,
+				"secondary": 12.2
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"primary": 495,
+				"secondary": 12.2
+			},
+			{
+				"ascension": 4,
+				"level": 70,
+				"primary": 555,
+				"secondary": 13.6
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"primary": 586,
+				"secondary": 13.6
+			},
+			{
+				"ascension": 5,
+				"level": 80,
+				"primary": 648,
+				"secondary": 15.1
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"primary": 679,
+				"secondary": 15.1
+			},
+			{
+				"ascension": 6,
+				"level": 90,
+				"primary": 741,
+				"secondary": 16.5
+			}
+		]
+	},
+	"ascensions": [
+		{
+			"ascension": 0,
+			"level": 20,
+			"materials": []
+		},
+		{
+			"ascension": 1,
+			"level": 40,
+			"cost": 10000,
+			"materials": [
+				{
+					"id": "MistVeiledLeadElixir",
+					"name": "Plomb karstique",
+					"amount": 5,
+					"rarity": 2
+				},
+				{
+					"id": "MistGrassPollen",
+					"name": "Pollen d'herbe brumeuse",
+					"amount": 5,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Nectar de Fleur mensong\u00e8re",
+					"amount": 3,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 2,
+			"level": 50,
+			"cost": 20000,
+			"materials": [
+				{
+					"id": "MistVeiledMercuryElixir",
+					"name": "Mercure karstique",
+					"amount": 5,
+					"rarity": 3
+				},
+				{
+					"id": "MistGrassPollen",
+					"name": "Pollen d'herbe brumeuse",
+					"amount": 18,
+					"rarity": 2
+				},
+				{
+					"id": "WhopperflowerNectar",
+					"name": "Nectar de Fleur mensong\u00e8re",
+					"amount": 12,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 3,
+			"level": 60,
+			"cost": 30000,
+			"materials": [
+				{
+					"id": "MistVeiledMercuryElixir",
+					"name": "Mercure karstique",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "MistGrass",
+					"name": "Herbe brumeuse",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Nectar miroitant",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 4,
+			"level": 70,
+			"cost": 45000,
+			"materials": [
+				{
+					"id": "MistVeiledGoldElixir",
+					"name": "Argent karstique",
+					"amount": 5,
+					"rarity": 4
+				},
+				{
+					"id": "MistGrass",
+					"name": "Herbe brumeuse",
+					"amount": 18,
+					"rarity": 3
+				},
+				{
+					"id": "ShimmeringNectar",
+					"name": "Nectar miroitant",
+					"amount": 14,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 5,
+			"level": 80,
+			"cost": 55000,
+			"materials": [
+				{
+					"id": "MistVeiledGoldElixir",
+					"name": "Argent karstique",
+					"amount": 9,
+					"rarity": 4
+				},
+				{
+					"id": "MistGrassWick",
+					"name": "M\u00e8ches d'herbe brumeuse",
+					"amount": 14,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Nectar \u00e9l\u00e9mentaire",
+					"amount": 9,
+					"rarity": 3
+				}
+			]
+		},
+		{
+			"ascension": 6,
+			"level": 90,
+			"cost": 65000,
+			"materials": [
+				{
+					"id": "MistVeiledPrimoElixir",
+					"name": "Or karstique",
+					"amount": 6,
+					"rarity": 5
+				},
+				{
+					"id": "MistGrassWick",
+					"name": "M\u00e8ches d'herbe brumeuse",
+					"amount": 27,
+					"rarity": 4
+				},
+				{
+					"id": "EnergyNectar",
+					"name": "Nectar \u00e9l\u00e9mentaire",
+					"amount": 18,
+					"rarity": 3
+				}
+			]
+		}
+	],
+	"refinement_raw": {
+		"name": "Pr\u00e9cepte d'an\u00e9antissement",
+		"template": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de <span style=\"color:#99FFFFFF\">{0}. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de <span style=\"color:#99FFFFFF\">{1} toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9.",
+		"params": [
+			["12 %", "3,2 %"],
+			["15 %", "4 %"],
+			["18 %", "4,8 %"],
+			["21 %", "5,6 %"],
+			["24 %", "6,4 %"]
+		]
+	},
+	"refinements": [
+		{
+			"refinement": 1,
+			"desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de 12 %. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de 3,2 % toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
+		},
+		{
+			"refinement": 2,
+			"desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de 15 %. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de 4 % toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
+		},
+		{
+			"refinement": 3,
+			"desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de 18 %. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de 4,8 % toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
+		},
+		{
+			"refinement": 4,
+			"desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de 21 %. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de 5,6 % toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
+		},
+		{
+			"refinement": 5,
+			"desc": "Conf\u00e8re un bonus de DGT \u00e9l\u00e9mentaires de 24 %. Apr\u00e8s l'utilisation d'une comp\u00e9tence \u00e9l\u00e9mentaire, accorde 20 s d'Ach\u00e8vement, augmentant l'ATQ de 6,4 % toutes les secondes. Ce bonus d'ATQ peut \u00eatre cumul\u00e9 6 fois maximum. Lorsque le personnage \u00e9quip\u00e9 de cette arme fait partie de l'\u00e9quipe mais n'est pas d\u00e9ploy\u00e9, le bonus d'ATQ de l'Ach\u00e8vement est doubl\u00e9."
+		}
+	],
+	"pictures": {
+		"icon": "Weapon/CalamityQueller/Icon.webp"
+	}
 }
