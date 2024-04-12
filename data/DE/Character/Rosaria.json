@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackSpearOfTheChurch",
 			"name": "Standardangriff: Speer der Kathedrale",
-			"description": "<span>Standardangriff</span><br/>Führt bis zu 5 Lanzenstiche hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+			"description": "StandardangriffFührt bis zu 5 Lanzenstiche hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
 			"info": "",
 			"attributes": [
 				{
@@ -211,7 +211,7 @@
 		{
 			"id": "RavagingConfession",
 			"name": "Erschütterndes Geständnis",
-			"description": "Rosaria bewegt sich mit hoher Geschwindigkeit hinter ihr Ziel, sticht mit ihrer Waffe zu und schwingt sie und verursacht <span>Kryo-Schaden</span>.<br/>Es ist nicht möglich, mit dieser Fähigkeit hinter größere Gegner zu gelangen.",
+			"description": "Rosaria bewegt sich mit hoher Geschwindigkeit hinter ihr Ziel, sticht mit ihrer Waffe zu und schwingt sie und verursacht Kryo-Schaden.Es ist nicht möglich, mit dieser Fähigkeit hinter größere Gegner zu gelangen.",
 			"info": "Diejenigen, die Schwester Rosaria ihre Sünden gestehen, erhalten keine Absolution. Alle Sünder werden stattdessen mit einer strafenden Kälte konfrontiert, die dem Gewicht ihrer Sünden entspricht.",
 			"attributes": [
 				{
@@ -259,7 +259,7 @@
 		{
 			"id": "RitesOfTermination",
 			"name": "Letzte Salbung",
-			"description": "Dies ist Rosarias besonderes Gebetsritual. Zunächst fegt sie mit ihrer Waffe die Gegner neben ihr fort und konzentriert eisige Kälte direkt vor ihr, womit sie jeweils <span>Kryo-Schaden</span> verursacht.<br/>Während der Wirkungsdauer der Eislanze wird in gleichmäßigen Abständen Kälte freigegeben, die Gegnern in der Nähe <span>Kryo-Schaden</span> zufügt.",
+			"description": "Dies ist Rosarias besonderes Gebetsritual. Zunächst fegt sie mit ihrer Waffe die Gegner neben ihr fort und konzentriert eisige Kälte direkt vor ihr, womit sie jeweils Kryo-Schaden verursacht.Während der Wirkungsdauer der Eislanze wird in gleichmäßigen Abständen Kälte freigegeben, die Gegnern in der Nähe Kryo-Schaden zufügt.",
 			"info": "Das Fällen eines Urteils ist mühsam. Doch viel einfacher ist es, direkt zum letzten Gebet zu springen. Rosaria war dem Anemo-Archon sowieso nie sehr ergeben, weshalb ihr das Ganze noch leichter fällt.",
 			"attributes": [
 				{
@@ -344,23 +344,7 @@
 				},
 				{
 					"label": "Elementarenergie",
-					"values": [
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60"
-					]
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
 				}
 			]
 		}
@@ -369,19 +353,19 @@
 		{
 			"id": "ReginaProbationum",
 			"name": "Schatten der Beichte",
-			"description": "Erhöht Rosarias KT bei Angriffen von Gegnern mit <span>Erschütterndes Geständnis</span> von hinten 5 s lang um 12 %.",
+			"description": "Erhöht Rosarias KT bei Angriffen von Gegnern mit Erschütterndes Geständnis von hinten 5 s lang um 12 %.",
 			"level": 1
 		},
 		{
 			"id": "ShadowSamaritan",
 			"name": "Beistand aus der Dunkelheit",
-			"description": "Erhöht die KT aller Truppenmitglieder in der Nähe (außer Rosarias selbst) bei Anwendung von <span>Letzte Salbung</span> 10 s lang um 15 % ihrer eigenen KT.<br/>Die KT können auf diese Weise nicht um mehr als 15 % erhöht werden.",
+			"description": "Erhöht die KT aller Truppenmitglieder in der Nähe (außer Rosarias selbst) bei Anwendung von Letzte Salbung 10 s lang um 15 % ihrer eigenen KT.Die KT können auf diese Weise nicht um mehr als 15 % erhöht werden.",
 			"level": 4
 		},
 		{
 			"id": "NightWalk",
 			"name": "Nachtwanderin",
-			"description": "Verleiht den eigenen Figuren in der Truppe nachts (18 bis 6 Uhr) den Effekt „Schneller Schritt“: Erhöht die Bewegungs-GSW um 10 %.<br/>Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund und ist nicht stapelbar.",
+			"description": "Verleiht den eigenen Figuren in der Truppe nachts (18 bis 6 Uhr) den Effekt „Schneller Schritt“: Erhöht die Bewegungs-GSW um 10 %.Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund und ist nicht stapelbar.",
 			"level": 0
 		}
 	],
@@ -395,159 +379,108 @@
 		{
 			"id": "LandWithoutPromise",
 			"name": "Land des Unheils",
-			"description": "Verlängert die Wirkungsdauer der mit <span>Letzte Salbung</span> erschaffenen Eislanze um 4 s.",
+			"description": "Verlängert die Wirkungsdauer der mit Letzte Salbung erschaffenen Eislanze um 4 s.",
 			"level": 2
 		},
 		{
 			"id": "TheWagesOfSin",
 			"name": "Beichtritual",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Erschütterndes Geständnis</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Erschütterndes Geständnis um 3.Höchststufe 15.",
 			"level": 3
 		},
 		{
 			"id": "PainfulGrace",
 			"name": "Bittere Gnade",
-			"description": "Stellt Rosaria beim Auslösen eines KT mit <span>Erschütterndes Geständnis</span> 5 punkte Elementarenergie wieder her.<br/>Dieser Effekt kann pro Erschütterndes Geständnis nur 1-mal ausgelöst werden.",
+			"description": "Stellt Rosaria beim Auslösen eines KT mit Erschütterndes Geständnis 5 punkte Elementarenergie wieder her.Dieser Effekt kann pro Erschütterndes Geständnis nur 1-mal ausgelöst werden.",
 			"level": 4
 		},
 		{
 			"id": "LastRites",
 			"name": "Letztes Gebet",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Letzte Salbung</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Letzte Salbung um 3.Höchststufe 15.",
 			"level": 5
 		},
 		{
 			"id": "DivineRetribution",
 			"name": "Im Namen der Götter",
-			"description": "Verringert mit den Angriffen von <span>Letzte Salbung</span> den physischen WDS von Gegnern 10 s lang um 20 %.",
+			"description": "Verringert mit den Angriffen von Letzte Salbung den physischen WDS von Gegnern 10 s lang um 20 %.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"-",
-						"1030"
-					]
+					"values": ["-", "1030"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"-",
-						"20"
-					]
+					"values": ["-", "20"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"-",
-						"60"
-					]
+					"values": ["-", "60"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"-",
-						"0.0%"
-					]
+					"values": ["-", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"2647",
-						"3417"
-					]
+					"values": ["2647", "3417"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"52",
-						"67"
-					]
+					"values": ["52", "67"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"153",
-						"197"
-					]
+					"values": ["153", "197"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
+					"values": ["0.0%", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"5118",
-						"5665"
-					]
+					"values": ["5118", "5665"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"100",
-						"111"
-					]
+					"values": ["100", "111"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"296",
-						"327"
-					]
+					"values": ["296", "327"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"0.0%",
-						"6.0%"
-					]
+					"values": ["0.0%", "6.0%"]
 				}
 			],
 			"mat1": {
@@ -570,45 +503,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"6516",
-						"7245"
-					]
+					"values": ["6516", "7245"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"127",
-						"141"
-					]
+					"values": ["127", "141"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"376",
-						"418"
-					]
+					"values": ["376", "418"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"6.0%",
-						"12.0%"
-					]
+					"values": ["6.0%", "12.0%"]
 				}
 			],
 			"mat1": {
@@ -637,45 +553,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"8096",
-						"8643"
-					]
+					"values": ["8096", "8643"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"158",
-						"169"
-					]
+					"values": ["158", "169"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"468",
-						"499"
-					]
+					"values": ["468", "499"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"12.0%",
-						"12.0%"
-					]
+					"values": ["12.0%", "12.0%"]
 				}
 			],
 			"mat1": {
@@ -704,45 +603,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"9493",
-						"10040"
-					]
+					"values": ["9493", "10040"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"185",
-						"196"
-					]
+					"values": ["185", "196"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"548",
-						"580"
-					]
+					"values": ["548", "580"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"12.0%",
-						"18.0%"
-					]
+					"values": ["12.0%", "18.0%"]
 				}
 			],
 			"mat1": {
@@ -771,45 +653,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"10891",
-						"11438"
-					]
+					"values": ["10891", "11438"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"213",
-						"223"
-					]
+					"values": ["213", "223"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"629",
-						"661"
-					]
+					"values": ["629", "661"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"18.0%",
-						"24.0%"
-					]
+					"values": ["18.0%", "24.0%"]
 				}
 			],
 			"mat1": {
@@ -838,45 +703,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"12289",
-						"12289"
-					]
+					"values": ["12289", "12289"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"240",
-						"240"
-					]
+					"values": ["240", "240"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"710",
-						"710"
-					]
+					"values": ["710", "710"]
 				},
 				{
 					"label": "ANG%",
-					"values": [
-						"24.0%",
-						"24.0%"
-					]
+					"values": ["24.0%", "24.0%"]
 				}
 			],
 			"mat1": {

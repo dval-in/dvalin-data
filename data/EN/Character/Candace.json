@@ -1,1205 +1,973 @@
 {
-  "id": "Candace",
-  "name": "Candace",
-  "title": "Golden Vow",
-  "description": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
-  "weaponType": "Polearm",
-  "element": "Hydro",
-  "gender": "Female",
-  "substat": "HP%",
-  "affiliation": "Aaru Village",
-  "region": "Sumeru",
-  "rarity": 4,
-  "birthday": "3/5",
-  "constellation": "Sagitta Scutum",
-  "domain": "Steeple of Ignorance",
-  "cv": {
-    "english": "Shara Kirby",
-    "chinese": "张琦",
-    "japanese": "柚木涼香",
-    "korean": "Jun Young-soo"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackGleamingSpearGuardianStance",
-      "name": "Normal Attack: Gleaming Spear - Guardian Stance",
-      "description": "<span>Normal Attack</span><br/>Performs up to 4 consecutive spear strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "1-Hit DMG",
-          "values": [
-            "60.8%",
-            "65.75%",
-            "70.7%",
-            "77.77%",
-            "82.72%",
-            "88.38%",
-            "96.15%",
-            "103.93%",
-            "111.71%",
-            "120.19%",
-            "128.67%",
-            "137.16%",
-            "145.64%",
-            "154.13%",
-            "162.61%"
-          ]
-        },
-        {
-          "label": "2-Hit DMG",
-          "values": [
-            "61.15%",
-            "66.12%",
-            "71.1%",
-            "78.21%",
-            "83.19%",
-            "88.88%",
-            "96.7%",
-            "104.52%",
-            "112.34%",
-            "120.87%",
-            "129.4%",
-            "137.93%",
-            "146.47%",
-            "155%",
-            "163.53%"
-          ]
-        },
-        {
-          "label": "3-Hit DMG",
-          "values": [
-            "35.49% + 43.37%",
-            "38.38% + 46.9%",
-            "41.26% + 50.44%",
-            "45.39% + 55.48%",
-            "48.28% + 59.01%",
-            "51.58% + 63.04%",
-            "56.12% + 68.59%",
-            "60.66% + 74.14%",
-            "65.2% + 79.69%",
-            "70.15% + 85.74%",
-            "75.1% + 91.79%",
-            "80.05% + 97.84%",
-            "85.01% + 103.9%",
-            "89.96% + 109.95%",
-            "94.91% + 116%"
-          ]
-        },
-        {
-          "label": "4-Hit DMG",
-          "values": [
-            "94.94%",
-            "102.67%",
-            "110.4%",
-            "121.44%",
-            "129.17%",
-            "138%",
-            "150.14%",
-            "162.29%",
-            "174.43%",
-            "187.68%",
-            "200.93%",
-            "214.18%",
-            "227.42%",
-            "240.67%",
-            "253.92%"
-          ]
-        },
-        {
-          "label": "Charged Attack DMG",
-          "values": [
-            "124.18%",
-            "134.29%",
-            "144.4%",
-            "158.84%",
-            "168.95%",
-            "180.5%",
-            "196.38%",
-            "212.27%",
-            "228.15%",
-            "245.48%",
-            "262.81%",
-            "280.14%",
-            "297.46%",
-            "314.79%",
-            "332.12%"
-          ]
-        },
-        {
-          "label": "Charged Attack Stamina Cost",
-          "values": [
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25",
-            "25"
-          ]
-        },
-        {
-          "label": "Plunge DMG",
-          "values": [
-            "63.93%",
-            "69.14%",
-            "74.34%",
-            "81.77%",
-            "86.98%",
-            "92.93%",
-            "101.1%",
-            "109.28%",
-            "117.46%",
-            "126.38%",
-            "135.3%",
-            "144.22%",
-            "153.14%",
-            "162.06%",
-            "170.98%"
-          ]
-        },
-        {
-          "label": "Low/High Plunge DMG",
-          "values": [
-            "127.84% / 159.68%",
-            "138.24% / 172.67%",
-            "148.65% / 185.67%",
-            "163.51% / 204.24%",
-            "173.92% / 217.23%",
-            "185.81% / 232.09%",
-            "202.16% / 252.51%",
-            "218.51% / 272.93%",
-            "234.86% / 293.36%",
-            "252.7% / 315.64%",
-            "270.54% / 337.92%",
-            "288.38% / 360.2%",
-            "306.22% / 382.48%",
-            "324.05% / 404.76%",
-            "341.89% / 427.04%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "SacredRiteHeronsSanctum",
-      "name": "Sacred Rite: Heron's Sanctum",
-      "description": "Candace's fighting style is capable of warding off an entire tide of foes.<br/><br/><span>Tap</span><br/>Rushes forward with her shield, dealing <span>Hydro DMG</span> to opponents in front of her.<br/><br/><span>Hold</span><br/>Raises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs <span>Hydro DMG</span> 250% more effectively. This barrier lasts until the Elemental Skill is unleashed.<br/>After holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals <span>Hydro DMG</span> to opponents in front of her.",
-      "info": "The oath of the guardians is more stalwart yet than the shields they inherit.",
-      "attributes": [
-        {
-          "label": "Shield DMG Absorption",
-          "values": [
-            "12% Max HP + 1156",
-            "12.9% Max HP + 1271",
-            "13.8% Max HP + 1396",
-            "15% Max HP + 1531",
-            "15.9% Max HP + 1676",
-            "16.8% Max HP + 1830",
-            "18% Max HP + 1993",
-            "19.2% Max HP + 2167",
-            "20.4% Max HP + 2350",
-            "21.6% Max HP + 2542",
-            "22.8% Max HP + 2745",
-            "24% Max HP + 2957",
-            "25.5% Max HP + 3178",
-            "27% Max HP + 3409",
-            "28.5% Max HP + 3650"
-          ]
-        },
-        {
-          "label": "Basic DMG",
-          "values": [
-            "12% Max HP",
-            "12.9% Max HP",
-            "13.8% Max HP",
-            "15% Max HP",
-            "15.9% Max HP",
-            "16.8% Max HP",
-            "18% Max HP",
-            "19.2% Max HP",
-            "20.4% Max HP",
-            "21.6% Max HP",
-            "22.8% Max HP",
-            "24% Max HP",
-            "25.5% Max HP",
-            "27% Max HP",
-            "28.5% Max HP"
-          ]
-        },
-        {
-          "label": "Charged Up DMG",
-          "values": [
-            "19.04% Max HP",
-            "20.47% Max HP",
-            "21.9% Max HP",
-            "23.8% Max HP",
-            "25.23% Max HP",
-            "26.66% Max HP",
-            "28.56% Max HP",
-            "30.46% Max HP",
-            "32.37% Max HP",
-            "34.27% Max HP",
-            "36.18% Max HP",
-            "38.08% Max HP",
-            "40.46% Max HP",
-            "42.84% Max HP",
-            "45.22% Max HP"
-          ]
-        },
-        {
-          "label": "Press CD",
-          "values": [
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s",
-            "6s"
-          ]
-        },
-        {
-          "label": "Hold CD",
-          "values": [
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "SacredRiteWagtailsTide",
-      "name": "Sacred Rite: Wagtail's Tide",
-      "description": "Raising her weapon on high, Candace calls upon a divine blessing that deals <span>AoE Hydro DMG</span> based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.<br/><br/><span>Prayer of the Crimson Crown</span><br/>This effect has the following properties:<br/>·Characters deal increased Elemental DMG with their Normal Attacks.<br/>·Whenever a character takes the field, they will unleash a rippling wave of water that deals <span>Hydro DMG</span> to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.<br/>·Sword, Claymore, and Polearm-wielding characters under this effect will obtain a <span>Hydro Infusion</span>.",
-      "info": "This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.",
-      "attributes": [
-        {
-          "label": "Skill DMG",
-          "values": [
-            "6.61% Max HP",
-            "7.11% Max HP",
-            "7.6% Max HP",
-            "8.26% Max HP",
-            "8.76% Max HP",
-            "9.25% Max HP",
-            "9.92% Max HP",
-            "10.58% Max HP",
-            "11.24% Max HP",
-            "11.9% Max HP",
-            "12.56% Max HP",
-            "13.22% Max HP",
-            "14.05% Max HP",
-            "14.87% Max HP",
-            "15.7% Max HP"
-          ]
-        },
-        {
-          "label": "Duration",
-          "values": [
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s",
-            "9s"
-          ]
-        },
-        {
-          "label": "DMG Bonus",
-          "values": [
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%",
-            "20%"
-          ]
-        },
-        {
-          "label": "Wave Impact DMG",
-          "values": [
-            "6.61% Max HP",
-            "7.11% Max HP",
-            "7.6% Max HP",
-            "8.26% Max HP",
-            "8.76% Max HP",
-            "9.25% Max HP",
-            "9.92% Max HP",
-            "10.58% Max HP",
-            "11.24% Max HP",
-            "11.9% Max HP",
-            "12.56% Max HP",
-            "13.22% Max HP",
-            "14.05% Max HP",
-            "14.87% Max HP",
-            "15.7% Max HP"
-          ]
-        },
-        {
-          "label": "Wave Instances",
-          "values": [
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3",
-            "3"
-          ]
-        },
-        {
-          "label": "CD",
-          "values": [
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s"
-          ]
-        },
-        {
-          "label": "Energy Cost",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "AegisOfCrossedArrows",
-      "name": "Aegis of Crossed Arrows",
-      "description": "If Candace is hit by an attack in the Hold duration of <span>Sacred Rite: Heron's Sanctum</span>, that skill will finish charging instantly.",
-      "level": 1
-    },
-    {
-      "id": "CelestialDomeOfSand",
-      "name": "Celestial Dome of Sand",
-      "description": "Characters affected by the Prayer of the Crimson Crown caused by <span>Sacred Rite: Wagtail's Tide</span> will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
-      "level": 4
-    },
-    {
-      "id": "ToDawnsFirstLight",
-      "name": "To Dawn's First Light",
-      "description": "Decreases climbing Stamina consumption for your own party members by 20%.<br/>Not stackable with Passive Talents that provide the exact same effects.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "ReturningHeiressOfTheScarletSands",
-      "name": "Returning Heiress of the Scarlet Sands",
-      "description": "The duration of Prayer of the Crimson Crown effect triggered by <span>Sacred Rite: Wagtail's Tide</span> is increased by 3s.",
-      "level": 1
-    },
-    {
-      "id": "MoonpiercingBrilliance",
-      "name": "Moon-Piercing Brilliance",
-      "description": "When <span>Sacred Rite: Heron's Sanctum</span> hits opponents, Candace's Max HP will be increased by 20% for 15s.",
-      "level": 2
-    },
-    {
-      "id": "HuntersSupplication",
-      "name": "Hunter's Supplication",
-      "description": "Increases the Level of <span>Sacred Rite: Wagtail's Tide</span> by 3.<br/>Maximum upgrade level is 15.",
-      "level": 3
-    },
-    {
-      "id": "SentinelOath",
-      "name": "Sentinel Oath",
-      "description": "Shortens the Hold CD of <span>Sacred Rite: Heron's Sanctum</span> to be the same as that of the Tapping CD.",
-      "level": 4
-    },
-    {
-      "id": "HeterochromaticGaze",
-      "name": "Heterochromatic Gaze",
-      "description": "Increases the Level of <span>Sacred Rite: Heron's Sanctum</span> by 3.<br/>Maximum upgrade level is 15.",
-      "level": 5
-    },
-    {
-      "id": "TheOverflow",
-      "name": "The Overflow",
-      "description": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by <span>Sacred Rite: Wagtail's Tide</span> deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals <span>AoE Hydro DMG</span> equal to 15% of Candace's Max HP.<br/>This effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "-",
-            "912"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "-",
-            "18"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "-",
-            "57"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "-",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "2342",
-            "3024"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "46",
-            "59"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "147",
-            "190"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "0.0%",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "4529",
-            "5013"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "88",
-            "98"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "284",
-            "315"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "0.0%",
-            "6.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteSliver",
-        "name": "Varunada Lazurite Sliver",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "HennaBerry",
-        "name": "Henna Berry",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "FadedRedSatin",
-        "name": "Faded Red Satin",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "5766",
-            "6411"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "113",
-            "125"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "362",
-            "402"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "6.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteFragment",
-        "name": "Varunada Lazurite Fragment",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "LightGuidingTetrahedron",
-        "name": "Light Guiding Tetrahedron",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "HennaBerry",
-        "name": "Henna Berry",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "FadedRedSatin",
-        "name": "Faded Red Satin",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "7164",
-            "7648"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "140",
-            "149"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "450",
-            "480"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "12.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteFragment",
-        "name": "Varunada Lazurite Fragment",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "LightGuidingTetrahedron",
-        "name": "Light Guiding Tetrahedron",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "HennaBerry",
-        "name": "Henna Berry",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "TrimmedRedSilk",
-        "name": "Trimmed Red Silk",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "8401",
-            "8885"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "164",
-            "174"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "527",
-            "558"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "12.0%",
-            "18.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteChunk",
-        "name": "Varunada Lazurite Chunk",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "LightGuidingTetrahedron",
-        "name": "Light Guiding Tetrahedron",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "HennaBerry",
-        "name": "Henna Berry",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "TrimmedRedSilk",
-        "name": "Trimmed Red Silk",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "9638",
-            "10122"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "188",
-            "198"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "605",
-            "635"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "18.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteChunk",
-        "name": "Varunada Lazurite Chunk",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "LightGuidingTetrahedron",
-        "name": "Light Guiding Tetrahedron",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "HennaBerry",
-        "name": "Henna Berry",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "RichRedBrocade",
-        "name": "Rich Red Brocade",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "10875",
-            "10875"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "212",
-            "212"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "683",
-            "683"
-          ]
-        },
-        {
-          "label": "HP%",
-          "values": [
-            "24.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "VarunadaLazuriteGemstone",
-        "name": "Varunada Lazurite Gemstone",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "LightGuidingTetrahedron",
-        "name": "Light Guiding Tetrahedron",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "HennaBerry",
-        "name": "Henna Berry",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "RichRedBrocade",
-        "name": "Rich Red Brocade",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfAdmonition",
-          "name": "Teachings of Admonition",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "FadedRedSatin",
-          "name": "Faded Red Satin",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToAdmonition",
-          "name": "Guide to Admonition",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "TrimmedRedSilk",
-          "name": "Trimmed Red Silk",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToAdmonition",
-          "name": "Guide to Admonition",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "TrimmedRedSilk",
-          "name": "Trimmed Red Silk",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToAdmonition",
-          "name": "Guide to Admonition",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "TrimmedRedSilk",
-          "name": "Trimmed Red Silk",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToAdmonition",
-          "name": "Guide to Admonition",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "TrimmedRedSilk",
-          "name": "Trimmed Red Silk",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfAdmonition",
-          "name": "Philosophies of Admonition",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "RichRedBrocade",
-          "name": "Rich Red Brocade",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "TearsOfTheCalamitousGod",
-          "name": "Tears of the Calamitous God",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfAdmonition",
-          "name": "Philosophies of Admonition",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "RichRedBrocade",
-          "name": "Rich Red Brocade",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "TearsOfTheCalamitousGod",
-          "name": "Tears of the Calamitous God",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfAdmonition",
-          "name": "Philosophies of Admonition",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "RichRedBrocade",
-          "name": "Rich Red Brocade",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "TearsOfTheCalamitousGod",
-          "name": "Tears of the Calamitous God",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfAdmonition",
-          "name": "Philosophies of Admonition",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "RichRedBrocade",
-          "name": "Rich Red Brocade",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "TearsOfTheCalamitousGod",
-          "name": "Tears of the Calamitous God",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Crown of Insight",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Candace/Icon.webp",
-    "sideIcon": "Character/Candace/SideIcon.webp",
-    "gatchaCard": "Character/Candace/GachaCard.webp",
-    "gachaSplash": "Character/Candace/GachaSplash.webp",
-    "face": "Character/Candace/Face.webp",
-    "halfFace": "Character/Candace/HalfFace.webp",
-    "profile": "Character/Candace/Profile.webp",
-    "weaponStance": "Character/Candace/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "StaffOfTheScarletSands",
-  "specialDish": "UtmostCare",
-  "tcgCharacterCard": "Candace",
-  "outfits": [
-    {
-      "id": "DesertAndNight",
-      "name": "Desert and Night",
-      "description": "Candace's outfit. No matter where she goes, the golden sands and the nights of her homeland that adorn her clothes go together with her.",
-      "picture": "Character/Candace/Outfit/DesertAndNight.webp"
-    }
-  ]
+	"id": "Candace",
+	"name": "Candace",
+	"title": "Golden Vow",
+	"description": "A descendant of King Deshret with an amber left eye. The defender of Aaru Village.",
+	"weaponType": "Polearm",
+	"element": "Hydro",
+	"gender": "Female",
+	"substat": "HP%",
+	"affiliation": "Aaru Village",
+	"region": "Sumeru",
+	"rarity": 4,
+	"birthday": "3/5",
+	"constellation": "Sagitta Scutum",
+	"domain": "Steeple of Ignorance",
+	"cv": {
+		"english": "Shara Kirby",
+		"chinese": "张琦",
+		"japanese": "柚木涼香",
+		"korean": "Jun Young-soo"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackGleamingSpearGuardianStance",
+			"name": "Normal Attack: Gleaming Spear - Guardian Stance",
+			"description": "Normal AttackPerforms up to 4 consecutive spear strikes.Charged AttackConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "1-Hit DMG",
+					"values": [
+						"60.8%",
+						"65.75%",
+						"70.7%",
+						"77.77%",
+						"82.72%",
+						"88.38%",
+						"96.15%",
+						"103.93%",
+						"111.71%",
+						"120.19%",
+						"128.67%",
+						"137.16%",
+						"145.64%",
+						"154.13%",
+						"162.61%"
+					]
+				},
+				{
+					"label": "2-Hit DMG",
+					"values": [
+						"61.15%",
+						"66.12%",
+						"71.1%",
+						"78.21%",
+						"83.19%",
+						"88.88%",
+						"96.7%",
+						"104.52%",
+						"112.34%",
+						"120.87%",
+						"129.4%",
+						"137.93%",
+						"146.47%",
+						"155%",
+						"163.53%"
+					]
+				},
+				{
+					"label": "3-Hit DMG",
+					"values": [
+						"35.49% + 43.37%",
+						"38.38% + 46.9%",
+						"41.26% + 50.44%",
+						"45.39% + 55.48%",
+						"48.28% + 59.01%",
+						"51.58% + 63.04%",
+						"56.12% + 68.59%",
+						"60.66% + 74.14%",
+						"65.2% + 79.69%",
+						"70.15% + 85.74%",
+						"75.1% + 91.79%",
+						"80.05% + 97.84%",
+						"85.01% + 103.9%",
+						"89.96% + 109.95%",
+						"94.91% + 116%"
+					]
+				},
+				{
+					"label": "4-Hit DMG",
+					"values": [
+						"94.94%",
+						"102.67%",
+						"110.4%",
+						"121.44%",
+						"129.17%",
+						"138%",
+						"150.14%",
+						"162.29%",
+						"174.43%",
+						"187.68%",
+						"200.93%",
+						"214.18%",
+						"227.42%",
+						"240.67%",
+						"253.92%"
+					]
+				},
+				{
+					"label": "Charged Attack DMG",
+					"values": [
+						"124.18%",
+						"134.29%",
+						"144.4%",
+						"158.84%",
+						"168.95%",
+						"180.5%",
+						"196.38%",
+						"212.27%",
+						"228.15%",
+						"245.48%",
+						"262.81%",
+						"280.14%",
+						"297.46%",
+						"314.79%",
+						"332.12%"
+					]
+				},
+				{
+					"label": "Charged Attack Stamina Cost",
+					"values": ["25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25"]
+				},
+				{
+					"label": "Plunge DMG",
+					"values": [
+						"63.93%",
+						"69.14%",
+						"74.34%",
+						"81.77%",
+						"86.98%",
+						"92.93%",
+						"101.1%",
+						"109.28%",
+						"117.46%",
+						"126.38%",
+						"135.3%",
+						"144.22%",
+						"153.14%",
+						"162.06%",
+						"170.98%"
+					]
+				},
+				{
+					"label": "Low/High Plunge DMG",
+					"values": [
+						"127.84% / 159.68%",
+						"138.24% / 172.67%",
+						"148.65% / 185.67%",
+						"163.51% / 204.24%",
+						"173.92% / 217.23%",
+						"185.81% / 232.09%",
+						"202.16% / 252.51%",
+						"218.51% / 272.93%",
+						"234.86% / 293.36%",
+						"252.7% / 315.64%",
+						"270.54% / 337.92%",
+						"288.38% / 360.2%",
+						"306.22% / 382.48%",
+						"324.05% / 404.76%",
+						"341.89% / 427.04%"
+					]
+				}
+			]
+		},
+		{
+			"id": "SacredRiteHeronsSanctum",
+			"name": "Sacred Rite: Heron's Sanctum",
+			"description": "Candace's fighting style is capable of warding off an entire tide of foes.TapRushes forward with her shield, dealing Hydro DMG to opponents in front of her.HoldRaises her shield to block incoming attacks from nearby opponents, forming a barrier that absorbs DMG based on her Max HP and absorbs Hydro DMG 250% more effectively. This barrier lasts until the Elemental Skill is unleashed.After holding for a certain period of time, Candace will finish charging, and when the skill button is released, the skill duration expires, or when the barrier is broken, she will perform a leaping strike that deals Hydro DMG to opponents in front of her.",
+			"info": "The oath of the guardians is more stalwart yet than the shields they inherit.",
+			"attributes": [
+				{
+					"label": "Shield DMG Absorption",
+					"values": [
+						"12% Max HP + 1156",
+						"12.9% Max HP + 1271",
+						"13.8% Max HP + 1396",
+						"15% Max HP + 1531",
+						"15.9% Max HP + 1676",
+						"16.8% Max HP + 1830",
+						"18% Max HP + 1993",
+						"19.2% Max HP + 2167",
+						"20.4% Max HP + 2350",
+						"21.6% Max HP + 2542",
+						"22.8% Max HP + 2745",
+						"24% Max HP + 2957",
+						"25.5% Max HP + 3178",
+						"27% Max HP + 3409",
+						"28.5% Max HP + 3650"
+					]
+				},
+				{
+					"label": "Basic DMG",
+					"values": [
+						"12% Max HP",
+						"12.9% Max HP",
+						"13.8% Max HP",
+						"15% Max HP",
+						"15.9% Max HP",
+						"16.8% Max HP",
+						"18% Max HP",
+						"19.2% Max HP",
+						"20.4% Max HP",
+						"21.6% Max HP",
+						"22.8% Max HP",
+						"24% Max HP",
+						"25.5% Max HP",
+						"27% Max HP",
+						"28.5% Max HP"
+					]
+				},
+				{
+					"label": "Charged Up DMG",
+					"values": [
+						"19.04% Max HP",
+						"20.47% Max HP",
+						"21.9% Max HP",
+						"23.8% Max HP",
+						"25.23% Max HP",
+						"26.66% Max HP",
+						"28.56% Max HP",
+						"30.46% Max HP",
+						"32.37% Max HP",
+						"34.27% Max HP",
+						"36.18% Max HP",
+						"38.08% Max HP",
+						"40.46% Max HP",
+						"42.84% Max HP",
+						"45.22% Max HP"
+					]
+				},
+				{
+					"label": "Press CD",
+					"values": ["6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s"]
+				},
+				{
+					"label": "Hold CD",
+					"values": ["9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s"]
+				}
+			]
+		},
+		{
+			"id": "SacredRiteWagtailsTide",
+			"name": "Sacred Rite: Wagtail's Tide",
+			"description": "Raising her weapon on high, Candace calls upon a divine blessing that deals AoE Hydro DMG based on her Max HP and continuously confers the Prayer of the Crimson Crown on your active character.Prayer of the Crimson CrownThis effect has the following properties:·Characters deal increased Elemental DMG with their Normal Attacks.·Whenever a character takes the field, they will unleash a rippling wave of water that deals Hydro DMG to nearby opponents. There is a limited number of waves that can be triggered in the duration of this skill.·Sword, Claymore, and Polearm-wielding characters under this effect will obtain a Hydro Infusion.",
+			"info": "This secret rite has been passed down through Candace's clan from generation to generation. Though the old faiths have become lost over the years, the sands still protect the heirs of the ancient realm.",
+			"attributes": [
+				{
+					"label": "Skill DMG",
+					"values": [
+						"6.61% Max HP",
+						"7.11% Max HP",
+						"7.6% Max HP",
+						"8.26% Max HP",
+						"8.76% Max HP",
+						"9.25% Max HP",
+						"9.92% Max HP",
+						"10.58% Max HP",
+						"11.24% Max HP",
+						"11.9% Max HP",
+						"12.56% Max HP",
+						"13.22% Max HP",
+						"14.05% Max HP",
+						"14.87% Max HP",
+						"15.7% Max HP"
+					]
+				},
+				{
+					"label": "Duration",
+					"values": ["9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s", "9s"]
+				},
+				{
+					"label": "DMG Bonus",
+					"values": [
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%",
+						"20%"
+					]
+				},
+				{
+					"label": "Wave Impact DMG",
+					"values": [
+						"6.61% Max HP",
+						"7.11% Max HP",
+						"7.6% Max HP",
+						"8.26% Max HP",
+						"8.76% Max HP",
+						"9.25% Max HP",
+						"9.92% Max HP",
+						"10.58% Max HP",
+						"11.24% Max HP",
+						"11.9% Max HP",
+						"12.56% Max HP",
+						"13.22% Max HP",
+						"14.05% Max HP",
+						"14.87% Max HP",
+						"15.7% Max HP"
+					]
+				},
+				{
+					"label": "Wave Instances",
+					"values": ["3", "3", "3", "3", "3", "3", "3", "3", "3", "3", "3", "3", "3", "3", "3"]
+				},
+				{
+					"label": "CD",
+					"values": [
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s"
+					]
+				},
+				{
+					"label": "Energy Cost",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "AegisOfCrossedArrows",
+			"name": "Aegis of Crossed Arrows",
+			"description": "If Candace is hit by an attack in the Hold duration of Sacred Rite: Heron's Sanctum, that skill will finish charging instantly.",
+			"level": 1
+		},
+		{
+			"id": "CelestialDomeOfSand",
+			"name": "Celestial Dome of Sand",
+			"description": "Characters affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide will deal 0.5% increased DMG to opponents for every 1,000 points of Candace's Max HP when they deal Elemental DMG with their Normal Attacks.",
+			"level": 4
+		},
+		{
+			"id": "ToDawnsFirstLight",
+			"name": "To Dawn's First Light",
+			"description": "Decreases climbing Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "ReturningHeiressOfTheScarletSands",
+			"name": "Returning Heiress of the Scarlet Sands",
+			"description": "The duration of Prayer of the Crimson Crown effect triggered by Sacred Rite: Wagtail's Tide is increased by 3s.",
+			"level": 1
+		},
+		{
+			"id": "MoonpiercingBrilliance",
+			"name": "Moon-Piercing Brilliance",
+			"description": "When Sacred Rite: Heron's Sanctum hits opponents, Candace's Max HP will be increased by 20% for 15s.",
+			"level": 2
+		},
+		{
+			"id": "HuntersSupplication",
+			"name": "Hunter's Supplication",
+			"description": "Increases the Level of Sacred Rite: Wagtail's Tide by 3.Maximum upgrade level is 15.",
+			"level": 3
+		},
+		{
+			"id": "SentinelOath",
+			"name": "Sentinel Oath",
+			"description": "Shortens the Hold CD of Sacred Rite: Heron's Sanctum to be the same as that of the Tapping CD.",
+			"level": 4
+		},
+		{
+			"id": "HeterochromaticGaze",
+			"name": "Heterochromatic Gaze",
+			"description": "Increases the Level of Sacred Rite: Heron's Sanctum by 3.Maximum upgrade level is 15.",
+			"level": 5
+		},
+		{
+			"id": "TheOverflow",
+			"name": "The Overflow",
+			"description": "When characters (excluding Candace herself) affected by the Prayer of the Crimson Crown caused by Sacred Rite: Wagtail's Tide deal Elemental DMG to opponents using Normal Attacks, an attack wave will be unleashed that deals AoE Hydro DMG equal to 15% of Candace's Max HP.This effect can trigger once every 2.3s and is considered Elemental Burst DMG.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Base HP",
+					"values": ["-", "912"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["-", "18"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["-", "57"]
+				},
+				{
+					"label": "HP%",
+					"values": ["-", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [0, 1]
+				},
+				{
+					"label": "Base HP",
+					"values": ["2342", "3024"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["46", "59"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["147", "190"]
+				},
+				{
+					"label": "HP%",
+					"values": ["0.0%", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [1, 2]
+				},
+				{
+					"label": "Base HP",
+					"values": ["4529", "5013"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["88", "98"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["284", "315"]
+				},
+				{
+					"label": "HP%",
+					"values": ["0.0%", "6.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteSliver",
+				"name": "Varunada Lazurite Sliver",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "HennaBerry",
+				"name": "Henna Berry",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "FadedRedSatin",
+				"name": "Faded Red Satin",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [2, 3]
+				},
+				{
+					"label": "Base HP",
+					"values": ["5766", "6411"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["113", "125"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["362", "402"]
+				},
+				{
+					"label": "HP%",
+					"values": ["6.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteFragment",
+				"name": "Varunada Lazurite Fragment",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "LightGuidingTetrahedron",
+				"name": "Light Guiding Tetrahedron",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "HennaBerry",
+				"name": "Henna Berry",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "FadedRedSatin",
+				"name": "Faded Red Satin",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [3, 4]
+				},
+				{
+					"label": "Base HP",
+					"values": ["7164", "7648"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["140", "149"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["450", "480"]
+				},
+				{
+					"label": "HP%",
+					"values": ["12.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteFragment",
+				"name": "Varunada Lazurite Fragment",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "LightGuidingTetrahedron",
+				"name": "Light Guiding Tetrahedron",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "HennaBerry",
+				"name": "Henna Berry",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "TrimmedRedSilk",
+				"name": "Trimmed Red Silk",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [4, 5]
+				},
+				{
+					"label": "Base HP",
+					"values": ["8401", "8885"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["164", "174"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["527", "558"]
+				},
+				{
+					"label": "HP%",
+					"values": ["12.0%", "18.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteChunk",
+				"name": "Varunada Lazurite Chunk",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "LightGuidingTetrahedron",
+				"name": "Light Guiding Tetrahedron",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "HennaBerry",
+				"name": "Henna Berry",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "TrimmedRedSilk",
+				"name": "Trimmed Red Silk",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [5, 6]
+				},
+				{
+					"label": "Base HP",
+					"values": ["9638", "10122"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["188", "198"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["605", "635"]
+				},
+				{
+					"label": "HP%",
+					"values": ["18.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteChunk",
+				"name": "Varunada Lazurite Chunk",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "LightGuidingTetrahedron",
+				"name": "Light Guiding Tetrahedron",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "HennaBerry",
+				"name": "Henna Berry",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "RichRedBrocade",
+				"name": "Rich Red Brocade",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [6, 7]
+				},
+				{
+					"label": "Base HP",
+					"values": ["10875", "10875"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["212", "212"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["683", "683"]
+				},
+				{
+					"label": "HP%",
+					"values": ["24.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "VarunadaLazuriteGemstone",
+				"name": "Varunada Lazurite Gemstone",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "LightGuidingTetrahedron",
+				"name": "Light Guiding Tetrahedron",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "HennaBerry",
+				"name": "Henna Berry",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "RichRedBrocade",
+				"name": "Rich Red Brocade",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfAdmonition",
+					"name": "Teachings of Admonition",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "FadedRedSatin",
+					"name": "Faded Red Satin",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToAdmonition",
+					"name": "Guide to Admonition",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "TrimmedRedSilk",
+					"name": "Trimmed Red Silk",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToAdmonition",
+					"name": "Guide to Admonition",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "TrimmedRedSilk",
+					"name": "Trimmed Red Silk",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToAdmonition",
+					"name": "Guide to Admonition",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "TrimmedRedSilk",
+					"name": "Trimmed Red Silk",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToAdmonition",
+					"name": "Guide to Admonition",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "TrimmedRedSilk",
+					"name": "Trimmed Red Silk",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfAdmonition",
+					"name": "Philosophies of Admonition",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "RichRedBrocade",
+					"name": "Rich Red Brocade",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "TearsOfTheCalamitousGod",
+					"name": "Tears of the Calamitous God",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfAdmonition",
+					"name": "Philosophies of Admonition",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "RichRedBrocade",
+					"name": "Rich Red Brocade",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "TearsOfTheCalamitousGod",
+					"name": "Tears of the Calamitous God",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfAdmonition",
+					"name": "Philosophies of Admonition",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "RichRedBrocade",
+					"name": "Rich Red Brocade",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "TearsOfTheCalamitousGod",
+					"name": "Tears of the Calamitous God",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfAdmonition",
+					"name": "Philosophies of Admonition",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "RichRedBrocade",
+					"name": "Rich Red Brocade",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "TearsOfTheCalamitousGod",
+					"name": "Tears of the Calamitous God",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Crown of Insight",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Candace/Icon.webp",
+		"sideIcon": "Character/Candace/SideIcon.webp",
+		"gatchaCard": "Character/Candace/GachaCard.webp",
+		"gachaSplash": "Character/Candace/GachaSplash.webp",
+		"face": "Character/Candace/Face.webp",
+		"halfFace": "Character/Candace/HalfFace.webp",
+		"profile": "Character/Candace/Profile.webp",
+		"weaponStance": "Character/Candace/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "StaffOfTheScarletSands",
+	"specialDish": "UtmostCare",
+	"tcgCharacterCard": "Candace",
+	"outfits": [
+		{
+			"id": "DesertAndNight",
+			"name": "Desert and Night",
+			"description": "Candace's outfit. No matter where she goes, the golden sands and the nights of her homeland that adorn her clothes go together with her.",
+			"picture": "Character/Candace/Outfit/DesertAndNight.webp"
+		}
+	]
 }

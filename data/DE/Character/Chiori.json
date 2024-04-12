@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackWeavingBlade",
 			"name": "Standardangriff: Webende Klinge",
-			"description": "<span>Standardangriff</span><br/>Führt bis zu 4 Schwerthiebe hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+			"description": "StandardangriffFührt bis zu 4 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
 			"info": "",
 			"attributes": [
 				{
@@ -191,7 +191,7 @@
 		{
 			"id": "FlutteringHasode",
 			"name": "Streichelnde Hasode",
-			"description": "Stößt mit einer seidig weichen Bewegung schnell nach vorn und beschwört im Anschluss Automaton-Puppe „Tamoto“ neben sich. Führt danach einen nach oben gerichteten Angriff aus und fügt Gegnern in der Nähe basierend auf Chioris ANG und VTD <span>Geo-Flächenschaden</span> zu.<br/>Beim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.<br/><br/><span>Gedrückt halten</span><br/>Tritt in einen Zielmodus ein, in dem die Richtung des schnellen Vorstoßes bestimmt werden kann.<br/><br/><span>Tamoto</span><br/>· Fügt Gegnern in der Nähe in regelmäßigen Abständen Hiebe zu und verursacht basierend auf Chioris ANG und VTD <span>Geo-Flächenschaden</span>.<br/>· Erschafft, wenn während der Wirkungsdauer in der Nähe ein <span>Geo-Objekt</span> existiert oder eines erschaffen wird, neben der aktuellen eigenen Figur 1 weitere Tamoto. Auf diese Weise kann höchstens 1 Tamoto erschaffen werden. Deren Wirkungsdauer wird unabhängig berechnet.",
+			"description": "Stößt mit einer seidig weichen Bewegung schnell nach vorn und beschwört im Anschluss Automaton-Puppe „Tamoto“ neben sich. Führt danach einen nach oben gerichteten Angriff aus und fügt Gegnern in der Nähe basierend auf Chioris ANG und VTD Geo-Flächenschaden zu.Beim Gedrückthalten nimmt diese Fähigkeit einen anderen Modus an.Gedrückt haltenTritt in einen Zielmodus ein, in dem die Richtung des schnellen Vorstoßes bestimmt werden kann.Tamoto· Fügt Gegnern in der Nähe in regelmäßigen Abständen Hiebe zu und verursacht basierend auf Chioris ANG und VTD Geo-Flächenschaden.· Erschafft, wenn während der Wirkungsdauer in der Nähe ein Geo-Objekt existiert oder eines erschaffen wird, neben der aktuellen eigenen Figur 1 weitere Tamoto. Auf diese Weise kann höchstens 1 Tamoto erschaffen werden. Deren Wirkungsdauer wird unabhängig berechnet.",
 			"info": "„Rosarot ist der Brokat und schmückt die Ärmel mit betörendem Duft, den selbst die Pirole bewundern.“",
 			"attributes": [
 				{
@@ -299,7 +299,7 @@
 		{
 			"id": "HiyokuTwinBlades",
 			"name": "Doppelklinge – Hiyoku",
-			"description": "Chiori zieht ihre beiden Schwerter, während sie mit präzisen Schnitten wie eine Meisterschneiderin zuschlägt und basierend auf ihrem ANG und ihrer VTD <span>Geo-Flächenschaden</span> verursacht.",
+			"description": "Chiori zieht ihre beiden Schwerter, während sie mit präzisen Schnitten wie eine Meisterschneiderin zuschlägt und basierend auf ihrem ANG und ihrer VTD Geo-Flächenschaden verursacht.",
 			"info": "„Hat man ein Prinzip gemeistert, stehen einem alle anderen offen.“",
 			"attributes": [
 				{
@@ -344,23 +344,7 @@
 				},
 				{
 					"label": "Elementarenergie",
-					"values": [
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50"
-					]
+					"values": ["50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50"]
 				}
 			]
 		}
@@ -369,19 +353,19 @@
 		{
 			"id": "Tailormade",
 			"name": "Mode nach Maß",
-			"description": "Löst innerhalb kurzer Zeit nach dem nach oben gerichteten Angriff von <span>Streichelnde Hasode</span> je nach folgender Handlung unterschiedliche Effekte aus: Löst bei Drücken der Elementarfähigkeit den Effekt „Brokatstoff“ und bei Drücken des Standardangriffs den Effekt „Brokatschnitt“ aus.<br/><br/><span>Brokatstoff</span><br/>· Wechselt die Figur automatisch zum nächsten eigenen Truppenmitglied.<br/>· Gewährt allen eigenen Truppenmitgliedern den Effekt „Gute Stimmung“: Lässt Tamoto beim Treffen von Gegnern in der Nähe mit Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall des aktuellen eigenen Truppenmitglieds einen abgestimmten Angriff ausführen. Verursacht an der Stelle des Gegners <span>Geo-Flächenschaden</span> in Höhe von 100 % des Schadens des nach oben gerichteten Angriffs von „Streichelnde Hasode“. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.<br/>· „Gute Stimmung“ hält 8 s. Alle 2 s kann 1 abgestimmter Angriff von Tamoto ausgelöst werden. Während der Wirkungsdauer von „Gute Stimmung“ können bis zu 2 abgestimmte Angriffe ausgelöst werden.<br/><br/><span>Brokatschnitt</span><br/>· Verleiht Chiori 5 s lang die <span>Geo-Kraft</span>.<br/><br/>Löst den Effekt „Brokatschnitt“ automatisch aus, wenn Chiori auf dem Feld ist und innerhalb kurzer Zeit nach dem nach oben gerichteten Angriff von Streichelnde Hasode weder erneut die Elementarfähigkeit noch der Standardangriff gedrückt wird.",
+			"description": "Löst innerhalb kurzer Zeit nach dem nach oben gerichteten Angriff von Streichelnde Hasode je nach folgender Handlung unterschiedliche Effekte aus: Löst bei Drücken der Elementarfähigkeit den Effekt „Brokatstoff“ und bei Drücken des Standardangriffs den Effekt „Brokatschnitt“ aus.Brokatstoff· Wechselt die Figur automatisch zum nächsten eigenen Truppenmitglied.· Gewährt allen eigenen Truppenmitgliedern den Effekt „Gute Stimmung“: Lässt Tamoto beim Treffen von Gegnern in der Nähe mit Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall des aktuellen eigenen Truppenmitglieds einen abgestimmten Angriff ausführen. Verursacht an der Stelle des Gegners Geo-Flächenschaden in Höhe von 100 % des Schadens des nach oben gerichteten Angriffs von „Streichelnde Hasode“. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.· „Gute Stimmung“ hält 8 s. Alle 2 s kann 1 abgestimmter Angriff von Tamoto ausgelöst werden. Während der Wirkungsdauer von „Gute Stimmung“ können bis zu 2 abgestimmte Angriffe ausgelöst werden.Brokatschnitt· Verleiht Chiori 5 s lang die Geo-Kraft.Löst den Effekt „Brokatschnitt“ automatisch aus, wenn Chiori auf dem Feld ist und innerhalb kurzer Zeit nach dem nach oben gerichteten Angriff von Streichelnde Hasode weder erneut die Elementarfähigkeit noch der Standardangriff gedrückt wird.",
 			"level": 1
 		},
 		{
 			"id": "TheFinishingTouch",
 			"name": "Vollendete Muster",
-			"description": "Erhöht den von Chiori verursachten <span>Geo-Schaden</span> 20 s lang um 20 %, wenn Truppenmitglieder in der Nähe <span>Geo-Objekte</span> erschaffen.",
+			"description": "Erhöht den von Chiori verursachten Geo-Schaden 20 s lang um 20 %, wenn Truppenmitglieder in der Nähe Geo-Objekte erschaffen.",
 			"level": 4
 		},
 		{
 			"id": "BrocadedCollarsBeauteousSilhouette",
 			"name": "Bezaubernde Silhouette",
-			"description": "Verleiht, wenn beliebig viele eigene Figuren in der Truppe Kleidung außer ihrer Standardkleidung oder Windgleiter außer den Anfängerschwingen angelegt haben, eigenen Figuren in der Truppe den Effekt „Schneller Schritt“: Erhöht die Bewegungs-GSW um 10 %.<br/>Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund und ist nicht stapelbar.",
+			"description": "Verleiht, wenn beliebig viele eigene Figuren in der Truppe Kleidung außer ihrer Standardkleidung oder Windgleiter außer den Anfängerschwingen angelegt haben, eigenen Figuren in der Truppe den Effekt „Schneller Schritt“: Erhöht die Bewegungs-GSW um 10 %.Dieser Effekt gilt nicht in Sphären, Gebietssäuberungen oder im Gewundenen Abgrund und ist nicht stapelbar.",
 			"level": 0
 		}
 	],
@@ -389,165 +373,114 @@
 		{
 			"id": "SixPathsOfSageSilkcraft",
 			"name": "Sechs Pfade der Seidigkeit",
-			"description": "Erhöht die Angriffsreichweite der Automaton-Puppe „Tamoto“ von <span>Streichelnde Hasode</span> um 50 %.<br/>Wenn sich außer Chiori noch eine <span>Geo</span>-Figur in der Truppe befindet, werden nach dem Vorstoß von „Streichelnde Hasode“ zusätzlich die folgenden Effekte ausgelöst:<br/>· Erschafft eine weitere Tamoto. Nur eine Tamoto von Chiori selbst, die auf diese Weise oder durch Geo-Objekte erschaffen wurde, kann zur selben Zeit existieren.<br/>· Löst das passive Talent „Vollendete Muster“ aus. Das passive Talent „Vollendete Muster“ muss zuerst freigeschaltet werden.",
+			"description": "Erhöht die Angriffsreichweite der Automaton-Puppe „Tamoto“ von Streichelnde Hasode um 50 %.Wenn sich außer Chiori noch eine Geo-Figur in der Truppe befindet, werden nach dem Vorstoß von „Streichelnde Hasode“ zusätzlich die folgenden Effekte ausgelöst:· Erschafft eine weitere Tamoto. Nur eine Tamoto von Chiori selbst, die auf diese Weise oder durch Geo-Objekte erschaffen wurde, kann zur selben Zeit existieren.· Löst das passive Talent „Vollendete Muster“ aus. Das passive Talent „Vollendete Muster“ muss zuerst freigeschaltet werden.",
 			"level": 1
 		},
 		{
 			"id": "InFiveColorsDyed",
 			"name": "Fünffarbige Färbung",
-			"description": "Beschwört innerhalb von 10 s nach Anwenden von <span>Doppelklinge – Hiyoku</span> alle 3 s 1 vereinfachte Automaton-Puppe „Kinu“ neben der aktuellen eigenen Figur, die Gegner in der Nähe angreift und <span>Geo-Flächenschaden</span> in Höhe von 170 % des von Tamoto verursachten Schadens verursacht. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.<br/>Kinu verschwindet nach 1 Angriff oder 3 s nach dem Beschwören.",
+			"description": "Beschwört innerhalb von 10 s nach Anwenden von Doppelklinge – Hiyoku alle 3 s 1 vereinfachte Automaton-Puppe „Kinu“ neben der aktuellen eigenen Figur, die Gegner in der Nähe angreift und Geo-Flächenschaden in Höhe von 170 % des von Tamoto verursachten Schadens verursacht. Hierdurch verursachter Schaden wird als Schaden der Elementarfähigkeit gewertet.Kinu verschwindet nach 1 Angriff oder 3 s nach dem Beschwören.",
 			"level": 2
 		},
 		{
 			"id": "FourBrocadeEmbellishments",
 			"name": "Vier Brokatverzierungen",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Streichelnde Hasode</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Streichelnde Hasode um 3.Höchststufe 15.",
 			"level": 3
 		},
 		{
 			"id": "ATailorsThreeCourtesies",
 			"name": "Drei Rituale der Schneiderei",
-			"description": "Beschwört beim Treffen von Gegnern in der Nähe mit Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall der eigenen aktuellen Figur in der Truppe innerhalb von 8 s nach dem Auslösen eines Folgeeffekts des passiven Talents „Mode nach Maß“ in der Nähe des Gegners eine vereinfachte Automaton-Puppe „Kinu“. Beschwört auf diese Weise jede s höchstens 1 Kinu. Während der Wirkungsdauer einer Anwendung von Gute Stimmung oder Brokatschnitt des passiven Talents „Mode nach Maß“ kann Kinu bis zu 3-mal beschworen werden. 15 s Abklingzeit für diesen Effekt.<br/>Das passive Talent „Mode nach Maß“ muss zuerst freigeschaltet werden.",
+			"description": "Beschwört beim Treffen von Gegnern in der Nähe mit Standardangriffen, heftigen Schlägen oder Angriffen aus dem Fall der eigenen aktuellen Figur in der Truppe innerhalb von 8 s nach dem Auslösen eines Folgeeffekts des passiven Talents „Mode nach Maß“ in der Nähe des Gegners eine vereinfachte Automaton-Puppe „Kinu“. Beschwört auf diese Weise jede s höchstens 1 Kinu. Während der Wirkungsdauer einer Anwendung von Gute Stimmung oder Brokatschnitt des passiven Talents „Mode nach Maß“ kann Kinu bis zu 3-mal beschworen werden. 15 s Abklingzeit für diesen Effekt.Das passive Talent „Mode nach Maß“ muss zuerst freigeschaltet werden.",
 			"level": 4
 		},
 		{
 			"id": "TwoSilkenPlumules",
 			"name": "Zwei seidene Federn",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Doppelklinge – Hiyoku</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Doppelklinge – Hiyoku um 3.Höchststufe 15.",
 			"level": 5
 		},
 		{
 			"id": "SolePrinciplePursuit",
 			"name": "Verfolgung des einen Prinzips",
-			"description": "Verringert die Abklingzeit von Chioris eigener Fähigkeit <span>Streichelnde Hasode</span> nach dem Auslösen eines Folgeeffekts des passiven Talents „Mode nach Maß“ um 12 s. Das passive Talent „Mode nach Maß“ muss zuerst freigeschaltet werden.<br/>Erhöht außerdem den von Chiori selbst mit Standardangriffen verursachten Schaden um 235 % von Chioris VTD.",
+			"description": "Verringert die Abklingzeit von Chioris eigener Fähigkeit Streichelnde Hasode nach dem Auslösen eines Folgeeffekts des passiven Talents „Mode nach Maß“ um 12 s. Das passive Talent „Mode nach Maß“ muss zuerst freigeschaltet werden.Erhöht außerdem den von Chiori selbst mit Standardangriffen verursachten Schaden um 235 % von Chioris VTD.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"-",
-						"890"
-					]
+					"values": ["-", "890"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"-",
-						"25"
-					]
+					"values": ["-", "25"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"-",
-						"74"
-					]
+					"values": ["-", "74"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"-",
-						"0"
-					]
+					"values": ["-", "0"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"2310",
-						"3073"
-					]
+					"values": ["2310", "3073"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"65",
-						"87"
-					]
+					"values": ["65", "87"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"192",
-						"256"
-					]
+					"values": ["192", "256"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"4598",
-						"5141"
-					]
+					"values": ["4598", "5141"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"130",
-						"145"
-					]
+					"values": ["130", "145"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"383",
-						"428"
-					]
+					"values": ["383", "428"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -570,45 +503,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"5915",
-						"6638"
-					]
+					"values": ["5915", "6638"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"167",
-						"187"
-					]
+					"values": ["167", "187"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"493",
-						"553"
-					]
+					"values": ["493", "553"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -637,45 +553,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"7420",
-						"7962"
-					]
+					"values": ["7420", "7962"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"209",
-						"225"
-					]
+					"values": ["209", "225"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"618",
-						"663"
-					]
+					"values": ["618", "663"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -704,45 +603,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"8751",
-						"9293"
-					]
+					"values": ["8751", "9293"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"247",
-						"262"
-					]
+					"values": ["247", "262"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"729",
-						"774"
-					]
+					"values": ["729", "774"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -771,45 +653,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"10091",
-						"10634"
-					]
+					"values": ["10091", "10634"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"285",
-						"300"
-					]
+					"values": ["285", "300"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"841",
-						"886"
-					]
+					"values": ["841", "886"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -838,45 +703,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"11438",
-						"11438"
-					]
+					"values": ["11438", "11438"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"323",
-						"323"
-					]
+					"values": ["323", "323"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"953",
-						"953"
-					]
+					"values": ["953", "953"]
 				},
 				{
 					"label": "KT",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {

@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackFavoniusBladeworkMaid",
 			"name": "Standardangriff: Favonius-Schwertkunst – Magd",
-			"description": "<span>Standardangriff</span><br/>Führt bis zu 4 Schwünge mit dem Schwert hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht fortlaufend Ausdauer, wirbelt das Großschwert und greift Gegner in der Umgebung an.<br/>Schwingt das Schwert am Ende mit besonders großer Wucht.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+			"description": "StandardangriffFührt bis zu 4 Schwünge mit dem Schwert hintereinander aus.Heftiger SchlagVerbraucht fortlaufend Ausdauer, wirbelt das Großschwert und greift Gegner in der Umgebung an.Schwingt das Schwert am Ende mit besonders großer Wucht.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
 			"info": "",
 			"attributes": [
 				{
@@ -231,7 +231,7 @@
 		{
 			"id": "Breastplate",
 			"name": "Brustpanzer",
-			"description": "Erschafft einen Geo-Panzer, der Gegnern in der Umgebung <span>Geo-Schaden</span> zufügt, sowie einen Schutzschild, der Schaden basierend auf Noelles VTD abhält.<br/>Effekte des Schutzschilds:<br/>· Noelle stellt allen Truppenmitgliedern bei Treffern mit Standardangriffen und heftigen Schlägen mit gewisser Wahrscheinlichkeit LP wieder her.<br/>· Hält bei elementarem sowie physischem Schaden 150 % ab.<br/><br/>Die Menge an wiederhergestellten LP basiert auf Noelles VTD.",
+			"description": "Erschafft einen Geo-Panzer, der Gegnern in der Umgebung Geo-Schaden zufügt, sowie einen Schutzschild, der Schaden basierend auf Noelles VTD abhält.Effekte des Schutzschilds:· Noelle stellt allen Truppenmitgliedern bei Treffern mit Standardangriffen und heftigen Schlägen mit gewisser Wahrscheinlichkeit LP wieder her.· Hält bei elementarem sowie physischem Schaden 150 % ab.Die Menge an wiederhergestellten LP basiert auf Noelles VTD.",
 			"info": "Noelle ist eine hingebungsvolle Magd, aber auch ein zielstrebiger Ritter.",
 			"attributes": [
 				{
@@ -359,7 +359,7 @@
 		{
 			"id": "SweepingTime",
 			"name": "Großreinigung",
-			"description": "Konzentriert die Kraft der Felsen auf ihrer Waffe, greift Gegner in der Umgebung mit hoher Reichweite an und verursacht <span>Geo-Schaden</span>.<br/>Löst danach folgende Effekte aus:<br/>· Erhöht Noelles Angriffsreichweite.<br/>· Wandelt den verursachten Schaden in <span>Geo-Schaden</span> um. Diese Elementarumwandlung kann nicht von anderen Elementen überdeckt werden.<br/>· Erhöht Noelles ANG basierend auf Noelles VTD.",
+			"description": "Konzentriert die Kraft der Felsen auf ihrer Waffe, greift Gegner in der Umgebung mit hoher Reichweite an und verursacht Geo-Schaden.Löst danach folgende Effekte aus:· Erhöht Noelles Angriffsreichweite.· Wandelt den verursachten Schaden in Geo-Schaden um. Diese Elementarumwandlung kann nicht von anderen Elementen überdeckt werden.· Erhöht Noelles ANG basierend auf Noelles VTD.",
 			"info": "Was gesäubert werden muss, ist nicht immer nur einfacher Dreck ...",
 			"attributes": [
 				{
@@ -464,23 +464,7 @@
 				},
 				{
 					"label": "Elementarenergie",
-					"values": [
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60"
-					]
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
 				}
 			]
 		}
@@ -489,13 +473,13 @@
 		{
 			"id": "Devotion",
 			"name": "Ernsthaftigkeit",
-			"description": "Effekte, wenn Noelle inaktiv in der Truppe ist und die aktuelle eigene Figur weniger als 30 % LP hat:<br/>Erstellt einen Schutzschild für die aktuelle eigene Figur, der Schaden in Höhe von 400 % von Noelles VTD abhält, hält 20 s.<br/>· Hält bei elementarem sowie physischem Schaden 150 % ab.<br/>60 s Abklingzeit.",
+			"description": "Effekte, wenn Noelle inaktiv in der Truppe ist und die aktuelle eigene Figur weniger als 30 % LP hat:Erstellt einen Schutzschild für die aktuelle eigene Figur, der Schaden in Höhe von 400 % von Noelles VTD abhält, hält 20 s.· Hält bei elementarem sowie physischem Schaden 150 % ab.60 s Abklingzeit.",
 			"level": 1
 		},
 		{
 			"id": "NiceAndClean",
 			"name": "Sauber und geschwind",
-			"description": "Noelle verringert alle vier Treffer mit Standardangriffen oder heftigen Schlägen, die sie bei Gegnern erzielt, die Abklingzeit von <span>Brustpanzer</span> um 1 s.<br/>Ein Treffer kann alle 0,1 s gezählt werden.",
+			"description": "Noelle verringert alle vier Treffer mit Standardangriffen oder heftigen Schlägen, die sie bei Gegnern erzielt, die Abklingzeit von Brustpanzer um 1 s.Ein Treffer kann alle 0,1 s gezählt werden.",
 			"level": 4
 		},
 		{
@@ -509,7 +493,7 @@
 		{
 			"id": "IGotYourBack",
 			"name": "Fürsorgliche Unterstützung",
-			"description": "Löst den Heileffekt von Brustpanzer mit einer Wahrscheinlichkeit von 100 % aus, wenn sowohl <span>Großreinigung</span> als auch <span>Brustpanzer</span> aktiv sind.",
+			"description": "Löst den Heileffekt von Brustpanzer mit einer Wahrscheinlichkeit von 100 % aus, wenn sowohl Großreinigung als auch Brustpanzer aktiv sind.",
 			"level": 1
 		},
 		{
@@ -521,153 +505,102 @@
 		{
 			"id": "InvulnerableMaid",
 			"name": "Unverletzliche Magd",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Brustpanzer</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Brustpanzer um 3.Höchststufe 15.",
 			"level": 3
 		},
 		{
 			"id": "ToBeCleaned",
 			"name": "Zur Säuberung vorgesehen",
-			"description": "Fügt Gegnern in der Umgebung nach dem Ende des Effekts von <span>Brustpanzer</span> oder nach Zerstörung des Schildes <span>Geo-Schaden</span> in Höhe von 400 % ANG zu.",
+			"description": "Fügt Gegnern in der Umgebung nach dem Ende des Effekts von Brustpanzer oder nach Zerstörung des Schildes Geo-Schaden in Höhe von 400 % ANG zu.",
 			"level": 4
 		},
 		{
 			"id": "FavoniusSweeperMaster",
 			"name": "Säuberungsexpertin des Ordens",
-			"description": "Erhöht die Stufe der Fähigkeit <span>Großreinigung</span> um 3.<br/>Höchststufe 15.",
+			"description": "Erhöht die Stufe der Fähigkeit Großreinigung um 3.Höchststufe 15.",
 			"level": 5
 		},
 		{
 			"id": "MustBeSpotless",
 			"name": "Putzfimmel",
-			"description": "<span>Großreinigung</span> erhöht den ANG zusätzlich um 50 % der VTD von Noelle.<br/>Verlängert die Wirkungsdauer für jeden während der Dauer besiegten Gegner um 1 s und insgesamt um bis zu 10 s.",
+			"description": "Großreinigung erhöht den ANG zusätzlich um 50 % der VTD von Noelle.Verlängert die Wirkungsdauer für jeden während der Dauer besiegten Gegner um 1 s und insgesamt um bis zu 10 s.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"-",
-						"1012"
-					]
+					"values": ["-", "1012"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"-",
-						"16"
-					]
+					"values": ["-", "16"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"-",
-						"67"
-					]
+					"values": ["-", "67"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"-",
-						"0.0%"
-					]
+					"values": ["-", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"2600",
-						"3356"
-					]
+					"values": ["2600", "3356"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"41",
-						"53"
-					]
+					"values": ["41", "53"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"172",
-						"222"
-					]
+					"values": ["172", "222"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
+					"values": ["0.0%", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"5027",
-						"5564"
-					]
+					"values": ["5027", "5564"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"80",
-						"88"
-					]
+					"values": ["80", "88"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"333",
-						"368"
-					]
+					"values": ["333", "368"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"0.0%",
-						"7.5%"
-					]
+					"values": ["0.0%", "7.5%"]
 				}
 			],
 			"mat1": {
@@ -690,45 +623,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"6400",
-						"7117"
-					]
+					"values": ["6400", "7117"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"101",
-						"113"
-					]
+					"values": ["101", "113"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"423",
-						"471"
-					]
+					"values": ["423", "471"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"7.5%",
-						"15.0%"
-					]
+					"values": ["7.5%", "15.0%"]
 				}
 			],
 			"mat1": {
@@ -757,45 +673,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"7953",
-						"8490"
-					]
+					"values": ["7953", "8490"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"126",
-						"134"
-					]
+					"values": ["126", "134"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"526",
-						"562"
-					]
+					"values": ["526", "562"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"15.0%",
-						"15.0%"
-					]
+					"values": ["15.0%", "15.0%"]
 				}
 			],
 			"mat1": {
@@ -824,45 +723,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"9325",
-						"9862"
-					]
+					"values": ["9325", "9862"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"148",
-						"156"
-					]
+					"values": ["148", "156"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"617",
-						"652"
-					]
+					"values": ["617", "652"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"15.0%",
-						"22.5%"
-					]
+					"values": ["15.0%", "22.5%"]
 				}
 			],
 			"mat1": {
@@ -891,45 +773,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"10698",
-						"11235"
-					]
+					"values": ["10698", "11235"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"169",
-						"178"
-					]
+					"values": ["169", "178"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"708",
-						"743"
-					]
+					"values": ["708", "743"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"22.5%",
-						"30.0%"
-					]
+					"values": ["22.5%", "30.0%"]
 				}
 			],
 			"mat1": {
@@ -958,45 +823,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Aufstieg",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Basis-LP",
-					"values": [
-						"12071",
-						"12071"
-					]
+					"values": ["12071", "12071"]
 				},
 				{
 					"label": "Basis-ANG",
-					"values": [
-						"191",
-						"191"
-					]
+					"values": ["191", "191"]
 				},
 				{
 					"label": "Basis-VTD",
-					"values": [
-						"799",
-						"799"
-					]
+					"values": ["799", "799"]
 				},
 				{
 					"label": "VTD%",
-					"values": [
-						"30.0%",
-						"30.0%"
-					]
+					"values": ["30.0%", "30.0%"]
 				}
 			],
 			"mat1": {

@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackStellarRend",
 			"name": "Ataque Normal: Zarpazo estelar",
-			"description": "<span>Ataque Normal</span><br/>Realiza hasta 4 ataques de espada consecutivos.<br/><br/><span>Ataque Cargado</span><br/>Consume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.<br/>Al final del Ataque Cargado, realizará un golpe de espada más poderoso.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+			"description": "Ataque NormalRealiza hasta 4 ataques de espada consecutivos.Ataque CargadoConsume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.Al final del Ataque Cargado, realizará un golpe de espada más poderoso.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
 			"info": "",
 			"attributes": [
 				{
@@ -231,7 +231,7 @@
 		{
 			"id": "BestialAscent",
 			"name": "Ascensión bestial",
-			"description": "Se abalanza hacia delante utilizando el arte de la danza de bestias y, tras entrar en contacto con un objetivo o cualquier tipo de obstáculo, da un gran salto hacia arriba.<br/>Si Gaming ejecuta un Ataque Descendente inmediatamente después de elevarse en las alturas con su Habilidad Elemental, “Ascensión bestial”, ejecutará un Ataque Descendente: Auspicio nebular especialmente poderoso.<br/><br/><span>Ataque Descendente: Auspicio nebular</span><br/>El daño infligido con el Ataque Descendente ejecutado con su Habilidad Elemental, “Ascensión bestial”, se convierte en <span>Daño Pyro</span>, el cual no puede sustituirse imbuyéndose de otro elemento, y además, al aterrizar, Gaming perderá cierta cantidad de Vida. Como máximo, la Vida de Gaming puede reducirse hasta el 10% de esta manera.<br/>El daño de Auspicio nebular se considera daño de Ataque Descendente.",
+			"description": "Se abalanza hacia delante utilizando el arte de la danza de bestias y, tras entrar en contacto con un objetivo o cualquier tipo de obstáculo, da un gran salto hacia arriba.Si Gaming ejecuta un Ataque Descendente inmediatamente después de elevarse en las alturas con su Habilidad Elemental, “Ascensión bestial”, ejecutará un Ataque Descendente: Auspicio nebular especialmente poderoso.Ataque Descendente: Auspicio nebularEl daño infligido con el Ataque Descendente ejecutado con su Habilidad Elemental, “Ascensión bestial”, se convierte en Daño Pyro, el cual no puede sustituirse imbuyéndose de otro elemento, y además, al aterrizar, Gaming perderá cierta cantidad de Vida. Como máximo, la Vida de Gaming puede reducirse hasta el 10% de esta manera.El daño de Auspicio nebular se considera daño de Ataque Descendente.",
 			"info": "“La bestia salta para atrapar la verdura, símbolo de prosperidad y buena fortuna. Riqueza y salud con nosotros estén, ¡y saltemos muy alto para ascender!”.",
 			"attributes": [
 				{
@@ -299,7 +299,7 @@
 		{
 			"id": "SuannisGildedDance",
 			"name": "Pirodanza del suanni",
-			"description": "Gaming hace uso de su danza de bestias para <span>aplicar Pyro</span> sobre sí mismo durante un breve periodo de tiempo, recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el suanni Man Chai, con el que aplasta a su objetivo e inflige <span>Daño Pyro en el AdE</span>.<br/>Tras golpear a su objetivo, Man Chai cae rodando en un lugar cercano y luego regresa con Gaming. Después de reunirse con él, Man Chai abandona el campo de batalla y reinicia el TdE de la Habilidad Elemental de Gaming, “Ascensión bestial”.<br/>Mientras la danza de bestias está activa, la RES a interrupción de Gaming aumenta y, cuando el Ataque Descendente: Auspicio nebular impacta contra el suelo o cuando termina de abalanzarse hacia delante contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.<br/>Solo puede haber 1 suanni Man Chai a la vez en el campo de batalla.<br/>Este efecto termina cuando Gaming se retira del campo de batalla.",
+			"description": "Gaming hace uso de su danza de bestias para aplicar Pyro sobre sí mismo durante un breve periodo de tiempo, recuperar una cantidad de Vida determinada e invocar a su fiel compañero, el suanni Man Chai, con el que aplasta a su objetivo e inflige Daño Pyro en el AdE.Tras golpear a su objetivo, Man Chai cae rodando en un lugar cercano y luego regresa con Gaming. Después de reunirse con él, Man Chai abandona el campo de batalla y reinicia el TdE de la Habilidad Elemental de Gaming, “Ascensión bestial”.Mientras la danza de bestias está activa, la RES a interrupción de Gaming aumenta y, cuando el Ataque Descendente: Auspicio nebular impacta contra el suelo o cuando termina de abalanzarse hacia delante contra un objetivo con Ascensión bestial, si Gaming tiene más del 50% de Vida, invocará de nuevo a Man Chai.Solo puede haber 1 suanni Man Chai a la vez en el campo de batalla.Este efecto termina cuando Gaming se retira del campo de batalla.",
 			"info": "“La bestia dorada trae buena suerte y una luz resplandeciente. ¡Eso es lo que yo llamo una vida floreciente!”.",
 			"attributes": [
 				{
@@ -384,23 +384,7 @@
 				},
 				{
 					"label": "Energía Elemental",
-					"values": [
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60",
-						"60"
-					]
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
 				}
 			]
 		}
@@ -409,7 +393,7 @@
 		{
 			"id": "DanceOfAmity",
 			"name": "Baile de la concordia",
-			"description": "Tras golpear a un enemigo con el Ataque Descendente: Auspicio nebular de <span>Ascensión bestial</span>, Gaming recupera una cantidad de Vida equivalente al 1.5% de su Vida Máx. cada 0.2 s durante 0.8 s.",
+			"description": "Tras golpear a un enemigo con el Ataque Descendente: Auspicio nebular de Ascensión bestial, Gaming recupera una cantidad de Vida equivalente al 1.5% de su Vida Máx. cada 0.2 s durante 0.8 s.",
 			"level": 1
 		},
 		{
@@ -421,7 +405,7 @@
 		{
 			"id": "TheStridingBeast",
 			"name": "Andar de la bestia",
-			"description": "Tus personajes del equipo obtienen el efecto de “paso ligero”, de manera que su Vel. Movimiento aumenta en un 10% por el día (06-18 h).<br/>Este efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros efectos de paso ligero.",
+			"description": "Tus personajes del equipo obtienen el efecto de “paso ligero”, de manera que su Vel. Movimiento aumenta en un 10% por el día (06-18 h).Este efecto no se activará en dominios, Dominios de la cruzada y la Espiral del Abismo, y no se puede acumular con otros efectos de paso ligero.",
 			"level": 0
 		}
 	],
@@ -429,7 +413,7 @@
 		{
 			"id": "BringerOfBlessing",
 			"name": "Bendición refulgente",
-			"description": "Cuando el suanni Man Chai de <span>Pirodanza del suanni</span> se reúne con Gaming, este recupera un 15% de Vida.",
+			"description": "Cuando el suanni Man Chai de Pirodanza del suanni se reúne con Gaming, este recupera un 15% de Vida.",
 			"level": 1
 		},
 		{
@@ -441,153 +425,102 @@
 		{
 			"id": "AwakeningSpirit",
 			"name": "Despertar espiritual",
-			"description": "Aumenta el nivel de habilidad de <span>Ascensión bestial</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+			"description": "Aumenta el nivel de habilidad de Ascensión bestial +3.Puede ser aumentado hasta Niv. 15.",
 			"level": 3
 		},
 		{
 			"id": "SoarAcrossMountains",
 			"name": "Surcador de montañas",
-			"description": "Cuando el Ataque Descendente: Auspicio nebular de <span>Ascensión bestial</span> golpea a un enemigo, Gaming recupera 2 pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 0.2 s.",
+			"description": "Cuando el Ataque Descendente: Auspicio nebular de Ascensión bestial golpea a un enemigo, Gaming recupera 2 pts. de Energía Elemental. Este efecto solo puede ocurrir una vez cada 0.2 s.",
 			"level": 4
 		},
 		{
 			"id": "EvildauntingRoar",
 			"name": "Rugido acechademonios",
-			"description": "Aumenta el nivel de habilidad de <span>Pirodanza del suanni</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
+			"description": "Aumenta el nivel de habilidad de Pirodanza del suanni +3.Puede ser aumentado hasta Niv. 15.",
 			"level": 5
 		},
 		{
 			"id": "ToTameAllBeasts",
 			"name": "Domador de todas las bestias",
-			"description": "La Prob. CRIT del Ataque Descendente: Auspicio nebular de <span>Ascensión bestial</span> aumenta en un 20%, su Daño CRIT aumenta en un 40% y su AdE se incrementa.",
+			"description": "La Prob. CRIT del Ataque Descendente: Auspicio nebular de Ascensión bestial aumenta en un 20%, su Daño CRIT aumenta en un 40% y su AdE se incrementa.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"-",
-						"957"
-					]
+					"values": ["-", "957"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"-",
-						"25"
-					]
+					"values": ["-", "25"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"-",
-						"59"
-					]
+					"values": ["-", "59"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"-",
-						"0.0%"
-					]
+					"values": ["-", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"2460",
-						"3175"
-					]
+					"values": ["2460", "3175"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"65",
-						"84"
-					]
+					"values": ["65", "84"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"151",
-						"195"
-					]
+					"values": ["151", "195"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"0.0%",
-						"0.0%"
-					]
+					"values": ["0.0%", "0.0%"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"4755",
-						"5264"
-					]
+					"values": ["4755", "5264"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"126",
-						"139"
-					]
+					"values": ["126", "139"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"293",
-						"324"
-					]
+					"values": ["293", "324"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"0.0%",
-						"6.0%"
-					]
+					"values": ["0.0%", "6.0%"]
 				}
 			],
 			"mat1": {
@@ -610,45 +543,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"6054",
-						"6732"
-					]
+					"values": ["6054", "6732"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"160",
-						"178"
-					]
+					"values": ["160", "178"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"373",
-						"414"
-					]
+					"values": ["373", "414"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"6.0%",
-						"12.0%"
-					]
+					"values": ["6.0%", "12.0%"]
 				}
 			],
 			"mat1": {
@@ -677,45 +593,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"7523",
-						"8031"
-					]
+					"values": ["7523", "8031"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"199",
-						"212"
-					]
+					"values": ["199", "212"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"463",
-						"494"
-					]
+					"values": ["463", "494"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"12.0%",
-						"12.0%"
-					]
+					"values": ["12.0%", "12.0%"]
 				}
 			],
 			"mat1": {
@@ -744,45 +643,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"8821",
-						"9329"
-					]
+					"values": ["8821", "9329"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"233",
-						"246"
-					]
+					"values": ["233", "246"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"543",
-						"574"
-					]
+					"values": ["543", "574"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"12.0%",
-						"18.0%"
-					]
+					"values": ["12.0%", "18.0%"]
 				}
 			],
 			"mat1": {
@@ -811,45 +693,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"10120",
-						"10628"
-					]
+					"values": ["10120", "10628"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"267",
-						"281"
-					]
+					"values": ["267", "281"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"623",
-						"654"
-					]
+					"values": ["623", "654"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"18.0%",
-						"24.0%"
-					]
+					"values": ["18.0%", "24.0%"]
 				}
 			],
 			"mat1": {
@@ -878,45 +743,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Vida Base",
-					"values": [
-						"11419",
-						"11419"
-					]
+					"values": ["11419", "11419"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"302",
-						"302"
-					]
+					"values": ["302", "302"]
 				},
 				{
 					"label": "DEF Base",
-					"values": [
-						"703",
-						"703"
-					]
+					"values": ["703", "703"]
 				},
 				{
 					"label": "ATQ%",
-					"values": [
-						"24.0%",
-						"24.0%"
-					]
+					"values": ["24.0%", "24.0%"]
 				}
 			],
 			"mat1": {

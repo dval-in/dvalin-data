@@ -1,308 +1,293 @@
 {
-    "id": "ProspectorsDrill",
-    "name": "\u30d7\u30ed\u30b9\u30da\u30af\u30bf\u30fc\u30c9\u30ea\u30eb",
-    "description": "\u4eca\u3067\u306f\u3001\u307b\u3068\u3093\u3069\u898b\u304b\u3051\u306a\u304f\u306a\u3063\u305f\u9577\u67c4\u306e\u30c9\u30ea\u30eb\u3002\u63a2\u67fb\u3084\u77f3\u6750\u306e\u5207\u65ad\u3001\u5f6b\u523b\u4f5c\u696d\u306b\u3088\u304f\u7528\u3044\u3089\u308c\u308b\u3002",
-    "rarity": 4,
-    "type": "\u9577\u67c4\u6b66\u5668",
-    "domain": "\u6df1\u6f6e\u306e\u4f59\u97fb",
-    "passive": "\u77f3\u5de5\u306e\u5504",
-    "bonus": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span>3%/4%/5%/6%/7%</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span>7%/8.5%/10%/11.5%/13%</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002",
-    "stats": {
-        "primary": "\u57fa\u790e\u653b\u6483\u529b",
-        "secondary": "\u653b\u6483\u529b%",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 44,
-                "secondary": 6
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 119,
-                "secondary": 10.6
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 144,
-                "secondary": 10.6
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 226,
-                "secondary": 15.4
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 252,
-                "secondary": 15.4
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 293,
-                "secondary": 17.9
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 319,
-                "secondary": 17.9
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 361,
-                "secondary": 20.3
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 387,
-                "secondary": 20.3
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 429,
-                "secondary": 22.7
-            },
-            {
-                "ascension": 5,
-                "level": 70,
-                "primary": 455,
-                "secondary": 22.7
-            },
-            {
-                "ascension": 5,
-                "level": 80,
-                "primary": 497,
-                "secondary": 25.1
-            },
-            {
-                "ascension": 6,
-                "level": 80,
-                "primary": 523,
-                "secondary": 25.1
-            },
-            {
-                "ascension": 6,
-                "level": 90,
-                "primary": 565,
-                "secondary": 27.6
-            }
-        ]
-    },
-    "ascensions": [
-        {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
-        },
-        {
-            "ascension": 1,
-            "level": 40,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "FragmentOfAnAncientChord",
-                    "name": "\u60a0\u4e45\u306e\u5f26\u306e\u6b8b\u7ae0",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "OldOperativesPocketWatch",
-                    "name": "\u53e4\u3073\u305f\u5f93\u8005\u306e\u61d0\u4e2d\u6642\u8a08",
-                    "amount": 3,
-                    "rarity": 2
-                },
-                {
-                    "id": "MeshingGear",
-                    "name": "\u6574\u5408\u306e\u6b6f\u8eca",
-                    "amount": 2,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 2,
-            "level": 50,
-            "cost": 15000,
-            "materials": [
-                {
-                    "id": "ChapterOfAnAncientChord",
-                    "name": "\u60a0\u4e45\u306e\u5f26\u306e\u65ad\u7ae0",
-                    "amount": 3,
-                    "rarity": 3
-                },
-                {
-                    "id": "OldOperativesPocketWatch",
-                    "name": "\u53e4\u3073\u305f\u5f93\u8005\u306e\u61d0\u4e2d\u6642\u8a08",
-                    "amount": 12,
-                    "rarity": 2
-                },
-                {
-                    "id": "MeshingGear",
-                    "name": "\u6574\u5408\u306e\u6b6f\u8eca",
-                    "amount": 8,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 20000,
-            "materials": [
-                {
-                    "id": "ChapterOfAnAncientChord",
-                    "name": "\u60a0\u4e45\u306e\u5f26\u306e\u65ad\u7ae0",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "OperativesStandardPocketWatch",
-                    "name": "\u5f93\u8005\u306e\u5236\u5f0f\u61d0\u4e2d\u6642\u8a08",
-                    "amount": 6,
-                    "rarity": 3
-                },
-                {
-                    "id": "MechanicalSpurGear",
-                    "name": "\u6a5f\u69cb\u306e\u5e73\u6b6f\u8eca",
-                    "amount": 6,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 30000,
-            "materials": [
-                {
-                    "id": "MovementOfAnAncientChord",
-                    "name": "\u60a0\u4e45\u306e\u5f26\u306e\u697d\u7ae0",
-                    "amount": 3,
-                    "rarity": 4
-                },
-                {
-                    "id": "OperativesStandardPocketWatch",
-                    "name": "\u5f93\u8005\u306e\u5236\u5f0f\u61d0\u4e2d\u6642\u8a08",
-                    "amount": 12,
-                    "rarity": 3
-                },
-                {
-                    "id": "MechanicalSpurGear",
-                    "name": "\u6a5f\u69cb\u306e\u5e73\u6b6f\u8eca",
-                    "amount": 9,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 5,
-            "level": 80,
-            "cost": 35000,
-            "materials": [
-                {
-                    "id": "MovementOfAnAncientChord",
-                    "name": "\u60a0\u4e45\u306e\u5f26\u306e\u697d\u7ae0",
-                    "amount": 6,
-                    "rarity": 4
-                },
-                {
-                    "id": "OperativesConstancy",
-                    "name": "\u5f93\u8005\u306e\u6642\u3005\u523b\u3005",
-                    "amount": 9,
-                    "rarity": 4
-                },
-                {
-                    "id": "ArtificedDynamicGear",
-                    "name": "\u5947\u68b0\u306e\u30b3\u30a2\u6b6f\u8eca",
-                    "amount": 6,
-                    "rarity": 3
-                }
-            ]
-        },
-        {
-            "ascension": 6,
-            "level": 90,
-            "cost": 45000,
-            "materials": [
-                {
-                    "id": "EchoOfAnAncientChord",
-                    "name": "\u60a0\u4e45\u306e\u5f26\u306e\u97ff\u304d",
-                    "amount": 4,
-                    "rarity": 5
-                },
-                {
-                    "id": "OperativesConstancy",
-                    "name": "\u5f93\u8005\u306e\u6642\u3005\u523b\u3005",
-                    "amount": 18,
-                    "rarity": 4
-                },
-                {
-                    "id": "ArtificedDynamicGear",
-                    "name": "\u5947\u68b0\u306e\u30b3\u30a2\u6b6f\u8eca",
-                    "amount": 12,
-                    "rarity": 3
-                }
-            ]
-        }
-    ],
-    "refinement_raw": {
-        "name": "\u77f3\u5de5\u306e\u5504",
-        "template": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span style=\"color:#99FFFFFF\">{1}</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002",
-        "params": [
-            [
-                "3%",
-                "7%"
-            ],
-            [
-                "4%",
-                "8.5%"
-            ],
-            [
-                "5%",
-                "10%"
-            ],
-            [
-                "6%",
-                "11.5%"
-            ],
-            [
-                "7%",
-                "13%"
-            ]
-        ]
-    },
-    "refinements": [
-        {
-            "refinement": 1,
-            "desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span>3%</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span>7%</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-        },
-        {
-            "refinement": 2,
-            "desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span>4%</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span>8.5%</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-        },
-        {
-            "refinement": 3,
-            "desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span>5%</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span>10%</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-        },
-        {
-            "refinement": 4,
-            "desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span>6%</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span>11.5%</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-        },
-        {
-            "refinement": 5,
-            "desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span>7%</span>\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span>13%</span>\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-        }
-    ],
-    "pictures": {
-        "icon": "Weapon/ProspectorsDrill/Icon.webp"
-    }
+	"id": "ProspectorsDrill",
+	"name": "\u30d7\u30ed\u30b9\u30da\u30af\u30bf\u30fc\u30c9\u30ea\u30eb",
+	"description": "\u4eca\u3067\u306f\u3001\u307b\u3068\u3093\u3069\u898b\u304b\u3051\u306a\u304f\u306a\u3063\u305f\u9577\u67c4\u306e\u30c9\u30ea\u30eb\u3002\u63a2\u67fb\u3084\u77f3\u6750\u306e\u5207\u65ad\u3001\u5f6b\u523b\u4f5c\u696d\u306b\u3088\u304f\u7528\u3044\u3089\u308c\u308b\u3002",
+	"rarity": 4,
+	"type": "\u9577\u67c4\u6b66\u5668",
+	"domain": "\u6df1\u6f6e\u306e\u4f59\u97fb",
+	"passive": "\u77f3\u5de5\u306e\u5504",
+	"bonus": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+3%/4%/5%/6%/7%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+7%/8.5%/10%/11.5%/13%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002",
+	"stats": {
+		"primary": "\u57fa\u790e\u653b\u6483\u529b",
+		"secondary": "\u653b\u6483\u529b%",
+		"levels": [
+			{
+				"ascension": 0,
+				"level": 1,
+				"primary": 44,
+				"secondary": 6
+			},
+			{
+				"ascension": 0,
+				"level": 20,
+				"primary": 119,
+				"secondary": 10.6
+			},
+			{
+				"ascension": 1,
+				"level": 20,
+				"primary": 144,
+				"secondary": 10.6
+			},
+			{
+				"ascension": 1,
+				"level": 40,
+				"primary": 226,
+				"secondary": 15.4
+			},
+			{
+				"ascension": 2,
+				"level": 40,
+				"primary": 252,
+				"secondary": 15.4
+			},
+			{
+				"ascension": 2,
+				"level": 50,
+				"primary": 293,
+				"secondary": 17.9
+			},
+			{
+				"ascension": 3,
+				"level": 50,
+				"primary": 319,
+				"secondary": 17.9
+			},
+			{
+				"ascension": 3,
+				"level": 60,
+				"primary": 361,
+				"secondary": 20.3
+			},
+			{
+				"ascension": 4,
+				"level": 60,
+				"primary": 387,
+				"secondary": 20.3
+			},
+			{
+				"ascension": 4,
+				"level": 70,
+				"primary": 429,
+				"secondary": 22.7
+			},
+			{
+				"ascension": 5,
+				"level": 70,
+				"primary": 455,
+				"secondary": 22.7
+			},
+			{
+				"ascension": 5,
+				"level": 80,
+				"primary": 497,
+				"secondary": 25.1
+			},
+			{
+				"ascension": 6,
+				"level": 80,
+				"primary": 523,
+				"secondary": 25.1
+			},
+			{
+				"ascension": 6,
+				"level": 90,
+				"primary": 565,
+				"secondary": 27.6
+			}
+		]
+	},
+	"ascensions": [
+		{
+			"ascension": 0,
+			"level": 20,
+			"materials": []
+		},
+		{
+			"ascension": 1,
+			"level": 40,
+			"cost": 5000,
+			"materials": [
+				{
+					"id": "FragmentOfAnAncientChord",
+					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u6b8b\u7ae0",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "OldOperativesPocketWatch",
+					"name": "\u53e4\u3073\u305f\u5f93\u8005\u306e\u61d0\u4e2d\u6642\u8a08",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "MeshingGear",
+					"name": "\u6574\u5408\u306e\u6b6f\u8eca",
+					"amount": 2,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 2,
+			"level": 50,
+			"cost": 15000,
+			"materials": [
+				{
+					"id": "ChapterOfAnAncientChord",
+					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u65ad\u7ae0",
+					"amount": 3,
+					"rarity": 3
+				},
+				{
+					"id": "OldOperativesPocketWatch",
+					"name": "\u53e4\u3073\u305f\u5f93\u8005\u306e\u61d0\u4e2d\u6642\u8a08",
+					"amount": 12,
+					"rarity": 2
+				},
+				{
+					"id": "MeshingGear",
+					"name": "\u6574\u5408\u306e\u6b6f\u8eca",
+					"amount": 8,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"ascension": 3,
+			"level": 60,
+			"cost": 20000,
+			"materials": [
+				{
+					"id": "ChapterOfAnAncientChord",
+					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u65ad\u7ae0",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "OperativesStandardPocketWatch",
+					"name": "\u5f93\u8005\u306e\u5236\u5f0f\u61d0\u4e2d\u6642\u8a08",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "MechanicalSpurGear",
+					"name": "\u6a5f\u69cb\u306e\u5e73\u6b6f\u8eca",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 4,
+			"level": 70,
+			"cost": 30000,
+			"materials": [
+				{
+					"id": "MovementOfAnAncientChord",
+					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u697d\u7ae0",
+					"amount": 3,
+					"rarity": 4
+				},
+				{
+					"id": "OperativesStandardPocketWatch",
+					"name": "\u5f93\u8005\u306e\u5236\u5f0f\u61d0\u4e2d\u6642\u8a08",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "MechanicalSpurGear",
+					"name": "\u6a5f\u69cb\u306e\u5e73\u6b6f\u8eca",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"ascension": 5,
+			"level": 80,
+			"cost": 35000,
+			"materials": [
+				{
+					"id": "MovementOfAnAncientChord",
+					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u697d\u7ae0",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "OperativesConstancy",
+					"name": "\u5f93\u8005\u306e\u6642\u3005\u523b\u3005",
+					"amount": 9,
+					"rarity": 4
+				},
+				{
+					"id": "ArtificedDynamicGear",
+					"name": "\u5947\u68b0\u306e\u30b3\u30a2\u6b6f\u8eca",
+					"amount": 6,
+					"rarity": 3
+				}
+			]
+		},
+		{
+			"ascension": 6,
+			"level": 90,
+			"cost": 45000,
+			"materials": [
+				{
+					"id": "EchoOfAnAncientChord",
+					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u97ff\u304d",
+					"amount": 4,
+					"rarity": 5
+				},
+				{
+					"id": "OperativesConstancy",
+					"name": "\u5f93\u8005\u306e\u6642\u3005\u523b\u3005",
+					"amount": 18,
+					"rarity": 4
+				},
+				{
+					"id": "ArtificedDynamicGear",
+					"name": "\u5947\u68b0\u306e\u30b3\u30a2\u6b6f\u8eca",
+					"amount": 12,
+					"rarity": 3
+				}
+			]
+		}
+	],
+	"refinement_raw": {
+		"name": "\u77f3\u5de5\u306e\u5504",
+		"template": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span style=\"color:#99FFFFFF\">{1}\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002",
+		"params": [
+			["3%", "7%"],
+			["4%", "8.5%"],
+			["5%", "10%"],
+			["6%", "11.5%"],
+			["7%", "13%"]
+		]
+	},
+	"refinements": [
+		{
+			"refinement": 1,
+			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+3%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+7%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
+		},
+		{
+			"refinement": 2,
+			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+4%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+8.5%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
+		},
+		{
+			"refinement": 3,
+			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+5%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+10%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
+		},
+		{
+			"refinement": 4,
+			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+6%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+11.5%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
+		},
+		{
+			"refinement": 5,
+			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+7%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+13%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
+		}
+	],
+	"pictures": {
+		"icon": "Weapon/ProspectorsDrill/Icon.webp"
+	}
 }

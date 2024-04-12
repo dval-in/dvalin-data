@@ -1,1087 +1,935 @@
 {
-  "id": "TravelerGeo",
-  "name": "Reisender (Geo)",
-  "description": "Ein Reisender weit entfernt von der Heimat auf der Suche nach den Sieben, um seine Schwester wiederzufinden.",
-  "weaponType": "Einhänder",
-  "element": "Geo",
-  "gender": "Männlich/Weiblich",
-  "substat": "ANG%",
-  "affiliation": "——",
-  "rarity": 5,
-  "birthday": "null/null",
-  "constellation": "Viator",
-  "domain": "Villa Taishan",
-  "cv": {
-    "english": "Zach Aguilar & Corina Boettger",
-    "chinese": "鹿喑&多多poi",
-    "japanese": "堀江瞬&古賀葵",
-    "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackForeignRockblade",
-      "name": "Standardangriff: Steinerne Klinge aus der Fremde",
-      "description": "<span>Standardangriff</span><br/>Führt bis zu 5 Schwerthiebe hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "SCH Phase 1",
-          "values": [
-            "44.46%",
-            "48.08%",
-            "51.7%",
-            "56.87%",
-            "60.49%",
-            "64.63%",
-            "70.31%",
-            "76%",
-            "81.69%",
-            "87.89%",
-            "94.09%",
-            "100.3%",
-            "106.5%",
-            "112.71%",
-            "118.91%"
-          ]
-        },
-        {
-          "label": "SCH Phase 2",
-          "values": [
-            "43.43%",
-            "46.97%",
-            "50.5%",
-            "55.55%",
-            "59.08%",
-            "63.13%",
-            "68.68%",
-            "74.23%",
-            "79.79%",
-            "85.85%",
-            "91.91%",
-            "97.97%",
-            "104.03%",
-            "110.09%",
-            "116.15%"
-          ]
-        },
-        {
-          "label": "SCH Phase 3",
-          "values": [
-            "52.98%",
-            "57.29%",
-            "61.6%",
-            "67.76%",
-            "72.07%",
-            "77%",
-            "83.78%",
-            "90.55%",
-            "97.33%",
-            "104.72%",
-            "112.11%",
-            "119.5%",
-            "126.9%",
-            "134.29%",
-            "141.68%"
-          ]
-        },
-        {
-          "label": "SCH Phase 4",
-          "values": [
-            "58.31%",
-            "63.05%",
-            "67.8%",
-            "74.58%",
-            "79.33%",
-            "84.75%",
-            "92.21%",
-            "99.67%",
-            "107.12%",
-            "115.26%",
-            "123.4%",
-            "131.53%",
-            "139.67%",
-            "147.8%",
-            "155.94%"
-          ]
-        },
-        {
-          "label": "SCH Phase 5",
-          "values": [
-            "70.78%",
-            "76.54%",
-            "82.3%",
-            "90.53%",
-            "96.29%",
-            "102.87%",
-            "111.93%",
-            "120.98%",
-            "130.03%",
-            "139.91%",
-            "149.79%",
-            "159.66%",
-            "169.54%",
-            "179.41%",
-            "189.29%"
-          ]
-        },
-        {
-          "label": "SCH heftiger Schläge",
-          "values": [
-            "55.9% + 60.72%",
-            "60.45% + 65.66%",
-            "65% + 70.6%",
-            "71.5% + 77.66%",
-            "76.05% + 82.6%",
-            "81.25% + 88.25%",
-            "88.4% + 96.02%",
-            "95.55% + 103.78%",
-            "102.7% + 111.55%",
-            "110.5% + 120.02%",
-            "118.3% + 128.49%",
-            "126.1% + 136.96%",
-            "133.9% + 145.44%",
-            "141.7% + 153.91%",
-            "149.5% + 162.38%"
-          ]
-        },
-        {
-          "label": "Ausdauerverbrauch heftiger Schläge",
-          "values": [
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen",
-          "values": [
-            "63.93%",
-            "69.14%",
-            "74.34%",
-            "81.77%",
-            "86.98%",
-            "92.93%",
-            "101.1%",
-            "109.28%",
-            "117.46%",
-            "126.38%",
-            "135.3%",
-            "144.22%",
-            "153.14%",
-            "162.06%",
-            "170.98%"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen aus niedriger/großer Höhe",
-          "values": [
-            "127.84% / 159.68%",
-            "138.24% / 172.67%",
-            "148.65% / 185.67%",
-            "163.51% / 204.24%",
-            "173.92% / 217.23%",
-            "185.81% / 232.09%",
-            "202.16% / 252.51%",
-            "218.51% / 272.93%",
-            "234.86% / 293.36%",
-            "252.7% / 315.64%",
-            "270.54% / 337.92%",
-            "288.38% / 360.2%",
-            "306.22% / 382.48%",
-            "324.05% / 404.76%",
-            "341.89% / 427.04%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "StarfellSword",
-      "name": "Sternschnuppenschwert",
-      "description": "Ein Brocken bricht aus der Erde heraus, explodiert und verursacht <span>Geo-Flächenschaden</span>.<br/>Der gefallene Stern gilt als <span>Geo-Objekt</span>, blockiert Angriffe und kann erklommen werden.<br/><br/><span>Gedrückt halten</span><br/>Wirkungsbereich der Fähigkeit kann angepasst werden.",
-      "info": "Du hast mit Paimon darüber gesprochen, wo Sternschnuppen wohl landen.",
-      "attributes": [
-        {
-          "label": "Fähigkeits-SCH",
-          "values": [
-            "248%",
-            "266.6%",
-            "285.2%",
-            "310%",
-            "328.6%",
-            "347.2%",
-            "372%",
-            "396.8%",
-            "421.6%",
-            "446.4%",
-            "471.2%",
-            "496%",
-            "527%",
-            "558%",
-            "589%"
-          ]
-        },
-        {
-          "label": "Wirkungsdauer des gefallenen Sterns",
-          "values": [
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s",
-            "30 s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s",
-            "8 s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "WakeOfEarth",
-      "name": "Aufgetürmter Steinwall",
-      "description": "Aktiviert die Geo-Kräfte tief in der Erde und verursacht eine Schockwelle.<br/>Stößt Gegner in der Umgebung zurück und verursacht <span>Geo-Flächenschaden</span>.<br/>Erschafft danach einen Steinwall am Rand der Druckwelle.<br/>Der Steinwall gilt als <span>Geo-Objekt</span> und blockiert Angriffe.",
-      "info": "Du hast mit Paimon die Bewegungen der Erdplatten studiert.",
-      "attributes": [
-        {
-          "label": "SCH pro Druckwelle",
-          "values": [
-            "148%",
-            "159.1%",
-            "170.2%",
-            "185%",
-            "196.1%",
-            "207.2%",
-            "222%",
-            "236.8%",
-            "251.6%",
-            "266.4%",
-            "281.2%",
-            "296%",
-            "314.5%",
-            "333%",
-            "351.5%"
-          ]
-        },
-        {
-          "label": "Wirkungsdauer des Steinwalls",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s",
-            "15 s"
-          ]
-        },
-        {
-          "label": "Elementarenergie",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "ShatteredDarkrock",
-      "name": "Zerspringende Felsen",
-      "description": "Verkürzt die Abklingzeit von <span>Sternschnuppenschwert</span> um 2 s.",
-      "level": 1
-    },
-    {
-      "id": "FrenziedRockslide",
-      "name": "Rasanter Erdrutsch",
-      "description": "Verursacht beim letzten Schlag des Standardangriffs einen Zusammenbruch und fügt Gegnern im Wirkungsbereich <span>Geo-Schaden</span> in Höhe von 60 % ANG zu.",
-      "level": 4
-    }
-  ],
-  "constellations": [
-    {
-      "id": "InvincibleStonewall",
-      "name": "Hoher Steinwall",
-      "description": "Erhöht die KT, wenn eine Figur in der Truppe vom Steinwall von <span>Aufgetürmter Steinwall</span> umringt ist, um 10 % und erhöht den Unterbrechungs-WDS.",
-      "level": 1
-    },
-    {
-      "id": "RockcoreMeltdown",
-      "name": "Instabiler Kern",
-      "description": "Der gefallene Stern von <span>Sternschnuppenschwert</span> explodiert, sobald er zerstört wird, und fügt Gegnern in der Umgebung zusätzlichen <span>Geo-Flächenschaden</span> in Höhe des Schadens von Sternschnuppenschwert zu.",
-      "level": 2
-    },
-    {
-      "id": "WillOfTheRock",
-      "name": "Felsen ringsumher",
-      "description": "Erhöht die Stufe der Fähigkeit <span>Aufgetürmter Steinwall</span> um 3.<br/>Höchststufe 15.",
-      "level": 3
-    },
-    {
-      "id": "ReactionForce",
-      "name": "Schroffer Felsen",
-      "description": "Stellt für jeden von der Druckwelle von <span>Aufgetürmter Steinwall</span> getroffenen Gegner 5 Punkte Elementarenergie wieder her.<br/>Insgesamt können auf diese Weise bis zu 25 Punkte Elementarenergie pro Anwendung wiederhergestellt werden.",
-      "level": 4
-    },
-    {
-      "id": "MeteoriteImpact",
-      "name": "Meteoriteneinschlag",
-      "description": "Erhöht die Stufe der Fähigkeit <span>Sternschnuppenschwert</span> um 3.<br/>Höchststufe 15.",
-      "level": 5
-    },
-    {
-      "id": "EverlastingBoulder",
-      "name": "Unvergänglicher Felsbrocken",
-      "description": "Verlängert die Wirkungsdauer des Steinwalls von <span>Aufgetürmter Steinwall</span> um 5 s.<br/>Verlängert die Wirkungsdauer des gefallenen Sterns von <span>Sternschnuppenschwert</span> um 10 s.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "-",
-            "912"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "-",
-            "18"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "-",
-            "57"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "-",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "2342",
-            "3024"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "46",
-            "59"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "147",
-            "190"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "0.0%",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "4529",
-            "5013"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "88",
-            "98"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "284",
-            "315"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "0.0%",
-            "6.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondSliver",
-        "name": "Brillantsplitter",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windmühlenaster",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "DamagedMask",
-        "name": "Zerbrochene Maske",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "5766",
-            "6411"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "113",
-            "125"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "362",
-            "402"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "6.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondFragment",
-        "name": "Brillantbruchstück",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windmühlenaster",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "DamagedMask",
-        "name": "Zerbrochene Maske",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "7164",
-            "7648"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "140",
-            "149"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "450",
-            "480"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "12.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondFragment",
-        "name": "Brillantbruchstück",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windmühlenaster",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "StainedMask",
-        "name": "Verdreckte Maske",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "8401",
-            "8885"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "164",
-            "174"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "527",
-            "558"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "12.0%",
-            "18.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondChunk",
-        "name": "Brillantbrocken",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windmühlenaster",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "StainedMask",
-        "name": "Verdreckte Maske",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "9638",
-            "10122"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "188",
-            "198"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "605",
-            "635"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "18.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondChunk",
-        "name": "Brillantbrocken",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windmühlenaster",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "OminousMask",
-        "name": "Unheilvolle Maske",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "10875",
-            "10875"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "212",
-            "212"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "683",
-            "683"
-          ]
-        },
-        {
-          "label": "ANG%",
-          "values": [
-            "24.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondGemstone",
-        "name": "Brillant",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windmühlenaster",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "OminousMask",
-        "name": "Unheilvolle Maske",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfProsperity",
-          "name": "Lehren des „Wohlstands“",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "FirmArrowhead",
-          "name": "Stabile Bolzenspitze",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Anleitung zum „Fleiß“",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Scharfe Bolzenspitze",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToGold",
-          "name": "Anleitung zum „Gold“",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Scharfe Bolzenspitze",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToProsperity",
-          "name": "Anleitung zum „Wohlstand“",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Scharfe Bolzenspitze",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "Anleitung zum „Fleiß“",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Scharfe Bolzenspitze",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfGold",
-          "name": "Philosophie des „Golds“",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Abgenutzte Bolzenspitze",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "Schwanz des Nordwinds",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfProsperity",
-          "name": "Philosophie des „Wohlstands“",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Abgenutzte Bolzenspitze",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "Schwanz des Nordwinds",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "Philosophie des „Fleißes“",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Abgenutzte Bolzenspitze",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "Schwanz des Nordwinds",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfGold",
-          "name": "Philosophie des „Golds“",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Abgenutzte Bolzenspitze",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "Schwanz des Nordwinds",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Krone der Weisheit",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Traveler/Icon.webp",
-    "sideIcon": "Character/Traveler/SideIcon.webp",
-    "gatchaCard": "Character/Traveler/GachaCard.webp",
-    "gachaSplash": "",
-    "face": "",
-    "halfFace": "",
-    "profile": "",
-    "weaponStance": ""
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "",
-  "specialDish": "",
-  "tcgCharacterCard": "",
-  "outfits": [
-    {
-      "id": "RisingStar",
-      "name": "Aufgehender Stern",
-      "description": "Die Kleidung der Reisenden(des Reisenden). Ein praktisches Set an Kleidung, das sie auf ihrer langen Reise begleitet.",
-      "picture": "Character/Traveler/Outfit/RisingStar.webp"
-    }
-  ]
+	"id": "TravelerGeo",
+	"name": "Reisender (Geo)",
+	"description": "Ein Reisender weit entfernt von der Heimat auf der Suche nach den Sieben, um seine Schwester wiederzufinden.",
+	"weaponType": "Einhänder",
+	"element": "Geo",
+	"gender": "Männlich/Weiblich",
+	"substat": "ANG%",
+	"affiliation": "——",
+	"rarity": 5,
+	"birthday": "null/null",
+	"constellation": "Viator",
+	"domain": "Villa Taishan",
+	"cv": {
+		"english": "Zach Aguilar & Corina Boettger",
+		"chinese": "鹿喑&多多poi",
+		"japanese": "堀江瞬&古賀葵",
+		"korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackForeignRockblade",
+			"name": "Standardangriff: Steinerne Klinge aus der Fremde",
+			"description": "StandardangriffFührt bis zu 5 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "SCH Phase 1",
+					"values": [
+						"44.46%",
+						"48.08%",
+						"51.7%",
+						"56.87%",
+						"60.49%",
+						"64.63%",
+						"70.31%",
+						"76%",
+						"81.69%",
+						"87.89%",
+						"94.09%",
+						"100.3%",
+						"106.5%",
+						"112.71%",
+						"118.91%"
+					]
+				},
+				{
+					"label": "SCH Phase 2",
+					"values": [
+						"43.43%",
+						"46.97%",
+						"50.5%",
+						"55.55%",
+						"59.08%",
+						"63.13%",
+						"68.68%",
+						"74.23%",
+						"79.79%",
+						"85.85%",
+						"91.91%",
+						"97.97%",
+						"104.03%",
+						"110.09%",
+						"116.15%"
+					]
+				},
+				{
+					"label": "SCH Phase 3",
+					"values": [
+						"52.98%",
+						"57.29%",
+						"61.6%",
+						"67.76%",
+						"72.07%",
+						"77%",
+						"83.78%",
+						"90.55%",
+						"97.33%",
+						"104.72%",
+						"112.11%",
+						"119.5%",
+						"126.9%",
+						"134.29%",
+						"141.68%"
+					]
+				},
+				{
+					"label": "SCH Phase 4",
+					"values": [
+						"58.31%",
+						"63.05%",
+						"67.8%",
+						"74.58%",
+						"79.33%",
+						"84.75%",
+						"92.21%",
+						"99.67%",
+						"107.12%",
+						"115.26%",
+						"123.4%",
+						"131.53%",
+						"139.67%",
+						"147.8%",
+						"155.94%"
+					]
+				},
+				{
+					"label": "SCH Phase 5",
+					"values": [
+						"70.78%",
+						"76.54%",
+						"82.3%",
+						"90.53%",
+						"96.29%",
+						"102.87%",
+						"111.93%",
+						"120.98%",
+						"130.03%",
+						"139.91%",
+						"149.79%",
+						"159.66%",
+						"169.54%",
+						"179.41%",
+						"189.29%"
+					]
+				},
+				{
+					"label": "SCH heftiger Schläge",
+					"values": [
+						"55.9% + 60.72%",
+						"60.45% + 65.66%",
+						"65% + 70.6%",
+						"71.5% + 77.66%",
+						"76.05% + 82.6%",
+						"81.25% + 88.25%",
+						"88.4% + 96.02%",
+						"95.55% + 103.78%",
+						"102.7% + 111.55%",
+						"110.5% + 120.02%",
+						"118.3% + 128.49%",
+						"126.1% + 136.96%",
+						"133.9% + 145.44%",
+						"141.7% + 153.91%",
+						"149.5% + 162.38%"
+					]
+				},
+				{
+					"label": "Ausdauerverbrauch heftiger Schläge",
+					"values": [
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte"
+					]
+				},
+				{
+					"label": "SCH beim Fallen",
+					"values": [
+						"63.93%",
+						"69.14%",
+						"74.34%",
+						"81.77%",
+						"86.98%",
+						"92.93%",
+						"101.1%",
+						"109.28%",
+						"117.46%",
+						"126.38%",
+						"135.3%",
+						"144.22%",
+						"153.14%",
+						"162.06%",
+						"170.98%"
+					]
+				},
+				{
+					"label": "SCH beim Fallen aus niedriger/großer Höhe",
+					"values": [
+						"127.84% / 159.68%",
+						"138.24% / 172.67%",
+						"148.65% / 185.67%",
+						"163.51% / 204.24%",
+						"173.92% / 217.23%",
+						"185.81% / 232.09%",
+						"202.16% / 252.51%",
+						"218.51% / 272.93%",
+						"234.86% / 293.36%",
+						"252.7% / 315.64%",
+						"270.54% / 337.92%",
+						"288.38% / 360.2%",
+						"306.22% / 382.48%",
+						"324.05% / 404.76%",
+						"341.89% / 427.04%"
+					]
+				}
+			]
+		},
+		{
+			"id": "StarfellSword",
+			"name": "Sternschnuppenschwert",
+			"description": "Ein Brocken bricht aus der Erde heraus, explodiert und verursacht Geo-Flächenschaden.Der gefallene Stern gilt als Geo-Objekt, blockiert Angriffe und kann erklommen werden.Gedrückt haltenWirkungsbereich der Fähigkeit kann angepasst werden.",
+			"info": "Du hast mit Paimon darüber gesprochen, wo Sternschnuppen wohl landen.",
+			"attributes": [
+				{
+					"label": "Fähigkeits-SCH",
+					"values": [
+						"248%",
+						"266.6%",
+						"285.2%",
+						"310%",
+						"328.6%",
+						"347.2%",
+						"372%",
+						"396.8%",
+						"421.6%",
+						"446.4%",
+						"471.2%",
+						"496%",
+						"527%",
+						"558%",
+						"589%"
+					]
+				},
+				{
+					"label": "Wirkungsdauer des gefallenen Sterns",
+					"values": [
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s",
+						"30 s"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s",
+						"8 s"
+					]
+				}
+			]
+		},
+		{
+			"id": "WakeOfEarth",
+			"name": "Aufgetürmter Steinwall",
+			"description": "Aktiviert die Geo-Kräfte tief in der Erde und verursacht eine Schockwelle.Stößt Gegner in der Umgebung zurück und verursacht Geo-Flächenschaden.Erschafft danach einen Steinwall am Rand der Druckwelle.Der Steinwall gilt als Geo-Objekt und blockiert Angriffe.",
+			"info": "Du hast mit Paimon die Bewegungen der Erdplatten studiert.",
+			"attributes": [
+				{
+					"label": "SCH pro Druckwelle",
+					"values": [
+						"148%",
+						"159.1%",
+						"170.2%",
+						"185%",
+						"196.1%",
+						"207.2%",
+						"222%",
+						"236.8%",
+						"251.6%",
+						"266.4%",
+						"281.2%",
+						"296%",
+						"314.5%",
+						"333%",
+						"351.5%"
+					]
+				},
+				{
+					"label": "Wirkungsdauer des Steinwalls",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s",
+						"15 s"
+					]
+				},
+				{
+					"label": "Elementarenergie",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "ShatteredDarkrock",
+			"name": "Zerspringende Felsen",
+			"description": "Verkürzt die Abklingzeit von Sternschnuppenschwert um 2 s.",
+			"level": 1
+		},
+		{
+			"id": "FrenziedRockslide",
+			"name": "Rasanter Erdrutsch",
+			"description": "Verursacht beim letzten Schlag des Standardangriffs einen Zusammenbruch und fügt Gegnern im Wirkungsbereich Geo-Schaden in Höhe von 60 % ANG zu.",
+			"level": 4
+		}
+	],
+	"constellations": [
+		{
+			"id": "InvincibleStonewall",
+			"name": "Hoher Steinwall",
+			"description": "Erhöht die KT, wenn eine Figur in der Truppe vom Steinwall von Aufgetürmter Steinwall umringt ist, um 10 % und erhöht den Unterbrechungs-WDS.",
+			"level": 1
+		},
+		{
+			"id": "RockcoreMeltdown",
+			"name": "Instabiler Kern",
+			"description": "Der gefallene Stern von Sternschnuppenschwert explodiert, sobald er zerstört wird, und fügt Gegnern in der Umgebung zusätzlichen Geo-Flächenschaden in Höhe des Schadens von Sternschnuppenschwert zu.",
+			"level": 2
+		},
+		{
+			"id": "WillOfTheRock",
+			"name": "Felsen ringsumher",
+			"description": "Erhöht die Stufe der Fähigkeit Aufgetürmter Steinwall um 3.Höchststufe 15.",
+			"level": 3
+		},
+		{
+			"id": "ReactionForce",
+			"name": "Schroffer Felsen",
+			"description": "Stellt für jeden von der Druckwelle von Aufgetürmter Steinwall getroffenen Gegner 5 Punkte Elementarenergie wieder her.Insgesamt können auf diese Weise bis zu 25 Punkte Elementarenergie pro Anwendung wiederhergestellt werden.",
+			"level": 4
+		},
+		{
+			"id": "MeteoriteImpact",
+			"name": "Meteoriteneinschlag",
+			"description": "Erhöht die Stufe der Fähigkeit Sternschnuppenschwert um 3.Höchststufe 15.",
+			"level": 5
+		},
+		{
+			"id": "EverlastingBoulder",
+			"name": "Unvergänglicher Felsbrocken",
+			"description": "Verlängert die Wirkungsdauer des Steinwalls von Aufgetürmter Steinwall um 5 s.Verlängert die Wirkungsdauer des gefallenen Sterns von Sternschnuppenschwert um 10 s.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["-", "912"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["-", "18"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["-", "57"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["-", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [0, 1]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["2342", "3024"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["46", "59"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["147", "190"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["0.0%", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [1, 2]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["4529", "5013"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["88", "98"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["284", "315"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["0.0%", "6.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondSliver",
+				"name": "Brillantsplitter",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windmühlenaster",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "DamagedMask",
+				"name": "Zerbrochene Maske",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [2, 3]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["5766", "6411"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["113", "125"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["362", "402"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["6.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondFragment",
+				"name": "Brillantbruchstück",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windmühlenaster",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "DamagedMask",
+				"name": "Zerbrochene Maske",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [3, 4]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["7164", "7648"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["140", "149"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["450", "480"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["12.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondFragment",
+				"name": "Brillantbruchstück",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windmühlenaster",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "StainedMask",
+				"name": "Verdreckte Maske",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [4, 5]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["8401", "8885"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["164", "174"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["527", "558"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["12.0%", "18.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondChunk",
+				"name": "Brillantbrocken",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windmühlenaster",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "StainedMask",
+				"name": "Verdreckte Maske",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [5, 6]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["9638", "10122"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["188", "198"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["605", "635"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["18.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondChunk",
+				"name": "Brillantbrocken",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windmühlenaster",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "OminousMask",
+				"name": "Unheilvolle Maske",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [6, 7]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["10875", "10875"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["212", "212"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["683", "683"]
+				},
+				{
+					"label": "ANG%",
+					"values": ["24.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondGemstone",
+				"name": "Brillant",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windmühlenaster",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "OminousMask",
+				"name": "Unheilvolle Maske",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfProsperity",
+					"name": "Lehren des „Wohlstands“",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "FirmArrowhead",
+					"name": "Stabile Bolzenspitze",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Anleitung zum „Fleiß“",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Scharfe Bolzenspitze",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToGold",
+					"name": "Anleitung zum „Gold“",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Scharfe Bolzenspitze",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToProsperity",
+					"name": "Anleitung zum „Wohlstand“",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Scharfe Bolzenspitze",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "Anleitung zum „Fleiß“",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Scharfe Bolzenspitze",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfGold",
+					"name": "Philosophie des „Golds“",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Abgenutzte Bolzenspitze",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "Schwanz des Nordwinds",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfProsperity",
+					"name": "Philosophie des „Wohlstands“",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Abgenutzte Bolzenspitze",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "Schwanz des Nordwinds",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "Philosophie des „Fleißes“",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Abgenutzte Bolzenspitze",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "Schwanz des Nordwinds",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfGold",
+					"name": "Philosophie des „Golds“",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Abgenutzte Bolzenspitze",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "Schwanz des Nordwinds",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Krone der Weisheit",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Traveler/Icon.webp",
+		"sideIcon": "Character/Traveler/SideIcon.webp",
+		"gatchaCard": "Character/Traveler/GachaCard.webp",
+		"gachaSplash": "",
+		"face": "",
+		"halfFace": "",
+		"profile": "",
+		"weaponStance": ""
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "",
+	"specialDish": "",
+	"tcgCharacterCard": "",
+	"outfits": [
+		{
+			"id": "RisingStar",
+			"name": "Aufgehender Stern",
+			"description": "Die Kleidung der Reisenden(des Reisenden). Ein praktisches Set an Kleidung, das sie auf ihrer langen Reise begleitet.",
+			"picture": "Character/Traveler/Outfit/RisingStar.webp"
+		}
+	]
 }

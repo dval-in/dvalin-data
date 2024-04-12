@@ -23,7 +23,7 @@
 		{
 			"id": "NormalAttackWeavingBlade",
 			"name": "Ataque Normal: Lâmina Tecelã",
-			"description": "<span>Ataque Normal</span><br/>Realiza até 4 golpes rápidos.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.<br/><br/><span>Ataque Imersivo</span><br/>Mergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+			"description": "Ataque NormalRealiza até 4 golpes rápidos.Ataque CarregadoConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando Dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
 			"info": "",
 			"attributes": [
 				{
@@ -128,23 +128,7 @@
 				},
 				{
 					"label": "Consumo de Stamina de Ataque Carregado",
-					"values": [
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20",
-						"20"
-					]
+					"values": ["20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20"]
 				},
 				{
 					"label": "Dano Durante a Queda",
@@ -191,7 +175,7 @@
 		{
 			"id": "FlutteringHasode",
 			"name": "Carícia da Pluma Penada",
-			"description": "Avança rapidamente para a frente com um movimento gracioso das mangas, em seguida, convoca a \"Autômata Tamoto\" e realiza um Ataque de Impulso Ascendente que causa <span>Dano Geo em AdE</span> aos inimigos próximos com base no ATQ e DEF da Chiori.<br/>Essa habilidade é ativada de maneira diferente ao manter pressionado.<br/><br/><span>Manter pressionado</span><br/>Entra no modo de mira para ajustar a direção do avanço.<br/><br/><span>Tamoto</span><br/>· Realiza um ataque a oponentes próximos em intervalos, causando <span>Dano Geo em AdE</span> baseado no ATQ e DEF de Chiori.<br/>· Quando ativa, se houverem <span>Construções Geo</span>, ou <span>Construções Geo</span> que foram criadas nas proximidades, uma Autômata Tamoto adicional será invocada na posição do personagem ativo. Apenas 1 Autômata Tamoto adicional pode ser invocada desta maneira. A duração desta Autômata é contada de forma independente.",
+			"description": "Avança rapidamente para a frente com um movimento gracioso das mangas, em seguida, convoca a \"Autômata Tamoto\" e realiza um Ataque de Impulso Ascendente que causa Dano Geo em AdE aos inimigos próximos com base no ATQ e DEF da Chiori.Essa habilidade é ativada de maneira diferente ao manter pressionado.Manter pressionadoEntra no modo de mira para ajustar a direção do avanço.Tamoto· Realiza um ataque a oponentes próximos em intervalos, causando Dano Geo em AdE baseado no ATQ e DEF de Chiori.· Quando ativa, se houverem Construções Geo, ou Construções Geo que foram criadas nas proximidades, uma Autômata Tamoto adicional será invocada na posição do personagem ativo. Apenas 1 Autômata Tamoto adicional pode ser invocada desta maneira. A duração desta Autômata é contada de forma independente.",
 			"info": "\"O vermelho das cerejeiras tingem o brocado, a fragrância impregna as mangas, as aves estão embriagadas.\"",
 			"attributes": [
 				{
@@ -299,7 +283,7 @@
 		{
 			"id": "HiyokuTwinBlades",
 			"name": "Lâminas Gêmeas: Em Voo",
-			"description": "As espadas gêmeas saem de suas bainhas enquanto Chiori realiza cortes precisos como uma mestre alfaiate, causando <span>Dano Geo em AdE</span> com base em seu ATQ e DEF.",
+			"description": "As espadas gêmeas saem de suas bainhas enquanto Chiori realiza cortes precisos como uma mestre alfaiate, causando Dano Geo em AdE com base em seu ATQ e DEF.",
 			"info": "\"Domine um princípio, e o caminho para todos os outros se abrirá para você.\"",
 			"attributes": [
 				{
@@ -344,23 +328,7 @@
 				},
 				{
 					"label": "Energia Elemental",
-					"values": [
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50",
-						"50"
-					]
+					"values": ["50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50", "50"]
 				}
 			]
 		}
@@ -369,19 +337,19 @@
 		{
 			"id": "Tailormade",
 			"name": "Feito Sob Medida",
-			"description": "Durante um curto período de tempo após executar o Ataque de Impulso Ascendente de <span>Carícia da Pluma Penada</span>, diferentes efeitos são ativados dependendo do que for feito em seguida: se pressionar a Habilidade Elemental, desencadeia \"Costura\"; se pressionar o Ataque Normal, desencadeia \"Bordado\".<br/><br/><span>Costura</span><br/>· Muda para o próximo personagem.<br/>· Aplica o efeito \"Aproveite o Momento\" a todos os personagens da equipe: quando o personagem ativo atingir um inimigo próximo com um Ataque Normal, Carregado ou Imersivo, Tamoto executará um Ataque Coordenado na localização do oponente que inflige <span>Dano Geo em AdE</span> equivalente a 100% do dano do Ataque de Impulso Ascendente de \"Carícia da Pluma Penada\". O Dano infligido dessa forma é considerado dano de Habilidade Elemental.<br/>· O efeito \"Aproveite o Momento\" dura 8s, e Tamoto só pode executar um Ataque Coordenado a cada 2s. Enquanto \"Aproveite o Momento\" estiver ativo, no máximo 2 Ataques Coordenados podem ser executados.<br/><br/><span>Bordado</span>· Chiori obtém<span>Encantamento Geo</span> por 5s.<br/><br/>Quando Chiori está ativa, se não pressionar a Habilidade Elemental novamente ou não executar um Ataque Normal durante o curto período de tempo após realizar o Ataque de Impulso Ascendente de \"Carícia da Pluma Penada\", o efeito de \"Bordado\" será ativado diretamente.",
+			"description": "Durante um curto período de tempo após executar o Ataque de Impulso Ascendente de Carícia da Pluma Penada, diferentes efeitos são ativados dependendo do que for feito em seguida: se pressionar a Habilidade Elemental, desencadeia \"Costura\"; se pressionar o Ataque Normal, desencadeia \"Bordado\".Costura· Muda para o próximo personagem.· Aplica o efeito \"Aproveite o Momento\" a todos os personagens da equipe: quando o personagem ativo atingir um inimigo próximo com um Ataque Normal, Carregado ou Imersivo, Tamoto executará um Ataque Coordenado na localização do oponente que inflige Dano Geo em AdE equivalente a 100% do dano do Ataque de Impulso Ascendente de \"Carícia da Pluma Penada\". O Dano infligido dessa forma é considerado dano de Habilidade Elemental.· O efeito \"Aproveite o Momento\" dura 8s, e Tamoto só pode executar um Ataque Coordenado a cada 2s. Enquanto \"Aproveite o Momento\" estiver ativo, no máximo 2 Ataques Coordenados podem ser executados.Bordado· Chiori obtémEncantamento Geo por 5s.Quando Chiori está ativa, se não pressionar a Habilidade Elemental novamente ou não executar um Ataque Normal durante o curto período de tempo após realizar o Ataque de Impulso Ascendente de \"Carícia da Pluma Penada\", o efeito de \"Bordado\" será ativado diretamente.",
 			"level": 1
 		},
 		{
 			"id": "TheFinishingTouch",
 			"name": "Retoque Final",
-			"description": "Quando um aliado próximo criar uma <span>Construção Geo</span>, Chiori ganha 20% de <span>Bônus de Dano Geo</span> por 20s.",
+			"description": "Quando um aliado próximo criar uma Construção Geo, Chiori ganha 20% de Bônus de Dano Geo por 20s.",
 			"level": 4
 		},
 		{
 			"id": "BrocadedCollarsBeauteousSilhouette",
 			"name": "Silhueta Bela",
-			"description": "Quando qualquer membro do grupo estiver usando um Vestuário que não seja o Vestuário padrão, ou estiver usando um Planador que não seja o \"Planador de Iniciante\", os membros do grupo receberão o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.<br/>Esse efeito não surte efeito em domínios, Domínios Dizimados e Abismo do Espiral. Passos Ágeis não acumula.",
+			"description": "Quando qualquer membro do grupo estiver usando um Vestuário que não seja o Vestuário padrão, ou estiver usando um Planador que não seja o \"Planador de Iniciante\", os membros do grupo receberão o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.Esse efeito não surte efeito em domínios, Domínios Dizimados e Abismo do Espiral. Passos Ágeis não acumula.",
 			"level": 0
 		}
 	],
@@ -389,165 +357,114 @@
 		{
 			"id": "SixPathsOfSageSilkcraft",
 			"name": "Seis Caminhos da Seda da Sabedoria",
-			"description": "A AdE de Autômata Tamoto invocada por <span>Carícia da Pluma Penada</span> é aumentada em 50%.<br/>Além disso, se há outro membro <span>Geo</span> na equipe além de Chiori, Carícia da Pluma Penada vai desencadear o seguinte efeito após a investida:<br/>· Invoca outra Tamoto. Somente uma Tamoto adicional pode existir ao mesmo tempo, seja invocada por Chiori dessa forma ou através da presença de uma Construção Geo.<br/>· Desencadeia o Talento Passivo \"Retoque Final\". Esse efeito requer o desbloqueio do Talento Passivo \"Retoque Final\".",
+			"description": "A AdE de Autômata Tamoto invocada por Carícia da Pluma Penada é aumentada em 50%.Além disso, se há outro membro Geo na equipe além de Chiori, Carícia da Pluma Penada vai desencadear o seguinte efeito após a investida:· Invoca outra Tamoto. Somente uma Tamoto adicional pode existir ao mesmo tempo, seja invocada por Chiori dessa forma ou através da presença de uma Construção Geo.· Desencadeia o Talento Passivo \"Retoque Final\". Esse efeito requer o desbloqueio do Talento Passivo \"Retoque Final\".",
 			"level": 1
 		},
 		{
 			"id": "InFiveColorsDyed",
 			"name": "Em Cinco Cores Tingidas",
-			"description": "Nos 10s após usar <span>Lâminas Gêmeas: Em Voo</span>, uma boneca Autômato Simples \"Kinu\" vai ser invocada perto do personagem ativo a cada 3s. Kinu atacará inimigos próximos, causando <span>Dano Geo em AdE</span> equivalente a 170% do Dano de Tamoto. O Dano causado dessa forma é considerado Dano de Habilidade Elemental.<br/>Kinu sairá do campo de batalha após 1 ataque ou depois de 3s.",
+			"description": "Nos 10s após usar Lâminas Gêmeas: Em Voo, uma boneca Autômato Simples \"Kinu\" vai ser invocada perto do personagem ativo a cada 3s. Kinu atacará inimigos próximos, causando Dano Geo em AdE equivalente a 170% do Dano de Tamoto. O Dano causado dessa forma é considerado Dano de Habilidade Elemental.Kinu sairá do campo de batalha após 1 ataque ou depois de 3s.",
 			"level": 2
 		},
 		{
 			"id": "FourBrocadeEmbellishments",
 			"name": "Quatro Embelezamentos de Brocado",
-			"description": "Aumenta o nível da <span>Carícia da Pluma Penada</span> em 3.<br/>O nível máximo de elevação é 15.",
+			"description": "Aumenta o nível da Carícia da Pluma Penada em 3.O nível máximo de elevação é 15.",
 			"level": 3
 		},
 		{
 			"id": "ATailorsThreeCourtesies",
 			"name": "Três Cortesias da Costura",
-			"description": "Por 8s após acionar qualquer um dos efeitos subsequentes do Talento Passivo \"Feito Sob Medida\", quando os Ataques Normais, Carregados ou Imersivos do seu personagem ativo atual atingirem um oponente, ele convocará o Autômato Simples Kinu próximo a esse oponente. Você pode invocar 1 Kinu dessa forma a cada 1s, e até 3 Kinu podem ser invocados dessa forma em cada instância de \"Feito Sob Medida\" de \"Aproveite o Momento\" ou do efeito \"Bordado\". Esse efeito acima pode ser ativado uma vez a cada 15s.<br/>É necessário desbloquear o Talento Passivo \"Feito Sob Medida\" primeiro.",
+			"description": "Por 8s após acionar qualquer um dos efeitos subsequentes do Talento Passivo \"Feito Sob Medida\", quando os Ataques Normais, Carregados ou Imersivos do seu personagem ativo atual atingirem um oponente, ele convocará o Autômato Simples Kinu próximo a esse oponente. Você pode invocar 1 Kinu dessa forma a cada 1s, e até 3 Kinu podem ser invocados dessa forma em cada instância de \"Feito Sob Medida\" de \"Aproveite o Momento\" ou do efeito \"Bordado\". Esse efeito acima pode ser ativado uma vez a cada 15s.É necessário desbloquear o Talento Passivo \"Feito Sob Medida\" primeiro.",
 			"level": 4
 		},
 		{
 			"id": "TwoSilkenPlumules",
 			"name": "Duas Plumas de Seda",
-			"description": "Aumenta o Nível de <span>Lâminas Gêmeas: Em Voo</span> em 3.<br/>O nível máximo de elevação é 15.",
+			"description": "Aumenta o Nível de Lâminas Gêmeas: Em Voo em 3.O nível máximo de elevação é 15.",
 			"level": 5
 		},
 		{
 			"id": "SolePrinciplePursuit",
 			"name": "Buscando o Princípio Universal",
-			"description": "Depois de desencadear o efeito subsequente do Talento Passivo \"Feito Sob Medida\", a <span>Carícia da Pluma Penada</span> de Chiori vai ter sua recarga reduzida em 12s. É necessário ter desbloqueado o Talento Passivo \"Feito Sob Medida\" primeiro.<br/>Além disso, o Dano causado pelo Ataque Normal de Chiori é aumentado em 235% de sua DEF.",
+			"description": "Depois de desencadear o efeito subsequente do Talento Passivo \"Feito Sob Medida\", a Carícia da Pluma Penada de Chiori vai ter sua recarga reduzida em 12s. É necessário ter desbloqueado o Talento Passivo \"Feito Sob Medida\" primeiro.Além disso, o Dano causado pelo Ataque Normal de Chiori é aumentado em 235% de sua DEF.",
 			"level": 6
 		}
 	],
 	"ascension": [
 		{
-			"level": [
-				1
-			],
+			"level": [1],
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						"-",
-						1
-					]
+					"values": ["-", 1]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"-",
-						"890"
-					]
+					"values": ["-", "890"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"-",
-						"25"
-					]
+					"values": ["-", "25"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"-",
-						"74"
-					]
+					"values": ["-", "74"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"-",
-						"0"
-					]
+					"values": ["-", "0"]
 				}
 			]
 		},
 		{
-			"level": [
-				20
-			],
+			"level": [20],
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						0,
-						1
-					]
+					"values": [0, 1]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"2310",
-						"3073"
-					]
+					"values": ["2310", "3073"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"65",
-						"87"
-					]
+					"values": ["65", "87"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"192",
-						"256"
-					]
+					"values": ["192", "256"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			]
 		},
 		{
-			"level": [
-				40
-			],
+			"level": [40],
 			"cost": 20000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						1,
-						2
-					]
+					"values": [1, 2]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"4598",
-						"5141"
-					]
+					"values": ["4598", "5141"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"130",
-						"145"
-					]
+					"values": ["130", "145"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"383",
-						"428"
-					]
+					"values": ["383", "428"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -570,45 +487,28 @@
 			}
 		},
 		{
-			"level": [
-				50
-			],
+			"level": [50],
 			"cost": 40000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						2,
-						3
-					]
+					"values": [2, 3]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"5915",
-						"6638"
-					]
+					"values": ["5915", "6638"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"167",
-						"187"
-					]
+					"values": ["167", "187"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"493",
-						"553"
-					]
+					"values": ["493", "553"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -637,45 +537,28 @@
 			}
 		},
 		{
-			"level": [
-				60
-			],
+			"level": [60],
 			"cost": 60000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						3,
-						4
-					]
+					"values": [3, 4]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"7420",
-						"7962"
-					]
+					"values": ["7420", "7962"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"209",
-						"225"
-					]
+					"values": ["209", "225"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"618",
-						"663"
-					]
+					"values": ["618", "663"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -704,45 +587,28 @@
 			}
 		},
 		{
-			"level": [
-				70
-			],
+			"level": [70],
 			"cost": 80000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						4,
-						5
-					]
+					"values": [4, 5]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"8751",
-						"9293"
-					]
+					"values": ["8751", "9293"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"247",
-						"262"
-					]
+					"values": ["247", "262"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"729",
-						"774"
-					]
+					"values": ["729", "774"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -771,45 +637,28 @@
 			}
 		},
 		{
-			"level": [
-				80
-			],
+			"level": [80],
 			"cost": 100000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						5,
-						6
-					]
+					"values": [5, 6]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"10091",
-						"10634"
-					]
+					"values": ["10091", "10634"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"285",
-						"300"
-					]
+					"values": ["285", "300"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"841",
-						"886"
-					]
+					"values": ["841", "886"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
@@ -838,45 +687,28 @@
 			}
 		},
 		{
-			"level": [
-				90
-			],
+			"level": [90],
 			"cost": 120000,
 			"stats": [
 				{
 					"label": "Ascender",
-					"values": [
-						6,
-						7
-					]
+					"values": [6, 7]
 				},
 				{
 					"label": "Vida Básica",
-					"values": [
-						"11438",
-						"11438"
-					]
+					"values": ["11438", "11438"]
 				},
 				{
 					"label": "ATQ Básico",
-					"values": [
-						"323",
-						"323"
-					]
+					"values": ["323", "323"]
 				},
 				{
 					"label": "DEF Básica",
-					"values": [
-						"953",
-						"953"
-					]
+					"values": ["953", "953"]
 				},
 				{
 					"label": "Taxa Crítica",
-					"values": [
-						"0",
-						"0"
-					]
+					"values": ["0", "0"]
 				}
 			],
 			"mat1": {
