@@ -1,1205 +1,1037 @@
 {
-  "id": "Bennett",
-  "name": "Bennett",
-  "title": "Trial by Fire",
-  "description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
-  "weaponType": "Sword",
-  "element": "Pyro",
-  "gender": "Male",
-  "substat": "Energy Recharge",
-  "affiliation": "Adventurers' Guild",
-  "region": "Mondstadt",
-  "rarity": 4,
-  "birthday": "29/2",
-  "constellation": "Rota Calamitas",
-  "domain": "Forsaken Rift",
-  "cv": {
-    "english": "Cristina Vee Valenzuela",
-    "chinese": "穆雪婷",
-    "japanese": "逢坂良太",
-    "korean": "Song Ha-rim"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackStrikeOfFortune",
-      "name": "Normal Attack: Strike of Fortune",
-      "description": "<span>Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "1-Hit DMG",
-          "values": [
-            "44.55%",
-            "48.17%",
-            "51.8%",
-            "56.98%",
-            "60.61%",
-            "64.75%",
-            "70.45%",
-            "76.15%",
-            "81.84%",
-            "88.06%",
-            "94.28%",
-            "100.49%",
-            "106.71%",
-            "112.92%",
-            "119.14%"
-          ]
-        },
-        {
-          "label": "2-Hit DMG",
-          "values": [
-            "42.74%",
-            "46.22%",
-            "49.7%",
-            "54.67%",
-            "58.15%",
-            "62.12%",
-            "67.59%",
-            "73.06%",
-            "78.53%",
-            "84.49%",
-            "90.45%",
-            "96.42%",
-            "102.38%",
-            "108.35%",
-            "114.31%"
-          ]
-        },
-        {
-          "label": "3-Hit DMG",
-          "values": [
-            "54.61%",
-            "59.06%",
-            "63.5%",
-            "69.85%",
-            "74.3%",
-            "79.37%",
-            "86.36%",
-            "93.34%",
-            "100.33%",
-            "107.95%",
-            "115.57%",
-            "123.19%",
-            "130.81%",
-            "138.43%",
-            "146.05%"
-          ]
-        },
-        {
-          "label": "4-Hit DMG",
-          "values": [
-            "59.68%",
-            "64.54%",
-            "69.4%",
-            "76.34%",
-            "81.2%",
-            "86.75%",
-            "94.38%",
-            "102.02%",
-            "109.65%",
-            "117.98%",
-            "126.31%",
-            "134.64%",
-            "142.96%",
-            "151.29%",
-            "159.62%"
-          ]
-        },
-        {
-          "label": "5-Hit DMG",
-          "values": [
-            "71.9%",
-            "77.75%",
-            "83.6%",
-            "91.96%",
-            "97.81%",
-            "104.5%",
-            "113.7%",
-            "122.89%",
-            "132.09%",
-            "142.12%",
-            "152.15%",
-            "162.18%",
-            "172.22%",
-            "182.25%",
-            "192.28%"
-          ]
-        },
-        {
-          "label": "Charged Attack DMG",
-          "values": [
-            "55.9% + 60.72%",
-            "60.45% + 65.66%",
-            "65% + 70.6%",
-            "71.5% + 77.66%",
-            "76.05% + 82.6%",
-            "81.25% + 88.25%",
-            "88.4% + 96.02%",
-            "95.55% + 103.78%",
-            "102.7% + 111.55%",
-            "110.5% + 120.02%",
-            "118.3% + 128.49%",
-            "126.1% + 136.96%",
-            "133.9% + 145.44%",
-            "141.7% + 153.91%",
-            "149.5% + 162.38%"
-          ]
-        },
-        {
-          "label": "Charged Attack Stamina Cost",
-          "values": [
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20",
-            "20"
-          ]
-        },
-        {
-          "label": "Plunge DMG",
-          "values": [
-            "63.93%",
-            "69.14%",
-            "74.34%",
-            "81.77%",
-            "86.98%",
-            "92.93%",
-            "101.1%",
-            "109.28%",
-            "117.46%",
-            "126.38%",
-            "135.3%",
-            "144.22%",
-            "153.14%",
-            "162.06%",
-            "170.98%"
-          ]
-        },
-        {
-          "label": "Low/High Plunge DMG",
-          "values": [
-            "127.84% / 159.68%",
-            "138.24% / 172.67%",
-            "148.65% / 185.67%",
-            "163.51% / 204.24%",
-            "173.92% / 217.23%",
-            "185.81% / 232.09%",
-            "202.16% / 252.51%",
-            "218.51% / 272.93%",
-            "234.86% / 293.36%",
-            "252.7% / 315.64%",
-            "270.54% / 337.92%",
-            "288.38% / 360.2%",
-            "306.22% / 382.48%",
-            "324.05% / 404.76%",
-            "341.89% / 427.04%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "PassionOverload",
-      "name": "Passion Overload",
-      "description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...<br/><br/><span>Press</span><br/>A single, swift flame strike that deals <span>Pyro DMG</span>.<br/><br/><span>Hold (Short)</span><br/>Charges up, resulting in different effects when unleashed based on the Charge Level.<br/>·Level 1: Strikes twice, dealing <span>Pyro DMG</span> and launching opponents.<br/>·Level 2: Unleashes 3 consecutive attacks that deal impressive <span>Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.<br/>Bennett takes no damage from being launched.",
-      "info": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
-      "attributes": [
-        {
-          "label": "Press DMG",
-          "values": [
-            "137.6%",
-            "147.92%",
-            "158.24%",
-            "172%",
-            "182.32%",
-            "192.64%",
-            "206.4%",
-            "220.16%",
-            "233.92%",
-            "247.68%",
-            "261.44%",
-            "275.2%",
-            "292.4%",
-            "309.6%",
-            "326.8%"
-          ]
-        },
-        {
-          "label": "Charge Level 1 DMG",
-          "values": [
-            "84% + 92%",
-            "90.3% + 98.9%",
-            "96.6% + 105.8%",
-            "105% + 115%",
-            "111.3% + 121.9%",
-            "117.6% + 128.8%",
-            "126% + 138%",
-            "134.4% + 147.2%",
-            "142.8% + 156.4%",
-            "151.2% + 165.6%",
-            "159.6% + 174.8%",
-            "168% + 184%",
-            "178.5% + 195.5%",
-            "189% + 207%",
-            "199.5% + 218.5%"
-          ]
-        },
-        {
-          "label": "Charge Level 2 DMG",
-          "values": [
-            "88% + 96%",
-            "94.6% + 103.2%",
-            "101.2% + 110.4%",
-            "110% + 120%",
-            "116.6% + 127.2%",
-            "123.2% + 134.4%",
-            "132% + 144%",
-            "140.8% + 153.6%",
-            "149.6% + 163.2%",
-            "158.4% + 172.8%",
-            "167.2% + 182.4%",
-            "176% + 192%",
-            "187% + 204%",
-            "198% + 216%",
-            "209% + 228%"
-          ]
-        },
-        {
-          "label": "Explosion DMG",
-          "values": [
-            "132%",
-            "141.9%",
-            "151.8%",
-            "165%",
-            "174.9%",
-            "184.8%",
-            "198%",
-            "211.2%",
-            "224.4%",
-            "237.6%",
-            "250.8%",
-            "264%",
-            "280.5%",
-            "297%",
-            "313.5%"
-          ]
-        },
-        {
-          "label": "CD",
-          "values": [
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s",
-            "5 / 7.5 / 10s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "FantasticVoyage",
-      "name": "Fantastic Voyage",
-      "description": "Bennett performs a jumping attack that deals <span>Pyro DMG</span>, creating an Inspiration Field.<br/><br/><span>Inspiration Field</span><br/>·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.<br/>·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.<br/>·Imbues characters within the AoE with <span>Pyro</span>.",
-      "info": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
-      "attributes": [
-        {
-          "label": "Skill DMG",
-          "values": [
-            "232.8%",
-            "250.26%",
-            "267.72%",
-            "291%",
-            "308.46%",
-            "325.92%",
-            "349.2%",
-            "372.48%",
-            "395.76%",
-            "419.04%",
-            "442.32%",
-            "465.6%",
-            "494.7%",
-            "523.8%",
-            "552.9%"
-          ]
-        },
-        {
-          "label": "Continuous Regeneration Per Sec",
-          "values": [
-            "6% Max HP + 577",
-            "6.45% Max HP + 635",
-            "6.9% Max HP + 698",
-            "7.5% Max HP + 765",
-            "7.95% Max HP + 837",
-            "8.4% Max HP + 914",
-            "9% Max HP + 996",
-            "9.6% Max HP + 1083",
-            "10.2% Max HP + 1174",
-            "10.8% Max HP + 1270",
-            "11.4% Max HP + 1371",
-            "12% Max HP + 1477",
-            "12.75% Max HP + 1588",
-            "13.5% Max HP + 1703",
-            "14.25% Max HP + 1824"
-          ]
-        },
-        {
-          "label": "ATK Bonus Ratio",
-          "values": [
-            "56%",
-            "60.2%",
-            "64.4%",
-            "70%",
-            "74.2%",
-            "78.4%",
-            "84%",
-            "89.6%",
-            "95.2%",
-            "100.8%",
-            "106.4%",
-            "112%",
-            "119%",
-            "126%",
-            "133%"
-          ]
-        },
-        {
-          "label": "Duration",
-          "values": [
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s"
-          ]
-        },
-        {
-          "label": "CD",
-          "values": [
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s"
-          ]
-        },
-        {
-          "label": "Energy Cost",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "Rekindle",
-      "name": "Rekindle",
-      "description": "Decreases <span>Passion Overload</span>'s CD by 20%.",
-      "level": 1
-    },
-    {
-      "id": "Fearnaught",
-      "name": "Fearnaught",
-      "description": "Within the area created by <span>Fantastic Voyage</span>, <span>Passion Overload</span> takes on the following effects:<br/>·CD is reduced by 50%.<br/>·Bennett will not be launched by the effects of Charge Level 2.",
-      "level": 4
-    },
-    {
-      "id": "ItShouldBeSafe",
-      "name": "It Should Be Safe...",
-      "description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "GrandExpectation",
-      "name": "Grand Expectation",
-      "description": "<span>Fantastic Voyage</span>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
-      "level": 1
-    },
-    {
-      "id": "ImpasseConqueror",
-      "name": "Impasse Conqueror",
-      "description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
-      "level": 2
-    },
-    {
-      "id": "UnstoppableFervor",
-      "name": "Unstoppable Fervor",
-      "description": "Increases the Level of <span>Passion Overload</span> by 3.<br/>Maximum upgrade level is 15.",
-      "level": 3
-    },
-    {
-      "id": "UnexpectedOdyssey",
-      "name": "Unexpected Odyssey",
-      "description": "Using a Normal Attack as the second attack of <span>Passion Overload</span>'s Charge Level 1 will perform a follow-up attack.<br/>This additional attack does 135% of the second attack's DMG.",
-      "level": 4
-    },
-    {
-      "id": "TrueExplorer",
-      "name": "True Explorer",
-      "description": "Increases the Level of <span>Fantastic Voyage</span> by 3.<br/>Maximum upgrade level is 15.",
-      "level": 5
-    },
-    {
-      "id": "FireVenturesWithMe",
-      "name": "Fire Ventures With Me",
-      "description": "Sword, Claymore, or Polearm-wielding characters inside <span>Fantastic Voyage</span>'s radius gain a 15% <span>Pyro DMG Bonus</span> and their weapons are infused with <span>Pyro</span>.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "-",
-            "1039"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "-",
-            "16"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "-",
-            "65"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "-",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "2670",
-            "3447"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "41",
-            "53"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "166",
-            "214"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "5163",
-            "5715"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "80",
-            "88"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "321",
-            "356"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateSliver",
-        "name": "Agnidus Agate Sliver",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windwheel Aster",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "TreasureHoarderInsignia",
-        "name": "Treasure Hoarder Insignia",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "6573",
-            "7309"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "101",
-            "113"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "409",
-            "455"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateFragment",
-        "name": "Agnidus Agate Fragment",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Everflame Seed",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windwheel Aster",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "TreasureHoarderInsignia",
-        "name": "Treasure Hoarder Insignia",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "8168",
-            "8719"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "126",
-            "134"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "508",
-            "542"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateFragment",
-        "name": "Agnidus Agate Fragment",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Everflame Seed",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windwheel Aster",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SilverRavenInsignia",
-        "name": "Silver Raven Insignia",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "9577",
-            "10129"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "148",
-            "156"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "596",
-            "630"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateChunk",
-        "name": "Agnidus Agate Chunk",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Everflame Seed",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windwheel Aster",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SilverRavenInsignia",
-        "name": "Silver Raven Insignia",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "10987",
-            "11539"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "169",
-            "178"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "684",
-            "718"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateChunk",
-        "name": "Agnidus Agate Chunk",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Everflame Seed",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windwheel Aster",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "GoldenRavenInsignia",
-        "name": "Golden Raven Insignia",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Ascend",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Base HP",
-          "values": [
-            "12397",
-            "12397"
-          ]
-        },
-        {
-          "label": "Base ATK",
-          "values": [
-            "191",
-            "191"
-          ]
-        },
-        {
-          "label": "Base DEF",
-          "values": [
-            "771",
-            "771"
-          ]
-        },
-        {
-          "label": "Energy Recharge",
-          "values": [
-            "0",
-            "0"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateGemstone",
-        "name": "Agnidus Agate Gemstone",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Everflame Seed",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "Windwheel Aster",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "GoldenRavenInsignia",
-        "name": "Golden Raven Insignia",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfResistance",
-          "name": "Teachings of Resistance",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "TreasureHoarderInsignia",
-          "name": "Treasure Hoarder Insignia",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToResistance",
-          "name": "Guide to Resistance",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "SilverRavenInsignia",
-          "name": "Silver Raven Insignia",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToResistance",
-          "name": "Guide to Resistance",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "SilverRavenInsignia",
-          "name": "Silver Raven Insignia",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToResistance",
-          "name": "Guide to Resistance",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "SilverRavenInsignia",
-          "name": "Silver Raven Insignia",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToResistance",
-          "name": "Guide to Resistance",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "SilverRavenInsignia",
-          "name": "Silver Raven Insignia",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfResistance",
-          "name": "Philosophies of Resistance",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "GoldenRavenInsignia",
-          "name": "Golden Raven Insignia",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsPlume",
-          "name": "Dvalin's Plume",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfResistance",
-          "name": "Philosophies of Resistance",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "GoldenRavenInsignia",
-          "name": "Golden Raven Insignia",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsPlume",
-          "name": "Dvalin's Plume",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfResistance",
-          "name": "Philosophies of Resistance",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "GoldenRavenInsignia",
-          "name": "Golden Raven Insignia",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsPlume",
-          "name": "Dvalin's Plume",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfResistance",
-          "name": "Philosophies of Resistance",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "GoldenRavenInsignia",
-          "name": "Golden Raven Insignia",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsPlume",
-          "name": "Dvalin's Plume",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Crown of Insight",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Bennett/Icon.webp",
-    "sideIcon": "Character/Bennett/SideIcon.webp",
-    "gatchaCard": "Character/Bennett/GachaCard.webp",
-    "gachaSplash": "Character/Bennett/GachaSplash.webp",
-    "face": "Character/Bennett/Face.webp",
-    "halfFace": "Character/Bennett/HalfFace.webp",
-    "profile": "Character/Bennett/Profile.webp",
-    "weaponStance": "Character/Bennett/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "TravelersHandySword",
-  "specialDish": "TeyvatCharredEgg",
-  "tcgCharacterCard": "Bennett",
-  "outfits": [
-    {
-      "id": "Fortune’sFavor",
-      "name": "Fortune’s Favor",
-      "description": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places.",
-      "picture": "Character/Bennett/Outfit/Fortune’sFavor.webp"
-    }
-  ]
+	"id": "Bennett",
+	"name": "Bennett",
+	"title": "Trial by Fire",
+	"description": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+	"weaponType": "Sword",
+	"element": "Pyro",
+	"gender": "Male",
+	"substat": "Energy Recharge",
+	"affiliation": "Adventurers' Guild",
+	"region": "Mondstadt",
+	"rarity": 4,
+	"birthday": "29/2",
+	"constellation": "Rota Calamitas",
+	"domain": "Forsaken Rift",
+	"cv": {
+		"english": "Cristina Vee Valenzuela",
+		"chinese": "穆雪婷",
+		"japanese": "逢坂良太",
+		"korean": "Song Ha-rim"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackStrikeOfFortune",
+			"name": "Normal Attack: Strike of Fortune",
+			"description": "Normal Attack</span><br/>Performs up to 5 rapid strikes.<br/><br/>Charged Attack</span><br/>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.<br/><br/>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "1-Hit DMG",
+					"values": [
+						"44.55%",
+						"48.17%",
+						"51.8%",
+						"56.98%",
+						"60.61%",
+						"64.75%",
+						"70.45%",
+						"76.15%",
+						"81.84%",
+						"88.06%",
+						"94.28%",
+						"100.49%",
+						"106.71%",
+						"112.92%",
+						"119.14%"
+					]
+				},
+				{
+					"label": "2-Hit DMG",
+					"values": [
+						"42.74%",
+						"46.22%",
+						"49.7%",
+						"54.67%",
+						"58.15%",
+						"62.12%",
+						"67.59%",
+						"73.06%",
+						"78.53%",
+						"84.49%",
+						"90.45%",
+						"96.42%",
+						"102.38%",
+						"108.35%",
+						"114.31%"
+					]
+				},
+				{
+					"label": "3-Hit DMG",
+					"values": [
+						"54.61%",
+						"59.06%",
+						"63.5%",
+						"69.85%",
+						"74.3%",
+						"79.37%",
+						"86.36%",
+						"93.34%",
+						"100.33%",
+						"107.95%",
+						"115.57%",
+						"123.19%",
+						"130.81%",
+						"138.43%",
+						"146.05%"
+					]
+				},
+				{
+					"label": "4-Hit DMG",
+					"values": [
+						"59.68%",
+						"64.54%",
+						"69.4%",
+						"76.34%",
+						"81.2%",
+						"86.75%",
+						"94.38%",
+						"102.02%",
+						"109.65%",
+						"117.98%",
+						"126.31%",
+						"134.64%",
+						"142.96%",
+						"151.29%",
+						"159.62%"
+					]
+				},
+				{
+					"label": "5-Hit DMG",
+					"values": [
+						"71.9%",
+						"77.75%",
+						"83.6%",
+						"91.96%",
+						"97.81%",
+						"104.5%",
+						"113.7%",
+						"122.89%",
+						"132.09%",
+						"142.12%",
+						"152.15%",
+						"162.18%",
+						"172.22%",
+						"182.25%",
+						"192.28%"
+					]
+				},
+				{
+					"label": "Charged Attack DMG",
+					"values": [
+						"55.9% + 60.72%",
+						"60.45% + 65.66%",
+						"65% + 70.6%",
+						"71.5% + 77.66%",
+						"76.05% + 82.6%",
+						"81.25% + 88.25%",
+						"88.4% + 96.02%",
+						"95.55% + 103.78%",
+						"102.7% + 111.55%",
+						"110.5% + 120.02%",
+						"118.3% + 128.49%",
+						"126.1% + 136.96%",
+						"133.9% + 145.44%",
+						"141.7% + 153.91%",
+						"149.5% + 162.38%"
+					]
+				},
+				{
+					"label": "Charged Attack Stamina Cost",
+					"values": ["20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20", "20"]
+				},
+				{
+					"label": "Plunge DMG",
+					"values": [
+						"63.93%",
+						"69.14%",
+						"74.34%",
+						"81.77%",
+						"86.98%",
+						"92.93%",
+						"101.1%",
+						"109.28%",
+						"117.46%",
+						"126.38%",
+						"135.3%",
+						"144.22%",
+						"153.14%",
+						"162.06%",
+						"170.98%"
+					]
+				},
+				{
+					"label": "Low/High Plunge DMG",
+					"values": [
+						"127.84% / 159.68%",
+						"138.24% / 172.67%",
+						"148.65% / 185.67%",
+						"163.51% / 204.24%",
+						"173.92% / 217.23%",
+						"185.81% / 232.09%",
+						"202.16% / 252.51%",
+						"218.51% / 272.93%",
+						"234.86% / 293.36%",
+						"252.7% / 315.64%",
+						"270.54% / 337.92%",
+						"288.38% / 360.2%",
+						"306.22% / 382.48%",
+						"324.05% / 404.76%",
+						"341.89% / 427.04%"
+					]
+				}
+			]
+		},
+		{
+			"id": "PassionOverload",
+			"name": "Passion Overload",
+			"description": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...<br/><br/>Press</span><br/>A single, swift flame strike that deals Pyro DMG</span>.<br/><br/>Hold (Short)</span><br/>Charges up, resulting in different effects when unleashed based on the Charge Level.<br/>·Level 1: Strikes twice, dealing Pyro DMG</span> and launching opponents.<br/>·Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG</span>, but the last attack triggers an explosion that launches both Bennett and the enemy.<br/>Bennett takes no damage from being launched.",
+			"info": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
+			"attributes": [
+				{
+					"label": "Press DMG",
+					"values": [
+						"137.6%",
+						"147.92%",
+						"158.24%",
+						"172%",
+						"182.32%",
+						"192.64%",
+						"206.4%",
+						"220.16%",
+						"233.92%",
+						"247.68%",
+						"261.44%",
+						"275.2%",
+						"292.4%",
+						"309.6%",
+						"326.8%"
+					]
+				},
+				{
+					"label": "Charge Level 1 DMG",
+					"values": [
+						"84% + 92%",
+						"90.3% + 98.9%",
+						"96.6% + 105.8%",
+						"105% + 115%",
+						"111.3% + 121.9%",
+						"117.6% + 128.8%",
+						"126% + 138%",
+						"134.4% + 147.2%",
+						"142.8% + 156.4%",
+						"151.2% + 165.6%",
+						"159.6% + 174.8%",
+						"168% + 184%",
+						"178.5% + 195.5%",
+						"189% + 207%",
+						"199.5% + 218.5%"
+					]
+				},
+				{
+					"label": "Charge Level 2 DMG",
+					"values": [
+						"88% + 96%",
+						"94.6% + 103.2%",
+						"101.2% + 110.4%",
+						"110% + 120%",
+						"116.6% + 127.2%",
+						"123.2% + 134.4%",
+						"132% + 144%",
+						"140.8% + 153.6%",
+						"149.6% + 163.2%",
+						"158.4% + 172.8%",
+						"167.2% + 182.4%",
+						"176% + 192%",
+						"187% + 204%",
+						"198% + 216%",
+						"209% + 228%"
+					]
+				},
+				{
+					"label": "Explosion DMG",
+					"values": [
+						"132%",
+						"141.9%",
+						"151.8%",
+						"165%",
+						"174.9%",
+						"184.8%",
+						"198%",
+						"211.2%",
+						"224.4%",
+						"237.6%",
+						"250.8%",
+						"264%",
+						"280.5%",
+						"297%",
+						"313.5%"
+					]
+				},
+				{
+					"label": "CD",
+					"values": [
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s",
+						"5 / 7.5 / 10s"
+					]
+				}
+			]
+		},
+		{
+			"id": "FantasticVoyage",
+			"name": "Fantastic Voyage",
+			"description": "Bennett performs a jumping attack that deals Pyro DMG</span>, creating an Inspiration Field.<br/><br/>Inspiration Field</span><br/>·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.<br/>·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.<br/>·Imbues characters within the AoE with Pyro</span>.",
+			"info": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
+			"attributes": [
+				{
+					"label": "Skill DMG",
+					"values": [
+						"232.8%",
+						"250.26%",
+						"267.72%",
+						"291%",
+						"308.46%",
+						"325.92%",
+						"349.2%",
+						"372.48%",
+						"395.76%",
+						"419.04%",
+						"442.32%",
+						"465.6%",
+						"494.7%",
+						"523.8%",
+						"552.9%"
+					]
+				},
+				{
+					"label": "Continuous Regeneration Per Sec",
+					"values": [
+						"6% Max HP + 577",
+						"6.45% Max HP + 635",
+						"6.9% Max HP + 698",
+						"7.5% Max HP + 765",
+						"7.95% Max HP + 837",
+						"8.4% Max HP + 914",
+						"9% Max HP + 996",
+						"9.6% Max HP + 1083",
+						"10.2% Max HP + 1174",
+						"10.8% Max HP + 1270",
+						"11.4% Max HP + 1371",
+						"12% Max HP + 1477",
+						"12.75% Max HP + 1588",
+						"13.5% Max HP + 1703",
+						"14.25% Max HP + 1824"
+					]
+				},
+				{
+					"label": "ATK Bonus Ratio",
+					"values": [
+						"56%",
+						"60.2%",
+						"64.4%",
+						"70%",
+						"74.2%",
+						"78.4%",
+						"84%",
+						"89.6%",
+						"95.2%",
+						"100.8%",
+						"106.4%",
+						"112%",
+						"119%",
+						"126%",
+						"133%"
+					]
+				},
+				{
+					"label": "Duration",
+					"values": [
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s"
+					]
+				},
+				{
+					"label": "CD",
+					"values": [
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s"
+					]
+				},
+				{
+					"label": "Energy Cost",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "Rekindle",
+			"name": "Rekindle",
+			"description": "Decreases Passion Overload</span>'s CD by 20%.",
+			"level": 1
+		},
+		{
+			"id": "Fearnaught",
+			"name": "Fearnaught",
+			"description": "Within the area created by Fantastic Voyage</span>, Passion Overload</span> takes on the following effects:<br/>·CD is reduced by 50%.<br/>·Bennett will not be launched by the effects of Charge Level 2.",
+			"level": 4
+		},
+		{
+			"id": "ItShouldBeSafe",
+			"name": "It Should Be Safe...",
+			"description": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "GrandExpectation",
+			"name": "Grand Expectation",
+			"description": "Fantastic Voyage</span>'s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+			"level": 1
+		},
+		{
+			"id": "ImpasseConqueror",
+			"name": "Impasse Conqueror",
+			"description": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+			"level": 2
+		},
+		{
+			"id": "UnstoppableFervor",
+			"name": "Unstoppable Fervor",
+			"description": "Increases the Level of Passion Overload</span> by 3.<br/>Maximum upgrade level is 15.",
+			"level": 3
+		},
+		{
+			"id": "UnexpectedOdyssey",
+			"name": "Unexpected Odyssey",
+			"description": "Using a Normal Attack as the second attack of Passion Overload</span>'s Charge Level 1 will perform a follow-up attack.<br/>This additional attack does 135% of the second attack's DMG.",
+			"level": 4
+		},
+		{
+			"id": "TrueExplorer",
+			"name": "True Explorer",
+			"description": "Increases the Level of Fantastic Voyage</span> by 3.<br/>Maximum upgrade level is 15.",
+			"level": 5
+		},
+		{
+			"id": "FireVenturesWithMe",
+			"name": "Fire Ventures With Me",
+			"description": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage</span>'s radius gain a 15% Pyro DMG Bonus</span> and their weapons are infused with Pyro</span>.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Base HP",
+					"values": ["-", "1039"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["-", "16"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["-", "65"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["-", "0"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [0, 1]
+				},
+				{
+					"label": "Base HP",
+					"values": ["2670", "3447"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["41", "53"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["166", "214"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [1, 2]
+				},
+				{
+					"label": "Base HP",
+					"values": ["5163", "5715"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["80", "88"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["321", "356"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateSliver",
+				"name": "Agnidus Agate Sliver",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windwheel Aster",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "TreasureHoarderInsignia",
+				"name": "Treasure Hoarder Insignia",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [2, 3]
+				},
+				{
+					"label": "Base HP",
+					"values": ["6573", "7309"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["101", "113"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["409", "455"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateFragment",
+				"name": "Agnidus Agate Fragment",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Everflame Seed",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windwheel Aster",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "TreasureHoarderInsignia",
+				"name": "Treasure Hoarder Insignia",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [3, 4]
+				},
+				{
+					"label": "Base HP",
+					"values": ["8168", "8719"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["126", "134"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["508", "542"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateFragment",
+				"name": "Agnidus Agate Fragment",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Everflame Seed",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windwheel Aster",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SilverRavenInsignia",
+				"name": "Silver Raven Insignia",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [4, 5]
+				},
+				{
+					"label": "Base HP",
+					"values": ["9577", "10129"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["148", "156"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["596", "630"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateChunk",
+				"name": "Agnidus Agate Chunk",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Everflame Seed",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windwheel Aster",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SilverRavenInsignia",
+				"name": "Silver Raven Insignia",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [5, 6]
+				},
+				{
+					"label": "Base HP",
+					"values": ["10987", "11539"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["169", "178"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["684", "718"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateChunk",
+				"name": "Agnidus Agate Chunk",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Everflame Seed",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windwheel Aster",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "GoldenRavenInsignia",
+				"name": "Golden Raven Insignia",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Ascend",
+					"values": [6, 7]
+				},
+				{
+					"label": "Base HP",
+					"values": ["12397", "12397"]
+				},
+				{
+					"label": "Base ATK",
+					"values": ["191", "191"]
+				},
+				{
+					"label": "Base DEF",
+					"values": ["771", "771"]
+				},
+				{
+					"label": "Energy Recharge",
+					"values": ["0", "0"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateGemstone",
+				"name": "Agnidus Agate Gemstone",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Everflame Seed",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "Windwheel Aster",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "GoldenRavenInsignia",
+				"name": "Golden Raven Insignia",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfResistance",
+					"name": "Teachings of Resistance",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "TreasureHoarderInsignia",
+					"name": "Treasure Hoarder Insignia",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToResistance",
+					"name": "Guide to Resistance",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "SilverRavenInsignia",
+					"name": "Silver Raven Insignia",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToResistance",
+					"name": "Guide to Resistance",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "SilverRavenInsignia",
+					"name": "Silver Raven Insignia",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToResistance",
+					"name": "Guide to Resistance",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SilverRavenInsignia",
+					"name": "Silver Raven Insignia",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToResistance",
+					"name": "Guide to Resistance",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "SilverRavenInsignia",
+					"name": "Silver Raven Insignia",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfResistance",
+					"name": "Philosophies of Resistance",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "GoldenRavenInsignia",
+					"name": "Golden Raven Insignia",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsPlume",
+					"name": "Dvalin's Plume",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfResistance",
+					"name": "Philosophies of Resistance",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "GoldenRavenInsignia",
+					"name": "Golden Raven Insignia",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsPlume",
+					"name": "Dvalin's Plume",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfResistance",
+					"name": "Philosophies of Resistance",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "GoldenRavenInsignia",
+					"name": "Golden Raven Insignia",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsPlume",
+					"name": "Dvalin's Plume",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfResistance",
+					"name": "Philosophies of Resistance",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "GoldenRavenInsignia",
+					"name": "Golden Raven Insignia",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsPlume",
+					"name": "Dvalin's Plume",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Crown of Insight",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Bennett/Icon.webp",
+		"sideIcon": "Character/Bennett/SideIcon.webp",
+		"gatchaCard": "Character/Bennett/GachaCard.webp",
+		"gachaSplash": "Character/Bennett/GachaSplash.webp",
+		"face": "Character/Bennett/Face.webp",
+		"halfFace": "Character/Bennett/HalfFace.webp",
+		"profile": "Character/Bennett/Profile.webp",
+		"weaponStance": "Character/Bennett/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "TravelersHandySword",
+	"specialDish": "TeyvatCharredEgg",
+	"tcgCharacterCard": "Bennett",
+	"outfits": [
+		{
+			"id": "Fortune’sFavor",
+			"name": "Fortune’s Favor",
+			"description": "Bennett's outfit. An old adventurer's uniform that has been patched and sewn up in various places.",
+			"picture": "Character/Bennett/Outfit/Fortune’sFavor.webp"
+		}
+	]
 }

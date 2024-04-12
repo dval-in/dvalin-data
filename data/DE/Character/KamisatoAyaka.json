@@ -1,1151 +1,993 @@
 {
-  "id": "KamisatoAyaka",
-  "name": "Kamisato Ayaka",
-  "title": "Eisnebelreiher",
-  "description": "Die Tochter des Kamisato-Klans der Yashiro-Verwaltung. Sie ist würdevoll und elegant, klug und stark.",
-  "weaponType": "Einhänder",
-  "element": "Kryo",
-  "gender": "Weiblich",
-  "substat": "KSCH",
-  "affiliation": "Yashiro-Verwaltung",
-  "region": "Inazuma",
-  "rarity": 5,
-  "birthday": "28/9",
-  "constellation": "Grus Nivis",
-  "domain": "Stiefmütterchenhof",
-  "cv": {
-    "english": "Erica Mendez",
-    "chinese": "小N",
-    "japanese": "早見沙織",
-    "korean": "Lee Yoo-ri"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackKamisatoArtKabuki",
-      "name": "Standardangriff: Kamisato-Stil – Naname",
-      "description": "<span>Standardangriff</span><br/>Führt bis zu 5 Schwerthiebe hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer und erschafft beim Schwertziehen einen kräftigen Wind.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "SCH Phase 1",
-          "values": [
-            "45.73%",
-            "49.45%",
-            "53.17%",
-            "58.49%",
-            "62.21%",
-            "66.46%",
-            "72.31%",
-            "78.16%",
-            "84.01%",
-            "90.39%",
-            "96.77%",
-            "103.15%",
-            "109.53%",
-            "115.91%",
-            "122.29%"
-          ]
-        },
-        {
-          "label": "SCH Phase 2",
-          "values": [
-            "48.68%",
-            "52.65%",
-            "56.61%",
-            "62.27%",
-            "66.23%",
-            "70.76%",
-            "76.99%",
-            "83.22%",
-            "89.44%",
-            "96.24%",
-            "103.03%",
-            "109.82%",
-            "116.62%",
-            "123.41%",
-            "130.2%"
-          ]
-        },
-        {
-          "label": "SCH Phase 3",
-          "values": [
-            "62.62%",
-            "67.72%",
-            "72.82%",
-            "80.1%",
-            "85.19%",
-            "91.02%",
-            "99.03%",
-            "107.04%",
-            "115.05%",
-            "123.79%",
-            "132.53%",
-            "141.26%",
-            "150%",
-            "158.74%",
-            "167.48%"
-          ]
-        },
-        {
-          "label": "SCH Phase 4",
-          "values": [
-            "22.65% ×3",
-            "24.49% ×3",
-            "26.33% ×3",
-            "28.97% ×3",
-            "30.81% ×3",
-            "32.92% ×3",
-            "35.81% ×3",
-            "38.71% ×3",
-            "41.61% ×3",
-            "44.77% ×3",
-            "47.93% ×3",
-            "51.09% ×3",
-            "54.25% ×3",
-            "57.41% ×3",
-            "60.57% ×3"
-          ]
-        },
-        {
-          "label": "SCH Phase 5",
-          "values": [
-            "78.18%",
-            "84.55%",
-            "90.91%",
-            "100%",
-            "106.36%",
-            "113.64%",
-            "123.64%",
-            "133.64%",
-            "143.64%",
-            "154.55%",
-            "165.45%",
-            "176.36%",
-            "187.27%",
-            "198.18%",
-            "209.09%"
-          ]
-        },
-        {
-          "label": "SCH heftiger Schläge",
-          "values": [
-            "55.13% ×3",
-            "59.61% ×3",
-            "64.1% ×3",
-            "70.51% ×3",
-            "75% ×3",
-            "80.12% ×3",
-            "87.18% ×3",
-            "94.23% ×3",
-            "101.28% ×3",
-            "108.97% ×3",
-            "116.66% ×3",
-            "124.35% ×3",
-            "132.05% ×3",
-            "139.74% ×3",
-            "147.43% ×3"
-          ]
-        },
-        {
-          "label": "Ausdauerverbrauch heftiger Schläge",
-          "values": [
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte",
-            "20 Punkte"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen",
-          "values": [
-            "63.93%",
-            "69.14%",
-            "74.34%",
-            "81.77%",
-            "86.98%",
-            "92.93%",
-            "101.1%",
-            "109.28%",
-            "117.46%",
-            "126.38%",
-            "135.3%",
-            "144.22%",
-            "153.14%",
-            "162.06%",
-            "170.98%"
-          ]
-        },
-        {
-          "label": "SCH beim Fallen aus niedriger/großer Höhe",
-          "values": [
-            "127.84% / 159.68%",
-            "138.24% / 172.67%",
-            "148.65% / 185.67%",
-            "163.51% / 204.24%",
-            "173.92% / 217.23%",
-            "185.81% / 232.09%",
-            "202.16% / 252.51%",
-            "218.51% / 272.93%",
-            "234.86% / 293.36%",
-            "252.7% / 315.64%",
-            "270.54% / 337.92%",
-            "288.38% / 360.2%",
-            "306.22% / 382.48%",
-            "324.05% / 404.76%",
-            "341.89% / 427.04%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtSenho",
-      "name": "Kamisato-Stil – Senho",
-      "description": "<span>Ersetzt Rennen</span><br/>Eine Bewegung so schnell wie eine Strömung unter den Eisschollen, verbraucht aber Ausdauer.<br/><br/>Kamisato Ayaka kann sich während der Wirkungsdauer von Senho mit hoher Geschwindigkeit auf der Wasseroberfläche fortbewegen.<br/>Verursacht beim Erscheinen am Ende von Senho folgende Effekte:<br/>· Nutzt die Kraft der Kälte und fügt Gegnern in der Umgebung das <span>Kryo</span>-Attribut zu.<br/>· Konzentriert die Kälte auf dem Schwert, sodass Kamisato Ayaka kurzzeitig das <span>Kryo</span>-Attribut erhält.",
-      "info": "Die Wassertropfen auf den Federn des Reihers verschwinden in nur einem Augenblick. Wie schafft er es, auf dem Wasser zu laufen?",
-      "attributes": [
-        {
-          "label": "Ausdauerverbrauch bei Anwendung",
-          "values": [
-            "10 Punkte"
-          ]
-        },
-        {
-          "label": "Fortlaufender Ausdauerverbrauch",
-          "values": [
-            "15 Punkte pros"
-          ]
-        },
-        {
-          "label": "Elementarumwandlungsdauer",
-          "values": [
-            "5 s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtHyouka",
-      "name": "Kamisato-Stil – Hyouka",
-      "description": "Beschwört eine aufgehende Eisblüte, die Gegner in der Nähe wegschleudert und <span>Kryo-Flächenschaden</span> verursacht.",
-      "info": "„Bei helle Wolken und in nebligen Mondnächten setzt sich Verlangen nieder wie Dunst und ein einsames Herz wird von der Lust zu wandern beseelt.“",
-      "attributes": [
-        {
-          "label": "Fähigkeits-SCH",
-          "values": [
-            "239.2%",
-            "257.14%",
-            "275.08%",
-            "299%",
-            "316.94%",
-            "334.88%",
-            "358.8%",
-            "382.72%",
-            "406.64%",
-            "430.56%",
-            "454.48%",
-            "478.4%",
-            "508.3%",
-            "538.2%",
-            "568.1%"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "KamisatoArtSoumetsu",
-      "name": "Kamisato-Stil – Soumetsu",
-      "description": "Konzentriert Frost mit eleganter Haltung und beschwört eine sich fortlaufend nach vorn bewegende Frostflocke Seki no To.<br/><br/><span>Frostflocke Seki no To</span><br/>· Schlitzt Gegner mit messerscharfem Frostwind auf und verursacht <span>Kryo-Schaden</span>.<br/>· Erschafft am Ende der Wirkungsdauer eine Blüte, die <span>Kryo-Flächenschaden</span> verursacht.",
-      "info": "„Der Schneesturm bläst und erdrückt den Reiher, dass mein Geist friert und meine Brust mit Mitleid erfüllt wird.“",
-      "attributes": [
-        {
-          "label": "SCH beim Schlitzen",
-          "values": [
-            "112.3%",
-            "120.72%",
-            "129.15%",
-            "140.37%",
-            "148.8%",
-            "157.22%",
-            "168.45%",
-            "179.68%",
-            "190.91%",
-            "202.14%",
-            "213.37%",
-            "224.6%",
-            "238.64%",
-            "252.68%",
-            "266.71%"
-          ]
-        },
-        {
-          "label": "SCH beim Erblühen",
-          "values": [
-            "168.45%",
-            "181.08%",
-            "193.72%",
-            "210.56%",
-            "223.2%",
-            "235.83%",
-            "252.68%",
-            "269.52%",
-            "286.37%",
-            "303.21%",
-            "320.06%",
-            "336.9%",
-            "357.96%",
-            "379.01%",
-            "400.07%"
-          ]
-        },
-        {
-          "label": "Dauer",
-          "values": [
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s",
-            "5 s"
-          ]
-        },
-        {
-          "label": "Abklingzeit",
-          "values": [
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s"
-          ]
-        },
-        {
-          "label": "Elementarenergie",
-          "values": [
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "AmatsumiKunitsumiSanctification",
-      "name": "Amatsumi-Kunitsumi-Weihe",
-      "description": "Erhöht den von Kamisato Ayaka mit Standardangriffen und heftigen Schlägen verursachten Schaden nach Anwendung von <span>Kamisato-Stil – Hyouka</span> 6 s lang um 30 %.",
-      "level": 1
-    },
-    {
-      "id": "KantenSenmyouBlessing",
-      "name": "Kanten-Senmyou-Segen",
-      "description": "Gewährt Kamisato Ayaka beim Treffen von Gegnern mit der Kälte, die am Ende von <span>Kamisato-Stil – Senho</span> freigesetzt wird, folgende Effekte:<br/>· Stellt 10 Punkte Ausdauer wieder her.<br/>· Erhöht den <span>Kryo-Schaden</span> 10 s lang um 18 %.",
-      "level": 4
-    },
-    {
-      "id": "FruitsOfShinsa",
-      "name": "Shinsa-Früchte",
-      "description": "Stellt beim Zusammensetzen von Material zum Aufstieg von Waffen mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "SnowsweptSakura",
-      "name": "Verschneite Sakura",
-      "description": "Verkürzt beim Verursachen von <span>Kryo-Schaden</span> gegenüber Gegnern mit Standardangriffen oder heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % die Abklingzeit von <span>Kamisato-Stil – Hyouka</span> um 0,3 s. 0,1 s Abklingzeit.",
-      "level": 1
-    },
-    {
-      "id": "BlizzardBladeSekiNoTo",
-      "name": "Sturmklinge Seki no To",
-      "description": "Erschafft bei Anwendung von <span>Kamisato-Stil – Soumetsu</span> zwei zusätzliche kleinere Frostflocken Seki no To, die jeweils 20 % des ursprünglichen Schadens verursachen.",
-      "level": 2
-    },
-    {
-      "id": "FrostbloomKamifubuki",
-      "name": "Frostblüte Kamifubuki",
-      "description": "Erhöht die Stufe der Fähigkeit <span>Kamisato-Stil – Soumetsu</span> um 3.<br/>Höchststufe 15.",
-      "level": 3
-    },
-    {
-      "id": "EbbAndFlow",
-      "name": "Ebbe und Flut",
-      "description": "Verringert, wenn Gegner durch die Frostflocken Seki no To von <span>Kamisato-Stil – Soumetsu</span> Schaden erleiden, die VTD 6 s lang um 30 %.",
-      "level": 4
-    },
-    {
-      "id": "BlossomCloudIrutsuki",
-      "name": "Blütenwolke Irutsuki",
-      "description": "Erhöht die Stufe der Fähigkeit <span>Kamisato-Stil – Hyouka</span> um 3.<br/>Höchststufe 15.",
-      "level": 5
-    },
-    {
-      "id": "DanceOfSuigetsu",
-      "name": "Suigetsu-Tanz",
-      "description": "Kamisato Ayaka erhält alle 10 s „Usurahi Butou“, das den mit ihren heftigen Schlägen verursachten Schaden um 298 % erhöht. Dieser Effekt wird 0,5 s nach Treffern mit heftigen Schlägen entfernt und die Zeit zum Auslösen wird auch zurückgesetzt.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "-",
-            "1001"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "-",
-            "27"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "-",
-            "61"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "-",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "2597",
-            "3455"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "69",
-            "92"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "158",
-            "211"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "50.0%",
-            "50.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "5170",
-            "5779"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "138",
-            "154"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "315",
-            "352"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "50.0%",
-            "59.6%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeSliver",
-        "name": "Shivada-Jade-Splitter",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "SakuraBloom",
-        "name": "Sakura-Blüte",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "OldHandguard",
-        "name": "Alter Handschutz",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "6649",
-            "7462"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "177",
-            "198"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "405",
-            "455"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "59.6%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Shivada-Jade-Bruchstück",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Ewiges Herz",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SakuraBloom",
-        "name": "Sakura-Blüte",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "OldHandguard",
-        "name": "Alter Handschutz",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "8341",
-            "8951"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "222",
-            "238"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "509",
-            "546"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "69.2%",
-            "69.2%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeFragment",
-        "name": "Shivada-Jade-Bruchstück",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Ewiges Herz",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SakuraBloom",
-        "name": "Sakura-Blüte",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "KageuchiHandguard",
-        "name": "Kageuchi-Handschutz",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "9838",
-            "10448"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "262",
-            "278"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "600",
-            "637"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "69.2%",
-            "78.8%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Shivada-Jade-Brocken",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Ewiges Herz",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SakuraBloom",
-        "name": "Sakura-Blüte",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "KageuchiHandguard",
-        "name": "Kageuchi-Handschutz",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "11345",
-            "11954"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "302",
-            "318"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "692",
-            "729"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "78.8%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeChunk",
-        "name": "Shivada-Jade-Brocken",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Ewiges Herz",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SakuraBloom",
-        "name": "Sakura-Blüte",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "FamedHandguard",
-        "name": "Berühmter Handschutz",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Aufstieg",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Basis-LP",
-          "values": [
-            "12858",
-            "12858"
-          ]
-        },
-        {
-          "label": "Basis-ANG",
-          "values": [
-            "342",
-            "342"
-          ]
-        },
-        {
-          "label": "Basis-VTD",
-          "values": [
-            "784",
-            "784"
-          ]
-        },
-        {
-          "label": "KSCH",
-          "values": [
-            "88.4%",
-            "88.4%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "ShivadaJadeGemstone",
-        "name": "Shivada-Jade",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Ewiges Herz",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SakuraBloom",
-        "name": "Sakura-Blüte",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "FamedHandguard",
-        "name": "Berühmter Handschutz",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfElegance",
-          "name": "Lehren der „Eleganz“",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "OldHandguard",
-          "name": "Alter Handschutz",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToElegance",
-          "name": "Anleitung zur „Eleganz“",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "KageuchiHandguard",
-          "name": "Kageuchi-Handschutz",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToElegance",
-          "name": "Anleitung zur „Eleganz“",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "KageuchiHandguard",
-          "name": "Kageuchi-Handschutz",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToElegance",
-          "name": "Anleitung zur „Eleganz“",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "KageuchiHandguard",
-          "name": "Kageuchi-Handschutz",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToElegance",
-          "name": "Anleitung zur „Eleganz“",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "KageuchiHandguard",
-          "name": "Kageuchi-Handschutz",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfElegance",
-          "name": "Philosophie der „Eleganz“",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "FamedHandguard",
-          "name": "Berühmter Handschutz",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "BloodjadeBranch",
-          "name": "Ast des Drachenbluts",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfElegance",
-          "name": "Philosophie der „Eleganz“",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "FamedHandguard",
-          "name": "Berühmter Handschutz",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "BloodjadeBranch",
-          "name": "Ast des Drachenbluts",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfElegance",
-          "name": "Philosophie der „Eleganz“",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "FamedHandguard",
-          "name": "Berühmter Handschutz",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "BloodjadeBranch",
-          "name": "Ast des Drachenbluts",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfElegance",
-          "name": "Philosophie der „Eleganz“",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "FamedHandguard",
-          "name": "Berühmter Handschutz",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "BloodjadeBranch",
-          "name": "Ast des Drachenbluts",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Krone der Weisheit",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/KamisatoAyaka/Icon.webp",
-    "sideIcon": "Character/KamisatoAyaka/SideIcon.webp",
-    "gatchaCard": "Character/KamisatoAyaka/GachaCard.webp",
-    "gachaSplash": "Character/KamisatoAyaka/GachaSplash.webp",
-    "face": "Character/KamisatoAyaka/Face.webp",
-    "halfFace": "Character/KamisatoAyaka/HalfFace.webp",
-    "profile": "Character/KamisatoAyaka/Profile.webp",
-    "weaponStance": "Character/KamisatoAyaka/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "MistsplitterReforged",
-  "specialDish": "SnowOnTheHearth",
-  "tcgCharacterCard": "KamisatoAyaka",
-  "outfits": [
-    {
-      "id": "FlawlessRadiance",
-      "name": "Glitzernde Ausstrahlung",
-      "description": "Kamisato Ayakas Kleidung. Dieser Kimono verfügt über eine Rüstung, welche den Rock überdeckt und die Reinheit und Unverwüstlichkeit der Shirasagi Himegimi zeigt.",
-      "picture": "Character/KamisatoAyaka/Outfit/FlawlessRadiance.webp"
-    }
-  ]
+	"id": "KamisatoAyaka",
+	"name": "Kamisato Ayaka",
+	"title": "Eisnebelreiher",
+	"description": "Die Tochter des Kamisato-Klans der Yashiro-Verwaltung. Sie ist würdevoll und elegant, klug und stark.",
+	"weaponType": "Einhänder",
+	"element": "Kryo",
+	"gender": "Weiblich",
+	"substat": "KSCH",
+	"affiliation": "Yashiro-Verwaltung",
+	"region": "Inazuma",
+	"rarity": 5,
+	"birthday": "28/9",
+	"constellation": "Grus Nivis",
+	"domain": "Stiefmütterchenhof",
+	"cv": {
+		"english": "Erica Mendez",
+		"chinese": "小N",
+		"japanese": "早見沙織",
+		"korean": "Lee Yoo-ri"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackKamisatoArtKabuki",
+			"name": "Standardangriff: Kamisato-Stil – Naname",
+			"description": "Standardangriff</span><br/>Führt bis zu 5 Schwerthiebe hintereinander aus.<br/><br/>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer und erschafft beim Schwertziehen einen kräftigen Wind.<br/><br/>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "SCH Phase 1",
+					"values": [
+						"45.73%",
+						"49.45%",
+						"53.17%",
+						"58.49%",
+						"62.21%",
+						"66.46%",
+						"72.31%",
+						"78.16%",
+						"84.01%",
+						"90.39%",
+						"96.77%",
+						"103.15%",
+						"109.53%",
+						"115.91%",
+						"122.29%"
+					]
+				},
+				{
+					"label": "SCH Phase 2",
+					"values": [
+						"48.68%",
+						"52.65%",
+						"56.61%",
+						"62.27%",
+						"66.23%",
+						"70.76%",
+						"76.99%",
+						"83.22%",
+						"89.44%",
+						"96.24%",
+						"103.03%",
+						"109.82%",
+						"116.62%",
+						"123.41%",
+						"130.2%"
+					]
+				},
+				{
+					"label": "SCH Phase 3",
+					"values": [
+						"62.62%",
+						"67.72%",
+						"72.82%",
+						"80.1%",
+						"85.19%",
+						"91.02%",
+						"99.03%",
+						"107.04%",
+						"115.05%",
+						"123.79%",
+						"132.53%",
+						"141.26%",
+						"150%",
+						"158.74%",
+						"167.48%"
+					]
+				},
+				{
+					"label": "SCH Phase 4",
+					"values": [
+						"22.65% ×3",
+						"24.49% ×3",
+						"26.33% ×3",
+						"28.97% ×3",
+						"30.81% ×3",
+						"32.92% ×3",
+						"35.81% ×3",
+						"38.71% ×3",
+						"41.61% ×3",
+						"44.77% ×3",
+						"47.93% ×3",
+						"51.09% ×3",
+						"54.25% ×3",
+						"57.41% ×3",
+						"60.57% ×3"
+					]
+				},
+				{
+					"label": "SCH Phase 5",
+					"values": [
+						"78.18%",
+						"84.55%",
+						"90.91%",
+						"100%",
+						"106.36%",
+						"113.64%",
+						"123.64%",
+						"133.64%",
+						"143.64%",
+						"154.55%",
+						"165.45%",
+						"176.36%",
+						"187.27%",
+						"198.18%",
+						"209.09%"
+					]
+				},
+				{
+					"label": "SCH heftiger Schläge",
+					"values": [
+						"55.13% ×3",
+						"59.61% ×3",
+						"64.1% ×3",
+						"70.51% ×3",
+						"75% ×3",
+						"80.12% ×3",
+						"87.18% ×3",
+						"94.23% ×3",
+						"101.28% ×3",
+						"108.97% ×3",
+						"116.66% ×3",
+						"124.35% ×3",
+						"132.05% ×3",
+						"139.74% ×3",
+						"147.43% ×3"
+					]
+				},
+				{
+					"label": "Ausdauerverbrauch heftiger Schläge",
+					"values": [
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte",
+						"20 Punkte"
+					]
+				},
+				{
+					"label": "SCH beim Fallen",
+					"values": [
+						"63.93%",
+						"69.14%",
+						"74.34%",
+						"81.77%",
+						"86.98%",
+						"92.93%",
+						"101.1%",
+						"109.28%",
+						"117.46%",
+						"126.38%",
+						"135.3%",
+						"144.22%",
+						"153.14%",
+						"162.06%",
+						"170.98%"
+					]
+				},
+				{
+					"label": "SCH beim Fallen aus niedriger/großer Höhe",
+					"values": [
+						"127.84% / 159.68%",
+						"138.24% / 172.67%",
+						"148.65% / 185.67%",
+						"163.51% / 204.24%",
+						"173.92% / 217.23%",
+						"185.81% / 232.09%",
+						"202.16% / 252.51%",
+						"218.51% / 272.93%",
+						"234.86% / 293.36%",
+						"252.7% / 315.64%",
+						"270.54% / 337.92%",
+						"288.38% / 360.2%",
+						"306.22% / 382.48%",
+						"324.05% / 404.76%",
+						"341.89% / 427.04%"
+					]
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtSenho",
+			"name": "Kamisato-Stil – Senho",
+			"description": "Ersetzt Rennen</span><br/>Eine Bewegung so schnell wie eine Strömung unter den Eisschollen, verbraucht aber Ausdauer.<br/><br/>Kamisato Ayaka kann sich während der Wirkungsdauer von Senho mit hoher Geschwindigkeit auf der Wasseroberfläche fortbewegen.<br/>Verursacht beim Erscheinen am Ende von Senho folgende Effekte:<br/>· Nutzt die Kraft der Kälte und fügt Gegnern in der Umgebung das Kryo</span>-Attribut zu.<br/>· Konzentriert die Kälte auf dem Schwert, sodass Kamisato Ayaka kurzzeitig das Kryo</span>-Attribut erhält.",
+			"info": "Die Wassertropfen auf den Federn des Reihers verschwinden in nur einem Augenblick. Wie schafft er es, auf dem Wasser zu laufen?",
+			"attributes": [
+				{
+					"label": "Ausdauerverbrauch bei Anwendung",
+					"values": ["10 Punkte"]
+				},
+				{
+					"label": "Fortlaufender Ausdauerverbrauch",
+					"values": ["15 Punkte pros"]
+				},
+				{
+					"label": "Elementarumwandlungsdauer",
+					"values": ["5 s"]
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtHyouka",
+			"name": "Kamisato-Stil – Hyouka",
+			"description": "Beschwört eine aufgehende Eisblüte, die Gegner in der Nähe wegschleudert und Kryo-Flächenschaden</span> verursacht.",
+			"info": "„Bei helle Wolken und in nebligen Mondnächten setzt sich Verlangen nieder wie Dunst und ein einsames Herz wird von der Lust zu wandern beseelt.“",
+			"attributes": [
+				{
+					"label": "Fähigkeits-SCH",
+					"values": [
+						"239.2%",
+						"257.14%",
+						"275.08%",
+						"299%",
+						"316.94%",
+						"334.88%",
+						"358.8%",
+						"382.72%",
+						"406.64%",
+						"430.56%",
+						"454.48%",
+						"478.4%",
+						"508.3%",
+						"538.2%",
+						"568.1%"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s"
+					]
+				}
+			]
+		},
+		{
+			"id": "KamisatoArtSoumetsu",
+			"name": "Kamisato-Stil – Soumetsu",
+			"description": "Konzentriert Frost mit eleganter Haltung und beschwört eine sich fortlaufend nach vorn bewegende Frostflocke Seki no To.<br/><br/>Frostflocke Seki no To</span><br/>· Schlitzt Gegner mit messerscharfem Frostwind auf und verursacht Kryo-Schaden</span>.<br/>· Erschafft am Ende der Wirkungsdauer eine Blüte, die Kryo-Flächenschaden</span> verursacht.",
+			"info": "„Der Schneesturm bläst und erdrückt den Reiher, dass mein Geist friert und meine Brust mit Mitleid erfüllt wird.“",
+			"attributes": [
+				{
+					"label": "SCH beim Schlitzen",
+					"values": [
+						"112.3%",
+						"120.72%",
+						"129.15%",
+						"140.37%",
+						"148.8%",
+						"157.22%",
+						"168.45%",
+						"179.68%",
+						"190.91%",
+						"202.14%",
+						"213.37%",
+						"224.6%",
+						"238.64%",
+						"252.68%",
+						"266.71%"
+					]
+				},
+				{
+					"label": "SCH beim Erblühen",
+					"values": [
+						"168.45%",
+						"181.08%",
+						"193.72%",
+						"210.56%",
+						"223.2%",
+						"235.83%",
+						"252.68%",
+						"269.52%",
+						"286.37%",
+						"303.21%",
+						"320.06%",
+						"336.9%",
+						"357.96%",
+						"379.01%",
+						"400.07%"
+					]
+				},
+				{
+					"label": "Dauer",
+					"values": [
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s",
+						"5 s"
+					]
+				},
+				{
+					"label": "Abklingzeit",
+					"values": [
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s"
+					]
+				},
+				{
+					"label": "Elementarenergie",
+					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "AmatsumiKunitsumiSanctification",
+			"name": "Amatsumi-Kunitsumi-Weihe",
+			"description": "Erhöht den von Kamisato Ayaka mit Standardangriffen und heftigen Schlägen verursachten Schaden nach Anwendung von Kamisato-Stil – Hyouka</span> 6 s lang um 30 %.",
+			"level": 1
+		},
+		{
+			"id": "KantenSenmyouBlessing",
+			"name": "Kanten-Senmyou-Segen",
+			"description": "Gewährt Kamisato Ayaka beim Treffen von Gegnern mit der Kälte, die am Ende von Kamisato-Stil – Senho</span> freigesetzt wird, folgende Effekte:<br/>· Stellt 10 Punkte Ausdauer wieder her.<br/>· Erhöht den Kryo-Schaden</span> 10 s lang um 18 %.",
+			"level": 4
+		},
+		{
+			"id": "FruitsOfShinsa",
+			"name": "Shinsa-Früchte",
+			"description": "Stellt beim Zusammensetzen von Material zum Aufstieg von Waffen mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "SnowsweptSakura",
+			"name": "Verschneite Sakura",
+			"description": "Verkürzt beim Verursachen von Kryo-Schaden</span> gegenüber Gegnern mit Standardangriffen oder heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % die Abklingzeit von Kamisato-Stil – Hyouka</span> um 0,3 s. 0,1 s Abklingzeit.",
+			"level": 1
+		},
+		{
+			"id": "BlizzardBladeSekiNoTo",
+			"name": "Sturmklinge Seki no To",
+			"description": "Erschafft bei Anwendung von Kamisato-Stil – Soumetsu</span> zwei zusätzliche kleinere Frostflocken Seki no To, die jeweils 20 % des ursprünglichen Schadens verursachen.",
+			"level": 2
+		},
+		{
+			"id": "FrostbloomKamifubuki",
+			"name": "Frostblüte Kamifubuki",
+			"description": "Erhöht die Stufe der Fähigkeit Kamisato-Stil – Soumetsu</span> um 3.<br/>Höchststufe 15.",
+			"level": 3
+		},
+		{
+			"id": "EbbAndFlow",
+			"name": "Ebbe und Flut",
+			"description": "Verringert, wenn Gegner durch die Frostflocken Seki no To von Kamisato-Stil – Soumetsu</span> Schaden erleiden, die VTD 6 s lang um 30 %.",
+			"level": 4
+		},
+		{
+			"id": "BlossomCloudIrutsuki",
+			"name": "Blütenwolke Irutsuki",
+			"description": "Erhöht die Stufe der Fähigkeit Kamisato-Stil – Hyouka</span> um 3.<br/>Höchststufe 15.",
+			"level": 5
+		},
+		{
+			"id": "DanceOfSuigetsu",
+			"name": "Suigetsu-Tanz",
+			"description": "Kamisato Ayaka erhält alle 10 s „Usurahi Butou“, das den mit ihren heftigen Schlägen verursachten Schaden um 298 % erhöht. Dieser Effekt wird 0,5 s nach Treffern mit heftigen Schlägen entfernt und die Zeit zum Auslösen wird auch zurückgesetzt.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["-", "1001"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["-", "27"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["-", "61"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["-", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [0, 1]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["2597", "3455"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["69", "92"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["158", "211"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["50.0%", "50.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [1, 2]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["5170", "5779"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["138", "154"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["315", "352"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["50.0%", "59.6%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeSliver",
+				"name": "Shivada-Jade-Splitter",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "SakuraBloom",
+				"name": "Sakura-Blüte",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "OldHandguard",
+				"name": "Alter Handschutz",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [2, 3]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["6649", "7462"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["177", "198"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["405", "455"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["59.6%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada-Jade-Bruchstück",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Ewiges Herz",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SakuraBloom",
+				"name": "Sakura-Blüte",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "OldHandguard",
+				"name": "Alter Handschutz",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [3, 4]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["8341", "8951"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["222", "238"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["509", "546"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["69.2%", "69.2%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeFragment",
+				"name": "Shivada-Jade-Bruchstück",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Ewiges Herz",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SakuraBloom",
+				"name": "Sakura-Blüte",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "KageuchiHandguard",
+				"name": "Kageuchi-Handschutz",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [4, 5]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["9838", "10448"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["262", "278"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["600", "637"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["69.2%", "78.8%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada-Jade-Brocken",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Ewiges Herz",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SakuraBloom",
+				"name": "Sakura-Blüte",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "KageuchiHandguard",
+				"name": "Kageuchi-Handschutz",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [5, 6]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["11345", "11954"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["302", "318"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["692", "729"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["78.8%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeChunk",
+				"name": "Shivada-Jade-Brocken",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Ewiges Herz",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SakuraBloom",
+				"name": "Sakura-Blüte",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "FamedHandguard",
+				"name": "Berühmter Handschutz",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Aufstieg",
+					"values": [6, 7]
+				},
+				{
+					"label": "Basis-LP",
+					"values": ["12858", "12858"]
+				},
+				{
+					"label": "Basis-ANG",
+					"values": ["342", "342"]
+				},
+				{
+					"label": "Basis-VTD",
+					"values": ["784", "784"]
+				},
+				{
+					"label": "KSCH",
+					"values": ["88.4%", "88.4%"]
+				}
+			],
+			"mat1": {
+				"id": "ShivadaJadeGemstone",
+				"name": "Shivada-Jade",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Ewiges Herz",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SakuraBloom",
+				"name": "Sakura-Blüte",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "FamedHandguard",
+				"name": "Berühmter Handschutz",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfElegance",
+					"name": "Lehren der „Eleganz“",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "OldHandguard",
+					"name": "Alter Handschutz",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToElegance",
+					"name": "Anleitung zur „Eleganz“",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "KageuchiHandguard",
+					"name": "Kageuchi-Handschutz",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToElegance",
+					"name": "Anleitung zur „Eleganz“",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "KageuchiHandguard",
+					"name": "Kageuchi-Handschutz",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToElegance",
+					"name": "Anleitung zur „Eleganz“",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "KageuchiHandguard",
+					"name": "Kageuchi-Handschutz",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToElegance",
+					"name": "Anleitung zur „Eleganz“",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "KageuchiHandguard",
+					"name": "Kageuchi-Handschutz",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfElegance",
+					"name": "Philosophie der „Eleganz“",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "FamedHandguard",
+					"name": "Berühmter Handschutz",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "BloodjadeBranch",
+					"name": "Ast des Drachenbluts",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfElegance",
+					"name": "Philosophie der „Eleganz“",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "FamedHandguard",
+					"name": "Berühmter Handschutz",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "BloodjadeBranch",
+					"name": "Ast des Drachenbluts",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfElegance",
+					"name": "Philosophie der „Eleganz“",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "FamedHandguard",
+					"name": "Berühmter Handschutz",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "BloodjadeBranch",
+					"name": "Ast des Drachenbluts",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfElegance",
+					"name": "Philosophie der „Eleganz“",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "FamedHandguard",
+					"name": "Berühmter Handschutz",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "BloodjadeBranch",
+					"name": "Ast des Drachenbluts",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Krone der Weisheit",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/KamisatoAyaka/Icon.webp",
+		"sideIcon": "Character/KamisatoAyaka/SideIcon.webp",
+		"gatchaCard": "Character/KamisatoAyaka/GachaCard.webp",
+		"gachaSplash": "Character/KamisatoAyaka/GachaSplash.webp",
+		"face": "Character/KamisatoAyaka/Face.webp",
+		"halfFace": "Character/KamisatoAyaka/HalfFace.webp",
+		"profile": "Character/KamisatoAyaka/Profile.webp",
+		"weaponStance": "Character/KamisatoAyaka/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "MistsplitterReforged",
+	"specialDish": "SnowOnTheHearth",
+	"tcgCharacterCard": "KamisatoAyaka",
+	"outfits": [
+		{
+			"id": "FlawlessRadiance",
+			"name": "Glitzernde Ausstrahlung",
+			"description": "Kamisato Ayakas Kleidung. Dieser Kimono verfügt über eine Rüstung, welche den Rock überdeckt und die Reinheit und Unverwüstlichkeit der Shirasagi Himegimi zeigt.",
+			"picture": "Character/KamisatoAyaka/Outfit/FlawlessRadiance.webp"
+		}
+	]
 }

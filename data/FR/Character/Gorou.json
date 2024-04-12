@@ -1,1165 +1,1013 @@
 {
-  "id": "Gorou",
-  "name": "Gorou",
-  "title": "Guerrier canin",
-  "description": "Le grand général des forces de l'Île de Watatsumi, en qui ses subordonnés ont profondément confiance.",
-  "weaponType": "Arc",
-  "element": "Géo",
-  "gender": "Homme",
-  "substat": "Bonus de DGT Géo",
-  "affiliation": "Île de Watatsumi",
-  "region": "Inazuma",
-  "rarity": 4,
-  "birthday": "18/5",
-  "constellation": "Canis Bellatoris",
-  "domain": "Cour violette",
-  "cv": {
-    "english": "Cory Yee",
-    "chinese": "杨昕燃",
-    "japanese": "畠中祐",
-    "korean": "Lee Sae-byeok"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackRippingFangFletching",
-      "name": "Attaque normale : Empenne aux crocs acérés",
-      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 4 tirs consécutifs.<br/><br/><span>Attaque chargée</span><br/>Effectue un <span>tir visé</span> plus précis infligeant davantage de DGT.<br/>Lors de la visée, la flèche se charge de cristaux de pierre, infligeant des <span>DGT Géo</span> quand elle est complètement chargée.<br/><br/><span>Attaque plongeante</span><br/>Tire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "DGT 1er coup",
-          "values": [
-            "37.75%",
-            "40.83%",
-            "43.9%",
-            "48.29%",
-            "51.36%",
-            "54.87%",
-            "59.7%",
-            "64.53%",
-            "69.36%",
-            "74.63%",
-            "79.9%",
-            "85.17%",
-            "90.43%",
-            "95.7%",
-            "100.97%"
-          ]
-        },
-        {
-          "label": "DGT 2e coup",
-          "values": [
-            "37.15%",
-            "40.18%",
-            "43.2%",
-            "47.52%",
-            "50.54%",
-            "54%",
-            "58.75%",
-            "63.5%",
-            "68.26%",
-            "73.44%",
-            "78.62%",
-            "83.81%",
-            "88.99%",
-            "94.18%",
-            "99.36%"
-          ]
-        },
-        {
-          "label": "DGT 3e coup",
-          "values": [
-            "49.45%",
-            "53.47%",
-            "57.5%",
-            "63.25%",
-            "67.27%",
-            "71.88%",
-            "78.2%",
-            "84.53%",
-            "90.85%",
-            "97.75%",
-            "104.65%",
-            "111.55%",
-            "118.45%",
-            "125.35%",
-            "132.25%"
-          ]
-        },
-        {
-          "label": "DGT 4e coup",
-          "values": [
-            "59%",
-            "63.8%",
-            "68.6%",
-            "75.46%",
-            "80.26%",
-            "85.75%",
-            "93.3%",
-            "100.84%",
-            "108.39%",
-            "116.62%",
-            "124.85%",
-            "133.08%",
-            "141.32%",
-            "149.55%",
-            "157.78%"
-          ]
-        },
-        {
-          "label": "DGT tir visé",
-          "values": [
-            "43.86%",
-            "47.43%",
-            "51%",
-            "56.1%",
-            "59.67%",
-            "63.75%",
-            "69.36%",
-            "74.97%",
-            "80.58%",
-            "86.7%",
-            "92.82%",
-            "98.94%",
-            "105.06%",
-            "111.18%",
-            "117.3%"
-          ]
-        },
-        {
-          "label": "DGT tir visé (pleine charge)",
-          "values": [
-            "124%",
-            "133.3%",
-            "142.6%",
-            "155%",
-            "164.3%",
-            "173.6%",
-            "186%",
-            "198.4%",
-            "210.8%",
-            "223.2%",
-            "235.6%",
-            "248%",
-            "263.5%",
-            "279%",
-            "294.5%"
-          ]
-        },
-        {
-          "label": "DGT durant la chute",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "DGT chute basse/élevée",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "InuzakaAllroundDefense",
-      "name": "Défense intégrale d'Inuzaka",
-      "description": "Inflige des <span>DGT Géo de zone</span> et érige une bannière de général.<br/><br/><span>Bannière de général</span><br/>Accorde les effets suivants aux personnages déployés dans la zone d'effet en fonction de la quantité de personnages de type <span>Géo</span> dans l'équipe au moment de l'utilisation :<br/>· Avoir 1 personnage Géo accorde l'effet Pied ferme : bonus de DÉF.<br/>· Avoir 2 personnages Géo accorde l'effet Imprenabilité : effet précédent + bonus de RÉS à l'interruption.<br/>· Avoir 3 personnages Géo accorde l'effet Fracas : effets précédents + <span>bonus de DGT Géo</span>.<br/><br/>Gorou ne peut générer qu'une bannière de général à la fois, et les personnages ne peuvent bénéficier des effets que d'une seule bannière de général à la fois. Lorsque le personnage quitte la zone, les effets continuent pendant 2 s.<br/><br/><span>Appui long</span><br/>Ajuste la zone où la compétence sera lancée.",
-      "info": "« Adoptez cette formation et nous serons en sécurité, je vous le garantis ! » En tant que général et chef des troupes, la dernière chose que Gorou veut, c'est de voir ses soldats blessés.",
-      "attributes": [
-        {
-          "label": "DGT compétence",
-          "values": [
-            "107.2%",
-            "115.24%",
-            "123.28%",
-            "134%",
-            "142.04%",
-            "150.08%",
-            "160.8%",
-            "171.52%",
-            "182.24%",
-            "192.96%",
-            "203.68%",
-            "214.4%",
-            "227.8%",
-            "241.2%",
-            "254.6%"
-          ]
-        },
-        {
-          "label": "Bonus de DÉF",
-          "values": [
-            "206",
-            "222",
-            "237",
-            "258",
-            "273",
-            "289",
-            "309",
-            "330",
-            "350",
-            "371",
-            "392",
-            "412",
-            "438",
-            "464",
-            "490"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%",
-            "15%"
-          ]
-        },
-        {
-          "label": "Durée",
-          "values": [
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s"
-          ]
-        },
-        {
-          "label": "Temps de recharge",
-          "values": [
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s",
-            "10 s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "JuugaForwardUntoVictory",
-      "name": "Crocs bestiaux : Vers la victoire",
-      "description": "Affichant sa bravoure de général, Gorou inflige des <span>DGT Géo de zone</span> et crée un champ de prestige de général pour enhardir ses compagnons.<br/><br/><span>Prestige de général</span><br/>Les caractéristiques suivantes s'appliquent :<br/>· Ce champ possède des effets identiques à ceux de la bannière de général créée par la compétence élémentaire « Défense intégrale d'Inuzaka », accordant des bonus aux personnages déployés dans la zone d'effet en fonction du nombre de personnages de type <span>Géo</span> dans l'équipe. Le champ se déplace en suivant le personnage déployé.<br/>· Déclenche un effondrement cristallin toutes les 1,5 s qui inflige des <span>DGT Géo de zone</span> à 1 ennemi dans la zone d'effet.<br/>· Attire 1 fragment élémentaire créé par une réaction de Cristallisation dans la zone d'effet vers l'emplacement du personnage déployé toutes les 1,5 s.<br/><br/>Si une bannière de général créée par Gorou est présente lors de l'utilisation, elle sera détruite. De plus, si Gorou utilise sa compétence élémentaire « Défense intégrale d'Inuzaka » alors qu'un prestige de général est actif, il ne crée pas de bannière de général.<br/>Si Gorou est vaincu, les effets du prestige de général sont annulés.",
-      "info": "« Le terrain est à notre avantage ! » Gorou peut s'approprier la topographie du champ de bataille pour faire pencher la balance en sa faveur. Cette technique lui a permis de traverser de nombreux combats contre une opposition en apparence supérieure.",
-      "attributes": [
-        {
-          "label": "DGT compétence",
-          "values": [
-            "98.22% DÉF",
-            "105.58% DÉF",
-            "112.95% DÉF",
-            "122.77% DÉF",
-            "130.14% DÉF",
-            "137.5% DÉF",
-            "147.32% DÉF",
-            "157.15% DÉF",
-            "166.97% DÉF",
-            "176.79% DÉF",
-            "186.61% DÉF",
-            "196.43% DÉF",
-            "208.71% DÉF",
-            "220.99% DÉF",
-            "233.26% DÉF"
-          ]
-        },
-        {
-          "label": "DGT effondrement cristallin",
-          "values": [
-            "61.3% DÉF",
-            "65.9% DÉF",
-            "70.49% DÉF",
-            "76.63% DÉF",
-            "81.22% DÉF",
-            "85.82% DÉF",
-            "91.95% DÉF",
-            "98.08% DÉF",
-            "104.21% DÉF",
-            "110.34% DÉF",
-            "116.47% DÉF",
-            "122.6% DÉF",
-            "130.26% DÉF",
-            "137.93% DÉF",
-            "145.59% DÉF"
-          ]
-        },
-        {
-          "label": "Durée",
-          "values": [
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s",
-            "9 s"
-          ]
-        },
-        {
-          "label": "Temps de recharge",
-          "values": [
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s",
-            "20 s"
-          ]
-        },
-        {
-          "label": "Énergie élémentaire",
-          "values": [
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80",
-            "80"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "HeedlessOfTheWindAndWeather",
-      "name": "Nonchalance du vent et de la pluie",
-      "description": "Pendant 12 s après <span>Crocs bestiaux : Vers la victoire</span>, la DÉF de tous les personnages de l'équipe à proximité augmente de 25 %.",
-      "level": 1
-    },
-    {
-      "id": "AFavorRepaid",
-      "name": "Faveur rendue",
-      "description": "Les DGT des attaques suivantes de Gorou augmentent en fonction de sa DÉF :<br/>· Les DGT de compétence de <span>Défense intégrale d'Inuzaka</span> augmentent à hauteur de 156 % de sa DÉF.<br/>· Les DGT de compétence et les DGT de l'effondrement cristallin de <span>Crocs bestiaux : Vers la victoire</span> augmentent à hauteur de 15,6 % de sa DÉF.",
-      "level": 4
-    },
-    {
-      "id": "SeekerOfShinies",
-      "name": "Chien renifleur",
-      "description": "Affiche l'emplacement des <span>produits d'Inazuma</span> sur la mini-carte.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "RushingHoundSwiftAsTheWind",
-      "name": "Vivacité canine : Célérité du vent",
-      "description": "Lorsqu'un personnage déployé (hormis Gorou) dans la zone d'effet de la <span>bannière de général</span> ou du champ de <span>prestige de général</span> créés par Gorou inflige des DGT Géo à un ennemi, le TdR de <span>Défense intégrale d'Inuzaka</span> de Gorou diminue de 2 s.<br/>Cet effet peut être déclenché une fois toutes les 10 s.",
-      "level": 1
-    },
-    {
-      "id": "SittingHoundSteadyAsAClock",
-      "name": "Repos canin : Aplomb du temps",
-      "description": "Lorsqu'un personnage déployé à proximité obtient un fragment élémentaire généré par une réaction de Cristallisation alors qu'un <span>prestige de général</span> est actif, la durée du prestige de général de Gorou augmente de 1 s.<br/>Cet effet peut être déclenché une fois toutes les 0,1 s, et sa durée peut être prolongée d'un maximum de 3 s de cette manière.",
-      "level": 2
-    },
-    {
-      "id": "MaulingHoundFierceAsFire",
-      "name": "Griffe canine : Frénésie du feu",
-      "description": "Niveau d'aptitude <span>Défense intégrale d'Inuzaka</span> +3.<br/>Niveau max : 15",
-      "level": 3
-    },
-    {
-      "id": "LappingHoundWarmAsWater",
-      "name": "Léchouille canine : Bonté de l'eau",
-      "description": "Lorsque le <span>prestige de général</span> est dans l'état Imprenabilité ou Fracas, il restaure également les PV du personnage déployé dans la zone d'effet toutes les 1,5 s d'une valeur équivalant à 50 % de la DÉF de Gorou.",
-      "level": 4
-    },
-    {
-      "id": "StrikingHoundThunderousForce",
-      "name": "Frappe canine : Élan du tonnerre",
-      "description": "Niveau d'aptitude <span>Crocs bestiaux : Vers la victoire</span> +3.<br/>Niveau max : 15",
-      "level": 5
-    },
-    {
-      "id": "ValiantHoundMountainousFealty",
-      "name": "Vaillance canine : Fidélité de la terre",
-      "description": "Pendant 12 s après <span>Défense intégrale d'Inuzaka</span> ou <span>Crocs bestiaux : Vers la victoire</span>, les DGT CRIT des <span>DGT Géo</span> de tous les personnages de l'équipe à proximité augmentent en fonction du niveau du champ au moment de l'utilisation de la compétence :<br/>· Pied ferme : +10 %.<br/>· Imprenabilité : +20 %.<br/>· Fracas : +40 %.<br/><br/>Cet effet ne se cumule pas, et la dernière augmentation déclenchée sera la référence pour l'effet.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "-",
-            "802"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "-",
-            "15"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "-",
-            "54"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "-",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "2061",
-            "2661"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "39",
-            "51"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "140",
-            "180"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "0.0%",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "3985",
-            "4411"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "76",
-            "84"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "270",
-            "299"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "0.0%",
-            "6.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "PrithivaTopazSliver",
-        "name": "Éclat de topaze prithiva",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "SangoPearl",
-        "name": "Perle de corail",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SpectralHusk",
-        "name": "Coquille spectrale",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "5074",
-            "5642"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "97",
-            "108"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "344",
-            "382"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "6.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "PrithivaTopazFragment",
-        "name": "Fragment de topaze prithiva",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Cœur perpétuel",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SangoPearl",
-        "name": "Perle de corail",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SpectralHusk",
-        "name": "Coquille spectrale",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "6305",
-            "6731"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "120",
-            "128"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "427",
-            "456"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "12.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "PrithivaTopazFragment",
-        "name": "Fragment de topaze prithiva",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Cœur perpétuel",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SangoPearl",
-        "name": "Perle de corail",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SpectralHeart",
-        "name": "Cœur spectral",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "7393",
-            "7818"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "141",
-            "149"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "501",
-            "530"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "12.0%",
-            "18.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "PrithivaTopazChunk",
-        "name": "Morceau de topaze prithiva",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Cœur perpétuel",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SangoPearl",
-        "name": "Perle de corail",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SpectralHeart",
-        "name": "Cœur spectral",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "8481",
-            "8907"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "162",
-            "170"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "575",
-            "603"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "18.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "PrithivaTopazChunk",
-        "name": "Morceau de topaze prithiva",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Cœur perpétuel",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SangoPearl",
-        "name": "Perle de corail",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SpectralNucleus",
-        "name": "Noyau spectral",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Élever",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "PV de base",
-          "values": [
-            "9570",
-            "9570"
-          ]
-        },
-        {
-          "label": "ATQ de base",
-          "values": [
-            "183",
-            "183"
-          ]
-        },
-        {
-          "label": "DÉF de base",
-          "values": [
-            "648",
-            "648"
-          ]
-        },
-        {
-          "label": "Bonus de DGT Géo",
-          "values": [
-            "24.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "PrithivaTopazGemstone",
-        "name": "Pierre de topaze prithiva",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "PerpetualHeart",
-        "name": "Cœur perpétuel",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SangoPearl",
-        "name": "Perle de corail",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SpectralNucleus",
-        "name": "Noyau spectral",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfLight",
-          "name": "Enseignement de la Lumière",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "SpectralHusk",
-          "name": "Coquille spectrale",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToLight",
-          "name": "Guide de la Lumière",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "SpectralHeart",
-          "name": "Cœur spectral",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToLight",
-          "name": "Guide de la Lumière",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "SpectralHeart",
-          "name": "Cœur spectral",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToLight",
-          "name": "Guide de la Lumière",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "SpectralHeart",
-          "name": "Cœur spectral",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToLight",
-          "name": "Guide de la Lumière",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "SpectralHeart",
-          "name": "Cœur spectral",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfLight",
-          "name": "Philosophie de la Lumière",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "SpectralNucleus",
-          "name": "Noyau spectral",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "MoltenMoment",
-          "name": "Moment en fusion",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfLight",
-          "name": "Philosophie de la Lumière",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "SpectralNucleus",
-          "name": "Noyau spectral",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "MoltenMoment",
-          "name": "Moment en fusion",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfLight",
-          "name": "Philosophie de la Lumière",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "SpectralNucleus",
-          "name": "Noyau spectral",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "MoltenMoment",
-          "name": "Moment en fusion",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfLight",
-          "name": "Philosophie de la Lumière",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "SpectralNucleus",
-          "name": "Noyau spectral",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "MoltenMoment",
-          "name": "Moment en fusion",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Couronne de la sagesse",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Gorou/Icon.webp",
-    "sideIcon": "Character/Gorou/SideIcon.webp",
-    "gatchaCard": "Character/Gorou/GachaCard.webp",
-    "gachaSplash": "Character/Gorou/GachaSplash.webp",
-    "face": "Character/Gorou/Face.webp",
-    "halfFace": "Character/Gorou/HalfFace.webp",
-    "profile": "Character/Gorou/Profile.webp",
-    "weaponStance": "Character/Gorou/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "RavenBow",
-  "specialDish": "VictoriousLegend",
-  "tcgCharacterCard": "",
-  "outfits": [
-    {
-      "id": "PanoplyOfAHundredHunts",
-      "name": "Panoplie des cent chasses",
-      "description": "Tenue de Gorou. Cette armure légère est conçue pour permettre au général Gorou de manier son arc avec aisance. Le blindage au niveau de l'épaule et du coude a également été décidé avec ce but en tête.",
-      "picture": "Character/Gorou/Outfit/PanoplyOfAHundredHunts.webp"
-    }
-  ]
+	"id": "Gorou",
+	"name": "Gorou",
+	"title": "Guerrier canin",
+	"description": "Le grand général des forces de l'Île de Watatsumi, en qui ses subordonnés ont profondément confiance.",
+	"weaponType": "Arc",
+	"element": "Géo",
+	"gender": "Homme",
+	"substat": "Bonus de DGT Géo",
+	"affiliation": "Île de Watatsumi",
+	"region": "Inazuma",
+	"rarity": 4,
+	"birthday": "18/5",
+	"constellation": "Canis Bellatoris",
+	"domain": "Cour violette",
+	"cv": {
+		"english": "Cory Yee",
+		"chinese": "杨昕燃",
+		"japanese": "畠中祐",
+		"korean": "Lee Sae-byeok"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackRippingFangFletching",
+			"name": "Attaque normale : Empenne aux crocs acérés",
+			"description": "Attaque normale</span><br/>Enchaîne jusqu'à 4 tirs consécutifs.<br/><br/>Attaque chargée</span><br/>Effectue un tir visé</span> plus précis infligeant davantage de DGT.<br/>Lors de la visée, la flèche se charge de cristaux de pierre, infligeant des DGT Géo</span> quand elle est complètement chargée.<br/><br/>Attaque plongeante</span><br/>Tire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "DGT 1er coup",
+					"values": [
+						"37.75%",
+						"40.83%",
+						"43.9%",
+						"48.29%",
+						"51.36%",
+						"54.87%",
+						"59.7%",
+						"64.53%",
+						"69.36%",
+						"74.63%",
+						"79.9%",
+						"85.17%",
+						"90.43%",
+						"95.7%",
+						"100.97%"
+					]
+				},
+				{
+					"label": "DGT 2e coup",
+					"values": [
+						"37.15%",
+						"40.18%",
+						"43.2%",
+						"47.52%",
+						"50.54%",
+						"54%",
+						"58.75%",
+						"63.5%",
+						"68.26%",
+						"73.44%",
+						"78.62%",
+						"83.81%",
+						"88.99%",
+						"94.18%",
+						"99.36%"
+					]
+				},
+				{
+					"label": "DGT 3e coup",
+					"values": [
+						"49.45%",
+						"53.47%",
+						"57.5%",
+						"63.25%",
+						"67.27%",
+						"71.88%",
+						"78.2%",
+						"84.53%",
+						"90.85%",
+						"97.75%",
+						"104.65%",
+						"111.55%",
+						"118.45%",
+						"125.35%",
+						"132.25%"
+					]
+				},
+				{
+					"label": "DGT 4e coup",
+					"values": [
+						"59%",
+						"63.8%",
+						"68.6%",
+						"75.46%",
+						"80.26%",
+						"85.75%",
+						"93.3%",
+						"100.84%",
+						"108.39%",
+						"116.62%",
+						"124.85%",
+						"133.08%",
+						"141.32%",
+						"149.55%",
+						"157.78%"
+					]
+				},
+				{
+					"label": "DGT tir visé",
+					"values": [
+						"43.86%",
+						"47.43%",
+						"51%",
+						"56.1%",
+						"59.67%",
+						"63.75%",
+						"69.36%",
+						"74.97%",
+						"80.58%",
+						"86.7%",
+						"92.82%",
+						"98.94%",
+						"105.06%",
+						"111.18%",
+						"117.3%"
+					]
+				},
+				{
+					"label": "DGT tir visé (pleine charge)",
+					"values": [
+						"124%",
+						"133.3%",
+						"142.6%",
+						"155%",
+						"164.3%",
+						"173.6%",
+						"186%",
+						"198.4%",
+						"210.8%",
+						"223.2%",
+						"235.6%",
+						"248%",
+						"263.5%",
+						"279%",
+						"294.5%"
+					]
+				},
+				{
+					"label": "DGT durant la chute",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "DGT chute basse/élevée",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"id": "InuzakaAllroundDefense",
+			"name": "Défense intégrale d'Inuzaka",
+			"description": "Inflige des DGT Géo de zone</span> et érige une bannière de général.<br/><br/>Bannière de général</span><br/>Accorde les effets suivants aux personnages déployés dans la zone d'effet en fonction de la quantité de personnages de type Géo</span> dans l'équipe au moment de l'utilisation :<br/>· Avoir 1 personnage Géo accorde l'effet Pied ferme : bonus de DÉF.<br/>· Avoir 2 personnages Géo accorde l'effet Imprenabilité : effet précédent + bonus de RÉS à l'interruption.<br/>· Avoir 3 personnages Géo accorde l'effet Fracas : effets précédents + bonus de DGT Géo</span>.<br/><br/>Gorou ne peut générer qu'une bannière de général à la fois, et les personnages ne peuvent bénéficier des effets que d'une seule bannière de général à la fois. Lorsque le personnage quitte la zone, les effets continuent pendant 2 s.<br/><br/>Appui long</span><br/>Ajuste la zone où la compétence sera lancée.",
+			"info": "« Adoptez cette formation et nous serons en sécurité, je vous le garantis ! » En tant que général et chef des troupes, la dernière chose que Gorou veut, c'est de voir ses soldats blessés.",
+			"attributes": [
+				{
+					"label": "DGT compétence",
+					"values": [
+						"107.2%",
+						"115.24%",
+						"123.28%",
+						"134%",
+						"142.04%",
+						"150.08%",
+						"160.8%",
+						"171.52%",
+						"182.24%",
+						"192.96%",
+						"203.68%",
+						"214.4%",
+						"227.8%",
+						"241.2%",
+						"254.6%"
+					]
+				},
+				{
+					"label": "Bonus de DÉF",
+					"values": [
+						"206",
+						"222",
+						"237",
+						"258",
+						"273",
+						"289",
+						"309",
+						"330",
+						"350",
+						"371",
+						"392",
+						"412",
+						"438",
+						"464",
+						"490"
+					]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": [
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%",
+						"15%"
+					]
+				},
+				{
+					"label": "Durée",
+					"values": [
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s"
+					]
+				},
+				{
+					"label": "Temps de recharge",
+					"values": [
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s",
+						"10 s"
+					]
+				}
+			]
+		},
+		{
+			"id": "JuugaForwardUntoVictory",
+			"name": "Crocs bestiaux : Vers la victoire",
+			"description": "Affichant sa bravoure de général, Gorou inflige des DGT Géo de zone</span> et crée un champ de prestige de général pour enhardir ses compagnons.<br/><br/>Prestige de général</span><br/>Les caractéristiques suivantes s'appliquent :<br/>· Ce champ possède des effets identiques à ceux de la bannière de général créée par la compétence élémentaire « Défense intégrale d'Inuzaka », accordant des bonus aux personnages déployés dans la zone d'effet en fonction du nombre de personnages de type Géo</span> dans l'équipe. Le champ se déplace en suivant le personnage déployé.<br/>· Déclenche un effondrement cristallin toutes les 1,5 s qui inflige des DGT Géo de zone</span> à 1 ennemi dans la zone d'effet.<br/>· Attire 1 fragment élémentaire créé par une réaction de Cristallisation dans la zone d'effet vers l'emplacement du personnage déployé toutes les 1,5 s.<br/><br/>Si une bannière de général créée par Gorou est présente lors de l'utilisation, elle sera détruite. De plus, si Gorou utilise sa compétence élémentaire « Défense intégrale d'Inuzaka » alors qu'un prestige de général est actif, il ne crée pas de bannière de général.<br/>Si Gorou est vaincu, les effets du prestige de général sont annulés.",
+			"info": "« Le terrain est à notre avantage ! » Gorou peut s'approprier la topographie du champ de bataille pour faire pencher la balance en sa faveur. Cette technique lui a permis de traverser de nombreux combats contre une opposition en apparence supérieure.",
+			"attributes": [
+				{
+					"label": "DGT compétence",
+					"values": [
+						"98.22% DÉF",
+						"105.58% DÉF",
+						"112.95% DÉF",
+						"122.77% DÉF",
+						"130.14% DÉF",
+						"137.5% DÉF",
+						"147.32% DÉF",
+						"157.15% DÉF",
+						"166.97% DÉF",
+						"176.79% DÉF",
+						"186.61% DÉF",
+						"196.43% DÉF",
+						"208.71% DÉF",
+						"220.99% DÉF",
+						"233.26% DÉF"
+					]
+				},
+				{
+					"label": "DGT effondrement cristallin",
+					"values": [
+						"61.3% DÉF",
+						"65.9% DÉF",
+						"70.49% DÉF",
+						"76.63% DÉF",
+						"81.22% DÉF",
+						"85.82% DÉF",
+						"91.95% DÉF",
+						"98.08% DÉF",
+						"104.21% DÉF",
+						"110.34% DÉF",
+						"116.47% DÉF",
+						"122.6% DÉF",
+						"130.26% DÉF",
+						"137.93% DÉF",
+						"145.59% DÉF"
+					]
+				},
+				{
+					"label": "Durée",
+					"values": [
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s",
+						"9 s"
+					]
+				},
+				{
+					"label": "Temps de recharge",
+					"values": [
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s",
+						"20 s"
+					]
+				},
+				{
+					"label": "Énergie élémentaire",
+					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "HeedlessOfTheWindAndWeather",
+			"name": "Nonchalance du vent et de la pluie",
+			"description": "Pendant 12 s après Crocs bestiaux : Vers la victoire</span>, la DÉF de tous les personnages de l'équipe à proximité augmente de 25 %.",
+			"level": 1
+		},
+		{
+			"id": "AFavorRepaid",
+			"name": "Faveur rendue",
+			"description": "Les DGT des attaques suivantes de Gorou augmentent en fonction de sa DÉF :<br/>· Les DGT de compétence de Défense intégrale d'Inuzaka</span> augmentent à hauteur de 156 % de sa DÉF.<br/>· Les DGT de compétence et les DGT de l'effondrement cristallin de Crocs bestiaux : Vers la victoire</span> augmentent à hauteur de 15,6 % de sa DÉF.",
+			"level": 4
+		},
+		{
+			"id": "SeekerOfShinies",
+			"name": "Chien renifleur",
+			"description": "Affiche l'emplacement des produits d'Inazuma</span> sur la mini-carte.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "RushingHoundSwiftAsTheWind",
+			"name": "Vivacité canine : Célérité du vent",
+			"description": "Lorsqu'un personnage déployé (hormis Gorou) dans la zone d'effet de la bannière de général</span> ou du champ de prestige de général</span> créés par Gorou inflige des DGT Géo à un ennemi, le TdR de Défense intégrale d'Inuzaka</span> de Gorou diminue de 2 s.<br/>Cet effet peut être déclenché une fois toutes les 10 s.",
+			"level": 1
+		},
+		{
+			"id": "SittingHoundSteadyAsAClock",
+			"name": "Repos canin : Aplomb du temps",
+			"description": "Lorsqu'un personnage déployé à proximité obtient un fragment élémentaire généré par une réaction de Cristallisation alors qu'un prestige de général</span> est actif, la durée du prestige de général de Gorou augmente de 1 s.<br/>Cet effet peut être déclenché une fois toutes les 0,1 s, et sa durée peut être prolongée d'un maximum de 3 s de cette manière.",
+			"level": 2
+		},
+		{
+			"id": "MaulingHoundFierceAsFire",
+			"name": "Griffe canine : Frénésie du feu",
+			"description": "Niveau d'aptitude Défense intégrale d'Inuzaka</span> +3.<br/>Niveau max : 15",
+			"level": 3
+		},
+		{
+			"id": "LappingHoundWarmAsWater",
+			"name": "Léchouille canine : Bonté de l'eau",
+			"description": "Lorsque le prestige de général</span> est dans l'état Imprenabilité ou Fracas, il restaure également les PV du personnage déployé dans la zone d'effet toutes les 1,5 s d'une valeur équivalant à 50 % de la DÉF de Gorou.",
+			"level": 4
+		},
+		{
+			"id": "StrikingHoundThunderousForce",
+			"name": "Frappe canine : Élan du tonnerre",
+			"description": "Niveau d'aptitude Crocs bestiaux : Vers la victoire</span> +3.<br/>Niveau max : 15",
+			"level": 5
+		},
+		{
+			"id": "ValiantHoundMountainousFealty",
+			"name": "Vaillance canine : Fidélité de la terre",
+			"description": "Pendant 12 s après Défense intégrale d'Inuzaka</span> ou Crocs bestiaux : Vers la victoire</span>, les DGT CRIT des DGT Géo</span> de tous les personnages de l'équipe à proximité augmentent en fonction du niveau du champ au moment de l'utilisation de la compétence :<br/>· Pied ferme : +10 %.<br/>· Imprenabilité : +20 %.<br/>· Fracas : +40 %.<br/><br/>Cet effet ne se cumule pas, et la dernière augmentation déclenchée sera la référence pour l'effet.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Élever",
+					"values": ["-", 1]
+				},
+				{
+					"label": "PV de base",
+					"values": ["-", "802"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["-", "15"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["-", "54"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["-", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [0, 1]
+				},
+				{
+					"label": "PV de base",
+					"values": ["2061", "2661"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["39", "51"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["140", "180"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["0.0%", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [1, 2]
+				},
+				{
+					"label": "PV de base",
+					"values": ["3985", "4411"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["76", "84"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["270", "299"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["0.0%", "6.0%"]
+				}
+			],
+			"mat1": {
+				"id": "PrithivaTopazSliver",
+				"name": "Éclat de topaze prithiva",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "SangoPearl",
+				"name": "Perle de corail",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SpectralHusk",
+				"name": "Coquille spectrale",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [2, 3]
+				},
+				{
+					"label": "PV de base",
+					"values": ["5074", "5642"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["97", "108"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["344", "382"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["6.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "PrithivaTopazFragment",
+				"name": "Fragment de topaze prithiva",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Cœur perpétuel",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SangoPearl",
+				"name": "Perle de corail",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SpectralHusk",
+				"name": "Coquille spectrale",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [3, 4]
+				},
+				{
+					"label": "PV de base",
+					"values": ["6305", "6731"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["120", "128"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["427", "456"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["12.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "PrithivaTopazFragment",
+				"name": "Fragment de topaze prithiva",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Cœur perpétuel",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SangoPearl",
+				"name": "Perle de corail",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SpectralHeart",
+				"name": "Cœur spectral",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [4, 5]
+				},
+				{
+					"label": "PV de base",
+					"values": ["7393", "7818"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["141", "149"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["501", "530"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["12.0%", "18.0%"]
+				}
+			],
+			"mat1": {
+				"id": "PrithivaTopazChunk",
+				"name": "Morceau de topaze prithiva",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Cœur perpétuel",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SangoPearl",
+				"name": "Perle de corail",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SpectralHeart",
+				"name": "Cœur spectral",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [5, 6]
+				},
+				{
+					"label": "PV de base",
+					"values": ["8481", "8907"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["162", "170"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["575", "603"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["18.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "PrithivaTopazChunk",
+				"name": "Morceau de topaze prithiva",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Cœur perpétuel",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SangoPearl",
+				"name": "Perle de corail",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SpectralNucleus",
+				"name": "Noyau spectral",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Élever",
+					"values": [6, 7]
+				},
+				{
+					"label": "PV de base",
+					"values": ["9570", "9570"]
+				},
+				{
+					"label": "ATQ de base",
+					"values": ["183", "183"]
+				},
+				{
+					"label": "DÉF de base",
+					"values": ["648", "648"]
+				},
+				{
+					"label": "Bonus de DGT Géo",
+					"values": ["24.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "PrithivaTopazGemstone",
+				"name": "Pierre de topaze prithiva",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "PerpetualHeart",
+				"name": "Cœur perpétuel",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SangoPearl",
+				"name": "Perle de corail",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SpectralNucleus",
+				"name": "Noyau spectral",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfLight",
+					"name": "Enseignement de la Lumière",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "SpectralHusk",
+					"name": "Coquille spectrale",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToLight",
+					"name": "Guide de la Lumière",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "SpectralHeart",
+					"name": "Cœur spectral",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToLight",
+					"name": "Guide de la Lumière",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "SpectralHeart",
+					"name": "Cœur spectral",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToLight",
+					"name": "Guide de la Lumière",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SpectralHeart",
+					"name": "Cœur spectral",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToLight",
+					"name": "Guide de la Lumière",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "SpectralHeart",
+					"name": "Cœur spectral",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfLight",
+					"name": "Philosophie de la Lumière",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "SpectralNucleus",
+					"name": "Noyau spectral",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "MoltenMoment",
+					"name": "Moment en fusion",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfLight",
+					"name": "Philosophie de la Lumière",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "SpectralNucleus",
+					"name": "Noyau spectral",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "MoltenMoment",
+					"name": "Moment en fusion",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfLight",
+					"name": "Philosophie de la Lumière",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "SpectralNucleus",
+					"name": "Noyau spectral",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "MoltenMoment",
+					"name": "Moment en fusion",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfLight",
+					"name": "Philosophie de la Lumière",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "SpectralNucleus",
+					"name": "Noyau spectral",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "MoltenMoment",
+					"name": "Moment en fusion",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Couronne de la sagesse",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Gorou/Icon.webp",
+		"sideIcon": "Character/Gorou/SideIcon.webp",
+		"gatchaCard": "Character/Gorou/GachaCard.webp",
+		"gachaSplash": "Character/Gorou/GachaSplash.webp",
+		"face": "Character/Gorou/Face.webp",
+		"halfFace": "Character/Gorou/HalfFace.webp",
+		"profile": "Character/Gorou/Profile.webp",
+		"weaponStance": "Character/Gorou/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "RavenBow",
+	"specialDish": "VictoriousLegend",
+	"tcgCharacterCard": "",
+	"outfits": [
+		{
+			"id": "PanoplyOfAHundredHunts",
+			"name": "Panoplie des cent chasses",
+			"description": "Tenue de Gorou. Cette armure légère est conçue pour permettre au général Gorou de manier son arc avec aisance. Le blindage au niveau de l'épaule et du coude a également été décidé avec ce but en tête.",
+			"picture": "Character/Gorou/Outfit/PanoplyOfAHundredHunts.webp"
+		}
+	]
 }

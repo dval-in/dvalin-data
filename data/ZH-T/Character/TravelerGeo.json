@@ -1,1087 +1,935 @@
 {
-  "id": "TravelerGeo",
-  "name": "旅行者 (岩)",
-  "description": "從世界之外漂流而來的旅行者，被神帶走血親，自此踏上尋找七神之路。",
-  "weaponType": "單手劍",
-  "element": "岩",
-  "gender": "男/女",
-  "substat": "攻擊力%",
-  "affiliation": "——",
-  "rarity": 5,
-  "birthday": "null/null",
-  "constellation": "旅人座",
-  "domain": "太山府",
-  "cv": {
-    "english": "Zach Aguilar & Corina Boettger",
-    "chinese": "鹿喑&多多poi",
-    "japanese": "堀江瞬&古賀葵",
-    "korean": "李京泰&金佳泠"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackForeignRockblade",
-      "name": "普通攻擊·異邦岩鋒",
-      "description": "<span>普通攻擊</span><br/>進行至多五段的連續劍擊。<br/><br/><span>重擊</span><br/>消耗一定體力，瞬間向前方揮出兩劍。<br/><br/><span>下落攻擊</span><br/>從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
-      "info": "",
-      "attributes": [
-        {
-          "label": "一段傷害",
-          "values": [
-            "44.46%",
-            "48.08%",
-            "51.7%",
-            "56.87%",
-            "60.49%",
-            "64.63%",
-            "70.31%",
-            "76%",
-            "81.69%",
-            "87.89%",
-            "94.09%",
-            "100.3%",
-            "106.5%",
-            "112.71%",
-            "118.91%"
-          ]
-        },
-        {
-          "label": "二段傷害",
-          "values": [
-            "43.43%",
-            "46.97%",
-            "50.5%",
-            "55.55%",
-            "59.08%",
-            "63.13%",
-            "68.68%",
-            "74.23%",
-            "79.79%",
-            "85.85%",
-            "91.91%",
-            "97.97%",
-            "104.03%",
-            "110.09%",
-            "116.15%"
-          ]
-        },
-        {
-          "label": "三段傷害",
-          "values": [
-            "52.98%",
-            "57.29%",
-            "61.6%",
-            "67.76%",
-            "72.07%",
-            "77%",
-            "83.78%",
-            "90.55%",
-            "97.33%",
-            "104.72%",
-            "112.11%",
-            "119.5%",
-            "126.9%",
-            "134.29%",
-            "141.68%"
-          ]
-        },
-        {
-          "label": "四段傷害",
-          "values": [
-            "58.31%",
-            "63.05%",
-            "67.8%",
-            "74.58%",
-            "79.33%",
-            "84.75%",
-            "92.21%",
-            "99.67%",
-            "107.12%",
-            "115.26%",
-            "123.4%",
-            "131.53%",
-            "139.67%",
-            "147.8%",
-            "155.94%"
-          ]
-        },
-        {
-          "label": "五段傷害",
-          "values": [
-            "70.78%",
-            "76.54%",
-            "82.3%",
-            "90.53%",
-            "96.29%",
-            "102.87%",
-            "111.93%",
-            "120.98%",
-            "130.03%",
-            "139.91%",
-            "149.79%",
-            "159.66%",
-            "169.54%",
-            "179.41%",
-            "189.29%"
-          ]
-        },
-        {
-          "label": "重擊傷害",
-          "values": [
-            "55.9% + 60.72%",
-            "60.45% + 65.66%",
-            "65% + 70.6%",
-            "71.5% + 77.66%",
-            "76.05% + 82.6%",
-            "81.25% + 88.25%",
-            "88.4% + 96.02%",
-            "95.55% + 103.78%",
-            "102.7% + 111.55%",
-            "110.5% + 120.02%",
-            "118.3% + 128.49%",
-            "126.1% + 136.96%",
-            "133.9% + 145.44%",
-            "141.7% + 153.91%",
-            "149.5% + 162.38%"
-          ]
-        },
-        {
-          "label": "重擊體力消耗",
-          "values": [
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點",
-            "20點"
-          ]
-        },
-        {
-          "label": "下墜期間傷害",
-          "values": [
-            "63.93%",
-            "69.14%",
-            "74.34%",
-            "81.77%",
-            "86.98%",
-            "92.93%",
-            "101.1%",
-            "109.28%",
-            "117.46%",
-            "126.38%",
-            "135.3%",
-            "144.22%",
-            "153.14%",
-            "162.06%",
-            "170.98%"
-          ]
-        },
-        {
-          "label": "低空/高空墜地衝擊傷害",
-          "values": [
-            "127.84% / 159.68%",
-            "138.24% / 172.67%",
-            "148.65% / 185.67%",
-            "163.51% / 204.24%",
-            "173.92% / 217.23%",
-            "185.81% / 232.09%",
-            "202.16% / 252.51%",
-            "218.51% / 272.93%",
-            "234.86% / 293.36%",
-            "252.7% / 315.64%",
-            "270.54% / 337.92%",
-            "288.38% / 360.2%",
-            "306.22% / 382.48%",
-            "324.05% / 404.76%",
-            "341.89% / 427.04%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "StarfellSword",
-      "name": "星隕劍",
-      "description": "從大地深處升起荒星，引發爆炸，造成<span>岩元素範圍傷害</span>。<br/>荒星被視為<span>岩元素創造物</span>，可以阻攔攻擊，可以攀爬。<br/><br/><span>長按</span><br/>可以調整技能施放位置。",
-      "info": "和派蒙討論過流星的終點。",
-      "attributes": [
-        {
-          "label": "技能傷害",
-          "values": [
-            "248%",
-            "266.6%",
-            "285.2%",
-            "310%",
-            "328.6%",
-            "347.2%",
-            "372%",
-            "396.8%",
-            "421.6%",
-            "446.4%",
-            "471.2%",
-            "496%",
-            "527%",
-            "558%",
-            "589%"
-          ]
-        },
-        {
-          "label": "荒星存在時間",
-          "values": [
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒",
-            "30秒"
-          ]
-        },
-        {
-          "label": "冷卻時間",
-          "values": [
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒",
-            "8秒"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "WakeOfEarth",
-      "name": "岩潮疊嶂",
-      "description": "活化大地深處的岩元素，引發擴散的震盪波。<br/>擊退周圍的敵人，造成<span>岩元素範圍傷害</span>。<br/>此後，在震盪波的周邊形成突起的岩嶂。<br/>岩嶂視為<span>岩元素創造物</span>，可以阻攔攻擊。",
-      "info": "和派蒙一起研究過群山深處的脈動。",
-      "attributes": [
-        {
-          "label": "地震波單次傷害",
-          "values": [
-            "148%",
-            "159.1%",
-            "170.2%",
-            "185%",
-            "196.1%",
-            "207.2%",
-            "222%",
-            "236.8%",
-            "251.6%",
-            "266.4%",
-            "281.2%",
-            "296%",
-            "314.5%",
-            "333%",
-            "351.5%"
-          ]
-        },
-        {
-          "label": "岩嶂存在時間",
-          "values": [
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒"
-          ]
-        },
-        {
-          "label": "冷卻時間",
-          "values": [
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒",
-            "15秒"
-          ]
-        },
-        {
-          "label": "元素能量",
-          "values": [
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60",
-            "60"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "ShatteredDarkrock",
-      "name": "破碎的絕岩",
-      "description": "<span>星隕劍</span>的冷卻時間減少2秒。",
-      "level": 1
-    },
-    {
-      "id": "FrenziedRockslide",
-      "name": "狂亂的崩岩",
-      "description": "普通攻擊的最後一擊會附帶崩毀，對範圍內的敵人造成60%攻擊力的<span>岩元素傷害</span>。",
-      "level": 4
-    }
-  ],
-  "constellations": [
-    {
-      "id": "InvincibleStonewall",
-      "name": "巍然的青岩",
-      "description": "隊伍中角色處於<span>岩潮疊嶂</span>的岩嶂包圍中時，暴擊率提升10%，並提高抗打斷能力。",
-      "level": 1
-    },
-    {
-      "id": "RockcoreMeltdown",
-      "name": "不穩的熔岩",
-      "description": "<span>星隕劍</span>的荒星被摧毀時會再度發生爆炸，造成等同於星隕劍傷害的額外<span>岩元素範圍傷害</span>。",
-      "level": 2
-    },
-    {
-      "id": "WillOfTheRock",
-      "name": "八方之岩",
-      "description": "<span>岩潮疊嶂</span>的技能等級提高3級。<br/>至多提升至15級。",
-      "level": 3
-    },
-    {
-      "id": "ReactionForce",
-      "name": "險峻的重岩",
-      "description": "<span>岩潮疊嶂</span>引發的震盪波每擊中一個敵人，都會恢復5點元素能量。<br/>依此方式，一次至多恢復25點元素能量。",
-      "level": 4
-    },
-    {
-      "id": "MeteoriteImpact",
-      "name": "天墜之岩",
-      "description": "<span>星隕劍</span>的技能等級提高3級。<br/>至多提升至15級。",
-      "level": 5
-    },
-    {
-      "id": "EverlastingBoulder",
-      "name": "永世的磐岩",
-      "description": "<span>岩潮疊嶂</span>的岩嶂持續時間延長5秒；<br/><span>星隕劍</span>的荒星持續時間延長10秒。",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "-",
-            "912"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "-",
-            "18"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "-",
-            "57"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "-",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "2342",
-            "3024"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "46",
-            "59"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "147",
-            "190"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "0.0%",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "4529",
-            "5013"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "88",
-            "98"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "284",
-            "315"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "0.0%",
-            "6.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondSliver",
-        "name": "璀璨原鑽碎屑",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "風車菊",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "DamagedMask",
-        "name": "破損的面具",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "5766",
-            "6411"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "113",
-            "125"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "362",
-            "402"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "6.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondFragment",
-        "name": "璀璨原鑽斷片",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "風車菊",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "DamagedMask",
-        "name": "破損的面具",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "7164",
-            "7648"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "140",
-            "149"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "450",
-            "480"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "12.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondFragment",
-        "name": "璀璨原鑽斷片",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "風車菊",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "StainedMask",
-        "name": "汙穢的面具",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "8401",
-            "8885"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "164",
-            "174"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "527",
-            "558"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "12.0%",
-            "18.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondChunk",
-        "name": "璀璨原鑽塊",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "風車菊",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "StainedMask",
-        "name": "汙穢的面具",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "9638",
-            "10122"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "188",
-            "198"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "605",
-            "635"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "18.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondChunk",
-        "name": "璀璨原鑽塊",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "風車菊",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "OminousMask",
-        "name": "不祥的面具",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "突破",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "基礎生命值",
-          "values": [
-            "10875",
-            "10875"
-          ]
-        },
-        {
-          "label": "基礎攻擊力",
-          "values": [
-            "212",
-            "212"
-          ]
-        },
-        {
-          "label": "基礎防禦力",
-          "values": [
-            "683",
-            "683"
-          ]
-        },
-        {
-          "label": "攻擊力%",
-          "values": [
-            "24.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "BrilliantDiamondGemstone",
-        "name": "璀璨原鑽",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat3": {
-        "id": "WindwheelAster",
-        "name": "風車菊",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "OminousMask",
-        "name": "不祥的面具",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfProsperity",
-          "name": "「繁榮」的教導",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "FirmArrowhead",
-          "name": "牢固的箭鏃",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "「勤勞」的指引",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "銳利的箭鏃",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToGold",
-          "name": "「黃金」的指引",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "銳利的箭鏃",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToProsperity",
-          "name": "「繁榮」的指引",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "銳利的箭鏃",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToDiligence",
-          "name": "「勤勞」的指引",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "銳利的箭鏃",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfGold",
-          "name": "「黃金」的哲學",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "歷戰的箭鏃",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "北風之尾",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfProsperity",
-          "name": "「繁榮」的哲學",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "歷戰的箭鏃",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "北風之尾",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfDiligence",
-          "name": "「勤勞」的哲學",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "歷戰的箭鏃",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "北風之尾",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfGold",
-          "name": "「黃金」的哲學",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "歷戰的箭鏃",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "TailOfBoreas",
-          "name": "北風之尾",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "智識之冕",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Traveler/Icon.webp",
-    "sideIcon": "Character/Traveler/SideIcon.webp",
-    "gatchaCard": "Character/Traveler/GachaCard.webp",
-    "gachaSplash": "",
-    "face": "",
-    "halfFace": "",
-    "profile": "",
-    "weaponStance": ""
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "",
-  "specialDish": "",
-  "tcgCharacterCard": "",
-  "outfits": [
-    {
-      "id": "RisingStar",
-      "name": "初升之星",
-      "description": "旅行者的裝扮款式。陪伴旅人走過漫漫長路的實用衣裝。",
-      "picture": "Character/Traveler/Outfit/RisingStar.webp"
-    }
-  ]
+	"id": "TravelerGeo",
+	"name": "旅行者 (岩)",
+	"description": "從世界之外漂流而來的旅行者，被神帶走血親，自此踏上尋找七神之路。",
+	"weaponType": "單手劍",
+	"element": "岩",
+	"gender": "男/女",
+	"substat": "攻擊力%",
+	"affiliation": "——",
+	"rarity": 5,
+	"birthday": "null/null",
+	"constellation": "旅人座",
+	"domain": "太山府",
+	"cv": {
+		"english": "Zach Aguilar & Corina Boettger",
+		"chinese": "鹿喑&多多poi",
+		"japanese": "堀江瞬&古賀葵",
+		"korean": "李京泰&金佳泠"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackForeignRockblade",
+			"name": "普通攻擊·異邦岩鋒",
+			"description": "普通攻擊</span><br/>進行至多五段的連續劍擊。<br/><br/>重擊</span><br/>消耗一定體力，瞬間向前方揮出兩劍。<br/><br/>下落攻擊</span><br/>從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。",
+			"info": "",
+			"attributes": [
+				{
+					"label": "一段傷害",
+					"values": [
+						"44.46%",
+						"48.08%",
+						"51.7%",
+						"56.87%",
+						"60.49%",
+						"64.63%",
+						"70.31%",
+						"76%",
+						"81.69%",
+						"87.89%",
+						"94.09%",
+						"100.3%",
+						"106.5%",
+						"112.71%",
+						"118.91%"
+					]
+				},
+				{
+					"label": "二段傷害",
+					"values": [
+						"43.43%",
+						"46.97%",
+						"50.5%",
+						"55.55%",
+						"59.08%",
+						"63.13%",
+						"68.68%",
+						"74.23%",
+						"79.79%",
+						"85.85%",
+						"91.91%",
+						"97.97%",
+						"104.03%",
+						"110.09%",
+						"116.15%"
+					]
+				},
+				{
+					"label": "三段傷害",
+					"values": [
+						"52.98%",
+						"57.29%",
+						"61.6%",
+						"67.76%",
+						"72.07%",
+						"77%",
+						"83.78%",
+						"90.55%",
+						"97.33%",
+						"104.72%",
+						"112.11%",
+						"119.5%",
+						"126.9%",
+						"134.29%",
+						"141.68%"
+					]
+				},
+				{
+					"label": "四段傷害",
+					"values": [
+						"58.31%",
+						"63.05%",
+						"67.8%",
+						"74.58%",
+						"79.33%",
+						"84.75%",
+						"92.21%",
+						"99.67%",
+						"107.12%",
+						"115.26%",
+						"123.4%",
+						"131.53%",
+						"139.67%",
+						"147.8%",
+						"155.94%"
+					]
+				},
+				{
+					"label": "五段傷害",
+					"values": [
+						"70.78%",
+						"76.54%",
+						"82.3%",
+						"90.53%",
+						"96.29%",
+						"102.87%",
+						"111.93%",
+						"120.98%",
+						"130.03%",
+						"139.91%",
+						"149.79%",
+						"159.66%",
+						"169.54%",
+						"179.41%",
+						"189.29%"
+					]
+				},
+				{
+					"label": "重擊傷害",
+					"values": [
+						"55.9% + 60.72%",
+						"60.45% + 65.66%",
+						"65% + 70.6%",
+						"71.5% + 77.66%",
+						"76.05% + 82.6%",
+						"81.25% + 88.25%",
+						"88.4% + 96.02%",
+						"95.55% + 103.78%",
+						"102.7% + 111.55%",
+						"110.5% + 120.02%",
+						"118.3% + 128.49%",
+						"126.1% + 136.96%",
+						"133.9% + 145.44%",
+						"141.7% + 153.91%",
+						"149.5% + 162.38%"
+					]
+				},
+				{
+					"label": "重擊體力消耗",
+					"values": [
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點",
+						"20點"
+					]
+				},
+				{
+					"label": "下墜期間傷害",
+					"values": [
+						"63.93%",
+						"69.14%",
+						"74.34%",
+						"81.77%",
+						"86.98%",
+						"92.93%",
+						"101.1%",
+						"109.28%",
+						"117.46%",
+						"126.38%",
+						"135.3%",
+						"144.22%",
+						"153.14%",
+						"162.06%",
+						"170.98%"
+					]
+				},
+				{
+					"label": "低空/高空墜地衝擊傷害",
+					"values": [
+						"127.84% / 159.68%",
+						"138.24% / 172.67%",
+						"148.65% / 185.67%",
+						"163.51% / 204.24%",
+						"173.92% / 217.23%",
+						"185.81% / 232.09%",
+						"202.16% / 252.51%",
+						"218.51% / 272.93%",
+						"234.86% / 293.36%",
+						"252.7% / 315.64%",
+						"270.54% / 337.92%",
+						"288.38% / 360.2%",
+						"306.22% / 382.48%",
+						"324.05% / 404.76%",
+						"341.89% / 427.04%"
+					]
+				}
+			]
+		},
+		{
+			"id": "StarfellSword",
+			"name": "星隕劍",
+			"description": "從大地深處升起荒星，引發爆炸，造成岩元素範圍傷害</span>。<br/>荒星被視為岩元素創造物</span>，可以阻攔攻擊，可以攀爬。<br/><br/>長按</span><br/>可以調整技能施放位置。",
+			"info": "和派蒙討論過流星的終點。",
+			"attributes": [
+				{
+					"label": "技能傷害",
+					"values": [
+						"248%",
+						"266.6%",
+						"285.2%",
+						"310%",
+						"328.6%",
+						"347.2%",
+						"372%",
+						"396.8%",
+						"421.6%",
+						"446.4%",
+						"471.2%",
+						"496%",
+						"527%",
+						"558%",
+						"589%"
+					]
+				},
+				{
+					"label": "荒星存在時間",
+					"values": [
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒",
+						"30秒"
+					]
+				},
+				{
+					"label": "冷卻時間",
+					"values": [
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒",
+						"8秒"
+					]
+				}
+			]
+		},
+		{
+			"id": "WakeOfEarth",
+			"name": "岩潮疊嶂",
+			"description": "活化大地深處的岩元素，引發擴散的震盪波。<br/>擊退周圍的敵人，造成岩元素範圍傷害</span>。<br/>此後，在震盪波的周邊形成突起的岩嶂。<br/>岩嶂視為岩元素創造物</span>，可以阻攔攻擊。",
+			"info": "和派蒙一起研究過群山深處的脈動。",
+			"attributes": [
+				{
+					"label": "地震波單次傷害",
+					"values": [
+						"148%",
+						"159.1%",
+						"170.2%",
+						"185%",
+						"196.1%",
+						"207.2%",
+						"222%",
+						"236.8%",
+						"251.6%",
+						"266.4%",
+						"281.2%",
+						"296%",
+						"314.5%",
+						"333%",
+						"351.5%"
+					]
+				},
+				{
+					"label": "岩嶂存在時間",
+					"values": [
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒"
+					]
+				},
+				{
+					"label": "冷卻時間",
+					"values": [
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒",
+						"15秒"
+					]
+				},
+				{
+					"label": "元素能量",
+					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "ShatteredDarkrock",
+			"name": "破碎的絕岩",
+			"description": "星隕劍</span>的冷卻時間減少2秒。",
+			"level": 1
+		},
+		{
+			"id": "FrenziedRockslide",
+			"name": "狂亂的崩岩",
+			"description": "普通攻擊的最後一擊會附帶崩毀，對範圍內的敵人造成60%攻擊力的岩元素傷害</span>。",
+			"level": 4
+		}
+	],
+	"constellations": [
+		{
+			"id": "InvincibleStonewall",
+			"name": "巍然的青岩",
+			"description": "隊伍中角色處於岩潮疊嶂</span>的岩嶂包圍中時，暴擊率提升10%，並提高抗打斷能力。",
+			"level": 1
+		},
+		{
+			"id": "RockcoreMeltdown",
+			"name": "不穩的熔岩",
+			"description": "星隕劍</span>的荒星被摧毀時會再度發生爆炸，造成等同於星隕劍傷害的額外岩元素範圍傷害</span>。",
+			"level": 2
+		},
+		{
+			"id": "WillOfTheRock",
+			"name": "八方之岩",
+			"description": "岩潮疊嶂</span>的技能等級提高3級。<br/>至多提升至15級。",
+			"level": 3
+		},
+		{
+			"id": "ReactionForce",
+			"name": "險峻的重岩",
+			"description": "岩潮疊嶂</span>引發的震盪波每擊中一個敵人，都會恢復5點元素能量。<br/>依此方式，一次至多恢復25點元素能量。",
+			"level": 4
+		},
+		{
+			"id": "MeteoriteImpact",
+			"name": "天墜之岩",
+			"description": "星隕劍</span>的技能等級提高3級。<br/>至多提升至15級。",
+			"level": 5
+		},
+		{
+			"id": "EverlastingBoulder",
+			"name": "永世的磐岩",
+			"description": "岩潮疊嶂</span>的岩嶂持續時間延長5秒；<br/>星隕劍</span>的荒星持續時間延長10秒。",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "突破",
+					"values": ["-", 1]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["-", "912"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["-", "18"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["-", "57"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["-", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "突破",
+					"values": [0, 1]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["2342", "3024"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["46", "59"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["147", "190"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["0.0%", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [1, 2]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["4529", "5013"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["88", "98"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["284", "315"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["0.0%", "6.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondSliver",
+				"name": "璀璨原鑽碎屑",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "風車菊",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "DamagedMask",
+				"name": "破損的面具",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [2, 3]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["5766", "6411"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["113", "125"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["362", "402"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["6.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondFragment",
+				"name": "璀璨原鑽斷片",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "風車菊",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "DamagedMask",
+				"name": "破損的面具",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [3, 4]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["7164", "7648"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["140", "149"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["450", "480"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["12.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondFragment",
+				"name": "璀璨原鑽斷片",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "風車菊",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "StainedMask",
+				"name": "汙穢的面具",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [4, 5]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["8401", "8885"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["164", "174"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["527", "558"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["12.0%", "18.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondChunk",
+				"name": "璀璨原鑽塊",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "風車菊",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "StainedMask",
+				"name": "汙穢的面具",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [5, 6]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["9638", "10122"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["188", "198"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["605", "635"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["18.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondChunk",
+				"name": "璀璨原鑽塊",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "風車菊",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "OminousMask",
+				"name": "不祥的面具",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "突破",
+					"values": [6, 7]
+				},
+				{
+					"label": "基礎生命值",
+					"values": ["10875", "10875"]
+				},
+				{
+					"label": "基礎攻擊力",
+					"values": ["212", "212"]
+				},
+				{
+					"label": "基礎防禦力",
+					"values": ["683", "683"]
+				},
+				{
+					"label": "攻擊力%",
+					"values": ["24.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "BrilliantDiamondGemstone",
+				"name": "璀璨原鑽",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat3": {
+				"id": "WindwheelAster",
+				"name": "風車菊",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "OminousMask",
+				"name": "不祥的面具",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfProsperity",
+					"name": "「繁榮」的教導",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "FirmArrowhead",
+					"name": "牢固的箭鏃",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "「勤勞」的指引",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "銳利的箭鏃",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToGold",
+					"name": "「黃金」的指引",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "銳利的箭鏃",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToProsperity",
+					"name": "「繁榮」的指引",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "銳利的箭鏃",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToDiligence",
+					"name": "「勤勞」的指引",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "銳利的箭鏃",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfGold",
+					"name": "「黃金」的哲學",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "歷戰的箭鏃",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "北風之尾",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfProsperity",
+					"name": "「繁榮」的哲學",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "歷戰的箭鏃",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "北風之尾",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfDiligence",
+					"name": "「勤勞」的哲學",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "歷戰的箭鏃",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "北風之尾",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfGold",
+					"name": "「黃金」的哲學",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "歷戰的箭鏃",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "TailOfBoreas",
+					"name": "北風之尾",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "智識之冕",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Traveler/Icon.webp",
+		"sideIcon": "Character/Traveler/SideIcon.webp",
+		"gatchaCard": "Character/Traveler/GachaCard.webp",
+		"gachaSplash": "",
+		"face": "",
+		"halfFace": "",
+		"profile": "",
+		"weaponStance": ""
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "",
+	"specialDish": "",
+	"tcgCharacterCard": "",
+	"outfits": [
+		{
+			"id": "RisingStar",
+			"name": "初升之星",
+			"description": "旅行者的裝扮款式。陪伴旅人走過漫漫長路的實用衣裝。",
+			"picture": "Character/Traveler/Outfit/RisingStar.webp"
+		}
+	]
 }

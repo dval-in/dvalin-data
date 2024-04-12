@@ -1,1145 +1,977 @@
 {
-  "id": "Amber",
-  "name": "Amber",
-  "title": "Campeã Voadora",
-  "description": "Sempre energética e cheia de vida, a Amber é a melhor, mas também a última Aventureira dos Cavaleiros de Favonius.",
-  "weaponType": "Arco",
-  "element": "Pyro",
-  "gender": "Feminino",
-  "substat": "ATQ%",
-  "affiliation": "Cavaleiros de Favonius",
-  "region": "Mondstadt",
-  "rarity": 4,
-  "birthday": "10/8",
-  "constellation": "Lepus",
-  "domain": "Fenda Abandonada",
-  "cv": {
-    "english": "Kelly Baskin",
-    "chinese": "蔡书瑾",
-    "japanese": "石見舞菜香",
-    "korean": "Kim Yeon-woo"
-  },
-  "skills": [
-    {
-      "id": "NormalAttackSharpshooter",
-      "name": "Ataque Normal: Pontaria",
-      "description": "<span>Ataque Normal</span><br/>Realiza até 5 tiros consecutivos com um arco.<br/><br/><span>Ataque Carregado</span><br/>Dispara um <span>Tiro com Mira</span> mais preciso e com Dano aumentado.<br/>Ao mirar, chamas irão se acumular na ponta da flecha. Uma flecha em chamas completamente carregada inflige <span>Dano Pyro</span>.<br/><br/><span>Ataque Imersivo</span><br/>Dispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
-      "info": "",
-      "attributes": [
-        {
-          "label": "Dano do 1° Golpe",
-          "values": [
-            "36.12%",
-            "39.06%",
-            "42%",
-            "46.2%",
-            "49.14%",
-            "52.5%",
-            "57.12%",
-            "61.74%",
-            "66.36%",
-            "71.4%",
-            "76.44%",
-            "81.48%",
-            "86.52%",
-            "91.56%",
-            "96.6%"
-          ]
-        },
-        {
-          "label": "Dano do 2° Golpe",
-          "values": [
-            "36.12%",
-            "39.06%",
-            "42%",
-            "46.2%",
-            "49.14%",
-            "52.5%",
-            "57.12%",
-            "61.74%",
-            "66.36%",
-            "71.4%",
-            "76.44%",
-            "81.48%",
-            "86.52%",
-            "91.56%",
-            "96.6%"
-          ]
-        },
-        {
-          "label": "Dano do 3° Golpe",
-          "values": [
-            "46.44%",
-            "50.22%",
-            "54%",
-            "59.4%",
-            "63.18%",
-            "67.5%",
-            "73.44%",
-            "79.38%",
-            "85.32%",
-            "91.8%",
-            "98.28%",
-            "104.76%",
-            "111.24%",
-            "117.72%",
-            "124.2%"
-          ]
-        },
-        {
-          "label": "Dano do 4° Golpe",
-          "values": [
-            "47.3%",
-            "51.15%",
-            "55%",
-            "60.5%",
-            "64.35%",
-            "68.75%",
-            "74.8%",
-            "80.85%",
-            "86.9%",
-            "93.5%",
-            "100.1%",
-            "106.7%",
-            "113.3%",
-            "119.9%",
-            "126.5%"
-          ]
-        },
-        {
-          "label": "Dano do 5° Golpe",
-          "values": [
-            "59.34%",
-            "64.17%",
-            "69%",
-            "75.9%",
-            "80.73%",
-            "86.25%",
-            "93.84%",
-            "101.43%",
-            "109.02%",
-            "117.3%",
-            "125.58%",
-            "133.86%",
-            "142.14%",
-            "150.42%",
-            "158.7%"
-          ]
-        },
-        {
-          "label": "Disparo com Mira",
-          "values": [
-            "43.86%",
-            "47.43%",
-            "51%",
-            "56.1%",
-            "59.67%",
-            "63.75%",
-            "69.36%",
-            "74.97%",
-            "80.58%",
-            "86.7%",
-            "92.82%",
-            "98.94%",
-            "105.06%",
-            "111.18%",
-            "117.3%"
-          ]
-        },
-        {
-          "label": "Disparo com Mira com Energização Completa",
-          "values": [
-            "124%",
-            "133.3%",
-            "142.6%",
-            "155%",
-            "164.3%",
-            "173.6%",
-            "186%",
-            "198.4%",
-            "210.8%",
-            "223.2%",
-            "235.6%",
-            "248%",
-            "263.5%",
-            "279%",
-            "294.5%"
-          ]
-        },
-        {
-          "label": "Dano Durante a Queda",
-          "values": [
-            "56.83%",
-            "61.45%",
-            "66.08%",
-            "72.69%",
-            "77.31%",
-            "82.6%",
-            "89.87%",
-            "97.14%",
-            "104.41%",
-            "112.34%",
-            "120.27%",
-            "128.2%",
-            "136.12%",
-            "144.05%",
-            "151.98%"
-          ]
-        },
-        {
-          "label": "Dano de Queda de Baixa/Alta Altitude",
-          "values": [
-            "113.63% / 141.93%",
-            "122.88% / 153.49%",
-            "132.13% / 165.04%",
-            "145.35% / 181.54%",
-            "154.59% / 193.1%",
-            "165.16% / 206.3%",
-            "179.7% / 224.45%",
-            "194.23% / 242.61%",
-            "208.77% / 260.76%",
-            "224.62% / 280.57%",
-            "240.48% / 300.37%",
-            "256.34% / 320.18%",
-            "272.19% / 339.98%",
-            "288.05% / 359.79%",
-            "303.9% / 379.59%"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ExplosivePuppet",
-      "name": "Marionete Explosiva",
-      "description": "O sempre tão confiável Barão Coelho sobe ao palco.<br/><br/><span>Barão Coelho</span><br/>Continuamente provoca o inimigo, atraindo seus golpes.<br/>A vida do Barão Coelho aumenta com a Vida máxima de Amber.<br/>Quando destruído ou quando o tempo expirar, Barão Coelho explode, infligindo <span>Dano Pyro em uma AdE</span>.<br/><br/><span>Manter pressionado</span><br/>Ajusta a direção do lançamento do Barão Coelho.<br/>Quanto mais tempo o botão for pressionado, mais distante é o lançamento.",
-      "info": "Barão Coelho provém de uma histórica linhagem, mas Amber decidiu parar de contar desde o Barão Coelho 893.",
-      "attributes": [
-        {
-          "label": "Vida Recebida",
-          "values": [
-            "41.36%",
-            "44.46%",
-            "47.56%",
-            "51.7%",
-            "54.8%",
-            "57.9%",
-            "62.04%",
-            "66.18%",
-            "70.31%",
-            "74.45%",
-            "78.58%",
-            "82.72%",
-            "87.89%",
-            "93.06%",
-            "98.23%"
-          ]
-        },
-        {
-          "label": "Dano de Explosão",
-          "values": [
-            "123.2%",
-            "132.44%",
-            "141.68%",
-            "154%",
-            "163.24%",
-            "172.48%",
-            "184.8%",
-            "197.12%",
-            "209.44%",
-            "221.76%",
-            "234.08%",
-            "246.4%",
-            "261.8%",
-            "277.2%",
-            "292.6%"
-          ]
-        },
-        {
-          "label": "Tempo de Recarga",
-          "values": [
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s",
-            "15s"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "FieryRain",
-      "name": "Chuva Ardente",
-      "description": "Dispara uma chuva de flechas, causando <span>Dano em uma AdE Pyro</span> contínuo.",
-      "info": "A paixão de Amber arde como o fogo.",
-      "attributes": [
-        {
-          "label": "Dano Único da Chuva Ardente",
-          "values": [
-            "28.08%",
-            "30.19%",
-            "32.29%",
-            "35.1%",
-            "37.21%",
-            "39.31%",
-            "42.12%",
-            "44.93%",
-            "47.74%",
-            "50.54%",
-            "53.35%",
-            "56.16%",
-            "59.67%",
-            "63.18%",
-            "66.69%"
-          ]
-        },
-        {
-          "label": "Dano Total da Chuva Ardente",
-          "values": [
-            "505.44%",
-            "543.35%",
-            "581.26%",
-            "631.8%",
-            "669.71%",
-            "707.62%",
-            "758.16%",
-            "808.7%",
-            "859.25%",
-            "909.79%",
-            "960.34%",
-            "1010.88%",
-            "1074.06%",
-            "1137.24%",
-            "1200.42%"
-          ]
-        },
-        {
-          "label": "Duração",
-          "values": [
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s",
-            "2s"
-          ]
-        },
-        {
-          "label": "Tempo de Recarga",
-          "values": [
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s",
-            "12s"
-          ]
-        },
-        {
-          "label": "Energia Elemental",
-          "values": [
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40",
-            "40"
-          ]
-        }
-      ]
-    }
-  ],
-  "passives": [
-    {
-      "id": "EveryArrowFindsItsTarget",
-      "name": "Ninguém consegue fugir do meu campo de visão!",
-      "description": "Aumenta a Taxa Crítica da <span>Chuva Ardente</span> em 10% e expande a AdE em 30%.",
-      "level": 1
-    },
-    {
-      "id": "PreciseShot",
-      "name": "Disparo Preciso",
-      "description": "Disparos com Mira em pontos fracos aumentam o ATQ em 15% por 10s.",
-      "level": 4
-    },
-    {
-      "id": "GlidingChampion",
-      "name": "Campeã Voadora",
-      "description": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.<br/>Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
-      "level": 0
-    }
-  ],
-  "constellations": [
-    {
-      "id": "OneArrowToRuleThemAll",
-      "name": "Uma Flecha para Todos Governar",
-      "description": "Dispara 2 flechas a cada <span>Disparo com Mira</span>. A segunda flecha causa 20% do Dano da primeira flecha.",
-      "level": 1
-    },
-    {
-      "id": "BunnyTriggered",
-      "name": "Coelho Ativado",
-      "description": "Barão Coelho, novo e melhorado! Atingir o pé do Barão Coelho com um Tiro com Mira completamente carregado irá manualmente detoná-lo.<br/>Explosões feitas de maneira manual causam 200% de Dano adicional.",
-      "level": 2
-    },
-    {
-      "id": "ItBurns",
-      "name": "Isso, Queima!",
-      "description": "Aumenta o nível da <span>Chuva Ardente</span> em 3.<br/>O nível máximo de elevação é 15.",
-      "level": 3
-    },
-    {
-      "id": "ItsNotJustAnyDoll",
-      "name": "Não É Uma Boneca Qualquer...",
-      "description": "Diminui o Tempo de Recarga da <span>Marionete Explosiva</span> em 20% e adiciona 1 carga adicional.",
-      "level": 4
-    },
-    {
-      "id": "ItsBaronBunny",
-      "name": "É o Barão Coelho!",
-      "description": "Aumenta o nível da <span>Marionete Explosiva</span> em 3.<br/>O nível máximo de elevação é 15.",
-      "level": 5
-    },
-    {
-      "id": "Wildfire",
-      "name": "Fogo Vivo",
-      "description": "A <span>Chuva Ardente</span> aumenta a Veloc. Mov. da equipe toda em 15% e o ATQ em 15% por 10s.",
-      "level": 6
-    }
-  ],
-  "ascension": [
-    {
-      "level": [
-        1
-      ],
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            "-",
-            1
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "-",
-            "793"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "-",
-            "19"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "-",
-            "50"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "-",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        20
-      ],
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            0,
-            1
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "2038",
-            "2630"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "48",
-            "62"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "129",
-            "167"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "0.0%",
-            "0.0%"
-          ]
-        }
-      ]
-    },
-    {
-      "level": [
-        40
-      ],
-      "cost": 20000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            1,
-            2
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "3940",
-            "4361"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "93",
-            "103"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "250",
-            "277"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "0.0%",
-            "6.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateSliver",
-        "name": "Lasca de Ágata Agnidus",
-        "amount": 1,
-        "rarity": 2
-      },
-      "mat3": {
-        "id": "SmallLampGrass",
-        "name": "Lâmpada de Grama",
-        "amount": 3,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "FirmArrowhead",
-        "name": "Ponta de Flecha Robusta",
-        "amount": 3,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        50
-      ],
-      "cost": 40000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            2,
-            3
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "5016",
-            "5578"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "118",
-            "131"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "318",
-            "354"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "6.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateFragment",
-        "name": "Fragmento de Ágata Agnidus",
-        "amount": 3,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Semente de Fogo Eterno",
-        "amount": 2,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SmallLampGrass",
-        "name": "Lâmpada de Grama",
-        "amount": 10,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "FirmArrowhead",
-        "name": "Ponta de Flecha Robusta",
-        "amount": 15,
-        "rarity": 1
-      }
-    },
-    {
-      "level": [
-        60
-      ],
-      "cost": 60000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            3,
-            4
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "6233",
-            "6654"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "147",
-            "157"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "396",
-            "422"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "12.0%",
-            "12.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateFragment",
-        "name": "Fragmento de Ágata Agnidus",
-        "amount": 6,
-        "rarity": 3
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Semente de Fogo Eterno",
-        "amount": 4,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SmallLampGrass",
-        "name": "Lâmpada de Grama",
-        "amount": 20,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SharpArrowhead",
-        "name": "Ponta de Flecha Afiada",
-        "amount": 12,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        70
-      ],
-      "cost": 80000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            4,
-            5
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "7309",
-            "7730"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "172",
-            "182"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "464",
-            "491"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "12.0%",
-            "18.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateChunk",
-        "name": "Pedaço de Ágata Agnidus",
-        "amount": 3,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Semente de Fogo Eterno",
-        "amount": 8,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SmallLampGrass",
-        "name": "Lâmpada de Grama",
-        "amount": 30,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "SharpArrowhead",
-        "name": "Ponta de Flecha Afiada",
-        "amount": 18,
-        "rarity": 2
-      }
-    },
-    {
-      "level": [
-        80
-      ],
-      "cost": 100000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            5,
-            6
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "8385",
-            "8806"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "198",
-            "208"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "532",
-            "559"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "18.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateChunk",
-        "name": "Pedaço de Ágata Agnidus",
-        "amount": 6,
-        "rarity": 4
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Semente de Fogo Eterno",
-        "amount": 12,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SmallLampGrass",
-        "name": "Lâmpada de Grama",
-        "amount": 45,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WeatheredArrowhead",
-        "name": "Ponta de Flecha Usada",
-        "amount": 12,
-        "rarity": 3
-      }
-    },
-    {
-      "level": [
-        90
-      ],
-      "cost": 120000,
-      "stats": [
-        {
-          "label": "Ascender",
-          "values": [
-            6,
-            7
-          ]
-        },
-        {
-          "label": "Vida Básica",
-          "values": [
-            "9461",
-            "9461"
-          ]
-        },
-        {
-          "label": "ATQ Básico",
-          "values": [
-            "223",
-            "223"
-          ]
-        },
-        {
-          "label": "DEF Básica",
-          "values": [
-            "601",
-            "601"
-          ]
-        },
-        {
-          "label": "ATQ%",
-          "values": [
-            "24.0%",
-            "24.0%"
-          ]
-        }
-      ],
-      "mat1": {
-        "id": "AgnidusAgateGemstone",
-        "name": "Gema de Ágata Agnidus",
-        "amount": 6,
-        "rarity": 5
-      },
-      "mat2": {
-        "id": "EverflameSeed",
-        "name": "Semente de Fogo Eterno",
-        "amount": 20,
-        "rarity": 4
-      },
-      "mat3": {
-        "id": "SmallLampGrass",
-        "name": "Lâmpada de Grama",
-        "amount": 60,
-        "rarity": 1
-      },
-      "mat4": {
-        "id": "WeatheredArrowhead",
-        "name": "Ponta de Flecha Usada",
-        "amount": 24,
-        "rarity": 3
-      }
-    }
-  ],
-  "talentMaterials": [
-    {
-      "level": 2,
-      "cost": 12500,
-      "items": [
-        {
-          "id": "TeachingsOfFreedom",
-          "name": "Ensinamentos de \"Liberdade\"",
-          "amount": 3,
-          "rarity": 2
-        },
-        {
-          "id": "FirmArrowhead",
-          "name": "Ponta de Flecha Robusta",
-          "amount": 6,
-          "rarity": 1
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "cost": 17500,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "Guia da Liberdade",
-          "amount": 2,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Ponta de Flecha Afiada",
-          "amount": 3,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 4,
-      "cost": 25000,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "Guia da Liberdade",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Ponta de Flecha Afiada",
-          "amount": 4,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 5,
-      "cost": 30000,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "Guia da Liberdade",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Ponta de Flecha Afiada",
-          "amount": 6,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 6,
-      "cost": 37500,
-      "items": [
-        {
-          "id": "GuideToFreedom",
-          "name": "Guia da Liberdade",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "SharpArrowhead",
-          "name": "Ponta de Flecha Afiada",
-          "amount": 9,
-          "rarity": 2
-        }
-      ]
-    },
-    {
-      "level": 7,
-      "cost": 120000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "Filosofia da Liberdade",
-          "amount": 4,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Ponta de Flecha Usada",
-          "amount": 4,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsSigh",
-          "name": "Suspiro do Vento Oriental",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 8,
-      "cost": 260000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "Filosofia da Liberdade",
-          "amount": 6,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Ponta de Flecha Usada",
-          "amount": 6,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsSigh",
-          "name": "Suspiro do Vento Oriental",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 9,
-      "cost": 450000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "Filosofia da Liberdade",
-          "amount": 12,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Ponta de Flecha Usada",
-          "amount": 9,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsSigh",
-          "name": "Suspiro do Vento Oriental",
-          "amount": 2,
-          "rarity": 5
-        }
-      ]
-    },
-    {
-      "level": 10,
-      "cost": 700000,
-      "items": [
-        {
-          "id": "PhilosophiesOfFreedom",
-          "name": "Filosofia da Liberdade",
-          "amount": 16,
-          "rarity": 4
-        },
-        {
-          "id": "WeatheredArrowhead",
-          "name": "Ponta de Flecha Usada",
-          "amount": 12,
-          "rarity": 3
-        },
-        {
-          "id": "DvalinsSigh",
-          "name": "Suspiro do Vento Oriental",
-          "amount": 2,
-          "rarity": 5
-        },
-        {
-          "id": "CrownOfInsight",
-          "name": "Coroa da Sabedoria",
-          "amount": 1,
-          "rarity": 5
-        }
-      ]
-    }
-  ],
-  "featuredBanner": [],
-  "pictures": {
-    "icon": "Character/Amber/Icon.webp",
-    "sideIcon": "Character/Amber/SideIcon.webp",
-    "gatchaCard": "Character/Amber/GachaCard.webp",
-    "gachaSplash": "Character/Amber/GachaSplash.webp",
-    "face": "Character/Amber/Face.webp",
-    "halfFace": "Character/Amber/HalfFace.webp",
-    "profile": "Character/Amber/Profile.webp",
-    "weaponStance": "Character/Amber/WeaponStance.webp"
-  },
-  "signatureArtifactSet": "",
-  "signatureWeapon": "HuntersBow",
-  "specialDish": "OutridersChampionSteak",
-  "tcgCharacterCard": "",
-  "outfits": [
-    {
-      "id": "5-starOutrider",
-      "name": "“Marcas da Aventureira”",
-      "description": "Um vestuário de Amber. É uma roupa de Aventureira que possui alta flexibilidade.",
-      "picture": "Character/Amber/Outfit/5-starOutrider.webp"
-    }
-  ]
+	"id": "Amber",
+	"name": "Amber",
+	"title": "Campeã Voadora",
+	"description": "Sempre energética e cheia de vida, a Amber é a melhor, mas também a última Aventureira dos Cavaleiros de Favonius.",
+	"weaponType": "Arco",
+	"element": "Pyro",
+	"gender": "Feminino",
+	"substat": "ATQ%",
+	"affiliation": "Cavaleiros de Favonius",
+	"region": "Mondstadt",
+	"rarity": 4,
+	"birthday": "10/8",
+	"constellation": "Lepus",
+	"domain": "Fenda Abandonada",
+	"cv": {
+		"english": "Kelly Baskin",
+		"chinese": "蔡书瑾",
+		"japanese": "石見舞菜香",
+		"korean": "Kim Yeon-woo"
+	},
+	"skills": [
+		{
+			"id": "NormalAttackSharpshooter",
+			"name": "Ataque Normal: Pontaria",
+			"description": "Ataque Normal</span><br/>Realiza até 5 tiros consecutivos com um arco.<br/><br/>Ataque Carregado</span><br/>Dispara um Tiro com Mira</span> mais preciso e com Dano aumentado.<br/>Ao mirar, chamas irão se acumular na ponta da flecha. Uma flecha em chamas completamente carregada inflige Dano Pyro</span>.<br/><br/>Ataque Imersivo</span><br/>Dispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+			"info": "",
+			"attributes": [
+				{
+					"label": "Dano do 1° Golpe",
+					"values": [
+						"36.12%",
+						"39.06%",
+						"42%",
+						"46.2%",
+						"49.14%",
+						"52.5%",
+						"57.12%",
+						"61.74%",
+						"66.36%",
+						"71.4%",
+						"76.44%",
+						"81.48%",
+						"86.52%",
+						"91.56%",
+						"96.6%"
+					]
+				},
+				{
+					"label": "Dano do 2° Golpe",
+					"values": [
+						"36.12%",
+						"39.06%",
+						"42%",
+						"46.2%",
+						"49.14%",
+						"52.5%",
+						"57.12%",
+						"61.74%",
+						"66.36%",
+						"71.4%",
+						"76.44%",
+						"81.48%",
+						"86.52%",
+						"91.56%",
+						"96.6%"
+					]
+				},
+				{
+					"label": "Dano do 3° Golpe",
+					"values": [
+						"46.44%",
+						"50.22%",
+						"54%",
+						"59.4%",
+						"63.18%",
+						"67.5%",
+						"73.44%",
+						"79.38%",
+						"85.32%",
+						"91.8%",
+						"98.28%",
+						"104.76%",
+						"111.24%",
+						"117.72%",
+						"124.2%"
+					]
+				},
+				{
+					"label": "Dano do 4° Golpe",
+					"values": [
+						"47.3%",
+						"51.15%",
+						"55%",
+						"60.5%",
+						"64.35%",
+						"68.75%",
+						"74.8%",
+						"80.85%",
+						"86.9%",
+						"93.5%",
+						"100.1%",
+						"106.7%",
+						"113.3%",
+						"119.9%",
+						"126.5%"
+					]
+				},
+				{
+					"label": "Dano do 5° Golpe",
+					"values": [
+						"59.34%",
+						"64.17%",
+						"69%",
+						"75.9%",
+						"80.73%",
+						"86.25%",
+						"93.84%",
+						"101.43%",
+						"109.02%",
+						"117.3%",
+						"125.58%",
+						"133.86%",
+						"142.14%",
+						"150.42%",
+						"158.7%"
+					]
+				},
+				{
+					"label": "Disparo com Mira",
+					"values": [
+						"43.86%",
+						"47.43%",
+						"51%",
+						"56.1%",
+						"59.67%",
+						"63.75%",
+						"69.36%",
+						"74.97%",
+						"80.58%",
+						"86.7%",
+						"92.82%",
+						"98.94%",
+						"105.06%",
+						"111.18%",
+						"117.3%"
+					]
+				},
+				{
+					"label": "Disparo com Mira com Energização Completa",
+					"values": [
+						"124%",
+						"133.3%",
+						"142.6%",
+						"155%",
+						"164.3%",
+						"173.6%",
+						"186%",
+						"198.4%",
+						"210.8%",
+						"223.2%",
+						"235.6%",
+						"248%",
+						"263.5%",
+						"279%",
+						"294.5%"
+					]
+				},
+				{
+					"label": "Dano Durante a Queda",
+					"values": [
+						"56.83%",
+						"61.45%",
+						"66.08%",
+						"72.69%",
+						"77.31%",
+						"82.6%",
+						"89.87%",
+						"97.14%",
+						"104.41%",
+						"112.34%",
+						"120.27%",
+						"128.2%",
+						"136.12%",
+						"144.05%",
+						"151.98%"
+					]
+				},
+				{
+					"label": "Dano de Queda de Baixa/Alta Altitude",
+					"values": [
+						"113.63% / 141.93%",
+						"122.88% / 153.49%",
+						"132.13% / 165.04%",
+						"145.35% / 181.54%",
+						"154.59% / 193.1%",
+						"165.16% / 206.3%",
+						"179.7% / 224.45%",
+						"194.23% / 242.61%",
+						"208.77% / 260.76%",
+						"224.62% / 280.57%",
+						"240.48% / 300.37%",
+						"256.34% / 320.18%",
+						"272.19% / 339.98%",
+						"288.05% / 359.79%",
+						"303.9% / 379.59%"
+					]
+				}
+			]
+		},
+		{
+			"id": "ExplosivePuppet",
+			"name": "Marionete Explosiva",
+			"description": "O sempre tão confiável Barão Coelho sobe ao palco.<br/><br/>Barão Coelho</span><br/>Continuamente provoca o inimigo, atraindo seus golpes.<br/>A vida do Barão Coelho aumenta com a Vida máxima de Amber.<br/>Quando destruído ou quando o tempo expirar, Barão Coelho explode, infligindo Dano Pyro em uma AdE</span>.<br/><br/>Manter pressionado</span><br/>Ajusta a direção do lançamento do Barão Coelho.<br/>Quanto mais tempo o botão for pressionado, mais distante é o lançamento.",
+			"info": "Barão Coelho provém de uma histórica linhagem, mas Amber decidiu parar de contar desde o Barão Coelho 893.",
+			"attributes": [
+				{
+					"label": "Vida Recebida",
+					"values": [
+						"41.36%",
+						"44.46%",
+						"47.56%",
+						"51.7%",
+						"54.8%",
+						"57.9%",
+						"62.04%",
+						"66.18%",
+						"70.31%",
+						"74.45%",
+						"78.58%",
+						"82.72%",
+						"87.89%",
+						"93.06%",
+						"98.23%"
+					]
+				},
+				{
+					"label": "Dano de Explosão",
+					"values": [
+						"123.2%",
+						"132.44%",
+						"141.68%",
+						"154%",
+						"163.24%",
+						"172.48%",
+						"184.8%",
+						"197.12%",
+						"209.44%",
+						"221.76%",
+						"234.08%",
+						"246.4%",
+						"261.8%",
+						"277.2%",
+						"292.6%"
+					]
+				},
+				{
+					"label": "Tempo de Recarga",
+					"values": [
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s",
+						"15s"
+					]
+				}
+			]
+		},
+		{
+			"id": "FieryRain",
+			"name": "Chuva Ardente",
+			"description": "Dispara uma chuva de flechas, causando Dano em uma AdE Pyro</span> contínuo.",
+			"info": "A paixão de Amber arde como o fogo.",
+			"attributes": [
+				{
+					"label": "Dano Único da Chuva Ardente",
+					"values": [
+						"28.08%",
+						"30.19%",
+						"32.29%",
+						"35.1%",
+						"37.21%",
+						"39.31%",
+						"42.12%",
+						"44.93%",
+						"47.74%",
+						"50.54%",
+						"53.35%",
+						"56.16%",
+						"59.67%",
+						"63.18%",
+						"66.69%"
+					]
+				},
+				{
+					"label": "Dano Total da Chuva Ardente",
+					"values": [
+						"505.44%",
+						"543.35%",
+						"581.26%",
+						"631.8%",
+						"669.71%",
+						"707.62%",
+						"758.16%",
+						"808.7%",
+						"859.25%",
+						"909.79%",
+						"960.34%",
+						"1010.88%",
+						"1074.06%",
+						"1137.24%",
+						"1200.42%"
+					]
+				},
+				{
+					"label": "Duração",
+					"values": ["2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s", "2s"]
+				},
+				{
+					"label": "Tempo de Recarga",
+					"values": [
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s",
+						"12s"
+					]
+				},
+				{
+					"label": "Energia Elemental",
+					"values": ["40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40"]
+				}
+			]
+		}
+	],
+	"passives": [
+		{
+			"id": "EveryArrowFindsItsTarget",
+			"name": "Ninguém consegue fugir do meu campo de visão!",
+			"description": "Aumenta a Taxa Crítica da Chuva Ardente</span> em 10% e expande a AdE em 30%.",
+			"level": 1
+		},
+		{
+			"id": "PreciseShot",
+			"name": "Disparo Preciso",
+			"description": "Disparos com Mira em pontos fracos aumentam o ATQ em 15% por 10s.",
+			"level": 4
+		},
+		{
+			"id": "GlidingChampion",
+			"name": "Campeã Voadora",
+			"description": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.<br/>Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+			"level": 0
+		}
+	],
+	"constellations": [
+		{
+			"id": "OneArrowToRuleThemAll",
+			"name": "Uma Flecha para Todos Governar",
+			"description": "Dispara 2 flechas a cada Disparo com Mira</span>. A segunda flecha causa 20% do Dano da primeira flecha.",
+			"level": 1
+		},
+		{
+			"id": "BunnyTriggered",
+			"name": "Coelho Ativado",
+			"description": "Barão Coelho, novo e melhorado! Atingir o pé do Barão Coelho com um Tiro com Mira completamente carregado irá manualmente detoná-lo.<br/>Explosões feitas de maneira manual causam 200% de Dano adicional.",
+			"level": 2
+		},
+		{
+			"id": "ItBurns",
+			"name": "Isso, Queima!",
+			"description": "Aumenta o nível da Chuva Ardente</span> em 3.<br/>O nível máximo de elevação é 15.",
+			"level": 3
+		},
+		{
+			"id": "ItsNotJustAnyDoll",
+			"name": "Não É Uma Boneca Qualquer...",
+			"description": "Diminui o Tempo de Recarga da Marionete Explosiva</span> em 20% e adiciona 1 carga adicional.",
+			"level": 4
+		},
+		{
+			"id": "ItsBaronBunny",
+			"name": "É o Barão Coelho!",
+			"description": "Aumenta o nível da Marionete Explosiva</span> em 3.<br/>O nível máximo de elevação é 15.",
+			"level": 5
+		},
+		{
+			"id": "Wildfire",
+			"name": "Fogo Vivo",
+			"description": "A Chuva Ardente</span> aumenta a Veloc. Mov. da equipe toda em 15% e o ATQ em 15% por 10s.",
+			"level": 6
+		}
+	],
+	"ascension": [
+		{
+			"level": [1],
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": ["-", 1]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["-", "793"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["-", "19"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["-", "50"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["-", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [20],
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [0, 1]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["2038", "2630"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["48", "62"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["129", "167"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["0.0%", "0.0%"]
+				}
+			]
+		},
+		{
+			"level": [40],
+			"cost": 20000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [1, 2]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["3940", "4361"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["93", "103"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["250", "277"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["0.0%", "6.0%"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateSliver",
+				"name": "Lasca de Ágata Agnidus",
+				"amount": 1,
+				"rarity": 2
+			},
+			"mat3": {
+				"id": "SmallLampGrass",
+				"name": "Lâmpada de Grama",
+				"amount": 3,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "FirmArrowhead",
+				"name": "Ponta de Flecha Robusta",
+				"amount": 3,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [50],
+			"cost": 40000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [2, 3]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["5016", "5578"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["118", "131"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["318", "354"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["6.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateFragment",
+				"name": "Fragmento de Ágata Agnidus",
+				"amount": 3,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Semente de Fogo Eterno",
+				"amount": 2,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SmallLampGrass",
+				"name": "Lâmpada de Grama",
+				"amount": 10,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "FirmArrowhead",
+				"name": "Ponta de Flecha Robusta",
+				"amount": 15,
+				"rarity": 1
+			}
+		},
+		{
+			"level": [60],
+			"cost": 60000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [3, 4]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["6233", "6654"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["147", "157"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["396", "422"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["12.0%", "12.0%"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateFragment",
+				"name": "Fragmento de Ágata Agnidus",
+				"amount": 6,
+				"rarity": 3
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Semente de Fogo Eterno",
+				"amount": 4,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SmallLampGrass",
+				"name": "Lâmpada de Grama",
+				"amount": 20,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SharpArrowhead",
+				"name": "Ponta de Flecha Afiada",
+				"amount": 12,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [70],
+			"cost": 80000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [4, 5]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["7309", "7730"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["172", "182"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["464", "491"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["12.0%", "18.0%"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateChunk",
+				"name": "Pedaço de Ágata Agnidus",
+				"amount": 3,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Semente de Fogo Eterno",
+				"amount": 8,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SmallLampGrass",
+				"name": "Lâmpada de Grama",
+				"amount": 30,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "SharpArrowhead",
+				"name": "Ponta de Flecha Afiada",
+				"amount": 18,
+				"rarity": 2
+			}
+		},
+		{
+			"level": [80],
+			"cost": 100000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [5, 6]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["8385", "8806"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["198", "208"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["532", "559"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["18.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateChunk",
+				"name": "Pedaço de Ágata Agnidus",
+				"amount": 6,
+				"rarity": 4
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Semente de Fogo Eterno",
+				"amount": 12,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SmallLampGrass",
+				"name": "Lâmpada de Grama",
+				"amount": 45,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WeatheredArrowhead",
+				"name": "Ponta de Flecha Usada",
+				"amount": 12,
+				"rarity": 3
+			}
+		},
+		{
+			"level": [90],
+			"cost": 120000,
+			"stats": [
+				{
+					"label": "Ascender",
+					"values": [6, 7]
+				},
+				{
+					"label": "Vida Básica",
+					"values": ["9461", "9461"]
+				},
+				{
+					"label": "ATQ Básico",
+					"values": ["223", "223"]
+				},
+				{
+					"label": "DEF Básica",
+					"values": ["601", "601"]
+				},
+				{
+					"label": "ATQ%",
+					"values": ["24.0%", "24.0%"]
+				}
+			],
+			"mat1": {
+				"id": "AgnidusAgateGemstone",
+				"name": "Gema de Ágata Agnidus",
+				"amount": 6,
+				"rarity": 5
+			},
+			"mat2": {
+				"id": "EverflameSeed",
+				"name": "Semente de Fogo Eterno",
+				"amount": 20,
+				"rarity": 4
+			},
+			"mat3": {
+				"id": "SmallLampGrass",
+				"name": "Lâmpada de Grama",
+				"amount": 60,
+				"rarity": 1
+			},
+			"mat4": {
+				"id": "WeatheredArrowhead",
+				"name": "Ponta de Flecha Usada",
+				"amount": 24,
+				"rarity": 3
+			}
+		}
+	],
+	"talentMaterials": [
+		{
+			"level": 2,
+			"cost": 12500,
+			"items": [
+				{
+					"id": "TeachingsOfFreedom",
+					"name": "Ensinamentos de \"Liberdade\"",
+					"amount": 3,
+					"rarity": 2
+				},
+				{
+					"id": "FirmArrowhead",
+					"name": "Ponta de Flecha Robusta",
+					"amount": 6,
+					"rarity": 1
+				}
+			]
+		},
+		{
+			"level": 3,
+			"cost": 17500,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "Guia da Liberdade",
+					"amount": 2,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Ponta de Flecha Afiada",
+					"amount": 3,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 4,
+			"cost": 25000,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "Guia da Liberdade",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Ponta de Flecha Afiada",
+					"amount": 4,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 5,
+			"cost": 30000,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "Guia da Liberdade",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Ponta de Flecha Afiada",
+					"amount": 6,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 6,
+			"cost": 37500,
+			"items": [
+				{
+					"id": "GuideToFreedom",
+					"name": "Guia da Liberdade",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "SharpArrowhead",
+					"name": "Ponta de Flecha Afiada",
+					"amount": 9,
+					"rarity": 2
+				}
+			]
+		},
+		{
+			"level": 7,
+			"cost": 120000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "Filosofia da Liberdade",
+					"amount": 4,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Ponta de Flecha Usada",
+					"amount": 4,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsSigh",
+					"name": "Suspiro do Vento Oriental",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 8,
+			"cost": 260000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "Filosofia da Liberdade",
+					"amount": 6,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Ponta de Flecha Usada",
+					"amount": 6,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsSigh",
+					"name": "Suspiro do Vento Oriental",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 9,
+			"cost": 450000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "Filosofia da Liberdade",
+					"amount": 12,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Ponta de Flecha Usada",
+					"amount": 9,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsSigh",
+					"name": "Suspiro do Vento Oriental",
+					"amount": 2,
+					"rarity": 5
+				}
+			]
+		},
+		{
+			"level": 10,
+			"cost": 700000,
+			"items": [
+				{
+					"id": "PhilosophiesOfFreedom",
+					"name": "Filosofia da Liberdade",
+					"amount": 16,
+					"rarity": 4
+				},
+				{
+					"id": "WeatheredArrowhead",
+					"name": "Ponta de Flecha Usada",
+					"amount": 12,
+					"rarity": 3
+				},
+				{
+					"id": "DvalinsSigh",
+					"name": "Suspiro do Vento Oriental",
+					"amount": 2,
+					"rarity": 5
+				},
+				{
+					"id": "CrownOfInsight",
+					"name": "Coroa da Sabedoria",
+					"amount": 1,
+					"rarity": 5
+				}
+			]
+		}
+	],
+	"featuredBanner": [],
+	"pictures": {
+		"icon": "Character/Amber/Icon.webp",
+		"sideIcon": "Character/Amber/SideIcon.webp",
+		"gatchaCard": "Character/Amber/GachaCard.webp",
+		"gachaSplash": "Character/Amber/GachaSplash.webp",
+		"face": "Character/Amber/Face.webp",
+		"halfFace": "Character/Amber/HalfFace.webp",
+		"profile": "Character/Amber/Profile.webp",
+		"weaponStance": "Character/Amber/WeaponStance.webp"
+	},
+	"signatureArtifactSet": "",
+	"signatureWeapon": "HuntersBow",
+	"specialDish": "OutridersChampionSteak",
+	"tcgCharacterCard": "",
+	"outfits": [
+		{
+			"id": "5-starOutrider",
+			"name": "“Marcas da Aventureira”",
+			"description": "Um vestuário de Amber. É uma roupa de Aventureira que possui alta flexibilidade.",
+			"picture": "Character/Amber/Outfit/5-starOutrider.webp"
+		}
+	]
 }
