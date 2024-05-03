@@ -108,4 +108,6 @@ const deepMergeObjectIntoJson = async (filePath, obj) => {
 	}
 };
 
-export {openJsonFile, writeJsonFile, mergeObjectIntoJson, mergeDeep, deepMergeObjectIntoJson};
+export {
+	openJsonFile, writeJsonFile, mergeObjectIntoJson, mergeDeep, deepMergeObjectIntoJson,
+};

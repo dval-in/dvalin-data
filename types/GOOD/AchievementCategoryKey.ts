@@ -46,5 +46,4 @@ export type AchievementCategoryKey =
   | 'MeetingsInOutrealmSeries4' // Meetings in Outrealm: Series IV
   | 'FontaineDanceOfTheDew-WhiteSprings(2)' // Fontaine: Dance of the Dew-White Springs (II)
   | 'FontaineDanceOfTheDew-WhiteSprings(3)' // Fontaine: Dance of the Dew-White Springs (III)
-  | 'ChenyusSplendor' // Chenyu's Splendor
-  ;
+  | 'ChenyusSplendor'; // Chenyu's Splendor

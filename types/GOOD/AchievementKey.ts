@@ -671,7 +671,6 @@ export type AchievementKey =
   | 'SacredCanto' // Sacred Canto
   | 'ContinentalExplorerMondstadt' // Continental Explorer: Mondstadt
   | 'BrushOfAThousandWinds' // Brush of a Thousand Winds
-  | 'LetTheWindLead' // Let the Wind Lead
   | 'SanctuaryPilgrimMondstadt' // Sanctuary Pilgrim: Mondstadt
   | 'GuidingWind1' // Guiding Wind 1
   | 'GuidingWind2' // Guiding Wind 2
@@ -744,7 +743,6 @@ export type AchievementKey =
   | '1Came1Saw1Conquered1' // I Came, I Saw, I Conquered 1
   | '1Came1Saw1Conquered2' // I Came, I Saw, I Conquered 2
   | '1Came1Saw1Conquered3' // I Came, I Saw, I Conquered 3
-  | 'ThatsOneBigCrystalfly' // That's One Big Crystalfly
   | 'AndStillSmiling' // ...And Still Smiling!
   | 'YouHaveToHitThePillars' // You Have to Hit the Pillars
   | 'JustMeAndYouTheSkySoBlueAndAlmostGettingKilledByACryoRegisvine' // Just Me and You, the Sky So Blue, and Almost Getting Killed by a Cryo Regisvine
@@ -1184,5 +1182,4 @@ export type AchievementKey =
   | 'JademoundAdventurer2' // Jademound Adventurer 2
   | 'JademoundAdventurer3' // Jademound Adventurer 3
   | 'OneRingForTheRiteOfAll' // One Ring for the Rite of All
-  | 'ChenyusBlessingsOfSunkenJade' // Chenyu's Blessings of Sunken Jade
-  ;
+  | 'ChenyusBlessingsOfSunkenJade'; // Chenyu's Blessings of Sunken Jade
