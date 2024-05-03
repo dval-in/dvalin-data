@@ -1,4 +1,3 @@
-
 /** @TJS-required */
 enum _ExtAPIGame {
 	HonkaiImpact3Rd = 1,
@@ -6,7 +5,7 @@ enum _ExtAPIGame {
 	TearsOfThemis = 4,
 	Hoyolab = 5,
 	HonkaiStarRail = 6,
-	ZenlessZoneZero = 8,
+	ZenlessZoneZero = 8
 }
 
 /** @TJS-required */
@@ -16,21 +15,21 @@ export enum Game {
 	TearsOfThemis = 'TearsOfThemis',
 	Hoyolab = 'Hoyolab',
 	HonkaiStarRail = 'HonkaiStarRail',
-	ZenlessZoneZero = 'ZenlessZoneZero',
+	ZenlessZoneZero = 'ZenlessZoneZero'
 }
 
 /** @TJS-required */
 enum _ExtAPIMessageType {
 	Notices = 1,
 	Event = 2,
-	Info = 3,
+	Info = 3
 }
 
 /** @TJS-required */
 export enum MessageType {
 	Notices = 'Notices',
 	Event = 'Event',
-	Info = 'Info',
+	Info = 'Info'
 }
 
 /** @TJS-required */
@@ -65,7 +64,7 @@ export enum Tag {
 	CutsceneAnimation = 'CutsceneAnimation',
 	GenshinConcert2023 = 'GenshinConcert2023',
 	VersionPreviewPage = 'VersionPreviewPage',
-	Music = 'Music',
+	Music = 'Music'
 }
 
 /** @TJS-required */
@@ -84,7 +83,7 @@ export enum LanguageCode {
 	English = 'en-us',
 	German = 'de-de',
 	French = 'fr-fr',
-	Spanish = 'es-es',
+	Spanish = 'es-es'
 }
 
 type RedirectLinkChain = string[];
@@ -103,7 +102,7 @@ export enum LinkType {
 	Telegram = 'Telegram',
 	Relative = 'Relative',
 	Unknown = 'Unknown',
-	Malformed = 'Malformed',
+	Malformed = 'Malformed'
 }
 
 /** @TJS-required */

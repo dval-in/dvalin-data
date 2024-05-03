@@ -9,11 +9,12 @@
  * @param {string} str - The string to convert to PascalCase.
  * @returns {string} The converted string in PascalCase.
  */
-const toPascalCase = str => str
-	.split(/[^a-zA-Z0-9]/)
-	.filter(Boolean)
-	.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-	.join('');
+const toPascalCase = (str) =>
+	str
+		.split(/[^a-zA-Z0-9]/)
+		.filter(Boolean)
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+		.join('');
 
 /**
  * Converts a given string to camelCase.
@@ -26,7 +27,7 @@ const toPascalCase = str => str
  * @param {string} str - The string to convert to camelCase.
  * @returns {string} The converted string in camelCase.
  */
-const toCamelCase = str => {
+const toCamelCase = (str) => {
 	const words = str
 		.split(/[^a-zA-Z0-9]/)
 		.filter(Boolean)
@@ -48,11 +49,18 @@ const toCamelCase = str => {
  * @param {string} seriesName - The PascalCased name of the series with a Roman numeral at the end.
  * @return {string} - The series name with the Roman numeral at the end replaced by its Arabic numeral equivalent.
  */
-const replaceRomanNumeralsPascalCased = seriesName => {
+const replaceRomanNumeralsPascalCased = (seriesName) => {
 	const romanToNumber = {
-		I: 1, II: 2, III: 3, IV: 4,
-		V: 5, VI: 6, VII: 7, VIII: 8,
-		IX: 9, X: 10,
+		I: 1,
+		II: 2,
+		III: 3,
+		IV: 4,
+		V: 5,
+		VI: 6,
+		VII: 7,
+		VIII: 8,
+		IX: 9,
+		X: 10
 	};
 
 	// Regular expression to match the Roman numeral at the end of the series name, case-insensitive
@@ -74,4 +82,4 @@ const replaceRomanNumeralsPascalCased = seriesName => {
 	return seriesName.substring(0, match.index) + number;
 };
 
-export {toPascalCase, toCamelCase, replaceRomanNumeralsPascalCased};
+export { toPascalCase, toCamelCase, replaceRomanNumeralsPascalCased };

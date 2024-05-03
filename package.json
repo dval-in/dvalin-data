@@ -1,8 +1,9 @@
 {
 	"name": "dvalin-data",
+	"type": "module",
 	"scripts": {
 		"schemas": "node ./scripts/GenerateSchemas.js",
-		"lint": "eslint ."
+		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
@@ -12,8 +13,9 @@
 		"axios": "^1.6.8",
 		"cheerio": "^1.0.0-rc.12",
 		"eslint": "^8.57.0",
-		"eslint-config-xo": "^0.44.0",
-		"eslint-config-xo-typescript": "^4.0.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"prettier": "^3.2.5",
 		"typescript": "^5.4.5",
 		"typescript-json-schema": "^0.63.0"
 	},

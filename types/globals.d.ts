@@ -4,7 +4,7 @@ declare global {
 		'Claymore',
 		'Polearm',
 		'Bow',
-		'Catalyst',
+		'Catalyst'
 	}
 
 	enum region {
@@ -15,7 +15,7 @@ declare global {
 		'Fontaine',
 		'Natlan',
 		'Snezhnaya',
-		'KhaenriAh',
+		'KhaenriAh'
 	}
 }
 export {};
