@@ -184,7 +184,8 @@ const updateFile = (obj, folder) => {
 			specialDish: specialDish[updatedObj.id],
 			tcgCharacterCard: existInTCG(updatedObj.id) ? updatedObj.id : '',
 			outfits: [
-			]};
+			],
+		};
 		Object.assign(updatedObj, objectAddition);
 	}
 

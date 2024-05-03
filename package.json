@@ -3,7 +3,7 @@
 	"type": "module",
 	"scripts": {
 		"schemas": "node ./scripts/GenerateSchemas.js",
-		"lint": "eslint . --ext .ts,.tsx --fix"
+		"lint": "eslint . --ext .ts"
 	},
 	"dependencies": {
 		"typescript-json-schema": "^0.63.0"
@@ -21,7 +21,7 @@
 		"typescript": "^5.4.5"
 	},
 	"engines": {
-		"pnpm": ">= 8",
+		"pnpm": ">= 9",
 		"npm": "please-use-pnpm",
 		"yarn": "please-use-pnpm"
 	}
