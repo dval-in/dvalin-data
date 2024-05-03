@@ -1,12 +1,8 @@
 {
 	"name": "dvalin-data",
-	"type": "module",
 	"scripts": {
 		"schemas": "node ./scripts/GenerateSchemas.js",
-		"lint": "eslint . --ext .ts,.tsx --fix"
-	},
-	"dependencies": {
-		"typescript-json-schema": "^0.63.0"
+		"lint": "eslint ."
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
@@ -18,10 +14,11 @@
 		"eslint": "^8.57.0",
 		"eslint-config-xo": "^0.44.0",
 		"eslint-config-xo-typescript": "^4.0.0",
-		"typescript": "^5.4.5"
+		"typescript": "^5.4.5",
+		"typescript-json-schema": "^0.63.0"
 	},
 	"engines": {
-		"pnpm": ">= 8",
+		"pnpm": ">= 9",
 		"npm": "please-use-pnpm",
 		"yarn": "please-use-pnpm"
 	}

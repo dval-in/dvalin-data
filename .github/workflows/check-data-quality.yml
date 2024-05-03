@@ -1,0 +1,45 @@
+name: 'Check data quality'
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  check-eslint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/Iron
+      - uses: pnpm/action-setup@v3
+        name: Install pnpm
+        with:
+          version: 9
+          run_install: true
+      - name: Check ESLint
+        run: pnpm lint
+  check-schemas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/Iron
+      - uses: pnpm/action-setup@v3
+        name: Install pnpm
+        with:
+          version: 9
+          run_install: true
+      - name: Check JSON Schemas
+        run: |
+          pnpm install -g ajv-cli
+          node scripts/ValidateSchemas.js
