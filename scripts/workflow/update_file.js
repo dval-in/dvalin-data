@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { toPascalCase, replaceRomanNumeralsPascalCased } from '../utils/stringUtils.js';
-const baseDir = path.resolve('../');
+import {deepMergeObjectIntoJson, mergeDeep, openJsonFile, writeJsonFile} from '../utils/fileManager.js';
+const baseDir = path.resolve('./');
 
 // Construct the full path
 const filePath = path.join(baseDir, 'genshin-data/changed_files.txt');
@@ -42,6 +43,18 @@ for(let line of lines) {
         newFile = replaceRomanNumeralsPascalCased(newFile);
     }
     const newPath = `data/${newLang}/${newFolder}/${newFile}.json`
+    // we try to open the json file and if it doesn't exist we create it
+    try {
+        const currentData = await openJsonFile(newPath);
+        const object = await openJsonFile(line);
+        const mergedResult = mergeDeep(newPath, object);
+        await writeJsonFile(newPath, mergedResult);
+        console.log(currentData)
+    } catch (error) {
+        console.warn('Creating a file for ', newPath);
+        const object = await openJsonFile(line);
+        await writeJsonFile(newPath, object);
+    }
     console.log(newPath)
 }
     

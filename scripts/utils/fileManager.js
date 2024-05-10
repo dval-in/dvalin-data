@@ -53,7 +53,6 @@ const mergeObjectIntoJson = async (filePath, obj) => {
 		const currentData = await openJsonFile(filePath);
 		const mergedResult = {...currentData, ...obj};
 		await writeJsonFile(filePath, mergedResult);
-		console.log('Merge successful. JSON file has been updated.');
 	} catch (error) {
 		console.error('Error during merge operation:', error);
 	}
@@ -102,7 +101,6 @@ const deepMergeObjectIntoJson = async (filePath, obj) => {
 		const currentData = await openJsonFile(filePath);
 		const mergedResult = mergeDeep(currentData, obj);
 		await writeJsonFile(filePath, mergedResult);
-		console.log('Merge successful. JSON file has been updated.');
 	} catch (error) {
 		console.error('Error during merge operation:', error);
 	}
