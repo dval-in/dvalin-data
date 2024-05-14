@@ -53,22 +53,35 @@ const mergeObjectIntoJson = async (filePath, obj) => {
 		const mergedResult = {...currentData, ...obj};
 		await writeJsonFile(filePath, mergedResult);
 	} catch (error) {
-		console.error('Error during merge operation:', error);
+		console.error(`Error during merge operation of ${filePath}:`, error);
 	}
 };
 
 const merge = (target, source) => {
-	if (!isObject(target) || !isObject(source)) {
-		return source;
-	}
-
+	// Console.log(Object.keys(source));
 	for (const key of Object.keys(source)) {
-		if (isObject(source[key])) {
-			if (!isObject(target[key])) {
-				target[key] = {};
-			}
+		if (source[key] instanceof Object && !Array.isArray(source[key])) {
+			target[key] ||= {};
 
-			target[key] = merge(target[key], source[key]);
+			merge(target[key], source[key]);
+		} else if (Array.isArray(source[key])) {
+			target[key] ||= [];
+
+			source[key].forEach(sourceElement => {
+				if (sourceElement instanceof Object && 'id' in sourceElement) {
+					const targetElementIndex = target[key].findIndex(targetElement => targetElement.id === sourceElement.id);
+					// eslint-disable-next-line no-negated-condition
+					if (targetElementIndex !== -1) {
+						merge(target[key][targetElementIndex], sourceElement);
+					} else {
+						target[key].push(sourceElement);
+					}
+				} else if (Array.isArray(target[key])) {
+					target[key].push(sourceElement);
+				} else {
+					target[key] = source[key];
+				}
+			});
 		} else {
 			target[key] = source[key];
 		}
@@ -76,8 +89,6 @@ const merge = (target, source) => {
 
 	return target;
 };
-
-const isObject = obj => obj && typeof obj === 'object';
 
 /**
    * Merges a given object into a JSON file, performing a deep merge. This means

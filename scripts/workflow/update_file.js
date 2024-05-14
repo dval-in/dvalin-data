@@ -25,7 +25,12 @@ const handleMergeOperation = async (newPath, link) => {
 	try {
 		const currentData = await openJsonFile(newPath);
 		object = await openJsonFile(link);
-		mergedResult = merge(currentData, object);
+		try {
+			mergedResult = merge(currentData, object);
+		} catch (error) {
+			console.error(`Error during merge operation of ${newPath}:`, error);
+		}
+
 		updatedFileList.push(newPath);
 	// eslint-disable-next-line no-unused-vars
 	} catch (error) {
