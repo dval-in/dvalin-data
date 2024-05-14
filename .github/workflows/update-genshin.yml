@@ -32,15 +32,52 @@ jobs:
 
       - name: Fetch commit history since last processed
         run: |
+          # Initialize the variables
+          COMMITS=""
+          GI_VERSIONS=""
+
+          # Clone the repository
           git clone --bare https://github.com/dvaJi/genshin-data.git genshin-data-bare
           cd genshin-data-bare
+
           # Use git log to fetch commits and process output to a single line
           if [ -z "$LAST_PROCESSED_COMMIT" ]; then
-            COMMITS=$(git log --reverse --format='%H' HEAD | tr '\n' ' ')
+            COMMITS=$(git log --reverse --grep='^feat: update GI data v[0-9]\+\.[0-9]\+$' --format='%H' HEAD | tr '\n' ' ')
           else
-            COMMITS=$(git log --reverse --format='%H' $LAST_PROCESSED_COMMIT..HEAD | tr '\n' ' ')
+            COMMITS=$(git log --reverse --grep='^feat: update GI data v[0-9]\+\.[0-9]\+$' --format='%H' $LAST_PROCESSED_COMMIT..HEAD | tr '\n' ' ')
           fi
+
+          # Extract the version from each matching commit message
+          if [ -n "$COMMITS" ]; then
+            for COMMIT in $COMMITS; do
+              # Extract the commit message for the matching commit
+              COMMIT_MESSAGE=$(git log --format='%s' -n 1 $COMMIT)
+              
+              # Extract the version from the commit message
+              echo "$COMMIT_MESSAGE" | grep -o 'v[0-9]\+\.[0-9]\+' | sed 's/^v//' | while read VERSION; do
+                # Append the version to the GI_VERSIONS variable
+                GI_VERSIONS="$GI_VERSIONS $VERSION"
+              done
+              
+              # List modified or added files
+              FILES=$(git diff-tree --no-commit-id --name-only --diff-filter=MA -r $COMMIT)
+              echo "Commit: $COMMIT"
+              echo "Modified/Added Files:"
+              echo "$FILES"
+            done
+            # Remove leading and trailing spaces
+            GI_VERSIONS=$(echo $GI_VERSIONS | xargs)
+          fi
+
+          # Export variables to GitHub environment
           echo "COMMITS=$COMMITS" >> $GITHUB_ENV
+          echo "GI_VERSIONS=$GI_VERSIONS" >> $GITHUB_ENV
+
+          # Print variables for debugging
+          echo "COMMIT : $COMMITS"
+          echo "GI_VERSIONS : $GI_VERSIONS"
+
+          # Clean up
           cd ..
           rm -rf genshin-data-bare
 
@@ -62,7 +99,7 @@ jobs:
 
           while [ $# -gt 0 ]; do
             COMMIT=$1
-            git diff-tree --no-commit-id --name-only -r $COMMIT >> changed_files.txt
+            git diff-tree --no-commit-id --name-only --diff-filter=MA -r $COMMIT >> changed_files.txt
             if [ $? -ne 0 ]; then
               echo "Failed to get changes for commit $COMMIT"
               exit 1

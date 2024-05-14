@@ -1,4 +1,3 @@
-
 import fs from 'fs';
 /**
  * Reads and parses a JSON file.
@@ -58,31 +57,27 @@ const mergeObjectIntoJson = async (filePath, obj) => {
 	}
 };
 
-/**
- * Deeply merges two objects, including nested objects.
- * Note: This function does not handle array merging.
- *
- * @param {Object} target - The target object to merge into.
- * @param {Object} source - The source object to merge from.
- * @returns {Object} The merged object with properties from both target and source.
- */
-const mergeDeep = (target, source) => {
-	if (typeof target === 'object' && typeof source === 'object') {
-		for (const key in source) {
-			if (source[key] instanceof Object) {
-				if (!target[key] || typeof target[key] !== 'object') {
-					target[key] = {};
-				}
+const merge = (target, source) => {
+	if (!isObject(target) || !isObject(source)) {
+		return source;
+	}
 
-				mergeDeep(target[key], source[key]);
-			} else {
-				target[key] = source[key];
+	for (const key of Object.keys(source)) {
+		if (isObject(source[key])) {
+			if (!isObject(target[key])) {
+				target[key] = {};
 			}
+
+			target[key] = merge(target[key], source[key]);
+		} else {
+			target[key] = source[key];
 		}
 	}
 
 	return target;
 };
+
+const isObject = obj => obj && typeof obj === 'object';
 
 /**
    * Merges a given object into a JSON file, performing a deep merge. This means
@@ -99,7 +94,7 @@ const mergeDeep = (target, source) => {
 const deepMergeObjectIntoJson = async (filePath, obj) => {
 	try {
 		const currentData = await openJsonFile(filePath);
-		const mergedResult = mergeDeep(currentData, obj);
+		const mergedResult = merge(currentData, obj);
 		await writeJsonFile(filePath, mergedResult);
 	} catch (error) {
 		console.error('Error during merge operation:', error);
@@ -107,5 +102,5 @@ const deepMergeObjectIntoJson = async (filePath, obj) => {
 };
 
 export {
-	openJsonFile, writeJsonFile, mergeObjectIntoJson, mergeDeep, deepMergeObjectIntoJson,
+	openJsonFile, writeJsonFile, mergeObjectIntoJson, deepMergeObjectIntoJson, merge,
 };

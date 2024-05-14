@@ -27,6 +27,10 @@ const toPascalCase = str => str
  * @returns {string} The converted string in camelCase.
  */
 const toCamelCase = str => {
+	if (/^[a-z]+(?:[A-Z][a-z]*)*$/.test(str)) {
+		return str;
+	}
+
 	const words = str
 		.split(/[^a-zA-Z0-9]/)
 		.filter(Boolean)
