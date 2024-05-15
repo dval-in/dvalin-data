@@ -7,6 +7,16 @@ import {toPascalCase, replaceRomanNumeralsPascalCased, toCamelCase} from '../uti
 import {openJsonFile, writeJsonFile, merge} from '../utils/fileManager.js';
 import {stripHtml} from 'string-strip-html';
 const baseDir = path.resolve('./');
+let version = process.argv[2];
+
+if (!version) {
+	console.error('No version provided');
+	console.error('Using fallback version: 0.0');
+	version = '0.0';
+}
+
+// Your existing script logic here
+console.log(`Processing version: ${version}`);
 
 // Construct the full path
 const filePath = path.join(baseDir, 'genshin-data/changed_files.txt');
@@ -38,7 +48,7 @@ const handleMergeOperation = async (newPath, link) => {
 		mergedResult = object;
 		fileListCreated.push(newPath);
 	} finally {
-		mergedResult = transformObject(mergedResult, '4.5');
+		mergedResult = transformObject(mergedResult, version);
 		await writeJsonFile(newPath, mergedResult);
 	}
 };

@@ -22,13 +22,8 @@ jobs:
         with:
           repository: "dval-in/dvalin-data"
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: "main"
+          ref: "feat/data-update-job"
           path: "dvalin-data"
-
-      - name: Read last processed commit
-        id: last_commit
-        run: |
-          echo "LAST_PROCESSED_COMMIT=$(cat dvalin-data/.last_processed_commit)" >> $GITHUB_ENV
 
       - name: Fetch commit history since last processed
         run: |
@@ -52,18 +47,12 @@ jobs:
             for COMMIT in $COMMITS; do
               # Extract the commit message for the matching commit
               COMMIT_MESSAGE=$(git log --format='%s' -n 1 $COMMIT)
-              
               # Extract the version from the commit message
-              echo "$COMMIT_MESSAGE" | grep -o 'v[0-9]\+\.[0-9]\+' | sed 's/^v//' | while read VERSION; do
+              VERSION=$(echo "$COMMIT_MESSAGE" | grep -o 'v[0-9]\+\.[0-9]\+' | sed 's/^v//')
+              if [ -n "$VERSION" ]; then
                 # Append the version to the GI_VERSIONS variable
                 GI_VERSIONS="$GI_VERSIONS $VERSION"
-              done
-              
-              # List modified or added files
-              FILES=$(git diff-tree --no-commit-id --name-only --diff-filter=MA -r $COMMIT)
-              echo "Commit: $COMMIT"
-              echo "Modified/Added Files:"
-              echo "$FILES"
+              fi
             done
             # Remove leading and trailing spaces
             GI_VERSIONS=$(echo $GI_VERSIONS | xargs)
@@ -74,8 +63,8 @@ jobs:
           echo "GI_VERSIONS=$GI_VERSIONS" >> $GITHUB_ENV
 
           # Print variables for debugging
-          echo "COMMIT : $COMMITS"
-          echo "GI_VERSIONS : $GI_VERSIONS"
+          echo "COMMITS: $COMMITS"
+          echo "GI_VERSIONS: $GI_VERSIONS"
 
           # Clean up
           cd ..
@@ -93,18 +82,32 @@ jobs:
             exit 0
           fi
 
-          # Convert space-separated COMMITS into an array-like handling 
-          set -- $COMMITS
-          echo "Found $# commits to process."
+          # Convert space-separated strings into newline-separated strings for easier processing in sh
+          COMMITS_NEWLINE=$(echo $COMMITS | tr ' ' '\n')
+          VERSIONS_NEWLINE=$(echo $GI_VERSIONS | tr ' ' '\n')
 
-          while [ $# -gt 0 ]; do
-            COMMIT=$1
-            git diff-tree --no-commit-id --name-only --diff-filter=MA -r $COMMIT >> changed_files.txt
+          # Initialize counters
+          COMMIT_COUNTER=1
+          VERSION_COUNTER=1
+
+          # Iterate over commits and corresponding versions using while loop
+          echo "$COMMITS_NEWLINE" | while read -r COMMIT; do
+            # Get the corresponding version
+            VERSION=$(echo "$VERSIONS_NEWLINE" | awk "NR==$VERSION_COUNTER")
+            
+            # Process the commit
+            git diff-tree --no-commit-id --name-only --diff-filter=MA -r "$COMMIT" >> changed_files.txt
             if [ $? -ne 0 ]; then
               echo "Failed to get changes for commit $COMMIT"
               exit 1
             fi
-            shift
+
+            # Pass the version to the node script
+            node ../scripts/workflow/update_file.js "$VERSION"
+
+            # Increment the version counter
+            VERSION_COUNTER=$((VERSION_COUNTER + 1))
+            
           done
 
       # - name: Create Pull Request
