@@ -58,7 +58,6 @@ const mergeObjectIntoJson = async (filePath, obj) => {
 };
 
 const merge = (target, source) => {
-	// Console.log(Object.keys(source));
 	for (const key of Object.keys(source)) {
 		if (source[key] instanceof Object && !Array.isArray(source[key])) {
 			target[key] ||= {};
