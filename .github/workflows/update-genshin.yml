@@ -26,7 +26,7 @@ jobs:
         with:
           repository: "dval-in/dvalin-data"
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: "feat/new-job"
+          ref: "main"
           path: "dvalin-data"
 
       - name: Fetch commit history since last processed
