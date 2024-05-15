@@ -1,0 +1,153 @@
+name: Update Data from Source
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every day at midnight UTC
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    container:
+      image: alpine:latest
+
+    steps:
+      - name: Setup Dependencies
+        run: |
+          apk update
+          apk add --no-cache git bash coreutils nodejs curl
+          export SHELL=$(which bash)
+          curl -fsSL https://get.pnpm.io/install.sh | sh -
+          export PATH=$HOME/.local/share/pnpm:$PATH
+          pnpm setup
+
+      - name: Checkout dvalin-data repo
+        uses: actions/checkout@v4
+        with:
+          repository: "dval-in/dvalin-data"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: "main"
+          path: "dvalin-data"
+
+      - name: Install dependencies
+        run: |
+          export PATH=$HOME/.local/share/pnpm:$PATH
+          cd dvalin-data
+          pnpm install
+
+      - name: Fetch commit history since last processed
+        run: |
+          # Initialize the variables
+          COMMITS=""
+          GI_VERSIONS=""
+
+          # Clone the repository
+          git clone --bare https://github.com/dvaJi/genshin-data.git genshin-data-bare
+          cd genshin-data-bare
+
+          # Use git log to fetch commits and process output to a single line
+          if [ -z "$LAST_PROCESSED_COMMIT" ]; then
+            COMMITS=$(git log --reverse --grep='^feat: update GI data v[0-9]\+\.[0-9]\+$' --format='%H' HEAD | tr '\n' ' ')
+          else
+            COMMITS=$(git log --reverse --grep='^feat: update GI data v[0-9]\+\.[0-9]\+$' --format='%H' $LAST_PROCESSED_COMMIT..HEAD | tr '\n' ' ')
+          fi
+
+          # Extract the version from each matching commit message
+          if [ -n "$COMMITS" ]; then
+            for COMMIT in $COMMITS; do
+              # Extract the commit message for the matching commit
+              COMMIT_MESSAGE=$(git log --format='%s' -n 1 $COMMIT)
+              # Extract the version from the commit message
+              VERSION=$(echo "$COMMIT_MESSAGE" | grep -o 'v[0-9]\+\.[0-9]\+' | sed 's/^v//')
+              if [ -n "$VERSION" ]; then
+                # Append the version to the GI_VERSIONS variable
+                GI_VERSIONS="$GI_VERSIONS $VERSION"
+              fi
+            done
+            # Remove leading and trailing spaces
+            GI_VERSIONS=$(echo $GI_VERSIONS | xargs)
+          fi
+
+          # Export variables to GitHub environment
+          echo "COMMITS=$COMMITS" >> $GITHUB_ENV
+          echo "GI_VERSIONS=$GI_VERSIONS" >> $GITHUB_ENV
+
+          # Print variables for debugging
+          echo "COMMITS: $COMMITS"
+          echo "GI_VERSIONS: $GI_VERSIONS"
+
+          # Clean up
+          cd ..
+          rm -rf genshin-data-bare
+
+      - name: create a new branch
+        run: |
+          cd dvalin-data
+          git config --global user.email "updater@davlin.data"
+          git config --global user.name "updater davlin-data"
+          BRANCH_NAME="update-$(echo ${{ env.GI_VERSIONS }} | tr ' ' '-')"
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+
+      - name: Checkout dvalin-data repo
+        uses: actions/checkout@v4
+        with:
+          repository: "dval-in/dvalin-data"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ env.BRANCH_NAME }}
+          path: "dvalin-data"
+
+      - name: Get all changed files
+        run: |
+          set -e  # Ensure the script exits on first error
+          git clone https://github.com/dvaJi/genshin-data.git genshin-data
+          cd genshin-data
+
+          # Check if COMMITS variable is set and not empty
+          if [ -z "$COMMITS" ]; then
+            echo "No commits found to process."
+            exit 0
+          fi
+
+          # Convert space-separated strings into newline-separated strings for easier processing in sh
+          COMMITS_NEWLINE=$(echo $COMMITS | tr ' ' '\n')
+          VERSIONS_NEWLINE=$(echo $GI_VERSIONS | tr ' ' '\n')
+
+          # Initialize counters
+          COMMIT_COUNTER=1
+          VERSION_COUNTER=1
+
+          # Iterate over commits and corresponding versions using while loop
+          echo "$COMMITS_NEWLINE" | while read -r COMMIT; do
+            # Get the corresponding version
+            VERSION=$(echo "$VERSIONS_NEWLINE" | awk "NR==$VERSION_COUNTER")
+            
+            # Process the commit
+            git diff-tree --no-commit-id --name-only --diff-filter=MA -r "$COMMIT" > changed_files.txt
+            if [ $? -ne 0 ]; then
+              echo "Failed to get changes for commit $COMMIT"
+              exit 1
+            fi
+
+            # Pass the version to the node script
+            cd ..
+            ls
+            cd dvalin-data
+            ls scripts/workflow
+            node ./scripts/workflow/update_file.js "$VERSION"
+            echo "$COMMIT" > ./.last_processed_commit
+            git add .
+            git commit -m "feat: update dvalin data v$VERSION"
+            # Increment the version counter
+            VERSION_COUNTER=$((VERSION_COUNTER + 1))
+            cd ../genshin-data
+          done
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ env.BRANCH_NAME }}
+          title: "Update Data from Source"
+          body: "This PR is auto-generated by [github actions](https://github.com/features/actions) to update data sourced from genshin-data."
+          path: "dvalin-data"
+          base: "main"

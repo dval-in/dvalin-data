@@ -1,4 +1,3 @@
-
 import fs from 'fs';
 /**
  * Reads and parses a JSON file.
@@ -53,32 +52,53 @@ const mergeObjectIntoJson = async (filePath, obj) => {
 		const currentData = await openJsonFile(filePath);
 		const mergedResult = {...currentData, ...obj};
 		await writeJsonFile(filePath, mergedResult);
-		console.log('Merge successful. JSON file has been updated.');
 	} catch (error) {
-		console.error('Error during merge operation:', error);
+		console.error(`Error during merge operation of ${filePath}:`, error);
 	}
 };
 
-/**
- * Deeply merges two objects, including nested objects.
- * Note: This function does not handle array merging.
- *
- * @param {Object} target - The target object to merge into.
- * @param {Object} source - The source object to merge from.
- * @returns {Object} The merged object with properties from both target and source.
- */
-const mergeDeep = (target, source) => {
-	if (typeof target === 'object' && typeof source === 'object') {
-		for (const key in source) {
-			if (source[key] instanceof Object) {
-				if (!target[key] || typeof target[key] !== 'object') {
-					target[key] = {};
-				}
+const merge = (target, source) => {
+	for (const key of Object.keys(source)) {
+		if (source[key] instanceof Object && !Array.isArray(source[key])) {
+			target[key] ||= {};
 
-				mergeDeep(target[key], source[key]);
-			} else {
-				target[key] = source[key];
-			}
+			merge(target[key], source[key]);
+		} else if (Array.isArray(source[key])) {
+			target[key] ||= [];
+
+			source[key].forEach(sourceElement => {
+				if (sourceElement instanceof Object && 'id' in sourceElement) {
+					const targetElementIndex = target[key].findIndex(targetElement => targetElement.id === sourceElement.id);
+					// eslint-disable-next-line no-negated-condition
+					if (targetElementIndex !== -1) {
+						merge(target[key][targetElementIndex], sourceElement);
+					} else {
+						target[key].push(sourceElement);
+					}
+				} else if (sourceElement instanceof Object && 'domainName' in sourceElement) {
+					const targetElementIndex = target[key].findIndex(targetElement => targetElement.domainName === sourceElement.domainName);
+					// eslint-disable-next-line no-negated-condition
+					if (targetElementIndex !== -1) {
+						merge(target[key][targetElementIndex], sourceElement);
+					} else {
+						target[key].push(sourceElement);
+					}
+				} else if (sourceElement instanceof Object && 'day' in sourceElement) {
+					const targetElementIndex = target[key].findIndex(targetElement => targetElement.day === sourceElement.day);
+					// eslint-disable-next-line no-negated-condition
+					if (targetElementIndex !== -1) {
+						merge(target[key][targetElementIndex], sourceElement);
+					} else {
+						target[key].push(sourceElement);
+					}
+				} else if (Array.isArray(target[key])) {
+					target[key].push(sourceElement);
+				} else {
+					target[key] = source[key];
+				}
+			});
+		} else {
+			target[key] = source[key];
 		}
 	}
 
@@ -100,14 +120,13 @@ const mergeDeep = (target, source) => {
 const deepMergeObjectIntoJson = async (filePath, obj) => {
 	try {
 		const currentData = await openJsonFile(filePath);
-		const mergedResult = mergeDeep(currentData, obj);
+		const mergedResult = merge(currentData, obj);
 		await writeJsonFile(filePath, mergedResult);
-		console.log('Merge successful. JSON file has been updated.');
 	} catch (error) {
 		console.error('Error during merge operation:', error);
 	}
 };
 
 export {
-	openJsonFile, writeJsonFile, mergeObjectIntoJson, mergeDeep, deepMergeObjectIntoJson,
+	openJsonFile, writeJsonFile, mergeObjectIntoJson, deepMergeObjectIntoJson, merge,
 };
