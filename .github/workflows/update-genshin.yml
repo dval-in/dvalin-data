@@ -15,8 +15,11 @@ jobs:
       - name: Setup Dependencies
         run: |
           apk update
-          apk add --no-cache git bash coreutils nodejs npm
-          npm install
+          apk add --no-cache git bash coreutils nodejs curl
+          export SHELL=$(which bash)
+          curl -fsSL https://get.pnpm.io/install.sh | sh -
+          export PATH=$HOME/.local/share/pnpm:$PATH
+          pnpm setup
 
       - name: Checkout dvalin-data repo
         uses: actions/checkout@v4
@@ -25,6 +28,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: "feat/data-update-job"
           path: "dvalin-data"
+
+      - name: Install dependencies
+        run: |
+          export PATH=$HOME/.local/share/pnpm:$PATH
+          cd dvalin-data
+          pnpm install
 
       - name: Fetch commit history since last processed
         run: |
@@ -74,6 +83,8 @@ jobs:
       - name: Get all changed files
         run: |
           set -e  # Ensure the script exits on first error
+          git config --global user.email "updater@davlin.data"
+          git config --global user.name "updater davlin-data"
           git clone https://github.com/dvaJi/genshin-data.git dvalin-data/genshin-data
           cd dvalin-data/genshin-data
 
