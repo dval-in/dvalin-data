@@ -88,6 +88,7 @@ jobs:
           BRANCH_NAME="update-$(echo ${{ env.GI_VERSIONS }} | tr ' ' '-')"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           git checkout -b $BRANCH_NAME
+          git push origin $BRANCH_NAME
 
       - name: Checkout dvalin-data repo on new branch
         uses: actions/checkout@v4
