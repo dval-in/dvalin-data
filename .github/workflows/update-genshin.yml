@@ -26,14 +26,8 @@ jobs:
         with:
           repository: "dval-in/dvalin-data"
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: "main"
+          ref: "feat/new-job"
           path: "dvalin-data"
-
-      - name: Install dependencies
-        run: |
-          export PATH=$HOME/.local/share/pnpm:$PATH
-          cd dvalin-data
-          pnpm install
 
       - name: Fetch commit history since last processed
         run: |
@@ -87,8 +81,10 @@ jobs:
           git config --global user.name "updater davlin-data"
           BRANCH_NAME="update-$(echo ${{ env.GI_VERSIONS }} | tr ' ' '-')"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+          git checkout -b $BRANCH_NAME
+          git push origin $BRANCH_NAME
 
-      - name: Checkout dvalin-data repo
+      - name: Checkout dvalin-data repo on new branch
         uses: actions/checkout@v4
         with:
           repository: "dval-in/dvalin-data"
@@ -98,6 +94,9 @@ jobs:
 
       - name: Get all changed files
         run: |
+          export PATH=$HOME/.local/share/pnpm:$PATH
+          cd dvalin-data
+          pnpm install
           set -e  # Ensure the script exits on first error
           git clone https://github.com/dvaJi/genshin-data.git genshin-data
           cd genshin-data
@@ -130,16 +129,13 @@ jobs:
 
             # Pass the version to the node script
             cd ..
-            ls
-            cd dvalin-data
-            ls scripts/workflow
             node ./scripts/workflow/update_file.js "$VERSION"
             echo "$COMMIT" > ./.last_processed_commit
             git add .
             git commit -m "feat: update dvalin data v$VERSION"
             # Increment the version counter
             VERSION_COUNTER=$((VERSION_COUNTER + 1))
-            cd ../genshin-data
+            cd genshin-data
           done
 
       - name: Create Pull Request
