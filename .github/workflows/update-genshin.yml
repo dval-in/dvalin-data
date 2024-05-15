@@ -26,7 +26,7 @@ jobs:
         with:
           repository: "dval-in/dvalin-data"
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: "feat/data-update-job"
+          ref: "main"
           path: "dvalin-data"
 
       - name: Install dependencies
@@ -130,13 +130,16 @@ jobs:
 
             # Pass the version to the node script
             cd ..
+            ls
+            cd dvalin-data
+            ls scripts/workflow
             node ./scripts/workflow/update_file.js "$VERSION"
             echo "$COMMIT" > ./.last_processed_commit
             git add .
             git commit -m "feat: update dvalin data v$VERSION"
             # Increment the version counter
             VERSION_COUNTER=$((VERSION_COUNTER + 1))
-            cd genshin-data
+            cd ../genshin-data
           done
 
       - name: Create Pull Request
