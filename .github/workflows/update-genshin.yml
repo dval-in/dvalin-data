@@ -133,7 +133,9 @@ jobs:
             # Pass the version to the node script
             cd ..
             ls
+            export PATH=$HOME/.local/share/pnpm:$PATH
             cd dvalin-data
+            pnpm install
             ls scripts/workflow
             node ./scripts/workflow/update_file.js "$VERSION"
             echo "$COMMIT" > ./.last_processed_commit
