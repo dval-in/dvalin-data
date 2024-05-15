@@ -26,7 +26,7 @@ jobs:
         with:
           repository: "dval-in/dvalin-data"
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: "main"
+          ref: "feat/new-job"
           path: "dvalin-data"
 
       - name: Install dependencies
@@ -87,8 +87,9 @@ jobs:
           git config --global user.name "updater davlin-data"
           BRANCH_NAME="update-$(echo ${{ env.GI_VERSIONS }} | tr ' ' '-')"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
+          git checkout -b $BRANCH_NAME
 
-      - name: Checkout dvalin-data repo
+      - name: Checkout dvalin-data repo on new branch
         uses: actions/checkout@v4
         with:
           repository: "dval-in/dvalin-data"
