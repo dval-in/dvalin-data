@@ -96,7 +96,7 @@ jobs:
             VERSION=$(echo "$VERSIONS_NEWLINE" | awk "NR==$VERSION_COUNTER")
             
             # Process the commit
-            git diff-tree --no-commit-id --name-only --diff-filter=MA -r "$COMMIT" >> changed_files.txt
+            git diff-tree --no-commit-id --name-only --diff-filter=MA -r "$COMMIT" > changed_files.txt
             if [ $? -ne 0 ]; then
               echo "Failed to get changes for commit $COMMIT"
               exit 1
@@ -107,7 +107,6 @@ jobs:
 
             # Increment the version counter
             VERSION_COUNTER=$((VERSION_COUNTER + 1))
-            
           done
 
       # - name: Create Pull Request

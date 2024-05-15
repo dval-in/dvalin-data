@@ -77,6 +77,13 @@ const transformObject = (obj, version) => {
 					} else {
 						obj[key] = toPascalCase(obj[key]);
 					}
+				} else if (key === 'ids' && Array.isArray(obj[key])) {
+					for (let i = 0; i < obj[key].length; i++) {
+						obj[key][i] = toPascalCase(obj[key][i]);
+					}
+
+					// Remove duplicates
+					obj[key] = [...new Set(obj[key])];
 				} else if (typeof key === 'string' && ['description', 'name', 'title', 'desc', 'inPlayDescription', 'bonus'].includes(key)) {
 					try {
 						obj[key] = stripHtml(obj[key]).result;
@@ -165,14 +172,19 @@ const folderMapping = {
 
 for (const line of lines) {
 	const lang = line.split('/')[2];
+	const newLang = langMapping[lang];
 	const folder = line.split('/')[3];
+	const newFolder = folderMapping[folder];
+
 	if (folder === 'domains.json' || folder === 'domains') {
+		const link = path.join(baseDir, 'genshin-data/', line);
+		const newPath = path.join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
+		await handleMergeOperation(newPath, link);
 		continue;
 	}
 
 	const file = line.split('/')[4].split('.')[0];
-	const newLang = langMapping[lang];
-	const newFolder = folderMapping[folder];
+
 	let newFile = toPascalCase(file);
 	if (newFolder === 'AchievementCategory') {
 		newFile = replaceRomanNumeralsPascalCased(newFile);

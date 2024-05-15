@@ -76,6 +76,22 @@ const merge = (target, source) => {
 					} else {
 						target[key].push(sourceElement);
 					}
+				} else if (sourceElement instanceof Object && 'domainName' in sourceElement) {
+					const targetElementIndex = target[key].findIndex(targetElement => targetElement.domainName === sourceElement.domainName);
+					// eslint-disable-next-line no-negated-condition
+					if (targetElementIndex !== -1) {
+						merge(target[key][targetElementIndex], sourceElement);
+					} else {
+						target[key].push(sourceElement);
+					}
+				} else if (sourceElement instanceof Object && 'day' in sourceElement) {
+					const targetElementIndex = target[key].findIndex(targetElement => targetElement.day === sourceElement.day);
+					// eslint-disable-next-line no-negated-condition
+					if (targetElementIndex !== -1) {
+						merge(target[key][targetElementIndex], sourceElement);
+					} else {
+						target[key].push(sourceElement);
+					}
 				} else if (Array.isArray(target[key])) {
 					target[key].push(sourceElement);
 				} else {
