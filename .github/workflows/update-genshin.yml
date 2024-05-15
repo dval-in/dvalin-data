@@ -15,8 +15,8 @@ jobs:
       - name: Setup Dependencies
         run: |
           apk update
-          apk add --no-cache git bash coreutils nodejs pnpm
-          pnpm install
+          apk add --no-cache git bash coreutils nodejs npm
+          npm install
 
       - name: Checkout dvalin-data repo
         uses: actions/checkout@v4
