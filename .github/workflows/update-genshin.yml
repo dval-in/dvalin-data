@@ -142,6 +142,6 @@ jobs:
           git push origin ${{ env.BRANCH_NAME }}
 
       - name: create pull request
-        run: gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}''
+        run: gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
