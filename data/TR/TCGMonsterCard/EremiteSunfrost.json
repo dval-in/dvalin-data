@@ -1,75 +1,151 @@
 {
-	"id": "EremiteSunfrost",
-	"shareid": 3106,
-	"name": "Münzevi Soğuk Güneş",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Buz",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Münzeviler"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "DoubleHack",
-			"name": "Çifte Vuruş",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DualbladeChop",
-			"name": "Çifte Kılıç Kesiği",
-			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StalwartOnslaught",
-			"name": "Cesur Taarruz",
-			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Cesur Taarruz: Topyekun Saldırı için <span style=\"color:#FFFFFFFF\">Beceri Hazırlama durumuna girer.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedCryo",
-			"name": "Serbest Kalan Uğursuz Ruh (Buz)",
-			"desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji kazanır ve karaktere <span style=\"color:#FFFFFFFF\">Alamet Ruhunun Uyanışı: Buz eklenir. (Her Düelloda bir defa)",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteSunfrost",
+  "shareid": 3106,
+  "name": "Münzevi Soğuk Güneş",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Münzeviler",
+      "Münzeviler"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "DoubleHack",
+      "name": "Çifte Vuruş",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Çifte Kılıç Kesiği",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Cesur Taarruz",
+      "desc": "Bu karakter Cesur Taarruz: Topyekun Saldırı için Beceri Hazırlama durumuna girer.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Serbest Kalan Uğursuz Ruh (Buz)",
+      "desc": "(Pasif) Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır ve karaktere Alamet Ruhunun Uyanışı: Buz eklenir. (Her Düelloda bir defa)",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "DoubleHack",
+      "name": "Çifte Vuruş",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Çifte Kılıç Kesiği",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Cesur Taarruz",
+      "desc": "Bu karakter Cesur Taarruz: Topyekun Saldırı için Beceri Hazırlama kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Serbest Kalan Uğursuz Ruh (Buz)",
+      "desc": "(Pasif) Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır ve karaktere Alamet Ruhunun Uyanışı: Buz eklenir. (Her Düelloda bir defa)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3106
 }

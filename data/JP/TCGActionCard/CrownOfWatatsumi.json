@@ -1,33 +1,46 @@
 {
-	"id": "CrownOfWatatsumi",
-	"shareid": 162,
-	"name": "海祇の冠",
-	"title": "真珠の玉冠·海祇の冠",
-	"desc": "「海の民が歌う島唄の中で、真珠と珊瑚で作られた絢爛たる冠が汚れることは決してない。」",
-	"inPlayDescription": "味方キャラのHPが3回復するたび、このカードに「海染の泡」を1蓄積する。（最大2まで蓄積可能）<span style=\"color:#FFFFFFFF\">キャラがダメージを与える時、「海染の泡」をすべて消費し、1消費するごとに、与えるダメージがさらに+1。",
-	"attributes": {
-		"cost": 1,
-		"costType": "同一元素",
-		"cardType": "装備カード",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "同一元素",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "OceanhuedClam",
-			"name": "Ocean-Hued Clam",
-			"rarity": 5
-		},
-		"tags": ["聖遺物"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "味方キャラのHPが3回復するたび、このカードに「海染の泡」を1蓄積する。（最大2まで蓄積可能）<span style=\"color:#FFFFFFFF\">キャラがダメージを与える時、「海染の泡」をすべて消費し、1消費するごとに、与えるダメージがさらに+1。（キャラが装備できる「聖遺物」は最大1つまで）"
-		}
-	],
-	"version": "4.4"
+  "id": "CrownOfWatatsumi",
+  "shareid": 162,
+  "name": "海祇の冠",
+  "title": "真珠の玉冠·海祇の冠",
+  "desc": "「海の民が歌う島唄の中で、真珠と珊瑚で作られた絢爛たる冠が汚れることは決してない。」",
+  "inPlayDescription": "味方キャラのHPが3回復するたび、このカードに<span style=\"color:#FFFFFFFF\">「海染の泡」</span>を1蓄積する。（最大2まで蓄積可能）<br/><span style=\"color:#FFFFFFFF\">キャラがダメージを与える時</span>、<span style=\"color:#FFFFFFFF\">「海染の泡」</span>をすべて消費し、1消費するごとに、与えるダメージがさらに+1。",
+  "attributes": {
+    "cost": 1,
+    "costType": "同一元素",
+    "cardType": "装備カード",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "同一元素",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "同一元素",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "OceanhuedClam",
+      "name": "Ocean-Hued Clam",
+      "rarity": 5
+    },
+    "tags": [
+      "聖遺物",
+      "聖遺物"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "味方キャラのHPが3回復するたび、このカードに「海染の泡」を1蓄積する。（最大2まで蓄積可能）キャラがダメージを与える時、「海染の泡」をすべて消費し、1消費するごとに、与えるダメージがさらに+1。（キャラが装備できる「聖遺物」は最大1つまで）"
+    },
+    {
+      "name": "",
+      "desc": "味方キャラのHPが3回復するたび、このカードに「海染の泡」を1蓄積する。（最大2まで蓄積可能） キャラがダメージを与える時、「海染の泡」をすべて消費し、1消費するごとに、与えるダメージがさらに+1。 （キャラが装備できる「聖遺物」は最大1つまで）"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 162
 }

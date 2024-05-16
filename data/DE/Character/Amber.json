@@ -1,993 +1,2045 @@
 {
-	"id": "Amber",
-	"name": "Amber",
-	"title": "Flugmeister",
-	"description": "Ein Mädchen voller Lebenskraft und gleichzeitig die beste, wenn auch einzig verbliebene, Kundschafterin des Ordo Favonius.",
-	"weaponType": "Bogen",
-	"element": "Pyro",
-	"gender": "Weiblich",
-	"substat": "ANG%",
-	"affiliation": "Ordo Favonius",
-	"region": "Mondstadt",
-	"rarity": 4,
-	"birthday": "10/8",
-	"constellation": "Lepus",
-	"domain": "Vergessene Schlucht",
-	"cv": {
-		"english": "Kelly Baskin",
-		"chinese": "蔡书瑾",
-		"japanese": "石見舞菜香",
-		"korean": "Kim Yeon-woo"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackSharpshooter",
-			"name": "Standardangriff: Scharfschütze",
-			"description": "StandardangriffFührt bis zu 5 Pfeilschüsse hintereinander aus.Heftiger SchlagFührt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus.Konzentriert die Flammen während des Zielens an der Pfeilspitze, die voll aufgeladen Pyro-Schaden verursacht.Angriff aus dem FallSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "SCH Phase 1",
-					"values": [
-						"36.12%",
-						"39.06%",
-						"42%",
-						"46.2%",
-						"49.14%",
-						"52.5%",
-						"57.12%",
-						"61.74%",
-						"66.36%",
-						"71.4%",
-						"76.44%",
-						"81.48%",
-						"86.52%",
-						"91.56%",
-						"96.6%"
-					]
-				},
-				{
-					"label": "SCH Phase 2",
-					"values": [
-						"36.12%",
-						"39.06%",
-						"42%",
-						"46.2%",
-						"49.14%",
-						"52.5%",
-						"57.12%",
-						"61.74%",
-						"66.36%",
-						"71.4%",
-						"76.44%",
-						"81.48%",
-						"86.52%",
-						"91.56%",
-						"96.6%"
-					]
-				},
-				{
-					"label": "SCH Phase 3",
-					"values": [
-						"46.44%",
-						"50.22%",
-						"54%",
-						"59.4%",
-						"63.18%",
-						"67.5%",
-						"73.44%",
-						"79.38%",
-						"85.32%",
-						"91.8%",
-						"98.28%",
-						"104.76%",
-						"111.24%",
-						"117.72%",
-						"124.2%"
-					]
-				},
-				{
-					"label": "SCH Phase 4",
-					"values": [
-						"47.3%",
-						"51.15%",
-						"55%",
-						"60.5%",
-						"64.35%",
-						"68.75%",
-						"74.8%",
-						"80.85%",
-						"86.9%",
-						"93.5%",
-						"100.1%",
-						"106.7%",
-						"113.3%",
-						"119.9%",
-						"126.5%"
-					]
-				},
-				{
-					"label": "SCH Phase 5",
-					"values": [
-						"59.34%",
-						"64.17%",
-						"69%",
-						"75.9%",
-						"80.73%",
-						"86.25%",
-						"93.84%",
-						"101.43%",
-						"109.02%",
-						"117.3%",
-						"125.58%",
-						"133.86%",
-						"142.14%",
-						"150.42%",
-						"158.7%"
-					]
-				},
-				{
-					"label": "Gezielte Schüsse",
-					"values": [
-						"43.86%",
-						"47.43%",
-						"51%",
-						"56.1%",
-						"59.67%",
-						"63.75%",
-						"69.36%",
-						"74.97%",
-						"80.58%",
-						"86.7%",
-						"92.82%",
-						"98.94%",
-						"105.06%",
-						"111.18%",
-						"117.3%"
-					]
-				},
-				{
-					"label": "Voll aufgeladene gezielte Schüsse",
-					"values": [
-						"124%",
-						"133.3%",
-						"142.6%",
-						"155%",
-						"164.3%",
-						"173.6%",
-						"186%",
-						"198.4%",
-						"210.8%",
-						"223.2%",
-						"235.6%",
-						"248%",
-						"263.5%",
-						"279%",
-						"294.5%"
-					]
-				},
-				{
-					"label": "SCH beim Fallen",
-					"values": [
-						"56.83%",
-						"61.45%",
-						"66.08%",
-						"72.69%",
-						"77.31%",
-						"82.6%",
-						"89.87%",
-						"97.14%",
-						"104.41%",
-						"112.34%",
-						"120.27%",
-						"128.2%",
-						"136.12%",
-						"144.05%",
-						"151.98%"
-					]
-				},
-				{
-					"label": "SCH beim Fallen aus niedriger/großer Höhe",
-					"values": [
-						"113.63% / 141.93%",
-						"122.88% / 153.49%",
-						"132.13% / 165.04%",
-						"145.35% / 181.54%",
-						"154.59% / 193.1%",
-						"165.16% / 206.3%",
-						"179.7% / 224.45%",
-						"194.23% / 242.61%",
-						"208.77% / 260.76%",
-						"224.62% / 280.57%",
-						"240.48% / 300.37%",
-						"256.34% / 320.18%",
-						"272.19% / 339.98%",
-						"288.05% / 359.79%",
-						"303.9% / 379.59%"
-					]
-				}
-			]
-		},
-		{
-			"id": "ExplosivePuppet",
-			"name": "Sprengpuppe",
-			"description": "Ruft den zuverlässigen Grafen von Hoppel aufs Feld.Graf von Hoppel· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.· Beständigkeit hängt von Ambers max. LP ab.· Explodiert bei Zerstörung oder Ablauf der Dauer und verursacht Pyro-Flächenschaden.Gedrückt haltenAnpassung der Wurfrichtung.Wurfweite erhöht sich mit der Dauer des Gedrückthaltens.",
-			"info": "Graf von Hoppel ist der Abkömmling eines alten Adelsgeschlechts. Nach dem Tod des Grafen von Hoppel DCCCXCIII. hat Amber aber aufgehört zu zählen.",
-			"attributes": [
-				{
-					"label": "Erhaltene LP",
-					"values": [
-						"41.36%",
-						"44.46%",
-						"47.56%",
-						"51.7%",
-						"54.8%",
-						"57.9%",
-						"62.04%",
-						"66.18%",
-						"70.31%",
-						"74.45%",
-						"78.58%",
-						"82.72%",
-						"87.89%",
-						"93.06%",
-						"98.23%"
-					]
-				},
-				{
-					"label": "Explosions-SCH",
-					"values": [
-						"123.2%",
-						"132.44%",
-						"141.68%",
-						"154%",
-						"163.24%",
-						"172.48%",
-						"184.8%",
-						"197.12%",
-						"209.44%",
-						"221.76%",
-						"234.08%",
-						"246.4%",
-						"261.8%",
-						"277.2%",
-						"292.6%"
-					]
-				},
-				{
-					"label": "Abklingzeit",
-					"values": [
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s"
-					]
-				}
-			]
-		},
-		{
-			"id": "FieryRain",
-			"name": "Pfeilregen",
-			"description": "Lässt einen Feuerpfeilregen fallen, der fortlaufend Pyro-Flächenschaden verursacht.",
-			"info": "Amber ist voller feuriger Leidenschaft bei allem, was sie tut.",
-			"attributes": [
-				{
-					"label": "Einzel-SCH des Pfeilregens",
-					"values": [
-						"28.08%",
-						"30.19%",
-						"32.29%",
-						"35.1%",
-						"37.21%",
-						"39.31%",
-						"42.12%",
-						"44.93%",
-						"47.74%",
-						"50.54%",
-						"53.35%",
-						"56.16%",
-						"59.67%",
-						"63.18%",
-						"66.69%"
-					]
-				},
-				{
-					"label": "Gesamt-SCH des Pfeilregens",
-					"values": [
-						"505.44%",
-						"543.35%",
-						"581.26%",
-						"631.8%",
-						"669.71%",
-						"707.62%",
-						"758.16%",
-						"808.7%",
-						"859.25%",
-						"909.79%",
-						"960.34%",
-						"1010.88%",
-						"1074.06%",
-						"1137.24%",
-						"1200.42%"
-					]
-				},
-				{
-					"label": "Dauer",
-					"values": [
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s",
-						"2 s"
-					]
-				},
-				{
-					"label": "Abklingzeit",
-					"values": [
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s",
-						"12 s"
-					]
-				},
-				{
-					"label": "Elementarenergie",
-					"values": ["40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "EveryArrowFindsItsTarget",
-			"name": "Jeder Schuss ein Treffer!",
-			"description": "Erhöht die KT von Pfeilregen um 10 % und vergrößert den Wirkungsbereich um 30 %.",
-			"level": 1
-		},
-		{
-			"id": "PreciseShot",
-			"name": "Arbeit unter Druck",
-			"description": "Erhöht den ANG beim Treffen von Schwachstellen mit gezielten Schüssen 10 s lang um 15 %.",
-			"level": 4
-		},
-		{
-			"id": "GlidingChampion",
-			"name": "Flugmeister",
-			"description": "Verringert die beim Gleiten verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "OneArrowToRuleThemAll",
-			"name": "Zwei auf einen Streich!",
-			"description": "Schießt nach dem Zielen 2 Pfeile ab und verursacht mit dem zweiten Schaden in Höhe von 20 % des ersten Pfeils.",
-			"level": 1
-		},
-		{
-			"id": "BunnyTriggered",
-			"name": "Manuelle Explosion",
-			"description": "Graf von Hoppel, vollständig überarbeitet! Lässt Graf von Hoppel bei einem Treffer auf die Füße mit einem voll aufgeladenen gezielten Schuss explodieren.Verursacht bei manueller Explosion auf diese Weise 200 % zusätzlichen Schaden.",
-			"level": 2
-		},
-		{
-			"id": "ItBurns",
-			"name": "Das wird brennen!",
-			"description": "Erhöht die Stufe der Fähigkeit Pfeilregen um 3.Höchststufe 15.",
-			"level": 3
-		},
-		{
-			"id": "ItsNotJustAnyDoll",
-			"name": "Nicht einfach nur eine Puppe",
-			"description": "Verkürzt die Abklingzeit von Sprengpuppe um 20 % und ermöglicht 1 weitere Anwendung.",
-			"level": 4
-		},
-		{
-			"id": "ItsBaronBunny",
-			"name": "Häschen hüpf!",
-			"description": "Erhöht die Stufe der Fähigkeit Sprengpuppe um 3.Höchststufe 15.",
-			"level": 5
-		},
-		{
-			"id": "Wildfire",
-			"name": "Wildes Feuer",
-			"description": "Erhöht die Bewegungs-GSW aller Truppenmitglieder bei Anwendung von Pfeilregen 10 s lang um 15 % und den ANG um 15 %.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["-", "793"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["-", "19"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["-", "50"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [0, 1]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["2038", "2630"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["48", "62"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["129", "167"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [1, 2]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["3940", "4361"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["93", "103"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["250", "277"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateSliver",
-				"name": "Agnidus-Achat-Splitter",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "SmallLampGrass",
-				"name": "Lampenkraut",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "FirmArrowhead",
-				"name": "Stabile Bolzenspitze",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [2, 3]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["5016", "5578"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["118", "131"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["318", "354"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateFragment",
-				"name": "Agnidus-Achat-Bruchstück",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "EverflameSeed",
-				"name": "Fluxfeuersamen",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SmallLampGrass",
-				"name": "Lampenkraut",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "FirmArrowhead",
-				"name": "Stabile Bolzenspitze",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [3, 4]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["6233", "6654"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["147", "157"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["396", "422"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateFragment",
-				"name": "Agnidus-Achat-Bruchstück",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "EverflameSeed",
-				"name": "Fluxfeuersamen",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SmallLampGrass",
-				"name": "Lampenkraut",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SharpArrowhead",
-				"name": "Scharfe Bolzenspitze",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [4, 5]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["7309", "7730"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["172", "182"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["464", "491"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateChunk",
-				"name": "Agnidus-Achat-Brocken",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "EverflameSeed",
-				"name": "Fluxfeuersamen",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SmallLampGrass",
-				"name": "Lampenkraut",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SharpArrowhead",
-				"name": "Scharfe Bolzenspitze",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [5, 6]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["8385", "8806"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["198", "208"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["532", "559"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateChunk",
-				"name": "Agnidus-Achat-Brocken",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "EverflameSeed",
-				"name": "Fluxfeuersamen",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SmallLampGrass",
-				"name": "Lampenkraut",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "WeatheredArrowhead",
-				"name": "Abgenutzte Bolzenspitze",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [6, 7]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["9461", "9461"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["223", "223"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["601", "601"]
-				},
-				{
-					"label": "ANG%",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateGemstone",
-				"name": "Agnidus-Achat",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "EverflameSeed",
-				"name": "Fluxfeuersamen",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SmallLampGrass",
-				"name": "Lampenkraut",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "WeatheredArrowhead",
-				"name": "Abgenutzte Bolzenspitze",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfFreedom",
-					"name": "Lehren der „Freiheit“",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Stabile Bolzenspitze",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Scharfe Bolzenspitze",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Scharfe Bolzenspitze",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Scharfe Bolzenspitze",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Scharfe Bolzenspitze",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Abgenutzte Bolzenspitze",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Atem des Ostwinds",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Abgenutzte Bolzenspitze",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Atem des Ostwinds",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Abgenutzte Bolzenspitze",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Atem des Ostwinds",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Abgenutzte Bolzenspitze",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Atem des Ostwinds",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Krone der Weisheit",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Amber/Icon.webp",
-		"sideIcon": "Character/Amber/SideIcon.webp",
-		"gatchaCard": "Character/Amber/GachaCard.webp",
-		"gachaSplash": "Character/Amber/GachaSplash.webp",
-		"face": "Character/Amber/Face.webp",
-		"halfFace": "Character/Amber/HalfFace.webp",
-		"profile": "Character/Amber/Profile.webp",
-		"weaponStance": "Character/Amber/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "HuntersBow",
-	"specialDish": "OutridersChampionSteak",
-	"tcgCharacterCard": "",
-	"outfits": [
-		{
-			"id": "5-starOutrider",
-			"name": "5-Sterne-Kundschafter",
-			"description": "Ambers Kleidung. Eine Kundschafter-Uniform, die die Mobilität maximiert.",
-			"picture": "Character/Amber/Outfit/5-starOutrider.webp"
-		}
-	]
+  "id": "Amber",
+  "name": "Amber",
+  "title": "Flugmeister",
+  "description": "Ein Mädchen voller Lebenskraft und gleichzeitig die beste, wenn auch einzig verbliebene, Kundschafterin des Ordo Favonius.",
+  "weaponType": "Bogen",
+  "element": "Pyro",
+  "gender": "Weiblich",
+  "substat": "ANG%",
+  "affiliation": "Ordo Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": "10/8",
+  "constellation": "Lepus",
+  "domain": "Vergessene Schlucht",
+  "cv": {
+    "english": "Kelly Baskin",
+    "chinese": "蔡书瑾",
+    "japanese": "石見舞菜香",
+    "korean": "Kim Yeon-woo"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackSharpshooter",
+      "name": "Standardangriff: Scharfschütze",
+      "description": "StandardangriffFührt bis zu 5 Pfeilschüsse hintereinander aus.Heftiger SchlagFührt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus.Konzentriert die Flammen während des Zielens an der Pfeilspitze, die voll aufgeladen Pyro-Schaden verursacht.Angriff aus dem FallSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "76.44%",
+            "81.48%",
+            "86.52%",
+            "91.56%",
+            "96.6%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "76.44%",
+            "81.48%",
+            "86.52%",
+            "91.56%",
+            "96.6%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "46.44%",
+            "50.22%",
+            "54%",
+            "59.4%",
+            "63.18%",
+            "67.5%",
+            "73.44%",
+            "79.38%",
+            "85.32%",
+            "91.8%",
+            "98.28%",
+            "104.76%",
+            "111.24%",
+            "117.72%",
+            "124.2%"
+          ]
+        },
+        {
+          "label": "SCH Phase 4",
+          "values": [
+            "47.3%",
+            "51.15%",
+            "55%",
+            "60.5%",
+            "64.35%",
+            "68.75%",
+            "74.8%",
+            "80.85%",
+            "86.9%",
+            "93.5%",
+            "100.1%",
+            "106.7%",
+            "113.3%",
+            "119.9%",
+            "126.5%"
+          ]
+        },
+        {
+          "label": "SCH Phase 5",
+          "values": [
+            "59.34%",
+            "64.17%",
+            "69%",
+            "75.9%",
+            "80.73%",
+            "86.25%",
+            "93.84%",
+            "101.43%",
+            "109.02%",
+            "117.3%",
+            "125.58%",
+            "133.86%",
+            "142.14%",
+            "150.42%",
+            "158.7%"
+          ]
+        },
+        {
+          "label": "Gezielte Schüsse",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Voll aufgeladene gezielte Schüsse",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ExplosivePuppet",
+      "name": "Sprengpuppe",
+      "description": "Ruft den zuverlässigen Grafen von Hoppel aufs Feld.Graf von Hoppel· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.· Beständigkeit hängt von Ambers max. LP ab.· Explodiert bei Zerstörung oder Ablauf der Dauer und verursacht Pyro-Flächenschaden.Gedrückt haltenAnpassung der Wurfrichtung.Wurfweite erhöht sich mit der Dauer des Gedrückthaltens.",
+      "info": "Graf von Hoppel ist der Abkömmling eines alten Adelsgeschlechts. Nach dem Tod des Grafen von Hoppel DCCCXCIII. hat Amber aber aufgehört zu zählen.",
+      "attributes": [
+        {
+          "label": "Erhaltene LP",
+          "values": [
+            "41.36%",
+            "44.46%",
+            "47.56%",
+            "51.7%",
+            "54.8%",
+            "57.9%",
+            "62.04%",
+            "66.18%",
+            "70.31%",
+            "74.45%",
+            "78.58%",
+            "82.72%",
+            "87.89%",
+            "93.06%",
+            "98.23%"
+          ]
+        },
+        {
+          "label": "Explosions-SCH",
+          "values": [
+            "123.2%",
+            "132.44%",
+            "141.68%",
+            "154%",
+            "163.24%",
+            "172.48%",
+            "184.8%",
+            "197.12%",
+            "209.44%",
+            "221.76%",
+            "234.08%",
+            "246.4%",
+            "261.8%",
+            "277.2%",
+            "292.6%"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FieryRain",
+      "name": "Pfeilregen",
+      "description": "Lässt einen Feuerpfeilregen fallen, der fortlaufend Pyro-Flächenschaden verursacht.",
+      "info": "Amber ist voller feuriger Leidenschaft bei allem, was sie tut.",
+      "attributes": [
+        {
+          "label": "Einzel-SCH des Pfeilregens",
+          "values": [
+            "28.08%",
+            "30.19%",
+            "32.29%",
+            "35.1%",
+            "37.21%",
+            "39.31%",
+            "42.12%",
+            "44.93%",
+            "47.74%",
+            "50.54%",
+            "53.35%",
+            "56.16%",
+            "59.67%",
+            "63.18%",
+            "66.69%"
+          ]
+        },
+        {
+          "label": "Gesamt-SCH des Pfeilregens",
+          "values": [
+            "505.44%",
+            "543.35%",
+            "581.26%",
+            "631.8%",
+            "669.71%",
+            "707.62%",
+            "758.16%",
+            "808.7%",
+            "859.25%",
+            "909.79%",
+            "960.34%",
+            "1010.88%",
+            "1074.06%",
+            "1137.24%",
+            "1200.42%"
+          ]
+        },
+        {
+          "label": "Dauer",
+          "values": [
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackSharpshooter",
+      "name": "Standardangriff: Scharfschütze",
+      "description": "Standardangriff Führt bis zu 5 Pfeilschüsse hintereinander aus. Heftiger Schlag Führt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus. Konzentriert die Flammen während des Zielens an der Pfeilspitze, die voll aufgeladen Pyro-Schaden verursacht. Angriff aus dem Fall Schießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "76.44%",
+            "81.48%",
+            "86.52%",
+            "91.56%",
+            "96.6%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "76.44%",
+            "81.48%",
+            "86.52%",
+            "91.56%",
+            "96.6%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "46.44%",
+            "50.22%",
+            "54%",
+            "59.4%",
+            "63.18%",
+            "67.5%",
+            "73.44%",
+            "79.38%",
+            "85.32%",
+            "91.8%",
+            "98.28%",
+            "104.76%",
+            "111.24%",
+            "117.72%",
+            "124.2%"
+          ]
+        },
+        {
+          "label": "SCH Phase 4",
+          "values": [
+            "47.3%",
+            "51.15%",
+            "55%",
+            "60.5%",
+            "64.35%",
+            "68.75%",
+            "74.8%",
+            "80.85%",
+            "86.9%",
+            "93.5%",
+            "100.1%",
+            "106.7%",
+            "113.3%",
+            "119.9%",
+            "126.5%"
+          ]
+        },
+        {
+          "label": "SCH Phase 5",
+          "values": [
+            "59.34%",
+            "64.17%",
+            "69%",
+            "75.9%",
+            "80.73%",
+            "86.25%",
+            "93.84%",
+            "101.43%",
+            "109.02%",
+            "117.3%",
+            "125.58%",
+            "133.86%",
+            "142.14%",
+            "150.42%",
+            "158.7%"
+          ]
+        },
+        {
+          "label": "Gezielte Schüsse",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "Voll aufgeladene gezielte Schüsse",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ExplosivePuppet",
+      "name": "Sprengpuppe",
+      "description": "Ruft den zuverlässigen Grafen von Hoppel aufs Feld. Graf von Hoppel · Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich. · Beständigkeit hängt von Ambers max. LP ab. · Explodiert bei Zerstörung oder Ablauf der Dauer und verursacht Pyro-Flächenschaden. Gedrückt halten Anpassung der Wurfrichtung. Wurfweite erhöht sich mit der Dauer des Gedrückthaltens.",
+      "info": "Graf von Hoppel ist der Abkömmling eines alten Adelsgeschlechts. Nach dem Tod des Grafen von Hoppel DCCCXCIII. hat Amber aber aufgehört zu zählen.",
+      "attributes": [
+        {
+          "label": "Erhaltene LP",
+          "values": [
+            "41.36%",
+            "44.46%",
+            "47.56%",
+            "51.7%",
+            "54.8%",
+            "57.9%",
+            "62.04%",
+            "66.18%",
+            "70.31%",
+            "74.45%",
+            "78.58%",
+            "82.72%",
+            "87.89%",
+            "93.06%",
+            "98.23%"
+          ]
+        },
+        {
+          "label": "Explosions-SCH",
+          "values": [
+            "123.2%",
+            "132.44%",
+            "141.68%",
+            "154%",
+            "163.24%",
+            "172.48%",
+            "184.8%",
+            "197.12%",
+            "209.44%",
+            "221.76%",
+            "234.08%",
+            "246.4%",
+            "261.8%",
+            "277.2%",
+            "292.6%"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FieryRain",
+      "name": "Pfeilregen",
+      "description": "Lässt einen Feuerpfeilregen fallen, der fortlaufend Pyro-Flächenschaden verursacht.",
+      "info": "Amber ist voller feuriger Leidenschaft bei allem, was sie tut.",
+      "attributes": [
+        {
+          "label": "Einzel-SCH des Pfeilregens",
+          "values": [
+            "28.08%",
+            "30.19%",
+            "32.29%",
+            "35.1%",
+            "37.21%",
+            "39.31%",
+            "42.12%",
+            "44.93%",
+            "47.74%",
+            "50.54%",
+            "53.35%",
+            "56.16%",
+            "59.67%",
+            "63.18%",
+            "66.69%"
+          ]
+        },
+        {
+          "label": "Gesamt-SCH des Pfeilregens",
+          "values": [
+            "505.44%",
+            "543.35%",
+            "581.26%",
+            "631.8%",
+            "669.71%",
+            "707.62%",
+            "758.16%",
+            "808.7%",
+            "859.25%",
+            "909.79%",
+            "960.34%",
+            "1010.88%",
+            "1074.06%",
+            "1137.24%",
+            "1200.42%"
+          ]
+        },
+        {
+          "label": "Dauer",
+          "values": [
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s",
+            "2 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s",
+            "12 s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "EveryArrowFindsItsTarget",
+      "name": "Jeder Schuss ein Treffer!",
+      "description": "Erhöht die KT von Pfeilregen um 10 % und vergrößert den Wirkungsbereich um 30 %.",
+      "level": 1
+    },
+    {
+      "id": "PreciseShot",
+      "name": "Arbeit unter Druck",
+      "description": "Erhöht den ANG beim Treffen von Schwachstellen mit gezielten Schüssen 10 s lang um 15 %.",
+      "level": 4
+    },
+    {
+      "id": "GlidingChampion",
+      "name": "Flugmeister",
+      "description": "Verringert die beim Gleiten verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+      "level": 0
+    },
+    {
+      "id": "EveryArrowFindsItsTarget",
+      "name": "Jeder Schuss ein Treffer!",
+      "description": "Erhöht die KT von Pfeilregen um 10 % und vergrößert den Wirkungsbereich um 30 %.",
+      "level": 1
+    },
+    {
+      "id": "PreciseShot",
+      "name": "Arbeit unter Druck",
+      "description": "Erhöht den ANG beim Treffen von Schwachstellen mit gezielten Schüssen 10 s lang um 15 %.",
+      "level": 4
+    },
+    {
+      "id": "GlidingChampion",
+      "name": "Flugmeister",
+      "description": "Verringert die beim Gleiten verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %. Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "OneArrowToRuleThemAll",
+      "name": "Zwei auf einen Streich!",
+      "description": "Schießt nach dem Zielen 2 Pfeile ab und verursacht mit dem zweiten Schaden in Höhe von 20 % des ersten Pfeils.",
+      "level": 1
+    },
+    {
+      "id": "BunnyTriggered",
+      "name": "Manuelle Explosion",
+      "description": "Graf von Hoppel, vollständig überarbeitet! Lässt Graf von Hoppel bei einem Treffer auf die Füße mit einem voll aufgeladenen gezielten Schuss explodieren.Verursacht bei manueller Explosion auf diese Weise 200 % zusätzlichen Schaden.",
+      "level": 2
+    },
+    {
+      "id": "ItBurns",
+      "name": "Das wird brennen!",
+      "description": "Erhöht die Stufe der Fähigkeit Pfeilregen um 3.Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "ItsNotJustAnyDoll",
+      "name": "Nicht einfach nur eine Puppe",
+      "description": "Verkürzt die Abklingzeit von Sprengpuppe um 20 % und ermöglicht 1 weitere Anwendung.",
+      "level": 4
+    },
+    {
+      "id": "ItsBaronBunny",
+      "name": "Häschen hüpf!",
+      "description": "Erhöht die Stufe der Fähigkeit Sprengpuppe um 3.Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "Wildfire",
+      "name": "Wildes Feuer",
+      "description": "Erhöht die Bewegungs-GSW aller Truppenmitglieder bei Anwendung von Pfeilregen 10 s lang um 15 % und den ANG um 15 %.",
+      "level": 6
+    },
+    {
+      "id": "OneArrowToRuleThemAll",
+      "name": "Zwei auf einen Streich!",
+      "description": "Schießt nach dem Zielen 2 Pfeile ab und verursacht mit dem zweiten Schaden in Höhe von 20 % des ersten Pfeils.",
+      "level": 1
+    },
+    {
+      "id": "BunnyTriggered",
+      "name": "Manuelle Explosion",
+      "description": "Graf von Hoppel, vollständig überarbeitet! Lässt Graf von Hoppel bei einem Treffer auf die Füße mit einem voll aufgeladenen gezielten Schuss explodieren. Verursacht bei manueller Explosion auf diese Weise 200 % zusätzlichen Schaden.",
+      "level": 2
+    },
+    {
+      "id": "ItBurns",
+      "name": "Das wird brennen!",
+      "description": "Erhöht die Stufe der Fähigkeit Pfeilregen um 3. Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "ItsNotJustAnyDoll",
+      "name": "Nicht einfach nur eine Puppe",
+      "description": "Verkürzt die Abklingzeit von Sprengpuppe um 20 % und ermöglicht 1 weitere Anwendung.",
+      "level": 4
+    },
+    {
+      "id": "ItsBaronBunny",
+      "name": "Häschen hüpf!",
+      "description": "Erhöht die Stufe der Fähigkeit Sprengpuppe um 3. Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "Wildfire",
+      "name": "Wildes Feuer",
+      "description": "Erhöht die Bewegungs-GSW aller Truppenmitglieder bei Anwendung von Pfeilregen 10 s lang um 15 % und den ANG um 15 %.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "-",
+            "793"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "-",
+            "50"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "2038",
+            "2630"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "48",
+            "62"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "129",
+            "167"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "3940",
+            "4361"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "93",
+            "103"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "250",
+            "277"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateSliver",
+        "name": "Agnidus-Achat-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Stabile Bolzenspitze",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "5016",
+            "5578"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "118",
+            "131"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "318",
+            "354"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus-Achat-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Stabile Bolzenspitze",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "6233",
+            "6654"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "147",
+            "157"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "396",
+            "422"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus-Achat-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Scharfe Bolzenspitze",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "7309",
+            "7730"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "172",
+            "182"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "464",
+            "491"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus-Achat-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Scharfe Bolzenspitze",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "8385",
+            "8806"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "198",
+            "208"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "532",
+            "559"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus-Achat-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Abgenutzte Bolzenspitze",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "9461",
+            "9461"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "223",
+            "223"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "601",
+            "601"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateGemstone",
+        "name": "Agnidus-Achat",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Abgenutzte Bolzenspitze",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "-",
+            "793"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "-",
+            "50"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "2038",
+            "2630"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "48",
+            "62"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "129",
+            "167"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "3940",
+            "4361"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "93",
+            "103"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "250",
+            "277"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateSliver",
+        "name": "Agnidus-Achat-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Stabile Bolzenspitze",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "5016",
+            "5578"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "118",
+            "131"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "318",
+            "354"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus-Achat-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Stabile Bolzenspitze",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "6233",
+            "6654"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "147",
+            "157"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "396",
+            "422"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus-Achat-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Scharfe Bolzenspitze",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "7309",
+            "7730"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "172",
+            "182"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "464",
+            "491"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus-Achat-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Scharfe Bolzenspitze",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "8385",
+            "8806"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "198",
+            "208"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "532",
+            "559"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus-Achat-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Abgenutzte Bolzenspitze",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "9461",
+            "9461"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "223",
+            "223"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "601",
+            "601"
+          ]
+        },
+        {
+          "label": "ANG%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateGemstone",
+        "name": "Agnidus-Achat",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "EverflameSeed",
+        "name": "Fluxfeuersamen",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SmallLampGrass",
+        "name": "Lampenkraut",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Abgenutzte Bolzenspitze",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfFreedom",
+          "name": "Lehren der „Freiheit“",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Stabile Bolzenspitze",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Atem des Ostwinds",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Atem des Ostwinds",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Atem des Ostwinds",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Atem des Ostwinds",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Krone der Weisheit",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Amber/Icon.webp",
+    "sideIcon": "Character/Amber/SideIcon.webp",
+    "gatchaCard": "Character/Amber/GachaCard.webp",
+    "gachaSplash": "Character/Amber/GachaSplash.webp",
+    "face": "Character/Amber/Face.webp",
+    "halfFace": "Character/Amber/HalfFace.webp",
+    "profile": "Character/Amber/Profile.webp",
+    "weaponStance": "Character/Amber/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "HuntersBow",
+  "specialDish": "OutridersChampionSteak",
+  "tcgCharacterCard": "",
+  "outfits": [
+    {
+      "id": "5Staroutrider",
+      "name": "5-Sterne-Kundschafter",
+      "description": "Ambers Kleidung. Eine Kundschafter-Uniform, die die Mobilität maximiert.",
+      "picture": "Character/Amber/Outfit/5-starOutrider.webp"
+    }
+  ],
+  "release": 1601244000,
+  "version": "4.6"
 }

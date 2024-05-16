@@ -1,0 +1,85 @@
+{
+  "id": "EmperorOfFireAndIron",
+  "shareId": 351,
+  "name": "Emperor of Fire and Iron",
+  "title": "Emperor of Fire and Iron",
+  "desc": "หนึ่งในผู้ปกครองสองตนที่ยืนอยู่บนยอด Fontemer Aberrant ปูที่ออกล่าและเติบโตขึ้นอย่างไม่รู้จักเหน็ดเหนื่อย โดยไม่ต้องเผชิญหน้ากับศัตรูตามธรรมชาติ เป็นที่รู้จักในนาม \"ราชัน\" กึ่งเกรงขาม กึ่งล้อเลียน",
+  "attributes": {
+    "hp": 6,
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์"
+    ],
+    "source": "ได้รับหลังจากเอาชนะ Emperor of Fire and Iron ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "cardType": "การ์ดตัวละคร"
+  },
+  "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Shatterclamp Strike",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Buster Blaze",
+      "desc": "สร้างความเสียหายไฟ 1 หน่วย; หากตัวละครนี้มี Armored Crab Carapace อย่างน้อย 7 ชั้น ความเสียหายนี้จะ +1 จากนั้น ตัวละครนี้จะได้รับ Armored Crab Carapace 2 ชั้น",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Battle-Line Detonation",
+      "desc": "ตัวละครนี้เตรียมสกิล: Searing Blast",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "Imperial Panoply",
+      "desc": "[ติดตัว]เมื่อการต่อสู้เริ่มขึ้น: ในตอนแรกจะได้รับ Armored Crab Carapace 5 ชั้น หลังจากที่ฝ่ายเราดำเนินการใด ๆ: หากในสนามของฝ่ายเรามีสถานะโล่ป้องกัน หรือสถานะการต่อสู้โล่ป้องกันอื่น นอกเหนือจาก Armored Crab Carapace จะถูกลบล้างทั้งหมด; ทุกการลบล้าง 1 สถานะ จะทำให้ตัวละครได้รับ Armored Crab Carapace 2 ชั้น",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.6"
+}

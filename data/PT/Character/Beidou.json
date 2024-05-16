@@ -1,1057 +1,2205 @@
 {
-	"id": "Beidou",
-	"name": "Beidou",
-	"title": "Rainha do Mar Sem Coroa",
-	"description": "Líder da Frota Crux. Ela é uma chefe sem limites e franca.",
-	"weaponType": "Espadão",
-	"element": "Electro",
-	"gender": "Feminino",
-	"substat": "Bônus de Dano Electro",
-	"affiliation": "Frota Crux",
-	"region": "Liyue",
-	"rarity": 4,
-	"birthday": "14/2",
-	"constellation": "Victor Mare",
-	"domain": "Mansão Taishan",
-	"cv": {
-		"english": "Allegra Clark",
-		"chinese": "唐雅菁",
-		"japanese": "小清水亜美",
-		"korean": "Jung Yoo-mi"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackOceanborne",
-			"name": "Ataque Normal: Conquista do Oceano",
-			"description": "Ataque NormalRealiza até 5 golpes consecutivos.Ataque CarregadoDrena Stamina ao longo do tempo para realizar cortes contínuos.Ao final da sequência, realiza um corte ainda mais poderoso.Ataque ImersivoMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "Dano do 1° Golpe",
-					"values": [
-						"71.12%",
-						"76.91%",
-						"82.7%",
-						"90.97%",
-						"96.76%",
-						"103.38%",
-						"112.47%",
-						"121.57%",
-						"130.67%",
-						"140.59%",
-						"151.96%",
-						"165.33%",
-						"178.71%",
-						"192.08%",
-						"206.67%"
-					]
-				},
-				{
-					"label": "Dano do 2° Golpe",
-					"values": [
-						"70.86%",
-						"76.63%",
-						"82.4%",
-						"90.64%",
-						"96.41%",
-						"103%",
-						"112.06%",
-						"121.13%",
-						"130.19%",
-						"140.08%",
-						"151.41%",
-						"164.73%",
-						"178.06%",
-						"191.38%",
-						"205.92%"
-					]
-				},
-				{
-					"label": "Dano do 3° Golpe",
-					"values": [
-						"88.32%",
-						"95.51%",
-						"102.7%",
-						"112.97%",
-						"120.16%",
-						"128.38%",
-						"139.67%",
-						"150.97%",
-						"162.27%",
-						"174.59%",
-						"188.71%",
-						"205.32%",
-						"221.92%",
-						"238.53%",
-						"256.65%"
-					]
-				},
-				{
-					"label": "Dano do 4° Golpe",
-					"values": [
-						"86.52%",
-						"93.56%",
-						"100.6%",
-						"110.66%",
-						"117.7%",
-						"125.75%",
-						"136.82%",
-						"147.88%",
-						"158.95%",
-						"171.02%",
-						"184.85%",
-						"201.12%",
-						"217.39%",
-						"233.65%",
-						"251.4%"
-					]
-				},
-				{
-					"label": "Dano do 5° Golpe",
-					"values": [
-						"112.14%",
-						"121.27%",
-						"130.4%",
-						"143.44%",
-						"152.57%",
-						"163%",
-						"177.34%",
-						"191.69%",
-						"206.03%",
-						"221.68%",
-						"239.61%",
-						"260.7%",
-						"281.78%",
-						"302.87%",
-						"325.87%"
-					]
-				},
-				{
-					"label": "Dano de Loop de Ataque Carregado",
-					"values": [
-						"56.24%",
-						"60.82%",
-						"65.4%",
-						"71.94%",
-						"76.52%",
-						"81.75%",
-						"88.94%",
-						"96.14%",
-						"103.33%",
-						"111.18%",
-						"120.17%",
-						"130.75%",
-						"141.32%",
-						"151.9%",
-						"163.43%"
-					]
-				},
-				{
-					"label": "Dano Final de Ataque Carregado",
-					"values": [
-						"101.82%",
-						"110.11%",
-						"118.4%",
-						"130.24%",
-						"138.53%",
-						"148%",
-						"161.02%",
-						"174.05%",
-						"187.07%",
-						"201.28%",
-						"217.56%",
-						"236.71%",
-						"255.85%",
-						"275%",
-						"295.88%"
-					]
-				},
-				{
-					"label": "Consumo de Stamina de Ataque Carregado",
-					"values": [
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s"
-					]
-				},
-				{
-					"label": "Duração Máxima",
-					"values": ["5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s"]
-				},
-				{
-					"label": "Dano Durante a Queda",
-					"values": [
-						"74.59%",
-						"80.66%",
-						"86.73%",
-						"95.4%",
-						"101.47%",
-						"108.41%",
-						"117.95%",
-						"127.49%",
-						"137.03%",
-						"147.44%",
-						"157.85%",
-						"168.26%",
-						"178.66%",
-						"189.07%",
-						"199.48%"
-					]
-				},
-				{
-					"label": "Dano de Queda de Baixa/Alta Altitude",
-					"values": [
-						"149.14% / 186.29%",
-						"161.28% / 201.45%",
-						"173.42% / 216.62%",
-						"190.77% / 238.28%",
-						"202.91% / 253.44%",
-						"216.78% / 270.77%",
-						"235.86% / 294.6%",
-						"254.93% / 318.42%",
-						"274.01% / 342.25%",
-						"294.82% / 368.25%",
-						"315.63% / 394.24%",
-						"336.44% / 420.23%",
-						"357.25% / 446.23%",
-						"378.06% / 472.22%",
-						"398.87% / 498.21%"
-					]
-				}
-			]
-		},
-		{
-			"id": "Tidecaller",
-			"name": "Invocadora da Maré",
-			"description": "Nada com que se deva preocupar. Se alguém levantar uma mão contra ela ou contra os seus homens, ela se vingará dez vezes mais com espada e trovão.PressionarAcumulando o poder dos raios, Beidou balança sua lâmina para frente ferozmente, causando Dano Electro.Manter pressionadoLevanta sua arma como um escudo. Dano Máximo absorvido aumenta conforme a Vida Máxima de Beidou.Ataca usando a energia armazenada no Espadão ao soltar ou quando a duração da habilidade expira, causando Dano Electro. Dano causado aumenta com o número de vezes em que Beidou é atacada ao longo da duração da habilidade. O maior Bônus de Dano será atingido quando esse efeito for desencadeado duas vezes.O escudo possui as seguintes propriedades:Tem 250% de eficiência em absorção de Dano ElectroAplica o Elemento Electro para a Beidou ao ativar.",
-			"info": "Conquistar o alto-mar! Seguir as ondas e perseguir a tempestade!",
-			"attributes": [
-				{
-					"label": "Absorção de Dano de Escudo",
-					"values": [
-						"14.4% da Vida Máxima + 1386",
-						"15.48% da Vida Máxima + 1525",
-						"16.56% da Vida Máxima + 1675",
-						"18% da Vida Máxima + 1837",
-						"19.08% da Vida Máxima + 2010",
-						"20.16% da Vida Máxima + 2195",
-						"21.6% da Vida Máxima + 2392",
-						"23.04% da Vida Máxima + 2600",
-						"24.48% da Vida Máxima + 2819",
-						"25.92% da Vida Máxima + 3050",
-						"27.36% da Vida Máxima + 3293",
-						"28.8% da Vida Máxima + 3547",
-						"30.6% da Vida Máxima + 3813",
-						"32.4% da Vida Máxima + 4090",
-						"34.2% da Vida Máxima + 4379"
-					]
-				},
-				{
-					"label": "Dano Básico",
-					"values": [
-						"121.6%",
-						"130.72%",
-						"139.84%",
-						"152%",
-						"161.12%",
-						"170.24%",
-						"182.4%",
-						"194.56%",
-						"206.72%",
-						"218.88%",
-						"231.04%",
-						"243.2%",
-						"258.4%",
-						"273.6%",
-						"288.8%"
-					]
-				},
-				{
-					"label": "Aumenta o Dano ao ser Atacado",
-					"values": [
-						"160%",
-						"172%",
-						"184%",
-						"200%",
-						"212%",
-						"224%",
-						"240%",
-						"256%",
-						"272%",
-						"288%",
-						"304%",
-						"320%",
-						"340%",
-						"360%",
-						"380%"
-					]
-				},
-				{
-					"label": "Tempo de Recarga",
-					"values": [
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s",
-						"7.5s"
-					]
-				}
-			]
-		},
-		{
-			"id": "Stormbreaker",
-			"name": "Quebrador de Tempestades",
-			"description": "Relembrando seu abate da grande fera Haishan, Beidou clama pela força monstruosa e relâmpagos para criar um Escudo do Trovão ao seu redor, infligindo Dano Electro aos inimigos próximos.Escudo do TrovãoQuando Ataques Normais e Carregados atingem, eles criam uma descarga elétrica que pode saltar entre os inimigos, infligindo Dano Electro.Aumenta a resistência do personagem a interrupções e diminui o Dano recebido.No máximo 1 descarga de relâmpago pode ser desencadeada por segundo.",
-			"info": "Com o estrondo do trovão, Haishan foi derrotado.",
-			"attributes": [
-				{
-					"label": "Dano de Habilidade",
-					"values": [
-						"121.6%",
-						"130.72%",
-						"139.84%",
-						"152%",
-						"161.12%",
-						"170.24%",
-						"182.4%",
-						"194.56%",
-						"206.72%",
-						"218.88%",
-						"231.04%",
-						"243.2%",
-						"258.4%",
-						"273.6%",
-						"288.8%"
-					]
-				},
-				{
-					"label": "Dano de Relâmpago",
-					"values": [
-						"96%",
-						"103.2%",
-						"110.4%",
-						"120%",
-						"127.2%",
-						"134.4%",
-						"144%",
-						"153.6%",
-						"163.2%",
-						"172.8%",
-						"182.4%",
-						"192%",
-						"204%",
-						"216%",
-						"228%"
-					]
-				},
-				{
-					"label": "Redução de Dano",
-					"values": [
-						"20%",
-						"21%",
-						"22%",
-						"24%",
-						"25%",
-						"26%",
-						"28%",
-						"30%",
-						"32%",
-						"34%",
-						"35%",
-						"36%",
-						"37%",
-						"38%",
-						"39%"
-					]
-				},
-				{
-					"label": "Duração",
-					"values": [
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s"
-					]
-				},
-				{
-					"label": "Tempo de Recarga",
-					"values": [
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s"
-					]
-				},
-				{
-					"label": "Energia Elemental",
-					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "Retribution",
-			"name": "Retribuição",
-			"description": "Ao atacar com Invocadora da Maré no exato momento em que o personagem é atingido, concede o bônus de Dano máximo.",
-			"level": 1
-		},
-		{
-			"id": "LightningStorm",
-			"name": "Tormenta Elétrica",
-			"description": "Obtém os seguintes efeitos por 10s após lançar a Invocadora da Maré com seu bônus máximo de Dano:O Dano causado pelos Ataques Normais e Carregados aumenta em 15%. A Vel. de Ataque dos Ataques Normais ou Carregados é aumentada em 15%.Reduz grandemente o atraso antes de lançar Ataques Carregados.",
-			"level": 4
-		},
-		{
-			"id": "ConquerorOfTides",
-			"name": "Conquistadora das Marés",
-			"description": "Diminui o consumo de Stamina ao Nadar de todos os seus personagens em 20%.Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "SeaBeastsScourge",
-			"name": "Flagelo da Fera do Mar",
-			"description": "Quando o Quebrador de Tempestades é usado:Cria um escudo que absorve até 16% de Dano baseado na Vida Máxima de Beidou por 15 segundos.Esse escudo absorve 250% do Dano Electro mais eficientemente.",
-			"level": 1
-		},
-		{
-			"id": "UponTheTurbulentSeaTheThunderArises",
-			"name": "Sobre o Mar Turbulento, o Trovão Surge",
-			"description": "O Arco Relâmpago do Quebrador de Tempestades pode rebater em 2 alvos adicionais.",
-			"level": 2
-		},
-		{
-			"id": "SummonerOfStorm",
-			"name": "Invocadora da Tempestade",
-			"description": "Aumenta o nível da Invocadora da Maré em 3.O nível máximo de elevação é 15.",
-			"level": 3
-		},
-		{
-			"id": "StunningRevenge",
-			"name": "Vingança Impressionante",
-			"description": "Após ser atacada, os Ataques Normais de Beidou ganham 20% de Dano Electro adicional por 10s.",
-			"level": 4
-		},
-		{
-			"id": "CrimsonTidewalker",
-			"name": "Caminhante da Maré Carmesim",
-			"description": "Aumenta o nível do Quebrador de Tempestades em 3.O nível máximo de elevação é 15.",
-			"level": 5
-		},
-		{
-			"id": "BaneOfEvil",
-			"name": "Destruição do Mal",
-			"description": "Ao longo da duração do Quebrador de Tempestades, a RES Electro dos inimigos próximos é diminuída em 15%.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["-", "1094"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["-", "19"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["-", "54"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [0, 1]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["2811", "3628"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["48", "63"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["140", "180"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [1, 2]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["5435", "6015"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["94", "104"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["270", "299"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VajradaAmethystSliver",
-				"name": "Lasca de Ametista Vajrada",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "NoctilucousJade",
-				"name": "Jade Nocticulosa",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "TreasureHoarderInsignia",
-				"name": "Insígnia dos Ladrões de Tesouro",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [2, 3]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["6919", "7694"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["119", "133"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["344", "382"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VajradaAmethystFragment",
-				"name": "Fragmento de Ametista Vajrada",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "LightningPrism",
-				"name": "Prisma do Relâmpago",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NoctilucousJade",
-				"name": "Jade Nocticulosa",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "TreasureHoarderInsignia",
-				"name": "Insígnia dos Ladrões de Tesouro",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [3, 4]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["8597", "9178"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["148", "158"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["427", "456"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VajradaAmethystFragment",
-				"name": "Fragmento de Ametista Vajrada",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "LightningPrism",
-				"name": "Prisma do Relâmpago",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NoctilucousJade",
-				"name": "Jade Nocticulosa",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SilverRavenInsignia",
-				"name": "Insígnia do Corvo Prateado",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [4, 5]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["10081", "10662"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["174", "184"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["501", "530"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VajradaAmethystChunk",
-				"name": "Pedaço de Ametista Vajrada",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "LightningPrism",
-				"name": "Prisma do Relâmpago",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NoctilucousJade",
-				"name": "Jade Nocticulosa",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SilverRavenInsignia",
-				"name": "Insígnia do Corvo Prateado",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [5, 6]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["11565", "12146"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["200", "210"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["575", "603"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VajradaAmethystChunk",
-				"name": "Pedaço de Ametista Vajrada",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "LightningPrism",
-				"name": "Prisma do Relâmpago",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NoctilucousJade",
-				"name": "Jade Nocticulosa",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "GoldenRavenInsignia",
-				"name": "Insígnia de Corvo Dourado",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [6, 7]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["13050", "13050"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["225", "225"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["648", "648"]
-				},
-				{
-					"label": "Bônus de Dano Electro",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VajradaAmethystGemstone",
-				"name": "Gema de Ametista Vajrada",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "LightningPrism",
-				"name": "Prisma do Relâmpago",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NoctilucousJade",
-				"name": "Jade Nocticulosa",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "GoldenRavenInsignia",
-				"name": "Insígnia de Corvo Dourado",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfGold",
-					"name": "Ensinamentos de Ouro",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "Insígnia dos Ladrões de Tesouro",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToGold",
-					"name": "Guia de Ouro",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Insígnia do Corvo Prateado",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToGold",
-					"name": "Guia de Ouro",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Insígnia do Corvo Prateado",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToGold",
-					"name": "Guia de Ouro",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Insígnia do Corvo Prateado",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToGold",
-					"name": "Guia de Ouro",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Insígnia do Corvo Prateado",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfGold",
-					"name": "Filosofia de Ouro",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Insígnia de Corvo Dourado",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Suspiro do Vento Oriental",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfGold",
-					"name": "Filosofia de Ouro",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Insígnia de Corvo Dourado",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Suspiro do Vento Oriental",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfGold",
-					"name": "Filosofia de Ouro",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Insígnia de Corvo Dourado",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Suspiro do Vento Oriental",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfGold",
-					"name": "Filosofia de Ouro",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Insígnia de Corvo Dourado",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "DvalinsSigh",
-					"name": "Suspiro do Vento Oriental",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Coroa da Sabedoria",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Beidou/Icon.webp",
-		"sideIcon": "Character/Beidou/SideIcon.webp",
-		"gatchaCard": "Character/Beidou/GachaCard.webp",
-		"gachaSplash": "Character/Beidou/GachaSplash.webp",
-		"face": "Character/Beidou/Face.webp",
-		"halfFace": "Character/Beidou/HalfFace.webp",
-		"profile": "Character/Beidou/Profile.webp",
-		"weaponStance": "Character/Beidou/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "BlackcliffSlasher",
-	"specialDish": "FlashfriedFilet",
-	"tcgCharacterCard": "Beidou",
-	"outfits": [
-		{
-			"id": "RollingWaves",
-			"name": "Ondas Temerosas",
-			"description": "Um vestuário de Beidou. Um vestido confortável cheio de um espírito audacioso de quem pode pisar sobre as ondas.",
-			"picture": "Character/Beidou/Outfit/RollingWaves.webp"
-		}
-	]
+  "id": "Beidou",
+  "name": "Beidou",
+  "title": "Rainha do Mar Sem Coroa",
+  "description": "Líder da Frota Crux. Ela é uma chefe sem limites e franca.",
+  "weaponType": "Espadão",
+  "element": "Electro",
+  "gender": "Feminino",
+  "substat": "Bônus de Dano Electro",
+  "affiliation": "Frota Crux",
+  "region": "Liyue",
+  "rarity": 4,
+  "birthday": "14/2",
+  "constellation": "Victor Mare",
+  "domain": "Mansão Taishan",
+  "cv": {
+    "english": "Allegra Clark",
+    "chinese": "唐雅菁",
+    "japanese": "小清水亜美",
+    "korean": "Jung Yoo-mi"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackOceanborne",
+      "name": "Ataque Normal: Conquista do Oceano",
+      "description": "Ataque NormalRealiza até 5 golpes consecutivos.Ataque CarregadoDrena Stamina ao longo do tempo para realizar cortes contínuos.Ao final da sequência, realiza um corte ainda mais poderoso.Ataque ImersivoMergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "71.12%",
+            "76.91%",
+            "82.7%",
+            "90.97%",
+            "96.76%",
+            "103.38%",
+            "112.47%",
+            "121.57%",
+            "130.67%",
+            "140.59%",
+            "151.96%",
+            "165.33%",
+            "178.71%",
+            "192.08%",
+            "206.67%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "70.86%",
+            "76.63%",
+            "82.4%",
+            "90.64%",
+            "96.41%",
+            "103%",
+            "112.06%",
+            "121.13%",
+            "130.19%",
+            "140.08%",
+            "151.41%",
+            "164.73%",
+            "178.06%",
+            "191.38%",
+            "205.92%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "88.32%",
+            "95.51%",
+            "102.7%",
+            "112.97%",
+            "120.16%",
+            "128.38%",
+            "139.67%",
+            "150.97%",
+            "162.27%",
+            "174.59%",
+            "188.71%",
+            "205.32%",
+            "221.92%",
+            "238.53%",
+            "256.65%"
+          ]
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
+            "86.52%",
+            "93.56%",
+            "100.6%",
+            "110.66%",
+            "117.7%",
+            "125.75%",
+            "136.82%",
+            "147.88%",
+            "158.95%",
+            "171.02%",
+            "184.85%",
+            "201.12%",
+            "217.39%",
+            "233.65%",
+            "251.4%"
+          ]
+        },
+        {
+          "label": "Dano do 5° Golpe",
+          "values": [
+            "112.14%",
+            "121.27%",
+            "130.4%",
+            "143.44%",
+            "152.57%",
+            "163%",
+            "177.34%",
+            "191.69%",
+            "206.03%",
+            "221.68%",
+            "239.61%",
+            "260.7%",
+            "281.78%",
+            "302.87%",
+            "325.87%"
+          ]
+        },
+        {
+          "label": "Dano de Loop de Ataque Carregado",
+          "values": [
+            "56.24%",
+            "60.82%",
+            "65.4%",
+            "71.94%",
+            "76.52%",
+            "81.75%",
+            "88.94%",
+            "96.14%",
+            "103.33%",
+            "111.18%",
+            "120.17%",
+            "130.75%",
+            "141.32%",
+            "151.9%",
+            "163.43%"
+          ]
+        },
+        {
+          "label": "Dano Final de Ataque Carregado",
+          "values": [
+            "101.82%",
+            "110.11%",
+            "118.4%",
+            "130.24%",
+            "138.53%",
+            "148%",
+            "161.02%",
+            "174.05%",
+            "187.07%",
+            "201.28%",
+            "217.56%",
+            "236.71%",
+            "255.85%",
+            "275%",
+            "295.88%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Duração Máxima",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "Invocadora da Maré",
+      "description": "Nada com que se deva preocupar. Se alguém levantar uma mão contra ela ou contra os seus homens, ela se vingará dez vezes mais com espada e trovão.PressionarAcumulando o poder dos raios, Beidou balança sua lâmina para frente ferozmente, causando Dano Electro.Manter pressionadoLevanta sua arma como um escudo. Dano Máximo absorvido aumenta conforme a Vida Máxima de Beidou.Ataca usando a energia armazenada no Espadão ao soltar ou quando a duração da habilidade expira, causando Dano Electro. Dano causado aumenta com o número de vezes em que Beidou é atacada ao longo da duração da habilidade. O maior Bônus de Dano será atingido quando esse efeito for desencadeado duas vezes.O escudo possui as seguintes propriedades:Tem 250% de eficiência em absorção de Dano ElectroAplica o Elemento Electro para a Beidou ao ativar.",
+      "info": "Conquistar o alto-mar! Seguir as ondas e perseguir a tempestade!",
+      "attributes": [
+        {
+          "label": "Absorção de Dano de Escudo",
+          "values": [
+            "14.4% da Vida Máxima + 1386",
+            "15.48% da Vida Máxima + 1525",
+            "16.56% da Vida Máxima + 1675",
+            "18% da Vida Máxima + 1837",
+            "19.08% da Vida Máxima + 2010",
+            "20.16% da Vida Máxima + 2195",
+            "21.6% da Vida Máxima + 2392",
+            "23.04% da Vida Máxima + 2600",
+            "24.48% da Vida Máxima + 2819",
+            "25.92% da Vida Máxima + 3050",
+            "27.36% da Vida Máxima + 3293",
+            "28.8% da Vida Máxima + 3547",
+            "30.6% da Vida Máxima + 3813",
+            "32.4% da Vida Máxima + 4090",
+            "34.2% da Vida Máxima + 4379"
+          ]
+        },
+        {
+          "label": "Dano Básico",
+          "values": [
+            "121.6%",
+            "130.72%",
+            "139.84%",
+            "152%",
+            "161.12%",
+            "170.24%",
+            "182.4%",
+            "194.56%",
+            "206.72%",
+            "218.88%",
+            "231.04%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        },
+        {
+          "label": "Aumenta o Dano ao ser Atacado",
+          "values": [
+            "160%",
+            "172%",
+            "184%",
+            "200%",
+            "212%",
+            "224%",
+            "240%",
+            "256%",
+            "272%",
+            "288%",
+            "304%",
+            "320%",
+            "340%",
+            "360%",
+            "380%"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "Quebrador de Tempestades",
+      "description": "Relembrando seu abate da grande fera Haishan, Beidou clama pela força monstruosa e relâmpagos para criar um Escudo do Trovão ao seu redor, infligindo Dano Electro aos inimigos próximos.Escudo do TrovãoQuando Ataques Normais e Carregados atingem, eles criam uma descarga elétrica que pode saltar entre os inimigos, infligindo Dano Electro.Aumenta a resistência do personagem a interrupções e diminui o Dano recebido.No máximo 1 descarga de relâmpago pode ser desencadeada por segundo.",
+      "info": "Com o estrondo do trovão, Haishan foi derrotado.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "121.6%",
+            "130.72%",
+            "139.84%",
+            "152%",
+            "161.12%",
+            "170.24%",
+            "182.4%",
+            "194.56%",
+            "206.72%",
+            "218.88%",
+            "231.04%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        },
+        {
+          "label": "Dano de Relâmpago",
+          "values": [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        },
+        {
+          "label": "Redução de Dano",
+          "values": [
+            "20%",
+            "21%",
+            "22%",
+            "24%",
+            "25%",
+            "26%",
+            "28%",
+            "30%",
+            "32%",
+            "34%",
+            "35%",
+            "36%",
+            "37%",
+            "38%",
+            "39%"
+          ]
+        },
+        {
+          "label": "Duração",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackOceanborne",
+      "name": "Ataque Normal: Conquista do Oceano",
+      "description": "Ataque Normal Realiza até 5 golpes consecutivos. Ataque Carregado Drena Stamina ao longo do tempo para realizar cortes contínuos. Ao final da sequência, realiza um corte ainda mais poderoso. Ataque Imersivo Mergulha em pleno ar para golpear o chão, danificando inimigos em seu caminho e infligindo dano em uma AdE durante o impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "71.12%",
+            "76.91%",
+            "82.7%",
+            "90.97%",
+            "96.76%",
+            "103.38%",
+            "112.47%",
+            "121.57%",
+            "130.67%",
+            "140.59%",
+            "151.96%",
+            "165.33%",
+            "178.71%",
+            "192.08%",
+            "206.67%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "70.86%",
+            "76.63%",
+            "82.4%",
+            "90.64%",
+            "96.41%",
+            "103%",
+            "112.06%",
+            "121.13%",
+            "130.19%",
+            "140.08%",
+            "151.41%",
+            "164.73%",
+            "178.06%",
+            "191.38%",
+            "205.92%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "88.32%",
+            "95.51%",
+            "102.7%",
+            "112.97%",
+            "120.16%",
+            "128.38%",
+            "139.67%",
+            "150.97%",
+            "162.27%",
+            "174.59%",
+            "188.71%",
+            "205.32%",
+            "221.92%",
+            "238.53%",
+            "256.65%"
+          ]
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
+            "86.52%",
+            "93.56%",
+            "100.6%",
+            "110.66%",
+            "117.7%",
+            "125.75%",
+            "136.82%",
+            "147.88%",
+            "158.95%",
+            "171.02%",
+            "184.85%",
+            "201.12%",
+            "217.39%",
+            "233.65%",
+            "251.4%"
+          ]
+        },
+        {
+          "label": "Dano do 5° Golpe",
+          "values": [
+            "112.14%",
+            "121.27%",
+            "130.4%",
+            "143.44%",
+            "152.57%",
+            "163%",
+            "177.34%",
+            "191.69%",
+            "206.03%",
+            "221.68%",
+            "239.61%",
+            "260.7%",
+            "281.78%",
+            "302.87%",
+            "325.87%"
+          ]
+        },
+        {
+          "label": "Dano de Loop de Ataque Carregado",
+          "values": [
+            "56.24%",
+            "60.82%",
+            "65.4%",
+            "71.94%",
+            "76.52%",
+            "81.75%",
+            "88.94%",
+            "96.14%",
+            "103.33%",
+            "111.18%",
+            "120.17%",
+            "130.75%",
+            "141.32%",
+            "151.9%",
+            "163.43%"
+          ]
+        },
+        {
+          "label": "Dano Final de Ataque Carregado",
+          "values": [
+            "101.82%",
+            "110.11%",
+            "118.4%",
+            "130.24%",
+            "138.53%",
+            "148%",
+            "161.02%",
+            "174.05%",
+            "187.07%",
+            "201.28%",
+            "217.56%",
+            "236.71%",
+            "255.85%",
+            "275%",
+            "295.88%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Duração Máxima",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "74.59%",
+            "80.66%",
+            "86.73%",
+            "95.4%",
+            "101.47%",
+            "108.41%",
+            "117.95%",
+            "127.49%",
+            "137.03%",
+            "147.44%",
+            "157.85%",
+            "168.26%",
+            "178.66%",
+            "189.07%",
+            "199.48%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "149.14% / 186.29%",
+            "161.28% / 201.45%",
+            "173.42% / 216.62%",
+            "190.77% / 238.28%",
+            "202.91% / 253.44%",
+            "216.78% / 270.77%",
+            "235.86% / 294.6%",
+            "254.93% / 318.42%",
+            "274.01% / 342.25%",
+            "294.82% / 368.25%",
+            "315.63% / 394.24%",
+            "336.44% / 420.23%",
+            "357.25% / 446.23%",
+            "378.06% / 472.22%",
+            "398.87% / 498.21%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "Invocadora da Maré",
+      "description": "Nada com que se deva preocupar. Se alguém levantar uma mão contra ela ou contra os seus homens, ela se vingará dez vezes mais com espada e trovão. Pressionar Acumulando o poder dos raios, Beidou balança sua lâmina para frente ferozmente, causando Dano Electro. Manter pressionado Levanta sua arma como um escudo. Dano Máximo absorvido aumenta conforme a Vida Máxima de Beidou. Ataca usando a energia armazenada no Espadão ao soltar ou quando a duração da habilidade expira, causando Dano Electro. Dano causado aumenta com o número de vezes em que Beidou é atacada ao longo da duração da habilidade. O maior Bônus de Dano será atingido quando esse efeito for desencadeado duas vezes. O escudo possui as seguintes propriedades: Tem 250% de eficiência em absorção de Dano Electro Aplica o Elemento Electro para a Beidou ao ativar.",
+      "info": "Conquistar o alto-mar! Seguir as ondas e perseguir a tempestade!",
+      "attributes": [
+        {
+          "label": "Absorção de Dano de Escudo",
+          "values": [
+            "14.4% da Vida Máxima + 1386",
+            "15.48% da Vida Máxima + 1525",
+            "16.56% da Vida Máxima + 1675",
+            "18% da Vida Máxima + 1837",
+            "19.08% da Vida Máxima + 2010",
+            "20.16% da Vida Máxima + 2195",
+            "21.6% da Vida Máxima + 2392",
+            "23.04% da Vida Máxima + 2600",
+            "24.48% da Vida Máxima + 2819",
+            "25.92% da Vida Máxima + 3050",
+            "27.36% da Vida Máxima + 3293",
+            "28.8% da Vida Máxima + 3547",
+            "30.6% da Vida Máxima + 3813",
+            "32.4% da Vida Máxima + 4090",
+            "34.2% da Vida Máxima + 4379"
+          ]
+        },
+        {
+          "label": "Dano Básico",
+          "values": [
+            "121.6%",
+            "130.72%",
+            "139.84%",
+            "152%",
+            "161.12%",
+            "170.24%",
+            "182.4%",
+            "194.56%",
+            "206.72%",
+            "218.88%",
+            "231.04%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        },
+        {
+          "label": "Aumenta o Dano ao ser Atacado",
+          "values": [
+            "160%",
+            "172%",
+            "184%",
+            "200%",
+            "212%",
+            "224%",
+            "240%",
+            "256%",
+            "272%",
+            "288%",
+            "304%",
+            "320%",
+            "340%",
+            "360%",
+            "380%"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s",
+            "7.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "Quebrador de Tempestades",
+      "description": "Relembrando seu abate da grande fera Haishan, Beidou clama pela força monstruosa e relâmpagos para criar um Escudo do Trovão ao seu redor, infligindo Dano Electro aos inimigos próximos. Escudo do Trovão Quando Ataques Normais e Carregados atingem, eles criam uma descarga elétrica que pode saltar entre os inimigos, infligindo Dano Electro. Aumenta a resistência do personagem a interrupções e diminui o Dano recebido. No máximo 1 descarga de relâmpago pode ser desencadeada por segundo.",
+      "info": "Com o estrondo do trovão, Haishan foi derrotado.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "121.6%",
+            "130.72%",
+            "139.84%",
+            "152%",
+            "161.12%",
+            "170.24%",
+            "182.4%",
+            "194.56%",
+            "206.72%",
+            "218.88%",
+            "231.04%",
+            "243.2%",
+            "258.4%",
+            "273.6%",
+            "288.8%"
+          ]
+        },
+        {
+          "label": "Dano de Relâmpago",
+          "values": [
+            "96%",
+            "103.2%",
+            "110.4%",
+            "120%",
+            "127.2%",
+            "134.4%",
+            "144%",
+            "153.6%",
+            "163.2%",
+            "172.8%",
+            "182.4%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        },
+        {
+          "label": "Redução de Dano",
+          "values": [
+            "20%",
+            "21%",
+            "22%",
+            "24%",
+            "25%",
+            "26%",
+            "28%",
+            "30%",
+            "32%",
+            "34%",
+            "35%",
+            "36%",
+            "37%",
+            "38%",
+            "39%"
+          ]
+        },
+        {
+          "label": "Duração",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "Retribution",
+      "name": "Retribuição",
+      "description": "Ao atacar com Invocadora da Maré no exato momento em que o personagem é atingido, concede o bônus de Dano máximo.",
+      "level": 1
+    },
+    {
+      "id": "LightningStorm",
+      "name": "Tormenta Elétrica",
+      "description": "Obtém os seguintes efeitos por 10s após lançar a Invocadora da Maré com seu bônus máximo de Dano:O Dano causado pelos Ataques Normais e Carregados aumenta em 15%. A Vel. de Ataque dos Ataques Normais ou Carregados é aumentada em 15%.Reduz grandemente o atraso antes de lançar Ataques Carregados.",
+      "level": 4
+    },
+    {
+      "id": "ConquerorOfTides",
+      "name": "Conquistadora das Marés",
+      "description": "Diminui o consumo de Stamina ao Nadar de todos os seus personagens em 20%.Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+      "level": 0
+    },
+    {
+      "id": "Retribution",
+      "name": "Retribuição",
+      "description": "Ao atacar com Invocadora da Maré no exato momento em que o personagem é atingido, concede o bônus de Dano máximo.",
+      "level": 1
+    },
+    {
+      "id": "LightningStorm",
+      "name": "Tormenta Elétrica",
+      "description": "Obtém os seguintes efeitos por 10s após lançar a Invocadora da Maré com seu bônus máximo de Dano: O Dano causado pelos Ataques Normais e Carregados aumenta em 15%. A Vel. de Ataque dos Ataques Normais ou Carregados é aumentada em 15%. Reduz grandemente o atraso antes de lançar Ataques Carregados.",
+      "level": 4
+    },
+    {
+      "id": "ConquerorOfTides",
+      "name": "Conquistadora das Marés",
+      "description": "Diminui o consumo de Stamina ao Nadar de todos os seus personagens em 20%. Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "SeaBeastsScourge",
+      "name": "Flagelo da Fera do Mar",
+      "description": "Quando o Quebrador de Tempestades é usado:Cria um escudo que absorve até 16% de Dano baseado na Vida Máxima de Beidou por 15 segundos.Esse escudo absorve 250% do Dano Electro mais eficientemente.",
+      "level": 1
+    },
+    {
+      "id": "UponTheTurbulentSeaTheThunderArises",
+      "name": "Sobre o Mar Turbulento, o Trovão Surge",
+      "description": "O Arco Relâmpago do Quebrador de Tempestades pode rebater em 2 alvos adicionais.",
+      "level": 2
+    },
+    {
+      "id": "SummonerOfStorm",
+      "name": "Invocadora da Tempestade",
+      "description": "Aumenta o nível da Invocadora da Maré em 3.O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "id": "StunningRevenge",
+      "name": "Vingança Impressionante",
+      "description": "Após ser atacada, os Ataques Normais de Beidou ganham 20% de Dano Electro adicional por 10s.",
+      "level": 4
+    },
+    {
+      "id": "CrimsonTidewalker",
+      "name": "Caminhante da Maré Carmesim",
+      "description": "Aumenta o nível do Quebrador de Tempestades em 3.O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "id": "BaneOfEvil",
+      "name": "Destruição do Mal",
+      "description": "Ao longo da duração do Quebrador de Tempestades, a RES Electro dos inimigos próximos é diminuída em 15%.",
+      "level": 6
+    },
+    {
+      "id": "SeaBeastsScourge",
+      "name": "Flagelo da Fera do Mar",
+      "description": "Quando o Quebrador de Tempestades é usado: Cria um escudo que absorve até 16% de Dano baseado na Vida Máxima de Beidou por 15 segundos. Esse escudo absorve 250% do Dano Electro mais eficientemente.",
+      "level": 1
+    },
+    {
+      "id": "UponTheTurbulentSeaTheThunderArises",
+      "name": "Sobre o Mar Turbulento, o Trovão Surge",
+      "description": "O Arco Relâmpago do Quebrador de Tempestades pode rebater em 2 alvos adicionais.",
+      "level": 2
+    },
+    {
+      "id": "SummonerOfStorm",
+      "name": "Invocadora da Tempestade",
+      "description": "Aumenta o nível da Invocadora da Maré em 3. O nível máximo de elevação é 15.",
+      "level": 3
+    },
+    {
+      "id": "StunningRevenge",
+      "name": "Vingança Impressionante",
+      "description": "Após ser atacada, os Ataques Normais de Beidou ganham 20% de Dano Electro adicional por 10s.",
+      "level": 4
+    },
+    {
+      "id": "CrimsonTidewalker",
+      "name": "Caminhante da Maré Carmesim",
+      "description": "Aumenta o nível do Quebrador de Tempestades em 3. O nível máximo de elevação é 15.",
+      "level": 5
+    },
+    {
+      "id": "BaneOfEvil",
+      "name": "Destruição do Mal",
+      "description": "Ao longo da duração do Quebrador de Tempestades, a RES Electro dos inimigos próximos é diminuída em 15%.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "-",
+            "1094"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "2811",
+            "3628"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "48",
+            "63"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "140",
+            "180"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "5435",
+            "6015"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "94",
+            "104"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "270",
+            "299"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystSliver",
+        "name": "Lasca de Ametista Vajrada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TreasureHoarderInsignia",
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "6919",
+            "7694"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "119",
+            "133"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "344",
+            "382"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystFragment",
+        "name": "Fragmento de Ametista Vajrada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TreasureHoarderInsignia",
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "8597",
+            "9178"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "148",
+            "158"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "427",
+            "456"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystFragment",
+        "name": "Fragmento de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SilverRavenInsignia",
+        "name": "Insígnia do Corvo Prateado",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "10081",
+            "10662"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "174",
+            "184"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "501",
+            "530"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystChunk",
+        "name": "Pedaço de Ametista Vajrada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SilverRavenInsignia",
+        "name": "Insígnia do Corvo Prateado",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "11565",
+            "12146"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "200",
+            "210"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "575",
+            "603"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystChunk",
+        "name": "Pedaço de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "GoldenRavenInsignia",
+        "name": "Insígnia de Corvo Dourado",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "13050",
+            "13050"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "225",
+            "225"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "648",
+            "648"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystGemstone",
+        "name": "Gema de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "GoldenRavenInsignia",
+        "name": "Insígnia de Corvo Dourado",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "-",
+            "1094"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "-",
+            "19"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "2811",
+            "3628"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "48",
+            "63"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "140",
+            "180"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "5435",
+            "6015"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "94",
+            "104"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "270",
+            "299"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystSliver",
+        "name": "Lasca de Ametista Vajrada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TreasureHoarderInsignia",
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "6919",
+            "7694"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "119",
+            "133"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "344",
+            "382"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystFragment",
+        "name": "Fragmento de Ametista Vajrada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TreasureHoarderInsignia",
+        "name": "Insígnia dos Ladrões de Tesouro",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "8597",
+            "9178"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "148",
+            "158"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "427",
+            "456"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystFragment",
+        "name": "Fragmento de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SilverRavenInsignia",
+        "name": "Insígnia do Corvo Prateado",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "10081",
+            "10662"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "174",
+            "184"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "501",
+            "530"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystChunk",
+        "name": "Pedaço de Ametista Vajrada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SilverRavenInsignia",
+        "name": "Insígnia do Corvo Prateado",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "11565",
+            "12146"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "200",
+            "210"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "575",
+            "603"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystChunk",
+        "name": "Pedaço de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "GoldenRavenInsignia",
+        "name": "Insígnia de Corvo Dourado",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "13050",
+            "13050"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "225",
+            "225"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "648",
+            "648"
+          ]
+        },
+        {
+          "label": "Bônus de Dano Electro",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VajradaAmethystGemstone",
+        "name": "Gema de Ametista Vajrada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "LightningPrism",
+        "name": "Prisma do Relâmpago",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NoctilucousJade",
+        "name": "Jade Nocticulosa",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "GoldenRavenInsignia",
+        "name": "Insígnia de Corvo Dourado",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfGold",
+          "name": "Ensinamentos de Ouro",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Insígnia dos Ladrões de Tesouro",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToGold",
+          "name": "Guia de Ouro",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToGold",
+          "name": "Guia de Ouro",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToGold",
+          "name": "Guia de Ouro",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToGold",
+          "name": "Guia de Ouro",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insígnia do Corvo Prateado",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfGold",
+          "name": "Filosofia de Ouro",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Suspiro do Vento Oriental",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfGold",
+          "name": "Filosofia de Ouro",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Suspiro do Vento Oriental",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfGold",
+          "name": "Filosofia de Ouro",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Suspiro do Vento Oriental",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfGold",
+          "name": "Filosofia de Ouro",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insígnia de Corvo Dourado",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "DvalinsSigh",
+          "name": "Suspiro do Vento Oriental",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Beidou/Icon.webp",
+    "sideIcon": "Character/Beidou/SideIcon.webp",
+    "gatchaCard": "Character/Beidou/GachaCard.webp",
+    "gachaSplash": "Character/Beidou/GachaSplash.webp",
+    "face": "Character/Beidou/Face.webp",
+    "halfFace": "Character/Beidou/HalfFace.webp",
+    "profile": "Character/Beidou/Profile.webp",
+    "weaponStance": "Character/Beidou/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "BlackcliffSlasher",
+  "specialDish": "FlashfriedFilet",
+  "tcgCharacterCard": "Beidou",
+  "outfits": [
+    {
+      "id": "RollingWaves",
+      "name": "Ondas Temerosas",
+      "description": "Um vestuário de Beidou. Um vestido confortável cheio de um espírito audacioso de quem pode pisar sobre as ondas.",
+      "picture": "Character/Beidou/Outfit/RollingWaves.webp"
+    }
+  ],
+  "release": 1601244000,
+  "version": "4.6"
 }

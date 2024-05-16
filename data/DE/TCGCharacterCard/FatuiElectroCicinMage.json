@@ -12,6 +12,7 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Fatui",
+      "Fatui",
       "Fatui"
     ],
     "source": "Nach einem gewonnenen „Duell – Nett“ mit Fatui – Elektro-Cicin-Zauberin in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
@@ -65,6 +66,61 @@
       "name": "Donnernder Schild",
       "desc": "Verursacht 1 Pkt. Elektro-SCH, verleiht der Figur das Elektro-Attribut, erschafft 1 Elektro-Cicin-Ummantelung und bereitet die Fähigkeit Ausbrechender Donner vor.",
       "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurtlingBolts",
+      "name": "Dröhnender Blitz",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "Vernebelter Ruf",
+      "desc": "Erschafft 1 Elektro-Cicin.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "Donnernder Schild",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH, verleiht der Figur das Elektro-Attribut, erschafft 1 Elektro-Cicin-Ummantelung und bereitet die Fähigkeit Ausbrechender Donner vor.",
+      "skillTag": [
         "Spezialfähigkeit"
       ],
       "points": [

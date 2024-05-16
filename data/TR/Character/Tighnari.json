@@ -1,1013 +1,2085 @@
 {
-	"id": "Tighnari",
-	"name": "Tighnari",
-	"title": "ย่างก้าวในแดนไพร",
-	"description": "นักวิชาการรุ่นเยาว์ที่เชี่ยวชาญด้านพฤกษศาสตร์ ตอนนี้เขาทำหน้าที่เป็นหัวหน้าเจ้าหน้าที่พิทักษ์ป่าที่ Avidya Forest นิสัยตรงไปตรงมากระตือรือร้น เก่งในเรื่องการแนะนำสั่งสอนพวกคนสมองเลอะเลือน",
-	"weaponType": "ธนู",
-	"element": "ไม้",
-	"gender": "ชาย",
-	"substat": "โบนัสความเสียหายไม้",
-	"affiliation": "Gandharva Ville",
-	"region": "Sumeru",
-	"rarity": 5,
-	"birthday": "29/12",
-	"constellation": "Vulpes Zerda",
-	"domain": "โถงเบาปัญญา",
-	"cv": {
-		"english": "Zachary Gordon",
-		"chinese": "莫然",
-		"japanese": "小林沙苗",
-		"korean": "Jung Ui-taek"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackKhandaBarrierbuster",
-			"name": "โจมตีปกติ: Khanda Barrier-Buster",
-			"description": "โจมตีปกติยิงธนูโจมตีต่อเนื่องมากสุดถึง 4 ครั้งชาร์จโจมตีการเล็งโจมตีจะสร้างความเสียหายเพิ่มขึ้น และแม่นยำยิ่งขึ้นเมื่อเล็งโจมตี พลังจากต้นไม้ใบหญ้าจะถูกรวบรวมบนหัวของลูกศรและยิงออกไป โดยเอฟเฟกต์ที่เกิดจะแตกต่างกันไป ตามช่วงเวลาที่เล็งชาร์จดังนี้:·ชาร์จระดับ 1: ยิงธนูที่มีธาตุไม้ออกไป เพื่อสร้างความเสียหายไม้;·ชาร์จระดับ 2: ยิง Wreath Arrow ออกไปเพื่อสร้างความเสียหายไม้ โดยหลังจากถูกเป้าหมาย จะสร้าง Clusterbloom Arrow ที่จะติดตามศัตรูที่อยู่ในบริเวณใกล้เคียงโดยอัตโนมัติขึ้นมา 4 ดอก และทำให้เกิดความเสียหายไม้โจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศและพุ่งลงมายังพื้นดิน เพื่อโจมตีอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
-			"info": "",
-			"attributes": [
-				{
-					"label": "ความเสียหายขั้น 1",
-					"values": [
-						"44.63%",
-						"48.27%",
-						"51.9%",
-						"57.09%",
-						"60.72%",
-						"64.88%",
-						"70.58%",
-						"76.29%",
-						"82%",
-						"88.23%",
-						"94.46%",
-						"100.69%",
-						"106.91%",
-						"113.14%",
-						"119.37%"
-					]
-				},
-				{
-					"label": "ความเสียหายขั้น 2",
-					"values": [
-						"41.97%",
-						"45.38%",
-						"48.8%",
-						"53.68%",
-						"57.1%",
-						"61%",
-						"66.37%",
-						"71.74%",
-						"77.1%",
-						"82.96%",
-						"88.82%",
-						"94.67%",
-						"100.53%",
-						"106.38%",
-						"112.24%"
-					]
-				},
-				{
-					"label": "ความเสียหายขั้น 3",
-					"values": [
-						"26.45%×2",
-						"28.6%×2",
-						"30.75%×2",
-						"33.83%×2",
-						"35.98%×2",
-						"38.44%×2",
-						"41.82%×2",
-						"45.2%×2",
-						"48.59%×2",
-						"52.28%×2",
-						"55.97%×2",
-						"59.65%×2",
-						"63.34%×2",
-						"67.04%×2",
-						"70.72%×2"
-					]
-				},
-				{
-					"label": "ความเสียหายขั้น 4",
-					"values": [
-						"68.63%",
-						"74.21%",
-						"79.8%",
-						"87.78%",
-						"93.37%",
-						"99.75%",
-						"108.53%",
-						"117.31%",
-						"126.08%",
-						"135.66%",
-						"145.24%",
-						"154.81%",
-						"164.39%",
-						"173.96%",
-						"183.54%"
-					]
-				},
-				{
-					"label": "เล็งโจมตี",
-					"values": [
-						"43.86%",
-						"47.43%",
-						"51%",
-						"56.1%",
-						"59.67%",
-						"63.75%",
-						"69.36%",
-						"74.97%",
-						"80.58%",
-						"86.7%",
-						"92.82%",
-						"98.94%",
-						"105.06%",
-						"111.18%",
-						"117.3%"
-					]
-				},
-				{
-					"label": "เล็งโจมตีและชาร์จระดับ 1",
-					"values": [
-						"124%",
-						"133.3%",
-						"142.6%",
-						"155%",
-						"164.3%",
-						"173.6%",
-						"186%",
-						"198.4%",
-						"210.8%",
-						"223.2%",
-						"235.6%",
-						"248%",
-						"263.5%",
-						"279%",
-						"294.5%"
-					]
-				},
-				{
-					"label": "ความเสียหาย Wreath Arrow",
-					"values": [
-						"87.2%",
-						"93.74%",
-						"100.28%",
-						"109%",
-						"115.54%",
-						"122.08%",
-						"130.8%",
-						"139.52%",
-						"148.24%",
-						"156.96%",
-						"165.68%",
-						"174.4%",
-						"185.3%",
-						"196.2%",
-						"207.1%"
-					]
-				},
-				{
-					"label": "ความเสียหาย Clusterbloom Arrow",
-					"values": [
-						"38.6%",
-						"41.5%",
-						"44.39%",
-						"48.25%",
-						"51.14%",
-						"54.04%",
-						"57.9%",
-						"61.76%",
-						"65.62%",
-						"69.48%",
-						"73.34%",
-						"77.2%",
-						"82.02%",
-						"86.85%",
-						"91.68%"
-					]
-				},
-				{
-					"label": "ความเสียหายพุ่งลง",
-					"values": [
-						"56.83%",
-						"61.45%",
-						"66.08%",
-						"72.69%",
-						"77.31%",
-						"82.6%",
-						"89.87%",
-						"97.14%",
-						"104.41%",
-						"112.34%",
-						"120.27%",
-						"128.2%",
-						"136.12%",
-						"144.05%",
-						"151.98%"
-					]
-				},
-				{
-					"label": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
-					"values": [
-						"113.63% / 141.93%",
-						"122.88% / 153.49%",
-						"132.13% / 165.04%",
-						"145.35% / 181.54%",
-						"154.59% / 193.1%",
-						"165.16% / 206.3%",
-						"179.7% / 224.45%",
-						"194.23% / 242.61%",
-						"208.77% / 260.76%",
-						"224.62% / 280.57%",
-						"240.48% / 300.37%",
-						"256.34% / 320.18%",
-						"272.19% / 339.98%",
-						"288.05% / 359.79%",
-						"303.9% / 379.59%"
-					]
-				}
-			]
-		},
-		{
-			"id": "VijnanaphalaMine",
-			"name": "Vijnana-Phala Mine",
-			"description": "Tighnari โยน Vijnana Stormheart ออกไปข้างหน้า โดยจะทำให้เกิดความเสียหายไม้วงกว้าง และสร้าง Vijnana-Khanda Field ขึ้นมา โดยภาพมายาจะหลอกล่อศัตรูที่อยู่ภายในพื้นที่อย่างต่อเนื่อง เพื่อดึงดูดการโจมตีนอกจากนี้ Tighnari จะได้รับเอฟเฟกต์ \"Vijnana Suffusion\" ซึ่งจะทำให้เวลาในการชาร์จ Wreath Arrow ของเขาลดลง 2.4 วินาที โดยที่เอฟเฟกต์นี้จะหายไป เมื่อสิ้นสุดช่วงเวลาต่อเนื่อง หรือเมื่อ Tighnari ยิง Wreath Arrow ออกไป 3 ดอก",
-			"info": "\"หากเมล็ดพันธุ์อยู่ภายนอกดินแล้วเหี่ยวเฉาและตายไป ในยามที่จากไป มันก็เป็นเพียงแค่เมล็ดพันธุ์เมล็ดเดียว แต่หากหวนคืนสู่ผืนดิน มันจะงอกเงยออกมาเป็นเมล็ดพันธุ์นับพัน\"",
-			"attributes": [
-				{
-					"label": "ความเสียหายสกิล",
-					"values": [
-						"149.6%",
-						"160.82%",
-						"172.04%",
-						"187%",
-						"198.22%",
-						"209.44%",
-						"224.4%",
-						"239.36%",
-						"254.32%",
-						"269.28%",
-						"284.24%",
-						"299.2%",
-						"317.9%",
-						"336.6%",
-						"355.3%"
-					]
-				},
-				{
-					"label": "ระยะเวลาของ Vijnana-Khanda Field",
-					"values": [
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ",
-						"8 วิ"
-					]
-				},
-				{
-					"label": "ระยะเวลาของ Vijnana Suffusion",
-					"values": [
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ"
-					]
-				},
-				{
-					"label": "คูลดาวน์",
-					"values": [
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ"
-					]
-				}
-			]
-		},
-		{
-			"id": "FashionersTanglevineShaft",
-			"name": "Fashioner's Tanglevine Shaft",
-			"description": "รวบรวมพลังจากเมล็ดพันธุ์ทั้งหมด แล้วยิง Tanglevine Shaft ที่สามารถติดตามศัตรูได้ออกไป 6 ดอก เพื่อสร้างความเสียหายไม้หลังจาก Tanglevine Shaft ถูกเป้าหมาย จะทำให้เกิด Tanglevine Shaft ระลอกสอง ที่จะติดตามศัตรูที่อยู่ในบริเวณใกล้เคียง และทำให้เกิดความเสียหายไม้เมื่อถูกเป้าหมาย",
-			"info": "\"อย่าคิดว่าจะกำจัดได้ง่าย ๆ เถาวัลย์จะงอกใหม่ซ้ำไปซ้ำมา ถ้าหากไม่สามารถขจัดได้อย่างสมบูรณ์ ผลที่ตามมาจะลำบากมากทีเดียว\"",
-			"attributes": [
-				{
-					"label": "ความเสียหาย Tanglevine Shaft",
-					"values": [
-						"55.62%",
-						"59.79%",
-						"63.96%",
-						"69.52%",
-						"73.7%",
-						"77.87%",
-						"83.43%",
-						"88.99%",
-						"94.55%",
-						"100.12%",
-						"105.68%",
-						"111.24%",
-						"118.19%",
-						"125.14%",
-						"132.1%"
-					]
-				},
-				{
-					"label": "ความเสียหาย Tanglevine Shaft ระลอกสอง",
-					"values": [
-						"67.98%",
-						"73.08%",
-						"78.18%",
-						"84.97%",
-						"90.07%",
-						"95.17%",
-						"101.97%",
-						"108.77%",
-						"115.57%",
-						"122.36%",
-						"129.16%",
-						"135.96%",
-						"144.46%",
-						"152.95%",
-						"161.45%"
-					]
-				},
-				{
-					"label": "คูลดาวน์",
-					"values": [
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ",
-						"12 วิ"
-					]
-				},
-				{
-					"label": "พลังงานธาตุ",
-					"values": ["40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40", "40"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "KeenSight",
-			"name": "Keen Sight",
-			"description": "หลังจากที่ Tighnari ยิง Wreath Arrow ความชำนาญธาตุจะเพิ่มขึ้น 50 หน่วย เป็นเวลา 4 วินาที",
-			"level": 1
-		},
-		{
-			"id": "ScholarlyBlade",
-			"name": "Scholarly Blade",
-			"description": "ความชำนาญธาตุแต่ละหน่วยของ Tighnari จะทำให้การชาร์จโจมตีและ Fashioner's Tanglevine Shaft ของเขาสร้างความเสียหายเพิ่มขึ้น 0.06%ด้วยวิธีนี้ จะทำให้ความเสียหายของการโจมตีข้างต้น เพิ่มขึ้นได้มากสุดถึง 60%",
-			"level": 4
-		},
-		{
-			"id": "EncyclopedicKnowledge",
-			"name": "Encyclopedic Knowledge",
-			"description": "แสดงตำแหน่งของของพิเศษเฉพาะใน Sumeru ในมินิแมป",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "BeginningsDeterminedAtTheRoots",
-			"name": "Beginnings Determined at the Roots",
-			"description": "อัตราคริของการชาร์จโจมตีของ Tighnari เพิ่มขึ้น 15%",
-			"level": 1
-		},
-		{
-			"id": "OriginsKnownFromTheStem",
-			"name": "Origins Known From the Stem",
-			"description": "เมื่อมีศัตรูอยู่ใน Vijnana-Khanda Field ของ Vijnana-Phala Mine Tighnari จะได้รับโบนัสความเสียหายไม้ 20%หลังจากที่ช่วงเวลาต่อเนื่องของ Vijnana-Khanda Field สิ้นสุดลง หรือไม่มีศัตรูอยู่ในพื้นที่แล้ว เอฟเฟกต์นี้จะคงอยู่ต่อไปได้นานสุดถึง 6 วินาที",
-			"level": 2
-		},
-		{
-			"id": "FortunesReadAmongstTheBranches",
-			"name": "Fortunes Read Amongst the Branches",
-			"description": "เพิ่มเลเวลสกิลของ Fashioner's Tanglevine Shaft ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
-			"level": 3
-		},
-		{
-			"id": "WitheringGlimpsedInTheLeaves",
-			"name": "Withering Glimpsed in the Leaves",
-			"description": "เมื่อใช้ Fashioner's Tanglevine Shaft ความชำนาญธาตุของตัวละครทั้งหมดในทีม ที่อยู่ในบริเวณใกล้เคียง จะเพิ่มขึ้น 60 หน่วย เป็นเวลา 8 วินาที และหาก Fashioner's Tanglevine Shaft ทำให้เกิดปฏิกิริยาติดไฟ, งอกเงย, ปลุกเร้า หรือแพร่ขยาย ความชำนาญธาตุจะเพิ่มอีก 60 หน่วย และรีเฟรชช่วงเวลาต่อเนื่องของสภาวะดังกล่าว",
-			"level": 4
-		},
-		{
-			"id": "ComprehensionAmidstTheFlowers",
-			"name": "Comprehension Amidst the Flowers",
-			"description": "เพิ่มเลเวลสกิลของ Vijnana-Phala Mine ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
-			"level": 5
-		},
-		{
-			"id": "KarmaAdjudgedFromTheLeadenFruit",
-			"name": "Karma Adjudged From the Leaden Fruit",
-			"description": "ช่วงเวลาที่ Wreath Arrow ต้องใช้ในการชาร์จลดลง 0.9 วินาที และหลังจากที่ถูกเป้าหมาย จะสามารถสร้าง Clusterbloom Arrow เพิ่มขึ้นมาอีก 1 ดอก ซึ่งจะสร้างความเสียหายเป็น 150% ของพลังโจมตีของ Tighnari",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": ["-", 1]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["-", "845"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["-", "21"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["-", "49"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [0, 1]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["2191", "2915"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["54", "72"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["127", "169"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [1, 2]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["4362", "4877"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["108", "120"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["253", "283"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["0.0%", "7.2%"]
-				}
-			],
-			"mat1": {
-				"id": "NagadusEmeraldSliver",
-				"name": "Nagadus Emerald Sliver",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "NilotpalaLotus",
-				"name": "Nilotpala Lotus",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "FungalSpores",
-				"name": "Fungal Spore",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [2, 3]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["5611", "6297"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["139", "155"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["326", "366"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["7.2%", "14.4%"]
-				}
-			],
-			"mat1": {
-				"id": "NagadusEmeraldFragment",
-				"name": "Nagadus Emerald Fragment",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "MajesticHookedBeak",
-				"name": "Majestic Hooked Beak",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NilotpalaLotus",
-				"name": "Nilotpala Lotus",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "FungalSpores",
-				"name": "Fungal Spore",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [3, 4]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["7038", "7553"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["174", "186"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["409", "439"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["14.4%", "14.4%"]
-				}
-			],
-			"mat1": {
-				"id": "NagadusEmeraldFragment",
-				"name": "Nagadus Emerald Fragment",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "MajesticHookedBeak",
-				"name": "Majestic Hooked Beak",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NilotpalaLotus",
-				"name": "Nilotpala Lotus",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "LuminescentPollen",
-				"name": "Luminescent Pollen",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [4, 5]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["8301", "8816"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["205", "218"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["482", "512"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["14.4%", "21.6%"]
-				}
-			],
-			"mat1": {
-				"id": "NagadusEmeraldChunk",
-				"name": "Nagadus Emerald Chunk",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "MajesticHookedBeak",
-				"name": "Majestic Hooked Beak",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NilotpalaLotus",
-				"name": "Nilotpala Lotus",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "LuminescentPollen",
-				"name": "Luminescent Pollen",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [5, 6]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["9573", "10087"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["236", "249"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["556", "586"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["21.6%", "28.8%"]
-				}
-			],
-			"mat1": {
-				"id": "NagadusEmeraldChunk",
-				"name": "Nagadus Emerald Chunk",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "MajesticHookedBeak",
-				"name": "Majestic Hooked Beak",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NilotpalaLotus",
-				"name": "Nilotpala Lotus",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "CrystallineCystDust",
-				"name": "Crystalline Cyst Dust",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "เลื่อนขั้น",
-					"values": [6, 7]
-				},
-				{
-					"label": "พลังชีวิตพื้นฐาน",
-					"values": ["10850", "10850"]
-				},
-				{
-					"label": "พลังโจมตีพื้นฐาน",
-					"values": ["268", "268"]
-				},
-				{
-					"label": "ป้องกันพื้นฐาน",
-					"values": ["630", "630"]
-				},
-				{
-					"label": "โบนัสความเสียหายไม้",
-					"values": ["28.8%", "28.8%"]
-				}
-			],
-			"mat1": {
-				"id": "NagadusEmeraldGemstone",
-				"name": "Nagadus Emerald Gemstone",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "MajesticHookedBeak",
-				"name": "Majestic Hooked Beak",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "NilotpalaLotus",
-				"name": "Nilotpala Lotus",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "CrystallineCystDust",
-				"name": "Crystalline Cyst Dust",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfAdmonition",
-					"name": "Teachings of Admonition",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FungalSpores",
-					"name": "Fungal Spore",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToAdmonition",
-					"name": "Guide to Admonition",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "LuminescentPollen",
-					"name": "Luminescent Pollen",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToAdmonition",
-					"name": "Guide to Admonition",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "LuminescentPollen",
-					"name": "Luminescent Pollen",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToAdmonition",
-					"name": "Guide to Admonition",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "LuminescentPollen",
-					"name": "Luminescent Pollen",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToAdmonition",
-					"name": "Guide to Admonition",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "LuminescentPollen",
-					"name": "Luminescent Pollen",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfAdmonition",
-					"name": "Philosophies of Admonition",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "CrystallineCystDust",
-					"name": "Crystalline Cyst Dust",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "TheMeaningOfAeons",
-					"name": "The Meaning of Aeons",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfAdmonition",
-					"name": "Philosophies of Admonition",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "CrystallineCystDust",
-					"name": "Crystalline Cyst Dust",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "TheMeaningOfAeons",
-					"name": "The Meaning of Aeons",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfAdmonition",
-					"name": "Philosophies of Admonition",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "CrystallineCystDust",
-					"name": "Crystalline Cyst Dust",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "TheMeaningOfAeons",
-					"name": "The Meaning of Aeons",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfAdmonition",
-					"name": "Philosophies of Admonition",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "CrystallineCystDust",
-					"name": "Crystalline Cyst Dust",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "TheMeaningOfAeons",
-					"name": "The Meaning of Aeons",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Crown of Insight",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Tighnari/Icon.webp",
-		"sideIcon": "Character/Tighnari/SideIcon.webp",
-		"gatchaCard": "Character/Tighnari/GachaCard.webp",
-		"gachaSplash": "Character/Tighnari/GachaSplash.webp",
-		"face": "Character/Tighnari/Face.webp",
-		"halfFace": "Character/Tighnari/HalfFace.webp",
-		"profile": "Character/Tighnari/Profile.webp",
-		"weaponStance": "Character/Tighnari/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "HuntersPath",
-	"specialDish": "ForestWatchersChoice",
-	"tcgCharacterCard": "Tighnari",
-	"outfits": [
-		{
-			"id": "WoodlandSong",
-			"name": "Orman Şarkısı",
-			"description": "Tighnari'nin giysisi. Ağaç ve çiçek renklerine bürünen Tighnari, her zaman doğal yaşamın içindedir. Hatta \"Orman Gözcüsü\"nün içine \"ormanı\" koyacak kadar doğallığı moda anlayışına yansıtmıştır.",
-			"picture": "Character/Tighnari/Outfit/WoodlandSong.webp"
-		}
-	]
+  "id": "Tighnari",
+  "name": "Tighnari",
+  "title": "Yeşil Yolgezer",
+  "description": "Botanik dalında bilgili, Avidya Ormanı'nda Orman Gözcüsü görevini yürüten genç bir araştırmacı. Sıcak kalpli, aklındakini doğrudan söyleyen ve en ruhsuz öğrencilere dahi rehberlik yapabilen yetenekli biridir.",
+  "weaponType": "Yay",
+  "element": "Doğa",
+  "gender": "Erkek",
+  "substat": "Doğa Hasarı Bonusu",
+  "affiliation": "Gandharva",
+  "region": "Sumeru",
+  "rarity": 5,
+  "birthday": "29/12",
+  "constellation": "Çöl Tilkisi",
+  "domain": "Cehalet Kulesi",
+  "cv": {
+    "english": "Zachary Gordon",
+    "chinese": "莫然",
+    "japanese": "小林沙苗",
+    "korean": "Jung Ui-taek"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackKhandaBarrierbuster",
+      "name": "โจมตีปกติ: Khanda Barrier-Buster",
+      "description": "โจมตีปกติยิงธนูโจมตีต่อเนื่องมากสุดถึง 4 ครั้งชาร์จโจมตีการเล็งโจมตีจะสร้างความเสียหายเพิ่มขึ้น และแม่นยำยิ่งขึ้นเมื่อเล็งโจมตี พลังจากต้นไม้ใบหญ้าจะถูกรวบรวมบนหัวของลูกศรและยิงออกไป โดยเอฟเฟกต์ที่เกิดจะแตกต่างกันไป ตามช่วงเวลาที่เล็งชาร์จดังนี้:·ชาร์จระดับ 1: ยิงธนูที่มีธาตุไม้ออกไป เพื่อสร้างความเสียหายไม้;·ชาร์จระดับ 2: ยิง Wreath Arrow ออกไปเพื่อสร้างความเสียหายไม้ โดยหลังจากถูกเป้าหมาย จะสร้าง Clusterbloom Arrow ที่จะติดตามศัตรูที่อยู่ในบริเวณใกล้เคียงโดยอัตโนมัติขึ้นมา 4 ดอก และทำให้เกิดความเสียหายไม้โจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศและพุ่งลงมายังพื้นดิน เพื่อโจมตีอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+      "info": "",
+      "attributes": [
+        {
+          "label": "ความเสียหายขั้น 1",
+          "values": [
+            "44.63%",
+            "48.27%",
+            "51.9%",
+            "57.09%",
+            "60.72%",
+            "64.88%",
+            "70.58%",
+            "76.29%",
+            "82%",
+            "88.23%",
+            "94.46%",
+            "100.69%",
+            "106.91%",
+            "113.14%",
+            "119.37%"
+          ]
+        },
+        {
+          "label": "ความเสียหายขั้น 2",
+          "values": [
+            "41.97%",
+            "45.38%",
+            "48.8%",
+            "53.68%",
+            "57.1%",
+            "61%",
+            "66.37%",
+            "71.74%",
+            "77.1%",
+            "82.96%",
+            "88.82%",
+            "94.67%",
+            "100.53%",
+            "106.38%",
+            "112.24%"
+          ]
+        },
+        {
+          "label": "ความเสียหายขั้น 3",
+          "values": [
+            "26.45%×2",
+            "28.6%×2",
+            "30.75%×2",
+            "33.83%×2",
+            "35.98%×2",
+            "38.44%×2",
+            "41.82%×2",
+            "45.2%×2",
+            "48.59%×2",
+            "52.28%×2",
+            "55.97%×2",
+            "59.65%×2",
+            "63.34%×2",
+            "67.04%×2",
+            "70.72%×2"
+          ]
+        },
+        {
+          "label": "ความเสียหายขั้น 4",
+          "values": [
+            "68.63%",
+            "74.21%",
+            "79.8%",
+            "87.78%",
+            "93.37%",
+            "99.75%",
+            "108.53%",
+            "117.31%",
+            "126.08%",
+            "135.66%",
+            "145.24%",
+            "154.81%",
+            "164.39%",
+            "173.96%",
+            "183.54%"
+          ]
+        },
+        {
+          "label": "เล็งโจมตี",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "เล็งโจมตีและชาร์จระดับ 1",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "ความเสียหาย Wreath Arrow",
+          "values": [
+            "87.2%",
+            "93.74%",
+            "100.28%",
+            "109%",
+            "115.54%",
+            "122.08%",
+            "130.8%",
+            "139.52%",
+            "148.24%",
+            "156.96%",
+            "165.68%",
+            "174.4%",
+            "185.3%",
+            "196.2%",
+            "207.1%"
+          ]
+        },
+        {
+          "label": "ความเสียหาย Clusterbloom Arrow",
+          "values": [
+            "38.6%",
+            "41.5%",
+            "44.39%",
+            "48.25%",
+            "51.14%",
+            "54.04%",
+            "57.9%",
+            "61.76%",
+            "65.62%",
+            "69.48%",
+            "73.34%",
+            "77.2%",
+            "82.02%",
+            "86.85%",
+            "91.68%"
+          ]
+        },
+        {
+          "label": "ความเสียหายพุ่งลง",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VijnanaphalaMine",
+      "name": "Vijnana-Phala Mine",
+      "description": "Tighnari โยน Vijnana Stormheart ออกไปข้างหน้า โดยจะทำให้เกิดความเสียหายไม้วงกว้าง และสร้าง Vijnana-Khanda Field ขึ้นมา โดยภาพมายาจะหลอกล่อศัตรูที่อยู่ภายในพื้นที่อย่างต่อเนื่อง เพื่อดึงดูดการโจมตีนอกจากนี้ Tighnari จะได้รับเอฟเฟกต์ \"Vijnana Suffusion\" ซึ่งจะทำให้เวลาในการชาร์จ Wreath Arrow ของเขาลดลง 2.4 วินาที โดยที่เอฟเฟกต์นี้จะหายไป เมื่อสิ้นสุดช่วงเวลาต่อเนื่อง หรือเมื่อ Tighnari ยิง Wreath Arrow ออกไป 3 ดอก",
+      "info": "\"หากเมล็ดพันธุ์อยู่ภายนอกดินแล้วเหี่ยวเฉาและตายไป ในยามที่จากไป มันก็เป็นเพียงแค่เมล็ดพันธุ์เมล็ดเดียว แต่หากหวนคืนสู่ผืนดิน มันจะงอกเงยออกมาเป็นเมล็ดพันธุ์นับพัน\"",
+      "attributes": [
+        {
+          "label": "ความเสียหายสกิล",
+          "values": [
+            "149.6%",
+            "160.82%",
+            "172.04%",
+            "187%",
+            "198.22%",
+            "209.44%",
+            "224.4%",
+            "239.36%",
+            "254.32%",
+            "269.28%",
+            "284.24%",
+            "299.2%",
+            "317.9%",
+            "336.6%",
+            "355.3%"
+          ]
+        },
+        {
+          "label": "ระยะเวลาของ Vijnana-Khanda Field",
+          "values": [
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ",
+            "8 วิ"
+          ]
+        },
+        {
+          "label": "ระยะเวลาของ Vijnana Suffusion",
+          "values": [
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ"
+          ]
+        },
+        {
+          "label": "คูลดาวน์",
+          "values": [
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FashionersTanglevineShaft",
+      "name": "Fashioner's Tanglevine Shaft",
+      "description": "รวบรวมพลังจากเมล็ดพันธุ์ทั้งหมด แล้วยิง Tanglevine Shaft ที่สามารถติดตามศัตรูได้ออกไป 6 ดอก เพื่อสร้างความเสียหายไม้หลังจาก Tanglevine Shaft ถูกเป้าหมาย จะทำให้เกิด Tanglevine Shaft ระลอกสอง ที่จะติดตามศัตรูที่อยู่ในบริเวณใกล้เคียง และทำให้เกิดความเสียหายไม้เมื่อถูกเป้าหมาย",
+      "info": "\"อย่าคิดว่าจะกำจัดได้ง่าย ๆ เถาวัลย์จะงอกใหม่ซ้ำไปซ้ำมา ถ้าหากไม่สามารถขจัดได้อย่างสมบูรณ์ ผลที่ตามมาจะลำบากมากทีเดียว\"",
+      "attributes": [
+        {
+          "label": "ความเสียหาย Tanglevine Shaft",
+          "values": [
+            "55.62%",
+            "59.79%",
+            "63.96%",
+            "69.52%",
+            "73.7%",
+            "77.87%",
+            "83.43%",
+            "88.99%",
+            "94.55%",
+            "100.12%",
+            "105.68%",
+            "111.24%",
+            "118.19%",
+            "125.14%",
+            "132.1%"
+          ]
+        },
+        {
+          "label": "ความเสียหาย Tanglevine Shaft ระลอกสอง",
+          "values": [
+            "67.98%",
+            "73.08%",
+            "78.18%",
+            "84.97%",
+            "90.07%",
+            "95.17%",
+            "101.97%",
+            "108.77%",
+            "115.57%",
+            "122.36%",
+            "129.16%",
+            "135.96%",
+            "144.46%",
+            "152.95%",
+            "161.45%"
+          ]
+        },
+        {
+          "label": "คูลดาวน์",
+          "values": [
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ",
+            "12 วิ"
+          ]
+        },
+        {
+          "label": "พลังงานธาตุ",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackKhandaBarrierbuster",
+      "name": "Normal Saldırı: Khanda Bariyer Kırıcı",
+      "description": "Normal Saldırı Arka arkaya en fazla 4 ok atar. Yüklü Saldırı Daha isabetli ve daha yüksek Hasar veren bir Hedefli Atış yapar. Nişan alırken okun ucunda Doğa gücü birikir. Gösterdiği etki, enerjinin ne kadar süre yük topladığına göre belirlenir: ·1. Seviye Yük: Bitkilerin gücünü taşıyan ve Doğa Hasarı veren bir ok atar. ·2. Seviye Yük: Doğa Hasarı veren bir Çelenk Oku atar. Çelenk Oku hedefini vurunca, otomatik olarak yakındaki düşmanların peşinden giden ve Doğa Hasarı veren 4 adet Çiçeklenen Ok oluşturur. Havadan Saldırı Havadayken yaylım ok atışı yapar ve dalışa geçerek yere vurur. Düşmana isabet ettiğinde Alan Hasarı verir.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1 Vuruş Hasarı",
+          "values": [
+            "44.63%",
+            "48.27%",
+            "51.9%",
+            "57.09%",
+            "60.72%",
+            "64.88%",
+            "70.58%",
+            "76.29%",
+            "82%",
+            "88.23%",
+            "94.46%",
+            "100.69%",
+            "106.91%",
+            "113.14%",
+            "119.37%"
+          ]
+        },
+        {
+          "label": "2 Vuruş Hasarı",
+          "values": [
+            "41.97%",
+            "45.38%",
+            "48.8%",
+            "53.68%",
+            "57.1%",
+            "61%",
+            "66.37%",
+            "71.74%",
+            "77.1%",
+            "82.96%",
+            "88.82%",
+            "94.67%",
+            "100.53%",
+            "106.38%",
+            "112.24%"
+          ]
+        },
+        {
+          "label": "3 Vuruş Hasarı",
+          "values": [
+            "26.45%x2",
+            "28.6%x2",
+            "30.75%x2",
+            "33.83%x2",
+            "35.98%x2",
+            "38.44%x2",
+            "41.82%x2",
+            "45.2%x2",
+            "48.59%x2",
+            "52.28%x2",
+            "55.96%x2",
+            "59.66%x2",
+            "63.34%x2",
+            "67.03%x2",
+            "70.73%x2"
+          ]
+        },
+        {
+          "label": "4 Vuruş Hasarı",
+          "values": [
+            "68.63%",
+            "74.21%",
+            "79.8%",
+            "87.78%",
+            "93.37%",
+            "99.75%",
+            "108.53%",
+            "117.31%",
+            "126.08%",
+            "135.66%",
+            "145.24%",
+            "154.81%",
+            "164.39%",
+            "173.96%",
+            "183.54%"
+          ]
+        },
+        {
+          "label": "Hedefli Atış",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "1. Seviye Hedefli Atış",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "Çelenk Oku Hasarı",
+          "values": [
+            "87.2%",
+            "93.74%",
+            "100.28%",
+            "109%",
+            "115.54%",
+            "122.08%",
+            "130.8%",
+            "139.52%",
+            "148.24%",
+            "156.96%",
+            "165.68%",
+            "174.4%",
+            "185.3%",
+            "196.2%",
+            "207.1%"
+          ]
+        },
+        {
+          "label": "Çiçeklenen Ok Hasarı",
+          "values": [
+            "38.6%",
+            "41.49%",
+            "44.39%",
+            "48.25%",
+            "51.14%",
+            "54.04%",
+            "57.9%",
+            "61.76%",
+            "65.62%",
+            "69.48%",
+            "73.34%",
+            "77.2%",
+            "82.03%",
+            "86.85%",
+            "91.67%"
+          ]
+        },
+        {
+          "label": "Havadan Saldırı Hasarı",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "Havadan Saldırı Hasarı (Alçaktan/Yüksekten)",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "VijnanaphalaMine",
+      "name": "Vijnana-Phala Mayını",
+      "description": "Tighnari, Doğa Alan Hasarı veren bir Vijnana Fırtınası gönderir ve içine giren düşmanların kafasını karıştırıp saldırılarını çeken gizemli bir Vijnana-Khanda Alanı oluşturur. Ayrıca Tighnari, Vijnana Yayılması etkisi elde eder ve bu etki Çelenk Okunun yüklenme süresini 2,4sn azaltır. Becerinin süresi sona erdiğinde veya Tighnari 3 Çelenk Oku attığında etki sona erer.",
+      "info": "\"Tohum, toprağa karışmazsa tek bir tohum olarak kalır. Ama toprağa geri dönerse milyonlarca kat çoğalır.\"",
+      "attributes": [
+        {
+          "label": "Beceri Hasarı",
+          "values": [
+            "149.6%",
+            "160.82%",
+            "172.04%",
+            "187%",
+            "198.22%",
+            "209.44%",
+            "224.4%",
+            "239.36%",
+            "254.32%",
+            "269.28%",
+            "284.24%",
+            "299.2%",
+            "317.9%",
+            "336.6%",
+            "355.3%"
+          ]
+        },
+        {
+          "label": "Vijnana-Khanda Alanı Süresi",
+          "values": [
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn",
+            "8sn"
+          ]
+        },
+        {
+          "label": "Vijnana Yayılması Süresi",
+          "values": [
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn"
+          ]
+        },
+        {
+          "label": "BS",
+          "values": [
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FashionersTanglevineShaft",
+      "name": "Serseri Sarmaşık Ok",
+      "description": "Tüm tohumların gücünü birleştirerek 6 Sarmaşık Ok atar. Oklar düşmanları takip ederek Doğa Hasarı verir. İsabet ettiğinde, ikinci bir Sarmaşık Ok dalgası başlar ve oklar yakındaki düşmanları tekrar takip ederek Doğa Hasarı verir.",
+      "info": "\"Kaçmak için acele etme. Sarmaşıklar bir şekilde büyümenin yolunu bulur. Eğer hepsini güzelce temizlemezsen işler zorlaşabilir.\"",
+      "attributes": [
+        {
+          "label": "Sarmaşık Ok Hasarı",
+          "values": [
+            "55.62%",
+            "59.79%",
+            "63.96%",
+            "69.53%",
+            "73.7%",
+            "77.87%",
+            "83.43%",
+            "88.99%",
+            "94.55%",
+            "100.12%",
+            "105.68%",
+            "111.24%",
+            "118.19%",
+            "125.14%",
+            "132.1%"
+          ]
+        },
+        {
+          "label": "İkincil Sarmaşık Ok Hasarı",
+          "values": [
+            "67.98%",
+            "73.08%",
+            "78.18%",
+            "84.97%",
+            "90.07%",
+            "95.17%",
+            "101.97%",
+            "108.77%",
+            "115.57%",
+            "122.36%",
+            "129.16%",
+            "135.96%",
+            "144.46%",
+            "152.95%",
+            "161.45%"
+          ]
+        },
+        {
+          "label": "BS",
+          "values": [
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn",
+            "12sn"
+          ]
+        },
+        {
+          "label": "Enerji Maliyeti",
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "KeenSight",
+      "name": "Keen Sight",
+      "description": "หลังจากที่ Tighnari ยิง Wreath Arrow ความชำนาญธาตุจะเพิ่มขึ้น 50 หน่วย เป็นเวลา 4 วินาที",
+      "level": 1
+    },
+    {
+      "id": "ScholarlyBlade",
+      "name": "Scholarly Blade",
+      "description": "ความชำนาญธาตุแต่ละหน่วยของ Tighnari จะทำให้การชาร์จโจมตีและ Fashioner's Tanglevine Shaft ของเขาสร้างความเสียหายเพิ่มขึ้น 0.06%ด้วยวิธีนี้ จะทำให้ความเสียหายของการโจมตีข้างต้น เพิ่มขึ้นได้มากสุดถึง 60%",
+      "level": 4
+    },
+    {
+      "id": "EncyclopedicKnowledge",
+      "name": "Encyclopedic Knowledge",
+      "description": "แสดงตำแหน่งของของพิเศษเฉพาะใน Sumeru ในมินิแมป",
+      "level": 0
+    },
+    {
+      "id": "KeenSight",
+      "name": "Keskin Görüş",
+      "description": "Tighnari Çelenk Oku attıktan sonra 4sn boyunca Element Ustalığı 50 artar.",
+      "level": 1
+    },
+    {
+      "id": "ScholarlyBlade",
+      "name": "Alim Kılıcı",
+      "description": "Tighnari'nin sahip olduğu her bir Element Ustalığı puanı için, Yüklü Saldırısı ve Serseri Sarmaşık Ok Hasarı %0,06 artar. Bu şekilde elde edilebilecek maksimum Hasar Bonusu %60'tır.",
+      "level": 4
+    },
+    {
+      "id": "EncyclopedicKnowledge",
+      "name": "Ansiklopedik Bilgi",
+      "description": "Yakınlardaki Sumeru'ya özgü kaynakların yerini mini haritada gösterir.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "BeginningsDeterminedAtTheRoots",
+      "name": "Beginnings Determined at the Roots",
+      "description": "อัตราคริของการชาร์จโจมตีของ Tighnari เพิ่มขึ้น 15%",
+      "level": 1
+    },
+    {
+      "id": "OriginsKnownFromTheStem",
+      "name": "Origins Known From the Stem",
+      "description": "เมื่อมีศัตรูอยู่ใน Vijnana-Khanda Field ของ Vijnana-Phala Mine Tighnari จะได้รับโบนัสความเสียหายไม้ 20%หลังจากที่ช่วงเวลาต่อเนื่องของ Vijnana-Khanda Field สิ้นสุดลง หรือไม่มีศัตรูอยู่ในพื้นที่แล้ว เอฟเฟกต์นี้จะคงอยู่ต่อไปได้นานสุดถึง 6 วินาที",
+      "level": 2
+    },
+    {
+      "id": "FortunesReadAmongstTheBranches",
+      "name": "Fortunes Read Amongst the Branches",
+      "description": "เพิ่มเลเวลสกิลของ Fashioner's Tanglevine Shaft ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+      "level": 3
+    },
+    {
+      "id": "WitheringGlimpsedInTheLeaves",
+      "name": "Withering Glimpsed in the Leaves",
+      "description": "เมื่อใช้ Fashioner's Tanglevine Shaft ความชำนาญธาตุของตัวละครทั้งหมดในทีม ที่อยู่ในบริเวณใกล้เคียง จะเพิ่มขึ้น 60 หน่วย เป็นเวลา 8 วินาที และหาก Fashioner's Tanglevine Shaft ทำให้เกิดปฏิกิริยาติดไฟ, งอกเงย, ปลุกเร้า หรือแพร่ขยาย ความชำนาญธาตุจะเพิ่มอีก 60 หน่วย และรีเฟรชช่วงเวลาต่อเนื่องของสภาวะดังกล่าว",
+      "level": 4
+    },
+    {
+      "id": "ComprehensionAmidstTheFlowers",
+      "name": "Comprehension Amidst the Flowers",
+      "description": "เพิ่มเลเวลสกิลของ Vijnana-Phala Mine ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+      "level": 5
+    },
+    {
+      "id": "KarmaAdjudgedFromTheLeadenFruit",
+      "name": "Karma Adjudged From the Leaden Fruit",
+      "description": "ช่วงเวลาที่ Wreath Arrow ต้องใช้ในการชาร์จลดลง 0.9 วินาที และหลังจากที่ถูกเป้าหมาย จะสามารถสร้าง Clusterbloom Arrow เพิ่มขึ้นมาอีก 1 ดอก ซึ่งจะสร้างความเสียหายเป็น 150% ของพลังโจมตีของ Tighnari",
+      "level": 6
+    },
+    {
+      "id": "BeginningsDeterminedAtTheRoots",
+      "name": "Köklerde Belirlenen Başlangıçlar",
+      "description": "Tighnari'nin Yüklü Saldırı Kritik Oranı %15 artar.",
+      "level": 1
+    },
+    {
+      "id": "OriginsKnownFromTheStem",
+      "name": "Baştan Bilinen Kökenler",
+      "description": "Vijnana-Phala Mayını tarafından oluşturulan Vijnana-Khanda Alanında düşmanlar olduğunda, Tighnari %20 Doğa Hasarı Bonusu kazanır. Alanın süresi sona ererse veya artık içinde düşman yoksa etki 6 saniyeye kadar devam eder.",
+      "level": 2
+    },
+    {
+      "id": "FortunesReadAmongstTheBranches",
+      "name": "Dallar Arasında Bakılan Fallar",
+      "description": "Serseri Sarmaşık Ok Seviyesini 3 artırır. Maksimum yükseltme seviyesi 15'tir.",
+      "level": 3
+    },
+    {
+      "id": "WitheringGlimpsedInTheLeaves",
+      "name": "Yapraklardaki Solgunluk",
+      "description": "Serseri Sarmaşık Ok kullanıldığında, 8 saniyeliğine yakındaki tüm grup üyeleri 60 Element Ustalığı kazanır. Serseri Sarmaşık Ok bir Yanma, Çiçeklenme, Hızlanma veya Yayılma tepkimesi tetiklerse grup üyelerinin Element Ustalığı 60 daha artar. Bu ayrıca güçlendirme durumunun süresini de yeniler.",
+      "level": 4
+    },
+    {
+      "id": "ComprehensionAmidstTheFlowers",
+      "name": "Çiçeklerdeki Anlayış",
+      "description": "Vijnana-Phala Mayını Seviyesini 3 artırır. Maksimum yükseltme seviyesi 15'tir.",
+      "level": 5
+    },
+    {
+      "id": "KarmaAdjudgedFromTheLeadenFruit",
+      "name": "Olgunlaşan Meyvenin Karması",
+      "description": "Çelenk Okunun yüklenme süresi 0,9 saniye azalır ve isabet ettiğinde ekstra 1 Çiçeklenen Ok üretir. Bu ok, Tighnari'nin Saldırısının %150'si kadar Hasar verir.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "-",
+            "845"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "2191",
+            "2915"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "54",
+            "72"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "127",
+            "169"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "4362",
+            "4877"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "108",
+            "120"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "253",
+            "283"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldSliver",
+        "name": "Nagadus Emerald Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Lotus",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FungalSpores",
+        "name": "Fungal Spore",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "5611",
+            "6297"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "139",
+            "155"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "326",
+            "366"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldFragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Majestic Hooked Beak",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Lotus",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FungalSpores",
+        "name": "Fungal Spore",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "7038",
+            "7553"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "174",
+            "186"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "409",
+            "439"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldFragment",
+        "name": "Nagadus Emerald Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Majestic Hooked Beak",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Lotus",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LuminescentPollen",
+        "name": "Luminescent Pollen",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "8301",
+            "8816"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "205",
+            "218"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "482",
+            "512"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldChunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Majestic Hooked Beak",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Lotus",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LuminescentPollen",
+        "name": "Luminescent Pollen",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "9573",
+            "10087"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "236",
+            "249"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "556",
+            "586"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldChunk",
+        "name": "Nagadus Emerald Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Majestic Hooked Beak",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Lotus",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "CrystallineCystDust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": [
+            "10850",
+            "10850"
+          ]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": [
+            "268",
+            "268"
+          ]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": [
+            "630",
+            "630"
+          ]
+        },
+        {
+          "label": "โบนัสความเสียหายไม้",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldGemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Majestic Hooked Beak",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Lotus",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "CrystallineCystDust",
+        "name": "Crystalline Cyst Dust",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "-",
+            "845"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "-",
+            "21"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "-",
+            "49"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "2191",
+            "2915"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "54",
+            "72"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "127",
+            "169"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "4362",
+            "4877"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "108",
+            "120"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "253",
+            "283"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "0.0%",
+            "7.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldSliver",
+        "name": "Nagadus Zümrüdü Tozu",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Nilüferi",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FungalSpores",
+        "name": "Mantar Sporları",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "5611",
+            "6297"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "139",
+            "155"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "326",
+            "366"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "7.2%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldFragment",
+        "name": "Nagadus Zümrüdü Kırıntısı",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Görkemli Çengel Gaga",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Nilüferi",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FungalSpores",
+        "name": "Mantar Sporları",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "7038",
+            "7553"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "174",
+            "186"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "409",
+            "439"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "14.4%",
+            "14.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldFragment",
+        "name": "Nagadus Zümrüdü Kırıntısı",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Görkemli Çengel Gaga",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Nilüferi",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LuminescentPollen",
+        "name": "Parlak Polen",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "8301",
+            "8816"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "205",
+            "218"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "482",
+            "512"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "14.4%",
+            "21.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldChunk",
+        "name": "Nagadus Zümrüdü Parçası",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Görkemli Çengel Gaga",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Nilüferi",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LuminescentPollen",
+        "name": "Parlak Polen",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "9573",
+            "10087"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "236",
+            "249"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "556",
+            "586"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "21.6%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldChunk",
+        "name": "Nagadus Zümrüdü Parçası",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Görkemli Çengel Gaga",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Nilüferi",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "CrystallineCystDust",
+        "name": "Kristal Toz Kutusu",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Yükselt",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Temel Can",
+          "values": [
+            "10850",
+            "10850"
+          ]
+        },
+        {
+          "label": "Temel Saldırı",
+          "values": [
+            "268",
+            "268"
+          ]
+        },
+        {
+          "label": "Temel Savunma",
+          "values": [
+            "630",
+            "630"
+          ]
+        },
+        {
+          "label": "Doğa Hasarı Bonusu",
+          "values": [
+            "28.8%",
+            "28.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "NagadusEmeraldGemstone",
+        "name": "Nagadus Zümrüdü Külçesi",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "MajesticHookedBeak",
+        "name": "Görkemli Çengel Gaga",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "NilotpalaLotus",
+        "name": "Nilotpala Nilüferi",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "CrystallineCystDust",
+        "name": "Kristal Toz Kutusu",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfAdmonition",
+          "name": "Nasihat Öğretisi",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FungalSpores",
+          "name": "Mantar Sporları",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToAdmonition",
+          "name": "Nasihat Rehberi",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Parlak Polen",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToAdmonition",
+          "name": "Nasihat Rehberi",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Parlak Polen",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToAdmonition",
+          "name": "Nasihat Rehberi",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Parlak Polen",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToAdmonition",
+          "name": "Nasihat Rehberi",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Parlak Polen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfAdmonition",
+          "name": "Nasihat Felsefesi",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Kristal Toz Kutusu",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "TheMeaningOfAeons",
+          "name": "Çağların Anlamı",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfAdmonition",
+          "name": "Nasihat Felsefesi",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Kristal Toz Kutusu",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TheMeaningOfAeons",
+          "name": "Çağların Anlamı",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfAdmonition",
+          "name": "Nasihat Felsefesi",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Kristal Toz Kutusu",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "TheMeaningOfAeons",
+          "name": "Çağların Anlamı",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfAdmonition",
+          "name": "Nasihat Felsefesi",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Kristal Toz Kutusu",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "TheMeaningOfAeons",
+          "name": "Çağların Anlamı",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Bilgelik Tacı",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Tighnari/Icon.webp",
+    "sideIcon": "Character/Tighnari/SideIcon.webp",
+    "gatchaCard": "Character/Tighnari/GachaCard.webp",
+    "gachaSplash": "Character/Tighnari/GachaSplash.webp",
+    "face": "Character/Tighnari/Face.webp",
+    "halfFace": "Character/Tighnari/HalfFace.webp",
+    "profile": "Character/Tighnari/Profile.webp",
+    "weaponStance": "Character/Tighnari/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "HuntersPath",
+  "specialDish": "ForestWatchersChoice",
+  "tcgCharacterCard": "Tighnari",
+  "outfits": [
+    {
+      "id": "WoodlandSong",
+      "name": "Orman Şarkısı",
+      "description": "Tighnari'nin giysisi. Ağaç ve çiçek renklerine bürünen Tighnari, her zaman doğal yaşamın içindedir. Hatta \"Orman Gözcüsü\"nün içine \"ormanı\" koyacak kadar doğallığı moda anlayışına yansıtmıştır.",
+      "picture": "Character/Tighnari/Outfit/WoodlandSong.webp"
+    }
+  ],
+  "release": 1661288400,
+  "version": "4.6"
 }

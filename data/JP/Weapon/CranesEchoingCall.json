@@ -1,309 +1,568 @@
 {
-	"id": "CranesEchoingCall",
-	"name": "\u9db4\u9cf4\u306e\u4f59\u97fb",
-	"description": "\u7d14\u7c8b\u306a\u7fe1\u7fe0\u3067\u4f5c\u3089\u308c\u305f\u6247\u5b50\u3002\u53e4\u306e\u4ed9\u529b\u306e\u6c17\u914d\u3092\u611f\u3058\u308b\u3002",
-	"rarity": 5,
-	"type": "\u6cd5\u5668",
-	"domain": "\u9707\u96f7\u9023\u5c71\u5bc6\u5bae",
-	"passive": "\u96f2\u7b08\u964d\u4ed9\u306e\u5965\u7fa9",
-	"bonus": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+28%/41%/54%/67%/80%\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c2.5/2.75/3/3.25/3.5\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u6483\u529b",
-		"secondary": "\u653b\u6483\u529b%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 49,
-				"secondary": 3.6
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 145,
-				"secondary": 6.4
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 176,
-				"secondary": 6.4
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 286,
-				"secondary": 9.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 317,
-				"secondary": 9.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 374,
-				"secondary": 10.7
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 406,
-				"secondary": 10.7
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 464,
-				"secondary": 12.2
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 495,
-				"secondary": 12.2
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 555,
-				"secondary": 13.6
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 586,
-				"secondary": 13.6
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 648,
-				"secondary": 15.1
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 679,
-				"secondary": 15.1
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 741,
-				"secondary": 16.5
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "MistVeiledLeadElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u306e\u925b\u4e39",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "FeatheryFin",
-					"name": "\u7ffc\u72b6\u306e\u7fbd\u9c2d",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "\u5360\u3044\u306e\u7d75\u5dfb",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u306e\u6c34\u9280",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "FeatheryFin",
-					"name": "\u7ffc\u72b6\u306e\u7fbd\u9c2d",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "\u5360\u3044\u306e\u7d75\u5dfb",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u306e\u6c34\u9280",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "LunarFin",
-					"name": "\u6708\u5149\u306e\u7fbd\u9c2d",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "\u5c01\u9b54\u306e\u7d75\u5dfb",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u306e\u91d1\u4e39",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "LunarFin",
-					"name": "\u6708\u5149\u306e\u7fbd\u9c2d",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "\u5c01\u9b54\u306e\u7d75\u5dfb",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u306e\u91d1\u4e39",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "ChasmlightFin",
-					"name": "\u6df5\u5149\u306e\u7fbd\u9c2d",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "\u7981\u546a\u306e\u7d75\u5dfb",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "MistVeiledPrimoElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u306e\u8ee2\u9084",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "ChasmlightFin",
-					"name": "\u6df5\u5149\u306e\u7fbd\u9c2d",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "\u7981\u546a\u306e\u7d75\u5dfb",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinementRaw": {
-		"name": "\u96f2\u7b08\u964d\u4ed9\u306e\u5965\u7fa9",
-		"template": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+<span style=\"color:#99FFFFFF\">{0}\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c<span style=\"color:#99FFFFFF\">{1}\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002",
-		"params": [
-			{
-				"0": "28%",
-				"1": "2.5"
-			},
-			{
-				"0": "41%",
-				"1": "2.75"
-			},
-			{
-				"0": "54%",
-				"1": "3"
-			},
-			{
-				"0": "67%",
-				"1": "3.25"
-			},
-			{
-				"0": "80%",
-				"1": "3.5"
-			}
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+28%\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c2.5\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+41%\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c2.75\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+54%\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c3\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+67%\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c3.25\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u88c5\u5099\u8005\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u30c0\u30e1\u30fc\u30b8+80%\u3001\u7d99\u7d9a\u6642\u959320\u79d2\u3002\u5468\u56f2\u306e\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u843d\u4e0b\u653b\u6483\u304c\u6575\u306b\u547d\u4e2d\u3057\u305f\u6642\u3001\u88c5\u5099\u8005\u306e\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u304c3.5\u30dd\u30a4\u30f3\u30c8\u56de\u5fa9\u3059\u308b\u3002\u3053\u306e\u65b9\u6cd5\u306b\u3088\u308b\u5143\u7d20\u30a8\u30cd\u30eb\u30ae\u30fc\u306e\u56de\u5fa9\u306f\u30010.7\u79d2\u6bce\u306b1\u56de\u306e\u307f\u53ef\u80fd\u3067\u3001\u88c5\u5099\u3057\u305f\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3082\u767a\u52d5\u3067\u304d\u308b\u3002"
-		}
-	],
-	"version": "4.4",
-	"pictures": {
-		"icon": "Weapon/CranesEchoingCall/Icon.webp"
-	}
+  "id": "CranesEchoingCall",
+  "name": "鶴鳴の余韻",
+  "description": "純粋な翡翠で作られた扇子。古の仙力の気配を感じる。",
+  "rarity": 5,
+  "type": "法器",
+  "domain": "震雷連山密宮",
+  "passive": "雲笈降仙の奥義",
+  "bonus": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+28%/41%/54%/67%/80%、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが2.5/2.75/3/3.25/3.5ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "攻撃力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 3.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 16.5
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 3.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 16.5
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "霧海雲間の鉛丹",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "翼状の羽鰭",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間の水銀",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "翼状の羽鰭",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間の水銀",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LunarFin",
+          "name": "月光の羽鰭",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間の金丹",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "LunarFin",
+          "name": "月光の羽鰭",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間の金丹",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "淵光の羽鰭",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "霧海雲間の転還",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "淵光の羽鰭",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "霧海雲間の鉛丹",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "翼状の羽鰭",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間の水銀",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "翼状の羽鰭",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間の水銀",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LunarFin",
+          "name": "月光の羽鰭",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間の金丹",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "LunarFin",
+          "name": "月光の羽鰭",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間の金丹",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "淵光の羽鰭",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "霧海雲間の転還",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "淵光の羽鰭",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinementRaw": {
+    "name": "雲笈降仙の奥義",
+    "template": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+<span style=\"color:#99FFFFFF\">{0}</span>、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが<span style=\"color:#99FFFFFF\">{1}</span>ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。",
+    "params": [
+      [
+        "28%",
+        "2.5"
+      ],
+      [
+        "41%",
+        "2.75"
+      ],
+      [
+        "54%",
+        "3"
+      ],
+      [
+        "67%",
+        "3.25"
+      ],
+      [
+        "80%",
+        "3.5"
+      ]
+    ]
+  },
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+28%、継続時間20秒。周囲のチーム全員の落下攻撃が敵に命中した時、装備者の元素エネルギーが2.5ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 2,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+41%、継続時間20秒。周囲のチーム全員の落下攻撃が敵に命中した時、装備者の元素エネルギーが2.75ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 3,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+54%、継続時間20秒。周囲のチーム全員の落下攻撃が敵に命中した時、装備者の元素エネルギーが3ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 4,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+67%、継続時間20秒。周囲のチーム全員の落下攻撃が敵に命中した時、装備者の元素エネルギーが3.25ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 5,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+80%、継続時間20秒。周囲のチーム全員の落下攻撃が敵に命中した時、装備者の元素エネルギーが3.5ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 1,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+28%、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが2.5ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 2,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+41%、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが2.75ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 3,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+54%、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが3ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 4,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+67%、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが3.25ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    },
+    {
+      "refinement": 5,
+      "desc": "装備者の落下攻撃が敵に命中すると、周囲のチーム全員の落下攻撃ダメージ+80%、継続時間20秒。付近にいるチーム内キャラクターの落下攻撃が敵に命中した時、装備者の元素エネルギーが3.5ポイント回復する。この方法による元素エネルギーの回復は、0.7秒毎に1回のみ可能で、装備したキャラクターが待機している場合にも発動できる。"
+    }
+  ],
+  "version": "4.4",
+  "pictures": {
+    "icon": "Weapon/CranesEchoingCall/Icon.webp"
+  }
 }

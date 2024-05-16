@@ -1,82 +1,169 @@
 {
-	"id": "KairagiFieryMight",
-	"shareid": 3303,
-	"name": "Kairagi: Força Poderosa",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Outras Armas",
-		"faction": ["Kairagi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "Corte Triplo",
-			"desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "Corte de Salto",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Corte Iaido",
-			"desc": "Este personagem <span style=\"color:#FFFFFFFF\">Preparar Habilidade: <span style=\"color:#FFFFFFFF\">Iaido: Vento Ardente.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanPyro",
-			"name": "Amuleto de Kamuna - Chamas",
-			"desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Amuleto de Kamuna - Chamas.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "Ataque Desesperado",
-			"desc": "Quando outros personagens Kairagi seus forem derrotados, este personagem será afetado por <span style=\"color:#FFFFFFFF\">Ataque Desesperado.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiFieryMight",
+  "shareid": 3303,
+  "name": "Kairagi: Força Poderosa",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Kairagi",
+      "Kairagi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "Corte Triplo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Corte de Salto",
+      "desc": "Causa 3 pontos de Dano Físico.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Corte Iaido",
+      "desc": "Este personagem Preparar Habilidade: Iaido: Vento Ardente.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanPyro",
+      "name": "Amuleto de Kamuna - Chamas",
+      "desc": "(Passivo) No começo do combate, é afetado por Amuleto de Kamuna - Chamas.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Ataque Desesperado",
+      "desc": "Quando outros personagens Kairagi seus forem derrotados, este personagem será afetado por Ataque Desesperado.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "Corte Triplo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Corte de Salto",
+      "desc": "Causa 3 pontos de Dano Físico.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Corte Iaido",
+      "desc": "Inicia Preparar Habilidade: Iaido: Vento Ardente.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanPyro",
+      "name": "Amuleto de Kamuna - Chamas",
+      "desc": "(Passivo) No começo do combate, é afetado por Amuleto de Kamuna - Chamas.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Ataque Desesperado",
+      "desc": "Quando outros personagens Kairagi seus forem derrotados, este personagem será afetado por Ataque Desesperado.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3303
 }

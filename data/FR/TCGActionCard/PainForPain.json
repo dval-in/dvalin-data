@@ -1,29 +1,42 @@
 {
-	"id": "PainForPain",
-	"shareid": 294,
-	"name": "Talion de la douleur",
-	"title": "Signora : Talion de la douleur",
-	"desc": "« Vous aussi allez connaître cette douleur... »",
-	"inPlayDescription": "Lorsque le personnage subit au moins 3 pts de DGT : Diminue les DGT de 1 et applique le <span style=\"color:#FFFFFFFF\">Grand froid ou la <span style=\"color:#FFFFFFFF\">Chaleur extrême au personnage actif adverse selon la forme de Signora. (1 fois par manche)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Élément identique",
-		"cardType": "Carte d'équipement",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Élément identique",
-				"count": 3
-			}
-		],
-		"source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et terminé les objectifs de défi lors d'une partie amicale contre Signora",
-		"tags": ["Aptitude"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "Jouable si votre personnage actif est <span style=\"color:#FFFFFFFF\">Signora : En arrivant sur le terrain, crée 3 dés de l'élément actuel de <span style=\"color:#FFFFFFFF\">Signora.Lorsque le personnage subit au moins 3 pts de DGT : Diminue les DGT de 1 et applique le <span style=\"color:#FFFFFFFF\">Grand froid ou la <span style=\"color:#FFFFFFFF\">Chaleur extrême au personnage actif adverse selon la forme de Signora. (1 fois par manche)(Votre deck doit contenir Signora pour pouvoir y ajouter cette carte)"
-		}
-	],
-	"version": "4.4"
+  "id": "PainForPain",
+  "shareid": 294,
+  "name": "Talion de la douleur",
+  "title": "Signora : Talion de la douleur",
+  "desc": "« Vous aussi allez connaître cette douleur... »",
+  "inPlayDescription": "Lorsque le personnage subit au moins 3 pts de DGT : Diminue les DGT de 1 et applique le <span style=\"color:#FFFFFFFF\">Grand froid</span> ou la <span style=\"color:#FFFFFFFF\">Chaleur extrême</span> au personnage actif adverse selon la forme de Signora. (1 fois par manche)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Élément identique",
+    "cardType": "Carte d'équipement",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      }
+    ],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et terminé les objectifs de défi lors d'une partie amicale contre Signora",
+    "tags": [
+      "Aptitude",
+      "Aptitude"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Jouable si votre personnage actif est Signora : En arrivant sur le terrain, crée 3 dés de l'élément actuel de Signora.Lorsque le personnage subit au moins 3 pts de DGT : Diminue les DGT de 1 et applique le Grand froid ou la Chaleur extrême au personnage actif adverse selon la forme de Signora. (1 fois par manche)(Votre deck doit contenir Signora pour pouvoir y ajouter cette carte)"
+    },
+    {
+      "name": "",
+      "desc": "Jouable si votre personnage actif est Signora : En arrivant sur le terrain, crée 3 dés de l'élément actuel de Signora. Lorsque le personnage subit au moins 3 pts de DGT : Diminue les DGT de 1 et applique le Grand froid ou la Chaleur extrême au personnage actif adverse selon la forme de Signora. (1 fois par manche) (Votre deck doit contenir Signora pour pouvoir y ajouter cette carte)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 294
 }

@@ -1,1013 +1,2085 @@
 {
-	"id": "Gorou",
-	"name": "Gorou",
-	"title": "Guerriero canino",
-	"description": "Il grande generale dell'esercito dell'Isola di Watatsumi. I suoi subordinati nutrono piena fiducia in lui.",
-	"weaponType": "Arco",
-	"element": "Geo",
-	"gender": "Maschio",
-	"substat": "Bonus DAN da Geo",
-	"affiliation": "Isola di Watatsumi",
-	"region": "Inazuma",
-	"rarity": 4,
-	"birthday": "18/5",
-	"constellation": "Canis Bellatoris",
-	"domain": "Giardino dei pensieri",
-	"cv": {
-		"english": "Cory Yee",
-		"chinese": "杨昕燃",
-		"japanese": "畠中祐",
-		"korean": "Lee Sae-byeok"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackRippingFangFletching",
-			"name": "Attacco normale: Freccia lacerante",
-			"description": "Attacco normaleEffettua fino a 4 tiri consecutivi con un arco.Attacco caricatoEffettua un attacco mirato ancora più preciso con DAN aumentati.Mentre mira, sulla punta della freccia si accumuleranno cristalli di pietra. Una freccia cristallina caricata al massimo infligge DAN da Geo.Attacco in picchiataScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "DAN da 1º colpo",
-					"values": [
-						"37.75%",
-						"40.83%",
-						"43.9%",
-						"48.29%",
-						"51.36%",
-						"54.87%",
-						"59.7%",
-						"64.53%",
-						"69.36%",
-						"74.63%",
-						"79.9%",
-						"85.17%",
-						"90.43%",
-						"95.7%",
-						"100.97%"
-					]
-				},
-				{
-					"label": "DAN da 2º colpo",
-					"values": [
-						"37.15%",
-						"40.18%",
-						"43.2%",
-						"47.52%",
-						"50.54%",
-						"54%",
-						"58.75%",
-						"63.5%",
-						"68.26%",
-						"73.44%",
-						"78.62%",
-						"83.81%",
-						"88.99%",
-						"94.18%",
-						"99.36%"
-					]
-				},
-				{
-					"label": "DAN da 3º colpo",
-					"values": [
-						"49.45%",
-						"53.47%",
-						"57.5%",
-						"63.25%",
-						"67.27%",
-						"71.88%",
-						"78.2%",
-						"84.53%",
-						"90.85%",
-						"97.75%",
-						"104.65%",
-						"111.55%",
-						"118.45%",
-						"125.35%",
-						"132.25%"
-					]
-				},
-				{
-					"label": "DAN da 4º colpo",
-					"values": [
-						"59%",
-						"63.8%",
-						"68.6%",
-						"75.46%",
-						"80.26%",
-						"85.75%",
-						"93.3%",
-						"100.84%",
-						"108.39%",
-						"116.62%",
-						"124.85%",
-						"133.08%",
-						"141.32%",
-						"149.55%",
-						"157.78%"
-					]
-				},
-				{
-					"label": "ATT mirato",
-					"values": [
-						"43.86%",
-						"47.43%",
-						"51%",
-						"56.1%",
-						"59.67%",
-						"63.75%",
-						"69.36%",
-						"74.97%",
-						"80.58%",
-						"86.7%",
-						"92.82%",
-						"98.94%",
-						"105.06%",
-						"111.18%",
-						"117.3%"
-					]
-				},
-				{
-					"label": "ATT mirato a piena carica",
-					"values": [
-						"124%",
-						"133.3%",
-						"142.6%",
-						"155%",
-						"164.3%",
-						"173.6%",
-						"186%",
-						"198.4%",
-						"210.8%",
-						"223.2%",
-						"235.6%",
-						"248%",
-						"263.5%",
-						"279%",
-						"294.5%"
-					]
-				},
-				{
-					"label": "DAN da ATT in picchiata",
-					"values": [
-						"56.83%",
-						"61.45%",
-						"66.08%",
-						"72.69%",
-						"77.31%",
-						"82.6%",
-						"89.87%",
-						"97.14%",
-						"104.41%",
-						"112.34%",
-						"120.27%",
-						"128.2%",
-						"136.12%",
-						"144.05%",
-						"151.98%"
-					]
-				},
-				{
-					"label": "DAN da ATT in picchiata basso/alto",
-					"values": [
-						"113.63% / 141.93%",
-						"122.88% / 153.49%",
-						"132.13% / 165.04%",
-						"145.35% / 181.54%",
-						"154.59% / 193.1%",
-						"165.16% / 206.3%",
-						"179.7% / 224.45%",
-						"194.23% / 242.61%",
-						"208.77% / 260.76%",
-						"224.62% / 280.57%",
-						"240.48% / 300.37%",
-						"256.34% / 320.18%",
-						"272.19% / 339.98%",
-						"288.05% / 359.79%",
-						"303.9% / 379.59%"
-					]
-				}
-			]
-		},
-		{
-			"id": "InuzakaAllroundDefense",
-			"name": "Difesa a tutto tondo Inuzaka",
-			"description": "Infligge DAN da Geo ad area e issa uno Stendardo bellico del generale.Stendardo bellico del generaleConferisce fino a 3 effetti positivi ai personaggi attivi nell'area d'effetto dell'abilità, in base al numero di personaggi di Geo presenti nel gruppo al momento del lancio.· 1 personaggio di Geo: aggiunge Irremovibilità (bonus DIF).· 2 personaggi di Geo: aggiunge Impenetrabilità (resistenza all'interruzione aumentata).· 3 personaggi di Geo: aggiunge Scricchiolio (bonus DAN da Geo).Gorou può schierare sul campo solo 1 Stendardo bellico del generale alla volta. I personaggi possono trarre vantaggio da solo 1 Stendardo bellico del generale alla volta. Quando un membro del gruppo lascia il campo di battaglia, l'effetto positivo attivo dura per 2 s.Pressione prolungataRegola la posizione dell'abilità.",
-			"info": "\"Assumete questa formazione e saremo al sicuro, ve lo garantisco!\" Come generale e capo delle truppe, l'ultima cosa che Gorou vuole è vedere i suoi seguaci farsi male.",
-			"attributes": [
-				{
-					"label": "DAN da abilità",
-					"values": [
-						"107.2%",
-						"115.24%",
-						"123.28%",
-						"134%",
-						"142.04%",
-						"150.08%",
-						"160.8%",
-						"171.52%",
-						"182.24%",
-						"192.96%",
-						"203.68%",
-						"214.4%",
-						"227.8%",
-						"241.2%",
-						"254.6%"
-					]
-				},
-				{
-					"label": "Aumento DIF",
-					"values": [
-						"206",
-						"222",
-						"237",
-						"258",
-						"273",
-						"289",
-						"309",
-						"330",
-						"350",
-						"371",
-						"392",
-						"412",
-						"438",
-						"464",
-						"490"
-					]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": [
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%",
-						"15%"
-					]
-				},
-				{
-					"label": "Durata",
-					"values": [
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s"
-					]
-				},
-				{
-					"label": "TdR",
-					"values": [
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s",
-						"10 s"
-					]
-				}
-			]
-		},
-		{
-			"id": "JuugaForwardUntoVictory",
-			"name": "Juuga: Avanti verso la vittoria",
-			"description": "Dimostrando il suo valore come generale, Gorou infligge DAN da Geo ad area e crea un campo conosciuto come Gloria del generale per rinforzare i suoi compagni.Gloria del generaleIl campo ha le seguenti proprietà:· similmente allo Stendardo bellico del generale creato da Difesa a tutto tondo Inuzaka, esso conferisce effetti positivi ai personaggi attivi all'interno dell'area d'effetto dell'abilità in base al numero di personaggi di Geo presenti nel gruppo. Inoltre, si muove insieme al tuo personaggio attivo;· genera 1 Crollo cristallino ogni 1,5 s che infligge DAN da Geo ad area a 1 avversario all'interno dell'area d'effetto dell'abilità;· attira 1 frammento elementale nell'area d'effetto dell'abilità verso la posizione del tuo personaggio attivo ogni 1,5 s (i frammenti elementali sono creati dalle reazioni di Cristallizzazione).Se uno Stendardo bellico del generale creato da Gorou è presente sul campo quando quest'abilità viene usata, sarà distrutto. Inoltre, mentre il campo Gloria del generale è attivo, l'abilità elementale di Gorou Difesa a tutto tondo Inuzaka non creerà lo Stendardo bellico del generale.Se Gorou finisce fuori combattimento, gli effetti di Gloria del generale saranno annullati.",
-			"info": "\"Siamo in vantaggio!\" Gorou può modificare leggermente il terreno del campo di battaglia per aggiudicarsi la vittoria. Questa tecnica gli ha permesso di superare tante battaglie contro avversari apparentemente superiori.",
-			"attributes": [
-				{
-					"label": "DAN da abilità",
-					"values": [
-						"98.22% DIF",
-						"105.58% DIF",
-						"112.95% DIF",
-						"122.77% DIF",
-						"130.14% DIF",
-						"137.5% DIF",
-						"147.32% DIF",
-						"157.15% DIF",
-						"166.97% DIF",
-						"176.79% DIF",
-						"186.61% DIF",
-						"196.43% DIF",
-						"208.71% DIF",
-						"220.99% DIF",
-						"233.26% DIF"
-					]
-				},
-				{
-					"label": "DAN da Crollo cristallino",
-					"values": [
-						"61.3% DIF",
-						"65.9% DIF",
-						"70.49% DIF",
-						"76.63% DIF",
-						"81.22% DIF",
-						"85.82% DIF",
-						"91.95% DIF",
-						"98.08% DIF",
-						"104.21% DIF",
-						"110.34% DIF",
-						"116.47% DIF",
-						"122.6% DIF",
-						"130.26% DIF",
-						"137.93% DIF",
-						"145.59% DIF"
-					]
-				},
-				{
-					"label": "Durata",
-					"values": [
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s",
-						"9 s"
-					]
-				},
-				{
-					"label": "TdR",
-					"values": [
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s"
-					]
-				},
-				{
-					"label": "Costo energia",
-					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "HeedlessOfTheWindAndWeather",
-			"name": "Sprezzo delle intemperie",
-			"description": "Dopo aver usato Juuga: Avanti verso la vittoria, la DIF di tutti i membri vicini del gruppo aumenta di un 25% per 12 s.",
-			"level": 1
-		},
-		{
-			"id": "AFavorRepaid",
-			"name": "Favore ripagato",
-			"description": "Gli attacchi di Gorou ricevono i seguenti bonus DAN in base alla sua DIF:· i DAN da abilità di Difesa a tutto tondo Inuzaka aumentano di una quantità pari a un 156% della DIF;· i DAN da abilità di Juuga: Avanti verso la vittoria e i DAN di Crollo cristallino aumentano di una quantità pari a un 15,6% della DIF.",
-			"level": 4
-		},
-		{
-			"id": "SeekerOfShinies",
-			"name": "Fiuto canino",
-			"description": "Mostra sulla minimappa la posizione delle risorse uniche di Inazuma.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "RushingHoundSwiftAsTheWind",
-			"name": "Segugio fuggente: Veloce come il vento",
-			"description": "Quando i personaggi (escluso Gorou) nell'area d'effetto di Stendardo bellico del generale o di Gloria del generale di Gorou infliggono DAN da Geo agli avversari, il TdR di Difesa a tutto tondo Inuzaka di Gorou si riduce di 2 s.Si può verificare una sola volta ogni 10 s.",
-			"level": 1
-		},
-		{
-			"id": "SittingHoundSteadyAsAClock",
-			"name": "Segugio seduto: Affidabile come un orologio",
-			"description": "Mentre Gloria del generale è attiva, la sua durata si estende di 1 s quando un personaggio attivo vicino ottiene un frammento elementale tramite una reazione di Cristallizzazione. Si può verificare una sola volta ogni 0,1 s. La durata può estendersi fino a 3 s.",
-			"level": 2
-		},
-		{
-			"id": "MaulingHoundFierceAsFire",
-			"name": "Segugio da combattimento: Feroce come il fuoco",
-			"description": "Aumenta di 3 il livello di Difesa a tutto tondo Inuzaka.Il livello di potenziamento massimo è 15.",
-			"level": 3
-		},
-		{
-			"id": "LappingHoundWarmAsWater",
-			"name": "Lingua del segugio: Mite come l'acqua",
-			"description": "Quando Gloria del generale è nello stato di Impenetrabilità o Scricchiolio, Gorou guarirà i personaggi attivi nella sua area d'effetto di una quantità pari a un 50% della sua DIF ogni 1,5 s.",
-			"level": 4
-		},
-		{
-			"id": "StrikingHoundThunderousForce",
-			"name": "Segugio d'assalto: Forza tonante",
-			"description": "Aumenta di 3 il livello di Juuga: Avanti verso la vittoria.Il livello di potenziamento massimo è 15.",
-			"level": 5
-		},
-		{
-			"id": "ValiantHoundMountainousFealty",
-			"name": "Segugio valoroso: Fedeltà incommensurabile",
-			"description": "Per 12 s dopo aver usato Difesa a tutto tondo Inuzaka o Juuga: Avanti verso la vittoria, i DAN da CRIT da Geo di tutti i membri vicini del gruppo aumentano in base al livello dell'effetto positivo del campo dell'abilità quando viene usata:· Irremovibilità: +10%· Impenetrabilità: +20%· Scricchiolio: +40%Quest'effetto non è cumulabile e prenderà come riferimento l'ultimo effetto che è stato attivato.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": ["-", 1]
-				},
-				{
-					"label": "PS di base",
-					"values": ["-", "802"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["-", "15"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["-", "54"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [0, 1]
-				},
-				{
-					"label": "PS di base",
-					"values": ["2061", "2661"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["39", "51"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["140", "180"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [1, 2]
-				},
-				{
-					"label": "PS di base",
-					"values": ["3985", "4411"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["76", "84"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["270", "299"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "PrithivaTopazSliver",
-				"name": "Scheggia di topazio Prithiva",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "SangoPearl",
-				"name": "Perla di corallo",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SpectralHusk",
-				"name": "Guscio spettrale",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [2, 3]
-				},
-				{
-					"label": "PS di base",
-					"values": ["5074", "5642"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["97", "108"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["344", "382"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "PrithivaTopazFragment",
-				"name": "Frammento di topazio Prithiva",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "PerpetualHeart",
-				"name": "Cuore perpetuo",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SangoPearl",
-				"name": "Perla di corallo",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SpectralHusk",
-				"name": "Guscio spettrale",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [3, 4]
-				},
-				{
-					"label": "PS di base",
-					"values": ["6305", "6731"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["120", "128"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["427", "456"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "PrithivaTopazFragment",
-				"name": "Frammento di topazio Prithiva",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "PerpetualHeart",
-				"name": "Cuore perpetuo",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SangoPearl",
-				"name": "Perla di corallo",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SpectralHeart",
-				"name": "Cuore spettrale",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [4, 5]
-				},
-				{
-					"label": "PS di base",
-					"values": ["7393", "7818"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["141", "149"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["501", "530"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "PrithivaTopazChunk",
-				"name": "Pezzo di topazio Prithiva",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "PerpetualHeart",
-				"name": "Cuore perpetuo",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SangoPearl",
-				"name": "Perla di corallo",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SpectralHeart",
-				"name": "Cuore spettrale",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [5, 6]
-				},
-				{
-					"label": "PS di base",
-					"values": ["8481", "8907"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["162", "170"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["575", "603"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "PrithivaTopazChunk",
-				"name": "Pezzo di topazio Prithiva",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "PerpetualHeart",
-				"name": "Cuore perpetuo",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SangoPearl",
-				"name": "Perla di corallo",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SpectralNucleus",
-				"name": "Nucleo spettrale",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Fai ascendere",
-					"values": [6, 7]
-				},
-				{
-					"label": "PS di base",
-					"values": ["9570", "9570"]
-				},
-				{
-					"label": "ATT di base",
-					"values": ["183", "183"]
-				},
-				{
-					"label": "DIF di base",
-					"values": ["648", "648"]
-				},
-				{
-					"label": "Bonus DAN da Geo",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "PrithivaTopazGemstone",
-				"name": "Gemma di topazio Prithiva",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "PerpetualHeart",
-				"name": "Cuore perpetuo",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "SangoPearl",
-				"name": "Perla di corallo",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SpectralNucleus",
-				"name": "Nucleo spettrale",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfLight",
-					"name": "Insegnamenti della luce",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "SpectralHusk",
-					"name": "Guscio spettrale",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToLight",
-					"name": "Guida alla luce",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SpectralHeart",
-					"name": "Cuore spettrale",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToLight",
-					"name": "Guida alla luce",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SpectralHeart",
-					"name": "Cuore spettrale",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToLight",
-					"name": "Guida alla luce",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SpectralHeart",
-					"name": "Cuore spettrale",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToLight",
-					"name": "Guida alla luce",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SpectralHeart",
-					"name": "Cuore spettrale",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfLight",
-					"name": "Filosofie della luce",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "SpectralNucleus",
-					"name": "Nucleo spettrale",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "MoltenMoment",
-					"name": "Ora della fusione",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfLight",
-					"name": "Filosofie della luce",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "SpectralNucleus",
-					"name": "Nucleo spettrale",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "MoltenMoment",
-					"name": "Ora della fusione",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfLight",
-					"name": "Filosofie della luce",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "SpectralNucleus",
-					"name": "Nucleo spettrale",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "MoltenMoment",
-					"name": "Ora della fusione",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfLight",
-					"name": "Filosofie della luce",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "SpectralNucleus",
-					"name": "Nucleo spettrale",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "MoltenMoment",
-					"name": "Ora della fusione",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Corona della saggezza",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Gorou/Icon.webp",
-		"sideIcon": "Character/Gorou/SideIcon.webp",
-		"gatchaCard": "Character/Gorou/GachaCard.webp",
-		"gachaSplash": "Character/Gorou/GachaSplash.webp",
-		"face": "Character/Gorou/Face.webp",
-		"halfFace": "Character/Gorou/HalfFace.webp",
-		"profile": "Character/Gorou/Profile.webp",
-		"weaponStance": "Character/Gorou/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "RavenBow",
-	"specialDish": "VictoriousLegend",
-	"tcgCharacterCard": "",
-	"outfits": [
-		{
-			"id": "PanoplyOfAHundredHunts",
-			"name": "Panoplia del cacciatore esperto",
-			"description": "Il completo di Gorou. Quest'armatura leggera con spalle e gomiti corazzati è concepita per permettere al generale Gorou di usare comodamente il suo arco.",
-			"picture": "Character/Gorou/Outfit/PanoplyOfAHundredHunts.webp"
-		}
-	]
+  "id": "Gorou",
+  "name": "Gorou",
+  "title": "Guerriero canino",
+  "description": "Il grande generale dell'esercito dell'Isola di Watatsumi. I suoi subordinati nutrono piena fiducia in lui.",
+  "weaponType": "Arco",
+  "element": "Geo",
+  "gender": "Maschio",
+  "substat": "Bonus DAN da Geo",
+  "affiliation": "Isola di Watatsumi",
+  "region": "Inazuma",
+  "rarity": 4,
+  "birthday": "18/5",
+  "constellation": "Canis Bellatoris",
+  "domain": "Giardino dei pensieri",
+  "cv": {
+    "english": "Cory Yee",
+    "chinese": "杨昕燃",
+    "japanese": "畠中祐",
+    "korean": "Lee Sae-byeok"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackRippingFangFletching",
+      "name": "Attacco normale: Freccia lacerante",
+      "description": "Attacco normaleEffettua fino a 4 tiri consecutivi con un arco.Attacco caricatoEffettua un attacco mirato ancora più preciso con DAN aumentati.Mentre mira, sulla punta della freccia si accumuleranno cristalli di pietra. Una freccia cristallina caricata al massimo infligge DAN da Geo.Attacco in picchiataScocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DAN da 1º colpo",
+          "values": [
+            "37.75%",
+            "40.83%",
+            "43.9%",
+            "48.29%",
+            "51.36%",
+            "54.87%",
+            "59.7%",
+            "64.53%",
+            "69.36%",
+            "74.63%",
+            "79.9%",
+            "85.17%",
+            "90.43%",
+            "95.7%",
+            "100.97%"
+          ]
+        },
+        {
+          "label": "DAN da 2º colpo",
+          "values": [
+            "37.15%",
+            "40.18%",
+            "43.2%",
+            "47.52%",
+            "50.54%",
+            "54%",
+            "58.75%",
+            "63.5%",
+            "68.26%",
+            "73.44%",
+            "78.62%",
+            "83.81%",
+            "88.99%",
+            "94.18%",
+            "99.36%"
+          ]
+        },
+        {
+          "label": "DAN da 3º colpo",
+          "values": [
+            "49.45%",
+            "53.47%",
+            "57.5%",
+            "63.25%",
+            "67.27%",
+            "71.88%",
+            "78.2%",
+            "84.53%",
+            "90.85%",
+            "97.75%",
+            "104.65%",
+            "111.55%",
+            "118.45%",
+            "125.35%",
+            "132.25%"
+          ]
+        },
+        {
+          "label": "DAN da 4º colpo",
+          "values": [
+            "59%",
+            "63.8%",
+            "68.6%",
+            "75.46%",
+            "80.26%",
+            "85.75%",
+            "93.3%",
+            "100.84%",
+            "108.39%",
+            "116.62%",
+            "124.85%",
+            "133.08%",
+            "141.32%",
+            "149.55%",
+            "157.78%"
+          ]
+        },
+        {
+          "label": "ATT mirato",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "ATT mirato a piena carica",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata basso/alto",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Difesa a tutto tondo Inuzaka",
+      "description": "Infligge DAN da Geo ad area e issa uno Stendardo bellico del generale.Stendardo bellico del generaleConferisce fino a 3 effetti positivi ai personaggi attivi nell'area d'effetto dell'abilità, in base al numero di personaggi di Geo presenti nel gruppo al momento del lancio.· 1 personaggio di Geo: aggiunge Irremovibilità (bonus DIF).· 2 personaggi di Geo: aggiunge Impenetrabilità (resistenza all'interruzione aumentata).· 3 personaggi di Geo: aggiunge Scricchiolio (bonus DAN da Geo).Gorou può schierare sul campo solo 1 Stendardo bellico del generale alla volta. I personaggi possono trarre vantaggio da solo 1 Stendardo bellico del generale alla volta. Quando un membro del gruppo lascia il campo di battaglia, l'effetto positivo attivo dura per 2 s.Pressione prolungataRegola la posizione dell'abilità.",
+      "info": "\"Assumete questa formazione e saremo al sicuro, ve lo garantisco!\" Come generale e capo delle truppe, l'ultima cosa che Gorou vuole è vedere i suoi seguaci farsi male.",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "107.2%",
+            "115.24%",
+            "123.28%",
+            "134%",
+            "142.04%",
+            "150.08%",
+            "160.8%",
+            "171.52%",
+            "182.24%",
+            "192.96%",
+            "203.68%",
+            "214.4%",
+            "227.8%",
+            "241.2%",
+            "254.6%"
+          ]
+        },
+        {
+          "label": "Aumento DIF",
+          "values": [
+            "206",
+            "222",
+            "237",
+            "258",
+            "273",
+            "289",
+            "309",
+            "330",
+            "350",
+            "371",
+            "392",
+            "412",
+            "438",
+            "464",
+            "490"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": "Durata",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Juuga: Avanti verso la vittoria",
+      "description": "Dimostrando il suo valore come generale, Gorou infligge DAN da Geo ad area e crea un campo conosciuto come Gloria del generale per rinforzare i suoi compagni.Gloria del generaleIl campo ha le seguenti proprietà:· similmente allo Stendardo bellico del generale creato da Difesa a tutto tondo Inuzaka, esso conferisce effetti positivi ai personaggi attivi all'interno dell'area d'effetto dell'abilità in base al numero di personaggi di Geo presenti nel gruppo. Inoltre, si muove insieme al tuo personaggio attivo;· genera 1 Crollo cristallino ogni 1,5 s che infligge DAN da Geo ad area a 1 avversario all'interno dell'area d'effetto dell'abilità;· attira 1 frammento elementale nell'area d'effetto dell'abilità verso la posizione del tuo personaggio attivo ogni 1,5 s (i frammenti elementali sono creati dalle reazioni di Cristallizzazione).Se uno Stendardo bellico del generale creato da Gorou è presente sul campo quando quest'abilità viene usata, sarà distrutto. Inoltre, mentre il campo Gloria del generale è attivo, l'abilità elementale di Gorou Difesa a tutto tondo Inuzaka non creerà lo Stendardo bellico del generale.Se Gorou finisce fuori combattimento, gli effetti di Gloria del generale saranno annullati.",
+      "info": "\"Siamo in vantaggio!\" Gorou può modificare leggermente il terreno del campo di battaglia per aggiudicarsi la vittoria. Questa tecnica gli ha permesso di superare tante battaglie contro avversari apparentemente superiori.",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "98.22% DIF",
+            "105.58% DIF",
+            "112.95% DIF",
+            "122.77% DIF",
+            "130.14% DIF",
+            "137.5% DIF",
+            "147.32% DIF",
+            "157.15% DIF",
+            "166.97% DIF",
+            "176.79% DIF",
+            "186.61% DIF",
+            "196.43% DIF",
+            "208.71% DIF",
+            "220.99% DIF",
+            "233.26% DIF"
+          ]
+        },
+        {
+          "label": "DAN da Crollo cristallino",
+          "values": [
+            "61.3% DIF",
+            "65.9% DIF",
+            "70.49% DIF",
+            "76.63% DIF",
+            "81.22% DIF",
+            "85.82% DIF",
+            "91.95% DIF",
+            "98.08% DIF",
+            "104.21% DIF",
+            "110.34% DIF",
+            "116.47% DIF",
+            "122.6% DIF",
+            "130.26% DIF",
+            "137.93% DIF",
+            "145.59% DIF"
+          ]
+        },
+        {
+          "label": "Durata",
+          "values": [
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        },
+        {
+          "label": "Costo energia",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackRippingFangFletching",
+      "name": "Attacco normale: Freccia lacerante",
+      "description": "Attacco normale Effettua fino a 4 tiri consecutivi con un arco. Attacco caricato Effettua un attacco mirato ancora più preciso con DAN aumentati. Mentre mira, sulla punta della freccia si accumuleranno cristalli di pietra. Una freccia cristallina caricata al massimo infligge DAN da Geo. Attacco in picchiata Scocca una pioggia di frecce a mezz'aria prima di cadere e colpire il suolo, infliggendo DAN ad area all'impatto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "DAN da 1º colpo",
+          "values": [
+            "37.75%",
+            "40.83%",
+            "43.9%",
+            "48.29%",
+            "51.36%",
+            "54.87%",
+            "59.7%",
+            "64.53%",
+            "69.36%",
+            "74.63%",
+            "79.9%",
+            "85.17%",
+            "90.43%",
+            "95.7%",
+            "100.97%"
+          ]
+        },
+        {
+          "label": "DAN da 2º colpo",
+          "values": [
+            "37.15%",
+            "40.18%",
+            "43.2%",
+            "47.52%",
+            "50.54%",
+            "54%",
+            "58.75%",
+            "63.5%",
+            "68.26%",
+            "73.44%",
+            "78.62%",
+            "83.81%",
+            "88.99%",
+            "94.18%",
+            "99.36%"
+          ]
+        },
+        {
+          "label": "DAN da 3º colpo",
+          "values": [
+            "49.45%",
+            "53.47%",
+            "57.5%",
+            "63.25%",
+            "67.27%",
+            "71.88%",
+            "78.2%",
+            "84.52%",
+            "90.85%",
+            "97.75%",
+            "104.65%",
+            "111.55%",
+            "118.45%",
+            "125.35%",
+            "132.25%"
+          ]
+        },
+        {
+          "label": "DAN da 4º colpo",
+          "values": [
+            "59%",
+            "63.8%",
+            "68.6%",
+            "75.46%",
+            "80.26%",
+            "85.75%",
+            "93.3%",
+            "100.84%",
+            "108.39%",
+            "116.62%",
+            "124.85%",
+            "133.08%",
+            "141.32%",
+            "149.55%",
+            "157.78%"
+          ]
+        },
+        {
+          "label": "ATT mirato",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%",
+            "98.94%",
+            "105.06%",
+            "111.18%",
+            "117.3%"
+          ]
+        },
+        {
+          "label": "ATT mirato a piena carica",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%",
+            "248%",
+            "263.5%",
+            "279%",
+            "294.5%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "DAN da ATT in picchiata basso/alto",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Difesa a tutto tondo Inuzaka",
+      "description": "Infligge DAN da Geo ad area e issa uno Stendardo bellico del generale. Stendardo bellico del generale Conferisce fino a 3 effetti positivi ai personaggi attivi nell'area d'effetto dell'abilità, in base al numero di personaggi di Geo presenti nel gruppo al momento del lancio. · 1 personaggio di Geo: aggiunge Irremovibilità (bonus DIF). · 2 personaggi di Geo: aggiunge Impenetrabilità (resistenza all'interruzione aumentata). · 3 personaggi di Geo: aggiunge Scricchiolio (bonus DAN da Geo). Gorou può schierare sul campo solo 1 Stendardo bellico del generale alla volta. I personaggi possono trarre vantaggio da solo 1 Stendardo bellico del generale alla volta. Quando un membro del gruppo lascia il campo di battaglia, l'effetto positivo attivo dura per 2 s. Pressione prolungata Regola la posizione dell'abilità.",
+      "info": "\"Assumete questa formazione e saremo al sicuro, ve lo garantisco!\" Come generale e capo delle truppe, l'ultima cosa che Gorou vuole è vedere i suoi seguaci farsi male.",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "107.2%",
+            "115.24%",
+            "123.28%",
+            "134%",
+            "142.04%",
+            "150.08%",
+            "160.8%",
+            "171.52%",
+            "182.24%",
+            "192.96%",
+            "203.68%",
+            "214.4%",
+            "227.8%",
+            "241.2%",
+            "254.6%"
+          ]
+        },
+        {
+          "label": "Aumento DIF",
+          "values": [
+            "206",
+            "222",
+            "237",
+            "258",
+            "273",
+            "289",
+            "309",
+            "330",
+            "350",
+            "371",
+            "392",
+            "412",
+            "438",
+            "464",
+            "490"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": "Durata",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s",
+            "10 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Juuga: Avanti verso la vittoria",
+      "description": "Dimostrando il suo valore come generale, Gorou infligge DAN da Geo ad area e crea un campo conosciuto come Gloria del generale per rinforzare i suoi compagni. Gloria del generale Il campo ha le seguenti proprietà: · similmente allo Stendardo bellico del generale creato da Difesa a tutto tondo Inuzaka, esso conferisce effetti positivi ai personaggi attivi all'interno dell'area d'effetto dell'abilità in base al numero di personaggi di Geo presenti nel gruppo. Inoltre, si muove insieme al tuo personaggio attivo; · genera 1 Crollo cristallino ogni 1,5 s che infligge DAN da Geo ad area a 1 avversario all'interno dell'area d'effetto dell'abilità; · attira 1 frammento elementale nell'area d'effetto dell'abilità verso la posizione del tuo personaggio attivo ogni 1,5 s (i frammenti elementali sono creati dalle reazioni di Cristallizzazione). Se uno Stendardo bellico del generale creato da Gorou è presente sul campo quando quest'abilità viene usata, sarà distrutto. Inoltre, mentre il campo Gloria del generale è attivo, l'abilità elementale di Gorou Difesa a tutto tondo Inuzaka non creerà lo Stendardo bellico del generale. Se Gorou finisce fuori combattimento, gli effetti di Gloria del generale saranno annullati.",
+      "info": "\"Siamo in vantaggio!\" Gorou può modificare leggermente il terreno del campo di battaglia per aggiudicarsi la vittoria. Questa tecnica gli ha permesso di superare tante battaglie contro avversari apparentemente superiori.",
+      "attributes": [
+        {
+          "label": "DAN da abilità",
+          "values": [
+            "98.22% DIF",
+            "105.58% DIF",
+            "112.95% DIF",
+            "122.77% DIF",
+            "130.14% DIF",
+            "137.5% DIF",
+            "147.32% DIF",
+            "157.15% DIF",
+            "166.97% DIF",
+            "176.79% DIF",
+            "186.61% DIF",
+            "196.43% DIF",
+            "208.71% DIF",
+            "220.99% DIF",
+            "233.26% DIF"
+          ]
+        },
+        {
+          "label": "DAN da Crollo cristallino",
+          "values": [
+            "61.3% DIF",
+            "65.9% DIF",
+            "70.49% DIF",
+            "76.63% DIF",
+            "81.22% DIF",
+            "85.82% DIF",
+            "91.95% DIF",
+            "98.08% DIF",
+            "104.21% DIF",
+            "110.34% DIF",
+            "116.47% DIF",
+            "122.6% DIF",
+            "130.26% DIF",
+            "137.93% DIF",
+            "145.59% DIF"
+          ]
+        },
+        {
+          "label": "Durata",
+          "values": [
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s",
+            "9 s"
+          ]
+        },
+        {
+          "label": "TdR",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        },
+        {
+          "label": "Costo energia",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "HeedlessOfTheWindAndWeather",
+      "name": "Sprezzo delle intemperie",
+      "description": "Dopo aver usato Juuga: Avanti verso la vittoria, la DIF di tutti i membri vicini del gruppo aumenta di un 25% per 12 s.",
+      "level": 1
+    },
+    {
+      "id": "Afavorrepaid",
+      "name": "Favore ripagato",
+      "description": "Gli attacchi di Gorou ricevono i seguenti bonus DAN in base alla sua DIF:· i DAN da abilità di Difesa a tutto tondo Inuzaka aumentano di una quantità pari a un 156% della DIF;· i DAN da abilità di Juuga: Avanti verso la vittoria e i DAN di Crollo cristallino aumentano di una quantità pari a un 15,6% della DIF.",
+      "level": 4
+    },
+    {
+      "id": "SeekerOfShinies",
+      "name": "Fiuto canino",
+      "description": "Mostra sulla minimappa la posizione delle risorse uniche di Inazuma.",
+      "level": 0
+    },
+    {
+      "id": "HeedlessOfTheWindAndWeather",
+      "name": "Sprezzo delle intemperie",
+      "description": "Dopo aver usato Juuga: Avanti verso la vittoria, la DIF di tutti i membri vicini del gruppo aumenta di un 25% per 12 s.",
+      "level": 1
+    },
+    {
+      "id": "AFavorRepaid",
+      "name": "Favore ripagato",
+      "description": "Gli attacchi di Gorou ricevono i seguenti bonus DAN in base alla sua DIF: · i DAN da abilità di Difesa a tutto tondo Inuzaka aumentano di una quantità pari a un 156% della DIF; · i DAN da abilità di Juuga: Avanti verso la vittoria e i DAN di Crollo cristallino aumentano di una quantità pari a un 15,6% della DIF.",
+      "level": 4
+    },
+    {
+      "id": "SeekerOfShinies",
+      "name": "Fiuto canino",
+      "description": "Mostra sulla minimappa la posizione delle risorse uniche di Inazuma.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "RushingHoundSwiftAsTheWind",
+      "name": "Segugio fuggente: Veloce come il vento",
+      "description": "Quando i personaggi (escluso Gorou) nell'area d'effetto di Stendardo bellico del generale o di Gloria del generale di Gorou infliggono DAN da Geo agli avversari, il TdR di Difesa a tutto tondo Inuzaka di Gorou si riduce di 2 s.Si può verificare una sola volta ogni 10 s.",
+      "level": 1
+    },
+    {
+      "id": "Sittinghoundsteadyasaclock",
+      "name": "Segugio seduto: Affidabile come un orologio",
+      "description": "Mentre Gloria del generale è attiva, la sua durata si estende di 1 s quando un personaggio attivo vicino ottiene un frammento elementale tramite una reazione di Cristallizzazione. Si può verificare una sola volta ogni 0,1 s. La durata può estendersi fino a 3 s.",
+      "level": 2
+    },
+    {
+      "id": "MaulingHoundFierceAsFire",
+      "name": "Segugio da combattimento: Feroce come il fuoco",
+      "description": "Aumenta di 3 il livello di Difesa a tutto tondo Inuzaka.Il livello di potenziamento massimo è 15.",
+      "level": 3
+    },
+    {
+      "id": "LappingHoundWarmAsWater",
+      "name": "Lingua del segugio: Mite come l'acqua",
+      "description": "Quando Gloria del generale è nello stato di Impenetrabilità o Scricchiolio, Gorou guarirà i personaggi attivi nella sua area d'effetto di una quantità pari a un 50% della sua DIF ogni 1,5 s.",
+      "level": 4
+    },
+    {
+      "id": "StrikingHoundThunderousForce",
+      "name": "Segugio d'assalto: Forza tonante",
+      "description": "Aumenta di 3 il livello di Juuga: Avanti verso la vittoria.Il livello di potenziamento massimo è 15.",
+      "level": 5
+    },
+    {
+      "id": "ValiantHoundMountainousFealty",
+      "name": "Segugio valoroso: Fedeltà incommensurabile",
+      "description": "Per 12 s dopo aver usato Difesa a tutto tondo Inuzaka o Juuga: Avanti verso la vittoria, i DAN da CRIT da Geo di tutti i membri vicini del gruppo aumentano in base al livello dell'effetto positivo del campo dell'abilità quando viene usata:· Irremovibilità: +10%· Impenetrabilità: +20%· Scricchiolio: +40%Quest'effetto non è cumulabile e prenderà come riferimento l'ultimo effetto che è stato attivato.",
+      "level": 6
+    },
+    {
+      "id": "RushingHoundSwiftAsTheWind",
+      "name": "Segugio fuggente: Veloce come il vento",
+      "description": "Quando i personaggi (escluso Gorou) nell'area d'effetto di Stendardo bellico del generale o di Gloria del generale di Gorou infliggono DAN da Geo agli avversari, il TdR di Difesa a tutto tondo Inuzaka di Gorou si riduce di 2 s. Si può verificare una sola volta ogni 10 s.",
+      "level": 1
+    },
+    {
+      "id": "SittingHoundSteadyAsAClock",
+      "name": "Segugio seduto: Affidabile come un orologio",
+      "description": "Mentre Gloria del generale è attiva, la sua durata si estende di 1 s quando un personaggio attivo vicino ottiene un frammento elementale tramite una reazione di Cristallizzazione. Si può verificare una sola volta ogni 0,1 s. La durata può estendersi fino a 3 s.",
+      "level": 2
+    },
+    {
+      "id": "MaulingHoundFierceAsFire",
+      "name": "Segugio da combattimento: Feroce come il fuoco",
+      "description": "Aumenta di 3 il livello di Difesa a tutto tondo Inuzaka. Il livello di potenziamento massimo è 15.",
+      "level": 3
+    },
+    {
+      "id": "LappingHoundWarmAsWater",
+      "name": "Lingua del segugio: Mite come l'acqua",
+      "description": "Quando Gloria del generale è nello stato di Impenetrabilità o Scricchiolio, Gorou guarirà i personaggi attivi nella sua area d'effetto di una quantità pari a un 50% della sua DIF ogni 1,5 s.",
+      "level": 4
+    },
+    {
+      "id": "StrikingHoundThunderousForce",
+      "name": "Segugio d'assalto: Forza tonante",
+      "description": "Aumenta di 3 il livello di Juuga: Avanti verso la vittoria. Il livello di potenziamento massimo è 15.",
+      "level": 5
+    },
+    {
+      "id": "ValiantHoundMountainousFealty",
+      "name": "Segugio valoroso: Fedeltà incommensurabile",
+      "description": "Per 12 s dopo aver usato Difesa a tutto tondo Inuzaka o Juuga: Avanti verso la vittoria, i DAN da CRIT da Geo di tutti i membri vicini del gruppo aumentano in base al livello dell'effetto positivo del campo dell'abilità quando viene usata: · Irremovibilità: +10% · Impenetrabilità: +20% · Scricchiolio: +40% Quest'effetto non è cumulabile e prenderà come riferimento l'ultimo effetto che è stato attivato.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "-",
+            "15"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "39",
+            "51"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "140",
+            "180"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "76",
+            "84"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "270",
+            "299"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazSliver",
+        "name": "Scheggia di topazio Prithiva",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHusk",
+        "name": "Guscio spettrale",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "97",
+            "108"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "344",
+            "382"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazFragment",
+        "name": "Frammento di topazio Prithiva",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHusk",
+        "name": "Guscio spettrale",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "120",
+            "128"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "427",
+            "456"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazFragment",
+        "name": "Frammento di topazio Prithiva",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHeart",
+        "name": "Cuore spettrale",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "141",
+            "149"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "501",
+            "530"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazChunk",
+        "name": "Pezzo di topazio Prithiva",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHeart",
+        "name": "Cuore spettrale",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "162",
+            "170"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "575",
+            "603"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazChunk",
+        "name": "Pezzo di topazio Prithiva",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralNucleus",
+        "name": "Nucleo spettrale",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "183",
+            "183"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "648",
+            "648"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazGemstone",
+        "name": "Gemma di topazio Prithiva",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralNucleus",
+        "name": "Nucleo spettrale",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "-",
+            "15"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "-",
+            "54"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "39",
+            "51"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "140",
+            "180"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "76",
+            "84"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "270",
+            "299"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazSliver",
+        "name": "Scheggia di topazio Prithiva",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHusk",
+        "name": "Guscio spettrale",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "97",
+            "108"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "344",
+            "382"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazFragment",
+        "name": "Frammento di topazio Prithiva",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHusk",
+        "name": "Guscio spettrale",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "120",
+            "128"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "427",
+            "456"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazFragment",
+        "name": "Frammento di topazio Prithiva",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHeart",
+        "name": "Cuore spettrale",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "141",
+            "149"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "501",
+            "530"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazChunk",
+        "name": "Pezzo di topazio Prithiva",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralHeart",
+        "name": "Cuore spettrale",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "162",
+            "170"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "575",
+            "603"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazChunk",
+        "name": "Pezzo di topazio Prithiva",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralNucleus",
+        "name": "Nucleo spettrale",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Fai ascendere",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "PS di base",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "ATT di base",
+          "values": [
+            "183",
+            "183"
+          ]
+        },
+        {
+          "label": "DIF di base",
+          "values": [
+            "648",
+            "648"
+          ]
+        },
+        {
+          "label": "Bonus DAN da Geo",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "PrithivaTopazGemstone",
+        "name": "Gemma di topazio Prithiva",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "PerpetualHeart",
+        "name": "Cuore perpetuo",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "SangoPearl",
+        "name": "Perla di corallo",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SpectralNucleus",
+        "name": "Nucleo spettrale",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfLight",
+          "name": "Insegnamenti della luce",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "SpectralHusk",
+          "name": "Guscio spettrale",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToLight",
+          "name": "Guida alla luce",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Cuore spettrale",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToLight",
+          "name": "Guida alla luce",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Cuore spettrale",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToLight",
+          "name": "Guida alla luce",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Cuore spettrale",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToLight",
+          "name": "Guida alla luce",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Cuore spettrale",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfLight",
+          "name": "Filosofie della luce",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Nucleo spettrale",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "MoltenMoment",
+          "name": "Ora della fusione",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfLight",
+          "name": "Filosofie della luce",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Nucleo spettrale",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "MoltenMoment",
+          "name": "Ora della fusione",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfLight",
+          "name": "Filosofie della luce",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Nucleo spettrale",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "MoltenMoment",
+          "name": "Ora della fusione",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfLight",
+          "name": "Filosofie della luce",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Nucleo spettrale",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "MoltenMoment",
+          "name": "Ora della fusione",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Corona della saggezza",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Gorou/Icon.webp",
+    "sideIcon": "Character/Gorou/SideIcon.webp",
+    "gatchaCard": "Character/Gorou/GachaCard.webp",
+    "gachaSplash": "Character/Gorou/GachaSplash.webp",
+    "face": "Character/Gorou/Face.webp",
+    "halfFace": "Character/Gorou/HalfFace.webp",
+    "profile": "Character/Gorou/Profile.webp",
+    "weaponStance": "Character/Gorou/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "RavenBow",
+  "specialDish": "VictoriousLegend",
+  "tcgCharacterCard": "",
+  "outfits": [
+    {
+      "id": "Panoplyofahundredhunts",
+      "name": "Panoplia del cacciatore esperto",
+      "description": "Il completo di Gorou. Quest'armatura leggera con spalle e gomiti corazzati è concepita per permettere al generale Gorou di usare comodamente il suo arco.",
+      "picture": "Character/Gorou/Outfit/PanoplyOfAHundredHunts.webp"
+    }
+  ],
+  "release": 1639497600,
+  "version": "4.6"
 }

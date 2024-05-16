@@ -12,6 +12,7 @@
     "weapon": "其他武器",
     "faction": [
       "愚人眾",
+      "愚人眾",
       "愚人眾"
     ],
     "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度愚人眾·雷螢術士中獲得勝利後獲得",
@@ -65,6 +66,61 @@
       "name": "霆雷之護",
       "desc": "造成1點雷元素傷害，本角色附著雷元素，生成雷螢護罩並準備技能霆電迸發。",
       "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurtlingBolts",
+      "name": "轟閃落雷",
+      "desc": "造成1點雷元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "霧虛之召",
+      "desc": "召喚雷螢。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "霆雷之護",
+      "desc": "造成1點雷元素傷害，本角色附著雷元素，生成雷螢護罩並準備技能霆電迸發。",
+      "skillTag": [
         "元素爆發"
       ],
       "points": [

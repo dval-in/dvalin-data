@@ -1,28 +1,41 @@
 {
-	"id": "Jeht",
-	"shareid": 329,
-	"name": "婕德",
-	"title": "流浪的沙与梦·婕德",
-	"desc": "「一千个拥抱！我们一定还会再见的！」\\n「我希望我们下次相见，会是在一个阳光更好的日子。」",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 2,
-		"costType": "无色元素",
-		"cardType": "支援牌",
-		"energy": [
-			{
-				"id": "UnalignedElement",
-				"type": "无色元素",
-				"count": 2
-			}
-		],
-		"tags": ["伙伴"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "此牌会记录本场对局中我方支援区弃置卡牌的数量，称为「阅历」。（最多6点）<span style=\"color:#FFFFFFFF\">我方角色使用「元素爆发」后：如果「阅历」至少为5，则弃置此牌，生成<span style=\"color:#FFFFFFFF\">「阅历」-2数量的<span style=\"color:#FFFFFFFF\">万能元素。"
-		}
-	],
-	"version": "4.4"
+  "id": "Jeht",
+  "shareid": 329,
+  "name": "婕德",
+  "title": "流浪的沙与梦·婕德",
+  "desc": "「一千个拥抱！我们一定还会再见的！」\\n「我希望我们下次相见，会是在一个阳光更好的日子。」",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "相同元素",
+    "cardType": "支援牌",
+    "energy": [
+      {
+        "id": "UnalignedElement",
+        "type": "无色元素",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "相同元素",
+        "count": 1
+      }
+    ],
+    "tags": [
+      "伙伴",
+      "伙伴"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "此牌会记录本场对局中我方支援区弃置卡牌的数量，称为「阅历」。（最多6点）我方角色使用「元素爆发」后：如果「阅历」至少为5，则弃置此牌，生成「阅历」-2数量的万能元素。"
+    },
+    {
+      "name": "",
+      "desc": "此牌会记录本场对局中我方支援区弃置卡牌的数量，称为「阅历」。（最多6点） 我方角色使用「元素爆发」后：如果「阅历」至少为6，则弃置此牌，对我方出战角色附属沙与梦。"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 329
 }

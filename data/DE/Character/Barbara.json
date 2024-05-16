@@ -1,973 +1,2005 @@
 {
-	"id": "Barbara",
-	"name": "Barbara",
-	"title": "Leuchtender Star",
-	"description": "Jeder in Mondstadt findet Barbara toll. Was ein „Star“ ist, hat sie aber erst beim Blättern durch ein Magazin gelernt.",
-	"weaponType": "Katalysator",
-	"element": "Hydro",
-	"gender": "Weiblich",
-	"substat": "LP%",
-	"affiliation": "Favonius-Kathedrale",
-	"region": "Mondstadt",
-	"rarity": 4,
-	"birthday": "5/7",
-	"constellation": "Crater",
-	"domain": "Vergessene Schlucht",
-	"cv": {
-		"english": "Laura Stahl",
-		"chinese": "宋媛媛",
-		"japanese": "鬼頭明里",
-		"korean": "Yoon Ah-young"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackWhisperOfWater",
-			"name": "Standardangriff: Stille Wasser",
-			"description": "StandardangriffFührt bis zu 4 Spritzwasser-Angriffe aus und verursacht Hydro-Schaden.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit Hydro-Flächenschaden.Angriff aus dem FallKonzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "SCH Phase 1",
-					"values": [
-						"37.84%",
-						"40.68%",
-						"43.52%",
-						"47.3%",
-						"50.14%",
-						"52.98%",
-						"56.76%",
-						"60.54%",
-						"64.33%",
-						"68.11%",
-						"72.05%",
-						"77.19%",
-						"82.34%",
-						"87.49%",
-						"92.63%"
-					]
-				},
-				{
-					"label": "SCH Phase 2",
-					"values": [
-						"35.52%",
-						"38.18%",
-						"40.85%",
-						"44.4%",
-						"47.06%",
-						"49.73%",
-						"53.28%",
-						"56.83%",
-						"60.38%",
-						"63.94%",
-						"67.63%",
-						"72.46%",
-						"77.29%",
-						"82.12%",
-						"86.95%"
-					]
-				},
-				{
-					"label": "SCH Phase 3",
-					"values": [
-						"41.04%",
-						"44.12%",
-						"47.2%",
-						"51.3%",
-						"54.38%",
-						"57.46%",
-						"61.56%",
-						"65.66%",
-						"69.77%",
-						"73.87%",
-						"78.14%",
-						"83.72%",
-						"89.3%",
-						"94.88%",
-						"100.47%"
-					]
-				},
-				{
-					"label": "SCH Phase 4",
-					"values": [
-						"55.2%",
-						"59.34%",
-						"63.48%",
-						"69%",
-						"73.14%",
-						"77.28%",
-						"82.8%",
-						"88.32%",
-						"93.84%",
-						"99.36%",
-						"105.1%",
-						"112.61%",
-						"120.12%",
-						"127.62%",
-						"135.13%"
-					]
-				},
-				{
-					"label": "SCH heftiger Schläge",
-					"values": [
-						"166.24%",
-						"178.71%",
-						"191.18%",
-						"207.8%",
-						"220.27%",
-						"232.74%",
-						"249.36%",
-						"265.98%",
-						"282.61%",
-						"299.23%",
-						"316.52%",
-						"339.13%",
-						"361.74%",
-						"384.35%",
-						"406.96%"
-					]
-				},
-				{
-					"label": "Ausdauerverbrauch heftiger Schläge",
-					"values": [
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte"
-					]
-				},
-				{
-					"label": "SCH beim Fallen",
-					"values": [
-						"56.83%",
-						"61.45%",
-						"66.08%",
-						"72.69%",
-						"77.31%",
-						"82.6%",
-						"89.87%",
-						"97.14%",
-						"104.41%",
-						"112.34%",
-						"120.27%",
-						"128.2%",
-						"136.12%",
-						"144.05%",
-						"151.98%"
-					]
-				},
-				{
-					"label": "SCH beim Fallen aus niedriger/großer Höhe",
-					"values": [
-						"113.63% / 141.93%",
-						"122.88% / 153.49%",
-						"132.13% / 165.04%",
-						"145.35% / 181.54%",
-						"154.59% / 193.1%",
-						"165.16% / 206.3%",
-						"179.7% / 224.45%",
-						"194.23% / 242.61%",
-						"208.77% / 260.76%",
-						"224.62% / 280.57%",
-						"240.48% / 300.37%",
-						"256.34% / 320.18%",
-						"272.19% / 339.98%",
-						"288.05% / 359.79%",
-						"303.9% / 379.59%"
-					]
-				}
-			]
-		},
-		{
-			"id": "LetTheShowBegin",
-			"name": "Die Darbietung beginnt ♪",
-			"description": "Erschafft hüpfende Wassertropfen, die einen singenden Kreis bilden und Gegnern in der Umgebung Hydro-Schaden sowie den Zustand Nass zufügen.Singender Kreis· Stellt allen eigenen Truppenmitgliedern und befreundeten Figuren in der Nähe LP basierend auf Barbaras max. LP wieder her, wenn Barbaras Standardangriff trifft.· Stellt bei Treffern mit heftigen Schlägen die 4-fache Menge LP wieder her.· Stellt der aktuellen eigenen Figur in regelmäßigen Abständen LP wieder her.· Fügt Figuren und in Kontakt kommenden Gegnern den Zustand Nass zu.",
-			"info": "Die Magie, mit der Barbara andere heilt, liegt in ihrer Musik.",
-			"attributes": [
-				{
-					"label": "Heilung bei Treffer",
-					"values": [
-						"0.75% der max. LP + 72",
-						"0.81% der max. LP + 79",
-						"0.86% der max. LP + 87",
-						"0.94% der max. LP + 96",
-						"0.99% der max. LP + 105",
-						"1.05% der max. LP + 114",
-						"1.13% der max. LP + 125",
-						"1.2% der max. LP + 135",
-						"1.27% der max. LP + 147",
-						"1.35% der max. LP + 159",
-						"1.43% der max. LP + 172",
-						"1.5% der max. LP + 185",
-						"1.59% der max. LP + 199",
-						"1.69% der max. LP + 213",
-						"1.78% der max. LP + 228"
-					]
-				},
-				{
-					"label": "Fortlaufende Heilung",
-					"values": [
-						"4% der max. LP + 385",
-						"4.3% der max. LP + 424",
-						"4.6% der max. LP + 465",
-						"5% der max. LP + 510",
-						"5.3% der max. LP + 559",
-						"5.6% der max. LP + 610",
-						"6% der max. LP + 664",
-						"6.4% der max. LP + 722",
-						"6.8% der max. LP + 783",
-						"7.2% der max. LP + 847",
-						"7.6% der max. LP + 915",
-						"8% der max. LP + 986",
-						"8.5% der max. LP + 1059",
-						"9% der max. LP + 1136",
-						"9.5% der max. LP + 1217"
-					]
-				},
-				{
-					"label": "SCH der Wassertropfen",
-					"values": [
-						"58.4%",
-						"62.78%",
-						"67.16%",
-						"73%",
-						"77.38%",
-						"81.76%",
-						"87.6%",
-						"93.44%",
-						"99.28%",
-						"105.12%",
-						"110.96%",
-						"116.8%",
-						"124.1%",
-						"131.4%",
-						"138.7%"
-					]
-				},
-				{
-					"label": "Dauer",
-					"values": [
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s"
-					]
-				},
-				{
-					"label": "Abklingzeit",
-					"values": [
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s",
-						"32 s"
-					]
-				}
-			]
-		},
-		{
-			"id": "ShiningMiracle",
-			"name": "Glitzerndes Wunder ♪",
-			"description": "Stellt befreundeten Figuren in der Nähe und allen eigenen Truppenmitgliedern viele LP basierend auf Barbaras max. LP wieder her.",
-			"info": "Der Wille, andere zu heilen, verstärkt die Kraft von Barbaras Gesang und Kampf.",
-			"attributes": [
-				{
-					"label": "Heilung",
-					"values": [
-						"17.6% der max. LP + 1694",
-						"18.92% der max. LP + 1864",
-						"20.24% der max. LP + 2047",
-						"22% der max. LP + 2245",
-						"23.32% der max. LP + 2457",
-						"24.64% der max. LP + 2683",
-						"26.4% der max. LP + 2923",
-						"28.16% der max. LP + 3177",
-						"29.92% der max. LP + 3445",
-						"31.68% der max. LP + 3728",
-						"33.44% der max. LP + 4024",
-						"35.2% der max. LP + 4335",
-						"37.4% der max. LP + 4660",
-						"39.6% der max. LP + 4999",
-						"41.8% der max. LP + 5352"
-					]
-				},
-				{
-					"label": "Abklingzeit",
-					"values": [
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s",
-						"20 s"
-					]
-				},
-				{
-					"label": "Elementarenergie",
-					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "GloriousSeason",
-			"name": "Glanzvolle Jahreszeit",
-			"description": "Verringert den Ausdauerverbrauch der Figur innerhalb des singenden Kreises von Die Darbietung beginnt ♪ um 12 %.",
-			"level": 1
-		},
-		{
-			"id": "Encore",
-			"name": "Encore",
-			"description": "Verlängert die Wirkungsdauer des singenden Kreises von Die Darbietung beginnt ♪, wenn die aktuelle eigene Figur Elementarkristalle oder Elementarteilchen erhält, um 1 s.Erhöht die Dauer auf diese Weise um bis zu 5 s.",
-			"level": 4
-		},
-		{
-			"id": "WithMyWholeHeart",
-			"name": "Herzblut ♪",
-			"description": "Stellt bei der perfekten Zubereitung eines Gerichts mit wiederherstellender Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "GleefulSongs",
-			"name": "Bunte Ballade",
-			"description": "Stellt Barbara alle 10 s 1 Punkt Elementarenergie wieder her.",
-			"level": 1
-		},
-		{
-			"id": "VitalityBurst",
-			"name": "Explosion der Lebenskraft",
-			"description": "Verkürzt die Abklingzeit von Die Darbietung beginnt ♪ um 15 %.Erhöht den Hydro-Schaden der aktuellen eigenen Figur während der Wirkungsdauer der Fähigkeit um 15 %.",
-			"level": 2
-		},
-		{
-			"id": "StarOfTomorrow",
-			"name": "Stern von Morgen",
-			"description": "Erhöht die Stufe der Fähigkeit Glitzerndes Wunder ♪ um 3.Höchststufe 15.",
-			"level": 3
-		},
-		{
-			"id": "AttentivenessBeMyPower",
-			"name": "Fleiß ist Magie",
-			"description": "Stellt Barbara für jeden Treffer mit einem heftigen Schlag 1 Punkt Elementarenergie wieder her.Auf diese Weise können bis zu 5 Punkte Elementarenergie pro Schlag wiederhergestellt werden.",
-			"level": 4
-		},
-		{
-			"id": "ThePurestCompanionship",
-			"name": "Wahre Freundschaft",
-			"description": "Erhöht die Stufe der Fähigkeit Die Darbietung beginnt ♪ um 3.Höchststufe 15.",
-			"level": 5
-		},
-		{
-			"id": "DedicatingEverythingToYou",
-			"name": "Nur das Beste für dich",
-			"description": "Effekte, wenn Barbara inaktiv in der Truppe ist und die eigene Figur in der Truppe besiegt wird:· Belebt die aktuelle Figur wieder.· Stellt dieser Figur 100 % LP wieder her.15 min Abklingzeit.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["-", "821"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["-", "13"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["-", "56"]
-				},
-				{
-					"label": "LP%",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [0, 1]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["2108", "2721"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["34", "44"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["144", "186"]
-				},
-				{
-					"label": "LP%",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [1, 2]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["4076", "4512"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["66", "73"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["279", "308"]
-				},
-				{
-					"label": "LP%",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteSliver",
-				"name": "Varunada-Lasurit-Splitter",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "PhilanemoMushroom",
-				"name": "Philanemo-Pilz",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "DiviningScroll",
-				"name": "Leitende Schriftrolle",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [2, 3]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["5189", "5770"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["84", "94"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["355", "394"]
-				},
-				{
-					"label": "LP%",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteFragment",
-				"name": "Varunada-Lasurit-Bruchstück",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "CleansingHeart",
-				"name": "Reinigendes Herz",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "PhilanemoMushroom",
-				"name": "Philanemo-Pilz",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "DiviningScroll",
-				"name": "Leitende Schriftrolle",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [3, 4]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["6448", "6884"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["105", "112"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["441", "470"]
-				},
-				{
-					"label": "LP%",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteFragment",
-				"name": "Varunada-Lasurit-Bruchstück",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "CleansingHeart",
-				"name": "Reinigendes Herz",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "PhilanemoMushroom",
-				"name": "Philanemo-Pilz",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SealedScroll",
-				"name": "Zaubersiegel-Schriftrolle",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [4, 5]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["7561", "7996"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["123", "130"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["517", "546"]
-				},
-				{
-					"label": "LP%",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteChunk",
-				"name": "Varunada-Lasurit-Brocken",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "CleansingHeart",
-				"name": "Reinigendes Herz",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "PhilanemoMushroom",
-				"name": "Philanemo-Pilz",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SealedScroll",
-				"name": "Zaubersiegel-Schriftrolle",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [5, 6]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["8674", "9110"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["141", "148"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["593", "623"]
-				},
-				{
-					"label": "LP%",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteChunk",
-				"name": "Varunada-Lasurit-Brocken",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "CleansingHeart",
-				"name": "Reinigendes Herz",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "PhilanemoMushroom",
-				"name": "Philanemo-Pilz",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "ForbiddenCurseScroll",
-				"name": "Fluchschriftrolle",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [6, 7]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["9787", "9787"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["159", "159"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["669", "669"]
-				},
-				{
-					"label": "LP%",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteGemstone",
-				"name": "Varunada-Lasurit",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "CleansingHeart",
-				"name": "Reinigendes Herz",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "PhilanemoMushroom",
-				"name": "Philanemo-Pilz",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "ForbiddenCurseScroll",
-				"name": "Fluchschriftrolle",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfFreedom",
-					"name": "Lehren der „Freiheit“",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "Leitende Schriftrolle",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Zaubersiegel-Schriftrolle",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Zaubersiegel-Schriftrolle",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Zaubersiegel-Schriftrolle",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Anleitung zur „Freiheit“",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Zaubersiegel-Schriftrolle",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Fluchschriftrolle",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "RingOfBoreas",
-					"name": "Ring des Nordwinds",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Fluchschriftrolle",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "RingOfBoreas",
-					"name": "Ring des Nordwinds",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Fluchschriftrolle",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "RingOfBoreas",
-					"name": "Ring des Nordwinds",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Philosophie der „Freiheit“",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Fluchschriftrolle",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "RingOfBoreas",
-					"name": "Ring des Nordwinds",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Krone der Weisheit",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Barbara/Icon.webp",
-		"sideIcon": "Character/Barbara/SideIcon.webp",
-		"gatchaCard": "Character/Barbara/GachaCard.webp",
-		"gachaSplash": "Character/Barbara/GachaSplash.webp",
-		"face": "Character/Barbara/Face.webp",
-		"halfFace": "Character/Barbara/HalfFace.webp",
-		"profile": "Character/Barbara/Profile.webp",
-		"weaponStance": "Character/Barbara/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "WineAndSong",
-	"specialDish": "SpicyStew",
-	"tcgCharacterCard": "Barbara",
-	"outfits": [
-		{
-			"id": "InnocentLonging",
-			"name": "Unschuldiges Verlangen",
-			"description": "Barbaras Kleidung. Eine Bischöfin-Uniform aus der Favonius-Kathedrale, die für Barbara angepasst wurde.",
-			"picture": "Character/Barbara/Outfit/InnocentLonging.webp"
-		}
-	]
+  "id": "Barbara",
+  "name": "Barbara",
+  "title": "Leuchtender Star",
+  "description": "Jeder in Mondstadt findet Barbara toll. Was ein „Star“ ist, hat sie aber erst beim Blättern durch ein Magazin gelernt.",
+  "weaponType": "Katalysator",
+  "element": "Hydro",
+  "gender": "Weiblich",
+  "substat": "LP%",
+  "affiliation": "Favonius-Kathedrale",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": "5/7",
+  "constellation": "Crater",
+  "domain": "Vergessene Schlucht",
+  "cv": {
+    "english": "Laura Stahl",
+    "chinese": "宋媛媛",
+    "japanese": "鬼頭明里",
+    "korean": "Yoon Ah-young"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackWhisperOfWater",
+      "name": "Standardangriff: Stille Wasser",
+      "description": "StandardangriffFührt bis zu 4 Spritzwasser-Angriffe aus und verursacht Hydro-Schaden.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit Hydro-Flächenschaden.Angriff aus dem FallKonzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "37.84%",
+            "40.68%",
+            "43.52%",
+            "47.3%",
+            "50.14%",
+            "52.98%",
+            "56.76%",
+            "60.54%",
+            "64.33%",
+            "68.11%",
+            "72.05%",
+            "77.19%",
+            "82.34%",
+            "87.49%",
+            "92.63%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "35.52%",
+            "38.18%",
+            "40.85%",
+            "44.4%",
+            "47.06%",
+            "49.73%",
+            "53.28%",
+            "56.83%",
+            "60.38%",
+            "63.94%",
+            "67.63%",
+            "72.46%",
+            "77.29%",
+            "82.12%",
+            "86.95%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "41.04%",
+            "44.12%",
+            "47.2%",
+            "51.3%",
+            "54.38%",
+            "57.46%",
+            "61.56%",
+            "65.66%",
+            "69.77%",
+            "73.87%",
+            "78.14%",
+            "83.72%",
+            "89.3%",
+            "94.88%",
+            "100.47%"
+          ]
+        },
+        {
+          "label": "SCH Phase 4",
+          "values": [
+            "55.2%",
+            "59.34%",
+            "63.48%",
+            "69%",
+            "73.14%",
+            "77.28%",
+            "82.8%",
+            "88.32%",
+            "93.84%",
+            "99.36%",
+            "105.1%",
+            "112.61%",
+            "120.12%",
+            "127.62%",
+            "135.13%"
+          ]
+        },
+        {
+          "label": "SCH heftiger Schläge",
+          "values": [
+            "166.24%",
+            "178.71%",
+            "191.18%",
+            "207.8%",
+            "220.27%",
+            "232.74%",
+            "249.36%",
+            "265.98%",
+            "282.61%",
+            "299.23%",
+            "316.52%",
+            "339.13%",
+            "361.74%",
+            "384.35%",
+            "406.96%"
+          ]
+        },
+        {
+          "label": "Ausdauerverbrauch heftiger Schläge",
+          "values": [
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LetTheShowBegin",
+      "name": "Die Darbietung beginnt ♪",
+      "description": "Erschafft hüpfende Wassertropfen, die einen singenden Kreis bilden und Gegnern in der Umgebung Hydro-Schaden sowie den Zustand Nass zufügen.Singender Kreis· Stellt allen eigenen Truppenmitgliedern und befreundeten Figuren in der Nähe LP basierend auf Barbaras max. LP wieder her, wenn Barbaras Standardangriff trifft.· Stellt bei Treffern mit heftigen Schlägen die 4-fache Menge LP wieder her.· Stellt der aktuellen eigenen Figur in regelmäßigen Abständen LP wieder her.· Fügt Figuren und in Kontakt kommenden Gegnern den Zustand Nass zu.",
+      "info": "Die Magie, mit der Barbara andere heilt, liegt in ihrer Musik.",
+      "attributes": [
+        {
+          "label": "Heilung bei Treffer",
+          "values": [
+            "0.75% der max. LP + 72",
+            "0.81% der max. LP + 79",
+            "0.86% der max. LP + 87",
+            "0.94% der max. LP + 96",
+            "0.99% der max. LP + 105",
+            "1.05% der max. LP + 114",
+            "1.13% der max. LP + 125",
+            "1.2% der max. LP + 135",
+            "1.27% der max. LP + 147",
+            "1.35% der max. LP + 159",
+            "1.43% der max. LP + 172",
+            "1.5% der max. LP + 185",
+            "1.59% der max. LP + 199",
+            "1.69% der max. LP + 213",
+            "1.78% der max. LP + 228"
+          ]
+        },
+        {
+          "label": "Fortlaufende Heilung",
+          "values": [
+            "4% der max. LP + 385",
+            "4.3% der max. LP + 424",
+            "4.6% der max. LP + 465",
+            "5% der max. LP + 510",
+            "5.3% der max. LP + 559",
+            "5.6% der max. LP + 610",
+            "6% der max. LP + 664",
+            "6.4% der max. LP + 722",
+            "6.8% der max. LP + 783",
+            "7.2% der max. LP + 847",
+            "7.6% der max. LP + 915",
+            "8% der max. LP + 986",
+            "8.5% der max. LP + 1059",
+            "9% der max. LP + 1136",
+            "9.5% der max. LP + 1217"
+          ]
+        },
+        {
+          "label": "SCH der Wassertropfen",
+          "values": [
+            "58.4%",
+            "62.78%",
+            "67.16%",
+            "73%",
+            "77.38%",
+            "81.76%",
+            "87.6%",
+            "93.44%",
+            "99.28%",
+            "105.12%",
+            "110.96%",
+            "116.8%",
+            "124.1%",
+            "131.4%",
+            "138.7%"
+          ]
+        },
+        {
+          "label": "Dauer",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ShiningMiracle",
+      "name": "Glitzerndes Wunder ♪",
+      "description": "Stellt befreundeten Figuren in der Nähe und allen eigenen Truppenmitgliedern viele LP basierend auf Barbaras max. LP wieder her.",
+      "info": "Der Wille, andere zu heilen, verstärkt die Kraft von Barbaras Gesang und Kampf.",
+      "attributes": [
+        {
+          "label": "Heilung",
+          "values": [
+            "17.6% der max. LP + 1694",
+            "18.92% der max. LP + 1864",
+            "20.24% der max. LP + 2047",
+            "22% der max. LP + 2245",
+            "23.32% der max. LP + 2457",
+            "24.64% der max. LP + 2683",
+            "26.4% der max. LP + 2923",
+            "28.16% der max. LP + 3177",
+            "29.92% der max. LP + 3445",
+            "31.68% der max. LP + 3728",
+            "33.44% der max. LP + 4024",
+            "35.2% der max. LP + 4335",
+            "37.4% der max. LP + 4660",
+            "39.6% der max. LP + 4999",
+            "41.8% der max. LP + 5352"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackWhisperOfWater",
+      "name": "Standardangriff: Stille Wasser",
+      "description": "Standardangriff Führt bis zu 4 Spritzwasser-Angriffe aus und verursacht Hydro-Schaden. Heftiger Schlag Verbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit Hydro-Flächenschaden. Angriff aus dem Fall Konzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "37.84%",
+            "40.68%",
+            "43.52%",
+            "47.3%",
+            "50.14%",
+            "52.98%",
+            "56.76%",
+            "60.54%",
+            "64.33%",
+            "68.11%",
+            "72.05%",
+            "77.19%",
+            "82.34%",
+            "87.49%",
+            "92.63%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "35.52%",
+            "38.18%",
+            "40.85%",
+            "44.4%",
+            "47.06%",
+            "49.73%",
+            "53.28%",
+            "56.83%",
+            "60.38%",
+            "63.94%",
+            "67.63%",
+            "72.46%",
+            "77.29%",
+            "82.12%",
+            "86.95%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "41.04%",
+            "44.12%",
+            "47.2%",
+            "51.3%",
+            "54.38%",
+            "57.46%",
+            "61.56%",
+            "65.66%",
+            "69.77%",
+            "73.87%",
+            "78.14%",
+            "83.72%",
+            "89.3%",
+            "94.88%",
+            "100.47%"
+          ]
+        },
+        {
+          "label": "SCH Phase 4",
+          "values": [
+            "55.2%",
+            "59.34%",
+            "63.48%",
+            "69%",
+            "73.14%",
+            "77.28%",
+            "82.8%",
+            "88.32%",
+            "93.84%",
+            "99.36%",
+            "105.1%",
+            "112.61%",
+            "120.12%",
+            "127.62%",
+            "135.13%"
+          ]
+        },
+        {
+          "label": "SCH heftiger Schläge",
+          "values": [
+            "166.24%",
+            "178.71%",
+            "191.18%",
+            "207.8%",
+            "220.27%",
+            "232.74%",
+            "249.36%",
+            "265.98%",
+            "282.61%",
+            "299.23%",
+            "316.52%",
+            "339.13%",
+            "361.74%",
+            "384.35%",
+            "406.96%"
+          ]
+        },
+        {
+          "label": "Ausdauerverbrauch heftiger Schläge",
+          "values": [
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LetTheShowBegin",
+      "name": "Die Darbietung beginnt ♪",
+      "description": "Erschafft hüpfende Wassertropfen, die einen singenden Kreis bilden und Gegnern in der Umgebung Hydro-Schaden sowie den Zustand Nass zufügen. Singender Kreis · Stellt allen eigenen Truppenmitgliedern und befreundeten Figuren in der Nähe LP basierend auf Barbaras max. LP wieder her, wenn Barbaras Standardangriff trifft. · Stellt bei Treffern mit heftigen Schlägen die 4-fache Menge LP wieder her. · Stellt der aktuellen eigenen Figur in regelmäßigen Abständen LP wieder her. · Fügt Figuren und in Kontakt kommenden Gegnern den Zustand Nass zu.",
+      "info": "Die Magie, mit der Barbara andere heilt, liegt in ihrer Musik.",
+      "attributes": [
+        {
+          "label": "Heilung bei Treffer",
+          "values": [
+            "0.75% der max. LP + 72",
+            "0.81% der max. LP + 79",
+            "0.86% der max. LP + 87",
+            "0.94% der max. LP + 96",
+            "0.99% der max. LP + 105",
+            "1.05% der max. LP + 114",
+            "1.13% der max. LP + 125",
+            "1.2% der max. LP + 135",
+            "1.27% der max. LP + 147",
+            "1.35% der max. LP + 159",
+            "1.43% der max. LP + 172",
+            "1.5% der max. LP + 185",
+            "1.59% der max. LP + 199",
+            "1.69% der max. LP + 213",
+            "1.78% der max. LP + 228"
+          ]
+        },
+        {
+          "label": "Fortlaufende Heilung",
+          "values": [
+            "4% der max. LP + 385",
+            "4.3% der max. LP + 424",
+            "4.6% der max. LP + 465",
+            "5% der max. LP + 510",
+            "5.3% der max. LP + 559",
+            "5.6% der max. LP + 610",
+            "6% der max. LP + 664",
+            "6.4% der max. LP + 722",
+            "6.8% der max. LP + 783",
+            "7.2% der max. LP + 847",
+            "7.6% der max. LP + 915",
+            "8% der max. LP + 986",
+            "8.5% der max. LP + 1059",
+            "9% der max. LP + 1136",
+            "9.5% der max. LP + 1217"
+          ]
+        },
+        {
+          "label": "SCH der Wassertropfen",
+          "values": [
+            "58.4%",
+            "62.78%",
+            "67.16%",
+            "73%",
+            "77.38%",
+            "81.76%",
+            "87.6%",
+            "93.44%",
+            "99.28%",
+            "105.12%",
+            "110.96%",
+            "116.8%",
+            "124.1%",
+            "131.4%",
+            "138.7%"
+          ]
+        },
+        {
+          "label": "Dauer",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s",
+            "32 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ShiningMiracle",
+      "name": "Glitzerndes Wunder ♪",
+      "description": "Stellt befreundeten Figuren in der Nähe und allen eigenen Truppenmitgliedern viele LP basierend auf Barbaras max. LP wieder her.",
+      "info": "Der Wille, andere zu heilen, verstärkt die Kraft von Barbaras Gesang und Kampf.",
+      "attributes": [
+        {
+          "label": "Heilung",
+          "values": [
+            "17.6% der max. LP + 1694",
+            "18.92% der max. LP + 1864",
+            "20.24% der max. LP + 2047",
+            "22% der max. LP + 2245",
+            "23.32% der max. LP + 2457",
+            "24.64% der max. LP + 2683",
+            "26.4% der max. LP + 2923",
+            "28.16% der max. LP + 3177",
+            "29.92% der max. LP + 3445",
+            "31.68% der max. LP + 3728",
+            "33.44% der max. LP + 4024",
+            "35.2% der max. LP + 4335",
+            "37.4% der max. LP + 4660",
+            "39.6% der max. LP + 4999",
+            "41.8% der max. LP + 5352"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s",
+            "20 s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "GloriousSeason",
+      "name": "Glanzvolle Jahreszeit",
+      "description": "Verringert den Ausdauerverbrauch der Figur innerhalb des singenden Kreises von Die Darbietung beginnt ♪ um 12 %.",
+      "level": 1
+    },
+    {
+      "id": "Encore",
+      "name": "Encore",
+      "description": "Verlängert die Wirkungsdauer des singenden Kreises von Die Darbietung beginnt ♪, wenn die aktuelle eigene Figur Elementarkristalle oder Elementarteilchen erhält, um 1 s.Erhöht die Dauer auf diese Weise um bis zu 5 s.",
+      "level": 4
+    },
+    {
+      "id": "WithMyWholeHeart",
+      "name": "Herzblut ♪",
+      "description": "Stellt bei der perfekten Zubereitung eines Gerichts mit wiederherstellender Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her.",
+      "level": 0
+    },
+    {
+      "id": "GloriousSeason",
+      "name": "Glanzvolle Jahreszeit",
+      "description": "Verringert den Ausdauerverbrauch der Figur innerhalb des singenden Kreises von Die Darbietung beginnt ♪ um 12 %.",
+      "level": 1
+    },
+    {
+      "id": "Encore",
+      "name": "Encore",
+      "description": "Verlängert die Wirkungsdauer des singenden Kreises von Die Darbietung beginnt ♪, wenn die aktuelle eigene Figur Elementarkristalle oder Elementarteilchen erhält, um 1 s. Erhöht die Dauer auf diese Weise um bis zu 5 s.",
+      "level": 4
+    },
+    {
+      "id": "WithMyWholeHeart",
+      "name": "Herzblut ♪",
+      "description": "Stellt bei der perfekten Zubereitung eines Gerichts mit wiederherstellender Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "GleefulSongs",
+      "name": "Bunte Ballade",
+      "description": "Stellt Barbara alle 10 s 1 Punkt Elementarenergie wieder her.",
+      "level": 1
+    },
+    {
+      "id": "VitalityBurst",
+      "name": "Explosion der Lebenskraft",
+      "description": "Verkürzt die Abklingzeit von Die Darbietung beginnt ♪ um 15 %.Erhöht den Hydro-Schaden der aktuellen eigenen Figur während der Wirkungsdauer der Fähigkeit um 15 %.",
+      "level": 2
+    },
+    {
+      "id": "StarOfTomorrow",
+      "name": "Stern von Morgen",
+      "description": "Erhöht die Stufe der Fähigkeit Glitzerndes Wunder ♪ um 3.Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "AttentivenessBeMyPower",
+      "name": "Fleiß ist Magie",
+      "description": "Stellt Barbara für jeden Treffer mit einem heftigen Schlag 1 Punkt Elementarenergie wieder her.Auf diese Weise können bis zu 5 Punkte Elementarenergie pro Schlag wiederhergestellt werden.",
+      "level": 4
+    },
+    {
+      "id": "ThePurestCompanionship",
+      "name": "Wahre Freundschaft",
+      "description": "Erhöht die Stufe der Fähigkeit Die Darbietung beginnt ♪ um 3.Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "DedicatingEverythingToYou",
+      "name": "Nur das Beste für dich",
+      "description": "Effekte, wenn Barbara inaktiv in der Truppe ist und die eigene Figur in der Truppe besiegt wird:· Belebt die aktuelle Figur wieder.· Stellt dieser Figur 100 % LP wieder her.15 min Abklingzeit.",
+      "level": 6
+    },
+    {
+      "id": "GleefulSongs",
+      "name": "Bunte Ballade",
+      "description": "Stellt Barbara alle 10 s 1 Punkt Elementarenergie wieder her.",
+      "level": 1
+    },
+    {
+      "id": "VitalityBurst",
+      "name": "Explosion der Lebenskraft",
+      "description": "Verkürzt die Abklingzeit von Die Darbietung beginnt ♪ um 15 %. Erhöht den Hydro-Schaden der aktuellen eigenen Figur während der Wirkungsdauer der Fähigkeit um 15 %.",
+      "level": 2
+    },
+    {
+      "id": "StarOfTomorrow",
+      "name": "Stern von Morgen",
+      "description": "Erhöht die Stufe der Fähigkeit Glitzerndes Wunder ♪ um 3. Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "AttentivenessBeMyPower",
+      "name": "Fleiß ist Magie",
+      "description": "Stellt Barbara für jeden Treffer mit einem heftigen Schlag 1 Punkt Elementarenergie wieder her. Auf diese Weise können bis zu 5 Punkte Elementarenergie pro Schlag wiederhergestellt werden.",
+      "level": 4
+    },
+    {
+      "id": "ThePurestCompanionship",
+      "name": "Wahre Freundschaft",
+      "description": "Erhöht die Stufe der Fähigkeit Die Darbietung beginnt ♪ um 3. Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "DedicatingEverythingToYou",
+      "name": "Nur das Beste für dich",
+      "description": "Effekte, wenn Barbara inaktiv in der Truppe ist und die eigene Figur in der Truppe besiegt wird: · Belebt die aktuelle Figur wieder. · Stellt dieser Figur 100 % LP wieder her. 15 min Abklingzeit.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "-",
+            "821"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "-",
+            "13"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "-",
+            "56"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "2108",
+            "2721"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "34",
+            "44"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "144",
+            "186"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "4076",
+            "4512"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "66",
+            "73"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "279",
+            "308"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteSliver",
+        "name": "Varunada-Lasurit-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DiviningScroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "5189",
+            "5770"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "84",
+            "94"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "355",
+            "394"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DiviningScroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "6448",
+            "6884"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "105",
+            "112"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "441",
+            "470"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SealedScroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "7561",
+            "7996"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "123",
+            "130"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "517",
+            "546"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SealedScroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "8674",
+            "9110"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "141",
+            "148"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "593",
+            "623"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ForbiddenCurseScroll",
+        "name": "Fluchschriftrolle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "9787",
+            "9787"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "159",
+            "159"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "669",
+            "669"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteGemstone",
+        "name": "Varunada-Lasurit",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ForbiddenCurseScroll",
+        "name": "Fluchschriftrolle",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "-",
+            "821"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "-",
+            "13"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "-",
+            "56"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "2108",
+            "2721"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "34",
+            "44"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "144",
+            "186"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "4076",
+            "4512"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "66",
+            "73"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "279",
+            "308"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteSliver",
+        "name": "Varunada-Lasurit-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DiviningScroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "5189",
+            "5770"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "84",
+            "94"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "355",
+            "394"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DiviningScroll",
+        "name": "Leitende Schriftrolle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "6448",
+            "6884"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "105",
+            "112"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "441",
+            "470"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SealedScroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "7561",
+            "7996"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "123",
+            "130"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "517",
+            "546"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SealedScroll",
+        "name": "Zaubersiegel-Schriftrolle",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "8674",
+            "9110"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "141",
+            "148"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "593",
+            "623"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ForbiddenCurseScroll",
+        "name": "Fluchschriftrolle",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "9787",
+            "9787"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "159",
+            "159"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "669",
+            "669"
+          ]
+        },
+        {
+          "label": "LP%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteGemstone",
+        "name": "Varunada-Lasurit",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "CleansingHeart",
+        "name": "Reinigendes Herz",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "PhilanemoMushroom",
+        "name": "Philanemo-Pilz",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "ForbiddenCurseScroll",
+        "name": "Fluchschriftrolle",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfFreedom",
+          "name": "Lehren der „Freiheit“",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Leitende Schriftrolle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Anleitung zur „Freiheit“",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Zaubersiegel-Schriftrolle",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Fluchschriftrolle",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "RingOfBoreas",
+          "name": "Ring des Nordwinds",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Fluchschriftrolle",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "RingOfBoreas",
+          "name": "Ring des Nordwinds",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Fluchschriftrolle",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "RingOfBoreas",
+          "name": "Ring des Nordwinds",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Philosophie der „Freiheit“",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Fluchschriftrolle",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "RingOfBoreas",
+          "name": "Ring des Nordwinds",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Krone der Weisheit",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Barbara/Icon.webp",
+    "sideIcon": "Character/Barbara/SideIcon.webp",
+    "gatchaCard": "Character/Barbara/GachaCard.webp",
+    "gachaSplash": "Character/Barbara/GachaSplash.webp",
+    "face": "Character/Barbara/Face.webp",
+    "halfFace": "Character/Barbara/HalfFace.webp",
+    "profile": "Character/Barbara/Profile.webp",
+    "weaponStance": "Character/Barbara/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "WineAndSong",
+  "specialDish": "SpicyStew",
+  "tcgCharacterCard": "Barbara",
+  "outfits": [
+    {
+      "id": "InnocentLonging",
+      "name": "Unschuldiges Verlangen",
+      "description": "Barbaras Kleidung. Eine Bischöfin-Uniform aus der Favonius-Kathedrale, die für Barbara angepasst wurde.",
+      "picture": "Character/Barbara/Outfit/InnocentLonging.webp"
+    }
+  ],
+  "release": 1601244000,
+  "version": "4.6"
 }
