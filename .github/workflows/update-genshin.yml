@@ -29,6 +29,12 @@ jobs:
           ref: "main"
           path: "dvalin-data"
 
+      - name: Read .last_processed_commit
+        id: read_commit
+        run: |
+          LAST_PROCESSED_COMMIT=$(cat dvalin-data/.last_processed_commit)
+          echo "LAST_PROCESSED_COMMIT=$LAST_PROCESSED_COMMIT" >> $GITHUB_ENV
+
       - name: Fetch commit history since last processed
         run: |
           # Initialize the variables
@@ -74,7 +80,13 @@ jobs:
           cd ..
           rm -rf genshin-data-bare
 
+      - name: Exit if no new commits
+        if: ${{ env.COMMITS == '' }}
+        run: echo "No new commits to process. Exiting."
+        continue-on-error: true
+
       - name: create a new branch
+        if: ${{ env.COMMITS != '' }}
         run: |
           cd dvalin-data
           git config --global user.email "updater@davlin.data"
@@ -85,6 +97,7 @@ jobs:
           git push origin $BRANCH_NAME
 
       - name: Checkout dvalin-data repo on new branch
+        if: ${{ env.COMMITS != '' }}
         uses: actions/checkout@v4
         with:
           repository: "dval-in/dvalin-data"
@@ -93,6 +106,7 @@ jobs:
           path: "dvalin-data"
 
       - name: Get all changed files
+        if: ${{ env.COMMITS != '' }}
         run: |
           export PATH=$HOME/.local/share/pnpm:$PATH
           cd dvalin-data
@@ -100,12 +114,6 @@ jobs:
           set -e  # Ensure the script exits on first error
           git clone https://github.com/dvaJi/genshin-data.git genshin-data
           cd genshin-data
-
-          # Check if COMMITS variable is set and not empty
-          if [ -z "$COMMITS" ]; then
-            echo "No commits found to process."
-            exit 0
-          fi
 
           # Convert space-separated strings into newline-separated strings for easier processing in sh
           COMMITS_NEWLINE=$(echo $COMMITS | tr ' ' '\n')
@@ -142,6 +150,7 @@ jobs:
           git push origin ${{ env.BRANCH_NAME }}
 
       - name: create pull request
+        if: ${{ env.COMMITS != '' }}
         run: gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
