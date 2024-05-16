@@ -1,68 +1,198 @@
 {
-	"id": "Charlotte",
-	"shareid": 334,
-	"name": "夏洛蒂",
-	"title": "朗鏡索真·夏洛蒂",
-	"desc": "「真實至上，故事超群！」",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "冰元素",
-		"weapon": "法器",
-		"faction": ["楓丹"],
-		"source": "在貓尾酒館中邀請夏洛蒂進行對局，在友好對局難度中獲得勝利後獲得"
-	},
-	"skills": [
-		{
-			"id": "CoolcolorCapture",
-			"name": "冷色攝影律",
-			"desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FramingFreezingPointComposition",
-			"name": "取景·冰點構圖法",
-			"desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害，目標附屬<span style=\"color:#FFFFFFFF\">瞬時剪影。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StillPhotoComprehensiveConfirmation",
-			"name": "定格·全方位確證",
-			"desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害，治療我方所有角色1點，召喚<span style=\"color:#FFFFFFFF\">臨事場域。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Charlotte",
+  "shareid": 334,
+  "name": "夏洛蒂",
+  "title": "朗鏡索真·夏洛蒂",
+  "desc": "「真實至上，故事超群！」",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "法器",
+    "faction": [
+      "楓丹",
+      "楓丹",
+      "楓丹"
+    ],
+    "source": "在貓尾酒館中邀請夏洛蒂進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "id": "Charlotte",
+      "name": "Charlotte",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ASummationOfInterest",
+      "name": "A Summation of Interest"
+    }
+  },
+  "skills": [
+    {
+      "id": "CoolcolorCapture",
+      "name": "冷色攝影律",
+      "desc": "造成1點冰元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "取景·冰點構圖法",
+      "desc": "造成1點冰元素傷害，目標附屬瞬時剪影。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "定格·全方位確證",
+      "desc": "造成1點冰元素傷害，治療我方所有角色1點，召喚臨事場域。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "冷色攝影律",
+      "desc": "造成1點冰元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "取景·冰點構圖法",
+      "desc": "造成1點冰元素傷害，目標附屬瞬時剪影。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "定格·全方位確證",
+      "desc": "造成1點冰元素傷害，治療我方所有角色1點，召喚臨事場域。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "冷色攝影律",
+      "desc": "造成1點冰元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "取景·冰點構圖法",
+      "desc": "造成1點冰元素傷害，目標附屬瞬時剪影。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "定格·全方位確證",
+      "desc": "造成1點冰元素傷害，治療我方所有角色1點，召喚臨事場域。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 334
 }

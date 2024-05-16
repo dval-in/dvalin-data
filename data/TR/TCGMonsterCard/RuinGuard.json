@@ -1,70 +1,141 @@
 {
-	"id": "RuinGuard",
-	"shareid": 3004,
-	"name": "Harabe Muhafızı",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Element Türü Yok",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SternBlow",
-			"name": "Sağlam Darbe",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SpiralClosein",
-			"name": "Yakın Mesafeli Sarmal",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir, ardından <span style=\"color:#FFFFFFFF\">Yüksek Frekanslı Sarmal Saldırı ve <span style=\"color:#FFFFFFFF\">Yüksek Hızlı Sarmal Saldırı için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama\" kullanır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Aynı Element",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SuppressiveVolley",
-			"name": "Baskılama Bombardımanı",
-			"desc": "4 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir ve rakibin alanında 1 <span style=\"color:#FFFFFFFF\">Güdümlü Füze oluşturur.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Aynı Element",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StandardArmor",
-			"name": "Standart Zırh",
-			"desc": "(Pasif) Bu karakterin aldığı <span style=\"color:#FFFFFFFF\">Fiziksel Hasar yarıya iner. (Hasar değeri yukarı yuvarlanır)",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "RuinGuard",
+  "shareid": 3004,
+  "name": "Harabe Muhafızı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "Sağlam Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Yakın Mesafeli Sarmal",
+      "desc": "1 Fiziksel Hasar verir, ardından Yüksek Frekanslı Sarmal Saldırı ve Yüksek Hızlı Sarmal Saldırı için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Baskılama Bombardımanı",
+      "desc": "4 Fiziksel Hasar verir ve rakibin alanında 1 Güdümlü Füze oluşturur.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standart Zırh",
+      "desc": "(Pasif) Bu karakterin aldığı Fiziksel Hasar yarıya iner. (Hasar değeri yukarı yuvarlanır)",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "SternBlow",
+      "name": "Sağlam Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Yakın Mesafeli Sarmal",
+      "desc": "1 Fiziksel Hasar verir, ardından Yüksek Frekanslı Sarmal Saldırı ve Yüksek Hızlı Sarmal Saldırı için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Baskılama Bombardımanı",
+      "desc": "4 Fiziksel Hasar verir ve rakibin alanında 1 Güdümlü Füze oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standart Zırh",
+      "desc": "(Pasif) Bu karakterin aldığı Fiziksel Hasar yarıya iner. (Hasar değeri yukarı yuvarlanır)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 3004
 }

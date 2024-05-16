@@ -1,33 +1,46 @@
 {
-	"id": "ShadowOfTheSandKing",
-	"shareid": 164,
-	"name": "Kum Kralının Gölgesi",
-	"title": "Vekil Nesiller: Kum Kralının Gölgesi",
-	"desc": "\"Geçmişte bilge kral ve ruhbanlar tüm kutsal kehanetleri bizzat alıp tüm topraklarda hüküm sürerlerdi.\"\\n\"Bugün, vahalarda onlar adına hüküm sürenler de tanrıların gölgeleridir.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Bu kartı kuşanan karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında bir kart çekilir. (Her Turda bir defa)",
-	"attributes": {
-		"cost": 1,
-		"costType": "Aynı Element",
-		"cardType": "Ekipman Kartı",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Aynı Element",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "GildedDreams",
-			"name": "Gilded Dreams",
-			"rarity": 5
-		},
-		"tags": ["Yadigar"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Oynadığında bir kart çekersin.<span style=\"color:#FFFFFFFF\">Bunun eklendiği karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında bir kart çekersin. (Her Turda bir defa)(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
-		}
-	],
-	"version": "4.4"
+  "id": "ShadowOfTheSandKing",
+  "shareid": 164,
+  "name": "Kum Kralının Gölgesi",
+  "title": "Vekil Nesiller: Kum Kralının Gölgesi",
+  "desc": "\"Geçmişte bilge kral ve ruhbanlar tüm kutsal kehanetleri bizzat alıp tüm topraklarda hüküm sürerlerdi.\"\\n\"Bugün, vahalarda onlar adına hüküm sürenler de tanrıların gölgeleridir.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Bu kartın eklendiği karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında</span> bir kart çekilir. (Her Turda bir defa)",
+  "attributes": {
+    "cost": 1,
+    "costType": "Aynı Element",
+    "cardType": "Ekipman Kartı",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "GildedDreams",
+      "name": "Gilded Dreams",
+      "rarity": 5
+    },
+    "tags": [
+      "Yadigar",
+      "Yadigar"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Oynadığında bir kart çekersin.Bunun eklendiği karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında bir kart çekersin. (Her Turda bir defa)(Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+    },
+    {
+      "name": "",
+      "desc": "Oynandığında bir kart çekersin. Bunun eklendiği karakter, aktif karakterin olduğunda ve rakip karakter Element Tepkimesi Hasarı aldığında bir kart çekersin. (Her Turda bir defa) (Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 164
 }

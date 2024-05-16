@@ -1,974 +1,2995 @@
 {
-	"id": "Gaming",
-	"name": "Gaming",
-	"title": "Leonine Vanguard",
-	"description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
-	"weaponType": "Claymore",
-	"element": "Pyro",
-	"gender": "Male",
-	"substat": "ATK%",
-	"affiliation": "Sword and Strongbox Secure Transport Agency",
-	"region": "Liyue",
-	"rarity": 4,
-	"birthday": "22/12",
-	"constellation": "Leo Expergiscens",
-	"domain": "Taishan Mansion",
-	"cv": {
-		"english": "Caleb Yen",
-		"chinese": "谢莹",
-		"japanese": "小松昌平",
-		"korean": "Kim Yoon-Gi"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackStellarRend",
-			"name": "Normal Attack: Stellar Rend",
-			"description": "Normal AttackPerforms up to 4 consecutive strikes.Charged AttackDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.At the end of the sequence, performs a more powerful slash. Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "1-Hit DMG",
-					"values": [
-						"83.86%",
-						"90.68%",
-						"97.51%",
-						"107.26%",
-						"114.08%",
-						"121.88%",
-						"132.61%",
-						"143.34%",
-						"154.06%",
-						"165.76%",
-						"177.46%",
-						"189.16%",
-						"200.86%",
-						"212.57%",
-						"224.27%"
-					]
-				},
-				{
-					"label": "2-Hit DMG",
-					"values": [
-						"79.04%",
-						"85.48%",
-						"91.91%",
-						"101.1%",
-						"107.54%",
-						"114.89%",
-						"125%",
-						"135.11%",
-						"145.22%",
-						"156.25%",
-						"167.28%",
-						"178.31%",
-						"189.34%",
-						"200.37%",
-						"211.4%"
-					]
-				},
-				{
-					"label": "3-Hit DMG",
-					"values": [
-						"106.65%",
-						"115.33%",
-						"124.01%",
-						"136.41%",
-						"145.09%",
-						"155.01%",
-						"168.65%",
-						"182.29%",
-						"195.93%",
-						"210.81%",
-						"225.69%",
-						"240.57%",
-						"255.45%",
-						"270.34%",
-						"285.22%"
-					]
-				},
-				{
-					"label": "4-Hit DMG",
-					"values": [
-						"127.95%",
-						"138.36%",
-						"148.78%",
-						"163.66%",
-						"174.07%",
-						"185.97%",
-						"202.34%",
-						"218.7%",
-						"235.07%",
-						"252.92%",
-						"270.78%",
-						"288.63%",
-						"306.48%",
-						"324.34%",
-						"342.19%"
-					]
-				},
-				{
-					"label": "Charged Attack Cyclic DMG",
-					"values": [
-						"62.52%",
-						"67.61%",
-						"72.7%",
-						"79.97%",
-						"85.06%",
-						"90.87%",
-						"98.87%",
-						"106.87%",
-						"114.87%",
-						"123.59%",
-						"132.31%",
-						"141.04%",
-						"149.76%",
-						"158.49%",
-						"167.21%"
-					]
-				},
-				{
-					"label": "Charged Attack Final DMG",
-					"values": [
-						"113.09%",
-						"122.29%",
-						"131.5%",
-						"144.65%",
-						"153.86%",
-						"164.37%",
-						"178.84%",
-						"193.31%",
-						"207.77%",
-						"223.55%",
-						"239.33%",
-						"255.11%",
-						"270.89%",
-						"286.67%",
-						"302.45%"
-					]
-				},
-				{
-					"label": "Charged Attack Stamina Cost",
-					"values": [
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s",
-						"40/s"
-					]
-				},
-				{
-					"label": "Max Duration",
-					"values": ["5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s", "5s"]
-				},
-				{
-					"label": "Plunge DMG",
-					"values": [
-						"64.15%",
-						"69.37%",
-						"74.59%",
-						"82.05%",
-						"87.27%",
-						"93.23%",
-						"101.44%",
-						"109.64%",
-						"117.85%",
-						"126.8%",
-						"135.75%",
-						"144.7%",
-						"153.65%",
-						"162.6%",
-						"171.55%"
-					]
-				},
-				{
-					"label": "Low/High Plunge DMG",
-					"values": [
-						"128.26% / 160.21%",
-						"138.7% / 173.25%",
-						"149.14% / 186.29%",
-						"164.06% / 204.92%",
-						"174.5% / 217.96%",
-						"186.43% / 232.86%",
-						"202.84% / 253.35%",
-						"219.24% / 273.84%",
-						"235.65% / 294.34%",
-						"253.54% / 316.69%",
-						"271.44% / 339.05%",
-						"289.34% / 361.4%",
-						"307.24% / 383.76%",
-						"325.13% / 406.11%",
-						"343.03% / 428.46%"
-					]
-				}
-			]
-		},
-		{
-			"id": "BestialAscent",
-			"name": "Bestial Ascent",
-			"description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.After Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.Plunging Attack: Charmed CloudstriderThe DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.Charmed Cloudstrider DMG is considered Plunging Attack DMG.",
-			"info": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
-			"attributes": [
-				{
-					"label": "Plunging Attack: Charmed Cloudstrider DMG",
-					"values": [
-						"230.4%",
-						"247.68%",
-						"264.96%",
-						"288%",
-						"305.28%",
-						"322.56%",
-						"345.6%",
-						"368.64%",
-						"391.68%",
-						"414.72%",
-						"437.76%",
-						"460.8%",
-						"489.6%",
-						"518.4%",
-						"547.2%"
-					]
-				},
-				{
-					"label": "HP Cost",
-					"values": [
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP",
-						"15% Max HP"
-					]
-				},
-				{
-					"label": "CD",
-					"values": ["6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s"]
-				}
-			]
-		},
-		{
-			"id": "SuannisGildedDance",
-			"name": "Suanni's Gilded Dance",
-			"description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG.After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.While Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.Each Gaming can only have 1 Man Chai on the field simultaneously.This effect will be canceled once Gaming leaves the field.",
-			"info": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
-			"attributes": [
-				{
-					"label": "Suanni Man Chai Smash DMG",
-					"values": [
-						"370.4%",
-						"398.18%",
-						"425.96%",
-						"463%",
-						"490.78%",
-						"518.56%",
-						"555.6%",
-						"592.64%",
-						"629.68%",
-						"666.72%",
-						"703.76%",
-						"740.8%",
-						"787.1%",
-						"833.4%",
-						"879.7%"
-					]
-				},
-				{
-					"label": "Skill Healing",
-					"values": [
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP",
-						"30% Max HP"
-					]
-				},
-				{
-					"label": "Wushou Stance Duration",
-					"values": [
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s"
-					]
-				},
-				{
-					"label": "CD",
-					"values": [
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s"
-					]
-				},
-				{
-					"label": "Energy Cost",
-					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "DanceOfAmity",
-			"name": "Dance of Amity",
-			"description": "After Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
-			"level": 1
-		},
-		{
-			"id": "AirOfProsperity",
-			"name": "Air of Prosperity",
-			"description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
-			"level": 4
-		},
-		{
-			"id": "TheStridingBeast",
-			"name": "The Striding Beast",
-			"description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "BringerOfBlessing",
-			"name": "Bringer of Blessing",
-			"description": "When the Suanni Man Chai from Suanni's Gilded Dance meets back up with Gaming, it will heal 15% of Gaming's HP.",
-			"level": 1
-		},
-		{
-			"id": "PlumBlossomsUnderfoot",
-			"name": "Plum Blossoms Underfoot",
-			"description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
-			"level": 2
-		},
-		{
-			"id": "AwakeningSpirit",
-			"name": "Awakening Spirit",
-			"description": "Increases the Level of Bestial Ascent by 3.Maximum upgrade level is 15.",
-			"level": 3
-		},
-		{
-			"id": "SoarAcrossMountains",
-			"name": "Soar Across Mountains",
-			"description": "When Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
-			"level": 4
-		},
-		{
-			"id": "EvildauntingRoar",
-			"name": "Evil-Daunting Roar",
-			"description": "Increases the Level of Suanni's Gilded Dance by 3.Maximum upgrade level is 15.",
-			"level": 5
-		},
-		{
-			"id": "ToTameAllBeasts",
-			"name": "To Tame All Beasts",
-			"description": "Bestial Ascent's Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Base HP",
-					"values": ["-", "957"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["-", "25"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["-", "59"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [0, 1]
-				},
-				{
-					"label": "Base HP",
-					"values": ["2460", "3175"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["65", "84"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["151", "195"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [1, 2]
-				},
-				{
-					"label": "Base HP",
-					"values": ["4755", "5264"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["126", "139"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["293", "324"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateSliver",
-				"name": "Agnidus Agate Sliver",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "Starconch",
-				"name": "Starconch",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SlimeCondensate",
-				"name": "Slime Condensate",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [2, 3]
-				},
-				{
-					"label": "Base HP",
-					"values": ["6054", "6732"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["160", "178"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["373", "414"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateFragment",
-				"name": "Agnidus Agate Fragment",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "EmperorsResolution",
-				"name": "Emperor's Resolution",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Starconch",
-				"name": "Starconch",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SlimeCondensate",
-				"name": "Slime Condensate",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [3, 4]
-				},
-				{
-					"label": "Base HP",
-					"values": ["7523", "8031"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["199", "212"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["463", "494"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateFragment",
-				"name": "Agnidus Agate Fragment",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "EmperorsResolution",
-				"name": "Emperor's Resolution",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Starconch",
-				"name": "Starconch",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SlimeSecretions",
-				"name": "Slime Secretions",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [4, 5]
-				},
-				{
-					"label": "Base HP",
-					"values": ["8821", "9329"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["233", "246"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["543", "574"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateChunk",
-				"name": "Agnidus Agate Chunk",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "EmperorsResolution",
-				"name": "Emperor's Resolution",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Starconch",
-				"name": "Starconch",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SlimeSecretions",
-				"name": "Slime Secretions",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [5, 6]
-				},
-				{
-					"label": "Base HP",
-					"values": ["10120", "10628"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["267", "281"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["623", "654"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateChunk",
-				"name": "Agnidus Agate Chunk",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "EmperorsResolution",
-				"name": "Emperor's Resolution",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Starconch",
-				"name": "Starconch",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SlimeConcentrate",
-				"name": "Slime Concentrate",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Ascend",
-					"values": [6, 7]
-				},
-				{
-					"label": "Base HP",
-					"values": ["11419", "11419"]
-				},
-				{
-					"label": "Base ATK",
-					"values": ["302", "302"]
-				},
-				{
-					"label": "Base DEF",
-					"values": ["703", "703"]
-				},
-				{
-					"label": "ATK%",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "AgnidusAgateGemstone",
-				"name": "Agnidus Agate Gemstone",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "EmperorsResolution",
-				"name": "Emperor's Resolution",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Starconch",
-				"name": "Starconch",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SlimeConcentrate",
-				"name": "Slime Concentrate",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfProsperity",
-					"name": "Teachings of Prosperity",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "SlimeCondensate",
-					"name": "Slime Condensate",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToProsperity",
-					"name": "Guide to Prosperity",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "Slime Secretions",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToProsperity",
-					"name": "Guide to Prosperity",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "Slime Secretions",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToProsperity",
-					"name": "Guide to Prosperity",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "Slime Secretions",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToProsperity",
-					"name": "Guide to Prosperity",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "Slime Secretions",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfProsperity",
-					"name": "Philosophies of Prosperity",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "Slime Concentrate",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "LightlessMass",
-					"name": "Lightless Mass",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfProsperity",
-					"name": "Philosophies of Prosperity",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "Slime Concentrate",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "LightlessMass",
-					"name": "Lightless Mass",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfProsperity",
-					"name": "Philosophies of Prosperity",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "Slime Concentrate",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "LightlessMass",
-					"name": "Lightless Mass",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfProsperity",
-					"name": "Philosophies of Prosperity",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "Slime Concentrate",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "LightlessMass",
-					"name": "Lightless Mass",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Crown of Insight",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"version": "4.5",
-	"pictures": {
-		"icon": "Character/Gaming/Icon.webp",
-		"sideIcon": "Character/Gaming/SideIcon.webp",
-		"gatchaCard": "Character/Gaming/GachaCard.webp",
-		"gachaSplash": "Character/Gaming/GachaSplash.webp",
-		"face": "Character/Gaming/Face.webp",
-		"halfFace": "Character/Gaming/HalfFace.webp",
-		"profile": "Character/Gaming/Profile.webp",
-		"weaponStance": "Character/Gaming/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "",
-	"specialDish": "YummyYumCha",
-	"tcgCharacterCard": "",
-	"outfits": []
+  "id": "Gaming",
+  "name": "Gaming",
+  "title": "Leonine Vanguard",
+  "description": "Guard of the Sword and Strongbox Secure Transport Agency, and the head of the \"Mighty Mythical Beasts\" Wushou troupe.",
+  "weaponType": "Claymore",
+  "element": "Pyro",
+  "gender": "Male",
+  "substat": "ATK%",
+  "affiliation": "Sword and Strongbox Secure Transport Agency",
+  "region": "Liyue",
+  "rarity": 4,
+  "birthday": "22/12",
+  "constellation": "Leo Expergiscens",
+  "domain": "Taishan Mansion",
+  "cv": {
+    "english": "Caleb Yen",
+    "chinese": "谢莹",
+    "japanese": "小松昌平",
+    "korean": "Kim Yoon-gi"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackStellarRend",
+      "name": "Normal Attack: Stellar Rend",
+      "description": "Normal AttackPerforms up to 4 consecutive strikes.Charged AttackDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.At the end of the sequence, performs a more powerful slash. Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "83.86%",
+            "90.68%",
+            "97.51%",
+            "107.26%",
+            "114.08%",
+            "121.88%",
+            "132.61%",
+            "143.34%",
+            "154.06%",
+            "165.76%",
+            "177.46%",
+            "189.16%",
+            "200.86%",
+            "212.57%",
+            "224.27%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "79.04%",
+            "85.48%",
+            "91.91%",
+            "101.1%",
+            "107.54%",
+            "114.89%",
+            "125%",
+            "135.11%",
+            "145.22%",
+            "156.25%",
+            "167.28%",
+            "178.31%",
+            "189.34%",
+            "200.37%",
+            "211.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "106.65%",
+            "115.33%",
+            "124.01%",
+            "136.41%",
+            "145.09%",
+            "155.01%",
+            "168.65%",
+            "182.29%",
+            "195.93%",
+            "210.81%",
+            "225.69%",
+            "240.57%",
+            "255.45%",
+            "270.34%",
+            "285.22%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "127.95%",
+            "138.36%",
+            "148.78%",
+            "163.66%",
+            "174.07%",
+            "185.97%",
+            "202.34%",
+            "218.7%",
+            "235.07%",
+            "252.92%",
+            "270.78%",
+            "288.63%",
+            "306.48%",
+            "324.34%",
+            "342.19%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.52%",
+            "67.61%",
+            "72.7%",
+            "79.97%",
+            "85.06%",
+            "90.87%",
+            "98.87%",
+            "106.87%",
+            "114.87%",
+            "123.59%",
+            "132.31%",
+            "141.04%",
+            "149.76%",
+            "158.49%",
+            "167.21%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.09%",
+            "122.29%",
+            "131.5%",
+            "144.65%",
+            "153.86%",
+            "164.37%",
+            "178.84%",
+            "193.31%",
+            "207.77%",
+            "223.55%",
+            "239.33%",
+            "255.11%",
+            "270.89%",
+            "286.67%",
+            "302.45%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "64.15%",
+            "69.37%",
+            "74.59%",
+            "82.05%",
+            "87.27%",
+            "93.23%",
+            "101.44%",
+            "109.64%",
+            "117.85%",
+            "126.8%",
+            "135.75%",
+            "144.7%",
+            "153.65%",
+            "162.6%",
+            "171.55%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "128.26% / 160.21%",
+            "138.7% / 173.25%",
+            "149.14% / 186.29%",
+            "164.06% / 204.92%",
+            "174.5% / 217.96%",
+            "186.43% / 232.86%",
+            "202.84% / 253.35%",
+            "219.24% / 273.84%",
+            "235.65% / 294.34%",
+            "253.54% / 316.69%",
+            "271.44% / 339.05%",
+            "289.34% / 361.4%",
+            "307.24% / 383.76%",
+            "325.13% / 406.11%",
+            "343.03% / 428.46%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BestialAscent",
+      "name": "Bestial Ascent",
+      "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface.After Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead.Plunging Attack: Charmed CloudstriderThe DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method.Charmed Cloudstrider DMG is considered Plunging Attack DMG.",
+      "info": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
+      "attributes": [
+        {
+          "label": "Plunging Attack: Charmed Cloudstrider DMG",
+          "values": [
+            "230.4%",
+            "247.68%",
+            "264.96%",
+            "288%",
+            "305.28%",
+            "322.56%",
+            "345.6%",
+            "368.64%",
+            "391.68%",
+            "414.72%",
+            "437.76%",
+            "460.8%",
+            "489.6%",
+            "518.4%",
+            "547.2%"
+          ]
+        },
+        {
+          "label": "HP Cost",
+          "values": [
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SuannisGildedDance",
+      "name": "Suanni's Gilded Dance",
+      "description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG.After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent.While Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again.Each Gaming can only have 1 Man Chai on the field simultaneously.This effect will be canceled once Gaming leaves the field.",
+      "info": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
+      "attributes": [
+        {
+          "label": "Suanni Man Chai Smash DMG",
+          "values": [
+            "370.4%",
+            "398.18%",
+            "425.96%",
+            "463%",
+            "490.78%",
+            "518.56%",
+            "555.6%",
+            "592.64%",
+            "629.68%",
+            "666.72%",
+            "703.76%",
+            "740.8%",
+            "787.1%",
+            "833.4%",
+            "879.7%"
+          ]
+        },
+        {
+          "label": "Skill Healing",
+          "values": [
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP"
+          ]
+        },
+        {
+          "label": "Wushou Stance Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackStellarRend",
+      "name": "Normal Attack: Stellar Rend",
+      "description": "Normal Attack Performs up to 4 consecutive strikes. Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, performs a more powerful slash. Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "83.86%",
+            "90.68%",
+            "97.51%",
+            "107.26%",
+            "114.08%",
+            "121.88%",
+            "132.61%",
+            "143.34%",
+            "154.06%",
+            "165.76%",
+            "177.46%",
+            "189.16%",
+            "200.86%",
+            "212.57%",
+            "224.27%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "79.04%",
+            "85.48%",
+            "91.91%",
+            "101.1%",
+            "107.54%",
+            "114.89%",
+            "125%",
+            "135.11%",
+            "145.22%",
+            "156.25%",
+            "167.28%",
+            "178.31%",
+            "189.34%",
+            "200.37%",
+            "211.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "106.65%",
+            "115.33%",
+            "124.01%",
+            "136.41%",
+            "145.09%",
+            "155.01%",
+            "168.65%",
+            "182.29%",
+            "195.93%",
+            "210.81%",
+            "225.69%",
+            "240.57%",
+            "255.45%",
+            "270.34%",
+            "285.22%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "127.95%",
+            "138.36%",
+            "148.78%",
+            "163.66%",
+            "174.07%",
+            "185.97%",
+            "202.34%",
+            "218.7%",
+            "235.07%",
+            "252.92%",
+            "270.78%",
+            "288.63%",
+            "306.48%",
+            "324.34%",
+            "342.19%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.52%",
+            "67.61%",
+            "72.7%",
+            "79.97%",
+            "85.06%",
+            "90.88%",
+            "98.87%",
+            "106.87%",
+            "114.87%",
+            "123.59%",
+            "132.31%",
+            "141.04%",
+            "149.76%",
+            "158.49%",
+            "167.21%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.09%",
+            "122.3%",
+            "131.5%",
+            "144.65%",
+            "153.86%",
+            "164.38%",
+            "178.84%",
+            "193.31%",
+            "207.77%",
+            "223.55%",
+            "239.33%",
+            "255.11%",
+            "270.89%",
+            "286.67%",
+            "302.45%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "64.15%",
+            "69.37%",
+            "74.59%",
+            "82.05%",
+            "87.27%",
+            "93.23%",
+            "101.44%",
+            "109.64%",
+            "117.85%",
+            "126.8%",
+            "135.75%",
+            "144.7%",
+            "153.65%",
+            "162.6%",
+            "171.55%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "128.26% / 160.21%",
+            "138.7% / 173.25%",
+            "149.14% / 186.29%",
+            "164.06% / 204.92%",
+            "174.5% / 217.96%",
+            "186.43% / 232.86%",
+            "202.84% / 253.35%",
+            "219.24% / 273.84%",
+            "235.65% / 294.34%",
+            "253.54% / 316.69%",
+            "271.44% / 339.05%",
+            "289.34% / 361.4%",
+            "307.24% / 383.76%",
+            "325.13% / 406.11%",
+            "343.03% / 428.46%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BestialAscent",
+      "name": "Bestial Ascent",
+      "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface. After Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead. Plunging Attack: Charmed Cloudstrider The DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method. Charmed Cloudstrider DMG is considered Plunging Attack DMG.",
+      "info": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
+      "attributes": [
+        {
+          "label": "Plunging Attack: Charmed Cloudstrider DMG",
+          "values": [
+            "230.4%",
+            "247.68%",
+            "264.96%",
+            "288%",
+            "305.28%",
+            "322.56%",
+            "345.6%",
+            "368.64%",
+            "391.68%",
+            "414.72%",
+            "437.76%",
+            "460.8%",
+            "489.6%",
+            "518.4%",
+            "547.2%"
+          ]
+        },
+        {
+          "label": "HP Cost",
+          "values": [
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SuannisGildedDance",
+      "name": "Suanni's Gilded Dance",
+      "description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG. After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent. While Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again. Each Gaming can only have 1 Man Chai on the field simultaneously. This effect will be canceled once Gaming leaves the field.",
+      "info": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
+      "attributes": [
+        {
+          "label": "Suanni Man Chai Smash DMG",
+          "values": [
+            "370.4%",
+            "398.18%",
+            "425.96%",
+            "463%",
+            "490.78%",
+            "518.56%",
+            "555.6%",
+            "592.64%",
+            "629.68%",
+            "666.72%",
+            "703.76%",
+            "740.8%",
+            "787.1%",
+            "833.4%",
+            "879.7%"
+          ]
+        },
+        {
+          "label": "Skill Healing",
+          "values": [
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP"
+          ]
+        },
+        {
+          "label": "Wushou Stance Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackStellarRend",
+      "name": "Normal Attack: Stellar Rend",
+      "description": "Normal Attack Performs up to 4 consecutive strikes. Charged Attack Drains Stamina over time to perform continuous spinning attacks against all nearby opponents. At the end of the sequence, performs a more powerful slash. Plunging Attack Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "1-Hit DMG",
+          "values": [
+            "83.86%",
+            "90.68%",
+            "97.51%",
+            "107.26%",
+            "114.08%",
+            "121.88%",
+            "132.61%",
+            "143.34%",
+            "154.06%",
+            "165.76%",
+            "177.46%",
+            "189.16%",
+            "200.86%",
+            "212.57%",
+            "224.27%"
+          ]
+        },
+        {
+          "label": "2-Hit DMG",
+          "values": [
+            "79.04%",
+            "85.48%",
+            "91.91%",
+            "101.1%",
+            "107.54%",
+            "114.89%",
+            "125%",
+            "135.11%",
+            "145.22%",
+            "156.25%",
+            "167.28%",
+            "178.31%",
+            "189.34%",
+            "200.37%",
+            "211.4%"
+          ]
+        },
+        {
+          "label": "3-Hit DMG",
+          "values": [
+            "106.65%",
+            "115.33%",
+            "124.01%",
+            "136.41%",
+            "145.09%",
+            "155.01%",
+            "168.65%",
+            "182.29%",
+            "195.93%",
+            "210.81%",
+            "225.69%",
+            "240.57%",
+            "255.45%",
+            "270.34%",
+            "285.22%"
+          ]
+        },
+        {
+          "label": "4-Hit DMG",
+          "values": [
+            "127.95%",
+            "138.36%",
+            "148.78%",
+            "163.66%",
+            "174.07%",
+            "185.97%",
+            "202.34%",
+            "218.7%",
+            "235.07%",
+            "252.92%",
+            "270.78%",
+            "288.63%",
+            "306.48%",
+            "324.34%",
+            "342.19%"
+          ]
+        },
+        {
+          "label": "Charged Attack Cyclic DMG",
+          "values": [
+            "62.52%",
+            "67.61%",
+            "72.7%",
+            "79.97%",
+            "85.06%",
+            "90.88%",
+            "98.87%",
+            "106.87%",
+            "114.87%",
+            "123.59%",
+            "132.31%",
+            "141.04%",
+            "149.76%",
+            "158.49%",
+            "167.21%"
+          ]
+        },
+        {
+          "label": "Charged Attack Final DMG",
+          "values": [
+            "113.09%",
+            "122.3%",
+            "131.5%",
+            "144.65%",
+            "153.86%",
+            "164.38%",
+            "178.84%",
+            "193.31%",
+            "207.77%",
+            "223.55%",
+            "239.33%",
+            "255.11%",
+            "270.89%",
+            "286.67%",
+            "302.45%"
+          ]
+        },
+        {
+          "label": "Charged Attack Stamina Cost",
+          "values": [
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s",
+            "40/s"
+          ]
+        },
+        {
+          "label": "Max Duration",
+          "values": [
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s",
+            "5s"
+          ]
+        },
+        {
+          "label": "Plunge DMG",
+          "values": [
+            "64.15%",
+            "69.37%",
+            "74.59%",
+            "82.05%",
+            "87.27%",
+            "93.23%",
+            "101.44%",
+            "109.64%",
+            "117.85%",
+            "126.8%",
+            "135.75%",
+            "144.7%",
+            "153.65%",
+            "162.6%",
+            "171.55%"
+          ]
+        },
+        {
+          "label": "Low/High Plunge DMG",
+          "values": [
+            "128.26% / 160.21%",
+            "138.7% / 173.25%",
+            "149.14% / 186.29%",
+            "164.06% / 204.92%",
+            "174.5% / 217.96%",
+            "186.43% / 232.86%",
+            "202.84% / 253.35%",
+            "219.24% / 273.84%",
+            "235.65% / 294.34%",
+            "253.54% / 316.69%",
+            "271.44% / 339.05%",
+            "289.34% / 361.4%",
+            "307.24% / 383.76%",
+            "325.13% / 406.11%",
+            "343.03% / 428.46%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BestialAscent",
+      "name": "Bestial Ascent",
+      "description": "Pounces forward using the Wushou arts, leaping high into the air after coming into contact with a target or surface. After Gaming has used Bestial Ascent to rise into the air, if he immediately uses a Plunging Attack, he will use the especially powerful Plunging Attack: Charmed Cloudstrider instead. Plunging Attack: Charmed Cloudstrider The DMG from Plunging Attacks caused by Bestial Ascent is converted to Pyro DMG that cannot be overridden by other elemental infusions. Upon landing, Gaming will consume a fixed amount of HP. Gaming's HP cannot be reduced below 10% by this method. Charmed Cloudstrider DMG is considered Plunging Attack DMG.",
+      "info": "\"Auspicious beasts leap high to pluck the greens — that symbolizes good fortune and knowing how to make some serious green, y'know — so may we all rise to new heights, one step at a time!\"",
+      "attributes": [
+        {
+          "label": "Plunging Attack: Charmed Cloudstrider DMG",
+          "values": [
+            "230.4%",
+            "247.68%",
+            "264.96%",
+            "288%",
+            "305.28%",
+            "322.56%",
+            "345.6%",
+            "368.64%",
+            "391.68%",
+            "414.72%",
+            "437.76%",
+            "460.8%",
+            "489.6%",
+            "518.4%",
+            "547.2%"
+          ]
+        },
+        {
+          "label": "HP Cost",
+          "values": [
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP",
+            "15% Max HP"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SuannisGildedDance",
+      "name": "Suanni's Gilded Dance",
+      "description": "Gaming enters Wushou Stance, briefly applying Pyro to him, recovering a fixed amount of HP, and summons his companion, the Suanni Man Chai, to smash into his target, dealing AoE Pyro DMG. After bashing its target, Man Chai will roll to a nearby location before moving towards Gaming. When it links up with Gaming, Man Chai will leave the field and reset the CD for Gaming's Elemental Skill, Bestial Ascent. While Wushou Stance is active, his resistance to interruption is increased, and when Gaming lands with Charmed Cloudstrider attack or completes the forward pounce attack from Bestial Ascent with over 50% HP, he will summon Man Chai again. Each Gaming can only have 1 Man Chai on the field simultaneously. This effect will be canceled once Gaming leaves the field.",
+      "info": "\"The gilded Suanni spits out fortune like a fireworks show! Hey, now that's what's called prosperity, when business is really 'booming'!\"",
+      "attributes": [
+        {
+          "label": "Suanni Man Chai Smash DMG",
+          "values": [
+            "370.4%",
+            "398.18%",
+            "425.96%",
+            "463%",
+            "490.78%",
+            "518.56%",
+            "555.6%",
+            "592.64%",
+            "629.68%",
+            "666.72%",
+            "703.76%",
+            "740.8%",
+            "787.1%",
+            "833.4%",
+            "879.7%"
+          ]
+        },
+        {
+          "label": "Skill Healing",
+          "values": [
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP",
+            "30% Max HP"
+          ]
+        },
+        {
+          "label": "Wushou Stance Duration",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energy Cost",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "DanceOfAmity",
+      "name": "Dance of Amity",
+      "description": "After Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+      "level": 1
+    },
+    {
+      "id": "AirOfProsperity",
+      "name": "Air of Prosperity",
+      "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+      "level": 4
+    },
+    {
+      "id": "TheStridingBeast",
+      "name": "The Striding Beast",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%.Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    },
+    {
+      "id": "DanceOfAmity",
+      "name": "Dance of Amity",
+      "description": "After Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+      "level": 1
+    },
+    {
+      "id": "AirOfProsperity",
+      "name": "Air of Prosperity",
+      "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+      "level": 4
+    },
+    {
+      "id": "TheStridingBeast",
+      "name": "The Striding Beast",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%. Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    },
+    {
+      "id": "DanceOfAmity",
+      "name": "Dance of Amity",
+      "description": "After Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, Gaming will regain 1.5% of his Max HP once every 0.2s for 0.8s.",
+      "level": 1
+    },
+    {
+      "id": "AirOfProsperity",
+      "name": "Air of Prosperity",
+      "description": "When Gaming has less than 50% HP, he will receive a 20% Incoming Healing Bonus. When Gaming has 50% HP or more, Plunging Attack: Charmed Cloudstrider will deal 20% more DMG.",
+      "level": 4
+    },
+    {
+      "id": "TheStridingBeast",
+      "name": "The Striding Beast",
+      "description": "During the day (06:00 – 18:00), your party members gain the Swift Stride effect: Movement SPD increased by 10%. Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Swift Stride does not stack.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "BringerOfBlessing",
+      "name": "Bringer of Blessing",
+      "description": "When the Suanni Man Chai from Suanni's Gilded Dance meets back up with Gaming, it will heal 15% of Gaming's HP.",
+      "level": 1
+    },
+    {
+      "id": "PlumBlossomsUnderfoot",
+      "name": "Plum Blossoms Underfoot",
+      "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+      "level": 2
+    },
+    {
+      "id": "AwakeningSpirit",
+      "name": "Awakening Spirit",
+      "description": "Increases the Level of Bestial Ascent by 3.Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "SoarAcrossMountains",
+      "name": "Soar Across Mountains",
+      "description": "When Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+      "level": 4
+    },
+    {
+      "id": "EvildauntingRoar",
+      "name": "Evil-Daunting Roar",
+      "description": "Increases the Level of Suanni's Gilded Dance by 3.Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "ToTameAllBeasts",
+      "name": "To Tame All Beasts",
+      "description": "Bestial Ascent's Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+      "level": 6
+    },
+    {
+      "id": "BringerOfBlessing",
+      "name": "Bringer of Blessing",
+      "description": "When the Suanni Man Chai from Suanni's Gilded Dance meets back up with Gaming, it will heal 15% of Gaming's HP.",
+      "level": 1
+    },
+    {
+      "id": "PlumBlossomsUnderfoot",
+      "name": "Plum Blossoms Underfoot",
+      "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+      "level": 2
+    },
+    {
+      "id": "AwakeningSpirit",
+      "name": "Awakening Spirit",
+      "description": "Increases the Level of Bestial Ascent by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "SoarAcrossMountains",
+      "name": "Soar Across Mountains",
+      "description": "When Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+      "level": 4
+    },
+    {
+      "id": "EvildauntingRoar",
+      "name": "Evil-Daunting Roar",
+      "description": "Increases the Level of Suanni's Gilded Dance by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "ToTameAllBeasts",
+      "name": "To Tame All Beasts",
+      "description": "Bestial Ascent's Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+      "level": 6
+    },
+    {
+      "id": "BringerOfBlessing",
+      "name": "Bringer of Blessing",
+      "description": "When the Suanni Man Chai from Suanni's Gilded Dance meets back up with Gaming, it will heal 15% of Gaming's HP.",
+      "level": 1
+    },
+    {
+      "id": "PlumBlossomsUnderfoot",
+      "name": "Plum Blossoms Underfoot",
+      "description": "When Gaming receives healing and this instance of healing overflows, his ATK will be increased by 20% for 5s.",
+      "level": 2
+    },
+    {
+      "id": "AwakeningSpirit",
+      "name": "Awakening Spirit",
+      "description": "Increases the Level of Bestial Ascent by 3. Maximum upgrade level is 15.",
+      "level": 3
+    },
+    {
+      "id": "SoarAcrossMountains",
+      "name": "Soar Across Mountains",
+      "description": "When Bestial Ascent's Plunging Attack: Charmed Cloudstrider hits an opponent, it will restore 2 Energy to Gaming. This effect can be triggered once every 0.2s.",
+      "level": 4
+    },
+    {
+      "id": "EvildauntingRoar",
+      "name": "Evil-Daunting Roar",
+      "description": "Increases the Level of Suanni's Gilded Dance by 3. Maximum upgrade level is 15.",
+      "level": 5
+    },
+    {
+      "id": "ToTameAllBeasts",
+      "name": "To Tame All Beasts",
+      "description": "Bestial Ascent's Plunging Attack: Charmed Cloudstrider CRIT Rate increased by 20% and CRIT DMG increased by 40%, and its attack radius will be increased.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "957"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "25"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2460",
+            "3175"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "65",
+            "84"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "151",
+            "195"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4755",
+            "5264"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "139"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "293",
+            "324"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateSliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeCondensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6054",
+            "6732"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "160",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "373",
+            "414"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeCondensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7523",
+            "8031"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "199",
+            "212"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "463",
+            "494"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeSecretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8821",
+            "9329"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "233",
+            "246"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "543",
+            "574"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeSecretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10120",
+            "10628"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "267",
+            "281"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "654"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeConcentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11419",
+            "11419"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "302"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "703",
+            "703"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateGemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeConcentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "957"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "25"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2460",
+            "3175"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "65",
+            "84"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "151",
+            "195"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4755",
+            "5264"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "139"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "293",
+            "324"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateSliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeCondensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6054",
+            "6732"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "160",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "373",
+            "414"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeCondensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7523",
+            "8031"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "199",
+            "212"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "463",
+            "494"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeSecretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8821",
+            "9329"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "233",
+            "246"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "543",
+            "574"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeSecretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10120",
+            "10628"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "267",
+            "281"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "654"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeConcentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11419",
+            "11419"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "302"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "703",
+            "703"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateGemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeConcentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "-",
+            "957"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "-",
+            "25"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "-",
+            "59"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "2460",
+            "3175"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "65",
+            "84"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "151",
+            "195"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "4755",
+            "5264"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "126",
+            "139"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "293",
+            "324"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateSliver",
+        "name": "Agnidus Agate Sliver",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeCondensate",
+        "name": "Slime Condensate",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "6054",
+            "6732"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "160",
+            "178"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "373",
+            "414"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeCondensate",
+        "name": "Slime Condensate",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "7523",
+            "8031"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "199",
+            "212"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "463",
+            "494"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateFragment",
+        "name": "Agnidus Agate Fragment",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeSecretions",
+        "name": "Slime Secretions",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "8821",
+            "9329"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "233",
+            "246"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "543",
+            "574"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeSecretions",
+        "name": "Slime Secretions",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "10120",
+            "10628"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "267",
+            "281"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "623",
+            "654"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateChunk",
+        "name": "Agnidus Agate Chunk",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeConcentrate",
+        "name": "Slime Concentrate",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Base HP",
+          "values": [
+            "11419",
+            "11419"
+          ]
+        },
+        {
+          "label": "Base ATK",
+          "values": [
+            "302",
+            "302"
+          ]
+        },
+        {
+          "label": "Base DEF",
+          "values": [
+            "703",
+            "703"
+          ]
+        },
+        {
+          "label": "ATK%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "AgnidusAgateGemstone",
+        "name": "Agnidus Agate Gemstone",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "EmperorsResolution",
+        "name": "Emperor's Resolution",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Starconch",
+        "name": "Starconch",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SlimeConcentrate",
+        "name": "Slime Concentrate",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfProsperity",
+          "name": "Teachings of Prosperity",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToProsperity",
+          "name": "Guide to Prosperity",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToProsperity",
+          "name": "Guide to Prosperity",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToProsperity",
+          "name": "Guide to Prosperity",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToProsperity",
+          "name": "Guide to Prosperity",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfProsperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "LightlessMass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfProsperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "LightlessMass",
+          "name": "Lightless Mass",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfProsperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LightlessMass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfProsperity",
+          "name": "Philosophies of Prosperity",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "Slime Concentrate",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "LightlessMass",
+          "name": "Lightless Mass",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Crown of Insight",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "pictures": {
+    "icon": "Character/Gaming/Icon.webp",
+    "sideIcon": "Character/Gaming/SideIcon.webp",
+    "gatchaCard": "Character/Gaming/GachaCard.webp",
+    "gachaSplash": "Character/Gaming/GachaSplash.webp",
+    "face": "Character/Gaming/Face.webp",
+    "halfFace": "Character/Gaming/HalfFace.webp",
+    "profile": "Character/Gaming/Profile.webp",
+    "weaponStance": "Character/Gaming/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "",
+  "specialDish": "YummyYumCha",
+  "tcgCharacterCard": "",
+  "outfits": [],
+  "release": 1706565600
 }

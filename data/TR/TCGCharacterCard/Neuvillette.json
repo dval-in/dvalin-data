@@ -1,68 +1,198 @@
 {
-	"id": "Neuvillette",
-	"shareid": 335,
-	"name": "Neuvillette",
-	"title": "\"Kaçınılmaz Yargı\" Neuvillette",
-	"desc": "Kibirlileri hakir gören yargıç.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Su",
-		"weapon": "Katalizör",
-		"faction": ["Fontaine"],
-		"source": "Neuvillette'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
-	},
-	"skills": [
-		{
-			"id": "AsWaterSeeksEquilibrium",
-			"name": "Suyun Dengesi",
-			"desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OTearsIShallRepay",
-			"name": "Baki Kalan Gözyaşları",
-			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Kaynak Suyu Damlacığı oluşturur.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OTidesIHaveReturned",
-			"name": "Metcezir, Geri Döndüm",
-			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Delme Hasarı verir ve 2 Kullanım Hakkı olan bir <span style=\"color:#FFFFFFFF\">Kaynak Suyu Damlacığı oluşturur.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Neuvillette",
+  "shareid": 335,
+  "name": "Neuvillette",
+  "title": "\"Kaçınılmaz Yargı\" Neuvillette",
+  "desc": "Kibirlileri hakir gören yargıç.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Katalizör",
+    "faction": [
+      "Fontaine",
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "Neuvillette'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Neuvillette",
+      "name": "Neuvillette",
+      "rarity": 5
+    },
+    "talentCard": {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Heir to the Ancient Sea's Authority"
+    }
+  },
+  "skills": [
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Suyun Dengesi",
+      "desc": "1 Su Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "Baki Kalan Gözyaşları",
+      "desc": "2 Su Hasarı verir ve 1 Kaynak Suyu Damlacığı oluşturur.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "Metcezir, Geri Döndüm",
+      "desc": "2 Su Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 2 Kullanım Hakkı olan bir Kaynak Suyu Damlacığı oluşturur.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Suyun Dengesi",
+      "desc": "1 Su Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "Baki Kalan Gözyaşları",
+      "desc": "2 Su Hasarı verir ve 1 Kaynak Suyu Damlacığı oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "Metcezir, Geri Döndüm",
+      "desc": "2 Su Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 2 Kullanım Hakkı olan bir Kaynak Suyu Damlacığı oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Suyun Dengesi",
+      "desc": "1 Su Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "Baki Kalan Gözyaşları",
+      "desc": "2 Su Hasarı verir ve 1 Kaynak Suyu Damlacığı oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "Metcezir, Geri Döndüm",
+      "desc": "2 Su Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 2 Kullanım Hakkı olan bir Kaynak Suyu Damlacığı oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 335
 }

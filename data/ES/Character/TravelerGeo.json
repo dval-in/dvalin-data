@@ -1,935 +1,1932 @@
 {
-	"id": "TravelerGeo",
-	"name": "Viajero (Geo)",
-	"description": "Un viajero de otro mundo al que arrebataron su única familia, y que se vio obligado a embarcarse en un viaje en busca de Los Siete.",
-	"weaponType": "Espada ligera",
-	"element": "Geo",
-	"gender": "Masculino/Femenino",
-	"substat": "ATQ%",
-	"affiliation": "—",
-	"rarity": 5,
-	"birthday": "null/null",
-	"constellation": "Viator",
-	"domain": "Mansión Taishan",
-	"cv": {
-		"english": "Zach Aguilar & Corina Boettger",
-		"chinese": "鹿喑&多多poi",
-		"japanese": "堀江瞬&古賀葵",
-		"korean": "Lee Kyeong-tae & Kim Ka-ryoung"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackForeignRockblade",
-			"name": "Ataque Normal: Espada de piedra extranjera",
-			"description": "Ataque NormalRealiza hasta 5 ataques consecutivos con espada.Ataque CargadoConsume cierta cantidad de Aguante para desatar un doble golpe de espada.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "Daño de 1er golpe",
-					"values": [
-						"44.46%",
-						"48.08%",
-						"51.7%",
-						"56.87%",
-						"60.49%",
-						"64.63%",
-						"70.31%",
-						"76%",
-						"81.69%",
-						"87.89%",
-						"94.09%",
-						"100.3%",
-						"106.5%",
-						"112.71%",
-						"118.91%"
-					]
-				},
-				{
-					"label": "Daño de 2.º golpe",
-					"values": [
-						"43.43%",
-						"46.97%",
-						"50.5%",
-						"55.55%",
-						"59.08%",
-						"63.13%",
-						"68.68%",
-						"74.23%",
-						"79.79%",
-						"85.85%",
-						"91.91%",
-						"97.97%",
-						"104.03%",
-						"110.09%",
-						"116.15%"
-					]
-				},
-				{
-					"label": "Daño de 3er golpe",
-					"values": [
-						"52.98%",
-						"57.29%",
-						"61.6%",
-						"67.76%",
-						"72.07%",
-						"77%",
-						"83.78%",
-						"90.55%",
-						"97.33%",
-						"104.72%",
-						"112.11%",
-						"119.5%",
-						"126.9%",
-						"134.29%",
-						"141.68%"
-					]
-				},
-				{
-					"label": "Daño de 4.º golpe",
-					"values": [
-						"58.31%",
-						"63.05%",
-						"67.8%",
-						"74.58%",
-						"79.33%",
-						"84.75%",
-						"92.21%",
-						"99.67%",
-						"107.12%",
-						"115.26%",
-						"123.4%",
-						"131.53%",
-						"139.67%",
-						"147.8%",
-						"155.94%"
-					]
-				},
-				{
-					"label": "Daño de 5.º golpe",
-					"values": [
-						"70.78%",
-						"76.54%",
-						"82.3%",
-						"90.53%",
-						"96.29%",
-						"102.87%",
-						"111.93%",
-						"120.98%",
-						"130.03%",
-						"139.91%",
-						"149.79%",
-						"159.66%",
-						"169.54%",
-						"179.41%",
-						"189.29%"
-					]
-				},
-				{
-					"label": "Daño de ATQ Cargado",
-					"values": [
-						"55.9% + 60.72%",
-						"60.45% + 65.66%",
-						"65% + 70.6%",
-						"71.5% + 77.66%",
-						"76.05% + 82.6%",
-						"81.25% + 88.25%",
-						"88.4% + 96.02%",
-						"95.55% + 103.78%",
-						"102.7% + 111.55%",
-						"110.5% + 120.02%",
-						"118.3% + 128.49%",
-						"126.1% + 136.96%",
-						"133.9% + 145.44%",
-						"141.7% + 153.91%",
-						"149.5% + 162.38%"
-					]
-				},
-				{
-					"label": "Coste de Aguante de ATQ Cargado",
-					"values": [
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts.",
-						"20 pts."
-					]
-				},
-				{
-					"label": "Daño de Caída",
-					"values": [
-						"63.93%",
-						"69.14%",
-						"74.34%",
-						"81.77%",
-						"86.98%",
-						"92.93%",
-						"101.1%",
-						"109.28%",
-						"117.46%",
-						"126.38%",
-						"135.3%",
-						"144.22%",
-						"153.14%",
-						"162.06%",
-						"170.98%"
-					]
-				},
-				{
-					"label": "Daño de impacto de caída baja/alta",
-					"values": [
-						"127.84% / 159.68%",
-						"138.24% / 172.67%",
-						"148.65% / 185.67%",
-						"163.51% / 204.24%",
-						"173.92% / 217.23%",
-						"185.81% / 232.09%",
-						"202.16% / 252.51%",
-						"218.51% / 272.93%",
-						"234.86% / 293.36%",
-						"252.7% / 315.64%",
-						"270.54% / 337.92%",
-						"288.38% / 360.2%",
-						"306.22% / 382.48%",
-						"324.05% / 404.76%",
-						"341.89% / 427.04%"
-					]
-				}
-			]
-		},
-		{
-			"id": "StarfellSword",
-			"name": "Espada estrellacaída",
-			"description": "Invoca un meteorito de las profundidades de la tierra, infligiendo Daño Geo en el AdE.El meteorito es considerado una creación Geo, y puede escalarse o usarse para bloquear ataques.Mantener pulsadoAjusta la posición sobre la que se coloca la habilidad",
-			"info": "Hablaste con Paimon sobre el destino final de las estrellas fugaces.",
-			"attributes": [
-				{
-					"label": "Daño de habilidad",
-					"values": [
-						"248%",
-						"266.6%",
-						"285.2%",
-						"310%",
-						"328.6%",
-						"347.2%",
-						"372%",
-						"396.8%",
-						"421.6%",
-						"446.4%",
-						"471.2%",
-						"496%",
-						"527%",
-						"558%",
-						"589%"
-					]
-				},
-				{
-					"label": "Duración del meteorito",
-					"values": [
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s",
-						"30 s"
-					]
-				},
-				{
-					"label": "TdE",
-					"values": [
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s",
-						"8 s"
-					]
-				}
-			]
-		},
-		{
-			"id": "WakeOfEarth",
-			"name": "Despertar de la Tierra",
-			"description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra.Inflige Daño Geo en el AdE a todos los enemigos a los que alcanza.Tras ello, crea crestas de piedra que se levantan abruptamente en el límite de la onda.Las crestas de piedra se consideran creaciones Geo, y pueden usarse para bloquear ataques.",
-			"info": "Investigaste con Paimon la vibración de las montañas.",
-			"attributes": [
-				{
-					"label": "Daño por cada onda expansiva",
-					"values": [
-						"148%",
-						"159.1%",
-						"170.2%",
-						"185%",
-						"196.1%",
-						"207.2%",
-						"222%",
-						"236.8%",
-						"251.6%",
-						"266.4%",
-						"281.2%",
-						"296%",
-						"314.5%",
-						"333%",
-						"351.5%"
-					]
-				},
-				{
-					"label": "Duración de las crestas de piedra",
-					"values": [
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s"
-					]
-				},
-				{
-					"label": "TdE",
-					"values": [
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s",
-						"15 s"
-					]
-				},
-				{
-					"label": "Energía Elemental",
-					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "ShatteredDarkrock",
-			"name": "Roca quebrada",
-			"description": "Disminuye el TdE de Espada estrellacaída en 2 s.",
-			"level": 1
-		},
-		{
-			"id": "FrenziedRockslide",
-			"name": "Roca turbulenta",
-			"description": "El último golpe del Ataque Normal provoca una destrucción que inflige un 60% de Daño Geo a los enemigos dentro del AdE.",
-			"level": 4
-		}
-	],
-	"constellations": [
-		{
-			"id": "InvincibleStonewall",
-			"name": "Muro inquebrantable",
-			"description": "Aumenta en un 10% la Prob. CRIT de todos los miembros del equipo que estén en el radio de Despertar de la Tierra, y aumenta su RES a interrupción.",
-			"level": 1
-		},
-		{
-			"id": "RockcoreMeltdown",
-			"name": "Fusión de lava",
-			"description": "El meteorito de Espada estrellacaída explota de nuevo cuando es destruido, causando Daño Geo en el AdE adicional equivalente al daño de Espada estrellacaída.",
-			"level": 2
-		},
-		{
-			"id": "WillOfTheRock",
-			"name": "Voluntad pétrea",
-			"description": "Aumenta el nivel de habilidad de Despertar de la Tierra +3.Puede ser aumentado hasta Niv. 15.",
-			"level": 3
-		},
-		{
-			"id": "ReactionForce",
-			"name": "Fuerza de reacción",
-			"description": "Al golpear al enemigo con una onda expansiva de Despertar de la Tierra, recuperas 5 pts. de Energía Elemental.Puedes recuperar hasta 25 pts. de energía de esta forma.",
-			"level": 4
-		},
-		{
-			"id": "MeteoriteImpact",
-			"name": "Impacto meteórico",
-			"description": "Aumenta el nivel de habilidad de Espada estrellacaída +3.Puede ser aumentado hasta Niv. 15.",
-			"level": 5
-		},
-		{
-			"id": "EverlastingBoulder",
-			"name": "Bloque eterno",
-			"description": "Extiende la duración de las crestas de piedra de Despertar de la Tierra en 5 s.Extiende la duración del meteorito de Espada estrellacaída en 10 s.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["-", "912"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["-", "18"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["-", "57"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [0, 1]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["2342", "3024"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["46", "59"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["147", "190"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [1, 2]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["4529", "5013"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["88", "98"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["284", "315"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "BrilliantDiamondSliver",
-				"name": "Pedacito de diamante brillante",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "WindwheelAster",
-				"name": "Margarita voladora",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "DamagedMask",
-				"name": "Máscara dañada",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [2, 3]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["5766", "6411"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["113", "125"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["362", "402"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "BrilliantDiamondFragment",
-				"name": "Trozo de diamante brillante",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat3": {
-				"id": "WindwheelAster",
-				"name": "Margarita voladora",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "DamagedMask",
-				"name": "Máscara dañada",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [3, 4]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["7164", "7648"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["140", "149"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["450", "480"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "BrilliantDiamondFragment",
-				"name": "Trozo de diamante brillante",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat3": {
-				"id": "WindwheelAster",
-				"name": "Margarita voladora",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "StainedMask",
-				"name": "Máscara sucia",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [4, 5]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["8401", "8885"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["164", "174"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["527", "558"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "BrilliantDiamondChunk",
-				"name": "Fragmento de diamante brillante",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "WindwheelAster",
-				"name": "Margarita voladora",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "StainedMask",
-				"name": "Máscara sucia",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [5, 6]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["9638", "10122"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["188", "198"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["605", "635"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "BrilliantDiamondChunk",
-				"name": "Fragmento de diamante brillante",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "WindwheelAster",
-				"name": "Margarita voladora",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "OminousMask",
-				"name": "Máscara amenazante",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [6, 7]
-				},
-				{
-					"label": "Vida Base",
-					"values": ["10875", "10875"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["212", "212"]
-				},
-				{
-					"label": "DEF Base",
-					"values": ["683", "683"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "BrilliantDiamondGemstone",
-				"name": "Diamante brillante",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat3": {
-				"id": "WindwheelAster",
-				"name": "Margarita voladora",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "OminousMask",
-				"name": "Máscara amenazante",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfProsperity",
-					"name": "Enseñanzas de la prosperidad",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Flecha robusta",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToDiligence",
-					"name": "Guía del esfuerzo",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Flecha afilada",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToGold",
-					"name": "Guía del oro",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Flecha afilada",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToProsperity",
-					"name": "Guía de la prosperidad",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Flecha afilada",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToDiligence",
-					"name": "Guía del esfuerzo",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Flecha afilada",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfGold",
-					"name": "Filosofía del oro",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Flecha veterana",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "TailOfBoreas",
-					"name": "Cola de Boreas",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfProsperity",
-					"name": "Filosofía de la prosperidad",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Flecha veterana",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "TailOfBoreas",
-					"name": "Cola de Boreas",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfDiligence",
-					"name": "Filosofía del esfuerzo",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Flecha veterana",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "TailOfBoreas",
-					"name": "Cola de Boreas",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfGold",
-					"name": "Filosofía del oro",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Flecha veterana",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "TailOfBoreas",
-					"name": "Cola de Boreas",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Corona de la sabiduría",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Traveler/Icon.webp",
-		"sideIcon": "Character/Traveler/SideIcon.webp",
-		"gatchaCard": "Character/Traveler/GachaCard.webp",
-		"gachaSplash": "",
-		"face": "",
-		"halfFace": "",
-		"profile": "",
-		"weaponStance": ""
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "",
-	"specialDish": "",
-	"tcgCharacterCard": "",
-	"outfits": [
-		{
-			"id": "RisingStar",
-			"name": "Estrella en ascenso",
-			"description": "Modelo de vestimenta de la viajera(del viajero). Esta cómoda ropa te acompañará en tu largo viaje por el mundo.",
-			"picture": "Character/Traveler/Outfit/RisingStar.webp"
-		}
-	]
+  "id": "TravelerGeo",
+  "name": "Viajero (Geo)",
+  "description": "Un viajero de otro mundo al que arrebataron su única familia, y que se vio obligado a embarcarse en un viaje en busca de Los Siete.",
+  "weaponType": "Espada ligera",
+  "element": "Geo",
+  "gender": "Masculino/Femenino",
+  "substat": "ATQ%",
+  "affiliation": "—",
+  "rarity": 5,
+  "birthday": "null/null",
+  "constellation": "Viator",
+  "domain": "Mansión Taishan",
+  "cv": {
+    "english": "Zach Aguilar & Corina Boettger",
+    "chinese": "鹿喑&多多poi",
+    "japanese": "堀江瞬&古賀葵",
+    "korean": "Lee Kyeong-tae & Kim Ka-ryoung"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackForeignRockblade",
+      "name": "Ataque Normal: Espada de piedra extranjera",
+      "description": "Ataque NormalRealiza hasta 5 ataques consecutivos con espada.Ataque CargadoConsume cierta cantidad de Aguante para desatar un doble golpe de espada.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%",
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.08%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%",
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        },
+        {
+          "label": "Daño de 4.º golpe",
+          "values": [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%",
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        },
+        {
+          "label": "Daño de 5.º golpe",
+          "values": [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.87%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "StarfellSword",
+      "name": "Espada estrellacaída",
+      "description": "Invoca un meteorito de las profundidades de la tierra, infligiendo Daño Geo en el AdE.El meteorito es considerado una creación Geo, y puede escalarse o usarse para bloquear ataques.Mantener pulsadoAjusta la posición sobre la que se coloca la habilidad",
+      "info": "Hablaste con Paimon sobre el destino final de las estrellas fugaces.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "248%",
+            "266.6%",
+            "285.2%",
+            "310%",
+            "328.6%",
+            "347.2%",
+            "372%",
+            "396.8%",
+            "421.6%",
+            "446.4%",
+            "471.2%",
+            "496%",
+            "527%",
+            "558%",
+            "589%"
+          ]
+        },
+        {
+          "label": "Duración del meteorito",
+          "values": [
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WakeOfEarth",
+      "name": "Despertar de la Tierra",
+      "description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra.Inflige Daño Geo en el AdE a todos los enemigos a los que alcanza.Tras ello, crea crestas de piedra que se levantan abruptamente en el límite de la onda.Las crestas de piedra se consideran creaciones Geo, y pueden usarse para bloquear ataques.",
+      "info": "Investigaste con Paimon la vibración de las montañas.",
+      "attributes": [
+        {
+          "label": "Daño por cada onda expansiva",
+          "values": [
+            "148%",
+            "159.1%",
+            "170.2%",
+            "185%",
+            "196.1%",
+            "207.2%",
+            "222%",
+            "236.8%",
+            "251.6%",
+            "266.4%",
+            "281.2%",
+            "296%",
+            "314.5%",
+            "333%",
+            "351.5%"
+          ]
+        },
+        {
+          "label": "Duración de las crestas de piedra",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackForeignRockblade",
+      "name": "Ataque Normal: Espada de piedra extranjera",
+      "description": "Ataque Normal Realiza hasta 5 ataques consecutivos con espada. Ataque Cargado Consume cierta cantidad de Aguante para desatar un doble golpe de espada. Ataque Descendente Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Daño de 1er golpe",
+          "values": [
+            "44.46%",
+            "48.08%",
+            "51.7%",
+            "56.87%",
+            "60.49%",
+            "64.63%",
+            "70.31%",
+            "76%",
+            "81.69%",
+            "87.89%",
+            "94.09%",
+            "100.3%",
+            "106.5%",
+            "112.71%",
+            "118.91%"
+          ]
+        },
+        {
+          "label": "Daño de 2.º golpe",
+          "values": [
+            "43.43%",
+            "46.97%",
+            "50.5%",
+            "55.55%",
+            "59.09%",
+            "63.13%",
+            "68.68%",
+            "74.23%",
+            "79.79%",
+            "85.85%",
+            "91.91%",
+            "97.97%",
+            "104.03%",
+            "110.09%",
+            "116.15%"
+          ]
+        },
+        {
+          "label": "Daño de 3er golpe",
+          "values": [
+            "52.98%",
+            "57.29%",
+            "61.6%",
+            "67.76%",
+            "72.07%",
+            "77%",
+            "83.78%",
+            "90.55%",
+            "97.33%",
+            "104.72%",
+            "112.11%",
+            "119.5%",
+            "126.9%",
+            "134.29%",
+            "141.68%"
+          ]
+        },
+        {
+          "label": "Daño de 4.º golpe",
+          "values": [
+            "58.31%",
+            "63.05%",
+            "67.8%",
+            "74.58%",
+            "79.33%",
+            "84.75%",
+            "92.21%",
+            "99.67%",
+            "107.12%",
+            "115.26%",
+            "123.4%",
+            "131.53%",
+            "139.67%",
+            "147.8%",
+            "155.94%"
+          ]
+        },
+        {
+          "label": "Daño de 5.º golpe",
+          "values": [
+            "70.78%",
+            "76.54%",
+            "82.3%",
+            "90.53%",
+            "96.29%",
+            "102.88%",
+            "111.93%",
+            "120.98%",
+            "130.03%",
+            "139.91%",
+            "149.79%",
+            "159.66%",
+            "169.54%",
+            "179.41%",
+            "189.29%"
+          ]
+        },
+        {
+          "label": "Daño de ATQ Cargado",
+          "values": [
+            "55.9% + 60.72%",
+            "60.45% + 65.66%",
+            "65% + 70.6%",
+            "71.5% + 77.66%",
+            "76.05% + 82.6%",
+            "81.25% + 88.25%",
+            "88.4% + 96.02%",
+            "95.55% + 103.78%",
+            "102.7% + 111.55%",
+            "110.5% + 120.02%",
+            "118.3% + 128.49%",
+            "126.1% + 136.96%",
+            "133.9% + 145.44%",
+            "141.7% + 153.91%",
+            "149.5% + 162.38%"
+          ]
+        },
+        {
+          "label": "Coste de Aguante de ATQ Cargado",
+          "values": [
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts.",
+            "20 pts."
+          ]
+        },
+        {
+          "label": "Daño de Caída",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.92%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Daño de impacto de caída baja/alta",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "StarfellSword",
+      "name": "Espada estrellacaída",
+      "description": "Invoca un meteorito de las profundidades de la tierra, infligiendo Daño Geo en el AdE. El meteorito es considerado una creación Geo, y puede escalarse o usarse para bloquear ataques. Mantener pulsado Ajusta la posición sobre la que se coloca la habilidad",
+      "info": "Hablaste con Paimon sobre el destino final de las estrellas fugaces.",
+      "attributes": [
+        {
+          "label": "Daño de habilidad",
+          "values": [
+            "248%",
+            "266.6%",
+            "285.2%",
+            "310%",
+            "328.6%",
+            "347.2%",
+            "372%",
+            "396.8%",
+            "421.6%",
+            "446.4%",
+            "471.2%",
+            "496%",
+            "527%",
+            "558%",
+            "589%"
+          ]
+        },
+        {
+          "label": "Duración del meteorito",
+          "values": [
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s",
+            "30 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s",
+            "8 s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WakeOfEarth",
+      "name": "Despertar de la Tierra",
+      "description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra. Inflige Daño Geo en el AdE a todos los enemigos a los que alcanza. Tras ello, crea crestas de piedra que se levantan abruptamente en el límite de la onda. Las crestas de piedra se consideran creaciones Geo, y pueden usarse para bloquear ataques.",
+      "info": "Investigaste con Paimon la vibración de las montañas.",
+      "attributes": [
+        {
+          "label": "Daño por cada onda expansiva",
+          "values": [
+            "148%",
+            "159.1%",
+            "170.2%",
+            "185%",
+            "196.1%",
+            "207.2%",
+            "222%",
+            "236.8%",
+            "251.6%",
+            "266.4%",
+            "281.2%",
+            "296%",
+            "314.5%",
+            "333%",
+            "351.5%"
+          ]
+        },
+        {
+          "label": "Duración de las crestas de piedra",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "TdE",
+          "values": [
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s",
+            "15 s"
+          ]
+        },
+        {
+          "label": "Energía Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "ShatteredDarkrock",
+      "name": "Roca quebrada",
+      "description": "Disminuye el TdE de Espada estrellacaída en 2 s.",
+      "level": 1
+    },
+    {
+      "id": "FrenziedRockslide",
+      "name": "Roca turbulenta",
+      "description": "El último golpe del Ataque Normal provoca una destrucción que inflige un 60% de Daño Geo a los enemigos dentro del AdE.",
+      "level": 4
+    },
+    {
+      "id": "ShatteredDarkrock",
+      "name": "Roca quebrada",
+      "description": "Disminuye el TdE de Espada estrellacaída en 2 s.",
+      "level": 1
+    },
+    {
+      "id": "FrenziedRockslide",
+      "name": "Roca turbulenta",
+      "description": "El último golpe del Ataque Normal provoca una destrucción que inflige un 60% de Daño Geo a los enemigos dentro del AdE.",
+      "level": 4
+    }
+  ],
+  "constellations": [
+    {
+      "id": "InvincibleStonewall",
+      "name": "Muro inquebrantable",
+      "description": "Aumenta en un 10% la Prob. CRIT de todos los miembros del equipo que estén en el radio de Despertar de la Tierra, y aumenta su RES a interrupción.",
+      "level": 1
+    },
+    {
+      "id": "RockcoreMeltdown",
+      "name": "Fusión de lava",
+      "description": "El meteorito de Espada estrellacaída explota de nuevo cuando es destruido, causando Daño Geo en el AdE adicional equivalente al daño de Espada estrellacaída.",
+      "level": 2
+    },
+    {
+      "id": "WillOfTheRock",
+      "name": "Voluntad pétrea",
+      "description": "Aumenta el nivel de habilidad de Despertar de la Tierra +3.Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "id": "ReactionForce",
+      "name": "Fuerza de reacción",
+      "description": "Al golpear al enemigo con una onda expansiva de Despertar de la Tierra, recuperas 5 pts. de Energía Elemental.Puedes recuperar hasta 25 pts. de energía de esta forma.",
+      "level": 4
+    },
+    {
+      "id": "MeteoriteImpact",
+      "name": "Impacto meteórico",
+      "description": "Aumenta el nivel de habilidad de Espada estrellacaída +3.Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "id": "EverlastingBoulder",
+      "name": "Bloque eterno",
+      "description": "Extiende la duración de las crestas de piedra de Despertar de la Tierra en 5 s.Extiende la duración del meteorito de Espada estrellacaída en 10 s.",
+      "level": 6
+    },
+    {
+      "id": "InvincibleStonewall",
+      "name": "Muro inquebrantable",
+      "description": "Aumenta en un 10% la Prob. CRIT de todos los miembros del equipo que estén en el radio de Despertar de la Tierra, y aumenta su RES a interrupción.",
+      "level": 1
+    },
+    {
+      "id": "RockcoreMeltdown",
+      "name": "Fusión de lava",
+      "description": "El meteorito de Espada estrellacaída explota de nuevo cuando es destruido, causando Daño Geo en el AdE adicional equivalente al daño de Espada estrellacaída.",
+      "level": 2
+    },
+    {
+      "id": "WillOfTheRock",
+      "name": "Voluntad pétrea",
+      "description": "Aumenta el nivel de habilidad de Despertar de la Tierra +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 3
+    },
+    {
+      "id": "ReactionForce",
+      "name": "Fuerza de reacción",
+      "description": "Al golpear al enemigo con una onda expansiva de Despertar de la Tierra, recuperas 5 pts. de Energía Elemental. Puedes recuperar hasta 25 pts. de energía de esta forma.",
+      "level": 4
+    },
+    {
+      "id": "MeteoriteImpact",
+      "name": "Impacto meteórico",
+      "description": "Aumenta el nivel de habilidad de Espada estrellacaída +3. Puede ser aumentado hasta Niv. 15.",
+      "level": 5
+    },
+    {
+      "id": "EverlastingBoulder",
+      "name": "Bloque eterno",
+      "description": "Extiende la duración de las crestas de piedra de Despertar de la Tierra en 5 s. Extiende la duración del meteorito de Espada estrellacaída en 10 s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "-",
+            "912"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "-",
+            "57"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "2342",
+            "3024"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "46",
+            "59"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "147",
+            "190"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "4529",
+            "5013"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "88",
+            "98"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "284",
+            "315"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondSliver",
+        "name": "Pedacito de diamante brillante",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DamagedMask",
+        "name": "Máscara dañada",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "5766",
+            "6411"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "113",
+            "125"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "362",
+            "402"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondFragment",
+        "name": "Trozo de diamante brillante",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DamagedMask",
+        "name": "Máscara dañada",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "7164",
+            "7648"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "140",
+            "149"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "450",
+            "480"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondFragment",
+        "name": "Trozo de diamante brillante",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "StainedMask",
+        "name": "Máscara sucia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "8401",
+            "8885"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "164",
+            "174"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "527",
+            "558"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondChunk",
+        "name": "Fragmento de diamante brillante",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "StainedMask",
+        "name": "Máscara sucia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "9638",
+            "10122"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "188",
+            "198"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "605",
+            "635"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondChunk",
+        "name": "Fragmento de diamante brillante",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "OminousMask",
+        "name": "Máscara amenazante",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "10875",
+            "10875"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "212",
+            "212"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "683",
+            "683"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondGemstone",
+        "name": "Diamante brillante",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "OminousMask",
+        "name": "Máscara amenazante",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "-",
+            "912"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "-",
+            "57"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "2342",
+            "3024"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "46",
+            "59"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "147",
+            "190"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "4529",
+            "5013"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "88",
+            "98"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "284",
+            "315"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondSliver",
+        "name": "Pedacito de diamante brillante",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DamagedMask",
+        "name": "Máscara dañada",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "5766",
+            "6411"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "113",
+            "125"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "362",
+            "402"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondFragment",
+        "name": "Trozo de diamante brillante",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "DamagedMask",
+        "name": "Máscara dañada",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "7164",
+            "7648"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "140",
+            "149"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "450",
+            "480"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondFragment",
+        "name": "Trozo de diamante brillante",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "StainedMask",
+        "name": "Máscara sucia",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "8401",
+            "8885"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "164",
+            "174"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "527",
+            "558"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondChunk",
+        "name": "Fragmento de diamante brillante",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "StainedMask",
+        "name": "Máscara sucia",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "9638",
+            "10122"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "188",
+            "198"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "605",
+            "635"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondChunk",
+        "name": "Fragmento de diamante brillante",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "OminousMask",
+        "name": "Máscara amenazante",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Vida Base",
+          "values": [
+            "10875",
+            "10875"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "212",
+            "212"
+          ]
+        },
+        {
+          "label": "DEF Base",
+          "values": [
+            "683",
+            "683"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "BrilliantDiamondGemstone",
+        "name": "Diamante brillante",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat3": {
+        "id": "WindwheelAster",
+        "name": "Margarita voladora",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "OminousMask",
+        "name": "Máscara amenazante",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfProsperity",
+          "name": "Enseñanzas de la prosperidad",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Flecha robusta",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToDiligence",
+          "name": "Guía del esfuerzo",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Flecha afilada",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToGold",
+          "name": "Guía del oro",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Flecha afilada",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToProsperity",
+          "name": "Guía de la prosperidad",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Flecha afilada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToDiligence",
+          "name": "Guía del esfuerzo",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Flecha afilada",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfGold",
+          "name": "Filosofía del oro",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Flecha veterana",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "TailOfBoreas",
+          "name": "Cola de Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfProsperity",
+          "name": "Filosofía de la prosperidad",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Flecha veterana",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TailOfBoreas",
+          "name": "Cola de Boreas",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfDiligence",
+          "name": "Filosofía del esfuerzo",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Flecha veterana",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "TailOfBoreas",
+          "name": "Cola de Boreas",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfGold",
+          "name": "Filosofía del oro",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Flecha veterana",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "TailOfBoreas",
+          "name": "Cola de Boreas",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Corona de la sabiduría",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Traveler/Icon.webp",
+    "sideIcon": "Character/Traveler/SideIcon.webp",
+    "gatchaCard": "Character/Traveler/GachaCard.webp",
+    "gachaSplash": "",
+    "face": "",
+    "halfFace": "",
+    "profile": "",
+    "weaponStance": ""
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "",
+  "specialDish": "",
+  "tcgCharacterCard": "",
+  "outfits": [
+    {
+      "id": "RisingStar",
+      "name": "Estrella en ascenso",
+      "description": "Modelo de vestimenta de la viajera(del viajero). Esta cómoda ropa te acompañará en tu largo viaje por el mundo.",
+      "picture": "Character/Traveler/Outfit/RisingStar.webp"
+    }
+  ],
+  "release": 1601244000,
+  "region": "MAINACTOR",
+  "version": "4.6"
 }

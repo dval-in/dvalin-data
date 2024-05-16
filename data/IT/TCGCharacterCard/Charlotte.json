@@ -1,68 +1,198 @@
 {
-	"id": "Charlotte",
-	"shareid": 334,
-	"name": "Charlotte",
-	"title": "Charlotte, Occhio per la verità",
-	"desc": "La vostra fonte credibile di incredibili verità!",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Catalizzatore",
-		"faction": ["Fontaine"],
-		"source": "Ricompensa ottenuta sfidando Charlotte a duello alla Coda di Gatto e battendola in un duello amichevole"
-	},
-	"skills": [
-		{
-			"id": "CoolcolorCapture",
-			"name": "Fotografia a colori freddi",
-			"desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FramingFreezingPointComposition",
-			"name": "Inquadratura: Composizione gelida",
-			"desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo, associa <span style=\"color:#FFFFFFFF\">Sagoma vivida al bersaglio.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StillPhotoComprehensiveConfirmation",
-			"name": "Fermo immagine: Conferma esaustiva",
-			"desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo, ripristina 1 PS di tutti i tuoi personaggi, invoca 1 <span style=\"color:#FFFFFFFF\">Campo Notizia flash.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Charlotte",
+  "shareid": 334,
+  "name": "Charlotte",
+  "title": "Charlotte, Occhio per la verità",
+  "desc": "La vostra fonte credibile di incredibili verità!",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Catalizzatore",
+    "faction": [
+      "Fontaine",
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "Ricompensa ottenuta sfidando Charlotte a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Charlotte",
+      "name": "Charlotte",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ASummationOfInterest",
+      "name": "A Summation of Interest"
+    }
+  },
+  "skills": [
+    {
+      "id": "CoolcolorCapture",
+      "name": "Fotografia a colori freddi",
+      "desc": "Infligge 1 DAN da Cryo.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Inquadratura: Composizione gelida",
+      "desc": "Infligge 1 DAN da Cryo, associa Sagoma vivida al bersaglio.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Fermo immagine: Conferma esaustiva",
+      "desc": "Infligge 1 DAN da Cryo, ripristina 1 PS di tutti i tuoi personaggi, invoca 1 Campo Notizia flash.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "Fotografia a colori freddi",
+      "desc": "Infligge 1 DAN da Cryo.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Inquadratura: Composizione gelida",
+      "desc": "Infligge 1 DAN da Cryo, associa Sagoma vivida al bersaglio.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Fermo immagine: Conferma esaustiva",
+      "desc": "Infligge 1 DAN da Cryo, ripristina 1 PS di tutti i tuoi personaggi, invoca 1 Campo Notizia flash.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "Fotografia a colori freddi",
+      "desc": "Infligge 1 DAN da Cryo.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Inquadratura: Composizione gelida",
+      "desc": "Infligge 1 DAN da Cryo, associa Sagoma vivida al bersaglio.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Fermo immagine: Conferma esaustiva",
+      "desc": "Infligge 1 DAN da Cryo, ripristina 1 PS di tutti i tuoi personaggi, invoca 1 Campo Notizia flash.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 334
 }

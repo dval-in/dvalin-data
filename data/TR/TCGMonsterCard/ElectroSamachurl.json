@@ -1,0 +1,72 @@
+{
+  "id": "ElectroSamachurl",
+  "shareId": 3410,
+  "name": "Elektrik Dağ Şamanı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": null,
+    "cardType": "Karakter Kartı"
+  },
+  "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "Asa Darbesi",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "Yıldırım Darbesi Totemi",
+      "desc": "2 Elektrik Hasarı verir ve rakibinin tarafında 1 Yıldırım Asası oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "Yıldırım Darbesi Laneti",
+      "desc": "5 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.6"
+}

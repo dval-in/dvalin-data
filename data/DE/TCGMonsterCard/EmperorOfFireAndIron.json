@@ -1,0 +1,85 @@
+{
+  "id": "EmperorOfFireAndIron",
+  "shareId": 4307,
+  "name": "Kaiser von Feuer und Eisen",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 24,
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": null,
+    "cardType": "Figurenkarte"
+  },
+  "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Hämmernde Zangen",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Glutwirbel",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH. Erhöht diesen SCH um 1 Pkt., wenn die Figur mindestens 7 Stapelungen Rüstung der Panzerkrabbe hat. Verleiht dieser Figur daraufhin 2 Stapelungen Rüstung der Panzerkrabbe.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Sprengung der Kampflinie",
+      "desc": "Erhält selbst 6 Stapelungen Rüstung der Panzerkrabbe und bereitet folgende Fähigkeiten vor: Versengender Knall.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "Kaiserliche Rüstung",
+      "desc": "Passiv – Zu Beginn des Kampfes: Erhält 5 Stapelungen Rüstung der Panzerkrabbe. Nach einer beliebigen Aktion deiner Seite: Entfernt all den Schild-Status oder Schild-Kampfstatus außer Rüstung der Panzerkrabbe auf deiner Seite; Verleiht der Figur für jeden entfernten Status 2 Stapelungen Rüstung der Panzerkrabbe.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.6"
+}

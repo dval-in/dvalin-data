@@ -1,76 +1,141 @@
 {
-	"id": "FatuiCryoCicinMage",
-	"shareid": 52,
-	"name": "Fatui Buz Cicin Büyücüsü",
-	"title": "\"Çukur Sisi Cicini\" Buz Cicin Büyücüsü",
-	"desc": "Sis Otu var olduğu sürece Buz Cicinler onu bırakmaz.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Buz",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "CicinsColdGlare",
-			"name": "Cicin's Cold Glare"
-		},
-		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Buz Cicin Büyücüsü ile olan Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "FatuiCryoCicinMage",
-			"name": "Fatui Cryo Cicin Mage"
-		}
-	},
-	"skills": [
-		{
-			"id": "CicinIcicle",
-			"name": "Cicin Sarkıtı",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MistySummons",
-			"name": "Sisler İçinden Çağrı",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve <span style=\"color:#FFFFFFFF\">Buz Cicinler çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BlizzardBranchBlossom",
-			"name": "Karlı Dallarda Açan Çiçekler",
-			"desc": "5 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve bu karaktere <span style=\"color:#99FFFFFF\">Buz Etkisi kazandırarak 1 <span style=\"color:#FFFFFFFF\">Sarmalayan Cicin Kalkanı oluşturur.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiCryoCicinMage",
+  "shareid": 52,
+  "name": "Fatui Buz Cicini Büyücüsü",
+  "title": "\"Çukur Sisi Cicini\" Buz Cicini Büyücüsü",
+  "desc": "Sis Otu var olduğu sürece Buz Cicinleri onu bırakmaz.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Buz Cicini Büyücüsü ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Cicin Sarkıtı",
+      "desc": "1 Buz Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Sisler İçinden Çağrı",
+      "desc": "1 Buz Hasarı verir ve Buz Cicinler çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Karlı Dallarda Açan Çiçekler",
+      "desc": "5 Buz Hasarı verir ve bu karaktere Buz Etkisi kazandırarak 1 Sarmalayan Cicin Kalkanı oluşturur.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CicinIcicle",
+      "name": "Cicin Sarkıtı",
+      "desc": "1 Buz Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Sisler İçinden Çağrı",
+      "desc": "1 Buz Hasarı verir ve Buz Cicinleri çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Karlı Dallarda Açan Çiçekler",
+      "desc": "5 Buz Hasarı verir ve bu karaktere Buz Etkisi kazandırarak 1 Sarmalayan Cicin Kalkanı oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 52
 }

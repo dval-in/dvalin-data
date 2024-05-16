@@ -1,1033 +1,2125 @@
 {
-	"id": "Neuvillette",
-	"name": "Neuvillette",
-	"title": "Fäller des unerbittlichen Urteils",
-	"description": "Oberster Richter Fontaines, bekannt für seine unanfechtbare „Unparteilichkeit“.",
-	"weaponType": "Katalysator",
-	"element": "Hydro",
-	"gender": "Männlich",
-	"substat": "KSCH",
-	"affiliation": "Hof von Fontaine",
-	"region": "Fontaine",
-	"rarity": 5,
-	"birthday": "18/12",
-	"constellation": "???",
-	"domain": "Verblasste Herrlichkeit",
-	"cv": {
-		"english": "Ray Chase",
-		"chinese": "桑毓泽",
-		"japanese": "神谷浩史",
-		"korean": "Kwak Yoon-sang"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackAsWaterSeeksEquilibrium",
-			"name": "Standardangriff: Wie stille Wasser",
-			"description": "StandardangriffNeuvillette schwingt sein Zepter und treibt die Wellen dazu an, bis zu dreimal anzugreifen und Hydro-Schaden zu verursachen.Aufgeladener heftiger Schlag – Richterliche PrüfungWährend des Aufladens sammelt Neuvillette die Kraft des Quellwassers und bildet allmählich ein Siegel des Urteils. In diesem Zustand kann er sich weiterhin bewegen, die Richtung ändern und innerhalb eines bestimmten Bereichs Quellwassertropfen absorbieren.Jeder absorbierte Quellwassertropfen beschleunigt die Bildung des Siegels und stellt Neuvillette LP wieder her.Wird das Aufladen unterbrochen, während das Siegel noch nicht vollständig gebildet wurde, führt Neuvillette seinen heftigen Schlag aus; ist das Siegel hingegen vollständig, wird heftiger Schlag – Gerechter Vorstoß entfesselt.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und greift Gegner mit voller Wucht mit einem Wasserring an, der Hydro-Flächenschaden verursacht.Heftiger Schlag – Gerechter VorstoßEntfesselt einen tosenden Strom, der fortlaufend Gegnern in einem geradlinigen Bereich vor sich Hydro-Flächenschaden zufügt.Heftiger Schlag – Gerechter Vorstoß verbraucht keine Ausdauer. Hält 3 s.Neuvillette verbraucht fortlaufend LP, wenn diese beim Auslösen über 50 % liegen.Angriff aus dem FallKonzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "SCH Phase 1",
-					"values": [
-						"54.58%",
-						"58.67%",
-						"62.76%",
-						"68.22%",
-						"72.31%",
-						"76.41%",
-						"81.87%",
-						"87.32%",
-						"92.78%",
-						"98.24%",
-						"103.7%",
-						"109.15%",
-						"115.98%",
-						"122.8%",
-						"129.62%"
-					]
-				},
-				{
-					"label": "SCH Phase 2",
-					"values": [
-						"46.25%",
-						"49.71%",
-						"53.18%",
-						"57.81%",
-						"61.28%",
-						"64.74%",
-						"69.37%",
-						"73.99%",
-						"78.62%",
-						"83.24%",
-						"87.87%",
-						"92.49%",
-						"98.27%",
-						"104.05%",
-						"109.83%"
-					]
-				},
-				{
-					"label": "SCH Phase 3",
-					"values": [
-						"72.34%",
-						"77.76%",
-						"83.19%",
-						"90.42%",
-						"95.85%",
-						"101.27%",
-						"108.51%",
-						"115.74%",
-						"122.97%",
-						"130.21%",
-						"137.44%",
-						"144.68%",
-						"153.72%",
-						"162.76%",
-						"171.8%"
-					]
-				},
-				{
-					"label": "SCH heftiger Schläge",
-					"values": [
-						"136.8%",
-						"147.06%",
-						"157.32%",
-						"171%",
-						"181.26%",
-						"191.52%",
-						"205.2%",
-						"218.88%",
-						"232.56%",
-						"246.24%",
-						"259.92%",
-						"273.6%",
-						"290.7%",
-						"307.8%",
-						"324.9%"
-					]
-				},
-				{
-					"label": "Ausdauerverbrauch heftiger Schläge",
-					"values": [
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte",
-						"50 Punkte"
-					]
-				},
-				{
-					"label": "Fortlaufender SCH von heftiger Schlag – Gerechter Vorstoß",
-					"values": [
-						"7.32% der max. LP",
-						"7.91% der max. LP",
-						"8.51% der max. LP",
-						"9.36% der max. LP",
-						"9.96% der max. LP",
-						"10.64% der max. LP",
-						"11.57% der max. LP",
-						"12.51% der max. LP",
-						"13.45% der max. LP",
-						"14.47% der max. LP",
-						"15.49% der max. LP",
-						"16.51% der max. LP",
-						"17.53% der max. LP",
-						"18.55% der max. LP",
-						"19.57% der max. LP"
-					]
-				},
-				{
-					"label": "LP-Wiederherstellung",
-					"values": [
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen",
-						"16% der max. LP pro Tropfen"
-					]
-				},
-				{
-					"label": "LP-Verlust",
-					"values": [
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s",
-						"8% der max. LP pro 50%s"
-					]
-				},
-				{
-					"label": "SCH beim Fallen",
-					"values": [
-						"56.83%",
-						"61.45%",
-						"66.08%",
-						"72.69%",
-						"77.31%",
-						"82.6%",
-						"89.87%",
-						"97.14%",
-						"104.41%",
-						"112.34%",
-						"120.27%",
-						"128.2%",
-						"136.12%",
-						"144.05%",
-						"151.98%"
-					]
-				},
-				{
-					"label": "SCH beim Fallen aus niedriger/großer Höhe",
-					"values": [
-						"113.63% / 141.93%",
-						"122.88% / 153.49%",
-						"132.13% / 165.04%",
-						"145.35% / 181.54%",
-						"154.59% / 193.1%",
-						"165.16% / 206.3%",
-						"179.7% / 224.45%",
-						"194.23% / 242.61%",
-						"208.77% / 260.76%",
-						"224.62% / 280.57%",
-						"240.48% / 300.37%",
-						"256.34% / 320.18%",
-						"272.19% / 339.98%",
-						"288.05% / 359.79%",
-						"303.9% / 379.59%"
-					]
-				}
-			]
-		},
-		{
-			"id": "OTearsIShallRepay",
-			"name": "O Tränen, ich werd’s vergelten",
-			"description": "Beschwört einen tosenden Wasserfall, der herabstürzt und den Gegnern vor sich Hydro-Flächenschaden basierend auf Neuvillettes max. LP zufügt und drei Quellwassertropfen in der Nähe eines der getroffenen Gegner erzeugt.Arkhe: PneumaErzeugt nach Herabstürzen des tosenden Wasserfalls in gewissen Zeitabständen einen Geisterstachel, der auf Gegner herabfällt, diese durchbohrt und mit Pneuma versehenen Hydro-Schaden verursacht.",
-			"info": "„Das Gesetz kann jede Art der Ungerechtigkeit eindämmen, aber das Übel selbst vermag es nicht zu beseitigen.“",
-			"attributes": [
-				{
-					"label": "Fähigkeits-SCH",
-					"values": [
-						"12.86% der max. LP",
-						"13.83% der max. LP",
-						"14.79% der max. LP",
-						"16.08% der max. LP",
-						"17.04% der max. LP",
-						"18.01% der max. LP",
-						"19.3% der max. LP",
-						"20.58% der max. LP",
-						"21.87% der max. LP",
-						"23.16% der max. LP",
-						"24.44% der max. LP",
-						"25.73% der max. LP",
-						"27.34% der max. LP",
-						"28.94% der max. LP",
-						"30.55% der max. LP"
-					]
-				},
-				{
-					"label": "Geisterstachel-SCH",
-					"values": [
-						"20.8%",
-						"22.36%",
-						"23.92%",
-						"26%",
-						"27.56%",
-						"29.12%",
-						"31.2%",
-						"33.28%",
-						"35.36%",
-						"37.44%",
-						"39.52%",
-						"41.6%",
-						"44.2%",
-						"46.8%",
-						"49.4%"
-					]
-				},
-				{
-					"label": "Geisterstachel-Intervall",
-					"values": [
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s",
-						"10s"
-					]
-				},
-				{
-					"label": "Quellwassertropfen-Dauer",
-					"values": [
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s"
-					]
-				},
-				{
-					"label": "Abklingzeit",
-					"values": [
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s"
-					]
-				}
-			]
-		},
-		{
-			"id": "OTidesIHaveReturned",
-			"name": "O Gezeiten, ich bin zurückgekehrt",
-			"description": "Entfesselt eine berstende Welle, die basierend auf Neuvillettes max. LP Hydro-Flächenschaden verursacht. Nach einem kurzen Intervall werden in der Nähe zwei Wasserfälle herabstürzen, die in einem kleineren Bereich Hydro-Schaden verursachen und in einem bestimmten Bereich vor sich sechs Quellwassertropfen erzeugen.",
-			"info": "„Die Gesetze entstehen erst, wenn sie erlassen werden. Darüber hinaus haben die Naturgesetze von jeher über alle Arten und Generationen entschieden.“",
-			"attributes": [
-				{
-					"label": "Fähigkeits-SCH",
-					"values": [
-						"22.26% der max. LP",
-						"23.93% der max. LP",
-						"25.6% der max. LP",
-						"27.82% der max. LP",
-						"29.49% der max. LP",
-						"31.16% der max. LP",
-						"33.39% der max. LP",
-						"35.61% der max. LP",
-						"37.84% der max. LP",
-						"40.06% der max. LP",
-						"42.29% der max. LP",
-						"44.52% der max. LP",
-						"47.3% der max. LP",
-						"50.08% der max. LP",
-						"52.86% der max. LP"
-					]
-				},
-				{
-					"label": "Wasserfall-SCH",
-					"values": [
-						"9.11% der max. LP",
-						"9.79% der max. LP",
-						"10.47% der max. LP",
-						"11.38% der max. LP",
-						"12.06% der max. LP",
-						"12.75% der max. LP",
-						"13.66% der max. LP",
-						"14.57% der max. LP",
-						"15.48% der max. LP",
-						"16.39% der max. LP",
-						"17.3% der max. LP",
-						"18.21% der max. LP",
-						"19.35% der max. LP",
-						"20.49% der max. LP",
-						"21.63% der max. LP"
-					]
-				},
-				{
-					"label": "Abklingzeit",
-					"values": [
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s",
-						"18s"
-					]
-				},
-				{
-					"label": "Elementarenergie",
-					"values": ["70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70", "70"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "HeirToTheAncientSeasAuthority",
-			"name": "Erbe des Relikts der uralten See",
-			"description": "Neuvillette erhält für 30 s den Effekt „Glorie längst vergangener Drachen“, wenn Truppenmitglieder beim Gegner die Reaktionen Verdampfen, Gefroren, Unter Strom, Sprießen, Hydro-Verwirbelung oder Hydro-Kristallisation auslösen. 3-fach stapelbar. Dieser Effekt erhöht den Schaden von heftigem Schlag – Gerechter Vorstoß bei 1/2/3 Stapelungen auf 110/125/160 % des ursprünglichen Schadens.Jede „Glorie längst vergangener Drachen“, die durch jede Art von Elementarreaktionen erzeugt wird, existiert unabhängig voneinander.",
-			"level": 1
-		},
-		{
-			"id": "DisciplineOfTheSupremeArbitration",
-			"name": "Disziplin oberster Gerichtsbarkeit",
-			"description": "Neuvillette erhält für je 1 %, die seine aktuellen LP über 30 % seiner max. LP liegen, einen Hydro-SCH-Bonus von 0,6 %. Auf diese Weise kann der Hydro-SCH um bis zu 30 % erhöht werden.",
-			"level": 4
-		},
-		{
-			"id": "GatherLikeTheTide",
-			"name": "Den Wellen gleich zusammenkommen",
-			"description": "Erhöht die Bewegungsgeschwindigkeit aller eigenen Truppenmitglieder beim schnellen Schwimmen unter Wasser (mithilfe der Rennen-Fähigkeit) um 15 %.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "VenerableInstitution",
-			"name": "Erschaffung von Amt und Würde",
-			"description": "Neuvillette erhält beim Einwechseln einen Stapel „Glorie längst vergangener Drachen“ des passiven Talents „Erbe des Relikts der uralten See“. Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.Außerdem erhöht sich beim Auslösen von Aufgeladener heftiger Schlag – Richterliche Prüfung und heftiger Schlag – Gerechter Vorstoß Neuvillettes Unterbrechungs-WDS.",
-			"level": 1
-		},
-		{
-			"id": "JuridicalExhortation",
-			"name": "Das Gesetz gebietet",
-			"description": "Verstärkt das passive Talent „Erbe des Relikts der uralten See“: Erhöht für jeden Stapel „Glorie längst vergangener Drachen“ den Kritischen Schaden von heftigem Schlag – Gerechter Vorstoß um 14 %. Bis zu 42 % Bonus auf diese Weise möglich.Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.",
-			"level": 2
-		},
-		{
-			"id": "AncientPostulation",
-			"name": "Uralte Gebote",
-			"description": "Erhöht die Stufe der Fähigkeit Standardangriff: Wie stille Wasser um 3.Höchststufe 15.",
-			"level": 3
-		},
-		{
-			"id": "CrownOfCommiseration",
-			"name": "Gekrönt in Gnade",
-			"description": "Erschafft einen Quellwassertropfen, wenn Neuvillette als aktuelle Figur geheilt wird. 4 s Abklingzeit.",
-			"level": 4
-		},
-		{
-			"id": "AxiomaticJudgment",
-			"name": "Axiomatisches Urteil",
-			"description": "Erhöht die Stufe der Fähigkeit O Gezeiten, ich bin zurückgekehrt um 3.Höchststufe 15.",
-			"level": 5
-		},
-		{
-			"id": "WrathfulRecompense",
-			"name": "Wütende Vergeltung",
-			"description": "Neuvillette absorbiert beim Auslösen von heftigem Schlag – Gerechter Vorstoß Quellwassertropfen innerhalb eines bestimmten Bereichs. Jeder absorbierte Quellwassertropfen verlängert die Dauer von heftigem Schlag – Gerechter Vorstoß um 1 s.Außerdem werden alle 2 s zusätzlich zwei Ströme ausgelöst, wenn Neuvillettes heftiger Schlag – Gerechter Vorstoß Gegner trifft, von denen jeder Hydro-Schaden in Höhe von 10 % von Neuvillettes max. LP verursacht. Der auf diese Weise verursachte Schaden wird als Schaden vom heftigen Schlags – Gerechter Vorstoß betrachtet.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["-", "1144"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["-", "16"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["-", "45"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["-", "50.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [0, 1]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["2967", "3948"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["42", "56"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["116", "155"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["50.0%", "50.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [1, 2]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["5908", "6605"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["84", "94"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["232", "259"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["50.0%", "59.6%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteSliver",
-				"name": "Varunada-Lasurit-Splitter",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "Lumitoile",
-				"name": "Lumitoile",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "TransoceanicPearl",
-				"name": "Transozeanische Perle",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [2, 3]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["7599", "8528"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["108", "121"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["298", "335"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["59.6%", "69.2%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteFragment",
-				"name": "Varunada-Lasurit-Bruchstück",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "FontemerUnihorn",
-				"name": "Fontemer-Horn",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Lumitoile",
-				"name": "Lumitoile",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "TransoceanicPearl",
-				"name": "Transozeanische Perle",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [3, 4]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["9533", "10230"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["135", "145"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["374", "401"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["69.2%", "69.2%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteFragment",
-				"name": "Varunada-Lasurit-Bruchstück",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "FontemerUnihorn",
-				"name": "Fontemer-Horn",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Lumitoile",
-				"name": "Lumitoile",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "TransoceanicChunk",
-				"name": "Transozeanischer Brocken",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [4, 5]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["11243", "11940"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["159", "169"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["441", "468"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["69.2%", "78.8%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteChunk",
-				"name": "Varunada-Lasurit-Brocken",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "FontemerUnihorn",
-				"name": "Fontemer-Horn",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Lumitoile",
-				"name": "Lumitoile",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "TransoceanicChunk",
-				"name": "Transozeanischer Brocken",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [5, 6]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["12965", "13662"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["184", "194"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["509", "536"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["78.8%", "88.4%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteChunk",
-				"name": "Varunada-Lasurit-Brocken",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "FontemerUnihorn",
-				"name": "Fontemer-Horn",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Lumitoile",
-				"name": "Lumitoile",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "XenochromaticCrystal",
-				"name": "Xenochromatischer Kristall",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Aufstieg",
-					"values": [6, 7]
-				},
-				{
-					"label": "Basis-LP",
-					"values": ["14695", "14695"]
-				},
-				{
-					"label": "Basis-ANG",
-					"values": ["208", "208"]
-				},
-				{
-					"label": "Basis-VTD",
-					"values": ["576", "576"]
-				},
-				{
-					"label": "KSCH",
-					"values": ["88.4%", "88.4%"]
-				}
-			],
-			"mat1": {
-				"id": "VarunadaLazuriteGemstone",
-				"name": "Varunada-Lasurit",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "FontemerUnihorn",
-				"name": "Fontemer-Horn",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Lumitoile",
-				"name": "Lumitoile",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "XenochromaticCrystal",
-				"name": "Xenochromatischer Kristall",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfEquity",
-					"name": "Lehren der „Fairness“",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "TransoceanicPearl",
-					"name": "Transozeanische Perle",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToEquity",
-					"name": "Anleitung zur „Fairness“",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "Transozeanischer Brocken",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToEquity",
-					"name": "Anleitung zur „Fairness“",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "Transozeanischer Brocken",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToEquity",
-					"name": "Anleitung zur „Fairness“",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "Transozeanischer Brocken",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToEquity",
-					"name": "Anleitung zur „Fairness“",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "Transozeanischer Brocken",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfEquity",
-					"name": "Philosophie der „Fairness“",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "Xenochromatischer Kristall",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "Everamber",
-					"name": "Permabernstein",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfEquity",
-					"name": "Philosophie der „Fairness“",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "Xenochromatischer Kristall",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "Everamber",
-					"name": "Permabernstein",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfEquity",
-					"name": "Philosophie der „Fairness“",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "Xenochromatischer Kristall",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "Everamber",
-					"name": "Permabernstein",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfEquity",
-					"name": "Philosophie der „Fairness“",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "Xenochromatischer Kristall",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "Everamber",
-					"name": "Permabernstein",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Krone der Weisheit",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Neuvillette/Icon.webp",
-		"sideIcon": "Character/Neuvillette/SideIcon.webp",
-		"gatchaCard": "Character/Neuvillette/GachaCard.webp",
-		"gachaSplash": "Character/Neuvillette/GachaSplash.webp",
-		"face": "Character/Neuvillette/Face.webp",
-		"halfFace": "Character/Neuvillette/HalfFace.webp",
-		"profile": "Character/Neuvillette/Profile.webp",
-		"weaponStance": "Character/Neuvillette/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "TomeOfTheEternalFlow",
-	"specialDish": "ConsommePurete",
-	"tcgCharacterCard": "",
-	"outfits": [
-		{
-			"id": "ClearAdjudication",
-			"name": "Eindeutiges Urteil",
-			"description": "Neuvillettes Kleidung. Das anmutige und elegante Gewand des Obersten Richters. Seine komplexe Gestaltung erschwert dem Träger die freie Bewegung, doch für ihn hingegen ist ein angemessenes Erscheinungsbild nach seinem Status von besonderer Wichtigkeit.",
-			"picture": "Character/Neuvillette/Outfit/ClearAdjudication.webp"
-		}
-	]
+  "id": "Neuvillette",
+  "name": "Neuvillette",
+  "title": "Fäller des unerbittlichen Urteils",
+  "description": "Oberster Richter Fontaines, bekannt für seine unanfechtbare „Unparteilichkeit“.",
+  "weaponType": "Katalysator",
+  "element": "Hydro",
+  "gender": "Männlich",
+  "substat": "KSCH",
+  "affiliation": "Hof von Fontaine",
+  "region": "Fontaine",
+  "rarity": 5,
+  "birthday": "18/12",
+  "constellation": "???",
+  "domain": "Verblasste Herrlichkeit",
+  "cv": {
+    "english": "Ray Chase",
+    "chinese": "桑毓泽",
+    "japanese": "神谷浩史",
+    "korean": "Kwak Yoon-sang"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackAsWaterSeeksEquilibrium",
+      "name": "Standardangriff: Wie stille Wasser",
+      "description": "StandardangriffNeuvillette schwingt sein Zepter und treibt die Wellen dazu an, bis zu dreimal anzugreifen und Hydro-Schaden zu verursachen.Aufgeladener heftiger Schlag – Richterliche PrüfungWährend des Aufladens sammelt Neuvillette die Kraft des Quellwassers und bildet allmählich ein Siegel des Urteils. In diesem Zustand kann er sich weiterhin bewegen, die Richtung ändern und innerhalb eines bestimmten Bereichs Quellwassertropfen absorbieren.Jeder absorbierte Quellwassertropfen beschleunigt die Bildung des Siegels und stellt Neuvillette LP wieder her.Wird das Aufladen unterbrochen, während das Siegel noch nicht vollständig gebildet wurde, führt Neuvillette seinen heftigen Schlag aus; ist das Siegel hingegen vollständig, wird heftiger Schlag – Gerechter Vorstoß entfesselt.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und greift Gegner mit voller Wucht mit einem Wasserring an, der Hydro-Flächenschaden verursacht.Heftiger Schlag – Gerechter VorstoßEntfesselt einen tosenden Strom, der fortlaufend Gegnern in einem geradlinigen Bereich vor sich Hydro-Flächenschaden zufügt.Heftiger Schlag – Gerechter Vorstoß verbraucht keine Ausdauer. Hält 3 s.Neuvillette verbraucht fortlaufend LP, wenn diese beim Auslösen über 50 % liegen.Angriff aus dem FallKonzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "54.58%",
+            "58.67%",
+            "62.76%",
+            "68.22%",
+            "72.31%",
+            "76.41%",
+            "81.87%",
+            "87.32%",
+            "92.78%",
+            "98.24%",
+            "103.7%",
+            "109.15%",
+            "115.98%",
+            "122.8%",
+            "129.62%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "46.25%",
+            "49.71%",
+            "53.18%",
+            "57.81%",
+            "61.28%",
+            "64.74%",
+            "69.37%",
+            "73.99%",
+            "78.62%",
+            "83.24%",
+            "87.87%",
+            "92.49%",
+            "98.27%",
+            "104.05%",
+            "109.83%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "72.34%",
+            "77.76%",
+            "83.19%",
+            "90.42%",
+            "95.85%",
+            "101.27%",
+            "108.51%",
+            "115.74%",
+            "122.97%",
+            "130.21%",
+            "137.44%",
+            "144.68%",
+            "153.72%",
+            "162.76%",
+            "171.8%"
+          ]
+        },
+        {
+          "label": "SCH heftiger Schläge",
+          "values": [
+            "136.8%",
+            "147.06%",
+            "157.32%",
+            "171%",
+            "181.26%",
+            "191.52%",
+            "205.2%",
+            "218.88%",
+            "232.56%",
+            "246.24%",
+            "259.92%",
+            "273.6%",
+            "290.7%",
+            "307.8%",
+            "324.9%"
+          ]
+        },
+        {
+          "label": "Ausdauerverbrauch heftiger Schläge",
+          "values": [
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte"
+          ]
+        },
+        {
+          "label": "Fortlaufender SCH von heftiger Schlag – Gerechter Vorstoß",
+          "values": [
+            "7.32% der max. LP",
+            "7.91% der max. LP",
+            "8.51% der max. LP",
+            "9.36% der max. LP",
+            "9.96% der max. LP",
+            "10.64% der max. LP",
+            "11.57% der max. LP",
+            "12.51% der max. LP",
+            "13.45% der max. LP",
+            "14.47% der max. LP",
+            "15.49% der max. LP",
+            "16.51% der max. LP",
+            "17.53% der max. LP",
+            "18.55% der max. LP",
+            "19.57% der max. LP"
+          ]
+        },
+        {
+          "label": "LP-Wiederherstellung",
+          "values": [
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen"
+          ]
+        },
+        {
+          "label": "LP-Verlust",
+          "values": [
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "O Tränen, ich werd’s vergelten",
+      "description": "Beschwört einen tosenden Wasserfall, der herabstürzt und den Gegnern vor sich Hydro-Flächenschaden basierend auf Neuvillettes max. LP zufügt und drei Quellwassertropfen in der Nähe eines der getroffenen Gegner erzeugt.Arkhe: PneumaErzeugt nach Herabstürzen des tosenden Wasserfalls in gewissen Zeitabständen einen Geisterstachel, der auf Gegner herabfällt, diese durchbohrt und mit Pneuma versehenen Hydro-Schaden verursacht.",
+      "info": "„Das Gesetz kann jede Art der Ungerechtigkeit eindämmen, aber das Übel selbst vermag es nicht zu beseitigen.“",
+      "attributes": [
+        {
+          "label": "Fähigkeits-SCH",
+          "values": [
+            "12.86% der max. LP",
+            "13.83% der max. LP",
+            "14.79% der max. LP",
+            "16.08% der max. LP",
+            "17.04% der max. LP",
+            "18.01% der max. LP",
+            "19.3% der max. LP",
+            "20.58% der max. LP",
+            "21.87% der max. LP",
+            "23.16% der max. LP",
+            "24.44% der max. LP",
+            "25.73% der max. LP",
+            "27.34% der max. LP",
+            "28.94% der max. LP",
+            "30.55% der max. LP"
+          ]
+        },
+        {
+          "label": "Geisterstachel-SCH",
+          "values": [
+            "20.8%",
+            "22.36%",
+            "23.92%",
+            "26%",
+            "27.56%",
+            "29.12%",
+            "31.2%",
+            "33.28%",
+            "35.36%",
+            "37.44%",
+            "39.52%",
+            "41.6%",
+            "44.2%",
+            "46.8%",
+            "49.4%"
+          ]
+        },
+        {
+          "label": "Geisterstachel-Intervall",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Quellwassertropfen-Dauer",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "O Gezeiten, ich bin zurückgekehrt",
+      "description": "Entfesselt eine berstende Welle, die basierend auf Neuvillettes max. LP Hydro-Flächenschaden verursacht. Nach einem kurzen Intervall werden in der Nähe zwei Wasserfälle herabstürzen, die in einem kleineren Bereich Hydro-Schaden verursachen und in einem bestimmten Bereich vor sich sechs Quellwassertropfen erzeugen.",
+      "info": "„Die Gesetze entstehen erst, wenn sie erlassen werden. Darüber hinaus haben die Naturgesetze von jeher über alle Arten und Generationen entschieden.“",
+      "attributes": [
+        {
+          "label": "Fähigkeits-SCH",
+          "values": [
+            "22.26% der max. LP",
+            "23.93% der max. LP",
+            "25.6% der max. LP",
+            "27.82% der max. LP",
+            "29.49% der max. LP",
+            "31.16% der max. LP",
+            "33.39% der max. LP",
+            "35.61% der max. LP",
+            "37.84% der max. LP",
+            "40.06% der max. LP",
+            "42.29% der max. LP",
+            "44.52% der max. LP",
+            "47.3% der max. LP",
+            "50.08% der max. LP",
+            "52.86% der max. LP"
+          ]
+        },
+        {
+          "label": "Wasserfall-SCH",
+          "values": [
+            "9.11% der max. LP",
+            "9.79% der max. LP",
+            "10.47% der max. LP",
+            "11.38% der max. LP",
+            "12.06% der max. LP",
+            "12.75% der max. LP",
+            "13.66% der max. LP",
+            "14.57% der max. LP",
+            "15.48% der max. LP",
+            "16.39% der max. LP",
+            "17.3% der max. LP",
+            "18.21% der max. LP",
+            "19.35% der max. LP",
+            "20.49% der max. LP",
+            "21.63% der max. LP"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackAsWaterSeeksEquilibrium",
+      "name": "Standardangriff: Wie stille Wasser",
+      "description": "Standardangriff Neuvillette schwingt sein Zepter und treibt die Wellen dazu an, bis zu dreimal anzugreifen und Hydro-Schaden zu verursachen. Aufgeladener heftiger Schlag – Richterliche Prüfung Während des Aufladens sammelt Neuvillette die Kraft des Quellwassers und bildet allmählich ein Siegel des Urteils. In diesem Zustand kann er sich weiterhin bewegen, die Richtung ändern und innerhalb eines bestimmten Bereichs Quellwassertropfen absorbieren. Jeder absorbierte Quellwassertropfen beschleunigt die Bildung des Siegels und stellt Neuvillette LP wieder her. Wird das Aufladen unterbrochen, während das Siegel noch nicht vollständig gebildet wurde, führt Neuvillette seinen heftigen Schlag aus; ist das Siegel hingegen vollständig, wird heftiger Schlag – Gerechter Vorstoß entfesselt. Heftiger Schlag Verbraucht eine gewisse Menge Ausdauer und greift Gegner mit voller Wucht mit einem Wasserring an, der Hydro-Flächenschaden verursacht. Heftiger Schlag – Gerechter Vorstoß Entfesselt einen tosenden Strom, der fortlaufend Gegnern in einem geradlinigen Bereich vor sich Hydro-Flächenschaden zufügt. Heftiger Schlag – Gerechter Vorstoß verbraucht keine Ausdauer. Hält 3 s. Neuvillette verbraucht fortlaufend LP, wenn diese beim Auslösen über 50 % liegen. Angriff aus dem Fall Konzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "SCH Phase 1",
+          "values": [
+            "54.58%",
+            "58.67%",
+            "62.76%",
+            "68.22%",
+            "72.31%",
+            "76.41%",
+            "81.87%",
+            "87.32%",
+            "92.78%",
+            "98.24%",
+            "103.7%",
+            "109.15%",
+            "115.98%",
+            "122.8%",
+            "129.62%"
+          ]
+        },
+        {
+          "label": "SCH Phase 2",
+          "values": [
+            "46.25%",
+            "49.71%",
+            "53.18%",
+            "57.81%",
+            "61.28%",
+            "64.74%",
+            "69.37%",
+            "73.99%",
+            "78.62%",
+            "83.24%",
+            "87.87%",
+            "92.49%",
+            "98.27%",
+            "104.05%",
+            "109.83%"
+          ]
+        },
+        {
+          "label": "SCH Phase 3",
+          "values": [
+            "72.34%",
+            "77.76%",
+            "83.19%",
+            "90.42%",
+            "95.85%",
+            "101.27%",
+            "108.51%",
+            "115.74%",
+            "122.97%",
+            "130.21%",
+            "137.44%",
+            "144.68%",
+            "153.72%",
+            "162.76%",
+            "171.8%"
+          ]
+        },
+        {
+          "label": "SCH heftiger Schläge",
+          "values": [
+            "136.8%",
+            "147.06%",
+            "157.32%",
+            "171%",
+            "181.26%",
+            "191.52%",
+            "205.2%",
+            "218.88%",
+            "232.56%",
+            "246.24%",
+            "259.92%",
+            "273.6%",
+            "290.7%",
+            "307.8%",
+            "324.9%"
+          ]
+        },
+        {
+          "label": "Ausdauerverbrauch heftiger Schläge",
+          "values": [
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte",
+            "50 Punkte"
+          ]
+        },
+        {
+          "label": "Fortlaufender SCH von heftiger Schlag – Gerechter Vorstoß",
+          "values": [
+            "7.32% der max. LP",
+            "7.91% der max. LP",
+            "8.51% der max. LP",
+            "9.36% der max. LP",
+            "9.96% der max. LP",
+            "10.64% der max. LP",
+            "11.57% der max. LP",
+            "12.51% der max. LP",
+            "13.45% der max. LP",
+            "14.47% der max. LP",
+            "15.49% der max. LP",
+            "16.51% der max. LP",
+            "17.53% der max. LP",
+            "18.55% der max. LP",
+            "19.57% der max. LP"
+          ]
+        },
+        {
+          "label": "LP-Wiederherstellung",
+          "values": [
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen",
+            "16% der max. LP pro Tropfen"
+          ]
+        },
+        {
+          "label": "LP-Verlust",
+          "values": [
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s",
+            "8% der max. LP pro 50%s"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "SCH beim Fallen aus niedriger/großer Höhe",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "O Tränen, ich werd’s vergelten",
+      "description": "Beschwört einen tosenden Wasserfall, der herabstürzt und den Gegnern vor sich Hydro-Flächenschaden basierend auf Neuvillettes max. LP zufügt und drei Quellwassertropfen in der Nähe eines der getroffenen Gegner erzeugt. Arkhe: Pneuma Erzeugt nach Herabstürzen des tosenden Wasserfalls in gewissen Zeitabständen einen Geisterstachel, der auf Gegner herabfällt, diese durchbohrt und mit Pneuma versehenen Hydro-Schaden verursacht.",
+      "info": "„Das Gesetz kann jede Art der Ungerechtigkeit eindämmen, aber das Übel selbst vermag es nicht zu beseitigen.“",
+      "attributes": [
+        {
+          "label": "Fähigkeits-SCH",
+          "values": [
+            "12.86% der max. LP",
+            "13.83% der max. LP",
+            "14.79% der max. LP",
+            "16.08% der max. LP",
+            "17.04% der max. LP",
+            "18.01% der max. LP",
+            "19.3% der max. LP",
+            "20.58% der max. LP",
+            "21.87% der max. LP",
+            "23.16% der max. LP",
+            "24.44% der max. LP",
+            "25.73% der max. LP",
+            "27.34% der max. LP",
+            "28.94% der max. LP",
+            "30.55% der max. LP"
+          ]
+        },
+        {
+          "label": "Geisterstachel-SCH",
+          "values": [
+            "20.8%",
+            "22.36%",
+            "23.92%",
+            "26%",
+            "27.56%",
+            "29.12%",
+            "31.2%",
+            "33.28%",
+            "35.36%",
+            "37.44%",
+            "39.52%",
+            "41.6%",
+            "44.2%",
+            "46.8%",
+            "49.4%"
+          ]
+        },
+        {
+          "label": "Geisterstachel-Intervall",
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": "Quellwassertropfen-Dauer",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "O Gezeiten, ich bin zurückgekehrt",
+      "description": "Entfesselt eine berstende Welle, die basierend auf Neuvillettes max. LP Hydro-Flächenschaden verursacht. Nach einem kurzen Intervall werden in der Nähe zwei Wasserfälle herabstürzen, die in einem kleineren Bereich Hydro-Schaden verursachen und in einem bestimmten Bereich vor sich sechs Quellwassertropfen erzeugen.",
+      "info": "„Die Gesetze entstehen erst, wenn sie erlassen werden. Darüber hinaus haben die Naturgesetze von jeher über alle Arten und Generationen entschieden.“",
+      "attributes": [
+        {
+          "label": "Fähigkeits-SCH",
+          "values": [
+            "22.26% der max. LP",
+            "23.93% der max. LP",
+            "25.6% der max. LP",
+            "27.82% der max. LP",
+            "29.49% der max. LP",
+            "31.16% der max. LP",
+            "33.39% der max. LP",
+            "35.61% der max. LP",
+            "37.84% der max. LP",
+            "40.06% der max. LP",
+            "42.29% der max. LP",
+            "44.52% der max. LP",
+            "47.3% der max. LP",
+            "50.08% der max. LP",
+            "52.86% der max. LP"
+          ]
+        },
+        {
+          "label": "Wasserfall-SCH",
+          "values": [
+            "9.11% der max. LP",
+            "9.79% der max. LP",
+            "10.47% der max. LP",
+            "11.38% der max. LP",
+            "12.06% der max. LP",
+            "12.75% der max. LP",
+            "13.66% der max. LP",
+            "14.57% der max. LP",
+            "15.48% der max. LP",
+            "16.39% der max. LP",
+            "17.3% der max. LP",
+            "18.21% der max. LP",
+            "19.35% der max. LP",
+            "20.49% der max. LP",
+            "21.63% der max. LP"
+          ]
+        },
+        {
+          "label": "Abklingzeit",
+          "values": [
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s",
+            "18s"
+          ]
+        },
+        {
+          "label": "Elementarenergie",
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Erbe des Relikts der uralten See",
+      "description": "Neuvillette erhält für 30 s den Effekt „Glorie längst vergangener Drachen“, wenn Truppenmitglieder beim Gegner die Reaktionen Verdampfen, Gefroren, Unter Strom, Sprießen, Hydro-Verwirbelung oder Hydro-Kristallisation auslösen. 3-fach stapelbar. Dieser Effekt erhöht den Schaden von heftigem Schlag – Gerechter Vorstoß bei 1/2/3 Stapelungen auf 110/125/160 % des ursprünglichen Schadens.Jede „Glorie längst vergangener Drachen“, die durch jede Art von Elementarreaktionen erzeugt wird, existiert unabhängig voneinander.",
+      "level": 1
+    },
+    {
+      "id": "DisciplineOfTheSupremeArbitration",
+      "name": "Disziplin oberster Gerichtsbarkeit",
+      "description": "Neuvillette erhält für je 1 %, die seine aktuellen LP über 30 % seiner max. LP liegen, einen Hydro-SCH-Bonus von 0,6 %. Auf diese Weise kann der Hydro-SCH um bis zu 30 % erhöht werden.",
+      "level": 4
+    },
+    {
+      "id": "GatherLikeTheTide",
+      "name": "Den Wellen gleich zusammenkommen",
+      "description": "Erhöht die Bewegungsgeschwindigkeit aller eigenen Truppenmitglieder beim schnellen Schwimmen unter Wasser (mithilfe der Rennen-Fähigkeit) um 15 %.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+      "level": 0
+    },
+    {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Erbe des Relikts der uralten See",
+      "description": "Neuvillette erhält für 30 s den Effekt „Glorie längst vergangener Drachen“, wenn Truppenmitglieder beim Gegner die Reaktionen Verdampfen, Gefroren, Unter Strom, Sprießen, Hydro-Verwirbelung oder Hydro-Kristallisation auslösen. 3-fach stapelbar. Dieser Effekt erhöht den Schaden von heftigem Schlag – Gerechter Vorstoß bei 1/2/3 Stapelungen auf 110/125/160 % des ursprünglichen Schadens. Jede „Glorie längst vergangener Drachen“, die durch jede Art von Elementarreaktionen erzeugt wird, existiert unabhängig voneinander.",
+      "level": 1
+    },
+    {
+      "id": "DisciplineOfTheSupremeArbitration",
+      "name": "Disziplin oberster Gerichtsbarkeit",
+      "description": "Neuvillette erhält für je 1 %, die seine aktuellen LP über 30 % seiner max. LP liegen, einen Hydro-SCH-Bonus von 0,6 %. Auf diese Weise kann der Hydro-SCH um bis zu 30 % erhöht werden.",
+      "level": 4
+    },
+    {
+      "id": "GatherLikeTheTide",
+      "name": "Den Wellen gleich zusammenkommen",
+      "description": "Erhöht die Bewegungsgeschwindigkeit aller eigenen Truppenmitglieder beim schnellen Schwimmen unter Wasser (mithilfe der Rennen-Fähigkeit) um 15 %. Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "VenerableInstitution",
+      "name": "Erschaffung von Amt und Würde",
+      "description": "Neuvillette erhält beim Einwechseln einen Stapel „Glorie längst vergangener Drachen“ des passiven Talents „Erbe des Relikts der uralten See“. Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.Außerdem erhöht sich beim Auslösen von Aufgeladener heftiger Schlag – Richterliche Prüfung und heftiger Schlag – Gerechter Vorstoß Neuvillettes Unterbrechungs-WDS.",
+      "level": 1
+    },
+    {
+      "id": "JuridicalExhortation",
+      "name": "Das Gesetz gebietet",
+      "description": "Verstärkt das passive Talent „Erbe des Relikts der uralten See“: Erhöht für jeden Stapel „Glorie längst vergangener Drachen“ den Kritischen Schaden von heftigem Schlag – Gerechter Vorstoß um 14 %. Bis zu 42 % Bonus auf diese Weise möglich.Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.",
+      "level": 2
+    },
+    {
+      "id": "AncientPostulation",
+      "name": "Uralte Gebote",
+      "description": "Erhöht die Stufe der Fähigkeit Standardangriff: Wie stille Wasser um 3.Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "CrownOfCommiseration",
+      "name": "Gekrönt in Gnade",
+      "description": "Erschafft einen Quellwassertropfen, wenn Neuvillette als aktuelle Figur geheilt wird. 4 s Abklingzeit.",
+      "level": 4
+    },
+    {
+      "id": "AxiomaticJudgment",
+      "name": "Axiomatisches Urteil",
+      "description": "Erhöht die Stufe der Fähigkeit O Gezeiten, ich bin zurückgekehrt um 3.Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "WrathfulRecompense",
+      "name": "Wütende Vergeltung",
+      "description": "Neuvillette absorbiert beim Auslösen von heftigem Schlag – Gerechter Vorstoß Quellwassertropfen innerhalb eines bestimmten Bereichs. Jeder absorbierte Quellwassertropfen verlängert die Dauer von heftigem Schlag – Gerechter Vorstoß um 1 s.Außerdem werden alle 2 s zusätzlich zwei Ströme ausgelöst, wenn Neuvillettes heftiger Schlag – Gerechter Vorstoß Gegner trifft, von denen jeder Hydro-Schaden in Höhe von 10 % von Neuvillettes max. LP verursacht. Der auf diese Weise verursachte Schaden wird als Schaden vom heftigen Schlags – Gerechter Vorstoß betrachtet.",
+      "level": 6
+    },
+    {
+      "id": "VenerableInstitution",
+      "name": "Erschaffung von Amt und Würde",
+      "description": "Neuvillette erhält beim Einwechseln einen Stapel „Glorie längst vergangener Drachen“ des passiven Talents „Erbe des Relikts der uralten See“. Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden. Außerdem erhöht sich beim Auslösen von Aufgeladener heftiger Schlag – Richterliche Prüfung und heftiger Schlag – Gerechter Vorstoß Neuvillettes Unterbrechungs-WDS.",
+      "level": 1
+    },
+    {
+      "id": "JuridicalExhortation",
+      "name": "Das Gesetz gebietet",
+      "description": "Verstärkt das passive Talent „Erbe des Relikts der uralten See“: Erhöht für jeden Stapel „Glorie längst vergangener Drachen“ den Kritischen Schaden von heftigem Schlag – Gerechter Vorstoß um 14 %. Bis zu 42 % Bonus auf diese Weise möglich. Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.",
+      "level": 2
+    },
+    {
+      "id": "AncientPostulation",
+      "name": "Uralte Gebote",
+      "description": "Erhöht die Stufe der Fähigkeit Standardangriff: Wie stille Wasser um 3. Höchststufe 15.",
+      "level": 3
+    },
+    {
+      "id": "CrownOfCommiseration",
+      "name": "Gekrönt in Gnade",
+      "description": "Erschafft einen Quellwassertropfen, wenn Neuvillette als aktuelle Figur geheilt wird. 4 s Abklingzeit.",
+      "level": 4
+    },
+    {
+      "id": "AxiomaticJudgment",
+      "name": "Axiomatisches Urteil",
+      "description": "Erhöht die Stufe der Fähigkeit O Gezeiten, ich bin zurückgekehrt um 3. Höchststufe 15.",
+      "level": 5
+    },
+    {
+      "id": "WrathfulRecompense",
+      "name": "Wütende Vergeltung",
+      "description": "Neuvillette absorbiert beim Auslösen von heftigem Schlag – Gerechter Vorstoß Quellwassertropfen innerhalb eines bestimmten Bereichs. Jeder absorbierte Quellwassertropfen verlängert die Dauer von heftigem Schlag – Gerechter Vorstoß um 1 s. Außerdem werden alle 2 s zusätzlich zwei Ströme ausgelöst, wenn Neuvillettes heftiger Schlag – Gerechter Vorstoß Gegner trifft, von denen jeder Hydro-Schaden in Höhe von 10 % von Neuvillettes max. LP verursacht. Der auf diese Weise verursachte Schaden wird als Schaden vom heftigen Schlags – Gerechter Vorstoß betrachtet.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "-",
+            "1144"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "-",
+            "45"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "2967",
+            "3948"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "42",
+            "56"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "116",
+            "155"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "5908",
+            "6605"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "84",
+            "94"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "232",
+            "259"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteSliver",
+        "name": "Varunada-Lasurit-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicPearl",
+        "name": "Transozeanische Perle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "7599",
+            "8528"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "108",
+            "121"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "298",
+            "335"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicPearl",
+        "name": "Transozeanische Perle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "9533",
+            "10230"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "135",
+            "145"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "374",
+            "401"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicChunk",
+        "name": "Transozeanischer Brocken",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "11243",
+            "11940"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "159",
+            "169"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "441",
+            "468"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicChunk",
+        "name": "Transozeanischer Brocken",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "12965",
+            "13662"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "184",
+            "194"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "509",
+            "536"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "XenochromaticCrystal",
+        "name": "Xenochromatischer Kristall",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "14695",
+            "14695"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "208",
+            "208"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "576",
+            "576"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteGemstone",
+        "name": "Varunada-Lasurit",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "XenochromaticCrystal",
+        "name": "Xenochromatischer Kristall",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "-",
+            "1144"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "-",
+            "16"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "-",
+            "45"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "-",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "2967",
+            "3948"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "42",
+            "56"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "116",
+            "155"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "50.0%",
+            "50.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "5908",
+            "6605"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "84",
+            "94"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "232",
+            "259"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "50.0%",
+            "59.6%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteSliver",
+        "name": "Varunada-Lasurit-Splitter",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicPearl",
+        "name": "Transozeanische Perle",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "7599",
+            "8528"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "108",
+            "121"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "298",
+            "335"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "59.6%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicPearl",
+        "name": "Transozeanische Perle",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "9533",
+            "10230"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "135",
+            "145"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "374",
+            "401"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "69.2%",
+            "69.2%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteFragment",
+        "name": "Varunada-Lasurit-Bruchstück",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicChunk",
+        "name": "Transozeanischer Brocken",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "11243",
+            "11940"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "159",
+            "169"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "441",
+            "468"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "69.2%",
+            "78.8%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "TransoceanicChunk",
+        "name": "Transozeanischer Brocken",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "12965",
+            "13662"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "184",
+            "194"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "509",
+            "536"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "78.8%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteChunk",
+        "name": "Varunada-Lasurit-Brocken",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "XenochromaticCrystal",
+        "name": "Xenochromatischer Kristall",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Basis-LP",
+          "values": [
+            "14695",
+            "14695"
+          ]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": [
+            "208",
+            "208"
+          ]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": [
+            "576",
+            "576"
+          ]
+        },
+        {
+          "label": "KSCH",
+          "values": [
+            "88.4%",
+            "88.4%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "VarunadaLazuriteGemstone",
+        "name": "Varunada-Lasurit",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "FontemerUnihorn",
+        "name": "Fontemer-Horn",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Lumitoile",
+        "name": "Lumitoile",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "XenochromaticCrystal",
+        "name": "Xenochromatischer Kristall",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfEquity",
+          "name": "Lehren der „Fairness“",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "Transozeanische Perle",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToEquity",
+          "name": "Anleitung zur „Fairness“",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Transozeanischer Brocken",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToEquity",
+          "name": "Anleitung zur „Fairness“",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Transozeanischer Brocken",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToEquity",
+          "name": "Anleitung zur „Fairness“",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Transozeanischer Brocken",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToEquity",
+          "name": "Anleitung zur „Fairness“",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Transozeanischer Brocken",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfEquity",
+          "name": "Philosophie der „Fairness“",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Xenochromatischer Kristall",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "Everamber",
+          "name": "Permabernstein",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfEquity",
+          "name": "Philosophie der „Fairness“",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Xenochromatischer Kristall",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "Everamber",
+          "name": "Permabernstein",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfEquity",
+          "name": "Philosophie der „Fairness“",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Xenochromatischer Kristall",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "Everamber",
+          "name": "Permabernstein",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfEquity",
+          "name": "Philosophie der „Fairness“",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Xenochromatischer Kristall",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "Everamber",
+          "name": "Permabernstein",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Krone der Weisheit",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Neuvillette/Icon.webp",
+    "sideIcon": "Character/Neuvillette/SideIcon.webp",
+    "gatchaCard": "Character/Neuvillette/GachaCard.webp",
+    "gachaSplash": "Character/Neuvillette/GachaSplash.webp",
+    "face": "Character/Neuvillette/Face.webp",
+    "halfFace": "Character/Neuvillette/HalfFace.webp",
+    "profile": "Character/Neuvillette/Profile.webp",
+    "weaponStance": "Character/Neuvillette/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "TomeOfTheEternalFlow",
+  "specialDish": "ConsommePurete",
+  "tcgCharacterCard": "",
+  "outfits": [
+    {
+      "id": "ClearAdjudication",
+      "name": "Eindeutiges Urteil",
+      "description": "Neuvillettes Kleidung. Das anmutige und elegante Gewand des Obersten Richters. Seine komplexe Gestaltung erschwert dem Träger die freie Bewegung, doch für ihn hingegen ist ein angemessenes Erscheinungsbild nach seinem Status von besonderer Wichtigkeit.",
+      "picture": "Character/Neuvillette/Outfit/ClearAdjudication.webp"
+    }
+  ],
+  "release": 1695675600,
+  "version": "4.6"
 }

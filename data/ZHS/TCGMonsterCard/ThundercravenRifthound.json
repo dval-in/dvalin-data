@@ -1,75 +1,151 @@
 {
-	"id": "ThundercravenRifthound",
-	"shareid": 3409,
-	"name": "嗜雷·兽境猎犬",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "雷元素",
-		"weapon": "其他武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CankeringClaws",
-			"name": "侵蚀利爪",
-			"desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害，在敌方场上生成<span style=\"color:#FFFFFFFF\">侵蚀。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CorrosiveElectroCrystal",
-			"name": "侵蚀雷晶",
-			"desc": "造成2点<span style=\"color:#FFACFFFF\">雷元素伤害，在敌方场上生成<span style=\"color:#FFFFFFFF\">侵蚀。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DevouringBite",
-			"name": "嗜魔撕咬",
-			"desc": "造成6点<span style=\"color:#FFACFFFF\">雷元素伤害，在敌方场上生成<span style=\"color:#FFFFFFFF\">侵蚀。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElementalDevourer",
-			"name": "嗜魔",
-			"desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">嗜魔。",
-			"skilltag": ["被动技能"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "ThundercravenRifthound",
+  "shareid": 3409,
+  "name": "嗜雷·兽境猎犬",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CankeringClaws",
+      "name": "侵蚀利爪",
+      "desc": "造成1点雷元素伤害，在敌方场上生成侵蚀。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "侵蚀雷晶",
+      "desc": "造成2点雷元素伤害，在敌方场上生成侵蚀。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "嗜魔撕咬",
+      "desc": "造成6点雷元素伤害，在敌方场上生成侵蚀。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "嗜魔",
+      "desc": "【被动】战斗开始时，初始附属嗜魔。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "侵蚀利爪",
+      "desc": "造成1点雷元素伤害，在敌方场上生成侵蚀。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "侵蚀雷晶",
+      "desc": "造成2点雷元素伤害，在敌方场上生成侵蚀。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "嗜魔撕咬",
+      "desc": "造成6点雷元素伤害，在敌方场上生成侵蚀。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "嗜魔",
+      "desc": "【被动】战斗开始时，初始附属嗜魔。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 3409
 }

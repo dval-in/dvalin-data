@@ -1,83 +1,159 @@
 {
-	"id": "MillennialPearlSeahorse",
-	"shareid": 322,
-	"name": "Cá Ngựa Ngọc Trai Ngàn Năm",
-	"title": "Cá Ngựa Ngọc Trai Ngàn Năm",
-	"desc": "Một trong hai bá chủ đỉnh cao của Dị Chủng Biển Sâu, với thân thể mảnh khảnh mỹ miều nên được các nhà thơ và tác giả coi là sinh linh cao quý kiêu ngạo, gọi chúng là \"kỳ lân\".",
-	"attributes": {
-		"hp": 27,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Lôi",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"talentCard": {
-			"id": "PearlSolidification",
-			"name": "Pearl Solidification"
-		},
-		"source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Cá Ngựa Ngọc Trai Ngàn Năm",
-		"character": {
-			"id": "MillennialPearlSeahorse",
-			"name": "Millennial Pearl Seahorse"
-		}
-	},
-	"skills": [
-		{
-			"id": "TailSweep",
-			"name": "Quét Đuôi",
-			"desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SwirlingSchoolOfFish",
-			"name": "Đàn Cá Vần Vũ",
-			"desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi.Nếu nhân vật này đã áp dụng <span style=\"color:#FFFFFFFF\">Ngọc Trai Biển Cả, sẽ +1 <span style=\"color:#FFFFFFFF\">Số Lần Khả Dụng. (Mỗi hiệp 1 lần)",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FontemerHoarthunder",
-			"name": "Sấm Sét Biển Sâu",
-			"desc": "Gây 1 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Ngọc Trai Biển Cả, triệu hồi <span style=\"color:#FFFFFFFF\">Ngọc San Hô Cộng Hưởng.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PearlArmor",
-			"name": "Áo Giáp Ngọc Trai",
-			"desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Ngọc Trai Biển Cả.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "MillennialPearlSeahorse",
+  "shareid": 322,
+  "name": "Cá Ngựa Ngọc Trai Ngàn Năm",
+  "title": "Cá Ngựa Ngọc Trai Ngàn Năm",
+  "desc": "Một trong hai bá chủ đỉnh cao của Dị Chủng Biển Sâu, với thân thể mảnh khảnh mỹ miều nên được các nhà thơ và tác giả coi là sinh linh cao quý kiêu ngạo, gọi chúng là \"kỳ lân\".",
+  "attributes": {
+    "hp": 27,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "talentCard": {
+      "id": "PearlSolidification",
+      "name": "Pearl Solidification"
+    },
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Cá Ngựa Ngọc Trai Ngàn Năm",
+    "character": {
+      "id": "MillennialPearlSeahorse",
+      "name": "Millennial Pearl Seahorse"
+    }
+  },
+  "skills": [
+    {
+      "id": "TailSweep",
+      "name": "Quét Đuôi",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Đàn Cá Vần Vũ",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Lôi.Nếu nhân vật này đã áp dụng Ngọc Trai Biển Cả, sẽ +1 Số Lần Khả Dụng. (Mỗi hiệp 1 lần)",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Sấm Sét Biển Sâu",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Lôi, nhân vật này áp dụng Ngọc Trai Biển Cả, triệu hồi Ngọc San Hô Cộng Hưởng.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Áo Giáp Ngọc Trai",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này áp dụng Ngọc Trai Biển Cả.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Quét Đuôi",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Đàn Cá Vần Vũ",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Lôi. Nếu nhân vật này đã áp dụng Ngọc Trai Biển Cả, sẽ +1 Số Lần Khả Dụng. (Mỗi hiệp 1 lần)",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Sấm Sét Biển Sâu",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Lôi, nhân vật này áp dụng Ngọc Trai Biển Cả, triệu hồi Ngọc San Hô Cộng Hưởng.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Áo Giáp Ngọc Trai",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật này áp dụng Ngọc Trai Biển Cả.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 322
 }

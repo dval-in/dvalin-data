@@ -1,68 +1,198 @@
 {
-	"id": "Charlotte",
-	"shareid": 334,
-	"name": "Charlotte",
-	"title": "\"Hakikatin Merceği\" Charlotte",
-	"desc": "\"İnanılmaz gerçekler için güvenilir kaynağınız!\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Buz",
-		"weapon": "Katalizör",
-		"faction": ["Fontaine"],
-		"source": "Charlotte'u Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
-	},
-	"skills": [
-		{
-			"id": "CoolcolorCapture",
-			"name": "Soğuk Renk Fotoğrafçılığı",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FramingFreezingPointComposition",
-			"name": "Kadraj: Dondurma Tekniği",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir. Hedefe <span style=\"color:#FFFFFFFF\">Anlık Silüet eklenir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StillPhotoComprehensiveConfirmation",
-			"name": "Sabit Fotoğraf: Tam Doğrulama",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir, bütün karakterlerinin Canını 1 yeniler ve 1 <span style=\"color:#FFFFFFFF\">Önemli Haber Alanı çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Charlotte",
+  "shareid": 334,
+  "name": "Charlotte",
+  "title": "\"Hakikatin Merceği\" Charlotte",
+  "desc": "\"İnanılmaz gerçekler için güvenilir kaynağınız!\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Katalizör",
+    "faction": [
+      "Fontaine",
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "Charlotte'u Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Charlotte",
+      "name": "Charlotte",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ASummationOfInterest",
+      "name": "A Summation of Interest"
+    }
+  },
+  "skills": [
+    {
+      "id": "CoolcolorCapture",
+      "name": "Soğuk Renk Fotoğrafçılığı",
+      "desc": "1 Buz Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Kadraj: Dondurma Tekniği",
+      "desc": "1 Buz Hasarı verir. Hedefe Anlık Silüet eklenir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Sabit Fotoğraf: Tam Doğrulama",
+      "desc": "1 Buz Hasarı verir, bütün karakterlerinin Canını 1 yeniler ve 1 Önemli Haber Alanı çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "Soğuk Renk Fotoğrafçılığı",
+      "desc": "1 Buz Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Kadraj: Dondurma Tekniği",
+      "desc": "1 Buz Hasarı verir. Hedefe Anlık Silüet eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Sabit Fotoğraf: Tam Doğrulama",
+      "desc": "1 Buz Hasarı verir, bütün karakterlerinin Canını 1 yeniler ve 1 Önemli Haber Alanı çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "Soğuk Renk Fotoğrafçılığı",
+      "desc": "1 Buz Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Kadraj: Dondurma Tekniği",
+      "desc": "1 Buz Hasarı verir. Hedefe Anlık Silüet eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Sabit Fotoğraf: Tam Doğrulama",
+      "desc": "1 Buz Hasarı verir, bütün karakterlerinin Canını 1 yeniler ve 1 Önemli Haber Alanı çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 334
 }

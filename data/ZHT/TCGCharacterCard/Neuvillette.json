@@ -1,68 +1,198 @@
 {
-	"id": "Neuvillette",
-	"shareid": 335,
-	"name": "那維萊特",
-	"title": "諭告的潮音·那維萊特",
-	"desc": "凡高大者，無不蔑視。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "水元素",
-		"weapon": "法器",
-		"faction": ["楓丹"],
-		"source": "在貓尾酒館中邀請那維萊特進行對局，在友好對局難度中獲得勝利後獲得"
-	},
-	"skills": [
-		{
-			"id": "AsWaterSeeksEquilibrium",
-			"name": "如水從平",
-			"desc": "造成1點<span style=\"color:#80C0FFFF\">水元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OTearsIShallRepay",
-			"name": "淚水啊，我必償還",
-			"desc": "造成2點<span style=\"color:#80C0FFFF\">水元素傷害，生成<span style=\"color:#FFFFFFFF\">源水之滴。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OTidesIHaveReturned",
-			"name": "潮水啊，我已歸來",
-			"desc": "造成2點<span style=\"color:#80C0FFFF\">水元素傷害，對所有後臺敵人造成1點<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">穿透傷害，生成可用次數為2的<span style=\"color:#FFFFFFFF\">源水之滴。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Neuvillette",
+  "shareid": 335,
+  "name": "那維萊特",
+  "title": "諭告的潮音·那維萊特",
+  "desc": "凡高大者，無不蔑視。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": [
+      "楓丹",
+      "楓丹",
+      "楓丹"
+    ],
+    "source": "在貓尾酒館中邀請那維萊特進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "id": "Neuvillette",
+      "name": "Neuvillette",
+      "rarity": 5
+    },
+    "talentCard": {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Heir to the Ancient Sea's Authority"
+    }
+  },
+  "skills": [
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "如水從平",
+      "desc": "造成1點水元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "淚水啊，我必償還",
+      "desc": "造成2點水元素傷害，生成源水之滴。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "潮水啊，我已歸來",
+      "desc": "造成2點水元素傷害，對所有後臺敵人造成1點穿透傷害，生成可用次數為2的源水之滴。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "如水從平",
+      "desc": "造成1點水元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "淚水啊，我必償還",
+      "desc": "造成2點水元素傷害，生成源水之滴。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "潮水啊，我已歸來",
+      "desc": "造成2點水元素傷害，對所有後臺敵人造成1點穿透傷害，生成可用次數為2的源水之滴。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "如水從平",
+      "desc": "造成1點水元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "淚水啊，我必償還",
+      "desc": "造成2點水元素傷害，生成源水之滴。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "潮水啊，我已歸來",
+      "desc": "造成2點水元素傷害，對所有後臺敵人造成1點穿透傷害，生成可用次數為2的源水之滴。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 335
 }

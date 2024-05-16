@@ -1,1037 +1,2165 @@
 {
-	"id": "Diona",
-	"name": "Diona",
-	"title": "Đặc Chế Quán Rượu Đuôi Mèo",
-	"description": "Thiếu nữ có dòng máu \"không phải người\" hiếm có, người pha chế rượu rất được yêu thích của Quán Rượu Đuôi Mèo.",
-	"weaponType": "Cung",
-	"element": "Băng",
-	"gender": "nữ",
-	"substat": "Tăng ST Nguyên Tố Băng",
-	"affiliation": "Quán Rượu Đuôi Mèo",
-	"region": "Mondstadt",
-	"rarity": 4,
-	"birthday": "18/1",
-	"constellation": "Cung Tiểu Miêu",
-	"domain": "Vách Núi Quên",
-	"cv": {
-		"english": "Dina Sherman",
-		"chinese": "诺亚",
-		"japanese": "井澤詩織",
-		"korean": "Woo Jeong-shin"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackKtzleinStyle",
-			"name": "Tấn Công Thường - Xạ Thuật Thợ Săn",
-			"description": "Tấn Công ThườngThực hiện tối đa 5 lần bắn tên liên tiếp.Trọng KíchSát thương càng cao, ngắm bắn càng chuẩn.Khi ngắm bắn, hơi lạnh sẽ tích tụ trên mũi tên. Mũi tên mang đầy hơi lạnh sẽ gây Sát Thương Nguyên Tố Băng.Tấn Công Khi ĐápBắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "Sát Thương Lần 1",
-					"values": [
-						"36.12%",
-						"39.06%",
-						"42%",
-						"46.2%",
-						"49.14%",
-						"52.5%",
-						"57.12%",
-						"61.74%",
-						"66.36%",
-						"71.4%",
-						"77.17%",
-						"83.97%",
-						"90.76%",
-						"97.55%",
-						"104.96%"
-					]
-				},
-				{
-					"label": "Sát Thương Lần 2",
-					"values": [
-						"33.54%",
-						"36.27%",
-						"39%",
-						"42.9%",
-						"45.63%",
-						"48.75%",
-						"53.04%",
-						"57.33%",
-						"61.62%",
-						"66.3%",
-						"71.66%",
-						"77.97%",
-						"84.28%",
-						"90.58%",
-						"97.46%"
-					]
-				},
-				{
-					"label": "Sát Thương Lần 3",
-					"values": [
-						"45.58%",
-						"49.29%",
-						"53%",
-						"58.3%",
-						"62.01%",
-						"66.25%",
-						"72.08%",
-						"77.91%",
-						"83.74%",
-						"90.1%",
-						"97.39%",
-						"105.96%",
-						"114.53%",
-						"123.1%",
-						"132.45%"
-					]
-				},
-				{
-					"label": "Sát Thương Lần 4",
-					"values": [
-						"43%",
-						"46.5%",
-						"50%",
-						"55%",
-						"58.5%",
-						"62.5%",
-						"68%",
-						"73.5%",
-						"79%",
-						"85%",
-						"91.87%",
-						"99.96%",
-						"108.05%",
-						"116.13%",
-						"124.95%"
-					]
-				},
-				{
-					"label": "Sát Thương Lần 5",
-					"values": [
-						"53.75%",
-						"58.13%",
-						"62.5%",
-						"68.75%",
-						"73.12%",
-						"78.13%",
-						"85%",
-						"91.87%",
-						"98.75%",
-						"106.25%",
-						"114.84%",
-						"124.95%",
-						"135.06%",
-						"145.16%",
-						"156.19%"
-					]
-				},
-				{
-					"label": "Ngắm Bắn",
-					"values": [
-						"43.86%",
-						"47.43%",
-						"51%",
-						"56.1%",
-						"59.67%",
-						"63.75%",
-						"69.36%",
-						"74.97%",
-						"80.58%",
-						"86.7%",
-						"93.71%",
-						"101.96%",
-						"110.21%",
-						"118.45%",
-						"127.45%"
-					]
-				},
-				{
-					"label": "Tụ Lực Ngắm Bắn",
-					"values": [
-						"124%",
-						"133.3%",
-						"142.6%",
-						"155%",
-						"164.3%",
-						"173.6%",
-						"186%",
-						"198.4%",
-						"210.8%",
-						"223.2%",
-						"236.1%",
-						"252.96%",
-						"269.82%",
-						"286.69%",
-						"303.55%"
-					]
-				},
-				{
-					"label": "Sát Thương Khi Đáp",
-					"values": [
-						"56.83%",
-						"61.45%",
-						"66.08%",
-						"72.69%",
-						"77.31%",
-						"82.6%",
-						"89.87%",
-						"97.14%",
-						"104.41%",
-						"112.34%",
-						"120.27%",
-						"128.2%",
-						"136.12%",
-						"144.05%",
-						"151.98%"
-					]
-				},
-				{
-					"label": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
-					"values": [
-						"113.63% / 141.93%",
-						"122.88% / 153.49%",
-						"132.13% / 165.04%",
-						"145.35% / 181.54%",
-						"154.59% / 193.1%",
-						"165.16% / 206.3%",
-						"179.7% / 224.45%",
-						"194.23% / 242.61%",
-						"208.77% / 260.76%",
-						"224.62% / 280.57%",
-						"240.48% / 300.37%",
-						"256.34% / 320.18%",
-						"272.19% / 339.98%",
-						"288.05% / 359.79%",
-						"303.9% / 379.59%"
-					]
-				}
-			]
-		},
-		{
-			"id": "IcyPaws",
-			"name": "Móng Mèo Lạnh Giá",
-			"description": "Bắn móng mèo lạnh giá gây cho địch Sát Thương Nguyên Tố Băng và hình thành khiên khi đánh trúng.Lượng hấp thụ sát thương của khiên chịu ảnh hưởng từ giới hạn HP của Diona, thời gian duy trì dựa vào số lượng Móng Mèo Lạnh Giá đánh trúng.NhấnBắn nhanh 2 Móng Mèo Lạnh Giá.Nhấn GiữLùi về sau và bắn 5 Móng Mèo Lạnh Giá.Nhấn giữ hình thành Khiên, hấp thụ thêm 75% sát thương.Khiên sẽ hấp thụ 250% Sát Thương Nguyên Tố Băng, và khi hình thành, sẽ gán ấn nguyên tố Băng trong thời gian ngắn cho nhân vật hiện tại.",
-			"info": "Có thêm bao nhiêu đá vào rượu cũng không thể làm tổn hại đến kẻ say, cho đến khi Diona có được Vision, và rồi những viên đá lạnh đến nỗi khiến người ta buốt óc bắt đầu xuất hiện. Hay!",
-			"attributes": [
-				{
-					"label": "Sát Thương Vuốt Mèo",
-					"values": [
-						"Mỗi cái 41.92%",
-						"Mỗi cái 45.06%",
-						"Mỗi cái 48.21%",
-						"Mỗi cái 52.4%",
-						"Mỗi cái 55.54%",
-						"Mỗi cái 58.69%",
-						"Mỗi cái 62.88%",
-						"Mỗi cái 67.07%",
-						"Mỗi cái 71.26%",
-						"Mỗi cái 75.46%",
-						"Mỗi cái 79.65%",
-						"Mỗi cái 83.84%",
-						"Mỗi cái 89.08%",
-						"Mỗi cái 94.32%",
-						"Mỗi cái 99.56%"
-					]
-				},
-				{
-					"label": "Khiên hấp thu cơ bản",
-					"values": [
-						"7.2% lượng HP tối đa + 693",
-						"7.74% lượng HP tối đa + 762",
-						"8.28% lượng HP tối đa + 837",
-						"9% lượng HP tối đa + 918",
-						"9.54% lượng HP tối đa + 1005",
-						"10.08% lượng HP tối đa + 1097",
-						"10.8% lượng HP tối đa + 1195",
-						"11.52% lượng HP tối đa + 1299",
-						"12.24% lượng HP tối đa + 1409",
-						"12.96% lượng HP tối đa + 1524",
-						"13.68% lượng HP tối đa + 1646",
-						"14.4% lượng HP tối đa + 1773",
-						"15.3% lượng HP tối đa + 1905",
-						"16.2% lượng HP tối đa + 2044",
-						"17.1% lượng HP tối đa + 2188"
-					]
-				},
-				{
-					"label": "Thời gian kéo dài",
-					"values": [
-						"Mỗi Vuốt Mèo 1.8s",
-						"Mỗi Vuốt Mèo 1.9s",
-						"Mỗi Vuốt Mèo 2s",
-						"Mỗi Vuốt Mèo 2.1s",
-						"Mỗi Vuốt Mèo 2.2s",
-						"Mỗi Vuốt Mèo 2.3s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s",
-						"Mỗi Vuốt Mèo 2.4s"
-					]
-				},
-				{
-					"label": "CD Nhấn",
-					"values": ["6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s"]
-				},
-				{
-					"label": "CD Nhấn Giữ",
-					"values": [
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s"
-					]
-				}
-			]
-		},
-		{
-			"id": "SignatureMix",
-			"name": "Đặc Chế Mãnh Liệt",
-			"description": "Ném những viên đá được điều chế đặc biệt, gây Sát Thương Phạm Vi Nguyên Tố Băng và tạo thành khu vực Hơi Rượu Băng.Khu Vực Hơi Rượu Băng·Gây cho kẻ địch trong đó Sát Thương Nguyên Tố Băng liên tục.·Hồi HP liên tục cho nhân vật trong đó.",
-			"info": "Công thức kinh khủng khiến Diona cũng tự cảm thấy vô nhân đạo. Mùi vị đầu kinh khủng nên để cho kẻ địch trước, về sau thì thanh mát, tiếc rằng chỉ có thể dùng mũi và da để cảm nhận.",
-			"attributes": [
-				{
-					"label": "Sát Thương Kỹ Năng",
-					"values": [
-						"80%",
-						"86%",
-						"92%",
-						"100%",
-						"106%",
-						"112%",
-						"120%",
-						"128%",
-						"136%",
-						"144%",
-						"152%",
-						"160%",
-						"170%",
-						"180%",
-						"190%"
-					]
-				},
-				{
-					"label": "Sát thương duy trì trong khu vực",
-					"values": [
-						"52.64%",
-						"56.59%",
-						"60.54%",
-						"65.8%",
-						"69.75%",
-						"73.7%",
-						"78.96%",
-						"84.22%",
-						"89.49%",
-						"94.75%",
-						"100.02%",
-						"105.28%",
-						"111.86%",
-						"118.44%",
-						"125.02%"
-					]
-				},
-				{
-					"label": "Lượng trị liệu liên tục",
-					"values": [
-						"5.34% Giới hạn HP + 513",
-						"5.74% Giới hạn HP + 565",
-						"6.14% Giới hạn HP + 620",
-						"6.67% Giới hạn HP + 680",
-						"7.07% Giới hạn HP + 744",
-						"7.47% Giới hạn HP + 813",
-						"8% Giới hạn HP + 885",
-						"8.54% Giới hạn HP + 962",
-						"9.07% Giới hạn HP + 1044",
-						"9.6% Giới hạn HP + 1129",
-						"10.14% Giới hạn HP + 1219",
-						"10.67% Giới hạn HP + 1313",
-						"11.34% Giới hạn HP + 1411",
-						"12.01% Giới hạn HP + 1514",
-						"12.67% Giới hạn HP + 1621"
-					]
-				},
-				{
-					"label": "Thời Gian Kéo Dài",
-					"values": [
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s",
-						"12s"
-					]
-				},
-				{
-					"label": "CD",
-					"values": [
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s",
-						"20s"
-					]
-				},
-				{
-					"label": "Năng Lượng Nguyên Tố",
-					"values": ["80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80", "80"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "CatsTailSecretMenu",
-			"name": "Thực Đơn Bí Mật Đuôi Mèo",
-			"description": "Nhân vật được Khiên Móng Mèo Lạnh Giá bảo vệ, tốc độ di chuyển tăng 10%, thể lực tiêu hao giảm 10%.",
-			"level": 1
-		},
-		{
-			"id": "DrunkardsFarce",
-			"name": "Kẻ Say Rượu Khôi Hài",
-			"description": "Trong 15 giây sau khi địch vào khu vực Đặc Chế Mãnh Liệt giảm 10% tấn công.",
-			"level": 4
-		},
-		{
-			"id": "ComplimentaryBarFood",
-			"name": "Đồ Nhắm Tặng Kèm",
-			"description": "Nấu hoàn mỹ món ăn thuộc loại hồi phục, có tỷ lệ 12% x2 sản lượng.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "ALingeringFlavor",
-			"name": "Dư Âm Đặc Chế",
-			"description": "Khi kết thúc hiệu quả Đặc Chế Mãnh Liệt, Diona được hồi 15 điểm Năng Lượng Nguyên Tố.",
-			"level": 1
-		},
-		{
-			"id": "ShakenNotPurred",
-			"name": "Vuốt Mèo Lắc Đá",
-			"description": "Sát thương gây ra bởi Móng Mèo Lạnh Giá tăng 15%, khả năng hấp thụ sát thương của lớp khiên tăng 15%;Ngoài ra, khi đánh trúng sẽ tạo thành lớp khiên cho các nhân vật trên trận khác hiện ở gần có khả năng hấp thụ sát thương bằng 50% Móng Mèo Lạnh Giá và kéo dài 5s.",
-			"level": 2
-		},
-		{
-			"id": "AanotherRound",
-			"name": "Vẫn Muốn Thêm Một Ly?",
-			"description": "Cấp kỹ năng Đặc Chế Mãnh Liệt +3.Tăng tối đa đến cấp 15.",
-			"level": 3
-		},
-		{
-			"id": "WineIndustrySlayer",
-			"name": "[Sát Thủ Ngành Rượu]",
-			"description": "Khi ở trong khu vực Đặc Chế Mãnh Liệt, thời gian tụ lực cần khi ngắm bắn của Diona giảm 60%.",
-			"level": 4
-		},
-		{
-			"id": "DoubleShotOnTheRocks",
-			"name": "Hai Cốc Thêm Đá",
-			"description": "Cấp kỹ năng Móng Mèo Lạnh Giá +3.Tăng tối đa đến cấp 15.",
-			"level": 5
-		},
-		{
-			"id": "CatsTailClosingTime",
-			"name": "Khi Quán Đuôi Mèo Đóng Cửa",
-			"description": "Khi ở trong khu vực Đặc Chế Mãnh Liệt sẽ nhận được các hiệu quả dưới đây tùy theo HP nhân vật:·HP thấp hơn hoặc bằng 50%, tăng nhận trị liệu 30%; ·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": ["-", 1]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["-", "802"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["-", "18"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["-", "50"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [0, 1]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["2061", "2661"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["46", "59"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["129", "167"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [1, 2]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["3985", "4411"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["88", "98"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["250", "277"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeSliver",
-				"name": "Mảnh Ngọc Băng Vụn",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "CallaLily",
-				"name": "Hoa Calla Lily",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "FirmArrowhead",
-				"name": "Mũi Tên Chắc Chắn",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [2, 3]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["5074", "5642"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["113", "125"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["318", "354"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeFragment",
-				"name": "Mảnh Ngọc Băng Vỡ",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Hạt Nhân Cực Hàn",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "CallaLily",
-				"name": "Hoa Calla Lily",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "FirmArrowhead",
-				"name": "Mũi Tên Chắc Chắn",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [3, 4]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["6305", "6731"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["140", "149"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["396", "422"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeFragment",
-				"name": "Mảnh Ngọc Băng Vỡ",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Hạt Nhân Cực Hàn",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "CallaLily",
-				"name": "Hoa Calla Lily",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SharpArrowhead",
-				"name": "Mũi Tên Sắc Bén",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [4, 5]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["7393", "7818"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["164", "174"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["464", "491"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeChunk",
-				"name": "Miếng Ngọc Băng",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Hạt Nhân Cực Hàn",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "CallaLily",
-				"name": "Hoa Calla Lily",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SharpArrowhead",
-				"name": "Mũi Tên Sắc Bén",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [5, 6]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["8481", "8907"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["188", "198"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["532", "559"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeChunk",
-				"name": "Miếng Ngọc Băng",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Hạt Nhân Cực Hàn",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "CallaLily",
-				"name": "Hoa Calla Lily",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "WeatheredArrowhead",
-				"name": "Mũi Tên Thiện Chiến",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Đột Phá",
-					"values": [6, 7]
-				},
-				{
-					"label": "HP Căn Bản",
-					"values": ["9570", "9570"]
-				},
-				{
-					"label": "Tấn Công Căn Bản",
-					"values": ["212", "212"]
-				},
-				{
-					"label": "P.Ngự Căn Bản",
-					"values": ["601", "601"]
-				},
-				{
-					"label": "Tăng ST Nguyên Tố Băng",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeGemstone",
-				"name": "Ngọc Băng",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Hạt Nhân Cực Hàn",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "CallaLily",
-				"name": "Hoa Calla Lily",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "WeatheredArrowhead",
-				"name": "Mũi Tên Thiện Chiến",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfFreedom",
-					"name": "Bài Giảng Của \"Tự Do\"",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Mũi Tên Chắc Chắn",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Hướng Dẫn Của \"Tự Do\"",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Mũi Tên Sắc Bén",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Hướng Dẫn Của \"Tự Do\"",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Mũi Tên Sắc Bén",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Hướng Dẫn Của \"Tự Do\"",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Mũi Tên Sắc Bén",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToFreedom",
-					"name": "Hướng Dẫn Của \"Tự Do\"",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Mũi Tên Sắc Bén",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Triết Học Của \"Tự Do\"",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Mũi Tên Thiện Chiến",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "ShardOfAFoulLegacy",
-					"name": "Đao Ma Vương - Mảnh Vỡ",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Triết Học Của \"Tự Do\"",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Mũi Tên Thiện Chiến",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ShardOfAFoulLegacy",
-					"name": "Đao Ma Vương - Mảnh Vỡ",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Triết Học Của \"Tự Do\"",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Mũi Tên Thiện Chiến",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "ShardOfAFoulLegacy",
-					"name": "Đao Ma Vương - Mảnh Vỡ",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfFreedom",
-					"name": "Triết Học Của \"Tự Do\"",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Mũi Tên Thiện Chiến",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "ShardOfAFoulLegacy",
-					"name": "Đao Ma Vương - Mảnh Vỡ",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Vương Miện Trí Thức",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"featuredBanner": [],
-	"pictures": {
-		"icon": "Character/Diona/Icon.webp",
-		"sideIcon": "Character/Diona/SideIcon.webp",
-		"gatchaCard": "Character/Diona/GachaCard.webp",
-		"gachaSplash": "Character/Diona/GachaSplash.webp",
-		"face": "Character/Diona/Face.webp",
-		"halfFace": "Character/Diona/HalfFace.webp",
-		"profile": "Character/Diona/Profile.webp",
-		"weaponStance": "Character/Diona/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "HuntersBow",
-	"specialDish": "DefinitelyNotBarFood",
-	"tcgCharacterCard": "Diona",
-	"outfits": [
-		{
-			"id": "SugaryBrew",
-			"name": "Kẹo Ngọt Ủ Đường",
-			"description": "Phong cách của Diona. Trang phục làm việc thường ngày của ngôi sao pha chế ở Quán Rượu Đuôi Mèo.",
-			"picture": "Character/Diona/Outfit/SugaryBrew.webp"
-		}
-	]
+  "id": "Diona",
+  "name": "Diona",
+  "title": "Đặc Chế Quán Rượu Đuôi Mèo",
+  "description": "Thiếu nữ có dòng máu \"không phải người\" hiếm có, người pha chế rượu rất được yêu thích của Quán Rượu Đuôi Mèo.",
+  "weaponType": "Cung",
+  "element": "Băng",
+  "gender": "nữ",
+  "substat": "Tăng ST Nguyên Tố Băng",
+  "affiliation": "Quán Rượu Đuôi Mèo",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": "18/1",
+  "constellation": "Cung Tiểu Miêu",
+  "domain": "Vách Núi Quên",
+  "cv": {
+    "english": "Dina Sherman",
+    "chinese": "诺亚",
+    "japanese": "井澤詩織",
+    "korean": "Woo Jeong-shin"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackKtzleinStyle",
+      "name": "Tấn Công Thường - Xạ Thuật Thợ Săn",
+      "description": "Tấn Công ThườngThực hiện tối đa 5 lần bắn tên liên tiếp.Trọng KíchSát thương càng cao, ngắm bắn càng chuẩn.Khi ngắm bắn, hơi lạnh sẽ tích tụ trên mũi tên. Mũi tên mang đầy hơi lạnh sẽ gây Sát Thương Nguyên Tố Băng.Tấn Công Khi ĐápBắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Sát Thương Lần 1",
+          "values": [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "77.17%",
+            "83.97%",
+            "90.76%",
+            "97.55%",
+            "104.96%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 2",
+          "values": [
+            "33.54%",
+            "36.27%",
+            "39%",
+            "42.9%",
+            "45.63%",
+            "48.75%",
+            "53.04%",
+            "57.33%",
+            "61.62%",
+            "66.3%",
+            "71.66%",
+            "77.97%",
+            "84.28%",
+            "90.58%",
+            "97.46%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 3",
+          "values": [
+            "45.58%",
+            "49.29%",
+            "53%",
+            "58.3%",
+            "62.01%",
+            "66.25%",
+            "72.08%",
+            "77.91%",
+            "83.74%",
+            "90.1%",
+            "97.39%",
+            "105.96%",
+            "114.53%",
+            "123.1%",
+            "132.45%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 4",
+          "values": [
+            "43%",
+            "46.5%",
+            "50%",
+            "55%",
+            "58.5%",
+            "62.5%",
+            "68%",
+            "73.5%",
+            "79%",
+            "85%",
+            "91.87%",
+            "99.96%",
+            "108.05%",
+            "116.13%",
+            "124.95%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 5",
+          "values": [
+            "53.75%",
+            "58.13%",
+            "62.5%",
+            "68.75%",
+            "73.12%",
+            "78.13%",
+            "85%",
+            "91.87%",
+            "98.75%",
+            "106.25%",
+            "114.84%",
+            "124.95%",
+            "135.06%",
+            "145.16%",
+            "156.19%"
+          ]
+        },
+        {
+          "label": "Ngắm Bắn",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "93.71%",
+            "101.96%",
+            "110.21%",
+            "118.45%",
+            "127.45%"
+          ]
+        },
+        {
+          "label": "Tụ Lực Ngắm Bắn",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "236.1%",
+            "252.96%",
+            "269.82%",
+            "286.69%",
+            "303.55%"
+          ]
+        },
+        {
+          "label": "Sát Thương Khi Đáp",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "Móng Mèo Lạnh Giá",
+      "description": "Bắn móng mèo lạnh giá gây cho địch Sát Thương Nguyên Tố Băng và hình thành khiên khi đánh trúng.Lượng hấp thụ sát thương của khiên chịu ảnh hưởng từ giới hạn HP của Diona, thời gian duy trì dựa vào số lượng Móng Mèo Lạnh Giá đánh trúng.NhấnBắn nhanh 2 Móng Mèo Lạnh Giá.Nhấn GiữLùi về sau và bắn 5 Móng Mèo Lạnh Giá.Nhấn giữ hình thành Khiên, hấp thụ thêm 75% sát thương.Khiên sẽ hấp thụ 250% Sát Thương Nguyên Tố Băng, và khi hình thành, sẽ gán ấn nguyên tố Băng trong thời gian ngắn cho nhân vật hiện tại.",
+      "info": "Có thêm bao nhiêu đá vào rượu cũng không thể làm tổn hại đến kẻ say, cho đến khi Diona có được Vision, và rồi những viên đá lạnh đến nỗi khiến người ta buốt óc bắt đầu xuất hiện. Hay!",
+      "attributes": [
+        {
+          "label": "Sát Thương Vuốt Mèo",
+          "values": [
+            "Mỗi cái 41.92%",
+            "Mỗi cái 45.06%",
+            "Mỗi cái 48.21%",
+            "Mỗi cái 52.4%",
+            "Mỗi cái 55.54%",
+            "Mỗi cái 58.69%",
+            "Mỗi cái 62.88%",
+            "Mỗi cái 67.07%",
+            "Mỗi cái 71.26%",
+            "Mỗi cái 75.46%",
+            "Mỗi cái 79.65%",
+            "Mỗi cái 83.84%",
+            "Mỗi cái 89.08%",
+            "Mỗi cái 94.32%",
+            "Mỗi cái 99.56%"
+          ]
+        },
+        {
+          "label": "Khiên hấp thu cơ bản",
+          "values": [
+            "7.2% lượng HP tối đa + 693",
+            "7.74% lượng HP tối đa + 762",
+            "8.28% lượng HP tối đa + 837",
+            "9% lượng HP tối đa + 918",
+            "9.54% lượng HP tối đa + 1005",
+            "10.08% lượng HP tối đa + 1097",
+            "10.8% lượng HP tối đa + 1195",
+            "11.52% lượng HP tối đa + 1299",
+            "12.24% lượng HP tối đa + 1409",
+            "12.96% lượng HP tối đa + 1524",
+            "13.68% lượng HP tối đa + 1646",
+            "14.4% lượng HP tối đa + 1773",
+            "15.3% lượng HP tối đa + 1905",
+            "16.2% lượng HP tối đa + 2044",
+            "17.1% lượng HP tối đa + 2188"
+          ]
+        },
+        {
+          "label": "Thời gian kéo dài",
+          "values": [
+            "Mỗi Vuốt Mèo 1.8s",
+            "Mỗi Vuốt Mèo 1.9s",
+            "Mỗi Vuốt Mèo 2s",
+            "Mỗi Vuốt Mèo 2.1s",
+            "Mỗi Vuốt Mèo 2.2s",
+            "Mỗi Vuốt Mèo 2.3s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s"
+          ]
+        },
+        {
+          "label": "CD Nhấn",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "CD Nhấn Giữ",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "Đặc Chế Mãnh Liệt",
+      "description": "Ném những viên đá được điều chế đặc biệt, gây Sát Thương Phạm Vi Nguyên Tố Băng và tạo thành khu vực Hơi Rượu Băng.Khu Vực Hơi Rượu Băng·Gây cho kẻ địch trong đó Sát Thương Nguyên Tố Băng liên tục.·Hồi HP liên tục cho nhân vật trong đó.",
+      "info": "Công thức kinh khủng khiến Diona cũng tự cảm thấy vô nhân đạo. Mùi vị đầu kinh khủng nên để cho kẻ địch trước, về sau thì thanh mát, tiếc rằng chỉ có thể dùng mũi và da để cảm nhận.",
+      "attributes": [
+        {
+          "label": "Sát Thương Kỹ Năng",
+          "values": [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%"
+          ]
+        },
+        {
+          "label": "Sát thương duy trì trong khu vực",
+          "values": [
+            "52.64%",
+            "56.59%",
+            "60.54%",
+            "65.8%",
+            "69.75%",
+            "73.7%",
+            "78.96%",
+            "84.22%",
+            "89.49%",
+            "94.75%",
+            "100.02%",
+            "105.28%",
+            "111.86%",
+            "118.44%",
+            "125.02%"
+          ]
+        },
+        {
+          "label": "Lượng trị liệu liên tục",
+          "values": [
+            "5.34% Giới hạn HP + 513",
+            "5.74% Giới hạn HP + 565",
+            "6.14% Giới hạn HP + 620",
+            "6.67% Giới hạn HP + 680",
+            "7.07% Giới hạn HP + 744",
+            "7.47% Giới hạn HP + 813",
+            "8% Giới hạn HP + 885",
+            "8.54% Giới hạn HP + 962",
+            "9.07% Giới hạn HP + 1044",
+            "9.6% Giới hạn HP + 1129",
+            "10.14% Giới hạn HP + 1219",
+            "10.67% Giới hạn HP + 1313",
+            "11.34% Giới hạn HP + 1411",
+            "12.01% Giới hạn HP + 1514",
+            "12.67% Giới hạn HP + 1621"
+          ]
+        },
+        {
+          "label": "Thời Gian Kéo Dài",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Năng Lượng Nguyên Tố",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackKtzleinStyle",
+      "name": "Tấn Công Thường - Xạ Thuật Thợ Săn",
+      "description": "Tấn Công Thường Thực hiện tối đa 5 lần bắn tên liên tiếp. Trọng Kích Sát thương càng cao, ngắm bắn càng chuẩn. Khi ngắm bắn, hơi lạnh sẽ tích tụ trên mũi tên. Mũi tên mang đầy hơi lạnh sẽ gây Sát Thương Nguyên Tố Băng. Tấn Công Khi Đáp Bắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Sát Thương Lần 1",
+          "values": [
+            "36.12%",
+            "39.06%",
+            "42%",
+            "46.2%",
+            "49.14%",
+            "52.5%",
+            "57.12%",
+            "61.74%",
+            "66.36%",
+            "71.4%",
+            "77.18%",
+            "83.97%",
+            "90.76%",
+            "97.55%",
+            "104.96%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 2",
+          "values": [
+            "33.54%",
+            "36.27%",
+            "39%",
+            "42.9%",
+            "45.63%",
+            "48.75%",
+            "53.04%",
+            "57.33%",
+            "61.62%",
+            "66.3%",
+            "71.66%",
+            "77.97%",
+            "84.28%",
+            "90.58%",
+            "97.46%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 3",
+          "values": [
+            "45.58%",
+            "49.29%",
+            "53%",
+            "58.3%",
+            "62.01%",
+            "66.25%",
+            "72.08%",
+            "77.91%",
+            "83.74%",
+            "90.1%",
+            "97.39%",
+            "105.96%",
+            "114.53%",
+            "123.1%",
+            "132.45%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 4",
+          "values": [
+            "43%",
+            "46.5%",
+            "50%",
+            "55%",
+            "58.5%",
+            "62.5%",
+            "68%",
+            "73.5%",
+            "79%",
+            "85%",
+            "91.88%",
+            "99.96%",
+            "108.04%",
+            "116.13%",
+            "124.95%"
+          ]
+        },
+        {
+          "label": "Sát Thương Lần 5",
+          "values": [
+            "53.75%",
+            "58.13%",
+            "62.5%",
+            "68.75%",
+            "73.13%",
+            "78.13%",
+            "85%",
+            "91.88%",
+            "98.75%",
+            "106.25%",
+            "114.84%",
+            "124.95%",
+            "135.06%",
+            "145.16%",
+            "156.19%"
+          ]
+        },
+        {
+          "label": "Ngắm Bắn",
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "93.71%",
+            "101.96%",
+            "110.21%",
+            "118.45%",
+            "127.45%"
+          ]
+        },
+        {
+          "label": "Tụ Lực Ngắm Bắn",
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "236.1%",
+            "252.96%",
+            "269.82%",
+            "286.69%",
+            "303.55%"
+          ]
+        },
+        {
+          "label": "Sát Thương Khi Đáp",
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.2%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.17% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "Móng Mèo Lạnh Giá",
+      "description": "Bắn móng mèo lạnh giá gây cho địch Sát Thương Nguyên Tố Băng và hình thành khiên khi đánh trúng. Lượng hấp thụ sát thương của khiên chịu ảnh hưởng từ giới hạn HP của Diona, thời gian duy trì dựa vào số lượng Móng Mèo Lạnh Giá đánh trúng. Nhấn Bắn nhanh 2 Móng Mèo Lạnh Giá. Nhấn Giữ Lùi về sau và bắn 5 Móng Mèo Lạnh Giá. Nhấn giữ hình thành Khiên, hấp thụ thêm 75% sát thương. Khiên sẽ hấp thụ 250% Sát Thương Nguyên Tố Băng, và khi hình thành, sẽ gán ấn nguyên tố Băng trong thời gian ngắn cho nhân vật hiện tại.",
+      "info": "Có thêm bao nhiêu đá vào rượu cũng không thể làm tổn hại đến kẻ say, cho đến khi Diona có được Vision, và rồi những viên đá lạnh đến nỗi khiến người ta buốt óc bắt đầu xuất hiện. Hay!",
+      "attributes": [
+        {
+          "label": "Sát Thương Vuốt Mèo",
+          "values": [
+            "Mỗi cái 41.92%",
+            "Mỗi cái 45.06%",
+            "Mỗi cái 48.21%",
+            "Mỗi cái 52.4%",
+            "Mỗi cái 55.54%",
+            "Mỗi cái 58.69%",
+            "Mỗi cái 62.88%",
+            "Mỗi cái 67.07%",
+            "Mỗi cái 71.26%",
+            "Mỗi cái 75.46%",
+            "Mỗi cái 79.65%",
+            "Mỗi cái 83.84%",
+            "Mỗi cái 89.08%",
+            "Mỗi cái 94.32%",
+            "Mỗi cái 99.56%"
+          ]
+        },
+        {
+          "label": "Khiên hấp thu cơ bản",
+          "values": [
+            "7.2% lượng HP tối đa + 693",
+            "7.74% lượng HP tối đa + 762",
+            "8.28% lượng HP tối đa + 837",
+            "9% lượng HP tối đa + 918",
+            "9.54% lượng HP tối đa + 1005",
+            "10.08% lượng HP tối đa + 1097",
+            "10.8% lượng HP tối đa + 1195",
+            "11.52% lượng HP tối đa + 1299",
+            "12.24% lượng HP tối đa + 1409",
+            "12.96% lượng HP tối đa + 1524",
+            "13.68% lượng HP tối đa + 1646",
+            "14.4% lượng HP tối đa + 1773",
+            "15.3% lượng HP tối đa + 1905",
+            "16.2% lượng HP tối đa + 2044",
+            "17.1% lượng HP tối đa + 2188"
+          ]
+        },
+        {
+          "label": "Thời gian kéo dài",
+          "values": [
+            "Mỗi Vuốt Mèo 1.8s",
+            "Mỗi Vuốt Mèo 1.9s",
+            "Mỗi Vuốt Mèo 2s",
+            "Mỗi Vuốt Mèo 2.1s",
+            "Mỗi Vuốt Mèo 2.2s",
+            "Mỗi Vuốt Mèo 2.3s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s",
+            "Mỗi Vuốt Mèo 2.4s"
+          ]
+        },
+        {
+          "label": "CD Nhấn",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": "CD Nhấn Giữ",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "Đặc Chế Mãnh Liệt",
+      "description": "Ném những viên đá được điều chế đặc biệt, gây Sát Thương Phạm Vi Nguyên Tố Băng và tạo thành khu vực Hơi Rượu Băng. Khu Vực Hơi Rượu Băng ·Gây cho kẻ địch trong đó Sát Thương Nguyên Tố Băng liên tục. ·Hồi HP liên tục cho nhân vật trong đó.",
+      "info": "Công thức kinh khủng khiến Diona cũng tự cảm thấy vô nhân đạo. Mùi vị đầu kinh khủng nên để cho kẻ địch trước, về sau thì thanh mát, tiếc rằng chỉ có thể dùng mũi và da để cảm nhận.",
+      "attributes": [
+        {
+          "label": "Sát Thương Kỹ Năng",
+          "values": [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%",
+            "180%",
+            "190%"
+          ]
+        },
+        {
+          "label": "Sát thương duy trì trong khu vực",
+          "values": [
+            "52.64%",
+            "56.59%",
+            "60.54%",
+            "65.8%",
+            "69.75%",
+            "73.7%",
+            "78.96%",
+            "84.22%",
+            "89.49%",
+            "94.75%",
+            "100.02%",
+            "105.28%",
+            "111.86%",
+            "118.44%",
+            "125.02%"
+          ]
+        },
+        {
+          "label": "Lượng trị liệu liên tục",
+          "values": [
+            "5.34% Giới hạn HP + 513",
+            "5.74% Giới hạn HP + 565",
+            "6.14% Giới hạn HP + 620",
+            "6.67% Giới hạn HP + 680",
+            "7.07% Giới hạn HP + 744",
+            "7.47% Giới hạn HP + 813",
+            "8% Giới hạn HP + 885",
+            "8.54% Giới hạn HP + 962",
+            "9.07% Giới hạn HP + 1044",
+            "9.6% Giới hạn HP + 1129",
+            "10.14% Giới hạn HP + 1219",
+            "10.67% Giới hạn HP + 1313",
+            "11.34% Giới hạn HP + 1411",
+            "12.01% Giới hạn HP + 1514",
+            "12.67% Giới hạn HP + 1621"
+          ]
+        },
+        {
+          "label": "Thời Gian Kéo Dài",
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": "CD",
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": "Năng Lượng Nguyên Tố",
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "CatsTailSecretMenu",
+      "name": "Thực Đơn Bí Mật Đuôi Mèo",
+      "description": "Nhân vật được Khiên Móng Mèo Lạnh Giá bảo vệ, tốc độ di chuyển tăng 10%, thể lực tiêu hao giảm 10%.",
+      "level": 1
+    },
+    {
+      "id": "DrunkardsFarce",
+      "name": "Kẻ Say Rượu Khôi Hài",
+      "description": "Trong 15 giây sau khi địch vào khu vực Đặc Chế Mãnh Liệt giảm 10% tấn công.",
+      "level": 4
+    },
+    {
+      "id": "ComplimentaryBarFood",
+      "name": "Đồ Nhắm Tặng Kèm",
+      "description": "Nấu hoàn mỹ món ăn thuộc loại hồi phục, có tỷ lệ 12% x2 sản lượng.",
+      "level": 0
+    },
+    {
+      "id": "CatsTailSecretMenu",
+      "name": "Thực Đơn Bí Mật Đuôi Mèo",
+      "description": "Nhân vật được Khiên Móng Mèo Lạnh Giá bảo vệ, tốc độ di chuyển tăng 10%, thể lực tiêu hao giảm 10%.",
+      "level": 1
+    },
+    {
+      "id": "DrunkardsFarce",
+      "name": "Kẻ Say Rượu Khôi Hài",
+      "description": "Trong 15 giây sau khi địch vào khu vực Đặc Chế Mãnh Liệt giảm 10% tấn công.",
+      "level": 4
+    },
+    {
+      "id": "ComplimentaryBarFood",
+      "name": "Đồ Nhắm Tặng Kèm",
+      "description": "Nấu hoàn mỹ món ăn thuộc loại hồi phục, có tỷ lệ 12% x2 sản lượng.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "Alingeringflavor",
+      "name": "Dư Âm Đặc Chế",
+      "description": "Khi kết thúc hiệu quả Đặc Chế Mãnh Liệt, Diona được hồi 15 điểm Năng Lượng Nguyên Tố.",
+      "level": 1
+    },
+    {
+      "id": "ShakenNotPurred",
+      "name": "Vuốt Mèo Lắc Đá",
+      "description": "Sát thương gây ra bởi Móng Mèo Lạnh Giá tăng 15%, khả năng hấp thụ sát thương của lớp khiên tăng 15%;Ngoài ra, khi đánh trúng sẽ tạo thành lớp khiên cho các nhân vật trên trận khác hiện ở gần có khả năng hấp thụ sát thương bằng 50% Móng Mèo Lạnh Giá và kéo dài 5s.",
+      "level": 2
+    },
+    {
+      "id": "AanotherRound",
+      "name": "Vẫn Muốn Thêm Một Ly?",
+      "description": "Cấp kỹ năng Đặc Chế Mãnh Liệt +3.Tăng tối đa đến cấp 15.",
+      "level": 3
+    },
+    {
+      "id": "WineIndustrySlayer",
+      "name": "[Sát Thủ Ngành Rượu]",
+      "description": "Khi ở trong khu vực Đặc Chế Mãnh Liệt, thời gian tụ lực cần khi ngắm bắn của Diona giảm 60%.",
+      "level": 4
+    },
+    {
+      "id": "DoubleShotOnTheRocks",
+      "name": "Hai Cốc Thêm Đá",
+      "description": "Cấp kỹ năng Móng Mèo Lạnh Giá +3.Tăng tối đa đến cấp 15.",
+      "level": 5
+    },
+    {
+      "id": "CatsTailClosingTime",
+      "name": "Khi Quán Đuôi Mèo Đóng Cửa",
+      "description": "Khi ở trong khu vực Đặc Chế Mãnh Liệt sẽ nhận được các hiệu quả dưới đây tùy theo HP nhân vật:·HP thấp hơn hoặc bằng 50%, tăng nhận trị liệu 30%; ·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.",
+      "level": 6
+    },
+    {
+      "id": "ALingeringFlavor",
+      "name": "Dư Âm Đặc Chế",
+      "description": "Khi kết thúc hiệu quả Đặc Chế Mãnh Liệt, Diona được hồi 15 điểm Năng Lượng Nguyên Tố.",
+      "level": 1
+    },
+    {
+      "id": "ShakenNotPurred",
+      "name": "Vuốt Mèo Lắc Đá",
+      "description": "Sát thương gây ra bởi Móng Mèo Lạnh Giá tăng 15%, khả năng hấp thụ sát thương của lớp khiên tăng 15%; Ngoài ra, khi đánh trúng sẽ tạo thành lớp khiên cho các nhân vật trên trận khác hiện ở gần có khả năng hấp thụ sát thương bằng 50% Móng Mèo Lạnh Giá và kéo dài 5s.",
+      "level": 2
+    },
+    {
+      "id": "AanotherRound",
+      "name": "Vẫn Muốn Thêm Một Ly?",
+      "description": "Cấp kỹ năng Đặc Chế Mãnh Liệt +3. Tăng tối đa đến cấp 15.",
+      "level": 3
+    },
+    {
+      "id": "WineIndustrySlayer",
+      "name": "[Sát Thủ Ngành Rượu]",
+      "description": "Khi ở trong khu vực Đặc Chế Mãnh Liệt, thời gian tụ lực cần khi ngắm bắn của Diona giảm 60%.",
+      "level": 4
+    },
+    {
+      "id": "DoubleShotOnTheRocks",
+      "name": "Hai Cốc Thêm Đá",
+      "description": "Cấp kỹ năng Móng Mèo Lạnh Giá +3. Tăng tối đa đến cấp 15.",
+      "level": 5
+    },
+    {
+      "id": "CatsTailClosingTime",
+      "name": "Khi Quán Đuôi Mèo Đóng Cửa",
+      "description": "Khi ở trong khu vực Đặc Chế Mãnh Liệt sẽ nhận được các hiệu quả dưới đây tùy theo HP nhân vật: ·HP thấp hơn hoặc bằng 50%, tăng nhận trị liệu 30%; ·Khi HP cao hơn 50%, Tinh Thông Nguyên Tố tăng 200.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "-",
+            "50"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "46",
+            "59"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "129",
+            "167"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "88",
+            "98"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "250",
+            "277"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeSliver",
+        "name": "Mảnh Ngọc Băng Vụn",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Mũi Tên Chắc Chắn",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "113",
+            "125"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "318",
+            "354"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Mảnh Ngọc Băng Vỡ",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Mũi Tên Chắc Chắn",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "140",
+            "149"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "396",
+            "422"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Mảnh Ngọc Băng Vỡ",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Mũi Tên Sắc Bén",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "164",
+            "174"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "464",
+            "491"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Miếng Ngọc Băng",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Mũi Tên Sắc Bén",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "188",
+            "198"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "532",
+            "559"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Miếng Ngọc Băng",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Mũi Tên Thiện Chiến",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "212",
+            "212"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "601",
+            "601"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeGemstone",
+        "name": "Ngọc Băng",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Mũi Tên Thiện Chiến",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "-",
+            "802"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "-",
+            "18"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "-",
+            "50"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "2061",
+            "2661"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "46",
+            "59"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "129",
+            "167"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "3985",
+            "4411"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "88",
+            "98"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "250",
+            "277"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeSliver",
+        "name": "Mảnh Ngọc Băng Vụn",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Mũi Tên Chắc Chắn",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "5074",
+            "5642"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "113",
+            "125"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "318",
+            "354"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Mảnh Ngọc Băng Vỡ",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "FirmArrowhead",
+        "name": "Mũi Tên Chắc Chắn",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "6305",
+            "6731"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "140",
+            "149"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "396",
+            "422"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Mảnh Ngọc Băng Vỡ",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Mũi Tên Sắc Bén",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "7393",
+            "7818"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "164",
+            "174"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "464",
+            "491"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Miếng Ngọc Băng",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SharpArrowhead",
+        "name": "Mũi Tên Sắc Bén",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "8481",
+            "8907"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "188",
+            "198"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "532",
+            "559"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Miếng Ngọc Băng",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Mũi Tên Thiện Chiến",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": [
+            "9570",
+            "9570"
+          ]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": [
+            "212",
+            "212"
+          ]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": [
+            "601",
+            "601"
+          ]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Băng",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeGemstone",
+        "name": "Ngọc Băng",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Hạt Nhân Cực Hàn",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "CallaLily",
+        "name": "Hoa Calla Lily",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "WeatheredArrowhead",
+        "name": "Mũi Tên Thiện Chiến",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfFreedom",
+          "name": "Bài Giảng Của \"Tự Do\"",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Mũi Tên Chắc Chắn",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Hướng Dẫn Của \"Tự Do\"",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Mũi Tên Sắc Bén",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Hướng Dẫn Của \"Tự Do\"",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Mũi Tên Sắc Bén",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Hướng Dẫn Của \"Tự Do\"",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Mũi Tên Sắc Bén",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToFreedom",
+          "name": "Hướng Dẫn Của \"Tự Do\"",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Mũi Tên Sắc Bén",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Triết Học Của \"Tự Do\"",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Mũi Tên Thiện Chiến",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ShardOfAFoulLegacy",
+          "name": "Đao Ma Vương - Mảnh Vỡ",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Triết Học Của \"Tự Do\"",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Mũi Tên Thiện Chiến",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShardOfAFoulLegacy",
+          "name": "Đao Ma Vương - Mảnh Vỡ",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Triết Học Của \"Tự Do\"",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Mũi Tên Thiện Chiến",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ShardOfAFoulLegacy",
+          "name": "Đao Ma Vương - Mảnh Vỡ",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfFreedom",
+          "name": "Triết Học Của \"Tự Do\"",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Mũi Tên Thiện Chiến",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShardOfAFoulLegacy",
+          "name": "Đao Ma Vương - Mảnh Vỡ",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Vương Miện Trí Thức",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "featuredBanner": [],
+  "pictures": {
+    "icon": "Character/Diona/Icon.webp",
+    "sideIcon": "Character/Diona/SideIcon.webp",
+    "gatchaCard": "Character/Diona/GachaCard.webp",
+    "gachaSplash": "Character/Diona/GachaSplash.webp",
+    "face": "Character/Diona/Face.webp",
+    "halfFace": "Character/Diona/HalfFace.webp",
+    "profile": "Character/Diona/Profile.webp",
+    "weaponStance": "Character/Diona/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "HuntersBow",
+  "specialDish": "DefinitelyNotBarFood",
+  "tcgCharacterCard": "Diona",
+  "outfits": [
+    {
+      "id": "SugaryBrew",
+      "name": "Kẹo Ngọt Ủ Đường",
+      "description": "Phong cách của Diona. Trang phục làm việc thường ngày của ngôi sao pha chế ở Quán Rượu Đuôi Mèo.",
+      "picture": "Character/Diona/Outfit/SugaryBrew.webp"
+    }
+  ],
+  "release": 1605060000,
+  "version": "4.6"
 }

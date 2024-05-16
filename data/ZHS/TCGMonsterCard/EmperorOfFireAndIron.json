@@ -1,0 +1,85 @@
+{
+  "id": "EmperorOfFireAndIron",
+  "shareId": 4307,
+  "name": "铁甲熔火帝皇",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 24,
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null,
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "重钳碎击",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "烈焰燃绽",
+      "desc": "造成1点火元素伤害；如果本角色附属有至少7层重甲蟹壳，则此伤害+1。 然后，本角色附属2层重甲蟹壳。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "战阵爆轰",
+      "desc": "本角色附属6层重甲蟹壳并准备技能：炽烈轰破。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "帝王甲胄",
+      "desc": "【被动】战斗开始时：初始附属5层重甲蟹壳。 我方执行任意行动后：如果我方场上存在重甲蟹壳以外的护盾状态或护盾出战状态，则将其全部移除；每移除1个，就使角色附属2层重甲蟹壳。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.6"
+}

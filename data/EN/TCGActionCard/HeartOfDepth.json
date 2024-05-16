@@ -1,33 +1,46 @@
 {
-	"id": "HeartOfDepth",
-	"shareid": 168,
-	"name": "Heart of Depth",
-	"title": "Shipborne Afterthought: Heart of Depth",
-	"desc": "\"For all deaths are in vain. There is no saving those who indulge in the past.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">When you play a Talent card or a Character uses a Skill: Spend 1 less <span style=\"color:#80C0FFFF\">Hydro Die. (Once per Round)<span style=\"color:#FFFFFFFF\">Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be <span style=\"color:#80C0FFFF\">Hydro.",
-	"attributes": {
-		"cost": 2,
-		"costType": "Matching Element",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 2
-			}
-		],
-		"artifact": {
-			"id": "HeartOfDepth",
-			"name": "Heart of Depth",
-			"rarity": 5
-		},
-		"tags": ["Artifact"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">When you play a Talent card or a Character uses a Skill: Spend 1 less <span style=\"color:#80C0FFFF\">Hydro Die. (Once per Round)<span style=\"color:#FFFFFFFF\">Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be <span style=\"color:#80C0FFFF\">Hydro.(A character can equip a maximum of 1 Artifact)"
-		}
-	],
-	"version": "4.5"
+  "id": "HeartOfDepth",
+  "shareid": 168,
+  "name": "Heart of Depth",
+  "title": "Shipborne Afterthought: Heart of Depth",
+  "desc": "\"For all deaths are in vain. There is no saving those who indulge in the past.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">When you play a Talent card or a Character uses a Skill:</span> Spend 1 less <span style=\"color:#80C0FFFF\">Hydro</span> Die. (Once per Round)<br/><span style=\"color:#FFFFFFFF\">Roll Phase:</span> 2 of the starting Elemental Dice you roll are always guaranteed to be <span style=\"color:#80C0FFFF\">Hydro</span>.",
+  "attributes": {
+    "cost": 2,
+    "costType": "Matching Element",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 2
+      }
+    ],
+    "artifact": {
+      "id": "HeartOfDepth",
+      "name": "Heart of Depth",
+      "rarity": 5
+    },
+    "tags": [
+      "Artifact",
+      "Artifact"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "When you play a Talent card or a Character uses a Skill: Spend 1 less Hydro Die. (Once per Round)Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Hydro.(A character can equip a maximum of 1 Artifact)"
+    },
+    {
+      "name": "",
+      "desc": "When you play a Talent card or a Character uses a Skill: Spend 1 less Hydro Die. (Once per Round) Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Hydro. (A character can equip a maximum of 1 Artifact)"
+    }
+  ],
+  "version": "4.5",
+  "shareId": 168
 }

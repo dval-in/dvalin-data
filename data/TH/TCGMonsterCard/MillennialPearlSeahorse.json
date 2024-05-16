@@ -1,83 +1,159 @@
 {
-	"id": "MillennialPearlSeahorse",
-	"shareid": 322,
-	"name": "Millennial Pearl Seahorse",
-	"title": "Millennial Pearl Seahorse",
-	"desc": "หนึ่งในผู้ปกครองสองตนที่ยืนอยู่บนจุดสูงสุดของ Fontemer Aberrant ด้วยรูปร่างที่เรียวยาว และสง่างามของมัน ทำให้กวี และนักเขียนมองว่าเป็นสิ่งมีชีวิตที่เย่อหยิ่ง และสูงส่ง จึงได้รับการเรียกว่า \"ม้าน้ำไข่มุกพันปี\"",
-	"attributes": {
-		"hp": 27,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไฟฟ้า",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["มอนสเตอร์"],
-		"talentCard": {
-			"id": "PearlSolidification",
-			"name": "Pearl Solidification"
-		},
-		"source": "ได้รับหลังจากเอาชนะ Millennial Pearl Seahorse ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-		"character": {
-			"id": "MillennialPearlSeahorse",
-			"name": "Millennial Pearl Seahorse"
-		}
-	},
-	"skills": [
-		{
-			"id": "TailSweep",
-			"name": "Tail Sweep",
-			"desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SwirlingSchoolOfFish",
-			"name": "Swirling School of Fish",
-			"desc": "สร้าง <span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 3 หน่วยหากตัวละครในปัจจุบันได้รับ <span style=\"color:#FFFFFFFF\">Fontemer Pearl จะทำให้ได้รับ<span style=\"color:#FFFFFFFF\">จำนวนครั้งที่ใช้ได้ +1 (เทิร์นละ 1 ครั้ง)",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FontemerHoarthunder",
-			"name": "Fontemer Hoarthunder",
-			"desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 1 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Fontemer Pearl อัญเชิญ <span style=\"color:#FFFFFFFF\">Resonant Coral Orb",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PearlArmor",
-			"name": "Pearl Armor",
-			"desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Fontemer Pearl",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "MillennialPearlSeahorse",
+  "shareid": 322,
+  "name": "Millennial Pearl Seahorse",
+  "title": "Millennial Pearl Seahorse",
+  "desc": "หนึ่งในผู้ปกครองสองตนที่ยืนอยู่บนจุดสูงสุดของ Fontemer Aberrant ด้วยรูปร่างที่เรียวยาว และสง่างามของมัน ทำให้กวี และนักเขียนมองว่าเป็นสิ่งมีชีวิตที่เย่อหยิ่ง และสูงส่ง จึงได้รับการเรียกว่า \"ม้าน้ำไข่มุกพันปี\"",
+  "attributes": {
+    "hp": 27,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์",
+      "มอนสเตอร์"
+    ],
+    "talentCard": {
+      "id": "PearlSolidification",
+      "name": "Pearl Solidification"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Millennial Pearl Seahorse ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "MillennialPearlSeahorse",
+      "name": "Millennial Pearl Seahorse"
+    }
+  },
+  "skills": [
+    {
+      "id": "TailSweep",
+      "name": "Tail Sweep",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Swirling School of Fish",
+      "desc": "สร้าง ความเสียหายไฟฟ้า 3 หน่วยหากตัวละครในปัจจุบันได้รับ Fontemer Pearl จะทำให้ได้รับจำนวนครั้งที่ใช้ได้ +1 (เทิร์นละ 1 ครั้ง)",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Fontemer Hoarthunder",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย และตัวละครนี้จะได้รับ Fontemer Pearl อัญเชิญ Resonant Coral Orb",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Pearl Armor",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครนี้จะได้รับ Fontemer Pearl",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Tail Sweep",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Swirling School of Fish",
+      "desc": "สร้าง ความเสียหายไฟฟ้า 3 หน่วย หากตัวละครในปัจจุบันได้รับ Fontemer Pearl จะทำให้ได้รับจำนวนครั้งที่ใช้ได้ +1 (เทิร์นละ 1 ครั้ง)",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Fontemer Hoarthunder",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย และตัวละครนี้จะได้รับ Fontemer Pearl อัญเชิญ Resonant Coral Orb",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Pearl Armor",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ตัวละครนี้จะได้รับ Fontemer Pearl",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 322
 }

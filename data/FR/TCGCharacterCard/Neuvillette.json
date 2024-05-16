@@ -1,68 +1,198 @@
 {
-	"id": "Neuvillette",
-	"shareid": 335,
-	"name": "Neuvillette",
-	"title": "Neuvillette · Ordonnateur du jugement inexorable",
-	"desc": "Tout ce qui est hautain subit son mépris.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Catalyseur",
-		"faction": ["Fontaine"],
-		"source": "Récompense pour avoir invité Neuvillette à une partie amicale dans La Queue de Chat et remporté la victoire"
-	},
-	"skills": [
-		{
-			"id": "AsWaterSeeksEquilibrium",
-			"name": "Stabilité de l'eau",
-			"desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OTearsIShallRepay",
-			"name": "Ô larmes, je rembourse",
-			"desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro et crée une <span style=\"color:#FFFFFFFF\">goutte d'eau de source.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OTidesIHaveReturned",
-			"name": "Ô marées, je reviens",
-			"desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro, inflige 1 pt de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">DGT de perforation à tous les personnages adverses en attente et crée une <span style=\"color:#FFFFFFFF\">goutte d'eau de source avec un nombre d'utilisations de 2.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Neuvillette",
+  "shareid": 335,
+  "name": "Neuvillette",
+  "title": "Neuvillette · Ordonnateur du jugement inexorable",
+  "desc": "Tout ce qui est hautain subit son mépris.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalyseur",
+    "faction": [
+      "Fontaine",
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "Récompense pour avoir invité Neuvillette à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Neuvillette",
+      "name": "Neuvillette",
+      "rarity": 5
+    },
+    "talentCard": {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Heir to the Ancient Sea's Authority"
+    }
+  },
+  "skills": [
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Stabilité de l'eau",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "Ô larmes, je rembourse",
+      "desc": "Inflige 2 pts de DGT Hydro et crée une goutte d'eau de source.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "Ô marées, je reviens",
+      "desc": "Inflige 2 pts de DGT Hydro, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et crée une goutte d'eau de source avec un nombre d'utilisations de 2.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Stabilité de l'eau",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "Ô larmes, je rembourse",
+      "desc": "Inflige 2 pts de DGT Hydro et crée une goutte d'eau de source.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "Ô marées, je reviens",
+      "desc": "Inflige 2 pts de DGT Hydro, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et crée une goutte d'eau de source avec un nombre d'utilisations de 2.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Stabilité de l'eau",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "Ô larmes, je rembourse",
+      "desc": "Inflige 2 pts de DGT Hydro et crée une goutte d'eau de source.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "Ô marées, je reviens",
+      "desc": "Inflige 2 pts de DGT Hydro, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et crée une goutte d'eau de source avec un nombre d'utilisations de 2.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 335
 }
