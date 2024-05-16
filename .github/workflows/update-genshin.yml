@@ -81,12 +81,12 @@ jobs:
           rm -rf genshin-data-bare
 
       - name: Exit if no new commits
-        if: env.COMMITS == ''
+        if: ${{ env.COMMITS == '' }}
         run: echo "No new commits to process. Exiting."
         continue-on-error: true
 
       - name: create a new branch
-        if: env.COMMITS != ''
+        if: ${{ env.COMMITS != '' }}
         run: |
           cd dvalin-data
           git config --global user.email "updater@davlin.data"
@@ -97,7 +97,7 @@ jobs:
           git push origin $BRANCH_NAME
 
       - name: Checkout dvalin-data repo on new branch
-        if: env.COMMITS != ''
+        if: ${{ env.COMMITS != '' }}
         uses: actions/checkout@v4
         with:
           repository: "dval-in/dvalin-data"
@@ -106,7 +106,7 @@ jobs:
           path: "dvalin-data"
 
       - name: Get all changed files
-        if: env.COMMITS != ''
+        if: ${{ env.COMMITS != '' }}
         run: |
           export PATH=$HOME/.local/share/pnpm:$PATH
           cd dvalin-data
@@ -150,7 +150,7 @@ jobs:
           git push origin ${{ env.BRANCH_NAME }}
 
       - name: create pull request
-        if: env.COMMITS != ''
+        if: ${{ env.COMMITS != '' }}
         run: gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
