@@ -1,75 +1,151 @@
 {
-	"id": "LargeCryoSlime",
-	"shareid": 3108,
-	"name": "거대 얼음 슬라임",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 2,
-		"element": "얼음 원소",
-		"weapon": "기타 무기",
-		"faction": ["마물"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "탄력 점프",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 1pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FrigidSpray",
-			"name": "얼음 안개 분사",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 3pt 준다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "철퍼덕 낙하",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 5pt 준다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationCryo",
-			"name": "원소 침적·얼음",
-			"desc": "[패시브] 전투 시작 시, 시작부터 <span style=\"color:#FFFFFFFF\">원소 생명체·얼음이 부착된다.",
-			"skilltag": ["패시브 스킬"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "LargeCryoSlime",
+  "shareid": 3108,
+  "name": "거대 얼음 슬라임",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물",
+      "마물"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "탄력 점프",
+      "desc": "얼음 원소 피해를 1pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "얼음 안개 분사",
+      "desc": "얼음 원소 피해를 3pt 준다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "철퍼덕 낙하",
+      "desc": "얼음 원소 피해를 5pt 준다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "원소 침적·얼음",
+      "desc": "[패시브] 전투 시작 시, 시작부터 원소 생명체·얼음이 부착된다.",
+      "skilltag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "탄력 점프",
+      "desc": "얼음 원소 피해를 1pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "얼음 안개 분사",
+      "desc": "얼음 원소 피해를 3pt 준다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "철퍼덕 낙하",
+      "desc": "얼음 원소 피해를 5pt 준다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "원소 침적·얼음",
+      "desc": "[패시브] 전투 시작 시, 시작부터 원소 생명체·얼음이 부착된다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 3108
 }

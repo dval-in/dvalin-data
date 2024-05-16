@@ -1,68 +1,142 @@
 {
-	"id": "Neuvillette",
-	"shareid": 335,
-	"name": "Neuvillette",
-	"title": "คลื่นประกาศิตพ้องชะตา - Neuvillette",
-	"desc": "ผู้ดูแคลนสรรพสิ่งที่หยิ่งยโส",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุน้ำ",
-		"weapon": "สื่อเวท",
-		"faction": ["Fontaine"],
-		"source": "ได้รับหลังจากเชิญ Neuvillette ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
-	},
-	"skills": [
-		{
-			"id": "AsWaterSeeksEquilibrium",
-			"name": "As Water Seeks Equilibrium",
-			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OTearsIShallRepay",
-			"name": "O Tears, I Shall Repay",
-			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 2 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Sourcewater Droplet",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OTidesIHaveReturned",
-			"name": "O Tides, I Have Returned",
-			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 2 หน่วย และสร้าง<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง 1 หน่วย ให้แก่ศัตรูที่อยู่นอกสนามทั้งหมด ทำให้เกิด <span style=\"color:#FFFFFFFF\">Sourcewater Droplet ที่มีจำนวนครั้งที่ใช้ได้เป็น 2",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Neuvillette",
+  "shareid": 335,
+  "name": "Neuvillette",
+  "title": "คลื่นประกาศิตพ้องชะตา - Neuvillette",
+  "desc": "ผู้ดูแคลนสรรพสิ่งที่หยิ่งยโส",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "สื่อเวท",
+    "faction": [
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "ได้รับหลังจากเชิญ Neuvillette ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "Neuvillette",
+      "name": "Neuvillette",
+      "rarity": 5
+    },
+    "talentCard": {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Heir to the Ancient Sea's Authority"
+    }
+  },
+  "skills": [
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "As Water Seeks Equilibrium",
+      "desc": "สร้างความเสียหายน้ำ 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "O Tears, I Shall Repay",
+      "desc": "สร้างความเสียหายน้ำ 2 หน่วย และสร้าง Sourcewater Droplet",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "O Tides, I Have Returned",
+      "desc": "สร้างความเสียหายน้ำ 2 หน่วย และสร้างความเสียหายทะลวง 1 หน่วย ให้แก่ศัตรูที่อยู่นอกสนามทั้งหมด ทำให้เกิด Sourcewater Droplet ที่มีจำนวนครั้งที่ใช้ได้เป็น 2",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "As Water Seeks Equilibrium",
+      "desc": "สร้างความเสียหายน้ำ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "O Tears, I Shall Repay",
+      "desc": "สร้างความเสียหายน้ำ 2 หน่วย และสร้าง Sourcewater Droplet",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "O Tides, I Have Returned",
+      "desc": "สร้างความเสียหายน้ำ 2 หน่วย และสร้างความเสียหายทะลวง 1 หน่วย ให้แก่ศัตรูที่อยู่นอกสนามทั้งหมด ทำให้เกิด Sourcewater Droplet ที่มีจำนวนครั้งที่ใช้ได้เป็น 2",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 335
 }

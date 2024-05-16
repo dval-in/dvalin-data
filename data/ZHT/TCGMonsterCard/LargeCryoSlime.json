@@ -1,75 +1,151 @@
 {
-	"id": "LargeCryoSlime",
-	"shareid": 3108,
-	"name": "大型冰史萊姆",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "冰元素",
-		"weapon": "其他武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "彈跳",
-			"desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FrigidSpray",
-			"name": "冰霧噴射",
-			"desc": "造成3點<span style=\"color:#99FFFFFF\">冰元素傷害。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "重重下落",
-			"desc": "造成5點<span style=\"color:#99FFFFFF\">冰元素傷害。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationCryo",
-			"name": "元素沉積·冰",
-			"desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">元素生命·冰。",
-			"skilltag": ["被動技能"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "LargeCryoSlime",
+  "shareid": 3108,
+  "name": "大型冰史萊姆",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "彈跳",
+      "desc": "造成1點冰元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "冰霧噴射",
+      "desc": "造成3點冰元素傷害。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "重重下落",
+      "desc": "造成5點冰元素傷害。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素沉積·冰",
+      "desc": "【被動】戰鬥開始時，初始附屬元素生命·冰。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "彈跳",
+      "desc": "造成1點冰元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "冰霧噴射",
+      "desc": "造成3點冰元素傷害。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "重重下落",
+      "desc": "造成5點冰元素傷害。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素沉積·冰",
+      "desc": "【被動】戰鬥開始時，初始附屬元素生命·冰。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 3108
 }

@@ -1,77 +1,142 @@
 {
-	"id": "Thoma",
-	"shareid": 319,
-	"name": "Тома",
-	"title": "«Защитник издалека» Тома",
-	"desc": "Страж из далёких земель, преданный до конца.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Пиро",
-		"weapon": "Древковое",
-		"faction": ["Инадзума"],
-		"talentCard": {
-			"id": "ASubordinatesSkills",
-			"name": "A Subordinate's Skills"
-		},
-		"source": "Награда за приглашение Томы в «Кошкин хвост» и победу в Дружеской дуэли",
-		"character": {
-			"id": "Thoma",
-			"name": "Thoma",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SwiftshatterSpear",
-			"name": "Быстробойное копьё",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlazingBlessing",
-			"name": "Пылающий покров",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 2 ед. и создаёт <span style=\"color:#FFFFFFFF\">Пылающий щит.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CrimsonOoyoroi",
-			"name": "Багровый оёрой",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 2 ед., создаются <span style=\"color:#FFFFFFFF\">Пылающий щит и <span style=\"color:#FFFFFFFF\">Оёрой огня.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Thoma",
+  "shareid": 319,
+  "name": "Тома",
+  "title": "«Защитник издалека» Тома",
+  "desc": "Страж из далёких земель, преданный до конца.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Древковое",
+    "faction": [
+      "Инадзума",
+      "Инадзума"
+    ],
+    "talentCard": {
+      "id": "ASubordinatesSkills",
+      "name": "A Subordinate's Skills"
+    },
+    "source": "Награда за приглашение Томы в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Thoma",
+      "name": "Thoma",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SwiftshatterSpear",
+      "name": "Быстробойное копьё",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingBlessing",
+      "name": "Пылающий покров",
+      "desc": "Наносит Пиро урон, 2 ед. и создаёт Пылающий щит.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CrimsonOoyoroi",
+      "name": "Багровый оёрой",
+      "desc": "Наносит Пиро урон, 2 ед., создаются Пылающий щит и Оёрой огня.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwiftshatterSpear",
+      "name": "Быстробойное копьё",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingBlessing",
+      "name": "Пылающий покров",
+      "desc": "Наносит Пиро урон, 2 ед. и создаёт Пылающий щит.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CrimsonOoyoroi",
+      "name": "Багровый оёрой",
+      "desc": "Наносит Пиро урон, 2 ед., создаются Пылающий щит и Оёрой огня.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 319
 }

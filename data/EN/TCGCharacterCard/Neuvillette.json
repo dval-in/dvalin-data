@@ -1,68 +1,142 @@
 {
-	"id": "Neuvillette",
-	"shareid": 335,
-	"name": "Neuvillette",
-	"title": "\"Ordainer of Inexorable Judgment\" Neuvillette",
-	"desc": "He who looks down on all that are haughty.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Character Card",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Catalyst",
-		"faction": ["Fontaine"],
-		"source": "Reward for inviting Neuvillette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him"
-	},
-	"skills": [
-		{
-			"id": "AsWaterSeeksEquilibrium",
-			"name": "As Water Seeks Equilibrium",
-			"desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Unaligned Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OTearsIShallRepay",
-			"name": "O Tears, I Shall Repay",
-			"desc": "Deals 2 <span style=\"color:#80C0FFFF\">Hydro DMG, creates 1 <span style=\"color:#FFFFFFFF\">Sourcewater Droplet.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OTidesIHaveReturned",
-			"name": "O Tides, I Have Returned",
-			"desc": "Deals 2 <span style=\"color:#80C0FFFF\">Hydro DMG, deals 1 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Piercing DMG to all opposing characters on standby, then creates a <span style=\"color:#FFFFFFFF\">Sourcewater Droplet with 2 Usages.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Neuvillette",
+  "shareid": 335,
+  "name": "Neuvillette",
+  "title": "\"Ordainer of Inexorable Judgment\" Neuvillette",
+  "desc": "He who looks down on all that are haughty.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalyst",
+    "faction": [
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "Reward for inviting Neuvillette to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+    "character": {
+      "id": "Neuvillette",
+      "name": "Neuvillette",
+      "rarity": 5
+    },
+    "talentCard": {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Heir to the Ancient Sea's Authority"
+    }
+  },
+  "skills": [
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "As Water Seeks Equilibrium",
+      "desc": "Deals 1 Hydro DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Otearsishallrepay",
+      "name": "O Tears, I Shall Repay",
+      "desc": "Deals 2 Hydro DMG, creates 1 Sourcewater Droplet.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Otidesihavereturned",
+      "name": "O Tides, I Have Returned",
+      "desc": "Deals 2 Hydro DMG, deals 1 Piercing DMG to all opposing characters on standby, then creates a Sourcewater Droplet with 2 Usages.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "As Water Seeks Equilibrium",
+      "desc": "Deals 1 Hydro DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "O Tears, I Shall Repay",
+      "desc": "Deals 2 Hydro DMG, creates 1 Sourcewater Droplet.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "O Tides, I Have Returned",
+      "desc": "Deals 2 Hydro DMG, deals 1 Piercing DMG to all opposing characters on standby, then creates a Sourcewater Droplet with 2 Usages.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 335
 }

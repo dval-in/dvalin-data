@@ -1,83 +1,159 @@
 {
-	"id": "MillennialPearlSeahorse",
-	"shareid": 322,
-	"name": "Ippocampo Perlamillenario",
-	"title": "Ippocampo Perlamillenario",
-	"desc": "Uno dei due sovrani che si trovano all'apice degli Aberranti del Fontemer. Poeti e romanzieri lo ritengono una creatura nobile e fiera, degna del suo altisonante titolo.",
-	"attributes": {
-		"hp": 8,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Electro",
-		"weapon": "Altre armi",
-		"faction": ["Mostro"],
-		"talentCard": {
-			"id": "PearlSolidification",
-			"name": "Pearl Solidification"
-		},
-		"source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Ippocampo Perlamillenario in un duello amichevole",
-		"character": {
-			"id": "MillennialPearlSeahorse",
-			"name": "Millennial Pearl Seahorse"
-		}
-	},
-	"skills": [
-		{
-			"id": "TailSweep",
-			"name": "Colpo di coda",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SwirlingSchoolOfFish",
-			"name": "Banco di pesci danzanti",
-			"desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro. <span style=\"color:#FFFFFFFF\">Una volta per turno: se questo personaggio ha associata <span style=\"color:#FFFFFFFF\">Perla del Fontemer, i suoi <span style=\"color:#FFFFFFFF\">Utilizzi aumentano di 1 (una volta per turno).",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FontemerHoarthunder",
-			"name": "Tuono del Fontemer",
-			"desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro, associa <span style=\"color:#FFFFFFFF\">Perla del Fontemer a questo personaggio e invoca 1 <span style=\"color:#FFFFFFFF\">Sfera di corallo risonante.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PearlArmor",
-			"name": "Armatura perlata",
-			"desc": "(Passiva) All'inizio del duello associa <span style=\"color:#FFFFFFFF\">Perla del Fontemer a questo personaggio.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "MillennialPearlSeahorse",
+  "shareid": 322,
+  "name": "Ippocampo Perlamillenario",
+  "title": "Ippocampo Perlamillenario",
+  "desc": "Uno dei due sovrani che si trovano all'apice degli Aberranti del Fontemer. Poeti e romanzieri lo ritengono una creatura nobile e fiera, degna del suo altisonante titolo.",
+  "attributes": {
+    "hp": 8,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Mostro"
+    ],
+    "talentCard": {
+      "id": "PearlSolidification",
+      "name": "Pearl Solidification"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Ippocampo Perlamillenario in un duello amichevole",
+    "character": {
+      "id": "MillennialPearlSeahorse",
+      "name": "Millennial Pearl Seahorse"
+    }
+  },
+  "skills": [
+    {
+      "id": "TailSweep",
+      "name": "Colpo di coda",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Banco di pesci danzanti",
+      "desc": "Infligge 3 DAN da Electro. Una volta per turno: se questo personaggio ha associata Perla del Fontemer, i suoi Utilizzi aumentano di 1 (una volta per turno).",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Tuono del Fontemer",
+      "desc": "Infligge 1 DAN da Electro, associa Perla del Fontemer a questo personaggio e invoca 1 Sfera di corallo risonante.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Armatura perlata",
+      "desc": "(Passiva) All'inizio del duello associa Perla del Fontemer a questo personaggio.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Colpo di coda",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Banco di pesci danzanti",
+      "desc": "Infligge 3 DAN da Electro. Una volta per turno: se questo personaggio ha associata Perla del Fontemer, i suoi Utilizzi aumentano di 1 (una volta per turno).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Tuono del Fontemer",
+      "desc": "Infligge 1 DAN da Electro, associa Perla del Fontemer a questo personaggio e invoca 1 Sfera di corallo risonante.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Armatura perlata",
+      "desc": "(Passiva) All'inizio del duello associa Perla del Fontemer a questo personaggio.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 322
 }

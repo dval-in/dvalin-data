@@ -1,918 +1,1997 @@
 {
-	"id": "Rosaria",
-	"name": "Rosaria",
-	"title": "Benevolência Espinhosa",
-	"description": "Uma freira que, além das suas vestes, não se parece em nada com uma pessoa do clero. Conhecida por seus modos e palavras diretos e frios, ela costuma trabalhar sozinha.",
-	"weaponType": "Lança",
-	"element": "Cryo",
-	"gender": "Feminino",
-	"substat": "ATQ%",
-	"affiliation": "Igreja Favonius",
-	"region": "Mondstadt",
-	"rarity": 4,
-	"birthday": "24/1",
-	"constellation": "Spinea Corona",
-	"domain": "Fenda Abandonada",
-	"cv": {
-		"english": "Elizabeth Maxwell",
-		"chinese": "张安琪",
-		"japanese": "加隈亜衣",
-		"korean": "Kim Bo-na"
-	},
-	"skills": [
-		{
-			"id": "NormalAttackSpearOfTheChurch",
-			"name": "Ataque Normal: Lança Eclesiástica",
-			"description": "Ataque NormalRealiza até 5 golpes com a lança.Ataque CarregadoConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
-			"info": "",
-			"attributes": [
-				{
-					"label": "Dano do 1° Golpe",
-					"values": [
-						"52.46%",
-						"56.73%",
-						"61%",
-						"67.1%",
-						"71.37%",
-						"76.25%",
-						"82.96%",
-						"89.67%",
-						"96.38%",
-						"103.7%",
-						"111.02%",
-						"118.34%",
-						"125.66%",
-						"132.98%",
-						"140.3%"
-					]
-				},
-				{
-					"label": "Dano do 2° Golpe",
-					"values": [
-						"51.6%",
-						"55.8%",
-						"60%",
-						"66%",
-						"70.2%",
-						"75%",
-						"81.6%",
-						"88.2%",
-						"94.8%",
-						"102%",
-						"109.2%",
-						"116.4%",
-						"123.6%",
-						"130.8%",
-						"138%"
-					]
-				},
-				{
-					"label": "Dano do 3° Golpe",
-					"values": [
-						"31.82%*2",
-						"34.41%*2",
-						"37%*2",
-						"40.7%*2",
-						"43.29%*2",
-						"46.25%*2",
-						"50.32%*2",
-						"54.39%*2",
-						"58.46%*2",
-						"62.9%*2",
-						"67.34%*2",
-						"71.78%*2",
-						"76.22%*2",
-						"80.66%*2",
-						"85.1%*2"
-					]
-				},
-				{
-					"label": "Dano do 4° Golpe",
-					"values": [
-						"69.66%",
-						"75.33%",
-						"81%",
-						"89.1%",
-						"94.77%",
-						"101.25%",
-						"110.16%",
-						"119.07%",
-						"127.98%",
-						"137.7%",
-						"147.42%",
-						"157.14%",
-						"166.86%",
-						"176.58%",
-						"186.3%"
-					]
-				},
-				{
-					"label": "Dano do 5° Golpe",
-					"values": [
-						"41.62% + 43%",
-						"45.01% + 46.5%",
-						"48.4% + 50%",
-						"53.24% + 55%",
-						"56.63% + 58.5%",
-						"60.5% + 62.5%",
-						"65.82% + 68%",
-						"71.15% + 73.5%",
-						"76.47% + 79%",
-						"82.28% + 85%",
-						"88.09% + 91%",
-						"93.9% + 97%",
-						"99.7% + 103%",
-						"105.51% + 109%",
-						"111.32% + 115%"
-					]
-				},
-				{
-					"label": "Dano de Ataque Carregado",
-					"values": [
-						"136.74%",
-						"147.87%",
-						"159%",
-						"174.9%",
-						"186.03%",
-						"198.75%",
-						"216.24%",
-						"233.73%",
-						"251.22%",
-						"270.3%",
-						"289.38%",
-						"308.46%",
-						"327.54%",
-						"346.62%",
-						"365.7%"
-					]
-				},
-				{
-					"label": "Consumo de Stamina de Ataque Carregado",
-					"values": ["25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25", "25"]
-				},
-				{
-					"label": "Dano Durante a Queda",
-					"values": [
-						"63.93%",
-						"69.14%",
-						"74.34%",
-						"81.77%",
-						"86.98%",
-						"92.93%",
-						"101.1%",
-						"109.28%",
-						"117.46%",
-						"126.38%",
-						"135.3%",
-						"144.22%",
-						"153.14%",
-						"162.06%",
-						"170.98%"
-					]
-				},
-				{
-					"label": "Dano de Queda de Baixa/Alta Altitude",
-					"values": [
-						"127.84% / 159.68%",
-						"138.24% / 172.67%",
-						"148.65% / 185.67%",
-						"163.51% / 204.24%",
-						"173.92% / 217.23%",
-						"185.81% / 232.09%",
-						"202.16% / 252.51%",
-						"218.51% / 272.93%",
-						"234.86% / 293.36%",
-						"252.7% / 315.64%",
-						"270.54% / 337.92%",
-						"288.38% / 360.2%",
-						"306.22% / 382.48%",
-						"324.05% / 404.76%",
-						"341.89% / 427.04%"
-					]
-				}
-			]
-		},
-		{
-			"id": "RavagingConfession",
-			"name": "Confissão Desoladora",
-			"description": "Rosaria muda rapidamente de posição e aparece atrás de seu alvo. Ela o perfura e corta com sua arma, infligindo Dano Cryo.Não é possível deslocar-se para trás de inimigos de tamanho grande com esta habilidade.",
-			"info": "A Freira Rosaria não perdoa os pecados daqueles que não se confessam a ela. Todos os pecadores serão castigados com o frio penetrante de uma punição proporcional à gravidade de seus pecados.",
-			"attributes": [
-				{
-					"label": "Dano de Habilidade",
-					"values": [
-						"58.4% + 136%",
-						"62.78% + 146.2%",
-						"67.16% + 156.4%",
-						"73% + 170%",
-						"77.38% + 180.2%",
-						"81.76% + 190.4%",
-						"87.6% + 204%",
-						"93.44% + 217.6%",
-						"99.28% + 231.2%",
-						"105.12% + 244.8%",
-						"110.96% + 258.4%",
-						"116.8% + 272%",
-						"124.1% + 289%",
-						"131.4% + 306%",
-						"138.7% + 323%"
-					]
-				},
-				{
-					"label": "Tempo de Recarga",
-					"values": ["6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s", "6s"]
-				}
-			]
-		},
-		{
-			"id": "RitesOfTermination",
-			"name": "Ritos de Terminação",
-			"description": "A oração característica de Rosaria. Após brandir sua arma para cortar os inimigos próximos, ela invoca uma Lança de Gelo frígida e golpeia o solo, infligindo Dano Cryo ambas as vezes.Enquanto ativa, a Lança de Gelo emite ar frio de forma intermitente, infligindo Dano Cryo aos inimigos ao redor.",
-			"info": "O julgamento é algo muito incômodo. Sugiro que pulemos isso e passemos diretamente para a Oração do Decesso. Devido à minha falta de devoção ao Arconte Anemo, é muito fácil fazer isso.",
-			"attributes": [
-				{
-					"label": "Dano de Habilidade",
-					"values": [
-						"104% + 152%",
-						"111.8% + 163.4%",
-						"119.6% + 174.8%",
-						"130% + 190%",
-						"137.8% + 201.4%",
-						"145.6% + 212.8%",
-						"156% + 228%",
-						"166.4% + 243.2%",
-						"176.8% + 258.4%",
-						"187.2% + 273.6%",
-						"197.6% + 288.8%",
-						"208% + 304%",
-						"221% + 323%",
-						"234% + 342%",
-						"247% + 361%"
-					]
-				},
-				{
-					"label": "Dano Contínuo da Lança de Gelo",
-					"values": [
-						"132%",
-						"141.9%",
-						"151.8%",
-						"165%",
-						"174.9%",
-						"184.8%",
-						"198%",
-						"211.2%",
-						"224.4%",
-						"237.6%",
-						"250.8%",
-						"264%",
-						"280.5%",
-						"297%",
-						"313.5%"
-					]
-				},
-				{
-					"label": "Duração",
-					"values": ["8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s", "8s"]
-				},
-				{
-					"label": "Tempo de Recarga",
-					"values": [
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s",
-						"15s"
-					]
-				},
-				{
-					"label": "Energia Elemental",
-					"values": ["60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60", "60"]
-				}
-			]
-		}
-	],
-	"passives": [
-		{
-			"id": "ReginaProbationum",
-			"name": "Confissões Forçadas",
-			"description": "Quando a habilidade Confissão Desoladora ataca por trás de um inimigo, a Taxa CRIT de Rosaria aumenta em 12% por 5s.",
-			"level": 1
-		},
-		{
-			"id": "ShadowSamaritan",
-			"name": "Samaritana da Escuridão",
-			"description": "Ao lançar Ritos de Terminação, a Taxa CRIT de todos os membros da Equipe (exceto Rosaria) é aumentada em 15% com base na Taxa CRIT de Rosaria por 10s.O aumento da Taxa CRIT obtido dessa maneira não pode ultrapassar 15%.",
-			"level": 4
-		},
-		{
-			"id": "NightWalk",
-			"name": "Caminhada Noturna",
-			"description": "Durante a noite (18:00 - 06:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.Não tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula.",
-			"level": 0
-		}
-	],
-	"constellations": [
-		{
-			"id": "UnholyRevelation",
-			"name": "Guia do Pecado",
-			"description": "Depois do ataque de Rosaria causar Dano CRIT, sua Vel. de ATQ aumenta em 10% e o Dano do Ataque Normal aumenta em 10%. Esse efeito dura por 4s.",
-			"level": 1
-		},
-		{
-			"id": "LandWithoutPromise",
-			"name": "Terra Profana",
-			"description": "O Dano causado pela Lança de Gelo de Ritos de Terminação é estendido em 4s.",
-			"level": 2
-		},
-		{
-			"id": "TheWagesOfSin",
-			"name": "Ritual de Confissão",
-			"description": "Aumenta o nível da habilidade Confissão Desoladora em 3.O nível máximo é 15.",
-			"level": 3
-		},
-		{
-			"id": "PainfulGrace",
-			"name": "Graça do Sofrimento",
-			"description": "Quando a habilidade Confissão Desoladora causa um golpe CRIT, Rosaria regenera 5 pontos de Energia Elemental.Esse efeito só pode ocorrer uma vez quando a Confissão Desoladora é lançada.",
-			"level": 4
-		},
-		{
-			"id": "LastRites",
-			"name": "Oração do Decesso",
-			"description": "Aumenta o nível da habilidade Ritos de Terminação em 3.O nível máximo é 15.",
-			"level": 5
-		},
-		{
-			"id": "DivineRetribution",
-			"name": "Julgamento Divino",
-			"description": "Os ataques de Ritos de Terminação reduzirão a RES Física dos Inimigos em 20% por 10s.",
-			"level": 6
-		}
-	],
-	"ascension": [
-		{
-			"level": [1],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": ["-", 1]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["-", "1030"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["-", "20"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["-", "60"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["-", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [20],
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [0, 1]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["2647", "3417"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["52", "67"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["153", "197"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["0.0%", "0.0%"]
-				}
-			]
-		},
-		{
-			"level": [40],
-			"cost": 20000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [1, 2]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["5118", "5665"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["100", "111"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["296", "327"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["0.0%", "6.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeSliver",
-				"name": "Lasca de Jade Shivada",
-				"amount": 1,
-				"rarity": 2
-			},
-			"mat3": {
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 3,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "RecruitsInsignia",
-				"name": "Insígnia de Recruta",
-				"amount": 3,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [50],
-			"cost": 40000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [2, 3]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["6516", "7245"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["127", "141"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["376", "418"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["6.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeFragment",
-				"name": "Fragmento de Jade Shivada",
-				"amount": 3,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Núcleo de Geada",
-				"amount": 2,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 10,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "RecruitsInsignia",
-				"name": "Insígnia de Recruta",
-				"amount": 15,
-				"rarity": 1
-			}
-		},
-		{
-			"level": [60],
-			"cost": 60000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [3, 4]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["8096", "8643"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["158", "169"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["468", "499"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["12.0%", "12.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeFragment",
-				"name": "Fragmento de Jade Shivada",
-				"amount": 6,
-				"rarity": 3
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Núcleo de Geada",
-				"amount": 4,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 20,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SergeantsInsignia",
-				"name": "Insígnia de Sargento",
-				"amount": 12,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [70],
-			"cost": 80000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [4, 5]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["9493", "10040"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["185", "196"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["548", "580"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["12.0%", "18.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeChunk",
-				"name": "Pedaço de Jade Shivada",
-				"amount": 3,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Núcleo de Geada",
-				"amount": 8,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 30,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "SergeantsInsignia",
-				"name": "Insígnia de Sargento",
-				"amount": 18,
-				"rarity": 2
-			}
-		},
-		{
-			"level": [80],
-			"cost": 100000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [5, 6]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["10891", "11438"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["213", "223"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["629", "661"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["18.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeChunk",
-				"name": "Pedaço de Jade Shivada",
-				"amount": 6,
-				"rarity": 4
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Núcleo de Geada",
-				"amount": 12,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 45,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "LieutenantsInsignia",
-				"name": "Insígnia de Oficial",
-				"amount": 12,
-				"rarity": 3
-			}
-		},
-		{
-			"level": [90],
-			"cost": 120000,
-			"stats": [
-				{
-					"label": "Ascender",
-					"values": [6, 7]
-				},
-				{
-					"label": "Vida Básica",
-					"values": ["12289", "12289"]
-				},
-				{
-					"label": "ATQ Básico",
-					"values": ["240", "240"]
-				},
-				{
-					"label": "DEF Básica",
-					"values": ["710", "710"]
-				},
-				{
-					"label": "ATQ%",
-					"values": ["24.0%", "24.0%"]
-				}
-			],
-			"mat1": {
-				"id": "ShivadaJadeGemstone",
-				"name": "Gema de Jade Shivada",
-				"amount": 6,
-				"rarity": 5
-			},
-			"mat2": {
-				"id": "HoarfrostCore",
-				"name": "Núcleo de Geada",
-				"amount": 20,
-				"rarity": 4
-			},
-			"mat3": {
-				"id": "Valberry",
-				"name": "Valberry",
-				"amount": 60,
-				"rarity": 1
-			},
-			"mat4": {
-				"id": "LieutenantsInsignia",
-				"name": "Insígnia de Oficial",
-				"amount": 24,
-				"rarity": 3
-			}
-		}
-	],
-	"talentMaterials": [
-		{
-			"level": 2,
-			"cost": 12500,
-			"items": [
-				{
-					"id": "TeachingsOfBallad",
-					"name": "Ensinamentos de Poemas",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "RecruitsInsignia",
-					"name": "Insígnia de Recruta",
-					"amount": 6,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"level": 3,
-			"cost": 17500,
-			"items": [
-				{
-					"id": "GuideToBallad",
-					"name": "Guia de Poemas",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "SergeantsInsignia",
-					"name": "Insígnia de Sargento",
-					"amount": 3,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 4,
-			"cost": 25000,
-			"items": [
-				{
-					"id": "GuideToBallad",
-					"name": "Guia de Poemas",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SergeantsInsignia",
-					"name": "Insígnia de Sargento",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 5,
-			"cost": 30000,
-			"items": [
-				{
-					"id": "GuideToBallad",
-					"name": "Guia de Poemas",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SergeantsInsignia",
-					"name": "Insígnia de Sargento",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 6,
-			"cost": 37500,
-			"items": [
-				{
-					"id": "GuideToBallad",
-					"name": "Guia de Poemas",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SergeantsInsignia",
-					"name": "Insígnia de Sargento",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"level": 7,
-			"cost": 120000,
-			"items": [
-				{
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofia de Poemas",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "LieutenantsInsignia",
-					"name": "Insígnia de Oficial",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "ShadowOfTheWarrior",
-					"name": "Sombra do Guerreiro",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 8,
-			"cost": 260000,
-			"items": [
-				{
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofia de Poemas",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "LieutenantsInsignia",
-					"name": "Insígnia de Oficial",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ShadowOfTheWarrior",
-					"name": "Sombra do Guerreiro",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 9,
-			"cost": 450000,
-			"items": [
-				{
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofia de Poemas",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "LieutenantsInsignia",
-					"name": "Insígnia de Oficial",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "ShadowOfTheWarrior",
-					"name": "Sombra do Guerreiro",
-					"amount": 2,
-					"rarity": 5
-				}
-			]
-		},
-		{
-			"level": 10,
-			"cost": 700000,
-			"items": [
-				{
-					"id": "PhilosophiesOfBallad",
-					"name": "Filosofia de Poemas",
-					"amount": 16,
-					"rarity": 4
-				},
-				{
-					"id": "LieutenantsInsignia",
-					"name": "Insígnia de Oficial",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "ShadowOfTheWarrior",
-					"name": "Sombra do Guerreiro",
-					"amount": 2,
-					"rarity": 5
-				},
-				{
-					"id": "CrownOfInsight",
-					"name": "Coroa da Sabedoria",
-					"amount": 1,
-					"rarity": 5
-				}
-			]
-		}
-	],
-	"version": "4.5",
-	"pictures": {
-		"icon": "Character/Rosaria/Icon.webp",
-		"sideIcon": "Character/Rosaria/SideIcon.webp",
-		"gatchaCard": "Character/Rosaria/GachaCard.webp",
-		"gachaSplash": "Character/Rosaria/GachaSplash.webp",
-		"face": "Character/Rosaria/Face.webp",
-		"halfFace": "Character/Rosaria/HalfFace.webp",
-		"profile": "Character/Rosaria/Profile.webp",
-		"weaponStance": "Character/Rosaria/WeaponStance.webp"
-	},
-	"signatureArtifactSet": "",
-	"signatureWeapon": "",
-	"specialDish": "DinnerOfJudgement",
-	"tcgCharacterCard": "",
-	"outfits": []
+  "id": "Rosaria",
+  "name": "Rosaria",
+  "title": "Benevolência Espinhosa",
+  "description": "Uma freira que, além das suas vestes, não se parece em nada com uma pessoa do clero. Conhecida por seus modos e palavras diretos e frios, ela costuma trabalhar sozinha.",
+  "weaponType": "Lança",
+  "element": "Cryo",
+  "gender": "Feminino",
+  "substat": "ATQ%",
+  "affiliation": "Igreja Favonius",
+  "region": "Mondstadt",
+  "rarity": 4,
+  "birthday": "24/1",
+  "constellation": "Spinea Corona",
+  "domain": "Fenda Abandonada",
+  "cv": {
+    "english": "Elizabeth Maxwell",
+    "chinese": "张安琪",
+    "japanese": "加隈亜衣",
+    "korean": "Kim Bo-na"
+  },
+  "skills": [
+    {
+      "id": "NormalAttackSpearOfTheChurch",
+      "name": "Ataque Normal: Lança Eclesiástica",
+      "description": "Ataque NormalRealiza até 5 golpes com a lança.Ataque CarregadoConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "52.46%",
+            "56.73%",
+            "61%",
+            "67.1%",
+            "71.37%",
+            "76.25%",
+            "82.96%",
+            "89.67%",
+            "96.38%",
+            "103.7%",
+            "111.02%",
+            "118.34%",
+            "125.66%",
+            "132.98%",
+            "140.3%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "51.6%",
+            "55.8%",
+            "60%",
+            "66%",
+            "70.2%",
+            "75%",
+            "81.6%",
+            "88.2%",
+            "94.8%",
+            "102%",
+            "109.2%",
+            "116.4%",
+            "123.6%",
+            "130.8%",
+            "138%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "31.82%*2",
+            "34.41%*2",
+            "37%*2",
+            "40.7%*2",
+            "43.29%*2",
+            "46.25%*2",
+            "50.32%*2",
+            "54.39%*2",
+            "58.46%*2",
+            "62.9%*2",
+            "67.34%*2",
+            "71.78%*2",
+            "76.22%*2",
+            "80.66%*2",
+            "85.1%*2"
+          ]
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
+            "69.66%",
+            "75.33%",
+            "81%",
+            "89.1%",
+            "94.77%",
+            "101.25%",
+            "110.16%",
+            "119.07%",
+            "127.98%",
+            "137.7%",
+            "147.42%",
+            "157.14%",
+            "166.86%",
+            "176.58%",
+            "186.3%"
+          ]
+        },
+        {
+          "label": "Dano do 5° Golpe",
+          "values": [
+            "41.62% + 43%",
+            "45.01% + 46.5%",
+            "48.4% + 50%",
+            "53.24% + 55%",
+            "56.63% + 58.5%",
+            "60.5% + 62.5%",
+            "65.82% + 68%",
+            "71.15% + 73.5%",
+            "76.47% + 79%",
+            "82.28% + 85%",
+            "88.09% + 91%",
+            "93.9% + 97%",
+            "99.7% + 103%",
+            "105.51% + 109%",
+            "111.32% + 115%"
+          ]
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
+            "136.74%",
+            "147.87%",
+            "159%",
+            "174.9%",
+            "186.03%",
+            "198.75%",
+            "216.24%",
+            "233.73%",
+            "251.22%",
+            "270.3%",
+            "289.38%",
+            "308.46%",
+            "327.54%",
+            "346.62%",
+            "365.7%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.93%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Confissão Desoladora",
+      "description": "Rosaria muda rapidamente de posição e aparece atrás de seu alvo. Ela o perfura e corta com sua arma, infligindo Dano Cryo.Não é possível deslocar-se para trás de inimigos de tamanho grande com esta habilidade.",
+      "info": "A Freira Rosaria não perdoa os pecados daqueles que não se confessam a ela. Todos os pecadores serão castigados com o frio penetrante de uma punição proporcional à gravidade de seus pecados.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "58.4% + 136%",
+            "62.78% + 146.2%",
+            "67.16% + 156.4%",
+            "73% + 170%",
+            "77.38% + 180.2%",
+            "81.76% + 190.4%",
+            "87.6% + 204%",
+            "93.44% + 217.6%",
+            "99.28% + 231.2%",
+            "105.12% + 244.8%",
+            "110.96% + 258.4%",
+            "116.8% + 272%",
+            "124.1% + 289%",
+            "131.4% + 306%",
+            "138.7% + 323%"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Ritos de Terminação",
+      "description": "A oração característica de Rosaria. Após brandir sua arma para cortar os inimigos próximos, ela invoca uma Lança de Gelo frígida e golpeia o solo, infligindo Dano Cryo ambas as vezes.Enquanto ativa, a Lança de Gelo emite ar frio de forma intermitente, infligindo Dano Cryo aos inimigos ao redor.",
+      "info": "O julgamento é algo muito incômodo. Sugiro que pulemos isso e passemos diretamente para a Oração do Decesso. Devido à minha falta de devoção ao Arconte Anemo, é muito fácil fazer isso.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "104% + 152%",
+            "111.8% + 163.4%",
+            "119.6% + 174.8%",
+            "130% + 190%",
+            "137.8% + 201.4%",
+            "145.6% + 212.8%",
+            "156% + 228%",
+            "166.4% + 243.2%",
+            "176.8% + 258.4%",
+            "187.2% + 273.6%",
+            "197.6% + 288.8%",
+            "208% + 304%",
+            "221% + 323%",
+            "234% + 342%",
+            "247% + 361%"
+          ]
+        },
+        {
+          "label": "Dano Contínuo da Lança de Gelo",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Duração",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NormalAttackSpearOfTheChurch",
+      "name": "Ataque Normal: Lança Eclesiástica",
+      "description": "Ataque Normal Realiza até 5 golpes com a lança. Ataque Carregado Consome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto. Ataque Imersivo Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+      "info": "",
+      "attributes": [
+        {
+          "label": "Dano do 1° Golpe",
+          "values": [
+            "52.46%",
+            "56.73%",
+            "61%",
+            "67.1%",
+            "71.37%",
+            "76.25%",
+            "82.96%",
+            "89.67%",
+            "96.38%",
+            "103.7%",
+            "111.02%",
+            "118.34%",
+            "125.66%",
+            "132.98%",
+            "140.3%"
+          ]
+        },
+        {
+          "label": "Dano do 2° Golpe",
+          "values": [
+            "51.6%",
+            "55.8%",
+            "60%",
+            "66%",
+            "70.2%",
+            "75%",
+            "81.6%",
+            "88.2%",
+            "94.8%",
+            "102%",
+            "109.2%",
+            "116.4%",
+            "123.6%",
+            "130.8%",
+            "138%"
+          ]
+        },
+        {
+          "label": "Dano do 3° Golpe",
+          "values": [
+            "31.82%*2",
+            "34.41%*2",
+            "37%*2",
+            "40.7%*2",
+            "43.29%*2",
+            "46.25%*2",
+            "50.32%*2",
+            "54.39%*2",
+            "58.46%*2",
+            "62.9%*2",
+            "67.34%*2",
+            "71.78%*2",
+            "76.22%*2",
+            "80.66%*2",
+            "85.1%*2"
+          ]
+        },
+        {
+          "label": "Dano do 4° Golpe",
+          "values": [
+            "69.66%",
+            "75.33%",
+            "81%",
+            "89.1%",
+            "94.77%",
+            "101.25%",
+            "110.16%",
+            "119.07%",
+            "127.98%",
+            "137.7%",
+            "147.42%",
+            "157.14%",
+            "166.86%",
+            "176.58%",
+            "186.3%"
+          ]
+        },
+        {
+          "label": "Dano do 5° Golpe",
+          "values": [
+            "41.62% + 43%",
+            "45.01% + 46.5%",
+            "48.4% + 50%",
+            "53.24% + 55%",
+            "56.63% + 58.5%",
+            "60.5% + 62.5%",
+            "65.82% + 68%",
+            "71.15% + 73.5%",
+            "76.47% + 79%",
+            "82.28% + 85%",
+            "88.09% + 91%",
+            "93.9% + 97%",
+            "99.7% + 103%",
+            "105.51% + 109%",
+            "111.32% + 115%"
+          ]
+        },
+        {
+          "label": "Dano de Ataque Carregado",
+          "values": [
+            "136.74%",
+            "147.87%",
+            "159%",
+            "174.9%",
+            "186.03%",
+            "198.75%",
+            "216.24%",
+            "233.73%",
+            "251.22%",
+            "270.3%",
+            "289.38%",
+            "308.46%",
+            "327.54%",
+            "346.62%",
+            "365.7%"
+          ]
+        },
+        {
+          "label": "Consumo de Stamina de Ataque Carregado",
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": "Dano Durante a Queda",
+          "values": [
+            "63.93%",
+            "69.14%",
+            "74.34%",
+            "81.77%",
+            "86.98%",
+            "92.92%",
+            "101.1%",
+            "109.28%",
+            "117.46%",
+            "126.38%",
+            "135.3%",
+            "144.22%",
+            "153.14%",
+            "162.06%",
+            "170.98%"
+          ]
+        },
+        {
+          "label": "Dano de Queda de Baixa/Alta Altitude",
+          "values": [
+            "127.84% / 159.68%",
+            "138.24% / 172.67%",
+            "148.65% / 185.67%",
+            "163.51% / 204.24%",
+            "173.92% / 217.23%",
+            "185.81% / 232.09%",
+            "202.16% / 252.51%",
+            "218.51% / 272.93%",
+            "234.86% / 293.36%",
+            "252.7% / 315.64%",
+            "270.54% / 337.92%",
+            "288.38% / 360.2%",
+            "306.22% / 382.48%",
+            "324.05% / 404.76%",
+            "341.89% / 427.04%"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Confissão Desoladora",
+      "description": "Rosaria muda rapidamente de posição e aparece atrás de seu alvo. Ela o perfura e corta com sua arma, infligindo Dano Cryo. Não é possível deslocar-se para trás de inimigos de tamanho grande com esta habilidade.",
+      "info": "A Freira Rosaria não perdoa os pecados daqueles que não se confessam a ela. Todos os pecadores serão castigados com o frio penetrante de uma punição proporcional à gravidade de seus pecados.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "58.4% + 136%",
+            "62.78% + 146.2%",
+            "67.16% + 156.4%",
+            "73% + 170%",
+            "77.38% + 180.2%",
+            "81.76% + 190.4%",
+            "87.6% + 204%",
+            "93.44% + 217.6%",
+            "99.28% + 231.2%",
+            "105.12% + 244.8%",
+            "110.96% + 258.4%",
+            "116.8% + 272%",
+            "124.1% + 289%",
+            "131.4% + 306%",
+            "138.7% + 323%"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Ritos de Terminação",
+      "description": "A oração característica de Rosaria. Após brandir sua arma para cortar os inimigos próximos, ela invoca uma Lança de Gelo frígida e golpeia o solo, infligindo Dano Cryo ambas as vezes. Enquanto ativa, a Lança de Gelo emite ar frio de forma intermitente, infligindo Dano Cryo aos inimigos ao redor.",
+      "info": "O julgamento é algo muito incômodo. Sugiro que pulemos isso e passemos diretamente para a Oração do Decesso. Devido à minha falta de devoção ao Arconte Anemo, é muito fácil fazer isso.",
+      "attributes": [
+        {
+          "label": "Dano de Habilidade",
+          "values": [
+            "104% + 152%",
+            "111.8% + 163.4%",
+            "119.6% + 174.8%",
+            "130% + 190%",
+            "137.8% + 201.4%",
+            "145.6% + 212.8%",
+            "156% + 228%",
+            "166.4% + 243.2%",
+            "176.8% + 258.4%",
+            "187.2% + 273.6%",
+            "197.6% + 288.8%",
+            "208% + 304%",
+            "221% + 323%",
+            "234% + 342%",
+            "247% + 361%"
+          ]
+        },
+        {
+          "label": "Dano Contínuo da Lança de Gelo",
+          "values": [
+            "132%",
+            "141.9%",
+            "151.8%",
+            "165%",
+            "174.9%",
+            "184.8%",
+            "198%",
+            "211.2%",
+            "224.4%",
+            "237.6%",
+            "250.8%",
+            "264%",
+            "280.5%",
+            "297%",
+            "313.5%"
+          ]
+        },
+        {
+          "label": "Duração",
+          "values": [
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s",
+            "8s"
+          ]
+        },
+        {
+          "label": "Tempo de Recarga",
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": "Energia Elemental",
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "passives": [
+    {
+      "id": "ReginaProbationum",
+      "name": "Confissões Forçadas",
+      "description": "Quando a habilidade Confissão Desoladora ataca por trás de um inimigo, a Taxa CRIT de Rosaria aumenta em 12% por 5s.",
+      "level": 1
+    },
+    {
+      "id": "ShadowSamaritan",
+      "name": "Samaritana da Escuridão",
+      "description": "Ao lançar Ritos de Terminação, a Taxa CRIT de todos os membros da Equipe (exceto Rosaria) é aumentada em 15% com base na Taxa CRIT de Rosaria por 10s.O aumento da Taxa CRIT obtido dessa maneira não pode ultrapassar 15%.",
+      "level": 4
+    },
+    {
+      "id": "NightWalk",
+      "name": "Caminhada Noturna",
+      "description": "Durante a noite (18:00 - 06:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%.Não tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula.",
+      "level": 0
+    },
+    {
+      "id": "ReginaProbationum",
+      "name": "Confissões Forçadas",
+      "description": "Quando a habilidade Confissão Desoladora ataca por trás de um inimigo, a Taxa CRIT de Rosaria aumenta em 12% por 5s.",
+      "level": 1
+    },
+    {
+      "id": "ShadowSamaritan",
+      "name": "Samaritana da Escuridão",
+      "description": "Ao lançar Ritos de Terminação, a Taxa CRIT de todos os membros da Equipe (exceto Rosaria) é aumentada em 15% com base na Taxa CRIT de Rosaria por 10s. O aumento da Taxa CRIT obtido dessa maneira não pode ultrapassar 15%.",
+      "level": 4
+    },
+    {
+      "id": "NightWalk",
+      "name": "Caminhada Noturna",
+      "description": "Durante a noite (18:00 - 06:00), os membros do seu grupo ganham o efeito Passos Ágeis: Veloc. Mov. aumenta em 10%. Não tem efeito em Domínios, Domínios Dizimados ou Abismo Espiral. O efeito Passos Ágeis não se acumula.",
+      "level": 0
+    }
+  ],
+  "constellations": [
+    {
+      "id": "UnholyRevelation",
+      "name": "Guia do Pecado",
+      "description": "Depois do ataque de Rosaria causar Dano CRIT, sua Vel. de ATQ aumenta em 10% e o Dano do Ataque Normal aumenta em 10%. Esse efeito dura por 4s.",
+      "level": 1
+    },
+    {
+      "id": "LandWithoutPromise",
+      "name": "Terra Profana",
+      "description": "O Dano causado pela Lança de Gelo de Ritos de Terminação é estendido em 4s.",
+      "level": 2
+    },
+    {
+      "id": "TheWagesOfSin",
+      "name": "Ritual de Confissão",
+      "description": "Aumenta o nível da habilidade Confissão Desoladora em 3.O nível máximo é 15.",
+      "level": 3
+    },
+    {
+      "id": "PainfulGrace",
+      "name": "Graça do Sofrimento",
+      "description": "Quando a habilidade Confissão Desoladora causa um golpe CRIT, Rosaria regenera 5 pontos de Energia Elemental.Esse efeito só pode ocorrer uma vez quando a Confissão Desoladora é lançada.",
+      "level": 4
+    },
+    {
+      "id": "LastRites",
+      "name": "Oração do Decesso",
+      "description": "Aumenta o nível da habilidade Ritos de Terminação em 3.O nível máximo é 15.",
+      "level": 5
+    },
+    {
+      "id": "DivineRetribution",
+      "name": "Julgamento Divino",
+      "description": "Os ataques de Ritos de Terminação reduzirão a RES Física dos Inimigos em 20% por 10s.",
+      "level": 6
+    },
+    {
+      "id": "UnholyRevelation",
+      "name": "Guia do Pecado",
+      "description": "Depois do ataque de Rosaria causar Dano CRIT, sua Vel. de ATQ aumenta em 10% e o Dano do Ataque Normal aumenta em 10%. Esse efeito dura por 4s.",
+      "level": 1
+    },
+    {
+      "id": "LandWithoutPromise",
+      "name": "Terra Profana",
+      "description": "O Dano causado pela Lança de Gelo de Ritos de Terminação é estendido em 4s.",
+      "level": 2
+    },
+    {
+      "id": "TheWagesOfSin",
+      "name": "Ritual de Confissão",
+      "description": "Aumenta o nível da habilidade Confissão Desoladora em 3. O nível máximo é 15.",
+      "level": 3
+    },
+    {
+      "id": "PainfulGrace",
+      "name": "Graça do Sofrimento",
+      "description": "Quando a habilidade Confissão Desoladora causa um golpe CRIT, Rosaria regenera 5 pontos de Energia Elemental. Esse efeito só pode ocorrer uma vez quando a Confissão Desoladora é lançada.",
+      "level": 4
+    },
+    {
+      "id": "LastRites",
+      "name": "Oração do Decesso",
+      "description": "Aumenta o nível da habilidade Ritos de Terminação em 3. O nível máximo é 15.",
+      "level": 5
+    },
+    {
+      "id": "DivineRetribution",
+      "name": "Julgamento Divino",
+      "description": "Os ataques de Ritos de Terminação reduzirão a RES Física dos Inimigos em 20% por 10s.",
+      "level": 6
+    }
+  ],
+  "ascension": [
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "-",
+            "60"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "2647",
+            "3417"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "52",
+            "67"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "153",
+            "197"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "5118",
+            "5665"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "100",
+            "111"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "296",
+            "327"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeSliver",
+        "name": "Lasca de Jade Shivada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "RecruitsInsignia",
+        "name": "Insígnia de Recruta",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "6516",
+            "7245"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "127",
+            "141"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "376",
+            "418"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Fragmento de Jade Shivada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "RecruitsInsignia",
+        "name": "Insígnia de Recruta",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "8096",
+            "8643"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "158",
+            "169"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "468",
+            "499"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Fragmento de Jade Shivada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SergeantsInsignia",
+        "name": "Insígnia de Sargento",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "9493",
+            "10040"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "185",
+            "196"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "548",
+            "580"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Pedaço de Jade Shivada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SergeantsInsignia",
+        "name": "Insígnia de Sargento",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "10891",
+            "11438"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "213",
+            "223"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "629",
+            "661"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Pedaço de Jade Shivada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LieutenantsInsignia",
+        "name": "Insígnia de Oficial",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "12289",
+            "12289"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "240",
+            "240"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "710",
+            "710"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeGemstone",
+        "name": "Gema de Jade Shivada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LieutenantsInsignia",
+        "name": "Insígnia de Oficial",
+        "amount": 24,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        1
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            "-",
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "-",
+            "1030"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "-",
+            "20"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "-",
+            "60"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "-",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        20
+      ],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            0,
+            1
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "2647",
+            "3417"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "52",
+            "67"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "153",
+            "197"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "0.0%"
+          ]
+        }
+      ]
+    },
+    {
+      "level": [
+        40
+      ],
+      "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            1,
+            2
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "5118",
+            "5665"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "100",
+            "111"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "296",
+            "327"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "0.0%",
+            "6.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeSliver",
+        "name": "Lasca de Jade Shivada",
+        "amount": 1,
+        "rarity": 2
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 3,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "RecruitsInsignia",
+        "name": "Insígnia de Recruta",
+        "amount": 3,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        50
+      ],
+      "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            2,
+            3
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "6516",
+            "7245"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "127",
+            "141"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "376",
+            "418"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "6.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Fragmento de Jade Shivada",
+        "amount": 3,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 2,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 10,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "RecruitsInsignia",
+        "name": "Insígnia de Recruta",
+        "amount": 15,
+        "rarity": 1
+      }
+    },
+    {
+      "level": [
+        60
+      ],
+      "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            3,
+            4
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "8096",
+            "8643"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "158",
+            "169"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "468",
+            "499"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "12.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeFragment",
+        "name": "Fragmento de Jade Shivada",
+        "amount": 6,
+        "rarity": 3
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 4,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 20,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SergeantsInsignia",
+        "name": "Insígnia de Sargento",
+        "amount": 12,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        70
+      ],
+      "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            4,
+            5
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "9493",
+            "10040"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "185",
+            "196"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "548",
+            "580"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "12.0%",
+            "18.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Pedaço de Jade Shivada",
+        "amount": 3,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 8,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 30,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "SergeantsInsignia",
+        "name": "Insígnia de Sargento",
+        "amount": 18,
+        "rarity": 2
+      }
+    },
+    {
+      "level": [
+        80
+      ],
+      "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            5,
+            6
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "10891",
+            "11438"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "213",
+            "223"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "629",
+            "661"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "18.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeChunk",
+        "name": "Pedaço de Jade Shivada",
+        "amount": 6,
+        "rarity": 4
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 12,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 45,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LieutenantsInsignia",
+        "name": "Insígnia de Oficial",
+        "amount": 12,
+        "rarity": 3
+      }
+    },
+    {
+      "level": [
+        90
+      ],
+      "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [
+            6,
+            7
+          ]
+        },
+        {
+          "label": "Vida Básica",
+          "values": [
+            "12289",
+            "12289"
+          ]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": [
+            "240",
+            "240"
+          ]
+        },
+        {
+          "label": "DEF Básica",
+          "values": [
+            "710",
+            "710"
+          ]
+        },
+        {
+          "label": "ATQ%",
+          "values": [
+            "24.0%",
+            "24.0%"
+          ]
+        }
+      ],
+      "mat1": {
+        "id": "ShivadaJadeGemstone",
+        "name": "Gema de Jade Shivada",
+        "amount": 6,
+        "rarity": 5
+      },
+      "mat2": {
+        "id": "HoarfrostCore",
+        "name": "Núcleo de Geada",
+        "amount": 20,
+        "rarity": 4
+      },
+      "mat3": {
+        "id": "Valberry",
+        "name": "Valberry",
+        "amount": 60,
+        "rarity": 1
+      },
+      "mat4": {
+        "id": "LieutenantsInsignia",
+        "name": "Insígnia de Oficial",
+        "amount": 24,
+        "rarity": 3
+      }
+    }
+  ],
+  "talentMaterials": [
+    {
+      "level": 2,
+      "cost": 12500,
+      "items": [
+        {
+          "id": "TeachingsOfBallad",
+          "name": "Ensinamentos de Poemas",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Insígnia de Recruta",
+          "amount": 6,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "cost": 17500,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guia de Poemas",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insígnia de Sargento",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "cost": 25000,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guia de Poemas",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insígnia de Sargento",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "cost": 30000,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guia de Poemas",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insígnia de Sargento",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "cost": 37500,
+      "items": [
+        {
+          "id": "GuideToBallad",
+          "name": "Guia de Poemas",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insígnia de Sargento",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "cost": 120000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Filosofia de Poemas",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insígnia de Oficial",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Sombra do Guerreiro",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "cost": 260000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Filosofia de Poemas",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insígnia de Oficial",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Sombra do Guerreiro",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "cost": 450000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Filosofia de Poemas",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insígnia de Oficial",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Sombra do Guerreiro",
+          "amount": 2,
+          "rarity": 5
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "cost": 700000,
+      "items": [
+        {
+          "id": "PhilosophiesOfBallad",
+          "name": "Filosofia de Poemas",
+          "amount": 16,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insígnia de Oficial",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShadowOfTheWarrior",
+          "name": "Sombra do Guerreiro",
+          "amount": 2,
+          "rarity": 5
+        },
+        {
+          "id": "CrownOfInsight",
+          "name": "Coroa da Sabedoria",
+          "amount": 1,
+          "rarity": 5
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "pictures": {
+    "icon": "Character/Rosaria/Icon.webp",
+    "sideIcon": "Character/Rosaria/SideIcon.webp",
+    "gatchaCard": "Character/Rosaria/GachaCard.webp",
+    "gachaSplash": "Character/Rosaria/GachaSplash.webp",
+    "face": "Character/Rosaria/Face.webp",
+    "halfFace": "Character/Rosaria/HalfFace.webp",
+    "profile": "Character/Rosaria/Profile.webp",
+    "weaponStance": "Character/Rosaria/WeaponStance.webp"
+  },
+  "signatureArtifactSet": "",
+  "signatureWeapon": "",
+  "specialDish": "DinnerOfJudgement",
+  "tcgCharacterCard": "",
+  "outfits": [],
+  "release": 1617721200
 }

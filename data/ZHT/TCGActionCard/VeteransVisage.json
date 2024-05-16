@@ -1,33 +1,46 @@
 {
-	"id": "VeteransVisage",
-	"shareid": 328,
-	"name": "老兵的容顏",
-	"title": "榮辱之相·老兵的容顏",
-	"desc": "「即使能將傷痕完全遮蓋，心裡的傷也不會消失吧。」",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">角色受到傷害或治療後：根據本回合觸發此效果的次數，執行不同的效果。<span style=\"color:#FFFFFFFF\">第一次觸發：生成1個此角色型別的元素骰。<span style=\"color:#FFFFFFFF\">第二次觸發：抽1張牌。",
-	"attributes": {
-		"cost": 2,
-		"costType": "無色元素",
-		"cardType": "裝備牌",
-		"energy": [
-			{
-				"id": "UnalignedElement",
-				"type": "無色元素",
-				"count": 2
-			}
-		],
-		"artifact": {
-			"id": "MarechausseeHunter",
-			"name": "Marechaussee Hunter",
-			"rarity": 5
-		},
-		"tags": ["聖遺物"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">角色受到傷害或治療後：根據本回合觸發此效果的次數，執行不同的效果。<span style=\"color:#FFFFFFFF\">第一次觸發：生成1個此角色類型的元素骰。<span style=\"color:#FFFFFFFF\">第二次觸發：抽1張牌。（角色最多裝備1件「聖遺物」）"
-		}
-	],
-	"version": "4.5"
+  "id": "VeteransVisage",
+  "shareid": 328,
+  "name": "老兵的容顏",
+  "title": "榮辱之相·老兵的容顏",
+  "desc": "「即使能將傷痕完全遮蓋，心裡的傷也不會消失吧。」",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">角色受到傷害或治療後：</span>根據本回合觸發此效果的次數，執行不同的效果。<br/><span style=\"color:#FFFFFFFF\">第一次觸發：</span>生成1個此角色型別的元素骰。<br/><span style=\"color:#FFFFFFFF\">第二次觸發：</span>抽1張牌。",
+  "attributes": {
+    "cost": 2,
+    "costType": "無色元素",
+    "cardType": "裝備牌",
+    "energy": [
+      {
+        "id": "UnalignedElement",
+        "type": "無色元素",
+        "count": 2
+      },
+      {
+        "id": "UnalignedElement",
+        "type": "無色元素",
+        "count": 2
+      }
+    ],
+    "artifact": {
+      "id": "MarechausseeHunter",
+      "name": "Marechaussee Hunter",
+      "rarity": 5
+    },
+    "tags": [
+      "聖遺物",
+      "聖遺物"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "角色受到傷害或治療後：根據本回合觸發此效果的次數，執行不同的效果。第一次觸發：生成1個此角色類型的元素骰。第二次觸發：抽1張牌。（角色最多裝備1件「聖遺物」）"
+    },
+    {
+      "name": "",
+      "desc": "角色受到傷害或治療後：根據本回合觸發此效果的次數，執行不同的效果。 第一次觸發：生成1個此角色類型的元素骰。 第二次觸發：抽1張牌。 （角色最多裝備1件「聖遺物」）"
+    }
+  ],
+  "version": "4.5",
+  "shareId": 328
 }

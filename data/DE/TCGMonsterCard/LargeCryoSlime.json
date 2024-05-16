@@ -1,75 +1,151 @@
 {
-	"id": "LargeCryoSlime",
-	"shareid": 3108,
-	"name": "Großer Kryo-Schleim",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Kryo",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "Hüpfen",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FrigidSpray",
-			"name": "Eisnebelgischt",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "Schwerer Sturz",
-			"desc": "Verursacht 5 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationCryo",
-			"name": "Elementarablagerung – Kryo",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Kryo.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.5"
+  "id": "LargeCryoSlime",
+  "shareid": 3108,
+  "name": "Großer Kryo-Schleim",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "Hüpfen",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "Eisnebelgischt",
+      "desc": "Verursacht 3 Pkt. Kryo-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Schwerer Sturz",
+      "desc": "Verursacht 5 Pkt. Kryo-SCH.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Elementarablagerung – Kryo",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elementarwesen – Kryo.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Hüpfen",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "Eisnebelgischt",
+      "desc": "Verursacht 3 Pkt. Kryo-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Schwerer Sturz",
+      "desc": "Verursacht 5 Pkt. Kryo-SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Elementarablagerung – Kryo",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elementarwesen – Kryo.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5",
+  "shareId": 3108
 }

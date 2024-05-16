@@ -1,28 +1,43 @@
 {
-	"id": "KingsSquire",
-	"shareid": 131,
-	"name": "King's Squire",
-	"title": "Teachings of the Forest: King's Squire",
-	"desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow.\\n\"Remember, this whole world is but a dream of the forest... Please pass on the forest's language and the responsibility of protecting the King's land to future successors.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Character deals +1 DMG.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Matching Element",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 3
-			}
-		],
-		"tags": ["Weapon", "Bow"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Character deals +1 DMG.<span style=\"color:#FFFFFFFF\">When played: During this Round, the next time you play a Talent card or a Character using an Elemental Skill, spend 2 fewer Elemental Dice.(Only <span style=\"color:#FFFFFFFF\">Bow Characters can equip this. A character can equip a maximum of 1 Weapon.)"
-		}
-	],
-	"version": "4.5"
+  "id": "KingsSquire",
+  "shareid": 131,
+  "name": "King's Squire",
+  "title": "Teachings of the Forest: King's Squire",
+  "desc": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow.\\n\"Remember, this whole world is but a dream of the forest... Please pass on the forest's language and the responsibility of protecting the King's land to future successors.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Character deals +1 DMG</span>.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Matching Element",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Weapon",
+      "Bow",
+      "Weapon",
+      "Bow"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Character deals +1 DMG.When played: During this Round, the next time you play a Talent card or a Character using an Elemental Skill, spend 2 fewer Elemental Dice.(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon.)"
+    },
+    {
+      "name": "",
+      "desc": "Character deals +1 DMG. When played: During this Round, the next time you play a Talent card or a Character using an Elemental Skill, spend 2 fewer Elemental Dice. (Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon.)"
+    }
+  ],
+  "version": "4.5",
+  "shareId": 131
 }

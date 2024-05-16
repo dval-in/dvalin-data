@@ -1,68 +1,141 @@
 {
-	"id": "FatuiElectroCicinMage",
-	"shareid": 4408,
-	"name": "Fatui - Electro Cicin Mage",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไฟฟ้า",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "HurtlingBolts",
-			"name": "Hurtling Bolts",
-			"desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MistyCall",
-			"name": "Misty Call",
-			"desc": "เรียก <span style=\"color:#FFFFFFFF\">Electro Cicin",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ThunderingShield",
-			"name": "Thundering Shield",
-			"desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 1 หน่วย ทำให้ตัวละครนี้ติด<span style=\"color:#FFACFFFF\">ติดสถานะธาตุไฟฟ้า สร้าง <span style=\"color:#FFFFFFFF\">Electro Cicin Shield และเตรียมสกิล <span style=\"color:#FFFFFFFF\">Surging Thunder",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "FatuiElectroCicinMage",
+  "shareid": 4408,
+  "name": "Fatui - Electro Cicin Mage",
+  "title": "สายฟ้ากลางหมอก - Electro Cicin Mage",
+  "desc": "...เช่นเดียวกับกลิ่นของ Mist Grass ที่ทำให้ Electro Cicin หลงใหล นักเวทจอมซาดิสม์ก็กระหายที่จะหยอกล้อคู่ต่อสู้...",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": "ได้รับหลังจากเอาชนะ Fatui - Electro Cicin Mage ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "FatuiElectroCicinMage",
+      "name": "Fatui Electro Cicin Mage"
+    },
+    "talentCard": {
+      "id": "ElectroCicinsGleam",
+      "name": "Electro Cicin's Gleam"
+    }
+  },
+  "skills": [
+    {
+      "id": "HurtlingBolts",
+      "name": "Hurtling Bolts",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "Misty Call",
+      "desc": "เรียก Electro Cicin",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "Thundering Shield",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย ทำให้ตัวละครนี้ติดติดสถานะธาตุไฟฟ้า สร้าง Electro Cicin Shield และเตรียมสกิล Surging Thunder",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurtlingBolts",
+      "name": "Hurtling Bolts",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "Misty Call",
+      "desc": "เรียก Electro Cicin",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "Thundering Shield",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย ทำให้ตัวละครนี้ติดติดสถานะธาตุไฟฟ้า สร้าง Electro Cicin Shield และเตรียมสกิล Surging Thunder",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 337
 }

@@ -1,68 +1,142 @@
 {
-	"id": "Kirara",
-	"shareid": 336,
-	"name": "Kirara",
-	"title": "\"Cat Upon the Eaves\" Kirara",
-	"desc": "Kalau si ekor kembar dan kaki empuk yang mengantar, memangnya bisa ada pengiriman yang telantar?",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Kartu Karakter",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Sword",
-		"faction": ["Inazuma"],
-		"source": "Didapatkan setelah mengundang Kirara ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
-	},
-	"skills": [
-		{
-			"id": "Boxcutter",
-			"name": "Boxcutter",
-			"desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MeowteorKick",
-			"name": "Meow-teor Kick",
-			"desc": "Menciptakan <span style=\"color:#FFFFFFFF\">Urgent Neko Parcel dan <span style=\"color:#FFFFFFFF\">Shield of Safe Transport.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SecretArtSurpriseDispatch",
-			"name": "Secret Art: Surprise Dispatch",
-			"desc": "Mengakibatkan 4 poin <span style=\"color:#7EC236FF\">Dendro DMG dan menciptakan <span style=\"color:#FFFFFFFF\">Cat Grass Cardamom di area lawan.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Kirara",
+  "shareid": 336,
+  "name": "Kirara",
+  "title": "\"Cat Upon the Eaves\" Kirara",
+  "desc": "Kalau si ekor kembar dan kaki empuk yang mengantar, memangnya bisa ada pengiriman yang telantar?",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Kartu Karakter",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Sword",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "source": "Didapatkan setelah mengundang Kirara ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+    "character": {
+      "id": "Kirara",
+      "name": "Kirara",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "CountlessSightsToSee",
+      "name": "Countless Sights to See"
+    }
+  },
+  "skills": [
+    {
+      "id": "Boxcutter",
+      "name": "Boxcutter",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MeowteorKick",
+      "name": "Meow-teor Kick",
+      "desc": "Menciptakan Urgent Neko Parcel dan Shield of Safe Transport.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretArtSurpriseDispatch",
+      "name": "Secret Art: Surprise Dispatch",
+      "desc": "Mengakibatkan 4 poin Dendro DMG dan menciptakan Cat Grass Cardamom di area lawan.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Boxcutter",
+      "name": "Boxcutter",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MeowteorKick",
+      "name": "Meow-teor Kick",
+      "desc": "Menciptakan Urgent Neko Parcel dan Shield of Safe Transport.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretArtSurpriseDispatch",
+      "name": "Secret Art: Surprise Dispatch",
+      "desc": "Mengakibatkan 4 poin Dendro DMG dan menciptakan Cat Grass Cardamom di area lawan.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 336
 }

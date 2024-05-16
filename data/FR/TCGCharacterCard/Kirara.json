@@ -1,68 +1,142 @@
 {
-	"id": "Kirara",
-	"shareid": 336,
-	"name": "Kirara",
-	"title": "Kirara · Mistigri sur les toits",
-	"desc": "Avec deux queues et des pieds à coussinets, elle livrera à toutes les portes.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Épée à une main",
-		"faction": ["Inazuma"],
-		"source": "Récompense pour avoir invité Kirara à une partie amicale dans La Queue de Chat et remporté la victoire"
-	},
-	"skills": [
-		{
-			"id": "Boxcutter",
-			"name": "Ouvre-colis",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MeowteorKick",
-			"name": "Coup de patte miaou-téorite",
-			"desc": "Crée un <span style=\"color:#FFFFFFFF\">neko-colis urgent et un <span style=\"color:#FFFFFFFF\">bouclier de transport sécurisé.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SecretArtSurpriseDispatch",
-			"name": "Art secret : Livraison surprise",
-			"desc": "Inflige 4 pts de <span style=\"color:#7EC236FF\">DGT Dendro et crée une <span style=\"color:#FFFFFFFF\">noix de cataire sur le terrain adverse.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Kirara",
+  "shareid": 336,
+  "name": "Kirara",
+  "title": "Kirara · Mistigri sur les toits",
+  "desc": "Avec deux queues et des pieds à coussinets, elle livrera à toutes les portes.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "source": "Récompense pour avoir invité Kirara à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Kirara",
+      "name": "Kirara",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "CountlessSightsToSee",
+      "name": "Countless Sights to See"
+    }
+  },
+  "skills": [
+    {
+      "id": "Boxcutter",
+      "name": "Ouvre-colis",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MeowteorKick",
+      "name": "Coup de patte miaou-téorite",
+      "desc": "Crée un neko-colis urgent et un bouclier de transport sécurisé.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretArtSurpriseDispatch",
+      "name": "Art secret : Livraison surprise",
+      "desc": "Inflige 4 pts de DGT Dendro et crée une noix de cataire sur le terrain adverse.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Boxcutter",
+      "name": "Ouvre-colis",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MeowteorKick",
+      "name": "Coup de patte miaou-téorite",
+      "desc": "Crée un neko-colis urgent et un bouclier de transport sécurisé.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretArtSurpriseDispatch",
+      "name": "Art secret : Livraison surprise",
+      "desc": "Inflige 4 pts de DGT Dendro et crée une noix de cataire sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 336
 }

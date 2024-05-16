@@ -1,68 +1,142 @@
 {
-	"id": "Charlotte",
-	"shareid": 334,
-	"name": "Charlotte",
-	"title": "Charlotte - La Rastreadora de la Verdad",
-	"desc": "“¡La verdad por encima de todo e historias extraordinarias!”.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Catalizador",
-		"faction": ["Fontaine"],
-		"source": "Se obtiene tras retar y ganar a Charlotte en un duelo amistoso en la taberna Cola de Gato"
-	},
-	"skills": [
-		{
-			"id": "CoolcolorCapture",
-			"name": "Criografía",
-			"desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FramingFreezingPointComposition",
-			"name": "Enfoque: Composición gélida",
-			"desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo y el objetivo es afectado por <span style=\"color:#FFFFFFFF\">fotosilueta.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StillPhotoComprehensiveConfirmation",
-			"name": "Encuadre: Corroboración integral",
-			"desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo, todos tus personajes obtienen Vida +1 e invoca un <span style=\"color:#FFFFFFFF\">área de flashes.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Charlotte",
+  "shareid": 334,
+  "name": "Charlotte",
+  "title": "Charlotte - La Rastreadora de la Verdad",
+  "desc": "“¡La verdad por encima de todo e historias extraordinarias!”.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "faction": [
+      "Fontaine",
+      "Fontaine"
+    ],
+    "source": "Se obtiene tras retar y ganar a Charlotte en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Charlotte",
+      "name": "Charlotte",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ASummationOfInterest",
+      "name": "A Summation of Interest"
+    }
+  },
+  "skills": [
+    {
+      "id": "CoolcolorCapture",
+      "name": "Criografía",
+      "desc": "Inflige 1 pt. de Daño Cryo.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Enfoque: Composición gélida",
+      "desc": "Inflige 1 pt. de Daño Cryo y el objetivo es afectado por fotosilueta.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Encuadre: Corroboración integral",
+      "desc": "Inflige 1 pt. de Daño Cryo, todos tus personajes obtienen Vida +1 e invoca un área de flashes.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CoolcolorCapture",
+      "name": "Criografía",
+      "desc": "Inflige 1 pt. de Daño Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FramingFreezingPointComposition",
+      "name": "Enfoque: Composición gélida",
+      "desc": "Inflige 1 pt. de Daño Cryo y el objetivo es afectado por fotosilueta.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StillPhotoComprehensiveConfirmation",
+      "name": "Encuadre: Corroboración integral",
+      "desc": "Inflige 1 pt. de Daño Cryo, todos tus personajes obtienen Vida +1 e invoca un área de flashes.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 334
 }

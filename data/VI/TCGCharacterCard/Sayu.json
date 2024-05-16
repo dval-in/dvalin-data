@@ -1,77 +1,142 @@
 {
-	"id": "Sayu",
-	"shareid": 320,
-	"name": "Sayu",
-	"title": "Ninja Mujina - Sayu",
-	"desc": "Đồng hành trong cả giấc mơ, vạn dặm không một dấu vết.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Phong",
-		"weapon": "Trọng Kiếm",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "SkivingNewAndImproved",
-			"name": "Skiving: New and Improved"
-		},
-		"source": "Nhận được sau khi mời Sayu giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
-		"character": {
-			"id": "Sayu",
-			"name": "Sayu",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "ShuumatsubanNinjaBlade",
-			"name": "Lưỡi Đao Ninja - Shuumatsuban",
-			"desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Nguyên Tố Phong",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "YoohooArtFuuinDash",
-			"name": "Trường Phái Yoohoo - Fuuin Lăn Tròn",
-			"desc": "Gây 1 điểm <span style=\"color:#80FFD7FF\">Sát Thương Nguyên Tố Phong, nhân vật này <span style=\"color:#FFFFFFFF\">Chuẩn Bị Kỹ Năng: <span style=\"color:#FFFFFFFF\">Cú Đá Lốc Xoáy.Nếu kỹ năng hiện tại gây Khuếch Tán, <span style=\"color:#FFFFFFFF\">Cú Đá Lốc Xoáy sẽ chuyển thành sát thương nguyên tố bị Khuếch Tán.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Nguyên Tố Phong",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "YoohooArtMujinaFlurry",
-			"name": "Trường Phái Yoohoo - Mujina Bối Rối",
-			"desc": "Gây 1 điểm <span style=\"color:#80FFD7FF\">Sát Thương Nguyên Tố Phong, triệu hồi <span style=\"color:#FFFFFFFF\">Muji-Muji Daruma.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Nguyên Tố Phong",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.5"
+  "id": "Sayu",
+  "shareid": 320,
+  "name": "Sayu",
+  "title": "Ninja Mujina - Sayu",
+  "desc": "Đồng hành trong cả giấc mơ, vạn dặm không một dấu vết.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Phong",
+    "weapon": "Trọng Kiếm",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "SkivingNewAndImproved",
+      "name": "Skiving: New and Improved"
+    },
+    "source": "Nhận được sau khi mời Sayu giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+    "character": {
+      "id": "Sayu",
+      "name": "Sayu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ShuumatsubanNinjaBlade",
+      "name": "Lưỡi Đao Ninja - Shuumatsuban",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtFuuinDash",
+      "name": "Trường Phái Yoohoo - Fuuin Lăn Tròn",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Phong, nhân vật này Chuẩn Bị Kỹ Năng: Cú Đá Lốc Xoáy.Nếu kỹ năng hiện tại gây Khuếch Tán, Cú Đá Lốc Xoáy sẽ chuyển thành sát thương nguyên tố bị Khuếch Tán.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtMujinaFlurry",
+      "name": "Trường Phái Yoohoo - Mujina Bối Rối",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Phong, triệu hồi Muji-Muji Daruma.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShuumatsubanNinjaBlade",
+      "name": "Lưỡi Đao Ninja - Shuumatsuban",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtFuuinDash",
+      "name": "Trường Phái Yoohoo - Fuuin Lăn Tròn",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Phong, nhân vật này Chuẩn Bị Kỹ Năng: Cú Đá Lốc Xoáy. Nếu kỹ năng hiện tại gây Khuếch Tán, Cú Đá Lốc Xoáy sẽ chuyển thành sát thương nguyên tố bị Khuếch Tán.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtMujinaFlurry",
+      "name": "Trường Phái Yoohoo - Mujina Bối Rối",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Phong, triệu hồi Muji-Muji Daruma.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Nguyên Tố Phong",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5",
+  "shareId": 320
 }
