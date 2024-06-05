@@ -1,0 +1,71 @@
+{
+  "id": "AnnihilationSpecialistMek",
+  "shareId": 3011,
+  "name": "จักรกลทำลายล้าง",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "ไม่มีธาตุ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์"
+    ],
+    "source": null,
+    "cardType": "การ์ดตัวละคร"
+  },
+  "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Light Strike",
+      "desc": "สร้างความเสียหายกายภาพ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Piercing Blow",
+      "desc": "สร้างความเสียหายกายภาพ 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Slash Kick",
+      "desc": "สร้างความเสียหายกายภาพ 4 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

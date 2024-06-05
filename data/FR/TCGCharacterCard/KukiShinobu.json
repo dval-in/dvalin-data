@@ -10,12 +10,77 @@
     "element": "Électro",
     "weapon": "Épée à une main",
     "faction": [
+      "Inazuma",
       "Inazuma"
     ],
     "source": "Récompense pour avoir invité Kuki Shinobu à une partie amicale dans La Queue de Chat et remporté la victoire",
-    "cardType": "Carte de personnage"
+    "cardType": "Carte de personnage",
+    "character": {
+      "id": "KukiShinobu",
+      "name": "Kuki Shinobu",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ToWardWeakness",
+      "name": "To Ward Weakness"
+    }
   },
   "skills": [
+    {
+      "id": "ShinobusShadowsword",
+      "name": "Lame volante",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SanctifyingRing",
+      "name": "Anneau de consécration",
+      "desc": "Crée un anneau d'herbes de consécration. Si le personnage a 6 PV ou plus, il subit 2 pts de DGT de perforation.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GyoeiNarukamiKariyamaRite",
+      "name": "Rituel des semoirs de Narukami",
+      "desc": "Inflige 4 pts de DGT Électro et soigne le personnage pour 2 pts.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "ShinobusShadowsword",
       "name": "Lame volante",

@@ -1,28 +1,43 @@
 {
-	"id": "SacrificialSword",
-	"shareid": 144,
-	"name": "Épée rituelle",
-	"title": "Sang-froid : Épée rituelle",
-	"desc": "Cette épée, autrefois un ustensile, a vu de nombreuses années, devenant depuis une lame au fil tranchant avec le passage du temps.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Élément identique",
-		"cardType": "Carte d'équipement",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Élément identique",
-				"count": 3
-			}
-		],
-		"tags": ["Arme", "Épée à une main"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche)(Peut uniquement être équipé par un personnage utilisant une <span style=\"color:#FFFFFFFF\">épée à une main, un personnage peut équiper au maximum 1 arme)"
-		}
-	],
-	"version": "4.4"
+  "id": "SacrificialSword",
+  "shareid": 144,
+  "name": "Épée rituelle",
+  "title": "Sang-froid : Épée rituelle",
+  "desc": "Cette épée, autrefois un ustensile, a vu de nombreuses années, devenant depuis une lame au fil tranchant avec le passage du temps.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.</span><br/><span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une compétence élémentaire : </span>Crée 1 dé de l'élément du personnage. (1 fois par manche)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Élément identique",
+    "cardType": "Carte d'équipement",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arme",
+      "Épée à une main",
+      "Arme",
+      "Épée à une main"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "DGT infligés par le personnage +1.Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche)(Peut uniquement être équipé par un personnage utilisant une épée à une main, un personnage peut équiper au maximum 1 arme)"
+    },
+    {
+      "name": "",
+      "desc": "DGT infligés par le personnage +1. Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche) (Peut uniquement être équipé par un personnage utilisant une épée à une main, un personnage peut équiper au maximum 1 arme)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 144
 }

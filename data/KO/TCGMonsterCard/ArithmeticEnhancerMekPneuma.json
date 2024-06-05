@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekPneuma",
+  "shareId": 3010,
+  "name": "장치·연산 증폭기·프뉴마",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "원소 타입 없음",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물"
+    ],
+    "source": null,
+    "cardType": "캐릭터 카드"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "돌진",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "에너지 증폭·프뉴마",
+      "desc": "물리 피해를 2pt 주고 본 캐릭터에게 에너지 강화·프뉴마를 부착한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "에너지 폭파·프뉴마",
+      "desc": "물리 피해를 3pt 주고 본 캐릭터에게 에너지 강화·프뉴마를 부착한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "기체 복구·프뉴마",
+      "desc": "아군 캐릭터가 스킬 사용 후: 피해를 가장 많이 받은 아군 캐릭터의 HP를 1pt 치유한다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "에너지원 특징: 프뉴마",
+      "desc": "「아르케의 힘: 우시아」 성질을 가진 캐릭터에게 피해를 받은 후: 이 캐릭터가 「에너지 상실 형태」로 전환되고 이번 턴이 종료되기 전까지 스킬을 사용할 수 없다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

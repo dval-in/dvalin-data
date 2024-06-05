@@ -1,0 +1,85 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 4208,
+  "name": "Narvalo Divoramondi",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "source": null,
+    "cardType": "Carta personaggio"
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "Onde frantumanti",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Pioggia di stelle",
+      "desc": "Infligge $[D__KEY__DAMAGE_2] DAN da Hydro. Questo personaggio infligge DAN +1 per ogni 3 PS max aggiuntivi dati da Appetito insaziabile (massimo +5). Dopodiché, rimuovi la carta con il maggiore costo originale di dadi elementali nella tua mano.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Inghiottimento devastante",
+      "desc": "Infligge 1 DAN da Hydro, infligge 1 DAN da perforazione a tutti i personaggi avversari inattivi. Invoca 1 Ombra oscura.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Appetito insaziabile",
+      "desc": "(Passiva) All'inizio del duello, crea 1 Dominio del Divoratore degli Abissi.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

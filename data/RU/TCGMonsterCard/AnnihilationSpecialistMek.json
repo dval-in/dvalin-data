@@ -1,0 +1,71 @@
+{
+  "id": "AnnihilationSpecialistMek",
+  "shareId": 3011,
+  "name": "Спецмек: Ликвидация",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Без элемента",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр"
+    ],
+    "source": null,
+    "cardType": "Карты персонажей"
+  },
+  "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Лёгкий удар",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Пронзающее дуновение",
+      "desc": "Наносит Физический урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Сокрушительный пинок",
+      "desc": "Наносит Физический урон, 4 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

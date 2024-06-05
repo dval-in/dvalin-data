@@ -3,7 +3,7 @@
   "shareid": 4408,
   "name": "Maga Cicin di Electro dei Fatui",
   "title": "Maga Cicin di Electro, Tuono nella nebbia",
-  "desc": "...Così come l'odore dell'Erbafosca inebria le Cicin di Electro, le maghe sadiche bramano il piacere di dilettarsi con il loro nemico...",
+  "desc": "...Così come l'odore dell'Erbafosca inebria i Cicin di Electro, le maghe sadiche bramano il piacere di dilettarsi con il loro nemico...",
   "attributes": {
     "hp": 10,
     "cardType": "Carta personaggio",
@@ -11,6 +11,7 @@
     "element": "Electro",
     "weapon": "Altre armi",
     "faction": [
+      "Fatui",
       "Fatui",
       "Fatui",
       "Fatui"
@@ -66,6 +67,61 @@
       "name": "Scudo tonante",
       "desc": "Infligge 1 DAN da Electro, questo personaggio subisce Applicazione di Electro, crea 1 Scudo Cicin di Electro e prepara Tuono ruggente.",
       "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurtlingBolts",
+      "name": "Saette repentine",
+      "desc": "Infligge 1 DAN da Electro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "Richiamo nebuloso",
+      "desc": "Invoca 1 Cicin di Electro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "Scudo tonante",
+      "desc": "Infligge 1 DAN da Electro, questo personaggio subisce Applicazione di Electro, crea 1 Scudo Cicin di Electro e prepara Tuono ruggente.",
+      "skillTag": [
         "Tripudio elementale"
       ],
       "points": [

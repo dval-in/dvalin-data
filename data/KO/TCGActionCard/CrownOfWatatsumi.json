@@ -4,12 +4,17 @@
   "name": "와타츠미의 왕관",
   "title": "산호진주·와타츠미의 왕관",
   "desc": "「바다 주민의 노랫말 속의, 진주와 산호로 만들어진 왕관은 영원히 더럽혀지지 않는다」",
-  "inPlayDescription": "아군 캐릭터가 치유를 3pt 받을 때마다, 해당 카드는 <span style=\"color:#FFFFFFFF\">「바다에 물든 거품」</span>을 1개 누적한다. (최대 2개 누적 가능)<br/><span style=\"color:#FFFFFFFF\">캐릭터가 피해를 줄 시:</span> 모든 <span style=\"color:#FFFFFFFF\">「바다에 물든 거품」</span>을 소모하며 1개당 주는 피해가 1pt 증가한다.",
+  "inPlayDescription": "아군 캐릭터가 치유를 3pt 받을 때마다, 이 카드는 <span style=\"color:#FFFFFFFF\">「바다에 물든 거품」</span>을 1개 누적한다. (최대 누적수: 2개. <span style=\"color:#D3BC8EFF\">현재 받은 치유: ${[GCG_TOKEN_SHIELD]}pt</span>)<br/><span style=\"color:#FFFFFFFF\">캐릭터가 피해를 줄 시:</span> 모든 <span style=\"color:#FFFFFFFF\">「바다에 물든 거품」</span>을 소모해 1개당 주는 피해+1pt",
   "attributes": {
     "cost": 1,
     "costType": "동일한 원소",
     "cardType": "장비 카드",
     "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "동일한 원소",
+        "count": 1
+      },
       {
         "id": "MatchingElement",
         "type": "동일한 원소",
@@ -28,6 +33,7 @@
     },
     "tags": [
       "성유물",
+      "성유물",
       "성유물"
     ]
   },
@@ -35,6 +41,10 @@
     {
       "name": "",
       "desc": "아군 캐릭터가 치유를 3pt 받을 때마다, 해당 카드는 「바다에 물든 거품」을 1개 누적한다. (최대 2개 누적 가능)캐릭터가 피해를 줄 시: 모든 「바다에 물든 거품」을 소모하며 1개당 주는 피해가 1pt 증가한다.(캐릭터는 「성유물」을 1개만 장착할 수 있다)"
+    },
+    {
+      "name": "",
+      "desc": "아군 캐릭터가 치유를 3pt 받을 때마다, 해당 카드는 「바다에 물든 거품」을 1개 누적한다. (최대 2개 누적 가능) 캐릭터가 피해를 줄 시: 모든 「바다에 물든 거품」을 소모하며 1개당 주는 피해가 1pt 증가한다. (캐릭터는 「성유물」을 1개만 장착할 수 있다)"
     },
     {
       "name": "",

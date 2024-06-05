@@ -1,0 +1,76 @@
+{
+  "id": "Kaveh",
+  "shareId": 367,
+  "name": "カーヴェ",
+  "title": "天穹の鏡·カーヴェ",
+  "desc": "仁愛と体験と美の認識。",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "両手剣",
+    "faction": [
+      "スメール"
+    ],
+    "source": "キャッツテールでカーヴェを招待し、友好対戦に勝利することで獲得",
+    "cardType": "キャラカード"
+  },
+  "skills": [
+    {
+      "id": "SchematicSetup",
+      "name": "円規定則",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArtisticIngenuity",
+      "name": "精緻なる絵図",
+      "desc": "草元素ダメージを2与え、炸裂スキャンを生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PaintedDome",
+      "name": "ムカルナスの描像",
+      "desc": "草元素ダメージを3与え、このキャラにメラックアシストを付与し、炸裂スキャンを2層生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

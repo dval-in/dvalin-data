@@ -1,0 +1,94 @@
+{
+  "id": "AnnihilationSpecialistMekOusia",
+  "shareId": 3208,
+  "name": "Mecaespecialista Aniquiladora - Ousía",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": null,
+    "cardType": "Carta de personaje"
+  },
+  "skills": [
+    {
+      "id": "ViciousKicks",
+      "name": "Patada rauda",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLegblades",
+      "name": "Pasos amolantes",
+      "desc": "Inflige 3 pts. de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladedWaltz",
+      "name": "Vals afilado",
+      "desc": "Inflige 5 pts. de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupportUnitOusia",
+      "name": "Unidad de apoyo: ousía",
+      "desc": "Pasiva: al comenzar el duelo, crea un Mecacentinela Zonal - Ousía.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energía ousía",
+      "desc": "Tras recibir daño cargado de arjé: pneuma, este personaje entra en estado desactivado y no puede usar habilidades hasta el fin de la ronda actual.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "AnnihilationSpecialistMek",
+  "shareId": 3011,
+  "name": "섬멸 특화 타입 장치",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "원소 타입 없음",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물"
+    ],
+    "source": null,
+    "cardType": "캐릭터 카드"
+  },
+  "skills": [
+    {
+      "id": "LightStrike",
+      "name": "신속한 견제 공격",
+      "desc": "물리 피해를 1pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "군도 찌르기",
+      "desc": "물리 피해를 3pt 준다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "발날 참격",
+      "desc": "물리 피해를 4pt 준다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

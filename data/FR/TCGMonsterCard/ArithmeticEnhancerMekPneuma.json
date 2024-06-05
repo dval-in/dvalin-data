@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekPneuma",
+  "shareId": 3010,
+  "name": "Mek amplificateur - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Sans élément",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "source": null,
+    "cardType": "Carte de personnage"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Heurt",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "Amplification énergétique pneuma",
+      "desc": "Inflige 2 pts de DGT physiques et applique un boost d'énergie pneuma au personnage.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "Explosion énergétique pneuma",
+      "desc": "Inflige 3 pts de DGT physiques et applique un boost d'énergie pneuma au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "Réparation structurelle pneuma",
+      "desc": "Lorsque votre personnage a utilisé une capacité : Soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Signature énergétique : Pneuma",
+      "desc": "Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe ousia : il change en forme désactivée et ne peut pas utiliser de capacité jusqu'à la fin de la manche.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

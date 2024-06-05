@@ -1,29 +1,44 @@
 {
-	"id": "NaganoharaMeteorSwarm",
-	"shareid": 81,
-	"name": "Lluvia de meteoros Naganohara",
-	"title": "Yoimiya: Lluvia de meteoros Naganohara",
-	"desc": "Doctrina Naganohara de fuegos artificiales de reserva.",
-	"inPlayDescription": "El efecto de <span style=\"color:#FFFFFFFF\">nitrofogata creado por Yoimiya mientras tiene esta carta equipada obtiene número de <span style=\"color:#FFFFFFFF\">usos iniciales +1 y, tras activarlo, inflige <span style=\"color:#FF9999FF\">Daño Pyro +1.",
-	"attributes": {
-		"cost": 2,
-		"costType": "Dados Pyro",
-		"cardType": "Carta de equipamiento",
-		"energy": [
-			{
-				"id": "Pyro",
-				"type": "Dados Pyro",
-				"count": 2
-			}
-		],
-		"source": "Se obtiene tras retar a Yoimiya a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
-		"tags": ["Talento", "Acción de combate"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Acción de combate: esta carta se equipa cuando el personaje en combate es <span style=\"color:#FFFFFFFF\">Yoimiya.Tras ello, Yoimiya usa una vez <span style=\"color:#FFD780FF\">Danza de la pólvora de inmediato.El efecto de <span style=\"color:#FFFFFFFF\">nitrofogata creado por Yoimiya mientras tiene esta carta equipada obtiene número de <span style=\"color:#FFFFFFFF\">usos iniciales +1 y, tras activarlo, inflige <span style=\"color:#FF9999FF\">Daño Pyro +1.Solo puedes añadir esta carta al mazo si tienes a Yoimiya en él."
-		}
-	],
-	"version": "4.4"
+  "id": "NaganoharaMeteorSwarm",
+  "shareid": 81,
+  "name": "Lluvia de meteoros Naganohara",
+  "title": "Yoimiya: Lluvia de meteoros Naganohara",
+  "desc": "Doctrina Naganohara de fuegos artificiales de reserva.",
+  "inPlayDescription": "Cuando se activa el efecto de <span style=\"color:#FFFFFFFF\">nitrofogata</span> creado por Yoimiya mientras tiene esta carta equipada, inflige <span style=\"color:#FF9999FF\">Daño Pyro</span> +1.",
+  "attributes": {
+    "cost": 1,
+    "costType": "Dados Pyro",
+    "cardType": "Carta de equipamiento",
+    "energy": [
+      {
+        "id": "Pyro",
+        "type": "Dados Pyro",
+        "count": 2
+      },
+      {
+        "id": "Pyro",
+        "type": "Dados Pyro",
+        "count": 1
+      }
+    ],
+    "source": "Se obtiene tras retar a Yoimiya a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+    "tags": [
+      "Talento",
+      "Acción de combate",
+      "Talento",
+      "Acción de combate"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Acción de combate: esta carta se equipa cuando el personaje en combate es Yoimiya.Tras ello, Yoimiya usa una vez Danza de la pólvora de inmediato.El efecto de nitrofogata creado por Yoimiya mientras tiene esta carta equipada obtiene número de usos iniciales +1 y, tras activarlo, inflige Daño Pyro +1.Solo puedes añadir esta carta al mazo si tienes a Yoimiya en él."
+    },
+    {
+      "name": "",
+      "desc": "Acción de combate: esta carta se equipa cuando el personaje en combate es Yoimiya. Tras ello, Yoimiya usa una vez Danza de la pólvora de inmediato. Cuando se activa el efecto de nitrofogata creado por Yoimiya mientras tiene esta carta equipada, inflige Daño Pyro +1. Solo puedes añadir esta carta al mazo si tienes a Yoimiya en él."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 81
 }

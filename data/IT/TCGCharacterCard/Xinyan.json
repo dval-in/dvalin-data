@@ -1,0 +1,76 @@
+{
+  "id": "Xinyan",
+  "shareId": 365,
+  "name": "Xinyan",
+  "title": "Xinyan, Melodia incandescente",
+  "desc": "È ora di spaccare!",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Claymore",
+    "faction": [
+      "Liyue"
+    ],
+    "source": "Ricompensa ottenuta sfidando Xinyan a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "cardType": "Carta personaggio"
+  },
+  "skills": [
+    {
+      "id": "DanceOnFire",
+      "name": "Danza sul fuoco",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SweepingFervor",
+      "name": "Esecuzione sfrenata",
+      "desc": "Infligge 2 DAN da Pyro, rimuovi casualmente 1 carta con il maggiore costo elementale originale nella tua mano, e crea 1 Scudo di passione.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiffRevolution",
+      "name": "Riff ribelle",
+      "desc": "Infligge 3 DAN fisici, infligge 2 DAN da perforazione a tutti i personaggi inattivi avversari, rimuovi tutte le carte nella tua mano, genera 1 Fuochi in festa.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

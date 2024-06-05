@@ -1,0 +1,71 @@
+{
+  "id": "ArithmeticEnhancerMek",
+  "shareId": 3008,
+  "name": "Arithmetic Enhancer Mek",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "source": null,
+    "cardType": "Kartu Karakter"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Ram",
+      "desc": "Mengakibatkan 1 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BrutalRam",
+      "name": "Brutal Ram",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingUp",
+      "name": "Charging Up",
+      "desc": "Mengakibatkan 3 poin Physical DMG. Karakter ini akan kembali ke status \"Ousia\" atau \"Pneuma\" asalnya.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

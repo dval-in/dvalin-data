@@ -1,0 +1,85 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 4208,
+  "name": "All-Devouring Narwhal",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster"
+    ],
+    "source": null,
+    "cardType": "Character Card"
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "Shattering Waves",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Starfall Shower",
+      "desc": "Deals $[D__KEY__DAMAGE_2] Hydro DMG. This character deals +1 DMG for every 3 extra max HP provided by Insatiable Appetite (Max +5.) After this, Discard 1 card with the highest original Elemental Dice Cost in your Hand.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Ravaging Devourer",
+      "desc": "Deals 1 Hydro DMG, deals 1 Piercing DMG to all opposing characters on standby. Summons 1 Dark Shadow.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Insatiable Appetite",
+      "desc": "(Passive) When battle begins, create 1 Deep Devourer's Domain.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

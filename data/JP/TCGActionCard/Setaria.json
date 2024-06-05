@@ -1,28 +1,41 @@
 {
-	"id": "Setaria",
-	"shareid": 212,
-	"name": "セタレ",
-	"title": "高き壁を越えて·セタレ",
-	"desc": "砂漠の天才は、雨林の殿堂の奥へと向かう…",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 1,
-		"costType": "同一元素",
-		"cardType": "支援カード",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "同一元素",
-				"count": 1
-			}
-		],
-		"tags": ["仲間"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">味方が任意のアクションをした後、手札の数が0の場合、手札を1枚引く。<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">使用可能回数:3"
-		}
-	],
-	"version": "4.4"
+  "id": "Setaria",
+  "shareid": 212,
+  "name": "セタレ",
+  "title": "高き壁を越えて·セタレ",
+  "desc": "砂漠の天才は、雨林の殿堂の奥へと向かう…",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "同一元素",
+    "cardType": "支援カード",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "同一元素",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "同一元素",
+        "count": 1
+      }
+    ],
+    "tags": [
+      "仲間",
+      "仲間"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "味方が任意のアクションをした後、手札の数が0の場合、手札を1枚引く。使用可能回数:3"
+    },
+    {
+      "name": "",
+      "desc": "双方が任意のアクションをした後、味方の手札の数が0だった場合、手札を1枚引く。 使用可能回数:3"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 212
 }

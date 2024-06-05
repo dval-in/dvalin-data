@@ -1,0 +1,86 @@
+{
+  "id": "ConsecratedScorpion",
+  "shareId": 369,
+  "name": "聖骸毒蠍",
+  "title": "亡骸遺毒·聖骸毒蠍",
+  "desc": "因為啃噬偉大的生命體而扭曲異變的毒蠍，操縱著險惡的轟雷。",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "聖骸獸"
+    ],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度聖骸毒蠍中獲得勝利後獲得",
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "ScorpionStrike",
+      "name": "蠍爪鉗擊",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "蠍尾錐刺",
+      "desc": "造成3點雷元素傷害。 生成1張噬骸能量塊，隨機置入我方牌庫頂部2張卡牌之中。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "雷錐散射",
+      "desc": "造成3點雷元素傷害，捨棄手牌中最多3張噬骸能量塊，在對方場上生成雷錐陷阱。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "不朽亡骸·雷",
+      "desc": "【被動】回合結束時，生成2張噬骸能量塊，隨機置入我方牌庫頂部10張卡牌之中。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}
