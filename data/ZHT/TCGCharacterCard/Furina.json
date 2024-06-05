@@ -1,0 +1,85 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "芙寧娜",
+  "title": "不休獨舞·芙寧娜",
+  "desc": "永世領唱，無盡圓舞。",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "單手劍",
+    "faction": [
+      "楓丹"
+    ],
+    "source": "在貓尾酒館中邀請芙寧娜進行對局，在友好對局難度中獲得勝利後獲得",
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "獨舞之邀",
+      "desc": "造成2點物理傷害。 每回合1次：如果手牌中沒有聖俗雜座，則生成手牌聖俗雜座。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "孤心沙龍",
+      "desc": "芙寧娜目前處於「始基力：荒性」形態：召喚沙龍成員。 （芙寧娜處於「始基力：芒性」形態時，會改為召喚眾水的歌者）",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "萬眾狂歡",
+      "desc": "造成2點水元素傷害，生成普世歡騰。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "始基力：聖俗雜座",
+      "desc": "【被動】戰鬥開始時，生成手牌聖俗雜座。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

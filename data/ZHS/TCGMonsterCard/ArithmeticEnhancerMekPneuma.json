@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekPneuma",
+  "shareId": 3010,
+  "name": "机关·算力增幅器·芒",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "无元素类型",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null,
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "冲撞",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "能量增幅·芒",
+      "desc": "造成2点物理伤害，本角色附属能量强化·芒。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "能量爆轰·芒",
+      "desc": "造成3点物理伤害，本角色附属能量强化·芒。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "机体修复·芒",
+      "desc": "我方角色使用技能后：治疗我方受伤最多的角色1点。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "能源特征：芒性",
+      "desc": "受到具有「始基力：荒性」的角色造成的伤害后：此角色转换为「失能形态」，并且直到本回合结束前无法使用技能。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

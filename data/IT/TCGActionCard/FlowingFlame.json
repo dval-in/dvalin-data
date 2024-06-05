@@ -1,29 +1,44 @@
 {
-	"id": "FlowingFlame",
-	"shareid": 77,
-	"name": "Corrente di fiamme",
-	"title": "Diluc: Corrente di fiamme",
-	"desc": "Un modo facile per uscire dalle situazioni pericolose.",
-	"inPlayDescription": "Ogni volta che Diluc, che ha questa carta equipaggiata, usa <span style=\"color:#FFFFFFFF\">Assalto fiammante per la seconda volta in un turno: spendi 1 <span style=\"color:#FF9999FF\">dado di Pyro in meno.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Pyro",
-		"cardType": "Carta equipaggiamento",
-		"energy": [
-			{
-				"id": "Pyro",
-				"type": "Pyro",
-				"count": 3
-			}
-		],
-		"source": "Ricompensa ottenuta sfidando Diluc a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
-		"tags": ["Talento", "Azione di combattimento"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Azione di combattimento: se il tuo personaggio attivo è <span style=\"color:#FFFFFFFF\">Diluc, equipaggia questa carta.Dopo che Diluc viene equipaggiato con questa carta, utilizza immediatamente <span style=\"color:#FFD780FF\">Assalto fiammante una volta.Quando Diluc, che ha questa carta equipaggiata, utilizza <span style=\"color:#FFFFFFFF\">Assalto fiammante per la seconda volta in un turno, spendi 1 <span style=\"color:#FF9999FF\">dado di Pyro in meno.(Per aggiungere questa carta, il tuo mazzo deve contenere Diluc.)"
-		}
-	],
-	"version": "4.4"
+  "id": "FlowingFlame",
+  "shareid": 77,
+  "name": "Corrente di fiamme",
+  "title": "Diluc: Corrente di fiamme",
+  "desc": "Un modo facile per uscire dalle situazioni pericolose.",
+  "inPlayDescription": "Ogni volta che Diluc, che ha questa carta equipaggiata, usa <span style=\"color:#FFFFFFFF\">Assalto fiammante</span> per la seconda e la terza volta in un turno: spendi 1 <span style=\"color:#FF9999FF\">dado di Pyro</span> in meno.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Pyro",
+    "cardType": "Carta equipaggiamento",
+    "energy": [
+      {
+        "id": "Pyro",
+        "type": "Pyro",
+        "count": 3
+      },
+      {
+        "id": "Pyro",
+        "type": "Pyro",
+        "count": 3
+      }
+    ],
+    "source": "Ricompensa ottenuta sfidando Diluc a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
+    "tags": [
+      "Talento",
+      "Azione di combattimento",
+      "Talento",
+      "Azione di combattimento"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Azione di combattimento: se il tuo personaggio attivo è Diluc, equipaggia questa carta.Dopo che Diluc viene equipaggiato con questa carta, utilizza immediatamente Assalto fiammante una volta.Quando Diluc, che ha questa carta equipaggiata, utilizza Assalto fiammante per la seconda volta in un turno, spendi 1 dado di Pyro in meno.(Per aggiungere questa carta, il tuo mazzo deve contenere Diluc.)"
+    },
+    {
+      "name": "",
+      "desc": "Azione di combattimento: se il tuo personaggio attivo è Diluc, equipaggia questa carta. Dopo che Diluc viene equipaggiato con questa carta, utilizza immediatamente Assalto fiammante una volta. Quando Diluc, che ha questa carta equipaggiata, utilizza Assalto fiammante per la seconda e la terza volta in un turno, spendi 1 dado di Pyro in meno. (Per aggiungere questa carta, il tuo mazzo deve contenere Diluc.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 77
 }

@@ -10,12 +10,77 @@
     "element": "Electro",
     "weapon": "Spada",
     "faction": [
+      "Inazuma",
       "Inazuma"
     ],
     "source": "Ricompensa ottenuta sfidando Kuki Shinobu a duello alla Coda di Gatto e battendola in un duello amichevole",
-    "cardType": "Carta personaggio"
+    "cardType": "Carta personaggio",
+    "character": {
+      "id": "KukiShinobu",
+      "name": "Kuki Shinobu",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ToWardWeakness",
+      "name": "To Ward Weakness"
+    }
   },
   "skills": [
+    {
+      "id": "ShinobusShadowsword",
+      "name": "Lamaombra di Shinobu",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SanctifyingRing",
+      "name": "Anello purificatore",
+      "desc": "Invoca 1 Anello d'erba purificatore. Se questo personaggio ha almeno 6 PS, infligge 2 DAN da perforazione a sé stessa.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GyoeiNarukamiKariyamaRite",
+      "name": "Rituale di Gyoei Narukami Kariyama",
+      "desc": "Infligge 4 DAN da Electro, ripristina 2 PS di questo personaggio.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "ShinobusShadowsword",
       "name": "Lamaombra di Shinobu",

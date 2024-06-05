@@ -1,0 +1,71 @@
+{
+  "id": "AnnihilationSpecialistMek",
+  "shareId": 3011,
+  "name": "Kıyım Uzmanı Meka",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null,
+    "cardType": "Karakter Kartı"
+  },
+  "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Hafif Vuruş",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Delici Darbe",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Kesen Tekme",
+      "desc": "4 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

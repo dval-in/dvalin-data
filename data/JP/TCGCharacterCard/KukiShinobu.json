@@ -10,12 +10,77 @@
     "element": "雷元素",
     "weapon": "片手剣",
     "faction": [
+      "稲妻",
       "稲妻"
     ],
     "source": "キャッツテールで久岐忍を招待し、友好対戦に勝利することで獲得",
-    "cardType": "キャラカード"
+    "cardType": "キャラカード",
+    "character": {
+      "id": "KukiShinobu",
+      "name": "Kuki Shinobu",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ToWardWeakness",
+      "name": "To Ward Weakness"
+    }
   },
   "skills": [
+    {
+      "id": "ShinobusShadowsword",
+      "name": "忍流飛刃斬り",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SanctifyingRing",
+      "name": "越祓雷草の輪",
+      "desc": "越祓草輪を生成する。本キャラのHPが6以上の場合、自身に貫通ダメージを2与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GyoeiNarukamiKariyamaRite",
+      "name": "御詠鳴神刈山祭",
+      "desc": "雷元素ダメージを4与え、本キャラのHPを2回復する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "ShinobusShadowsword",
       "name": "忍流飛刃斬り",

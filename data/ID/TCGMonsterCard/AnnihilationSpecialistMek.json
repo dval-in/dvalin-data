@@ -1,0 +1,71 @@
+{
+  "id": "AnnihilationSpecialistMek",
+  "shareId": 3011,
+  "name": "Annihilation Specialist Mek",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "source": null,
+    "cardType": "Kartu Karakter"
+  },
+  "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Light Strike",
+      "desc": "Mengakibatkan 1 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Piercing Blow",
+      "desc": "Mengakibatkan 3 poin Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Slash Kick",
+      "desc": "Mengakibatkan 4 poin Physical DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

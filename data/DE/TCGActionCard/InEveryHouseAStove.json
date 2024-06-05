@@ -1,28 +1,41 @@
 {
-	"id": "InEveryHouseAStove",
-	"shareid": 222,
-	"name": "Eines jeden Hauses Ofenfeuer",
-	"title": "Eines jeden Hauses Ofenfeuer",
-	"desc": "„Rührend kümmerte sich der Gott des Herdes um die Menschen und teilte sich auf in viele Helfer, die Nahrung und Zusammenhalt in die Haushalte brachten.“",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 1,
-		"costType": "Erlass des Mysteriums",
-		"cardType": "Ereigniskarte",
-		"energy": [
-			{
-				"id": "ArcaneEdict",
-				"type": "Erlass des Mysteriums",
-				"count": 1
-			}
-		],
-		"tags": ["Mysterium"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "Du ziehst Karten, deren Menge <span style=\"color:#FFFFFFFF\">1 weniger als die aktuelle Rundenzahl beträgt. (Höchstens 4 Karten können auf diese Weise gezogen werden.)(Während des gesamten Duells kann nur 1 „Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)"
-		}
-	],
-	"version": "4.4"
+  "id": "InEveryHouseAStove",
+  "shareid": 222,
+  "name": "Eines jeden Hauses Ofenfeuer",
+  "title": "Eines jeden Hauses Ofenfeuer",
+  "desc": "„Rührend kümmerte sich der Gott des Herdes um die Menschen und teilte sich auf in viele Helfer, die Nahrung und Zusammenhalt in die Haushalte brachten.“",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "Erlass des Mysteriums",
+    "cardType": "Ereigniskarte",
+    "energy": [
+      {
+        "id": "ArcaneEdict",
+        "type": "Erlass des Mysteriums",
+        "count": 1
+      },
+      {
+        "id": "ArcaneEdict",
+        "type": "Erlass des Mysteriums",
+        "count": 1
+      }
+    ],
+    "tags": [
+      "Mysterium",
+      "Mysterium"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Du ziehst Karten, deren Menge 1 weniger als die aktuelle Rundenzahl beträgt. (Höchstens 4 Karten können auf diese Weise gezogen werden.)(Während des gesamten Duells kann nur 1 „Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)"
+    },
+    {
+      "name": "",
+      "desc": "Beim Ausspielen dieser Karte in der ersten Runde: Zieht 1 Talentkarte, wenn sich mindestens 2 unterschiedliche Talentkarten in deinem Deck befinden. Beim Ausspielen dieser Karte in der zweiten oder späteren Runde: Zieht Karten, deren Anzahl 1 weniger als die aktuelle Rundenzahl beträgt. (Höchstens 4 Karten können auf diese Weise gezogen werden.) (Während des gesamten Duells kann nur 1 „Mysteriums“-Karte ausgespielt werden. Diese Karte ist auf jeden Fall Teil deiner Starthand.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 222
 }

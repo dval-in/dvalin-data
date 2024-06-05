@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekPneuma",
+  "shareId": 3010,
+  "name": "Mecha – Rechenleistungsverstärker – Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Kein Elementartyp",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": null,
+    "cardType": "Figurenkarte"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Rammen",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "Energieschwung – Pneuma",
+      "desc": "Verursacht 2 Pkt. phys. SCH, erhält selbst Energieverstärkung – Pneuma.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "Energieexplosion – Pneuma",
+      "desc": "Verursacht 3 Pkt. phys. SCH, erhält selbst Energieverstärkung – Pneuma.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "Modulreparatur – Pneuma",
+      "desc": "Nach Anwenden einer Fähigkeit deiner Figuren: Stellt deiner Figur, die den meisten Schaden erlitten hat, 1 LP wieder her.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Energiesignatur – Pneuma",
+      "desc": "Nach Erleiden von SCH durch eine mit „Arkhe – Ousia“ versehene Figur: Diese Figur wird in den „Deaktiviert-Modus“ eintreten und bis Endphase dieser Runde keine Fähigkeit anwenden können.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

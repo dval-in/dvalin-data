@@ -10,12 +10,85 @@
     "element": "물 원소",
     "weapon": "기타 무기",
     "faction": [
+      "마물",
       "마물"
     ],
     "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 심연 사도·격류에게 승리 후 획득",
-    "cardType": "캐릭터 카드"
+    "cardType": "캐릭터 카드",
+    "character": {
+      "id": "AbyssHeraldWickedTorrents",
+      "name": "Abyss Herald: Wicked Torrents"
+    },
+    "talentCard": {
+      "id": "SurgingUndercurrent",
+      "name": "Surging Undercurrent"
+    }
   },
   "skills": [
+    {
+      "id": "RipplingSlash",
+      "name": "파도 칼날 베기",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VortexEdge",
+      "name": "소용돌이 칼날",
+      "desc": "물 원소 피해를 2pt 주고 회전 물결 칼날의 스킬 준비를 한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TorrentialShock",
+      "name": "진동하는 격류",
+      "desc": "물 원소 피해를 3pt 주고 상대방 필드에 암류의 저주를 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WateryRebirth",
+      "name": "물의 신생",
+      "desc": "[패시브] 전투 시작 시, 시작부터 물의 신생이 부착된다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
     {
       "id": "RipplingSlash",
       "name": "파도 칼날 베기",

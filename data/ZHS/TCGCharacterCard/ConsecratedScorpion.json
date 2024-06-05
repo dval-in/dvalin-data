@@ -1,0 +1,86 @@
+{
+  "id": "ConsecratedScorpion",
+  "shareId": 369,
+  "name": "圣骸毒蝎",
+  "title": "亡骸遗毒·圣骸毒蝎",
+  "desc": "因为啃噬伟大的生命体，而扭曲异变的毒蝎，操纵着险恶的轰雷。",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "圣骸兽"
+    ],
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度圣骸毒蝎中获得胜利后获取",
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "ScorpionStrike",
+      "name": "蝎爪钳击",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "蝎尾锥刺",
+      "desc": "造成3点雷元素伤害。 生成1张噬骸能量块，随机置入我方牌库顶部2张牌之中。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "雷锥散射",
+      "desc": "造成3点雷元素伤害，舍弃手牌中最多3张噬骸能量块，在对方场上生成雷锥陷阱。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "不朽亡骸·雷",
+      "desc": "【被动】回合结束时，生成2张噬骸能量块，随机置入我方牌库顶部10张牌之中。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

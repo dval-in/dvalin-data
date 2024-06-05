@@ -10,12 +10,85 @@
     "element": "Hydro",
     "weapon": "Autre arme",
     "faction": [
+      "Monstre",
       "Monstre"
     ],
-    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Apôtre de l'Abîme - Torrent",
-    "cardType": "Carte de personnage"
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Apôtre de l'Abîme « Torrent »",
+    "cardType": "Carte de personnage",
+    "character": {
+      "id": "AbyssHeraldWickedTorrents",
+      "name": "Abyss Herald: Wicked Torrents"
+    },
+    "talentCard": {
+      "id": "SurgingUndercurrent",
+      "name": "Surging Undercurrent"
+    }
   },
   "skills": [
+    {
+      "id": "RipplingSlash",
+      "name": "Tranchant d'ondulation",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VortexEdge",
+      "name": "Tranchant de vortex",
+      "desc": "Inflige 2 pts de DGT Hydro et prépare la capacité : Lame ondulante.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TorrentialShock",
+      "name": "Secousse torrentielle",
+      "desc": "Inflige 3 pts de DGT Hydro et crée une undefined sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WateryRebirth",
+      "name": "Renaissance aquatique",
+      "desc": "(Passif) Applique une renaissance aquatique au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
     {
       "id": "RipplingSlash",
       "name": "Tranchant d'ondulation",

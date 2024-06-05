@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekPneuma",
+  "shareId": 3010,
+  "name": "Hesap Geliştirici Meka - Ruh",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null,
+    "cardType": "Karakter Kartı"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Koçbaşı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "Enerji Takviyesi: Ruh",
+      "desc": "2 Fiziksel Hasar verir ve bu karakter Enerji Takviyesi: Ruh kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "Enerji Patlaması: Ruh",
+      "desc": "3 Fiziksel Hasar verir ve bu karakter Enerji Takviyesi: Ruh kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "Gövde Onarımı: Ruh",
+      "desc": "Karakterin bir Beceri kullandıktan sonra en fazla yaralanan karakterin için 1 Can yeniler.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Arkhe: Ruh",
+      "desc": "\"Arkhe: Öz\"e sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "AnnihilationSpecialistMek",
+  "shareId": 3011,
+  "name": "Mecha – Typ: Vernichtungsspezialist",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Kein Elementartyp",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": null,
+    "cardType": "Figurenkarte"
+  },
+  "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Flinke Attacke",
+      "desc": "Verursacht 1 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Durchstich",
+      "desc": "Verursacht 3 Pkt. phys. SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Hiebe und Tritt",
+      "desc": "Verursacht 4 Pkt. phys. SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

@@ -1,84 +1,160 @@
 {
-	"id": "Yelan",
-	"shareid": 280,
-	"name": "夜蘭",
-	"title": "蘭生幽谷·夜蘭",
-	"desc": "天地一渺渺，幽客自來去。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "水元素",
-		"weapon": "弓",
-		"faction": ["璃月"],
-		"talentCard": {
-			"id": "TurnControl",
-			"name": "Turn Control"
-		},
-		"source": "在貓尾酒館中邀請夜蘭進行對局，在友好對局難度中獲得勝利後獲得",
-		"character": {
-			"id": "Yelan",
-			"name": "Yelan",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "StealthyBowshot",
-			"name": "潛形隱曜弓",
-			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LingeringLifeline",
-			"name": "縈絡縱命索",
-			"desc": "造成3點<span style=\"color:#80C0FFFF\">水元素傷害，此角色的<span style=\"color:#FFFFFFFF\">破局層數+2。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DepthclarionDice",
-			"name": "淵圖玲瓏骰",
-			"desc": "造成1點<span style=\"color:#80C0FFFF\">水元素傷害，生成<span style=\"color:#FFFFFFFF\">玄擲玲瓏。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Breakthrough",
-			"name": "破局",
-			"desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">破局。",
-			"skilltag": ["被動技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "Yelan",
+  "shareid": 280,
+  "name": "夜蘭",
+  "title": "蘭生幽谷·夜蘭",
+  "desc": "天地一渺渺，幽客自來去。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "弓",
+    "faction": [
+      "璃月",
+      "璃月"
+    ],
+    "talentCard": {
+      "id": "TurnControl",
+      "name": "Turn Control"
+    },
+    "source": "在貓尾酒館中邀請夜蘭進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "id": "Yelan",
+      "name": "Yelan",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "StealthyBowshot",
+      "name": "潛形隱曜弓",
+      "desc": "造成2點物理傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "縈絡縱命索",
+      "desc": "造成3點水元素傷害，此角色的破局層數+2。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "淵圖玲瓏骰",
+      "desc": "造成1點水元素傷害，生成玄擲玲瓏。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "破局",
+      "desc": "【被動】戰鬥開始時，初始附屬破局。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "StealthyBowshot",
+      "name": "潛形隱曜弓",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "縈絡縱命索",
+      "desc": "造成3點水元素傷害，此角色的破局層數+2。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "淵圖玲瓏骰",
+      "desc": "造成3點水元素傷害，生成玄擲玲瓏。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "破局",
+      "desc": "【被動】戰鬥開始時，初始附屬破局。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 280
 }

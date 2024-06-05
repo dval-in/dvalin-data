@@ -1,0 +1,85 @@
+{
+  "id": "GuardianOfApepsOasis",
+  "shareId": 4706,
+  "name": "Guardián del Oasis de Apep",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 35,
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": null,
+    "cardType": "Carta de personaje"
+  },
+  "skills": [
+    {
+      "id": "StrikeOfTheDispossessed",
+      "name": "Ataque del desarraigo",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LifeStream",
+      "name": "Flujo vital",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] pts. de Daño Dendro. Tomas 1 carta de Llamada a un familiar y crea 1 carga de nutrición del oasis.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheEndFalls",
+      "name": "Final inminente",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] pts. de Daño Dendro. Tomas 1 carta de Llamada a un familiar y crea 2 cargas de nutrición del oasis.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InvokationOfPropagation",
+      "name": "Invocación proliferante",
+      "desc": "Pasiva: al comenzar el duelo, crea 6 cartas de Llamada a un familiar que se colocan aleatoriamente en tu pila. Cuando hayas invocado 4 organismos proliferadores, este personaje obtiene una carta de Corazón del Oasis resurgido y 2 pts. de escudo.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}
