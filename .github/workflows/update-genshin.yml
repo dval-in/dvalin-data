@@ -8,19 +8,7 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
 
-    container:
-      image: alpine:latest
-
     steps:
-      - name: Setup Dependencies
-        run: |
-          apk update
-          apk add --no-cache git bash coreutils nodejs curl
-          export SHELL=$(which bash)
-          curl -fsSL https://get.pnpm.io/install.sh | sh -
-          export PATH=$HOME/.local/share/pnpm:$PATH
-          pnpm setup
-
       - name: Checkout dvalin-data repo
         uses: actions/checkout@v4
         with:
@@ -28,6 +16,16 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: "main"
           path: "dvalin-data"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/Iron
+
+      - uses: pnpm/action-setup@v3
+        name: Install pnpm
+        with:
+          version: 9
+          run_install: true
 
       - name: Read .last_processed_commit
         id: read_commit
