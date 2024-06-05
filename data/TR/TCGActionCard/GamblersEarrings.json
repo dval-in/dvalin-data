@@ -4,12 +4,17 @@
   "name": "Kumarbazın Küpeleri",
   "title": "Bahis: Kumarbazın Küpeleri",
   "desc": "\"Ucunda ölüm olan bir kumar oyunu sırasında sakin ve soğukkanlı kalabilmek kazanma ihtimalini artırır.\"",
-  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Bu kartın eklendiği karakter, rakibin bir karakteri yenildiğinde</span> aktif karakterse 2 <span style=\"color:#FFFFFFFF\">Kararsız Element</span> oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.)",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde</span> aktif karakterse 2 <span style=\"color:#FFFFFFFF\">Kararsız Element</span> oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.)",
   "attributes": {
     "cost": 1,
     "costType": "Aynı Element",
     "cardType": "Ekipman Kartı",
     "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 1
+      },
       {
         "id": "MatchingElement",
         "type": "Aynı Element",
@@ -28,6 +33,7 @@
     },
     "tags": [
       "Yadigar",
+      "Yadigar",
       "Yadigar"
     ]
   },
@@ -39,6 +45,10 @@
     {
       "name": "",
       "desc": "Bu kartın eklendiği karakter, rakibin bir karakteri yenildiğinde aktif karakterse 2 Kararsız Element oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.) (Bir karakter en fazla 1 Yadigar kuşanabilir.)"
+    },
+    {
+      "name": "",
+      "desc": "Bu kartı kuşanan karakter, rakibin bir karakteri yenildiğinde aktif karakterse 2 Kararsız Element oluşturur. (Bir düelloda en fazla 3 defa gerçekleşebilir.) (Bir karakter en fazla 1 Yadigar kuşanabilir.)"
     }
   ],
   "version": "4.4",

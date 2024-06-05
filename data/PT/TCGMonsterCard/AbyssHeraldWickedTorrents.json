@@ -1,21 +1,103 @@
 {
   "id": "AbyssHeraldWickedTorrents",
-  "shareId": 4206,
+  "shareId": 350,
   "name": "Apóstolo do Abismo - Corrente Torrencial",
-  "title": null,
-  "desc": null,
+  "title": "Apóstolo do Abismo - Corrente Torrencial",
+  "desc": "O mundo será destruído, tudo perecerá.",
   "attributes": {
     "hp": 6,
     "energy": 2,
     "element": "Hydro",
     "weapon": "Outras Armas",
     "faction": [
+      "Monstro",
       "Monstro"
     ],
-    "source": null,
-    "cardType": "Carta de Personagem"
+    "source": "Recompensa por aceitar o Desafio da Taverna na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com o Apóstolo do Abismo - Corrente Torrencial",
+    "cardType": "Carta de Personagem",
+    "character": {
+      "id": "AbyssHeraldWickedTorrents",
+      "name": "Abyss Herald: Wicked Torrents"
+    },
+    "talentCard": {
+      "id": "SurgingUndercurrent",
+      "name": "Surging Undercurrent"
+    }
   },
   "skills": [
+    {
+      "id": "RipplingSlash",
+      "name": "Corte Ondulante",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VortexEdge",
+      "name": "Lâmina Vórtice",
+      "desc": "Causa 2 pontos de Dano Hydro, então realiza Preparar Habilidade para Lâminas Ondulantes.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TorrentialShock",
+      "name": "Choque Torrencial",
+      "desc": "Causa 3 pontos de Dano Hydro, gera Maldição da Corrente no campo adversário.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WateryRebirth",
+      "name": "Ressurreição Aquosa",
+      "desc": "(Passivo) Quando a batalha começa, esse personagem ganha Ressurreição Aquosa.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TorrentialBarrier",
+      "name": "Barreira Torrencial",
+      "desc": "(Passivo) Quando este personagem desencadeia Ressurreição Aquosa: é afetado por Escudo Crescente.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
     {
       "id": "RipplingSlash",
       "name": "Corte Ondulante",

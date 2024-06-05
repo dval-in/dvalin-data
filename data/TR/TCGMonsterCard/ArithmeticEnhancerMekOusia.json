@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekOusia",
+  "shareId": 3009,
+  "name": "Hesap Geliştirici Meka - Öz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null,
+    "cardType": "Karakter Kartı"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Koçbaşı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "Enerji Takviyesi: Öz",
+      "desc": "2 Fiziksel Hasar verir ve bu karakter Enerji Takviyesi: Öz kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "Enerji Patlaması: Öz",
+      "desc": "3 Fiziksel Hasar verir ve bu karakter Enerji Takviyesi: Öz kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "Gövde Geliştirme: Öz",
+      "desc": "Karakterlerin fazladan 1 Hasar verir.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Öz",
+      "desc": "\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

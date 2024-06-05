@@ -1,28 +1,43 @@
 {
-	"id": "SacrificialBow",
-	"shareid": 127,
-	"name": "Arc rituel",
-	"title": "Sang-froid : Arc rituel",
-	"desc": "Cet arc de chasse a vu de nombreuses années, mais on peut encore distinguer ses décorations.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Élément identique",
-		"cardType": "Carte d'équipement",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Élément identique",
-				"count": 3
-			}
-		],
-		"tags": ["Arme", "Arc"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche)(Peut uniquement être équipé par un personnage utilisant un <span style=\"color:#FFFFFFFF\">arc, un personnage peut équiper au maximum 1 arme)"
-		}
-	],
-	"version": "4.4"
+  "id": "SacrificialBow",
+  "shareid": 127,
+  "name": "Arc rituel",
+  "title": "Sang-froid : Arc rituel",
+  "desc": "Cet arc de chasse a vu de nombreuses années, mais on peut encore distinguer ses décorations.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.</span><br/><span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé une compétence élémentaire : </span>Crée 1 dé de l'élément du personnage. (1 fois par manche)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Élément identique",
+    "cardType": "Carte d'équipement",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arme",
+      "Arc",
+      "Arme",
+      "Arc"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "DGT infligés par le personnage +1.Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche)(Peut uniquement être équipé par un personnage utilisant un arc, un personnage peut équiper au maximum 1 arme)"
+    },
+    {
+      "name": "",
+      "desc": "DGT infligés par le personnage +1. Lorsque le personnage a utilisé une compétence élémentaire : Crée 1 dé de l'élément du personnage. (1 fois par manche) (Peut uniquement être équipé par un personnage utilisant un arc, un personnage peut équiper au maximum 1 arme)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 127
 }

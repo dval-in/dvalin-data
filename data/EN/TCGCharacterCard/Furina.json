@@ -1,0 +1,85 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "\"Endless Solo of Solitude\" Furina",
+  "desc": "Perpetual muse of chansons and rondeaux.",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Sword",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Reward for inviting Furina to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "cardType": "Character Card"
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "Soloist's Solicitation",
+      "desc": "Deals 2 Physical DMG. Once per Round: If you do not have Seats Sacred and Secular in your Hand, create 1 Seats Sacred and Secular card in your Hand.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "Salon Solitaire",
+      "desc": "Furina is currently in the Arkhe: Ousia state. Summons Salon Members. (When Furina is in the Arkhe: Pneuma state, she will summon Singer of Many Waters instead)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "Let the People Rejoice",
+      "desc": "Deals 2 Hydro DMG, creates 1 Universal Revelry.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "Arkhe: Seats Sacred and Secular",
+      "desc": "(Passive) When battle begins, create 1 Seats Sacred and Secular card in your Hand.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

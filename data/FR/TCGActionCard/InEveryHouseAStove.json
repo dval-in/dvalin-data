@@ -1,28 +1,41 @@
 {
-	"id": "InEveryHouseAStove",
-	"shareid": 222,
-	"name": "Poêle des familles",
-	"title": "Poêle des familles",
-	"desc": "« Le Dieu de la cuisine se souciait beaucoup du peuple, se transformant en serviteurs allant dans chaque foyer pour apporter nourriture et solidarité. »",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 1,
-		"costType": "Édit arcanique",
-		"cardType": "Carte d'événement",
-		"energy": [
-			{
-				"id": "ArcaneEdict",
-				"type": "Édit arcanique",
-				"count": 1
-			}
-		],
-		"tags": ["Arcane"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "Pioche un nombre de cartes égal <span style=\"color:#FFFFFFFF\">au numéro de la manche en cours moins 1. (4 cartes maximum)(Une seule carte d'arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)"
-		}
-	],
-	"version": "4.4"
+  "id": "InEveryHouseAStove",
+  "shareid": 222,
+  "name": "Poêle des familles",
+  "title": "Poêle des familles",
+  "desc": "« Le Dieu de la cuisine se souciait beaucoup du peuple, se transformant en serviteurs allant dans chaque foyer pour apporter nourriture et solidarité. »",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "Édit arcanique",
+    "cardType": "Carte d'événement",
+    "energy": [
+      {
+        "id": "ArcaneEdict",
+        "type": "Édit arcanique",
+        "count": 1
+      },
+      {
+        "id": "ArcaneEdict",
+        "type": "Édit arcanique",
+        "count": 1
+      }
+    ],
+    "tags": [
+      "Arcane",
+      "Arcane"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Pioche un nombre de cartes égal au numéro de la manche en cours moins 1. (4 cartes maximum)(Une seule carte d'arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)"
+    },
+    {
+      "name": "",
+      "desc": "Lorsque cette carte est jouée pendant la 1e manche : Pioche 1 carte d'aptitude si votre deck contient initialement un minimum de 2 cartes d'aptitude différentes. Lorsque cette carte est jouée pendant ou après la 2e manche : Pioche un nombre de cartes égal au numéro de la manche en cours moins 1. (4 cartes maximum) (Une seule carte d'arcane peut être jouée pendant toute une partie, et cette carte est obligatoirement dans votre main de départ)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 222
 }

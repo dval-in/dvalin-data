@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekPneuma",
+  "shareId": 3010,
+  "name": "Mecaritmético - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Sem Tipo Elemental",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro"
+    ],
+    "source": null,
+    "cardType": "Carta de Personagem"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Colidir",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "Aumento de Energia: Pneuma",
+      "desc": "Causa 2 pontos de Dano Físico, este personagem é afetado por Aumento de Energia: Pneuma.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "Explosão de Energia: Pneuma",
+      "desc": "Causa 3 pontos de Dano Físico, este personagem é afetado por Aumento de Energia: Pneuma.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "Reparação de Quadro: Pneuma",
+      "desc": "Após seu personagem usar uma Habilidade: Cura seu personagem que mais sofreu Dano em 1 de Vida.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Arkhe: Pneuma",
+      "desc": "Após ser danificado por personagem com \"Arkhe: Ousia\", esse personagem ficará Desativado e não poderá usar Habilidades até o fim desse Turno.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

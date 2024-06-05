@@ -1,0 +1,76 @@
+{
+  "id": "Xinyan",
+  "shareId": 365,
+  "name": "辛焱",
+  "title": "燥熱旋律·辛焱",
+  "desc": "搖滾時間到！",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "雙手劍",
+    "faction": [
+      "璃月"
+    ],
+    "source": "在貓尾酒館中邀請辛焱進行對局，在友好對局難度中獲得勝利後獲得",
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "DanceOnFire",
+      "name": "炎舞",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SweepingFervor",
+      "name": "熱情拂掃",
+      "desc": "造成2點火元素傷害，隨機捨棄1張原本元素骰費用最高的手牌，生成熱情護盾。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiffRevolution",
+      "name": "叛逆刮弦",
+      "desc": "造成3點物理傷害，對所有敵方後臺角色造成2點穿透傷害；捨棄我方所有手牌，生成氛圍烈焰。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

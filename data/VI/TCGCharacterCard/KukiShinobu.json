@@ -10,12 +10,77 @@
     "element": "Nguyên Tố Lôi",
     "weapon": "Kiếm Đơn",
     "faction": [
+      "Inazuma",
       "Inazuma"
     ],
     "source": "Nhận được sau khi mời Kuki Shinobu giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
-    "cardType": "Thẻ Nhân Vật"
+    "cardType": "Thẻ Nhân Vật",
+    "character": {
+      "id": "KukiShinobu",
+      "name": "Kuki Shinobu",
+      "rarity": 4
+    },
+    "talentCard": {
+      "id": "ToWardWeakness",
+      "name": "To Ward Weakness"
+    }
   },
   "skills": [
+    {
+      "id": "ShinobusShadowsword",
+      "name": "Lưỡi Kiếm Shinobu",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SanctifyingRing",
+      "name": "Vòng Cỏ Sấm Thánh Hóa",
+      "desc": "Sinh ra Vòng Cỏ Thánh Hóa. Nếu HP của nhân vật này tối thiểu là 6, sẽ gây 2 điểm Sát Thương Xuyên Thấu cho chính bản thân.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GyoeiNarukamiKariyamaRite",
+      "name": "Nghi Lễ Gyoei Narukami Kariyama",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Lôi, chữa trị nhân vật này 2 điểm.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "ShinobusShadowsword",
       "name": "Lưỡi Kiếm Shinobu",

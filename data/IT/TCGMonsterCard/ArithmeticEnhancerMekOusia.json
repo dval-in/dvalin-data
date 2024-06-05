@@ -1,0 +1,89 @@
+{
+  "id": "ArithmeticEnhancerMekOusia",
+  "shareId": 3009,
+  "name": "Meka potenziatore aritmetico (Ousia)",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "energy": 1,
+    "element": "Nessun tipo elementale",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "source": null,
+    "cardType": "Carta personaggio"
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Collisione",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "Potenziamento energetico: Ousia",
+      "desc": "Infligge 2 DAN fisici. Questo personaggio ottiene l'effetto Potenziamento energetico: Ousia.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "Esplosione energetica: Ousia",
+      "desc": "Infligge 3 DAN fisici. Questo personaggio ottiene l'effetto Potenziamento energetico: Ousia.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "Potenziamento strutturale: Ousia",
+      "desc": "Il tuo personaggio infligge DAN +1.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Archè: Ousia",
+      "desc": "Dopo aver subito DAN da personaggi con Archè: Pneuma, questo personaggio entra in stato di Disattivazione e non potrà usare abilità fino alla fine del turno.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

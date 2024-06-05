@@ -1,0 +1,76 @@
+{
+  "id": "Kaveh",
+  "shareId": 367,
+  "name": "Kaveh",
+  "title": "Kaveh - El Espejo del Empíreo",
+  "desc": "Arte de la comprensión, la benevolencia y la estética.",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Mandoble",
+    "faction": [
+      "Sumeru"
+    ],
+    "source": "Se obtiene tras retar y ganar a Kaveh en un duelo amistoso en la taberna Cola de Gato",
+    "cardType": "Carta de personaje"
+  },
+  "skills": [
+    {
+      "id": "SchematicSetup",
+      "name": "Boceto esquemático",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArtisticIngenuity",
+      "name": "Genio de la arquitectura",
+      "desc": "Inflige 2 pts. de Daño Dendro y crea un escáner explosivo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PaintedDome",
+      "name": "Bóveda policromada",
+      "desc": "Inflige 3 pts. de Daño Dendro. Este personaje obtiene la ayuda de Mehrak y acumula 2 usos de escáner explosivo.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}
