@@ -150,6 +150,6 @@ jobs:
 
       - name: create pull request
         if: ${{ env.COMMITS != '' }}
-        run: gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}'
+        run: gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}' --body ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
