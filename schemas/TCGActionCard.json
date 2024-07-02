@@ -1,182 +1,152 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "properties": {
-    "attributes": {
-      "properties": {
-        "artifact": {
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "rarity": {
-              "type": "number"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "rarity"
-          ],
-          "type": "object"
-        },
-        "cardType": {
-          "type": "string"
-        },
-        "character": {
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "rarity": {
-              "type": "number"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "rarity"
-          ],
-          "type": "object"
-        },
-        "cost": {
-          "type": "number"
-        },
-        "costType": {
-          "type": "string"
-        },
-        "energy": {
-          "items": {
-            "properties": {
-              "count": {
-                "type": "number"
-              },
-              "id": {
-                "type": "string"
-              },
-              "type": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "count",
-              "id",
-              "type"
-            ],
-            "type": "object"
-          },
-          "type": "array"
-        },
-        "food": {
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "rarity": {
-              "type": "number"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "rarity"
-          ],
-          "type": "object"
-        },
-        "source": {
-          "type": "string"
-        },
-        "tags": {
-          "items": {
-            "type": "string"
-          },
-          "type": "array"
-        },
-        "weapon": {
-          "properties": {
-            "id": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            },
-            "rarity": {
-              "type": "number"
-            }
-          },
-          "required": [
-            "id",
-            "name",
-            "rarity"
-          ],
-          "type": "object"
-        }
-      },
-      "required": [
-        "cardType",
-        "cost",
-        "costType",
-        "energy",
-        "source",
-        "tags"
-      ],
-      "type": "object"
-    },
-    "desc": {
-      "type": "string"
-    },
-    "id": {
-      "type": "string"
-    },
-    "in_play_description": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "skills": {
-      "items": {
-        "properties": {
-          "desc": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "desc",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "title": {
-      "type": "string"
-    },
-    "version": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "attributes",
-    "desc",
-    "id",
-    "in_play_description",
-    "name",
-    "skills",
-    "title",
-    "version"
-  ],
-  "type": "object",
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"attributes": {
+			"properties": {
+				"artifact": {
+					"properties": {
+						"id": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"rarity": {
+							"type": "number"
+						}
+					},
+					"required": ["id", "name", "rarity"],
+					"type": "object"
+				},
+				"cardType": {
+					"type": "string"
+				},
+				"character": {
+					"properties": {
+						"id": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"rarity": {
+							"type": "number"
+						}
+					},
+					"required": ["id", "name", "rarity"],
+					"type": "object"
+				},
+				"cost": {
+					"type": "number"
+				},
+				"costType": {
+					"type": "string"
+				},
+				"energy": {
+					"items": {
+						"properties": {
+							"count": {
+								"type": "number"
+							},
+							"id": {
+								"type": "string"
+							},
+							"type": {
+								"type": "string"
+							}
+						},
+						"required": ["count", "id", "type"],
+						"type": "object"
+					},
+					"type": "array"
+				},
+				"food": {
+					"properties": {
+						"id": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"rarity": {
+							"type": "number"
+						}
+					},
+					"required": ["id", "name", "rarity"],
+					"type": "object"
+				},
+				"source": {
+					"type": "string"
+				},
+				"tags": {
+					"items": {
+						"type": "string"
+					},
+					"type": "array"
+				},
+				"weapon": {
+					"properties": {
+						"id": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						},
+						"rarity": {
+							"type": "number"
+						}
+					},
+					"required": ["id", "name", "rarity"],
+					"type": "object"
+				}
+			},
+			"required": ["cardType", "cost", "costType", "energy", "source", "tags"],
+			"type": "object"
+		},
+		"desc": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"in_play_description": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"skills": {
+			"items": {
+				"properties": {
+					"desc": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["desc", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"title": {
+			"type": "string"
+		},
+		"version": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"attributes",
+		"desc",
+		"id",
+		"in_play_description",
+		"name",
+		"skills",
+		"title",
+		"version"
+	],
+	"type": "object",
+	"additionalProperties": false
 }

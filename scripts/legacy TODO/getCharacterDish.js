@@ -1,16 +1,17 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const pascalCase = str => {
+const pascalCase = (str) => {
 	if (typeof str !== 'string') {
 		str = String(str);
 	}
 
-	return str.replace(/_/g, ' ') // Replace underscores with spaces
+	return str
+		.replace(/_/g, ' ') // Replace underscores with spaces
 		.replace(/[_-]/g, ' ') // Replace underscores and dashes with spaces
 		.replace(/'/g, '') // Remove apostrophes
 		.split(' ') // Split into words
-		.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize first letter of each word
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize first letter of each word
 		.join(''); // Join without spaces
 };
 
@@ -26,12 +27,14 @@ const getCharacterDish = async () => {
 
 	table.find('tr').each(function () {
 		const row = [];
-		$(this).find('th, td').each(function (index) {
-			if (index !== 1) {
-				const text = $(this).text().trim();
-				row.push(pascalCase(text));
-			}
-		});
+		$(this)
+			.find('th, td')
+			.each(function (index) {
+				if (index !== 1) {
+					const text = $(this).text().trim();
+					row.push(pascalCase(text));
+				}
+			});
 		tableData.push(row);
 	});
 	const specialDishObj = Object.fromEntries(tableData);

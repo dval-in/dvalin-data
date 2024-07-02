@@ -1,17 +1,22 @@
-const {execSync} = require('child_process');
+const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
 const schemaDirectory = path.join(__dirname, '../schemas');
 const dataDirectory = path.join(__dirname, '../data');
 
-const snakeToPascal = string => string.split('/')
-	.map(snake => snake.split('_')
-		.map(substr => substr.charAt(0)
-			.toUpperCase()
-                + substr.slice(1))
-		.join(''))
-	.join('/');
+/*
+const snakeToPascal = (string) =>
+	string
+		.split('/')
+		.map((snake) =>
+			snake
+				.split('_')
+				.map((substr) => substr.charAt(0).toUpperCase() + substr.slice(1))
+				.join('')
+		)
+		.join('/');
+ */
 
 fs.readdir(dataDirectory, (err, langDirectory) => {
 	if (err) {
@@ -19,14 +24,14 @@ fs.readdir(dataDirectory, (err, langDirectory) => {
 		return;
 	}
 
-	langDirectory.forEach(lang => {
+	langDirectory.forEach((lang) => {
 		fs.readdir(path.join(dataDirectory, lang), (err, files) => {
 			if (err) {
 				console.error(`Error reading directory: ${err}`);
 				return;
 			}
 
-			files.forEach(typeName => {
+			files.forEach((typeName) => {
 				const typePath = path.join(dataDirectory, lang, typeName);
 				if (fs.lstatSync(typePath).isDirectory()) {
 					// Read all files of the same schema
@@ -41,9 +46,11 @@ fs.readdir(dataDirectory, (err, langDirectory) => {
 							console.log('Error missing schema ' + typeName);
 						} else {
 							// Valid json for each file
-							jsonFiles.forEach(jsonFileName => {
+							jsonFiles.forEach((jsonFileName) => {
 								const command = `ajv validate -s ${schemaPath} -d ${path.join(typePath, jsonFileName)}`;
-								console.log(`Validating ${lang}/${typeName}/${jsonFileName} with schema ${typeName}`);
+								console.log(
+									`Validating ${lang}/${typeName}/${jsonFileName} with schema ${typeName}`
+								);
 								execSync(command, (err, stdout, stderr) => {
 									if (err) {
 										console.error(`Error validating ${jsonFileName}: ${err}`);

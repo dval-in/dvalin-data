@@ -20,17 +20,17 @@ const folderMapping = {
 	thai: 'TH',
 	vietnamese: 'VI',
 	turkish: 'TR',
-	italian: 'IT',
+	italian: 'IT'
 };
 
 // Get the filed that were changed
-const {execSync} = require('child_process');
+const { execSync } = require('child_process');
 const result = execSync(`git diff-tree --no-commit-id --name-only -r ${gitCommitHash}`).toString();
 // Remove all line that doesn't start with src/data
-const resultArray = result.split('\n').filter(line => line.startsWith('src/data'));
+const resultArray = result.split('\n').filter((line) => line.startsWith('src/data'));
 
 // - camelCase
-const toCamelCase = str => {
+const toCamelCase = (str) => {
 	if (typeof str !== 'string') {
 		str = String(str);
 	}
@@ -38,25 +38,28 @@ const toCamelCase = str => {
 	return str
 		.replace(/_/g, ' ') // Replace underscores with spaces
 		.toLowerCase()
-		.replace(/(?:^\w|[A-Z]|\b\w)/g, (match, index) => index === 0 ? match.toLowerCase() : match.toUpperCase())
+		.replace(/(?:^\w|[A-Z]|\b\w)/g, (match, index) =>
+			index === 0 ? match.toLowerCase() : match.toUpperCase()
+		)
 		.replace(/\s+/g, '');
 };
 
 // PascalCase
-const pascalCase = str => {
+const pascalCase = (str) => {
 	if (typeof str !== 'string') {
 		str = String(str);
 	}
 
-	return str.replace(/_/g, ' ') // Replace underscores with spaces
+	return str
+		.replace(/_/g, ' ') // Replace underscores with spaces
 		.replace(/[_-]/g, ' ') // Replace underscores and dashes with spaces
 		.replace(/'/g, '') // Remove apostrophes
 		.split(' ') // Split into words
-		.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize first letter of each word
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()) // Capitalize first letter of each word
 		.join(''); // Join without spaces
 };
 
-const checkForExistingFile = path => fs.existsSync(path);
+const checkForExistingFile = (path) => fs.existsSync(path);
 
 const specialDish = {
 	Chiori: 'FashionShow',
@@ -136,14 +139,14 @@ const specialDish = {
 	Diona: 'DefinitelyNotBarFood!',
 	Xiangling: 'WanminRestaurantsBoiledFish',
 	Xingqiu: 'AllDelicacyParcels',
-	Eula: 'StormcrestPie',
+	Eula: 'StormcrestPie'
 };
 
 // Function to pascalCase each field of a json file, remove the "_id" field and CamelCasing the value of the "id" field
 const updateFile = (obj, folder) => {
-	const transformObject = obj => {
+	const transformObject = (obj) => {
 		const newObj = {};
-		Object.keys(obj).forEach(key => {
+		Object.keys(obj).forEach((key) => {
 			if (key === '_id') {
 				return;
 			}
@@ -154,7 +157,9 @@ const updateFile = (obj, folder) => {
 			} else if (Array.isArray(obj[key]) && key === 'birthday' && obj[key].length === 2) {
 				newObj[newKey] = `${obj[key][0]}/${obj[key][1]}`;
 			} else if (Array.isArray(obj[key])) {
-				newObj[newKey] = obj[key].map(item => typeof item === 'object' && item !== null ? transformObject(item) : item);
+				newObj[newKey] = obj[key].map((item) =>
+					typeof item === 'object' && item !== null ? transformObject(item) : item
+				);
 			} else {
 				newObj[newKey] = key === 'id' ? pascalCase(obj[key]) : obj[key];
 			}
@@ -177,14 +182,13 @@ const updateFile = (obj, folder) => {
 				face: `Character/${updatedObj.id}/Face.webp`,
 				halfFace: `Character/${updatedObj.id}/HalfFace.webp`,
 				profile: `Character/${updatedObj.id}/Profile.webp`,
-				weaponStance: `Character/${updatedObj.id}/WeaponStance.webp`,
+				weaponStance: `Character/${updatedObj.id}/WeaponStance.webp`
 			},
 			signatureArtifactSet: '',
 			signatureWeapon: '',
 			specialDish: specialDish[updatedObj.id],
 			tcgCharacterCard: existInTCG(updatedObj.id) ? updatedObj.id : '',
-			outfits: [
-			],
+			outfits: []
 		};
 		Object.assign(updatedObj, objectAddition);
 	}
@@ -192,12 +196,12 @@ const updateFile = (obj, folder) => {
 	return updatedObj;
 };
 
-const existInTCG = charName => {
+const existInTCG = (charName) => {
 	const path = `/data/EN/TCGCharacterCard/${charName}.json`;
 	return checkForExistingFile(path);
 };
 
-const removeTrailingS = str => str.replace(/s$/, '');
+const removeTrailingS = (str) => str.replace(/s$/, '');
 const appendDataToFile = (filename, newData) => {
 	try {
 		const filePath = path.resolve(__dirname, filename);
@@ -213,7 +217,7 @@ const appendDataToFile = (filename, newData) => {
 };
 
 // For each line of result : we read the file, parse it, pascalCase it, stringify it and write it in the correct folder
-resultArray.forEach(filePath => {
+resultArray.forEach((filePath) => {
 	const fullPath = path.join(__dirname, `../../genshin-data/${filePath}`);
 	// Console.log('On : ', fullPath);
 	const langFolder = filePath.split('/')[2];
@@ -250,16 +254,18 @@ resultArray.forEach(filePath => {
 		const dataForIndex = {
 			[pascalCasedData.id]: {
 				name: pascalCasedData.name,
-				rarity: pascalCasedData.rarity,
-			},
+				rarity: pascalCasedData.rarity
+			}
 		};
 		appendDataToFile(`../data/EN/${dataFolder}/index.json`, dataForIndex);
 	}
 
 	if (!checkForExistingFile(destDir)) {
-		fs.mkdirSync(destDir, {recursive: true});
+		fs.mkdirSync(destDir, { recursive: true });
 	}
 
-	fs.writeFileSync(path.join(destDir, `${pascalCase(fileName)}.json`), JSON.stringify(pascalCasedData, null, '\t'));
+	fs.writeFileSync(
+		path.join(destDir, `${pascalCase(fileName)}.json`),
+		JSON.stringify(pascalCasedData, null, '\t')
+	);
 });
-

@@ -12,25 +12,21 @@ type FoodResult = {
 	 * @TJS-required
 	 */
 	normal: {
-
 		name: string;
 		description: string;
 		effect: string;
 	};
 	delicious: {
-
 		name: string;
 		description: string;
 		effect: string;
 	};
 	suspicious: {
-
 		name: string;
 		description: string;
 		effect: string;
 	};
 	special?: {
-
 		id: string;
 		name: string;
 		description: string;

@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import {exec} from 'child_process';
+import { exec } from 'child_process';
 
 const typesDirectory = path.join('./types');
 const schemaDirectory = path.join('./schemas');
@@ -12,7 +12,7 @@ fs.readdir(typesDirectory, (err, files) => {
 		return;
 	}
 
-	files.forEach(file => {
+	files.forEach((file) => {
 		if (file.endsWith('.ts')) {
 			// Extract the type name from the filename
 			const typeName = path.basename(file, '.ts');
