@@ -1,472 +1,405 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "properties": {
-    "affiliation": {
-      "type": "string"
-    },
-    "ascension": {
-      "items": {
-        "properties": {
-          "cost": {
-            "type": "number"
-          },
-          "level": {
-            "items": [
-              {
-                "type": "number"
-              }
-            ],
-            "maxItems": 1,
-            "minItems": 1,
-            "type": "array"
-          },
-          "mat1": {
-            "properties": {
-              "amount": {
-                "type": "number"
-              },
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "rarity": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "amount",
-              "id",
-              "name",
-              "rarity"
-            ],
-            "type": "object"
-          },
-          "mat2": {
-            "properties": {
-              "amount": {
-                "type": "number"
-              },
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "rarity": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "amount",
-              "id",
-              "name",
-              "rarity"
-            ],
-            "type": "object"
-          },
-          "mat3": {
-            "properties": {
-              "amount": {
-                "type": "number"
-              },
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "rarity": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "amount",
-              "id",
-              "name",
-              "rarity"
-            ],
-            "type": "object"
-          },
-          "mat4": {
-            "properties": {
-              "amount": {
-                "type": "number"
-              },
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "rarity": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "amount",
-              "id",
-              "name",
-              "rarity"
-            ],
-            "type": "object"
-          },
-          "stats": {
-            "items": {
-              "properties": {
-                "label": {
-                  "type": "string"
-                },
-                "values": {
-                  "items": {
-                    "type": [
-                      "string",
-                      "number"
-                    ]
-                  },
-                  "type": "array"
-                }
-              },
-              "required": [
-                "label",
-                "values"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          }
-        },
-        "required": [
-          "level",
-          "stats"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "birthday": {
-      "type": "string"
-    },
-    "constellation": {
-      "type": "string"
-    },
-    "constellations": {
-      "items": {
-        "properties": {
-          "description": {
-            "type": "string"
-          },
-          "id": {
-            "type": "string"
-          },
-          "level": {
-            "type": "number"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "description",
-          "id",
-          "level",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "cv": {
-      "properties": {
-        "chinese": {
-          "type": "string"
-        },
-        "english": {
-          "type": "string"
-        },
-        "japanese": {
-          "type": "string"
-        },
-        "korean": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "chinese",
-        "english",
-        "japanese",
-        "korean"
-      ],
-      "type": "object"
-    },
-    "description": {
-      "type": "string"
-    },
-    "domain": {
-      "type": "string"
-    },
-    "element": {
-      "type": "string"
-    },
-    "featuredBanner": {
-      "items": {
-        "type": "string"
-      },
-      "type": "array"
-    },
-    "gender": {
-      "type": "string"
-    },
-    "id": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "outfits": {
-      "items": {
-        "properties": {
-          "description": {
-            "type": "string"
-          },
-          "id": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          },
-          "picture": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "description",
-          "id",
-          "name",
-          "picture"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "passives": {
-      "items": {
-        "properties": {
-          "description": {
-            "type": "string"
-          },
-          "id": {
-            "type": "string"
-          },
-          "level": {
-            "type": "number"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "description",
-          "id",
-          "level",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "pictures": {
-      "properties": {
-        "face": {
-          "type": "string"
-        },
-        "gachaSplash": {
-          "type": "string"
-        },
-        "gatchaCard": {
-          "type": "string"
-        },
-        "halfFace": {
-          "type": "string"
-        },
-        "icon": {
-          "type": "string"
-        },
-        "profile": {
-          "type": "string"
-        },
-        "sideIcon": {
-          "type": "string"
-        },
-        "weaponStance": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "face",
-        "gachaSplash",
-        "gatchaCard",
-        "halfFace",
-        "icon",
-        "profile",
-        "sideIcon",
-        "weaponStance"
-      ],
-      "type": "object"
-    },
-    "rarity": {
-      "type": "number"
-    },
-    "region": {
-      "type": "string"
-    },
-    "signatureArtifactSet": {
-      "type": "string"
-    },
-    "signatureWeapon": {
-      "type": "string"
-    },
-    "skills": {
-      "items": {
-        "properties": {
-          "attributes": {
-            "items": {
-              "properties": {
-                "label": {
-                  "type": "string"
-                },
-                "values": {
-                  "items": {
-                    "type": "string"
-                  },
-                  "type": "array"
-                }
-              },
-              "required": [
-                "label",
-                "values"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "description": {
-            "type": "string"
-          },
-          "id": {
-            "type": "string"
-          },
-          "info": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "attributes",
-          "description",
-          "id",
-          "info",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "specialDish": {
-      "type": "string"
-    },
-    "substat": {
-      "type": "string"
-    },
-    "talentMaterials": {
-      "items": {
-        "properties": {
-          "cost": {
-            "type": "number"
-          },
-          "items": {
-            "items": {
-              "properties": {
-                "amount": {
-                  "type": "number"
-                },
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "rarity": {
-                  "type": "number"
-                }
-              },
-              "required": [
-                "amount",
-                "id",
-                "name",
-                "rarity"
-              ],
-              "type": "object"
-            },
-            "type": "array"
-          },
-          "level": {
-            "type": "number"
-          }
-        },
-        "required": [
-          "cost",
-          "items",
-          "level"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "tcgCharacterCard": {
-      "type": "string"
-    },
-    "title": {
-      "type": "string"
-    },
-    "version": {
-      "type": "string"
-    },
-    "weaponType": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "affiliation",
-    "ascension",
-    "birthday",
-    "constellation",
-    "constellations",
-    "cv",
-    "description",
-    "domain",
-    "element",
-    "featuredBanner",
-    "gender",
-    "id",
-    "name",
-    "outfits",
-    "passives",
-    "pictures",
-    "rarity",
-    "signatureArtifactSet",
-    "signatureWeapon",
-    "skills",
-    "specialDish",
-    "substat",
-    "talentMaterials",
-    "tcgCharacterCard",
-    "version",
-    "weaponType"
-  ],
-  "type": "object",
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"affiliation": {
+			"type": "string"
+		},
+		"ascension": {
+			"items": {
+				"properties": {
+					"cost": {
+						"type": "number"
+					},
+					"level": {
+						"items": [
+							{
+								"type": "number"
+							}
+						],
+						"maxItems": 1,
+						"minItems": 1,
+						"type": "array"
+					},
+					"mat1": {
+						"properties": {
+							"amount": {
+								"type": "number"
+							},
+							"id": {
+								"type": "string"
+							},
+							"name": {
+								"type": "string"
+							},
+							"rarity": {
+								"type": "number"
+							}
+						},
+						"required": ["amount", "id", "name", "rarity"],
+						"type": "object"
+					},
+					"mat2": {
+						"properties": {
+							"amount": {
+								"type": "number"
+							},
+							"id": {
+								"type": "string"
+							},
+							"name": {
+								"type": "string"
+							},
+							"rarity": {
+								"type": "number"
+							}
+						},
+						"required": ["amount", "id", "name", "rarity"],
+						"type": "object"
+					},
+					"mat3": {
+						"properties": {
+							"amount": {
+								"type": "number"
+							},
+							"id": {
+								"type": "string"
+							},
+							"name": {
+								"type": "string"
+							},
+							"rarity": {
+								"type": "number"
+							}
+						},
+						"required": ["amount", "id", "name", "rarity"],
+						"type": "object"
+					},
+					"mat4": {
+						"properties": {
+							"amount": {
+								"type": "number"
+							},
+							"id": {
+								"type": "string"
+							},
+							"name": {
+								"type": "string"
+							},
+							"rarity": {
+								"type": "number"
+							}
+						},
+						"required": ["amount", "id", "name", "rarity"],
+						"type": "object"
+					},
+					"stats": {
+						"items": {
+							"properties": {
+								"label": {
+									"type": "string"
+								},
+								"values": {
+									"items": {
+										"type": ["string", "number"]
+									},
+									"type": "array"
+								}
+							},
+							"required": ["label", "values"],
+							"type": "object"
+						},
+						"type": "array"
+					}
+				},
+				"required": ["level", "stats"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"birthday": {
+			"type": "string"
+		},
+		"constellation": {
+			"type": "string"
+		},
+		"constellations": {
+			"items": {
+				"properties": {
+					"description": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					},
+					"level": {
+						"type": "number"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["description", "id", "level", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"cv": {
+			"properties": {
+				"chinese": {
+					"type": "string"
+				},
+				"english": {
+					"type": "string"
+				},
+				"japanese": {
+					"type": "string"
+				},
+				"korean": {
+					"type": "string"
+				}
+			},
+			"required": ["chinese", "english", "japanese", "korean"],
+			"type": "object"
+		},
+		"description": {
+			"type": "string"
+		},
+		"domain": {
+			"type": "string"
+		},
+		"element": {
+			"type": "string"
+		},
+		"featuredBanner": {
+			"items": {
+				"type": "string"
+			},
+			"type": "array"
+		},
+		"gender": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"outfits": {
+			"items": {
+				"properties": {
+					"description": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					},
+					"picture": {
+						"type": "string"
+					}
+				},
+				"required": ["description", "id", "name", "picture"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"passives": {
+			"items": {
+				"properties": {
+					"description": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					},
+					"level": {
+						"type": "number"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["description", "id", "level", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"pictures": {
+			"properties": {
+				"face": {
+					"type": "string"
+				},
+				"gachaSplash": {
+					"type": "string"
+				},
+				"gatchaCard": {
+					"type": "string"
+				},
+				"halfFace": {
+					"type": "string"
+				},
+				"icon": {
+					"type": "string"
+				},
+				"profile": {
+					"type": "string"
+				},
+				"sideIcon": {
+					"type": "string"
+				},
+				"weaponStance": {
+					"type": "string"
+				}
+			},
+			"required": [
+				"face",
+				"gachaSplash",
+				"gatchaCard",
+				"halfFace",
+				"icon",
+				"profile",
+				"sideIcon",
+				"weaponStance"
+			],
+			"type": "object"
+		},
+		"rarity": {
+			"type": "number"
+		},
+		"region": {
+			"type": "string"
+		},
+		"signatureArtifactSet": {
+			"type": "string"
+		},
+		"signatureWeapon": {
+			"type": "string"
+		},
+		"skills": {
+			"items": {
+				"properties": {
+					"attributes": {
+						"items": {
+							"properties": {
+								"label": {
+									"type": "string"
+								},
+								"values": {
+									"items": {
+										"type": "string"
+									},
+									"type": "array"
+								}
+							},
+							"required": ["label", "values"],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"description": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					},
+					"info": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["attributes", "description", "id", "info", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"specialDish": {
+			"type": "string"
+		},
+		"substat": {
+			"type": "string"
+		},
+		"talentMaterials": {
+			"items": {
+				"properties": {
+					"cost": {
+						"type": "number"
+					},
+					"items": {
+						"items": {
+							"properties": {
+								"amount": {
+									"type": "number"
+								},
+								"id": {
+									"type": "string"
+								},
+								"name": {
+									"type": "string"
+								},
+								"rarity": {
+									"type": "number"
+								}
+							},
+							"required": ["amount", "id", "name", "rarity"],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"level": {
+						"type": "number"
+					}
+				},
+				"required": ["cost", "items", "level"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"tcgCharacterCard": {
+			"type": "string"
+		},
+		"title": {
+			"type": "string"
+		},
+		"version": {
+			"type": "string"
+		},
+		"weaponType": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"affiliation",
+		"ascension",
+		"birthday",
+		"constellation",
+		"constellations",
+		"cv",
+		"description",
+		"domain",
+		"element",
+		"featuredBanner",
+		"gender",
+		"id",
+		"name",
+		"outfits",
+		"passives",
+		"pictures",
+		"rarity",
+		"signatureArtifactSet",
+		"signatureWeapon",
+		"skills",
+		"specialDish",
+		"substat",
+		"talentMaterials",
+		"tcgCharacterCard",
+		"version",
+		"weaponType"
+	],
+	"type": "object",
+	"additionalProperties": false
 }

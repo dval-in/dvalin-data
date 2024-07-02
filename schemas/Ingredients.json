@@ -1,71 +1,59 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "properties": {
-    "description": {
-      "type": "string"
-    },
-    "id": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "processing": {
-      "items": {
-        "properties": {
-          "amount": {
-            "type": "number"
-          },
-          "id": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "amount",
-          "id",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "recipes": {
-      "items": {
-        "properties": {
-          "id": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "id",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "source": {
-      "items": {
-        "type": "string"
-      },
-      "type": "array"
-    },
-    "version": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "description",
-    "id",
-    "name",
-    "version"
-  ],
-  "type": "object",
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"description": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		},
+		"processing": {
+			"items": {
+				"properties": {
+					"amount": {
+						"type": "number"
+					},
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["amount", "id", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"recipes": {
+			"items": {
+				"properties": {
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["id", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"source": {
+			"items": {
+				"type": "string"
+			},
+			"type": "array"
+		},
+		"version": {
+			"type": "string"
+		}
+	},
+	"required": ["description", "id", "name", "version"],
+	"type": "object",
+	"additionalProperties": false
 }

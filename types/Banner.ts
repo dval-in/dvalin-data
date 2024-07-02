@@ -1,6 +1,6 @@
 /**
-	 * @TJS-required
-	 */
+ * @TJS-required
+ */
 export type Banner = {
 	id: string;
 	name: string;
@@ -12,15 +12,15 @@ export type Banner = {
 };
 
 /**
-	 * @TJS-required
-	 */
+ * @TJS-required
+ */
 export type ECharacter = {
 	id: string;
 };
 
 /**
-	 * @TJS-required
-	 */
+ * @TJS-required
+ */
 export type EWeapon = {
 	id: string;
 };

@@ -1,11 +1,12 @@
-
-/* eslint-disable camelcase */
-/* eslint-disable no-await-in-loop */
 import fs from 'fs';
 import path from 'path';
-import {toPascalCase, replaceRomanNumeralsPascalCased, toCamelCase} from '../utils/stringUtils.js';
-import {openJsonFile, writeJsonFile, merge} from '../utils/fileManager.js';
-import {stripHtml} from 'string-strip-html';
+import {
+	toPascalCase,
+	replaceRomanNumeralsPascalCased,
+	toCamelCase
+} from '../utils/stringUtils.js';
+import { openJsonFile, writeJsonFile, merge } from '../utils/fileManager.js';
+import { stripHtml } from 'string-strip-html';
 const baseDir = path.resolve('./');
 let version = process.argv[2];
 
@@ -23,7 +24,7 @@ const filePath = path.join(baseDir, 'genshin-data/changed_files.txt');
 const file = fs.readFileSync(filePath, 'utf8');
 
 // Filter all the lines not starting with src/data
-const lines = file.split('\n').filter(line => line.startsWith('src/data'));
+const lines = file.split('\n').filter((line) => line.startsWith('src/data'));
 
 const fileListCreated = [];
 const updatedFileList = [];
@@ -42,7 +43,6 @@ const handleMergeOperation = async (newPath, link) => {
 		}
 
 		updatedFileList.push(newPath);
-	// eslint-disable-next-line no-unused-vars
 	} catch (error) {
 		object = await openJsonFile(link);
 		mergedResult = object;
@@ -54,15 +54,14 @@ const handleMergeOperation = async (newPath, link) => {
 };
 
 const transformObject = (obj, version) => {
-	const result = {...obj};
+	const result = { ...obj };
 
 	// Remove _id field
 
-	const traverseObject = obj => {
+	const traverseObject = (obj) => {
 		const keysToDelete = [];
 
 		for (const key in obj) {
-			// eslint-disable-next-line no-prototype-builtins
 			if (obj.hasOwnProperty(key)) {
 				if (key === '_id') {
 					// Assuming result is defined somewhere outside this function
@@ -71,7 +70,6 @@ const transformObject = (obj, version) => {
 				}
 
 				if (key === 'id' && typeof obj[key] === 'string') {
-					// eslint-disable-next-line no-prototype-builtins
 					if (obj.hasOwnProperty('achievements')) {
 						obj[key] = replaceRomanNumeralsPascalCased(toPascalCase(obj[key]));
 					} else {
@@ -84,11 +82,16 @@ const transformObject = (obj, version) => {
 
 					// Remove duplicates
 					obj[key] = [...new Set(obj[key])];
-				} else if (typeof key === 'string' && ['description', 'name', 'title', 'desc', 'inPlayDescription', 'bonus'].includes(key)) {
+				} else if (
+					typeof key === 'string' &&
+					['description', 'name', 'title', 'desc', 'inPlayDescription', 'bonus'].includes(
+						key
+					)
+				) {
 					try {
 						obj[key] = stripHtml(obj[key]).result;
 					} catch (error) {
-						errorFileList.push({error, key, obj});
+						errorFileList.push({ error, key, obj });
 					}
 				} else if (typeof obj[key] === 'object' && obj[key] !== null) {
 					traverseObject(obj[key]);
@@ -111,11 +114,10 @@ const transformObject = (obj, version) => {
 
 	// Load the array result.achievements. For each achievement if version doesn't exist add it
 	if (result.achievements) {
-		result.achievements = result.achievements.map(achievement => {
+		result.achievements = result.achievements.map((achievement) => {
 			achievement.version ||= version;
 			return achievement;
-		},
-		);
+		});
 	} else {
 		result.version ||= version;
 	}
@@ -141,7 +143,7 @@ const langMapping = {
 	thai: 'TH',
 	vietnamese: 'VI',
 	turkish: 'TR',
-	italian: 'IT',
+	italian: 'IT'
 };
 
 const folderMapping = {
@@ -167,7 +169,7 @@ const folderMapping = {
 	weapons: 'Weapon',
 	weapon_enhancement_material: 'WeaponEnhancementMaterial',
 	weapon_primary_materials: 'WeaponPrimaryMaterial',
-	weapon_secondary_materials: 'WeaponSecondaryMaterial',
+	weapon_secondary_materials: 'WeaponSecondaryMaterial'
 };
 
 for (const line of lines) {

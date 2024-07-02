@@ -1,196 +1,189 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "definitions": {
-    "Game": {
-      "enum": [
-        "HonkaiImpact3Rd",
-        "GenshinImpact",
-        "TearsOfThemis",
-        "Hoyolab",
-        "HonkaiStarRail",
-        "ZenlessZoneZero"
-      ],
-      "type": "string"
-    },
-    "LanguageCode": {
-      "enum": [
-        "th-th",
-        "zh-cn",
-        "zh-tw",
-        "ru-ru",
-        "id-id",
-        "ko-kr",
-        "vi-vn",
-        "it-it",
-        "ja-jp",
-        "pt-pt",
-        "tr-tr",
-        "en-us",
-        "de-de",
-        "fr-fr",
-        "es-es"
-      ],
-      "type": "string"
-    },
-    "LinkType": {
-      "enum": [
-        "Image",
-        "HoyoLink",
-        "Hoyolab",
-        "MihoyoHoyoverse",
-        "Twitter",
-        "Facebook",
-        "Youtube",
-        "Twitch",
-        "Vk",
-        "Telegram",
-        "Relative",
-        "Unknown",
-        "Malformed"
-      ],
-      "type": "string"
-    },
-    "MessageType": {
-      "enum": [
-        "Notices",
-        "Event",
-        "Info"
-      ],
-      "type": "string"
-    },
-    "Tag": {
-      "enum": [
-        "NewCharacterIntro",
-        "VoiceArtistAnnouncement",
-        "VersionEventWishesNotice",
-        "VersionEventNoticesCompilation",
-        "CharacterDemo",
-        "CharacterTeaser",
-        "StoryQuest",
-        "VersionNewWeapon",
-        "NewOutfit",
-        "OutfitTeaser",
-        "NewContentsDisplay",
-        "WebEventWallpapers",
-        "VersionPreview",
-        "Event",
-        "VersionTrailer",
-        "OstAlbum",
-        "SpecialProgramPreview",
-        "DevelopersDiscussion",
-        "CollectedMiscellany",
-        "VersionEventsPreview",
-        "EventTeaser",
-        "VersionNewArtifact",
-        "UpdatePreview",
-        "UpdateDetails",
-        "LeyLineOverflow",
-        "Wallpapers",
-        "GeniusInvokationTcg",
-        "CutsceneAnimation",
-        "GenshinConcert2023",
-        "VersionPreviewPage",
-        "Music"
-      ],
-      "type": "string"
-    }
-  },
-  "items": {
-    "properties": {
-      "articleUrl": {
-        "type": "string"
-      },
-      "content": {
-        "type": "string"
-      },
-      "contentOriginal": {
-        "type": "string"
-      },
-      "createdAt": {
-        "format": "date-time",
-        "type": "string"
-      },
-      "gameId": {
-        "$ref": "#/definitions/Game"
-      },
-      "language": {
-        "$ref": "#/definitions/LanguageCode"
-      },
-      "links": {
-        "items": {
-          "properties": {
-            "index": {
-              "type": "number"
-            },
-            "isResolved": {
-              "type": "boolean"
-            },
-            "linkType": {
-              "$ref": "#/definitions/LinkType"
-            },
-            "url": {
-              "type": "string"
-            },
-            "urlOriginal": {
-              "type": "string"
-            },
-            "urlOriginalResolved": {
-              "items": {
-                "type": "string"
-              },
-              "type": "array"
-            },
-            "urlS3": {
-              "type": [
-                "string",
-                "null"
-              ]
-            }
-          },
-          "required": [
-            "index",
-            "isResolved",
-            "linkType",
-            "url",
-            "urlOriginal",
-            "urlOriginalResolved",
-            "urlS3"
-          ],
-          "type": "object"
-        },
-        "type": "array"
-      },
-      "messageType": {
-        "$ref": "#/definitions/MessageType"
-      },
-      "postId": {
-        "type": "string"
-      },
-      "subject": {
-        "type": "string"
-      },
-      "tags": {
-        "items": {
-          "$ref": "#/definitions/Tag"
-        },
-        "type": "array"
-      }
-    },
-    "required": [
-      "articleUrl",
-      "content",
-      "contentOriginal",
-      "createdAt",
-      "gameId",
-      "language",
-      "links",
-      "messageType",
-      "postId",
-      "subject",
-      "tags"
-    ],
-    "type": "object"
-  },
-  "type": "array",
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"definitions": {
+		"Game": {
+			"enum": [
+				"HonkaiImpact3Rd",
+				"GenshinImpact",
+				"TearsOfThemis",
+				"Hoyolab",
+				"HonkaiStarRail",
+				"ZenlessZoneZero"
+			],
+			"type": "string"
+		},
+		"LanguageCode": {
+			"enum": [
+				"th-th",
+				"zh-cn",
+				"zh-tw",
+				"ru-ru",
+				"id-id",
+				"ko-kr",
+				"vi-vn",
+				"it-it",
+				"ja-jp",
+				"pt-pt",
+				"tr-tr",
+				"en-us",
+				"de-de",
+				"fr-fr",
+				"es-es"
+			],
+			"type": "string"
+		},
+		"LinkType": {
+			"enum": [
+				"Image",
+				"HoyoLink",
+				"Hoyolab",
+				"MihoyoHoyoverse",
+				"Twitter",
+				"Facebook",
+				"Youtube",
+				"Twitch",
+				"Vk",
+				"Telegram",
+				"Relative",
+				"Unknown",
+				"Malformed"
+			],
+			"type": "string"
+		},
+		"MessageType": {
+			"enum": ["Notices", "Event", "Info"],
+			"type": "string"
+		},
+		"Tag": {
+			"enum": [
+				"NewCharacterIntro",
+				"VoiceArtistAnnouncement",
+				"VersionEventWishesNotice",
+				"VersionEventNoticesCompilation",
+				"CharacterDemo",
+				"CharacterTeaser",
+				"StoryQuest",
+				"VersionNewWeapon",
+				"NewOutfit",
+				"OutfitTeaser",
+				"NewContentsDisplay",
+				"WebEventWallpapers",
+				"VersionPreview",
+				"Event",
+				"VersionTrailer",
+				"OstAlbum",
+				"SpecialProgramPreview",
+				"DevelopersDiscussion",
+				"CollectedMiscellany",
+				"VersionEventsPreview",
+				"EventTeaser",
+				"VersionNewArtifact",
+				"UpdatePreview",
+				"UpdateDetails",
+				"LeyLineOverflow",
+				"Wallpapers",
+				"GeniusInvokationTcg",
+				"CutsceneAnimation",
+				"GenshinConcert2023",
+				"VersionPreviewPage",
+				"Music"
+			],
+			"type": "string"
+		}
+	},
+	"items": {
+		"properties": {
+			"articleUrl": {
+				"type": "string"
+			},
+			"content": {
+				"type": "string"
+			},
+			"contentOriginal": {
+				"type": "string"
+			},
+			"createdAt": {
+				"format": "date-time",
+				"type": "string"
+			},
+			"gameId": {
+				"$ref": "#/definitions/Game"
+			},
+			"language": {
+				"$ref": "#/definitions/LanguageCode"
+			},
+			"links": {
+				"items": {
+					"properties": {
+						"index": {
+							"type": "number"
+						},
+						"isResolved": {
+							"type": "boolean"
+						},
+						"linkType": {
+							"$ref": "#/definitions/LinkType"
+						},
+						"url": {
+							"type": "string"
+						},
+						"urlOriginal": {
+							"type": "string"
+						},
+						"urlOriginalResolved": {
+							"items": {
+								"type": "string"
+							},
+							"type": "array"
+						},
+						"urlS3": {
+							"type": ["string", "null"]
+						}
+					},
+					"required": [
+						"index",
+						"isResolved",
+						"linkType",
+						"url",
+						"urlOriginal",
+						"urlOriginalResolved",
+						"urlS3"
+					],
+					"type": "object"
+				},
+				"type": "array"
+			},
+			"messageType": {
+				"$ref": "#/definitions/MessageType"
+			},
+			"postId": {
+				"type": "string"
+			},
+			"subject": {
+				"type": "string"
+			},
+			"tags": {
+				"items": {
+					"$ref": "#/definitions/Tag"
+				},
+				"type": "array"
+			}
+		},
+		"required": [
+			"articleUrl",
+			"content",
+			"contentOriginal",
+			"createdAt",
+			"gameId",
+			"language",
+			"links",
+			"messageType",
+			"postId",
+			"subject",
+			"tags"
+		],
+		"type": "object"
+	},
+	"type": "array",
+	"additionalProperties": false
 }

@@ -1,163 +1,134 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "properties": {
-    "description": {
-      "type": "string"
-    },
-    "dishType": {
-      "type": "string"
-    },
-    "id": {
-      "type": "string"
-    },
-    "ingredients": {
-      "items": {
-        "properties": {
-          "amount": {
-            "type": "number"
-          },
-          "id": {
-            "type": "string"
-          },
-          "name": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "amount",
-          "id",
-          "name"
-        ],
-        "type": "object"
-      },
-      "type": "array"
-    },
-    "name": {
-      "type": "string"
-    },
-    "rarity": {
-      "type": "number"
-    },
-    "results": {
-      "properties": {
-        "delicious": {
-          "properties": {
-            "description": {
-              "type": "string"
-            },
-            "effect": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "description",
-            "effect",
-            "name"
-          ],
-          "type": "object"
-        },
-        "normal": {
-          "properties": {
-            "description": {
-              "type": "string"
-            },
-            "effect": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "description",
-            "effect",
-            "name"
-          ],
-          "type": "object"
-        },
-        "special": {
-          "properties": {
-            "character": {
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                }
-              },
-              "required": [
-                "id",
-                "name"
-              ],
-              "type": "object"
-            },
-            "description": {
-              "type": "string"
-            },
-            "effect": {
-              "type": "string"
-            },
-            "id": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "character",
-            "description",
-            "effect",
-            "id",
-            "name"
-          ],
-          "type": "object"
-        },
-        "suspicious": {
-          "properties": {
-            "description": {
-              "type": "string"
-            },
-            "effect": {
-              "type": "string"
-            },
-            "name": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "description",
-            "effect",
-            "name"
-          ],
-          "type": "object"
-        }
-      },
-      "required": [
-        "delicious",
-        "normal",
-        "suspicious"
-      ],
-      "type": "object"
-    },
-    "version": {
-      "type": "string"
-    }
-  },
-  "required": [
-    "description",
-    "dishType",
-    "id",
-    "ingredients",
-    "name",
-    "rarity",
-    "results",
-    "version"
-  ],
-  "type": "object",
-  "additionalProperties": false
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"description": {
+			"type": "string"
+		},
+		"dishType": {
+			"type": "string"
+		},
+		"id": {
+			"type": "string"
+		},
+		"ingredients": {
+			"items": {
+				"properties": {
+					"amount": {
+						"type": "number"
+					},
+					"id": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": ["amount", "id", "name"],
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"name": {
+			"type": "string"
+		},
+		"rarity": {
+			"type": "number"
+		},
+		"results": {
+			"properties": {
+				"delicious": {
+					"properties": {
+						"description": {
+							"type": "string"
+						},
+						"effect": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						}
+					},
+					"required": ["description", "effect", "name"],
+					"type": "object"
+				},
+				"normal": {
+					"properties": {
+						"description": {
+							"type": "string"
+						},
+						"effect": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						}
+					},
+					"required": ["description", "effect", "name"],
+					"type": "object"
+				},
+				"special": {
+					"properties": {
+						"character": {
+							"properties": {
+								"id": {
+									"type": "string"
+								},
+								"name": {
+									"type": "string"
+								}
+							},
+							"required": ["id", "name"],
+							"type": "object"
+						},
+						"description": {
+							"type": "string"
+						},
+						"effect": {
+							"type": "string"
+						},
+						"id": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						}
+					},
+					"required": ["character", "description", "effect", "id", "name"],
+					"type": "object"
+				},
+				"suspicious": {
+					"properties": {
+						"description": {
+							"type": "string"
+						},
+						"effect": {
+							"type": "string"
+						},
+						"name": {
+							"type": "string"
+						}
+					},
+					"required": ["description", "effect", "name"],
+					"type": "object"
+				}
+			},
+			"required": ["delicious", "normal", "suspicious"],
+			"type": "object"
+		},
+		"version": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"description",
+		"dishType",
+		"id",
+		"ingredients",
+		"name",
+		"rarity",
+		"results",
+		"version"
+	],
+	"type": "object",
+	"additionalProperties": false
 }

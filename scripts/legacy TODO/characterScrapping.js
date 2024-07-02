@@ -1,5 +1,3 @@
-/* eslint-disable no-prototype-builtins */
-/* eslint-disable no-await-in-loop */
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
@@ -25,12 +23,12 @@ const missingFields = {
 		face: '',
 		halfFace: '',
 		profile: '',
-		weaponStance: '',
+		weaponStance: ''
 	},
 	signatureArtifactSet: '',
 	signatureWeapon: '',
 	specialDish: '',
-	tcgCharacterCard: '',
+	tcgCharacterCard: ''
 };
 
 async function getOutfit() {
@@ -50,7 +48,7 @@ async function getOutfit() {
 		TR: '?lang=TR',
 		VI: '?lang=VI',
 		'ZH-S': '?lang=CHS',
-		'ZH-T': '?lang=CHT',
+		'ZH-T': '?lang=CHT'
 	};
 
 	const outfitsByLang = {};
@@ -63,7 +61,10 @@ async function getOutfit() {
 		const $ = cheerio.load(response.data);
 
 		const name = $('h2.wp-block-post-title').text().trim();
-		id = name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join('');
+		id = name
+			.split(' ')
+			.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+			.join('');
 	} catch (error) {
 		console.error(`Error fetching or parsing English data: ${error}`);
 		return; // Exit if unable to fetch English version
@@ -79,15 +80,22 @@ async function getOutfit() {
 			const $ = cheerio.load(response.data);
 
 			const name = $('h2.wp-block-post-title').text().trim();
-			const description = $('table.genshin_table.main_table tbody tr').eq(3).find('td').eq(1).text().trim();
+			const description = $('table.genshin_table.main_table tbody tr')
+				.eq(3)
+				.find('td')
+				.eq(1)
+				.text()
+				.trim();
 
 			outfitsByLang[lang] = {
-				outfits: [{
-					id,
-					name,
-					description,
-					picture: `Character/${charName}/Outfit/${id}.webp`,
-				}],
+				outfits: [
+					{
+						id,
+						name,
+						description,
+						picture: `Character/${charName}/Outfit/${id}.webp`
+					}
+				]
 			};
 		} catch (error) {
 			console.error(`Error fetching or parsing data for language ${lang}: ${error}`);
@@ -116,10 +124,10 @@ async function updateCharacterFile(filePath, outfitDataForLang) {
 }
 
 async function updateJson(outfitsByLang) {
-	fs.readdirSync(dataDirPath).forEach(langFolder => {
+	fs.readdirSync(dataDirPath).forEach((langFolder) => {
 		const charFolderPath = path.join(dataDirPath, langFolder, 'Character');
 		if (fs.existsSync(charFolderPath)) {
-			fs.readdirSync(charFolderPath).forEach(file => {
+			fs.readdirSync(charFolderPath).forEach((file) => {
 				if (file.startsWith(charName)) {
 					const charFilePath = path.join(charFolderPath, file);
 					const outfitDataForLang = outfitsByLang[langFolder];
@@ -136,25 +144,29 @@ async function downloadPictures() {
 		gatchaCard: 'gacha_card.webp',
 		gachaSplash: 'gacha_splash.webp',
 		icon: 'icon.webp',
-		sideIcon: 'side_icon.webp',
+		sideIcon: 'side_icon.webp'
 	};
 	const otherTypes = {
 		face: 'face.webp',
 		halfFace: 'half_face.webp',
 		profile: 'profile.webp',
-		weaponStance: 'weapon.webp',
+		weaponStance: 'weapon.webp'
 	};
 	const directory = `./images/Character/${charName}`;
 
 	// Ensure the directory exists
 	if (!fs.existsSync(directory)) {
-		fs.mkdirSync(directory, {recursive: true});
-		fs.mkdirSync(directory + '/Outfit', {recursive: true});
+		fs.mkdirSync(directory, { recursive: true });
+		fs.mkdirSync(directory + '/Outfit', { recursive: true });
 	}
 
 	// Download image types
 	for (const [type, suffix] of Object.entries(imageTypes)) {
-		await downloadImage(type, `${honeyhunterworld}/img/${charNameurl}_${charCode}_${suffix}?x84769`, directory);
+		await downloadImage(
+			type,
+			`${honeyhunterworld}/img/${charNameurl}_${charCode}_${suffix}?x84769`,
+			directory
+		);
 	}
 
 	// Download other types
@@ -175,7 +187,7 @@ async function downloadImage(type, url, directory) {
 		const response = await axios({
 			method: 'GET',
 			url,
-			responseType: 'stream',
+			responseType: 'stream'
 		});
 
 		response.data.pipe(fs.createWriteStream(filePath));
@@ -196,4 +208,3 @@ async function main() {
 }
 
 main();
-

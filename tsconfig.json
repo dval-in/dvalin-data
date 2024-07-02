@@ -1,12 +1,9 @@
 {
 	"compilerOptions": {
-		"module": "system",
-		"noImplicitAny": true,
-		"removeComments": true,
-		"preserveConstEnums": true,
-		"outFile": "../../built/local/tsc.js",
-		"sourceMap": true,
-		"strictNullChecks": true
+		"module": "commonjs",
+		"target": "es2016",
+		"outDir": "./dist",
+		"esModuleInterop": true
 	},
 	"include": ["types/**/*"]
 }

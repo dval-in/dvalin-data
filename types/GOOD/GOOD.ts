@@ -1,14 +1,14 @@
-import {type AchievementCategoryKey} from './AchievementCategoryKey';
-import {type AchievementKey} from './AchievementKey';
-import {type ArtifactSetKey} from './ArtifactSetKey';
-import {type BannerKey} from './BannerKey';
-import {type CharacterKey} from './CharacterKey';
-import {type MaterialKey} from './MaterialKey';
-import {type ServerKey} from './ServerKey';
-import {type SlotKey} from './SlotKey';
-import {type StatKey} from './StatKey';
-import {type WeaponKey} from './WeaponKey';
-import {type WishBannerKey} from './WishBannerKey';
+import { type AchievementCategoryKey } from './AchievementCategoryKey';
+import { type AchievementKey } from './AchievementKey';
+import { type ArtifactSetKey } from './ArtifactSetKey';
+import { type BannerKey } from './BannerKey';
+import { type CharacterKey } from './CharacterKey';
+import { type MaterialKey } from './MaterialKey';
+import { type ServerKey } from './ServerKey';
+import { type SlotKey } from './SlotKey';
+import { type StatKey } from './StatKey';
+import { type WeaponKey } from './WeaponKey';
+import { type WishBannerKey } from './WishBannerKey';
 
 export type IGOOD = {
 	format: 'GOOD'; // A way for people to recognize this format.
