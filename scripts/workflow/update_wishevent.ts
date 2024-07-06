@@ -81,7 +81,12 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 			let title = '';
 			let type: 'Character' | 'Weapon' | 'Chronicled' = 'Character';
 			if (element.textContent?.includes('Event')) {
-				title = element.textContent?.trim().match(/"([^"]+)"/)?.[1];
+				title = element.textContent?.trim().match(/"([^"]+)"/)?.[1] ?? '';
+				if (!title) {
+					throw new Error(
+						`Failed to extract title from element at index ${i}. Text content: ${element.textContent}`
+					);
+				}
 			}
 			type = title.includes('Epitome')
 				? 'Weapon'
@@ -104,6 +109,11 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 						? 'Chronicled'
 						: 'Character';
 				currentSection.title = titleText.match(/"([^"]+)"/)?.[1] || '';
+				if (!currentSection.title) {
+					throw new Error(
+						`Failed to extract title from element at index ${i}. Text content: ${titleText}`
+					);
+				}
 			} else if (
 				element.textContent?.includes('●') &&
 				currentSection.wishDetails.length < 2 &&
@@ -117,11 +127,15 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 				currentSection.type === 'Chronicled'
 			) {
 				currentSection.wishDetails.push(element.textContent?.trim());
-				currentSection.wishDetails.push(elements[i + 1]?.textContent?.trim() || '');
-				currentSection.wishDetails.push(elements[i + 2]?.textContent?.trim() || '');
-				currentSection.wishDetails.push(elements[i + 3]?.textContent?.trim() || '');
-				currentSection.wishDetails.push(elements[i + 4]?.textContent?.trim() || '');
+				for (let j = 1; j <= 4; j++) {
+					const detailElement = elements[i + j];
+					if (!detailElement) {
+						throw new Error(`Missing expected wish detail element at index ${i + j}`);
+					}
+					currentSection.wishDetails.push(detailElement.textContent?.trim() || '');
+				}
 			} else if (element.textContent?.includes('Event Wish Duration')) {
+				const dashRegex = /([^–—―‒-―−‐‑‒–—―−~˗]+)[–—―‒-―−‐‑‒–—―−~˗]+(.+)/;
 				currentSection.duration = elements[i + 1]?.textContent?.trim().replace(/\s+/g, ' ');
 				if (!currentSection.duration.match(/[—\-–~]/)) {
 					currentSection.duration += elements[i + 2]?.textContent
@@ -130,6 +144,14 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 					currentSection.duration += elements[i + 3]?.textContent
 						?.trim()
 						.replace(/\s+/g, ' ');
+				}
+				if (
+					!currentSection.duration ||
+					!currentSection.duration.match(/[:\s\/\w.]+[—\-–~—][\d:\s\/]+/)
+				) {
+					console.log(element.textContent, '\n', elements[i + 1]?.textContent);
+					console.log(elements[i + 1]?.textContent?.trim().match(/[—\-–~—]/g));
+					throw new Error(`Failed to extract duration at index ${i}`);
 				}
 			}
 		}
@@ -141,16 +163,36 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 	}
 
 	// Convert sections to ContentBanner[]
-	return sections.map((section) => {
+	return sections.map((section, index) => {
 		let fourStar: string[];
 		let fiveStar: string[];
+		if (section.wishDetails.length < 2) {
+			const splitChar = section.wishDetails[0].split('●');
+			section.wishDetails = [splitChar[1], splitChar[2].split('※')[0]];
+		}
 		if (section.type === 'Character') {
+			if (section.wishDetails.length < 2) {
+				console.log(section.wishDetails);
+				throw new Error(
+					`Insufficient wish details for Character section at index ${index} :`
+				);
+			}
 			fiveStar = parseFiveStarCharacters(section.wishDetails[0]);
 			fourStar = parseFourStarCharacters(section.wishDetails[1]);
 		} else if (section.type === 'Weapon') {
+			if (section.wishDetails.length < 2) {
+				console.log(section.wishDetails);
+				throw new Error(`Insufficient wish details for Weapon section at index ${index}`);
+			}
 			fiveStar = parseFiveStarWeapons(section.wishDetails[0]);
 			fourStar = parseFourStarWeapons(section.wishDetails[1]);
 		} else {
+			if (section.wishDetails.length < 5) {
+				console.log(section.wishDetails);
+				throw new Error(
+					`Insufficient wish details for Chronicled section at index ${index}`
+				);
+			}
 			fiveStar = parseChronicled(section.wishDetails[1] + section.wishDetails[2]);
 			fourStar = parseChronicled(section.wishDetails[3] + section.wishDetails[4]);
 		}
@@ -158,8 +200,13 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 		fiveStar = fiveStar.map((c) => toPascalCase(c));
 		const durationRegex = /([^—\-–~]+)[—\-–~](.+)/;
 		const durationMatch = section.duration.match(durationRegex);
-		let endDuration = durationMatch ? durationMatch[2].trim() : '';
-		let startDuration = durationMatch ? durationMatch[1].trim() : '';
+		if (!durationMatch) {
+			throw new Error(
+				`Failed to parse duration for section ${section.title}: ${section.duration}`
+			);
+		}
+		let endDuration = durationMatch[2].trim();
+		let startDuration = durationMatch[1].trim();
 		try {
 			let endDate = new Date(endDuration);
 			if (startDuration.startsWith('After')) {
@@ -170,12 +217,8 @@ const parseHTML = (html: string, version: string, id: number): ContentBanner[] =
 			}
 			endDuration = endDate.toISOString();
 		} catch (e) {
-			console.error(
-				`Error parsing date for ${section.title}: ${e}, ${startDuration}, ${endDuration}`,
-				section.duration,
-				version,
-				id
-			);
+			console.log(section.duration);
+			throw new Error(`Error parsing date for ${section.title}: ${e}`);
 		}
 
 		return {
@@ -280,7 +323,7 @@ const parseEventData = (event: Event): ParsedEventData => {
 		);
 	} catch (error) {
 		console.error(`Error parsing HTML for ${event.sTitle} - ${event.iInfoId}: ${error}`);
-		parsedBanners = [];
+		throw error;
 	}
 
 	return {
