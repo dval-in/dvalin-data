@@ -9,19 +9,18 @@
  * @param {string} str - The string to convert to PascalCase.
  * @returns {string} The converted string in PascalCase.
  */
+const isPascalCase = (str) => {
+	return /^[A-Z][a-z0-9]+(?:[A-Z][a-z0-9]+)*$/.test(str);
+};
+
 const toPascalCase = (str) => {
 	if (isPascalCase(str)) {
 		return str;
 	}
 
-	return str
-		.split(/[^a-zA-Z0-9]/)
-		.filter(Boolean)
-		.map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-		.join('');
+	return str.replace("'", '').replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
 };
 
-const isPascalCase = (str) => /^[A-Z][a-z]+(?:[A-Z][a-z]+)*$/.test(str);
 /**
  * Converts a given string to camelCase.
  *
@@ -39,6 +38,7 @@ const toCamelCase = (str) => {
 	}
 
 	const words = str
+		.replace('-', '')
 		.split(/[^a-zA-Z0-9]/)
 		.filter(Boolean)
 		.map((word, index) => {
