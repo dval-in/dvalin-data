@@ -5,12 +5,10 @@ export type ContentBanner = {
 	version: string;
 	name: string;
 	startDuration: string;
-	endDuration: string;
-	fiveStar: string[];
-	fourStar: string[];
-	type: 'Character' | 'Weapon' | 'Chronicled';
-	imageUrl: string;
-	id: number;
+	duration: string;
+	featured: string[];
+	type: 'Permanent' | 'Character' | 'Weapon' | 'Chronicled';
+	id: string;
 };
 
 export type Banner = {
