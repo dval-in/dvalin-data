@@ -1,26 +1,16 @@
 /**
  * @TJS-required
  */
-export type Banner = {
-	id: string;
-	name: string;
-	startTime: Date;
-	endTime: Date;
-	featured: ECharacter[] | EWeapon[];
-	picture: string;
+export type ContentBanner = {
 	version: string;
-};
-
-/**
- * @TJS-required
- */
-export type ECharacter = {
+	name: string;
+	startDuration: string;
+	duration: string;
+	featured: string[];
+	type: 'Permanent' | 'Character' | 'Weapon' | 'Chronicled';
 	id: string;
 };
 
-/**
- * @TJS-required
- */
-export type EWeapon = {
-	id: string;
+export type Banner = {
+	banner: ContentBanner[];
 };
