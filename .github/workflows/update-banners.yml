@@ -7,11 +7,20 @@ on:
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
-  run-script:
+  update-banners:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
+      - name: Checkout feat/auto-banner branch
         uses: actions/checkout@v3
+        with:
+          ref: feat/auto-banner
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install unzip
+        run: apt-get update && apt-get install -y unzip
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
@@ -22,11 +31,19 @@ jobs:
         run: bun install
 
       - name: Run script
-        run: bun run scripts/workflow/update_wishevent.ts
+        run: bun run ./scripts/workflow/update_wishevent.ts
 
-      - name: Commit and push if changes
+      - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
           git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update data" && git push)
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update data $(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin feat/auto-banner
+            echo "Changes pushed to feat/auto-banner branch"
+          fi
