@@ -15,12 +15,16 @@ jobs:
       - name: Checkout feat/auto-banner branch
         uses: actions/checkout@v3
         with:
-          ref: feat/auto-banner
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
 
       - name: Install unzip
-        run: apt-get update && apt-get install -y unzip
+        run: apt-get update && apt-get install -y git curl unzip
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
@@ -33,17 +37,20 @@ jobs:
       - name: Run script
         run: bun run ./scripts/workflow/update_wishevent.ts
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          git add .
-          
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update data $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin feat/auto-banner
-            echo "Changes pushed to feat/auto-banner branch"
-          fi
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto-update data $(date +'%Y-%m-%d %H:%M:%S')"
+          title: "Auto-update: Banner Data Update"
+          body: |
+            This is an automated pull request to update banner data.
+            
+            Updates made in this pull request:
+            - Ran the update_wishevent.ts script to fetch and process the latest banner data.
+            
+            Please review the changes and merge if everything looks correct.
+          branch: auto-update-banner-data
+          base: feat/auto-banner
+          delete-branch: true
+  
