@@ -1,0 +1,85 @@
+{
+  "id": "Chevreuse",
+  "shareId": 395,
+  "name": "Chevreuse",
+  "title": "Chevreuse, Braccio armato della legge",
+  "desc": "Obbligo di virtù.",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Lancia",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Ricompensa ottenuta sfidando Chevreuse a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "cardType": "Carta personaggio"
+  },
+  "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "Baionetta d'avanguardia modificata",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "Fuoco d'interdizione rapido a corto raggio",
+      "desc": "Infligge 2 DAN da Pyro. Al termine dell'abilità: se nella tua mano c'è una carta Pallottola sovraccarica, rimuovi 1 di queste carte e ripristina 1 PS del personaggio del tuo gruppo che ha subito la maggior quantità di DAN.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "Cerchio di deflagrazione",
+      "desc": "Infligge 2 DAN da Pyro, crea 1 Scoppio ausiliario sul lato dell'avversario.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "Coordinazione della forza verticale",
+      "desc": "(Passiva) Dopo che un personaggio avversario subisce DAN da Sovraccarico: crea 1 carta Pallottola sovraccarica nella tua mano (una volta per turno).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

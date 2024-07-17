@@ -11,6 +11,8 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Bestia consacrata",
+      "Mostro",
       "Bestia consacrata"
     ],
     "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Serpente volante consacrato in un duello amichevole",
@@ -41,6 +43,70 @@
       "id": "SwirlingSquall",
       "name": "Turbine vorticoso",
       "desc": "Infligge 2 DAN da Anemo e pesca 1 carta Blocco di energia del Frantumaossa. Per ogni carta Blocco di energia del Frantumaossa nella tua mano, pesca 1 carta aggiuntiva (massimo 2 carte per turno).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ScattershotVortex",
+      "name": "Vortice di dispersione",
+      "desc": "Infligge 2DAN da Anemo. Effettua la Rimozione di tutte le carte Blocco di energia del Frantumaossa nella tua mano. Raddoppia i DAN inflitti per ogni 2 carte rimosse.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsAnemo",
+      "name": "Resti immortali: Anemo",
+      "desc": "(Passiva) All'inizio del duello, crea 6 carte Blocco di energia del Frantumaossa e distribuiscile equamente nel tuo mazzo.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "WhirlingTail",
+      "name": "Coda vorticosa",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSquall",
+      "name": "Turbine vorticoso",
+      "desc": "Infliggi 3 DAN da Anemo e pesca 1 carta.",
       "skillTag": [
         "Abilità elementale"
       ],

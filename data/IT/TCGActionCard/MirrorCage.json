@@ -1,29 +1,44 @@
 {
-	"id": "MirrorCage",
-	"shareid": 114,
-	"name": "Gabbia di specchi",
-	"title": "Il segreto dello specchio",
-	"desc": "\"Specchio servo delle mie mani, dove si celano i nostri avversari?\"",
-	"inPlayDescription": "Quando la Sacerdotessa degli specchi, che ha questa carta equipaggiata, crea una <span style=\"color:#FFFFFFFF\">Rifrazione, ottiene i seguenti effetti:una quantità iniziale di <span style=\"color:#FFFFFFFF\">Durata (in turni) +1 e aumenta di 1 il costo di dadi elementali per passare dal personaggio associato a un altro.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Hydro",
-		"cardType": "Carta equipaggiamento",
-		"energy": [
-			{
-				"id": "Hydro",
-				"type": "Hydro",
-				"count": 3
-			}
-		],
-		"source": "Ricompensa ottenuta accettando la sfida della taverna contro la Sacerdotessa degli specchi alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente in un duello amichevole",
-		"tags": ["Talento", "Azione di combattimento"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Azione di combattimento: se il tuo personaggio attivo è <span style=\"color:#FFFFFFFF\">Sacerdotessa degli specchi, equipaggia questa carta.Dopo che Sacerdotessa degli specchi viene equipaggiata con questa carta, usa immediatamente <span style=\"color:#FFD780FF\">Spezzaonde una volta.Quando Sacerdotessa degli specchi, che ha questa carta equipaggiata, crea una <span style=\"color:#FFFFFFFF\">Rifrazione, ottiene i seguenti effetti: quantità iniziale di <span style=\"color:#FFFFFFFF\">Durata (in turni) +1 e aumenta di 1 il costo di dadi elementali per passare dal personaggio associato a un altro.(Per aggiungere questa carta, il tuo mazzo deve contenere Sacerdotessa degli specchi.)"
-		}
-	],
-	"version": "4.4"
+  "id": "MirrorCage",
+  "shareid": 114,
+  "name": "Gabbia di specchi",
+  "title": "Il segreto dello specchio",
+  "desc": "\"Specchio servo delle mie mani, dove si celano i nostri avversari?\"",
+  "inPlayDescription": "Quando Dama degli specchi ha questa carta equipaggiata e crea una <span style=\"color:#FFFFFFFF\">Rifrazione</span>, quest'ultima ha <span style=\"color:#FFFFFFFF\">Durata (in turni)</span> iniziale +1. Inoltre i <span style=\"color:#80C0FFFF\">DAN da Hydro</span> subiti dal personaggio associato aumentano di 1.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Hydro",
+    "cardType": "Carta equipaggiamento",
+    "energy": [
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      },
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      }
+    ],
+    "source": "Ricompensa ottenuta accettando la sfida della taverna contro la Dama degli specchi alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente in un duello amichevole",
+    "tags": [
+      "Talento",
+      "Azione di combattimento",
+      "Talento",
+      "Azione di combattimento"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Azione di combattimento: se il tuo personaggio attivo è Sacerdotessa degli specchi, equipaggia questa carta.Dopo che Sacerdotessa degli specchi viene equipaggiata con questa carta, usa immediatamente Spezzaonde una volta.Quando Sacerdotessa degli specchi, che ha questa carta equipaggiata, crea una Rifrazione, ottiene i seguenti effetti: quantità iniziale di Durata (in turni) +1 e aumenta di 1 il costo di dadi elementali per passare dal personaggio associato a un altro.(Per aggiungere questa carta, il tuo mazzo deve contenere Sacerdotessa degli specchi.)"
+    },
+    {
+      "name": "",
+      "desc": "Azione di combattimento: se il tuo personaggio attivo è Dama degli specchi, equipaggia questa carta. Dopo che Dama degli specchi viene equipaggiata con questa carta, usa immediatamente Spezzaonde una volta. Quando Dama degli specchi ha questa carta equipaggiata e crea una Rifrazione, quest'ultima ha Durata (in turni) iniziale +1. Inoltre i DAN da Hydro subiti dal personaggio associato aumentano di 1. (Per aggiungere questa carta, il tuo mazzo deve contenere Dama degli specchi.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 114
 }

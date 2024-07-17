@@ -5,17 +5,29 @@
   "title": "Kusava",
   "desc": "♪ ¡Kusava, kusava! ♪\\nGuarda recuerdos y está lleno de poder.\\nEs fruto de plantas que dan flores y semilla que trae nueva vida.\\nEl kusava es el hogar temporal de los recuerdos de los aranara y, al mismo tiempo, lo que les da su poder.",
   "attributes": {
-    "cost": 0,
-    "energy": [],
+    "cost": 1,
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 1
+      }
+    ],
     "tags": [
+      "Objeto",
       "Objeto"
     ],
-    "cardType": "Carta de apoyo"
+    "cardType": "Carta de apoyo",
+    "costType": "Dados unielementales"
   },
   "skills": [
     {
       "name": "",
       "desc": "Al comienzo de la fase de acciones, se realiza un descarte de un máximo de 2 cartas con el mayor coste de dados elementales. Por cada carta para la que se haya realizado un descarte, esta carta acumula 1 pt. de sueños y recuerdos (acumulable hasta 2 pts.). Cuando tu personaje usa una habilidad, si en la ronda actual aún no has jugado ninguna carta de acción, consume 1 pt. de sueños y recuerdos y gasta 1 dado elemental menos para ejecutar la habilidad."
+    },
+    {
+      "name": "",
+      "desc": "Al comienzo de la fase de acciones, se realiza un descarte de un máximo de 2 cartas con el mayor coste original de dados elementales. Por cada carta para la que se haya realizado un descarte, esta carta acumula 1 pt. de sueños y recuerdos (acumulable hasta 2 pts.). Cuando tu personaje usa una habilidad, si en la ronda actual aún no has jugado ninguna carta de acción, consume 1 pt. de sueños y recuerdos y gasta 1 dado elemental menos para ejecutar la habilidad."
     }
   ],
   "inPlayDescription": "",

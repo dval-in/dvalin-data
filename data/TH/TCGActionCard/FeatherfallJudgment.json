@@ -1,29 +1,44 @@
 {
-	"id": "FeatherfallJudgment",
-	"shareid": 89,
-	"name": "Featherfall Judgment",
-	"title": "Cyno - Featherfall Judgment",
-	"desc": "\"นี่คือจิตวิญญาณแห่งการดูเอลของฉัน\"",
-	"inPlayDescription": "เมื่อการ \"ประทับร่าง\" ของ <span style=\"color:#FFFFFFFF\">Pactsworn Pathclearer ถึงระดับที่เป็นเลขคู่ Cyno ที่มีการ์ดใบนี้ใช้ <span style=\"color:#FFFFFFFF\">Secret Rite: Chasmic Soulfarer ความเสียหายที่สร้างจะ +1",
-	"attributes": {
-		"cost": 3,
-		"costType": "ธาตุไฟฟ้า",
-		"cardType": "การ์ดอุปกรณ์",
-		"energy": [
-			{
-				"id": "Electro",
-				"type": "ธาตุไฟฟ้า",
-				"count": 3
-			}
-		],
-		"source": "ได้รับหลังจากเชิญ Cyno ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
-		"tags": ["พรสวรรค์", "ดำเนินการต่อสู้"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น <span style=\"color:#FFFFFFFF\">Cyno และติดตั้งการ์ดใบนี้หลังจากที่ Cyno ติดตั้งการ์ดใบนี้ จะใช้ <span style=\"color:#FFD780FF\">Secret Rite: Chasmic Soulfarer หนึ่งครั้งโดยทันทีเมื่อการ \"ประทับร่าง\" ของ <span style=\"color:#FFFFFFFF\">Pactsworn Pathclearer ถึงระดับที่เป็นเลขคู่ Cyno ที่มีการ์ดใบนี้ใช้ <span style=\"color:#FFFFFFFF\">Secret Rite: Chasmic Soulfarer ความเสียหายที่สร้างจะ +1(เข้าร่วมเด็คได้ต่อเมื่อมี Cyno อยู่ภายในเด็คเท่านั้น)"
-		}
-	],
-	"version": "4.4"
+  "id": "FeatherfallJudgment",
+  "shareid": 89,
+  "name": "Featherfall Judgment",
+  "title": "Cyno - Featherfall Judgment",
+  "desc": "\"นี่คือจิตวิญญาณแห่งการดูเอลของฉัน\"",
+  "inPlayDescription": "เมื่อการ \"ประทับร่าง\" ของ <span style=\"color:#FFFFFFFF\">Pactsworn Pathclearer</span> ถึงอย่างน้อย 2 ระดับ Cyno ที่มีการ์ดใบนี้ใช้ <span style=\"color:#FFFFFFFF\">Secret Rite: Chasmic Soulfarer</span> ความเสียหายที่สร้างจะ +2 (เทิร์นละ 1 ครั้ง)",
+  "attributes": {
+    "cost": 3,
+    "costType": "ธาตุไฟฟ้า",
+    "cardType": "การ์ดอุปกรณ์",
+    "energy": [
+      {
+        "id": "Electro",
+        "type": "ธาตุไฟฟ้า",
+        "count": 3
+      },
+      {
+        "id": "Electro",
+        "type": "ธาตุไฟฟ้า",
+        "count": 3
+      }
+    ],
+    "source": "ได้รับหลังจากเชิญ Cyno ทำการดูเอลใน Cat's Tail และสำเร็จเป้าหมายการท้าทายที่เกี่ยวข้อง",
+    "tags": [
+      "พรสวรรค์",
+      "ดำเนินการต่อสู้",
+      "พรสวรรค์",
+      "ดำเนินการต่อสู้"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Cyno และติดตั้งการ์ดใบนี้หลังจากที่ Cyno ติดตั้งการ์ดใบนี้ จะใช้ Secret Rite: Chasmic Soulfarer หนึ่งครั้งโดยทันทีเมื่อการ \"ประทับร่าง\" ของ Pactsworn Pathclearer ถึงระดับที่เป็นเลขคู่ Cyno ที่มีการ์ดใบนี้ใช้ Secret Rite: Chasmic Soulfarer ความเสียหายที่สร้างจะ +1(เข้าร่วมเด็คได้ต่อเมื่อมี Cyno อยู่ภายในเด็คเท่านั้น)"
+    },
+    {
+      "name": "",
+      "desc": "ดำเนินการต่อสู้: เมื่อตัวละครที่เข้าต่อสู้ของฝ่ายเราเป็น Cyno และติดตั้งการ์ดใบนี้ หลังจากที่ Cyno ติดตั้งการ์ดใบนี้ จะใช้ Secret Rite: Chasmic Soulfarer หนึ่งครั้งโดยทันที เมื่อการ \"ประทับร่าง\" ของ Pactsworn Pathclearer ถึงอย่างน้อย 2 ระดับ Cyno ที่มีการ์ดใบนี้ใช้ Secret Rite: Chasmic Soulfarer ความเสียหายที่สร้างจะ +2 (เทิร์นละ 1 ครั้ง) (เข้าร่วมเด็คได้ต่อเมื่อมี Cyno อยู่ภายในเด็คเท่านั้น)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 89
 }

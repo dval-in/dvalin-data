@@ -10,6 +10,7 @@
     "element": "ธาตุน้ำ",
     "weapon": "อาวุธอื่น ๆ",
     "faction": [
+      "มอนสเตอร์",
       "มอนสเตอร์"
     ],
     "source": "ได้รับหลังจากเอาชนะ All-Devouring Narwhal ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
@@ -40,6 +41,70 @@
       "id": "StarfallShower",
       "name": "Starfall Shower",
       "desc": "สร้างความเสียหายน้ำ $[D__KEY__DAMAGE_2] หน่วย ทุก 3 หน่วยของพลังชีวิตสูงสุดที่ตัวละครนี้ได้รับเพิ่มเติมจาก Insatiable Appetite ความเสียหายนี้จะ +1 (สูงสุด +5) จากนั้นทิ้งการ์ดที่มีค่าร่าย Elemental Dice เดิมสูงสุด 1 ใบ",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Ravaging Devourer",
+      "desc": "สร้างความเสียหายน้ำ 1 หน่วย และสร้าง ความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก Dark Shadow",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Insatiable Appetite",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้าง Deep Devourer's Domain",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShatteringWaves",
+      "name": "Shattering Waves",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Starfall Shower",
+      "desc": "สร้างความเสียหายน้ำ $[D__KEY__DAMAGE_2] หน่วย พลังชีวิตสูงสุดที่ตัวละครนี้มอบให้เพิ่มเติม ทุก 3 หน่วยของ Insatiable Appetite ความเสียหายนี้จะ +1 (สูงสุด +4) จากนั้นทิ้งการ์ดที่มีค่าร่าย Elemental Dice เดิมสูงสุด 1 ใบ",
       "skillTag": [
         "สกิลธาตุ"
       ],
