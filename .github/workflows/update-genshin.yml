@@ -84,7 +84,7 @@ jobs:
         run: echo "No new commits to process. Exiting."
         continue-on-error: true
 
-      - name: create a new branch
+      - name: Checkout new branch
         if: ${{ env.COMMITS != '' }}
         run: |
           cd dvalin-data
@@ -93,16 +93,6 @@ jobs:
           BRANCH_NAME="update-$(echo ${{ env.GI_VERSIONS }} | tr ' ' '-')"
           echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
           git checkout -b $BRANCH_NAME
-          git push origin $BRANCH_NAME
-
-      - name: Checkout dvalin-data repo on new branch
-        if: ${{ env.COMMITS != '' }}
-        uses: actions/checkout@v4
-        with:
-          repository: "dval-in/dvalin-data"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ env.BRANCH_NAME }}
-          path: "dvalin-data"
 
       - name: Get all changed files
         if: ${{ env.COMMITS != '' }}
@@ -146,12 +136,38 @@ jobs:
           done
           cd ..
           rm -rf genshin-data
-          git push origin ${{ env.BRANCH_NAME }}
 
-      - name: create pull request
+      - name: Push new branch
+        id: pushBranch
         if: ${{ env.COMMITS != '' }}
         run: |
           cd dvalin-data
-          gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}' --body ''
+          git push origin ${{ env.BRANCH_NAME }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request
+        id: createPR
+        if: ${{ env.COMMITS != '' }}
+        run: |
+          cd dvalin-data
+          gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}' --body '' | { var=$(cat); echo "GITHUB_PR_URL=${var:11}"; } >> $GITHUB_ENV
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cleanup createPR
+        if: ${{ failure() && steps.createPR.conclusion == 'failure' && env.GITHUB_PR_URL != '' }}
+        run: |
+          cd dvalin-data
+          gh pr close ${{ env.GITHUB_PR_URL }} -c "CI run failed"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cleanup pushBranch
+        if: ${{ failure() && steps.pushBranch.conclusion == 'failure' }}
+        run: |
+          cd dvalin-data
+          git push origin --delete ${{ env.BRANCH_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
