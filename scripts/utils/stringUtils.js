@@ -18,7 +18,9 @@ const toPascalCase = (str) => {
 		return str;
 	}
 
-	return str.replace("'", '').replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
+	return (str.charAt(0).toUpperCase() + str.slice(1))
+		.replace("'", '')
+		.replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
 };
 
 /**
