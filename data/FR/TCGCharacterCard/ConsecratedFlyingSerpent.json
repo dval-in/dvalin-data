@@ -11,6 +11,8 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre",
+      "Bête sacralisée",
+      "Monstre",
       "Bête sacralisée"
     ],
     "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Serpent volant sacralisé",
@@ -41,6 +43,70 @@
       "id": "SwirlingSquall",
       "name": "Bourrasque tourbillonnante",
       "desc": "Inflige 2 pts de DGT Anémo et pioche 1 carte [Bloc d'énergie phagocytaire], puis pioche 1 carte pour chaque carte [Bloc d'énergie phagocytaire] dans votre main (limité à 2 cartes par manche).",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ScattershotVortex",
+      "name": "Vortex dispersé",
+      "desc": "Inflige 2 pts de DGT Anémo et défausse toutes les cartes [Bloc d'énergie phagocytaire] de votre main. Ces DGT doublent une fois toutes les 2 cartes défaussées.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsAnemo",
+      "name": "Reste immortel Anémo",
+      "desc": "(Passif) Crée 6 cartes [Bloc d'énergie phagocytaire] et les répartit uniformément dans votre deck au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "WhirlingTail",
+      "name": "Tournoiement de queue",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSquall",
+      "name": "Bourrasque tourbillonnante",
+      "desc": "Inflige 3 pts de DGT Anémo et pioche 1 carte.",
       "skillTag": [
         "Compétence élémentaire"
       ],

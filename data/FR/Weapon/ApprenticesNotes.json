@@ -1,180 +1,335 @@
 {
-    "id": "ApprenticesNotes",
-    "name": "Notes de l'apprenti",
-    "description": "Des notes laiss\u00e9es par un \u00e9l\u00e8ve brillant contenant des sortil\u00e8ges efficaces, r\u00e9dig\u00e9s dans une belle \u00e9criture.",
-    "rarity": 1,
-    "type": "Catalyseur",
-    "domain": "P\u00e9pini\u00e8re de c\u00e9cilias",
-    "passive": "",
-    "bonus": "",
-    "stats": {
-        "primary": "ATQ de base",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 23
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 56
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 68
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 102
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 113
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 130
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 141
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 158
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 169
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 185
-            }
-        ]
+  "id": "ApprenticesNotes",
+  "name": "Notes de l'apprenti",
+  "description": "Des notes laissées par un élève brillant contenant des sortilèges efficaces, rédigés dans une belle écriture.",
+  "rarity": 1,
+  "type": "Catalyseur",
+  "domain": "Pépinière de cécilias",
+  "passive": "",
+  "bonus": "",
+  "stats": {
+    "primary": "ATQ de base",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 23
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 56
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 68
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 102
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 113
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 130
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 141
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 158
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 169
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 185
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 23
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 56
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 68
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 102
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 113
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 130
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 141
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 158
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 169
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 185
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
     },
-    "ascensions": [
+    {
+      "ascension": 1,
+      "level": 40,
+      "materials": [
         {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
+          "id": "TileOfDecarabiansTower",
+          "name": "Tuile cassée de Décabarian",
+          "amount": 1,
+          "rarity": 2
         },
         {
-            "ascension": 1,
-            "level": 40,
-            "materials": [
-                {
-                    "id": "TileOfDecarabiansTower",
-                    "name": "Tuile cass\u00e9e de D\u00e9cabarian",
-                    "amount": 1,
-                    "rarity": 2
-                },
-                {
-                    "id": "HeavyHorn",
-                    "name": "Corne lourde",
-                    "amount": 1,
-                    "rarity": 2
-                },
-                {
-                    "id": "DamagedMask",
-                    "name": "Masque endommag\u00e9",
-                    "amount": 1,
-                    "rarity": 1
-                }
-            ]
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 1,
+          "rarity": 2
         },
         {
-            "ascension": 2,
-            "level": 50,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "DebrisOfDecarabiansCity",
-                    "name": "Mur abattu de D\u00e9cabarian",
-                    "amount": 1,
-                    "rarity": 3
-                },
-                {
-                    "id": "HeavyHorn",
-                    "name": "Corne lourde",
-                    "amount": 4,
-                    "rarity": 2
-                },
-                {
-                    "id": "DamagedMask",
-                    "name": "Masque endommag\u00e9",
-                    "amount": 2,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "DebrisOfDecarabiansCity",
-                    "name": "Mur abattu de D\u00e9cabarian",
-                    "amount": 2,
-                    "rarity": 3
-                },
-                {
-                    "id": "BlackBronzeHorn",
-                    "name": "Corne en bronze noir",
-                    "amount": 2,
-                    "rarity": 3
-                },
-                {
-                    "id": "StainedMask",
-                    "name": "Masque sale",
-                    "amount": 2,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 10000,
-            "materials": [
-                {
-                    "id": "FragmentOfDecarabiansEpic",
-                    "name": "Fragment dispers\u00e9 de D\u00e9cabarian",
-                    "amount": 1,
-                    "rarity": 4
-                },
-                {
-                    "id": "BlackBronzeHorn",
-                    "name": "Corne en bronze noir",
-                    "amount": 4,
-                    "rarity": 3
-                },
-                {
-                    "id": "StainedMask",
-                    "name": "Masque sale",
-                    "amount": 3,
-                    "rarity": 2
-                }
-            ]
+          "id": "DamagedMask",
+          "name": "Masque endommagé",
+          "amount": 1,
+          "rarity": 1
         }
-    ],
-    "refinement_raw": {
-        "name": "",
-        "template": "",
-        "params": []
+      ]
     },
-    "refinements": [],
-    "pictures": {
-        "icon": "Weapon/ApprenticesNotes/Icon.webp"
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décabarian",
+          "amount": 1,
+          "rarity": 3
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 4,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Masque endommagé",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décabarian",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Masque sale",
+          "amount": 2,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragment dispersé de Décabarian",
+          "amount": 1,
+          "rarity": 4
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Masque sale",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Tuile cassée de Décarabian",
+          "amount": 1,
+          "rarity": 2
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 1,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Masque endommagé",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décarabian",
+          "amount": 1,
+          "rarity": 3
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 4,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Masque endommagé",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décarabian",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Masque sale",
+          "amount": 2,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragment dispersé de Décarabian",
+          "amount": 1,
+          "rarity": 4
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Masque sale",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
     }
+  ],
+  "refinements": [],
+  "pictures": {
+    "icon": "Weapon/ApprenticesNotes/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "",
+    "template": "",
+    "params": []
+  },
+  "version": "4.8"
 }

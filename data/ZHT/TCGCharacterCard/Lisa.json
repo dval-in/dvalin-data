@@ -1,77 +1,142 @@
 {
-	"id": "Lisa",
-	"shareid": 34,
-	"name": "麗莎",
-	"title": "薔薇魔女·麗莎",
-	"desc": "追尋魔導的奧秘，靜待真相的機緣。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "雷元素",
-		"weapon": "法器",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "PulsatingWitch",
-			"name": "Pulsating Witch"
-		},
-		"source": "在貓尾酒館中邀請麗莎進行對局，在友好對局難度中取得勝利後獲得",
-		"character": {
-			"id": "Lisa",
-			"name": "Lisa",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "LightningTouch",
-			"name": "指尖雷暴",
-			"desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害；如果此技能為<span style=\"color:#FFFFFFFF\">重擊，則使敵方出戰角色附屬<span style=\"color:#FFFFFFFF\">引雷。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VioletArc",
-			"name": "蒼雷",
-			"desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害；如果敵方出戰角色未附屬<span style=\"color:#FFFFFFFF\">引雷，則使其附屬<span style=\"color:#FFFFFFFF\">引雷。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "LightningRose",
-			"name": "薔薇的雷光",
-			"desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害，召喚<span style=\"color:#FFFFFFFF\">薔薇雷光。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Lisa",
+  "shareid": 34,
+  "name": "麗莎",
+  "title": "薔薇魔女·麗莎",
+  "desc": "追尋魔導的奧秘，靜待真相的機緣。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "法器",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "PulsatingWitch",
+      "name": "Pulsating Witch"
+    },
+    "source": "在貓尾酒館中邀請麗莎進行對局，在友好對局難度中取得勝利後獲得",
+    "character": {
+      "id": "Lisa",
+      "name": "Lisa",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LightningTouch",
+      "name": "指尖雷暴",
+      "desc": "造成1點雷元素傷害；如果此技能為重擊，則使敵方出戰角色附屬引雷。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "蒼雷",
+      "desc": "造成2點雷元素傷害；如果敵方出戰角色未附屬引雷，則使其附屬引雷。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "薔薇的雷光",
+      "desc": "造成2點雷元素傷害，召喚薔薇雷光。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "指尖雷暴",
+      "desc": "造成1點雷元素傷害； 如果此技能為重擊，則使敵方出戰角色附屬引雷。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "蒼雷",
+      "desc": "造成2點雷元素傷害；如果敵方出戰角色未附屬引雷，則使其附屬引雷。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "薔薇的雷光",
+      "desc": "造成2點雷元素傷害，召喚薔薇雷光，使敵方出戰角色附屬引雷。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 34
 }

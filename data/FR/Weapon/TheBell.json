@@ -1,293 +1,598 @@
 {
-	"id": "TheBell",
-	"name": "\u00c9p\u00e9e-horloge",
-	"description": "Une grande \u00e9p\u00e9e lourde \u00e9quip\u00e9e d'une cloche, mais dont le m\u00e9canisme de chronom\u00e9trage a \u00e9t\u00e9 d\u00e9truit il y a bien longtemps.",
-	"rarity": 4,
-	"type": "\u00c9p\u00e9e \u00e0 deux mains",
-	"domain": "P\u00e9pini\u00e8re de c\u00e9cilias",
-	"passive": "Protecteur rebelle",
-	"bonus": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 20 %/23 %/26 %/29 %/32 % des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 45/45/45/45/45 s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de 12 %/15 %/18 %/21 %/24 %.",
-	"stats": {
-		"primary": "ATQ de base",
-		"secondary": "PV%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 9
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 15.9
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 15.9
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 23.2
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 23.2
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 26.8
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 26.8
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 34.1
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 34.1
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 37.7
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 37.7
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 41.3
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "TileOfDecarabiansTower",
-					"name": "Tuile cass\u00e9e de D\u00e9cabarian",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "HeavyHorn",
-					"name": "Corne lourde",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "WhopperflowerNectar",
-					"name": "Nectar de Fleur mensong\u00e8re",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "DebrisOfDecarabiansCity",
-					"name": "Mur abattu de D\u00e9cabarian",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "HeavyHorn",
-					"name": "Corne lourde",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "WhopperflowerNectar",
-					"name": "Nectar de Fleur mensong\u00e8re",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "DebrisOfDecarabiansCity",
-					"name": "Mur abattu de D\u00e9cabarian",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "BlackBronzeHorn",
-					"name": "Corne en bronze noir",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ShimmeringNectar",
-					"name": "Nectar miroitant",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "FragmentOfDecarabiansEpic",
-					"name": "Fragment dispers\u00e9 de D\u00e9cabarian",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "BlackBronzeHorn",
-					"name": "Corne en bronze noir",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "ShimmeringNectar",
-					"name": "Nectar miroitant",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "FragmentOfDecarabiansEpic",
-					"name": "Fragment dispers\u00e9 de D\u00e9cabarian",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "BlackCrystalHorn",
-					"name": "Corne \u00e0 cristal noir",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "EnergyNectar",
-					"name": "Nectar \u00e9l\u00e9mentaire",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "ScatteredPieceOfDecarabiansDream",
-					"name": "R\u00eave bris\u00e9 de D\u00e9cabarian",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "BlackCrystalHorn",
-					"name": "Corne \u00e0 cristal noir",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "EnergyNectar",
-					"name": "Nectar \u00e9l\u00e9mentaire",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Protecteur rebelle",
-		"template": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 <span style=\"color:#99FFFFFF\">{0} des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les <span style=\"color:#99FFFFFF\">{1} s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de <span style=\"color:#99FFFFFF\">{2}.",
-		"params": [
-			["20 %", "45", "12 %"],
-			["23 %", "45", "15 %"],
-			["26 %", "45", "18 %"],
-			["29 %", "45", "21 %"],
-			["32 %", "45", "24 %"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 20 % des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de 12 %."
-		},
-		{
-			"refinement": 2,
-			"desc": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 23 % des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de 15 %."
-		},
-		{
-			"refinement": 3,
-			"desc": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 26 % des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de 18 %."
-		},
-		{
-			"refinement": 4,
-			"desc": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 29 % des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de 21 %."
-		},
-		{
-			"refinement": 5,
-			"desc": "Subir des DGT g\u00e9n\u00e8re un bouclier qui absorbe jusqu'\u00e0 32 % des PV max pendant 10 s. Peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT inflig\u00e9s augmentent de 24 %."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/TheBell/Icon.webp"
-	}
+  "id": "TheBell",
+  "name": "Épée-horloge",
+  "description": "Une grande épée lourde équipée d'une cloche, mais dont le mécanisme de chronométrage a été détruit il y a bien longtemps.",
+  "rarity": 4,
+  "type": "Épée à deux mains",
+  "domain": "Pépinière de cécilias",
+  "passive": "Protecteur rebelle",
+  "bonus": "Subir des DGT génère un bouclier qui absorbe jusqu'à 20 %/23 %/26 %/29 %/32 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45/45/45/45/45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 12 %/15 %/18 %/21 %/24 %.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "PV%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Tuile cassée de Décabarian",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Nectar de Fleur mensongère",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décabarian",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Nectar de Fleur mensongère",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décabarian",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Nectar miroitant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragment dispersé de Décabarian",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Nectar miroitant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragment dispersé de Décabarian",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corne à cristal noir",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Nectar élémentaire",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ScatteredPieceOfDecarabiansDream",
+          "name": "Rêve brisé de Décabarian",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corne à cristal noir",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Nectar élémentaire",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Tuile cassée de Décarabian",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Nectar de Fleur mensongère",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décarabian",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corne lourde",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "Nectar de Fleur mensongère",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Mur abattu de Décarabian",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Nectar miroitant",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragment dispersé de Décarabian",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corne en bronze noir",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "Nectar miroitant",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragment dispersé de Décarabian",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corne à cristal noir",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Nectar élémentaire",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ScatteredPieceOfDecarabiansDream",
+          "name": "Rêve brisé de Décarabian",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corne à cristal noir",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "Nectar élémentaire",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 20 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 12 %."
+    },
+    {
+      "refinement": 2,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 23 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 15 %."
+    },
+    {
+      "refinement": 3,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 26 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 18 %."
+    },
+    {
+      "refinement": 4,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 29 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 21 %."
+    },
+    {
+      "refinement": 5,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 32 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 24 %."
+    },
+    {
+      "refinement": 1,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 20 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 12 %."
+    },
+    {
+      "refinement": 2,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 23 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 15 %."
+    },
+    {
+      "refinement": 3,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 26 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 18 %."
+    },
+    {
+      "refinement": 4,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 29 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 21 %."
+    },
+    {
+      "refinement": 5,
+      "desc": "Subir des DGT génère un bouclier qui absorbe jusqu'à 32 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 24 %."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/TheBell/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Protecteur rebelle",
+    "template": "Subir des DGT génère un bouclier qui absorbe jusqu'à <span style=\"color:#99FFFFFF\">{0}</span> des PV max pendant 10 s. Peut être déclenché une fois toutes les <span style=\"color:#99FFFFFF\">{1}</span> s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de <span style=\"color:#99FFFFFF\">{2}</span>.",
+    "params": [
+      [
+        "20 %",
+        "45",
+        "12 %"
+      ],
+      [
+        "23 %",
+        "45",
+        "15 %"
+      ],
+      [
+        "26 %",
+        "45",
+        "18 %"
+      ],
+      [
+        "29 %",
+        "45",
+        "21 %"
+      ],
+      [
+        "32 %",
+        "45",
+        "24 %"
+      ],
+      [
+        "20 %",
+        "45",
+        "12 %"
+      ],
+      [
+        "23 %",
+        "45",
+        "15 %"
+      ],
+      [
+        "26 %",
+        "45",
+        "18 %"
+      ],
+      [
+        "29 %",
+        "45",
+        "21 %"
+      ],
+      [
+        "32 %",
+        "45",
+        "24 %"
+      ]
+    ]
+  },
+  "version": "4.8"
 }

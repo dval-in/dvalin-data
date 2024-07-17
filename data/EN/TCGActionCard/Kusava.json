@@ -5,17 +5,29 @@
   "title": "Kusava",
   "desc": "Kusava, Kusava~♪\\nMemories and dreams are full of power.\\nIt is the fruit of flowering plants, and also the seed of new life.\\nThey are the temporary dwelling place of Aranara memories, and they give Aranara strength.",
   "attributes": {
-    "cost": 0,
-    "energy": [],
+    "cost": 1,
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      }
+    ],
     "tags": [
+      "Item",
       "Item"
     ],
-    "cardType": "Support Card"
+    "cardType": "Support Card",
+    "costType": "Matching Element"
   },
   "skills": [
     {
       "name": "",
       "desc": "When Action Phase begins: Discard a maximum of 2 cards with the highest Elemental Dice Cost in your Hand. For each card you Discard, this card accumulates 1 Memories and Dreams point (maximum of 2). When your character uses a Skill: If you haven't played an Action Card this round, consume 1 Memories and Dreams point, and this Skill costs 1 less Elemental Die."
+    },
+    {
+      "name": "",
+      "desc": "When Action Phase begins: Discard a maximum of 2 cards with the highest original Elemental Dice Cost in your Hand. For each card you Discard, this card accumulates 1 Memories and Dreams point (maximum of 2). When your character uses a Skill: If you haven't played an Action Card this round, consume 1 Memories and Dreams point, and this Skill costs 1 less Elemental Die."
     }
   ],
   "inPlayDescription": "",

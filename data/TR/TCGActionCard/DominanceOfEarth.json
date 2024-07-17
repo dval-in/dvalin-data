@@ -1,29 +1,44 @@
 {
-	"id": "DominanceOfEarth",
-	"shareid": 104,
-	"name": "Toprak Hakimiyeti",
-	"title": "Zhongli: Toprak Hakimiyeti",
-	"desc": "Ucu bucağı olmayan nehirler, sonsuzluğa doğru akar gider.",
-	"inPlayDescription": "Aktif karakterin bir <span style=\"color:#FFFFFFFF\">Kalkan Karakter Durumu veya bir <span style=\"color:#FFFFFFFF\">Kalkan Savaş Durumu tarafından korunuyorsa Minyonların fazladan 1 <span style=\"color:#FFE699FF\">Toprak Hasarı verir.",
-	"attributes": {
-		"cost": 5,
-		"costType": "Toprak",
-		"cardType": "Ekipman Kartı",
-		"energy": [
-			{
-				"id": "Geo",
-				"type": "Toprak",
-				"count": 5
-			}
-		],
-		"source": "Zhongli'yi Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
-		"tags": ["Yetenek", "Savaş Hamlesi"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi: Aktif karakterin <span style=\"color:#FFFFFFFF\">Zhongli olduğunda bu kartı kuşan.Zhongli bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Taşların Efendisi: Hüküm Taşı kullanır.Aktif karakterin bir <span style=\"color:#FFFFFFFF\">Kalkan Karakter Durumu veya bir <span style=\"color:#FFFFFFFF\">Kalkan Savaş Durumu tarafından korunuyorsa Minyonların fazladan 1 <span style=\"color:#FFE699FF\">Toprak Hasarı verir.(Bu kartı destene eklemek için destende Zhongli olmalıdır.)"
-		}
-	],
-	"version": "4.4"
+  "id": "DominanceOfEarth",
+  "shareid": 104,
+  "name": "Toprak Hakimiyeti",
+  "title": "Zhongli: Toprak Hakimiyeti",
+  "desc": "Ucu bucağı olmayan nehirler, sonsuzluğa doğru akar gider.",
+  "inPlayDescription": "Bu kartı kuşanan Zhongli en az 7 Cana sahipse Zhongli tarafından verilen Hasar ve Minyonlarının verdiği <span style=\"color:#FFE699FF\">Toprak Hasarı</span> 1 artar.<br/>(Bu kartı destene eklemek için destende Zhongli olmalıdır.)",
+  "attributes": {
+    "cost": 5,
+    "costType": "Toprak",
+    "cardType": "Ekipman Kartı",
+    "energy": [
+      {
+        "id": "Geo",
+        "type": "Toprak",
+        "count": 5
+      },
+      {
+        "id": "Geo",
+        "type": "Toprak",
+        "count": 5
+      }
+    ],
+    "source": "Zhongli'yi Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+    "tags": [
+      "Yetenek",
+      "Savaş Hamlesi",
+      "Yetenek",
+      "Savaş Hamlesi"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Savaş Hamlesi: Aktif karakterin Zhongli olduğunda bu kartı kuşan.Zhongli bu kartı kuşandıktan sonra hemen bir defa Taşların Efendisi: Hüküm Taşı kullanır.Aktif karakterin bir Kalkan Karakter Durumu veya bir Kalkan Savaş Durumu tarafından korunuyorsa Minyonların fazladan 1 Toprak Hasarı verir.(Bu kartı destene eklemek için destende Zhongli olmalıdır.)"
+    },
+    {
+      "name": "",
+      "desc": "Savaş Hamlesi: Aktif karakterin Zhongli olduğunda bu kartı kuşan. Zhongli bu kartı kuşandıktan sonra hemen bir defa Taşların Efendisi: Hüküm Taşı kullanır. Bu kartı kuşanan Zhongli en az 7 Cana sahipse Zhongli tarafından verilen Hasar ve Minyonlarının verdiği Toprak Hasarı 1 artar. (Bu kartı destene eklemek için destende Zhongli olmalıdır.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 104
 }

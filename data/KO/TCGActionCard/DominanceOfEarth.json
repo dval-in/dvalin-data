@@ -1,29 +1,44 @@
 {
-	"id": "DominanceOfEarth",
-	"shareid": 104,
-	"name": "호의호식",
-	"title": "종려·호의호식",
-	"desc": "뭇 강과 험한 산은 영원히 변치 않는다",
-	"inPlayDescription": "아군 출전 캐릭터가 <span style=\"color:#FFFFFFFF\">보호막 캐릭터 상태 또는 <span style=\"color:#FFFFFFFF\">보호막 출전 상태의 보호를 받고 있을 시, 아군 소환물이 주는 <span style=\"color:#FFE699FF\">바위 원소 피해+1pt",
-	"attributes": {
-		"cost": 5,
-		"costType": "바위 원소",
-		"cardType": "장비 카드",
-		"energy": [
-			{
-				"id": "Geo",
-				"type": "바위 원소",
-				"count": 5
-			}
-		],
-		"source": "캣테일 술집에서 종려를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
-		"tags": ["특성", "전투 행동"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">전투 행동: 아군 출전 캐릭터가 <span style=\"color:#FFFFFFFF\">종려일 때 해당 카드를 장착할 수 있다.종려가 해당 카드를 장착하면 즉시 <span style=\"color:#FFD780FF\">지핵·드높은 반석을 1회 사용한다.아군 출전 캐릭터가 <span style=\"color:#FFFFFFFF\">보호막 캐릭터 상태 또는 <span style=\"color:#FFFFFFFF\">보호막 출전 상태의 보호를 받고 있을 시, 아군 소환물이 주는 <span style=\"color:#FFE699FF\">바위 원소 피해+1pt(카드 덱에 종려가 있어야만 카드 덱에 추가 가능)"
-		}
-	],
-	"version": "4.4"
+  "id": "DominanceOfEarth",
+  "shareid": 104,
+  "name": "호의호식",
+  "title": "종려·호의호식",
+  "desc": "뭇 강과 험한 산은 영원히 변치 않는다",
+  "inPlayDescription": "해당 카드를 장착한 종려의 HP가 7pt 이상일 시, 종려가 주는 피해와 아군 소환물이 주는 <span style=\"color:#FFE699FF\">바위 원소 피해</span>+1pt",
+  "attributes": {
+    "cost": 5,
+    "costType": "바위 원소",
+    "cardType": "장비 카드",
+    "energy": [
+      {
+        "id": "Geo",
+        "type": "바위 원소",
+        "count": 5
+      },
+      {
+        "id": "Geo",
+        "type": "바위 원소",
+        "count": 5
+      }
+    ],
+    "source": "캣테일 술집에서 종려를 초대해 대전하고 상응하는 도전 목표 달성 후 획득",
+    "tags": [
+      "특성",
+      "전투 행동",
+      "특성",
+      "전투 행동"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "전투 행동: 아군 출전 캐릭터가 종려일 때 해당 카드를 장착할 수 있다.종려가 해당 카드를 장착하면 즉시 지핵·드높은 반석을 1회 사용한다.아군 출전 캐릭터가 보호막 캐릭터 상태 또는 보호막 출전 상태의 보호를 받고 있을 시, 아군 소환물이 주는 바위 원소 피해+1pt(카드 덱에 종려가 있어야만 카드 덱에 추가 가능)"
+    },
+    {
+      "name": "",
+      "desc": "전투 행동: 아군 출전 캐릭터가 종려일 때 해당 카드를 장착할 수 있다. 종려가 해당 카드를 장착하면 즉시 지핵·드높은 반석을 1회 사용한다. 해당 카드를 장착한 종려의 HP가 7pt 이상일 시, 종려가 주는 피해와 아군 소환물이 주는 바위 원소 피해+1pt (카드 덱에 종려가 있어야만 카드 덱에 추가 가능)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 104
 }

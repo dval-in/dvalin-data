@@ -1,0 +1,85 @@
+{
+  "id": "FrostOperative",
+  "shareId": 397,
+  "name": "Soldado Fatui - Senescal Cryo",
+  "title": "Fruto de la obsolescencia: Senescal Cryo",
+  "desc": "Solo alguien que ha sido elegido desde pequeño, que ha sido adoctrinado y entrenado durante muchos años y que ha sido repudiado en incontables ocasiones puede llegar a convertirse en Senescal.",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Fatui"
+    ],
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Soldado Fatui - Senescal Cryo de los duelos tabernarios",
+    "cardType": "Carta de personaje"
+  },
+  "skills": [
+    {
+      "id": "SwiftPoint",
+      "name": "Cuchilla rápida",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostyInterjection",
+      "name": "Interceptación hojaescarcha",
+      "desc": "Inflige 3 pts. de Daño Cryo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThornyOnslaught",
+      "name": "Espina de asalto",
+      "desc": "Inflige 4 pts. de Daño Cryo y este personaje obtiene el efecto de posición de asalto.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BloodbondedShadow",
+      "name": "Sombra sanguínea",
+      "desc": "Pasiva: después de que este personaje use una habilidad, el personaje en combate enemigo obtiene un pacto vital con un número de usos equivalente al daño final de esta habilidad -2 (acumulable hasta 5 veces).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

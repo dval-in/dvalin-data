@@ -1,29 +1,44 @@
 {
-	"id": "MirrorCage",
-	"shareid": 114,
-	"name": "Mirror Cage",
-	"title": "The Mirror's Secret",
-	"desc": "\"Mirror, mirror, in my hand, where do our foes lurk in this land?\"",
-	"inPlayDescription": "When your Mirror Maiden, who has this card equipped, creates a <span style=\"color:#FFFFFFFF\">Refraction, it will have the following effects:Starting <span style=\"color:#FFFFFFFF\">Duration (Rounds) +1, will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Hydro",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "Hydro",
-				"type": "Hydro",
-				"count": 3
-			}
-		],
-		"source": "Reward for accepting the Tavern Challenge against Mirror Maiden at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
-		"tags": ["Talent", "Combat Action"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Combat Action: When your active character is <span style=\"color:#FFFFFFFF\">Mirror Maiden, equip this card.After Mirror Maiden equips this card, immediately use <span style=\"color:#FFD780FF\">Influx Blast once.When your Mirror Maiden, who has this card equipped, creates a <span style=\"color:#FFFFFFFF\">Refraction, it will have the following effects:Starting <span style=\"color:#FFFFFFFF\">Duration (Rounds) +1, will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.(You must have Mirror Maiden in your deck to add this card to your deck.)"
-		}
-	],
-	"version": "4.4"
+  "id": "MirrorCage",
+  "shareid": 114,
+  "name": "Mirror Cage",
+  "title": "The Mirror's Secret",
+  "desc": "\"Mirror, mirror, in my hand, where do our foes lurk in this land?\"",
+  "inPlayDescription": "When your Mirror Maiden, who has this card equipped, creates a <span style=\"color:#FFFFFFFF\">Refraction</span>, it will have +1 starting <span style=\"color:#FFFFFFFF\">Duration (Rounds)</span>. It will also increase the <span style=\"color:#80C0FFFF\">Hydro DMG</span> the character to which this is attached takes by 1.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Hydro",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      },
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      }
+    ],
+    "source": "Reward for accepting the Tavern Challenge against Mirror Maiden at The Cat's Tail and achieving all corresponding challenge objectives in a Friendly Fracas",
+    "tags": [
+      "Talent",
+      "Combat Action",
+      "Talent",
+      "Combat Action"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Combat Action: When your active character is Mirror Maiden, equip this card.After Mirror Maiden equips this card, immediately use Influx Blast once.When your Mirror Maiden, who has this card equipped, creates a Refraction, it will have the following effects:Starting Duration (Rounds) +1, will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.(You must have Mirror Maiden in your deck to add this card to your deck.)"
+    },
+    {
+      "name": "",
+      "desc": "Combat Action: When your active character is Mirror Maiden, equip this card. After Mirror Maiden equips this card, immediately use Influx Blast once. When your Mirror Maiden, who has this card equipped, creates a Refraction, it will have +1 starting Duration (Rounds). It will also increase the Hydro DMG the character to which this is attached takes by 1. (You must have Mirror Maiden in your deck to add this card to your deck.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 114
 }

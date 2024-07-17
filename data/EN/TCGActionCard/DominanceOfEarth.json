@@ -1,29 +1,44 @@
 {
-	"id": "DominanceOfEarth",
-	"shareid": 104,
-	"name": "Dominance of Earth",
-	"title": "Zhongli: Dominance of Earth",
-	"desc": "The vastness of rivers flows endless, perpetual upon the tapestry of eons.",
-	"inPlayDescription": "When your active character is protected by a <span style=\"color:#FFFFFFFF\">Shield Character Status or a <span style=\"color:#FFFFFFFF\">Shield Combat Status, your Summons deal +1 <span style=\"color:#FFE699FF\">Geo DMG.",
-	"attributes": {
-		"cost": 5,
-		"costType": "Geo",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "Geo",
-				"type": "Geo",
-				"count": 5
-			}
-		],
-		"source": "Reward for inviting Zhongli to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
-		"tags": ["Talent", "Combat Action"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Combat Action: When your active character is <span style=\"color:#FFFFFFFF\">Zhongli, equip this card.After Zhongli equips this card, immediately use <span style=\"color:#FFD780FF\">Dominus Lapidis: Striking Stone once.When your active character is protected by a <span style=\"color:#FFFFFFFF\">Shield Character Status or a <span style=\"color:#FFFFFFFF\">Shield Combat Status, your Summons deal +1 <span style=\"color:#FFE699FF\">Geo DMG.(You must have Zhongli in your deck to add this card to your deck.)"
-		}
-	],
-	"version": "4.4"
+  "id": "DominanceOfEarth",
+  "shareid": 104,
+  "name": "Dominance of Earth",
+  "title": "Zhongli: Dominance of Earth",
+  "desc": "The vastness of rivers flows endless, perpetual upon the tapestry of eons.",
+  "inPlayDescription": "When your Zhongli, who has this card equipped, has at least 7 HP, the DMG dealt by Zhongli and the <span style=\"color:#FFE699FF\">Geo DMG</span> from your Summons +1.",
+  "attributes": {
+    "cost": 5,
+    "costType": "Geo",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "Geo",
+        "type": "Geo",
+        "count": 5
+      },
+      {
+        "id": "Geo",
+        "type": "Geo",
+        "count": 5
+      }
+    ],
+    "source": "Reward for inviting Zhongli to a duel at The Cat's Tail and achieving all corresponding challenge objectives",
+    "tags": [
+      "Talent",
+      "Combat Action",
+      "Talent",
+      "Combat Action"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Combat Action: When your active character is Zhongli, equip this card.After Zhongli equips this card, immediately use Dominus Lapidis: Striking Stone once.When your active character is protected by a Shield Character Status or a Shield Combat Status, your Summons deal +1 Geo DMG.(You must have Zhongli in your deck to add this card to your deck.)"
+    },
+    {
+      "name": "",
+      "desc": "Combat Action: When your active character is Zhongli, equip this card. After Zhongli equips this card, immediately use Dominus Lapidis: Striking Stone once. When your Zhongli, who has this card equipped, has at least 7 HP, the DMG dealt by Zhongli and the Geo DMG from your Summons +1. (You must have Zhongli in your deck to add this card to your deck.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 104
 }

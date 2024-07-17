@@ -1,0 +1,85 @@
+{
+  "id": "EremiteDaythunder",
+  "shareId": 3412,
+  "name": "Foudre diurne des Érémites",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Érémites"
+    ],
+    "source": null,
+    "cardType": "Carte de personnage"
+  },
+  "skills": [
+    {
+      "id": "AxeSwipe",
+      "name": "Frappe de hache",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhirlingCleave",
+      "name": "Entaille tournoyante",
+      "desc": "Inflige 3 pts de DGT physiques.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GreataxeSmash",
+      "name": "Pulvérisation de hache",
+      "desc": "Inflige 5 pts de DGT physiques.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedElectro",
+      "name": "Délivrance d'esprit sinistre (Électro)",
+      "desc": "(Passif) Lorsque le personnage a subi des DGT : Il obtient 1 charge et un éveil d'esprit sinistre (Électro) s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

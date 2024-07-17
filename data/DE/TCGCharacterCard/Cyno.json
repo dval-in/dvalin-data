@@ -1,84 +1,160 @@
 {
-	"id": "Cyno",
-	"shareid": 29,
-	"name": "Cyno",
-	"title": "Richter über Geheimnisse – Cyno",
-	"desc": "In den Karten verbirgt sich die Leidenschaft des Mahamatra, die so brennend ist wie die glühende Wüstensonne.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Elektro",
-		"weapon": "Stangenwaffe",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "FeatherfallJudgment",
-			"name": "Featherfall Judgment"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Cyno in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Cyno",
-			"name": "Cyno",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "InvokersSpear",
-			"name": "Speertechnik der Beschwörer",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SecretRiteChasmicSoulfarer",
-			"name": "Geheimer Ritus – Abgründiger Seelenwanderer",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SacredRiteWolfsSwiftness",
-			"name": "Heiliger Ritus – Schnelligkeit des Wolfs",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH,Verwandlungstufe von <span style=\"color:#FFFFFFFF\">Paktverschworener Pfadklärer +2.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LawfulEnforcer",
-			"name": "Gesetzestreuer Vollstrecker",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Paktverschworener Pfadklärer.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "Cyno",
+  "shareid": 29,
+  "name": "Cyno",
+  "title": "Richter über Geheimnisse – Cyno",
+  "desc": "In den Karten verbirgt sich die Leidenschaft des Mahamatra, die so brennend ist wie die glühende Wüstensonne.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Stangenwaffe",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "FeatherfallJudgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Cyno in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "InvokersSpear",
+      "name": "Speertechnik der Beschwörer",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SecretRiteChasmicSoulfarer",
+      "name": "Geheimer Ritus – Abgründiger Seelenwanderer",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWolfsSwiftness",
+      "name": "Heiliger Ritus – Schnelligkeit des Wolfs",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH,Verwandlungstufe von Paktverschworener Pfadklärer +2.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LawfulEnforcer",
+      "name": "Gesetzestreuer Vollstrecker",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Paktverschworener Pfadklärer.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "InvokersSpear",
+      "name": "Speertechnik der Beschwörer",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SecretRiteChasmicSoulfarer",
+      "name": "Geheimer Ritus – Abgründiger Seelenwanderer",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH. Verwandlungsstufe von Paktverschworener Pfadklärer +1.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWolfsSwiftness",
+      "name": "Heiliger Ritus – Schnelligkeit des Wolfs",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH. Verwandlungsstufe von Paktverschworener Pfadklärer +2.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LawfulEnforcer",
+      "name": "Gesetzestreuer Vollstrecker",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Paktverschworener Pfadklärer.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 29
 }
