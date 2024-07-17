@@ -159,7 +159,7 @@ const folderMapping = {
 	food: 'Food',
 	furnishing: 'Furnishing',
 	ingredients: 'Ingredient',
-	jewels_materials: 'JewelMaterial',
+	jewels_materials: 'JewelsMaterial',
 	local_materials: 'LocalMaterial',
 	potions: 'Potion',
 	talent_lvl_up_materials: 'TalentLvlUpMaterial',
