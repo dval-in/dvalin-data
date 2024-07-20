@@ -25,6 +25,26 @@
         },
         "version": {
           "type": "string"
+        },
+        "processing": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "amount": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "amount"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
