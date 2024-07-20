@@ -14,6 +14,6 @@ export type JewelsMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	convert?: Item[];
+	convert?: [string: Item];
 	version?: string;
 };
