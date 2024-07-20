@@ -4,7 +4,7 @@ export type Fish = {
 	description: string;
 	rarity: number;
 	source: string[];
-	bait: {
+	bait?: {
 		id: string;
 		name: string;
 		rarity: number;
