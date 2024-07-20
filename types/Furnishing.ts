@@ -21,5 +21,5 @@ export type Furnishing = {
 	exp?: number;
 	category: FurnitureCategory[];
 	recipe?: FurnitureRecipe[];
-	version: string;
+	version?: string;
 };

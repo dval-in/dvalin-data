@@ -1,7 +1,54 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/Weapon",
   "definitions": {
+    "WeaponAscension": {
+      "type": "object",
+      "properties": {
+        "ascension": {
+          "type": "number"
+        },
+        "level": {
+          "type": "number"
+        },
+        "cost": {
+          "type": "number"
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "rarity": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "amount",
+              "rarity"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "ascension",
+        "level",
+        "cost",
+        "materials"
+      ],
+      "additionalProperties": false
+    },
     "Weapon": {
       "type": "object",
       "properties": {
@@ -153,56 +200,7 @@
         "ascensions",
         "refinementRaw",
         "refinements",
-        "version",
         "pictures"
-      ],
-      "additionalProperties": false
-    },
-    "WeaponAscension": {
-      "type": "object",
-      "properties": {
-        "ascension": {
-          "type": "number"
-        },
-        "level": {
-          "type": "number"
-        },
-        "cost": {
-          "type": "number"
-        },
-        "materials": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "amount": {
-                "type": "number"
-              },
-              "rarity": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "id",
-              "name",
-              "amount",
-              "rarity"
-            ],
-            "additionalProperties": false
-          }
-        }
-      },
-      "required": [
-        "ascension",
-        "level",
-        "cost",
-        "materials"
       ],
       "additionalProperties": false
     }

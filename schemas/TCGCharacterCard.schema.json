@@ -1,7 +1,57 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/TCGCharacterCard",
   "definitions": {
+    "CharacterCardSkill": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "skillTag": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "count": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "count"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "skillTag",
+        "points"
+      ],
+      "additionalProperties": false
+    },
     "TCGCharacterCard": {
       "type": "object",
       "properties": {
@@ -96,59 +146,7 @@
         "id",
         "name",
         "attributes",
-        "skills",
-        "version"
-      ],
-      "additionalProperties": false
-    },
-    "CharacterCardSkill": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "desc": {
-          "type": "string"
-        },
-        "skillTag": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "points": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "type": {
-                "type": "string"
-              },
-              "count": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "id",
-              "type",
-              "count"
-            ],
-            "additionalProperties": false
-          }
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "desc",
-        "skillTag",
-        "points"
+        "skills"
       ],
       "additionalProperties": false
     }

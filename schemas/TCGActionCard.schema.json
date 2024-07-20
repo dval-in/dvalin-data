@@ -1,7 +1,22 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/TCGActionCard",
   "definitions": {
+    "ActionCardSkill": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "desc"
+      ],
+      "additionalProperties": false
+    },
     "TCGActionCard": {
       "type": "object",
       "properties": {
@@ -172,24 +187,7 @@
         "desc",
         "in_play_description",
         "attributes",
-        "skills",
-        "version"
-      ],
-      "additionalProperties": false
-    },
-    "ActionCardSkill": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "desc": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "name",
-        "desc"
+        "skills"
       ],
       "additionalProperties": false
     }

@@ -30,5 +30,5 @@ export type TCGMonsterCard = {
 		monster?: Entity;
 	};
 	skills: MonsterCardSkill[];
-	version: string;
+	version?: string;
 };

@@ -31,5 +31,5 @@ export type TCGActionCard = {
 		tags: string[];
 	};
 	skills: ActionCardSkill[];
-	version: string;
+	version?: string;
 };

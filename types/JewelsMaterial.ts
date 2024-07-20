@@ -15,5 +15,5 @@ export type JewelsMaterial = {
 		items: Item[];
 	};
 	convert?: Item[][];
-	version: string;
+	version?: string;
 };

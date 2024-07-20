@@ -29,5 +29,5 @@ export type TCGCharacterCard = {
 		character?: Entity;
 	};
 	skills: CharacterCardSkill[];
-	version: string;
+	version?: string;
 };
