@@ -1,0 +1,85 @@
+{
+  "id": "Chevreuse",
+  "shareId": 395,
+  "name": "夏沃蕾",
+  "title": "明律決罰·夏沃蕾",
+  "desc": "知刑執法，公義責罪。",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "長柄武器",
+    "faction": [
+      "楓丹"
+    ],
+    "source": "在貓尾酒館中邀請夏沃蕾進行對局，在友好對局難度中獲得勝利後獲得",
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "線列槍刺·改",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "近迫式急促攔射",
+      "desc": "造成2點火元素傷害。 此技能結算後：如果我方手牌中含有超量裝藥彈頭，則捨棄1張並治療我方受傷最多的角色1點。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "圓陣擲彈爆轟術",
+      "desc": "造成2點火元素傷害，在敵方場上生成二重毀傷彈。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "縱陣武力統籌",
+      "desc": "【被動】敵方角色受到超載反應傷害後：生成手牌超量裝藥彈頭（每回合1次）",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

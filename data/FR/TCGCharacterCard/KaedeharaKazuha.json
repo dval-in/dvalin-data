@@ -1,77 +1,142 @@
 {
-	"id": "KaedeharaKazuha",
-	"shareid": 40,
-	"name": "Kaedehara Kazuha",
-	"title": "Kaedehara Kazuha · Tourbillon de feuilles écarlates",
-	"desc": "Les fleurs et les oiseaux sont un plaisir cher à celui qui serpente sous le clair de lune.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Anémo",
-		"weapon": "Épée à une main",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "PoeticsOfFuubutsu",
-			"name": "Poetics of Fuubutsu"
-		},
-		"source": "Récompense pour avoir invité Kaedehara Kazuha à une partie amicale dans La Queue de Chat et remporté la victoire",
-		"character": {
-			"id": "KaedeharaKazuha",
-			"name": "Kaedehara Kazuha",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "GaryuuBladework",
-			"name": "Escrime de Garyuu",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anémo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Chihayaburu",
-			"name": "Véhémence divine",
-			"desc": "Inflige 3 pts de <span style=\"color:#80FFD7FF\">DGT Anémo et accorde un <span style=\"color:#FFFFFFFF\">contrôle du chaos au personnage.Si cette capacité déclenche une Dispersion, le <span style=\"color:#FFFFFFFF\">contrôle du chaos est converti en l'élément dispersé.<span style=\"color:#FFFFFFFF\">Après le calcul de la capacité, vous basculez pour le personnage suivant.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anémo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KazuhaSlash",
-			"name": "Coupure de mille feuilles",
-			"desc": "Inflige 3 pts de <span style=\"color:#80FFD7FF\">DGT Anémo et invoque un <span style=\"color:#FFFFFFFF\">vent d'automne.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anémo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "KaedeharaKazuha",
+  "shareid": 40,
+  "name": "Kaedehara Kazuha",
+  "title": "Kaedehara Kazuha · Tourbillon de feuilles écarlates",
+  "desc": "Les fleurs et les oiseaux sont un plaisir cher à celui qui serpente sous le clair de lune.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Anémo",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "PoeticsOfFuubutsu",
+      "name": "Poetics of Fuubutsu"
+    },
+    "source": "Récompense pour avoir invité Kaedehara Kazuha à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "KaedeharaKazuha",
+      "name": "Kaedehara Kazuha",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "GaryuuBladework",
+      "name": "Escrime de Garyuu",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Chihayaburu",
+      "name": "Véhémence divine",
+      "desc": "Inflige 3 pts de DGT Anémo et accorde un contrôle du chaos au personnage.Si cette capacité déclenche une Dispersion, le contrôle du chaos est converti en l'élément dispersé.Après le calcul de la capacité, vous basculez pour le personnage suivant.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KazuhaSlash",
+      "name": "Coupure de mille feuilles",
+      "desc": "Inflige 3 pts de DGT Anémo et invoque un vent d'automne.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GaryuuBladework",
+      "name": "Escrime de Garyuu",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Chihayaburu",
+      "name": "Véhémence divine",
+      "desc": "Inflige 1 pt de DGT Anémo et applique un contrôle du chaos au personnage. Si cette capacité déclenche une Dispersion, le contrôle du chaos est converti en l'élément dispersé. Après le calcul de la capacité, vous basculez pour le personnage suivant.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KazuhaSlash",
+      "name": "Coupure de mille feuilles",
+      "desc": "Inflige 1 pt de DGT Anémo et invoque un vent d'automne.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anémo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 40
 }

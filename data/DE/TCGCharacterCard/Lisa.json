@@ -1,77 +1,142 @@
 {
-	"id": "Lisa",
-	"shareid": 34,
-	"name": "Lisa",
-	"title": "Rosenhexe – Lisa",
-	"desc": "Erforsche die Geheimnisse der Magie und warte darauf, dass die Wahrheit ans Licht kommt.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Elektro",
-		"weapon": "Katalysator",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "PulsatingWitch",
-			"name": "Pulsating Witch"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Lisa in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Lisa",
-			"name": "Lisa",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "LightningTouch",
-			"name": "Elektrisierende Berührung",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH.Wenn es sich gerade bei dieser Fähigkeit um <span style=\"color:#FFFFFFFF\">heftige Schläge handelt, wird der aktiven Figur deines Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter verliehen.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VioletArc",
-			"name": "Lila Lichtbogen",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH. Verleiht der aktiven Figur des Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter, wenn sie nicht hiervon betroffen ist.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "LightningRose",
-			"name": "Rosenblitz",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Rosenblitz.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Lisa",
+  "shareid": 34,
+  "name": "Lisa",
+  "title": "Rosenhexe – Lisa",
+  "desc": "Erforsche die Geheimnisse der Magie und warte darauf, dass die Wahrheit ans Licht kommt.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Katalysator",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "PulsatingWitch",
+      "name": "Pulsating Witch"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lisa in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Lisa",
+      "name": "Lisa",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LightningTouch",
+      "name": "Elektrisierende Berührung",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH.Wenn es sich gerade bei dieser Fähigkeit um heftige Schläge handelt, wird der aktiven Figur deines Gegners Blitzleiter verliehen.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Lila Lichtbogen",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH. Verleiht der aktiven Figur des Gegners Blitzleiter, wenn sie nicht hiervon betroffen ist.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rosenblitz",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Rosenblitz.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Elektrisierende Berührung",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH. Wenn es sich gerade bei dieser Fähigkeit um heftige Schläge handelt, wird der aktiven Figur deines Gegners Blitzleiter verliehen.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Lila Lichtbogen",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH. Verleiht der aktiven Figur des Gegners Blitzleiter, wenn sie nicht hiervon betroffen ist.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rosenblitz",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Rosenblitz und verleiht der aktiven Figur des Gegners Blitzleiter.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 34
 }

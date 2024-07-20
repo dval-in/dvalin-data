@@ -1,77 +1,142 @@
 {
-	"id": "KaedeharaKazuha",
-	"shareid": 40,
-	"name": "枫原万叶",
-	"title": "红叶逐荒波·枫原万叶",
-	"desc": "拾花鸟之一趣，照月风之长路。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "风元素",
-		"weapon": "单手剑",
-		"faction": ["稻妻"],
-		"talentCard": {
-			"id": "PoeticsOfFuubutsu",
-			"name": "Poetics of Fuubutsu"
-		},
-		"source": "在猫尾酒馆中邀请枫原万叶进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "KaedeharaKazuha",
-			"name": "Kaedehara Kazuha",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "GaryuuBladework",
-			"name": "我流剑术",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "风元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Chihayaburu",
-			"name": "千早振",
-			"desc": "造成3点<span style=\"color:#80FFD7FF\">风元素伤害，本角色附属<span style=\"color:#FFFFFFFF\">乱岚拨止。如果此技能引发了扩散，则将<span style=\"color:#FFFFFFFF\">乱岚拨止转换为被扩散的元素。<span style=\"color:#FFFFFFFF\">此技能结算后：我方切换到后一个角色。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "风元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KazuhaSlash",
-			"name": "万叶之一刀",
-			"desc": "造成3点<span style=\"color:#80FFD7FF\">风元素伤害，召唤<span style=\"color:#FFFFFFFF\">流风秋野。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "风元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "KaedeharaKazuha",
+  "shareid": 40,
+  "name": "枫原万叶",
+  "title": "红叶逐荒波·枫原万叶",
+  "desc": "拾花鸟之一趣，照月风之长路。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "风元素",
+    "weapon": "单手剑",
+    "faction": [
+      "稻妻",
+      "稻妻"
+    ],
+    "talentCard": {
+      "id": "PoeticsOfFuubutsu",
+      "name": "Poetics of Fuubutsu"
+    },
+    "source": "在猫尾酒馆中邀请枫原万叶进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "KaedeharaKazuha",
+      "name": "Kaedehara Kazuha",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "GaryuuBladework",
+      "name": "我流剑术",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Chihayaburu",
+      "name": "千早振",
+      "desc": "造成3点风元素伤害，本角色附属乱岚拨止。如果此技能引发了扩散，则将乱岚拨止转换为被扩散的元素。此技能结算后：我方切换到后一个角色。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KazuhaSlash",
+      "name": "万叶之一刀",
+      "desc": "造成3点风元素伤害，召唤流风秋野。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GaryuuBladework",
+      "name": "我流剑术",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "风元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Chihayaburu",
+      "name": "千早振",
+      "desc": "造成1点风元素伤害，本角色附属乱岚拨止。 如果此技能引发了扩散，则将乱岚拨止转换为被扩散的元素。 此技能结算后：我方切换到下一个角色。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "风元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KazuhaSlash",
+      "name": "万叶之一刀",
+      "desc": "造成1点风元素伤害，召唤流风秋野。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "风元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 40
 }

@@ -1,29 +1,44 @@
 {
-	"id": "MirrorCage",
-	"shareid": 114,
-	"name": "Prison de miroir",
-	"title": "Secret du miroir",
-	"desc": "« Miroir, mon beau miroir, dis-moi où sont mes ennemis ? »",
-	"inPlayDescription": "L'<span style=\"color:#FFFFFFFF\">éclat de miroir d'eau créé par la Suivante miroir des Fatui équipée de cette carte déclenche les effets suivants :<span style=\"color:#FFFFFFFF\">Durée en manches de départ de l'éclat de miroir d'eau +1 et nombre de dés élémentaires à utiliser pour basculer le personnage affecté pour un autre personnage +1.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Hydro",
-		"cardType": "Carte d'équipement",
-		"energy": [
-			{
-				"id": "Hydro",
-				"type": "Hydro",
-				"count": 3
-			}
-		],
-		"source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et terminé les objectifs de défi lors d'une partie amicale contre la Suivante miroir",
-		"tags": ["Aptitude", "Action de combat"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Action de combat : Lorsque votre personnage actif est la <span style=\"color:#FFFFFFFF\">Suivante miroir des Fatui, équipe cette carte.Une fois la Suivante miroir des Fatui équipée de cette carte, utilise immédiatement <span style=\"color:#FFD780FF\">Explosion d'afflux une fois.L'<span style=\"color:#FFFFFFFF\">éclat de miroir d'eau créé par la Suivante miroir des Fatui équipée de cette carte déclenche les effets suivants :<span style=\"color:#FFFFFFFF\">Durée en manches de départ de l'éclat de miroir d'eau +1 et nombre de dés élémentaires à utiliser pour basculer le personnage affecté pour un autre personnage +1.(Votre deck doit contenir la Suivante miroir des Fatui pour pouvoir y ajouter cette carte)"
-		}
-	],
-	"version": "4.4"
+  "id": "MirrorCage",
+  "shareid": 114,
+  "name": "Prison de miroir",
+  "title": "Secret du miroir",
+  "desc": "« Miroir, mon beau miroir, dis-moi où sont mes ennemis ? »",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Durée en manches</span> de départ de l'<span style=\"color:#FFFFFFFF\">éclat de miroir d'eau</span> créé par la Suivante miroir des Fatui équipée de cette carte +1 et <span style=\"color:#80C0FFFF\">DGT Hydro</span> subis par le personnage affecté +1.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Hydro",
+    "cardType": "Carte d'équipement",
+    "energy": [
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      },
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      }
+    ],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et terminé les objectifs de défi lors d'une partie amicale contre la Suivante miroir",
+    "tags": [
+      "Aptitude",
+      "Action de combat",
+      "Aptitude",
+      "Action de combat"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Action de combat : Lorsque votre personnage actif est la Suivante miroir des Fatui, équipe cette carte.Une fois la Suivante miroir des Fatui équipée de cette carte, utilise immédiatement Explosion d'afflux une fois.L'éclat de miroir d'eau créé par la Suivante miroir des Fatui équipée de cette carte déclenche les effets suivants :Durée en manches de départ de l'éclat de miroir d'eau +1 et nombre de dés élémentaires à utiliser pour basculer le personnage affecté pour un autre personnage +1.(Votre deck doit contenir la Suivante miroir des Fatui pour pouvoir y ajouter cette carte)"
+    },
+    {
+      "name": "",
+      "desc": "Action de combat : Lorsque votre personnage actif est la Suivante miroir des Fatui, équipe cette carte. Une fois la Suivante miroir des Fatui équipée de cette carte, utilise immédiatement Explosion d'afflux une fois. Durée en manches de départ de l'éclat de miroir d'eau créé par la Suivante miroir des Fatui équipée de cette carte +1 et DGT Hydro subis par le personnage affecté +1. (Votre deck doit contenir la Suivante miroir des Fatui pour pouvoir y ajouter cette carte)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 114
 }

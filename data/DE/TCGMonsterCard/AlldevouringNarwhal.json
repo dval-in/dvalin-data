@@ -10,6 +10,7 @@
     "element": "Hydro",
     "weapon": "Andere Waffen",
     "faction": [
+      "Monster",
       "Monster"
     ],
     "source": null,
@@ -40,6 +41,70 @@
       "id": "StarfallShower",
       "name": "Prasselnder Sternenregen",
       "desc": "Verursacht $[D__KEY__DAMAGE_2] Pkt. Hydro-SCH. Für je 3 Pkt. max. LP, die Unstillbarer Appetit der Figur gewährt, wird dieser SCH um 1 Pkt. erhöht (max. 5 Pkt.). Danach wird 1 Karte mit den höchsten ursprünglichen Elementarwürfelkosten auf deiner Hand abgeworfen.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Verwüstender Verschlinger",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH, fügt allen inaktiven Figuren deines Gegners 1 Pkt. durchdringenden SCH zu. Erschafft 1 Schwarzes Phantom.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Unstillbarer Appetit",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 Sphäre des Verschlingers.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShatteringWaves",
+      "name": "Wellenwirbel",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Prasselnder Sternenregen",
+      "desc": "Verursacht $[D__KEY__DAMAGE_2] Pkt. Hydro-SCH. Für je 3 Pkt. max. LP, die Unstillbarer Appetit der Figur gewährt, wird dieser SCH um 1 Pkt. erhöht (max. 4 Pkt.). Danach wird 1 Karte mit den höchsten ursprünglichen Elementarwürfelkosten abgeworfen.",
       "skillTag": [
         "Elementarfähigkeit"
       ],

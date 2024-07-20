@@ -1,0 +1,85 @@
+{
+  "id": "FrostOperative",
+  "shareId": 4109,
+  "name": "우인단·서리 심부름꾼",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "우인단"
+    ],
+    "source": null,
+    "cardType": "캐릭터 카드"
+  },
+  "skills": [
+    {
+      "id": "SwiftPoint",
+      "name": "빠른 칼끝",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostyInterjection",
+      "name": "서늘한 요격",
+      "desc": "얼음 원소 피해를 3pt 준다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThornyOnslaught",
+      "name": "기습 찌르기",
+      "desc": "얼음 원소 피해를 4pt 주고 본 캐릭터에게 예리한 기습을 부착한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BloodbondedShadow",
+      "name": "기습 핏빛 계약",
+      "desc": "[패시브] 본 캐릭터가 스킬 사용 후: 상대 출전 캐릭터에게 사용 가능 횟수가 (해당 스킬 최종 피해량-2)인 생명의 계약을 부착한다. (최대 5스택)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}
