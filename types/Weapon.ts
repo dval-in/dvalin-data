@@ -1,8 +1,4 @@
 type AscensionMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
@@ -10,9 +6,6 @@ type AscensionMaterial = {
 };
 
 export type WeaponAscension = {
-	/**
-	 * @TJS-required
-	 */
 	ascension: number;
 	level: number;
 	cost: number;
@@ -20,17 +13,11 @@ export type WeaponAscension = {
 };
 
 type WeaponRefinement = {
-	/**
-	 * @TJS-required
-	 */
 	refinement: number;
 	desc: string;
 };
 
 type StatLevel = {
-	/**
-	 * @TJS-required
-	 */
 	ascension: number;
 	level: number;
 	primary: number;
@@ -38,19 +25,12 @@ type StatLevel = {
 };
 
 type WeaponStat = {
-	/**
-	 * @TJS-required
-	 */
 	primary: string;
 	secondary?: string;
 	levels: StatLevel[];
 };
 
 export type Weapon = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -67,7 +47,7 @@ export type Weapon = {
 		params: [string[]];
 	};
 	refinements: WeaponRefinement[];
-	version: string;
+	version?: string;
 	pictures: {
 		icon: string;
 	};

@@ -1,7 +1,4 @@
 export type Achievement = {
-	/**
-	 * @TJS-required
-	 */
 	id: number;
 	name: string;
 	desc: string;
@@ -11,15 +8,11 @@ export type Achievement = {
 	version: string;
 	region?: string;
 	quest?: string;
+	preStage?: number;
 	questType?: 'worldQuests' | 'archonQuests' | 'commissions';
 };
 
 export type AchievementCategory = {
-	/**
-	 * @TJS-required
-	 */
-
-	_id: number;
 	id: string;
 	name: string;
 	order: number;

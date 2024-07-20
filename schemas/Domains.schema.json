@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Domains",
+  "definitions": {
+    "Domains": {
+      "type": "object",
+      "properties": {
+        "characters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "domainName": {
+                "type": "string"
+              },
+              "rotation": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "day": {
+                      "type": "string"
+                    },
+                    "ids": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "day",
+                    "ids"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "domainName",
+              "rotation"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "weapons": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "domainName": {
+                "type": "string"
+              },
+              "rotation": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "day": {
+                      "type": "string"
+                    },
+                    "ids": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "day",
+                    "ids"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "domainName",
+              "rotation"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "characters",
+        "weapons"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

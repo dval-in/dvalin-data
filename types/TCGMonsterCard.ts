@@ -1,24 +1,13 @@
 type SkillPoint = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	type: string;
 	count: number;
 };
 type Entity = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 };
 export type MonsterCardSkill = {
-	/**
-	 * @TJS-required
-	 */
 	id: string;
 	name: string;
 	desc: string;
@@ -26,10 +15,6 @@ export type MonsterCardSkill = {
 	points: SkillPoint[];
 };
 export type TCGMonsterCard = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	title?: string;
@@ -45,5 +30,5 @@ export type TCGMonsterCard = {
 		monster?: Entity;
 	};
 	skills: MonsterCardSkill[];
-	version: string;
+	version?: string;
 };

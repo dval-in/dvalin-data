@@ -1,32 +1,42 @@
 {
-  "name": "dvalin-data",
-  "type": "module",
-  "scripts": {
-    "schemas": "node ./scripts/GenerateSchemas.js",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "i": "^0.3.7",
-    "jsdom": "^24.1.0",
-    "string-strip-html": "^13.4.8",
-    "typescript-json-schema": "^0.64.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@types/bun": "^1.1.6",
-    "axios": "^1.7.2",
-    "cheerio": "^1.0.0-rc.12",
-    "eslint": "^9.3.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^7.16.1"
-  },
-  "engines": {
-    "pnpm": ">= 9",
-    "npm": "please-use-pnpm",
-    "yarn": "please-use-pnpm"
-  }
+	"name": "dvalin-data",
+	"type": "module",
+	"scripts": {
+		"lint": "eslint .",
+		"validate-json": "bun run scripts/workflow/validate_json.ts"
+	},
+	"lint-staged": {
+		"types/**/*.ts": [
+			"eslint .",
+			"bun run scripts/workflow/generate-schemas.ts",
+			"git add schemas/*.schema.json"
+		]
+	},
+	"dependencies": {
+		"ajv": "^8.17.1",
+		"i": "^0.3.7",
+		"jsdom": "^24.1.0",
+		"string-strip-html": "^13.4.8",
+		"ts-json-schema-generator": "^2.3.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@types/bun": "^1.1.6",
+		"axios": "^1.7.2",
+		"bun-types": "^1.1.20",
+		"cheerio": "^1.0.0-rc.12",
+		"eslint": "^9.3.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.2.1",
+		"prettier": "^3.3.3",
+		"typescript": "^5.5.3",
+		"typescript-eslint": "^7.16.1"
+	},
+	"engines": {
+		"bun": "^1.1.18",
+		"pnpm": "please-use-bun",
+		"npm": "please-use-bun",
+		"yarn": "please-use-bun"
+	}
 }

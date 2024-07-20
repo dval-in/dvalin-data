@@ -1,0 +1,438 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "SkillAttribute": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "label",
+        "values"
+      ],
+      "additionalProperties": false
+    },
+    "Skill": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "info": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/SkillAttribute"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "info",
+        "attributes"
+      ],
+      "additionalProperties": false
+    },
+    "Passive": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "level": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "level"
+      ],
+      "additionalProperties": false
+    },
+    "Constellation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "level": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "level"
+      ],
+      "additionalProperties": false
+    },
+    "AscensionMaterial": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "number"
+        },
+        "rarity": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "amount",
+        "rarity"
+      ],
+      "additionalProperties": false
+    },
+    "AscendStat": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "values": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "number"
+            ]
+          }
+        }
+      },
+      "required": [
+        "label"
+      ],
+      "additionalProperties": false
+    },
+    "Ascension": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "cost": {
+          "type": "number"
+        },
+        "stats": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AscendStat"
+          }
+        },
+        "mat1": {
+          "$ref": "#/definitions/AscensionMaterial"
+        },
+        "mat2": {
+          "$ref": "#/definitions/AscensionMaterial"
+        },
+        "mat3": {
+          "$ref": "#/definitions/AscensionMaterial"
+        },
+        "mat4": {
+          "$ref": "#/definitions/AscensionMaterial"
+        }
+      },
+      "required": [
+        "level",
+        "stats"
+      ],
+      "additionalProperties": false
+    },
+    "CharacterVoice": {
+      "type": "object",
+      "properties": {
+        "english": {
+          "type": "string"
+        },
+        "chinese": {
+          "type": "string"
+        },
+        "japanese": {
+          "type": "string"
+        },
+        "korean": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "english",
+        "chinese",
+        "japanese",
+        "korean"
+      ],
+      "additionalProperties": false
+    },
+    "TalentMaterial": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "number"
+        },
+        "cost": {
+          "type": "number"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/AscensionMaterial"
+          }
+        }
+      },
+      "required": [
+        "level",
+        "cost",
+        "items"
+      ],
+      "additionalProperties": false
+    },
+    "CharacterPicture": {
+      "type": "object",
+      "properties": {
+        "icon": {
+          "type": "string"
+        },
+        "sideIcon": {
+          "type": "string"
+        },
+        "gatchaCard": {
+          "type": "string"
+        },
+        "gachaSplash": {
+          "type": "string"
+        },
+        "face": {
+          "type": "string"
+        },
+        "halfFace": {
+          "type": "string"
+        },
+        "profile": {
+          "type": "string"
+        },
+        "weaponStance": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "icon",
+        "sideIcon",
+        "gatchaCard",
+        "gachaSplash",
+        "face",
+        "halfFace",
+        "profile",
+        "weaponStance"
+      ],
+      "additionalProperties": false
+    },
+    "Outfits": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "picture": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "picture",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "Character": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "weaponType": {
+          "type": "string"
+        },
+        "element": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "substat": {
+          "type": "string"
+        },
+        "affiliation": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "number"
+        },
+        "birthday": {
+          "type": "string"
+        },
+        "pictures": {
+          "$ref": "#/definitions/CharacterPicture"
+        },
+        "outfits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Outfits"
+          }
+        },
+        "signatureWeapon": {
+          "type": "string"
+        },
+        "signatureArtifactSet": {
+          "type": "string"
+        },
+        "specialDish": {
+          "type": "string"
+        },
+        "featuredBanner": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tcgCharacterCard": {
+          "type": "string"
+        },
+        "constellation": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        },
+        "cv": {
+          "$ref": "#/definitions/CharacterVoice"
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Skill"
+          }
+        },
+        "passives": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Passive"
+          }
+        },
+        "constellations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Constellation"
+          }
+        },
+        "ascension": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Ascension"
+          }
+        },
+        "talentMaterials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TalentMaterial"
+          }
+        },
+        "version": {
+          "type": "string"
+        },
+        "release": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "weaponType",
+        "element",
+        "gender",
+        "substat",
+        "affiliation",
+        "rarity",
+        "birthday",
+        "pictures",
+        "signatureWeapon",
+        "specialDish",
+        "featuredBanner",
+        "constellation",
+        "domain",
+        "cv",
+        "skills",
+        "passives",
+        "constellations",
+        "ascension",
+        "talentMaterials",
+        "version",
+        "release"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

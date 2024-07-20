@@ -10,8 +10,8 @@ on:
       - '**'
 
 jobs:
-  check-eslint:
-    name: Run eslint scanning
+  check-data-quality:
+    name: Run eslint and schema validation
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -22,27 +22,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/Iron
-      - uses: pnpm/action-setup@v3
-        name: Install pnpm
+      - uses: oven-sh/setup-bun@v1
+        name: Setup Bun
         with:
-          version: 9
-          run_install: true
+          bun-version: latest
+      - name: Install dependencies
+        run: bun install
       - name: Run ESLint
-        run: pnpm lint
-  check-schemas:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: lts/Iron
-      - uses: pnpm/action-setup@v3
-        name: Install pnpm
-        with:
-          version: 9
-          run_install: true
-      - name: Check JSON Schemas
-        continue-on-error: true
-        run: |
-          pnpm install -g ajv-cli
-          node scripts/ValidateSchemas.js
+        run: bun lint
+      - name: Validate JSON against schemas
+        run: bun run validate-json

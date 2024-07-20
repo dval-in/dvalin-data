@@ -1,18 +1,10 @@
 type ArtifactSet = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description?: string;
 };
 
 export type Artifact = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	minRarity: number;
@@ -25,5 +17,5 @@ export type Artifact = {
 	onePiece?: string;
 	twoPiece?: string;
 	fourPiece?: string;
-	version: string;
+	version?: string;
 };

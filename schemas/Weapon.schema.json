@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "WeaponAscension": {
+      "type": "object",
+      "properties": {
+        "ascension": {
+          "type": "number"
+        },
+        "level": {
+          "type": "number"
+        },
+        "cost": {
+          "type": "number"
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "rarity": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "amount",
+              "rarity"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "ascension",
+        "level",
+        "cost",
+        "materials"
+      ],
+      "additionalProperties": false
+    },
+    "Weapon": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "number"
+        },
+        "type": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        },
+        "passive": {
+          "type": "string"
+        },
+        "bonus": {
+          "type": "string"
+        },
+        "stats": {
+          "type": "object",
+          "properties": {
+            "primary": {
+              "type": "string"
+            },
+            "secondary": {
+              "type": "string"
+            },
+            "levels": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "ascension": {
+                    "type": "number"
+                  },
+                  "level": {
+                    "type": "number"
+                  },
+                  "primary": {
+                    "type": "number"
+                  },
+                  "secondary": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "ascension",
+                  "level",
+                  "primary"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "primary",
+            "levels"
+          ],
+          "additionalProperties": false
+        },
+        "ascensions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WeaponAscension"
+          }
+        },
+        "refinementRaw": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "template": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "minItems": 1,
+              "maxItems": 1
+            }
+          },
+          "required": [
+            "name",
+            "template",
+            "params"
+          ],
+          "additionalProperties": false
+        },
+        "refinements": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "refinement": {
+                "type": "number"
+              },
+              "desc": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "refinement",
+              "desc"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "version": {
+          "type": "string"
+        },
+        "pictures": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "icon"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "rarity",
+        "type",
+        "domain",
+        "passive",
+        "bonus",
+        "stats",
+        "ascensions",
+        "refinementRaw",
+        "refinements",
+        "pictures"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

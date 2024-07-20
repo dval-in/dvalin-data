@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Food",
+  "definitions": {
+    "Food": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "ingredients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "amount"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "dishType": {
+          "type": "string"
+        },
+        "results": {
+          "type": "object",
+          "properties": {
+            "normal": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "effect": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "description",
+                "effect"
+              ],
+              "additionalProperties": false
+            },
+            "delicious": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "effect": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "description",
+                "effect"
+              ],
+              "additionalProperties": false
+            },
+            "suspicious": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "effect": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "description",
+                "effect"
+              ],
+              "additionalProperties": false
+            },
+            "special": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "effect": {
+                  "type": "string"
+                },
+                "character": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "description",
+                "effect",
+                "character"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "normal",
+            "delicious",
+            "suspicious"
+          ],
+          "additionalProperties": false
+        },
+        "rarity": {
+          "type": "number"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "ingredients",
+        "dishType",
+        "results",
+        "rarity"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

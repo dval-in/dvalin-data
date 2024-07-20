@@ -1,16 +1,10 @@
 type Ingredient = {
-	/**
-	 * @TJS-required
-	 */
 	id: string;
 	name: string;
 	amount: number;
 };
 
 type FoodResult = {
-	/**
-	 * @TJS-required
-	 */
 	normal: {
 		name: string;
 		description: string;
@@ -39,10 +33,6 @@ type FoodResult = {
 };
 
 export type Food = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -50,5 +40,5 @@ export type Food = {
 	dishType: string;
 	results: FoodResult;
 	rarity: number;
-	version: string;
+	version?: string;
 };

@@ -1,18 +1,10 @@
 type Item = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
 };
 
 export type WeaponSecondaryMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -22,5 +14,5 @@ export type WeaponSecondaryMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	version: string;
+	version?: string;
 };

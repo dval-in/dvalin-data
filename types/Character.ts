@@ -1,16 +1,9 @@
 export type SkillAttribute = {
-	/**
-	 * @TJS-required
-	 */
 	label: string;
 	values: string[];
 };
 
 export type Skill = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -19,9 +12,6 @@ export type Skill = {
 };
 
 export type Passive = {
-	/**
-	 * @TJS-required
-	 */
 	id: string;
 	name: string;
 	description: string;
@@ -29,10 +19,6 @@ export type Passive = {
 };
 
 export type Constellation = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -40,10 +26,6 @@ export type Constellation = {
 };
 
 export type AscensionMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
@@ -51,17 +33,11 @@ export type AscensionMaterial = {
 };
 
 export type AscendStat = {
-	/**
-	 * @TJS-required
-	 */
 	label: string;
 	values: Array<string | number> | undefined;
 };
 
 export type Ascension = {
-	/**
-	 * @TJS-required
-	 */
 	level: [number];
 	cost?: number;
 	stats: AscendStat[];
@@ -72,9 +48,6 @@ export type Ascension = {
 };
 
 export type CharacterVoice = {
-	/**
-	 * @TJS-required
-	 */
 	english: string;
 	chinese: string;
 	japanese: string;
@@ -82,18 +55,12 @@ export type CharacterVoice = {
 };
 
 export type TalentMaterial = {
-	/**
-	 * @TJS-required
-	 */
 	level: number;
 	cost: number;
 	items: AscensionMaterial[];
 };
 
 export type CharacterPicture = {
-	/**
-	 * @TJS-required
-	 */
 	icon: string;
 	sideIcon: string;
 	gatchaCard: string;
@@ -105,10 +72,6 @@ export type CharacterPicture = {
 };
 
 export type Outfits = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	picture: string;
@@ -116,10 +79,6 @@ export type Outfits = {
 };
 
 export type Character = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	title?: string;
@@ -148,4 +107,5 @@ export type Character = {
 	ascension: Ascension[];
 	talentMaterials: TalentMaterial[];
 	version: string;
+	release: number;
 };

@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Achievement": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "reward": {
+          "type": "number"
+        },
+        "hidden": {
+          "type": "boolean"
+        },
+        "order": {
+          "type": "number"
+        },
+        "version": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "quest": {
+          "type": "string"
+        },
+        "preStage": {
+          "type": "number"
+        },
+        "questType": {
+          "type": "string",
+          "enum": [
+            "worldQuests",
+            "archonQuests",
+            "commissions"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "reward",
+        "hidden",
+        "order",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "AchievementCategory": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "order": {
+          "type": "number"
+        },
+        "achievements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Achievement"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "order",
+        "achievements"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

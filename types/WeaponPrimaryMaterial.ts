@@ -1,18 +1,10 @@
 type Item = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
 };
 
 export type WeaponPrimaryMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -25,5 +17,5 @@ export type WeaponPrimaryMaterial = {
 	};
 	domain: string;
 	days: string[];
-	version: string;
+	version?: string;
 };

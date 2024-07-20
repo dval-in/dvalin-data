@@ -1,18 +1,10 @@
 type Item = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
 };
 
 export type TalentLvlUpMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
@@ -23,7 +15,8 @@ export type TalentLvlUpMaterial = {
 		cost: number;
 		items: Item[];
 	};
+	convert?: Item[][];
 	domain?: string;
 	days?: string[];
-	version: string;
+	version?: string;
 };

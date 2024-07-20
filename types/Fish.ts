@@ -1,17 +1,13 @@
 export type Fish = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
 	rarity: number;
 	source: string[];
-	bait: {
+	bait?: {
 		id: string;
 		name: string;
 		rarity: number;
 	};
-	version: string;
+	version?: string;
 };
