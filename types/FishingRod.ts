@@ -5,9 +5,11 @@ export type FishingRod = {
 	rarity: number;
 	source: string[];
 	version?: string;
-	processing?: {
-		id: string;
-		name: string;
-		amount: number;
-	};
+	processing?: Item[];
+};
+
+type Item = {
+	id: string;
+	name: string;
+	amount: number;
 };
