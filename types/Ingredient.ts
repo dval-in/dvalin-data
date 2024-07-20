@@ -12,7 +12,7 @@ type Recipe = {
 export type Ingredients = {
 	id: string;
 	name: string;
-	description: string;
+	description?: string;
 	processing?: Item[];
 	recipes?: Recipe[];
 	source?: string[];
