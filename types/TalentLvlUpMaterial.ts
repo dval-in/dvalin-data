@@ -4,10 +4,6 @@ type Item = {
 	amount: number;
 };
 
-type Convert = {
-	[key: string]: Item;
-};
-
 export type TalentLvlUpMaterial = {
 	id: string;
 	name: string;
@@ -19,7 +15,7 @@ export type TalentLvlUpMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	convert?: Convert[];
+	convert?: Item[][];
 	domain?: string;
 	days?: string[];
 	version?: string;
