@@ -1,0 +1,156 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/TCGCharacterCard",
+  "definitions": {
+    "TCGCharacterCard": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object",
+          "properties": {
+            "hp": {
+              "type": "number"
+            },
+            "cardType": {
+              "type": "string"
+            },
+            "energy": {
+              "type": "number"
+            },
+            "element": {
+              "type": "string"
+            },
+            "weapon": {
+              "type": "string"
+            },
+            "faction": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "talentCard": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ],
+              "additionalProperties": false
+            },
+            "source": {
+              "type": "string"
+            },
+            "character": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "name"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "hp",
+            "cardType",
+            "energy",
+            "element",
+            "weapon",
+            "faction",
+            "source"
+          ],
+          "additionalProperties": false
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/CharacterCardSkill"
+          }
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "attributes",
+        "skills",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "CharacterCardSkill": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "skillTag": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "count": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "type",
+              "count"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "desc",
+        "skillTag",
+        "points"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

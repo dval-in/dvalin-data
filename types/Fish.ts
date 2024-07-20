@@ -1,8 +1,4 @@
 export type Fish = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;

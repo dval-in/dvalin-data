@@ -1,18 +1,10 @@
 type Item = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
 };
 
 export type Potion = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;

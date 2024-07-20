@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Furnishing",
+  "definitions": {
+    "Furnishing": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "originalId": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "number"
+        },
+        "load": {
+          "type": "number"
+        },
+        "energy": {
+          "type": "number"
+        },
+        "exp": {
+          "type": "number"
+        },
+        "category": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FurnitureCategory"
+          }
+        },
+        "recipe": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FurnitureRecipe"
+          }
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "originalId",
+        "name",
+        "description",
+        "rarity",
+        "category",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "FurnitureCategory": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "category": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "category"
+      ],
+      "additionalProperties": false
+    },
+    "FurnitureRecipe": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "amount": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "amount"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

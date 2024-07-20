@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/ExpMaterial",
+  "definitions": {
+    "ExpMaterial": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "number"
+        },
+        "exp": {
+          "type": "number"
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "description",
+        "rarity",
+        "exp",
+        "version"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

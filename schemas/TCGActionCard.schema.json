@@ -1,0 +1,197 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/TCGActionCard",
+  "definitions": {
+    "TCGActionCard": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        },
+        "in_play_description": {
+          "type": "string"
+        },
+        "attributes": {
+          "type": "object",
+          "properties": {
+            "cost": {
+              "type": "number"
+            },
+            "costType": {
+              "type": "string"
+            },
+            "cardType": {
+              "type": "string"
+            },
+            "energy": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "count": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "id",
+                  "type",
+                  "count"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "source": {
+              "type": "string"
+            },
+            "artifact": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "rarity": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "rarity"
+              ],
+              "additionalProperties": false
+            },
+            "character": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "rarity": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "rarity"
+              ],
+              "additionalProperties": false
+            },
+            "food": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "rarity": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "rarity"
+              ],
+              "additionalProperties": false
+            },
+            "weapon": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "rarity": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "id",
+                "name",
+                "rarity"
+              ],
+              "additionalProperties": false
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "cost",
+            "costType",
+            "cardType",
+            "energy",
+            "source",
+            "tags"
+          ],
+          "additionalProperties": false
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ActionCardSkill"
+          }
+        },
+        "version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "title",
+        "desc",
+        "in_play_description",
+        "attributes",
+        "skills",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "ActionCardSkill": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "desc": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "desc"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,33 +1,18 @@
 export type ActionCardSkill = {
-	/**
-	 * @TJS-required
-	 */
 	name: string;
 	desc: string;
 };
 type Entity = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	rarity: number;
 };
 type Energy = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	type: string;
 	count: number;
 };
 export type TCGActionCard = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	title: string;

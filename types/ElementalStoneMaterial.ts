@@ -1,8 +1,4 @@
 export type ElementalStoneMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	description: string;
