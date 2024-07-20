@@ -1,0 +1,43 @@
+export const langMapping: Record<string, string> = {
+	'chinese-simplified': 'ZHS',
+	'chinese-traditional': 'ZHT',
+	english: 'EN',
+	french: 'FR',
+	german: 'DE',
+	indonesian: 'ID',
+	japanese: 'JP',
+	korean: 'KO',
+	portuguese: 'PT',
+	russian: 'RU',
+	spanish: 'ES',
+	thai: 'TH',
+	vietnamese: 'VI',
+	turkish: 'TR',
+	italian: 'IT'
+};
+
+export const folderMapping: Record<string, string> = {
+	achievements: 'AchievementCategory',
+	artifacts: 'Artifact',
+	bait: 'Bait',
+	characters: 'Character',
+	character_exp_material: 'CharacterExpMaterial',
+	common_materials: 'CommonMaterial',
+	elemental_stone_materials: 'ElementalStoneMaterial',
+	fish: 'Fish',
+	fishing_rod: 'FishingRod',
+	food: 'Food',
+	furnishing: 'Furnishing',
+	ingredients: 'Ingredient',
+	jewels_materials: 'JewelsMaterial',
+	local_materials: 'LocalMaterial',
+	potions: 'Potion',
+	talent_lvl_up_materials: 'TalentLvlUpMaterial',
+	tcg_action: 'TCGActionCard',
+	tcg_characters: 'TCGCharacterCard',
+	tcg_monsters: 'TCGMonsterCard',
+	weapons: 'Weapon',
+	weapon_enhancement_material: 'WeaponEnhancementMaterial',
+	weapon_primary_materials: 'WeaponPrimaryMaterial',
+	weapon_secondary_materials: 'WeaponSecondaryMaterial'
+};

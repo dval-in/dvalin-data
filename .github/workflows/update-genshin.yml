@@ -8,6 +8,9 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout dvalin-data repo
@@ -15,159 +18,73 @@ jobs:
         with:
           repository: "dval-in/dvalin-data"
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: "main"
-          path: "dvalin-data"
+          fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: lts/Iron
+          bun-version: latest
 
-      - uses: pnpm/action-setup@v3
-        name: Install pnpm
-        with:
-          version: 9
-          run_install: true
+      - name: Install dependencies
+        run: bun install
 
-      - name: Read .last_processed_commit
-        id: read_commit
+      - name: Get last processed commit
+        id: get_last_commit
+        run: echo "last_commit=$(cat .last_processed_commit || echo '')" >> $GITHUB_OUTPUT
+
+      - name: Fetch commit history
+        id: fetch_commits
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          LAST_PROCESSED_COMMIT=$(cat dvalin-data/.last_processed_commit)
-          echo "LAST_PROCESSED_COMMIT=$LAST_PROCESSED_COMMIT" >> $GITHUB_ENV
-
-      - name: Fetch commit history since last processed
-        run: |
-          # Initialize the variables
-          COMMITS=""
-          GI_VERSIONS=""
-
-          # Clone the repository
-          git clone --bare https://github.com/dvaJi/genshin-data.git genshin-data-bare
-          cd genshin-data-bare
-
-          # Use git log to fetch commits and process output to a single line
-          if [ -z "$LAST_PROCESSED_COMMIT" ]; then
-            COMMITS=$(git log --reverse --grep='^feat: update GI data v[0-9]\+\.[0-9]\+$' --format='%H' HEAD | tr '\n' ' ')
-          else
-            COMMITS=$(git log --reverse --grep='^feat: update GI data v[0-9]\+\.[0-9]\+$' --format='%H' $LAST_PROCESSED_COMMIT..HEAD | tr '\n' ' ')
+          LAST_COMMIT="${{ steps.get_last_commit.outputs.last_commit }}"
+          COMMITS=$(gh api repos/dvaJi/genshin-data/commits \
+            --jq '.[] | select(.commit.message | test("^feat: update GI data v[0-9]+\\.[0-9]+$")) | "\(.sha) \(.commit.message)"' \
+            ${LAST_COMMIT:+ --since "$LAST_COMMIT"})
+          
+          if [ -z "$COMMITS" ]; then
+            echo "No new commits to process."
+            echo "new_commits=" >> $GITHUB_OUTPUT
+            exit 0
           fi
+          
+          VERSIONS=$(echo "$COMMITS" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p' | tr '\n' ' ')
+          echo "new_commits=$COMMITS" >> $GITHUB_OUTPUT
+          echo "versions=$VERSIONS" >> $GITHUB_OUTPUT
 
-          # Extract the version from each matching commit message
-          if [ -n "$COMMITS" ]; then
-            for COMMIT in $COMMITS; do
-              # Extract the commit message for the matching commit
-              COMMIT_MESSAGE=$(git log --format='%s' -n 1 $COMMIT)
-              # Extract the version from the commit message
-              VERSION=$(echo "$COMMIT_MESSAGE" | grep -o 'v[0-9]\+\.[0-9]\+' | sed 's/^v//')
-              if [ -n "$VERSION" ]; then
-                # Append the version to the GI_VERSIONS variable
-                GI_VERSIONS="$GI_VERSIONS $VERSION"
-              fi
-            done
-            # Remove leading and trailing spaces
-            GI_VERSIONS=$(echo $GI_VERSIONS | xargs)
-          fi
-
-          # Export variables to GitHub environment
-          echo "COMMITS=$COMMITS" >> $GITHUB_ENV
-          echo "GI_VERSIONS=$GI_VERSIONS" >> $GITHUB_ENV
-
-          # Print variables for debugging
-          echo "COMMITS: $COMMITS"
-          echo "GI_VERSIONS: $GI_VERSIONS"
-
-          # Clean up
-          cd ..
-          rm -rf genshin-data-bare
-
-      - name: Exit if no new commits
-        if: ${{ env.COMMITS == '' }}
-        run: echo "No new commits to process. Exiting."
-        continue-on-error: true
-
-      - name: Checkout new branch
-        if: ${{ env.COMMITS != '' }}
+      - name: Process new commits
+        if: steps.fetch_commits.outputs.new_commits != ''
+        env:
+          COMMITS: ${{ steps.fetch_commits.outputs.new_commits }}
+          VERSIONS: ${{ steps.fetch_commits.outputs.versions }}
         run: |
-          cd dvalin-data
-          git config --global user.email "updater@davlin.data"
-          git config --global user.name "updater davlin-data"
-          BRANCH_NAME="update-$(echo ${{ env.GI_VERSIONS }} | tr ' ' '-')"
-          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
-          git checkout -b $BRANCH_NAME
-
-      - name: Get all changed files
-        if: ${{ env.COMMITS != '' }}
-        run: |
-          export PATH=$HOME/.local/share/pnpm:$PATH
-          cd dvalin-data
-          pnpm install
-          set -e  # Ensure the script exits on first error
-          git clone https://github.com/dvaJi/genshin-data.git genshin-data
-          cd genshin-data
-
-          # Convert space-separated strings into newline-separated strings for easier processing in sh
-          COMMITS_NEWLINE=$(echo $COMMITS | tr ' ' '\n')
-          VERSIONS_NEWLINE=$(echo $GI_VERSIONS | tr ' ' '\n')
-
-          # Initialize counters
-          COMMIT_COUNTER=1
-          VERSION_COUNTER=1
-
-          # Iterate over commits and corresponding versions using while loop
-          echo "$COMMITS_NEWLINE" | while read -r COMMIT; do
-            # Get the corresponding version
-            VERSION=$(echo "$VERSIONS_NEWLINE" | awk "NR==$VERSION_COUNTER")
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          echo "$COMMITS" | while read -r COMMIT MESSAGE; do
+            VERSION=$(echo "$MESSAGE" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p')
+            gh api repos/dvaJi/genshin-data/git/trees/$COMMIT \
+              --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
             
-            # Process the commit
-            git diff-tree --no-commit-id --name-only --diff-filter=MA -r "$COMMIT" > changed_files.txt
-            if [ $? -ne 0 ]; then
-              echo "Failed to get changes for commit $COMMIT"
-              exit 1
-            fi
-
-            # Pass the version to the node script
-            cd ..
-            node ./scripts/workflow/update_file.js "$VERSION"
-            echo "$COMMIT" > ./.last_processed_commit
+            bun run ./scripts/workflow/update_file.js "$VERSION"
+            echo "$COMMIT" > .last_processed_commit
             git add .
             git commit -m "feat: update dvalin data v$VERSION"
-            # Increment the version counter
-            VERSION_COUNTER=$((VERSION_COUNTER + 1))
-            cd genshin-data
           done
-          cd ..
-          rm -rf genshin-data
 
-      - name: Push new branch
-        id: pushBranch
-        if: ${{ env.COMMITS != '' }}
-        run: |
-          cd dvalin-data
-          git push origin ${{ env.BRANCH_NAME }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create pull request
-        id: createPR
-        if: ${{ env.COMMITS != '' }}
-        run: |
-          cd dvalin-data
-          gh pr create -B main -H ${{ env.BRANCH_NAME }} --title 'Update repo ${{ env.BRANCH_NAME }}' --body '' | { var=$(cat); echo "GITHUB_PR_URL=${var:11}"; } >> $GITHUB_ENV
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Cleanup createPR
-        if: ${{ failure() && steps.createPR.conclusion == 'failure' && env.GITHUB_PR_URL != '' }}
-        run: |
-          cd dvalin-data
-          gh pr close ${{ env.GITHUB_PR_URL }} -c "CI run failed"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Cleanup pushBranch
-        if: ${{ failure() && steps.pushBranch.conclusion == 'failure' }}
-        run: |
-          cd dvalin-data
-          git push origin --delete ${{ env.BRANCH_NAME }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto-update: Dvalin Data Update"
+          title: "Auto-update: Dvalin Data v${{ steps.fetch_commits.outputs.versions }}"
+          body: |
+            This is an automated pull request to update Dvalin data.
+            
+            Updates made in this pull request:
+            - Updated data to version(s): ${{ steps.fetch_commits.outputs.versions }}
+            
+            Please review the changes and merge if everything looks correct.
+          branch: update-dvalin-data-${{ steps.fetch_commits.outputs.versions }}
+          base: main
+          delete-branch: true
