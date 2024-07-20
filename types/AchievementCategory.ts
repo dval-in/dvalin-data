@@ -8,11 +8,11 @@ export type Achievement = {
 	version: string;
 	region?: string;
 	quest?: string;
+	preStage?: number;
 	questType?: 'worldQuests' | 'archonQuests' | 'commissions';
 };
 
 export type AchievementCategory = {
-	_id: number;
 	id: string;
 	name: string;
 	order: number;

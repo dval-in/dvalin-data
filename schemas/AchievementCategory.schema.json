@@ -1,38 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/AchievementCategory",
   "definitions": {
-    "AchievementCategory": {
-      "type": "object",
-      "properties": {
-        "_id": {
-          "type": "number"
-        },
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "order": {
-          "type": "number"
-        },
-        "achievements": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Achievement"
-          }
-        }
-      },
-      "required": [
-        "_id",
-        "id",
-        "name",
-        "order",
-        "achievements"
-      ],
-      "additionalProperties": false
-    },
     "Achievement": {
       "type": "object",
       "properties": {
@@ -63,6 +31,9 @@
         "quest": {
           "type": "string"
         },
+        "preStage": {
+          "type": "number"
+        },
         "questType": {
           "type": "string",
           "enum": [
@@ -80,6 +51,33 @@
         "hidden",
         "order",
         "version"
+      ],
+      "additionalProperties": false
+    },
+    "AchievementCategory": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "order": {
+          "type": "number"
+        },
+        "achievements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Achievement"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "order",
+        "achievements"
       ],
       "additionalProperties": false
     }

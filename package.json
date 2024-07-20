@@ -2,12 +2,14 @@
 	"name": "dvalin-data",
 	"type": "module",
 	"scripts": {
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"validate-json": "bun run scripts/workflow/validate_json.ts",
+		"generate-schemas": "bun run scripts/workflow/generate-schemas.ts"
 	},
 	"lint-staged": {
 		"types/**/*.ts": [
 			"eslint --fix .",
-			"bun run scripts/generate-schemas.ts",
+			"bun run scripts/workflow/generate-schemas.ts",
 			"git add schemas/*.schema.json"
 		]
 	},
