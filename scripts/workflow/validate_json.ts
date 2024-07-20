@@ -51,7 +51,7 @@ async function validateAllJson(): Promise<void> {
 
 		// Validate special files
 		for (const specialFile of SPECIAL_FILES) {
-			if (specialFile === 'domains.json' && lang !== 'EN') {
+			if (specialFile === 'banners.json' && lang !== 'EN') {
 				continue;
 			}
 			const jsonPath = join(langDir, specialFile);
