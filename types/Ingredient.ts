@@ -18,4 +18,5 @@ export type Ingredient = {
 	source?: string[];
 	version?: string;
 	craft?: Item[];
+	location?: string;
 };
