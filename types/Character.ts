@@ -107,4 +107,5 @@ export type Character = {
 	ascension: Ascension[];
 	talentMaterials: TalentMaterial[];
 	version: string;
+	release: number;
 };
