@@ -1,18 +1,10 @@
 type Item = {
-	/**
-	 * @TJS-required
-	 */
-
 	id: string;
 	name: string;
 	amount: number;
 };
 
-export type JewelMaterial = {
-	/**
-	 * @TJS-required
-	 */
-
+export type JewelsMaterial = {
 	id: string;
 	name: string;
 	description: string;
