@@ -22,10 +22,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: lts/Iron
-      - uses: pnpm/action-setup@v3
-        name: Install pnpm
+      - uses: oven-sh/setup-bun@v1
+        name: Setup Bun
         with:
-          version: 9
-          run_install: true
+            bun-version: latest
       - name: Run ESLint
-        run: pnpm lint
+        run: bun lint

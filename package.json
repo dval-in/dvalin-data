@@ -1,7 +1,9 @@
 {
 	"name": "dvalin-data",
 	"type": "module",
-	"scripts": {},
+	"scripts": {
+		"lint": "eslint ."
+	},
 	"lint-staged": {
 		"types/**/*.ts": [
 			"eslint --fix .",
