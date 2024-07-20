@@ -1,7 +1,7 @@
 import { readdir, readFile } from 'fs/promises';
 import { join } from 'path';
 import Ajv from 'ajv';
-import { toPascalCase } from '../utils';
+import { toPascalCase } from '../utils/stringUtils';
 
 const ajv = new Ajv();
 const DATA_DIR = './data';

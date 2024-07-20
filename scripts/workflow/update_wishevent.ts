@@ -1,7 +1,7 @@
 import { JSDOM } from 'jsdom';
 import { toPascalCase } from '../utils/stringUtils';
 import { write } from 'bun';
-import { ContentBanner } from '../../types/Banner';
+import { ContentBanner } from '../../types/Banners';
 
 const fetchHtmlContent = async (url: string): Promise<string> => {
 	try {
@@ -70,7 +70,7 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 					if (name.includes('Epitome Invocation')) {
 						type = 'Weapon';
 					} else if (name === "Beginners' Wish") {
-						type = "Beginner";
+						type = 'Beginner';
 					} else if (
 						duration === 'Indefinite' ||
 						name.includes('Wanderlust Invocation')

@@ -69,7 +69,7 @@ jobs:
             gh api repos/dvaJi/genshin-data/git/trees/$COMMIT \
               --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
             
-            bun run ./scripts/workflow/update_file.js "$VERSION"
+            bun run ./scripts/workflow/update_file.ts "$VERSION"
             echo "$COMMIT" > .last_processed_commit
             git add .
             git commit -m "feat: update dvalin data v$VERSION"

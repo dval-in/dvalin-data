@@ -1,14 +1,9 @@
 import { join, resolve } from 'path';
-import {
-	readJsonFile,
-	writeJsonFile,
-	merge,
-	transformObject,
-	langMapping,
-	folderMapping,
-	toPascalCase,
-	replaceRomanNumeralsPascalCased
-} from '../utils';
+import { readJsonFile, writeJsonFile } from '../utils/fileUtils';
+import { transformObject } from '../utils/transformUtils';
+import { merge } from '../utils/mergeUtils';
+import { toPascalCase, replaceRomanNumeralsPascalCased } from '../utils/stringUtils';
+import { langMapping, folderMapping } from '../utils/mappings';
 
 const baseDir = resolve('./');
 const version = Bun.argv[2] || '0.0';
