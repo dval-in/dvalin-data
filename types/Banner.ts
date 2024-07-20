@@ -7,7 +7,7 @@ export type ContentBanner = {
 	startDuration: string;
 	duration: string;
 	featured: string[];
-	type: 'Permanent' | 'Character' | 'Weapon' | 'Chronicled';
+	type: 'Beginner' | 'Permanent' | 'Character' | 'Weapon' | 'Chronicled';
 	id: string;
 };
 

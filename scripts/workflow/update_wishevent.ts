@@ -69,10 +69,11 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 					let type: ContentBanner['type'] = 'Character';
 					if (name.includes('Epitome Invocation')) {
 						type = 'Weapon';
+					} else if (name === "Beginners' Wish") {
+						type = "Beginner";
 					} else if (
 						duration === 'Indefinite' ||
-						name.includes('Wanderlust Invocation') ||
-						name === "Beginners' Wish"
+						name.includes('Wanderlust Invocation')
 					) {
 						type = 'Permanent';
 					}
