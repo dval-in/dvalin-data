@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/Ingredients",
+  "$ref": "#/definitions/Ingredient",
   "definitions": {
-    "Ingredients": {
+    "Ingredient": {
       "type": "object",
       "properties": {
         "id": {
@@ -64,6 +64,29 @@
         },
         "version": {
           "type": "string"
+        },
+        "craft": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "amount"
+            ],
+            "additionalProperties": false
+          }
         }
       },
       "required": [
