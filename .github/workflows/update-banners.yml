@@ -11,19 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
           
-      - name: setup node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
 
-      - name: Install unzip
+      - name: Install missing packages
         run: sudo apt-get update && sudo apt-get install -y git curl unzip
 
       - name: Setup Bun
@@ -31,17 +31,17 @@ jobs:
         with:
           bun-version: latest
 
-      - name: Install dependencies
+      - name: Install project dependencies
         run: bun install
 
-      - name: Run script
+      - name: Run update script
         run: bun run ./scripts/workflow/update_wishevent.ts
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6.1.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Auto-update data $(date +'%Y-%m-%d %H:%M:%S')"
+          commit-message: "Auto-update data ${{ format('{0:yyyy-MM-dd HH:mm:ss}', github.event.repository.updated_at) }}"
           title: "Auto-update: Banner Data Update"
           body: |
             This is an automated pull request to update banner data.
@@ -53,4 +53,3 @@ jobs:
           branch: auto-update-banner-data
           base: main
           delete-branch: true
-  
