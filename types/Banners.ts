@@ -1,6 +1,3 @@
-/**
- * @TJS-required
- */
 export type ContentBanner = {
 	version: string;
 	name: string;

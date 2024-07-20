@@ -1,6 +1,7 @@
 import { readdir, readFile } from 'fs/promises';
 import { join } from 'path';
 import Ajv from 'ajv';
+import { toPascalCase } from '../utils';
 
 const ajv = new Ajv();
 const DATA_DIR = './data';
@@ -22,6 +23,8 @@ const LANGUAGE_CODES = [
 	'TR',
 	'IT'
 ];
+
+const SPECIAL_FILES = ['domains.json', 'banners.json'];
 
 async function validateJson(jsonPath: string, schemaPath: string): Promise<void> {
 	const jsonContent = await readFile(jsonPath, 'utf-8');
@@ -45,18 +48,31 @@ async function validateJson(jsonPath: string, schemaPath: string): Promise<void>
 async function validateAllJson(): Promise<void> {
 	for (const lang of LANGUAGE_CODES) {
 		const langDir = join(DATA_DIR, lang);
-		const categories = await readdir(langDir);
 
-		for (const category of categories) {
-			const categoryDir = join(langDir, category);
-			const jsonFiles = await readdir(categoryDir);
+		// Validate special files
+		for (const specialFile of SPECIAL_FILES) {
+			const jsonPath = join(langDir, specialFile);
+			const schemaPath = join(
+				SCHEMAS_DIR,
+				`${toPascalCase(specialFile.replace('.json', ''))}.schema.json`
+			);
+			await validateJson(jsonPath, schemaPath);
+		}
 
-			for (const jsonFile of jsonFiles) {
-				if (jsonFile.endsWith('.json')) {
-					const jsonPath = join(categoryDir, jsonFile);
-					const schemaPath = join(SCHEMAS_DIR, `${category}.schema.json`);
+		// Validate files in category subdirectories
+		const items = await readdir(langDir, { withFileTypes: true });
 
-					await validateJson(jsonPath, schemaPath);
+		for (const item of items) {
+			if (item.isDirectory()) {
+				const categoryDir = join(langDir, item.name);
+				const jsonFiles = await readdir(categoryDir);
+
+				for (const jsonFile of jsonFiles) {
+					if (jsonFile.endsWith('.json')) {
+						const jsonPath = join(categoryDir, jsonFile);
+						const schemaPath = join(SCHEMAS_DIR, `${item.name}.schema.json`);
+						await validateJson(jsonPath, schemaPath);
+					}
 				}
 			}
 		}
