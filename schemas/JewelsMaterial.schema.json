@@ -63,27 +63,27 @@
           "type": "array",
           "items": {
             "type": "object",
-            "properties": {
-              "id": {
-                "type": "string"
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "amount": {
+                  "type": "number"
+                }
               },
-              "name": {
-                "type": "string"
-              },
-              "amount": {
-                "type": "number"
-              }
-            },
-            "required": [
-              "id",
-              "name",
-              "amount"
-            ],
-            "additionalProperties": false,
-            "title": "string"
-          },
-          "minItems": 1,
-          "maxItems": 1
+              "required": [
+                "id",
+                "name",
+                "amount"
+              ],
+              "additionalProperties": false
+            }
+          }
         },
         "version": {
           "type": "string"

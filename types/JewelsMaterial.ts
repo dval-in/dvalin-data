@@ -4,6 +4,10 @@ type Item = {
 	amount: number;
 };
 
+type Convert = {
+	[key: string]: Item;
+};
+
 export type JewelsMaterial = {
 	id: string;
 	name: string;
@@ -14,6 +18,6 @@ export type JewelsMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	convert?: [string: Item];
+	convert?: Convert[];
 	version?: string;
 };
