@@ -32,7 +32,7 @@ const parseDuration = (
 			if (isEndDuration) {
 				date.setHours(17, 59, 59, 999);
 			} else if (isAfterPatch) {
-				date.setHours(6, 0, 0, 0);
+				date.setHours(0, 0, 0, 0);
 			} else {
 				date.setHours(18, 0, 0, 0);
 			}
