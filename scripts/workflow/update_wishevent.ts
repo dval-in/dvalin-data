@@ -19,12 +19,17 @@ const fetchHtmlContent = async (url: string): Promise<string> => {
 	}
 };
 
-const parseDuration = (duration: string): string => {
+const parseDuration = (duration: string, isEndDuration: boolean = false): string => {
 	try {
 		// Attempt to parse the date and convert to ISO string
 		const date = new Date(duration);
 		// Check if the date is valid
 		if (!isNaN(date.getTime())) {
+			if (isEndDuration) {
+				date.setHours(17, 59, 59, 999); // patch banner only go to 14:59:59 but that shouldnt be an issue
+			} else {
+				date.setHours(18, 0, 0, 0);
+			}
 			return date.toISOString();
 		}
 		// If parsing fails or results in an invalid date, return the original string
@@ -71,10 +76,7 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 						type = 'Weapon';
 					} else if (name === "Beginners' Wish") {
 						type = 'Beginner';
-					} else if (
-						duration === 'Indefinite' ||
-						name.includes('Wanderlust Invocation')
-					) {
+					} else {
 						type = 'Permanent';
 					}
 
@@ -82,7 +84,7 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 						version,
 						name,
 						startDuration: parseDuration(startDuration),
-						duration: parseDuration(endDuration),
+						duration: parseDuration(endDuration, true),
 						featured,
 						type,
 						id: toPascalCase(name) + version
