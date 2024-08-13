@@ -19,14 +19,20 @@ const fetchHtmlContent = async (url: string): Promise<string> => {
 	}
 };
 
-const parseDuration = (duration: string, isEndDuration: boolean = false): string => {
+const parseDuration = (
+	duration: string,
+	isEndDuration: boolean = false,
+	isAfterPatch: boolean = false
+): string => {
 	try {
 		// Attempt to parse the date and convert to ISO string
 		const date = new Date(duration);
 		// Check if the date is valid
 		if (!isNaN(date.getTime())) {
 			if (isEndDuration) {
-				date.setHours(17, 59, 59, 999); // patch banner only go to 14:59:59 but that shouldnt be an issue
+				date.setHours(17, 59, 59, 999);
+			} else if (isAfterPatch) {
+				date.setHours(6, 0, 0, 0);
 			} else {
 				date.setHours(18, 0, 0, 0);
 			}
@@ -54,7 +60,7 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 		const version = header.textContent?.trim().replace('Version ', '') || '';
 
 		const table = header.nextElementSibling?.nextElementSibling as HTMLTableElement;
-
+		let dateAfterPatch: string = '';
 		if (table && table.tagName === 'TABLE') {
 			const rows = table.querySelectorAll('tbody tr');
 
@@ -70,7 +76,9 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 					);
 					const duration = cells[2].textContent?.trim() || '';
 					const [startDuration, endDuration] = duration.split('–').map((d) => d.trim());
-
+					if (dateAfterPatch === '') {
+						dateAfterPatch = startDuration;
+					}
 					let type: ContentBanner['type'];
 					if (name.includes('Epitome Invocation')) {
 						type = 'Weapon';
@@ -90,7 +98,11 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 					banners.push({
 						version,
 						name,
-						startDuration: parseDuration(startDuration),
+						startDuration: parseDuration(
+							startDuration,
+							false,
+							dateAfterPatch === startDuration
+						),
 						duration: parseDuration(endDuration, true),
 						featured,
 						type,
