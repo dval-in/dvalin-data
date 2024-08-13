@@ -71,13 +71,18 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 					const duration = cells[2].textContent?.trim() || '';
 					const [startDuration, endDuration] = duration.split('–').map((d) => d.trim());
 
-					let type: ContentBanner['type'] = 'Character';
+					let type: ContentBanner['type'];
 					if (name.includes('Epitome Invocation')) {
 						type = 'Weapon';
 					} else if (name === "Beginners' Wish") {
 						type = 'Beginner';
-					} else {
+					} else if (
+						duration === 'Indefinite' ||
+						name.includes('Wanderlust Invocation')
+					) {
 						type = 'Permanent';
+					} else {
+						type = 'Character';
 					}
 
 					banners.push({
