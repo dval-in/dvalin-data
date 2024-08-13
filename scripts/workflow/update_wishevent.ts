@@ -76,6 +76,8 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 						type = 'Weapon';
 					} else if (name === "Beginners' Wish") {
 						type = 'Beginner';
+					} else if (name.includes('Dawn Breeze')) {
+						type = 'Chronicled';
 					} else if (
 						duration === 'Indefinite' ||
 						name.includes('Wanderlust Invocation')
