@@ -12,6 +12,7 @@
     "weapon": "법구",
     "faction": [
       "몬드",
+      "몬드",
       "몬드"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "장미의 뇌광",
       "desc": "번개 원소 피해를 2pt 주고 장미 뇌광을 소환한다.",
       "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "손끝의 뇌폭",
+      "desc": "번개 원소 피해를 1pt 준다. 해당 스킬이 강공격일 경우, 적 출전 캐릭터에게 전기 전도를 부착한다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "창뢰",
+      "desc": "번개 원소 피해를 2pt 준다. 적 출전 캐릭터에게 전기 전도가 부착되지 않았을 경우, 해당 캐릭터에게 전기 전도가 부착된다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "장미의 뇌광",
+      "desc": "번개 원소 피해를 2pt 주고 장미 뇌광을 소환해 상대 출전 캐릭터에게 전기 전도를 부착한다.",
+      "skillTag": [
         "원소폭발"
       ],
       "points": [

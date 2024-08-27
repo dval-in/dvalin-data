@@ -1,62 +1,123 @@
 {
-	"id": "ElectroHilichurlShooter",
-	"shareid": 3402,
-	"name": "雷箭丘丘人",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 3,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "雷元素",
-		"weapon": "其他武器",
-		"faction": ["魔物", "丘丘人"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThunderArrow",
-			"name": "雷箭",
-			"desc": "造成1点<span style=\"color:#FFACFFFF\">雷元素伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Multishot",
-			"name": "几支一起",
-			"desc": "造成4点<span style=\"color:#FFACFFFF\">雷元素伤害。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Hide",
-			"name": "躲起来",
-			"desc": "【被动】此角色出招后，自动切换到下一个角色。",
-			"skilltag": ["被动技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ElectroHilichurlShooter",
+  "shareid": 3402,
+  "name": "雷箭丘丘人",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "丘丘人",
+      "魔物",
+      "丘丘人"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThunderArrow",
+      "name": "雷箭",
+      "desc": "造成1点雷元素伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "几支一起",
+      "desc": "造成4点雷元素伤害。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "躲起来",
+      "desc": "【被动】此角色出招后，自动切换到下一个角色。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThunderArrow",
+      "name": "雷箭",
+      "desc": "造成1点雷元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "几支一起",
+      "desc": "造成4点雷元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "躲起来",
+      "desc": "【被动】此角色出招后，自动切换到下一个角色。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3402
 }

@@ -1,287 +1,578 @@
 {
-	"id": "OtherworldlyStory",
-	"name": "\u5f02\u4e16\u754c\u884c\u8bb0",
-	"description": "\u5ec9\u4ef7\u7684\u5e7b\u60f3\u5c0f\u8bf4\uff0c\u4e0d\u5177\u5907\u53c2\u8003\u4ef7\u503c\u3002\u4f5c\u4e3a\u6cd5\u5668\u7684\u529b\u91cf\u5f53\u7136\u4e5f\u6765\u81ea\u5e7b\u60f3\u3002",
-	"rarity": 3,
-	"type": "\u6cd5\u5668",
-	"domain": "\u585e\u897f\u8389\u4e9a\u82d7\u5703",
-	"passive": "\u80fd\u91cf\u6c90\u6d74",
-	"bonus": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d1%/1.25%/1.5%/1.75%/2%\u751f\u547d\u503c\u3002",
-	"stats": {
-		"primary": "\u57fa\u7840\u653b\u51fb\u529b",
-		"secondary": "\u5143\u7d20\u5145\u80fd\u6548\u7387",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 39,
-				"secondary": 8.5
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 94,
-				"secondary": 15
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 113,
-				"secondary": 15
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 169,
-				"secondary": 21.9
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 189,
-				"secondary": 21.9
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 216,
-				"secondary": 25.3
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 236,
-				"secondary": 25.3
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 263,
-				"secondary": 28.8
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 282,
-				"secondary": 28.8
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 309,
-				"secondary": 32.2
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 329,
-				"secondary": 32.2
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 355,
-				"secondary": 35.6
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 375,
-				"secondary": 35.6
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 401,
-				"secondary": 39
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "FettersOfTheDandelionGladiator",
-					"name": "\u72ee\u7259\u6597\u58eb\u7684\u67b7\u9501",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "\u6df7\u6c8c\u88c5\u7f6e",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "\u7834\u635f\u7684\u9762\u5177",
-					"amount": 1,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "\u72ee\u7259\u6597\u58eb\u7684\u94c1\u94fe",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "\u6df7\u6c8c\u88c5\u7f6e",
-					"amount": 8,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "\u7834\u635f\u7684\u9762\u5177",
-					"amount": 5,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "\u72ee\u7259\u6597\u58eb\u7684\u94c1\u94fe",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "\u6df7\u6c8c\u56de\u8def",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "\u6c61\u79fd\u7684\u9762\u5177",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "\u72ee\u7259\u6597\u58eb\u7684\u9563\u94d0",
-					"amount": 2,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "\u6df7\u6c8c\u56de\u8def",
-					"amount": 8,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "\u6c61\u79fd\u7684\u9762\u5177",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 25000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "\u72ee\u7259\u6597\u58eb\u7684\u9563\u94d0",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCore",
-					"name": "\u6df7\u6c8c\u7089\u5fc3",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "\u4e0d\u7965\u7684\u9762\u5177",
-					"amount": 4,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "DreamOfTheDandelionGladiator",
-					"name": "\u72ee\u7259\u6597\u58eb\u7684\u7406\u60f3",
-					"amount": 3,
-					"rarity": 5
-				},
-				{
-					"id": "ChaosCore",
-					"name": "\u6df7\u6c8c\u7089\u5fc3",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "\u4e0d\u7965\u7684\u9762\u5177",
-					"amount": 8,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u80fd\u91cf\u6c90\u6d74",
-		"template": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d<span style=\"color:#99FFFFFF\">{0}\u751f\u547d\u503c\u3002",
-		"params": [["1%"], ["1.25%"], ["1.5%"], ["1.75%"], ["2%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d1%\u751f\u547d\u503c\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d1.25%\u751f\u547d\u503c\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d1.5%\u751f\u547d\u503c\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d1.75%\u751f\u547d\u503c\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u83b7\u5f97\u5143\u7d20\u5fae\u7c92\u6216\u5143\u7d20\u6676\u7403\u65f6\uff0c\u6062\u590d2%\u751f\u547d\u503c\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/OtherworldlyStory/Icon.webp"
-	}
+  "id": "OtherworldlyStory",
+  "name": "异世界行记",
+  "description": "廉价的幻想小说，不具备参考价值。作为法器的力量当然也来自幻想。",
+  "rarity": 3,
+  "type": "法器",
+  "domain": "塞西莉亚苗圃",
+  "passive": "能量沐浴",
+  "bonus": "获得元素微粒或元素晶球时，恢复1%/1.25%/1.5%/1.75%/2%生命值。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "元素充能效率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 39
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 15
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 21.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 25.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 28.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 35.6
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 39
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "狮牙斗士的枷锁",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌装置",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破损的面具",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "狮牙斗士的铁链",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌装置",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破损的面具",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "狮牙斗士的铁链",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌回路",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "污秽的面具",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "狮牙斗士的镣铐",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌回路",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "污秽的面具",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "狮牙斗士的镣铐",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌炉心",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "狮牙斗士的理想",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌炉心",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "狮牙斗士的枷锁",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌装置",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破损的面具",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "狮牙斗士的铁链",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌装置",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破损的面具",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "狮牙斗士的铁链",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌回路",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "污秽的面具",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "狮牙斗士的镣铐",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌回路",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "污秽的面具",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "狮牙斗士的镣铐",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌炉心",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "狮牙斗士的理想",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌炉心",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "获得元素微粒或元素晶球时，恢复1%生命值。"
+    },
+    {
+      "refinement": 2,
+      "desc": "获得元素微粒或元素晶球时，恢复1.25%生命值。"
+    },
+    {
+      "refinement": 3,
+      "desc": "获得元素微粒或元素晶球时，恢复1.5%生命值。"
+    },
+    {
+      "refinement": 4,
+      "desc": "获得元素微粒或元素晶球时，恢复1.75%生命值。"
+    },
+    {
+      "refinement": 5,
+      "desc": "获得元素微粒或元素晶球时，恢复2%生命值。"
+    },
+    {
+      "refinement": 1,
+      "desc": "获得元素微粒或元素晶球时，恢复1%生命值。"
+    },
+    {
+      "refinement": 2,
+      "desc": "获得元素微粒或元素晶球时，恢复1.25%生命值。"
+    },
+    {
+      "refinement": 3,
+      "desc": "获得元素微粒或元素晶球时，恢复1.5%生命值。"
+    },
+    {
+      "refinement": 4,
+      "desc": "获得元素微粒或元素晶球时，恢复1.75%生命值。"
+    },
+    {
+      "refinement": 5,
+      "desc": "获得元素微粒或元素晶球时，恢复2%生命值。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/OtherworldlyStory/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "能量沐浴",
+    "template": "获得元素微粒或元素晶球时，恢复<span style=\"color:#99FFFFFF\">{0}</span>生命值。",
+    "params": [
+      [
+        "1%"
+      ],
+      [
+        "1.25%"
+      ],
+      [
+        "1.5%"
+      ],
+      [
+        "1.75%"
+      ],
+      [
+        "2%"
+      ],
+      [
+        "1%"
+      ],
+      [
+        "1.25%"
+      ],
+      [
+        "1.5%"
+      ],
+      [
+        "1.75%"
+      ],
+      [
+        "2%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

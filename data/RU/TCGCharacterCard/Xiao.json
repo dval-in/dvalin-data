@@ -1,77 +1,142 @@
 {
-	"id": "Xiao",
-	"shareid": 39,
-	"name": "Сяо",
-	"title": "«Защитник Якса» Сяо",
-	"desc": "Защитник Якса - гроза демонов.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Анемо",
-		"weapon": "Древковое",
-		"faction": ["Ли Юэ"],
-		"talentCard": {
-			"id": "ConqurerOfEvilGuardianYaksha",
-			"name": "Conqurer of Evil: Guardian Yaksha"
-		},
-		"source": "Награда за приглашение Сяо в «Кошкин хвост» и победу в Дружеской дуэли",
-		"character": {
-			"id": "Xiao",
-			"name": "Xiao",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "WhirlwindThrust",
-			"name": "Вихревой удар",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Анемо",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LemniscaticWindCycling",
-			"name": "Лемниската ветра",
-			"desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Анемо",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BaneOfAllEvil",
-			"name": "Истребление всего зла",
-			"desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон, 4 ед. У персонажа появляется <span style=\"color:#FFFFFFFF\">Маска Якса.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Анемо",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Xiao",
+  "shareid": 39,
+  "name": "Сяо",
+  "title": "«Защитник Якса» Сяо",
+  "desc": "Защитник Якса - гроза демонов.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Древковое",
+    "faction": [
+      "Ли Юэ",
+      "Ли Юэ"
+    ],
+    "talentCard": {
+      "id": "ConqurerOfEvilGuardianYaksha",
+      "name": "Conqurer of Evil: Guardian Yaksha"
+    },
+    "source": "Награда за приглашение Сяо в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Xiao",
+      "name": "Xiao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "WhirlwindThrust",
+      "name": "Вихревой удар",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LemniscaticWindCycling",
+      "name": "Лемниската ветра",
+      "desc": "Наносит Анемо урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BaneOfAllEvil",
+      "name": "Истребление всего зла",
+      "desc": "Наносит Анемо урон, 4 ед. У персонажа появляется Маска Якса.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhirlwindThrust",
+      "name": "Вихревой удар",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LemniscaticWindCycling",
+      "name": "Лемниската ветра",
+      "desc": "Наносит Анемо урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BaneOfAllEvil",
+      "name": "Истребление всего зла",
+      "desc": "Наносит Анемо урон, 4 ед. У персонажа появляется Маска Якса.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 39
 }

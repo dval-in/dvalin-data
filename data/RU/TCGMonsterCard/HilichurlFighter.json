@@ -1,63 +1,125 @@
 {
-	"id": "HilichurlFighter",
-	"shareid": 3001,
-	"name": "Хиличурл-боец",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Без элемента",
-		"weapon": "Прочее",
-		"faction": ["Монстр", "Хиличурл"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Hit",
-			"name": "Удар",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpAndHit",
-			"name": "Удар в прыжке",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SwingThatClub",
-			"name": "Круговой удар",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 4 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Совпадающий элемент",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HilichurlFighter",
+  "shareid": 3001,
+  "name": "Хиличурл-боец",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Без элемента",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Хиличурл",
+      "Монстр",
+      "Хиличурл"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Hit",
+      "name": "Удар",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Удар в прыжке",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "Круговой удар",
+      "desc": "Наносит Физический урон, 4 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hit",
+      "name": "Удар",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Удар в прыжке",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "Круговой удар",
+      "desc": "Наносит Физический урон, 4 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3001
 }

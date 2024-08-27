@@ -1,75 +1,151 @@
 {
-	"id": "WingedDendroshroom",
-	"shareid": 3701,
-	"name": "Dendrofungo alato",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Altre armi",
-		"faction": ["Mostro"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Bomba di spore",
-			"desc": "Infligge 1 <span style=\"color:#7EC236FF\">DAN da Dendro.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RollingSpray",
-			"name": "Turbine fungino",
-			"desc": "Infligge 3 <span style=\"color:#7EC236FF\">DAN da Dendro.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Divebomb",
-			"name": "Esplosione fungina",
-			"desc": "Infligge 5 <span style=\"color:#7EC236FF\">DAN da Dendro.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Cambio di stato",
-			"desc": "(Passiva) All'inizio del duello il personaggio si trova in <span style=\"color:#FFFFFFFF\">Superiorità aerea.Quando il personaggio subisce <span style=\"color:#FF9999FF\">DAN da Pyro, diventa <span style=\"color:#FFFFFFFF\">Scottatura.Quando il personaggio subisce <span style=\"color:#FFACFFFF\">DAN da Electro, diventa <span style=\"color:#FFFFFFFF\">Attivato.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "WingedDendroshroom",
+  "shareid": 3701,
+  "name": "Dendrofungo alato",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Mostro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Bomba di spore",
+      "desc": "Infligge 1 DAN da Dendro.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Turbine fungino",
+      "desc": "Infligge 3 DAN da Dendro.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Esplosione fungina",
+      "desc": "Infligge 5 DAN da Dendro.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Cambio di stato",
+      "desc": "(Passiva) All'inizio del duello il personaggio si trova in Superiorità aerea.Quando il personaggio subisce DAN da Pyro, diventa Scottatura.Quando il personaggio subisce DAN da Electro, diventa Attivato.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Bomba di spore",
+      "desc": "Infligge 1 DAN da Dendro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Turbine fungino",
+      "desc": "Infligge 3 DAN da Dendro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Esplosione fungina",
+      "desc": "Infligge 5 DAN da Dendro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Cambio di stato",
+      "desc": "(Passiva) All'inizio del duello il personaggio si trova in Superiorità aerea. Quando il personaggio subisce DAN da Pyro, diventa Scottatura. Quando il personaggio subisce DAN da Electro, diventa Attivato.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3701
 }

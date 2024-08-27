@@ -1,62 +1,121 @@
 {
-	"id": "CryoSlime",
-	"shareid": 3107,
-	"name": "氷スライム",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "氷元素",
-		"weapon": "他の武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Ram",
-			"name": "タックル",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを1与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpingSlam",
-			"name": "ジャンプ衝撃",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを4与える。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationCryo",
-			"name": "元素蓄積·氷",
-			"desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">元素生命·氷が付与される。",
-			"skilltag": ["固有スキル"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CryoSlime",
+  "shareid": 3107,
+  "name": "氷スライム",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "タックル",
+      "desc": "氷元素ダメージを1与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "ジャンプ衝撃",
+      "desc": "氷元素ダメージを4与える。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素蓄積·氷",
+      "desc": "【固有】戦闘開始時、元素生命·氷が付与される。",
+      "skilltag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "Ram",
+      "name": "タックル",
+      "desc": "氷元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "ジャンプ衝撃",
+      "desc": "氷元素ダメージを4与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素蓄積·氷",
+      "desc": "【固有】戦闘開始時、元素生命·氷が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3107
 }

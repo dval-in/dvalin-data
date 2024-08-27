@@ -1,75 +1,151 @@
 {
-	"id": "EremiteDesertClearwater",
-	"shareid": 3206,
-	"name": "Eremita Acquachiara del deserto",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Altre armi",
-		"faction": ["Eremiti"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "AgileThrust",
-			"name": "Affondo agile",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlitzStrike",
-			"name": "Colpo improvviso",
-			"desc": "Infligge 3 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "WhirlingLashes",
-			"name": "Tagli turbinanti",
-			"desc": "Questo personaggio esegue separatamente <span style=\"color:#FFFFFFFF\">Preparazione abilità per <span style=\"color:#FFFFFFFF\">Tagli turbinanti: Attacco preventivo e per <span style=\"color:#FFFFFFFF\">Tagli turbinanti: Schema fisso.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedHydro",
-			"name": "Liberazione dello spirito (Hydro)",
-			"desc": "(Passiva) <span style=\"color:#FFFFFFFF\">Quando questo personaggio subisce DAN: se i PS di questo personaggio sono 7 o meno, ottiene 1 punto <span style=\"color:#FFFFFFFF\">Energia e l'effetto di <span style=\"color:#FFFFFFFF\">Risveglio dello Spirito del presagio: Hydro (una volta per partita).",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteDesertClearwater",
+  "shareid": 3206,
+  "name": "Eremita Acquachiara del deserto",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Eremiti",
+      "Eremiti"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "AgileThrust",
+      "name": "Affondo agile",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Colpo improvviso",
+      "desc": "Infligge 3 DAN fisici.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Tagli turbinanti",
+      "desc": "Questo personaggio esegue separatamente Preparazione abilità per Tagli turbinanti: Attacco preventivo e per Tagli turbinanti: Schema fisso.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Liberazione dello spirito (Hydro)",
+      "desc": "(Passiva) Quando questo personaggio subisce DAN: se i PS di questo personaggio sono 7 o meno, ottiene 1 punto Energia e l'effetto di Risveglio dello Spirito del presagio: Hydro (una volta per partita).",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "AgileThrust",
+      "name": "Affondo agile",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Colpo improvviso",
+      "desc": "Infligge 3 DAN fisici.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Tagli turbinanti",
+      "desc": "Questo personaggio esegue separatamente Preparazione abilità per Tagli turbinanti: Attacco preventivo e per Tagli turbinanti: Schema fisso.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Liberazione dello spirito (Hydro)",
+      "desc": "(Passiva) Quando questo personaggio subisce DAN: se i PS di questo personaggio sono 7 o meno, ottiene 1 punto Energia e l'effetto di Risveglio dello Spirito del presagio: Hydro (una volta per partita).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3206
 }

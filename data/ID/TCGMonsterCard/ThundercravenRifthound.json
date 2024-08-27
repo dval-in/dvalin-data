@@ -12,6 +12,7 @@
     "weapon": "Senjata Lain",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Elemental Devourer",
       "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh status Elemental Devourer.",
       "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "Cankering Claws",
+      "desc": "Mengakibatkan 1 poin Electro DMG dan menciptakan Corrosion di area lawan.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Corrosive Electro Crystal",
+      "desc": "Mengakibatkan 2 poin Electro DMG dan menciptakan Corrosion di area lawan.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Devouring Bite",
+      "desc": "Mengakibatkan 6 poin Electro DMG dan menciptakan Corrosion di area lawan.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Elemental Devourer",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh status Elemental Devourer.",
+      "skillTag": [
         "Passive Skill"
       ],
       "points": []

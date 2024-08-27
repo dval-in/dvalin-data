@@ -1,293 +1,608 @@
 {
-	"id": "CashflowSupervision",
-	"name": "Supervision de tr\u00e9sorerie",
-	"description": "Un appareil flottant capable de surveiller certains ph\u00e9nom\u00e8nes. Il a \u00e9t\u00e9 r\u00e9cup\u00e9r\u00e9 et modifi\u00e9 pour servir \u00e0 d'autres fins suite \u00e0 son abandon.",
-	"rarity": 5,
-	"type": "Catalyseur",
-	"domain": "\u00c9chos des mar\u00e9es profondes",
-	"passive": "Mar\u00e9e de sang d'or",
-	"bonus": "L'ATQ augmente de 16 %/20 %/24 %/28 %/32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de 16 %/20 %/24 %/28 %/32 % et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de 14 %/17,5 %/21 %/24,5 %/28 %, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %/10 %/12 %/14 %/16 %.",
-	"stats": {
-		"primary": "ATQ de base",
-		"secondary": "Taux CRIT",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 48,
-				"secondary": 4.8
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 133,
-				"secondary": 8.5
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 164,
-				"secondary": 8.5
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 261,
-				"secondary": 12.4
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 292,
-				"secondary": 12.4
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 341,
-				"secondary": 14.3
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 373,
-				"secondary": 14.3
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 423,
-				"secondary": 16.2
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 455,
-				"secondary": 16.2
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 506,
-				"secondary": 18.2
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 537,
-				"secondary": 18.2
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 590,
-				"secondary": 20.1
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 621,
-				"secondary": 20.1
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 674,
-				"secondary": 22.1
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "BrokenGobletOfThePristineSea",
-					"name": "Gobelet bris\u00e9 de la mer immacul\u00e9e",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "OldOperativesPocketWatch",
-					"name": "Vieille montre \u00e0 gousset d'op\u00e9rateur",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "TransoceanicPearl",
-					"name": "Perle transoc\u00e9anique",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "WineGobletOfThePristineSea",
-					"name": "Gobelet \u00e0 vin de la mer immacul\u00e9e",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "OldOperativesPocketWatch",
-					"name": "Vieille montre \u00e0 gousset d'op\u00e9rateur",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "TransoceanicPearl",
-					"name": "Perle transoc\u00e9anique",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "WineGobletOfThePristineSea",
-					"name": "Gobelet \u00e0 vin de la mer immacul\u00e9e",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "OperativesStandardPocketWatch",
-					"name": "Montre \u00e0 gousset d'op\u00e9rateur",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "Morceau transoc\u00e9anique",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "SilverGobletOfThePristineSea",
-					"name": "Gobelet d'argent de la mer immacul\u00e9e",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "OperativesStandardPocketWatch",
-					"name": "Montre \u00e0 gousset d'op\u00e9rateur",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "Morceau transoc\u00e9anique",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "SilverGobletOfThePristineSea",
-					"name": "Gobelet d'argent de la mer immacul\u00e9e",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "OperativesConstancy",
-					"name": "Constance d'op\u00e9rateur",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "Cristal x\u00e9nochromatique",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "GoldenGobletOfThePristineSea",
-					"name": "Gobelet d'or de la mer immacul\u00e9e",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "OperativesConstancy",
-					"name": "Constance d'op\u00e9rateur",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "Cristal x\u00e9nochromatique",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Mar\u00e9e de sang d'or",
-		"template": "L'ATQ augmente de <span style=\"color:#99FFFFFF\">{0}. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de <span style=\"color:#99FFFFFF\">{1} et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de <span style=\"color:#99FFFFFF\">{2}, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de <span style=\"color:#99FFFFFF\">{3}.",
-		"params": [
-			["16 %", "16 %", "14 %", "8 %"],
-			["20 %", "20 %", "17,5 %", "10 %"],
-			["24 %", "24 %", "21 %", "12 %"],
-			["28 %", "28 %", "24,5 %", "14 %"],
-			["32 %", "32 %", "28 %", "16 %"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "L'ATQ augmente de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de 16 % et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de 14 %, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %."
-		},
-		{
-			"refinement": 2,
-			"desc": "L'ATQ augmente de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de 20 % et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de 17,5 %, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 10 %."
-		},
-		{
-			"refinement": 3,
-			"desc": "L'ATQ augmente de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de 24 % et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de 21 %, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 12 %."
-		},
-		{
-			"refinement": 4,
-			"desc": "L'ATQ augmente de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de 28 % et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de 24,5 %, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 14 %."
-		},
-		{
-			"refinement": 5,
-			"desc": "L'ATQ augmente de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques normales augmentent de 32 % et ceux inflig\u00e9s par les attaques charg\u00e9es augmentent de 28 %, pendant 4 s. Cet effet peut \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 16 %."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/CashflowSupervision/Icon.webp"
-	}
+  "id": "CashflowSupervision",
+  "name": "Supervision de trésorerie",
+  "description": "Un appareil flottant capable de surveiller certains phénomènes. Il a été récupéré et modifié pour servir à d'autres fins suite à son abandon.",
+  "rarity": 5,
+  "type": "Catalyseur",
+  "domain": "Échos des marées profondes",
+  "passive": "Marée de sang d'or",
+  "bonus": "L'ATQ augmente de 16 %/20 %/24 %/28 %/32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 16 %/20 %/24 %/28 %/32 % et ceux infligés par les attaques chargées augmentent de 14 %/17,5 %/21 %/24,5 %/28 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %/10 %/12 %/14 %/16 %.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "Taux CRIT",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 4.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 12.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 12.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 14.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 14.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 16.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 16.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 18.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 18.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 20.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 20.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 22.1
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 4.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 8.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 12.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 12.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 14.3
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 14.3
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 16.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 16.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 18.2
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 18.2
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 20.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 20.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 22.1
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "BrokenGobletOfThePristineSea",
+          "name": "Gobelet brisé de la mer immaculée",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "OldOperativesPocketWatch",
+          "name": "Vieille montre à gousset d'opérateur",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "Perle transocéanique",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "WineGobletOfThePristineSea",
+          "name": "Gobelet à vin de la mer immaculée",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "OldOperativesPocketWatch",
+          "name": "Vieille montre à gousset d'opérateur",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "Perle transocéanique",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "WineGobletOfThePristineSea",
+          "name": "Gobelet à vin de la mer immaculée",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "OperativesStandardPocketWatch",
+          "name": "Montre à gousset d'opérateur",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Morceau transocéanique",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "SilverGobletOfThePristineSea",
+          "name": "Gobelet d'argent de la mer immaculée",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "OperativesStandardPocketWatch",
+          "name": "Montre à gousset d'opérateur",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Morceau transocéanique",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "SilverGobletOfThePristineSea",
+          "name": "Gobelet d'argent de la mer immaculée",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "OperativesConstancy",
+          "name": "Constance d'opérateur",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Cristal xénochromatique",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "GoldenGobletOfThePristineSea",
+          "name": "Gobelet d'or de la mer immaculée",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "OperativesConstancy",
+          "name": "Constance d'opérateur",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Cristal xénochromatique",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "BrokenGobletOfThePristineSea",
+          "name": "Gobelet brisé de la mer immaculée",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "OldOperativesPocketWatch",
+          "name": "Vieille montre à gousset d'opérateur",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "Perle transocéanique",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "WineGobletOfThePristineSea",
+          "name": "Gobelet à vin de la mer immaculée",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "OldOperativesPocketWatch",
+          "name": "Vieille montre à gousset d'opérateur",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "Perle transocéanique",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "WineGobletOfThePristineSea",
+          "name": "Gobelet à vin de la mer immaculée",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "OperativesStandardPocketWatch",
+          "name": "Montre à gousset d'opérateur",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Morceau transocéanique",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "SilverGobletOfThePristineSea",
+          "name": "Gobelet d'argent de la mer immaculée",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "OperativesStandardPocketWatch",
+          "name": "Montre à gousset d'opérateur",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "Morceau transocéanique",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "SilverGobletOfThePristineSea",
+          "name": "Gobelet d'argent de la mer immaculée",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "OperativesConstancy",
+          "name": "Constance d'opérateur",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Cristal xénochromatique",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "GoldenGobletOfThePristineSea",
+          "name": "Gobelet d'or de la mer immaculée",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "OperativesConstancy",
+          "name": "Constance d'opérateur",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "Cristal xénochromatique",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "L'ATQ augmente de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 16 % et ceux infligés par les attaques chargées augmentent de 14 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %."
+    },
+    {
+      "refinement": 2,
+      "desc": "L'ATQ augmente de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 20 % et ceux infligés par les attaques chargées augmentent de 17,5 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 10 %."
+    },
+    {
+      "refinement": 3,
+      "desc": "L'ATQ augmente de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 24 % et ceux infligés par les attaques chargées augmentent de 21 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 12 %."
+    },
+    {
+      "refinement": 4,
+      "desc": "L'ATQ augmente de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 28 % et ceux infligés par les attaques chargées augmentent de 24,5 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 14 %."
+    },
+    {
+      "refinement": 5,
+      "desc": "L'ATQ augmente de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 32 % et ceux infligés par les attaques chargées augmentent de 28 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 16 %."
+    },
+    {
+      "refinement": 1,
+      "desc": "L'ATQ augmente de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 16 % et ceux infligés par les attaques chargées augmentent de 14 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %."
+    },
+    {
+      "refinement": 2,
+      "desc": "L'ATQ augmente de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 20 % et ceux infligés par les attaques chargées augmentent de 17,5 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 10 %."
+    },
+    {
+      "refinement": 3,
+      "desc": "L'ATQ augmente de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 24 % et ceux infligés par les attaques chargées augmentent de 21 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 12 %."
+    },
+    {
+      "refinement": 4,
+      "desc": "L'ATQ augmente de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 28 % et ceux infligés par les attaques chargées augmentent de 24,5 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 14 %."
+    },
+    {
+      "refinement": 5,
+      "desc": "L'ATQ augmente de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 32 % et ceux infligés par les attaques chargées augmentent de 28 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 16 %."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/CashflowSupervision/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Marée de sang d'or",
+    "template": "L'ATQ augmente de <span style=\"color:#99FFFFFF\">{0}</span>. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de <span style=\"color:#99FFFFFF\">{1}</span> et ceux infligés par les attaques chargées augmentent de <span style=\"color:#99FFFFFF\">{2}</span>, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de <span style=\"color:#99FFFFFF\">{3}</span>.",
+    "params": [
+      [
+        "16 %",
+        "16 %",
+        "14 %",
+        "8 %"
+      ],
+      [
+        "20 %",
+        "20 %",
+        "17,5 %",
+        "10 %"
+      ],
+      [
+        "24 %",
+        "24 %",
+        "21 %",
+        "12 %"
+      ],
+      [
+        "28 %",
+        "28 %",
+        "24,5 %",
+        "14 %"
+      ],
+      [
+        "32 %",
+        "32 %",
+        "28 %",
+        "16 %"
+      ],
+      [
+        "16 %",
+        "16 %",
+        "14 %",
+        "8 %"
+      ],
+      [
+        "20 %",
+        "20 %",
+        "17,5 %",
+        "10 %"
+      ],
+      [
+        "24 %",
+        "24 %",
+        "21 %",
+        "12 %"
+      ],
+      [
+        "28 %",
+        "28 %",
+        "24,5 %",
+        "14 %"
+      ],
+      [
+        "32 %",
+        "32 %",
+        "28 %",
+        "16 %"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

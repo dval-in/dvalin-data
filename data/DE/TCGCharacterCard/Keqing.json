@@ -1,77 +1,142 @@
 {
-	"id": "Keqing",
-	"shareid": 28,
-	"name": "Keqing",
-	"title": "Donnerwetter – Keqing",
-	"desc": "Sie kann Decks erstellen, die bisher für niemanden denkbar sind, und Duelle gewinnen, auf eine unvorstellbare Weise.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Elektro",
-		"weapon": "Einhänder",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "ThunderingPenance",
-			"name": "Thundering Penance"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Keqing in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Keqing",
-			"name": "Keqing",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "YunlaiSwordsmanship",
-			"name": "Schwertkunst aus den Wolken",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StellarRestoration",
-			"name": "Rückkehr der Sterne",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH, erschafft die Karte <span style=\"color:#FFFFFFFF\">Donnerkeil.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StarwardSword",
-			"name": "Himmelswanderung",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH, fügt allen inaktiven Figuren des Gegners <span style=\"color:#FFFFFFFF\">3 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH zu.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Keqing",
+  "shareid": 28,
+  "name": "Keqing",
+  "title": "Donnerwetter – Keqing",
+  "desc": "Sie kann Decks erstellen, die bisher für niemanden denkbar sind, und Duelle gewinnen, auf eine unvorstellbare Weise.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Einhänder",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "ThunderingPenance",
+      "name": "Thundering Penance"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Keqing in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "YunlaiSwordsmanship",
+      "name": "Schwertkunst aus den Wolken",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StellarRestoration",
+      "name": "Rückkehr der Sterne",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH, erschafft die Karte Donnerkeil.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StarwardSword",
+      "name": "Himmelswanderung",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 3 Pkt. durchdringenden SCH zu.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "YunlaiSwordsmanship",
+      "name": "Schwertkunst aus den Wolken",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StellarRestoration",
+      "name": "Rückkehr der Sterne",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH, erschafft die Karte Donnerkeil.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StarwardSword",
+      "name": "Himmelswanderung",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 3 Pkt. durchdringenden SCH zu.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 28
 }

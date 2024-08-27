@@ -1,77 +1,142 @@
 {
-	"id": "Eula",
-	"shareid": 6,
-	"name": "Эола",
-	"title": "«Танец морской пены» Эола",
-	"desc": "Это всего лишь игра. Я не буду держать зла, если удача окажется на твоей стороне.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Крио",
-		"weapon": "Двуручное",
-		"faction": ["Мондштадт"],
-		"talentCard": {
-			"id": "WellspringOfWarlust",
-			"name": "Wellspring of War-Lust"
-		},
-		"source": "Награда за приглашение Эолы в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "Eula",
-			"name": "Eula",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkEdel",
-			"name": "Фехтовальный стиль Фавония: Знать",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "IcetideVortex",
-			"name": "Ледяной прибой",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 2 ед. Если у текущего персонажа нет эффекта <span style=\"color:#FFFFFFFF\">Холодное сердце, то даёт эффект <span style=\"color:#FFFFFFFF\">Холодное сердце.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialIllumination",
-			"name": "Сумеречный меч",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 2 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Меч света.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Eula",
+  "shareid": 6,
+  "name": "Эола",
+  "title": "«Танец морской пены» Эола",
+  "desc": "Это всего лишь игра. Я не буду держать зла, если удача окажется на твоей стороне.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Двуручное",
+    "faction": [
+      "Мондштадт",
+      "Мондштадт"
+    ],
+    "talentCard": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "Награда за приглашение Эолы в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Фехтовальный стиль Фавония: Знать",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Ледяной прибой",
+      "desc": "Наносит Крио урон, 2 ед. Если у текущего персонажа нет эффекта Холодное сердце, то даёт эффект Холодное сердце.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Сумеречный меч",
+      "desc": "Наносит Крио урон, 2 ед. и призывает помощника: Меч света.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Фехтовальный стиль Фавония: Знать",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Ледяной прибой",
+      "desc": "Наносит Крио урон, 2 ед. Если у текущего персонажа нет эффекта Холодное сердце, то даёт эффект Холодное сердце.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Сумеречный меч",
+      "desc": "Наносит Крио урон, 2 ед. и призывает помощника: Меч света.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 6
 }

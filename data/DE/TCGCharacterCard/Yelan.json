@@ -12,6 +12,7 @@
     "weapon": "Bogen",
     "faction": [
       "Liyue",
+      "Liyue",
       "Liyue"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "Durchstoß",
       "desc": "Passiv – Erhält zu Beginn des Kampfes Durchstoß.",
       "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "StealthyBowshot",
+      "name": "Bogen der Unterströmung",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "Seil der Todesbotin",
+      "desc": "Verursacht 3 Pkt. Hydro-SCH, erhält selbst 2 Stapelungen von Durchstoß.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "Würfel des Strategems",
+      "desc": "Verursacht 3 Pkt. Hydro-SCH, erschafft 1 Würfel der Mystik.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "Durchstoß",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Durchstoß.",
+      "skillTag": [
         "Passive Fähigkeit"
       ],
       "points": []

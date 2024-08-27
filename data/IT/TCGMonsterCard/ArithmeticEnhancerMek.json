@@ -10,12 +10,63 @@
     "element": "Nessun tipo elementale",
     "weapon": "Altre armi",
     "faction": [
+      "Mostro",
       "Mostro"
     ],
     "source": null,
     "cardType": "Carta personaggio"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Collisione",
+      "desc": "Infligge 1 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BrutalRam",
+      "name": "Impatto brutale",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingUp",
+      "name": "Ricarica di energia",
+      "desc": "Infligge 3 DAN fisici e ripristina la forma Pneuma/Ousia originale di questo personaggio.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 1
+        }
+      ]
+    },
     {
       "id": "Ram",
       "name": "Collisione",

@@ -12,6 +12,7 @@
     "weapon": "Catalisador",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Rosa do Relâmpago",
       "desc": "Causa 2 de Dano Electro, invoca Rosa do Relâmpago.",
       "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Toque do Relâmpago",
+      "desc": "Causa 1 de Dano Electro. Se essa Habilidade for um Ataque Carregado: fará o Personagem em Combate do inimigo ser afetado por Condutor.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Arco Violeta",
+      "desc": "Causa 2 de Dano Electro. Se Condutor não estiver aplicado ao Personagem em Combate inimigo, Condutor será adicionado.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rosa do Relâmpago",
+      "desc": "Causa 2 pontos de Dano Electro. Invoca Rosa do Relâmpago. Personagem em Combate adversário ganha Condutor.",
+      "skillTag": [
         "Supremo"
       ],
       "points": [

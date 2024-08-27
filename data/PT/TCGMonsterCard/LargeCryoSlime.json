@@ -12,6 +12,7 @@
     "weapon": "Outras Armas",
     "faction": [
       "Monstro",
+      "Monstro",
       "Monstro"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Sedimento Elemental - Cryo",
       "desc": "(Passivo) Quando a batalha começa, aplica Forma de Vida Elemental - Cryo a este personagem.",
       "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Saltitar",
+      "desc": "Causa 1 Dano Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "Spray Frígido",
+      "desc": "Causa 3 Dano Cryo.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Queda Pesada",
+      "desc": "Causa 5 Dano Cryo.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Sedimento Elemental - Cryo",
+      "desc": "(Passivo) Quando a batalha começa, aplica Forma de Vida Elemental - Cryo a este personagem.",
+      "skillTag": [
         "Habilidade Passiva"
       ],
       "points": []

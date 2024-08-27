@@ -1,77 +1,142 @@
 {
-	"id": "Yoimiya",
-	"shareid": 21,
-	"name": "Yoimiya",
-	"title": "Ausgelassene Flammen – Yoimiya",
-	"desc": "Teamleiterin und die erste Kartenbeschwörerin des Teams Naganohara für das 11. Hanamizaka-Einladungsturnier.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Pyro",
-		"weapon": "Bogen",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "NaganoharaMeteorSwarm",
-			"name": "Naganohara Meteor Swarm"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Yoimiya in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Yoimiya",
-			"name": "Yoimiya",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FireworkFlareup",
-			"name": "Aufbrausendes Feuerwerk",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "NiwabiFiredance",
-			"name": "Niwabi-Feuertanz",
-			"desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Niwabi Enshou. (Diese Fähigkeit gewährt keine Aufladung.)",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				}
-			]
-		},
-		{
-			"id": "RyuukinSaxifrage",
-			"name": "Ryuukin-Steinbrech",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Ryuukin-Lohe.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yoimiya",
+  "shareid": 21,
+  "name": "Yoimiya",
+  "title": "Ausgelassene Flammen – Yoimiya",
+  "desc": "Teamleiterin und die erste Kartenbeschwörerin des Teams Naganohara für das 11. Hanamizaka-Einladungsturnier.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Bogen",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "NaganoharaMeteorSwarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Yoimiya in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FireworkFlareup",
+      "name": "Aufbrausendes Feuerwerk",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Niwabi-Feuertanz",
+      "desc": "Erhält selbst Niwabi Enshou. (Diese Fähigkeit gewährt keine Aufladung.)",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Ryuukin-Steinbrech",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Ryuukin-Lohe.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FireworkFlareup",
+      "name": "Aufbrausendes Feuerwerk",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Niwabi-Feuertanz",
+      "desc": "Erhält selbst Niwabi Enshou. (Diese Fähigkeit gewährt keine Aufladung.)",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Ryuukin-Steinbrech",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Ryuukin-Lohe.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 21
 }

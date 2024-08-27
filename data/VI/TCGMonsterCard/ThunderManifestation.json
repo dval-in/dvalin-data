@@ -1,90 +1,177 @@
 {
-	"id": "ThunderManifestation",
-	"shareid": 286,
-	"name": "Thực Thể Sấm Sét",
-	"title": "Nỗi Hận Dai Dẳng - Thực Thể Sấm Sét",
-	"desc": "Chỉ cần nỗi oán hận trong lòng đất chưa tiêu tan, thì tiếng sét sẽ không bao giờ dứt.",
-	"attributes": {
-		"hp": 45,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Lôi",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"talentCard": {
-			"id": "GrievingEcho",
-			"name": "Grieving Echo"
-		},
-		"source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Thực Thể Sấm Sét",
-		"character": {
-			"id": "ThunderManifestation",
-			"name": "Thunder Manifestation"
-		}
-	},
-	"skills": [
-		{
-			"id": "ThunderousWingslash",
-			"name": "Quật Cánh Sấm Động",
-			"desc": "Gây 1 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StrifefulLightning",
-			"name": "Tường Sét Xung Đột",
-			"desc": "Gây 3 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi cho nhân vật phe địch có áp dụng <span style=\"color:#FFFFFFFF\">Tiếng Sấm Thăm Dò. (Nếu phe địch không có nhân vật thỏa điều kiện, sẽ đổi thành gây sát thương cho nhân vật xuất chiến)",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ThunderingShackles",
-			"name": "Sấm Sét Giam Cầm",
-			"desc": "Gây 2 điểm <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi, triệu hồi <span style=\"color:#FFFFFFFF\">Sấm Sét Giam Cầm.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LightningProbe",
-			"name": "Sấm Chớp Thăm Dò",
-			"desc": "(Bị động) Khi bắt đầu chiến đấu, sinh ra <span style=\"color:#FFFFFFFF\">Đầu Dò Sét trong trận phe địch.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		},
-		{
-			"id": "ElementalSedimentationElectro",
-			"name": "Tích Tụ Nguyên Tố - Lôi",
-			"desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Sinh Mệnh Nguyên Tố - Lôi.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ThunderManifestation",
+  "shareid": 286,
+  "name": "Thực Thể Sấm Sét",
+  "title": "Nỗi Hận Dai Dẳng - Thực Thể Sấm Sét",
+  "desc": "Chỉ cần nỗi oán hận trong lòng đất chưa tiêu tan, thì tiếng sét sẽ không bao giờ dứt.",
+  "attributes": {
+    "hp": 45,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "talentCard": {
+      "id": "GrievingEcho",
+      "name": "Grieving Echo"
+    },
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Thực Thể Sấm Sét",
+    "character": {
+      "id": "ThunderManifestation",
+      "name": "Thunder Manifestation"
+    }
+  },
+  "skills": [
+    {
+      "id": "ThunderousWingslash",
+      "name": "Quật Cánh Sấm Động",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Lôi.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrifefulLightning",
+      "name": "Tường Sét Xung Đột",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Lôi cho nhân vật phe địch có áp dụng Tiếng Sấm Thăm Dò. (Nếu phe địch không có nhân vật thỏa điều kiện, sẽ đổi thành gây sát thương cho nhân vật xuất chiến)",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShackles",
+      "name": "Sấm Sét Giam Cầm",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Sấm Sét Giam Cầm.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningProbe",
+      "name": "Sấm Chớp Thăm Dò",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, sinh ra Đầu Dò Sét trong trận phe địch.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "Tích Tụ Nguyên Tố - Lôi",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Sinh Mệnh Nguyên Tố - Lôi.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThunderousWingslash",
+      "name": "Quật Cánh Sấm Động",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Lôi.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrifefulLightning",
+      "name": "Tường Sét Xung Đột",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Lôi cho nhân vật phe địch có áp dụng Tiếng Sấm Thăm Dò. (Nếu phe địch không có nhân vật thỏa điều kiện, sẽ đổi thành gây sát thương cho nhân vật xuất chiến)",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShackles",
+      "name": "Sấm Sét Giam Cầm",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Lôi, triệu hồi Sấm Sét Giam Cầm.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningProbe",
+      "name": "Sấm Chớp Thăm Dò",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, sinh ra Đầu Dò Sét trong trận phe địch.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "Tích Tụ Nguyên Tố - Lôi",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Sinh Mệnh Nguyên Tố - Lôi.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 286
 }

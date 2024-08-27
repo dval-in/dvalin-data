@@ -1,73 +1,138 @@
 {
-	"id": "KujouSara",
-	"shareid": 31,
-	"name": "Kujou Sara",
-	"title": "\"Karga Tüylü Kaburaya\" Kujou Sara",
-	"desc": "\"Bu erdemli bir davranış.\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Yay",
-		"faction": ["Inazuma"],
-		"source": "Kujou Sara'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "KujouSara",
-			"name": "Kujou Sara",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "TenguBowmanship",
-			"name": "Tengu Okçuluğu",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TenguStormcall",
-			"name": "Fırtına Habercisi Tengu",
-			"desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Tengu Juurai: Pusu çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SubjugationKoukouSendou",
-			"name": "Fetih: Koukou Sendou",
-			"desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Tengu Juurai: Yıldırım Kümesi çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "KujouSara",
+  "shareid": 31,
+  "name": "Kujou Sara",
+  "title": "\"Karga Tüylü Kaburaya\" Kujou Sara",
+  "desc": "\"Bu erdemli bir davranış.\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Yay",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "source": "Kujou Sara'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "KujouSara",
+      "name": "Kujou Sara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "TenguBowmanship",
+      "name": "Tengu Okçuluğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TenguStormcall",
+      "name": "Fırtına Habercisi Tengu",
+      "desc": "1 Elektrik Hasarı verir ve 1 Tengu Juurai: Pusu çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SubjugationKoukouSendou",
+      "name": "Fetih: Koukou Sendou",
+      "desc": "1 Elektrik Hasarı verir ve 1 Tengu Juurai: Yıldırım Kümesi çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TenguBowmanship",
+      "name": "Tengu Okçuluğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TenguStormcall",
+      "name": "Fırtına Habercisi Tengu",
+      "desc": "1 Elektrik Hasarı verir ve 1 Tengu Juurai: Pusu çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SubjugationKoukouSendou",
+      "name": "Fetih: Koukou Sendou",
+      "desc": "1 Elektrik Hasarı verir ve 1 Tengu Juurai: Yıldırım Kümesi çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 31
 }

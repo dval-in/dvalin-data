@@ -1,28 +1,43 @@
 {
-	"id": "SacrificialBow",
-	"shareid": 127,
-	"name": "Arco del Sacrificio",
-	"title": "Serenidad: Arco del Sacrificio",
-	"desc": "Un arco de caza desgastado cuyas decoraciones son todavía fácilmente visibles.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1.<span style=\"color:#FFFFFFFF\">Cuando el personaje usa una Habilidad Elemental, se crea un dado elemental de su mismo elemento (1 vez por ronda).",
-	"attributes": {
-		"cost": 3,
-		"costType": "Dados unielementales",
-		"cardType": "Carta de equipamiento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Dados unielementales",
-				"count": 3
-			}
-		],
-		"tags": ["Arma", "Arco"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Daño +1.<span style=\"color:#FFFFFFFF\">Cuando el personaje usa una Habilidad Elemental, se crea un dado elemental de su mismo elemento (1 vez por ronda).Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma."
-		}
-	],
-	"version": "4.4"
+  "id": "SacrificialBow",
+  "shareid": 127,
+  "name": "Arco del Sacrificio",
+  "title": "Serenidad: Arco del Sacrificio",
+  "desc": "Un arco de caza desgastado cuyas decoraciones son todavía fácilmente visibles.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Cuando el personaje usa una Habilidad Elemental</span>, se crea un dado elemental de su mismo elemento (1 vez por ronda).",
+  "attributes": {
+    "cost": 3,
+    "costType": "Dados unielementales",
+    "cardType": "Carta de equipamiento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arma",
+      "Arco",
+      "Arma",
+      "Arco"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Daño +1.Cuando el personaje usa una Habilidad Elemental, se crea un dado elemental de su mismo elemento (1 vez por ronda).Solo pueden llevarla equipada los personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma."
+    },
+    {
+      "name": "",
+      "desc": "Daño +1. Cuando el personaje usa una Habilidad Elemental, se crea un dado elemental de su mismo elemento (1 vez por ronda). Solo pueden llevarla equipada los personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 127
 }

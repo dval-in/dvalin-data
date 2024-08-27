@@ -1,293 +1,588 @@
 {
-	"id": "WolfsGravestone",
-	"name": "\u72fc\u306e\u672b\u8def",
-	"description": "\u72fc\u306e\u9a0e\u58eb\u304c\u4f7f\u3063\u3066\u3044\u305f\u5927\u5263\u3002\u672c\u6765\u306f\u9244\u5de5\u623f\u306e\u8077\u4eba\u306b\u8d08\u3089\u308c\u305f\u9244\u306e\u584a\u3060\u3063\u305f\u304c\u3001\u72fc\u3068\u306e\u7d46\u306b\u3088\u3063\u3066\u795e\u8a71\u306e\u3088\u3046\u306a\u529b\u3092\u5f97\u305f\u3002",
-	"rarity": 5,
-	"type": "\u4e21\u624b\u5263",
-	"domain": "\u30bb\u30b7\u30ea\u30a2\u306e\u82d7\u5e8a",
-	"passive": "\u72fc\u306e\u3088\u3046\u306a\u72e9\u4eba",
-	"bonus": "\u653b\u6483\u529b+20%/25%/30%/35%/40%\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+40%/50%/60%/70%/80%\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u6483\u529b",
-		"secondary": "\u653b\u6483\u529b%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 46,
-				"secondary": 10.8
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 122,
-				"secondary": 19.1
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 153,
-				"secondary": 19.1
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 235,
-				"secondary": 27.8
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 266,
-				"secondary": 27.8
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 308,
-				"secondary": 32.2
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 340,
-				"secondary": 32.2
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 382,
-				"secondary": 36.5
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 414,
-				"secondary": 36.5
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 457,
-				"secondary": 40.9
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 488,
-				"secondary": 40.9
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 532,
-				"secondary": 45.3
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 563,
-				"secondary": 45.3
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 608,
-				"secondary": 49.6
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "FettersOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u6226\u58eb\u306e\u67b7",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "\u6df7\u6c8c\u306e\u88c5\u7f6e",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "\u5360\u3044\u306e\u7d75\u5dfb",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u6226\u58eb\u306e\u9396",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "\u6df7\u6c8c\u306e\u88c5\u7f6e",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "\u5360\u3044\u306e\u7d75\u5dfb",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u6226\u58eb\u306e\u9396",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "\u6df7\u6c8c\u306e\u56de\u8def",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "\u5c01\u9b54\u306e\u7d75\u5dfb",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u6226\u58eb\u306e\u624b\u9320",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "\u6df7\u6c8c\u306e\u56de\u8def",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "\u5c01\u9b54\u306e\u7d75\u5dfb",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u6226\u58eb\u306e\u624b\u9320",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCore",
-					"name": "\u6df7\u6c8c\u306e\u7089\u5fc3",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "\u7981\u546a\u306e\u7d75\u5dfb",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "DreamOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u6226\u58eb\u306e\u7406\u60f3",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "ChaosCore",
-					"name": "\u6df7\u6c8c\u306e\u7089\u5fc3",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "\u7981\u546a\u306e\u7d75\u5dfb",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u72fc\u306e\u3088\u3046\u306a\u72e9\u4eba",
-		"template": "\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{1}\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002",
-		"params": [
-			["20%", "40%"],
-			["25%", "50%"],
-			["30%", "60%"],
-			["35%", "70%"],
-			["40%", "80%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u653b\u6483\u529b+20%\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+40%\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u653b\u6483\u529b+25%\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+50%\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u653b\u6483\u529b+30%\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+60%\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u653b\u6483\u529b+35%\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+70%\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u653b\u6483\u529b+40%\u3002HP\u304c30%\u4ee5\u4e0b\u306e\u6575\u306b\u547d\u4e2d\u3059\u308b\u3068\u3001\u30c1\u30fc\u30e0\u5168\u54e1\u306e\u653b\u6483\u529b+80%\u3001\u7d99\u7d9a\u6642\u959312\u79d2\u300230\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/WolfsGravestone/Icon.webp"
-	}
+  "id": "WolfsGravestone",
+  "name": "狼の末路",
+  "description": "狼の騎士が使っていた大剣。本来は鉄工房の職人に贈られた鉄の塊だったが、狼との絆によって神話のような力を得た。",
+  "rarity": 5,
+  "type": "両手剣",
+  "domain": "セシリアの苗床",
+  "passive": "狼のような狩人",
+  "bonus": "攻撃力+20%/25%/30%/35%/40%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+40%/50%/60%/70%/80%、継続時間12秒。30秒に1回のみ発動可能。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "攻撃力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 10.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 49.6
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 10.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 49.6
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "獅牙戦士の枷",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌の装置",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙戦士の鎖",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌の装置",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙戦士の鎖",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌の回路",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙戦士の手錠",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌の回路",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙戦士の手錠",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌の炉心",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "獅牙戦士の理想",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌の炉心",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "獅牙戦士の枷",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌の装置",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙戦士の鎖",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "混沌の装置",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "占いの絵巻",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙戦士の鎖",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌の回路",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙戦士の手錠",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "混沌の回路",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "封魔の絵巻",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙戦士の手錠",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌の炉心",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "獅牙戦士の理想",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "混沌の炉心",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "禁呪の絵巻",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "攻撃力+20%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+40%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 2,
+      "desc": "攻撃力+25%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+50%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 3,
+      "desc": "攻撃力+30%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+60%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 4,
+      "desc": "攻撃力+35%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+70%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 5,
+      "desc": "攻撃力+40%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+80%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 1,
+      "desc": "攻撃力+20%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+40%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 2,
+      "desc": "攻撃力+25%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+50%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 3,
+      "desc": "攻撃力+30%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+60%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 4,
+      "desc": "攻撃力+35%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+70%、継続時間12秒。30秒に1回のみ発動可能。"
+    },
+    {
+      "refinement": 5,
+      "desc": "攻撃力+40%。HPが30%以下の敵に命中すると、チーム全員の攻撃力+80%、継続時間12秒。30秒に1回のみ発動可能。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/WolfsGravestone/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "狼のような狩人",
+    "template": "攻撃力+<span style=\"color:#99FFFFFF\">{0}</span>。HPが30%以下の敵に命中すると、チーム全員の攻撃力+<span style=\"color:#99FFFFFF\">{1}</span>、継続時間12秒。30秒に1回のみ発動可能。",
+    "params": [
+      [
+        "20%",
+        "40%"
+      ],
+      [
+        "25%",
+        "50%"
+      ],
+      [
+        "30%",
+        "60%"
+      ],
+      [
+        "35%",
+        "70%"
+      ],
+      [
+        "40%",
+        "80%"
+      ],
+      [
+        "20%",
+        "40%"
+      ],
+      [
+        "25%",
+        "50%"
+      ],
+      [
+        "30%",
+        "60%"
+      ],
+      [
+        "35%",
+        "70%"
+      ],
+      [
+        "40%",
+        "80%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

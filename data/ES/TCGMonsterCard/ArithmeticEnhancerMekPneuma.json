@@ -10,12 +10,81 @@
     "element": "Sin tipo elemental",
     "weapon": "Otras armas",
     "faction": [
+      "Monstruo",
       "Monstruo"
     ],
     "source": null,
     "cardType": "Carta de personaje"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Placaje",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "Aumento de energía pneuma",
+      "desc": "Inflige 2 pts. de Daño Físico y este personaje obtiene el efecto de potenciación de energía pneuma.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "Explosión de energía pneuma",
+      "desc": "Inflige 3 pts. de Daño Físico y este personaje obtiene el efecto de potenciación de energía pneuma.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "Mecareparación: pneuma",
+      "desc": "Cuando tu personaje usa una habilidad, el personaje que haya recibido más daño obtiene Vida +1.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Energía pneuma",
+      "desc": "Tras recibir daño cargado de arjé: ousía, este personaje entra en estado desactivado y no puede usar habilidades hasta el fin de la ronda actual.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "Placaje",

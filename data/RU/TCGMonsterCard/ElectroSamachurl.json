@@ -11,12 +11,64 @@
     "weapon": "Прочее",
     "faction": [
       "Монстр",
+      "Хиличурл",
+      "Монстр",
       "Хиличурл"
     ],
     "source": null,
     "cardType": "Карты персонажей"
   },
   "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "Ударный посох",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "Грозовой тотем",
+      "desc": "Наносит Электро урон, 2 ед. Вызывает Грозовой посох у противника.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "Громовые чары",
+      "desc": "Наносит Электро урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "StrikingStaff",
       "name": "Ударный посох",

@@ -1,83 +1,159 @@
 {
-	"id": "FatuiPyroAgent",
-	"shareid": 55,
-	"name": "愚人众·火之债务处理人",
-	"title": "清算之刃·债务处理人",
-	"desc": "「死债不可免，活债更难逃…」",
-	"attributes": {
-		"hp": 9,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "火元素",
-		"weapon": "其他武器",
-		"faction": ["愚人众"],
-		"talentCard": {
-			"id": "PaidInFull",
-			"name": "Paid in Full"
-		},
-		"source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度愚人众·火之债务处理人中获得胜利后获取",
-		"character": {
-			"id": "FatuiPyroAgent",
-			"name": "Fatui Pyro Agent"
-		}
-	},
-	"skills": [
-		{
-			"id": "Thrust",
-			"name": "突刺",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Prowl",
-			"name": "伺机而动",
-			"desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害，本角色附属<span style=\"color:#FFFFFFFF\">潜行。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BladeAblaze",
-			"name": "焚毁之锋",
-			"desc": "造成5点<span style=\"color:#FF9999FF\">火元素伤害。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StealthMaster",
-			"name": "潜行大师",
-			"desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">潜行。",
-			"skilltag": ["被动技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiPyroAgent",
+  "shareid": 55,
+  "name": "愚人众·火之债务处理人",
+  "title": "清算之刃·债务处理人",
+  "desc": "「死债不可免，活债更难逃…」",
+  "attributes": {
+    "hp": 9,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人众",
+      "愚人众"
+    ],
+    "talentCard": {
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度愚人众·火之债务处理人中获得胜利后获取",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "突刺",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "伺机而动",
+      "desc": "造成1点火元素伤害，本角色附属潜行。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "焚毁之锋",
+      "desc": "造成5点火元素伤害。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "潜行大师",
+      "desc": "【被动】战斗开始时，初始附属潜行。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "Thrust",
+      "name": "突刺",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "伺机而动",
+      "desc": "造成1点火元素伤害，本角色附属潜行。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "焚毁之锋",
+      "desc": "造成5点火元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "潜行大师",
+      "desc": "【被动】战斗开始时，初始附属潜行。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 55
 }

@@ -12,6 +12,7 @@
     "weapon": "Arco",
     "faction": [
       "Liyue",
+      "Liyue",
       "Liyue"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "Irrupción",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el estado de irrupción.",
       "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "StealthyBowshot",
+      "name": "Flecha subrepticia",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "Atadura salvavidas",
+      "desc": "Inflige 3 pts. de Daño Hydro y este personaje obtiene cargas de irrupción +2.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "Dado clarividente",
+      "desc": "Inflige 3 pts. de Daño Hydro y crea un dado intrincado.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "Irrupción",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el estado de irrupción.",
+      "skillTag": [
         "Habilidad pasiva"
       ],
       "points": []

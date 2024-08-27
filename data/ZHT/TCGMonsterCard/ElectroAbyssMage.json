@@ -1,75 +1,151 @@
 {
-	"id": "ElectroAbyssMage",
-	"shareid": 3404,
-	"name": "雷深淵法師",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "雷元素",
-		"weapon": "其他武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Thunderbolt",
-			"name": "雷彈",
-			"desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LingeringLight",
-			"name": "纏光的祭法",
-			"desc": "召喚<span style=\"color:#FFFFFFFF\">纏雷之環。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfRollingThunder",
-			"name": "滾雷馳驟之儀",
-			"desc": "造成4點<span style=\"color:#FFACFFFF\">雷元素傷害，召喚<span style=\"color:#FFFFFFFF\">纏雷之環。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElectroShield",
-			"name": "雷元素護罩",
-			"desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">雷元素護罩。",
-			"skilltag": ["被動技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ElectroAbyssMage",
+  "shareid": 3404,
+  "name": "雷深淵法師",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Thunderbolt",
+      "name": "雷彈",
+      "desc": "造成1點雷元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLight",
+      "name": "纏光的祭法",
+      "desc": "召喚纏雷之環。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfRollingThunder",
+      "name": "滾雷馳驟之儀",
+      "desc": "造成4點雷元素傷害，召喚纏雷之環。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElectroShield",
+      "name": "雷元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬雷元素護罩。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "Thunderbolt",
+      "name": "雷彈",
+      "desc": "造成1點雷元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLight",
+      "name": "纏光的祭法",
+      "desc": "召喚纏雷之環。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfRollingThunder",
+      "name": "滾雷馳驟之儀",
+      "desc": "造成4點雷元素傷害，召喚纏雷之環。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElectroShield",
+      "name": "雷元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬雷元素護罩。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3404
 }

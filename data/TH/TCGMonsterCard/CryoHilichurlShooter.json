@@ -1,62 +1,123 @@
 {
-	"id": "CryoHilichurlShooter",
-	"shareid": 3102,
-	"name": "Cryo Hilichurl Shooter",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 3,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุน้ำแข็ง",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["มอนสเตอร์", "Hilichurl"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "IceArrow",
-			"name": "Ice Arrow",
-			"desc": "จะสร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Multishot",
-			"name": "Multishot",
-			"desc": "จะสร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 4 หน่วย",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Hide",
-			"name": "Hide",
-			"desc": "[ติดตัว] หลังจากที่ตัวละครนี้โจมตี จะเปลี่ยนเป็นตัวละครถัดไปโดยอัตโนมัติ",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CryoHilichurlShooter",
+  "shareid": 3102,
+  "name": "Cryo Hilichurl Shooter",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์",
+      "Hilichurl",
+      "มอนสเตอร์",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "IceArrow",
+      "name": "Ice Arrow",
+      "desc": "จะสร้างความเสียหายน้ำแข็ง 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Multishot",
+      "desc": "จะสร้างความเสียหายน้ำแข็ง 4 หน่วย",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Hide",
+      "desc": "[ติดตัว] หลังจากที่ตัวละครนี้โจมตี จะเปลี่ยนเป็นตัวละครถัดไปโดยอัตโนมัติ",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "IceArrow",
+      "name": "Ice Arrow",
+      "desc": "จะสร้างความเสียหายน้ำแข็ง 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Multishot",
+      "desc": "จะสร้างความเสียหายน้ำแข็ง 4 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Hide",
+      "desc": "[ติดตัว] หลังจากที่ตัวละครนี้โจมตี จะเปลี่ยนเป็นตัวละครถัดไปโดยอัตโนมัติ",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3102
 }

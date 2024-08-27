@@ -1,77 +1,142 @@
 {
-	"id": "Noelle",
-	"shareid": 43,
-	"name": "Noelle",
-	"title": "Knospe des Rittertums – Noelle",
-	"desc": "Dinge wie das Aufräumen des Spielbrettes kannst du ihr immer überlassen.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Zweihänder",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "IGotYourBack",
-			"name": "I Got Your Back"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Noelle in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Noelle",
-			"name": "Noelle",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkMaid",
-			"name": "Favonius-Schwertkunst – Magd",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Breastplate",
-			"name": "Brustpanzer",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Geo-Panzer.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SweepingTime",
-			"name": "Großreinigung",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erhält selbst <span style=\"color:#FFFFFFFF\">Großreinigung.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Noelle",
+  "shareid": 43,
+  "name": "Noelle",
+  "title": "Knospe des Rittertums – Noelle",
+  "desc": "Dinge wie das Aufräumen des Spielbrettes kannst du ihr immer überlassen.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "IGotYourBack",
+      "name": "I Got Your Back"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Noelle in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Noelle",
+      "name": "Noelle",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkMaid",
+      "name": "Favonius-Schwertkunst – Magd",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Breastplate",
+      "name": "Brustpanzer",
+      "desc": "Verursacht 1 Pkt. Geo-SCH, erschafft 1 Geo-Panzer.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SweepingTime",
+      "name": "Großreinigung",
+      "desc": "Verursacht 4 Pkt. Geo-SCH, erhält selbst Großreinigung.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FavoniusBladeworkMaid",
+      "name": "Favonius-Schwertkunst – Magd",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Breastplate",
+      "name": "Brustpanzer",
+      "desc": "Verursacht 1 Pkt. Geo-SCH, erschafft 1 Geo-Panzer.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SweepingTime",
+      "name": "Großreinigung",
+      "desc": "Verursacht 4 Pkt. Geo-SCH, erhält selbst Großreinigung.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 43
 }

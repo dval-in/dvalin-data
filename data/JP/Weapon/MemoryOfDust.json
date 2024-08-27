@@ -1,293 +1,588 @@
 {
-	"id": "MemoryOfDust",
-	"name": "\u6d6e\u4e16\u306e\u9320",
-	"description": "\u3042\u308b\u9060\u3044\u6614\u306e\u8a18\u61b6\u304c\u79d8\u3081\u3089\u308c\u3066\u3044\u308b\u77f3\u306e\u9320\u3002\u7aae\u307e\u308a\u306a\u3044\u5909\u5316\u306e\u4e2d\u304b\u3089\u305d\u306e\u529b\u304c\u4f3a\u3048\u308b\u3002",
-	"rarity": 5,
-	"type": "\u6cd5\u5668",
-	"domain": "\u9707\u96f7\u9023\u5c71\u5bc6\u5bae",
-	"passive": "\u91d1\u748b\u541b\u81e8",
-	"bonus": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+20%/25%/30%/35%/40%\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+4%/5%/6%/7%/8%\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u6483\u529b",
-		"secondary": "\u653b\u6483\u529b%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 46,
-				"secondary": 10.8
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 122,
-				"secondary": 19.1
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 153,
-				"secondary": 19.1
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 235,
-				"secondary": 27.8
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 266,
-				"secondary": 27.8
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 308,
-				"secondary": 32.2
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 340,
-				"secondary": 32.2
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 382,
-				"secondary": 36.5
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 414,
-				"secondary": 36.5
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 457,
-				"secondary": 40.9
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 488,
-				"secondary": 40.9
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 532,
-				"secondary": 45.3
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 563,
-				"secondary": 45.3
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 608,
-				"secondary": 49.6
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "GrainOfAerosiderite",
-					"name": "\u6f06\u9ed2\u306e\u9695\u9244\u306e\u4e00\u7c92",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "FragileBoneShard",
-					"name": "\u8106\u3044\u9aa8\u7247",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "\u7834\u640d\u3057\u305f\u4eee\u9762",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "PieceOfAerosiderite",
-					"name": "\u6f06\u9ed2\u306e\u9695\u9244\u306e\u4e00\u7247",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "FragileBoneShard",
-					"name": "\u8106\u3044\u9aa8\u7247",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "\u7834\u640d\u3057\u305f\u4eee\u9762",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "PieceOfAerosiderite",
-					"name": "\u6f06\u9ed2\u306e\u9695\u9244\u306e\u4e00\u7247",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SturdyBoneShard",
-					"name": "\u4e08\u592b\u306a\u9aa8\u7247",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "\u6c5a\u308c\u305f\u4eee\u9762",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "BitOfAerosiderite",
-					"name": "\u6f06\u9ed2\u306e\u9695\u9244\u306e\u4e00\u89d2",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "SturdyBoneShard",
-					"name": "\u4e08\u592b\u306a\u9aa8\u7247",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "\u6c5a\u308c\u305f\u4eee\u9762",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "BitOfAerosiderite",
-					"name": "\u6f06\u9ed2\u306e\u9695\u9244\u306e\u4e00\u89d2",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "FossilizedBoneShard",
-					"name": "\u77f3\u5316\u3057\u305f\u9aa8\u7247",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "\u4e0d\u5409\u306a\u4eee\u9762",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "ChunkOfAerosiderite",
-					"name": "\u6f06\u9ed2\u306e\u9695\u9244\u306e\u584a",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "FossilizedBoneShard",
-					"name": "\u77f3\u5316\u3057\u305f\u9aa8\u7247",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "\u4e0d\u5409\u306a\u4eee\u9762",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u91d1\u748b\u541b\u81e8",
-		"template": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+<span style=\"color:#99FFFFFF\">{0}\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{1}\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002",
-		"params": [
-			["20%", "4%"],
-			["25%", "5%"],
-			["30%", "6%"],
-			["35%", "7%"],
-			["40%", "8%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+20%\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+4%\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+25%\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+5%\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+30%\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+6%\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+35%\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+7%\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u30b7\u30fc\u30eb\u30c9\u5f37\u5316+40%\u3002\u653b\u6483\u304c\u547d\u4e2d\u3057\u305f8\u79d2\u9593\u3001\u653b\u6483\u529b+8%\u3002\u3053\u306e\u52b9\u679c\u306f\u6700\u59275\u91cd\u307e\u3067\u30010.3\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u307e\u305f\u3001\u30b7\u30fc\u30eb\u30c9\u72b6\u614b\u306e\u6642\u3001\u653b\u6483\u529b\u30a2\u30c3\u30d7\u306e\u52b9\u679c\u91cf\u304c2\u500d\u306b\u306a\u308b\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/MemoryOfDust/Icon.webp"
-	}
+  "id": "MemoryOfDust",
+  "name": "浮世の錠",
+  "description": "ある遠い昔の記憶が秘められている石の錠。窮まりない変化の中からその力が伺える。",
+  "rarity": 5,
+  "type": "法器",
+  "domain": "震雷連山密宮",
+  "passive": "金璋君臨",
+  "bonus": "シールド強化+20%/25%/30%/35%/40%。攻撃が命中した8秒間、攻撃力+4%/5%/6%/7%/8%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "攻撃力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 10.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 49.6
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 10.8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 19.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 27.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 32.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 36.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 40.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 45.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 49.6
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "GrainOfAerosiderite",
+          "name": "漆黒の隕鉄の一粒",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "脆い骨片",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損した仮面",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "漆黒の隕鉄の一片",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "脆い骨片",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損した仮面",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "漆黒の隕鉄の一片",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "丈夫な骨片",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汚れた仮面",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "漆黒の隕鉄の一角",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "丈夫な骨片",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汚れた仮面",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "漆黒の隕鉄の一角",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "石化した骨片",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不吉な仮面",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "ChunkOfAerosiderite",
+          "name": "漆黒の隕鉄の塊",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "石化した骨片",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不吉な仮面",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "GrainOfAerosiderite",
+          "name": "漆黒の隕鉄の一粒",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "脆い骨片",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損した仮面",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "漆黒の隕鉄の一片",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "脆い骨片",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損した仮面",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "漆黒の隕鉄の一片",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "丈夫な骨片",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汚れた仮面",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "漆黒の隕鉄の一角",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "丈夫な骨片",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汚れた仮面",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "漆黒の隕鉄の一角",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "石化した骨片",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不吉な仮面",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "ChunkOfAerosiderite",
+          "name": "漆黒の隕鉄の塊",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "石化した骨片",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不吉な仮面",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "シールド強化+20%。攻撃が命中した8秒間、攻撃力+4%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 2,
+      "desc": "シールド強化+25%。攻撃が命中した8秒間、攻撃力+5%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 3,
+      "desc": "シールド強化+30%。攻撃が命中した8秒間、攻撃力+6%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 4,
+      "desc": "シールド強化+35%。攻撃が命中した8秒間、攻撃力+7%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 5,
+      "desc": "シールド強化+40%。攻撃が命中した8秒間、攻撃力+8%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 1,
+      "desc": "シールド強化+20%。攻撃が命中した8秒間、攻撃力+4%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 2,
+      "desc": "シールド強化+25%。攻撃が命中した8秒間、攻撃力+5%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 3,
+      "desc": "シールド強化+30%。攻撃が命中した8秒間、攻撃力+6%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 4,
+      "desc": "シールド強化+35%。攻撃が命中した8秒間、攻撃力+7%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    },
+    {
+      "refinement": 5,
+      "desc": "シールド強化+40%。攻撃が命中した8秒間、攻撃力+8%。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/MemoryOfDust/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "金璋君臨",
+    "template": "シールド強化+<span style=\"color:#99FFFFFF\">{0}</span>。攻撃が命中した8秒間、攻撃力+<span style=\"color:#99FFFFFF\">{1}</span>。この効果は最大5重まで、0.3秒毎に1回のみ発動可能。また、シールド状態の時、攻撃力アップの効果量が2倍になる。",
+    "params": [
+      [
+        "20%",
+        "4%"
+      ],
+      [
+        "25%",
+        "5%"
+      ],
+      [
+        "30%",
+        "6%"
+      ],
+      [
+        "35%",
+        "7%"
+      ],
+      [
+        "40%",
+        "8%"
+      ],
+      [
+        "20%",
+        "4%"
+      ],
+      [
+        "25%",
+        "5%"
+      ],
+      [
+        "30%",
+        "6%"
+      ],
+      [
+        "35%",
+        "7%"
+      ],
+      [
+        "40%",
+        "8%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

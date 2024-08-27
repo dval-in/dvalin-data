@@ -10,6 +10,7 @@
     "element": "풀 원소",
     "weapon": "기타 무기",
     "faction": [
+      "마물",
       "마물"
     ],
     "source": null,
@@ -55,6 +56,70 @@
       "id": "TheEndFalls",
       "name": "종말의 추락",
       "desc": "풀 원소 피해를 $[D__KEY__DAMAGE_2]pt 주고 권속 소환을 1장 드로우하며 오아시스의 양분을 2스택 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InvokationOfPropagation",
+      "name": "증식의 부름",
+      "desc": "[패시브] 전투 시작 시, 권속 소환을 6장 생성해 카드 더미에 랜덤으로 넣는다. 아군이 증식 생명체를 4기 소환 후, 이 캐릭터에 다시 타오른 오아시스의 심장이 부착되며 보호막을 2pt 획득한다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
+    {
+      "id": "StrikeOfTheDispossessed",
+      "name": "고향 잃은 자의 공격",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LifeStream",
+      "name": "생명의 나선",
+      "desc": "물리 피해를 $[D__KEY__DAMAGE_2]pt 주고 권속 소환을 1장 드로우하며 오아시스의 양분을 1스택 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheEndFalls",
+      "name": "종말의 추락",
+      "desc": "물리 피해를 $[D__KEY__DAMAGE_2]pt 주고 권속 소환을 1장 드로우하며 오아시스의 양분을 2스택 생성한다.",
       "skillTag": [
         "원소폭발"
       ],

@@ -1,287 +1,578 @@
 {
-	"id": "DarkIronSword",
-	"name": "\u6697\u9435\u528d",
-	"description": "\u5176\u5be6\u5c31\u662f\u7a0d\u5fae\u6709\u9ede\u9ed1\u7684\u9435\u528d\u3002",
-	"rarity": 3,
-	"type": "\u55ae\u624b\u528d",
-	"domain": "\u9707\u96f7\u9023\u5c71\u5bc6\u5bae",
-	"passive": "\u904e\u8f09",
-	"bonus": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad820%/25%/30%/35%/40%\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u64ca\u529b",
-		"secondary": "\u5143\u7d20\u7cbe\u901a",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 39,
-				"secondary": 31
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 94,
-				"secondary": 54
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 113,
-				"secondary": 54
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 169,
-				"secondary": 79
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 189,
-				"secondary": 79
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 216,
-				"secondary": 91
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 236,
-				"secondary": 91
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 263,
-				"secondary": 104
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 282,
-				"secondary": 104
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 309,
-				"secondary": 116
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 329,
-				"secondary": 116
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 355,
-				"secondary": 128
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 375,
-				"secondary": 128
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 401,
-				"secondary": 141
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "LuminousSandsFromGuyun",
-					"name": "\u5b64\u96f2\u5bd2\u6797\u7684\u5149\u7802",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "HuntersSacrificialKnife",
-					"name": "\u7375\u5175\u796d\u5200",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "\u7834\u640d\u7684\u9762\u5177",
-					"amount": 1,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "\u5b64\u96f2\u5bd2\u6797\u7684\u8f1d\u5ca9",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "HuntersSacrificialKnife",
-					"name": "\u7375\u5175\u796d\u5200",
-					"amount": 8,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "\u7834\u640d\u7684\u9762\u5177",
-					"amount": 5,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "\u5b64\u96f2\u5bd2\u6797\u7684\u8f1d\u5ca9",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "AgentsSacrificialKnife",
-					"name": "\u7279\u5de5\u796d\u5200",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "\u6c59\u7a62\u7684\u9762\u5177",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "\u5b64\u96f2\u5bd2\u6797\u7684\u8056\u9ab8",
-					"amount": 2,
-					"rarity": 4
-				},
-				{
-					"id": "AgentsSacrificialKnife",
-					"name": "\u7279\u5de5\u796d\u5200",
-					"amount": 8,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "\u6c59\u7a62\u7684\u9762\u5177",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 25000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "\u5b64\u96f2\u5bd2\u6797\u7684\u8056\u9ab8",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "InspectorsSacrificialKnife",
-					"name": "\u7763\u5bdf\u9577\u796d\u5200",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "\u4e0d\u7965\u7684\u9762\u5177",
-					"amount": 4,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "DivineBodyFromGuyun",
-					"name": "\u5b64\u96f2\u5bd2\u6797\u7684\u795e\u9ad4",
-					"amount": 3,
-					"rarity": 5
-				},
-				{
-					"id": "InspectorsSacrificialKnife",
-					"name": "\u7763\u5bdf\u9577\u796d\u5200",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "\u4e0d\u7965\u7684\u9762\u5177",
-					"amount": 8,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u904e\u8f09",
-		"template": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad8<span style=\"color:#99FFFFFF\">{0}\u3002",
-		"params": [["20%"], ["25%"], ["30%"], ["35%"], ["40%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad820%\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad825%\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad830%\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad835%\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u89f8\u767c\u8d85\u8f09\u3001\u8d85\u5c0e\u3001\u611f\u96fb\u3001\u539f\u6fc0\u5316\u3001\u8d85\u6fc0\u5316\u3001\u8d85\u7dbb\u653e\u6216\u96f7\u5143\u7d20\u64f4\u6563\u53cd\u61c9\u5f8c\u768412\u79d2\u5167\uff0c\u653b\u64ca\u529b\u63d0\u9ad840%\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/DarkIronSword/Icon.webp"
-	}
+  "id": "DarkIronSword",
+  "name": "暗鐵劍",
+  "description": "其實就是稍微有點黑的鐵劍。",
+  "rarity": 3,
+  "type": "單手劍",
+  "domain": "震雷連山密宮",
+  "passive": "過載",
+  "bonus": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高20%/25%/30%/35%/40%。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "元素精通",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 31
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 54
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 54
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 79
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 79
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 91
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 91
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 104
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 104
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 116
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 116
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 128
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 128
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 141
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 31
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 54
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 54
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 79
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 79
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 91
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 91
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 104
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 104
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 116
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 116
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 128
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 128
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 141
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "孤雲寒林的光砂",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "獵兵祭刀",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損的面具",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤雲寒林的輝岩",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "獵兵祭刀",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損的面具",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤雲寒林的輝岩",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汙穢的面具",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤雲寒林的聖骸",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汙穢的面具",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤雲寒林的聖骸",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察長祭刀",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "孤雲寒林的神體",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察長祭刀",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "孤雲寒林的光砂",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "獵兵祭刀",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損的面具",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤雲寒林的輝岩",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "獵兵祭刀",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "破損的面具",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤雲寒林的輝岩",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汙穢的面具",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤雲寒林的聖骸",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "汙穢的面具",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤雲寒林的聖骸",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察長祭刀",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "孤雲寒林的神體",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察長祭刀",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "不祥的面具",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高20%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高25%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高30%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高35%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高40%。"
+    },
+    {
+      "refinement": 1,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高20%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高25%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高30%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高35%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高40%。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/DarkIronSword/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "過載",
+    "template": "觸發超載、超導、感電、原激化、超激化、超綻放或雷元素擴散反應後的12秒內，攻擊力提高<span style=\"color:#99FFFFFF\">{0}</span>。",
+    "params": [
+      [
+        "20%"
+      ],
+      [
+        "25%"
+      ],
+      [
+        "30%"
+      ],
+      [
+        "35%"
+      ],
+      [
+        "40%"
+      ],
+      [
+        "20%"
+      ],
+      [
+        "25%"
+      ],
+      [
+        "30%"
+      ],
+      [
+        "35%"
+      ],
+      [
+        "40%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

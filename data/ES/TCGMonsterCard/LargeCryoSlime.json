@@ -12,6 +12,7 @@
     "weapon": "Otras armas",
     "faction": [
       "Monstruo",
+      "Monstruo",
       "Monstruo"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Sedimento elemental: Cryo",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de ser elemental: Cryo.",
       "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Salto",
+      "desc": "Inflige 1 pt. de Daño Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "Chorro helado",
+      "desc": "Inflige 3 pts. de Daño Cryo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Caída pesada",
+      "desc": "Inflige 5 pts. de Daño Cryo.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Sedimento elemental: Cryo",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de ser elemental: Cryo.",
+      "skillTag": [
         "Habilidad pasiva"
       ],
       "points": []

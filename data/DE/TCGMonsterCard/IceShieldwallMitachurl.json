@@ -1,75 +1,153 @@
 {
-	"id": "IceShieldwallMitachurl",
-	"shareid": 3101,
-	"name": "Mitachurl mit Eisschild",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Kryo",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster", "Hilichurl"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "PlataPlama",
-			"name": "Plata Plama",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DaPlama",
-			"name": "Da Plama",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "AbaMovo",
-			"name": "Aba Movo",
-			"desc": "Verursacht 5 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "HoarfrostGreatshield",
-			"name": "Schild des Eises",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Schild des Eises.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "IceShieldwallMitachurl",
+  "shareid": 3101,
+  "name": "Mitachurl mit Eisschild",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Hilichurl",
+      "Monster",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "PlataPlama",
+      "name": "Plata Plama",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DaPlama",
+      "name": "Da Plama",
+      "desc": "Verursacht 3 Pkt. phys. SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AbaMovo",
+      "name": "Aba Movo",
+      "desc": "Verursacht 5 Pkt. phys. SCH.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HoarfrostGreatshield",
+      "name": "Schild des Eises",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Schild des Eises.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "PlataPlama",
+      "name": "Plata Plama",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DaPlama",
+      "name": "Da Plama",
+      "desc": "Verursacht 3 Pkt. phys. SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AbaMovo",
+      "name": "Aba Movo",
+      "desc": "Verursacht 5 Pkt. phys. SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HoarfrostGreatshield",
+      "name": "Schild des Eises",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Schild des Eises.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3101
 }

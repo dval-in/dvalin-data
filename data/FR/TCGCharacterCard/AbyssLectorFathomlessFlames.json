@@ -14,6 +14,7 @@
       "Monstre",
       "Monstre",
       "Monstre",
+      "Monstre",
       "Monstre"
     ],
     "talentCard": {
@@ -87,6 +88,70 @@
       "name": "Renaissance ardente",
       "desc": "(Passif) Accorde une renaissance ardente au début du combat.",
       "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "FlameOfSalvation",
+      "name": "Flamme du salut",
+      "desc": "Inflige 1 pt de DGT Pyro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Précepte enflammé",
+      "desc": "Inflige 3 pts de DGT Pyro.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Présage astral",
+      "desc": "Inflige 3 pts de DGT Pyro et invoque un fourneau de feu noir.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Renaissance ardente",
+      "desc": "(Passif) Accorde une renaissance ardente au début du combat.",
+      "skillTag": [
         "Capacité passive"
       ],
       "points": []

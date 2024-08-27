@@ -12,6 +12,7 @@
     "weapon": "弓",
     "faction": [
       "璃月",
+      "璃月",
       "璃月"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "破局",
       "desc": "【被動】戰鬥開始時，初始附屬破局。",
       "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "StealthyBowshot",
+      "name": "潛形隱曜弓",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "縈絡縱命索",
+      "desc": "造成3點水元素傷害，此角色的破局層數+2。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "淵圖玲瓏骰",
+      "desc": "造成3點水元素傷害，生成玄擲玲瓏。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "破局",
+      "desc": "【被動】戰鬥開始時，初始附屬破局。",
+      "skillTag": [
         "被動技能"
       ],
       "points": []

@@ -1,293 +1,588 @@
 {
-	"id": "KingsSquire",
-	"name": "Vassalo do Rei",
-	"description": "Uma arma obtida atrav\u00e9s de uma das hist\u00f3rias dos Aranara. Ela tomou a forma de um arco que \u00e9 capaz de perfurar os inimigos da floresta.",
-	"rarity": 4,
-	"type": "Arco",
-	"domain": "Ecos das Mar\u00e9s Profundas",
-	"passive": "Instru\u00e7\u00f5es do Rei do Labirinto",
-	"bonus": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em 60/80/100/120/140 por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar 100%/120%/140%/160%/180% de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "ATQ%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 41,
-				"secondary": 12
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 99,
-				"secondary": 21.2
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 125,
-				"secondary": 21.2
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 184,
-				"secondary": 30.9
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 210,
-				"secondary": 30.9
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 238,
-				"secondary": 35.7
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 264,
-				"secondary": 35.7
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 293,
-				"secondary": 40.6
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 319,
-				"secondary": 40.6
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 347,
-				"secondary": 45.4
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 373,
-				"secondary": 45.4
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 401,
-				"secondary": 50.3
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 427,
-				"secondary": 50.3
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 454,
-				"secondary": 55.1
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "EchoOfScorchingMight",
-					"name": "Eco do Poder Escaldante",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "InactivatedFungalNucleus",
-					"name": "N\u00facleo F\u00fangico Inerte",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Ponta de Flecha Robusta",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "RemnantGlowOfScorchingMight",
-					"name": "Brilho Remanescente do Poder Escaldante",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "InactivatedFungalNucleus",
-					"name": "N\u00facleo F\u00fangico Inerte",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Ponta de Flecha Robusta",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "RemnantGlowOfScorchingMight",
-					"name": "Brilho Remanescente do Poder Escaldante",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "DormantFungalNucleus",
-					"name": "N\u00facleo F\u00fangico Adormecido",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Ponta de Flecha Afiada",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "DreamOfScorchingMight",
-					"name": "Sonho do Poder Escaldante",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "DormantFungalNucleus",
-					"name": "N\u00facleo F\u00fangico Adormecido",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Ponta de Flecha Afiada",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "DreamOfScorchingMight",
-					"name": "Sonho do Poder Escaldante",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "RobustFungalNucleus",
-					"name": "N\u00facleo F\u00fangico Robusto",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Ponta de Flecha Usada",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "OldenDaysOfScorchingMight",
-					"name": "Gl\u00f3ria Passada do Poder Escaldante",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "RobustFungalNucleus",
-					"name": "N\u00facleo F\u00fangico Robusto",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Ponta de Flecha Usada",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Instru\u00e7\u00f5es do Rei do Labirinto",
-		"template": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em <span style=\"color:#99FFFFFF\">{0} por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar <span style=\"color:#99FFFFFF\">{1} de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s.",
-		"params": [
-			["60", "100%"],
-			["80", "120%"],
-			["100", "140%"],
-			["120", "160%"],
-			["140", "180%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em 60 por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar 100% de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
-		},
-		{
-			"refinement": 2,
-			"desc": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em 80 por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar 120% de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
-		},
-		{
-			"refinement": 3,
-			"desc": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em 100 por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar 140% de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
-		},
-		{
-			"refinement": 4,
-			"desc": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em 120 por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar 160% de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
-		},
-		{
-			"refinement": 5,
-			"desc": "Obt\u00e9m o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Profici\u00eancia Elemental em 140 por 12s. Este efeito ser\u00e1 removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou \u00e9 removido, ir\u00e1 causar 180% de ATQ como Dano a 1 oponente pr\u00f3ximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/KingsSquire/Icon.webp"
-	}
+  "id": "KingsSquire",
+  "name": "Vassalo do Rei",
+  "description": "Uma arma obtida através de uma das histórias dos Aranara. Ela tomou a forma de um arco que é capaz de perfurar os inimigos da floresta.",
+  "rarity": 4,
+  "type": "Arco",
+  "domain": "Ecos das Marés Profundas",
+  "passive": "Instruções do Rei do Labirinto",
+  "bonus": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 60/80/100/120/140 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 100%/120%/140%/160%/180% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "ATQ%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 12
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 21.2
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 30.9
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 35.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 40.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 45.4
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 50.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 55.1
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "EchoOfScorchingMight",
+          "name": "Eco do Poder Escaldante",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Núcleo Fúngico Inerte",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Brilho Remanescente do Poder Escaldante",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Núcleo Fúngico Inerte",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Brilho Remanescente do Poder Escaldante",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Núcleo Fúngico Adormecido",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Sonho do Poder Escaldante",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Núcleo Fúngico Adormecido",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Sonho do Poder Escaldante",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Núcleo Fúngico Robusto",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "OldenDaysOfScorchingMight",
+          "name": "Glória Passada do Poder Escaldante",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Núcleo Fúngico Robusto",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "EchoOfScorchingMight",
+          "name": "Eco do Poder Escaldante",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Núcleo Fúngico Inerte",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Brilho Remanescente do Poder Escaldante",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Núcleo Fúngico Inerte",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Brilho Remanescente do Poder Escaldante",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Núcleo Fúngico Adormecido",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Sonho do Poder Escaldante",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Núcleo Fúngico Adormecido",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Sonho do Poder Escaldante",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Núcleo Fúngico Robusto",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "OldenDaysOfScorchingMight",
+          "name": "Glória Passada do Poder Escaldante",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Núcleo Fúngico Robusto",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 60 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 100% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 80 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 120% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 100 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 140% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 120 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 160% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 140 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 180% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 1,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 60 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 100% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 80 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 120% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 100 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 140% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 120 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 160% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em 140 por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar 180% de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/KingsSquire/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Instruções do Rei do Labirinto",
+    "template": "Obtém o efeito \"Ensinamentos da Floresta\" ao desencadear Habilidades Elementais e Supremos, aumentando a Proficiência Elemental em <span style=\"color:#99FFFFFF\">{0}</span> por 12s. Este efeito será removido ao trocar de personagens. Quando o efeito de Ensinamentos da Floresta termina ou é removido, irá causar <span style=\"color:#99FFFFFF\">{1}</span> de ATQ como Dano a 1 oponente próximo. O efeito de Ensinamentos da Floresta pode ser desencadeado uma vez a cada 20s.",
+    "params": [
+      [
+        "60",
+        "100%"
+      ],
+      [
+        "80",
+        "120%"
+      ],
+      [
+        "100",
+        "140%"
+      ],
+      [
+        "120",
+        "160%"
+      ],
+      [
+        "140",
+        "180%"
+      ],
+      [
+        "60",
+        "100%"
+      ],
+      [
+        "80",
+        "120%"
+      ],
+      [
+        "100",
+        "140%"
+      ],
+      [
+        "120",
+        "160%"
+      ],
+      [
+        "140",
+        "180%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

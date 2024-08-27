@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherHydrogunnerLegionnaire",
-	"shareid": 3203,
-	"name": "Schermagliatore dei Fatui Hydroartigliere corazzato",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 3,
-		"element": "Hydro",
-		"weapon": "Altre armi",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SkilledCharge",
-			"name": "Collisione tattica",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CurativeBullet",
-			"name": "Bomba terapeutica",
-			"desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro. Ripristina 1 PS di 2 personaggi inattivi.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElementalBuffHydro",
-			"name": "Potenziamento elementale di Hydro",
-			"desc": "Infligge 3 <span style=\"color:#80C0FFFF\">DAN da Hydro, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Equipaggiamento elementale di Hydro.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Fornitura bellica",
-			"desc": "(Passiva) All'inizio del duello questo personaggio ottiene 2 punti Energia.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherHydrogunnerLegionnaire",
+  "shareid": 3203,
+  "name": "Schermagliatore dei Fatui Hydroartigliere corazzato",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SkilledCharge",
+      "name": "Collisione tattica",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Bomba terapeutica",
+      "desc": "Infligge 2 DAN da Hydro. Ripristina 1 PS di 2 personaggi inattivi.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Potenziamento elementale di Hydro",
+      "desc": "Infligge 3 DAN da Hydro, questo personaggio ottiene Equipaggiamento elementale di Hydro.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Fornitura bellica",
+      "desc": "(Passiva) All'inizio del duello questo personaggio ottiene 2 punti Energia.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SkilledCharge",
+      "name": "Collisione tattica",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Bomba terapeutica",
+      "desc": "Infligge 2 DAN da Hydro. Ripristina 1 PS di 2 personaggi inattivi.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Potenziamento elementale di Hydro",
+      "desc": "Infligge 3 DAN da Hydro, questo personaggio ottiene Equipaggiamento elementale di Hydro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Fornitura bellica",
+      "desc": "(Passiva) All'inizio del duello questo personaggio ottiene 2 punti Energia.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3203
 }

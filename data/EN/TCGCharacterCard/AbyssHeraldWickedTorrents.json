@@ -11,6 +11,7 @@
     "weapon": "Other Weapons",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Abyss Herald: Wicked Torrents",
@@ -25,6 +26,70 @@
     }
   },
   "skills": [
+    {
+      "id": "RipplingSlash",
+      "name": "Rippling Slash",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VortexEdge",
+      "name": "Vortex Edge",
+      "desc": "Deals 2 Hydro DMG, then performs \"Prepare Skill\" for Rippling Blades.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TorrentialShock",
+      "name": "Torrential Shock",
+      "desc": "Deals 3 Hydro DMG. Creates 1 Curse of the Undercurrent on the opponent's side of the field.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WateryRebirth",
+      "name": "Watery Rebirth",
+      "desc": "(Passive) When the battle begins, this character gains Watery Rebirth.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
     {
       "id": "RipplingSlash",
       "name": "Rippling Slash",

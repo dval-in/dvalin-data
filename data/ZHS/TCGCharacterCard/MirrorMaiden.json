@@ -1,76 +1,141 @@
 {
-	"id": "MirrorMaiden",
-	"shareid": 54,
-	"name": "愚人众·藏镜仕女",
-	"title": "冬国仕女·水镜使者",
-	"desc": "一切隐秘，都将深藏于潋光的水镜之中吧…",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "水元素",
-		"weapon": "其他武器",
-		"faction": ["愚人众"],
-		"talentCard": {
-			"id": "MirrorCage",
-			"name": "Mirror Cage"
-		},
-		"source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度愚人众·藏镜仕女中获得胜利后获取",
-		"character": {
-			"id": "MirrorMaiden",
-			"name": "Mirror Maiden"
-		}
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "水弹",
-			"desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "InfluxBlast",
-			"name": "潋波绽破",
-			"desc": "造成2点<span style=\"color:#80C0FFFF\">水元素伤害，目标角色附属<span style=\"color:#FFFFFFFF\">水光破镜。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RippledReflection",
-			"name": "粼镜折光",
-			"desc": "造成5点<span style=\"color:#80C0FFFF\">水元素伤害。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "MirrorMaiden",
+  "shareid": 54,
+  "name": "愚人众·藏镜仕女",
+  "title": "冬国仕女·水镜使者",
+  "desc": "一切隐秘，都将深藏于潋光的水镜之中吧…",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人众",
+      "愚人众"
+    ],
+    "talentCard": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度愚人众·藏镜仕女中获得胜利后获取",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "水弹",
+      "desc": "造成1点水元素伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "潋波绽破",
+      "desc": "造成2点水元素伤害，目标角色附属水光破镜。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "粼镜折光",
+      "desc": "造成5点水元素伤害。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WaterBall",
+      "name": "水弹",
+      "desc": "造成1点水元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "潋波绽破",
+      "desc": "造成2点水元素伤害，目标角色附属水光破镜。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "粼镜折光",
+      "desc": "造成5点水元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 54
 }

@@ -1,33 +1,46 @@
 {
-	"id": "SashimiPlatter",
-	"shareid": 274,
-	"name": "Sashimi Platter",
-	"title": "Sashimi Platter",
-	"desc": "Under the blade of a master chef, the texture of the ingredients remains pristine. Upon consumption, it is as if something living is leaping inside your mouth...\\nHold on, could these ingredients still be...",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 1,
-		"costType": "Matching Element",
-		"cardType": "Event Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 1
-			}
-		],
-		"food": {
-			"id": "SashimiPlatter",
-			"name": "Sashimi Platter",
-			"rarity": 4
-		},
-		"tags": ["Food"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "Before this Round ends, the target character's <span style=\"color:#FFFFFFFF\">Normal Attacks deal +1 DMG.(A character can consume at most 1 Food per Round)"
-		}
-	],
-	"version": "4.4"
+  "id": "SashimiPlatter",
+  "shareid": 274,
+  "name": "Sashimi Platter",
+  "title": "Sashimi Platter",
+  "desc": "Under the blade of a master chef, the texture of the ingredients remains pristine. Upon consumption, it is as if something living is leaping inside your mouth...\\nHold on, could these ingredients still be...",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "Matching Element",
+    "cardType": "Event Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      }
+    ],
+    "food": {
+      "id": "SashimiPlatter",
+      "name": "Sashimi Platter",
+      "rarity": 4
+    },
+    "tags": [
+      "Food",
+      "Food"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Before this Round ends, the target character's Normal Attacks deal +1 DMG.(A character can consume at most 1 Food per Round)"
+    },
+    {
+      "name": "",
+      "desc": "Before this Round ends, the target character's Normal Attacks deal +1 DMG. (A character can consume at most 1 Food per Round)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 274
 }

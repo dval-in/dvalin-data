@@ -10,12 +10,81 @@
     "element": "Sin tipo elemental",
     "weapon": "Otras armas",
     "faction": [
+      "Monstruo",
       "Monstruo"
     ],
     "source": null,
     "cardType": "Carta de personaje"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Placaje",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "Aumento de energía ousía",
+      "desc": "Inflige 2 pts. de Daño Físico y este personaje obtiene el efecto de potenciación de energía ousía.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "Explosión de energía ousía",
+      "desc": "Inflige 3 pts. de Daño Físico y este personaje obtiene el efecto de potenciación de energía ousía.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "Mecafortalecimiento: ousía",
+      "desc": "Tus personajes infligen daño +1.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energía ousía",
+      "desc": "Tras recibir daño cargado de arjé: pneuma, este personaje entra en estado desactivado y no puede usar habilidades hasta el fin de la ronda actual.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "Placaje",

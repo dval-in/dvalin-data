@@ -1,77 +1,142 @@
 {
-	"id": "Kaeya",
-	"shareid": 3,
-	"name": "凯亚",
-	"title": "寒风剑士·凯亚",
-	"desc": "他很擅长在他人身上发掘出「骑士般的美德」。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "冰元素",
-		"weapon": "单手剑",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "ColdbloodedStrike",
-			"name": "Cold-Blooded Strike"
-		},
-		"source": "初始牌组中获取",
-		"character": {
-			"id": "Kaeya",
-			"name": "Kaeya",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "CeremonialBladework",
-			"name": "仪典剑术",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Frostgnaw",
-			"name": "霜袭",
-			"desc": "造成3点<span style=\"color:#99FFFFFF\">冰元素伤害。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialWaltz",
-			"name": "凛冽轮舞",
-			"desc": "造成1点<span style=\"color:#99FFFFFF\">冰元素伤害，生成<span style=\"color:#FFFFFFFF\">寒冰之棱。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Kaeya",
+  "shareid": 3,
+  "name": "凯亚",
+  "title": "寒风剑士·凯亚",
+  "desc": "他很擅长在他人身上发掘出「骑士般的美德」。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "单手剑",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "ColdbloodedStrike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": "初始牌组中获取",
+    "character": {
+      "id": "Kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "CeremonialBladework",
+      "name": "仪典剑术",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "霜袭",
+      "desc": "造成3点冰元素伤害。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "凛冽轮舞",
+      "desc": "造成1点冰元素伤害，生成寒冰之棱。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialBladework",
+      "name": "仪典剑术",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "霜袭",
+      "desc": "造成3点冰元素伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "凛冽轮舞",
+      "desc": "造成1点冰元素伤害，生成寒冰之棱。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3
 }

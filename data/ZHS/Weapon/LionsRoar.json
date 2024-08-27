@@ -1,287 +1,578 @@
 {
-	"id": "LionsRoar",
-	"name": "\u5323\u91cc\u9f99\u541f",
-	"description": "\u96d5\u9970\u6d6e\u534e\u7684\u5229\u5203\uff0c\u5374\u4e1d\u6beb\u4e0d\u635f\u5b83\u7684\u67d4\u97e7\u4e0e\u950b\u9510\u3002\u7834\u7a7a\u4e4b\u58f0\u6709\u5982\u9f99\u541f\u3002",
-	"rarity": 4,
-	"type": "\u5355\u624b\u5251",
-	"domain": "\u9707\u96f7\u8fde\u5c71\u5bc6\u5bab",
-	"passive": "\u8e0f\u706b\u606f\u96f7",
-	"bonus": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad820%/24%/28%/32%/36%\u3002",
-	"stats": {
-		"primary": "\u57fa\u7840\u653b\u51fb\u529b",
-		"secondary": "\u653b\u51fb\u529b%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 9
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 15.9
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 15.9
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 23.2
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 23.2
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 26.8
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 26.8
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 34.1
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 34.1
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 37.7
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 37.7
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 41.3
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "LuminousSandsFromGuyun",
-					"name": "\u5b64\u4e91\u5bd2\u6797\u7684\u5149\u7802",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "HuntersSacrificialKnife",
-					"name": "\u730e\u5175\u796d\u5200",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "\u5bfb\u5b9d\u9e26\u5370",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "\u5b64\u4e91\u5bd2\u6797\u7684\u8f89\u5ca9",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "HuntersSacrificialKnife",
-					"name": "\u730e\u5175\u796d\u5200",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "\u5bfb\u5b9d\u9e26\u5370",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "\u5b64\u4e91\u5bd2\u6797\u7684\u8f89\u5ca9",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "AgentsSacrificialKnife",
-					"name": "\u7279\u5de5\u796d\u5200",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "\u85cf\u94f6\u9e26\u5370",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "\u5b64\u4e91\u5bd2\u6797\u7684\u5723\u9ab8",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "AgentsSacrificialKnife",
-					"name": "\u7279\u5de5\u796d\u5200",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "\u85cf\u94f6\u9e26\u5370",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "\u5b64\u4e91\u5bd2\u6797\u7684\u5723\u9ab8",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "InspectorsSacrificialKnife",
-					"name": "\u7763\u5bdf\u957f\u796d\u5200",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "\u652b\u91d1\u9e26\u5370",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "DivineBodyFromGuyun",
-					"name": "\u5b64\u4e91\u5bd2\u6797\u7684\u795e\u4f53",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "InspectorsSacrificialKnife",
-					"name": "\u7763\u5bdf\u957f\u796d\u5200",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "\u652b\u91d1\u9e26\u5370",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u8e0f\u706b\u606f\u96f7",
-		"template": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad8<span style=\"color:#99FFFFFF\">{0}\u3002",
-		"params": [["20%"], ["24%"], ["28%"], ["32%"], ["36%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad820%\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad824%\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad828%\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad832%\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u5bf9\u5904\u4e8e\u706b\u5143\u7d20\u6216\u96f7\u5143\u7d20\u5f71\u54cd\u4e0b\u7684\u654c\u4eba\uff0c\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u9ad836%\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/LionsRoar/Icon.webp"
-	}
+  "id": "LionsRoar",
+  "name": "匣里龙吟",
+  "description": "雕饰浮华的利刃，却丝毫不损它的柔韧与锋锐。破空之声有如龙吟。",
+  "rarity": 4,
+  "type": "单手剑",
+  "domain": "震雷连山密宫",
+  "passive": "踏火息雷",
+  "bonus": "对处于火元素或雷元素影响下的敌人，造成的伤害提高20%/24%/28%/32%/36%。",
+  "stats": {
+    "primary": "基础攻击力",
+    "secondary": "攻击力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "孤云寒林的光砂",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "猎兵祭刀",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "寻宝鸦印",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤云寒林的辉岩",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "猎兵祭刀",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "寻宝鸦印",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤云寒林的辉岩",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏银鸦印",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤云寒林的圣骸",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏银鸦印",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤云寒林的圣骸",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察长祭刀",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鸦印",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "孤云寒林的神体",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察长祭刀",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鸦印",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "孤云寒林的光砂",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "猎兵祭刀",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "寻宝鸦印",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤云寒林的辉岩",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "猎兵祭刀",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "寻宝鸦印",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "孤云寒林的辉岩",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏银鸦印",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤云寒林的圣骸",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "特工祭刀",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏银鸦印",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "孤云寒林的圣骸",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察长祭刀",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鸦印",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "孤云寒林的神体",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "督察长祭刀",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鸦印",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高20%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高24%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高28%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高32%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高36%。"
+    },
+    {
+      "refinement": 1,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高20%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高24%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高28%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高32%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "对处于火元素或雷元素影响下的敌人，造成的伤害提高36%。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/LionsRoar/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "踏火息雷",
+    "template": "对处于火元素或雷元素影响下的敌人，造成的伤害提高<span style=\"color:#99FFFFFF\">{0}</span>。",
+    "params": [
+      [
+        "20%"
+      ],
+      [
+        "24%"
+      ],
+      [
+        "28%"
+      ],
+      [
+        "32%"
+      ],
+      [
+        "36%"
+      ],
+      [
+        "20%"
+      ],
+      [
+        "24%"
+      ],
+      [
+        "28%"
+      ],
+      [
+        "32%"
+      ],
+      [
+        "36%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

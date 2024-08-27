@@ -1,77 +1,142 @@
 {
-	"id": "Diluc",
-	"shareid": 17,
-	"name": "다이루크",
-	"title": "새벽의 어둠·다이루크",
-	"desc": "그의 가장 강력한 적은 바로 자신의 마음이다",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 3,
-		"element": "불 원소",
-		"weapon": "양손검",
-		"faction": ["몬드"],
-		"talentCard": {
-			"id": "FlowingFlame",
-			"name": "Flowing Flame"
-		},
-		"source": "시작 카드 덱에서 획득",
-		"character": {
-			"id": "Diluc",
-			"name": "Diluc",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TemperedSword",
-			"name": "단련의 검",
-			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "불 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingOnslaught",
-			"name": "역날의 화염",
-			"desc": "<span style=\"color:#FF9999FF\">불 원소 피해를 3pt 준다. 매 턴에서 해당 스킬을 세 번째 사용 시 피해량이 2pt 증가한다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "불 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Dawn",
-			"name": "여명",
-			"desc": "<span style=\"color:#FF9999FF\">불 원소 피해를 8pt 주고 본 캐릭터에게 <span style=\"color:#FFFFFFFF\">불 원소 부여 효과가 제공된다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "불 원소",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Diluc",
+  "shareid": 17,
+  "name": "다이루크",
+  "title": "새벽의 어둠·다이루크",
+  "desc": "그의 가장 강력한 적은 바로 자신의 마음이다",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 3,
+    "element": "불 원소",
+    "weapon": "양손검",
+    "faction": [
+      "몬드",
+      "몬드"
+    ],
+    "talentCard": {
+      "id": "FlowingFlame",
+      "name": "Flowing Flame"
+    },
+    "source": "시작 카드 덱에서 획득",
+    "character": {
+      "id": "Diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TemperedSword",
+      "name": "단련의 검",
+      "desc": "물리 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "역날의 화염",
+      "desc": "불 원소 피해를 3pt 준다. 매 턴에서 해당 스킬을 세 번째 사용 시 피해량이 2pt 증가한다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "여명",
+      "desc": "불 원소 피해를 8pt 주고 본 캐릭터에게 불 원소 부여 효과가 제공된다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TemperedSword",
+      "name": "단련의 검",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "역날의 화염",
+      "desc": "불 원소 피해를 3pt 준다. 매 턴에서 해당 스킬을 세 번째 사용 시 피해량이 2pt 증가한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "여명",
+      "desc": "불 원소 피해를 8pt 주고 본 캐릭터에게 불 원소 부여 효과가 제공된다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 17
 }

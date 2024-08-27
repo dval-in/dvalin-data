@@ -12,6 +12,7 @@
     "weapon": "활",
     "faction": [
       "리월",
+      "리월",
       "리월"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "타파",
       "desc": "[패시브] 전투 시작 시, 시작부터 타파가 부착된다.",
       "skilltag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
+    {
+      "id": "StealthyBowshot",
+      "name": "빛을 감춘 활",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "뒤얽힌 생명줄",
+      "desc": "물 원소 피해를 3pt 주고 이 캐릭터의 타파 스택+2",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "심오하고 영롱한 주사위",
+      "desc": "물 원소 피해를 3pt 주고 던져진 영롱을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "타파",
+      "desc": "[패시브] 전투 시작 시, 시작부터 타파가 부착된다.",
+      "skillTag": [
         "패시브 스킬"
       ],
       "points": []

@@ -1,90 +1,172 @@
 {
-	"id": "Ganyu",
-	"shareid": 1,
-	"name": "甘雨",
-	"title": "循々守月·甘雨",
-	"desc": "「明日の朝に必要なのでしたら、寝ないで完成させればいいだけの話です。」",
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 3,
-		"element": "氷元素",
-		"weapon": "弓",
-		"faction": ["璃月"],
-		"talentCard": {
-			"id": "UndividedHeart",
-			"name": "Undivided Heart"
-		},
-		"source": "キャッツテールで甘雨を招待し、友好対戦に勝利することで獲得",
-		"character": {
-			"id": "Ganyu",
-			"name": "Ganyu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "LiutianArchery",
-			"name": "流天射術",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TrailOfTheQilin",
-			"name": "山沢麟跡",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを1与え、<span style=\"color:#FFFFFFFF\">氷蓮を生成する。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostflakeArrow",
-			"name": "霜華の矢",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを2与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\">貫通ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "CelestialShower",
-			"name": "降衆天華",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを2与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\">貫通ダメージを1与える。<span style=\"color:#FFFFFFFF\">氷霊珠を召喚する。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Ganyu",
+  "shareid": 1,
+  "name": "甘雨",
+  "title": "循々守月·甘雨",
+  "desc": "「明日の朝に必要なのでしたら、寝ないで完成させればいいだけの話です。」",
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 3,
+    "element": "氷元素",
+    "weapon": "弓",
+    "faction": [
+      "璃月",
+      "璃月"
+    ],
+    "talentCard": {
+      "id": "UndividedHeart",
+      "name": "Undivided Heart"
+    },
+    "source": "キャッツテールで甘雨を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "LiutianArchery",
+      "name": "流天射術",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "山沢麟跡",
+      "desc": "氷元素ダメージを1与え、氷蓮を生成する。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "霜華の矢",
+      "desc": "氷元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "降衆天華",
+      "desc": "氷元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを1与える。氷霊珠を召喚する。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LiutianArchery",
+      "name": "流天射術",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "山沢麟跡",
+      "desc": "氷元素ダメージを1与え、氷蓮を生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "霜華の矢",
+      "desc": "氷元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "降衆天華",
+      "desc": "氷元素ダメージを2与え、相手の待機キャラ全員に貫通ダメージを1与える。氷霊珠を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 1
 }

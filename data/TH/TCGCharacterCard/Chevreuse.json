@@ -10,12 +10,77 @@
     "element": "ธาตุไฟ",
     "weapon": "หอก",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "ได้รับหลังจากเชิญ Chevreuse ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
     "cardType": "การ์ดตัวละคร"
   },
   "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "Line Bayonet Thrust EX",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "Short-Range Rapid Interdiction Fire",
+      "desc": "สร้างความเสียหายไฟ 2 หน่วย หลังจบสกิลนี้: หากในมือฝ่ายเรามี Overcharged Ball จะทิ้ง 1 ใบ และรักษาตัวละครฝ่ายเรา ที่ได้รับความเสียหายมากสุด 1 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "Ring of Bursting Grenades",
+      "desc": "สร้างความเสียหายไฟ 2 หน่วย และทำให้เกิด ระเบิดทำลายล้างขั้น 2 ในสนามของฝ่ายศัตรู",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "Vertical Force Coordination",
+      "desc": "[ติดตัว] หลังจากที่ตัวละครฝ่ายศัตรู ได้รับความเสียหายจากปฏิกิริยาโอเวอร์โหลด: ทำให้เกิดการ์ด Overcharged Ball (เทิร์นละ 1 ครั้ง)",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
     {
       "id": "LineBayonetThrustEx",
       "name": "Line Bayonet Thrust EX",

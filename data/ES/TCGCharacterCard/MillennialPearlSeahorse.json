@@ -12,6 +12,7 @@
     "weapon": "Otras armas",
     "faction": [
       "Monstruo",
+      "Monstruo",
       "Monstruo"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Coraza perlada",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de perla fontamarina.",
       "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Coletazo impetuoso",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Girobanco de peces",
+      "desc": "Inflige 3 pts. de Daño Electro. Si este personaje ya está afectado por la perla fontamarina, número de usos +1 (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Truenos fontamarinos",
+      "desc": "Inflige 1 pt. de Daño Electro, este personaje obtiene el efecto de perla fontamarina e invoca una perla de coral resonante.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Coraza perlada",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de perla fontamarina.",
+      "skillTag": [
         "Habilidad pasiva"
       ],
       "points": []

@@ -10,12 +10,86 @@
     "element": "Hydro",
     "weapon": "Autre arme",
     "faction": [
+      "Monstre",
       "Monstre"
     ],
     "source": null,
     "cardType": "Carte de personnage"
   },
   "skills": [
+    {
+      "id": "ViciousKicks",
+      "name": "Pied vivace",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLegblades",
+      "name": "Lame de farandole",
+      "desc": "Inflige 3 pts de DGT Hydro.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladedWaltz",
+      "name": "Lame de valse",
+      "desc": "Inflige 5 pts de DGT Hydro.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupportUnitOusia",
+      "name": "Unité ousia de soutien",
+      "desc": "(Passif) Crée un Mek détecteur « Ousia » d'origine au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Signature énergétique : Ousia",
+      "desc": "Lorsque le personnage a subi des DGT venant d'un personnage chargé d'énergie d'Arkhe pneuma : il change en forme désactivée et ne peut pas utiliser de capacité jusqu'à la fin de la manche.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
     {
       "id": "ViciousKicks",
       "name": "Pied vivace",

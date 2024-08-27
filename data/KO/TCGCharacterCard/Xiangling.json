@@ -1,77 +1,142 @@
 {
-	"id": "Xiangling",
-	"shareid": 18,
-	"name": "향릉",
-	"title": "만민백미·향릉",
-	"desc": "요리사로서 그녀는 뭐든 해낼 수 있다",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 2,
-		"element": "불 원소",
-		"weapon": "장병기",
-		"faction": ["리월"],
-		"talentCard": {
-			"id": "Crossfire",
-			"name": "Crossfire"
-		},
-		"source": "캣테일 술집에서 향릉 초대 및 친선 대전 난이도 승리 후 획득",
-		"character": {
-			"id": "Xiangling",
-			"name": "Xiangling",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "Doughfu",
-			"name": "밀가루 음식 솜씨",
-			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "불 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GuobaAttack",
-			"name": "누룽지 출격",
-			"desc": "<span style=\"color:#FFFFFFFF\">누룽지를 소환한다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "불 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Pyronado",
-			"name": "화륜",
-			"desc": "<span style=\"color:#FF9999FF\">불 원소 피해를 3pt 주고 <span style=\"color:#FFFFFFFF\">화륜을 생성한다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "불 원소",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Xiangling",
+  "shareid": 18,
+  "name": "향릉",
+  "title": "만민백미·향릉",
+  "desc": "요리사로서 그녀는 뭐든 해낼 수 있다",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "장병기",
+    "faction": [
+      "리월",
+      "리월"
+    ],
+    "talentCard": {
+      "id": "Crossfire",
+      "name": "Crossfire"
+    },
+    "source": "캣테일 술집에서 향릉 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Doughfu",
+      "name": "밀가루 음식 솜씨",
+      "desc": "물리 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuobaAttack",
+      "name": "누룽지 출격",
+      "desc": "누룽지를 소환한다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Pyronado",
+      "name": "화륜",
+      "desc": "불 원소 피해를 3pt 주고 화륜을 생성한다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Doughfu",
+      "name": "밀가루 음식 솜씨",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuobaAttack",
+      "name": "누룽지 출격",
+      "desc": "누룽지를 소환한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Pyronado",
+      "name": "화륜",
+      "desc": "불 원소 피해를 3pt 주고 화륜을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 18
 }

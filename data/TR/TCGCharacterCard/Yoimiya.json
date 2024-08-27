@@ -1,77 +1,142 @@
 {
-	"id": "Yoimiya",
-	"shareid": 21,
-	"name": "Yoimiya",
-	"title": "\"Neşeli Alevler\" Yoimiya",
-	"desc": "11. Hanamizaka Caddesi Daveti için Naganohara Takımı Kaptanı ve Öncüsü.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Ateş",
-		"weapon": "Yay",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "NaganoharaMeteorSwarm",
-			"name": "Naganohara Meteor Swarm"
-		},
-		"source": "Yoimiya'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Yoimiya",
-			"name": "Yoimiya",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FireworkFlareup",
-			"name": "Havai Fişek Patlaması",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "NiwabiFiredance",
-			"name": "Niwabi Ateş Dansı",
-			"desc": "Bu karaktere <span style=\"color:#FFFFFFFF\">Niwabi Enshou eklenir. (Bu beceri Enerji oluşturmaz.)",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				}
-			]
-		},
-		{
-			"id": "RyuukinSaxifrage",
-			"name": "Taşkıran Ryuukin",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Altın Alev oluşturur.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yoimiya",
+  "shareid": 21,
+  "name": "Yoimiya",
+  "title": "\"Neşeli Alevler\" Yoimiya",
+  "desc": "11. Hanamizaka Caddesi Daveti için Naganohara Takımı Kaptanı ve Öncüsü.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Yay",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "NaganoharaMeteorSwarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": "Yoimiya'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FireworkFlareup",
+      "name": "Havai Fişek Patlaması",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Niwabi Ateş Dansı",
+      "desc": "Bu karaktere Niwabi Enshou eklenir. (Bu beceri Enerji oluşturmaz.)",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Taşkıran Ryuukin",
+      "desc": "3 Ateş Hasarı verir ve 1 Altın Alev oluşturur.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FireworkFlareup",
+      "name": "Havai Fişek Patlaması",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Niwabi Ateş Dansı",
+      "desc": "Bu karaktere Niwabi Enshou eklenir. (Bu beceri Enerji oluşturmaz.)",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Taşkıran Ryuukin",
+      "desc": "3 Ateş Hasarı verir ve 1 Altın Alev oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 21
 }

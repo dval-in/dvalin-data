@@ -12,6 +12,7 @@
     "weapon": "Other Weapons",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Pearl Armor",
       "desc": "(Passive) When the battle begins, attach Fontemer Pearl to this character.",
       "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Tail Sweep",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Swirling School of Fish",
+      "desc": "Deals 3 Electro DMG. If this character has Fontemer Pearl attached, that Usage(s) +1. (Once per Round)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Fontemer Hoarthunder",
+      "desc": "Deals 1 Electro DMG, attaches Fontemer Pearl to this character, and summons 1 Resonant Coral Orb.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Pearl Armor",
+      "desc": "(Passive) When the battle begins, attach Fontemer Pearl to this character.",
+      "skillTag": [
         "Passive Skill"
       ],
       "points": []

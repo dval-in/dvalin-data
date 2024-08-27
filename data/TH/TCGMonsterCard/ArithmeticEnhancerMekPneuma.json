@@ -10,12 +10,81 @@
     "element": "ไม่มีธาตุ",
     "weapon": "อาวุธอื่น ๆ",
     "faction": [
+      "มอนสเตอร์",
       "มอนสเตอร์"
     ],
     "source": null,
     "cardType": "การ์ดตัวละคร"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Ram",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostPneuma",
+      "name": "Energy Boost: วิญญาณ",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย และตัวละครนี้จะได้รับ Energy Boost: Pneuma",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstPneuma",
+      "name": "Energy Burst: วิญญาณ",
+      "desc": "สร้างความเสียหายกายภาพ 3 หน่วย และตัวละครนี้จะได้รับ Energy Boost: Pneuma",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameRepairPneuma",
+      "name": "Frame Repair: วิญญาณ",
+      "desc": "หลังจากตัวละครฝ่ายเราใช้สกิล: รักษาตัวละครฝ่ายเรา ที่ได้รับความเสียหายมากสุด 1 หน่วย",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "คุณสมบัติพลังงาน: พลังวิญญาณ",
+      "desc": "หลังจากตัวละครที่มี \"พลังปฐมภูมิ: สสาร\" สร้างความเสียหาย: ตัวละครนี้จะถูกเปลี่ยนเป็น\"รูปแบบไร้พลังงาน\" และจะไม่สามารถใช้สกิลได้จนกว่าจะสิ้นสุดเทิร์นนี้",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "Ram",

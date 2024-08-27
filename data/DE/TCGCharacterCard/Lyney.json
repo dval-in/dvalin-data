@@ -1,90 +1,174 @@
 {
-	"id": "Lyney",
-	"shareid": 281,
-	"name": "Lyney",
-	"title": "Das Spektakel von Fantasmagoria – Lyney",
-	"desc": "Für wen sind die Blumen im Spiegel gedacht?",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Bogen",
-		"faction": ["Fontaine", "Fatui"],
-		"talentCard": {
-			"id": "ConclusiveOvation",
-			"name": "Conclusive Ovation"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Lyney in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Lyney",
-			"name": "Lyney",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "CardForceTranslocation",
-			"name": "Erzwungene Rochade",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PropArrow",
-			"name": "Zauberrequisiten-Pfeil",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Grinsekatzenmütze und sammelt 1 Stapelung von <span style=\"color:#FFFFFFFF\">Requisitenüberschuss.Hat die Figur mindestens 6 LP, erleidet sie 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BewilderingLights",
-			"name": "Ablenkende Lichter",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "WondrousTrickMiracleParade",
-			"name": "Wundersame Magie – Parade der Wunder",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Grinsekatzenmütze und sammelt 1 Stapelung von <span style=\"color:#FFFFFFFF\">Requisitenüberschuss.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Lyney",
+  "shareid": 281,
+  "name": "Lyney",
+  "title": "Das Spektakel von Fantasmagoria – Lyney",
+  "desc": "Für wen sind die Blumen im Spiegel gedacht?",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Bogen",
+    "faction": [
+      "Fontaine",
+      "Fatui",
+      "Fontaine",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "ConclusiveOvation",
+      "name": "Conclusive Ovation"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lyney in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Lyney",
+      "name": "Lyney",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CardForceTranslocation",
+      "name": "Erzwungene Rochade",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PropArrow",
+      "name": "Zauberrequisiten-Pfeil",
+      "desc": "Verursacht 2 Pkt. Pyro-SCH, erschafft 1 Grinsekatzenmütze und sammelt 1 Stapelung von Requisitenüberschuss.Hat die Figur mindestens 6 LP, erleidet sie 1 Pkt. durchdringenden SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BewilderingLights",
+      "name": "Ablenkende Lichter",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WondrousTrickMiracleParade",
+      "name": "Wundersame Magie – Parade der Wunder",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Grinsekatzenmütze und sammelt 1 Stapelung von Requisitenüberschuss.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CardForceTranslocation",
+      "name": "Erzwungene Rochade",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PropArrow",
+      "name": "Zauberrequisiten-Pfeil",
+      "desc": "Verursacht 2 Pkt. Pyro-SCH, erschafft 1 Grinsekatzenmütze und sammelt 1 Stapelung von Requisitenüberschuss. Hat die Figur mindestens 6 LP, erleidet sie 1 Pkt. durchdringenden SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BewilderingLights",
+      "name": "Ablenkende Lichter",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WondrousTrickMiracleParade",
+      "name": "Wundersame Magie – Parade der Wunder",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Grinsekatzenmütze und sammelt 1 Stapelung von Requisitenüberschuss.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 281
 }

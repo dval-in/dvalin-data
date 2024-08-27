@@ -1,70 +1,141 @@
 {
-	"id": "RuinGuard",
-	"shareid": 3004,
-	"name": "Ruinenwächter",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Kein Elementartyp",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SternBlow",
-			"name": "Heftiger Anschlag",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SpiralClosein",
-			"name": "Wirbelnde Annäherung",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH, <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor: <span style=\"color:#FFFFFFFF\">Hochfrequenter Wirbelangriff und <span style=\"color:#FFFFFFFF\">Ultraschneller Wirbelangriff.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Würfel (gleich)",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SuppressiveVolley",
-			"name": "Unterdrückungsschüsse",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Verfolgungsgeschoss.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Würfel (gleich)",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StandardArmor",
-			"name": "Standard-Rüstung",
-			"desc": "Passiv – <span style=\"color:#FFFFFFFF\">Phys. SCH an dieser Figur wird halbiert (aufgerundet).",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "RuinGuard",
+  "shareid": 3004,
+  "name": "Ruinenwächter",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Kein Elementartyp",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "Heftiger Anschlag",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Wirbelnde Annäherung",
+      "desc": "Verursacht 1 Pkt. phys. SCH, bereitet folgende Fähigkeiten vor: Hochfrequenter Wirbelangriff und Ultraschneller Wirbelangriff.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Unterdrückungsschüsse",
+      "desc": "Verursacht 4 Pkt. phys. SCH, erschafft auf dem Feld des Gegners 1 Verfolgungsgeschoss.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standard-Rüstung",
+      "desc": "Passiv – Phys. SCH an dieser Figur wird halbiert (aufgerundet).",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "SternBlow",
+      "name": "Heftiger Anschlag",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Wirbelnde Annäherung",
+      "desc": "Verursacht 1 Pkt. phys. SCH, bereitet folgende Fähigkeiten vor: Hochfrequenter Wirbelangriff und Ultraschneller Wirbelangriff.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Unterdrückungsschüsse",
+      "desc": "Verursacht 4 Pkt. phys. SCH, erschafft auf dem Feld des Gegners 1 Verfolgungsgeschoss.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standard-Rüstung",
+      "desc": "Passiv – Phys. SCH an dieser Figur wird halbiert (aufgerundet).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3004
 }

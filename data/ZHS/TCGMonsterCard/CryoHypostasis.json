@@ -12,6 +12,7 @@
     "weapon": "其他武器",
     "faction": [
       "魔物",
+      "魔物",
       "魔物"
     ],
     "talentCard": {
@@ -94,6 +95,79 @@
       "name": "元素沉积·冰",
       "desc": "【被动】战斗开始时，初始附属元素生命·冰。",
       "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "IcespikeShot",
+      "name": "冰锥迸射",
+      "desc": "造成1点冰元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "圆舞冰环",
+      "desc": "造成3点冰元素伤害，本角色附属四迸冰锥。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "冰棱轰坠",
+      "desc": "造成2点冰元素伤害，对所有敌方后台角色造成1点穿透伤害，召唤刺击冰棱。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "冰晶核心",
+      "desc": "【被动】战斗开始时，初始附属冰晶核心。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素沉积·冰",
+      "desc": "【被动】战斗开始时，初始附属元素生命·冰。",
+      "skillTag": [
         "被动技能"
       ],
       "points": []

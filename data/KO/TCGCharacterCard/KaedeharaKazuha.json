@@ -12,6 +12,7 @@
     "weapon": "한손검",
     "faction": [
       "이나즈마",
+      "이나즈마",
       "이나즈마"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "카즈하의 일도",
       "desc": "바람 원소 피해를 3pt 주고 바람 부는 가을 들판을 소환한다.",
       "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "바람 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GaryuuBladework",
+      "name": "아류 검술",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "바람 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Chihayaburu",
+      "name": "치하야부루",
+      "desc": "바람 원소 피해를 1pt 주고 본 캐릭터에게 폭풍 베기를 부착한다. 해당 스킬이 확산 반응을 발동했을 경우, 폭풍 베기가 확산된 원소로 전환된다. 해당 스킬 결산 후: 다음 아군 캐릭터로 교체한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "바람 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KazuhaSlash",
+      "name": "카즈하의 일도",
+      "desc": "바람 원소 피해를 1pt 주고 바람 부는 가을 들판을 소환한다.",
+      "skillTag": [
         "원소폭발"
       ],
       "points": [

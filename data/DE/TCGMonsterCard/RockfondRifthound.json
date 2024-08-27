@@ -1,75 +1,151 @@
 {
-	"id": "RockfondRifthound",
-	"shareid": 3602,
-	"name": "Felsenfressender Garm",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Geo",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CorrosiveClaws",
-			"name": "Korrosionsklauen",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Korrosion.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CrystalCracker",
-			"name": "Kristallbrecher",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Korrosion.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "PursuersMark",
-			"name": "Pausenlose Jagd",
-			"desc": "Verursacht 6 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Korrosion.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElementalDevourer",
-			"name": "Magiesauger",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Magiesauger.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "RockfondRifthound",
+  "shareid": 3602,
+  "name": "Felsenfressender Garm",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CorrosiveClaws",
+      "name": "Korrosionsklauen",
+      "desc": "Verursacht 1 Pkt. Geo-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CrystalCracker",
+      "name": "Kristallbrecher",
+      "desc": "Verursacht 2 Pkt. Geo-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PursuersMark",
+      "name": "Pausenlose Jagd",
+      "desc": "Verursacht 6 Pkt. Geo-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Magiesauger",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Magiesauger.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "CorrosiveClaws",
+      "name": "Korrosionsklauen",
+      "desc": "Verursacht 1 Pkt. Geo-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CrystalCracker",
+      "name": "Kristallbrecher",
+      "desc": "Verursacht 2 Pkt. Geo-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PursuersMark",
+      "name": "Pausenlose Jagd",
+      "desc": "Verursacht 6 Pkt. Geo-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Magiesauger",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Magiesauger.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3602
 }

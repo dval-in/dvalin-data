@@ -1,293 +1,588 @@
 {
-	"id": "TalkingStick",
-	"name": "\u8a71\u6b7b\u5408\u3044\u68d2",
-	"description": "\u9ed2\u66dc\u77f3\u306e\u5d4c\u3081\u8fbc\u307e\u308c\u305f\u91cd\u3044\u68cd\u68d2\u3002\u7269\u51c4\u3044\u8aac\u5f97\u529b\u3092\u6301\u3063\u3066\u3044\u308b\u3002",
-	"rarity": 4,
-	"type": "\u4e21\u624b\u5263",
-	"domain": "\u6709\u9802\u306e\u5854",
-	"passive": "\u300c\u53e3\u516b\u4e01\u300d",
-	"bonus": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+16%/20%/24%/28%/32%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+12%/15%/18%/21%/24%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u6483\u529b",
-		"secondary": "\u4f1a\u5fc3\u7387",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 44,
-				"secondary": 4
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 119,
-				"secondary": 7.1
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 144,
-				"secondary": 7.1
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 226,
-				"secondary": 10.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 252,
-				"secondary": 10.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 293,
-				"secondary": 11.9
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 319,
-				"secondary": 11.9
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 361,
-				"secondary": 13.5
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 387,
-				"secondary": 13.5
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 429,
-				"secondary": 15.1
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 455,
-				"secondary": 15.1
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 497,
-				"secondary": 16.8
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 523,
-				"secondary": 16.8
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 565,
-				"secondary": 18.4
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "OasisGardensReminiscence",
-					"name": "\u30aa\u30a2\u30b7\u30b9\u30ac\u30fc\u30c7\u30f3\u306e\u8ffd\u61b6",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DesiccatedShell",
-					"name": "\u6bc0\u308c\u305f\u80cc\u9aa8",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "SlimeCondensate",
-					"name": "\u30b9\u30e9\u30a4\u30e0\u306e\u6db2\u4f53",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "OasisGardensKindness",
-					"name": "\u30aa\u30a2\u30b7\u30b9\u30ac\u30fc\u30c7\u30f3\u306e\u6069\u6075",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "DesiccatedShell",
-					"name": "\u6bc0\u308c\u305f\u80cc\u9aa8",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "SlimeCondensate",
-					"name": "\u30b9\u30e9\u30a4\u30e0\u306e\u6db2\u4f53",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "OasisGardensKindness",
-					"name": "\u30aa\u30a2\u30b7\u30b9\u30ac\u30fc\u30c7\u30f3\u306e\u6069\u6075",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SturdyShell",
-					"name": "\u5805\u56fa\u306a\u80cc\u9aa8",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "\u30b9\u30e9\u30a4\u30e0\u306e\u5206\u6ccc\u7269",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "OasisGardensMourning",
-					"name": "\u30aa\u30a2\u30b7\u30b9\u30ac\u30fc\u30c7\u30f3\u306e\u54c0\u601d",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "SturdyShell",
-					"name": "\u5805\u56fa\u306a\u80cc\u9aa8",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "\u30b9\u30e9\u30a4\u30e0\u306e\u5206\u6ccc\u7269",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "OasisGardensMourning",
-					"name": "\u30aa\u30a2\u30b7\u30b9\u30ac\u30fc\u30c7\u30f3\u306e\u54c0\u601d",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "MarkedShell",
-					"name": "\u523b\u7d0b\u306e\u80cc\u9aa8",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "\u30b9\u30e9\u30a4\u30e0\u306e\u30d4\u30e5\u30ec",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "OasisGardensTruth",
-					"name": "\u30aa\u30a2\u30b7\u30b9\u30ac\u30fc\u30c7\u30f3\u306e\u771f\u8ae6",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "MarkedShell",
-					"name": "\u523b\u7d0b\u306e\u80cc\u9aa8",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "\u30b9\u30e9\u30a4\u30e0\u306e\u30d4\u30e5\u30ec",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u300c\u53e3\u516b\u4e01\u300d",
-		"template": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span style=\"color:#99FFFFFF\">{1}\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002",
-		"params": [
-			["16%", "12%"],
-			["20%", "15%"],
-			["24%", "18%"],
-			["28%", "21%"],
-			["32%", "24%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+16%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+12%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+20%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+15%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+24%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+18%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+28%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+21%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u708e\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u653b\u6483\u529b+32%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u6c34\u5143\u7d20\u3001\u6c37\u5143\u7d20\u3001\u96f7\u5143\u7d20\u307e\u305f\u306f\u8349\u5143\u7d20\u3092\u4ed8\u7740\u3055\u305b\u3089\u308c\u305f\u5f8c\u306e15\u79d2\u9593\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+24%\u300112\u79d2\u6bce\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/TalkingStick/Icon.webp"
-	}
+  "id": "TalkingStick",
+  "name": "話死合い棒",
+  "description": "黒曜石の嵌め込まれた重い棍棒。物凄い説得力を持っている。",
+  "rarity": 4,
+  "type": "両手剣",
+  "domain": "有頂の塔",
+  "passive": "「口八丁」",
+  "bonus": "炎元素を付着させられた後の15秒間、攻撃力+16%/20%/24%/28%/32%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+12%/15%/18%/21%/24%、12秒毎に1回のみ発動可能。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "会心率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 7.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 7.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 10.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 10.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 11.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 11.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 13.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 13.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 16.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 16.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 18.4
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 7.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 7.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 10.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 10.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 11.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 11.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 13.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 13.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 16.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 16.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 18.4
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "OasisGardensReminiscence",
+          "name": "オアシスガーデンの追憶",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DesiccatedShell",
+          "name": "毀れた背骨",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "スライムの液体",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "OasisGardensKindness",
+          "name": "オアシスガーデンの恩恵",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DesiccatedShell",
+          "name": "毀れた背骨",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "スライムの液体",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "OasisGardensKindness",
+          "name": "オアシスガーデンの恩恵",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyShell",
+          "name": "堅固な背骨",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "スライムの分泌物",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "OasisGardensMourning",
+          "name": "オアシスガーデンの哀思",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyShell",
+          "name": "堅固な背骨",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "スライムの分泌物",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "OasisGardensMourning",
+          "name": "オアシスガーデンの哀思",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "MarkedShell",
+          "name": "刻紋の背骨",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "スライムのピュレ",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "OasisGardensTruth",
+          "name": "オアシスガーデンの真諦",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "MarkedShell",
+          "name": "刻紋の背骨",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "スライムのピュレ",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "OasisGardensReminiscence",
+          "name": "オアシスガーデンの追憶",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DesiccatedShell",
+          "name": "毀れた背骨",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "スライムの液体",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "OasisGardensKindness",
+          "name": "オアシスガーデンの恩恵",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DesiccatedShell",
+          "name": "毀れた背骨",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "スライムの液体",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "OasisGardensKindness",
+          "name": "オアシスガーデンの恩恵",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyShell",
+          "name": "堅固な背骨",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "スライムの分泌物",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "OasisGardensMourning",
+          "name": "オアシスガーデンの哀思",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyShell",
+          "name": "堅固な背骨",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "スライムの分泌物",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "OasisGardensMourning",
+          "name": "オアシスガーデンの哀思",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "MarkedShell",
+          "name": "刻紋の背骨",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "スライムのピュレ",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "OasisGardensTruth",
+          "name": "オアシスガーデンの真諦",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "MarkedShell",
+          "name": "刻紋の背骨",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "スライムのピュレ",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+16%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+12%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 2,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+20%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+15%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 3,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+24%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+18%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 4,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+28%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+21%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 5,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+32%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+24%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 1,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+16%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+12%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 2,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+20%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+15%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 3,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+24%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+18%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 4,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+28%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+21%、12秒毎に1回のみ発動可能。"
+    },
+    {
+      "refinement": 5,
+      "desc": "炎元素を付着させられた後の15秒間、攻撃力+32%、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+24%、12秒毎に1回のみ発動可能。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/TalkingStick/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "「口八丁」",
+    "template": "炎元素を付着させられた後の15秒間、攻撃力+<span style=\"color:#99FFFFFF\">{0}</span>、12秒毎に1回のみ発動可能。水元素、氷元素、雷元素または草元素を付着させられた後の15秒間、全元素ダメージ+<span style=\"color:#99FFFFFF\">{1}</span>、12秒毎に1回のみ発動可能。",
+    "params": [
+      [
+        "16%",
+        "12%"
+      ],
+      [
+        "20%",
+        "15%"
+      ],
+      [
+        "24%",
+        "18%"
+      ],
+      [
+        "28%",
+        "21%"
+      ],
+      [
+        "32%",
+        "24%"
+      ],
+      [
+        "16%",
+        "12%"
+      ],
+      [
+        "20%",
+        "15%"
+      ],
+      [
+        "24%",
+        "18%"
+      ],
+      [
+        "28%",
+        "21%"
+      ],
+      [
+        "32%",
+        "24%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

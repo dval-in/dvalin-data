@@ -1,77 +1,142 @@
 {
-	"id": "KamisatoAyato",
-	"shareid": 14,
-	"name": "Kamisato Ayato",
-	"title": "Kamisato Ayato - El Vigoroso Estratega",
-	"desc": "El ciprés protegido por los dioses brilla al renacer.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Espada ligera",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "KyoukaFuushi",
-			"name": "Kyouka Fuushi"
-		},
-		"source": "Se obtiene tras retar y ganar a Kamisato Ayato en un duelo amistoso en la taberna Cola de Gato",
-		"character": {
-			"id": "KamisatoAyato",
-			"name": "Kamisato Ayato",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "KamisatoArtMarobashi",
-			"name": "Estilo Kamisato - Marobashi",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtKyouka",
-			"name": "Estilo Kamisato: Belleza reflejada",
-			"desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">reflejo torrencial.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtSuiyuu",
-			"name": "Estilo Kamisato: Jardín ácueo",
-			"desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro e invoca un <span style=\"color:#FFFFFFFF\">jardín de paz.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "KamisatoAyato",
+  "shareid": 14,
+  "name": "Kamisato Ayato",
+  "title": "Kamisato Ayato - El Vigoroso Estratega",
+  "desc": "El ciprés protegido por los dioses brilla al renacer.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "KyoukaFuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": "Se obtiene tras retar y ganar a Kamisato Ayato en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "KamisatoAyato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "KamisatoArtMarobashi",
+      "name": "Estilo Kamisato - Marobashi",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtKyouka",
+      "name": "Estilo Kamisato: Belleza reflejada",
+      "desc": "Inflige 2 pts. de Daño Hydro y este personaje entra en el estado de reflejo torrencial.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSuiyuu",
+      "name": "Estilo Kamisato: Jardín ácueo",
+      "desc": "Inflige 1 pt. de Daño Hydro e invoca un jardín de paz.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtMarobashi",
+      "name": "Estilo Kamisato - Marobashi",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtKyouka",
+      "name": "Estilo Kamisato: Belleza reflejada",
+      "desc": "Inflige 2 pts. de Daño Hydro y este personaje entra en el estado de reflejo torrencial.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSuiyuu",
+      "name": "Estilo Kamisato: Jardín ácueo",
+      "desc": "Inflige 1 pt. de Daño Hydro e invoca un jardín de paz.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 14
 }

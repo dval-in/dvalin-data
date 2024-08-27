@@ -1,82 +1,169 @@
 {
-	"id": "KairagiDancingThunder",
-	"shareid": 3401,
-	"name": "Kairagi: Dans Eden Yıldırım",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Kairagi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "Üçlü Kesik",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "Sıçrama Darbesi",
-			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "İai: Kınına Sokma",
-			"desc": "<span style=\"color:#FFFFFFFF\">Beceri Hazırlama: <span style=\"color:#FFFFFFFF\">İai: Fırtına Nefesi.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanElectro",
-			"name": "Kamuna Tılsımı: Elektrik",
-			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Kamuna Tılsımı: Elektrik etkisi kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "Umutsuz Çılgınlık",
-			"desc": "Diğer Kairagi karakterin yenildiğinde, bu karakter <span style=\"color:#FFFFFFFF\">Umutsuz Çılgınlık kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiDancingThunder",
+  "shareid": 3401,
+  "name": "Kairagi: Dans Eden Yıldırım",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Kairagi",
+      "Kairagi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "Üçlü Kesik",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Sıçrama Darbesi",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "İai: Kınına Sokma",
+      "desc": "Beceri Hazırlama: İai: Fırtına Nefesi.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Kamuna Tılsımı: Elektrik",
+      "desc": "(Pasif) Savaş başladığında bu karakter Kamuna Tılsımı: Elektrik etkisi kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Umutsuz Çılgınlık",
+      "desc": "Diğer Kairagi karakterin yenildiğinde, bu karakter Umutsuz Çılgınlık kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "Üçlü Kesik",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Sıçrama Darbesi",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "İai: Kınına Sokma",
+      "desc": "Beceri Hazırlama: İai: Fırtına Nefesi.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Kamuna Tılsımı: Elektrik",
+      "desc": "(Pasif) Savaş başladığında bu karakter Kamuna Tılsımı: Elektrik etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Umutsuz Çılgınlık",
+      "desc": "Diğer Kairagi karakterin yenildiğinde, bu karakter Umutsuz Çılgınlık kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3401
 }

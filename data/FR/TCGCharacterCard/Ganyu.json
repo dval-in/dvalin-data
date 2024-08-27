@@ -1,90 +1,172 @@
 {
-	"id": "Ganyu",
-	"shareid": 1,
-	"name": "Ganyu",
-	"title": "Ganyu · Défense fervente",
-	"desc": "« Ce communiqué est attendu pour demain... Je suppose que je pourrais travailler toute la nuit et le finir. »",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 3,
-		"element": "Cryo",
-		"weapon": "Arc",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "UndividedHeart",
-			"name": "Undivided Heart"
-		},
-		"source": "Récompense pour avoir invité Ganyu à une partie amicale dans La Queue de Chat et remporté la victoire",
-		"character": {
-			"id": "Ganyu",
-			"name": "Ganyu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "LiutianArchery",
-			"name": "Archerie Liutian",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TrailOfTheQilin",
-			"name": "Trace de Qilin",
-			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo et crée un <span style=\"color:#FFFFFFFF\">lotus de glace.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostflakeArrow",
-			"name": "Flèche de givre",
-			"desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo et inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT de perforation à tous les personnages adverses en attente.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "CelestialShower",
-			"name": "Baptême céleste",
-			"desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation à tous les personnages adverses en attente et invoque une <span style=\"color:#FFFFFFFF\">perle de glace.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Ganyu",
+  "shareid": 1,
+  "name": "Ganyu",
+  "title": "Ganyu · Défense fervente",
+  "desc": "« Ce communiqué est attendu pour demain... Je suppose que je pourrais travailler toute la nuit et le finir. »",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Arc",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "UndividedHeart",
+      "name": "Undivided Heart"
+    },
+    "source": "Récompense pour avoir invité Ganyu à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "LiutianArchery",
+      "name": "Archerie Liutian",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "Trace de Qilin",
+      "desc": "Inflige 1 pt de DGT Cryo et crée un lotus de glace.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "Flèche de givre",
+      "desc": "Inflige 2 pts de DGT Cryo et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "Baptême céleste",
+      "desc": "Inflige 2 pts de DGT Cryo, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et invoque une perle de glace.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LiutianArchery",
+      "name": "Archerie Liutian",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "Trace de Qilin",
+      "desc": "Inflige 1 pt de DGT Cryo et crée un lotus de glace.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "Flèche de givre",
+      "desc": "Inflige 2 pts de DGT Cryo et inflige 2 pts de DGT de perforation à tous les personnages adverses en attente.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "Baptême céleste",
+      "desc": "Inflige 2 pts de DGT Cryo, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et invoque une perle de glace.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 1
 }

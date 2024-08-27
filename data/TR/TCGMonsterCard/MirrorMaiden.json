@@ -1,76 +1,141 @@
 {
-	"id": "MirrorMaiden",
-	"shareid": 54,
-	"name": "Aynalı Rahibe",
-	"title": "\"Snezhnayalı Hanım\" Ayna Elçisi",
-	"desc": "Tüm sırlar, aynanın göz kamaştıran parlaklığında gizlenir...",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Su",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "MirrorCage",
-			"name": "Mirror Cage"
-		},
-		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Fatui Aynalı Rahibe ile olan Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "MirrorMaiden",
-			"name": "Mirror Maiden"
-		}
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "Su Mermisi",
-			"desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "InfluxBlast",
-			"name": "Su Patlaması",
-			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Kırılım eklenir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RippledReflection",
-			"name": "Dalgalı Yansıma",
-			"desc": "5 <span style=\"color:#80C0FFFF\">Su Hasarı verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "MirrorMaiden",
+  "shareid": 54,
+  "name": "Aynalı Rahibe",
+  "title": "\"Snezhnayalı Hanım\" Ayna Elçisi",
+  "desc": "Tüm sırlar, aynanın göz kamaştıran parlaklığında gizlenir...",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Fatui Aynalı Rahibe ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Su Mermisi",
+      "desc": "1 Su Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Su Patlaması",
+      "desc": "2 Su Hasarı verir ve hedef karaktere Kırılım eklenir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Dalgalı Yansıma",
+      "desc": "5 Su Hasarı verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WaterBall",
+      "name": "Su Mermisi",
+      "desc": "1 Su Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Su Patlaması",
+      "desc": "2 Su Hasarı verir ve hedef karaktere Kırılım eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Dalgalı Yansıma",
+      "desc": "5 Su Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 54
 }

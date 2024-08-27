@@ -10,6 +10,7 @@
     "element": "Dendro",
     "weapon": "Autre arme",
     "faction": [
+      "Monstre",
       "Monstre"
     ],
     "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Garde de l'oasis d'Apep",
@@ -55,6 +56,70 @@
       "id": "TheEndFalls",
       "name": "Fin imminente",
       "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de DGT Dendro, pioche 1 carte [Éveil de congénère] et crée 2 cumuls de nutrition de l'oasis.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InvokationOfPropagation",
+      "name": "Invocation proliférante",
+      "desc": "(Passif) Crée 6 cartes [Éveil de congénère] et les répartit aléatoirement dans votre deck au début du combat. Lorsque vous avez invoqué 4 organismes proliférants, ce personnage obtient un cœur revivifié de l'oasis et 2 pts de bouclier.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "StrikeOfTheDispossessed",
+      "name": "Frappe d'apatride",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LifeStream",
+      "name": "Flux de vie",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de DGT physiques, pioche 1 carte [Éveil de congénère] et crée 1 cumul de nutrition de l'oasis.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheEndFalls",
+      "name": "Fin imminente",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de DGT physiques, pioche 1 carte [Éveil de congénère] et crée 2 cumuls de nutrition de l'oasis.",
       "skillTag": [
         "Déchaînement élémentaire"
       ],

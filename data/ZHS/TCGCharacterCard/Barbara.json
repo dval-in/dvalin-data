@@ -1,77 +1,142 @@
 {
-	"id": "Barbara",
-	"shareid": 9,
-	"name": "芭芭拉",
-	"title": "闪耀偶像·芭芭拉",
-	"desc": "无论何时都能治愈人心。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "水元素",
-		"weapon": "法器",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "GloriousSeason",
-			"name": "Glorious Season"
-		},
-		"source": "在猫尾酒馆中邀请芭芭拉进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Barbara",
-			"name": "Barbara",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "WhisperOfWater",
-			"name": "水之浅唱",
-			"desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LetTheShowBegin",
-			"name": "演唱，开始♪",
-			"desc": "造成1点<span style=\"color:#80C0FFFF\">水元素伤害，召唤<span style=\"color:#FFFFFFFF\">歌声之环。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ShiningMiracle",
-			"name": "闪耀奇迹♪",
-			"desc": "治疗所有我方角色4点。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Barbara",
+  "shareid": 9,
+  "name": "芭芭拉",
+  "title": "闪耀偶像·芭芭拉",
+  "desc": "无论何时都能治愈人心。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "GloriousSeason",
+      "name": "Glorious Season"
+    },
+    "source": "在猫尾酒馆中邀请芭芭拉进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Barbara",
+      "name": "Barbara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "WhisperOfWater",
+      "name": "水之浅唱",
+      "desc": "造成1点水元素伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LetTheShowBegin",
+      "name": "演唱，开始♪",
+      "desc": "造成1点水元素伤害，召唤歌声之环。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShiningMiracle",
+      "name": "闪耀奇迹♪",
+      "desc": "治疗所有我方角色4点。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhisperOfWater",
+      "name": "水之浅唱",
+      "desc": "造成1点水元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LetTheShowBegin",
+      "name": "演唱，开始♪",
+      "desc": "造成1点水元素伤害，召唤歌声之环。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShiningMiracle",
+      "name": "闪耀奇迹♪",
+      "desc": "治疗所有我方角色4点。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 9
 }

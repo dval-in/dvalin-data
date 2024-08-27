@@ -10,6 +10,7 @@
     "element": "물 원소",
     "weapon": "한손검",
     "faction": [
+      "폰타인",
       "폰타인"
     ],
     "source": "캣테일 술집에서 푸리나 초대 및 친선 대전 난이도 승리 후 획득",
@@ -55,6 +56,70 @@
       "id": "LetThePeopleRejoice",
       "name": "성대한 카니발",
       "desc": "물 원소 피해를 2pt 주고 열광의 도가니를 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "아르케의 힘: 성과 속",
+      "desc": "[패시브] 전투 시작 시, 핸드 카드에 성과 속을 생성한다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
+    {
+      "id": "SoloistsSolicitation",
+      "name": "독무자의 초대",
+      "desc": "물리 피해를 2pt 준다. 턴당 1회: 핸드 카드에 성과 속이 없으면 핸드 카드 성과 속을 생성한다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "고고한 살롱",
+      "desc": "푸리나가 현재 「아르케의 힘: 우시아」 형태일 때: 살롱 멤버를 소환한다. (푸리나가 「아르케의 힘: 프뉴마」 형태일 경우, 물들의 가수를 소환하는 것으로 변경된다)",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "성대한 카니발",
+      "desc": "물리 피해를 2pt 주고 열광의 도가니를 생성한다.",
       "skillTag": [
         "원소폭발"
       ],

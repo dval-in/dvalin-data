@@ -1,75 +1,153 @@
 {
-	"id": "WoodenShieldwallMitachurl",
-	"shareid": 3702,
-	"name": "Митачурл с деревянным щитом",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Дендро",
-		"weapon": "Прочее",
-		"faction": ["Монстр", "Хиличурл"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "PlataPlama",
-			"name": "Plata Plama",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DaPlama",
-			"name": "Da Plama",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "AbaMovo",
-			"name": "Aba Movo",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 5 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CrudewoodGreatshield",
-			"name": "Большой деревянный щит",
-			"desc": "(Пассивный) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Большой деревянный щит.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "WoodenShieldwallMitachurl",
+  "shareid": 3702,
+  "name": "Митачурл с деревянным щитом",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Хиличурл",
+      "Монстр",
+      "Хиличурл"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "PlataPlama",
+      "name": "Plata Plama",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DaPlama",
+      "name": "Da Plama",
+      "desc": "Наносит Физический урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AbaMovo",
+      "name": "Aba Movo",
+      "desc": "Наносит Физический урон, 5 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CrudewoodGreatshield",
+      "name": "Большой деревянный щит",
+      "desc": "(Пассивный) В начале сражения у персонажа будет Большой деревянный щит.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "PlataPlama",
+      "name": "Plata Plama",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DaPlama",
+      "name": "Da Plama",
+      "desc": "Наносит Физический урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AbaMovo",
+      "name": "Aba Movo",
+      "desc": "Наносит Физический урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CrudewoodGreatshield",
+      "name": "Большой деревянный щит",
+      "desc": "(Пассивный) В начале сражения у персонажа будет Большой деревянный щит.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3702
 }

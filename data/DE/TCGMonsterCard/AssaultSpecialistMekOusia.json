@@ -1,75 +1,151 @@
 {
-	"id": "AssaultSpecialistMekOusia",
-	"shareid": 3408,
-	"name": "Mecha – Typ: Angriffsspezialist – Ousia",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Elektro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RapidMelee",
-			"name": "Flinke Nahkampfmanöver",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ShieldRiposte",
-			"name": "Schildkonter",
-			"desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Schildblockade und <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor: <span style=\"color:#FFFFFFFF\">Schildklingenhiebe.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ShieldSweep",
-			"name": "Schildkantenschläge",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">durchdringenden SCH zu.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ArkheOusia",
-			"name": "Energiesignatur – Ousia",
-			"desc": "<span style=\"color:#FFFFFFFF\">Nach Erleiden von SCH durch eine mit „Arkhe – Pneuma“ versehene Figur: Diese Figur wird in den <span style=\"color:#FFFFFFFF\">„Deaktiviert-Modus“ eintreten und bis Endphase dieser Runde <span style=\"color:#FFFFFFFF\">keine Fähigkeit anwenden können.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AssaultSpecialistMekOusia",
+  "shareid": 3408,
+  "name": "Mecha – Typ: Angriffsspezialist – Ousia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RapidMelee",
+      "name": "Flinke Nahkampfmanöver",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShieldRiposte",
+      "name": "Schildkonter",
+      "desc": "Erhält selbst Schildblockade und bereitet folgende Fähigkeiten vor: Schildklingenhiebe.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShieldSweep",
+      "name": "Schildkantenschläge",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energiesignatur – Ousia",
+      "desc": "Nach Erleiden von SCH durch eine mit „Arkhe – Pneuma“ versehene Figur: Diese Figur wird in den „Deaktiviert-Modus“ eintreten und bis Endphase dieser Runde keine Fähigkeit anwenden können.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "RapidMelee",
+      "name": "Flinke Nahkampfmanöver",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShieldRiposte",
+      "name": "Schildkonter",
+      "desc": "Erhält selbst Schildblockade und bereitet folgende Fähigkeiten vor: Schildklingenhiebe.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShieldSweep",
+      "name": "Schildkantenschläge",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energiesignatur – Ousia",
+      "desc": "Nach Erleiden von SCH durch eine mit „Arkhe – Pneuma“ versehene Figur: Diese Figur wird in den „Deaktiviert-Modus“ eintreten und bis Endphase dieser Runde keine Fähigkeit anwenden können.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3408
 }

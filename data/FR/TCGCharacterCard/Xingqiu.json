@@ -1,77 +1,142 @@
 {
-	"id": "Xingqiu",
-	"shareid": 10,
-	"name": "Xingqiu",
-	"title": "Xingqiu · Jeune galant",
-	"desc": "« Est-ce moi ou les protagonistes des romans sont de nos jours tous des élèves d'une école privée ou d'une autre... »",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Épée à une main",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "TheScentRemained",
-			"name": "The Scent Remained"
-		},
-		"source": "Récompense pour avoir invité Xingqiu à une partie amicale dans La Queue de Chat et remporté la victoire",
-		"character": {
-			"id": "Xingqiu",
-			"name": "Xingqiu",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "GuhuaStyle",
-			"name": "Style Guhua",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FatalRainscreen",
-			"name": "Pluie battante",
-			"desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro, <span style=\"color:#80C0FFFF\">applique l'élément Hydro au personnage et crée une <span style=\"color:#FFFFFFFF\">épée de pluie.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Raincutter",
-			"name": "Pluie et arc-en-ciel",
-			"desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro, <span style=\"color:#80C0FFFF\">applique l'élément Hydro au personnage et crée une <span style=\"color:#FFFFFFFF\">lame arc-en-ciel.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Xingqiu",
+  "shareid": 10,
+  "name": "Xingqiu",
+  "title": "Xingqiu · Jeune galant",
+  "desc": "« Est-ce moi ou les protagonistes des romans sont de nos jours tous des élèves d'une école privée ou d'une autre... »",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "TheScentRemained",
+      "name": "The Scent Remained"
+    },
+    "source": "Récompense pour avoir invité Xingqiu à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GuhuaStyle",
+      "name": "Style Guhua",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FatalRainscreen",
+      "name": "Pluie battante",
+      "desc": "Inflige 2 pts de DGT Hydro, applique l'élément Hydro au personnage et crée une épée de pluie.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Raincutter",
+      "name": "Pluie et arc-en-ciel",
+      "desc": "Inflige 2 pts de DGT Hydro, applique l'élément Hydro au personnage et crée une lame arc-en-ciel.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuhuaStyle",
+      "name": "Style Guhua",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FatalRainscreen",
+      "name": "Pluie battante",
+      "desc": "Inflige 2 pts de DGT Hydro, applique l'élément Hydro au personnage et crée une épée de pluie.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Raincutter",
+      "name": "Pluie et arc-en-ciel",
+      "desc": "Inflige 2 pts de DGT Hydro, applique l'élément Hydro au personnage et crée une lame arc-en-ciel.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 10
 }

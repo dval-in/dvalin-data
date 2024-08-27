@@ -1,75 +1,151 @@
 {
-	"id": "CryoAbyssMage",
-	"shareid": 3103,
-	"name": "Feiticeiro do Abismo Cryo",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Outras Armas",
-		"faction": ["Monstro"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CryoThorns",
-			"name": "Espinhos Cryo",
-			"desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FrostdriftOffering",
-			"name": "Ritual da Geada",
-			"desc": "Causa 3 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RimestormRite",
-			"name": "Ritual da Tempestade",
-			"desc": "Causa 5 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CryoShield",
-			"name": "Revestimento Cryo",
-			"desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Revestimento Cryo.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CryoAbyssMage",
+  "shareid": 3103,
+  "name": "Feiticeiro do Abismo Cryo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro",
+      "Monstro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CryoThorns",
+      "name": "Espinhos Cryo",
+      "desc": "Causa 1 ponto de Dano Cryo.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostdriftOffering",
+      "name": "Ritual da Geada",
+      "desc": "Causa 3 pontos de Dano Cryo.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RimestormRite",
+      "name": "Ritual da Tempestade",
+      "desc": "Causa 5 pontos de Dano Cryo.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoShield",
+      "name": "Revestimento Cryo",
+      "desc": "(Passivo) No começo do combate, é afetado por Revestimento Cryo.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "CryoThorns",
+      "name": "Espinhos Cryo",
+      "desc": "Causa 1 ponto de Dano Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostdriftOffering",
+      "name": "Ritual da Geada",
+      "desc": "Causa 3 pontos de Dano Cryo.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RimestormRite",
+      "name": "Ritual da Tempestade",
+      "desc": "Causa 5 pontos de Dano Cryo.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoShield",
+      "name": "Revestimento Cryo",
+      "desc": "(Passivo) No começo do combate, é afetado por Revestimento Cryo.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3103
 }

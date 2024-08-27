@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherPyroslingerBracer",
-	"shareid": 3306,
-	"name": "Fatui Skirmisher - Pyroslinger Bracer",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุไฟ",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SingleshotBullet",
-			"name": "Single-Shot Bullet",
-			"desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "ธาตุไฟ",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BurningBarrage",
-			"name": "Burning Barrage",
-			"desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ 3 หน่วย",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "ธาตุไฟ",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FlamingCannon",
-			"name": "Flaming Cannon",
-			"desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ 3 หน่วย และตัวละครนี้ได้รับ <span style=\"color:#FFFFFFFF\">Pyro Elemental Equipment",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "ธาตุไฟ",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Combat Resupply",
-			"desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherPyroslingerBracer",
+  "shareid": 3306,
+  "name": "Fatui Skirmisher - Pyroslinger Bracer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SingleshotBullet",
+      "name": "Single-Shot Bullet",
+      "desc": "สร้างความเสียหายไฟ 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BurningBarrage",
+      "name": "Burning Barrage",
+      "desc": "สร้างความเสียหายไฟ 3 หน่วย",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FlamingCannon",
+      "name": "Flaming Cannon",
+      "desc": "สร้างความเสียหายไฟ 3 หน่วย และตัวละครนี้ได้รับ Pyro Elemental Equipment",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Combat Resupply",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "SingleshotBullet",
+      "name": "Single-Shot Bullet",
+      "desc": "สร้างความเสียหายไฟ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BurningBarrage",
+      "name": "Burning Barrage",
+      "desc": "สร้างความเสียหายไฟ 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FlamingCannon",
+      "name": "Flaming Cannon",
+      "desc": "สร้างความเสียหายไฟ 3 หน่วย และตัวละครนี้ได้รับ Pyro Elemental Equipment",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Combat Resupply",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3306
 }

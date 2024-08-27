@@ -11,6 +11,7 @@
     "weapon": "Other Weapons",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Emperor of Fire and Iron",
@@ -25,6 +26,70 @@
     }
   },
   "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Shatterclamp Strike",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Buster Blaze",
+      "desc": "Deals 1 Pyro DMG. If this character has at least 7 Armored Crab Carapace stacks, this DMG +1. After that, this character gains 2 Armored Crab Carapace stacks.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Battle-Line Detonation",
+      "desc": "This character gains 6 stacks of Armored Crab Carapace and Prepare Skill: Searing Blast.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "Imperial Panoply",
+      "desc": "(Passive) When combat begins: Gain 5 initial Armored Crab Carapace stacks. After your side performs any action: If your side has any Shield Status or Shield Combat Status other than Armored Crab Carapace, these other effects will be canceled. For each effect canceled, this character gains 2 Armored Crab Carapace stacks.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
     {
       "id": "ShatterclampStrike",
       "name": "Shatterclamp Strike",

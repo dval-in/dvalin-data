@@ -1,89 +1,171 @@
 {
-	"id": "MaguuKenki",
-	"shareid": 58,
-	"name": "Maguu Kenki",
-	"title": "\"Dahi Makina\" Maguu Kenki",
-	"desc": "Bugün bile kaderinin koptuğu yerde dolanıyor.",
-	"attributes": {
-		"hp": 28,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Rüzgar",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"talentCard": {
-			"id": "TranscendentAutomaton",
-			"name": "Transcendent Automaton"
-		},
-		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Maguu Kenki ile olan Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "MaguuKenki",
-			"name": "Maguu Kenki"
-		}
-	},
-	"skills": [
-		{
-			"id": "Ichimonji",
-			"name": "Ichimonji",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlusteringBlade",
-			"name": "Sert Rüzgar Kılıcı",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Gölge Kılıcı: Yalnız Rüzgar çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostyAssault",
-			"name": "Dondurucu Saldırı",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Gölge Kılıcı: Doludizgin Ayaz çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "PseudoTenguSweeper",
-			"name": "Sahte Tengu Savuran",
-			"desc": "4 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı verir ve tüm <span style=\"color:#FFFFFFFF\">Gölge Kılıcı Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "MaguuKenki",
+  "shareid": 58,
+  "name": "Maguu Kenki",
+  "title": "\"Dahi Makina\" Maguu Kenki",
+  "desc": "Bugün bile kaderinin koptuğu yerde dolanıyor.",
+  "attributes": {
+    "hp": 28,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Rüzgar",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "talentCard": {
+      "id": "TranscendentAutomaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Maguu Kenki ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "MaguuKenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "Ichimonji",
+      "name": "Ichimonji",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlusteringBlade",
+      "name": "Sert Rüzgar Kılıcı",
+      "desc": "1 Gölge Kılıcı: Yalnız Rüzgar çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostyAssault",
+      "name": "Dondurucu Saldırı",
+      "desc": "1 Gölge Kılıcı: Doludizgin Ayaz çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PseudoTenguSweeper",
+      "name": "Sahte Tengu Savuran",
+      "desc": "4 Rüzgar Hasarı verir ve tüm Gölge Kılıcı Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Ichimonji",
+      "name": "Ichimonji",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlusteringBlade",
+      "name": "Sert Rüzgar Kılıcı",
+      "desc": "1 Gölge Kılıcı: Yalnız Rüzgar çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostyAssault",
+      "name": "Dondurucu Saldırı",
+      "desc": "1 Gölge Kılıcı: Doludizgin Ayaz çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PseudoTenguSweeper",
+      "name": "Sahte Tengu Savuran",
+      "desc": "4 Rüzgar Hasarı verir ve tüm Gölge Kılıcı Minyonlarının etkilerini tetikler. (Kullanım Hakkı harcamaz.)",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 58
 }

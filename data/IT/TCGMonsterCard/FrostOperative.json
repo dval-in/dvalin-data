@@ -10,12 +10,77 @@
     "element": "Cryo",
     "weapon": "Altre armi",
     "faction": [
+      "Fatui",
       "Fatui"
     ],
     "source": null,
     "cardType": "Carta personaggio"
   },
   "skills": [
+    {
+      "id": "SwiftPoint",
+      "name": "Lama rapida",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostyInterjection",
+      "name": "Intercettazione glaciale",
+      "desc": "Infligge 3 DAN da Cryo.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThornyOnslaught",
+      "name": "Assalto trafiggente",
+      "desc": "Infligge 4 DAN da Cryo. Associa Posizione d'assalto a questo personaggio.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BloodbondedShadow",
+      "name": "Ombra di sangue",
+      "desc": "(Passiva) Dopo che questo personaggio usa un'abilità: associa un Legame vitale al personaggio attivo avversario con Utilizzi pari ai DAN totali finalizzati dell'abilità -2 (massimo 5 accumuli).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
     {
       "id": "SwiftPoint",
       "name": "Lama rapida",

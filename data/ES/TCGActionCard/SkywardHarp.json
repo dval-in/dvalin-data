@@ -1,28 +1,43 @@
 {
-	"id": "SkywardHarp",
-	"shareid": 128,
-	"name": "Alas Celestiales",
-	"title": "Eco: Alas Celestiales",
-	"desc": "Una lira capaz de perforar el mismo firmamento. El sonido que produce al disparar la flecha es como música para los oídos del Arconte Anemo.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1.<span style=\"color:#FFFFFFFF\">Una vez por ronda: daño +1 adicional en sus <span style=\"color:#FFFFFFFF\">Ataques Normales.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Dados unielementales",
-		"cardType": "Carta de equipamiento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Dados unielementales",
-				"count": 3
-			}
-		],
-		"tags": ["Arma", "Arco"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Daño +1.<span style=\"color:#FFFFFFFF\">Una vez por ronda: daño de <span style=\"color:#FFFFFFFF\">Ataque Normal +1.Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma."
-		}
-	],
-	"version": "4.4"
+  "id": "SkywardHarp",
+  "shareid": 128,
+  "name": "Alas Celestiales",
+  "title": "Eco: Alas Celestiales",
+  "desc": "Una lira capaz de perforar el mismo firmamento. El sonido que produce al disparar la flecha es como música para los oídos del Arconte Anemo.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Una vez por ronda:</span> daño +1 adicional en sus <span style=\"color:#FFFFFFFF\">Ataques Normales</span>.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Dados unielementales",
+    "cardType": "Carta de equipamiento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arma",
+      "Arco",
+      "Arma",
+      "Arco"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Daño +1.Una vez por ronda: daño de Ataque Normal +1.Solo pueden llevarla equipada los personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma."
+    },
+    {
+      "name": "",
+      "desc": "Daño +1. Una vez por ronda: daño de Ataque Normal +1. Solo pueden llevarla equipada los personajes que usan arco. Cada personaje solo puede llevar equipada 1 arma."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 128
 }

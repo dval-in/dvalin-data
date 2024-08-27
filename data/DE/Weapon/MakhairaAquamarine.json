@@ -1,287 +1,578 @@
 {
-	"id": "MakhairaAquamarine",
-	"name": "Makhaira-Aquamarin",
-	"description": "Ein uraltes Gro\u00dfschwert, das gl\u00e4nzt wie das Wasser selbst. Tausend Jahre Sanderosion haben seine unnat\u00fcrlich scharfe Klinge kein bisschen stumpf werden lassen.",
-	"rarity": 4,
-	"type": "Zweih\u00e4nder",
-	"domain": "Echos tiefer Str\u00f6mung",
-	"passive": "W\u00fcstenpavillon",
-	"bonus": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um 24 %/30 %/36 %/42 %/48 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",
-	"stats": {
-		"primary": "Basis-ANG",
-		"secondary": "Elementarkunde",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 36
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 64
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 64
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 93
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 93
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 107
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 107
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 122
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 122
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 136
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 136
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 151
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 151
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 165
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "EchoOfScorchingMight",
-					"name": "Echo der sengenden Macht",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "ChaosStorage",
-					"name": "Chaos-Speicher",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "Kr\u00e4henwappen der Schatzsuche",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "RemnantGlowOfScorchingMight",
-					"name": "Nachglimmen der sengenden Macht",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosStorage",
-					"name": "Chaos-Speicher",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "Kr\u00e4henwappen der Schatzsuche",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "RemnantGlowOfScorchingMight",
-					"name": "Nachglimmen der sengenden Macht",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosModule",
-					"name": "Chaos-Modul",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Kr\u00e4henwappen der Silbersch\u00e4tze",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "DreamOfScorchingMight",
-					"name": "Traum der sengenden Macht",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosModule",
-					"name": "Chaos-Modul",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Kr\u00e4henwappen der Silbersch\u00e4tze",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "DreamOfScorchingMight",
-					"name": "Traum der sengenden Macht",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosBolt",
-					"name": "Chaos-Anker",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Kr\u00e4henwappen der Goldsch\u00e4tze",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "OldenDaysOfScorchingMight",
-					"name": "Vergangenheit der sengenden Macht",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "ChaosBolt",
-					"name": "Chaos-Anker",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Kr\u00e4henwappen der Goldsch\u00e4tze",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "W\u00fcstenpavillon",
-		"template": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um <span style=\"color:#99FFFFFF\">{0} der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",
-		"params": [["24 %"], ["30 %"], ["36 %"], ["42 %"], ["48 %"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um 24 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
-		},
-		{
-			"refinement": 2,
-			"desc": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um 30 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
-		},
-		{
-			"refinement": 3,
-			"desc": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um 36 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
-		},
-		{
-			"refinement": 4,
-			"desc": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um 42 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
-		},
-		{
-			"refinement": 5,
-			"desc": "L\u00f6st alle 10 s den folgenden Effekt aus, der 12 s h\u00e4lt: Erh\u00f6ht den ANG der damit ausger\u00fcsteten Figur um 48 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der N\u00e4he 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/MakhairaAquamarine/Icon.webp"
-	}
+  "id": "MakhairaAquamarine",
+  "name": "Makhaira-Aquamarin",
+  "description": "Ein uraltes Großschwert, das glänzt wie das Wasser selbst. Tausend Jahre Sanderosion haben seine unnatürlich scharfe Klinge kein bisschen stumpf werden lassen.",
+  "rarity": 4,
+  "type": "Zweihänder",
+  "domain": "Echos tiefer Strömung",
+  "passive": "Wüstenpavillon",
+  "bonus": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 24 %/30 %/36 %/42 %/48 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",
+  "stats": {
+    "primary": "Basis-ANG",
+    "secondary": "Elementarkunde",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "EchoOfScorchingMight",
+          "name": "Echo der sengenden Macht",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosStorage",
+          "name": "Chaos-Speicher",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Krähenwappen der Schatzsuche",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Nachglimmen der sengenden Macht",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosStorage",
+          "name": "Chaos-Speicher",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Krähenwappen der Schatzsuche",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Nachglimmen der sengenden Macht",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosModule",
+          "name": "Chaos-Modul",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Krähenwappen der Silberschätze",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Traum der sengenden Macht",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosModule",
+          "name": "Chaos-Modul",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Krähenwappen der Silberschätze",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Traum der sengenden Macht",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosBolt",
+          "name": "Chaos-Anker",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Krähenwappen der Goldschätze",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "OldenDaysOfScorchingMight",
+          "name": "Vergangenheit der sengenden Macht",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosBolt",
+          "name": "Chaos-Anker",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Krähenwappen der Goldschätze",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "EchoOfScorchingMight",
+          "name": "Echo der sengenden Macht",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosStorage",
+          "name": "Chaos-Speicher",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Krähenwappen der Schatzsuche",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Nachglimmen der sengenden Macht",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosStorage",
+          "name": "Chaos-Speicher",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Krähenwappen der Schatzsuche",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Nachglimmen der sengenden Macht",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosModule",
+          "name": "Chaos-Modul",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Krähenwappen der Silberschätze",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Traum der sengenden Macht",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosModule",
+          "name": "Chaos-Modul",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Krähenwappen der Silberschätze",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Traum der sengenden Macht",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosBolt",
+          "name": "Chaos-Anker",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Krähenwappen der Goldschätze",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "OldenDaysOfScorchingMight",
+          "name": "Vergangenheit der sengenden Macht",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosBolt",
+          "name": "Chaos-Anker",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Krähenwappen der Goldschätze",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 24 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 2,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 30 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 3,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 36 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 4,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 42 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 5,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 48 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 1,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 24 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 2,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 30 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 3,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 36 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 4,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 42 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    },
+    {
+      "refinement": 5,
+      "desc": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um 48 % der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/MakhairaAquamarine/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Wüstenpavillon",
+    "template": "Löst alle 10 s den folgenden Effekt aus, der 12 s hält: Erhöht den ANG der damit ausgerüsteten Figur um <span style=\"color:#99FFFFFF\">{0}</span> der Elementarkunde, die sie besitzt. Verleiht zugleich den anderen Truppenmitgliedern in der Nähe 30 % dieses Bonus. Der Effekt mehrerer gleicher Waffen ist stapelbar. Er tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet.",
+    "params": [
+      [
+        "24 %"
+      ],
+      [
+        "30 %"
+      ],
+      [
+        "36 %"
+      ],
+      [
+        "42 %"
+      ],
+      [
+        "48 %"
+      ],
+      [
+        "24 %"
+      ],
+      [
+        "30 %"
+      ],
+      [
+        "36 %"
+      ],
+      [
+        "42 %"
+      ],
+      [
+        "48 %"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

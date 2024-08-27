@@ -1,77 +1,142 @@
 {
-	"id": "Noelle",
-	"shareid": 43,
-	"name": "诺艾尔",
-	"title": "未授勋之花·诺艾尔",
-	"desc": "整理牌桌这种事，真的可以交给她。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "岩元素",
-		"weapon": "双手剑",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "IGotYourBack",
-			"name": "I Got Your Back"
-		},
-		"source": "在猫尾酒馆中邀请诺艾尔进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Noelle",
-			"name": "Noelle",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkMaid",
-			"name": "西风剑术·女仆",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Breastplate",
-			"name": "护心铠",
-			"desc": "造成1点<span style=\"color:#FFE699FF\">岩元素伤害，生成<span style=\"color:#FFFFFFFF\">护体岩铠。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SweepingTime",
-			"name": "大扫除",
-			"desc": "造成4点<span style=\"color:#FFE699FF\">岩元素伤害，本角色附属<span style=\"color:#FFFFFFFF\">大扫除。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Noelle",
+  "shareid": 43,
+  "name": "诺艾尔",
+  "title": "未授勋之花·诺艾尔",
+  "desc": "整理牌桌这种事，真的可以交给她。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "双手剑",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "IGotYourBack",
+      "name": "I Got Your Back"
+    },
+    "source": "在猫尾酒馆中邀请诺艾尔进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Noelle",
+      "name": "Noelle",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkMaid",
+      "name": "西风剑术·女仆",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Breastplate",
+      "name": "护心铠",
+      "desc": "造成1点岩元素伤害，生成护体岩铠。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SweepingTime",
+      "name": "大扫除",
+      "desc": "造成4点岩元素伤害，本角色附属大扫除。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FavoniusBladeworkMaid",
+      "name": "西风剑术·女仆",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Breastplate",
+      "name": "护心铠",
+      "desc": "造成1点岩元素伤害，生成护体岩铠。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SweepingTime",
+      "name": "大扫除",
+      "desc": "造成4点岩元素伤害，本角色附属大扫除。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 43
 }

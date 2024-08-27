@@ -1,75 +1,151 @@
 {
-	"id": "SuppressionSpecialistMekOusia",
-	"shareid": 3308,
-	"name": "Baskılama Uzmanı Meka - Öz",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Ateş",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ShortrangeSnapFire",
-			"name": "Kısa Menzilli Seri Ateş",
-			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpreadFire",
-			"name": "Yangın Yeri",
-			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve rakibin hazırdaki karakterlerine <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Delme Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombinedFire",
-			"name": "Karma Ateş",
-			"desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı verir, ardından <span style=\"color:#FFFFFFFF\">Karma Ateş: Hafif Yayım Ateşi ve <span style=\"color:#FFFFFFFF\">Karma Ateş: Delici Top Ateşi için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama\" kullanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ArkheOusia",
-			"name": "Arkhe: Öz",
-			"desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMekOusia",
+  "shareid": 3308,
+  "name": "Baskılama Uzmanı Meka - Öz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "Kısa Menzilli Seri Ateş",
+      "desc": "1 Ateş Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "Yangın Yeri",
+      "desc": "1 Ateş Hasarı verir ve rakibin hazırdaki karakterlerine 1 Delme Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "Karma Ateş",
+      "desc": "2 Ateş Hasarı verir, ardından Karma Ateş: Hafif Yayım Ateşi ve Karma Ateş: Delici Top Ateşi için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Öz",
+      "desc": "\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "Kısa Menzilli Seri Ateş",
+      "desc": "1 Ateş Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "Yangın Yeri",
+      "desc": "1 Ateş Hasarı verir ve rakibin hazırdaki karakterlerine 1 Delme Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "Karma Ateş",
+      "desc": "2 Ateş Hasarı verir, ardından Karma Ateş: Hafif Yayım Ateşi ve Karma Ateş: Delici Top Ateşi için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Öz",
+      "desc": "\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3308
 }

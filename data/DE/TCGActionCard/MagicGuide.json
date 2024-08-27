@@ -1,29 +1,44 @@
 {
-	"id": "MagicGuide",
-	"shareid": 121,
-	"name": "Magieführer",
-	"title": "Bewährtheit von Wasser und Blitz – Magieführer",
-	"desc": "Die zwölfte Ausgabe des „Magieführers“.\\nAuch wenn ein Teil der Inhalte fehlerhaft ist, so ist er immer noch eine Autorität auf dem Gebiet der Einführung in die Magiekunde.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1.",
-	"attributes": {
-		"cost": 2,
-		"costType": "Würfel (gleich)",
-		"cardType": "Ausrüstungskarte",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Würfel (gleich)",
-				"count": 2
-			}
-		],
-		"source": "Vom anfänglichen Deck zu erhalten",
-		"tags": ["Waffe", "Katalysator"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1.(Nur für <span style=\"color:#FFFFFFFF\">Katalysatornutzer anlegbar, und zwar max. 1 Waffe.)"
-		}
-	],
-	"version": "4.4"
+  "id": "MagicGuide",
+  "shareid": 121,
+  "name": "Magieführer",
+  "title": "Bewährtheit von Wasser und Blitz – Magieführer",
+  "desc": "Die zwölfte Ausgabe des „Magieführers“.\\nAuch wenn ein Teil der Inhalte fehlerhaft ist, so ist er immer noch eine Autorität auf dem Gebiet der Einführung in die Magiekunde.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1</span>.",
+  "attributes": {
+    "cost": 2,
+    "costType": "Würfel (gleich)",
+    "cardType": "Ausrüstungskarte",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Würfel (gleich)",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Würfel (gleich)",
+        "count": 2
+      }
+    ],
+    "source": "Vom anfänglichen Deck zu erhalten",
+    "tags": [
+      "Waffe",
+      "Katalysator",
+      "Waffe",
+      "Katalysator"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "SCH durch die Figur +1.(Nur für Katalysatornutzer anlegbar, und zwar max. 1 Waffe.)"
+    },
+    {
+      "name": "",
+      "desc": "SCH durch die Figur +1. (Nur für Katalysatornutzer anlegbar, und zwar max. 1 Waffe.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 121
 }

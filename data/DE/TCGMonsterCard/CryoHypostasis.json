@@ -12,6 +12,7 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "talentCard": {
@@ -94,6 +95,79 @@
       "name": "Elementarablagerung – Kryo",
       "desc": "Passiv – Erhält zu Beginn des Kampfes Elementarwesen – Kryo.",
       "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "IcespikeShot",
+      "name": "Eiszapfen-Schuss",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "Eisring-Walzer",
+      "desc": "Verursacht 3 Pkt. Kryo-SCH, erhält selbst Überwältigende Eiszapfen.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "Stürzende Eiszapfen",
+      "desc": "Verursacht 2 Pkt. Kryo-SCH, fügt allen inaktiven Figuren deines Gegners 1 Pkt. durchdringenden SCH zu, erschafft 1 Durchbohrende Eiszapfen.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "Kryo-Kristallkern",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Kryo-Kristallkern.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Elementarablagerung – Kryo",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elementarwesen – Kryo.",
+      "skillTag": [
         "Passive Fähigkeit"
       ],
       "points": []

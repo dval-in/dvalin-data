@@ -1,77 +1,142 @@
 {
-	"id": "Candace",
-	"shareid": 15,
-	"name": "坎蒂丝",
-	"title": "浮金的誓愿·坎蒂丝",
-	"desc": "赤沙浮金，恪誓戍御。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "水元素",
-		"weapon": "长柄武器",
-		"faction": ["须弥"],
-		"talentCard": {
-			"id": "TheOverflow",
-			"name": "The Overflow"
-		},
-		"source": "在猫尾酒馆中邀请坎蒂丝进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Candace",
-			"name": "Candace",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "GleamingSpearGuardianStance",
-			"name": "流耀枪术·守势",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SacredRiteHeronsSanctum",
-			"name": "圣仪·苍鹭庇卫",
-			"desc": "本角色附属<span style=\"color:#FFFFFFFF\">苍鹭护盾并<span style=\"color:#FFFFFFFF\">准备技能：<span style=\"color:#FFFFFFFF\">苍鹭震击。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SacredRiteWagtailsTide",
-			"name": "圣仪·灰鸰衒潮",
-			"desc": "造成2点<span style=\"color:#80C0FFFF\">水元素伤害，生成<span style=\"color:#FFFFFFFF\">赤冕祝祷。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Candace",
+  "shareid": 15,
+  "name": "坎蒂丝",
+  "title": "浮金的誓愿·坎蒂丝",
+  "desc": "赤沙浮金，恪誓戍御。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "长柄武器",
+    "faction": [
+      "须弥",
+      "须弥"
+    ],
+    "talentCard": {
+      "id": "TheOverflow",
+      "name": "The Overflow"
+    },
+    "source": "在猫尾酒馆中邀请坎蒂丝进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Candace",
+      "name": "Candace",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "流耀枪术·守势",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "圣仪·苍鹭庇卫",
+      "desc": "本角色附属苍鹭护盾并准备技能：苍鹭震击。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "圣仪·灰鸰衒潮",
+      "desc": "造成2点水元素伤害，生成赤冕祝祷。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "流耀枪术·守势",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "圣仪·苍鹭庇卫",
+      "desc": "本角色附属苍鹭护盾并准备技能：苍鹭震击。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "圣仪·灰鸰衒潮",
+      "desc": "造成2点水元素伤害，生成赤冕祝祷。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 15
 }

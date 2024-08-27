@@ -1,82 +1,169 @@
 {
-	"id": "KairagiFieryMight",
-	"shareid": 3303,
-	"name": "Kairagi: Fiery Might",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Character Card",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Other Weapons",
-		"faction": ["Kairagi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "Three Point Slash",
-			"desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Unaligned Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "Leaping Strike",
-			"desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai: Sheathed",
-			"desc": "<span style=\"color:#FFFFFFFF\">Prepare Skill: <span style=\"color:#FFFFFFFF\">Iai: Fiery Wind.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanPyro",
-			"name": "Kamuna Talisman: Pyro",
-			"desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Kamuna Talisman: Pyro.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "Final Frenzy",
-			"desc": "When another of your Kairagi characters gets defeated, this character gains <span style=\"color:#FFFFFFFF\">Final Frenzy.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiFieryMight",
+  "shareid": 3303,
+  "name": "Kairagi: Fiery Might",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Kairagi",
+      "Kairagi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "Three Point Slash",
+      "desc": "Deals 2 Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Leaping Strike",
+      "desc": "Deals 3 Physical DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "Prepare Skill: Iai: Fiery Wind.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanPyro",
+      "name": "Kamuna Talisman: Pyro",
+      "desc": "(Passive) When the battle begins, this character gains Kamuna Talisman: Pyro.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Final Frenzy",
+      "desc": "When another of your Kairagi characters gets defeated, this character gains Final Frenzy.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "Three Point Slash",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Leaping Strike",
+      "desc": "Deals 3 Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "Prepare Skill: Iai: Fiery Wind.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanPyro",
+      "name": "Kamuna Talisman: Pyro",
+      "desc": "(Passive) When the battle begins, this character gains Kamuna Talisman: Pyro.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Final Frenzy",
+      "desc": "When another of your Kairagi characters gets defeated, this character gains Final Frenzy.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3303
 }

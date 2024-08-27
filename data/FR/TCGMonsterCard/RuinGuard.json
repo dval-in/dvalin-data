@@ -1,70 +1,141 @@
 {
-	"id": "RuinGuard",
-	"shareid": 3004,
-	"name": "Gardien des ruines",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Sans élément",
-		"weapon": "Autre arme",
-		"faction": ["Monstre"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SternBlow",
-			"name": "Coup dur",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SpiralClosein",
-			"name": "Approche en spirale",
-			"desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques et <span style=\"color:#FFFFFFFF\">prépare séparément les capacités : <span style=\"color:#FFFFFFFF\">Rotation à haute fréquence et <span style=\"color:#FFFFFFFF\">Rotation à haute vitesse.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Élément identique",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SuppressiveVolley",
-			"name": "Salve suppressive",
-			"desc": "Inflige 4 pts de <span style=\"color:#FFFFFFFF\">DGT physiques et crée un <span style=\"color:#FFFFFFFF\">missile chercheur sur le terrain adverse.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Élément identique",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StandardArmor",
-			"name": "Armure standard",
-			"desc": "(Passif) Diminue les <span style=\"color:#FFFFFFFF\">DGT physiques subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "RuinGuard",
+  "shareid": 3004,
+  "name": "Gardien des ruines",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Sans élément",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "Coup dur",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Approche en spirale",
+      "desc": "Inflige 1 pt de DGT physiques et prépare séparément les capacités : Rotation à haute fréquence et Rotation à haute vitesse.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Salve suppressive",
+      "desc": "Inflige 4 pts de DGT physiques et crée un missile chercheur sur le terrain adverse.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Armure standard",
+      "desc": "(Passif) Diminue les DGT physiques subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "SternBlow",
+      "name": "Coup dur",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Approche en spirale",
+      "desc": "Inflige 1 pt de DGT physiques et prépare séparément les capacités : Rotation à haute fréquence et Rotation à haute vitesse.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Salve suppressive",
+      "desc": "Inflige 4 pts de DGT physiques et crée un missile chercheur sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Armure standard",
+      "desc": "(Passif) Diminue les DGT physiques subis par le personnage de moitié. (Arrondi à l'entier supérieur)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3004
 }

@@ -10,12 +10,63 @@
     "element": "Sin tipo elemental",
     "weapon": "Otras armas",
     "faction": [
+      "Monstruo",
       "Monstruo"
     ],
     "source": null,
     "cardType": "Carta de personaje"
   },
   "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Golpe raudo",
+      "desc": "Inflige 1 pt. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Asalto directo",
+      "desc": "Inflige 3 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Patada lateral",
+      "desc": "Inflige 4 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "LightStrike",
       "name": "Golpe raudo",

@@ -10,6 +10,7 @@
     "element": "Cryo",
     "weapon": "Catalizador",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "Se obtiene tras retar y ganar a Wriothesley en un duelo amistoso en la taberna Cola de Gato",
@@ -55,6 +56,61 @@
       "id": "DarkgoldWolfbite",
       "name": "Devoración aureosombría",
       "desc": "Inflige 2 pts. de Daño Cryo y crea un carámbano remanente. Cada 2 veces que este personaje reciba daño o curación en la ronda actual, gastas 1 dado elemental menos para ejecutar esta habilidad (hasta un máximo de 2 dados menos).",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ForcefulFistsOfFrost",
+      "name": "Combo glaciodemoledor",
+      "desc": "Inflige 1 pt. de Daño Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcefangRush",
+      "name": "Envite ateridor",
+      "desc": "Inflige 2 pts. de Daño Físico y este personaje obtiene el efecto de sentencia gélida.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DarkgoldWolfbite",
+      "name": "Devoración aureosombría",
+      "desc": "Inflige 2 pts. de Daño Físico y crea un carámbano remanente. Cada 2 veces que este personaje reciba daño o curación en la ronda actual, gastas 1 dado elemental menos para ejecutar esta habilidad (hasta un máximo de 2 dados menos).",
       "skillTag": [
         "Habilidad Definitiva"
       ],

@@ -1,287 +1,578 @@
 {
-	"id": "PrototypeStarglitter",
-	"name": "Prototipo Estelar",
-	"description": "Una alabarda descubierta en la Forja Pe\u00f1asco Oscuro. Los destellos que produce el brillo de su afilada punta son como estrellas en el firmamento.",
-	"rarity": 4,
-	"type": "Lanza",
-	"domain": "Palacio oculto de la f\u00f3rmula Lianshan",
-	"passive": "Fan\u00e1tico de la magia",
-	"bonus": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un 8%/10%/12%/14%/16% durante 12 s. Puede acumularse hasta 2 veces.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "Recarga de Energ\u00eda",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 10
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 17.7
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 17.7
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 25.8
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 25.8
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 29.8
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 29.8
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 33.8
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 33.8
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 37.9
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 37.9
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 41.9
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 41.9
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 45.9
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "GrainOfAerosiderite",
-					"name": "Grano de siderita oscura",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FragileBoneShard",
-					"name": "Fragmento de hueso fr\u00e1gil",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "M\u00e1scara da\u00f1ada",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "PieceOfAerosiderite",
-					"name": "L\u00e1mina de siderita oscura",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "FragileBoneShard",
-					"name": "Fragmento de hueso fr\u00e1gil",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "M\u00e1scara da\u00f1ada",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "PieceOfAerosiderite",
-					"name": "L\u00e1mina de siderita oscura",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SturdyBoneShard",
-					"name": "Fragmento de hueso s\u00f3lido",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "M\u00e1scara sucia",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "BitOfAerosiderite",
-					"name": "Fragmento de siderita oscura",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "SturdyBoneShard",
-					"name": "Fragmento de hueso s\u00f3lido",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "M\u00e1scara sucia",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "BitOfAerosiderite",
-					"name": "Fragmento de siderita oscura",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "FossilizedBoneShard",
-					"name": "Fragmento de hueso fosilizado",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "M\u00e1scara amenazante",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "ChunkOfAerosiderite",
-					"name": "Trozo de siderita oscura",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "FossilizedBoneShard",
-					"name": "Fragmento de hueso fosilizado",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "M\u00e1scara amenazante",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Fan\u00e1tico de la magia",
-		"template": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un <span style=\"color:#99FFFFFF\">{0} durante 12 s. Puede acumularse hasta 2 veces.",
-		"params": [["8%"], ["10%"], ["12%"], ["14%"], ["16%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un 8% durante 12 s. Puede acumularse hasta 2 veces."
-		},
-		{
-			"refinement": 2,
-			"desc": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un 10% durante 12 s. Puede acumularse hasta 2 veces."
-		},
-		{
-			"refinement": 3,
-			"desc": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un 12% durante 12 s. Puede acumularse hasta 2 veces."
-		},
-		{
-			"refinement": 4,
-			"desc": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un 14% durante 12 s. Puede acumularse hasta 2 veces."
-		},
-		{
-			"refinement": 5,
-			"desc": "Despu\u00e9s de usar una Habilidad Elemental, aumenta el da\u00f1o de Ataque Normal y Cargado en un 16% durante 12 s. Puede acumularse hasta 2 veces."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/PrototypeStarglitter/Icon.webp"
-	}
+  "id": "PrototypeStarglitter",
+  "name": "Prototipo Estelar",
+  "description": "Una alabarda descubierta en la Forja Peñasco Oscuro. Los destellos que produce el brillo de su afilada punta son como estrellas en el firmamento.",
+  "rarity": 4,
+  "type": "Lanza",
+  "domain": "Palacio oculto de la fórmula Lianshan",
+  "passive": "Fanático de la magia",
+  "bonus": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 8%/10%/12%/14%/16% durante 12 s. Puede acumularse hasta 2 veces.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Recarga de Energía",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 10
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 45.9
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 10
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 17.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 25.8
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 29.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 33.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 37.9
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 41.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 45.9
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "GrainOfAerosiderite",
+          "name": "Grano de siderita oscura",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de hueso frágil",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Lámina de siderita oscura",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de hueso frágil",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Lámina de siderita oscura",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de hueso sólido",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de siderita oscura",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de hueso sólido",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de siderita oscura",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de hueso fosilizado",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ChunkOfAerosiderite",
+          "name": "Trozo de siderita oscura",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de hueso fosilizado",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "GrainOfAerosiderite",
+          "name": "Grano de siderita oscura",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de hueso frágil",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Lámina de siderita oscura",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de hueso frágil",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Lámina de siderita oscura",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de hueso sólido",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de siderita oscura",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de hueso sólido",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de siderita oscura",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de hueso fosilizado",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ChunkOfAerosiderite",
+          "name": "Trozo de siderita oscura",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de hueso fosilizado",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 8% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 2,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 10% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 3,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 12% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 4,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 14% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 5,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 16% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 1,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 8% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 2,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 10% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 3,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 12% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 4,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 14% durante 12 s. Puede acumularse hasta 2 veces."
+    },
+    {
+      "refinement": 5,
+      "desc": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un 16% durante 12 s. Puede acumularse hasta 2 veces."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/PrototypeStarglitter/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Fanático de la magia",
+    "template": "Después de usar una Habilidad Elemental, aumenta el daño de Ataque Normal y Cargado en un <span style=\"color:#99FFFFFF\">{0}</span> durante 12 s. Puede acumularse hasta 2 veces.",
+    "params": [
+      [
+        "8%"
+      ],
+      [
+        "10%"
+      ],
+      [
+        "12%"
+      ],
+      [
+        "14%"
+      ],
+      [
+        "16%"
+      ],
+      [
+        "8%"
+      ],
+      [
+        "10%"
+      ],
+      [
+        "12%"
+      ],
+      [
+        "14%"
+      ],
+      [
+        "16%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

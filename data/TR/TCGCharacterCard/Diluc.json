@@ -1,77 +1,142 @@
 {
-	"id": "Diluc",
-	"shareid": 17,
-	"name": "Diluc",
-	"title": "\"Şafağın Karanlık Yüzü\" Diluc",
-	"desc": "Yüreği en büyük düşmanıdır.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Ateş",
-		"weapon": "Çift Elli Kılıç",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "FlowingFlame",
-			"name": "Flowing Flame"
-		},
-		"source": "Başlangıç destesinden elde edilir.",
-		"character": {
-			"id": "Diluc",
-			"name": "Diluc",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TemperedSword",
-			"name": "Akkor Kılıç",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingOnslaught",
-			"name": "Dağlayan Taarruz",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Dawn",
-			"name": "Şafak",
-			"desc": "8 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve bu karakter <span style=\"color:#FFFFFFFF\">Ateş Tesiri kazanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Diluc",
+  "shareid": 17,
+  "name": "Diluc",
+  "title": "\"Şafağın Karanlık Yüzü\" Diluc",
+  "desc": "Yüreği en büyük düşmanıdır.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Çift Elli Kılıç",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "FlowingFlame",
+      "name": "Flowing Flame"
+    },
+    "source": "Başlangıç destesinden elde edilir.",
+    "character": {
+      "id": "Diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TemperedSword",
+      "name": "Akkor Kılıç",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Dağlayan Taarruz",
+      "desc": "3 Ateş Hasarı verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Şafak",
+      "desc": "8 Ateş Hasarı verir ve bu karakter Ateş Tesiri kazanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TemperedSword",
+      "name": "Akkor Kılıç",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Dağlayan Taarruz",
+      "desc": "3 Ateş Hasarı verir. Bu becerinin 3. defa kullanıldığı her Turda Hasar 2 artar.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Şafak",
+      "desc": "8 Ateş Hasarı verir ve bu karakter Ateş Tesiri kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 17
 }

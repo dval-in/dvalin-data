@@ -1,83 +1,159 @@
 {
-	"id": "ElectroHypostasis",
-	"shareid": 57,
-	"name": "Ipostasi di Electro",
-	"title": "Ipostasi di Electro",
-	"desc": "Nome in codice: Aleph. Un'entità di Elettro dall'elevata purezza.\\nNon ammetterebbe la sconfitta nemmeno se perdesse a sasso carta forbice.",
-	"attributes": {
-		"hp": 8,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Electro",
-		"weapon": "Altre armi",
-		"faction": ["Mostro"],
-		"talentCard": {
-			"id": "AbsorbingPrism",
-			"name": "Absorbing Prism"
-		},
-		"source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Ipostasi di Electro in un duello amichevole",
-		"character": {
-			"id": "ElectroHypostasis",
-			"name": "Electro Hypostasis"
-		}
-	},
-	"skills": [
-		{
-			"id": "ElectroCrystalProjection",
-			"name": "Proiezione del Cristallo di Electro",
-			"desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RockpaperscissorsCombo",
-			"name": "Combo carta, forbice, sasso",
-			"desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro e poi, separatamente, esegue <span style=\"color:#FFFFFFFF\">Preparazione abilità per <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Forbice e <span style=\"color:#FFFFFFFF\">Combo carta, forbice, sasso: Carta.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "LightningLockdown",
-			"name": "Blocco fulmineo",
-			"desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro, invoca <span style=\"color:#FFFFFFFF\">Catene del Tuono tutelare.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElectroCrystalCore",
-			"name": "Nucleo cristallino di Electro",
-			"desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Nucleo cristallino di Electro.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ElectroHypostasis",
+  "shareid": 57,
+  "name": "Ipostasi di Electro",
+  "title": "Ipostasi di Electro",
+  "desc": "Nome in codice: Aleph. Un'entità di Elettro dall'elevata purezza.\\nNon ammetterebbe la sconfitta nemmeno se perdesse a sasso carta forbice.",
+  "attributes": {
+    "hp": 8,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Mostro"
+    ],
+    "talentCard": {
+      "id": "AbsorbingPrism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Ipostasi di Electro in un duello amichevole",
+    "character": {
+      "id": "ElectroHypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "Proiezione del Cristallo di Electro",
+      "desc": "Infligge 1 DAN da Electro.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "Combo carta, forbice, sasso",
+      "desc": "Infligge 2 DAN da Electro e poi, separatamente, esegue Preparazione abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "Blocco fulmineo",
+      "desc": "Infligge 2 DAN da Electro, invoca Catene del Tuono tutelare.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectroCrystalCore",
+      "name": "Nucleo cristallino di Electro",
+      "desc": "(Passiva) All'inizio del duello ottiene Nucleo cristallino di Electro.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "Proiezione del Cristallo di Electro",
+      "desc": "Infligge 1 DAN da Electro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "Combo carta, forbice, sasso",
+      "desc": "Infligge 2 DAN da Electro e poi, separatamente, esegue Preparazione abilità per Combo carta, forbice, sasso: Forbice e Combo carta, forbice, sasso: Carta.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "Blocco fulmineo",
+      "desc": "Infligge 2 DAN da Electro, invoca Catene del Tuono tutelare.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectroCrystalCore",
+      "name": "Nucleo cristallino di Electro",
+      "desc": "(Passiva) All'inizio del duello ottiene Nucleo cristallino di Electro.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 57
 }

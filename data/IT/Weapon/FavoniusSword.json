@@ -1,293 +1,588 @@
 {
-	"id": "FavoniusSword",
-	"name": "Spada di Favonius",
-	"description": "Una spada lunga d'ordinanza dei Cavalieri di Favonius. Quando sei armato di quest'arma agile e affilata, incanalare il potere degli elementi diventa un gioco da ragazzi!",
-	"rarity": 4,
-	"type": "Spada",
-	"domain": "Giardino di Cecilie",
-	"passive": "Vento propizio",
-	"bonus": "I colpi CRIT hanno un 60%/70%/80%/90%/100% di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni 12/10,5/9/7,5/6 s.",
-	"stats": {
-		"primary": "ATT di base",
-		"secondary": "Ricarica di energia",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 41,
-				"secondary": 13.3
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 99,
-				"secondary": 23.6
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 125,
-				"secondary": 23.6
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 184,
-				"secondary": 34.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 210,
-				"secondary": 34.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 238,
-				"secondary": 39.7
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 264,
-				"secondary": 39.7
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 293,
-				"secondary": 45.1
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 319,
-				"secondary": 45.1
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 347,
-				"secondary": 50.5
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 373,
-				"secondary": 50.5
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 401,
-				"secondary": 55.9
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 427,
-				"secondary": 55.9
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 454,
-				"secondary": 61.3
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "TileOfDecarabiansTower",
-					"name": "Tegola della Torre di Decarabian",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "HeavyHorn",
-					"name": "Corno pesante",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Punta di freccia robusta",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "DebrisOfDecarabiansCity",
-					"name": "Resti della Citt\u00e0 di Decarabian",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "HeavyHorn",
-					"name": "Corno pesante",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Punta di freccia robusta",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "DebrisOfDecarabiansCity",
-					"name": "Resti della Citt\u00e0 di Decarabian",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "BlackBronzeHorn",
-					"name": "Corno di bronzo nero",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Punta di freccia affilata",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "FragmentOfDecarabiansEpic",
-					"name": "Frammento dell'epopea di Decarabian",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "BlackBronzeHorn",
-					"name": "Corno di bronzo nero",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Punta di freccia affilata",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "FragmentOfDecarabiansEpic",
-					"name": "Frammento dell'epopea di Decarabian",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "BlackCrystalHorn",
-					"name": "Corno con cristallo nero",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Punta di freccia consumata",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "ScatteredPieceOfDecarabiansDream",
-					"name": "Frammento del sogno di Decarabian",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "BlackCrystalHorn",
-					"name": "Corno con cristallo nero",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Punta di freccia consumata",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Vento propizio",
-		"template": "I colpi CRIT hanno un <span style=\"color:#99FFFFFF\">{0} di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni <span style=\"color:#99FFFFFF\">{1} s.",
-		"params": [
-			["60%", "12"],
-			["70%", "10,5"],
-			["80%", "9"],
-			["90%", "7,5"],
-			["100%", "6"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "I colpi CRIT hanno un 60% di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni 12 s."
-		},
-		{
-			"refinement": 2,
-			"desc": "I colpi CRIT hanno un 70% di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni 10,5 s."
-		},
-		{
-			"refinement": 3,
-			"desc": "I colpi CRIT hanno un 80% di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni 9 s."
-		},
-		{
-			"refinement": 4,
-			"desc": "I colpi CRIT hanno un 90% di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni 7,5 s."
-		},
-		{
-			"refinement": 5,
-			"desc": "I colpi CRIT hanno un 100% di probabilit\u00e0 di generare una piccola quantit\u00e0 di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si pu\u00f2 verificare una sola volta ogni 6 s."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/FavoniusSword/Icon.webp"
-	}
+  "id": "FavoniusSword",
+  "name": "Spada di Favonius",
+  "description": "Una spada lunga d'ordinanza dei Cavalieri di Favonius. Quando sei armato di quest'arma agile e affilata, incanalare il potere degli elementi diventa un gioco da ragazzi!",
+  "rarity": 4,
+  "type": "Spada",
+  "domain": "Giardino di Cecilie",
+  "passive": "Vento propizio",
+  "bonus": "I colpi CRIT hanno un 60%/70%/80%/90%/100% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 12/10,5/9/7,5/6 s.",
+  "stats": {
+    "primary": "ATT di base",
+    "secondary": "Ricarica di energia",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 13.3
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 23.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 23.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 34.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 34.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 39.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 39.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 45.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 45.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 50.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 50.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 55.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 55.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 61.3
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 13.3
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 23.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 23.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 34.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 34.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 39.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 39.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 45.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 45.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 50.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 50.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 55.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 55.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 61.3
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Tegola della Torre di Decarabian",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corno pesante",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Punta di freccia robusta",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Resti della Città di Decarabian",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corno pesante",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Punta di freccia robusta",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Resti della Città di Decarabian",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corno di bronzo nero",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Punta di freccia affilata",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Frammento dell'epopea di Decarabian",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corno di bronzo nero",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Punta di freccia affilata",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Frammento dell'epopea di Decarabian",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corno con cristallo nero",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Punta di freccia consumata",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ScatteredPieceOfDecarabiansDream",
+          "name": "Frammento del sogno di Decarabian",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corno con cristallo nero",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Punta di freccia consumata",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Tegola della Torre di Decarabian",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corno pesante",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Punta di freccia robusta",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Resti della Città di Decarabian",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "HeavyHorn",
+          "name": "Corno pesante",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Punta di freccia robusta",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Resti della Città di Decarabian",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corno di bronzo nero",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Punta di freccia affilata",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Frammento dell'epopea di Decarabian",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "BlackBronzeHorn",
+          "name": "Corno di bronzo nero",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Punta di freccia affilata",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Frammento dell'epopea di Decarabian",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corno con cristallo nero",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Punta di freccia consumata",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ScatteredPieceOfDecarabiansDream",
+          "name": "Frammento del sogno di Decarabian",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "BlackCrystalHorn",
+          "name": "Corno con cristallo nero",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Punta di freccia consumata",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "I colpi CRIT hanno un 60% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 12 s."
+    },
+    {
+      "refinement": 2,
+      "desc": "I colpi CRIT hanno un 70% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 10,5 s."
+    },
+    {
+      "refinement": 3,
+      "desc": "I colpi CRIT hanno un 80% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 9 s."
+    },
+    {
+      "refinement": 4,
+      "desc": "I colpi CRIT hanno un 90% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 7,5 s."
+    },
+    {
+      "refinement": 5,
+      "desc": "I colpi CRIT hanno un 100% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 6 s."
+    },
+    {
+      "refinement": 1,
+      "desc": "I colpi CRIT hanno un 60% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 12 s."
+    },
+    {
+      "refinement": 2,
+      "desc": "I colpi CRIT hanno un 70% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 10,5 s."
+    },
+    {
+      "refinement": 3,
+      "desc": "I colpi CRIT hanno un 80% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 9 s."
+    },
+    {
+      "refinement": 4,
+      "desc": "I colpi CRIT hanno un 90% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 7,5 s."
+    },
+    {
+      "refinement": 5,
+      "desc": "I colpi CRIT hanno un 100% di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni 6 s."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/FavoniusSword/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Vento propizio",
+    "template": "I colpi CRIT hanno un <span style=\"color:#99FFFFFF\">{0}</span> di probabilità di generare una piccola quantità di particelle elementali, che rigenerano di 6 l'energia del personaggio. Si può verificare una sola volta ogni <span style=\"color:#99FFFFFF\">{1}</span> s.",
+    "params": [
+      [
+        "60%",
+        "12"
+      ],
+      [
+        "70%",
+        "10,5"
+      ],
+      [
+        "80%",
+        "9"
+      ],
+      [
+        "90%",
+        "7,5"
+      ],
+      [
+        "100%",
+        "6"
+      ],
+      [
+        "60%",
+        "12"
+      ],
+      [
+        "70%",
+        "10,5"
+      ],
+      [
+        "80%",
+        "9"
+      ],
+      [
+        "90%",
+        "7,5"
+      ],
+      [
+        "100%",
+        "6"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

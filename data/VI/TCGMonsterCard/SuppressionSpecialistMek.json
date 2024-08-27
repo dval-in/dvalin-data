@@ -1,63 +1,123 @@
 {
-	"id": "SuppressionSpecialistMek",
-	"shareid": 3007,
-	"name": "Robot Áp Chế Chuyên Dụng",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Không Nguyên Tố",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "LongrangeFire",
-			"name": "Bắn Tỉa Từ Xa",
-			"desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RetreatingFire",
-			"name": "Xạ Kích Rút Lui",
-			"desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý, phe ta đổi sang nhân vật kế tiếp.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Nguyên Tố Tương Đồng",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BurstFire",
-			"name": "Xạ Kích Bùng Nổ",
-			"desc": "Gây 4 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Nguyên Tố Tương Đồng",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMek",
+  "shareid": 3007,
+  "name": "Robot Áp Chế Chuyên Dụng",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Không Nguyên Tố",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "LongrangeFire",
+      "name": "Bắn Tỉa Từ Xa",
+      "desc": "Gây 1 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Xạ Kích Rút Lui",
+      "desc": "Gây 3 điểm Sát Thương Vật Lý, phe ta đổi sang nhân vật kế tiếp.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Xạ Kích Bùng Nổ",
+      "desc": "Gây 4 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LongrangeFire",
+      "name": "Bắn Tỉa Từ Xa",
+      "desc": "Gây 1 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Xạ Kích Rút Lui",
+      "desc": "Gây 3 điểm Sát Thương Vật Lý, phe ta đổi sang nhân vật kế tiếp.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Xạ Kích Bùng Nổ",
+      "desc": "Gây 4 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3007
 }

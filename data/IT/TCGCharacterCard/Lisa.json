@@ -12,6 +12,7 @@
     "weapon": "Catalizzatore",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Rosa fulminante",
       "desc": "Infligge 2 DAN da Electro e invoca 1 Rosa fulminante.",
       "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Tocco di fulmine",
+      "desc": "Infligge 1 DAN da Electro. Quando quest'abilità è un Attacco caricato: associa Conduzione al personaggio attivo avversario.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Tuono violetto",
+      "desc": "Infligge 2 DAN da Electro. Se Conduzione non è associata al personaggio attivo avversario, associala.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rosa fulminante",
+      "desc": "Infligge 2 DAN da Electro. Invoca 1 Rosa fulminante. Il personaggio attivo avversario ottiene Conduzione.",
+      "skillTag": [
         "Tripudio elementale"
       ],
       "points": [

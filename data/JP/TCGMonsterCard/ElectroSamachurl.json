@@ -11,12 +11,64 @@
     "weapon": "他の武器",
     "faction": [
       "魔物",
+      "ヒルチャール",
+      "魔物",
       "ヒルチャール"
     ],
     "source": null,
     "cardType": "キャラカード"
   },
   "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "杖叩き",
+      "desc": "物理ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "轟雷トーテム",
+      "desc": "雷元素ダメージを2与え、相手のフィールドに召雷の杖を生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "落雷の術",
+      "desc": "雷元素ダメージを5与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "StrikingStaff",
       "name": "杖叩き",

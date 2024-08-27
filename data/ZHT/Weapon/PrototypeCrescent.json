@@ -1,287 +1,578 @@
 {
-	"id": "PrototypeCrescent",
-	"name": "\u8a66\u4f5c\u6fb9\u6708",
-	"description": "\u9ed1\u5ca9\u5ee0\u4e2d\u5bc6\u85cf\u7684\u539f\u578b\u9577\u5f13\u3002\u653e\u77e2\u4e4b\u59ff\u7336\u5982\u900f\u904e\u8584\u66ae\u7684\u6708\u5149\u3002",
-	"rarity": 4,
-	"type": "\u5f13",
-	"domain": "\u9707\u96f7\u9023\u5c71\u5bc6\u5bae",
-	"passive": "\u96e2\u93c3\u4e0d\u6b78",
-	"bonus": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u820736%/45%/54%/63%/72%\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u64ca\u529b",
-		"secondary": "\u653b\u64ca\u529b%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 9
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 15.9
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 15.9
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 23.2
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 23.2
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 26.8
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 26.8
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 34.1
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 34.1
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 37.7
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 37.7
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 41.3
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "MistVeiledLeadElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u7684\u925b\u4e39",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "MistGrassPollen",
-					"name": "\u9727\u865b\u82b1\u7c89",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "\u5c0b\u5bf6\u9d09\u5370",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u7684\u6c5e\u4e39",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "MistGrassPollen",
-					"name": "\u9727\u865b\u82b1\u7c89",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "\u5c0b\u5bf6\u9d09\u5370",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u7684\u6c5e\u4e39",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "MistGrass",
-					"name": "\u9727\u865b\u8349\u56ca",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "\u85cf\u9280\u9d09\u5370",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u7684\u91d1\u4e39",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "MistGrass",
-					"name": "\u9727\u865b\u8349\u56ca",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "\u85cf\u9280\u9d09\u5370",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u7684\u91d1\u4e39",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "MistGrassWick",
-					"name": "\u9727\u865b\u71c8\u82af",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "\u652b\u91d1\u9d09\u5370",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "MistVeiledPrimoElixir",
-					"name": "\u9727\u6d77\u96f2\u9593\u7684\u8f49\u9084",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "MistGrassWick",
-					"name": "\u9727\u865b\u71c8\u82af",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "\u652b\u91d1\u9d09\u5370",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u96e2\u93c3\u4e0d\u6b78",
-		"template": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u8207<span style=\"color:#99FFFFFF\">{0}\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002",
-		"params": [["36%"], ["45%"], ["54%"], ["63%"], ["72%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u820736%\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u820745%\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u820754%\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u820763%\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u91cd\u64ca\u82e5\u547d\u4e2d\u8981\u5bb3\uff0c\u5247\u63d0\u534710%\u79fb\u52d5\u901f\u5ea6\u820772%\u653b\u64ca\u529b\uff0c\u6301\u7e8c10\u79d2\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/PrototypeCrescent/Icon.webp"
-	}
+  "id": "PrototypeCrescent",
+  "name": "試作澹月",
+  "description": "黑岩廠中密藏的原型長弓。放矢之姿猶如透過薄暮的月光。",
+  "rarity": 4,
+  "type": "弓",
+  "domain": "震雷連山密宮",
+  "passive": "離鏃不歸",
+  "bonus": "重擊若命中要害，則提升10%移動速度與36%/45%/54%/63%/72%攻擊力，持續10秒。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "攻擊力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 9
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 15.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 23.2
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 26.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 34.1
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 37.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 41.3
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "霧海雲間的鉛丹",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "霧虛花粉",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "尋寶鴉印",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間的汞丹",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "霧虛花粉",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "尋寶鴉印",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間的汞丹",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrass",
+          "name": "霧虛草囊",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏銀鴉印",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間的金丹",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrass",
+          "name": "霧虛草囊",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏銀鴉印",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間的金丹",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "霧虛燈芯",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鴉印",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "霧海雲間的轉還",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "霧虛燈芯",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鴉印",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "霧海雲間的鉛丹",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "霧虛花粉",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "尋寶鴉印",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間的汞丹",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "霧虛花粉",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "尋寶鴉印",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "霧海雲間的汞丹",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrass",
+          "name": "霧虛草囊",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏銀鴉印",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間的金丹",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrass",
+          "name": "霧虛草囊",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "藏銀鴉印",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "霧海雲間的金丹",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "霧虛燈芯",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鴉印",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "霧海雲間的轉還",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "霧虛燈芯",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "攫金鴉印",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "重擊若命中要害，則提升10%移動速度與36%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 2,
+      "desc": "重擊若命中要害，則提升10%移動速度與45%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 3,
+      "desc": "重擊若命中要害，則提升10%移動速度與54%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 4,
+      "desc": "重擊若命中要害，則提升10%移動速度與63%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 5,
+      "desc": "重擊若命中要害，則提升10%移動速度與72%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 1,
+      "desc": "重擊若命中要害，則提升10%移動速度與36%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 2,
+      "desc": "重擊若命中要害，則提升10%移動速度與45%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 3,
+      "desc": "重擊若命中要害，則提升10%移動速度與54%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 4,
+      "desc": "重擊若命中要害，則提升10%移動速度與63%攻擊力，持續10秒。"
+    },
+    {
+      "refinement": 5,
+      "desc": "重擊若命中要害，則提升10%移動速度與72%攻擊力，持續10秒。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/PrototypeCrescent/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "離鏃不歸",
+    "template": "重擊若命中要害，則提升10%移動速度與<span style=\"color:#99FFFFFF\">{0}</span>攻擊力，持續10秒。",
+    "params": [
+      [
+        "36%"
+      ],
+      [
+        "45%"
+      ],
+      [
+        "54%"
+      ],
+      [
+        "63%"
+      ],
+      [
+        "72%"
+      ],
+      [
+        "36%"
+      ],
+      [
+        "45%"
+      ],
+      [
+        "54%"
+      ],
+      [
+        "63%"
+      ],
+      [
+        "72%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

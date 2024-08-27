@@ -1,75 +1,151 @@
 {
-	"id": "CryoAbyssMage",
-	"shareid": 3103,
-	"name": "Cryo Abyss Mage",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Kartu Karakter",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Senjata Lain",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CryoThorns",
-			"name": "Cryo Thorns",
-			"desc": "Mengakibatkan 1 poin <span style=\"color:#99FFFFFF\">Cryo DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FrostdriftOffering",
-			"name": "Frostdrift Offering",
-			"desc": "Mengakibatkan 3 poin <span style=\"color:#99FFFFFF\">Cryo DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RimestormRite",
-			"name": "Rimestorm Rite",
-			"desc": "Mengakibatkan 5 poin <span style=\"color:#99FFFFFF\">Cryo DMG.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CryoShield",
-			"name": "Cryo Shield",
-			"desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Cryo Shield.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CryoAbyssMage",
+  "shareid": 3103,
+  "name": "Cryo Abyss Mage",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CryoThorns",
+      "name": "Cryo Thorns",
+      "desc": "Mengakibatkan 1 poin Cryo DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostdriftOffering",
+      "name": "Frostdrift Offering",
+      "desc": "Mengakibatkan 3 poin Cryo DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RimestormRite",
+      "name": "Rimestorm Rite",
+      "desc": "Mengakibatkan 5 poin Cryo DMG.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoShield",
+      "name": "Cryo Shield",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh Cryo Shield.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "CryoThorns",
+      "name": "Cryo Thorns",
+      "desc": "Mengakibatkan 1 poin Cryo DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostdriftOffering",
+      "name": "Frostdrift Offering",
+      "desc": "Mengakibatkan 3 poin Cryo DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RimestormRite",
+      "name": "Rimestorm Rite",
+      "desc": "Mengakibatkan 5 poin Cryo DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoShield",
+      "name": "Cryo Shield",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh Cryo Shield.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3103
 }

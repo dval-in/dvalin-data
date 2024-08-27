@@ -1,63 +1,125 @@
 {
-	"id": "HilichurlFighter",
-	"shareid": 3001,
-	"name": "Hilichurl Guerrero",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Sin tipo elemental",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo", "Hilichurl"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Hit",
-			"name": "Golpe",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpAndHit",
-			"name": "Salto y golpe",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SwingThatClub",
-			"name": "A diestro y siniestro",
-			"desc": "Inflige 4 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Dados unielementales",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HilichurlFighter",
+  "shareid": 3001,
+  "name": "Hilichurl Guerrero",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Sin tipo elemental",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Hilichurl",
+      "Monstruo",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Hit",
+      "name": "Golpe",
+      "desc": "Inflige 1 pt. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Salto y golpe",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "A diestro y siniestro",
+      "desc": "Inflige 4 pts. de Daño Físico.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hit",
+      "name": "Golpe",
+      "desc": "Inflige 1 pt. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Salto y golpe",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "A diestro y siniestro",
+      "desc": "Inflige 4 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3001
 }

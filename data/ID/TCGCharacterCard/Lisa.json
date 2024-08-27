@@ -12,6 +12,7 @@
     "weapon": "Catalyst",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Lightning Rose",
       "desc": "Mengakibatkan 2 poin Electro DMG dan memanggil Lightning Rose.",
       "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Lightning Touch",
+      "desc": "Mengakibatkan 1 poin Electro DMG. Jika skill ini dilancarkan sebagai Charged Attack: Memberikan status Conductive kepada Karakter Aktif lawan.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Violet Arc",
+      "desc": "Mengakibatkan 2 poin Electro DMG. Jika Karakter Aktif lawan belum terpengaruh status Conductive, maka akan memberikan status Conductive pada Karakter tersebut.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Lightning Rose",
+      "desc": "Mengakibatkan 2 poin Electro DMG dan memanggil Lightning Rose. Karakter aktif lawan memperoleh status Conductive.",
+      "skillTag": [
         "Elemental Burst"
       ],
       "points": [

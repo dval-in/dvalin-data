@@ -1,82 +1,169 @@
 {
-	"id": "PyroAbyssMage",
-	"shareid": 5301,
-	"name": "Pyro-Abgrundmagier",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Pyro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Flamewave",
-			"name": "Feuerwelle",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlazingVisage",
-			"name": "Opferritual des Feuerscheins",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfTheMoltenEruption",
-			"name": "Ritus der Lavaflut",
-			"desc": "Verursacht 7 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "PyroShield",
-			"name": "Pyro-Ummantelung",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Pyro-Ummantelung.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		},
-		{
-			"id": "AegisOfTheAbyss",
-			"name": "Ägide des Abgrundes",
-			"desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die <span style=\"color:#FFFFFFFF\">Pyro-Ummantelung.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "PyroAbyssMage",
+  "shareid": 5301,
+  "name": "Pyro-Abgrundmagier",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Flamewave",
+      "name": "Feuerwelle",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingVisage",
+      "name": "Opferritual des Feuerscheins",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfTheMoltenEruption",
+      "name": "Ritus der Lavaflut",
+      "desc": "Verursacht 7 Pkt. Pyro-SCH.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PyroShield",
+      "name": "Pyro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Pyro-Ummantelung.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Ägide des Abgrundes",
+      "desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die Pyro-Ummantelung.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "Flamewave",
+      "name": "Feuerwelle",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingVisage",
+      "name": "Opferritual des Feuerscheins",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfTheMoltenEruption",
+      "name": "Ritus der Lavaflut",
+      "desc": "Verursacht 7 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PyroShield",
+      "name": "Pyro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Pyro-Ummantelung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Ägide des Abgrundes",
+      "desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die Pyro-Ummantelung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5301
 }

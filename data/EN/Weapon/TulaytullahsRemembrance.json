@@ -1,294 +1,579 @@
 {
-	"ascensions": [
-		{
-			"ascension": 0,
-			"cost": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"cost": 0,
-			"level": 40,
-			"materials": [
-				{
-					"id": "EchoOfScorchingMight",
-					"name": "Echo of Scorching Might",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "InactivatedFungalNucleus",
-					"name": "Inactivated Fungal Nucleus",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "FungalSpores",
-					"name": "Fungal Spores",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"cost": 0,
-			"level": 50,
-			"materials": [
-				{
-					"id": "RemnantGlowOfScorchingMight",
-					"name": "Remnant Glow of Scorching Might",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "InactivatedFungalNucleus",
-					"name": "Inactivated Fungal Nucleus",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "FungalSpores",
-					"name": "Fungal Spores",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"cost": 0,
-			"level": 60,
-			"materials": [
-				{
-					"id": "RemnantGlowOfScorchingMight",
-					"name": "Remnant Glow of Scorching Might",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "DormantFungalNucleus",
-					"name": "Dormant Fungal Nucleus",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "LuminescentPollen",
-					"name": "Luminescent Pollen",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"cost": 0,
-			"level": 70,
-			"materials": [
-				{
-					"id": "DreamOfScorchingMight",
-					"name": "Dream of Scorching Might",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "DormantFungalNucleus",
-					"name": "Dormant Fungal Nucleus",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "LuminescentPollen",
-					"name": "Luminescent Pollen",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"cost": 0,
-			"level": 80,
-			"materials": [
-				{
-					"id": "DreamOfScorchingMight",
-					"name": "Dream of Scorching Might",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "RobustFungalNucleus",
-					"name": "Robust Fungal Nucleus",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "CrystallineCystDust",
-					"name": "Crystalline Cyst Dust",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"cost": 0,
-			"level": 90,
-			"materials": [
-				{
-					"id": "OldenDaysOfScorchingMight",
-					"name": "Olden Days of Scorching Might",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "RobustFungalNucleus",
-					"name": "Robust Fungal Nucleus",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "CrystallineCystDust",
-					"name": "Crystalline Cyst Dust",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"bonus": "Normal Attack SPD is increased by 10%/12.5%/15%/17.5%/20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8%/6%/7.2%/8.4%/9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%/12%/14.4%/16.8%/19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%/60%/72%/84%/96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
-	"description": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant.",
-	"domain": "Echoes of the Deep Tides",
-	"id": "TulaytullahsRemembrance",
-	"name": "Tulaytullah's Remembrance",
-	"passive": "Bygone Azure Teardrop",
-	"rarity": 5,
-	"refinementRaw": {
-		"name": "Bygone Azure Teardrop",
-		"template": "Normal Attack SPD is increased by <span style=\"color:#99FFFFFF\">{0}. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <span style=\"color:#99FFFFFF\">{1} every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <span style=\"color:#99FFFFFF\">{2}. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <span style=\"color:#99FFFFFF\">{3}. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
-		"params": [
-			["10%", "4.8%", "9.6%", "48%"],
-			["12.5%", "6%", "12%", "60%"],
-			["15%", "7.2%", "14.4%", "72%"],
-			["17.5%", "8.4%", "16.8%", "84%"],
-			["20%", "9.6%", "19.2%", "96%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
-		},
-		{
-			"refinement": 2,
-			"desc": "Normal Attack SPD is increased by 12.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 12%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 60%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
-		},
-		{
-			"refinement": 3,
-			"desc": "Normal Attack SPD is increased by 15%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 7.2% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 14.4%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 72%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
-		},
-		{
-			"refinement": 4,
-			"desc": "Normal Attack SPD is increased by 17.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 8.4% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 16.8%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 84%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
-		},
-		{
-			"refinement": 5,
-			"desc": "Normal Attack SPD is increased by 20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
-		}
-	],
-	"stats": {
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 48,
-				"secondary": 9.6
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 133,
-				"secondary": 17
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 164,
-				"secondary": 17
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 261,
-				"secondary": 24.7
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 292,
-				"secondary": 24.7
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 341,
-				"secondary": 28.6
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 373,
-				"secondary": 28.6
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 423,
-				"secondary": 32.5
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 455,
-				"secondary": 32.5
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 506,
-				"secondary": 36.3
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 537,
-				"secondary": 36.3
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 590,
-				"secondary": 40.2
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 621,
-				"secondary": 40.2
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 674,
-				"secondary": 44.1
-			}
-		],
-		"primary": "Base ATK",
-		"secondary": []
-	},
-	"type": "Catalyst",
-	"pictures": {
-		"icon": "Weapon/TulaytullahsRemembrance/Icon.webp"
-	}
+  "ascensions": [
+    {
+      "ascension": 0,
+      "cost": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "cost": 0,
+      "level": 40,
+      "materials": [
+        {
+          "id": "EchoOfScorchingMight",
+          "name": "Echo of Scorching Might",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Inactivated Fungal Nucleus",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FungalSpores",
+          "name": "Fungal Spores",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "cost": 0,
+      "level": 50,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Remnant Glow of Scorching Might",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Inactivated Fungal Nucleus",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "FungalSpores",
+          "name": "Fungal Spores",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "cost": 0,
+      "level": 60,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Remnant Glow of Scorching Might",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Dormant Fungal Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "cost": 0,
+      "level": 70,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Dream of Scorching Might",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Dormant Fungal Nucleus",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Luminescent Pollen",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "cost": 0,
+      "level": 80,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Dream of Scorching Might",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Robust Fungal Nucleus",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "cost": 0,
+      "level": 90,
+      "materials": [
+        {
+          "id": "OldenDaysOfScorchingMight",
+          "name": "Olden Days of Scorching Might",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Robust Fungal Nucleus",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "EchoOfScorchingMight",
+          "name": "Echo of Scorching Might",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Inactivated Fungal Nucleus",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FungalSpores",
+          "name": "Fungal Spores",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Remnant Glow of Scorching Might",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "InactivatedFungalNucleus",
+          "name": "Inactivated Fungal Nucleus",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "FungalSpores",
+          "name": "Fungal Spores",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "RemnantGlowOfScorchingMight",
+          "name": "Remnant Glow of Scorching Might",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Dormant Fungal Nucleus",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Luminescent Pollen",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Dream of Scorching Might",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "DormantFungalNucleus",
+          "name": "Dormant Fungal Nucleus",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "LuminescentPollen",
+          "name": "Luminescent Pollen",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "DreamOfScorchingMight",
+          "name": "Dream of Scorching Might",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Robust Fungal Nucleus",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "OldenDaysOfScorchingMight",
+          "name": "Olden Days of Scorching Might",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "RobustFungalNucleus",
+          "name": "Robust Fungal Nucleus",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "CrystallineCystDust",
+          "name": "Crystalline Cyst Dust",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "bonus": "Normal Attack SPD is increased by 10%/12.5%/15%/17.5%/20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8%/6%/7.2%/8.4%/9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%/12%/14.4%/16.8%/19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%/60%/72%/84%/96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+  "description": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant.",
+  "domain": "Echoes of the Deep Tides",
+  "id": "TulaytullahsRemembrance",
+  "name": "Tulaytullah's Remembrance",
+  "passive": "Bygone Azure Teardrop",
+  "rarity": 5,
+  "refinementRaw": {
+    "name": "Bygone Azure Teardrop",
+    "template": "Normal Attack SPD is increased by <span style=\"color:#99FFFFFF\">{0}</span>. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by <span style=\"color:#99FFFFFF\">{1}</span> every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by <span style=\"color:#99FFFFFF\">{2}</span>. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is <span style=\"color:#99FFFFFF\">{3}</span>. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs.",
+    "params": [
+      [
+        "10%",
+        "4.8%",
+        "9.6%",
+        "48%"
+      ],
+      [
+        "12.5%",
+        "6%",
+        "12%",
+        "60%"
+      ],
+      [
+        "15%",
+        "7.2%",
+        "14.4%",
+        "72%"
+      ],
+      [
+        "17.5%",
+        "8.4%",
+        "16.8%",
+        "84%"
+      ],
+      [
+        "20%",
+        "9.6%",
+        "19.2%",
+        "96%"
+      ]
+    ]
+  },
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 2,
+      "desc": "Normal Attack SPD is increased by 12.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 12%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 60%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 3,
+      "desc": "Normal Attack SPD is increased by 15%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 7.2% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 14.4%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 72%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 4,
+      "desc": "Normal Attack SPD is increased by 17.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 8.4% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 16.8%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 84%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 5,
+      "desc": "Normal Attack SPD is increased by 20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 1,
+      "desc": "Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 2,
+      "desc": "Normal Attack SPD is increased by 12.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 12%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 60%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 3,
+      "desc": "Normal Attack SPD is increased by 15%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 7.2% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 14.4%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 72%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 4,
+      "desc": "Normal Attack SPD is increased by 17.5%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 8.4% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 16.8%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 84%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    },
+    {
+      "refinement": 5,
+      "desc": "Normal Attack SPD is increased by 20%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 9.6% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 19.2%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 96%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
+    }
+  ],
+  "stats": {
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 44.1
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 48,
+        "secondary": 9.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 133,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 164,
+        "secondary": 17
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 261,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 292,
+        "secondary": 24.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 341,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 373,
+        "secondary": 28.6
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 423,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 455,
+        "secondary": 32.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 506,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 537,
+        "secondary": 36.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 590,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 621,
+        "secondary": 40.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 674,
+        "secondary": 44.1
+      }
+    ],
+    "primary": "Base ATK",
+    "secondary": "CRIT DMG"
+  },
+  "type": "Catalyst",
+  "pictures": {
+    "icon": "Weapon/TulaytullahsRemembrance/Icon.webp"
+  },
+  "version": "5.0"
 }

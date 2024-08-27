@@ -1,28 +1,43 @@
 {
-	"id": "LightOfFoliarIncision",
-	"shareid": 303,
-	"name": "Clorofilo Refulgente",
-	"title": "Arista perlada: Clorofilo Refulgente",
-	"desc": "“Si crees que aún tiene derecho a recuperar su honor en los laberintos del bosque, entonces llévalo a cortar la rama blanca.\\nSi lo consigue, la luna y las estrellas le otorgarán la más pura de las sabidurías y dejará atrás esos recuerdos y esos anhelos amargos como el vino”.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1.<span style=\"color:#FFFFFFFF\">Cuando el personaje usa un Ataque Normal, se crea un dado elemental aleatorio (se puede activar hasta 2 veces por ronda).",
-	"attributes": {
-		"cost": 3,
-		"costType": "Dados unielementales",
-		"cardType": "Carta de equipamiento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Dados unielementales",
-				"count": 3
-			}
-		],
-		"tags": ["Arma", "Espada ligera"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Daño +1.<span style=\"color:#FFFFFFFF\">Cuando el personaje usa un Ataque Normal, se crea un dado elemental aleatorio (se puede activar hasta 2 veces por ronda).Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan espada ligera. Cada personaje solo puede llevar equipada 1 arma."
-		}
-	],
-	"version": "4.4"
+  "id": "LightOfFoliarIncision",
+  "shareid": 303,
+  "name": "Clorofilo Refulgente",
+  "title": "Arista perlada: Clorofilo Refulgente",
+  "desc": "“Si crees que aún tiene derecho a recuperar su honor en los laberintos del bosque, entonces llévalo a cortar la rama blanca.\\nSi lo consigue, la luna y las estrellas le otorgarán la más pura de las sabidurías y dejará atrás esos recuerdos y esos anhelos amargos como el vino”.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.<br/><span style=\"color:#FFFFFFFF\">Cuando el personaje usa un Ataque Normal</span>, se crea un dado elemental aleatorio (se puede activar hasta 2 veces por ronda).",
+  "attributes": {
+    "cost": 3,
+    "costType": "Dados unielementales",
+    "cardType": "Carta de equipamiento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arma",
+      "Espada ligera",
+      "Arma",
+      "Espada ligera"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Daño +1.Cuando el personaje usa un Ataque Normal, se crea un dado elemental aleatorio (se puede activar hasta 2 veces por ronda).Solo pueden llevarla equipada los personajes que usan espada ligera. Cada personaje solo puede llevar equipada 1 arma."
+    },
+    {
+      "name": "",
+      "desc": "Daño +1. Cuando el personaje usa un Ataque Normal, se crea un dado elemental aleatorio (se puede activar hasta 2 veces por ronda). Solo pueden llevarla equipada los personajes que usan espada ligera. Cada personaje solo puede llevar equipada 1 arma."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 303
 }

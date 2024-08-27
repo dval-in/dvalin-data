@@ -1,77 +1,142 @@
 {
-	"id": "SangonomiyaKokomi",
-	"shareid": 13,
-	"name": "Sangonomiya Kokomi",
-	"title": "Pérolas de Sabedoria - Sangonomiya Kokomi",
-	"desc": "Para sobreviver às dificuldades, você deve se preparar para as adversidades.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Catalisador",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "TamanooyasCasket",
-			"name": "Tamanooya's Casket"
-		},
-		"source": "Recompensa por desafiar Sangonomiya Kokomi para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela",
-		"character": {
-			"id": "SangonomiyaKokomi",
-			"name": "Sangonomiya Kokomi",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TheShapeOfWater",
-			"name": "Forma da Água",
-			"desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KuragesOath",
-			"name": "Juramento Kurage",
-			"desc": "Este personagem ganha uma <span style=\"color:#80C0FFFF\">Aplicação Hydro e invoca <span style=\"color:#FFFFFFFF\">Bake-Kurage.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "NereidsAscension",
-			"name": "Cerimônia Kaijin",
-			"desc": "Causa 2 de <span style=\"color:#80C0FFFF\">Dano Hydro, cura todos os seus personagens em 1 ponto, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Vestimenta Cerimonial.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SangonomiyaKokomi",
+  "shareid": 13,
+  "name": "Sangonomiya Kokomi",
+  "title": "Pérolas de Sabedoria - Sangonomiya Kokomi",
+  "desc": "Para sobreviver às dificuldades, você deve se preparar para as adversidades.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalisador",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "Recompensa por desafiar Sangonomiya Kokomi para um duelo na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com ela",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "Forma da Água",
+      "desc": "Causa 1 ponto de Dano Hydro.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Juramento Kurage",
+      "desc": "Este personagem ganha uma Aplicação Hydro e invoca Bake-Kurage.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Cerimônia Kaijin",
+      "desc": "Causa 2 de Dano Hydro, cura todos os seus personagens em 1 ponto, este personagem é afetado por Vestimenta Cerimonial.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TheShapeOfWater",
+      "name": "Forma da Água",
+      "desc": "Causa 1 ponto de Dano Hydro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Juramento Kurage",
+      "desc": "Este personagem ganha uma Aplicação Hydro e invoca Bake-Kurage.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Cerimônia Kaijin",
+      "desc": "Causa 2 de Dano Hydro, cura todos os seus personagens em 1 ponto, este personagem é afetado por Vestimenta Cerimonial.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 13
 }

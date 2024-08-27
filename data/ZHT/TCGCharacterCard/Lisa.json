@@ -12,6 +12,7 @@
     "weapon": "法器",
     "faction": [
       "蒙德",
+      "蒙德",
       "蒙德"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "薔薇的雷光",
       "desc": "造成2點雷元素傷害，召喚薔薇雷光。",
       "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "指尖雷暴",
+      "desc": "造成1點雷元素傷害； 如果此技能為重擊，則使敵方出戰角色附屬引雷。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "蒼雷",
+      "desc": "造成2點雷元素傷害；如果敵方出戰角色未附屬引雷，則使其附屬引雷。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "薔薇的雷光",
+      "desc": "造成2點雷元素傷害，召喚薔薇雷光，使敵方出戰角色附屬引雷。",
+      "skillTag": [
         "元素爆發"
       ],
       "points": [
