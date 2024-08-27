@@ -1,75 +1,151 @@
 {
-	"id": "GroundedHydroshroom",
-	"shareid": 3205,
-	"name": "Laufender Hydro-Pilz",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Sporengeschoss",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Zorniger Atem",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Explosiver Vorstoß",
-			"desc": "Verursacht 5 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Modus-Umwandlung",
-			"desc": "Passiv – Zu Beginn des Kampfes: <span style=\"color:#FFFFFFFF\">Vorteil des Geländes.Nach Erleiden von <span style=\"color:#FF9999FF\">Pyro-SCH: <span style=\"color:#FFFFFFFF\">Verdorrter Modus.Nach Erleiden von <span style=\"color:#FFACFFFF\">Elektro-SCH: <span style=\"color:#FFFFFFFF\">Aktivierter Modus.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedHydroshroom",
+  "shareid": 3205,
+  "name": "Laufender Hydro-Pilz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Sporengeschoss",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Zorniger Atem",
+      "desc": "Verursacht 3 Pkt. Hydro-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Explosiver Vorstoß",
+      "desc": "Verursacht 5 Pkt. Hydro-SCH.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Modus-Umwandlung",
+      "desc": "Passiv – Zu Beginn des Kampfes: Vorteil des Geländes.Nach Erleiden von Pyro-SCH: Verdorrter Modus.Nach Erleiden von Elektro-SCH: Aktivierter Modus.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Sporengeschoss",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Zorniger Atem",
+      "desc": "Verursacht 3 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Explosiver Vorstoß",
+      "desc": "Verursacht 5 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Modus-Umwandlung",
+      "desc": "Passiv – Zu Beginn des Kampfes: Vorteil des Geländes. Nach Erleiden von Pyro-SCH: Verdorrter Modus. Nach Erleiden von Elektro-SCH: Aktivierter Modus.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3205
 }

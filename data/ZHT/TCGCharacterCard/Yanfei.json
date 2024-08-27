@@ -1,77 +1,142 @@
 {
-	"id": "Yanfei",
-	"shareid": 24,
-	"name": "煙緋",
-	"title": "智明無邪·煙緋",
-	"desc": "不期修古，不法常可。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "火元素",
-		"weapon": "法器",
-		"faction": ["璃月"],
-		"talentCard": {
-			"id": "RightOfFinalInterpretation",
-			"name": "Right of Final Interpretation"
-		},
-		"source": "在貓尾酒館中邀請煙緋進行對局，在友好對局難度中獲得勝利後獲得",
-		"character": {
-			"id": "Yanfei",
-			"name": "Yanfei",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SealOfApproval",
-			"name": "火漆製印",
-			"desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SignedEdict",
-			"name": "丹書立約",
-			"desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害，本角色附屬<span style=\"color:#FFFFFFFF\">丹火印。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DoneDeal",
-			"name": "憑此結契",
-			"desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害，本角色附屬<span style=\"color:#FFFFFFFF\">丹火印和<span style=\"color:#FFFFFFFF\">灼灼。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yanfei",
+  "shareid": 24,
+  "name": "煙緋",
+  "title": "智明無邪·煙緋",
+  "desc": "不期修古，不法常可。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "法器",
+    "faction": [
+      "璃月",
+      "璃月"
+    ],
+    "talentCard": {
+      "id": "RightOfFinalInterpretation",
+      "name": "Right of Final Interpretation"
+    },
+    "source": "在貓尾酒館中邀請煙緋進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "id": "Yanfei",
+      "name": "Yanfei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SealOfApproval",
+      "name": "火漆製印",
+      "desc": "造成1點火元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "丹書立約",
+      "desc": "造成3點火元素傷害，本角色附屬丹火印。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "憑此結契",
+      "desc": "造成3點火元素傷害，本角色附屬丹火印和灼灼。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SealOfApproval",
+      "name": "火漆製印",
+      "desc": "造成1點火元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "丹書立約",
+      "desc": "造成3點火元素傷害，本角色附屬丹火印。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "憑此結契",
+      "desc": "造成3點火元素傷害，本角色附屬丹火印和灼灼。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 24
 }

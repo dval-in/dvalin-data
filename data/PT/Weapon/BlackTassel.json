@@ -1,287 +1,578 @@
 {
-	"id": "BlackTassel",
-	"name": "Borla Preta",
-	"description": "Bem, isso resolve o problema das borlas brancas que se mancham facilmente.",
-	"rarity": 3,
-	"type": "Lan\u00e7a",
-	"domain": "Pal\u00e1cio Oculto da F\u00f3rmula Lianshan",
-	"passive": "Atacante Pesado",
-	"bonus": "Aumenta o Dano contra os Slimes em 40%/50%/60%/70%/80%.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "Vida%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 38,
-				"secondary": 10.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 86,
-				"secondary": 18
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 105,
-				"secondary": 18
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 151,
-				"secondary": 26.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 171,
-				"secondary": 26.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 193,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 212,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 234,
-				"secondary": 34.6
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 253,
-				"secondary": 34.6
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 274,
-				"secondary": 38.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 294,
-				"secondary": 38.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 314,
-				"secondary": 42.8
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 334,
-				"secondary": 42.8
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 354,
-				"secondary": 46.9
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "GrainOfAerosiderite",
-					"name": "Gr\u00e3o de Aerosiderite",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "FragileBoneShard",
-					"name": "Fragmento de osso fr\u00e1gil",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Ponta de Flecha Robusta",
-					"amount": 1,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "PieceOfAerosiderite",
-					"name": "Peda\u00e7o de Aerosiderite",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "FragileBoneShard",
-					"name": "Fragmento de osso fr\u00e1gil",
-					"amount": 8,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Ponta de Flecha Robusta",
-					"amount": 5,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "PieceOfAerosiderite",
-					"name": "Peda\u00e7o de Aerosiderite",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SturdyBoneShard",
-					"name": "Fragmento de osso s\u00f3lido",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Ponta de Flecha Afiada",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "BitOfAerosiderite",
-					"name": "Fragmento de Aerosiderite",
-					"amount": 2,
-					"rarity": 4
-				},
-				{
-					"id": "SturdyBoneShard",
-					"name": "Fragmento de osso s\u00f3lido",
-					"amount": 8,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Ponta de Flecha Afiada",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 25000,
-			"materials": [
-				{
-					"id": "BitOfAerosiderite",
-					"name": "Fragmento de Aerosiderite",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "FossilizedBoneShard",
-					"name": "Fragmento de osso fossilizado",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Ponta de Flecha Usada",
-					"amount": 4,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "ChunkOfAerosiderite",
-					"name": "Bloco de Aerosiderite",
-					"amount": 3,
-					"rarity": 5
-				},
-				{
-					"id": "FossilizedBoneShard",
-					"name": "Fragmento de osso fossilizado",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Ponta de Flecha Usada",
-					"amount": 8,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Atacante Pesado",
-		"template": "Aumenta o Dano contra os Slimes em <span style=\"color:#99FFFFFF\">{0}.",
-		"params": [["40%"], ["50%"], ["60%"], ["70%"], ["80%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Aumenta o Dano contra os Slimes em 40%."
-		},
-		{
-			"refinement": 2,
-			"desc": "O Dano causado em Slimes aumentam 50%."
-		},
-		{
-			"refinement": 3,
-			"desc": "Aumenta o Dano contra os Slimes em 60%."
-		},
-		{
-			"refinement": 4,
-			"desc": "Aumenta o Dano contra os Slimes em 70%."
-		},
-		{
-			"refinement": 5,
-			"desc": "Aumenta o Dano contra os Slimes em 80%."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/BlackTassel/Icon.webp"
-	}
+  "id": "BlackTassel",
+  "name": "Borla Preta",
+  "description": "Bem, isso resolve o problema das borlas brancas que se mancham facilmente.",
+  "rarity": 3,
+  "type": "Lança",
+  "domain": "Palácio Oculto da Fórmula Lianshan",
+  "passive": "Atacante Pesado",
+  "bonus": "Aumenta o Dano contra os Slimes em 40%/50%/60%/70%/80%.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Vida%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 46.9
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 46.9
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "GrainOfAerosiderite",
+          "name": "Grão de Aerosiderite",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de osso frágil",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Pedaço de Aerosiderite",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de osso frágil",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Pedaço de Aerosiderite",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de osso sólido",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de Aerosiderite",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de osso sólido",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de Aerosiderite",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de osso fossilizado",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "ChunkOfAerosiderite",
+          "name": "Bloco de Aerosiderite",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de osso fossilizado",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "GrainOfAerosiderite",
+          "name": "Grão de Aerosiderite",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de osso frágil",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Pedaço de Aerosiderite",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "FragileBoneShard",
+          "name": "Fragmento de osso frágil",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Ponta de Flecha Robusta",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "PieceOfAerosiderite",
+          "name": "Pedaço de Aerosiderite",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de osso sólido",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de Aerosiderite",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "SturdyBoneShard",
+          "name": "Fragmento de osso sólido",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Ponta de Flecha Afiada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "BitOfAerosiderite",
+          "name": "Fragmento de Aerosiderite",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de osso fossilizado",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "ChunkOfAerosiderite",
+          "name": "Bloco de Aerosiderite",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "FossilizedBoneShard",
+          "name": "Fragmento de osso fossilizado",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Ponta de Flecha Usada",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Aumenta o Dano contra os Slimes em 40%."
+    },
+    {
+      "refinement": 2,
+      "desc": "O Dano causado em Slimes aumentam 50%."
+    },
+    {
+      "refinement": 3,
+      "desc": "Aumenta o Dano contra os Slimes em 60%."
+    },
+    {
+      "refinement": 4,
+      "desc": "Aumenta o Dano contra os Slimes em 70%."
+    },
+    {
+      "refinement": 5,
+      "desc": "Aumenta o Dano contra os Slimes em 80%."
+    },
+    {
+      "refinement": 1,
+      "desc": "Aumenta o Dano contra os Slimes em 40%."
+    },
+    {
+      "refinement": 2,
+      "desc": "O Dano causado em Slimes aumentam 50%."
+    },
+    {
+      "refinement": 3,
+      "desc": "Aumenta o Dano contra os Slimes em 60%."
+    },
+    {
+      "refinement": 4,
+      "desc": "Aumenta o Dano contra os Slimes em 70%."
+    },
+    {
+      "refinement": 5,
+      "desc": "Aumenta o Dano contra os Slimes em 80%."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/BlackTassel/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Atacante Pesado",
+    "template": "Aumenta o Dano contra os Slimes em <span style=\"color:#99FFFFFF\">{0}</span>.",
+    "params": [
+      [
+        "40%"
+      ],
+      [
+        "50%"
+      ],
+      [
+        "60%"
+      ],
+      [
+        "70%"
+      ],
+      [
+        "80%"
+      ],
+      [
+        "40%"
+      ],
+      [
+        "50%"
+      ],
+      [
+        "60%"
+      ],
+      [
+        "70%"
+      ],
+      [
+        "80%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

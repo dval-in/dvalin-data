@@ -1,83 +1,159 @@
 {
-	"id": "JadeplumeTerrorshroom",
-	"shareid": 60,
-	"name": "Пернатый плесенник",
-	"title": "«Грибной повелитель» Пернатый плесенник",
-	"desc": "Если прислушаться, то можно услышать, как вождь грибов осматривает свои владения...",
-	"attributes": {
-		"hp": 30,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Дендро",
-		"weapon": "Прочее",
-		"faction": ["Монстр"],
-		"talentCard": {
-			"id": "ProliferatingSpores",
-			"name": "Proliferating Spores"
-		},
-		"source": "Награда за победу над Пернатым плесенником в Дружеской дуэли в «Кошкином хвосте»",
-		"character": {
-			"id": "JadeplumeTerrorshroom",
-			"name": "Jadeplume Terrorshroom"
-		}
-	},
-	"skills": [
-		{
-			"id": "MajesticDance",
-			"name": "Танец плесенников",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VolatileSporeCloud",
-			"name": "Облако нестабильных спор",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FeatherSpreading",
-			"name": "Величественное оперение",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 4 ед., затем расходует все уровни <span style=\"color:#FFFFFFFF\">Сила оживления. За каждый уровень наносит +1 ед. урона.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RadicalVitality",
-			"name": "Сила оживления",
-			"desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Сила оживления.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "JadeplumeTerrorshroom",
+  "shareid": 60,
+  "name": "Пернатый плесенник",
+  "title": "«Грибной повелитель» Пернатый плесенник",
+  "desc": "Если прислушаться, то можно услышать, как вождь грибов осматривает свои владения...",
+  "attributes": {
+    "hp": 30,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Монстр"
+    ],
+    "talentCard": {
+      "id": "ProliferatingSpores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Награда за победу над Пернатым плесенником в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "JadeplumeTerrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "MajesticDance",
+      "name": "Танец плесенников",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Облако нестабильных спор",
+      "desc": "Наносит Дендро урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Величественное оперение",
+      "desc": "Наносит Дендро урон, 4 ед., затем расходует все уровни Сила оживления. За каждый уровень наносит +1 ед. урона.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Сила оживления",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Сила оживления.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "MajesticDance",
+      "name": "Танец плесенников",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Облако нестабильных спор",
+      "desc": "Наносит Дендро урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Величественное оперение",
+      "desc": "Наносит Дендро урон, 4 ед., затем расходует все уровни Сила оживления. За каждый уровень наносит +1 ед. урона.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Сила оживления",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Сила оживления.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 60
 }

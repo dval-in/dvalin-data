@@ -1,83 +1,159 @@
 {
-	"id": "AbyssLectorFathomlessFlames",
-	"shareid": 56,
-	"name": "Hiçlik Vaizi: Derin Alevler",
-	"title": "Hiçlik Vaizi: Derin Alevler",
-	"desc": "Ortaya çıkan kanunların bölümlerinde dikkate değer öğütler vardır.",
-	"attributes": {
-		"hp": 6,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Ateş",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"talentCard": {
-			"id": "EmbersRekindled",
-			"name": "Embers Rekindled"
-		},
-		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Hiçlik Vaizi: Derin Alevler ile olan Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "AbyssLectorFathomlessFlames",
-			"name": "Abyss Lector: Fathomless Flames"
-		}
-	},
-	"skills": [
-		{
-			"id": "FlameOfSalvation",
-			"name": "Kurtuluşun Alevleri",
-			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingPrecept",
-			"name": "Yakan Kaide",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousStar",
-			"name": "Uğursuz Yıldız",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Karanlık Ateş çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FieryRebirth",
-			"name": "Ateşle Yeniden Doğan",
-			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Ateşle Yeniden Doğan etkisi kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AbyssLectorFathomlessFlames",
+  "shareid": 56,
+  "name": "Hiçlik Vaizi: Derin Alevler",
+  "title": "Hiçlik Vaizi: Derin Alevler",
+  "desc": "Ortaya çıkan kanunların bölümlerinde dikkate değer öğütler vardır.",
+  "attributes": {
+    "hp": 6,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "talentCard": {
+      "id": "EmbersRekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Hiçlik Vaizi: Derin Alevler ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "AbyssLectorFathomlessFlames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "FlameOfSalvation",
+      "name": "Kurtuluşun Alevleri",
+      "desc": "1 Ateş Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Yakan Kaide",
+      "desc": "3 Ateş Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Uğursuz Yıldız",
+      "desc": "3 Ateş Hasarı verir ve 1 Karanlık Ateş çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Ateşle Yeniden Doğan",
+      "desc": "(Pasif) Savaş başladığında bu karakter Ateşle Yeniden Doğan etkisi kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "FlameOfSalvation",
+      "name": "Kurtuluşun Alevleri",
+      "desc": "1 Ateş Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Yakan Kaide",
+      "desc": "3 Ateş Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Uğursuz Yıldız",
+      "desc": "3 Ateş Hasarı verir ve 1 Karanlık Ateş çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Ateşle Yeniden Doğan",
+      "desc": "(Pasif) Savaş başladığında bu karakter Ateşle Yeniden Doğan etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 56
 }

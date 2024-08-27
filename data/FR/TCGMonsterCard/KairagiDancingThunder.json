@@ -1,82 +1,169 @@
 {
-	"id": "KairagiDancingThunder",
-	"shareid": 3401,
-	"name": "Oni des mers - Danse d'éclairs",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Électro",
-		"weapon": "Autre arme",
-		"faction": ["Oni des mers"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "Coupe triple",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "Frappe sautée",
-			"desc": "Inflige 3 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai : Rengainé",
-			"desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare la capacité : <span style=\"color:#FFFFFFFF\">Iai : Souffle de tempête.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanElectro",
-			"name": "Talisman Kamuna : Éclair",
-			"desc": "(Passif) Accorde un <span style=\"color:#FFFFFFFF\">Talisman Kamuna : Éclair au début du combat.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "Frénésie finale",
-			"desc": "Lorsqu'un autre de vos personnages de type Oni des mers est vaincu, accorde une <span style=\"color:#FFFFFFFF\">frénésie finale à ce personnage.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiDancingThunder",
+  "shareid": 3401,
+  "name": "Oni des mers - Danse d'éclairs",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Oni des mers",
+      "Oni des mers"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "Coupe triple",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Frappe sautée",
+      "desc": "Inflige 3 pts de DGT physiques.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : Iai : Souffle de tempête.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Talisman Kamuna : Éclair",
+      "desc": "(Passif) Accorde un Talisman Kamuna : Éclair au début du combat.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Frénésie finale",
+      "desc": "Lorsqu'un autre de vos personnages de type Oni des mers est vaincu, accorde une frénésie finale à ce personnage.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "Coupe triple",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Frappe sautée",
+      "desc": "Inflige 3 pts de DGT physiques.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : Iai : Souffle de tempête.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Talisman Kamuna : Éclair",
+      "desc": "(Passif) Accorde un Talisman Kamuna : Éclair au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Frénésie finale",
+      "desc": "Lorsqu'un autre de vos personnages de type Oni des mers est vaincu, accorde une frénésie finale à ce personnage.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3401
 }

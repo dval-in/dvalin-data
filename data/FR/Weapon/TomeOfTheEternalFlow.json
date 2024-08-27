@@ -1,293 +1,598 @@
 {
-	"id": "TomeOfTheEternalFlow",
-	"name": "Tome du flux \u00e9ternel",
-	"description": "Un manuel qui se transmettait autrefois de g\u00e9n\u00e9ration en g\u00e9n\u00e9ration au sein d'un centre de formation sous-marin. Aujourd'hui, personne ne conna\u00eet son existence.",
-	"rarity": 5,
-	"type": "Catalyseur",
-	"domain": "\u00c9chos des mar\u00e9es profondes",
-	"passive": "Vague \u00e9onique",
-	"bonus": "Les PV augmentent de 16 %/20 %/24 %/28 %/32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de 14 %/18 %/22 %/26 %/30 % pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de 8/9/10/11/12 pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s.",
-	"stats": {
-		"primary": "ATQ de base",
-		"secondary": "DGT CRIT",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 44,
-				"secondary": 19.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 110,
-				"secondary": 33.9
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 141,
-				"secondary": 33.9
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 210,
-				"secondary": 49.4
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 241,
-				"secondary": 49.4
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 275,
-				"secondary": 57.2
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 307,
-				"secondary": 57.2
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 341,
-				"secondary": 65
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 373,
-				"secondary": 65
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 408,
-				"secondary": 72.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 439,
-				"secondary": 72.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 475,
-				"secondary": 80.4
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 506,
-				"secondary": 80.4
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 542,
-				"secondary": 88.2
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "DrossOfPureSacredDewdrop",
-					"name": "R\u00e9sidu de ros\u00e9e sacr\u00e9e pure",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "RiftCore",
-					"name": "Noyau de faille",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "MeshingGear",
-					"name": "Engrenage de maillage",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "SublimationOfPureSacredDewdrop",
-					"name": "Sublimation de ros\u00e9e sacr\u00e9e pure",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "RiftCore",
-					"name": "Noyau de faille",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "MeshingGear",
-					"name": "Engrenage de maillage",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "SublimationOfPureSacredDewdrop",
-					"name": "Sublimation de ros\u00e9e sacr\u00e9e pure",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "ForeignSynapse",
-					"name": "Synapse \u00e9trang\u00e8re",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "MechanicalSpurGear",
-					"name": "Engrenage \u00e0 coupe droite",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "SpringOfPureSacredDewdrop",
-					"name": "Source de ros\u00e9e sacr\u00e9e pure",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "ForeignSynapse",
-					"name": "Synapse \u00e9trang\u00e8re",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "MechanicalSpurGear",
-					"name": "Engrenage \u00e0 coupe droite",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "SpringOfPureSacredDewdrop",
-					"name": "Source de ros\u00e9e sacr\u00e9e pure",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "AlienLifeCore",
-					"name": "Noyau d'organisme d'extramonde",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "ArtificedDynamicGear",
-					"name": "Engrenage dynamique artifici\u00e9",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "EssenceOfPureSacredDewdrop",
-					"name": "Essence de ros\u00e9e sacr\u00e9e pure",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "AlienLifeCore",
-					"name": "Noyau d'organisme d'extramonde",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "ArtificedDynamicGear",
-					"name": "Engrenage dynamique artifici\u00e9",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Vague \u00e9onique",
-		"template": "Les PV augmentent de <span style=\"color:#99FFFFFF\">{0}. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de <span style=\"color:#99FFFFFF\">{1} pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de <span style=\"color:#99FFFFFF\">{2} pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s.",
-		"params": [
-			["16 %", "14 %", "8"],
-			["20 %", "18 %", "9"],
-			["24 %", "22 %", "10"],
-			["28 %", "26 %", "11"],
-			["32 %", "30 %", "12"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Les PV augmentent de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de 14 % pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de 8 pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s."
-		},
-		{
-			"refinement": 2,
-			"desc": "Les PV augmentent de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de 18 % pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de 9 pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s."
-		},
-		{
-			"refinement": 3,
-			"desc": "Les PV augmentent de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de 22 % pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de 10 pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s."
-		},
-		{
-			"refinement": 4,
-			"desc": "Les PV augmentent de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de 26 % pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de 11 pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s."
-		},
-		{
-			"refinement": 5,
-			"desc": "Les PV augmentent de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT inflig\u00e9s par les attaques charg\u00e9es augmentent de 30 % pendant 4 s, cet effet pouvant \u00eatre cumul\u00e9 3 fois maximum et d\u00e9clench\u00e9 une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la dur\u00e9e du 3e cumul, l'\u00e9nergie \u00e9l\u00e9mentaire est restaur\u00e9e de 12 pts, cet effet pouvant \u00eatre d\u00e9clench\u00e9 une fois toutes les 12 s."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/TomeOfTheEternalFlow/Icon.webp"
-	}
+  "id": "TomeOfTheEternalFlow",
+  "name": "Tome du flux éternel",
+  "description": "Un manuel qui se transmettait autrefois de génération en génération au sein d'un centre de formation sous-marin. Aujourd'hui, personne ne connaît son existence.",
+  "rarity": 5,
+  "type": "Catalyseur",
+  "domain": "Échos des marées profondes",
+  "passive": "Vague éonique",
+  "bonus": "Les PV augmentent de 16 %/20 %/24 %/28 %/32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 14 %/18 %/22 %/26 %/30 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 8/9/10/11/12 pts, cet effet pouvant être déclenché une fois toutes les 12 s.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "DGT CRIT",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 19.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 88.2
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 19.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 88.2
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "DrossOfPureSacredDewdrop",
+          "name": "Résidu de rosée sacrée pure",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "RiftCore",
+          "name": "Noyau de faille",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engrenage de maillage",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimation de rosée sacrée pure",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "RiftCore",
+          "name": "Noyau de faille",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engrenage de maillage",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimation de rosée sacrée pure",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Synapse étrangère",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Engrenage à coupe droite",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Source de rosée sacrée pure",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Synapse étrangère",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Engrenage à coupe droite",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Source de rosée sacrée pure",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Noyau d'organisme d'extramonde",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engrenage dynamique artificié",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "EssenceOfPureSacredDewdrop",
+          "name": "Essence de rosée sacrée pure",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Noyau d'organisme d'extramonde",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engrenage dynamique artificié",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "DrossOfPureSacredDewdrop",
+          "name": "Résidu de rosée sacrée pure",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "RiftCore",
+          "name": "Noyau de faille",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engrenage de maillage",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimation de rosée sacrée pure",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "RiftCore",
+          "name": "Noyau de faille",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engrenage de maillage",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimation de rosée sacrée pure",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Synapse étrangère",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Engrenage à coupe droite",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Source de rosée sacrée pure",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Synapse étrangère",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Engrenage à coupe droite",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Source de rosée sacrée pure",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Noyau d'organisme d'extramonde",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engrenage dynamique artificié",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "EssenceOfPureSacredDewdrop",
+          "name": "Essence de rosée sacrée pure",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Noyau d'organisme d'extramonde",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engrenage dynamique artificié",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Les PV augmentent de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 14 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 8 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Les PV augmentent de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 18 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 9 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Les PV augmentent de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 22 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 10 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Les PV augmentent de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 26 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 11 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Les PV augmentent de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 30 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 12 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 1,
+      "desc": "Les PV augmentent de 16 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 14 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 8 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Les PV augmentent de 20 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 18 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 9 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Les PV augmentent de 24 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 22 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 10 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Les PV augmentent de 28 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 26 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 11 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Les PV augmentent de 32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de 30 % pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de 12 pts, cet effet pouvant être déclenché une fois toutes les 12 s."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/TomeOfTheEternalFlow/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Vague éonique",
+    "template": "Les PV augmentent de <span style=\"color:#99FFFFFF\">{0}</span>. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques chargées augmentent de <span style=\"color:#99FFFFFF\">{1}</span> pendant 4 s, cet effet pouvant être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls ou en actualisant la durée du 3e cumul, l'énergie élémentaire est restaurée de <span style=\"color:#99FFFFFF\">{2}</span> pts, cet effet pouvant être déclenché une fois toutes les 12 s.",
+    "params": [
+      [
+        "16 %",
+        "14 %",
+        "8"
+      ],
+      [
+        "20 %",
+        "18 %",
+        "9"
+      ],
+      [
+        "24 %",
+        "22 %",
+        "10"
+      ],
+      [
+        "28 %",
+        "26 %",
+        "11"
+      ],
+      [
+        "32 %",
+        "30 %",
+        "12"
+      ],
+      [
+        "16 %",
+        "14 %",
+        "8"
+      ],
+      [
+        "20 %",
+        "18 %",
+        "9"
+      ],
+      [
+        "24 %",
+        "22 %",
+        "10"
+      ],
+      [
+        "28 %",
+        "26 %",
+        "11"
+      ],
+      [
+        "32 %",
+        "30 %",
+        "12"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

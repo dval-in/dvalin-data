@@ -1,82 +1,169 @@
 {
-	"id": "HydroAbyssMage",
-	"shareid": 5201,
-	"name": "Mago dell'Abisso di Hydro",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Carta personaggio",
-		"energy": 3,
-		"element": "Hydro",
-		"weapon": "Altre armi",
-		"faction": ["Mostro"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "Hydrobomba",
-			"desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BubblingOffering",
-			"name": "Rituale della bolla assassina",
-			"desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro, il personaggio bersaglio subisce <span style=\"color:#FFFFFFFF\">Bolla di nebbia.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfMortalWater",
-			"name": "Rito delle acque mortali",
-			"desc": "Infligge 4 <span style=\"color:#80C0FFFF\">DAN da Hydro, il personaggio bersaglio subisce <span style=\"color:#FFFFFFFF\">Bolla di nebbia.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HydroShield",
-			"name": "Scudo di Hydro",
-			"desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Scudo di Hydro.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		},
-		{
-			"id": "AegisOfTheAbyss",
-			"name": "Protezione dell'Abisso",
-			"desc": "(Passiva) Quando lo scudo viene distrutto, dopo aver usato l'abilità applica nuovamente <span style=\"color:#FFFFFFFF\">Scudo di Hydro.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroAbyssMage",
+  "shareid": 5201,
+  "name": "Mago dell'Abisso di Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Carta personaggio",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Mostro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Hydrobomba",
+      "desc": "Infligge 1 DAN da Hydro.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Rituale della bolla assassina",
+      "desc": "Infligge 1 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Rito delle acque mortali",
+      "desc": "Infligge 4 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Scudo di Hydro",
+      "desc": "(Passiva) All'inizio del duello ottiene Scudo di Hydro.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Protezione dell'Abisso",
+      "desc": "(Passiva) Quando lo scudo viene distrutto, dopo aver usato l'abilità applica nuovamente Scudo di Hydro.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "WaterBall",
+      "name": "Hydrobomba",
+      "desc": "Infligge 1 DAN da Hydro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Rituale della bolla assassina",
+      "desc": "Infligge 1 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Rito delle acque mortali",
+      "desc": "Infligge 4 DAN da Hydro, il personaggio bersaglio subisce Bolla di nebbia.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Scudo di Hydro",
+      "desc": "(Passiva) All'inizio del duello ottiene Scudo di Hydro.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Protezione dell'Abisso",
+      "desc": "(Passiva) Quando lo scudo viene distrutto, dopo aver usato l'abilità applica nuovamente Scudo di Hydro.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5201
 }

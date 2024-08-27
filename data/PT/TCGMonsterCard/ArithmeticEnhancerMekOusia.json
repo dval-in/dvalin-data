@@ -10,12 +10,81 @@
     "element": "Sem Tipo Elemental",
     "weapon": "Outras Armas",
     "faction": [
+      "Monstro",
       "Monstro"
     ],
     "source": null,
     "cardType": "Carta de Personagem"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Colidir",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "Aumento de Energia: Ousia",
+      "desc": "Causa 2 pontos de Dano Físico, este personagem ganha Aumento de Energia: Ousia.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "Explosão de Energia: Ousia",
+      "desc": "Causa 3 pontos de Dano Físico, este personagem ganha Aumento de Energia: Ousia.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "Aprimoramento de Estrutura: Ousia",
+      "desc": "Seus personagens causam +1 de Dano.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Ousia",
+      "desc": "Após ser danificado por personagem com \"Arkhe: Pneuma\", esse personagem ficará Desativado e não poderá usar Habilidades até o fim desse Turno.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "Colidir",

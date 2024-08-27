@@ -1,83 +1,159 @@
 {
-	"id": "JadeplumeTerrorshroom",
-	"shareid": 60,
-	"name": "Nấm Thúy Linh",
-	"title": "Vua Nấm - Nấm Thúy Linh",
-	"desc": "Im lặng lắng nghe, sẽ có thể nghe thấy tiếng bước chân của vua nấm đang tuần tra lãnh địa trong khu rừng vắng vẻ...",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Thảo",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"talentCard": {
-			"id": "ProliferatingSpores",
-			"name": "Proliferating Spores"
-		},
-		"source": "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Nấm Thúy Linh",
-		"character": {
-			"id": "JadeplumeTerrorshroom",
-			"name": "Jadeplume Terrorshroom"
-		}
-	},
-	"skills": [
-		{
-			"id": "MajesticDance",
-			"name": "Vũ Điệu Vĩ Đại",
-			"desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Nguyên Tố Thảo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VolatileSporeCloud",
-			"name": "Mây Bào Tử Bất Ổn",
-			"desc": "Gây 3 điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Nguyên Tố Thảo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FeatherSpreading",
-			"name": "Lông Vũ Tung Bay",
-			"desc": "Gây 4 điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo, tiêu hao tất cả số tầng <span style=\"color:#FFFFFFFF\">Sức Sống Cấp Tiến, mỗi tầng khiến sát thương này +1.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Nguyên Tố Thảo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RadicalVitality",
-			"name": "Sức Sống Cấp Tiến",
-			"desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Sức Sống Cấp Tiến.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "JadeplumeTerrorshroom",
+  "shareid": 60,
+  "name": "Nấm Thúy Linh",
+  "title": "Vua Nấm - Nấm Thúy Linh",
+  "desc": "Im lặng lắng nghe, sẽ có thể nghe thấy tiếng bước chân của vua nấm đang tuần tra lãnh địa trong khu rừng vắng vẻ...",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thảo",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "talentCard": {
+      "id": "ProliferatingSpores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Nấm Thúy Linh",
+    "character": {
+      "id": "JadeplumeTerrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "MajesticDance",
+      "name": "Vũ Điệu Vĩ Đại",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Mây Bào Tử Bất Ổn",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Thảo.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Lông Vũ Tung Bay",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Thảo, tiêu hao tất cả số tầng Sức Sống Cấp Tiến, mỗi tầng khiến sát thương này +1.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Sức Sống Cấp Tiến",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Sức Sống Cấp Tiến.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "MajesticDance",
+      "name": "Vũ Điệu Vĩ Đại",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Mây Bào Tử Bất Ổn",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Thảo.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Lông Vũ Tung Bay",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Thảo, tiêu hao tất cả số tầng Sức Sống Cấp Tiến, mỗi tầng khiến sát thương này +1.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Sức Sống Cấp Tiến",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Sức Sống Cấp Tiến.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 60
 }

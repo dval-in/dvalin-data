@@ -1,77 +1,142 @@
 {
-	"id": "Eula",
-	"shareid": 6,
-	"name": "Eula",
-	"title": "Wirbeltanz der Gischt – Eula",
-	"desc": "Es ist nur ein Spiel. Ich werde dir nicht böse sein, selbst wenn das Glück auf deiner Seite ist.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Kryo",
-		"weapon": "Zweihänder",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "WellspringOfWarlust",
-			"name": "Wellspring of War-Lust"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Eula in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Eula",
-			"name": "Eula",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkEdel",
-			"name": "Favonius-Schwertkunst – Adelshaus",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "IcetideVortex",
-			"name": "Eisiger Strudel",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH. Verleiht der Figur <span style=\"color:#FFFFFFFF\">Kaltes Herz, wenn sie nicht damit ausgerüstet ist.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialIllumination",
-			"name": "Schwert der Brandung",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Schwert des Lichtfalls.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Eula",
+  "shareid": 6,
+  "name": "Eula",
+  "title": "Wirbeltanz der Gischt – Eula",
+  "desc": "Es ist nur ein Spiel. Ich werde dir nicht böse sein, selbst wenn das Glück auf deiner Seite ist.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Eula in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Favonius-Schwertkunst – Adelshaus",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Eisiger Strudel",
+      "desc": "Verursacht 2 Pkt. Kryo-SCH. Verleiht der Figur Kaltes Herz, wenn sie nicht damit ausgerüstet ist.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Schwert der Brandung",
+      "desc": "Verursacht 2 Pkt. Kryo-SCH, erschafft 1 Schwert des Lichtfalls.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Favonius-Schwertkunst – Adelshaus",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Eisiger Strudel",
+      "desc": "Verursacht 2 Pkt. Kryo-SCH. Verleiht der Figur Kaltes Herz, wenn sie nicht damit ausgerüstet ist.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Schwert der Brandung",
+      "desc": "Verursacht 2 Pkt. Kryo-SCH, erschafft 1 Schwert des Lichtfalls.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 6
 }

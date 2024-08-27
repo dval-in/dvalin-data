@@ -1,33 +1,46 @@
 {
-	"id": "ExilesCirclet",
-	"shareid": 153,
-	"name": "Diadème de l'Exilé",
-	"title": "Lignée noble : Diadème de l'Exilé",
-	"desc": "« Malheur, ô grande salle aux piliers d'argent ! Pourquoi votre couronne est-elle trempée de sang ? »",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé un déchaînement élémentaire : Accorde 1 <span style=\"color:#FFFFFFFF\">charge à tous vos personnages en attente. (1 fois par manche)",
-	"attributes": {
-		"cost": 2,
-		"costType": "Élément neutre",
-		"cardType": "Carte d'équipement",
-		"energy": [
-			{
-				"id": "UnalignedElement",
-				"type": "Élément neutre",
-				"count": 2
-			}
-		],
-		"artifact": {
-			"id": "TheExile",
-			"name": "The Exile",
-			"rarity": 4
-		},
-		"tags": ["Artéfact"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé un déchaînement élémentaire : Accorde 1 <span style=\"color:#FFFFFFFF\">charge à tous vos personnages en attente. (1 fois par manche)(Un personnage peut équiper au maximum 1 artéfact)"
-		}
-	],
-	"version": "4.4"
+  "id": "ExilesCirclet",
+  "shareid": 153,
+  "name": "Diadème de l'Exilé",
+  "title": "Lignée noble : Diadème de l'Exilé",
+  "desc": "« Malheur, ô grande salle aux piliers d'argent ! Pourquoi votre couronne est-elle trempée de sang ? »",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Lorsque le personnage a utilisé un déchaînement élémentaire : </span>Accorde 1 <span style=\"color:#FFFFFFFF\">charge</span> à tous vos personnages en attente. (1 fois par manche)",
+  "attributes": {
+    "cost": 2,
+    "costType": "Élément neutre",
+    "cardType": "Carte d'équipement",
+    "energy": [
+      {
+        "id": "UnalignedElement",
+        "type": "Élément neutre",
+        "count": 2
+      },
+      {
+        "id": "UnalignedElement",
+        "type": "Élément neutre",
+        "count": 2
+      }
+    ],
+    "artifact": {
+      "id": "TheExile",
+      "name": "The Exile",
+      "rarity": 4
+    },
+    "tags": [
+      "Artéfact",
+      "Artéfact"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Lorsque le personnage a utilisé un déchaînement élémentaire : Accorde 1 charge à tous vos personnages en attente. (1 fois par manche)(Un personnage peut équiper au maximum 1 artéfact)"
+    },
+    {
+      "name": "",
+      "desc": "Lorsque le personnage a utilisé un déchaînement élémentaire : Accorde 1 charge à tous vos personnages en attente. (1 fois par manche) (Un personnage peut équiper au maximum 1 artéfact)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 153
 }

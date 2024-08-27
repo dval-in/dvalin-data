@@ -1,83 +1,159 @@
 {
-	"id": "LaSignora",
-	"shareid": 4105,
-	"name": "Signora",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Autre arme",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "PainForPain",
-			"name": "Pain for Pain"
-		},
-		"source": null,
-		"character": {
-			"id": "LaSignora",
-			"name": "La Signora"
-		}
-	},
-	"skills": [
-		{
-			"id": "FrostbladeHailstorm",
-			"name": "Blizzard cinglant",
-			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BitingShards",
-			"name": "Épine mordante",
-			"desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo et applique le <span style=\"color:#FFFFFFFF\">Grand froid au personnage choisi.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CarmineChrysalis",
-			"name": "Chrysalide carmin",
-			"desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo, soigne le personnage pour 2 pts et annule la forme de <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates scellée de glace, le personnage changeant de façon permanente en <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MightOfDelusion",
-			"name": "Pouvoir de tromperie",
-			"desc": "(Passif) Applique la forme de <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates scellée de glace au début du combat.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "LaSignora",
+  "shareid": 4105,
+  "name": "Signora",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "PainForPain",
+      "name": "Pain for Pain"
+    },
+    "source": null,
+    "character": {
+      "id": "LaSignora",
+      "name": "La Signora"
+    }
+  },
+  "skills": [
+    {
+      "id": "FrostbladeHailstorm",
+      "name": "Blizzard cinglant",
+      "desc": "Inflige 1 pt de DGT Cryo.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BitingShards",
+      "name": "Épine mordante",
+      "desc": "Inflige 2 pts de DGT Cryo et applique le Grand froid au personnage choisi.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CarmineChrysalis",
+      "name": "Chrysalide carmin",
+      "desc": "Inflige 4 pts de DGT Cryo, soigne le personnage pour 2 pts et annule la forme de Sorcière des braises écarlates scellée de glace, le personnage changeant de façon permanente en Sorcière des braises écarlates.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MightOfDelusion",
+      "name": "Pouvoir de tromperie",
+      "desc": "(Passif) Applique la forme de Sorcière des braises écarlates scellée de glace au début du combat.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "FrostbladeHailstorm",
+      "name": "Blizzard cinglant",
+      "desc": "Inflige 1 pt de DGT Cryo.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BitingShards",
+      "name": "Épine mordante",
+      "desc": "Inflige 2 pts de DGT Cryo et applique le Grand froid au personnage choisi.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CarmineChrysalis",
+      "name": "Chrysalide carmin",
+      "desc": "Inflige 4 pts de DGT Cryo, soigne le personnage pour 2 pts et annule la forme de Sorcière des braises écarlates scellée de glace, le personnage changeant de façon permanente en Sorcière des braises écarlates.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MightOfDelusion",
+      "name": "Pouvoir de tromperie",
+      "desc": "(Passif) Applique la forme de Sorcière des braises écarlates scellée de glace au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 4105
 }

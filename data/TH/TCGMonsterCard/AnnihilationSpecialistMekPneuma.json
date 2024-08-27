@@ -10,12 +10,86 @@
     "element": "ธาตุไฟฟ้า",
     "weapon": "อาวุธอื่น ๆ",
     "faction": [
+      "มอนสเตอร์",
       "มอนสเตอร์"
     ],
     "source": null,
     "cardType": "การ์ดตัวละคร"
   },
   "skills": [
+    {
+      "id": "PiercingBlow",
+      "name": "Piercing Blow",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningRaid",
+      "name": "Lightning Raid",
+      "desc": "สร้างความเสียหายไฟฟ้า 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeapingThunder",
+      "name": "Leaping Thunder",
+      "desc": "สร้างความเสียหายไฟฟ้า 5 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupportUnitPneuma",
+      "name": "Support Unit: วิญญาณ",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น แรกเริ่มจะสร้าง จักรกลระวังภัยภาคพื้นที่ - วิญญาณ",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "คุณสมบัติพลังงาน: พลังวิญญาณ",
+      "desc": "หลังจากตัวละครที่มี \"พลังปฐมภูมิ: สสาร\" สร้างความเสียหาย: ตัวละครนี้จะถูกเปลี่ยนเป็น\"รูปแบบไร้พลังงาน\" และจะไม่สามารถใช้สกิลได้จนกว่าจะสิ้นสุดเทิร์นนี้",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
     {
       "id": "PiercingBlow",
       "name": "Piercing Blow",

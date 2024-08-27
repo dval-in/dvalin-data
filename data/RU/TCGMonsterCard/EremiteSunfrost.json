@@ -1,75 +1,151 @@
 {
-	"id": "EremiteSunfrost",
-	"shareid": 3106,
-	"name": "Пустынник: Пылающий лёд",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Крио",
-		"weapon": "Прочее",
-		"faction": ["Пустынники"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "DoubleHack",
-			"name": "Двойной разрез",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DualbladeChop",
-			"name": "Двусторонняя нарезка",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StalwartOnslaught",
-			"name": "Стойкий натиск",
-			"desc": "У персонажа начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка: <span style=\"color:#FFFFFFFF\">Стойкий натиск: Удар по всем фронтам.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedCryo",
-			"name": "Зловещий дух (Крио)",
-			"desc": "(Пассивный навык)<span style=\"color:#FFFFFFFF\">Когда этот персонаж получает урон: если у этого персонажа не более 7 HP, ему добавляется 1 <span style=\"color:#FFFFFFFF\">Энергия и <span style=\"color:#FFFFFFFF\">Пробуждение духа предзнаменования: Крио (только 1 раз за игру).",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteSunfrost",
+  "shareid": 3106,
+  "name": "Пустынник: Пылающий лёд",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": [
+      "Пустынники",
+      "Пустынники"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "DoubleHack",
+      "name": "Двойной разрез",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Двусторонняя нарезка",
+      "desc": "Наносит Физический урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Стойкий натиск",
+      "desc": "У персонажа начинается Подготовка навыка: Стойкий натиск: Удар по всем фронтам.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Зловещий дух (Крио)",
+      "desc": "(Пассивный навык)Когда этот персонаж получает урон: если у этого персонажа не более 7 HP, ему добавляется 1 Энергия и Пробуждение духа предзнаменования: Крио (только 1 раз за игру).",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "DoubleHack",
+      "name": "Двойной разрез",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Двусторонняя нарезка",
+      "desc": "Наносит Физический урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Стойкий натиск",
+      "desc": "У персонажа начинается Подготовка навыка: Стойкий натиск: Удар по всем фронтам.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Зловещий дух (Крио)",
+      "desc": "(Пассивный навык)Когда этот персонаж получает урон: если у этого персонажа не более 7 HP, ему добавляется 1 Энергия и Пробуждение духа предзнаменования: Крио (только 1 раз за игру).",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3106
 }

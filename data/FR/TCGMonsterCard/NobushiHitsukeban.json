@@ -1,75 +1,148 @@
 {
-	"id": "NobushiHitsukeban",
-	"shareid": 3305,
-	"name": "Nobushi - Hitsukeban",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Autre arme",
-		"faction": [],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ComboSlash",
-			"name": "Coupe combinée",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlazeBloom",
-			"name": "Floraison flamboyante",
-			"desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro et bascule votre personnage pour le personnage suivant.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai : Rengainé",
-			"desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare la capacité : <span style=\"color:#FFFFFFFF\">Iai : Avancée.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Élément identique",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Zanshin",
-			"name": "Zanshin",
-			"desc": "(Passif) Si le personnage est le personnage actif lors de la phase finale, accorde 1 charge.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "NobushiHitsukeban",
+  "shareid": 3305,
+  "name": "Nobushi - Hitsukeban",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Autre arme",
+    "faction": [],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ComboSlash",
+      "name": "Coupe combinée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazeBloom",
+      "name": "Floraison flamboyante",
+      "desc": "Inflige 3 pts de DGT Pyro et bascule votre personnage pour le personnage suivant.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : Iai : Avancée.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Passif) Si le personnage est le personnage actif lors de la phase finale, accorde 1 charge.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ComboSlash",
+      "name": "Coupe combinée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazeBloom",
+      "name": "Floraison flamboyante",
+      "desc": "Inflige 3 pts de DGT Pyro et bascule votre personnage pour le personnage suivant.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : Iai : Avancée.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Passif) Si le personnage est le personnage actif lors de la phase finale, accorde 1 charge.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3305
 }

@@ -1,84 +1,160 @@
 {
-	"id": "KamisatoAyaka",
-	"shareid": 5,
-	"name": "Камисато Аяка",
-	"title": "«Инеевая цапля» Камисато Аяка",
-	"desc": "С изяществом снега на ветру белая цапля безмятежно стоит в саду.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Крио",
-		"weapon": "Одноручное",
-		"faction": ["Инадзума"],
-		"talentCard": {
-			"id": "KantenSenmyouBlessing",
-			"name": "Kanten Senmyou Blessing"
-		},
-		"source": "Награда за приглашение Камисато Аяки в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "KamisatoAyaka",
-			"name": "Kamisato Ayaka",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "KamisatoArtKabuki",
-			"name": "Искусство Камисато: Нанамэ",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtHyouka",
-			"name": "Искусство Камисато: Хёка",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtSoumetsu",
-			"name": "Искусство Камисато: Сомэцу",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 4 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Морозный сэки но то.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtSenho",
-			"name": "Искусство Камисато: Сэнхо",
-			"desc": "(Пассивный навык) Когда этот персонаж становится активным, он получает <span style=\"color:#FFFFFFFF\">Элементальная Крио инфузия.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KamisatoAyaka",
+  "shareid": 5,
+  "name": "Камисато Аяка",
+  "title": "«Инеевая цапля» Камисато Аяка",
+  "desc": "С изяществом снега на ветру белая цапля безмятежно стоит в саду.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Одноручное",
+    "faction": [
+      "Инадзума",
+      "Инадзума"
+    ],
+    "talentCard": {
+      "id": "KantenSenmyouBlessing",
+      "name": "Kanten Senmyou Blessing"
+    },
+    "source": "Награда за приглашение Камисато Аяки в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "KamisatoAyaka",
+      "name": "Kamisato Ayaka",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "KamisatoArtKabuki",
+      "name": "Искусство Камисато: Нанамэ",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtHyouka",
+      "name": "Искусство Камисато: Хёка",
+      "desc": "Наносит Крио урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSoumetsu",
+      "name": "Искусство Камисато: Сомэцу",
+      "desc": "Наносит Крио урон, 4 ед. и призывает помощника: Морозный сэки но то.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSenho",
+      "name": "Искусство Камисато: Сэнхо",
+      "desc": "(Пассивный навык) Когда этот персонаж становится активным, он получает Элементальная Крио инфузия.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "KamisatoArtKabuki",
+      "name": "Искусство Камисато: Нанамэ",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtHyouka",
+      "name": "Искусство Камисато: Хёка",
+      "desc": "Наносит Крио урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSoumetsu",
+      "name": "Искусство Камисато: Сомэцу",
+      "desc": "Наносит Крио урон, 4 ед. и призывает помощника: Морозный сэки но то.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSenho",
+      "name": "Искусство Камисато: Сэнхо",
+      "desc": "(Пассивный навык) Когда этот персонаж становится активным, он получает Элементальная Крио инфузия.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5
 }

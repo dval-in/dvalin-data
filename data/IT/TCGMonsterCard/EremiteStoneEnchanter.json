@@ -1,75 +1,151 @@
 {
-	"id": "EremiteStoneEnchanter",
-	"shareid": 3606,
-	"name": "Eremita Litoincantatore",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Altre armi",
-		"faction": ["Eremiti"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "TripleGeosmash",
-			"name": "Geocolpo triplo",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SplitrockSlam",
-			"name": "Schianto spaccapietra",
-			"desc": "Infligge 3 <span style=\"color:#FFE699FF\">DAN da Geo.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedGeo",
-			"name": "Liberazione dello spirito (Geo)",
-			"desc": "Infligge 3 <span style=\"color:#FFE699FF\">DAN da Geo, invoca 1 <span style=\"color:#FFFFFFFF\">Spirito del presagio: Drago della pietra.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritOfOmensPower",
-			"name": "Potere dello spirito del presagio",
-			"desc": "(Passiva) Se un personaggio, dopo aver subito DAN, ha 7 o meno PS, ottiene 1 punto Energia (una volta per partita).",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteStoneEnchanter",
+  "shareid": 3606,
+  "name": "Eremita Litoincantatore",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Eremiti",
+      "Eremiti"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TripleGeosmash",
+      "name": "Geocolpo triplo",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Schianto spaccapietra",
+      "desc": "Infligge 3 DAN da Geo.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Liberazione dello spirito (Geo)",
+      "desc": "Infligge 3 DAN da Geo, invoca 1 Spirito del presagio: Drago della pietra.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Potere dello spirito del presagio",
+      "desc": "(Passiva) Se un personaggio, dopo aver subito DAN, ha 7 o meno PS, ottiene 1 punto Energia (una volta per partita).",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TripleGeosmash",
+      "name": "Geocolpo triplo",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Schianto spaccapietra",
+      "desc": "Infligge 3 DAN da Geo.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Liberazione dello spirito (Geo)",
+      "desc": "Infligge 3 DAN da Geo, invoca 1 Spirito del presagio: Drago della pietra.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Potere dello spirito del presagio",
+      "desc": "(Passiva) Se un personaggio, dopo aver subito DAN, ha 7 o meno PS, ottiene 1 punto Energia (una volta per partita).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3606
 }

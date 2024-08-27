@@ -1,77 +1,142 @@
 {
-	"id": "Fischl",
-	"shareid": 26,
-	"name": "Фишль",
-	"title": "«Принцесса осуждения» Фишль",
-	"desc": "«Оз, мой фамилиар, расправь же свои крылья и направь меня к судьбе этой величественной ночи!»\\n«Миледи, не в моих силах заменить вам эту карту...»",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Электро",
-		"weapon": "Стрелковое",
-		"faction": ["Мондштадт"],
-		"talentCard": {
-			"id": "StellarPredator",
-			"name": "Stellar Predator"
-		},
-		"source": "Награда за приглашение Фишль в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "Fischl",
-			"name": "Fischl",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "BoltsOfDownfall",
-			"name": "Стрела возмездия",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Электро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Nightrider",
-			"name": "Тень расправленных крыльев",
-			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон, 1 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Оз.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Электро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "MidnightPhantasmagoria",
-			"name": "Ночная иллюзия",
-			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон, 4 ед., наносит <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Проникающий урон, 2 ед. всем неактивным персонажам противника.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Электро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Fischl",
+  "shareid": 26,
+  "name": "Фишль",
+  "title": "«Принцесса осуждения» Фишль",
+  "desc": "«Оз, мой фамилиар, расправь же свои крылья и направь меня к судьбе этой величественной ночи!»\\n«Миледи, не в моих силах заменить вам эту карту...»",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Электро",
+    "weapon": "Стрелковое",
+    "faction": [
+      "Мондштадт",
+      "Мондштадт"
+    ],
+    "talentCard": {
+      "id": "StellarPredator",
+      "name": "Stellar Predator"
+    },
+    "source": "Награда за приглашение Фишль в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "BoltsOfDownfall",
+      "name": "Стрела возмездия",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Nightrider",
+      "name": "Тень расправленных крыльев",
+      "desc": "Наносит Электро урон, 1 ед. и призывает помощника: Оз.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MidnightPhantasmagoria",
+      "name": "Ночная иллюзия",
+      "desc": "Наносит Электро урон, 4 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BoltsOfDownfall",
+      "name": "Стрела возмездия",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Nightrider",
+      "name": "Тень расправленных крыльев",
+      "desc": "Наносит Электро урон, 1 ед. и призывает помощника: Оз.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MidnightPhantasmagoria",
+      "name": "Ночная иллюзия",
+      "desc": "Наносит Электро урон, 4 ед., наносит Проникающий урон, 2 ед. всем неактивным персонажам противника.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 26
 }

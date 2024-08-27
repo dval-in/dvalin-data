@@ -1,83 +1,159 @@
 {
-	"id": "AbyssLectorFathomlessFlames",
-	"shareid": 56,
-	"name": "Abyss Lector: Fathomless Flames",
-	"title": "Abyss Lector: Fathomless Flames",
-	"desc": "From chapters of canon revealed come much heeded admonishments.",
-	"attributes": {
-		"hp": 6,
-		"cardType": "Character Card",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Other Weapons",
-		"faction": ["Monster"],
-		"talentCard": {
-			"id": "EmbersRekindled",
-			"name": "Embers Rekindled"
-		},
-		"source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Abyss Lector: Fathomless Flames",
-		"character": {
-			"id": "AbyssLectorFathomlessFlames",
-			"name": "Abyss Lector: Fathomless Flames"
-		}
-	},
-	"skills": [
-		{
-			"id": "FlameOfSalvation",
-			"name": "Flame of Salvation",
-			"desc": "Deals 1 <span style=\"color:#FF9999FF\">Pyro DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Unaligned Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingPrecept",
-			"name": "Searing Precept",
-			"desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousStar",
-			"name": "Ominous Star",
-			"desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG, summons 1 <span style=\"color:#FFFFFFFF\">Darkfire Furnace.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FieryRebirth",
-			"name": "Fiery Rebirth",
-			"desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Fiery Rebirth.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AbyssLectorFathomlessFlames",
+  "shareid": 56,
+  "name": "Abyss Lector: Fathomless Flames",
+  "title": "Abyss Lector: Fathomless Flames",
+  "desc": "From chapters of canon revealed come much heeded admonishments.",
+  "attributes": {
+    "hp": 6,
+    "cardType": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "talentCard": {
+      "id": "EmbersRekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Abyss Lector: Fathomless Flames",
+    "character": {
+      "id": "AbyssLectorFathomlessFlames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "FlameOfSalvation",
+      "name": "Flame of Salvation",
+      "desc": "Deals 1 Pyro DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Searing Precept",
+      "desc": "Deals 3 Pyro DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Ominous Star",
+      "desc": "Deals 3 Pyro DMG, summons 1 Darkfire Furnace.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Fiery Rebirth",
+      "desc": "(Passive) When the battle begins, this character gains Fiery Rebirth.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "FlameOfSalvation",
+      "name": "Flame of Salvation",
+      "desc": "Deals 1 Pyro DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Searing Precept",
+      "desc": "Deals 3 Pyro DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Ominous Star",
+      "desc": "Deals 3 Pyro DMG, summons 1 Darkfire Furnace.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Fiery Rebirth",
+      "desc": "(Passive) When the battle begins, this character gains Fiery Rebirth.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 56
 }

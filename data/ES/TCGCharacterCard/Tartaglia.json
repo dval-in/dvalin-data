@@ -1,84 +1,160 @@
 {
-	"id": "Tartaglia",
-	"shareid": 12,
-	"name": "Tartaglia",
-	"title": "Tartaglia - Nobile",
-	"desc": "Los duelos de cartas son como la guerra: solo puede ganar el mejor.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 3,
-		"element": "Hydro",
-		"weapon": "Arco",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "AbyssalMayhemHydrospout",
-			"name": "Abyssal Mayhem: Hydrospout"
-		},
-		"source": "Se obtiene tras retar y ganar a Tartaglia en un duelo amistoso en la taberna Cola de Gato",
-		"character": {
-			"id": "Tartaglia",
-			"name": "Tartaglia",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "CuttingTorrent",
-			"name": "Torrente cortante",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FoulLegacyRagingTide",
-			"name": "Legado del mal: Olas furiosas",
-			"desc": "Cambia al estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo, inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro y el personaje objetivo obtiene el efecto de <span style=\"color:#FFFFFFFF\">obstrucción del flujo.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HavocObliteration",
-			"name": "Caos: Obliteración",
-			"desc": "Realiza diferentes ataques dependiendo <span style=\"color:#FFFFFFFF\">de la posición de Tartaglia:<span style=\"color:#FFFFFFFF\">Combate a distancia - Flecha del caos: inflige $[D__KEY__DAMAGE_5] pts. de <span style=\"color:#80C0FFFF\">Daño Hydro, restaura <span style=\"color:#FFFFFFFF\">Energía +2 y aplica en el personaje objetivo el efecto de <span style=\"color:#FFFFFFFF\">$[C112043 de <span style=\"color:#80C0FFFF\">Daño Hydro.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "TideWithholder",
-			"name": "Retención de la Marea",
-			"desc": "Pasiva: cuando comienza el duelo, este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">combate a distancia.Cuando el personaje afectado salga del estado de <span style=\"color:#FFFFFFFF\">combate cuerpo a cuerpo, vuelve a entrar en el estado de <span style=\"color:#FFFFFFFF\">combate a distancia.",
-			"skilltag": ["Habilidad pasiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "Tartaglia",
+  "shareid": 12,
+  "name": "Tartaglia",
+  "title": "Tartaglia - Nobile",
+  "desc": "Los duelos de cartas son como la guerra: solo puede ganar el mejor.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Arco",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "AbyssalMayhemHydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Se obtiene tras retar y ganar a Tartaglia en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CuttingTorrent",
+      "name": "Torrente cortante",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "Legado del mal: Olas furiosas",
+      "desc": "Cambia al estado de combate cuerpo a cuerpo, inflige 2 pts. de Daño Hydro y el personaje objetivo obtiene el efecto de obstrucción del flujo.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "Caos: Obliteración",
+      "desc": "Realiza diferentes ataques dependiendo de la posición de Tartaglia:Combate a distancia - Flecha del caos: inflige $[D__KEY__DAMAGE_5] pts. de Daño Hydro, restaura Energía +2 y aplica en el personaje objetivo el efecto de $[C112043 de Daño Hydro.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "Retención de la Marea",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje entra en el estado de combate a distancia.Cuando el personaje afectado salga del estado de combate cuerpo a cuerpo, vuelve a entrar en el estado de combate a distancia.",
+      "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "CuttingTorrent",
+      "name": "Torrente cortante",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "Legado del mal: Olas furiosas",
+      "desc": "Cambia al estado de combate cuerpo a cuerpo, inflige 2 pts. de Daño Hydro y el personaje objetivo obtiene el efecto de obstrucción del flujo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "Caos: Obliteración",
+      "desc": "Realiza diferentes ataques dependiendo de la posición de Tartaglia: Combate a distancia - Flecha del caos: inflige $[D__KEY__DAMAGE_5] pts. de Daño Hydro, restaura Energía +2 y aplica en el personaje objetivo el efecto de $[C112043 de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "Retención de la Marea",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje entra en el estado de combate a distancia. Cuando el personaje afectado salga del estado de combate cuerpo a cuerpo, vuelve a entrar en el estado de combate a distancia.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 12
 }

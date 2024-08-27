@@ -12,6 +12,7 @@
     "weapon": "สื่อเวท",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Lightning Rose",
       "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย และเรียก Lightning Rose",
       "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Lightning Touch",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย หากสกิลนี้เป็นชาร์จโจมตี จะทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรูได้รับ Conductive",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Violet Arc",
+      "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย; หากตัวละครที่เข้าต่อสู้ยังไม่ได้รับ Conductive จะทำให้ได้รับ Conductive",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Lightning Rose",
+      "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย เรียก Lightning Rose และทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรูได้รับ Conductive",
+      "skillTag": [
         "ท่าไม้ตาย"
       ],
       "points": [

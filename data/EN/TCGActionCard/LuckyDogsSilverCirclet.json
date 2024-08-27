@@ -1,33 +1,46 @@
 {
-	"id": "LuckyDogsSilverCirclet",
-	"shareid": 149,
-	"name": "Lucky Dog's Silver Circlet",
-	"title": "Unworried Crown: Lucky Dog's Silver Circlet",
-	"desc": "\"One who is favored by fortune can even find priceless treasures in the most deadly of traps.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">After the character uses an Elemental Skill: Heal self for 2 HP. (Once per Round)",
-	"attributes": {
-		"cost": 2,
-		"costType": "Unaligned Element",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "UnalignedElement",
-				"type": "Unaligned Element",
-				"count": 2
-			}
-		],
-		"artifact": {
-			"id": "LuckyDog",
-			"name": "Lucky Dog",
-			"rarity": 3
-		},
-		"tags": ["Artifact"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">After the character uses an Elemental Skill: Heal self for 2 HP. (Once per Round)(A character can equip a maximum of 1 Artifact)"
-		}
-	],
-	"version": "4.4"
+  "id": "LuckyDogsSilverCirclet",
+  "shareid": 149,
+  "name": "Lucky Dog's Silver Circlet",
+  "title": "Unworried Crown: Lucky Dog's Silver Circlet",
+  "desc": "\"One who is favored by fortune can even find priceless treasures in the most deadly of traps.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">After the character uses an Elemental Skill:</span> Heal self for 2 HP. (Once per Round)",
+  "attributes": {
+    "cost": 2,
+    "costType": "Unaligned Element",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "UnalignedElement",
+        "type": "Unaligned Element",
+        "count": 2
+      },
+      {
+        "id": "UnalignedElement",
+        "type": "Unaligned Element",
+        "count": 2
+      }
+    ],
+    "artifact": {
+      "id": "LuckyDog",
+      "name": "Lucky Dog",
+      "rarity": 3
+    },
+    "tags": [
+      "Artifact",
+      "Artifact"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "After the character uses an Elemental Skill: Heal self for 2 HP. (Once per Round)(A character can equip a maximum of 1 Artifact)"
+    },
+    {
+      "name": "",
+      "desc": "After the character uses an Elemental Skill: Heal self for 2 HP. (Once per Round) (A character can equip a maximum of 1 Artifact)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 149
 }

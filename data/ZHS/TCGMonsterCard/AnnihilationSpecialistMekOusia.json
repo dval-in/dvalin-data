@@ -10,12 +10,86 @@
     "element": "水元素",
     "weapon": "其他武器",
     "faction": [
+      "魔物",
       "魔物"
     ],
     "source": null,
     "cardType": "角色牌"
   },
   "skills": [
+    {
+      "id": "ViciousKicks",
+      "name": "迅猛踢击",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLegblades",
+      "name": "蹈刃旋舞",
+      "desc": "造成3点水元素伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladedWaltz",
+      "name": "舞刃霰旋",
+      "desc": "造成5点水元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupportUnitOusia",
+      "name": "支援单位·荒",
+      "desc": "【被动】战斗开始时，初始生成机关·区域警戒型·荒。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "能源特征·荒性",
+      "desc": "受到具有「始基力：芒性」的角色造成的伤害后：此角色转换为「失能形态」，并且直到本回合结束前无法使用技能。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
     {
       "id": "ViciousKicks",
       "name": "迅猛踢击",

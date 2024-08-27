@@ -1,77 +1,142 @@
 {
-	"id": "Kaeya",
-	"shareid": 3,
-	"name": "Kaeya",
-	"title": "Kaeya · Chevalier du froid",
-	"desc": "Spécialisé dans l'éveil des vertus chevaleresques chez les autres !",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Épée à une main",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "ColdbloodedStrike",
-			"name": "Cold-Blooded Strike"
-		},
-		"source": "Obtenue dans le deck de départ",
-		"character": {
-			"id": "Kaeya",
-			"name": "Kaeya",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "CeremonialBladework",
-			"name": "Passe d'armes",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Frostgnaw",
-			"name": "Attaque givrée",
-			"desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialWaltz",
-			"name": "Valse glaciale",
-			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo et crée une <span style=\"color:#FFFFFFFF\">stalactite.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Kaeya",
+  "shareid": 3,
+  "name": "Kaeya",
+  "title": "Kaeya · Chevalier du froid",
+  "desc": "Spécialisé dans l'éveil des vertus chevaleresques chez les autres !",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "ColdbloodedStrike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": "Obtenue dans le deck de départ",
+    "character": {
+      "id": "Kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "CeremonialBladework",
+      "name": "Passe d'armes",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "Attaque givrée",
+      "desc": "Inflige 3 pts de DGT Cryo.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "Valse glaciale",
+      "desc": "Inflige 1 pt de DGT Cryo et crée une stalactite.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialBladework",
+      "name": "Passe d'armes",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "Attaque givrée",
+      "desc": "Inflige 3 pts de DGT Cryo.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "Valse glaciale",
+      "desc": "Inflige 1 pt de DGT Cryo et crée une stalactite.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3
 }

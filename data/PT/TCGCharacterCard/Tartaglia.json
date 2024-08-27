@@ -12,6 +12,7 @@
     "weapon": "Arco",
     "faction": [
       "Fatui",
+      "Fatui",
       "Fatui"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "Ondas Calmas",
       "desc": "(Passiva) Quando a batalha começa, este personagem ganha Posição à Distância. Quando a Posição Corpo-a-Corpo aplicada ao personagem acaba, reaplica Posição à Distância.",
       "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "CuttingTorrent",
+      "name": "Intercepção de Chuva",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "Legado do Mal - Ondas de Fúria",
+      "desc": "Troca para Posição Corpo-a-Corpo, causa 2pontos de Dano Hydro e aplica Interceptação de Fluxo ao alvo.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "Devastação: Obliteração",
+      "desc": "Realiza diferentes ataques baseado na posição atual de Tartaglia. Posição à Distância - Clarão da Devastação: Causa $[D__KEY__DAMAGE_5] de Dano Hydro, recupera 2 de Carga e aplica Interceptação de Fluxo ao alvo. Posição Corpo-a-Corpo - Luz da Obliteração: causa 7 de Dano Hydro.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "Ondas Calmas",
+      "desc": "(Passiva) Quando a batalha começa, este personagem ganha Posição à Distância. Quando a Posição Corpo-a-Corpo aplicada ao personagem acaba, reaplica Posição à Distância.",
+      "skillTag": [
         "Habilidade Passiva"
       ],
       "points": []

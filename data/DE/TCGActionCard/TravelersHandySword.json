@@ -1,29 +1,44 @@
 {
-	"id": "TravelersHandySword",
-	"shareid": 143,
-	"name": "Reiseschwert",
-	"title": "Reisebegleiter – Reiseschwert",
-	"desc": "Ein praktisches Schwert aus Stahl, in dessen Scheide sich die verschiedensten Utensilien für die Reise befinden.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1.",
-	"attributes": {
-		"cost": 2,
-		"costType": "Würfel (gleich)",
-		"cardType": "Ausrüstungskarte",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Würfel (gleich)",
-				"count": 2
-			}
-		],
-		"source": "Vom anfänglichen Deck zu erhalten",
-		"tags": ["Waffe", "Einhänder"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1.(Nur für <span style=\"color:#FFFFFFFF\">Einhändernutzer anlegbar, und zwar max. 1 Waffe.)"
-		}
-	],
-	"version": "4.4"
+  "id": "TravelersHandySword",
+  "shareid": 143,
+  "name": "Reiseschwert",
+  "title": "Reisebegleiter – Reiseschwert",
+  "desc": "Ein praktisches Schwert aus Stahl, in dessen Scheide sich die verschiedensten Utensilien für die Reise befinden.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1</span>.",
+  "attributes": {
+    "cost": 2,
+    "costType": "Würfel (gleich)",
+    "cardType": "Ausrüstungskarte",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Würfel (gleich)",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Würfel (gleich)",
+        "count": 2
+      }
+    ],
+    "source": "Vom anfänglichen Deck zu erhalten",
+    "tags": [
+      "Waffe",
+      "Einhänder",
+      "Waffe",
+      "Einhänder"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "SCH durch die Figur +1.(Nur für Einhändernutzer anlegbar, und zwar max. 1 Waffe.)"
+    },
+    {
+      "name": "",
+      "desc": "SCH durch die Figur +1. (Nur für Einhändernutzer anlegbar, und zwar max. 1 Waffe.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 143
 }

@@ -12,6 +12,7 @@
     "weapon": "Diğer Silahlar",
     "faction": [
       "Canavar",
+      "Canavar",
       "Canavar"
     ],
     "source": null
@@ -81,6 +82,74 @@
       "name": "Element Emilimi",
       "desc": "(Pasif) Hiçbir element emilmediğinde ve bu karakter Element Hasarı aldığında o elementi emer.O element tarafından alınan Element Hasarı ise yarıya iner. (Hasar değeri yukarı yuvarlanır)",
       "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "CloseExpulsion",
+      "name": "Yakın Defetme",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Ani Hücum",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Enerji Dalgası",
+      "desc": "5 Fiziksel Hasar verir. Bu karakter, Element Enerjisi emdiğinde o elementi serbest bırakarak Hasarı 1 artırır ve emilen elemente göre Hasar türünü değiştirir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standart Zırh",
+      "desc": "(Pasif) Bu karakterin aldığı Fiziksel Hasar yarıya iner. (Hasar değeri yukarı yuvarlanır)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Element Emilimi",
+      "desc": "(Pasif) Hiçbir element emilmediğinde ve bu karakter Element Hasarı aldığında o elementi emer. O element tarafından alınan Element Hasarı ise yarıya iner. (Hasar değeri yukarı yuvarlanır)",
+      "skillTag": [
         "Pasif Beceri"
       ],
       "points": []

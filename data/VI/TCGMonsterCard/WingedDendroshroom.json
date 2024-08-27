@@ -1,75 +1,151 @@
 {
-	"id": "WingedDendroshroom",
-	"shareid": 3701,
-	"name": "Nấm Quỷ Có Cánh - Thảo",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Thảo",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Đạn Bào Tử",
-			"desc": "Gây 1 điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Nguyên Tố Thảo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RollingSpray",
-			"name": "Phun Trào",
-			"desc": "Gây 3 điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Nguyên Tố Thảo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Divebomb",
-			"name": "Xung Kích Hủy Diệt",
-			"desc": "Gây 5 điểm <span style=\"color:#7EC236FF\">Sát Thương Nguyên Tố Thảo.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Nguyên Tố Thảo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Đổi Trạng Thái",
-			"desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật ở trong trạng thái <span style=\"color:#FFFFFFFF\">Ưu Thế Trên Không.Nhân vật chịu phải <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa sẽ chuyển thành <span style=\"color:#FFFFFFFF\">Khô Héo.Nhân vật chịu phải <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi sẽ chuyển thành <span style=\"color:#FFFFFFFF\">Bung Nở.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "WingedDendroshroom",
+  "shareid": 3701,
+  "name": "Nấm Quỷ Có Cánh - Thảo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thảo",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Đạn Bào Tử",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thảo.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Phun Trào",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Thảo.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Xung Kích Hủy Diệt",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Thảo.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Đổi Trạng Thái",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật ở trong trạng thái Ưu Thế Trên Không.Nhân vật chịu phải Sát Thương Nguyên Tố Hỏa sẽ chuyển thành Khô Héo.Nhân vật chịu phải Sát Thương Nguyên Tố Lôi sẽ chuyển thành Bung Nở.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Đạn Bào Tử",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thảo.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Phun Trào",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Thảo.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Xung Kích Hủy Diệt",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Thảo.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Nguyên Tố Thảo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Đổi Trạng Thái",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật ở trong trạng thái Ưu Thế Trên Không. Nhân vật chịu phải Sát Thương Nguyên Tố Hỏa sẽ chuyển thành Khô Héo. Nhân vật chịu phải Sát Thương Nguyên Tố Lôi sẽ chuyển thành Bung Nở.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3701
 }

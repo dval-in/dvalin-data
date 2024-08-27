@@ -10,12 +10,63 @@
     "element": "无元素类型",
     "weapon": "其他武器",
     "faction": [
+      "魔物",
       "魔物"
     ],
     "source": null,
     "cardType": "角色牌"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "冲撞",
+      "desc": "造成1点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BrutalRam",
+      "name": "强劲冲撞",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingUp",
+      "name": "积蓄能量",
+      "desc": "造成3点物理伤害，此角色恢复到原本的「荒」/「芒」形态。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 1
+        }
+      ]
+    },
     {
       "id": "Ram",
       "name": "冲撞",

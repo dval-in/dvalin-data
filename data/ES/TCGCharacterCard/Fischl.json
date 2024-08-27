@@ -1,77 +1,142 @@
 {
-	"id": "Fischl",
-	"shareid": 26,
-	"name": "Fischl",
-	"title": "Fischl - La Princesa del Juicio",
-	"desc": "“¡Oz, mi familiar! ¡Bate tus alas y teje un nuevo destino para mí bajo el velo nocturno!”.\\n“Señorita, no me estará pidiendo que le pase una carta, ¿o sí?”.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 3,
-		"element": "Electro",
-		"weapon": "Arco",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "StellarPredator",
-			"name": "Stellar Predator"
-		},
-		"source": "Se obtiene tras retar y ganar a Fischl en un duelo amistoso en la taberna Cola de Gato",
-		"character": {
-			"id": "Fischl",
-			"name": "Fischl",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "BoltsOfDownfall",
-			"name": "Flecha del juicio",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Nightrider",
-			"name": "Vigía de la noche",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FFACFFFF\">Daño Electro e invoca a <span style=\"color:#FFFFFFFF\">Oz.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "MidnightPhantasmagoria",
-			"name": "Ilusión nocturna",
-			"desc": "Inflige 4 pts. de <span style=\"color:#FFACFFFF\">Daño Electro, así como 2 pts. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Daño Penetrante contra todos los personajes en reserva enemigos.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Fischl",
+  "shareid": 26,
+  "name": "Fischl",
+  "title": "Fischl - La Princesa del Juicio",
+  "desc": "“¡Oz, mi familiar! ¡Bate tus alas y teje un nuevo destino para mí bajo el velo nocturno!”.\\n“Señorita, no me estará pidiendo que le pase una carta, ¿o sí?”.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Arco",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "StellarPredator",
+      "name": "Stellar Predator"
+    },
+    "source": "Se obtiene tras retar y ganar a Fischl en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "BoltsOfDownfall",
+      "name": "Flecha del juicio",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Nightrider",
+      "name": "Vigía de la noche",
+      "desc": "Inflige 1 pt. de Daño Electro e invoca a Oz.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MidnightPhantasmagoria",
+      "name": "Ilusión nocturna",
+      "desc": "Inflige 4 pts. de Daño Electro, así como 2 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BoltsOfDownfall",
+      "name": "Flecha del juicio",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Nightrider",
+      "name": "Vigía de la noche",
+      "desc": "Inflige 1 pt. de Daño Electro e invoca a Oz.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MidnightPhantasmagoria",
+      "name": "Ilusión nocturna",
+      "desc": "Inflige 4 pts. de Daño Electro, así como 2 pts. de Daño Penetrante contra todos los personajes en reserva enemigos.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 26
 }

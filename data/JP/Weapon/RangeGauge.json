@@ -1,293 +1,588 @@
 {
-	"id": "RangeGauge",
-	"name": "\u30ec\u30f3\u30b8\u30b2\u30fc\u30b8",
-	"description": "\u4eca\u3067\u306f\u3001\u307b\u3068\u3093\u3069\u898b\u304b\u3051\u306a\u304f\u306a\u3063\u305f\u6e2c\u91cf\u30c4\u30fc\u30eb\u3002\u77e2\u3092\u653e\u3064\u6a5f\u80fd\u3092\u6301\u3063\u3066\u3044\u308b\u3002",
-	"rarity": 4,
-	"type": "\u5f13",
-	"domain": "\u6df1\u6f6e\u306e\u4f59\u97fb",
-	"passive": "\u77f3\u5de5\u306e\u5504",
-	"bonus": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+3%/4%/5%/6%/7%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+7%/8.5%/10%/11.5%/13%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u6483\u529b",
-		"secondary": "\u653b\u6483\u529b%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 44,
-				"secondary": 6
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 119,
-				"secondary": 10.6
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 144,
-				"secondary": 10.6
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 226,
-				"secondary": 15.4
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 252,
-				"secondary": 15.4
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 293,
-				"secondary": 17.9
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 319,
-				"secondary": 17.9
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 361,
-				"secondary": 20.3
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 387,
-				"secondary": 20.3
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 429,
-				"secondary": 22.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 455,
-				"secondary": 22.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 497,
-				"secondary": 25.1
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 523,
-				"secondary": 25.1
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 565,
-				"secondary": 27.6
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "FragmentOfAnAncientChord",
-					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u6b8b\u7ae0",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DropOfTaintedWater",
-					"name": "\u6fc1\u6c34\u306e\u3072\u3068\u3057\u305a\u304f",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "TransoceanicPearl",
-					"name": "\u7570\u6d77\u306e\u9732",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "ChapterOfAnAncientChord",
-					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u65ad\u7ae0",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "DropOfTaintedWater",
-					"name": "\u6fc1\u6c34\u306e\u3072\u3068\u3057\u305a\u304f",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "TransoceanicPearl",
-					"name": "\u7570\u6d77\u306e\u9732",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "ChapterOfAnAncientChord",
-					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u65ad\u7ae0",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ScoopOfTaintedWater",
-					"name": "\u6fc1\u6c34\u306e\u3072\u3068\u3059\u304f\u3044",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "\u7570\u6d77\u306e\u584a",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "MovementOfAnAncientChord",
-					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u697d\u7ae0",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "ScoopOfTaintedWater",
-					"name": "\u6fc1\u6c34\u306e\u3072\u3068\u3059\u304f\u3044",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "TransoceanicChunk",
-					"name": "\u7570\u6d77\u306e\u584a",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "MovementOfAnAncientChord",
-					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u697d\u7ae0",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "NewbornTaintedHydroPhantasm",
-					"name": "\u751f\u307e\u308c\u305f\u3066\u306e\u6fc1\u6c34\u5e7b\u970a",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "\u8272\u5909\u308f\u308a\u306e\u7d50\u6676",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "EchoOfAnAncientChord",
-					"name": "\u60a0\u4e45\u306e\u5f26\u306e\u97ff\u304d",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "NewbornTaintedHydroPhantasm",
-					"name": "\u751f\u307e\u308c\u305f\u3066\u306e\u6fc1\u6c34\u5e7b\u970a",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "XenochromaticCrystal",
-					"name": "\u8272\u5909\u308f\u308a\u306e\u7d50\u6676",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u77f3\u5de5\u306e\u5504",
-		"template": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+<span style=\"color:#99FFFFFF\">{1}\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002",
-		"params": [
-			["3%", "7%"],
-			["4%", "8.5%"],
-			["5%", "10%"],
-			["6%", "11.5%"],
-			["7%", "13%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+3%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+7%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+4%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+8.5%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+5%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+10%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+6%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+11.5%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u6cbb\u7642\u52b9\u679c\u3092\u53d7\u3051\u308b\u3001\u307e\u305f\u306f\u6cbb\u7642\u52b9\u679c\u3092\u4e0e\u3048\u308b\u6642\u3001\u56e3\u7d50\u30de\u30fc\u30af\u304c1\u679a\u4ed8\u4e0e\u3055\u308c\u308b\u3002\u7d99\u7d9a\u6642\u959330\u79d2\u3001\u6700\u59273\u679a\u307e\u3067\u3002\u5143\u7d20\u30b9\u30ad\u30eb\u3001\u307e\u305f\u306f\u5143\u7d20\u7206\u767a\u3092\u767a\u52d5\u3059\u308b\u6642\u3001\u3059\u3079\u3066\u306e\u56e3\u7d50\u30de\u30fc\u30af\u3092\u6d88\u8cbb\u3057\u3001\u7d99\u7d9a\u6642\u959310\u79d2\u306e\u300c\u6297\u4e89\u300d\u52b9\u679c\u3092\u7372\u5f97\u3059\u308b\u3002\u6d88\u8cbb\u3057\u305f\u56e3\u7d50\u30de\u30fc\u30af1\u679a\u306b\u3064\u304d\u3001\u653b\u6483\u529b+7%\u3001\u5168\u5143\u7d20\u30c0\u30e1\u30fc\u30b8+13%\u3002\u300c\u6297\u4e89\u300d\u52b9\u679c\u306f15\u79d2\u306b1\u56de\u306e\u307f\u767a\u52d5\u53ef\u80fd\u3002\u30ad\u30e3\u30e9\u30af\u30bf\u30fc\u304c\u5f85\u6a5f\u4e2d\u3067\u3082\u56e3\u7d50\u30de\u30fc\u30af\u3092\u7372\u5f97\u3067\u304d\u308b\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/RangeGauge/Icon.webp"
-	}
+  "id": "RangeGauge",
+  "name": "レンジゲージ",
+  "description": "今では、ほとんど見かけなくなった測量ツール。矢を放つ機能を持っている。",
+  "rarity": 4,
+  "type": "弓",
+  "domain": "深潮の余韻",
+  "passive": "石工の唄",
+  "bonus": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+3%/4%/5%/6%/7%、全元素ダメージ+7%/8.5%/10%/11.5%/13%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "攻撃力%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FragmentOfAnAncientChord",
+          "name": "悠久の弦の残章",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DropOfTaintedWater",
+          "name": "濁水のひとしずく",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "異海の露",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChapterOfAnAncientChord",
+          "name": "悠久の弦の断章",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DropOfTaintedWater",
+          "name": "濁水のひとしずく",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "異海の露",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ChapterOfAnAncientChord",
+          "name": "悠久の弦の断章",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ScoopOfTaintedWater",
+          "name": "濁水のひとすくい",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "異海の塊",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MovementOfAnAncientChord",
+          "name": "悠久の弦の楽章",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "ScoopOfTaintedWater",
+          "name": "濁水のひとすくい",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "異海の塊",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "MovementOfAnAncientChord",
+          "name": "悠久の弦の楽章",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "NewbornTaintedHydroPhantasm",
+          "name": "生まれたての濁水幻霊",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "色変わりの結晶",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "EchoOfAnAncientChord",
+          "name": "悠久の弦の響き",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "NewbornTaintedHydroPhantasm",
+          "name": "生まれたての濁水幻霊",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "色変わりの結晶",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FragmentOfAnAncientChord",
+          "name": "悠久の弦の残章",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DropOfTaintedWater",
+          "name": "濁水のひとしずく",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "異海の露",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChapterOfAnAncientChord",
+          "name": "悠久の弦の断章",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DropOfTaintedWater",
+          "name": "濁水のひとしずく",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "TransoceanicPearl",
+          "name": "異海の露",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ChapterOfAnAncientChord",
+          "name": "悠久の弦の断章",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ScoopOfTaintedWater",
+          "name": "濁水のひとすくい",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "異海の塊",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MovementOfAnAncientChord",
+          "name": "悠久の弦の楽章",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "ScoopOfTaintedWater",
+          "name": "濁水のひとすくい",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "TransoceanicChunk",
+          "name": "異海の塊",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "MovementOfAnAncientChord",
+          "name": "悠久の弦の楽章",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "NewbornTaintedHydroPhantasm",
+          "name": "生まれたての濁水幻霊",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "色変わりの結晶",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "EchoOfAnAncientChord",
+          "name": "悠久の弦の響き",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "NewbornTaintedHydroPhantasm",
+          "name": "生まれたての濁水幻霊",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "XenochromaticCrystal",
+          "name": "色変わりの結晶",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+3%、全元素ダメージ+7%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 2,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+4%、全元素ダメージ+8.5%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 3,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+5%、全元素ダメージ+10%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 4,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+6%、全元素ダメージ+11.5%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 5,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+7%、全元素ダメージ+13%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 1,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+3%、全元素ダメージ+7%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 2,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+4%、全元素ダメージ+8.5%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 3,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+5%、全元素ダメージ+10%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 4,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+6%、全元素ダメージ+11.5%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    },
+    {
+      "refinement": 5,
+      "desc": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+7%、全元素ダメージ+13%。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/RangeGauge/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "石工の唄",
+    "template": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+<span style=\"color:#99FFFFFF\">{0}</span>、全元素ダメージ+<span style=\"color:#99FFFFFF\">{1}</span>。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。",
+    "params": [
+      [
+        "3%",
+        "7%"
+      ],
+      [
+        "4%",
+        "8.5%"
+      ],
+      [
+        "5%",
+        "10%"
+      ],
+      [
+        "6%",
+        "11.5%"
+      ],
+      [
+        "7%",
+        "13%"
+      ],
+      [
+        "3%",
+        "7%"
+      ],
+      [
+        "4%",
+        "8.5%"
+      ],
+      [
+        "5%",
+        "10%"
+      ],
+      [
+        "6%",
+        "11.5%"
+      ],
+      [
+        "7%",
+        "13%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

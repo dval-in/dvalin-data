@@ -1,84 +1,160 @@
 {
-	"id": "Mona",
-	"shareid": 11,
-	"name": "Mona",
-	"title": "Thủy Kính Thiên Tinh - Mona",
-	"desc": "Dù là thắng hay thua, cũng đều do số phận.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 3,
-		"element": "Nguyên Tố Thủy",
-		"weapon": "Pháp Khí",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "ProphecyOfSubmersion",
-			"name": "Prophecy of Submersion"
-		},
-		"source": "Nhận được sau khi mời Mona giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
-		"character": {
-			"id": "Mona",
-			"name": "Mona",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "RippleOfFate",
-			"name": "Điểm Hóa Nhân Quả",
-			"desc": "Gây 1 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Nguyên Tố Thủy",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MirrorReflectionOfDoom",
-			"name": "Ảo Vọng Dưới Nước",
-			"desc": "Gây 1 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy, triệu hồi <span style=\"color:#FFFFFFFF\">Hư Ảnh.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Nguyên Tố Thủy",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StellarisPhantasm",
-			"name": "Quỹ Đạo Tinh Mệnh",
-			"desc": "Gây 4 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy, tạo ra <span style=\"color:#FFFFFFFF\">Hư Vô.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Nguyên Tố Thủy",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IllusoryTorrent",
-			"name": "Dòng Chảy Ảo",
-			"desc": "(Bị động) <span style=\"color:#FFFFFFFF\">Nhân vật này là nhân vật xuất chiến, khi phe ta đổi nhân vật: Lần thay đổi này xem như <span style=\"color:#FFFFFFFF\">Hành Động Nhanh, không phải <span style=\"color:#FFFFFFFF\">Hành Động Chiến Đấu. (Mỗi hiệp 1 lần)",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "Mona",
+  "shareid": 11,
+  "name": "Mona",
+  "title": "Thủy Kính Thiên Tinh - Mona",
+  "desc": "Dù là thắng hay thua, cũng đều do số phận.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Pháp Khí",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "ProphecyOfSubmersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": "Nhận được sau khi mời Mona giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+    "character": {
+      "id": "Mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "RippleOfFate",
+      "name": "Điểm Hóa Nhân Quả",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MirrorReflectionOfDoom",
+      "name": "Ảo Vọng Dưới Nước",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thủy, triệu hồi Hư Ảnh.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StellarisPhantasm",
+      "name": "Quỹ Đạo Tinh Mệnh",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Thủy, tạo ra Hư Vô.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IllusoryTorrent",
+      "name": "Dòng Chảy Ảo",
+      "desc": "(Bị động) Nhân vật này là nhân vật xuất chiến, khi phe ta đổi nhân vật: Lần thay đổi này xem như Hành Động Nhanh, không phải Hành Động Chiến Đấu. (Mỗi hiệp 1 lần)",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "RippleOfFate",
+      "name": "Điểm Hóa Nhân Quả",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MirrorReflectionOfDoom",
+      "name": "Ảo Vọng Dưới Nước",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thủy, triệu hồi Hư Ảnh.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StellarisPhantasm",
+      "name": "Quỹ Đạo Tinh Mệnh",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Thủy, tạo ra Hư Vô.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IllusoryTorrent",
+      "name": "Dòng Chảy Ảo",
+      "desc": "(Bị động) Nhân vật này là nhân vật xuất chiến, khi phe ta đổi nhân vật: Lần thay đổi này xem như Hành Động Nhanh, không phải Hành Động Chiến Đấu. (Mỗi hiệp 1 lần)",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 11
 }

@@ -1,287 +1,578 @@
 {
-	"id": "RoyalSpear",
-	"name": "Lance de chasse royale",
-	"description": "Cette arme d'hast \u00e9tait autrefois ch\u00e9rie par l'un des nobles gouvernant Mondstadt, il y a de cela longtemps. Elle n'a sans doute jamais vu la lumi\u00e8re du jour, et est toujours particuli\u00e8rement aiguis\u00e9e.",
-	"rarity": 4,
-	"type": "Arme d'hast",
-	"domain": "Palais secret de Lianshan",
-	"passive": "Focus",
-	"bonus": "Augmente le taux CRIT de 8 %/10 %/12 %/14 %/16 % \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT.",
-	"stats": {
-		"primary": "ATQ de base",
-		"secondary": "ATQ%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 44,
-				"secondary": 6
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 119,
-				"secondary": 10.6
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 144,
-				"secondary": 10.6
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 226,
-				"secondary": 15.4
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 252,
-				"secondary": 15.4
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 293,
-				"secondary": 17.9
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 319,
-				"secondary": 17.9
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 361,
-				"secondary": 20.3
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 387,
-				"secondary": 20.3
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 429,
-				"secondary": 22.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 455,
-				"secondary": 22.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 497,
-				"secondary": 25.1
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 523,
-				"secondary": 25.1
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 565,
-				"secondary": 27.6
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "MistVeiledLeadElixir",
-					"name": "Plomb karstique",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "MistGrassPollen",
-					"name": "Pollen d'herbe brumeuse",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "RecruitsInsignia",
-					"name": "Insigne de nouvelle recrue",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "Mercure karstique",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "MistGrassPollen",
-					"name": "Pollen d'herbe brumeuse",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "RecruitsInsignia",
-					"name": "Insigne de nouvelle recrue",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "Mercure karstique",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "MistGrass",
-					"name": "Herbe brumeuse",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "SergeantsInsignia",
-					"name": "Insigne de sergent",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "Argent karstique",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "MistGrass",
-					"name": "Herbe brumeuse",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "SergeantsInsignia",
-					"name": "Insigne de sergent",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "Argent karstique",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "MistGrassWick",
-					"name": "M\u00e8ches d'herbe brumeuse",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "LieutenantsInsignia",
-					"name": "Insigne d'officier",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "MistVeiledPrimoElixir",
-					"name": "Or karstique",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "MistGrassWick",
-					"name": "M\u00e8ches d'herbe brumeuse",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "LieutenantsInsignia",
-					"name": "Insigne d'officier",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Focus",
-		"template": "Augmente le taux CRIT de <span style=\"color:#99FFFFFF\">{0} \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT.",
-		"params": [["8 %"], ["10 %"], ["12 %"], ["14 %"], ["16 %"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Augmente le taux CRIT de 8 % \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT."
-		},
-		{
-			"refinement": 2,
-			"desc": "Augmente le taux CRIT de 10 % \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT."
-		},
-		{
-			"refinement": 3,
-			"desc": "Augmente le taux CRIT de 12 % \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT."
-		},
-		{
-			"refinement": 4,
-			"desc": "Augmente le taux CRIT de 14 % \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT."
-		},
-		{
-			"refinement": 5,
-			"desc": "Augmente le taux CRIT de 16 % \u00e0 chaque attaque qui cause des DGT \u00e0 un ennemi. Cet effet peut \u00eatre cumul\u00e9 5 fois maximum et est r\u00e9initialis\u00e9 lors d'un coup CRIT."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/RoyalSpear/Icon.webp"
-	}
+  "id": "RoyalSpear",
+  "name": "Lance de chasse royale",
+  "description": "Cette arme d'hast était autrefois chérie par l'un des nobles gouvernant Mondstadt, il y a de cela longtemps. Elle n'a sans doute jamais vu la lumière du jour, et est toujours particulièrement aiguisée.",
+  "rarity": 4,
+  "type": "Arme d'hast",
+  "domain": "Palais secret de Lianshan",
+  "passive": "Focus",
+  "bonus": "Augmente le taux CRIT de 8 %/10 %/12 %/14 %/16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "ATQ%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 119,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 144,
+        "secondary": 10.6
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 226,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 252,
+        "secondary": 15.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 293,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 319,
+        "secondary": 17.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 361,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 387,
+        "secondary": 20.3
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 429,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 455,
+        "secondary": 22.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 497,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 523,
+        "secondary": 25.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 565,
+        "secondary": 27.6
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "Plomb karstique",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "Pollen d'herbe brumeuse",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Insigne de nouvelle recrue",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mercure karstique",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "Pollen d'herbe brumeuse",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Insigne de nouvelle recrue",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mercure karstique",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrass",
+          "name": "Herbe brumeuse",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insigne de sergent",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Argent karstique",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrass",
+          "name": "Herbe brumeuse",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insigne de sergent",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Argent karstique",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "Mèches d'herbe brumeuse",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insigne d'officier",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "Or karstique",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "Mèches d'herbe brumeuse",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insigne d'officier",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "Plomb karstique",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "Pollen d'herbe brumeuse",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Insigne de nouvelle recrue",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mercure karstique",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrassPollen",
+          "name": "Pollen d'herbe brumeuse",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "RecruitsInsignia",
+          "name": "Insigne de nouvelle recrue",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mercure karstique",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "MistGrass",
+          "name": "Herbe brumeuse",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insigne de sergent",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Argent karstique",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrass",
+          "name": "Herbe brumeuse",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "SergeantsInsignia",
+          "name": "Insigne de sergent",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Argent karstique",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "Mèches d'herbe brumeuse",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insigne d'officier",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "Or karstique",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "MistGrassWick",
+          "name": "Mèches d'herbe brumeuse",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "LieutenantsInsignia",
+          "name": "Insigne d'officier",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 2,
+      "desc": "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 3,
+      "desc": "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 4,
+      "desc": "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 5,
+      "desc": "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 1,
+      "desc": "Augmente le taux CRIT de 8 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 2,
+      "desc": "Augmente le taux CRIT de 10 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 3,
+      "desc": "Augmente le taux CRIT de 12 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 4,
+      "desc": "Augmente le taux CRIT de 14 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    },
+    {
+      "refinement": 5,
+      "desc": "Augmente le taux CRIT de 16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/RoyalSpear/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Focus",
+    "template": "Augmente le taux CRIT de <span style=\"color:#99FFFFFF\">{0}</span> à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+    "params": [
+      [
+        "8 %"
+      ],
+      [
+        "10 %"
+      ],
+      [
+        "12 %"
+      ],
+      [
+        "14 %"
+      ],
+      [
+        "16 %"
+      ],
+      [
+        "8 %"
+      ],
+      [
+        "10 %"
+      ],
+      [
+        "12 %"
+      ],
+      [
+        "14 %"
+      ],
+      [
+        "16 %"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

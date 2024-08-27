@@ -10,12 +10,77 @@
     "element": "Pyro",
     "weapon": "Arme d'hast",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "Récompense pour avoir invité Chevreuse à une partie amicale dans La Queue de Chat et remporté la victoire",
     "cardType": "Carte de personnage"
   },
   "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "Pique de baïonnette (modifiée)",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "Tir de suppression rapide à courte portée",
+      "desc": "Inflige 2 pts de DGT Pyro. Après le calcul de la capacité : Si votre main contient une ou plusieurs cartes [Cartouche surchargée], défausse 1 carte et soigne votre personnage ayant subi le plus de DGT pour 1 pt.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "Anneau de grenades éclatantes",
+      "desc": "Inflige 2 pts de DGT Pyro et crée un obus explosif secondaire sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "Agencement vertical",
+      "desc": "(Passif) Lorsqu'un personnage adverse a subi des DGT d'une réaction de Surcharge : Crée une carte [Cartouche surchargée] dans votre main. (1 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
     {
       "id": "LineBayonetThrustEx",
       "name": "Pique de baïonnette (modifiée)",

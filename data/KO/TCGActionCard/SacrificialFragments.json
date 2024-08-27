@@ -1,28 +1,43 @@
 {
-	"id": "SacrificialFragments",
-	"shareid": 122,
-	"name": "제례의 악장",
-	"title": "침착·제례의 악장",
-	"desc": "오랜 역사를 지닌 악보. 안에 적힌 찬송가는 더 이상 알아볼 수가 없다",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">캐릭터가 주는 피해+1pt<span style=\"color:#FFFFFFFF\">캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)",
-	"attributes": {
-		"cost": 3,
-		"costType": "동일한 원소",
-		"cardType": "장비 카드",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "동일한 원소",
-				"count": 3
-			}
-		],
-		"tags": ["무기", "법구"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">캐릭터가 주는 피해+1pt<span style=\"color:#FFFFFFFF\">캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)(<span style=\"color:#FFFFFFFF\">「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)"
-		}
-	],
-	"version": "4.4"
+  "id": "SacrificialFragments",
+  "shareid": 122,
+  "name": "제례의 악장",
+  "title": "침착·제례의 악장",
+  "desc": "오랜 역사를 지닌 악보. 안에 적힌 찬송가는 더 이상 알아볼 수가 없다",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">캐릭터가 주는 피해+1pt</span><br/><span style=\"color:#FFFFFFFF\">캐릭터가 「원소전투 스킬」 사용 후:</span> 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)",
+  "attributes": {
+    "cost": 3,
+    "costType": "동일한 원소",
+    "cardType": "장비 카드",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "동일한 원소",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "동일한 원소",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "무기",
+      "법구",
+      "무기",
+      "법구"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "캐릭터가 주는 피해+1pt캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회)(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)"
+    },
+    {
+      "name": "",
+      "desc": "캐릭터가 주는 피해+1pt 캐릭터가 「원소전투 스킬」 사용 후: 해당 캐릭터와 동일한 타입의 원소 주사위를 1개 생성한다. (턴당 1회) (「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 122
 }

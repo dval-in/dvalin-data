@@ -1,77 +1,142 @@
 {
-	"id": "Baizhu",
-	"shareid": 51,
-	"name": "Бай Чжу",
-	"title": "«Преодоление бренности» Бай Чжу",
-	"desc": "Живя со многими недугами, где найти исцеление?",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Дендро",
-		"weapon": "Катализатор",
-		"faction": ["Ли Юэ"],
-		"talentCard": {
-			"id": "AllThingsAreOfTheEarth",
-			"name": "All Things Are of the Earth"
-		},
-		"source": "Награда за приглашение Бай Чжу в «Кошкин хвост» и победу в Дружеской дуэли",
-		"character": {
-			"id": "Baizhu",
-			"name": "Baizhu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TheClassicsOfAcupuncture",
-			"name": "Классика иглоукалывания",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "UniversalDiagnosis",
-			"name": "Универсальная диагностика",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 1 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Летучий дух.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HolisticRevivification",
-			"name": "Целостное восстановление",
-			"desc": "Создаются <span style=\"color:#FFFFFFFF\">Пульсирующая ясность и <span style=\"color:#FFFFFFFF\">Бесшовный щит (по 1).",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Baizhu",
+  "shareid": 51,
+  "name": "Бай Чжу",
+  "title": "«Преодоление бренности» Бай Чжу",
+  "desc": "Живя со многими недугами, где найти исцеление?",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Катализатор",
+    "faction": [
+      "Ли Юэ",
+      "Ли Юэ"
+    ],
+    "talentCard": {
+      "id": "AllThingsAreOfTheEarth",
+      "name": "All Things Are of the Earth"
+    },
+    "source": "Награда за приглашение Бай Чжу в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Baizhu",
+      "name": "Baizhu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheClassicsOfAcupuncture",
+      "name": "Классика иглоукалывания",
+      "desc": "Наносит Дендро урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalDiagnosis",
+      "name": "Универсальная диагностика",
+      "desc": "Наносит Дендро урон, 1 ед. Призывает помощника: Летучий дух.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HolisticRevivification",
+      "name": "Целостное восстановление",
+      "desc": "Создаются Пульсирующая ясность и Бесшовный щит (по 1).",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TheClassicsOfAcupuncture",
+      "name": "Классика иглоукалывания",
+      "desc": "Наносит Дендро урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalDiagnosis",
+      "name": "Универсальная диагностика",
+      "desc": "Наносит Дендро урон, 1 ед. Призывает помощника: Летучий дух.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HolisticRevivification",
+      "name": "Целостное восстановление",
+      "desc": "Создаются Пульсирующая ясность и Бесшовный щит (по 1).",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 51
 }

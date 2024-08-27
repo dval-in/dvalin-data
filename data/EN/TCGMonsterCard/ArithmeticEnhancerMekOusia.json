@@ -10,12 +10,81 @@
     "element": "No Elemental Type",
     "weapon": "Other Weapons",
     "faction": [
+      "Monster",
       "Monster"
     ],
     "source": null,
     "cardType": "Character Card"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Ram",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "Energy Boost: Ousia",
+      "desc": "Deals 2 Physical DMG. This character gains Energy Boost: Ousia.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "Energy Burst: Ousia",
+      "desc": "Deals 3 Physical DMG. This character gains Energy Boost: Ousia.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "Frame Enhancement: Ousia",
+      "desc": "Your characters deal +1 DMG.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Ousia",
+      "desc": "After being damaged by characters with \"Arkhe: Pneuma,\" this character will become Deactivated, and cannot use skills until this Round ends.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "Ram",

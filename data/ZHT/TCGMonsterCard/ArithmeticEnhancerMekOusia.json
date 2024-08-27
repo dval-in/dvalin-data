@@ -10,12 +10,81 @@
     "element": "無元素類型",
     "weapon": "其他武器",
     "faction": [
+      "魔物",
       "魔物"
     ],
     "source": null,
     "cardType": "角色牌"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "衝撞",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "能量增幅·荒",
+      "desc": "造成2點物理傷害，本角色附屬能量強化·荒。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "能量爆轟·荒",
+      "desc": "造成3點物理傷害，本角色附屬能量強化·荒。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "機體強化·荒",
+      "desc": "我方角色造成的傷害+1。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "能源特徵：荒性",
+      "desc": "受到具有「始基力：芒性」的角色造成的傷害後：此角色轉換為「失能形態」，並且直到本回合結束前無法使用技能。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "衝撞",

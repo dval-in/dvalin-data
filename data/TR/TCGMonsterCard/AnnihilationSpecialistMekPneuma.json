@@ -10,12 +10,86 @@
     "element": "Elektrik",
     "weapon": "Diğer Silahlar",
     "faction": [
+      "Canavar",
       "Canavar"
     ],
     "source": null,
     "cardType": "Karakter Kartı"
   },
   "skills": [
+    {
+      "id": "PiercingBlow",
+      "name": "Delici Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningRaid",
+      "name": "Yıldırım Baskını",
+      "desc": "3 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeapingThunder",
+      "name": "Sıçrayan Şimşek",
+      "desc": "5 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupportUnitPneuma",
+      "name": "Destek Birimi: Ruh",
+      "desc": "(Pasif) Savaş başladığında 1 Bölge Uyarı Mekası - Ruh oluşur.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Arkhe: Ruh",
+      "desc": "\"Arkhe: Öz\"e sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
     {
       "id": "PiercingBlow",
       "name": "Delici Darbe",

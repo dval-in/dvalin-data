@@ -10,12 +10,77 @@
     "element": "Pyro",
     "weapon": "Stangenwaffe",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "Nach einem gewonnenen „Duell – Nett“ mit Chevreuse in der Taverne Zum Katzenschwanz zu erhalten.",
     "cardType": "Figurenkarte"
   },
   "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "Bajonettangriff der Lineartaktik – Modifiziert",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "Schnelles Unterdrückungsfeuer auf kurze Distanz",
+      "desc": "Verursacht 2 Pkt. Pyro-SCH. Nach Auswertung dieser Fähigkeit: Wenn du Überladene Kugel in der Hand hast, wird 1 davon abgeworfen; stellt dabei deiner Figur, die den meisten SCH erlitten hat, 1 LP wieder her.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "Kreisförmiger Kartätschenangriff",
+      "desc": "Verursacht 2 Pkt. Pyro-SCH, erschafft auf dem Feld des Gegners 1 Sekundäres Explosivgeschoss.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "Vertikale Kraftkoordination",
+      "desc": "Passiv – Nachdem eine Figur des Gegners SCH durch Überladen erlitten hat: Erschafft 1 Überladene Kugel auf deiner Hand (1-mal pro Runde).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
     {
       "id": "LineBayonetThrustEx",
       "name": "Bajonettangriff der Lineartaktik – Modifiziert",

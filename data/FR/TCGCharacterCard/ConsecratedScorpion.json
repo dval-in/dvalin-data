@@ -11,6 +11,8 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre",
+      "Bête sacralisée",
+      "Monstre",
       "Bête sacralisée"
     ],
     "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Scorpion sacralisé",
@@ -56,6 +58,70 @@
       "id": "ThunderboreBlast",
       "name": "Dispersion tonitruante",
       "desc": "Inflige 3 pts de DGT Électro, défausse un maximum de 3 cartes [Bloc d'énergie phagocytaire] depuis votre main et crée un piège à tonnerre sur le terrain adverse.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "Reste immortel Électro",
+      "desc": "(Passif) À la fin de la manche : Crée 2 cartes [Bloc d'énergie phagocytaire] et les place aléatoirement parmi les 10 premières positions du dessus de votre deck.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ScorpionStrike",
+      "name": "Pince de scorpion",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "Dard de scorpion",
+      "desc": "Inflige 3 pts de DGT physiques. Crée 1 carte [Bloc d'énergie phagocytaire] et la place aléatoirement parmi les 2 premières positions du dessus de votre deck.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "Dispersion tonitruante",
+      "desc": "Inflige 3 pts de DGT physiques, défausse un maximum de 3 cartes [Bloc d'énergie phagocytaire] depuis votre main et crée un piège à tonnerre sur le terrain adverse.",
       "skillTag": [
         "Déchaînement élémentaire"
       ],

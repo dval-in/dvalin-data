@@ -1,63 +1,123 @@
 {
-	"id": "SuppressionSpecialistMek",
-	"shareid": 3007,
-	"name": "Mecaespecialista Inhibidor",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Sin tipo elemental",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "LongrangeFire",
-			"name": "Fuego a distancia",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RetreatingFire",
-			"name": "Disparo de retirada",
-			"desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico y tu personaje cambia al siguiente.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Dados unielementales",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BurstFire",
-			"name": "Disparo explosivo",
-			"desc": "Inflige 4 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Dados unielementales",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMek",
+  "shareid": 3007,
+  "name": "Mecaespecialista Inhibidor",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Sin tipo elemental",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Monstruo"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "LongrangeFire",
+      "name": "Fuego a distancia",
+      "desc": "Inflige 1 pt. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Disparo de retirada",
+      "desc": "Inflige 3 pts. de Daño Físico y tu personaje cambia al siguiente.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Disparo explosivo",
+      "desc": "Inflige 4 pts. de Daño Físico.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LongrangeFire",
+      "name": "Fuego a distancia",
+      "desc": "Inflige 1 pt. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Disparo de retirada",
+      "desc": "Inflige 3 pts. de Daño Físico y tu personaje cambia al siguiente.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Disparo explosivo",
+      "desc": "Inflige 4 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3007
 }

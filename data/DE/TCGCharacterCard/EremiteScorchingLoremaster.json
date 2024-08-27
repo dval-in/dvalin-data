@@ -12,6 +12,7 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Goldbrigade",
+      "Goldbrigade",
       "Goldbrigade"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Dämonische Kraft des Geistes",
       "desc": "Passiv – Nach Erleiden von SCH durch die Figur: Erhält 1 Pkt. Aufladung, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
       "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "SearingGlare",
+      "name": "Sengender Glanz",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingStrike",
+      "name": "Ansturm der Flammenkristalle",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningPyroScorpion",
+      "name": "Erwachen des Geistes – Feuerskorpion",
+      "desc": "Verursacht 2 Pkt. Pyro-SCH, erschafft 1 Geist – Feuerskorpion.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Dämonische Kraft des Geistes",
+      "desc": "Passiv – Nachdem die Figur SCH erlitten hat: Erhält 1 Pkt. Aufladung, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
+      "skillTag": [
         "Passive Fähigkeit"
       ],
       "points": []

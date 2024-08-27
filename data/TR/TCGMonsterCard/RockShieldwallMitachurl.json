@@ -1,75 +1,153 @@
 {
-	"id": "RockShieldwallMitachurl",
-	"shareid": 3601,
-	"name": "Taş Kalkanlı Dağ Azmanı",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Toprak",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar", "Dağ Yabanisi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "PlataPlama",
-			"name": "Plata Plama",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DaPlama",
-			"name": "Da Plama",
-			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "AbaMovo",
-			"name": "Aba Movo",
-			"desc": "5 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CraggyGreatshield",
-			"name": "Taş Büyük Kalkan",
-			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Taş Büyük Kalkan etkisi kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "RockShieldwallMitachurl",
+  "shareid": 3601,
+  "name": "Taş Kalkanlı Dağ Azmanı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi",
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "PlataPlama",
+      "name": "Plata Plama",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DaPlama",
+      "name": "Da Plama",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AbaMovo",
+      "name": "Aba Movo",
+      "desc": "5 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CraggyGreatshield",
+      "name": "Taş Büyük Kalkan",
+      "desc": "(Pasif) Savaş başladığında bu karakter Taş Büyük Kalkan etkisi kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "PlataPlama",
+      "name": "Plata Plama",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DaPlama",
+      "name": "Da Plama",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AbaMovo",
+      "name": "Aba Movo",
+      "desc": "5 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CraggyGreatshield",
+      "name": "Taş Büyük Kalkan",
+      "desc": "(Pasif) Savaş başladığında bu karakter Taş Büyük Kalkan etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3601
 }

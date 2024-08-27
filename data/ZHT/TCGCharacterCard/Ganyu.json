@@ -1,90 +1,172 @@
 {
-	"id": "Ganyu",
-	"shareid": 1,
-	"name": "甘雨",
-	"title": "循循守月·甘雨",
-	"desc": "「既然是明早前要，那這份新聞稿，只要熬夜寫完就好。」",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "冰元素",
-		"weapon": "弓",
-		"faction": ["璃月"],
-		"talentCard": {
-			"id": "UndividedHeart",
-			"name": "Undivided Heart"
-		},
-		"source": "在貓尾酒館中邀請甘雨進行對局，在友好對局難度中取得勝利後獲得",
-		"character": {
-			"id": "Ganyu",
-			"name": "Ganyu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "LiutianArchery",
-			"name": "流天射術",
-			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TrailOfTheQilin",
-			"name": "山澤麟跡",
-			"desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害，生成<span style=\"color:#FFFFFFFF\">冰蓮。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostflakeArrow",
-			"name": "霜華矢",
-			"desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害，對所有敵方後臺角色造成2點<span style=\"color:#FFFFFFFF\">穿透傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "CelestialShower",
-			"name": "降眾天華",
-			"desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害，對所有敵方後臺角色造成1點<span style=\"color:#FFFFFFFF\">穿透傷害，召喚<span style=\"color:#FFFFFFFF\">冰靈珠。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Ganyu",
+  "shareid": 1,
+  "name": "甘雨",
+  "title": "循循守月·甘雨",
+  "desc": "「既然是明早前要，那這份新聞稿，只要熬夜寫完就好。」",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "弓",
+    "faction": [
+      "璃月",
+      "璃月"
+    ],
+    "talentCard": {
+      "id": "UndividedHeart",
+      "name": "Undivided Heart"
+    },
+    "source": "在貓尾酒館中邀請甘雨進行對局，在友好對局難度中取得勝利後獲得",
+    "character": {
+      "id": "Ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "LiutianArchery",
+      "name": "流天射術",
+      "desc": "造成2點物理傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "山澤麟跡",
+      "desc": "造成1點冰元素傷害，生成冰蓮。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "霜華矢",
+      "desc": "造成2點冰元素傷害，對所有敵方後臺角色造成2點穿透傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "降眾天華",
+      "desc": "造成2點冰元素傷害，對所有敵方後臺角色造成1點穿透傷害，召喚冰靈珠。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LiutianArchery",
+      "name": "流天射術",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "山澤麟跡",
+      "desc": "造成1點冰元素傷害，生成冰蓮。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "霜華矢",
+      "desc": "造成2點冰元素傷害，對所有敵方後臺角色造成2點穿透傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "降眾天華",
+      "desc": "造成2點冰元素傷害，對所有敵方後臺角色造成1點穿透傷害，召喚冰靈珠。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 1
 }

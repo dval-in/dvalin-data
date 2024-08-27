@@ -1,75 +1,151 @@
 {
-	"id": "WingedDendroshroom",
-	"shareid": 3701,
-	"name": "Winged Dendroshroom",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Character Card",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Other Weapons",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Spore Bullet",
-			"desc": "Deals 1 <span style=\"color:#7EC236FF\">Dendro DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Unaligned Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RollingSpray",
-			"name": "Rolling Spray",
-			"desc": "Deals 3 <span style=\"color:#7EC236FF\">Dendro DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Divebomb",
-			"name": "Divebomb",
-			"desc": "Deals 5 <span style=\"color:#7EC236FF\">Dendro DMG.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "State Change",
-			"desc": "(Passive) When the battle begins, the character will be in a <span style=\"color:#FFFFFFFF\">Aerial Superiority.After this character takes <span style=\"color:#FF9999FF\">Pyro DMG, it will become <span style=\"color:#FFFFFFFF\">Scorched.After this character takes <span style=\"color:#FFACFFFF\">Electro DMG, it will become <span style=\"color:#FFFFFFFF\">Activated.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "WingedDendroshroom",
+  "shareid": 3701,
+  "name": "Winged Dendroshroom",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Character Card",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Spore Bullet",
+      "desc": "Deals 1 Dendro DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Rolling Spray",
+      "desc": "Deals 3 Dendro DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Divebomb",
+      "desc": "Deals 5 Dendro DMG.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "State Change",
+      "desc": "(Passive) When the battle begins, the character will be in a Aerial Superiority.After this character takes Pyro DMG, it will become Scorched.After this character takes Electro DMG, it will become Activated.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Spore Bullet",
+      "desc": "Deals 1 Dendro DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Rolling Spray",
+      "desc": "Deals 3 Dendro DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Divebomb",
+      "desc": "Deals 5 Dendro DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "State Change",
+      "desc": "(Passive) When the battle begins, the character will be in a Aerial Superiority. After this character takes Pyro DMG, it will become Scorched. After this character takes Electro DMG, it will become Activated.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3701
 }

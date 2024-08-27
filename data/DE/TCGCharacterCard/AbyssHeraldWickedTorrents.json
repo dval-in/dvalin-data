@@ -11,6 +11,7 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "source": "Nach einem gewonnenen „Duell – Nett“ mit dem Abgrundboten – Reißender Strom in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
@@ -25,6 +26,70 @@
     }
   },
   "skills": [
+    {
+      "id": "RipplingSlash",
+      "name": "Kräuselnde Klingen",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VortexEdge",
+      "name": "Wirbelnde Schneide",
+      "desc": "Verursacht 2 Pkt. Hydro-SCH, bereitet folgende Fähigkeiten vor: Wellen der Klingen.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TorrentialShock",
+      "name": "Bebende Sintflut",
+      "desc": "Verursacht 3 Pkt. Hydro-SCH, erschafft auf dem Feld deines Gegners Fluch der Unterströmung.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WateryRebirth",
+      "name": "Neugeburt des Wassers",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Neugeburt des Wassers.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
     {
       "id": "RipplingSlash",
       "name": "Kräuselnde Klingen",

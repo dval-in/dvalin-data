@@ -1,28 +1,43 @@
 {
-	"id": "SacrificialBow",
-	"shareid": 127,
-	"name": "Arco sacrificale",
-	"title": "Compostezza: Arco sacrificale",
-	"desc": "Un arco da caccia cerimoniale che ha visto gli anni passare. I suoi ornamenti sono ancora visibili.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1 <span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un'abilità elementale: crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno).",
-	"attributes": {
-		"cost": 3,
-		"costType": "Elementi corrispondenti",
-		"cardType": "Carta equipaggiamento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Elementi corrispondenti",
-				"count": 3
-			}
-		],
-		"tags": ["Arma", "Arco"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1.<span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un'abilità elementale: crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno). (Equipaggiabile <span style=\"color:#FFFFFFFF\">solo da personaggi con arco. Il personaggio può equipaggiare un massimo di 1 arma.)"
-		}
-	],
-	"version": "4.4"
+  "id": "SacrificialBow",
+  "shareid": 127,
+  "name": "Arco sacrificale",
+  "title": "Compostezza: Arco sacrificale",
+  "desc": "Un arco da caccia cerimoniale che ha visto gli anni passare. I suoi ornamenti sono ancora visibili.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Il personaggio infligge DAN +1 </span><br/><span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un'abilità elementale:</span> crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno).",
+  "attributes": {
+    "cost": 3,
+    "costType": "Elementi corrispondenti",
+    "cardType": "Carta equipaggiamento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Elementi corrispondenti",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arma",
+      "Arco",
+      "Arma",
+      "Arco"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Il personaggio infligge DAN +1.Dopo che il personaggio usa un'abilità elementale: crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno). (Equipaggiabile solo da personaggi con arco. Il personaggio può equipaggiare un massimo di 1 arma.)"
+    },
+    {
+      "name": "",
+      "desc": "Il personaggio infligge DAN +1. Dopo che il personaggio usa un'abilità elementale: crea 1 dado elementale dello stesso tipo elementale del personaggio (una volta per turno). (Equipaggiabile solo da personaggi con arco. Il personaggio può equipaggiare un massimo di 1 arma.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 127
 }

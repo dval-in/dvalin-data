@@ -1,75 +1,151 @@
 {
-	"id": "AssaultSpecialistMekOusia",
-	"shareid": 3408,
-	"name": "Hücum Uzmanı Meka - Öz",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RapidMelee",
-			"name": "Hızlı Yakın Dövüş",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ShieldRiposte",
-			"name": "Kalkan Karşı Saldırısı",
-			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Kalkan Bloku kazanır. <span style=\"color:#FFFFFFFF\">Kalkan Kesiği için <span style=\"color:#FFFFFFFF\">Beceri Hazırlama kullanır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ShieldSweep",
-			"name": "Kalkan Savurma",
-			"desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve rakibin hazırdaki karakterlerine 2 <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Delme Hasarı verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ArkheOusia",
-			"name": "Arkhe: Öz",
-			"desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AssaultSpecialistMekOusia",
+  "shareid": 3408,
+  "name": "Hücum Uzmanı Meka - Öz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RapidMelee",
+      "name": "Hızlı Yakın Dövüş",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShieldRiposte",
+      "name": "Kalkan Karşı Saldırısı",
+      "desc": "Bu karakter Kalkan Bloku kazanır. Kalkan Kesiği için Beceri Hazırlama kullanır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShieldSweep",
+      "name": "Kalkan Savurma",
+      "desc": "2 Elektrik Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Öz",
+      "desc": "\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "RapidMelee",
+      "name": "Hızlı Yakın Dövüş",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShieldRiposte",
+      "name": "Kalkan Karşı Saldırısı",
+      "desc": "Bu karakter Kalkan Bloku kazanır. Kalkan Kesiği için Beceri Hazırlama kullanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShieldSweep",
+      "name": "Kalkan Savurma",
+      "desc": "2 Elektrik Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Öz",
+      "desc": "\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra bu karakter Devre dışı kalır ve bu Tur sona erene kadar beceri kullanamaz.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3408
 }

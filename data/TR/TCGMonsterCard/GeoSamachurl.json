@@ -1,63 +1,125 @@
 {
-	"id": "GeoSamachurl",
-	"shareid": 3603,
-	"name": "Toprak Dağ Şamanı",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Toprak",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar", "Dağ Yabanisi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "StaffStrike",
-			"name": "Asa Saldırısı",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SummoningOfStones",
-			"name": "Taşlara Çağrı",
-			"desc": "2 <span style=\"color:#FFE699FF\">Toprak Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Taş Kaide oluşturur.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ShockwaveSmash",
-			"name": "Şok Dalgası Darbesi",
-			"desc": "5 <span style=\"color:#FFE699FF\">Toprak Hasarı verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "GeoSamachurl",
+  "shareid": 3603,
+  "name": "Toprak Dağ Şamanı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi",
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Asa Saldırısı",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SummoningOfStones",
+      "name": "Taşlara Çağrı",
+      "desc": "2 Toprak Hasarı verir ve 1 Taş Kaide oluşturur.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShockwaveSmash",
+      "name": "Şok Dalgası Darbesi",
+      "desc": "5 Toprak Hasarı verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StaffStrike",
+      "name": "Asa Saldırısı",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SummoningOfStones",
+      "name": "Taşlara Çağrı",
+      "desc": "2 Toprak Hasarı verir ve 1 Taş Kaide oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShockwaveSmash",
+      "name": "Şok Dalgası Darbesi",
+      "desc": "5 Toprak Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3603
 }

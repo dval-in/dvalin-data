@@ -1,77 +1,142 @@
 {
-	"id": "Amber",
-	"shareid": 20,
-	"name": "安柏",
-	"title": "侦察骑士·安柏",
-	"desc": "如果想要成为一名伟大的牌手…\\n首先，要有坐上牌桌的勇气。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "火元素",
-		"weapon": "弓",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "BunnyTriggered",
-			"name": "Bunny Triggered"
-		},
-		"source": "在猫尾酒馆中邀请安柏进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Amber",
-			"name": "Amber",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "Sharpshooter",
-			"name": "神射手",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ExplosivePuppet",
-			"name": "爆弹玩偶",
-			"desc": "召唤<span style=\"color:#FFFFFFFF\">兔兔伯爵。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FieryRain",
-			"name": "箭雨",
-			"desc": "造成2点<span style=\"color:#FF9999FF\">火元素伤害，对所有敌方后台角色造成2点<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">穿透伤害。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Amber",
+  "shareid": 20,
+  "name": "安柏",
+  "title": "侦察骑士·安柏",
+  "desc": "如果想要成为一名伟大的牌手…\\n首先，要有坐上牌桌的勇气。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "弓",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "BunnyTriggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "在猫尾酒馆中邀请安柏进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Sharpshooter",
+      "name": "神射手",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ExplosivePuppet",
+      "name": "爆弹玩偶",
+      "desc": "召唤兔兔伯爵。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FieryRain",
+      "name": "箭雨",
+      "desc": "造成2点火元素伤害，对所有敌方后台角色造成2点穿透伤害。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Sharpshooter",
+      "name": "神射手",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ExplosivePuppet",
+      "name": "爆弹玩偶",
+      "desc": "召唤兔兔伯爵。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FieryRain",
+      "name": "箭雨",
+      "desc": "造成2点火元素伤害，对所有敌方后台角色造成2点穿透伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 20
 }

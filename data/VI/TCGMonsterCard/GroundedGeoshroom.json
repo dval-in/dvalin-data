@@ -1,75 +1,151 @@
 {
-	"id": "GroundedGeoshroom",
-	"shareid": 3605,
-	"name": "Nấm Quỷ Đi Bộ - Nham",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Nham",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Đạn Bào Tử",
-			"desc": "Gây 1 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Nguyên Tố Nham",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Hơi Thở Mãnh Liệt",
-			"desc": "Gây 3 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Nguyên Tố Nham",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Xung Phong Bùng Nổ",
-			"desc": "Gây 5 điểm <span style=\"color:#FFE699FF\">Sát Thương Nguyên Tố Nham.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Nguyên Tố Nham",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Đổi Trạng Thái",
-			"desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật ở trong trạng thái <span style=\"color:#FFFFFFFF\">Ưu Thế Đất Liền.Nhân vật chịu phải <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa sẽ chuyển thành <span style=\"color:#FFFFFFFF\">Khô Héo.Nhân vật chịu phải <span style=\"color:#FFACFFFF\">Sát Thương Nguyên Tố Lôi sẽ chuyển thành <span style=\"color:#FFFFFFFF\">Bung Nở.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedGeoshroom",
+  "shareid": 3605,
+  "name": "Nấm Quỷ Đi Bộ - Nham",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Nham",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Đạn Bào Tử",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Nham.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Hơi Thở Mãnh Liệt",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Nham.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Xung Phong Bùng Nổ",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Nham.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Đổi Trạng Thái",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật ở trong trạng thái Ưu Thế Đất Liền.Nhân vật chịu phải Sát Thương Nguyên Tố Hỏa sẽ chuyển thành Khô Héo.Nhân vật chịu phải Sát Thương Nguyên Tố Lôi sẽ chuyển thành Bung Nở.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Đạn Bào Tử",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Nham.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Nguyên Tố Nham",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Hơi Thở Mãnh Liệt",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Nham.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Xung Phong Bùng Nổ",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Nham.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Nguyên Tố Nham",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Đổi Trạng Thái",
+      "desc": "(Bị động) Khi bắt đầu chiến đấu, nhân vật ở trong trạng thái Ưu Thế Đất Liền. Nhân vật chịu phải Sát Thương Nguyên Tố Hỏa sẽ chuyển thành Khô Héo. Nhân vật chịu phải Sát Thương Nguyên Tố Lôi sẽ chuyển thành Bung Nở.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3605
 }

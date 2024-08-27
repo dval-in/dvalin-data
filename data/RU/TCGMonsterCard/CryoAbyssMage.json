@@ -1,75 +1,151 @@
 {
-	"id": "CryoAbyssMage",
-	"shareid": 3103,
-	"name": "Крио маг Бездны",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Крио",
-		"weapon": "Прочее",
-		"faction": ["Монстр"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CryoThorns",
-			"name": "Крио укол",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FrostdriftOffering",
-			"name": "Воздаяние морозу",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RimestormRite",
-			"name": "Ритуал морозного вихря",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 5 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CryoShield",
-			"name": "Крио купол",
-			"desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Крио купол.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CryoAbyssMage",
+  "shareid": 3103,
+  "name": "Крио маг Бездны",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Монстр"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CryoThorns",
+      "name": "Крио укол",
+      "desc": "Наносит Крио урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostdriftOffering",
+      "name": "Воздаяние морозу",
+      "desc": "Наносит Крио урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RimestormRite",
+      "name": "Ритуал морозного вихря",
+      "desc": "Наносит Крио урон, 5 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoShield",
+      "name": "Крио купол",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Крио купол.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "CryoThorns",
+      "name": "Крио укол",
+      "desc": "Наносит Крио урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostdriftOffering",
+      "name": "Воздаяние морозу",
+      "desc": "Наносит Крио урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RimestormRite",
+      "name": "Ритуал морозного вихря",
+      "desc": "Наносит Крио урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoShield",
+      "name": "Крио купол",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Крио купол.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3103
 }

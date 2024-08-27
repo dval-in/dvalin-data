@@ -12,6 +12,7 @@
     "weapon": "其他武器",
     "faction": [
       "魔物",
+      "魔物",
       "魔物"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "元素沉積·冰",
       "desc": "【被動】戰鬥開始時，初始附屬元素生命·冰。",
       "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "彈跳",
+      "desc": "造成1點冰元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "冰霧噴射",
+      "desc": "造成3點冰元素傷害。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "重重下落",
+      "desc": "造成5點冰元素傷害。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素沉積·冰",
+      "desc": "【被動】戰鬥開始時，初始附屬元素生命·冰。",
+      "skillTag": [
         "被動技能"
       ],
       "points": []

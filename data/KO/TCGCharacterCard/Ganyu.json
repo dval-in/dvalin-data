@@ -1,90 +1,172 @@
 {
-	"id": "Ganyu",
-	"shareid": 1,
-	"name": "감우",
-	"title": "리월의 수호자·감우",
-	"desc": "「내일 아침까지 필요한 거라면 밤을 새워서 완성하면 되겠네요」",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 3,
-		"element": "얼음 원소",
-		"weapon": "활",
-		"faction": ["리월"],
-		"talentCard": {
-			"id": "UndividedHeart",
-			"name": "Undivided Heart"
-		},
-		"source": "캣테일 술집에서 감우 초대 및 친선 대전 난이도 승리 후 획득",
-		"character": {
-			"id": "Ganyu",
-			"name": "Ganyu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "LiutianArchery",
-			"name": "유천 사격술",
-			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TrailOfTheQilin",
-			"name": "산과 강의 기린 흔적",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 1pt 주고 <span style=\"color:#FFFFFFFF\">얼음 연꽃을 생성한다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostflakeArrow",
-			"name": "서리꽃 화살",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 2pt 주고 적의 모든 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "CelestialShower",
-			"name": "쏟아지는 천화",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 2pt 주고 적의 모든 대기 캐릭터에게 <span style=\"color:#FFFFFFFF\">관통 피해를 1pt 주며 <span style=\"color:#FFFFFFFF\">빙령주를 소환한다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Ganyu",
+  "shareid": 1,
+  "name": "감우",
+  "title": "리월의 수호자·감우",
+  "desc": "「내일 아침까지 필요한 거라면 밤을 새워서 완성하면 되겠네요」",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 3,
+    "element": "얼음 원소",
+    "weapon": "활",
+    "faction": [
+      "리월",
+      "리월"
+    ],
+    "talentCard": {
+      "id": "UndividedHeart",
+      "name": "Undivided Heart"
+    },
+    "source": "캣테일 술집에서 감우 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "LiutianArchery",
+      "name": "유천 사격술",
+      "desc": "물리 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "산과 강의 기린 흔적",
+      "desc": "얼음 원소 피해를 1pt 주고 얼음 연꽃을 생성한다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "서리꽃 화살",
+      "desc": "얼음 원소 피해를 2pt 주고 적의 모든 대기 캐릭터에게 관통 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "쏟아지는 천화",
+      "desc": "얼음 원소 피해를 2pt 주고 적의 모든 대기 캐릭터에게 관통 피해를 1pt 주며 빙령주를 소환한다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LiutianArchery",
+      "name": "유천 사격술",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "산과 강의 기린 흔적",
+      "desc": "얼음 원소 피해를 1pt 주고 얼음 연꽃을 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "서리꽃 화살",
+      "desc": "얼음 원소 피해를 2pt 주고 적의 모든 대기 캐릭터에게 관통 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "쏟아지는 천화",
+      "desc": "얼음 원소 피해를 2pt 주고 적의 모든 대기 캐릭터에게 관통 피해를 1pt 주며 빙령주를 소환한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 1
 }

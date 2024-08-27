@@ -1,75 +1,151 @@
 {
-	"id": "GroundedHydroshroom",
-	"shareid": 3205,
-	"name": "Земляной Гидро моровик",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Гидро",
-		"weapon": "Прочее",
-		"faction": ["Монстр"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Выстрел спорами",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Неистовый вздох",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Пробивающий взрыв",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 5 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Смена состояния",
-			"desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Преимущество на земле.Получив <span style=\"color:#FF9999FF\">Пиро урон, сменит состояние на <span style=\"color:#FFFFFFFF\">Обожжение.Получив <span style=\"color:#FFACFFFF\">Электро урон, сменит состояние на <span style=\"color:#FFFFFFFF\">Оживление.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedHydroshroom",
+  "shareid": 3205,
+  "name": "Земляной Гидро моровик",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Монстр"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Выстрел спорами",
+      "desc": "Наносит Гидро урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Неистовый вздох",
+      "desc": "Наносит Гидро урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Пробивающий взрыв",
+      "desc": "Наносит Гидро урон, 5 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Смена состояния",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Преимущество на земле.Получив Пиро урон, сменит состояние на Обожжение.Получив Электро урон, сменит состояние на Оживление.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Выстрел спорами",
+      "desc": "Наносит Гидро урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Неистовый вздох",
+      "desc": "Наносит Гидро урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Пробивающий взрыв",
+      "desc": "Наносит Гидро урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Смена состояния",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Преимущество на земле. Получив Пиро урон, сменит состояние на Обожжение. Получив Электро урон, сменит состояние на Оживление.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3205
 }

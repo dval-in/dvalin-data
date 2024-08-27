@@ -1,63 +1,125 @@
 {
-	"id": "HydroSamachurl",
-	"shareid": 3202,
-	"name": "Гидро шамачурл",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Гидро",
-		"weapon": "Прочее",
-		"faction": ["Монстр", "Хиличурл"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "StaffStrike",
-			"name": "Удар посохом",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PrayerForRain",
-			"name": "Молитва о дожде",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 1 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Целительный дождь.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "TidalImpact",
-			"name": "Водоворотный удар",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 5 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HydroSamachurl",
+  "shareid": 3202,
+  "name": "Гидро шамачурл",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Хиличурл",
+      "Монстр",
+      "Хиличурл"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Удар посохом",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PrayerForRain",
+      "name": "Молитва о дожде",
+      "desc": "Наносит Гидро урон, 1 ед. Призывает помощника: Целительный дождь.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TidalImpact",
+      "name": "Водоворотный удар",
+      "desc": "Наносит Гидро урон, 5 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StaffStrike",
+      "name": "Удар посохом",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PrayerForRain",
+      "name": "Молитва о дожде",
+      "desc": "Наносит Гидро урон, 1 ед. Призывает помощника: Целительный дождь.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TidalImpact",
+      "name": "Водоворотный удар",
+      "desc": "Наносит Гидро урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3202
 }

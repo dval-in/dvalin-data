@@ -10,12 +10,81 @@
     "element": "Kein Elementartyp",
     "weapon": "Andere Waffen",
     "faction": [
+      "Monster",
       "Monster"
     ],
     "source": null,
     "cardType": "Figurenkarte"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Rammen",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBoostOusia",
+      "name": "Energieschwung – Ousia",
+      "desc": "Verursacht 2 Pkt. phys. SCH, erhält selbst Energieverstärkung – Ousia.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergyBurstOusia",
+      "name": "Energieexplosion – Ousia",
+      "desc": "Verursacht 3 Pkt. phys. SCH, erhält selbst Energieverstärkung – Ousia.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "FrameEnhancementOusia",
+      "name": "Moduloptimierung – Ousia",
+      "desc": "Schaden durch deine Figuren +1.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energiesignatur – Ousia",
+      "desc": "Nach Erleiden von SCH durch eine mit „Arkhe – Pneuma“ versehene Figur: Diese Figur wird in den „Deaktiviert-Modus“ eintreten und bis Endphase dieser Runde keine Fähigkeit anwenden können.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
     {
       "id": "Ram",
       "name": "Rammen",

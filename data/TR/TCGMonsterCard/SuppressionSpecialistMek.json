@@ -1,63 +1,123 @@
 {
-	"id": "SuppressionSpecialistMek",
-	"shareid": 3007,
-	"name": "Baskılama Uzmanı Meka",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Element Türü Yok",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "LongrangeFire",
-			"name": "Uzun Menzilli Ateş",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RetreatingFire",
-			"name": "Geri Çekilme Ateşi",
-			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir ve karakterin bir sonraki karakterle değiştirilir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Aynı Element",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BurstFire",
-			"name": "Darbeli Ateş",
-			"desc": "4 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Aynı Element",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMek",
+  "shareid": 3007,
+  "name": "Baskılama Uzmanı Meka",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "LongrangeFire",
+      "name": "Uzun Menzilli Ateş",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Geri Çekilme Ateşi",
+      "desc": "3 Fiziksel Hasar verir ve karakterin bir sonraki karakterle değiştirilir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Darbeli Ateş",
+      "desc": "4 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LongrangeFire",
+      "name": "Uzun Menzilli Ateş",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Geri Çekilme Ateşi",
+      "desc": "3 Fiziksel Hasar verir ve karakterin bir sonraki karakterle değiştirilir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Darbeli Ateş",
+      "desc": "4 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3007
 }

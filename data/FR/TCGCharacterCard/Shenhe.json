@@ -1,77 +1,142 @@
 {
-	"id": "Shenhe",
-	"shareid": 7,
-	"name": "Shenhe",
-	"title": "Shenhe · Transcendance solitaire",
-	"desc": "Aucun lien avec ce monde ne resta, et telle la brume, elle s'éloigna.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Arme d'hast",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "MysticalAbandon",
-			"name": "Mystical Abandon"
-		},
-		"source": "Récompense pour avoir invité Shenhe à une partie amicale dans La Queue de Chat et remporté la victoire",
-		"character": {
-			"id": "Shenhe",
-			"name": "Shenhe",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "DawnstarPiercer",
-			"name": "Percée des étoiles",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpringSpiritSummoning",
-			"name": "Invocation d'esprit printanier",
-			"desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo et crée un <span style=\"color:#FFFFFFFF\">pennage glacé.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DivineMaidensDeliverance",
-			"name": "Délivrance de la demoiselle divine",
-			"desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo et invoque un <span style=\"color:#FFFFFFFF\">esprit talismanique.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Shenhe",
+  "shareid": 7,
+  "name": "Shenhe",
+  "title": "Shenhe · Transcendance solitaire",
+  "desc": "Aucun lien avec ce monde ne resta, et telle la brume, elle s'éloigna.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Arme d'hast",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "MysticalAbandon",
+      "name": "Mystical Abandon"
+    },
+    "source": "Récompense pour avoir invité Shenhe à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Shenhe",
+      "name": "Shenhe",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DawnstarPiercer",
+      "name": "Percée des étoiles",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpringSpiritSummoning",
+      "name": "Invocation d'esprit printanier",
+      "desc": "Inflige 2 pts de DGT Cryo et crée un pennage glacé.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DivineMaidensDeliverance",
+      "name": "Délivrance de la demoiselle divine",
+      "desc": "Inflige 1 pt de DGT Cryo et invoque un esprit talismanique.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DawnstarPiercer",
+      "name": "Percée des étoiles",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpringSpiritSummoning",
+      "name": "Invocation d'esprit printanier",
+      "desc": "Inflige 2 pts de DGT Cryo et crée un pennage glacé.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DivineMaidensDeliverance",
+      "name": "Délivrance de la demoiselle divine",
+      "desc": "Inflige 1 pt de DGT Cryo et invoque un esprit talismanique.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 7
 }

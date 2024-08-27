@@ -1,33 +1,46 @@
 {
-	"id": "TravelingDoctorsHandkerchief",
-	"shareid": 150,
-	"name": "医者の方巾",
-	"title": "森林をゆく薬売り·医者の方巾",
-	"desc": "「日差しも大雨も、医者の確固たる足踏みを阻むことはできなかった。」",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">キャラが「元素爆発」を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）",
-	"attributes": {
-		"cost": 1,
-		"costType": "同一元素",
-		"cardType": "装備カード",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "同一元素",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "TravelingDoctor",
-			"name": "Traveling Doctor",
-			"rarity": 3
-		},
-		"tags": ["聖遺物"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">キャラが「元素爆発」を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）（キャラが装備できる「聖遺物」は最大1つまで）"
-		}
-	],
-	"version": "4.4"
+  "id": "TravelingDoctorsHandkerchief",
+  "shareid": 150,
+  "name": "医者の方巾",
+  "title": "森林をゆく薬売り·医者の方巾",
+  "desc": "「日差しも大雨も、医者の確固たる足踏みを阻むことはできなかった。」",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">キャラが「元素爆発」を発動した後</span>、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）",
+  "attributes": {
+    "cost": 1,
+    "costType": "同一元素",
+    "cardType": "装備カード",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "同一元素",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "同一元素",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "TravelingDoctor",
+      "name": "Traveling Doctor",
+      "rarity": 3
+    },
+    "tags": [
+      "聖遺物",
+      "聖遺物"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "キャラが「元素爆発」を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ）（キャラが装備できる「聖遺物」は最大1つまで）"
+    },
+    {
+      "name": "",
+      "desc": "キャラが「元素爆発」を発動した後、味方のチーム全員のHPを1回復する。（各ラウンドで1回のみ） （キャラが装備できる「聖遺物」は最大1つまで）"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 150
 }

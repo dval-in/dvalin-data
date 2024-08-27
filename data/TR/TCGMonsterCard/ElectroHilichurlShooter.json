@@ -1,62 +1,123 @@
 {
-	"id": "ElectroHilichurlShooter",
-	"shareid": 3402,
-	"name": "Nişancı Elektrik Dağ Yabanisi",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 3,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar", "Dağ Yabanisi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThunderArrow",
-			"name": "Elektrik Oku",
-			"desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Multishot",
-			"name": "Ok Üstadı",
-			"desc": "4 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Hide",
-			"name": "Vur ve Kaç",
-			"desc": "(Pasif) Bu karakter bir hamle yaptığında, otomatik olarak bir sonraki karaktere geçiş yapılır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ElectroHilichurlShooter",
+  "shareid": 3402,
+  "name": "Nişancı Elektrik Dağ Yabanisi",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi",
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThunderArrow",
+      "name": "Elektrik Oku",
+      "desc": "1 Elektrik Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Ok Üstadı",
+      "desc": "4 Elektrik Hasarı verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Vur ve Kaç",
+      "desc": "(Pasif) Bu karakter bir hamle yaptığında, otomatik olarak bir sonraki karaktere geçiş yapılır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThunderArrow",
+      "name": "Elektrik Oku",
+      "desc": "1 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Ok Üstadı",
+      "desc": "4 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Vur ve Kaç",
+      "desc": "(Pasif) Bu karakter bir hamle yaptığında, otomatik olarak bir sonraki karaktere geçiş yapılır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3402
 }

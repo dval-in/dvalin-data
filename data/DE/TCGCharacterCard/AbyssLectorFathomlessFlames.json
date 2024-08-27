@@ -1,83 +1,159 @@
 {
-	"id": "AbyssLectorFathomlessFlames",
-	"shareid": 56,
-	"name": "Abgrundsänger – Abgrundflammen",
-	"title": "Abgrundsänger – Abgrundflammen",
-	"desc": "Die Schriften liegen offen, die Gebote werden erhört.",
-	"attributes": {
-		"hp": 6,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"talentCard": {
-			"id": "EmbersRekindled",
-			"name": "Embers Rekindled"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Abgrundsänger – Abgrundflammen in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "AbyssLectorFathomlessFlames",
-			"name": "Abyss Lector: Fathomless Flames"
-		}
-	},
-	"skills": [
-		{
-			"id": "FlameOfSalvation",
-			"name": "Erlösende Flamme",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingPrecept",
-			"name": "Glühendes Gebot",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousStar",
-			"name": "Omen des Himmelstods",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Ofen des Dunkelfeuers.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FieryRebirth",
-			"name": "Neugeburt des Feuers",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Neugeburt des Feuers.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AbyssLectorFathomlessFlames",
+  "shareid": 56,
+  "name": "Abgrundsänger – Abgrundflammen",
+  "title": "Abgrundsänger – Abgrundflammen",
+  "desc": "Die Schriften liegen offen, die Gebote werden erhört.",
+  "attributes": {
+    "hp": 6,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "talentCard": {
+      "id": "EmbersRekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Abgrundsänger – Abgrundflammen in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "AbyssLectorFathomlessFlames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "FlameOfSalvation",
+      "name": "Erlösende Flamme",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Glühendes Gebot",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Omen des Himmelstods",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Ofen des Dunkelfeuers.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Neugeburt des Feuers",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Neugeburt des Feuers.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "FlameOfSalvation",
+      "name": "Erlösende Flamme",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Glühendes Gebot",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Omen des Himmelstods",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH, erschafft 1 Ofen des Dunkelfeuers.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Neugeburt des Feuers",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Neugeburt des Feuers.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 56
 }

@@ -1,77 +1,142 @@
 {
-	"id": "Nilou",
-	"shareid": 16,
-	"name": "Nilou",
-	"title": "\"Dance of Lotuslight\" Nilou",
-	"desc": "Langkah tarian teratai yang lembut, muncul dari mimpi yang memabukkan.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Kartu Karakter",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Sword",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "TheStarrySkiesTheirFlowersRain",
-			"name": "The Starry Skies Their Flowers Rain"
-		},
-		"source": "Didapatkan setelah mengundang Nilou ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
-		"character": {
-			"id": "Nilou",
-			"name": "Nilou",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "DanceOfSamser",
-			"name": "Dance of Samser",
-			"desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DanceOfHaftkarsvar",
-			"name": "Dance of Haftkarsvar",
-			"desc": "Mengakibatkan 3 poin <span style=\"color:#80C0FFFF\">Hydro DMG. Jika memiliki Karakter <span style=\"color:#80C0FFFF\">Hydro dan <span style=\"color:#7EC236FF\">Dendro di dalam party, dan tidak memiliki Karakter dengan jenis elemen lainnya, maka akan menciptakan <span style=\"color:#FFFFFFFF\">Golden Chalice's Bounty.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DanceOfAbzendegiDistantDreamsListeningSpring",
-			"name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
-			"desc": "Mengakibatkan 2 poin <span style=\"color:#80C0FFFF\">Hydro DMG.Karakter target menerima <span style=\"color:#FFFFFFFF\">Lingering Aeon.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Nilou",
+  "shareid": 16,
+  "name": "Nilou",
+  "title": "\"Dance of Lotuslight\" Nilou",
+  "desc": "Langkah tarian teratai yang lembut, muncul dari mimpi yang memabukkan.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Sword",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "TheStarrySkiesTheirFlowersRain",
+      "name": "The Starry Skies Their Flowers Rain"
+    },
+    "source": "Didapatkan setelah mengundang Nilou ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+    "character": {
+      "id": "Nilou",
+      "name": "Nilou",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOfSamser",
+      "name": "Dance of Samser",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "Dance of Haftkarsvar",
+      "desc": "Mengakibatkan 3 poin Hydro DMG. Jika memiliki Karakter Hydro dan Dendro di dalam party, dan tidak memiliki Karakter dengan jenis elemen lainnya, maka akan menciptakan Golden Chalice's Bounty.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+      "desc": "Mengakibatkan 2 poin Hydro DMG.Karakter target menerima Lingering Aeon.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfSamser",
+      "name": "Dance of Samser",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "Dance of Haftkarsvar",
+      "desc": "Mengakibatkan 3 poin Hydro DMG. Jika memiliki Karakter Hydro dan Dendro di dalam party, dan tidak memiliki Karakter dengan jenis elemen lainnya, maka akan menciptakan Golden Chalice's Bounty.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "Dance of Abzendegi: Distant Dreams, Listening Spring",
+      "desc": "Mengakibatkan 2 poin Hydro DMG. Karakter target menerima Lingering Aeon.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 16
 }

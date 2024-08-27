@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherPyroslingerBracer",
-	"shareid": 3306,
-	"name": "Fatui Avcı Eri - Destek Ateş Nişancısı",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Ateş",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SingleshotBullet",
-			"name": "Tek Atışlık Mermi",
-			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BurningBarrage",
-			"name": "Yakıcı Yağmur",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FlamingCannon",
-			"name": "Alevli Top",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve bu karakter <span style=\"color:#FFFFFFFF\">Ateş Elementi Ekipmanı kazanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Savaş Hazırlığı Tedariki",
-			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherPyroslingerBracer",
+  "shareid": 3306,
+  "name": "Fatui Avcı Eri - Destek Ateş Nişancısı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SingleshotBullet",
+      "name": "Tek Atışlık Mermi",
+      "desc": "1 Ateş Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BurningBarrage",
+      "name": "Yakıcı Yağmur",
+      "desc": "3 Ateş Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FlamingCannon",
+      "name": "Alevli Top",
+      "desc": "3 Ateş Hasarı verir ve bu karakter Ateş Elementi Ekipmanı kazanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Savaş Hazırlığı Tedariki",
+      "desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "SingleshotBullet",
+      "name": "Tek Atışlık Mermi",
+      "desc": "1 Ateş Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BurningBarrage",
+      "name": "Yakıcı Yağmur",
+      "desc": "3 Ateş Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FlamingCannon",
+      "name": "Alevli Top",
+      "desc": "3 Ateş Hasarı verir ve bu karakter Ateş Elementi Ekipmanı kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Savaş Hazırlığı Tedariki",
+      "desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3306
 }

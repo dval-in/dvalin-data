@@ -11,6 +11,8 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Bestia consacrata",
+      "Mostro",
       "Bestia consacrata"
     ],
     "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo lo Scorpione consacrato in un duello amichevole",
@@ -56,6 +58,70 @@
       "id": "ThunderboreBlast",
       "name": "Proiettile fulminante",
       "desc": "Infligge 3 DAN da Electro. Effettua la Rimozione di massimo 3 carte Blocco di energia del Frantumaossa dalla tua mano e crea 1 Trappola del trapasso del tuono sul lato dell'avversario.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "Resti immortali: Electro",
+      "desc": "(Passiva) Alla fine del turno, crea 2 carte Blocco di energia del Frantumaossa e mettile casualmente tra le prime 10 carte in cima al tuo mazzo.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ScorpionStrike",
+      "name": "Colpo scorpionico",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "Aculeo pungente",
+      "desc": "Infligge 3 DAN fisici. Crea 1 carta Blocco di energia del Frantumaossa e mettila casualmente tra le prime 2 carte in cima al tuo mazzo.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "Proiettile fulminante",
+      "desc": "Infligge 3 DAN fisici. Effettua la Rimozione di massimo 3 carte Blocco di energia del Frantumaossa dalla tua mano e crea 1 Trappola del trapasso del tuono sul lato dell'avversario.",
       "skillTag": [
         "Tripudio elementale"
       ],

@@ -1,28 +1,43 @@
 {
-	"id": "SkywardAtlas",
-	"shareid": 123,
-	"name": "Göklerin Atlası",
-	"title": "Bulut Atlası: Göklerin Atlası",
-	"desc": "Tam adı \"rüzgarların ve bulutların atlası\"dır.\\nBu metinde, kuzey ülkelerinin göklerindeki rüzgarlar ve bulutlar şiirselleştirilmiş ve arşivlenmiş şekilde kayıt altına alınmıştır.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.<span style=\"color:#FFFFFFFF\">Her Turda bir defa olmak üzere bu karakterin <span style=\"color:#FFFFFFFF\">Normal Saldırılarının verdiği Hasar 1 artar.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Aynı Element",
-		"cardType": "Ekipman Kartı",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Aynı Element",
-				"count": 3
-			}
-		],
-		"tags": ["Silah", "Katalizör"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.<span style=\"color:#FFFFFFFF\">Her Turda bir defa olmak üzere bu karakterin <span style=\"color:#FFFFFFFF\">Normal Saldırılarının verdiği Hasar 1 artar.(<span style=\"color:#FFFFFFFF\">Yalnızca Katalizör Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
-		}
-	],
-	"version": "4.4"
+  "id": "SkywardAtlas",
+  "shareid": 123,
+  "name": "Göklerin Atlası",
+  "title": "Bulut Atlası: Göklerin Atlası",
+  "desc": "Tam adı \"rüzgarların ve bulutların atlası\"dır.\\nBu metinde, kuzey ülkelerinin göklerindeki rüzgarlar ve bulutlar şiirselleştirilmiş ve arşivlenmiş şekilde kayıt altına alınmıştır.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.</span><br/><span style=\"color:#FFFFFFFF\">Her Turda bir defa</span> olmak üzere bu karakterin <span style=\"color:#FFFFFFFF\">Normal Saldırılarının</span> verdiği Hasar 1 artar.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Aynı Element",
+    "cardType": "Ekipman Kartı",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Silah",
+      "Katalizör",
+      "Silah",
+      "Katalizör"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Karakter fazladan 1 Hasar verir.Her Turda bir defa olmak üzere bu karakterin Normal Saldırılarının verdiği Hasar 1 artar.(Yalnızca Katalizör Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
+    },
+    {
+      "name": "",
+      "desc": "Karakter fazladan 1 Hasar verir. Her Turda bir defa olmak üzere bu karakterin Normal Saldırılarının verdiği Hasar 1 artar. (Yalnızca Katalizör Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 123
 }

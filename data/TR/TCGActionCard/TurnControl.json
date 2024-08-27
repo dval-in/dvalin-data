@@ -1,29 +1,44 @@
 {
-	"id": "TurnControl",
-	"shareid": 289,
-	"name": "Değişim Kontrolü",
-	"title": "Yelan: Değişim Kontrolü",
-	"desc": "\"Şansım yaver gidiyor.\"",
-	"inPlayDescription": "Zar Atma Aşaması: Bu kartı kuşanan Yelan alandayken grubundaki her bir Element Türü için 1 Element Zarı <span style=\"color:#FFFFFFFF\">Kararsız Element olarak atılır. (En fazla 3)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Su",
-		"cardType": "Ekipman Kartı",
-		"energy": [
-			{
-				"id": "Hydro",
-				"type": "Su",
-				"count": 3
-			}
-		],
-		"source": "Yelan'ı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
-		"tags": ["Yetenek", "Savaş Hamlesi"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Savaş Hamlesi: Aktif karakterin <span style=\"color:#FFFFFFFF\">Yelan olduğunda bu kartı kuşan.Yelan bu kartı kuşandıktan sonra hemen bir defa <span style=\"color:#FFD780FF\">Uzun Yaşam Hattı kullanır.Zar Atma Aşaması: Bu kartı kuşanan Yelan alandayken grubundaki her bir Element Türü için 1 Element Zarı <span style=\"color:#FFFFFFFF\">Kararsız Element olarak atılır. (En fazla 3)(Bu kartı destene eklemek için destende Yelan olmalıdır.)"
-		}
-	],
-	"version": "4.4"
+  "id": "TurnControl",
+  "shareid": 289,
+  "name": "Değişim Kontrolü",
+  "title": "Yelan: Değişim Kontrolü",
+  "desc": "\"Şansım yaver gidiyor.\"",
+  "inPlayDescription": "Zar Atma Aşaması: Bu kartı kuşanan Yelan alandayken grubundaki her bir Element Türü için 1 Element Zarı <span style=\"color:#FFFFFFFF\">Kararsız Element</span> olarak atılır. (En fazla 3)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Su",
+    "cardType": "Ekipman Kartı",
+    "energy": [
+      {
+        "id": "Hydro",
+        "type": "Su",
+        "count": 3
+      },
+      {
+        "id": "Hydro",
+        "type": "Su",
+        "count": 3
+      }
+    ],
+    "source": "Yelan'ı Kedi Kuyruğu'nda bir düelloya davet etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+    "tags": [
+      "Yetenek",
+      "Savaş Hamlesi",
+      "Yetenek",
+      "Savaş Hamlesi"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Savaş Hamlesi: Aktif karakterin Yelan olduğunda bu kartı kuşan.Yelan bu kartı kuşandıktan sonra hemen bir defa Uzun Yaşam Hattı kullanır.Zar Atma Aşaması: Bu kartı kuşanan Yelan alandayken grubundaki her bir Element Türü için 1 Element Zarı Kararsız Element olarak atılır. (En fazla 3)(Bu kartı destene eklemek için destende Yelan olmalıdır.)"
+    },
+    {
+      "name": "",
+      "desc": "Savaş Hamlesi: Aktif karakterin Yelan olduğunda bu kartı kuşan. Yelan bu kartı kuşandıktan sonra hemen bir defa Uzun Yaşam Hattı kullanır. Zar Atma Aşaması: Bu kartı kuşanan Yelan alandayken grubundaki her bir Element Türü için 1 Element Zarı Kararsız Element olarak atılır. (En fazla 3) (Bu kartı destene eklemek için destende Yelan olmalıdır.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 289
 }

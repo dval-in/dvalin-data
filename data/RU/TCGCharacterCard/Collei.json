@@ -1,77 +1,142 @@
 {
-	"id": "Collei",
-	"shareid": 47,
-	"name": "Коллеи",
-	"title": "«Росток возрождения» Коллеи",
-	"desc": "«\"Если громко выкрикивать название карты, её мощь усилится\"... Это шутка такая?»",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Дендро",
-		"weapon": "Стрелковое",
-		"faction": ["Сумеру"],
-		"talentCard": {
-			"id": "FloralSidewinder",
-			"name": "Floral Sidewinder"
-		},
-		"source": "Награда за приглашение Коллеи в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "Collei",
-			"name": "Collei",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SupplicantsBowmanship",
-			"name": "Лук молельщицы",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FloralBrush",
-			"name": "Сметающие цветы",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "TrumpcardKitty",
-			"name": "Кошачье сокровище",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 2 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Куйлейн-Анбар.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Collei",
+  "shareid": 47,
+  "name": "Коллеи",
+  "title": "«Росток возрождения» Коллеи",
+  "desc": "«\"Если громко выкрикивать название карты, её мощь усилится\"... Это шутка такая?»",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Стрелковое",
+    "faction": [
+      "Сумеру",
+      "Сумеру"
+    ],
+    "talentCard": {
+      "id": "FloralSidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": "Награда за приглашение Коллеи в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SupplicantsBowmanship",
+      "name": "Лук молельщицы",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FloralBrush",
+      "name": "Сметающие цветы",
+      "desc": "Наносит Дендро урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TrumpcardKitty",
+      "name": "Кошачье сокровище",
+      "desc": "Наносит Дендро урон, 2 ед. Призывает помощника: Куйлейн-Анбар.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupplicantsBowmanship",
+      "name": "Лук молельщицы",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FloralBrush",
+      "name": "Сметающие цветы",
+      "desc": "Наносит Дендро урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TrumpcardKitty",
+      "name": "Кошачье сокровище",
+      "desc": "Наносит Дендро урон, 2 ед. Призывает помощника: Куйлейн-Анбар.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 47
 }

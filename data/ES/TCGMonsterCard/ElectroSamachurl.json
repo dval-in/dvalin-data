@@ -11,12 +11,64 @@
     "weapon": "Otras armas",
     "faction": [
       "Monstruo",
+      "Hilichurl",
+      "Monstruo",
       "Hilichurl"
     ],
     "source": null,
     "cardType": "Carta de personaje"
   },
   "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "Bastonazo",
+      "desc": "Inflige 1 pt. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "Tótem eléctrico",
+      "desc": "Inflige 2 pts. de Daño Electro y produce undefined en el campo del rival.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "Magia voltaica",
+      "desc": "Inflige 5 pts. de Daño Electro.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "StrikingStaff",
       "name": "Bastonazo",

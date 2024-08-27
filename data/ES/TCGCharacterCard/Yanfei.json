@@ -1,77 +1,142 @@
 {
-	"id": "Yanfei",
-	"shareid": 24,
-	"name": "Yanfei",
-	"title": "Yanfei - La Letrada Inocente",
-	"desc": "No intentes emular el pasado, pues ninguna ley es eterna.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Catalizador",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "RightOfFinalInterpretation",
-			"name": "Right of Final Interpretation"
-		},
-		"source": "Se obtiene tras retar y ganar a Yanfei en un duelo amistoso en la taberna Cola de Gato",
-		"character": {
-			"id": "Yanfei",
-			"name": "Yanfei",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SealOfApproval",
-			"name": "Sello ígneo",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SignedEdict",
-			"name": "Trato cerrado",
-			"desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro y este personaje obtiene un <span style=\"color:#FFFFFFFF\">sello escarlata.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DoneDeal",
-			"name": "Contrato vinculante",
-			"desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro, este personaje obtiene un <span style=\"color:#FFFFFFFF\">sello escarlata y entra en el estado de <span style=\"color:#FFFFFFFF\">resplandor.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yanfei",
+  "shareid": 24,
+  "name": "Yanfei",
+  "title": "Yanfei - La Letrada Inocente",
+  "desc": "No intentes emular el pasado, pues ninguna ley es eterna.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Catalizador",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "RightOfFinalInterpretation",
+      "name": "Right of Final Interpretation"
+    },
+    "source": "Se obtiene tras retar y ganar a Yanfei en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Yanfei",
+      "name": "Yanfei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SealOfApproval",
+      "name": "Sello ígneo",
+      "desc": "Inflige 1 pt. de Daño Pyro.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "Trato cerrado",
+      "desc": "Inflige 3 pts. de Daño Pyro y este personaje obtiene un sello escarlata.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "Contrato vinculante",
+      "desc": "Inflige 3 pts. de Daño Pyro, este personaje obtiene un sello escarlata y entra en el estado de resplandor.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SealOfApproval",
+      "name": "Sello ígneo",
+      "desc": "Inflige 1 pt. de Daño Pyro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "Trato cerrado",
+      "desc": "Inflige 3 pts. de Daño Pyro y este personaje obtiene un sello escarlata.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "Contrato vinculante",
+      "desc": "Inflige 3 pts. de Daño Pyro, este personaje obtiene un sello escarlata y entra en el estado de resplandor.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 24
 }

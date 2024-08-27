@@ -1,62 +1,121 @@
 {
-	"id": "ElectroSlime",
-	"shareid": 3406,
-	"name": "Électroblob",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Électro",
-		"weapon": "Autre arme",
-		"faction": ["Monstre"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "Rebond",
-			"desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "Écrasement",
-			"desc": "Inflige 4 pts de <span style=\"color:#FFACFFFF\">DGT Électro.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationElectro",
-			"name": "Dépôt d'élément Électro",
-			"desc": "(Passif) Obtient une <span style=\"color:#FFFFFFFF\">Entité élémentaire Électro au début du combat.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ElectroSlime",
+  "shareid": 3406,
+  "name": "Électroblob",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "Rebond",
+      "desc": "Inflige 1 pt de DGT Électro.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Écrasement",
+      "desc": "Inflige 4 pts de DGT Électro.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "Dépôt d'élément Électro",
+      "desc": "(Passif) Obtient une Entité élémentaire Électro au début du combat.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Rebond",
+      "desc": "Inflige 1 pt de DGT Électro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Écrasement",
+      "desc": "Inflige 4 pts de DGT Électro.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "Dépôt d'élément Électro",
+      "desc": "(Passif) Obtient une Entité élémentaire Électro au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3406
 }

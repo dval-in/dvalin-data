@@ -12,6 +12,7 @@
     "weapon": "Katalysator",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Rosenblitz",
       "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Rosenblitz.",
       "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Elektrisierende Berührung",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH. Wenn es sich gerade bei dieser Fähigkeit um heftige Schläge handelt, wird der aktiven Figur deines Gegners Blitzleiter verliehen.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Lila Lichtbogen",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH. Verleiht der aktiven Figur des Gegners Blitzleiter, wenn sie nicht hiervon betroffen ist.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rosenblitz",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Rosenblitz und verleiht der aktiven Figur des Gegners Blitzleiter.",
+      "skillTag": [
         "Spezialfähigkeit"
       ],
       "points": [

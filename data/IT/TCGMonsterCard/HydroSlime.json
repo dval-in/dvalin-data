@@ -1,62 +1,121 @@
 {
-	"id": "HydroSlime",
-	"shareid": 3204,
-	"name": "Melmoso di Hydro",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Altre armi",
-		"faction": ["Mostro"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "Rimbalzo",
-			"desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "Caduta violenta",
-			"desc": "Infligge 4 <span style=\"color:#80C0FFFF\">DAN da Hydro.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationHydro",
-			"name": "Sedimentazione elementale di Hydro",
-			"desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Entità elementale di Hydro.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroSlime",
+  "shareid": 3204,
+  "name": "Melmoso di Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Mostro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "Rimbalzo",
+      "desc": "Infligge 1 DAN da Hydro.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Caduta violenta",
+      "desc": "Infligge 4 DAN da Hydro.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Sedimentazione elementale di Hydro",
+      "desc": "(Passiva) All'inizio del duello ottiene Entità elementale di Hydro.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Rimbalzo",
+      "desc": "Infligge 1 DAN da Hydro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Caduta violenta",
+      "desc": "Infligge 4 DAN da Hydro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Sedimentazione elementale di Hydro",
+      "desc": "(Passiva) All'inizio del duello ottiene Entità elementale di Hydro.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3204
 }

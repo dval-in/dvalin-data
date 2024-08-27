@@ -1,77 +1,142 @@
 {
-	"id": "Dori",
-	"shareid": 35,
-	"name": "Dori",
-	"title": "\"Rüya Bahçesi Hazinesi\" Dori",
-	"desc": "Ne kadar çok Mora o kadar iyi!",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Çift Elli Kılıç",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "DiscretionarySupplement",
-			"name": "Discretionary Supplement"
-		},
-		"source": "Dori'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Dori",
-			"name": "Dori",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "MarvelousSworddanceModified",
-			"name": "Muhteşem Kılıç Dansı (Değiştirildi)",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritwardingLampTroubleshooterCannon",
-			"name": "Ruh Koruma Lambası: Sorun Giderici Top",
-			"desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Satış Sonrası Hizmet Mermisi çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "AlcazarzaraysExactitude",
-			"name": "Alkazar'ın Kusursuzluğu",
-			"desc": "1 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Cin çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Dori",
+  "shareid": 35,
+  "name": "Dori",
+  "title": "\"Rüya Bahçesi Hazinesi\" Dori",
+  "desc": "Ne kadar çok Mora o kadar iyi!",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Çift Elli Kılıç",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "DiscretionarySupplement",
+      "name": "Discretionary Supplement"
+    },
+    "source": "Dori'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Dori",
+      "name": "Dori",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "MarvelousSworddanceModified",
+      "name": "Muhteşem Kılıç Dansı (Değiştirildi)",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritwardingLampTroubleshooterCannon",
+      "name": "Ruh Koruma Lambası: Sorun Giderici Top",
+      "desc": "2 Elektrik Hasarı verir ve 1 Satış Sonrası Hizmet Mermisi çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AlcazarzaraysExactitude",
+      "name": "Alkazar'ın Kusursuzluğu",
+      "desc": "1 Elektrik Hasarı verir ve 1 Cin çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MarvelousSworddanceModified",
+      "name": "Muhteşem Kılıç Dansı (Değiştirildi)",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritwardingLampTroubleshooterCannon",
+      "name": "Ruh Koruma Lambası: Sorun Giderici Top",
+      "desc": "2 Elektrik Hasarı verir ve 1 Satış Sonrası Hizmet Mermisi çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AlcazarzaraysExactitude",
+      "name": "Alkazar'ın Kusursuzluğu",
+      "desc": "1 Elektrik Hasarı verir ve 1 Cin çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 35
 }

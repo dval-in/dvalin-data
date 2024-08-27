@@ -1,77 +1,142 @@
 {
-	"id": "Gorou",
-	"shareid": 283,
-	"name": "Gorou",
-	"title": "Gorou, Guerriero canino",
-	"desc": "Il capobranco che fa avanzare i soldati!",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Arco",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "RushingHoundSwiftAsTheWind",
-			"name": "Rushing Hound: Swift as the Wind"
-		},
-		"source": "Ricompensa ottenuta sfidando Gorou a duello alla Coda di Gatto e battendolo in un duello amichevole",
-		"character": {
-			"id": "Gorou",
-			"name": "Gorou",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "RippingFangFletching",
-			"name": "Freccia lacerante",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "InuzakaAllroundDefense",
-			"name": "Difesa a tutto tondo Inuzaka",
-			"desc": "Infligge 2 <span style=\"color:#FFE699FF\">DAN da Geo, crea 1 <span style=\"color:#FFFFFFFF\">Stendardo bellico del generale.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "JuugaForwardUntoVictory",
-			"name": "Juuga: Avanti verso la vittoria",
-			"desc": "Infligge 2 <span style=\"color:#FFE699FF\">DAN da Geo, crea <span style=\"color:#FFFFFFFF\">Stendardo bellico del generale, invoca 1 <span style=\"color:#FFFFFFFF\">Gloria del generale.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Gorou",
+  "shareid": 283,
+  "name": "Gorou",
+  "title": "Gorou, Guerriero canino",
+  "desc": "Il capobranco che fa avanzare i soldati!",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Arco",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "RushingHoundSwiftAsTheWind",
+      "name": "Rushing Hound: Swift as the Wind"
+    },
+    "source": "Ricompensa ottenuta sfidando Gorou a duello alla Coda di Gatto e battendolo in un duello amichevole",
+    "character": {
+      "id": "Gorou",
+      "name": "Gorou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "RippingFangFletching",
+      "name": "Freccia lacerante",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Difesa a tutto tondo Inuzaka",
+      "desc": "Infligge 2 DAN da Geo, crea 1 Stendardo bellico del generale.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Juuga: Avanti verso la vittoria",
+      "desc": "Infligge 2 DAN da Geo, crea Stendardo bellico del generale, invoca 1 Gloria del generale.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RippingFangFletching",
+      "name": "Freccia lacerante",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Difesa a tutto tondo Inuzaka",
+      "desc": "Infligge 2 DAN da Geo, crea 1 Stendardo bellico del generale.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Juuga: Avanti verso la vittoria",
+      "desc": "Infligge 2 DAN da Geo, crea Stendardo bellico del generale, invoca 1 Gloria del generale.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 283
 }

@@ -12,6 +12,7 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Mostro",
       "Mostro"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Divoraelementi",
       "desc": "(Passiva) All'inizio del duello, questo personaggio ottiene lo stato Divoraelementi.",
       "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "Artigli corrosivi",
+      "desc": "Infligge 1 DAN da Electro, crea 1 Corrosione sul lato dell'avversario.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Cristallo di Electro corrosivo",
+      "desc": "Infligge 2 DAN da Electro, crea 1 Corrosione sul lato dell'avversario.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Morso divoratore",
+      "desc": "Infligge 6 DAN da Electro, crea 1 Corrosione sul lato dell'avversario.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Divoraelementi",
+      "desc": "(Passiva) All'inizio del duello, questo personaggio ottiene lo stato Divoraelementi.",
+      "skillTag": [
         "Abilità passiva"
       ],
       "points": []

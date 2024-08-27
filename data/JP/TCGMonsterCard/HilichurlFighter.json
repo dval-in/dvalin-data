@@ -1,63 +1,125 @@
 {
-	"id": "HilichurlFighter",
-	"shareid": 3001,
-	"name": "ヒルチャール·戦士",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "元素タイプなし",
-		"weapon": "他の武器",
-		"faction": ["魔物", "ヒルチャール"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Hit",
-			"name": "打撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを1与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpAndHit",
-			"name": "ジャンプ攻撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SwingThatClub",
-			"name": "振り回し",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを4与える。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "同一元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HilichurlFighter",
+  "shareid": 3001,
+  "name": "ヒルチャール·戦士",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "元素タイプなし",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物",
+      "ヒルチャール",
+      "魔物",
+      "ヒルチャール"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Hit",
+      "name": "打撃",
+      "desc": "物理ダメージを1与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "ジャンプ攻撃",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "振り回し",
+      "desc": "物理ダメージを4与える。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "同一元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hit",
+      "name": "打撃",
+      "desc": "物理ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "ジャンプ攻撃",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "振り回し",
+      "desc": "物理ダメージを4与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "同一元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3001
 }

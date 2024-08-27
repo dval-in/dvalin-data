@@ -1,83 +1,159 @@
 {
-	"id": "ThunderManifestation",
-	"shareid": 286,
-	"name": "Thunder Manifestation",
-	"title": "Lingering Hatred - Thunder Manifestation",
-	"desc": "ตราบใดที่ยังมีความเคียดแค้นอยู่ในดินแดน เช่นนั้นเสียงฟ้าร้องจะไม่ขาดหายไป",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไฟฟ้า",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["มอนสเตอร์"],
-		"talentCard": {
-			"id": "GrievingEcho",
-			"name": "Grieving Echo"
-		},
-		"source": "ได้รับหลังจากเอาชนะ Thunder Manifestation ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-		"character": {
-			"id": "ThunderManifestation",
-			"name": "Thunder Manifestation"
-		}
-	},
-	"skills": [
-		{
-			"id": "ThunderousWingslash",
-			"name": "Thunderous Wingslash",
-			"desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StrifefulLightning",
-			"name": "Strifeful Lightning",
-			"desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 3 หน่วย ให้กับตัวละครของศัตรูที่มีสถานะ <span style=\"color:#FFFFFFFF\">Lightning Rod  (หากศัตรูไม่มีตัวละครที่ตรงตามเงื่อนไข จะเปลี่ยนเป็นการสร้างความเสียหายแก่ตัวละครที่เข้าต่อสู้)",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ThunderingShackles",
-			"name": "Thundering Shackles",
-			"desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Thundering Shackles",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LightningProbe",
-			"name": "Lightning Probe",
-			"desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้าง <span style=\"color:#FFFFFFFF\">Lightning Strike Probe ในสนามของศัตรู",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ThunderManifestation",
+  "shareid": 286,
+  "name": "Thunder Manifestation",
+  "title": "Lingering Hatred - Thunder Manifestation",
+  "desc": "ตราบใดที่ยังมีความเคียดแค้นอยู่ในดินแดน เช่นนั้นเสียงฟ้าร้องจะไม่ขาดหายไป",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์",
+      "มอนสเตอร์"
+    ],
+    "talentCard": {
+      "id": "GrievingEcho",
+      "name": "Grieving Echo"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Thunder Manifestation ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "ThunderManifestation",
+      "name": "Thunder Manifestation"
+    }
+  },
+  "skills": [
+    {
+      "id": "ThunderousWingslash",
+      "name": "Thunderous Wingslash",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrifefulLightning",
+      "name": "Strifeful Lightning",
+      "desc": "สร้างความเสียหายไฟฟ้า 3 หน่วย ให้กับตัวละครของศัตรูที่มีสถานะ Lightning Rod  (หากศัตรูไม่มีตัวละครที่ตรงตามเงื่อนไข จะเปลี่ยนเป็นการสร้างความเสียหายแก่ตัวละครที่เข้าต่อสู้)",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShackles",
+      "name": "Thundering Shackles",
+      "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย และเรียก Thundering Shackles",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningProbe",
+      "name": "Lightning Probe",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้าง Lightning Strike Probe ในสนามของศัตรู",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThunderousWingslash",
+      "name": "Thunderous Wingslash",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrifefulLightning",
+      "name": "Strifeful Lightning",
+      "desc": "สร้างความเสียหายไฟฟ้า 3 หน่วย ให้กับตัวละครของศัตรูที่มีสถานะ Lightning Rod (หากศัตรูไม่มีตัวละครที่ตรงตามเงื่อนไข จะเปลี่ยนเป็นการสร้างความเสียหายแก่ตัวละครที่เข้าต่อสู้)",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShackles",
+      "name": "Thundering Shackles",
+      "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย และเรียก Thundering Shackles",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningProbe",
+      "name": "Lightning Probe",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น จะสร้าง Lightning Strike Probe ในสนามของศัตรู",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 286
 }

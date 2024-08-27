@@ -1,75 +1,151 @@
 {
-	"id": "EremiteStoneEnchanter",
-	"shareid": 3606,
-	"name": "Eremita Encantador de Pedras",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Outras Armas",
-		"faction": ["Eremitas"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "TripleGeosmash",
-			"name": "Golpe Sísmico Triplo",
-			"desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SplitrockSlam",
-			"name": "Golpe Quebra-Rocha",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedGeo",
-			"name": "Espírito Ominoso Lançado (Geo)",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo, invoca <span style=\"color:#FFFFFFFF\">Espírito Ominoso: Dragão de Pedra.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritOfOmensPower",
-			"name": "Poder do Espírito Ominoso",
-			"desc": "(Passivo) Se um personagem não tiver mais que 7 de Vida após sofrer Dano, ganha 1 de Carga. (Uso único em um duelo)",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteStoneEnchanter",
+  "shareid": 3606,
+  "name": "Eremita Encantador de Pedras",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Eremitas",
+      "Eremitas"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TripleGeosmash",
+      "name": "Golpe Sísmico Triplo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Golpe Quebra-Rocha",
+      "desc": "Causa 3 pontos de Dano Geo.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Espírito Ominoso Lançado (Geo)",
+      "desc": "Causa 3 pontos de Dano Geo, invoca Espírito Ominoso: Dragão de Pedra.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Poder do Espírito Ominoso",
+      "desc": "(Passivo) Se um personagem não tiver mais que 7 de Vida após sofrer Dano, ganha 1 de Carga. (Uso único em um duelo)",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TripleGeosmash",
+      "name": "Golpe Sísmico Triplo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Golpe Quebra-Rocha",
+      "desc": "Causa 3 pontos de Dano Geo.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Espírito Ominoso Lançado (Geo)",
+      "desc": "Causa 3 pontos de Dano Geo, invoca Espírito Ominoso: Dragão de Pedra.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Poder do Espírito Ominoso",
+      "desc": "(Passivo) Se um personagem não tiver mais que 7 de Vida após sofrer Dano, ganha 1 de Carga. (Uso único em um duelo)",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3606
 }

@@ -12,6 +12,7 @@
     "weapon": "Diğer Silahlar",
     "faction": [
       "Canavar",
+      "Canavar",
       "Canavar"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Element Tortulaşması: Buz",
       "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Buz kazanır.",
       "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Zıplama",
+      "desc": "1 Buz Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "Buz Püskürtme",
+      "desc": "3 Buz Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Çarpma",
+      "desc": "5 Buz Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Element Tortulaşması: Buz",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Buz kazanır.",
+      "skillTag": [
         "Pasif Beceri"
       ],
       "points": []

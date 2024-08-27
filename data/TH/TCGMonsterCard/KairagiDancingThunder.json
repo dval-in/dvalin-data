@@ -1,82 +1,169 @@
 {
-	"id": "KairagiDancingThunder",
-	"shareid": 3401,
-	"name": "Kairagi: Dancing Thunder",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไฟฟ้า",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["Kairagi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "Three Point Slash",
-			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "Leaping Strike",
-			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 3 หน่วย",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai: Sheathed",
-			"desc": "ตัวละครนี้<span style=\"color:#FFFFFFFF\">เตรียมสกิล: <span style=\"color:#FFFFFFFF\">Iai: Stormbreath",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "ธาตุไฟฟ้า",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanElectro",
-			"name": "Kamuna Talisman: Electro",
-			"desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Kamuna Talisman: Electro",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "Final Frenzy",
-			"desc": "เมื่อตัวละคร Kairagi ตัวอื่นของฝ่ายเราถูกกำจัด ตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Final Frenzy",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiDancingThunder",
+  "shareid": 3401,
+  "name": "Kairagi: Dancing Thunder",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Kairagi",
+      "Kairagi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "Three Point Slash",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Leaping Strike",
+      "desc": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "ตัวละครนี้เตรียมสกิล: Iai: Stormbreath",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Kamuna Talisman: Electro",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Kamuna Talisman: Electro",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Final Frenzy",
+      "desc": "เมื่อตัวละคร Kairagi ตัวอื่นของฝ่ายเราถูกกำจัด ตัวละครนี้จะได้รับ Final Frenzy",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "Three Point Slash",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Leaping Strike",
+      "desc": "จะสร้างความเสียหายกายภาพ 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "ตัวละครนี้เตรียมสกิล: Iai: Stormbreath",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Kamuna Talisman: Electro",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Kamuna Talisman: Electro",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Final Frenzy",
+      "desc": "เมื่อตัวละคร Kairagi ตัวอื่นของฝ่ายเราถูกกำจัด ตัวละครนี้จะได้รับ Final Frenzy",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3401
 }

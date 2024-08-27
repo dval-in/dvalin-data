@@ -1,77 +1,142 @@
 {
-	"id": "Bennett",
-	"shareid": 19,
-	"name": "Bennett",
-	"title": "Bennett, Prova del fuoco",
-	"desc": "Quando capisci che stai per perdere, devi sapere come vincere.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Spada",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "GrandExpectation",
-			"name": "Grand Expectation"
-		},
-		"source": "Ricompensa ottenuta sfidando Bennett a duello alla Coda di Gatto e battendolo in un duello amichevole",
-		"character": {
-			"id": "Bennett",
-			"name": "Bennett",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "StrikeOfFortune",
-			"name": "Colpo di fortuna",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PassionOverload",
-			"name": "Sovraccarico di passione",
-			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FantasticVoyage",
-			"name": "Viaggio fantastico",
-			"desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro, crea 1 <span style=\"color:#FFFFFFFF\">Campo d'ispirazione.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Bennett",
+  "shareid": 19,
+  "name": "Bennett",
+  "title": "Bennett, Prova del fuoco",
+  "desc": "Quando capisci che stai per perdere, devi sapere come vincere.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Spada",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "GrandExpectation",
+      "name": "Grand Expectation"
+    },
+    "source": "Ricompensa ottenuta sfidando Bennett a duello alla Coda di Gatto e battendolo in un duello amichevole",
+    "character": {
+      "id": "Bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "StrikeOfFortune",
+      "name": "Colpo di fortuna",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PassionOverload",
+      "name": "Sovraccarico di passione",
+      "desc": "Infligge 3 DAN da Pyro.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FantasticVoyage",
+      "name": "Viaggio fantastico",
+      "desc": "Infligge 2 DAN da Pyro, crea 1 Campo d'ispirazione.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrikeOfFortune",
+      "name": "Colpo di fortuna",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PassionOverload",
+      "name": "Sovraccarico di passione",
+      "desc": "Infligge 3 DAN da Pyro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FantasticVoyage",
+      "name": "Viaggio fantastico",
+      "desc": "Infligge 2 DAN da Pyro, crea 1 Campo d'ispirazione.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 19
 }

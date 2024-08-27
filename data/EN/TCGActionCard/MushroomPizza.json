@@ -1,33 +1,46 @@
 {
-	"id": "MushroomPizza",
-	"shareid": 271,
-	"name": "Mushroom Pizza",
-	"title": "Mushroom Pizza",
-	"desc": "They say that a researcher once used very precise calculations to uncover the \"fairest way to cut pizza,\" but as the process is far too bothersome, basically no one uses it...",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 1,
-		"costType": "Matching Element",
-		"cardType": "Event Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 1
-			}
-		],
-		"food": {
-			"id": "MushroomPizza",
-			"name": "Mushroom Pizza",
-			"rarity": 3
-		},
-		"tags": ["Food"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "Heal the target character for 1 HP. For the next two Rounds, heal this character for 1 HP again at the End Phase.(A character can consume at most 1 Food per Round)"
-		}
-	],
-	"version": "4.4"
+  "id": "MushroomPizza",
+  "shareid": 271,
+  "name": "Mushroom Pizza",
+  "title": "Mushroom Pizza",
+  "desc": "They say that a researcher once used very precise calculations to uncover the \"fairest way to cut pizza,\" but as the process is far too bothersome, basically no one uses it...",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "Matching Element",
+    "cardType": "Event Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      }
+    ],
+    "food": {
+      "id": "MushroomPizza",
+      "name": "Mushroom Pizza",
+      "rarity": 3
+    },
+    "tags": [
+      "Food",
+      "Food"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Heal the target character for 1 HP. For the next two Rounds, heal this character for 1 HP again at the End Phase.(A character can consume at most 1 Food per Round)"
+    },
+    {
+      "name": "",
+      "desc": "Heal the target character for 1 HP. For the next two Rounds, heal this character for 1 HP again at the End Phase. (A character can consume at most 1 Food per Round)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 271
 }

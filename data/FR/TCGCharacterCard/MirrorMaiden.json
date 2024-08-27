@@ -1,76 +1,141 @@
 {
-	"id": "MirrorMaiden",
-	"shareid": 54,
-	"name": "Suivante miroir des Fatui",
-	"title": "Suivante snezhnayienne : Envoyée miroir",
-	"desc": "Tous les secrets seront dissimulés dans le miroir d'une luminosité éblouissante...",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Autre arme",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "MirrorCage",
-			"name": "Mirror Cage"
-		},
-		"source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Suivante miroir des Fatui",
-		"character": {
-			"id": "MirrorMaiden",
-			"name": "Mirror Maiden"
-		}
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "Boule d'eau",
-			"desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "InfluxBlast",
-			"name": "Explosion d'afflux",
-			"desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro et inflige un <span style=\"color:#FFFFFFFF\">éclat de miroir d'eau au personnage choisi.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RippledReflection",
-			"name": "Réflexion ondulée",
-			"desc": "Inflige 5 pts de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "MirrorMaiden",
+  "shareid": 54,
+  "name": "Suivante miroir des Fatui",
+  "title": "Suivante snezhnayienne : Envoyée miroir",
+  "desc": "Tous les secrets seront dissimulés dans le miroir d'une luminosité éblouissante...",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Suivante miroir des Fatui",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Boule d'eau",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Explosion d'afflux",
+      "desc": "Inflige 2 pts de DGT Hydro et inflige un éclat de miroir d'eau au personnage choisi.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Réflexion ondulée",
+      "desc": "Inflige 5 pts de DGT Hydro.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WaterBall",
+      "name": "Boule d'eau",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Explosion d'afflux",
+      "desc": "Inflige 2 pts de DGT Hydro et inflige un éclat de miroir d'eau au personnage choisi.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Réflexion ondulée",
+      "desc": "Inflige 5 pts de DGT Hydro.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 54
 }

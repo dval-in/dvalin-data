@@ -10,12 +10,63 @@
     "element": "Element Türü Yok",
     "weapon": "Diğer Silahlar",
     "faction": [
+      "Canavar",
       "Canavar"
     ],
     "source": null,
     "cardType": "Karakter Kartı"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "Koçbaşı",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BrutalRam",
+      "name": "Şiddetli Çarpışma",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingUp",
+      "name": "Enerjimi Topluyorum",
+      "desc": "3 Fiziksel Hasar verir ve bu karakterin ilk Ruh/Öz formuna dönmesine neden olur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 1
+        }
+      ]
+    },
     {
       "id": "Ram",
       "name": "Koçbaşı",

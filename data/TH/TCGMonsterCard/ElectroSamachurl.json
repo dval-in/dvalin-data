@@ -11,12 +11,64 @@
     "weapon": "อาวุธอื่น ๆ",
     "faction": [
       "มอนสเตอร์",
+      "Hilichurl",
+      "มอนสเตอร์",
       "Hilichurl"
     ],
     "source": null,
     "cardType": "การ์ดตัวละคร"
   },
   "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "Striking Staff",
+      "desc": "สร้างความเสียหายกายภาพ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "Thunderclap Totem",
+      "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย และทำให้เกิด Thundercall Staff ในสนามของฝ่ายศัตรู",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "Thunderstrike Hex",
+      "desc": "สร้างความเสียหายไฟฟ้า 5 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "StrikingStaff",
       "name": "Striking Staff",

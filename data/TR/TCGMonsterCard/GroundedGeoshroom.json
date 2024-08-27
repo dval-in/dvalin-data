@@ -1,75 +1,151 @@
 {
-	"id": "GroundedGeoshroom",
-	"shareid": 3605,
-	"name": "Ayaklı Toprak Mantarı",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Toprak",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Spor Mermisi",
-			"desc": "1 <span style=\"color:#FFE699FF\">Toprak Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Öfkeli Nefes",
-			"desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Yüklü Patlama",
-			"desc": "5 <span style=\"color:#FFE699FF\">Toprak Hasarı verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Toprak",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Durum Değişikliği",
-			"desc": "(Pasif) Savaş başladığında, bu karakter <span style=\"color:#FFFFFFFF\">Arazi Avantajı etkisinde olur.Karakter <span style=\"color:#FF9999FF\">Ateş Hasarı aldıktan sonra <span style=\"color:#FFFFFFFF\">Yanık olur.Karakter <span style=\"color:#FFACFFFF\">Elektrik Hasarı aldıktan sonra <span style=\"color:#FFFFFFFF\">Etkin olur.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedGeoshroom",
+  "shareid": 3605,
+  "name": "Ayaklı Toprak Mantarı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Spor Mermisi",
+      "desc": "1 Toprak Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Öfkeli Nefes",
+      "desc": "3 Toprak Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Yüklü Patlama",
+      "desc": "5 Toprak Hasarı verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Durum Değişikliği",
+      "desc": "(Pasif) Savaş başladığında, bu karakter Arazi Avantajı etkisinde olur.Karakter Ateş Hasarı aldıktan sonra Yanık olur.Karakter Elektrik Hasarı aldıktan sonra Etkin olur.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Spor Mermisi",
+      "desc": "1 Toprak Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Öfkeli Nefes",
+      "desc": "3 Toprak Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Yüklü Patlama",
+      "desc": "5 Toprak Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Durum Değişikliği",
+      "desc": "(Pasif) Savaş başladığında, bu karakter Arazi Avantajı etkisinde olur. Karakter Ateş Hasarı aldıktan sonra Yanık olur. Karakter Elektrik Hasarı aldıktan sonra Etkin olur.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3605
 }
