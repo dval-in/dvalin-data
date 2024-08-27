@@ -69,7 +69,8 @@ jobs:
             VERSION=$(echo "$MESSAGE" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p')
             gh api repos/dvaJi/genshin-data/git/trees/$COMMIT \
               --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
-          ls -l
+            git clone https://github.com/dvaJi/genshin-data.git
+            ls -l
             bun run ./scripts/workflow/update_file.ts "$VERSION"
             echo "$COMMIT" > .last_processed_commit
             git add .

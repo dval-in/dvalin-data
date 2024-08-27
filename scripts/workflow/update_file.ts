@@ -14,7 +14,7 @@ if (version === '0.0') {
 
 console.log(`Processing version: ${version}`);
 
-const filePath = join(baseDir, 'genshin-data/changed_files.txt');
+const filePath = join(baseDir, 'changed_files.txt');
 const file = await Bun.file(filePath).text();
 
 const lines = file.split('\n').filter((line) => line.startsWith('src/data'));
