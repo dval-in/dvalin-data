@@ -60,6 +60,7 @@ jobs:
         env:
           COMMITS: ${{ steps.fetch_commits.outputs.new_commits }}
           VERSIONS: ${{ steps.fetch_commits.outputs.versions }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
