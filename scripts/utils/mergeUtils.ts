@@ -35,7 +35,10 @@ function mergeArrays(targetArray: any[], sourceArray: any[]): void {
 				targetArray.push(sourceElement);
 			}
 		} else {
-			targetArray.push(sourceElement);
+			if (typeof targetArray === 'object') {
+				targetArray.push(sourceElement);
+			}
+
 		}
 	});
 }
