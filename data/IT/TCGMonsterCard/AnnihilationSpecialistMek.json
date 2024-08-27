@@ -10,12 +10,63 @@
     "element": "Nessun tipo elementale",
     "weapon": "Altre armi",
     "faction": [
+      "Mostro",
       "Mostro"
     ],
     "source": null,
     "cardType": "Carta personaggio"
   },
   "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Colpo leggero",
+      "desc": "Infligge 1 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Colpo perforante",
+      "desc": "Infligge 3 DAN fisici.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Calcio laterale",
+      "desc": "Infligge 4 DAN fisici.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "LightStrike",
       "name": "Colpo leggero",

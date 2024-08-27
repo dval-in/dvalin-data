@@ -1,63 +1,123 @@
 {
-	"id": "SuppressionSpecialistMek",
-	"shareid": 3007,
-	"name": "Спецмек: Подавление",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Без элемента",
-		"weapon": "Прочее",
-		"faction": ["Монстр"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "LongrangeFire",
-			"name": "Одиночный выстрел на расстоянии",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RetreatingFire",
-			"name": "Прикрывающий огонь",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 3 ед. Принудительно делает активным вашего следующего персонажа.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Совпадающий элемент",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BurstFire",
-			"name": "Взрывной выстрел",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 4 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Совпадающий элемент",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMek",
+  "shareid": 3007,
+  "name": "Спецмек: Подавление",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Без элемента",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Монстр"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "LongrangeFire",
+      "name": "Одиночный выстрел на расстоянии",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Прикрывающий огонь",
+      "desc": "Наносит Физический урон, 3 ед. Принудительно делает активным вашего следующего персонажа.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Взрывной выстрел",
+      "desc": "Наносит Физический урон, 4 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LongrangeFire",
+      "name": "Одиночный выстрел на расстоянии",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "Прикрывающий огонь",
+      "desc": "Наносит Физический урон, 3 ед. Принудительно делает активным вашего следующего персонажа.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "Взрывной выстрел",
+      "desc": "Наносит Физический урон, 4 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3007
 }

@@ -1,77 +1,142 @@
 {
-	"id": "Eula",
-	"shareid": 6,
-	"name": "優菈",
-	"title": "浪沫的旋舞·優菈",
-	"desc": "這只是一場遊戲，無論是取勝或落敗，你都不會因此被冠上罪名。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "冰元素",
-		"weapon": "雙手劍",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "WellspringOfWarlust",
-			"name": "Wellspring of War-Lust"
-		},
-		"source": "在貓尾酒館中邀請優菈進行對局，在友好對局難度中獲得勝利後獲得",
-		"character": {
-			"id": "Eula",
-			"name": "Eula",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkEdel",
-			"name": "西風劍術·宗室",
-			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "IcetideVortex",
-			"name": "冰潮的渦旋",
-			"desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害，如果本角色未附屬<span style=\"color:#FFFFFFFF\">冷酷之心，則使其附屬<span style=\"color:#FFFFFFFF\">冷酷之心。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialIllumination",
-			"name": "凝浪之光劍",
-			"desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害，召喚<span style=\"color:#FFFFFFFF\">光降之劍。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Eula",
+  "shareid": 6,
+  "name": "優菈",
+  "title": "浪沫的旋舞·優菈",
+  "desc": "這只是一場遊戲，無論是取勝或落敗，你都不會因此被冠上罪名。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "雙手劍",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "在貓尾酒館中邀請優菈進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "西風劍術·宗室",
+      "desc": "造成2點物理傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "冰潮的渦旋",
+      "desc": "造成2點冰元素傷害，如果本角色未附屬冷酷之心，則使其附屬冷酷之心。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "凝浪之光劍",
+      "desc": "造成2點冰元素傷害，召喚光降之劍。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "西風劍術·宗室",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "冰潮的渦旋",
+      "desc": "造成2點冰元素傷害，如果本角色未附屬冷酷之心，則使其附屬冷酷之心。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "凝浪之光劍",
+      "desc": "造成2點冰元素傷害，召喚光降之劍。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 6
 }

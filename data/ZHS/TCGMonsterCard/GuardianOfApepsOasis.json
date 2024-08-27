@@ -10,6 +10,7 @@
     "element": "草元素",
     "weapon": "其他武器",
     "faction": [
+      "魔物",
       "魔物"
     ],
     "source": null,
@@ -55,6 +56,70 @@
       "id": "TheEndFalls",
       "name": "终景迸落",
       "desc": "造成$[D__KEY__DAMAGE_2]点草元素伤害，抓1张唤醒眷属，生成2层绿洲之滋养。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InvokationOfPropagation",
+      "name": "增殖感召",
+      "desc": "【被动】战斗开始时，生成6张唤醒眷属，随机放入牌库。我方召唤4个增殖生命体后，此角色附属重燃的绿洲之心，并获得2点护盾。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "StrikeOfTheDispossessed",
+      "name": "失乡重击",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LifeStream",
+      "name": "生命流束",
+      "desc": "造成$[D__KEY__DAMAGE_2]点物理伤害，抓1张唤醒眷属，生成1层绿洲之滋养。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheEndFalls",
+      "name": "终景迸落",
+      "desc": "造成$[D__KEY__DAMAGE_2]点物理伤害，抓1张唤醒眷属，生成2层绿洲之滋养。",
       "skillTag": [
         "元素爆发"
       ],

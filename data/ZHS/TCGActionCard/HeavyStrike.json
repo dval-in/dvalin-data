@@ -1,27 +1,37 @@
 {
-	"id": "HeavyStrike",
-	"shareid": 258,
-	"name": "重攻击",
-	"title": "劈石破岩法",
-	"desc": "对某些力气不是那么大的人来说…\\n最好把「劈石破岩」仅仅看为「一个比喻」。",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 1,
-		"costType": "相同元素",
-		"cardType": "事件牌",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "相同元素",
-				"count": 1
-			}
-		]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "本回合中，当前我方出战角色下次<span style=\"color:#FFFFFFFF\">「普通攻击」造成的伤害+1。<span style=\"color:#FFFFFFFF\">此次「普通攻击」为<span style=\"color:#FFFFFFFF\">重击时：伤害额外+1。"
-		}
-	],
-	"version": "4.4"
+  "id": "HeavyStrike",
+  "shareid": 258,
+  "name": "重攻击",
+  "title": "劈石破岩法",
+  "desc": "对某些力气不是那么大的人来说…\\n最好把「劈石破岩」仅仅看为「一个比喻」。",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 1,
+    "costType": "相同元素",
+    "cardType": "事件牌",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "相同元素",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "相同元素",
+        "count": 1
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "本回合中，当前我方出战角色下次「普通攻击」造成的伤害+1。此次「普通攻击」为重击时：伤害额外+1。"
+    },
+    {
+      "name": "",
+      "desc": "本回合中，当前我方出战角色下次「普通攻击」造成的伤害+1。 此次「普通攻击」为重击时：伤害额外+1。"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 258
 }

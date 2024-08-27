@@ -12,6 +12,7 @@
     "weapon": "Outras Armas",
     "faction": [
       "Eremitas",
+      "Eremitas",
       "Eremitas"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Espírito Ominoso Lançado (Cryo)",
       "desc": "(Passivo) Após o personagem receber Dano: Caso este personagem tenha menos do que 7 de Vida, ganha 1 Carga e aplica Despertar do Espírito Ominoso: Cryo. (Uma vez por partida)",
       "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "DoubleHack",
+      "name": "Corte Duplo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Corte da Espada Dupla",
+      "desc": "Causa 3 pontos de Dano Físico.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Soco da Destruição",
+      "desc": "Inicia Preparar Habilidade para Soco da Destruição: Ataque com Tudo.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Espírito Ominoso Lançado (Cryo)",
+      "desc": "(Passivo) Após o personagem receber Dano: Caso este personagem tenha menos do que 7 de Vida, ganha 1 Carga e aplica Despertar do Espírito Ominoso: Cryo. (Uma vez por partida)",
+      "skillTag": [
         "Habilidade Passiva"
       ],
       "points": []

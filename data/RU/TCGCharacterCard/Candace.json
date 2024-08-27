@@ -1,77 +1,142 @@
 {
-	"id": "Candace",
-	"shareid": 15,
-	"name": "Кандакия",
-	"title": "Позолоченная клятва: Кандакия",
-	"desc": "Золотом алых песков клянусь нести караул.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Гидро",
-		"weapon": "Древковое",
-		"faction": ["Сумеру"],
-		"talentCard": {
-			"id": "TheOverflow",
-			"name": "The Overflow"
-		},
-		"source": "Награда за приглашение Кандакии в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "Candace",
-			"name": "Candace",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "GleamingSpearGuardianStance",
-			"name": "Сверкающее копьё: Оборона",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SacredRiteHeronsSanctum",
-			"name": "Священный обряд: Обитель цапли",
-			"desc": "У персонажа добавляются <span style=\"color:#FFFFFFFF\">Защита цапли и <span style=\"color:#FFFFFFFF\">Подготовка навыка: <span style=\"color:#FFFFFFFF\">Удар цапли.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SacredRiteWagtailsTide",
-			"name": "Священный обряд: Прилив трясогузки",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 2 ед., создаётся <span style=\"color:#FFFFFFFF\">Молитва алой короны.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Candace",
+  "shareid": 15,
+  "name": "Кандакия",
+  "title": "Позолоченная клятва: Кандакия",
+  "desc": "Золотом алых песков клянусь нести караул.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Древковое",
+    "faction": [
+      "Сумеру",
+      "Сумеру"
+    ],
+    "talentCard": {
+      "id": "TheOverflow",
+      "name": "The Overflow"
+    },
+    "source": "Награда за приглашение Кандакии в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Candace",
+      "name": "Candace",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "Сверкающее копьё: Оборона",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "Священный обряд: Обитель цапли",
+      "desc": "У персонажа добавляются Защита цапли и Подготовка навыка: Удар цапли.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "Священный обряд: Прилив трясогузки",
+      "desc": "Наносит Гидро урон, 2 ед., создаётся Молитва алой короны.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "Сверкающее копьё: Оборона",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "Священный обряд: Обитель цапли",
+      "desc": "У персонажа добавляются Защита цапли и Подготовка навыка: Удар цапли.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "Священный обряд: Прилив трясогузки",
+      "desc": "Наносит Гидро урон, 2 ед., создаётся Молитва алой короны.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 15
 }

@@ -11,6 +11,7 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Mostro",
       "Mostro"
     ],
     "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Imperatore del Fuoco e del Ferro in un duello amichevole",
@@ -25,6 +26,70 @@
     }
   },
   "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Tenaglia distruttiva",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Vampata infuocata",
+      "desc": "Infligge 1 DAN da Pyro. Se questo personaggio ha almeno 7 accumuli di Carapace di Granchio corazzato, DAN inflitti +1. Dopodiché, il personaggio ottiene 2 accumuli di Carapace di Granchio corazzato.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Linea di detonazione",
+      "desc": "Questo personaggio esegue Preparazione abilità: Esplosione incandescente.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "Panoplia imperiale",
+      "desc": "(Passiva) All'inizio del combattimento: ottieni 5 accumuli di Carapace di Granchio corazzato. Dopo che esegui un'azione: se sul tuo lato c'è uno stato di Scudo o uno stato di combattimento Scudo diverso da Carapace di Granchio corazzato, questi altri effetti verranno rimossi. Per ogni effetto rimosso, questo personaggio ottiene 2 accumuli di Carapace di Granchio corazzato.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
     {
       "id": "ShatterclampStrike",
       "name": "Tenaglia distruttiva",

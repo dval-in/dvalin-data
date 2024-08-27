@@ -1,75 +1,148 @@
 {
-	"id": "NobushiKikouban",
-	"shareid": 3405,
-	"name": "Nobushi - Kikouban",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Électro",
-		"weapon": "Autre arme",
-		"faction": [],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ComboSlash",
-			"name": "Coupe combinée",
-			"desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MechanicalThunderbow",
-			"name": "Tonnerre mécanique",
-			"desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Électro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai : Rengainé",
-			"desc": "Le personnage <span style=\"color:#FFFFFFFF\">prépare la capacité : <span style=\"color:#FFFFFFFF\">Iai : Avancée.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Élément identique",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Zanshin",
-			"name": "Zanshin",
-			"desc": "(Passif) Si le personnage est le personnage actif lors de la phase finale, accorde 1 charge.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "NobushiKikouban",
+  "shareid": 3405,
+  "name": "Nobushi - Kikouban",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": [],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ComboSlash",
+      "name": "Coupe combinée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MechanicalThunderbow",
+      "name": "Tonnerre mécanique",
+      "desc": "Inflige 3 pts de DGT Électro.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : Iai : Avancée.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Passif) Si le personnage est le personnage actif lors de la phase finale, accorde 1 charge.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ComboSlash",
+      "name": "Coupe combinée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MechanicalThunderbow",
+      "name": "Tonnerre mécanique",
+      "desc": "Inflige 3 pts de DGT Électro.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai : Rengainé",
+      "desc": "Le personnage prépare la capacité : Iai : Avancée.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Élément identique",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Passif) Si le personnage est le personnage actif lors de la phase finale, accorde 1 charge.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3405
 }

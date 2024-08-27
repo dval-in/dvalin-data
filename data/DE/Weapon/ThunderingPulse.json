@@ -1,293 +1,588 @@
 {
-	"id": "ThunderingPulse",
-	"name": "Donnerpuls",
-	"description": "Ein Langbogen, der ein Geschenk des Shougun war. Ewige Blitze knistern rundherum.",
-	"rarity": 5,
-	"type": "Bogen",
-	"domain": "Garten der flie\u00dfenden Sande",
-	"passive": "Blitzherrschaft",
-	"bonus": "Erh\u00f6ht den ANG um 20 %/25 %/30 %/35 %/40 % und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 12/24/40 %/15/30/50 %/18/36/60 %/21/42/70 %/24/48/80 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig.",
-	"stats": {
-		"primary": "Basis-ANG",
-		"secondary": "KSCH",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 46,
-				"secondary": 14.4
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 122,
-				"secondary": 25.4
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 153,
-				"secondary": 25.4
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 235,
-				"secondary": 37.1
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 266,
-				"secondary": 37.1
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 308,
-				"secondary": 42.9
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 340,
-				"secondary": 42.9
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 382,
-				"secondary": 48.7
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 414,
-				"secondary": 48.7
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 457,
-				"secondary": 54.5
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 488,
-				"secondary": 54.5
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 532,
-				"secondary": 60.3
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 563,
-				"secondary": 60.3
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 608,
-				"secondary": 66.2
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "NarukamisWisdom",
-					"name": "Narukamis Weisheit",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "DismalPrism",
-					"name": "D\u00fcsteres Prisma",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Stabile Bolzenspitze",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "NarukamisJoy",
-					"name": "Narukamis Freude",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "DismalPrism",
-					"name": "D\u00fcsteres Prisma",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "FirmArrowhead",
-					"name": "Stabile Bolzenspitze",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "NarukamisJoy",
-					"name": "Narukamis Freude",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "CrystalPrism",
-					"name": "Kristallprisma",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Scharfe Bolzenspitze",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "NarukamisAffection",
-					"name": "Narukamis Zuneigung",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "CrystalPrism",
-					"name": "Kristallprisma",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "SharpArrowhead",
-					"name": "Scharfe Bolzenspitze",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "NarukamisAffection",
-					"name": "Narukamis Zuneigung",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "PolarizingPrism",
-					"name": "Polarisationsprisma",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Abgenutzte Bolzenspitze",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "NarukamisValor",
-					"name": "Narukamis Tapferkeit",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "PolarizingPrism",
-					"name": "Polarisationsprisma",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "WeatheredArrowhead",
-					"name": "Abgenutzte Bolzenspitze",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Blitzherrschaft",
-		"template": "Erh\u00f6ht den ANG um <span style=\"color:#99FFFFFF\">{0} und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils <span style=\"color:#99FFFFFF\">{1}. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig.",
-		"params": [
-			["20 %", "12/24/40 %"],
-			["25 %", "15/30/50 %"],
-			["30 %", "18/36/60 %"],
-			["35 %", "21/42/70 %"],
-			["40 %", "24/48/80 %"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Erh\u00f6ht den ANG um 20 % und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 12/24/40 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig."
-		},
-		{
-			"refinement": 2,
-			"desc": "Erh\u00f6ht den ANG um 25 % und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 15/30/50 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig."
-		},
-		{
-			"refinement": 3,
-			"desc": "Erh\u00f6ht den ANG um 30 % und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 18/36/60 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig."
-		},
-		{
-			"refinement": 4,
-			"desc": "Erh\u00f6ht den ANG um 35 % und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 21/42/70 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig."
-		},
-		{
-			"refinement": 5,
-			"desc": "Erh\u00f6ht den ANG um 40 % und verleiht die Kraft des \u201eBlitzflugsiegels\u201c: Erh\u00f6ht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 24/48/80 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, h\u00e4lt 5 s; Anwendung von Elementarf\u00e4higkeiten, h\u00e4lt 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabh\u00e4ngig."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/ThunderingPulse/Icon.webp"
-	}
+  "id": "ThunderingPulse",
+  "name": "Donnerpuls",
+  "description": "Ein Langbogen, der ein Geschenk des Shougun war. Ewige Blitze knistern rundherum.",
+  "rarity": 5,
+  "type": "Bogen",
+  "domain": "Garten der fließenden Sande",
+  "passive": "Blitzherrschaft",
+  "bonus": "Erhöht den ANG um 20 %/25 %/30 %/35 %/40 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 12/24/40 %/15/30/50 %/18/36/60 %/21/42/70 %/24/48/80 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig.",
+  "stats": {
+    "primary": "Basis-ANG",
+    "secondary": "KSCH",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 14.4
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 25.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 37.1
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 42.9
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 48.7
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 54.5
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 60.3
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 66.2
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "NarukamisWisdom",
+          "name": "Narukamis Weisheit",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DismalPrism",
+          "name": "Düsteres Prisma",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Stabile Bolzenspitze",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Narukamis Freude",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "DismalPrism",
+          "name": "Düsteres Prisma",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Stabile Bolzenspitze",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Narukamis Freude",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "CrystalPrism",
+          "name": "Kristallprisma",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Narukamis Zuneigung",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "CrystalPrism",
+          "name": "Kristallprisma",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Narukamis Zuneigung",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "PolarizingPrism",
+          "name": "Polarisationsprisma",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "NarukamisValor",
+          "name": "Narukamis Tapferkeit",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "PolarizingPrism",
+          "name": "Polarisationsprisma",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "NarukamisWisdom",
+          "name": "Narukamis Weisheit",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DismalPrism",
+          "name": "Düsteres Prisma",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Stabile Bolzenspitze",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Narukamis Freude",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "DismalPrism",
+          "name": "Düsteres Prisma",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "FirmArrowhead",
+          "name": "Stabile Bolzenspitze",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Narukamis Freude",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "CrystalPrism",
+          "name": "Kristallprisma",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Narukamis Zuneigung",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "CrystalPrism",
+          "name": "Kristallprisma",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SharpArrowhead",
+          "name": "Scharfe Bolzenspitze",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Narukamis Zuneigung",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "PolarizingPrism",
+          "name": "Polarisationsprisma",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "NarukamisValor",
+          "name": "Narukamis Tapferkeit",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "PolarizingPrism",
+          "name": "Polarisationsprisma",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "WeatheredArrowhead",
+          "name": "Abgenutzte Bolzenspitze",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Erhöht den ANG um 20 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 12/24/40 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 2,
+      "desc": "Erhöht den ANG um 25 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 15/30/50 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 3,
+      "desc": "Erhöht den ANG um 30 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 18/36/60 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 4,
+      "desc": "Erhöht den ANG um 35 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 21/42/70 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 5,
+      "desc": "Erhöht den ANG um 40 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 24/48/80 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 1,
+      "desc": "Erhöht den ANG um 20 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 12/24/40 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 2,
+      "desc": "Erhöht den ANG um 25 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 15/30/50 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 3,
+      "desc": "Erhöht den ANG um 30 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 18/36/60 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 4,
+      "desc": "Erhöht den ANG um 35 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 21/42/70 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    },
+    {
+      "refinement": 5,
+      "desc": "Erhöht den ANG um 40 % und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 24/48/80 %. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/ThunderingPulse/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Blitzherrschaft",
+    "template": "Erhöht den ANG um <span style=\"color:#99FFFFFF\">{0}</span> und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils <span style=\"color:#99FFFFFF\">{1}</span>. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5 s; Anwendung von Elementarfähigkeiten, hält 10 s; Elementarenergie der Figur unter 100 %, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig.",
+    "params": [
+      [
+        "20 %",
+        "12/24/40 %"
+      ],
+      [
+        "25 %",
+        "15/30/50 %"
+      ],
+      [
+        "30 %",
+        "18/36/60 %"
+      ],
+      [
+        "35 %",
+        "21/42/70 %"
+      ],
+      [
+        "40 %",
+        "24/48/80 %"
+      ],
+      [
+        "20 %",
+        "12/24/40 %"
+      ],
+      [
+        "25 %",
+        "15/30/50 %"
+      ],
+      [
+        "30 %",
+        "18/36/60 %"
+      ],
+      [
+        "35 %",
+        "21/42/70 %"
+      ],
+      [
+        "40 %",
+        "24/48/80 %"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

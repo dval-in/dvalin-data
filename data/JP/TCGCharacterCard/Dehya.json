@@ -1,77 +1,144 @@
 {
-	"id": "Dehya",
-	"shareid": 25,
-	"name": "ディシア",
-	"title": "熾鬣の獅子·ディシア",
-	"desc": "鷲の目と獅子の魂をもつ、自由な砂漠の娘。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "炎元素",
-		"weapon": "両手剣",
-		"faction": ["スメール", "エルマイト旅団"],
-		"talentCard": {
-			"id": "StalwartAndTrue",
-			"name": "Stalwart and True"
-		},
-		"source": "キャッツテールでディシアを招待し、友好対戦に勝利することで獲得",
-		"character": {
-			"id": "Dehya",
-			"name": "Dehya",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "SandstormAssault",
-			"name": "剣闘術·金砂塵",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MoltenInferno",
-			"name": "熔鉄流獄",
-			"desc": "<span style=\"color:#FFFFFFFF\">「浄焔剣獄」領域を召喚する。「浄焔剣獄」領域がすでに存在する場合、まず<span style=\"color:#FF9999FF\">炎元素ダメージを1与える。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "LeonineBite",
-			"name": "炎哮獅子咬",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを3与え、<span style=\"color:#FFFFFFFF\">スキル準備に入る：<span style=\"color:#FFFFFFFF\">残火蹴。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Dehya",
+  "shareid": 25,
+  "name": "ディシア",
+  "title": "熾鬣の獅子·ディシア",
+  "desc": "鷲の目と獅子の魂をもつ、自由な砂漠の娘。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "両手剣",
+    "faction": [
+      "スメール",
+      "エルマイト旅団",
+      "スメール",
+      "エルマイト旅団"
+    ],
+    "talentCard": {
+      "id": "StalwartAndTrue",
+      "name": "Stalwart and True"
+    },
+    "source": "キャッツテールでディシアを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Dehya",
+      "name": "Dehya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SandstormAssault",
+      "name": "剣闘術·金砂塵",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MoltenInferno",
+      "name": "熔鉄流獄",
+      "desc": "「浄焔剣獄」領域を召喚する。「浄焔剣獄」領域がすでに存在する場合、まず炎元素ダメージを1与える。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeonineBite",
+      "name": "炎哮獅子咬",
+      "desc": "炎元素ダメージを3与え、スキル準備に入る：残火蹴。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SandstormAssault",
+      "name": "剣闘術·金砂塵",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MoltenInferno",
+      "name": "熔鉄流獄",
+      "desc": "「浄焔剣獄」領域を召喚する。「浄焔剣獄」領域がすでに存在する場合、まず炎元素ダメージを1与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeonineBite",
+      "name": "炎哮獅子咬",
+      "desc": "炎元素ダメージを3与え、スキル準備に入る：残火蹴。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 25
 }

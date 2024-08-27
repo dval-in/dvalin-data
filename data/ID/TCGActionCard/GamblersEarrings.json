@@ -1,33 +1,46 @@
 {
-	"id": "GamblersEarrings",
-	"shareid": 151,
-	"name": "Gambler's Earrings",
-	"title": "Wager: Gambler's Earrings",
-	"desc": "\"Dalam sebuah permainan di mana seseorang berjudi antara hidup dan mati, tetap tenang dan terkendali adalah kunci kemenangan.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Setelah menggugurkan Karakter lawan: Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 <span style=\"color:#FFFFFFFF\">Elemen Omni. (Dapat terpicu maksimum 3 kali selama duel berlangsung)",
-	"attributes": {
-		"cost": 1,
-		"costType": "Elemen Sama",
-		"cardType": "Kartu Equipment",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Elemen Sama",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "Gambler",
-			"name": "Gambler",
-			"rarity": 4
-		},
-		"tags": ["Artefak"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Setelah menggugurkan Karakter lawan: Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 <span style=\"color:#FFFFFFFF\">Elemen Omni. (Dapat terpicu maksimum 3 kali selama duel berlangsung)(Karakter dapat mengenakan maksimum 1 Artefak)"
-		}
-	],
-	"version": "4.4"
+  "id": "GamblersEarrings",
+  "shareid": 151,
+  "name": "Gambler's Earrings",
+  "title": "Wager: Gambler's Earrings",
+  "desc": "\"Dalam sebuah permainan di mana seseorang berjudi antara hidup dan mati, tetap tenang dan terkendali adalah kunci kemenangan.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Setelah menggugurkan Karakter lawan:</span> Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 <span style=\"color:#FFFFFFFF\">Elemen Omni</span>. (Dapat terpicu maksimum 3 kali selama duel berlangsung)",
+  "attributes": {
+    "cost": 1,
+    "costType": "Elemen Sama",
+    "cardType": "Kartu Equipment",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Elemen Sama",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Elemen Sama",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "Gambler",
+      "name": "Gambler",
+      "rarity": 4
+    },
+    "tags": [
+      "Artefak",
+      "Artefak"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Setelah menggugurkan Karakter lawan: Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 Elemen Omni. (Dapat terpicu maksimum 3 kali selama duel berlangsung)(Karakter dapat mengenakan maksimum 1 Artefak)"
+    },
+    {
+      "name": "",
+      "desc": "Setelah menggugurkan Karakter lawan: Jika Karakter yang mengenakan Artefak ini adalah Karakter Aktif, maka akan menciptakan 2 Elemen Omni. (Dapat terpicu maksimum 3 kali selama duel berlangsung) (Karakter dapat mengenakan maksimum 1 Artefak)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 151
 }

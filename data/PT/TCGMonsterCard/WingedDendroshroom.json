@@ -1,75 +1,151 @@
 {
-	"id": "WingedDendroshroom",
-	"shareid": 3701,
-	"name": "Cogumelo Alado Dendro",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Outras Armas",
-		"faction": ["Monstro"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Disparo de Esporos",
-			"desc": "Causa 1 ponto de <span style=\"color:#7EC236FF\">Dano Dendro.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RollingSpray",
-			"name": "Disparo Habilidoso",
-			"desc": "Causa 3 pontos de <span style=\"color:#7EC236FF\">Dano Dendro.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Divebomb",
-			"name": "Mergulho Explosivo",
-			"desc": "Causa 5 pontos de <span style=\"color:#7EC236FF\">Dano Dendro.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Transformação",
-			"desc": "(Passivo) No começo da batalha, o personagem está em <span style=\"color:#FFFFFFFF\">Superioridade Aérea.Após o personagem receber <span style=\"color:#FF9999FF\">Dano Pyro: muda para <span style=\"color:#FFFFFFFF\">Estado Queimado.Após receber <span style=\"color:#FFACFFFF\">Dano Electro: muda para <span style=\"color:#FFFFFFFF\">Estado Ativo.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "WingedDendroshroom",
+  "shareid": 3701,
+  "name": "Cogumelo Alado Dendro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro",
+      "Monstro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Disparo de Esporos",
+      "desc": "Causa 1 ponto de Dano Dendro.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Disparo Habilidoso",
+      "desc": "Causa 3 pontos de Dano Dendro.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Mergulho Explosivo",
+      "desc": "Causa 5 pontos de Dano Dendro.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Transformação",
+      "desc": "(Passivo) No começo da batalha, o personagem está em Superioridade Aérea.Após o personagem receber Dano Pyro: muda para Estado Queimado.Após receber Dano Electro: muda para Estado Ativo.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Disparo de Esporos",
+      "desc": "Causa 1 ponto de Dano Dendro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Disparo Habilidoso",
+      "desc": "Causa 3 pontos de Dano Dendro.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Mergulho Explosivo",
+      "desc": "Causa 5 pontos de Dano Dendro.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Transformação",
+      "desc": "(Passivo) No começo da batalha, o personagem está em Superioridade Aérea. Após o personagem receber Dano Pyro: muda para Estado Queimado. Após receber Dano Electro: muda para Estado Ativo.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3701
 }

@@ -1,83 +1,159 @@
 {
-	"id": "EremiteScorchingLoremaster",
-	"shareid": 285,
-	"name": "Münzevi Alevli Hikayeci",
-	"title": "\"Şiir ve Gizli Tarih\" Münzevi Alevli Hikayeci",
-	"desc": "Hâlâ hatırlayanlar, damarlarında akan kumların ruhuna asla ihanet etmezler.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Ateş",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Münzeviler"],
-		"talentCard": {
-			"id": "Scorpocalypse",
-			"name": "Scorpocalypse"
-		},
-		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Münzevi Alevli Hikayeci ile olan Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "EremiteScorchingLoremaster",
-			"name": "Eremite Scorching Loremaster"
-		}
-	},
-	"skills": [
-		{
-			"id": "SearingGlare",
-			"name": "Yakıcı Işık",
-			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlazingStrike",
-			"name": "Alevli Darbe",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SpiritOfOmensAwakeningPyroScorpion",
-			"name": "Alamet Ruhunun Uyanışı: Ateş Akrebi",
-			"desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Alamet Ruhu: Ateş Akrebi çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritOfOmensPower",
-			"name": "Alamet Ruhunun Gücü",
-			"desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji kazanır. (Her Düelloda bir defa)",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteScorchingLoremaster",
+  "shareid": 285,
+  "name": "Münzevi Alevli Hikayeci",
+  "title": "\"Şiir ve Gizli Tarih\" Münzevi Alevli Hikayeci",
+  "desc": "Hâlâ hatırlayanlar, damarlarında akan kumların ruhuna asla ihanet etmezler.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Münzeviler",
+      "Münzeviler"
+    ],
+    "talentCard": {
+      "id": "Scorpocalypse",
+      "name": "Scorpocalypse"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Münzevi Alevli Hikayeci ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "EremiteScorchingLoremaster",
+      "name": "Eremite Scorching Loremaster"
+    }
+  },
+  "skills": [
+    {
+      "id": "SearingGlare",
+      "name": "Yakıcı Işık",
+      "desc": "1 Ateş Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingStrike",
+      "name": "Alevli Darbe",
+      "desc": "3 Ateş Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningPyroScorpion",
+      "name": "Alamet Ruhunun Uyanışı: Ateş Akrebi",
+      "desc": "2 Ateş Hasarı verir ve 1 Alamet Ruhu: Ateş Akrebi çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Alamet Ruhunun Gücü",
+      "desc": "(Pasif) Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır. (Her Düelloda bir defa)",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "SearingGlare",
+      "name": "Yakıcı Işık",
+      "desc": "1 Ateş Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingStrike",
+      "name": "Alevli Darbe",
+      "desc": "3 Ateş Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningPyroScorpion",
+      "name": "Alamet Ruhunun Uyanışı: Ateş Akrebi",
+      "desc": "2 Ateş Hasarı verir ve 1 Alamet Ruhu: Ateş Akrebi çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Alamet Ruhunun Gücü",
+      "desc": "(Pasif) Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır. (Her Düelloda bir defa)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 285
 }

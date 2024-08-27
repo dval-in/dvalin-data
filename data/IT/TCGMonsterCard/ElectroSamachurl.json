@@ -11,12 +11,64 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Hilichurl",
+      "Mostro",
       "Hilichurl"
     ],
     "source": null,
     "cardType": "Carta personaggio"
   },
   "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "Bastone sferzante",
+      "desc": "Infligge 1 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "Totem del tuono",
+      "desc": "Infligge 2 DAN da Electro, crea 1 Bastone del tuono sul lato dell'avversario.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "Maledizione del tuono",
+      "desc": "Infligge 5 DAN da Electro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "StrikingStaff",
       "name": "Bastone sferzante",

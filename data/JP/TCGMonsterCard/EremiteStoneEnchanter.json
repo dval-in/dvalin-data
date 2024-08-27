@@ -1,75 +1,151 @@
 {
-	"id": "EremiteStoneEnchanter",
-	"shareid": 3606,
-	"name": "エルマイト旅団·ストーンエンチャンター",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "岩元素",
-		"weapon": "他の武器",
-		"faction": ["エルマイト旅団"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "TripleGeosmash",
-			"name": "トリプル岩撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SplitrockSlam",
-			"name": "砕石爆撃",
-			"desc": "<span style=\"color:#FFE699FF\">岩元素ダメージを3与える。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedGeo",
-			"name": "悪霊解放·岩",
-			"desc": "<span style=\"color:#FFE699FF\">岩元素ダメージを3与え、<span style=\"color:#FFFFFFFF\">悪霊·岩の魔蜥を召喚する。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritOfOmensPower",
-			"name": "悪霊の力",
-			"desc": "【固有】本キャラがダメージを受けた後、本キャラのHPが7以下の場合、チャージを1獲得する。（各対戦ごとに1回まで）",
-			"skilltag": ["固有スキル"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteStoneEnchanter",
+  "shareid": 3606,
+  "name": "エルマイト旅団·ストーンエンチャンター",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "他の武器",
+    "faction": [
+      "エルマイト旅団",
+      "エルマイト旅団"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TripleGeosmash",
+      "name": "トリプル岩撃",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "砕石爆撃",
+      "desc": "岩元素ダメージを3与える。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "悪霊解放·岩",
+      "desc": "岩元素ダメージを3与え、悪霊·岩の魔蜥を召喚する。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "悪霊の力",
+      "desc": "【固有】本キャラがダメージを受けた後、本キャラのHPが7以下の場合、チャージを1獲得する。（各対戦ごとに1回まで）",
+      "skilltag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "TripleGeosmash",
+      "name": "トリプル岩撃",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "砕石爆撃",
+      "desc": "岩元素ダメージを3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "悪霊解放·岩",
+      "desc": "岩元素ダメージを3与え、悪霊·岩の魔蜥を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "悪霊の力",
+      "desc": "【固有】本キャラがダメージを受けた後、本キャラのHPが7以下の場合、チャージを1獲得する。（各対戦ごとに1回まで）",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3606
 }

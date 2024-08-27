@@ -1,62 +1,123 @@
 {
-	"id": "CryoHilichurlShooter",
-	"shareid": 3102,
-	"name": "Крио хиличурл-стрелок",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 3,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Крио",
-		"weapon": "Прочее",
-		"faction": ["Монстр", "Хиличурл"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "IceArrow",
-			"name": "Крио стрела",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Multishot",
-			"name": "Многострел",
-			"desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон, 4 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Крио",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Hide",
-			"name": "Укрытие",
-			"desc": "(Пассивный навык) После атаки персонажа, следующий персонаж автоматически станет активным.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CryoHilichurlShooter",
+  "shareid": 3102,
+  "name": "Крио хиличурл-стрелок",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Хиличурл",
+      "Монстр",
+      "Хиличурл"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "IceArrow",
+      "name": "Крио стрела",
+      "desc": "Наносит Крио урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Многострел",
+      "desc": "Наносит Крио урон, 4 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Укрытие",
+      "desc": "(Пассивный навык) После атаки персонажа, следующий персонаж автоматически станет активным.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "IceArrow",
+      "name": "Крио стрела",
+      "desc": "Наносит Крио урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Многострел",
+      "desc": "Наносит Крио урон, 4 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Укрытие",
+      "desc": "(Пассивный навык) После атаки персонажа, следующий персонаж автоматически станет активным.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3102
 }

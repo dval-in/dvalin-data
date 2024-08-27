@@ -12,6 +12,7 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Mostro",
       "Mostro"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Sedimentazione elementale di Cryo",
       "desc": "(Passiva) All'inizio del duello, questo personaggio ottiene lo stato di Entità elementale di Cryo.",
       "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Rimbalzo",
+      "desc": "Infligge 1 DAN da Cryo.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "Spruzzo congelante",
+      "desc": "Infligge 3 DAN da Cryo.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Caduta violenta",
+      "desc": "Infligge 5 DAN da Cryo.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Sedimentazione elementale di Cryo",
+      "desc": "(Passiva) All'inizio del duello, questo personaggio ottiene lo stato di Entità elementale di Cryo.",
+      "skillTag": [
         "Abilità passiva"
       ],
       "points": []

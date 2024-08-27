@@ -1,82 +1,169 @@
 {
-	"id": "KairagiDancingThunder",
-	"shareid": 3401,
-	"name": "Kairagi - Lôi Đằng",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Lôi",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Kairagi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "Chém Ba Điểm",
-			"desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "Nhảy Và Chém",
-			"desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai: Nạp Đao",
-			"desc": "Nhân vật này <span style=\"color:#FFFFFFFF\">Chuẩn Bị Kỹ Năng: <span style=\"color:#FFFFFFFF\">Iai: Hơi Thở Sấm.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Nguyên Tố Lôi",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanElectro",
-			"name": "Bùa Kamuna - Ánh Chớp",
-			"desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Bùa Kamuna - Ánh Chớp.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "Tuyệt Cảnh Cuồng Loạn",
-			"desc": "Khi nhân vật Kairagi khác của phe ta bị đánh bại, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Tuyệt Cảnh Cuồng Loạn.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiDancingThunder",
+  "shareid": 3401,
+  "name": "Kairagi - Lôi Đằng",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Kairagi",
+      "Kairagi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "Chém Ba Điểm",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Nhảy Và Chém",
+      "desc": "Gây 3 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Nạp Đao",
+      "desc": "Nhân vật này Chuẩn Bị Kỹ Năng: Iai: Hơi Thở Sấm.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Bùa Kamuna - Ánh Chớp",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Bùa Kamuna - Ánh Chớp.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Tuyệt Cảnh Cuồng Loạn",
+      "desc": "Khi nhân vật Kairagi khác của phe ta bị đánh bại, nhân vật này áp dụng Tuyệt Cảnh Cuồng Loạn.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "Chém Ba Điểm",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "Nhảy Và Chém",
+      "desc": "Gây 3 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Nạp Đao",
+      "desc": "Nhân vật này Chuẩn Bị Kỹ Năng: Iai: Hơi Thở Sấm.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanElectro",
+      "name": "Bùa Kamuna - Ánh Chớp",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Bùa Kamuna - Ánh Chớp.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "Tuyệt Cảnh Cuồng Loạn",
+      "desc": "Khi nhân vật Kairagi khác của phe ta bị đánh bại, nhân vật này áp dụng Tuyệt Cảnh Cuồng Loạn.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3401
 }

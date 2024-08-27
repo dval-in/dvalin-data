@@ -11,6 +11,7 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre",
+      "Monstre",
       "Monstre"
     ],
     "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Empereur du feu ferreux",
@@ -25,6 +26,70 @@
     }
   },
   "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Coup pinçant",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Explosion flagrante",
+      "desc": "Inflige 1 pt de DGT Pyro. Si le personnage possède au moins 7 cumuls de carapace de Cuiracrabe, ces DGT augmentent de 1. Le personnage obtient ensuite 2 cumuls de carapace de Cuiracrabe.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Détonation de formation",
+      "desc": "Applique 6 cumuls de carapace de Cuiracrabe au personnage et prépare la capacité : Explosion brûlante.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "Armure impériale",
+      "desc": "(Passif) Au début du combat : Accorde 5 cumuls de carapace de Cuiracrabe. Lorsque vous avez effectué une action : Annule les boucliers (hormis ceux accordés par une carapace de Cuiracrabe) et les états de déploiement « Bouclier » que vous possédez et vous accorde 2 cumuls de carapace de Cuiracrabe pour chacun des boucliers et états annulés.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
     {
       "id": "ShatterclampStrike",
       "name": "Coup pinçant",

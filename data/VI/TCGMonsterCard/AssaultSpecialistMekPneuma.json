@@ -1,75 +1,151 @@
 {
-	"id": "AssaultSpecialistMekPneuma",
-	"shareid": 3307,
-	"name": "Robot Đặc Công Chuyên Dụng - Pneuma",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Hỏa",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "UpclosePummelling",
-			"name": "Chiến Đấu Tầm Gần",
-			"desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Multismash",
-			"name": "Đập Mạnh Liên Tục",
-			"desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa, và <span style=\"color:#FFFFFFFF\">Chuẩn Bị Kỹ Năng: <span style=\"color:#FFFFFFFF\">Dùi Cui Truy Đuổi.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SprintingStrike",
-			"name": "Xung Kích Tấn Công",
-			"desc": "Gây 5 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ArkhePneuma",
-			"name": "Đặc Tính Năng Lượng: Pneuma",
-			"desc": "<span style=\"color:#FFFFFFFF\">Sau khi chịu sát thương có Sức Mạnh Nền Tảng: Ousia do nhân vật gây ra: Nhân vật này đổi sang <span style=\"color:#FFFFFFFF\">Trạng Thái Mất Năng Lượng, và <span style=\"color:#FFFFFFFF\">không thể dùng kỹ năng cho đến trước khi hiệp này kết thúc.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AssaultSpecialistMekPneuma",
+  "shareid": 3307,
+  "name": "Robot Đặc Công Chuyên Dụng - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "UpclosePummelling",
+      "name": "Chiến Đấu Tầm Gần",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multismash",
+      "name": "Đập Mạnh Liên Tục",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa, và Chuẩn Bị Kỹ Năng: Dùi Cui Truy Đuổi.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SprintingStrike",
+      "name": "Xung Kích Tấn Công",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Đặc Tính Năng Lượng: Pneuma",
+      "desc": "Sau khi chịu sát thương có Sức Mạnh Nền Tảng: Ousia do nhân vật gây ra: Nhân vật này đổi sang Trạng Thái Mất Năng Lượng, và không thể dùng kỹ năng cho đến trước khi hiệp này kết thúc.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "UpclosePummelling",
+      "name": "Chiến Đấu Tầm Gần",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multismash",
+      "name": "Đập Mạnh Liên Tục",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa, và Chuẩn Bị Kỹ Năng: Dùi Cui Truy Đuổi.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SprintingStrike",
+      "name": "Xung Kích Tấn Công",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Đặc Tính Năng Lượng: Pneuma",
+      "desc": "Sau khi chịu sát thương có Sức Mạnh Nền Tảng: Ousia do nhân vật gây ra: Nhân vật này đổi sang Trạng Thái Mất Năng Lượng, và không thể dùng kỹ năng cho đến trước khi hiệp này kết thúc.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3307
 }

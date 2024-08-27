@@ -1,77 +1,142 @@
 {
-	"id": "Kaeya",
-	"shareid": 3,
-	"name": "Kaeya",
-	"title": "Eiskalter Schwertkämpfer – Kaeya",
-	"desc": "Er kann sehr gut die „ritterlichen Tugenden“ in anderen erwecken.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Kryo",
-		"weapon": "Einhänder",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "ColdbloodedStrike",
-			"name": "Cold-Blooded Strike"
-		},
-		"source": "Vom anfänglichen Deck zu erhalten",
-		"character": {
-			"id": "Kaeya",
-			"name": "Kaeya",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "CeremonialBladework",
-			"name": "Rituelle Schwertkunst",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Frostgnaw",
-			"name": "Kälteatem",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialWaltz",
-			"name": "Kreis aus Eis",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#99FFFFFF\">Kryo-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Eiszapfen.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Kryo",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Kaeya",
+  "shareid": 3,
+  "name": "Kaeya",
+  "title": "Eiskalter Schwertkämpfer – Kaeya",
+  "desc": "Er kann sehr gut die „ritterlichen Tugenden“ in anderen erwecken.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Kryo",
+    "weapon": "Einhänder",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "ColdbloodedStrike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": "Vom anfänglichen Deck zu erhalten",
+    "character": {
+      "id": "Kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "CeremonialBladework",
+      "name": "Rituelle Schwertkunst",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "Kälteatem",
+      "desc": "Verursacht 3 Pkt. Kryo-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "Kreis aus Eis",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Eiszapfen.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialBladework",
+      "name": "Rituelle Schwertkunst",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "Kälteatem",
+      "desc": "Verursacht 3 Pkt. Kryo-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "Kreis aus Eis",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Eiszapfen.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3
 }

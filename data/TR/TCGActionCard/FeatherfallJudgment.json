@@ -4,12 +4,17 @@
   "name": "Tüy Yargısı",
   "title": "Cyno: Tüy Yargısı",
   "desc": "\"Bu benim düello ruhum.\"",
-  "inPlayDescription": "Bu kartı kuşanan Cyno, <span style=\"color:#FFFFFFFF\">Sadık Öncü</span> en az 2 seviye Yerleşim etkisine sahipken <span style=\"color:#FFFFFFFF\">Saklı Ayin: Ahir Rehberi</span> kullandığında verdiği Hasar 2 artar. (Her Turda bir defa)",
+  "inPlayDescription": "Bu kartı kuşanan Cyno, <span style=\"color:#FFFFFFFF\">Sadık Öncü</span> en az 2 seviye Yerleşim etkisine sahipken <span style=\"color:#FFFFFFFF\">Saklı Ayin: Ahir Rehberi</span> kullandığında <span style=\"color:#FFFFFFFF\">Saklı Ayin: Ahir Rehberi</span> ile verdiği Hasar 1 artar. (Her Turda en fazla iki defa)",
   "attributes": {
     "cost": 3,
     "costType": "Elektrik",
     "cardType": "Ekipman Kartı",
     "energy": [
+      {
+        "id": "Electro",
+        "type": "Elektrik",
+        "count": 3
+      },
       {
         "id": "Electro",
         "type": "Elektrik",
@@ -26,6 +31,8 @@
       "Yetenek",
       "Savaş Hamlesi",
       "Yetenek",
+      "Savaş Hamlesi",
+      "Yetenek",
       "Savaş Hamlesi"
     ]
   },
@@ -37,6 +44,10 @@
     {
       "name": "",
       "desc": "Savaş Hamlesi: Aktif karakterin Cyno olduğunda bu kartı kuşan. Cyno bu kartı kuşandıktan sonra hemen bir defa Saklı Ayin: Ahir Rehberi kullanır. Bu kartı kuşanan Cyno, Sadık Öncü en az 2 seviye Yerleşim etkisine sahipken Saklı Ayin: Ahir Rehberi kullandığında verdiği Hasar 2 artar. (Her Turda bir defa) (Bu kartı destene eklemek için destende Cyno olmalıdır.)"
+    },
+    {
+      "name": "",
+      "desc": "Savaş Hamlesi: Aktif karakterin Cyno olduğunda bu kartı kuşan. Cyno bu kartı kuşandıktan sonra hemen bir defa Saklı Ayin: Ahir Rehberi kullanır. Bu kartı kuşanan Cyno, Sadık Öncü en az 2 seviye Yerleşim etkisine sahipken Saklı Ayin: Ahir Rehberi kullandığında Saklı Ayin: Ahir Rehberi ile verdiği Hasar 1 artar. (Her Turda en fazla iki defa) (Bu kartı destene eklemek için destende Cyno olmalıdır.)"
     }
   ],
   "version": "4.4",

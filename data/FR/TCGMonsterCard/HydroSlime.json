@@ -1,62 +1,121 @@
 {
-	"id": "HydroSlime",
-	"shareid": 3204,
-	"name": "Hydroblob",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Autre arme",
-		"faction": ["Monstre"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "Rebond",
-			"desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "Écrasement",
-			"desc": "Inflige 4 pts de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationHydro",
-			"name": "Dépôt d'élément Hydro",
-			"desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">Entité élémentaire Hydro au début du combat.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroSlime",
+  "shareid": 3204,
+  "name": "Hydroblob",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "Rebond",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Écrasement",
+      "desc": "Inflige 4 pts de DGT Hydro.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Dépôt d'élément Hydro",
+      "desc": "(Passif) Accorde une Entité élémentaire Hydro au début du combat.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Rebond",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Écrasement",
+      "desc": "Inflige 4 pts de DGT Hydro.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Dépôt d'élément Hydro",
+      "desc": "(Passif) Accorde une Entité élémentaire Hydro au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3204
 }

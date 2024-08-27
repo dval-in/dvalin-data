@@ -1,75 +1,151 @@
 {
-	"id": "PureElectroHypostasis",
-	"shareid": 4403,
-	"name": "至純的無相之雷",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 15,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "雷元素",
-		"weapon": "其他武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ElectroCrystalProjection",
-			"name": "雷晶投射",
-			"desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RockpaperscissorsCombo",
-			"name": "猜拳三連擊",
-			"desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害，然後分別<span style=\"color:#FFFFFFFF\">準備技能：<span style=\"color:#FFFFFFFF\">猜拳三連擊·剪刀和<span style=\"color:#FFFFFFFF\">猜拳三連擊·布。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "LightningLockdown",
-			"name": "靂霆鎮鎖",
-			"desc": "造成2點<span style=\"color:#FFACFFFF\">雷元素傷害，召喚<span style=\"color:#FFFFFFFF\">雷鎖鎮域。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "雷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationElectro",
-			"name": "元素沉積·雷",
-			"desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">元素生命·雷。",
-			"skilltag": ["被動技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "PureElectroHypostasis",
+  "shareid": 4403,
+  "name": "至純的無相之雷",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "雷晶投射",
+      "desc": "造成1點雷元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "猜拳三連擊",
+      "desc": "造成2點雷元素傷害，然後分別準備技能：猜拳三連擊·剪刀和猜拳三連擊·布。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "靂霆鎮鎖",
+      "desc": "造成2點雷元素傷害，召喚雷鎖鎮域。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "元素沉積·雷",
+      "desc": "【被動】戰鬥開始時，初始附屬元素生命·雷。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "雷晶投射",
+      "desc": "造成1點雷元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "猜拳三連擊",
+      "desc": "造成2點雷元素傷害，然後分別準備技能：猜拳三連擊·剪刀和猜拳三連擊·布。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "靂霆鎮鎖",
+      "desc": "造成2點雷元素傷害，召喚雷鎖鎮域。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "元素沉積·雷",
+      "desc": "【被動】戰鬥開始時，初始附屬元素生命·雷。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 4403
 }

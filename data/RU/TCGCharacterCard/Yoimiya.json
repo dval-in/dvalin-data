@@ -1,77 +1,142 @@
 {
-	"id": "Yoimiya",
-	"shareid": 21,
-	"name": "Ёимия",
-	"title": "«Пляшущие огоньки» Ёимия",
-	"desc": "Капитан и авангард команды Наганохара на 11-м гостевом турнире Ханамидзаки.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Пиро",
-		"weapon": "Стрелковое",
-		"faction": ["Инадзума"],
-		"talentCard": {
-			"id": "NaganoharaMeteorSwarm",
-			"name": "Naganohara Meteor Swarm"
-		},
-		"source": "Награда за приглашение Ёимии в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "Yoimiya",
-			"name": "Yoimiya",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FireworkFlareup",
-			"name": "Вспышка фейерверка",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "NiwabiFiredance",
-			"name": "Огненный танец Ниваби",
-			"desc": "Персонаж получает <span style=\"color:#FFFFFFFF\">Ниваби энсё. Этот навык не создаёт  энергию.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 1
-				}
-			]
-		},
-		{
-			"id": "RyuukinSaxifrage",
-			"name": "Камнеломка Рюкин",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 3 ед. и создаёт <span style=\"color:#FFFFFFFF\">Золотое сияние.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yoimiya",
+  "shareid": 21,
+  "name": "Ёимия",
+  "title": "«Пляшущие огоньки» Ёимия",
+  "desc": "Капитан и авангард команды Наганохара на 11-м гостевом турнире Ханамидзаки.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Пиро",
+    "weapon": "Стрелковое",
+    "faction": [
+      "Инадзума",
+      "Инадзума"
+    ],
+    "talentCard": {
+      "id": "NaganoharaMeteorSwarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": "Награда за приглашение Ёимии в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FireworkFlareup",
+      "name": "Вспышка фейерверка",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Огненный танец Ниваби",
+      "desc": "Персонаж получает Ниваби энсё. Этот навык не создаёт  энергию.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Камнеломка Рюкин",
+      "desc": "Наносит Пиро урон, 3 ед. и создаёт Золотое сияние.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FireworkFlareup",
+      "name": "Вспышка фейерверка",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Огненный танец Ниваби",
+      "desc": "Персонаж получает Ниваби энсё. Этот навык не создаёт  энергию.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Камнеломка Рюкин",
+      "desc": "Наносит Пиро урон, 3 ед. и создаёт Золотое сияние.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 21
 }

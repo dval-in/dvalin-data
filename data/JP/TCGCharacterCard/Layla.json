@@ -1,77 +1,142 @@
 {
-	"id": "Layla",
-	"shareid": 279,
-	"name": "レイラ",
-	"title": "綺思と夜星·レイラ",
-	"desc": "更けゆく夜に星が遷り、月籠に照らされる夢の軌跡。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "氷元素",
-		"weapon": "片手剣",
-		"faction": ["スメール"],
-		"talentCard": {
-			"id": "LightsRemit",
-			"name": "Light's Remit"
-		},
-		"source": "キャッツテールでレイラを招待し、友好対戦に勝利することで獲得",
-		"character": {
-			"id": "Layla",
-			"name": "Layla",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SwordOfTheRadiantPath",
-			"name": "煌めく軌跡の剣",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "NightsOfFormalFocus",
-			"name": "垂裳凛然の夜",
-			"desc": "<span style=\"color:#FFFFFFFF\">安眠天幕シールドと<span style=\"color:#FFFFFFFF\">飛星を生成する。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DreamOfTheStarstreamShaker",
-			"name": "星流揺籠の夢",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを3与え、<span style=\"color:#FFFFFFFF\">夢の天球を召喚する。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Layla",
+  "shareid": 279,
+  "name": "レイラ",
+  "title": "綺思と夜星·レイラ",
+  "desc": "更けゆく夜に星が遷り、月籠に照らされる夢の軌跡。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "片手剣",
+    "faction": [
+      "スメール",
+      "スメール"
+    ],
+    "talentCard": {
+      "id": "LightsRemit",
+      "name": "Light's Remit"
+    },
+    "source": "キャッツテールでレイラを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Layla",
+      "name": "Layla",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SwordOfTheRadiantPath",
+      "name": "煌めく軌跡の剣",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NightsOfFormalFocus",
+      "name": "垂裳凛然の夜",
+      "desc": "安眠天幕シールドと飛星を生成する。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DreamOfTheStarstreamShaker",
+      "name": "星流揺籠の夢",
+      "desc": "氷元素ダメージを3与え、夢の天球を召喚する。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwordOfTheRadiantPath",
+      "name": "煌めく軌跡の剣",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NightsOfFormalFocus",
+      "name": "垂裳凛然の夜",
+      "desc": "安眠天幕シールドと飛星を生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DreamOfTheStarstreamShaker",
+      "name": "星流揺籠の夢",
+      "desc": "氷元素ダメージを3与え、夢の天球を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 279
 }

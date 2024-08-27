@@ -1,62 +1,121 @@
 {
-	"id": "HydroSlime",
-	"shareid": 3204,
-	"name": "Hydro-Schleim",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "Hüpfen",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "Schwerer Sturz",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationHydro",
-			"name": "Elementarablagerung – Hydro",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elementarwesen – Hydro.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroSlime",
+  "shareid": 3204,
+  "name": "Hydro-Schleim",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "Hüpfen",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Schwerer Sturz",
+      "desc": "Verursacht 4 Pkt. Hydro-SCH.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Elementarablagerung – Hydro",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elementarwesen – Hydro.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Hüpfen",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Schwerer Sturz",
+      "desc": "Verursacht 4 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Elementarablagerung – Hydro",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elementarwesen – Hydro.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3204
 }

@@ -1,75 +1,153 @@
 {
-	"id": "CracklingAxeMitachurl",
-	"shareid": 3403,
-	"name": "Mitachurl con Hacha Electro",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Electro",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo", "Hilichurl"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "DuPlama",
-			"name": "Du Plama",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Upa",
-			"name": "Upa",
-			"desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OtoTiga",
-			"name": "Oto Tiga",
-			"desc": "Inflige 5 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RippleElectroEdge",
-			"name": "Filo del trueno",
-			"desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">filo del trueno.",
-			"skilltag": ["Habilidad pasiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "CracklingAxeMitachurl",
+  "shareid": 3403,
+  "name": "Mitachurl con Hacha Electro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Hilichurl",
+      "Monstruo",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "DuPlama",
+      "name": "Du Plama",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Upa",
+      "name": "Upa",
+      "desc": "Inflige 3 pts. de Daño Físico.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OtoTiga",
+      "name": "Oto Tiga",
+      "desc": "Inflige 5 pts. de Daño Físico.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RippleElectroEdge",
+      "name": "Filo del trueno",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de filo del trueno.",
+      "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "DuPlama",
+      "name": "Du Plama",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Upa",
+      "name": "Upa",
+      "desc": "Inflige 3 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OtoTiga",
+      "name": "Oto Tiga",
+      "desc": "Inflige 5 pts. de Daño Físico.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RippleElectroEdge",
+      "name": "Filo del trueno",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de filo del trueno.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3403
 }

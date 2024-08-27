@@ -1,77 +1,142 @@
 {
-	"id": "Sucrose",
-	"shareid": 36,
-	"name": "Sucrose",
-	"title": "Sucrose, Dolcezza innocua",
-	"desc": "\"Non puoi valutare la potenza di un mazzo non ancora provato!\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Anemo",
-		"weapon": "Catalizzatore",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "ChaoticEntropy",
-			"name": "Chaotic Entropy"
-		},
-		"source": "Si ottiene dal mazzo iniziale",
-		"character": {
-			"id": "Sucrose",
-			"name": "Sucrose",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "WindSpiritCreation",
-			"name": "Creazione dello spirito dei venti",
-			"desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anemo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "AstableAnemohypostasisCreation6308",
-			"name": "Creazione Anemoipostasi astabile n. 6308",
-			"desc": "Infligge 3 <span style=\"color:#80FFD7FF\">DAN da Anemo. Obbliga l'avversario a passare al personaggio precedente.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anemo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ForbiddenCreationIsomer75TypeIi",
-			"name": "Creazione proibita: Isomero 75 Tipo II",
-			"desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo, invoca 1 <span style=\"color:#FFFFFFFF\">Grande Spirito dei venti.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anemo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Sucrose",
+  "shareid": 36,
+  "name": "Sucrose",
+  "title": "Sucrose, Dolcezza innocua",
+  "desc": "\"Non puoi valutare la potenza di un mazzo non ancora provato!\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizzatore",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "ChaoticEntropy",
+      "name": "Chaotic Entropy"
+    },
+    "source": "Si ottiene dal mazzo iniziale",
+    "character": {
+      "id": "Sucrose",
+      "name": "Sucrose",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "WindSpiritCreation",
+      "name": "Creazione dello spirito dei venti",
+      "desc": "Infligge 1 DAN da Anemo.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AstableAnemohypostasisCreation6308",
+      "name": "Creazione Anemoipostasi astabile n. 6308",
+      "desc": "Infligge 3 DAN da Anemo. Obbliga l'avversario a passare al personaggio precedente.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ForbiddenCreationIsomer75TypeIi",
+      "name": "Creazione proibita: Isomero 75 Tipo II",
+      "desc": "Infligge 1 DAN da Anemo, invoca 1 Grande Spirito dei venti.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WindSpiritCreation",
+      "name": "Creazione dello spirito dei venti",
+      "desc": "Infligge 1 DAN da Anemo.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AstableAnemohypostasisCreation6308",
+      "name": "Creazione Anemoipostasi astabile n. 6308",
+      "desc": "Infligge 3 DAN da Anemo. Obbliga l'avversario a passare al personaggio precedente.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ForbiddenCreationIsomer75TypeIi",
+      "name": "Creazione proibita: Isomero 75 Tipo II",
+      "desc": "Infligge 1 DAN da Anemo, invoca 1 Grande Spirito dei venti.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 36
 }

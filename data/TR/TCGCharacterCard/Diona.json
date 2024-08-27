@@ -1,73 +1,138 @@
 {
-	"id": "Diona",
-	"shareid": 2,
-	"name": "Diona",
-	"title": "\"Kätzlein Kokteyli\" Diona",
-	"desc": "Enerjinin %1'i kokteyl yapmaya, %99'u bilinen gerçeği inkar etmeye...",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Buz",
-		"weapon": "Yay",
-		"faction": ["Mondstadt"],
-		"source": "Diona'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Diona",
-			"name": "Diona",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "KtzleinStyle",
-			"name": "Kätzlein Tarzı",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "IcyPaws",
-			"name": "Buz Patisi",
-			"desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Buz Patisi Kalkanı oluşturur.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SignatureMix",
-			"name": "Özel Karışım",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir, bu karakterin Canını 2 yeniler ve 1 <span style=\"color:#FFFFFFFF\">Sarhoşluk Buharı çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Diona",
+  "shareid": 2,
+  "name": "Diona",
+  "title": "\"Kätzlein Kokteyli\" Diona",
+  "desc": "Enerjinin %1'i kokteyl yapmaya, %99'u bilinen gerçeği inkar etmeye...",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Yay",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "source": "Diona'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "KtzleinStyle",
+      "name": "Kätzlein Tarzı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "Buz Patisi",
+      "desc": "2 Buz Hasarı verir ve 1 Buz Patisi Kalkanı oluşturur.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "Özel Karışım",
+      "desc": "1 Buz Hasarı verir, bu karakterin Canını 2 yeniler ve 1 Sarhoşluk Buharı çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KtzleinStyle",
+      "name": "Kätzlein Tarzı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "Buz Patisi",
+      "desc": "2 Buz Hasarı verir ve 1 Buz Patisi Kalkanı oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "Özel Karışım",
+      "desc": "1 Buz Hasarı verir, bu karakterin Canını 2 yeniler ve 1 Sarhoşluk Buharı çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 2
 }

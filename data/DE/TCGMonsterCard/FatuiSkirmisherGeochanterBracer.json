@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherGeochanterBracer",
-	"shareid": 3604,
-	"name": "Fatui-Plänkler – Geo-Boten-Freischärler",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Geo",
-		"weapon": "Andere Waffen",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RockProjectile",
-			"name": "Steingeschoss",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GeocrystalBeam",
-			"name": "Prismatische Steine",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StaffOfGeo",
-			"name": "Felsenstab",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erhält selbst <span style=\"color:#FFFFFFFF\">Elementarrüstung – Geo und erschafft 1 <span style=\"color:#FFFFFFFF\">Kristallummantelung.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Einsatzversorgung",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes selbst 2 Pkt. Aufladung.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherGeochanterBracer",
+  "shareid": 3604,
+  "name": "Fatui-Plänkler – Geo-Boten-Freischärler",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RockProjectile",
+      "name": "Steingeschoss",
+      "desc": "Verursacht 1 Pkt. Geo-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Prismatische Steine",
+      "desc": "Verursacht 3 Pkt. Geo-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Felsenstab",
+      "desc": "Verursacht 3 Pkt. Geo-SCH, erhält selbst Elementarrüstung – Geo und erschafft 1 Kristallummantelung.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Einsatzversorgung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes selbst 2 Pkt. Aufladung.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "RockProjectile",
+      "name": "Steingeschoss",
+      "desc": "Verursacht 1 Pkt. Geo-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Prismatische Steine",
+      "desc": "Verursacht 3 Pkt. Geo-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Felsenstab",
+      "desc": "Verursacht 3 Pkt. Geo-SCH, erhält selbst Elementarrüstung – Geo und erschafft 1 Kristallummantelung.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Einsatzversorgung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes selbst 2 Pkt. Aufladung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3604
 }

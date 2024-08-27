@@ -12,6 +12,7 @@
     "weapon": "Katalizör",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Şimşek Gülü",
       "desc": "2 Elektrik Hasarı verir ve Şimşek Gülü çağırır.",
       "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Yıldırım Dokunuşu",
+      "desc": "1 Elektrik Hasarı verir. Bu Beceri Yüklü Saldırı olarak kullanıldığında rakibin aktif karakterine İletken eklenir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Mor Akım",
+      "desc": "2 Elektrik Hasarı verir. Rakibin aktif karakterine İletken eklenmediyse eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Şimşek Gülü",
+      "desc": "2 Elektrik Hasarı verir. Şimşek Gülü çağırır. Rakibin aktif karakteri İletken kazanır.",
+      "skillTag": [
         "Element Patlaması"
       ],
       "points": [

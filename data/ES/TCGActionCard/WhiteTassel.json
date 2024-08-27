@@ -1,29 +1,44 @@
 {
-	"id": "WhiteTassel",
-	"shareid": 137,
-	"name": "Borla Blanca",
-	"title": "Punta refulgente: Borla Blanca",
-	"desc": "Un arma estándar de la Geoarmada. Tiene un eje firme y una punta de lanza afilada. Es un arma muy fiable.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1.",
-	"attributes": {
-		"cost": 2,
-		"costType": "Dados unielementales",
-		"cardType": "Carta de equipamiento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Dados unielementales",
-				"count": 2
-			}
-		],
-		"source": "Se obtiene con el mazo inicial",
-		"tags": ["Arma", "Lanza"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Daño +1.Solo pueden llevarla equipada los <span style=\"color:#FFFFFFFF\">personajes que usan lanza. Cada personaje solo puede llevar equipada 1 arma."
-		}
-	],
-	"version": "4.4"
+  "id": "WhiteTassel",
+  "shareid": 137,
+  "name": "Borla Blanca",
+  "title": "Punta refulgente: Borla Blanca",
+  "desc": "Un arma estándar de la Geoarmada. Tiene un eje firme y una punta de lanza afilada. Es un arma muy fiable.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Daño +1</span>.",
+  "attributes": {
+    "cost": 2,
+    "costType": "Dados unielementales",
+    "cardType": "Carta de equipamiento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Dados unielementales",
+        "count": 2
+      }
+    ],
+    "source": "Se obtiene con el mazo inicial",
+    "tags": [
+      "Arma",
+      "Lanza",
+      "Arma",
+      "Lanza"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Daño +1.Solo pueden llevarla equipada los personajes que usan lanza. Cada personaje solo puede llevar equipada 1 arma."
+    },
+    {
+      "name": "",
+      "desc": "Daño +1. Solo pueden llevarla equipada los personajes que usan lanza. Cada personaje solo puede llevar equipada 1 arma."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 137
 }

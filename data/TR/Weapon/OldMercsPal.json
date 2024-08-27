@@ -1,181 +1,337 @@
 {
-    "id": "OldMercsPal",
-    "name": "Old Merc's Pal",
-    "description": "\u0e14\u0e32\u0e1a\u0e43\u0e2b\u0e0d\u0e48\u0e17\u0e35\u0e48\u0e1c\u0e48\u0e32\u0e19\u0e01\u0e32\u0e23\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e21\u0e32\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e22\u0e32\u0e27\u0e19\u0e32\u0e19 \u0e17\u0e31\u0e49\u0e07\u0e27\u0e31\u0e19\u0e17\u0e35\u0e48\u0e14\u0e35\u0e41\u0e25\u0e30\u0e23\u0e49\u0e32\u0e22\u0e1b\u0e30\u0e1b\u0e19\u0e40\u0e1b\u0e47\u0e19\u0e41\u0e23\u0e21\u0e1b\u0e35",
-    "rarity": 2,
-    "type": "\u0e14\u0e32\u0e1a\u0e43\u0e2b\u0e0d\u0e48",
-    "domain": "\u0e2a\u0e27\u0e19\u0e14\u0e2d\u0e01 Cecilia",
-    "passive": "",
-    "bonus": "",
-    "stats": {
-        "primary": "\u0e1e\u0e25\u0e31\u0e07\u0e42\u0e08\u0e21\u0e15\u0e35\u0e1e\u0e37\u0e49\u0e19\u0e10\u0e32\u0e19",
-        "levels": [
-            {
-                "ascension": 0,
-                "level": 1,
-                "primary": 33
-            },
-            {
-                "ascension": 0,
-                "level": 20,
-                "primary": 80
-            },
-            {
-                "ascension": 1,
-                "level": 20,
-                "primary": 91
-            },
-            {
-                "ascension": 1,
-                "level": 40,
-                "primary": 139
-            },
-            {
-                "ascension": 2,
-                "level": 40,
-                "primary": 151
-            },
-            {
-                "ascension": 2,
-                "level": 50,
-                "primary": 174
-            },
-            {
-                "ascension": 3,
-                "level": 50,
-                "primary": 186
-            },
-            {
-                "ascension": 3,
-                "level": 60,
-                "primary": 209
-            },
-            {
-                "ascension": 4,
-                "level": 60,
-                "primary": 220
-            },
-            {
-                "ascension": 4,
-                "level": 70,
-                "primary": 243
-            }
-        ]
+  "id": "OldMercsPal",
+  "name": "İhtiyar Lejyonerin Dostu",
+  "description": "Savaşlara ve yıllara meydan okumuş sağlam bir kılıç.",
+  "rarity": 2,
+  "type": "Çift Elli Kılıç",
+  "domain": "Sesilya Bahçesi",
+  "passive": "",
+  "bonus": "",
+  "stats": {
+    "primary": "Temel Saldırı",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 33
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 80
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 91
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 139
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 151
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 174
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 186
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 209
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 220
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 243
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 33
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 80
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 91
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 139
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 151
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 174
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 186
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 209
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 220
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 243
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
     },
-    "ascensions": [
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
         {
-            "ascension": 0,
-            "level": 20,
-            "materials": []
+          "id": "BorealWolfsMilkTooth",
+          "name": "Boreal Wolf's Milk Tooth",
+          "amount": 1,
+          "rarity": 2
         },
         {
-            "ascension": 1,
-            "level": 40,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "BorealWolfsMilkTooth",
-                    "name": "Boreal Wolf's Milk Tooth",
-                    "amount": 1,
-                    "rarity": 2
-                },
-                {
-                    "id": "DeadLeyLineBranch",
-                    "name": "Dead Ley Line Branch",
-                    "amount": 1,
-                    "rarity": 2
-                },
-                {
-                    "id": "SlimeCondensate",
-                    "name": "Slime Condensate",
-                    "amount": 1,
-                    "rarity": 1
-                }
-            ]
+          "id": "DeadLeyLineBranch",
+          "name": "Dead Ley Line Branch",
+          "amount": 1,
+          "rarity": 2
         },
         {
-            "ascension": 2,
-            "level": 50,
-            "cost": 5000,
-            "materials": [
-                {
-                    "id": "BorealWolfsCrackedTooth",
-                    "name": "Boreal Wolf's Cracked Tooth",
-                    "amount": 1,
-                    "rarity": 3
-                },
-                {
-                    "id": "DeadLeyLineBranch",
-                    "name": "Dead Ley Line Branch",
-                    "amount": 5,
-                    "rarity": 2
-                },
-                {
-                    "id": "SlimeCondensate",
-                    "name": "Slime Condensate",
-                    "amount": 4,
-                    "rarity": 1
-                }
-            ]
-        },
-        {
-            "ascension": 3,
-            "level": 60,
-            "cost": 10000,
-            "materials": [
-                {
-                    "id": "BorealWolfsCrackedTooth",
-                    "name": "Boreal Wolf's Cracked Tooth",
-                    "amount": 3,
-                    "rarity": 3
-                },
-                {
-                    "id": "DeadLeyLineLeaves",
-                    "name": "Dead Ley Line Leaves",
-                    "amount": 3,
-                    "rarity": 3
-                },
-                {
-                    "id": "SlimeSecretions",
-                    "name": "Slime Secretions",
-                    "amount": 3,
-                    "rarity": 2
-                }
-            ]
-        },
-        {
-            "ascension": 4,
-            "level": 70,
-            "cost": 15000,
-            "materials": [
-                {
-                    "id": "BorealWolfsBrokenFang",
-                    "name": "Boreal Wolf's Broken Fang",
-                    "amount": 1,
-                    "rarity": 4
-                },
-                {
-                    "id": "DeadLeyLineLeaves",
-                    "name": "Dead Ley Line Leaves",
-                    "amount": 5,
-                    "rarity": 3
-                },
-                {
-                    "id": "SlimeSecretions",
-                    "name": "Slime Secretions",
-                    "amount": 4,
-                    "rarity": 2
-                }
-            ]
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "amount": 1,
+          "rarity": 1
         }
-    ],
-    "refinement_raw": {
-        "name": "",
-        "template": "",
-        "params": []
+      ]
     },
-    "refinements": [],
-    "pictures": {
-        "icon": "Weapon/OldMercsPal/Icon.webp"
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "Boreal Wolf's Cracked Tooth",
+          "amount": 1,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "Dead Ley Line Branch",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Slime Condensate",
+          "amount": 4,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "Boreal Wolf's Cracked Tooth",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "Dead Ley Line Leaves",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "Boreal Wolf's Broken Fang",
+          "amount": 1,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "Dead Ley Line Leaves",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Slime Secretions",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsMilkTooth",
+          "name": "Kutup Kurdunun Süt Dişi",
+          "amount": 1,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "Kuru Ley Hattı Dalı",
+          "amount": 1,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Bodurlop Özü",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "Kutup Kurdunun Çatlak Dişi",
+          "amount": 1,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "Kuru Ley Hattı Dalı",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "Bodurlop Özü",
+          "amount": 4,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "Kutup Kurdunun Çatlak Dişi",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "Kuru Ley Hattı Yaprakları",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Bodurlop Salgıları",
+          "amount": 3,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "Kutup Kurdunun Kırık Dişi",
+          "amount": 1,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "Kuru Ley Hattı Yaprakları",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "Bodurlop Salgıları",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
     }
+  ],
+  "refinements": [],
+  "pictures": {
+    "icon": "Weapon/OldMercsPal/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "",
+    "template": "",
+    "params": []
+  },
+  "version": "5.0"
 }

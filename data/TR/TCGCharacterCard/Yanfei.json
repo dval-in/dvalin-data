@@ -1,77 +1,142 @@
 {
-	"id": "Yanfei",
-	"shareid": 24,
-	"name": "Yanfei",
-	"title": "Masum Bilgelik: Yanfei",
-	"desc": "Klasikleri gözden geçirmeyen kişi, yasaları çiğnemiş olur.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Ateş",
-		"weapon": "Katalizör",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "RightOfFinalInterpretation",
-			"name": "Right of Final Interpretation"
-		},
-		"source": "Yanfei'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Yanfei",
-			"name": "Yanfei",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SealOfApproval",
-			"name": "Tasdik Mührü",
-			"desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SignedEdict",
-			"name": "Kızıl Ferman",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir, ayrıca bu karakter <span style=\"color:#FFFFFFFF\">Kızıl Mühür kuşanır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DoneDeal",
-			"name": "Son Karar",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir, ayrıca karakter <span style=\"color:#FFFFFFFF\">Kızıl Mühür ve <span style=\"color:#FFFFFFFF\">Parlaklık kuşanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yanfei",
+  "shareid": 24,
+  "name": "Yanfei",
+  "title": "Masum Bilgelik: Yanfei",
+  "desc": "Klasikleri gözden geçirmeyen kişi, yasaları çiğnemiş olur.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Katalizör",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "RightOfFinalInterpretation",
+      "name": "Right of Final Interpretation"
+    },
+    "source": "Yanfei'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Yanfei",
+      "name": "Yanfei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SealOfApproval",
+      "name": "Tasdik Mührü",
+      "desc": "1 Ateş Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "Kızıl Ferman",
+      "desc": "3 Ateş Hasarı verir, ayrıca bu karakter Kızıl Mühür kuşanır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "Son Karar",
+      "desc": "3 Ateş Hasarı verir, ayrıca karakter Kızıl Mühür ve Parlaklık kuşanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SealOfApproval",
+      "name": "Tasdik Mührü",
+      "desc": "1 Ateş Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "Kızıl Ferman",
+      "desc": "3 Ateş Hasarı verir, ayrıca bu karakter Kızıl Mühür kuşanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "Son Karar",
+      "desc": "3 Ateş Hasarı verir, ayrıca karakter Kızıl Mühür ve Parlaklık kuşanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 24
 }

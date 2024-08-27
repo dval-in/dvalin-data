@@ -1,77 +1,142 @@
 {
-	"id": "Beidou",
-	"shareid": 30,
-	"name": "Beidou",
-	"title": "\"Okyanusun Taçsız Efendisi\" Beidou",
-	"desc": "\"Bugünü unutma, bugün az daha Güneyhaçı'nın Kaptanından para koparacaktın.\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Elektrik",
-		"weapon": "Çift Elli Kılıç",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "LightningStorm",
-			"name": "Lightning Storm"
-		},
-		"source": "Beidou'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Beidou",
-			"name": "Beidou",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "Oceanborne",
-			"name": "Okyanustan Gelen",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Tidecaller",
-			"name": "Dalga Çağıran",
-			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Dalga Çağıran: Sörf Çağrısı kazanır. <span style=\"color:#FFFFFFFF\">Beceri Hazırlama: <span style=\"color:#FFFFFFFF\">Deniz Yolcusu.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Stormbreaker",
-			"name": "Fırtına Kıran",
-			"desc": "2 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Yıldırım Canavarı Kalkanı oluşturur.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Beidou",
+  "shareid": 30,
+  "name": "Beidou",
+  "title": "\"Okyanusun Taçsız Efendisi\" Beidou",
+  "desc": "\"Bugünü unutma, bugün az daha Güneyhaçı'nın Kaptanından para koparacaktın.\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Elektrik",
+    "weapon": "Çift Elli Kılıç",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "LightningStorm",
+      "name": "Lightning Storm"
+    },
+    "source": "Beidou'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Oceanborne",
+      "name": "Okyanustan Gelen",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "Dalga Çağıran",
+      "desc": "Bu karakter Dalga Çağıran: Sörf Çağrısı kazanır. Beceri Hazırlama: Deniz Yolcusu.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "Fırtına Kıran",
+      "desc": "2 Elektrik Hasarı verir ve 1 Yıldırım Canavarı Kalkanı oluşturur.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Oceanborne",
+      "name": "Okyanustan Gelen",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "Dalga Çağıran",
+      "desc": "Bu karakter Dalga Çağıran: Sörf Çağrısı kazanır. Beceri Hazırlama: Deniz Yolcusu.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "Fırtına Kıran",
+      "desc": "2 Elektrik Hasarı verir ve 1 Yıldırım Canavarı Kalkanı oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 30
 }

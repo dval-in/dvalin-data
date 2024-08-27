@@ -11,6 +11,7 @@
     "weapon": "Other Weapons",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the All-Devouring Narwhal",
@@ -120,6 +121,70 @@
       "id": "RavagingDevourer",
       "name": "Ravaging Devourer",
       "desc": "Deals 1 Hydro DMG, deals 1 Piercing DMG to all opposing characters on standby. Summons 1 Dark Shadow.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Insatiable Appetite",
+      "desc": "(Passive) When battle begins, create 1 Deep Devourer's Domain.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShatteringWaves",
+      "name": "Shattering Waves",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Starfall Shower",
+      "desc": "Deals $[D__KEY__DAMAGE_2] Physical DMG. This character deals +1 DMG for every 3 additional max HP provided by Insatiable Appetite (Max +3.) After this, Discard 1 card from your Hand with the highest original Elemental Dice Cost.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Ravaging Devourer",
+      "desc": "Deals 1 Physical DMG, deals 1 Piercing DMG to all opposing characters on standby. Summons 1 Dark Shadow.",
       "skillTag": [
         "Elemental Burst"
       ],

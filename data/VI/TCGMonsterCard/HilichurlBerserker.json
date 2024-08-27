@@ -1,68 +1,135 @@
 {
-	"id": "HilichurlBerserker",
-	"shareid": 3304,
-	"name": "Hilichurl Tiên Phong",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Hỏa",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật", "Hilichurl"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "TorchStrike",
-			"name": "Đuốc Xung Kích",
-			"desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "HitAndRun",
-			"name": "Vừa Chạy Vừa Đánh",
-			"desc": "Gây 2 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ScorchingCombo",
-			"name": "Quơ Đuốc",
-			"desc": "Gây 4 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HilichurlBerserker",
+  "shareid": 3304,
+  "name": "Hilichurl Tiên Phong",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Hilichurl",
+      "Ma Vật",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TorchStrike",
+      "name": "Đuốc Xung Kích",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HitAndRun",
+      "name": "Vừa Chạy Vừa Đánh",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ScorchingCombo",
+      "name": "Quơ Đuốc",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TorchStrike",
+      "name": "Đuốc Xung Kích",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HitAndRun",
+      "name": "Vừa Chạy Vừa Đánh",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ScorchingCombo",
+      "name": "Quơ Đuốc",
+      "desc": "Gây 4 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3304
 }

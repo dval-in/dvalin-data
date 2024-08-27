@@ -1,293 +1,588 @@
 {
-	"id": "HaranGeppakuFutsu",
-	"name": "Maremoto da Lua de Futsu",
-	"description": "Uma obra da linhagem Futsu. Seu nome tem como origem devido \u00e0 maneira que lembra uma onda violenta do mar.",
-	"rarity": 5,
-	"type": "Espada",
-	"domain": "Jardim da Areia Fluente",
-	"passive": "Fluxo Aperfei\u00e7oado",
-	"bonus": "Obt\u00e9m 12%/15%/18%/21%/24% de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em 20%/25%/30%/35%/40% por 8s.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "Taxa Cr\u00edtica",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 46,
-				"secondary": 7.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 122,
-				"secondary": 12.7
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 153,
-				"secondary": 12.7
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 235,
-				"secondary": 18.5
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 266,
-				"secondary": 18.5
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 308,
-				"secondary": 21.4
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 340,
-				"secondary": 21.4
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 382,
-				"secondary": 24.4
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 414,
-				"secondary": 24.4
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 457,
-				"secondary": 27.3
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 488,
-				"secondary": 27.3
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 532,
-				"secondary": 30.2
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 563,
-				"secondary": 30.2
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 608,
-				"secondary": 33.1
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "NarukamisWisdom",
-					"name": "A Sabedoria de Narukami",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "GloomyStatuette",
-					"name": "Escultura Sombria",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "OldHandguard",
-					"name": "Protetor de M\u00e3o Velho",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "NarukamisJoy",
-					"name": "A Alegria de Narukami",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "GloomyStatuette",
-					"name": "Escultura Sombria",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "OldHandguard",
-					"name": "Protetor de M\u00e3o Velho",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "NarukamisJoy",
-					"name": "A Alegria de Narukami",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "DarkStatuette",
-					"name": "Escultura do Alvorecer",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "KageuchiHandguard",
-					"name": "Protetor de M\u00e3o Kageuchi",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "NarukamisAffection",
-					"name": "O Afeto de Narukami",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "DarkStatuette",
-					"name": "Escultura do Alvorecer",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "KageuchiHandguard",
-					"name": "Protetor de M\u00e3o Kageuchi",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "NarukamisAffection",
-					"name": "O Afeto de Narukami",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "DeathlyStatuette",
-					"name": "Escultura das Profundezas",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "FamedHandguard",
-					"name": "Protetor de M\u00e3o Famoso",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "NarukamisValor",
-					"name": "A Coragem de Narukami",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "DeathlyStatuette",
-					"name": "Escultura das Profundezas",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "FamedHandguard",
-					"name": "Protetor de M\u00e3o Famoso",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Fluxo Aperfei\u00e7oado",
-		"template": "Obt\u00e9m <span style=\"color:#99FFFFFF\">{0} de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em <span style=\"color:#99FFFFFF\">{1} por 8s.",
-		"params": [
-			["12%", "20%"],
-			["15%", "25%"],
-			["18%", "30%"],
-			["21%", "35%"],
-			["24%", "40%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Obt\u00e9m 12% de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em 20% por 8s."
-		},
-		{
-			"refinement": 2,
-			"desc": "Obt\u00e9m 15% de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em 25% por 8s."
-		},
-		{
-			"refinement": 3,
-			"desc": "Obt\u00e9m 18% de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em 30% por 8s."
-		},
-		{
-			"refinement": 4,
-			"desc": "Obt\u00e9m 21% de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em 35% por 8s."
-		},
-		{
-			"refinement": 5,
-			"desc": "Obt\u00e9m 24% de b\u00f4nus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerar\u00e3o um ac\u00famulo do efeito \"Ondula\u00e7\u00e3o\" para o personagem que tem esta arma equipada. Esse efeito \u00e9 acumul\u00e1vel no m\u00e1ximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lan\u00e7ar sua Habilidade Elemental, se tiver ac\u00famulos de \"Ondula\u00e7\u00e3o\", consumir\u00e1 os ac\u00famulos existentes e obter\u00e1 \"Maremoto\", cada ac\u00famulo consumido aumenta o Dano do Ataque Normal em 40% por 8s."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/HaranGeppakuFutsu/Icon.webp"
-	}
+  "id": "HaranGeppakuFutsu",
+  "name": "Maremoto da Lua de Futsu",
+  "description": "Uma obra da linhagem Futsu. Seu nome tem como origem devido à maneira que lembra uma onda violenta do mar.",
+  "rarity": 5,
+  "type": "Espada",
+  "domain": "Jardim da Areia Fluente",
+  "passive": "Fluxo Aperfeiçoado",
+  "bonus": "Obtém 12%/15%/18%/21%/24% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 20%/25%/30%/35%/40% por 8s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Taxa Crítica",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 7.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 33.1
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 46,
+        "secondary": 7.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 122,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 153,
+        "secondary": 12.7
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 235,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 266,
+        "secondary": 18.5
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 308,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 340,
+        "secondary": 21.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 382,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 414,
+        "secondary": 24.4
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 457,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 488,
+        "secondary": 27.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 532,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 563,
+        "secondary": 30.2
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 608,
+        "secondary": 33.1
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "NarukamisWisdom",
+          "name": "A Sabedoria de Narukami",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Protetor de Mão Velho",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "A Alegria de Narukami",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Protetor de Mão Velho",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "A Alegria de Narukami",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "O Afeto de Narukami",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "O Afeto de Narukami",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "NarukamisValor",
+          "name": "A Coragem de Narukami",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "NarukamisWisdom",
+          "name": "A Sabedoria de Narukami",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Protetor de Mão Velho",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "A Alegria de Narukami",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Protetor de Mão Velho",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "A Alegria de Narukami",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "O Afeto de Narukami",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Protetor de Mão Kageuchi",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "O Afeto de Narukami",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "NarukamisValor",
+          "name": "A Coragem de Narukami",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Protetor de Mão Famoso",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Obtém 12% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 20% por 8s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Obtém 15% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 25% por 8s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Obtém 18% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 30% por 8s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Obtém 21% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 35% por 8s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Obtém 24% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 40% por 8s."
+    },
+    {
+      "refinement": 1,
+      "desc": "Obtém 12% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 20% por 8s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Obtém 15% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 25% por 8s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Obtém 18% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 30% por 8s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Obtém 21% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 35% por 8s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Obtém 24% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 40% por 8s."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/HaranGeppakuFutsu/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Fluxo Aperfeiçoado",
+    "template": "Obtém <span style=\"color:#99FFFFFF\">{0}</span> de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em <span style=\"color:#99FFFFFF\">{1}</span> por 8s.",
+    "params": [
+      [
+        "12%",
+        "20%"
+      ],
+      [
+        "15%",
+        "25%"
+      ],
+      [
+        "18%",
+        "30%"
+      ],
+      [
+        "21%",
+        "35%"
+      ],
+      [
+        "24%",
+        "40%"
+      ],
+      [
+        "12%",
+        "20%"
+      ],
+      [
+        "15%",
+        "25%"
+      ],
+      [
+        "18%",
+        "30%"
+      ],
+      [
+        "21%",
+        "35%"
+      ],
+      [
+        "24%",
+        "40%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

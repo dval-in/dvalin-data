@@ -1,77 +1,142 @@
 {
-	"id": "Alhaitham",
-	"shareid": 284,
-	"name": "Alhaitham",
-	"title": "\"Uyarı Talimatı\" Alhaitham",
-	"desc": "Öğrenmek, düşünmek ve işleri halletmek.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Doğa",
-		"weapon": "Kılıç",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "Structuration",
-			"name": "Structuration"
-		},
-		"source": "Alhaitham'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Alhaitham",
-			"name": "Alhaitham",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "AbductiveReasoning",
-			"name": "Sürükleyici Tartışma",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Doğa",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "UniversalityAnElaborationOnForm",
-			"name": "Evrensellik: Ayna Teorisi",
-			"desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı verir ve bu karakter <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna kazanır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Doğa",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ParticularFieldFettersOfPhenomena",
-			"name": "Bağlam Alanı: Görüntü Zinciri",
-			"desc": "4 <span style=\"color:#7EC236FF\">Doğa Hasarı verir, <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna harcayarak <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna tarafından harcanan <span style=\"color:#FFFFFFFF\">Tur Süresi miktarına göre Hasar bonusu verir.<span style=\"color:#FFFFFFFF\">Hafif Keski Ayna tarafından harcanan <span style=\"color:#FFFFFFFF\">Tur Süresi 0/1/2 ise bu karaktere 3/2/1 <span style=\"color:#FFFFFFFF\">Tur Süresi bulunan <span style=\"color:#FFFFFFFF\">Hafif Keski Ayna uygulanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Doğa",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Alhaitham",
+  "shareid": 284,
+  "name": "Alhaitham",
+  "title": "\"Uyarı Talimatı\" Alhaitham",
+  "desc": "Öğrenmek, düşünmek ve işleri halletmek.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Kılıç",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "Structuration",
+      "name": "Structuration"
+    },
+    "source": "Alhaitham'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Alhaitham",
+      "name": "Alhaitham",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "AbductiveReasoning",
+      "name": "Sürükleyici Tartışma",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalityAnElaborationOnForm",
+      "name": "Evrensellik: Ayna Teorisi",
+      "desc": "2 Doğa Hasarı verir ve bu karakter Hafif Keski Ayna kazanır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ParticularFieldFettersOfPhenomena",
+      "name": "Bağlam Alanı: Görüntü Zinciri",
+      "desc": "4 Doğa Hasarı verir, Hafif Keski Ayna harcayarak Hafif Keski Ayna tarafından harcanan Tur Süresi miktarına göre Hasar bonusu verir.Hafif Keski Ayna tarafından harcanan Tur Süresi 0/1/2 ise bu karaktere 3/2/1 Tur Süresi bulunan Hafif Keski Ayna uygulanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbductiveReasoning",
+      "name": "Sürükleyici Tartışma",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalityAnElaborationOnForm",
+      "name": "Evrensellik: Ayna Teorisi",
+      "desc": "2 Doğa Hasarı verir ve bu karakter Hafif Keski Ayna kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ParticularFieldFettersOfPhenomena",
+      "name": "Bağlam Alanı: Görüntü Zinciri",
+      "desc": "4 Doğa Hasarı verir, Hafif Keski Ayna harcayarak Hafif Keski Ayna tarafından harcanan Tur Süresi miktarına göre Hasar bonusu verir. Hafif Keski Ayna tarafından harcanan Tur Süresi 0/1/2 ise bu karaktere 3/2/1 Tur Süresi bulunan Hafif Keski Ayna uygulanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 284
 }

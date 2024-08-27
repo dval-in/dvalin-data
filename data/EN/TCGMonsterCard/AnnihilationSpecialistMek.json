@@ -10,12 +10,63 @@
     "element": "No Elemental Type",
     "weapon": "Other Weapons",
     "faction": [
+      "Monster",
       "Monster"
     ],
     "source": null,
     "cardType": "Character Card"
   },
   "skills": [
+    {
+      "id": "LightStrike",
+      "name": "Light Strike",
+      "desc": "Deals 1 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PiercingBlow",
+      "name": "Piercing Blow",
+      "desc": "Deals 3 Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SlashKick",
+      "name": "Slash Kick",
+      "desc": "Deals 4 Physical DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "LightStrike",
       "name": "Light Strike",

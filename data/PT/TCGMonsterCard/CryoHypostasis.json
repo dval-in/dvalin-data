@@ -12,6 +12,7 @@
     "weapon": "Outras Armas",
     "faction": [
       "Monstro",
+      "Monstro",
       "Monstro"
     ],
     "talentCard": {
@@ -94,6 +95,79 @@
       "name": "Sedimento Elemental - Cryo",
       "desc": "(Passivo) Quando a batalha começa, aplica Forma de Vida Elemental - Cryo a este personagem.",
       "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "IcespikeShot",
+      "name": "Dardo de Gelo",
+      "desc": "Causa 1 ponto de Dano Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "Valsa de Ringue de Gelo",
+      "desc": "Causa 3 pontos de Dano Cryo, este personagem é afetado por Gelo Opressor.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "Fragmentos Voadores de Gelo",
+      "desc": "Causa 2 pontos de Dano Cryo, causa 1 de Dano Perfurante a todos os personagens em espera do oponente, invoca Ponta Perfurante de Gelo.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "Núcleo de Cristal Cryo",
+      "desc": "(Passivo) Quando a batalha inicia, este personagem ganha Núcleo de Cristal Cryo.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Sedimento Elemental - Cryo",
+      "desc": "(Passivo) Quando a batalha começa, aplica Forma de Vida Elemental - Cryo a este personagem.",
+      "skillTag": [
         "Habilidade Passiva"
       ],
       "points": []

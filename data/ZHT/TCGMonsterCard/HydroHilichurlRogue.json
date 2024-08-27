@@ -1,0 +1,77 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 4209,
+  "name": "丘丘水行遊俠",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "丘丘人"
+    ],
+    "source": null,
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "鐮刀旋斬",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "狂瀾鐮擊",
+      "desc": "造成3點水元素傷害。 如果有敵方角色附屬有凍結或水泡圍困，則本角色獲得1點充能。（每回合1次）",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "浮泡攻勢",
+      "desc": "造成4點水元素傷害，本角色附屬水泡史萊姆。 （裝備有水泡史萊姆的角色可以使用特技：水泡戰法）",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

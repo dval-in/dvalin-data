@@ -12,6 +12,7 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Mostro",
       "Mostro"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Armatura perlata",
       "desc": "(Passiva) All'inizio del duello associa Perla del Fontemer a questo personaggio.",
       "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Colpo di coda",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Banco di pesci danzanti",
+      "desc": "Infligge 3 DAN da Electro. Una volta per turno: se questo personaggio ha associata Perla del Fontemer, i suoi Utilizzi aumentano di 1 (una volta per turno).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Tuono del Fontemer",
+      "desc": "Infligge 1 DAN da Electro, associa Perla del Fontemer a questo personaggio e invoca 1 Sfera di corallo risonante.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Armatura perlata",
+      "desc": "(Passiva) All'inizio del duello associa Perla del Fontemer a questo personaggio.",
+      "skillTag": [
         "Abilità passiva"
       ],
       "points": []

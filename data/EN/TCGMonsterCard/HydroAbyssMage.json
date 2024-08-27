@@ -1,82 +1,169 @@
 {
-	"id": "HydroAbyssMage",
-	"shareid": 5201,
-	"name": "Hydro Abyss Mage",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Character Card",
-		"energy": 3,
-		"element": "Hydro",
-		"weapon": "Other Weapons",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "Water Ball",
-			"desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Unaligned Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BubblingOffering",
-			"name": "Bubbling Offering",
-			"desc": "Deals 1 <span style=\"color:#80C0FFFF\">Hydro DMG. The target character receives <span style=\"color:#FFFFFFFF\">Mist Bubble.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfMortalWater",
-			"name": "Rite of Mortal Water",
-			"desc": "Deals 4 <span style=\"color:#80C0FFFF\">Hydro DMG. The target character receives <span style=\"color:#FFFFFFFF\">Mist Bubble.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HydroShield",
-			"name": "Hydro Shield",
-			"desc": "(Passive) When the battle begins, this character gains <span style=\"color:#FFFFFFFF\">Hydro Shield.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		},
-		{
-			"id": "AegisOfTheAbyss",
-			"name": "Aegis of the Abyss",
-			"desc": "(Passive) When the shield is broken, after this character uses a Skill: Restore the <span style=\"color:#FFFFFFFF\">Hydro Shield.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroAbyssMage",
+  "shareid": 5201,
+  "name": "Hydro Abyss Mage",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Water Ball",
+      "desc": "Deals 1 Hydro DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Bubbling Offering",
+      "desc": "Deals 1 Hydro DMG. The target character receives Mist Bubble.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Rite of Mortal Water",
+      "desc": "Deals 4 Hydro DMG. The target character receives Mist Bubble.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Hydro Shield",
+      "desc": "(Passive) When the battle begins, this character gains Hydro Shield.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Aegis of the Abyss",
+      "desc": "(Passive) When the shield is broken, after this character uses a Skill: Restore the Hydro Shield.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "WaterBall",
+      "name": "Water Ball",
+      "desc": "Deals 1 Hydro DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Bubbling Offering",
+      "desc": "Deals 1 Hydro DMG. The target character receives Mist Bubble.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Rite of Mortal Water",
+      "desc": "Deals 4 Hydro DMG. The target character receives Mist Bubble.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Hydro Shield",
+      "desc": "(Passive) When the battle begins, this character gains Hydro Shield.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Aegis of the Abyss",
+      "desc": "(Passive) When the shield is broken, after this character uses a Skill: Restore the Hydro Shield.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5201
 }

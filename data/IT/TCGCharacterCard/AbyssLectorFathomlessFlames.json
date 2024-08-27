@@ -1,83 +1,159 @@
 {
-	"id": "AbyssLectorFathomlessFlames",
-	"shareid": 56,
-	"name": "Cantore dell'Abisso: Fiamme imperscrutabili",
-	"title": "Cantore dell'Abisso, Fiamme imperscrutabili",
-	"desc": "Dai capitoli del canone rivelato arrivano dei moniti molto importanti.",
-	"attributes": {
-		"hp": 6,
-		"cardType": "Carta personaggio",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Altre armi",
-		"faction": ["Mostro"],
-		"talentCard": {
-			"id": "EmbersRekindled",
-			"name": "Embers Rekindled"
-		},
-		"source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Cantore dell'Abisso: Fiamme imperscrutabili in un duello amichevole",
-		"character": {
-			"id": "AbyssLectorFathomlessFlames",
-			"name": "Abyss Lector: Fathomless Flames"
-		}
-	},
-	"skills": [
-		{
-			"id": "FlameOfSalvation",
-			"name": "Fiamma della salvezza",
-			"desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingPrecept",
-			"name": "Precetto rovente",
-			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousStar",
-			"name": "Stella nefasta",
-			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro, invoca 1 <span style=\"color:#FFFFFFFF\">Fornace di fuoco oscuro.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FieryRebirth",
-			"name": "Rinascita fiammeggiante",
-			"desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Rinascita fiammeggiante.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AbyssLectorFathomlessFlames",
+  "shareid": 56,
+  "name": "Cantore dell'Abisso: Fiamme imperscrutabili",
+  "title": "Cantore dell'Abisso, Fiamme imperscrutabili",
+  "desc": "Dai capitoli del canone rivelato arrivano dei moniti molto importanti.",
+  "attributes": {
+    "hp": 6,
+    "cardType": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Mostro"
+    ],
+    "talentCard": {
+      "id": "EmbersRekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Cantore dell'Abisso: Fiamme imperscrutabili in un duello amichevole",
+    "character": {
+      "id": "AbyssLectorFathomlessFlames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "FlameOfSalvation",
+      "name": "Fiamma della salvezza",
+      "desc": "Infligge 1 DAN da Pyro.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Precetto rovente",
+      "desc": "Infligge 3 DAN da Pyro.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Stella nefasta",
+      "desc": "Infligge 3 DAN da Pyro, invoca 1 Fornace di fuoco oscuro.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Rinascita fiammeggiante",
+      "desc": "(Passiva) All'inizio del duello ottiene Rinascita fiammeggiante.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "FlameOfSalvation",
+      "name": "Fiamma della salvezza",
+      "desc": "Infligge 1 DAN da Pyro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Precetto rovente",
+      "desc": "Infligge 3 DAN da Pyro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Stella nefasta",
+      "desc": "Infligge 3 DAN da Pyro, invoca 1 Fornace di fuoco oscuro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Rinascita fiammeggiante",
+      "desc": "(Passiva) All'inizio del duello ottiene Rinascita fiammeggiante.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 56
 }

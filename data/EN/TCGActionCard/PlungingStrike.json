@@ -1,28 +1,41 @@
 {
-	"id": "PlungingStrike",
-	"shareid": 257,
-	"name": "Plunging Strike",
-	"title": "Fallraid",
-	"desc": "\"...Don't deploy your Wind Glider halfway down! You'll get discovered!\"",
-	"inPlayDescription": "",
-	"attributes": {
-		"cost": 3,
-		"costType": "Matching Element",
-		"cardType": "Event Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 3
-			}
-		],
-		"tags": ["Combat Action"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Combat Action: Switch to the target character. That character then uses a <span style=\"color:#FFFFFFFF\">Normal Attack."
-		}
-	],
-	"version": "4.4"
+  "id": "PlungingStrike",
+  "shareid": 257,
+  "name": "Plunging Strike",
+  "title": "Fallraid",
+  "desc": "\"...Don't deploy your Wind Glider halfway down! You'll get discovered!\"",
+  "inPlayDescription": "",
+  "attributes": {
+    "cost": 3,
+    "costType": "Matching Element",
+    "cardType": "Event Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Combat Action",
+      "Combat Action"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Combat Action: Switch to the target character. That character then uses a Normal Attack."
+    },
+    {
+      "name": "",
+      "desc": "Combat Action: Switch to the target character. That character then uses a Normal Attack."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 257
 }

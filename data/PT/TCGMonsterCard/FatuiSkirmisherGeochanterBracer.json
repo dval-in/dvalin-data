@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherGeochanterBracer",
-	"shareid": 3604,
-	"name": "Soldado dos Fatui - Guerrilheiro Geo",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de Personagem",
-		"energy": 3,
-		"element": "Geo",
-		"weapon": "Outras Armas",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RockProjectile",
-			"name": "Projétil Rochoso",
-			"desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GeocrystalBeam",
-			"name": "Cristal Rochoso",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StaffOfGeo",
-			"name": "Cetro Geo",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Geo, gera <span style=\"color:#FFFFFFFF\">Escudo de Cristal.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Reabastecimento de Combate",
-			"desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherGeochanterBracer",
+  "shareid": 3604,
+  "name": "Soldado dos Fatui - Guerrilheiro Geo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de Personagem",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RockProjectile",
+      "name": "Projétil Rochoso",
+      "desc": "Causa 1 ponto de Dano Geo.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Cristal Rochoso",
+      "desc": "Causa 3 pontos de Dano Geo.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Cetro Geo",
+      "desc": "Causa 3 pontos de Dano Geo, este personagem é afetado por Armadura Elemental - Geo, gera Escudo de Cristal.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "RockProjectile",
+      "name": "Projétil Rochoso",
+      "desc": "Causa 1 ponto de Dano Geo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Cristal Rochoso",
+      "desc": "Causa 3 pontos de Dano Geo.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Cetro Geo",
+      "desc": "Causa 3 pontos de Dano Geo, este personagem é afetado por Armadura Elemental - Geo, gera Escudo de Cristal.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3604
 }

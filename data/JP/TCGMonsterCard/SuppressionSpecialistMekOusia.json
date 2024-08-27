@@ -1,75 +1,151 @@
 {
-	"id": "SuppressionSpecialistMekOusia",
-	"shareid": 3308,
-	"name": "制圧特化型マシナリー·ウーシア",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "炎元素",
-		"weapon": "他の武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ShortrangeSnapFire",
-			"name": "ショット点射",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを1与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpreadFire",
-			"name": "スプレッド射撃",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを1与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">貫通ダメージを1与える。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombinedFire",
-			"name": "コムバインド射撃",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを2与え、その後<span style=\"color:#FFFFFFFF\">スキル準備に入る：<span style=\"color:#FFFFFFFF\">コムバインド射撃·軽量弾幕と<span style=\"color:#FFFFFFFF\">コムバインド射撃·ヘビー掃射。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ArkheOusia",
-			"name": "エネルギー特徴：ウーシア",
-			"desc": "<span style=\"color:#FFFFFFFF\">「アルケー：プネウマ」を持つキャラからのダメージを受けた後、本キャラは<span style=\"color:#FFFFFFFF\">「無力化状態」にチェンジする。本ラウンド終了まで<span style=\"color:#FFFFFFFF\">スキルを発動できなくなる。",
-			"skilltag": ["固有スキル"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMekOusia",
+  "shareid": 3308,
+  "name": "制圧特化型マシナリー·ウーシア",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "ショット点射",
+      "desc": "炎元素ダメージを1与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "スプレッド射撃",
+      "desc": "炎元素ダメージを1与え、相手の待機キャラ全員に貫通ダメージを1与える。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "コムバインド射撃",
+      "desc": "炎元素ダメージを2与え、その後スキル準備に入る：コムバインド射撃·軽量弾幕とコムバインド射撃·ヘビー掃射。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "エネルギー特徴：ウーシア",
+      "desc": "「アルケー：プネウマ」を持つキャラからのダメージを受けた後、本キャラは「無力化状態」にチェンジする。本ラウンド終了までスキルを発動できなくなる。",
+      "skilltag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "ショット点射",
+      "desc": "炎元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "スプレッド射撃",
+      "desc": "炎元素ダメージを1与え、相手の待機キャラ全員に貫通ダメージを1与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "コムバインド射撃",
+      "desc": "炎元素ダメージを2与え、その後スキル準備に入る：コムバインド射撃·軽量弾幕とコムバインド射撃·ヘビー掃射。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "エネルギー特徴：ウーシア",
+      "desc": "「アルケー：プネウマ」を持つキャラからのダメージを受けた後、本キャラは「無力化状態」にチェンジする。本ラウンド終了までスキルを発動できなくなる。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3308
 }

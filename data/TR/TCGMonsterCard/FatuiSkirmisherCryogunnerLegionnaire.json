@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherCryogunnerLegionnaire",
-	"shareid": 3104,
-	"name": "Fatui Avcı Eri - Lejyoner Buz Topçusu",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Buz",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CloserangeCharge",
-			"name": "Yakın Mesafeden Hücum",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FreezingSpray",
-			"name": "Dondurucu Püskürtme",
-			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostCannon",
-			"name": "Buz Topu",
-			"desc": "3 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve bu karakter <span style=\"color:#FFFFFFFF\">Buz Elementi Ekipmanı kazanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Savaş Hazırlığı Tedariki",
-			"desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherCryogunnerLegionnaire",
+  "shareid": 3104,
+  "name": "Fatui Avcı Eri - Lejyoner Buz Topçusu",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloserangeCharge",
+      "name": "Yakın Mesafeden Hücum",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FreezingSpray",
+      "name": "Dondurucu Püskürtme",
+      "desc": "3 Buz Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostCannon",
+      "name": "Buz Topu",
+      "desc": "3 Buz Hasarı verir ve bu karakter Buz Elementi Ekipmanı kazanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Savaş Hazırlığı Tedariki",
+      "desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "CloserangeCharge",
+      "name": "Yakın Mesafeden Hücum",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FreezingSpray",
+      "name": "Dondurucu Püskürtme",
+      "desc": "3 Buz Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostCannon",
+      "name": "Buz Topu",
+      "desc": "3 Buz Hasarı verir ve bu karakter Buz Elementi Ekipmanı kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Savaş Hazırlığı Tedariki",
+      "desc": "(Pasif) Savaş başladığında, bu karakter 2 Enerji kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3104
 }

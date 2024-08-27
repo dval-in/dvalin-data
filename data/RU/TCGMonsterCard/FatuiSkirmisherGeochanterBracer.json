@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherGeochanterBracer",
-	"shareid": 3604,
-	"name": "Застрельщик Фатуи: Гео заклинатель",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Гео",
-		"weapon": "Прочее",
-		"faction": ["Фатуи"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RockProjectile",
-			"name": "Каменный снаряд",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GeocrystalBeam",
-			"name": "Геокристаллический луч",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StaffOfGeo",
-			"name": "Гео-посох",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 3 ед., персонаж получает <span style=\"color:#FFFFFFFF\">Элементальная форма: Гео и создаёт <span style=\"color:#FFFFFFFF\">Кристаллический купол.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Военные припасы",
-			"desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherGeochanterBracer",
+  "shareid": 3604,
+  "name": "Застрельщик Фатуи: Гео заклинатель",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Гео",
+    "weapon": "Прочее",
+    "faction": [
+      "Фатуи",
+      "Фатуи"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RockProjectile",
+      "name": "Каменный снаряд",
+      "desc": "Наносит Гео урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Геокристаллический луч",
+      "desc": "Наносит Гео урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Гео-посох",
+      "desc": "Наносит Гео урон, 3 ед., персонаж получает Элементальная форма: Гео и создаёт Кристаллический купол.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Военные припасы",
+      "desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "RockProjectile",
+      "name": "Каменный снаряд",
+      "desc": "Наносит Гео урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Геокристаллический луч",
+      "desc": "Наносит Гео урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Гео-посох",
+      "desc": "Наносит Гео урон, 3 ед., персонаж получает Элементальная форма: Гео и создаёт Кристаллический купол.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Военные припасы",
+      "desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3604
 }

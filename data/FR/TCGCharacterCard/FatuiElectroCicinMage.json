@@ -13,6 +13,7 @@
     "faction": [
       "Fatui",
       "Fatui",
+      "Fatui",
       "Fatui"
     ],
     "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Mage électroluciole des Fatui",
@@ -66,6 +67,61 @@
       "name": "Bouclier tonitruant",
       "desc": "Inflige 1 pt de DGT Électro, applique l'élément Électro au personnage, crée un bouclier d'Électroluciole et prépare la capacité : Expulsion électrique.",
       "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurtlingBolts",
+      "name": "Décharge de foudre",
+      "desc": "Inflige 1 pt de DGT Électro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "Appel de la brume",
+      "desc": "Invoque une Électroluciole.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "Bouclier tonitruant",
+      "desc": "Inflige 1 pt de DGT Électro, applique l'élément Électro au personnage, crée un bouclier d'Électroluciole et prépare la capacité : Expulsion électrique.",
+      "skillTag": [
         "Déchaînement élémentaire"
       ],
       "points": [

@@ -1,77 +1,142 @@
 {
-	"id": "Nilou",
-	"shareid": 16,
-	"name": "Nilou",
-	"title": "\"Nilüfer Işığı Dansı\" Nilou",
-	"desc": "Mest edici bir rüyadan fırlamış nilüfer yaprakları gibi süzülen adımlar.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Su",
-		"weapon": "Kılıç",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "TheStarrySkiesTheirFlowersRain",
-			"name": "The Starry Skies Their Flowers Rain"
-		},
-		"source": "Nilou'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Nilou",
-			"name": "Nilou",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "DanceOfSamser",
-			"name": "Samser Dansı",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DanceOfHaftkarsvar",
-			"name": "Haftkarsvar Dansı",
-			"desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı verir. Grupta <span style=\"color:#80C0FFFF\">Su Karakterleri ile <span style=\"color:#7EC236FF\">Doğa Karakterleri varsa ve diğer Element türlerinden bir karakter yoksa 1 <span style=\"color:#FFFFFFFF\">Altın Kadeh oluşturur.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DanceOfAbzendegiDistantDreamsListeningSpring",
-			"name": "Abzendegi Dansı: Uzak Düşler, Pınarların Sesi",
-			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Kalıcı Sonsuzluk eklenir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Nilou",
+  "shareid": 16,
+  "name": "Nilou",
+  "title": "\"Nilüfer Işığı Dansı\" Nilou",
+  "desc": "Mest edici bir rüyadan fırlamış nilüfer yaprakları gibi süzülen adımlar.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Kılıç",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "TheStarrySkiesTheirFlowersRain",
+      "name": "The Starry Skies Their Flowers Rain"
+    },
+    "source": "Nilou'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Nilou",
+      "name": "Nilou",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOfSamser",
+      "name": "Samser Dansı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "Haftkarsvar Dansı",
+      "desc": "3 Su Hasarı verir. Grupta Su Karakterleri ile Doğa Karakterleri varsa ve diğer Element türlerinden bir karakter yoksa 1 Altın Kadeh oluşturur.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "Abzendegi Dansı: Uzak Düşler, Pınarların Sesi",
+      "desc": "2 Su Hasarı verir ve hedef karaktere Kalıcı Sonsuzluk eklenir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfSamser",
+      "name": "Samser Dansı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "Haftkarsvar Dansı",
+      "desc": "3 Su Hasarı verir. Grupta Su Karakterleri ile Doğa Karakterleri varsa ve diğer Element türlerinden bir karakter yoksa 1 Altın Kadeh oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "Abzendegi Dansı: Uzak Düşler, Pınarların Sesi",
+      "desc": "2 Su Hasarı verir ve hedef karaktere Kalıcı Sonsuzluk eklenir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 16
 }

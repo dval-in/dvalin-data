@@ -11,6 +11,7 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre",
+      "Monstre",
       "Monstre"
     ],
     "source": null,
@@ -120,6 +121,70 @@
       "id": "RavagingDevourer",
       "name": "Voracité ravageuse",
       "desc": "Inflige 1 pt de DGT Hydro, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et invoque une ombre sombre.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Appétit insatiable",
+      "desc": "(Passif) Crée un royaume dévorant au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShatteringWaves",
+      "name": "Vague déchaînée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Chute d'étoiles",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de DGT physiques. Ces DGT augmentent de 1 tous les 3 PV max supplémentaires accordés par un appétit insatiable à ce personnage (Peut être cumulé 3 fois maximum). 1 carte dont le coût original de dés élémentaires est le plus élevé est ensuite défaussée depuis votre main.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Voracité ravageuse",
+      "desc": "Inflige 1 pt de DGT physiques, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et invoque une ombre sombre.",
       "skillTag": [
         "Déchaînement élémentaire"
       ],

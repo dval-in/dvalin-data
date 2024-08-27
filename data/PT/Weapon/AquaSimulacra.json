@@ -1,293 +1,588 @@
 {
-	"id": "AquaSimulacra",
-	"name": "Aqua Simulacra",
-	"description": "A cor desse arco longo muda imprevisivelmente. Sob a luz, possui um brilho azulado como \u00e1gua.",
-	"rarity": 5,
-	"type": "Arco",
-	"domain": "Pal\u00e1cio Oculto da F\u00f3rmula Lianshan",
-	"passive": "Forma Purificadora",
-	"bonus": "Aumenta a Vida em 16%/20%/24%/28%/32%. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de 20%/25%/30%/35%/40%, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "Dano Cr\u00edtico",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 44,
-				"secondary": 19.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 110,
-				"secondary": 33.9
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 141,
-				"secondary": 33.9
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 210,
-				"secondary": 49.4
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 241,
-				"secondary": 49.4
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 275,
-				"secondary": 57.2
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 307,
-				"secondary": 57.2
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 341,
-				"secondary": 65
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 373,
-				"secondary": 65
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 408,
-				"secondary": 72.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 439,
-				"secondary": 72.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 475,
-				"secondary": 80.4
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 506,
-				"secondary": 80.4
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 542,
-				"secondary": 88.2
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "LuminousSandsFromGuyun",
-					"name": "Areia Brilhante de Guyun",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "GloomyStatuette",
-					"name": "Escultura Sombria",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "SpectralHusk",
-					"name": "Casca Espectral",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "Pedra Lustrosa de Guyun",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "GloomyStatuette",
-					"name": "Escultura Sombria",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "SpectralHusk",
-					"name": "Casca Espectral",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "Pedra Lustrosa de Guyun",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "DarkStatuette",
-					"name": "Escultura do Alvorecer",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SpectralHeart",
-					"name": "Cora\u00e7\u00e3o Espectral",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "Rel\u00edquia de Guyun",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "DarkStatuette",
-					"name": "Escultura do Alvorecer",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "SpectralHeart",
-					"name": "Cora\u00e7\u00e3o Espectral",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "Rel\u00edquia de Guyun",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "DeathlyStatuette",
-					"name": "Escultura das Profundezas",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "SpectralNucleus",
-					"name": "N\u00facleo Espectral",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "DivineBodyFromGuyun",
-					"name": "Corpo Divino de Guyun",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "DeathlyStatuette",
-					"name": "Escultura das Profundezas",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "SpectralNucleus",
-					"name": "N\u00facleo Espectral",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Forma Purificadora",
-		"template": "Aumenta a Vida em <span style=\"color:#99FFFFFF\">{0}. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de <span style=\"color:#99FFFFFF\">{1}, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o.",
-		"params": [
-			["16%", "20%"],
-			["20%", "25%"],
-			["24%", "30%"],
-			["28%", "35%"],
-			["32%", "40%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Aumenta a Vida em 16%. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de 20%, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o."
-		},
-		{
-			"refinement": 2,
-			"desc": "Aumenta a Vida em 20%. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de 25%, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o."
-		},
-		{
-			"refinement": 3,
-			"desc": "Aumenta a Vida em 24%. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de 30%, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o."
-		},
-		{
-			"refinement": 4,
-			"desc": "Aumenta a Vida em 28%. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de 35%, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o."
-		},
-		{
-			"refinement": 5,
-			"desc": "Aumenta a Vida em 32%. Se existirem inimigos pr\u00f3ximos, o personagem que tem esta arma equipada ter\u00e1 um aumento de Dano de 40%, independentemente do personagem estar ativo no campo de batalha ou n\u00e3o."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/AquaSimulacra/Icon.webp"
-	}
+  "id": "AquaSimulacra",
+  "name": "Aqua Simulacra",
+  "description": "A cor desse arco longo muda imprevisivelmente. Sob a luz, possui um brilho azulado como água.",
+  "rarity": 5,
+  "type": "Arco",
+  "domain": "Palácio Oculto da Fórmula Lianshan",
+  "passive": "Forma Purificadora",
+  "bonus": "Aumenta a Vida em 16%/20%/24%/28%/32%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 20%/25%/30%/35%/40%, independentemente do personagem estar ativo no campo de batalha ou não.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Dano Crítico",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 19.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 88.2
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 19.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 88.2
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "Areia Brilhante de Guyun",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "SpectralHusk",
+          "name": "Casca Espectral",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Pedra Lustrosa de Guyun",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "SpectralHusk",
+          "name": "Casca Espectral",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Pedra Lustrosa de Guyun",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Coração Espectral",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Relíquia de Guyun",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Coração Espectral",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Relíquia de Guyun",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Núcleo Espectral",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "Corpo Divino de Guyun",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Núcleo Espectral",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "Areia Brilhante de Guyun",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "SpectralHusk",
+          "name": "Casca Espectral",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Pedra Lustrosa de Guyun",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "GloomyStatuette",
+          "name": "Escultura Sombria",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "SpectralHusk",
+          "name": "Casca Espectral",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Pedra Lustrosa de Guyun",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Coração Espectral",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Relíquia de Guyun",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "DarkStatuette",
+          "name": "Escultura do Alvorecer",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SpectralHeart",
+          "name": "Coração Espectral",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Relíquia de Guyun",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Núcleo Espectral",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "Corpo Divino de Guyun",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "DeathlyStatuette",
+          "name": "Escultura das Profundezas",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "SpectralNucleus",
+          "name": "Núcleo Espectral",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Aumenta a Vida em 16%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 20%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 2,
+      "desc": "Aumenta a Vida em 20%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 25%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 3,
+      "desc": "Aumenta a Vida em 24%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 30%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 4,
+      "desc": "Aumenta a Vida em 28%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 35%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 5,
+      "desc": "Aumenta a Vida em 32%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 40%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 1,
+      "desc": "Aumenta a Vida em 16%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 20%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 2,
+      "desc": "Aumenta a Vida em 20%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 25%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 3,
+      "desc": "Aumenta a Vida em 24%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 30%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 4,
+      "desc": "Aumenta a Vida em 28%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 35%, independentemente do personagem estar ativo no campo de batalha ou não."
+    },
+    {
+      "refinement": 5,
+      "desc": "Aumenta a Vida em 32%. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de 40%, independentemente do personagem estar ativo no campo de batalha ou não."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/AquaSimulacra/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Forma Purificadora",
+    "template": "Aumenta a Vida em <span style=\"color:#99FFFFFF\">{0}</span>. Se existirem inimigos próximos, o personagem que tem esta arma equipada terá um aumento de Dano de <span style=\"color:#99FFFFFF\">{1}</span>, independentemente do personagem estar ativo no campo de batalha ou não.",
+    "params": [
+      [
+        "16%",
+        "20%"
+      ],
+      [
+        "20%",
+        "25%"
+      ],
+      [
+        "24%",
+        "30%"
+      ],
+      [
+        "28%",
+        "35%"
+      ],
+      [
+        "32%",
+        "40%"
+      ],
+      [
+        "16%",
+        "20%"
+      ],
+      [
+        "20%",
+        "25%"
+      ],
+      [
+        "24%",
+        "30%"
+      ],
+      [
+        "28%",
+        "35%"
+      ],
+      [
+        "32%",
+        "40%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

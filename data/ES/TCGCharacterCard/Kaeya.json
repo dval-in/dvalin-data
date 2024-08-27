@@ -1,77 +1,142 @@
 {
-	"id": "Kaeya",
-	"shareid": 3,
-	"name": "Kaeya",
-	"title": "Kaeya - El Espadachín Glacial",
-	"desc": "Especialista en despertar las “virtudes caballerescas” en otros.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Espada ligera",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "ColdbloodedStrike",
-			"name": "Cold-Blooded Strike"
-		},
-		"source": "Se obtiene con el mazo inicial",
-		"character": {
-			"id": "Kaeya",
-			"name": "Kaeya",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "CeremonialBladework",
-			"name": "Técnica de espada ceremonial",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Frostgnaw",
-			"name": "Golpe de escarcha",
-			"desc": "Inflige 3 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialWaltz",
-			"name": "Vals gélido",
-			"desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo y crea un <span style=\"color:#FFFFFFFF\">carámbano.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Kaeya",
+  "shareid": 3,
+  "name": "Kaeya",
+  "title": "Kaeya - El Espadachín Glacial",
+  "desc": "Especialista en despertar las “virtudes caballerescas” en otros.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "ColdbloodedStrike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": "Se obtiene con el mazo inicial",
+    "character": {
+      "id": "Kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "CeremonialBladework",
+      "name": "Técnica de espada ceremonial",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "Golpe de escarcha",
+      "desc": "Inflige 3 pts. de Daño Cryo.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "Vals gélido",
+      "desc": "Inflige 1 pt. de Daño Cryo y crea un carámbano.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialBladework",
+      "name": "Técnica de espada ceremonial",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "Golpe de escarcha",
+      "desc": "Inflige 3 pts. de Daño Cryo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "Vals gélido",
+      "desc": "Inflige 1 pt. de Daño Cryo y crea un carámbano.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3
 }

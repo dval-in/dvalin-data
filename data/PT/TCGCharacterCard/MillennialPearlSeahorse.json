@@ -12,6 +12,7 @@
     "weapon": "Outras Armas",
     "faction": [
       "Monstro",
+      "Monstro",
       "Monstro"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Armadura de Pérola",
       "desc": "(Passivo) Quando a batalha começa, aplica Pérola Primordial a este personagem.",
       "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Golpe de Cauda",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Cardume Rodopiante",
+      "desc": "Causa 3 de Dano Electro. Se o personagem já estiver afetado por Pérola Primordial, ganha +1 de Usos. (Uma vez por Turno)",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Trovão do Mar Primordial",
+      "desc": "Causa 1 ponto de Dano Electro, aplica Pérola Primordial a este personagem e invoca Orbe de Coral Ressonante.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Armadura de Pérola",
+      "desc": "(Passivo) Quando a batalha começa, aplica Pérola Primordial a este personagem.",
+      "skillTag": [
         "Habilidade Passiva"
       ],
       "points": []

@@ -1,76 +1,141 @@
 {
-	"id": "FatuiCryoCicinMage",
-	"shareid": 52,
-	"name": "우인단·얼음 치친 술사",
-	"title": "안개 소환·얼음 치친 술사",
-	"desc": "적어도 안개풀이 소진되기 전까진, 얼음 치친은 그녀의 곁을 떠나지 않을 것이다",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 3,
-		"element": "얼음 원소",
-		"weapon": "기타 무기",
-		"faction": ["우인단"],
-		"talentCard": {
-			"id": "CicinsColdGlare",
-			"name": "Cicin's Cold Glare"
-		},
-		"source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 우인단·얼음 치친 술사에게 승리 후 획득",
-		"character": {
-			"id": "FatuiCryoCicinMage",
-			"name": "Fatui Cryo Cicin Mage"
-		}
-	},
-	"skills": [
-		{
-			"id": "CicinIcicle",
-			"name": "얼음 치친의 고드름",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 1pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MistySummons",
-			"name": "안개의 부름",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 1pt 주고 <span style=\"color:#FFFFFFFF\">얼음 치친을 소환한다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BlizzardBranchBlossom",
-			"name": "얼음 가지와 눈꽃",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 5pt 주고 본 캐릭터에게 <span style=\"color:#99FFFFFF\">얼음 원소 부착을 부여하며 <span style=\"color:#FFFFFFFF\">얼음 치친 보호막을 생성한다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiCryoCicinMage",
+  "shareid": 52,
+  "name": "우인단·얼음 치친 술사",
+  "title": "안개 소환·얼음 치친 술사",
+  "desc": "적어도 안개풀이 소진되기 전까진, 얼음 치친은 그녀의 곁을 떠나지 않을 것이다",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 3,
+    "element": "얼음 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "우인단",
+      "우인단"
+    ],
+    "talentCard": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 우인단·얼음 치친 술사에게 승리 후 획득",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "얼음 치친의 고드름",
+      "desc": "얼음 원소 피해를 1pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "안개의 부름",
+      "desc": "얼음 원소 피해를 1pt 주고 얼음 치친을 소환한다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "얼음 가지와 눈꽃",
+      "desc": "얼음 원소 피해를 5pt 주고 본 캐릭터에게 얼음 원소 부착을 부여하며 얼음 치친 보호막을 생성한다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CicinIcicle",
+      "name": "얼음 치친의 고드름",
+      "desc": "얼음 원소 피해를 1pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "안개의 부름",
+      "desc": "얼음 원소 피해를 1pt 주고 얼음 치친을 소환한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "얼음 가지와 눈꽃",
+      "desc": "얼음 원소 피해를 5pt 주고 본 캐릭터에게 얼음 원소 부착을 부여하며 얼음 치친 보호막을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 52
 }

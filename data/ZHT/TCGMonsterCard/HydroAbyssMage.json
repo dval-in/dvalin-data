@@ -1,82 +1,169 @@
 {
-	"id": "HydroAbyssMage",
-	"shareid": 5201,
-	"name": "水深淵法師",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "水元素",
-		"weapon": "其他武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "水彈",
-			"desc": "造成1點<span style=\"color:#80C0FFFF\">水元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BubblingOffering",
-			"name": "泡影的祭法",
-			"desc": "造成1點<span style=\"color:#80C0FFFF\">水元素傷害，目標角色附屬<span style=\"color:#FFFFFFFF\">水泡。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfMortalWater",
-			"name": "浮幻生滅之儀",
-			"desc": "造成4點<span style=\"color:#80C0FFFF\">水元素傷害，目標角色附屬<span style=\"color:#FFFFFFFF\">水泡。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HydroShield",
-			"name": "水元素護罩",
-			"desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">水元素護罩。",
-			"skilltag": ["被動技能"],
-			"points": []
-		},
-		{
-			"id": "AegisOfTheAbyss",
-			"name": "深淵加護",
-			"desc": "【被動】護罩破碎的情況下，使用技能後：重新附屬<span style=\"color:#FFFFFFFF\">水元素護罩。",
-			"skilltag": ["被動技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroAbyssMage",
+  "shareid": 5201,
+  "name": "水深淵法師",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "水彈",
+      "desc": "造成1點水元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "泡影的祭法",
+      "desc": "造成1點水元素傷害，目標角色附屬水泡。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "浮幻生滅之儀",
+      "desc": "造成4點水元素傷害，目標角色附屬水泡。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "水元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬水元素護罩。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "深淵加護",
+      "desc": "【被動】護罩破碎的情況下，使用技能後：重新附屬水元素護罩。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "WaterBall",
+      "name": "水彈",
+      "desc": "造成1點水元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "泡影的祭法",
+      "desc": "造成1點水元素傷害，目標角色附屬水泡。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "浮幻生滅之儀",
+      "desc": "造成4點水元素傷害，目標角色附屬水泡。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "水元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬水元素護罩。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "深淵加護",
+      "desc": "【被動】護罩破碎的情況下，使用技能後：重新附屬水元素護罩。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5201
 }

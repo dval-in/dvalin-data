@@ -1,75 +1,151 @@
 {
-	"id": "EremiteDesertClearwater",
-	"shareid": 3206,
-	"name": "Eremita - Águas Cristalinas",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Outras Armas",
-		"faction": ["Eremitas"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "AgileThrust",
-			"name": "Investida Ágil",
-			"desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlitzStrike",
-			"name": "Ataque Veloz",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "WhirlingLashes",
-			"name": "Golpes Rodopiantes",
-			"desc": "Esse personagem faz <span style=\"color:#FFFFFFFF\">Preparar Habilidade para <span style=\"color:#FFFFFFFF\">Golpes Rodopiantes: Primeiro Golpe e <span style=\"color:#FFFFFFFF\">Golpes Rodopiantes: Padrão Fixo separadamente.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedHydro",
-			"name": "Espírito Ominoso Lançado (Hydro)",
-			"desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Após o personagem receber Dano: Caso este personagem tenha menos do que 7 de Vida, ganha 1 <span style=\"color:#FFFFFFFF\">Carga e aplica <span style=\"color:#FFFFFFFF\">Despertar do Espírito Ominoso: Hydro. (Uma vez por partida)",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteDesertClearwater",
+  "shareid": 3206,
+  "name": "Eremita - Águas Cristalinas",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Eremitas",
+      "Eremitas"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "AgileThrust",
+      "name": "Investida Ágil",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Ataque Veloz",
+      "desc": "Causa 3 pontos de Dano Físico.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Golpes Rodopiantes",
+      "desc": "Esse personagem faz Preparar Habilidade para Golpes Rodopiantes: Primeiro Golpe e Golpes Rodopiantes: Padrão Fixo separadamente.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Espírito Ominoso Lançado (Hydro)",
+      "desc": "(Passivo) Após o personagem receber Dano: Caso este personagem tenha menos do que 7 de Vida, ganha 1 Carga e aplica Despertar do Espírito Ominoso: Hydro. (Uma vez por partida)",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "AgileThrust",
+      "name": "Investida Ágil",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Ataque Veloz",
+      "desc": "Causa 3 pontos de Dano Físico.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Golpes Rodopiantes",
+      "desc": "Esse personagem realiza Preparar Habilidade para Golpes Rodopiantes: Primeiro Golpe e Golpes Rodopiantes: Padrão Fixo separadamente.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Espírito Ominoso Lançado (Hydro)",
+      "desc": "(Passivo) Após o personagem receber Dano: Caso este personagem tenha menos do que 7 de Vida, ganha 1 Carga e aplica Despertar do Espírito Ominoso: Hydro. (Uma vez por partida)",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3206
 }

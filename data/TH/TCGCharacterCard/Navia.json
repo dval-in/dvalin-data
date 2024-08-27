@@ -10,12 +10,77 @@
     "element": "ธาตุหิน",
     "weapon": "ดาบใหญ่",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "ได้รับหลังจากเชิญ Navia ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
     "cardType": "การ์ดตัวละคร"
   },
   "skills": [
+    {
+      "id": "BluntRefusal",
+      "name": "Blunt Refusal",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialCrystalshot",
+      "name": "Ceremonial Crystalshot",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย ตัวละครนี้จะได้รับ Geo Infusion; สามารถทิ้ง Crystal Shrapnel จากการ์ดในมือได้มากสุด 5 ใบ ทุกครั้งที่ทิ้ง 1 ใบ จะทำให้ความเสียหายนี้ +1 และจั่วการ์ด 1 ใบ",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AsTheSunlitSkysSingingSalute",
+      "name": "As the Sunlit Sky's Singing Salute",
+      "desc": "สร้างความเสียหายหิน 1 หน่วย สร้าง ความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก Rosula Dorata Salute และสร้าง Crystal Shrapnel เข้ามาในมือ 1 ใบ",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MutualAssistanceNetwork",
+      "name": "Mutual Assistance Network",
+      "desc": "[ติดตัว] หลังจากตัวละครฝ่ายศัตรู ได้รับความเสียหายปฏิกิริยาตกผลึก: ทำให้เกิด Crystal Shrapnel 3 ใบ และสุ่มวางในเด็คของฝ่ายเรา",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
     {
       "id": "BluntRefusal",
       "name": "Blunt Refusal",

@@ -1,63 +1,125 @@
 {
-	"id": "HilichurlFighter",
-	"shareid": 3001,
-	"name": "Hilichurl Fighter",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Kartu Karakter",
-		"energy": 2,
-		"element": "Tidak ada tipe elemen",
-		"weapon": "Senjata Lain",
-		"faction": ["Monster", "Hilichurl"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Hit",
-			"name": "Hit",
-			"desc": "Mengakibatkan 1 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpAndHit",
-			"name": "Jump and Hit",
-			"desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SwingThatClub",
-			"name": "Swing That Club",
-			"desc": "Mengakibatkan 4 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Elemen Sama",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HilichurlFighter",
+  "shareid": 3001,
+  "name": "Hilichurl Fighter",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Kartu Karakter",
+    "energy": 2,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Hilichurl",
+      "Monster",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Hit",
+      "name": "Hit",
+      "desc": "Mengakibatkan 1 poin Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Jump and Hit",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "Swing That Club",
+      "desc": "Mengakibatkan 4 poin Physical DMG.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hit",
+      "name": "Hit",
+      "desc": "Mengakibatkan 1 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Jump and Hit",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "Swing That Club",
+      "desc": "Mengakibatkan 4 poin Physical DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3001
 }

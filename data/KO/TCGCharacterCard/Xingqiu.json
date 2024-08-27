@@ -1,77 +1,142 @@
 {
-	"id": "Xingqiu",
-	"shareid": 10,
-	"name": "행추",
-	"title": "고화비운·행추",
-	"desc": "「어째 요즘 소설 주인공들은 죄다 학생이네…」",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 2,
-		"element": "물 원소",
-		"weapon": "한손검",
-		"faction": ["리월"],
-		"talentCard": {
-			"id": "TheScentRemained",
-			"name": "The Scent Remained"
-		},
-		"source": "캣테일 술집에서 행추 초대 및 친선 대전 난이도 승리 후 획득",
-		"character": {
-			"id": "Xingqiu",
-			"name": "Xingqiu",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "GuhuaStyle",
-			"name": "고화 검법",
-			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "물 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FatalRainscreen",
-			"name": "화우농산",
-			"desc": "<span style=\"color:#80C0FFFF\">물 원소 피해를 2pt 주고 본 캐릭터에게 <span style=\"color:#80C0FFFF\">물 원소 부착 효과를 주며 <span style=\"color:#FFFFFFFF\">우렴검을 생성한다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "물 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Raincutter",
-			"name": "재우유홍",
-			"desc": "<span style=\"color:#80C0FFFF\">물 원소 피해를 2pt 주고 본 캐릭터에게 <span style=\"color:#80C0FFFF\">물 원소 부착 효과를 주며 <span style=\"color:#FFFFFFFF\">홍검세를 생성한다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "물 원소",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Xingqiu",
+  "shareid": 10,
+  "name": "행추",
+  "title": "고화비운·행추",
+  "desc": "「어째 요즘 소설 주인공들은 죄다 학생이네…」",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "한손검",
+    "faction": [
+      "리월",
+      "리월"
+    ],
+    "talentCard": {
+      "id": "TheScentRemained",
+      "name": "The Scent Remained"
+    },
+    "source": "캣테일 술집에서 행추 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GuhuaStyle",
+      "name": "고화 검법",
+      "desc": "물리 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FatalRainscreen",
+      "name": "화우농산",
+      "desc": "물 원소 피해를 2pt 주고 본 캐릭터에게 물 원소 부착 효과를 주며 우렴검을 생성한다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Raincutter",
+      "name": "재우유홍",
+      "desc": "물 원소 피해를 2pt 주고 본 캐릭터에게 물 원소 부착 효과를 주며 홍검세를 생성한다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuhuaStyle",
+      "name": "고화 검법",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FatalRainscreen",
+      "name": "화우농산",
+      "desc": "물 원소 피해를 2pt 주고 본 캐릭터에게 물 원소 부착 효과를 주며 우렴검을 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Raincutter",
+      "name": "재우유홍",
+      "desc": "물 원소 피해를 2pt 주고 본 캐릭터에게 물 원소 부착 효과를 주며 홍검세를 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 10
 }

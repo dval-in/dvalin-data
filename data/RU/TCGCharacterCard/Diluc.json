@@ -1,77 +1,142 @@
 {
-	"id": "Diluc",
-	"shareid": 17,
-	"name": "Дилюк",
-	"title": "«Тёмный Рассвет» Дилюк",
-	"desc": "Главный его враг - его же сердце.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Пиро",
-		"weapon": "Двуручное",
-		"faction": ["Мондштадт"],
-		"talentCard": {
-			"id": "FlowingFlame",
-			"name": "Flowing Flame"
-		},
-		"source": "Можно получить из начальной колоды",
-		"character": {
-			"id": "Diluc",
-			"name": "Diluc",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TemperedSword",
-			"name": "Закалённый меч",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingOnslaught",
-			"name": "Огненный натиск",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Dawn",
-			"name": "Рассвет",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 8 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Пиро инфузия.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Diluc",
+  "shareid": 17,
+  "name": "Дилюк",
+  "title": "«Тёмный Рассвет» Дилюк",
+  "desc": "Главный его враг - его же сердце.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Пиро",
+    "weapon": "Двуручное",
+    "faction": [
+      "Мондштадт",
+      "Мондштадт"
+    ],
+    "talentCard": {
+      "id": "FlowingFlame",
+      "name": "Flowing Flame"
+    },
+    "source": "Можно получить из начальной колоды",
+    "character": {
+      "id": "Diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TemperedSword",
+      "name": "Закалённый меч",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Огненный натиск",
+      "desc": "Наносит Пиро урон, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Рассвет",
+      "desc": "Наносит Пиро урон, 8 ед. У персонажа возникает Пиро инфузия.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TemperedSword",
+      "name": "Закалённый меч",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Огненный натиск",
+      "desc": "Наносит Пиро урон, 3 ед. При третьем использовании этого навыка в каждом раунде наносит дополнительно 2 ед. урона.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Рассвет",
+      "desc": "Наносит Пиро урон, 8 ед. У персонажа возникает Пиро инфузия.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 17
 }

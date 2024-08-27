@@ -1,75 +1,151 @@
 {
-	"id": "GroundedGeoshroom",
-	"shareid": 3605,
-	"name": "Geohongo Terrestre",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Lanzaesporas",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FFE699FF\">Daño Geo.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Respiración vehemente",
-			"desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Chorro cargado",
-			"desc": "Inflige 5 pts. de <span style=\"color:#FFE699FF\">Daño Geo.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Conversión de estado",
-			"desc": "Pasiva: al comenzar la batalla, el personaje está en <span style=\"color:#FFFFFFFF\">ventaja sobre terreno.Tras recibir <span style=\"color:#FF9999FF\">Daño Pyro, pasa al <span style=\"color:#FFFFFFFF\">estado quemado.Tras recibir <span style=\"color:#FFACFFFF\">Daño Electro, pasa al <span style=\"color:#FFFFFFFF\">estado revitalizado.",
-			"skilltag": ["Habilidad pasiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedGeoshroom",
+  "shareid": 3605,
+  "name": "Geohongo Terrestre",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Monstruo"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Lanzaesporas",
+      "desc": "Inflige 1 pt. de Daño Geo.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Respiración vehemente",
+      "desc": "Inflige 3 pts. de Daño Geo.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Chorro cargado",
+      "desc": "Inflige 5 pts. de Daño Geo.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Conversión de estado",
+      "desc": "Pasiva: al comenzar la batalla, el personaje está en ventaja sobre terreno.Tras recibir Daño Pyro, pasa al estado quemado.Tras recibir Daño Electro, pasa al estado revitalizado.",
+      "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Lanzaesporas",
+      "desc": "Inflige 1 pt. de Daño Geo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Respiración vehemente",
+      "desc": "Inflige 3 pts. de Daño Geo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Chorro cargado",
+      "desc": "Inflige 5 pts. de Daño Geo.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Conversión de estado",
+      "desc": "Pasiva: al comenzar la batalla, el personaje está en ventaja sobre terreno. Tras recibir Daño Pyro, pasa al estado quemado. Tras recibir Daño Electro, pasa al estado revitalizado.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3605
 }

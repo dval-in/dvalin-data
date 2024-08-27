@@ -1,0 +1,77 @@
+{
+  "id": "Freminet",
+  "shareId": 407,
+  "name": "菲米尼",
+  "title": "潛懷遐夢·菲米尼",
+  "desc": "繁星麗天，孤懷寒芒。",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "雙手劍",
+    "faction": [
+      "楓丹",
+      "愚人眾"
+    ],
+    "source": "在貓尾酒館中邀請菲米尼進行對局，在友好對局難度中獲得勝利後獲得",
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "FlowingEddies",
+      "name": "洑流劍",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PressurizedFloe",
+      "name": "浮冰增壓",
+      "desc": "造成2點冰元素傷害，若角色未附屬佩伊刻計，則使其附屬佩伊刻計。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShadowhuntersAmbush",
+      "name": "獵影潛襲",
+      "desc": "造成4點冰元素傷害，本角色附屬潛獵模式。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

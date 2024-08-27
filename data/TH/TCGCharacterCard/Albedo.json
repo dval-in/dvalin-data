@@ -1,77 +1,142 @@
 {
-	"id": "Albedo",
-	"shareid": 45,
-	"name": "Albedo",
-	"title": "องค์ชายชอล์กขาว - Albedo",
-	"desc": "ดินดำและชอล์กขาว สีแดงชาดและสีเหลืองทอง",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุหิน",
-		"weapon": "ดาบ",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "DescentOfDivinity",
-			"name": "Descent of Divinity"
-		},
-		"source": "ได้รับหลังจากเชิญ Albedo ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-		"character": {
-			"id": "Albedo",
-			"name": "Albedo",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FavoniusBladeworkWeiss",
-			"name": "Favonius Bladework - Weiss",
-			"desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "AbiogenesisSolarIsotoma",
-			"name": "Abiogenesis: Solar Isotoma",
-			"desc": "เรียก <span style=\"color:#FFFFFFFF\">Solar Isotoma",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfProgenitureTectonicTide",
-			"name": "Rite of Progeniture: Tectonic Tide",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 4 หน่วย หากมี <span style=\"color:#FFFFFFFF\">Solar Isotoma อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Albedo",
+  "shareid": 45,
+  "name": "Albedo",
+  "title": "องค์ชายชอล์กขาว - Albedo",
+  "desc": "ดินดำและชอล์กขาว สีแดงชาดและสีเหลืองทอง",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุหิน",
+    "weapon": "ดาบ",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "DescentOfDivinity",
+      "name": "Descent of Divinity"
+    },
+    "source": "ได้รับหลังจากเชิญ Albedo ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "Albedo",
+      "name": "Albedo",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkWeiss",
+      "name": "Favonius Bladework - Weiss",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbiogenesisSolarIsotoma",
+      "name": "Abiogenesis: Solar Isotoma",
+      "desc": "เรียก Solar Isotoma",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfProgenitureTectonicTide",
+      "name": "Rite of Progeniture: Tectonic Tide",
+      "desc": "สร้างความเสียหายหิน 4 หน่วย หากมี Solar Isotoma อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FavoniusBladeworkWeiss",
+      "name": "Favonius Bladework - Weiss",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbiogenesisSolarIsotoma",
+      "name": "Abiogenesis: Solar Isotoma",
+      "desc": "เรียก Solar Isotoma",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfProgenitureTectonicTide",
+      "name": "Rite of Progeniture: Tectonic Tide",
+      "desc": "สร้างความเสียหายหิน 4 หน่วย หากมี Solar Isotoma อยู่ในสนาม จะทำให้ความเสียหายนี้ +2",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 45
 }

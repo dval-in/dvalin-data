@@ -1,89 +1,171 @@
 {
-	"id": "Dvalin",
-	"shareid": 287,
-	"name": "Dvalin",
-	"title": "\"Doğu'nun Ejderi\" Dvalin",
-	"desc": "\"Sen de benim gibi mavi gökyüzünde uçarken kendi asil ve güzel suretini görebilseydin harika olurdu.\"\\n\"İşte o zaman hem bu yeryüzünün hem de gökyüzünün uğruna savaşılacak şeyler olduğunu anlardın.\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Rüzgar",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"talentCard": {
-			"id": "RendingVortex",
-			"name": "Rending Vortex"
-		},
-		"source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Dvalin ile olan Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Stormterror",
-			"name": "Stormterror"
-		}
-	},
-	"skills": [
-		{
-			"id": "LaceratingSlash",
-			"name": "Parçalayıcı Darbe",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TempestuousBarrage",
-			"name": "Ağır Yaylım Ateşi",
-			"desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Komple Çöküş eklenir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DvalinsCleansing",
-			"name": "Dvalin'in Arınması",
-			"desc": "2 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı verir, ardından <span style=\"color:#FFFFFFFF\">Daimi Arınma ve <span style=\"color:#FFFFFFFF\">Yüce Arınma için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama\" kullanır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "CaelestinumFinaleTermini",
-			"name": "Caelestinum Finale Termini",
-			"desc": "5 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı verir. Rakibin hazırdaki karakterlerine <span style=\"color:#FFFFFFFF\">Komple Çöküş uygular.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Dvalin",
+  "shareid": 287,
+  "name": "Dvalin",
+  "title": "\"Doğu'nun Ejderi\" Dvalin",
+  "desc": "\"Sen de benim gibi mavi gökyüzünde uçarken kendi asil ve güzel suretini görebilseydin harika olurdu.\"\\n\"İşte o zaman hem bu yeryüzünün hem de gökyüzünün uğruna savaşılacak şeyler olduğunu anlardın.\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "talentCard": {
+      "id": "RendingVortex",
+      "name": "Rending Vortex"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Dvalin ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Stormterror",
+      "name": "Stormterror"
+    }
+  },
+  "skills": [
+    {
+      "id": "LaceratingSlash",
+      "name": "Parçalayıcı Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TempestuousBarrage",
+      "name": "Ağır Yaylım Ateşi",
+      "desc": "2 Rüzgar Hasarı verir ve hedef karaktere Komple Çöküş eklenir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DvalinsCleansing",
+      "name": "Dvalin'in Arınması",
+      "desc": "2 Rüzgar Hasarı verir, ardından Daimi Arınma ve Yüce Arınma için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CaelestinumFinaleTermini",
+      "name": "Caelestinum Finale Termini",
+      "desc": "5 Rüzgar Hasarı verir. Rakibin hazırdaki karakterlerine Komple Çöküş uygular.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LaceratingSlash",
+      "name": "Parçalayıcı Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TempestuousBarrage",
+      "name": "Ağır Yaylım Ateşi",
+      "desc": "2 Rüzgar Hasarı verir ve hedef karaktere Komple Çöküş eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DvalinsCleansing",
+      "name": "Dvalin'in Arınması",
+      "desc": "2 Rüzgar Hasarı verir, ardından Daimi Arınma ve Yüce Arınma için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CaelestinumFinaleTermini",
+      "name": "Caelestinum Finale Termini",
+      "desc": "5 Rüzgar Hasarı verir. Rakibin hazırdaki karakterlerine Komple Çöküş uygular.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 287
 }

@@ -1,63 +1,125 @@
 {
-	"id": "HilichurlFighter",
-	"shareid": 3001,
-	"name": "Savaşçı Dağ Yabanisi",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Element Türü Yok",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar", "Dağ Yabanisi"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Hit",
-			"name": "Vur",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpAndHit",
-			"name": "Sıçrama Vuruşu",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SwingThatClub",
-			"name": "Şaşırtıcı Darbe",
-			"desc": "4 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Aynı Element",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HilichurlFighter",
+  "shareid": 3001,
+  "name": "Savaşçı Dağ Yabanisi",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Element Türü Yok",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi",
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Hit",
+      "name": "Vur",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Sıçrama Vuruşu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "Şaşırtıcı Darbe",
+      "desc": "4 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hit",
+      "name": "Vur",
+      "desc": "1 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpAndHit",
+      "name": "Sıçrama Vuruşu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SwingThatClub",
+      "name": "Şaşırtıcı Darbe",
+      "desc": "4 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3001
 }

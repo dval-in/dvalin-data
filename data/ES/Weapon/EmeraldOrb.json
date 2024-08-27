@@ -1,287 +1,578 @@
 {
-	"id": "EmeraldOrb",
-	"name": "Orbe Esmeralda",
-	"description": "Un catalizador tallado en jade extra\u00eddo del Desfiladero Jueyun, al norte de Liyue. Es peque\u00f1o, ligero y duradero. Popularmente se conoce como \u201cOrbe de Jade\u201d.",
-	"rarity": 3,
-	"type": "Catalizador",
-	"domain": "Palacio oculto de la f\u00f3rmula Lianshan",
-	"passive": "R\u00e1pidos",
-	"bonus": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 20%/25%/30%/35%/40% durante 12 s.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "Maestr\u00eda Elemental",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 40,
-				"secondary": 20
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 102,
-				"secondary": 36
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 121,
-				"secondary": 36
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 187,
-				"secondary": 53
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 207,
-				"secondary": 53
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 239,
-				"secondary": 61
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 259,
-				"secondary": 61
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 292,
-				"secondary": 69
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 311,
-				"secondary": 69
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 344,
-				"secondary": 77
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 363,
-				"secondary": 77
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 396,
-				"secondary": 85
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 415,
-				"secondary": 85
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 448,
-				"secondary": 94
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "LuminousSandsFromGuyun",
-					"name": "Arena brillante de Guyun",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "HuntersSacrificialKnife",
-					"name": "Daga de cacer\u00eda",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "Insignia de cuervo de bronce",
-					"amount": 1,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "Piedra reluciente de Guyun",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "HuntersSacrificialKnife",
-					"name": "Daga de cacer\u00eda",
-					"amount": 8,
-					"rarity": 2
-				},
-				{
-					"id": "TreasureHoarderInsignia",
-					"name": "Insignia de cuervo de bronce",
-					"amount": 5,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "LustrousStoneFromGuyun",
-					"name": "Piedra reluciente de Guyun",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "AgentsSacrificialKnife",
-					"name": "Daga del agente",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Insignia de cuervo plateada",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "Reliquia de Guyun",
-					"amount": 2,
-					"rarity": 4
-				},
-				{
-					"id": "AgentsSacrificialKnife",
-					"name": "Daga del agente",
-					"amount": 8,
-					"rarity": 3
-				},
-				{
-					"id": "SilverRavenInsignia",
-					"name": "Insignia de cuervo plateada",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 25000,
-			"materials": [
-				{
-					"id": "RelicFromGuyun",
-					"name": "Reliquia de Guyun",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "InspectorsSacrificialKnife",
-					"name": "Daga larga del inspector",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Insignia de cuervo dorada",
-					"amount": 4,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "DivineBodyFromGuyun",
-					"name": "Cuerpo divino de Guyun",
-					"amount": 3,
-					"rarity": 5
-				},
-				{
-					"id": "InspectorsSacrificialKnife",
-					"name": "Daga larga del inspector",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "GoldenRavenInsignia",
-					"name": "Insignia de cuervo dorada",
-					"amount": 8,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "R\u00e1pidos",
-		"template": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un <span style=\"color:#99FFFFFF\">{0} durante 12 s.",
-		"params": [["20%"], ["25%"], ["30%"], ["35%"], ["40%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 20% durante 12 s."
-		},
-		{
-			"refinement": 2,
-			"desc": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 25% durante 12 s."
-		},
-		{
-			"refinement": 3,
-			"desc": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 30% durante 12 s."
-		},
-		{
-			"refinement": 4,
-			"desc": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 35% durante 12 s."
-		},
-		{
-			"refinement": 5,
-			"desc": "Tras causar una reacci\u00f3n de Vaporizaci\u00f3n, Electrocargado, Congelaci\u00f3n, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 40% durante 12 s."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/EmeraldOrb/Icon.webp"
-	}
+  "id": "EmeraldOrb",
+  "name": "Orbe Esmeralda",
+  "description": "Un catalizador tallado en jade extraído del Desfiladero Jueyun, al norte de Liyue. Es pequeño, ligero y duradero. Popularmente se conoce como “Orbe de Jade”.",
+  "rarity": 3,
+  "type": "Catalizador",
+  "domain": "Palacio oculto de la fórmula Lianshan",
+  "passive": "Rápidos",
+  "bonus": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 20%/25%/30%/35%/40% durante 12 s.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Maestría Elemental",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 40,
+        "secondary": 20
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 102,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 121,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 187,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 207,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 239,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 259,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 292,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 311,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 344,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 363,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 396,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 415,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 448,
+        "secondary": 94
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 40,
+        "secondary": 20
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 102,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 121,
+        "secondary": 36
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 187,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 207,
+        "secondary": 53
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 239,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 259,
+        "secondary": 61
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 292,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 311,
+        "secondary": 69
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 344,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 363,
+        "secondary": 77
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 396,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 415,
+        "secondary": 85
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 448,
+        "secondary": 94
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "Arena brillante de Guyun",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "Daga de cacería",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Insignia de cuervo de bronce",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Piedra reluciente de Guyun",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "Daga de cacería",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Insignia de cuervo de bronce",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Piedra reluciente de Guyun",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "Daga del agente",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insignia de cuervo plateada",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Reliquia de Guyun",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "Daga del agente",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insignia de cuervo plateada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Reliquia de Guyun",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "Daga larga del inspector",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insignia de cuervo dorada",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "Cuerpo divino de Guyun",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "Daga larga del inspector",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insignia de cuervo dorada",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "LuminousSandsFromGuyun",
+          "name": "Arena brillante de Guyun",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "Daga de cacería",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Insignia de cuervo de bronce",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Piedra reluciente de Guyun",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "HuntersSacrificialKnife",
+          "name": "Daga de cacería",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "TreasureHoarderInsignia",
+          "name": "Insignia de cuervo de bronce",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "LustrousStoneFromGuyun",
+          "name": "Piedra reluciente de Guyun",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "Daga del agente",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insignia de cuervo plateada",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Reliquia de Guyun",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "AgentsSacrificialKnife",
+          "name": "Daga del agente",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SilverRavenInsignia",
+          "name": "Insignia de cuervo plateada",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "RelicFromGuyun",
+          "name": "Reliquia de Guyun",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "Daga larga del inspector",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insignia de cuervo dorada",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DivineBodyFromGuyun",
+          "name": "Cuerpo divino de Guyun",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "InspectorsSacrificialKnife",
+          "name": "Daga larga del inspector",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "GoldenRavenInsignia",
+          "name": "Insignia de cuervo dorada",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 20% durante 12 s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 25% durante 12 s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 30% durante 12 s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 35% durante 12 s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 40% durante 12 s."
+    },
+    {
+      "refinement": 1,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 20% durante 12 s."
+    },
+    {
+      "refinement": 2,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 25% durante 12 s."
+    },
+    {
+      "refinement": 3,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 30% durante 12 s."
+    },
+    {
+      "refinement": 4,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 35% durante 12 s."
+    },
+    {
+      "refinement": 5,
+      "desc": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un 40% durante 12 s."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/EmeraldOrb/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Rápidos",
+    "template": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, Florecimiento o Torbellino Hydro, el ATQ aumenta en un <span style=\"color:#99FFFFFF\">{0}</span> durante 12 s.",
+    "params": [
+      [
+        "20%"
+      ],
+      [
+        "25%"
+      ],
+      [
+        "30%"
+      ],
+      [
+        "35%"
+      ],
+      [
+        "40%"
+      ],
+      [
+        "20%"
+      ],
+      [
+        "25%"
+      ],
+      [
+        "30%"
+      ],
+      [
+        "35%"
+      ],
+      [
+        "40%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

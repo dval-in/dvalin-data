@@ -1,29 +1,44 @@
 {
-	"id": "TurnControl",
-	"shareid": 289,
-	"name": "Control estratégico",
-	"title": "Yelan: Control estratégico",
-	"desc": "“¿Quieres probar suerte?”.",
-	"inPlayDescription": "Fase de lanzamiento: cuando Yelan esté en combate mientras tiene esta carta equipada, por cada personaje de un tipo elemental distinto que haya en tu equipo, un dado elemental se convertirá en un <span style=\"color:#FFFFFFFF\">omnidado (hasta un máximo de 3).",
-	"attributes": {
-		"cost": 3,
-		"costType": "Hydro",
-		"cardType": "Carta de equipamiento",
-		"energy": [
-			{
-				"id": "Hydro",
-				"type": "Hydro",
-				"count": 3
-			}
-		],
-		"source": "Se obtiene tras retar a Yelan a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
-		"tags": ["Talento", "Acción de combate"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Acción de combate: esta carta se equipa cuando el personaje en combate es <span style=\"color:#FFFFFFFF\">Yelan.Tras ello, Yelan usa una vez <span style=\"color:#FFD780FF\">Atadura salvavidas de inmediato.Fase de lanzamiento: cuando Yelan esté en combate mientras tiene esta carta equipada, por cada personaje de un tipo elemental distinto que haya en tu equipo, un dado elemental se convertirá en un <span style=\"color:#FFFFFFFF\">omnidado (hasta un máximo de 3).Solo puedes añadir esta carta al mazo si tienes a Yelan en él."
-		}
-	],
-	"version": "4.4"
+  "id": "TurnControl",
+  "shareid": 289,
+  "name": "Control estratégico",
+  "title": "Yelan: Control estratégico",
+  "desc": "“¿Quieres probar suerte?”.",
+  "inPlayDescription": "Fase de lanzamiento: cuando Yelan esté en combate mientras tiene esta carta equipada, por cada personaje de un tipo elemental distinto que haya en tu equipo, un dado elemental se convertirá en un <span style=\"color:#FFFFFFFF\">omnidado</span> (hasta un máximo de 3).",
+  "attributes": {
+    "cost": 3,
+    "costType": "Hydro",
+    "cardType": "Carta de equipamiento",
+    "energy": [
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      },
+      {
+        "id": "Hydro",
+        "type": "Hydro",
+        "count": 3
+      }
+    ],
+    "source": "Se obtiene tras retar a Yelan a un duelo en la taberna Cola de Gato y completar los objetivos del duelo",
+    "tags": [
+      "Talento",
+      "Acción de combate",
+      "Talento",
+      "Acción de combate"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Acción de combate: esta carta se equipa cuando el personaje en combate es Yelan.Tras ello, Yelan usa una vez Atadura salvavidas de inmediato.Fase de lanzamiento: cuando Yelan esté en combate mientras tiene esta carta equipada, por cada personaje de un tipo elemental distinto que haya en tu equipo, un dado elemental se convertirá en un omnidado (hasta un máximo de 3).Solo puedes añadir esta carta al mazo si tienes a Yelan en él."
+    },
+    {
+      "name": "",
+      "desc": "Acción de combate: esta carta se equipa cuando el personaje en combate es Yelan. Tras ello, Yelan usa una vez Atadura salvavidas de inmediato. Fase de lanzamiento: cuando Yelan esté en combate mientras tiene esta carta equipada, por cada personaje de un tipo elemental distinto que haya en tu equipo, un dado elemental se convertirá en un omnidado (hasta un máximo de 3). Solo puedes añadir esta carta al mazo si tienes a Yelan en él."
+    }
+  ],
+  "version": "4.4",
+  "shareId": 289
 }

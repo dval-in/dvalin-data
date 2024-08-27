@@ -1,75 +1,148 @@
 {
-	"id": "NobushiHitsukeban",
-	"shareid": 3305,
-	"name": "Nobushi: Hitsukeban",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไฟ",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": [],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ComboSlash",
-			"name": "Combo Slash",
-			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "ธาตุไฟ",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlazeBloom",
-			"name": "Blaze Bloom",
-			"desc": "สร้าง<span style=\"color:#FF9999FF\">ความเสียหายไฟ 3 หน่วย และตัวละครของฝ่ายเรา จะเปลี่ยนเป็นตัวละครถัดไป",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "ธาตุไฟ",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "Iai: Sheathed",
-			"desc": "ตัวละครนี้<span style=\"color:#FFFFFFFF\">เตรียมสกิล: <span style=\"color:#FFFFFFFF\">Iai: Thrust",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "ธาตุชนิดเดียวกัน",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Zanshin",
-			"name": "Zanshin",
-			"desc": "[ติดตัว] จบเฟส: หากตัวละครนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับพลังงาน 1 หน่วย",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "NobushiHitsukeban",
+  "shareid": 3305,
+  "name": "Nobushi: Hitsukeban",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ComboSlash",
+      "name": "Combo Slash",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazeBloom",
+      "name": "Blaze Bloom",
+      "desc": "สร้างความเสียหายไฟ 3 หน่วย และตัวละครของฝ่ายเรา จะเปลี่ยนเป็นตัวละครถัดไป",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "ตัวละครนี้เตรียมสกิล: Iai: Thrust",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "[ติดตัว] จบเฟส: หากตัวละครนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับพลังงาน 1 หน่วย",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "ComboSlash",
+      "name": "Combo Slash",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazeBloom",
+      "name": "Blaze Bloom",
+      "desc": "สร้างความเสียหายไฟ 3 หน่วย และตัวละครของฝ่ายเรา จะเปลี่ยนเป็นตัวละครถัดไป",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "ตัวละครนี้เตรียมสกิล: Iai: Thrust",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "ธาตุชนิดเดียวกัน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "[ติดตัว] จบเฟส: หากตัวละครนี้เป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับพลังงาน 1 หน่วย",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3305
 }

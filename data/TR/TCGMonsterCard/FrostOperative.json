@@ -10,12 +10,77 @@
     "element": "Buz",
     "weapon": "Diğer Silahlar",
     "faction": [
+      "Fatui",
       "Fatui"
     ],
     "source": null,
     "cardType": "Karakter Kartı"
   },
   "skills": [
+    {
+      "id": "SwiftPoint",
+      "name": "Hızlı Nokta",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostyInterjection",
+      "name": "Donduran Nidalar",
+      "desc": "3 Buz Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThornyOnslaught",
+      "name": "Dikenli Taarruz",
+      "desc": "4 Buz Hasarı verir. Bu karaktere Taarruz Duruşu ekler.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BloodbondedShadow",
+      "name": "Kanla Bağlı Gölge",
+      "desc": "(Pasif) Bu karakter bir Beceri kullandıktan sonra rakibin aktif karakterine Kullanım Hakkı (bu Becerinin Son Hasar toplamı -2) kadar olan Hayat Bağı eklenir. (5 kademeye kadar birikir.)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
     {
       "id": "SwiftPoint",
       "name": "Hızlı Nokta",

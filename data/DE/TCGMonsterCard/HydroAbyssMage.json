@@ -1,82 +1,169 @@
 {
-	"id": "HydroAbyssMage",
-	"shareid": 5201,
-	"name": "Hydro-Abgrundmagier",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Hydro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "WaterBall",
-			"name": "Wassergeschosse",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BubblingOffering",
-			"name": "Opferritual des Blasenglanzes",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Wasserblase.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfMortalWater",
-			"name": "Ritus der Wasserillusion",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Wasserblase.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HydroShield",
-			"name": "Hydro-Ummantelung",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Hydro-Ummantelung.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		},
-		{
-			"id": "AegisOfTheAbyss",
-			"name": "Ägide des Abgrundes",
-			"desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die <span style=\"color:#FFFFFFFF\">Hydro-Ummantelung.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroAbyssMage",
+  "shareid": 5201,
+  "name": "Hydro-Abgrundmagier",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Wassergeschosse",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Opferritual des Blasenglanzes",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH, verleiht dem Ziel den Zustand Wasserblase.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Ritus der Wasserillusion",
+      "desc": "Verursacht 4 Pkt. Hydro-SCH, verleiht dem Ziel den Zustand Wasserblase.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Hydro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Hydro-Ummantelung.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Ägide des Abgrundes",
+      "desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die Hydro-Ummantelung.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "WaterBall",
+      "name": "Wassergeschosse",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Opferritual des Blasenglanzes",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH, verleiht dem Ziel den Zustand Wasserblase.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Ritus der Wasserillusion",
+      "desc": "Verursacht 4 Pkt. Hydro-SCH, verleiht dem Ziel den Zustand Wasserblase.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Hydro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Hydro-Ummantelung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Ägide des Abgrundes",
+      "desc": "Passiv – Nach Anwenden der Fähigkeiten beim Ummantelungsriss: Verleiht der Figur erneut die Hydro-Ummantelung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5201
 }

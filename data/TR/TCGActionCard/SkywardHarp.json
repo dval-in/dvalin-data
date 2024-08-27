@@ -1,28 +1,43 @@
 {
-	"id": "SkywardHarp",
-	"shareid": 128,
-	"name": "Göklerin Liri",
-	"title": "Yankılanan Balat: Göklerin Liri",
-	"desc": "Bu gökleri delip geçen lirin sesi, Rüzgar Hükümdarı'nın kulağına müzik gibi gelir.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.<span style=\"color:#FFFFFFFF\">Her Turda bir defa olmak üzere bu karakterin <span style=\"color:#FFFFFFFF\">Normal Saldırılarının verdiği Hasar 1 artar.",
-	"attributes": {
-		"cost": 3,
-		"costType": "Aynı Element",
-		"cardType": "Ekipman Kartı",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Aynı Element",
-				"count": 3
-			}
-		],
-		"tags": ["Silah", "Yay"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.<span style=\"color:#FFFFFFFF\">Her Turda bir defa olmak üzere bu karakterin <span style=\"color:#FFFFFFFF\">Normal Saldırılarının verdiği Hasar 1 artar.(<span style=\"color:#FFFFFFFF\">Yalnızca Yay Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
-		}
-	],
-	"version": "4.4"
+  "id": "SkywardHarp",
+  "shareid": 128,
+  "name": "Göklerin Liri",
+  "title": "Yankılanan Balat: Göklerin Liri",
+  "desc": "Bu gökleri delip geçen lirin sesi, Rüzgar Hükümdarı'nın kulağına müzik gibi gelir.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Karakter fazladan 1 Hasar verir.</span><br/><span style=\"color:#FFFFFFFF\">Her Turda bir defa</span> olmak üzere bu karakterin <span style=\"color:#FFFFFFFF\">Normal Saldırılarının</span> verdiği Hasar 1 artar.",
+  "attributes": {
+    "cost": 3,
+    "costType": "Aynı Element",
+    "cardType": "Ekipman Kartı",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Aynı Element",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Silah",
+      "Yay",
+      "Silah",
+      "Yay"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Karakter fazladan 1 Hasar verir.Her Turda bir defa olmak üzere bu karakterin Normal Saldırılarının verdiği Hasar 1 artar.(Yalnızca Yay Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
+    },
+    {
+      "name": "",
+      "desc": "Karakter fazladan 1 Hasar verir. Her Turda bir defa olmak üzere bu karakterin Normal Saldırılarının verdiği Hasar 1 artar. (Yalnızca Yay Karakterleri bunu kuşanabilir. Bir karakter en fazla 1 Silah kuşanabilir.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 128
 }

@@ -10,12 +10,77 @@
     "element": "Toprak",
     "weapon": "Çift Elli Kılıç",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "Navia'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
     "cardType": "Karakter Kartı"
   },
   "skills": [
+    {
+      "id": "BluntRefusal",
+      "name": "Açık İnkar",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialCrystalshot",
+      "name": "Kristal Tören Atışı",
+      "desc": "3 Toprak Hasarı verir ve bu karaktere Toprak Tesiri ekler. Elindeki en fazla 5 Kristal Şarapnel için Dışarı Atma uygulanır. Dışarı Atma uygulanan her kart için fazladan 1 Hasar verir ve 1 kart çekersin.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AsTheSunlitSkysSingingSalute",
+      "name": "Güneşli Gökyüzünün Selamı",
+      "desc": "1 Toprak Hasarı verir, rakibin hazırdaki tüm karakterlerine 1 Delme Hasarı verir. 1 Altın Gül Selamı çağırır ve 1 Kristal Şarapnel kartı oluşturup eline ekler.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MutualAssistanceNetwork",
+      "name": "Karşılıklı Yardım Ağı",
+      "desc": "(Pasif) Rakip bir karakter Kristalleşme tepkimesi Hasarı aldığında 3 Kristal Şarapnel oluşur ve destene rastgele yerleştirilir.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
     {
       "id": "BluntRefusal",
       "name": "Açık İnkar",

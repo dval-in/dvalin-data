@@ -12,6 +12,7 @@
     "weapon": "Catalizador",
     "faction": [
       "Mondstadt",
+      "Mondstadt",
       "Mondstadt"
     ],
     "talentCard": {
@@ -66,6 +67,61 @@
       "name": "Rayo de la rosa",
       "desc": "Inflige 2 pts. de Daño Electro y crea una rosa devastadora.",
       "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningTouch",
+      "name": "Toque de relámpago",
+      "desc": "Inflige 1 pt. de Daño Electro. Si esta habilidad se ejecuta en forma de Ataque Cargado, el personaje en combate enemigo será afectado por conducción.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Arco violeta",
+      "desc": "Inflige 2 pts. de Daño Electro y aplica el estado de conducción al personaje en combate enemigo si este aún no estaba afectado por él.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rayo de la rosa",
+      "desc": "Inflige 2 pts. de Daño Electro, invoca una rosa devastadora y el personaje en combate enemigo es afectado por conducción.",
+      "skillTag": [
         "Habilidad Definitiva"
       ],
       "points": [

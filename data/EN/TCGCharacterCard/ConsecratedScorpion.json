@@ -11,6 +11,8 @@
     "weapon": "Other Weapons",
     "faction": [
       "Monster",
+      "Consecrated Beast",
+      "Monster",
       "Consecrated Beast"
     ],
     "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the Consecrated Scorpion",
@@ -56,6 +58,70 @@
       "id": "ThunderboreBlast",
       "name": "Thunderbore Blast",
       "desc": "Deals 3 Electro DMG. Discard up to 3 Bonecruncher's Energy Block cards from your Hand, and create 1 Thunderbore Trap on the opposing side of the field.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "Immortal Remnants: Electro",
+      "desc": "(Passive) When the Round ends, create 2 Bonecruncher's Energy Block cards and randomly place them within the top 10 cards of your deck.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ScorpionStrike",
+      "name": "Scorpion Strike",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "Stinging Spine",
+      "desc": "Deals 3 Physical DMG. Create 1 Bonecruncher's Energy Block card and randomly place it within the top 2 cards of your deck.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "Thunderbore Blast",
+      "desc": "Deals 3 Physical DMG. Discard up to 3 Bonecruncher's Energy Block cards from your Hand, and create 1 Thunderbore Trap on the opposing side of the field.",
       "skillTag": [
         "Elemental Burst"
       ],

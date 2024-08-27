@@ -1,73 +1,138 @@
 {
-	"id": "Diona",
-	"shareid": 2,
-	"name": "迪奧娜",
-	"title": "貓尾特調·迪奧娜",
-	"desc": "用1%的力氣調酒，99%的力氣…拒絕失敗。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "冰元素",
-		"weapon": "弓",
-		"faction": ["蒙德"],
-		"source": "在貓尾酒館中邀請迪奧娜進行對局，在友好對局難度中取得勝利後獲得",
-		"character": {
-			"id": "Diona",
-			"name": "Diona",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "KtzleinStyle",
-			"name": "獵人射術",
-			"desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "IcyPaws",
-			"name": "貓爪凍凍",
-			"desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害，生成<span style=\"color:#FFFFFFFF\">貓爪護盾。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SignatureMix",
-			"name": "最烈特調",
-			"desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害，治療此角色2點，召喚<span style=\"color:#FFFFFFFF\">酒霧領域。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Diona",
+  "shareid": 2,
+  "name": "迪奧娜",
+  "title": "貓尾特調·迪奧娜",
+  "desc": "用1%的力氣調酒，99%的力氣…拒絕失敗。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "弓",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "source": "在貓尾酒館中邀請迪奧娜進行對局，在友好對局難度中取得勝利後獲得",
+    "character": {
+      "id": "Diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "KtzleinStyle",
+      "name": "獵人射術",
+      "desc": "造成2點物理傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "貓爪凍凍",
+      "desc": "造成2點冰元素傷害，生成貓爪護盾。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "最烈特調",
+      "desc": "造成1點冰元素傷害，治療此角色2點，召喚酒霧領域。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KtzleinStyle",
+      "name": "獵人射術",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "貓爪凍凍",
+      "desc": "造成2點冰元素傷害，生成貓爪護盾。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "最烈特調",
+      "desc": "造成1點冰元素傷害，治療此角色2點，召喚酒霧領域。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 2
 }

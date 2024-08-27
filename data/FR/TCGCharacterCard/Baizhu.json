@@ -1,77 +1,142 @@
 {
-	"id": "Baizhu",
-	"shareid": 51,
-	"name": "Baizhu",
-	"title": "Baizhu · Transcendant la mortalité",
-	"desc": "Tant de maladies, où trouver un remède ?",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Catalyseur",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "AllThingsAreOfTheEarth",
-			"name": "All Things Are of the Earth"
-		},
-		"source": "Récompense pour avoir invité Baizhu à une partie amicale dans La Queue de Chat et remporté la victoire",
-		"character": {
-			"id": "Baizhu",
-			"name": "Baizhu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TheClassicsOfAcupuncture",
-			"name": "Acupuncture dorée",
-			"desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "UniversalDiagnosis",
-			"name": "Diagnostic universel",
-			"desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro et invoque un <span style=\"color:#FFFFFFFF\">esprit de gaze.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HolisticRevivification",
-			"name": "Reviviscence holistique",
-			"desc": "Crée une <span style=\"color:#FFFFFFFF\">ordonnance impulsive et un <span style=\"color:#FFFFFFFF\">bouclier aseptique.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Baizhu",
+  "shareid": 51,
+  "name": "Baizhu",
+  "title": "Baizhu · Transcendant la mortalité",
+  "desc": "Tant de maladies, où trouver un remède ?",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Catalyseur",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "AllThingsAreOfTheEarth",
+      "name": "All Things Are of the Earth"
+    },
+    "source": "Récompense pour avoir invité Baizhu à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Baizhu",
+      "name": "Baizhu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheClassicsOfAcupuncture",
+      "name": "Acupuncture dorée",
+      "desc": "Inflige 1 pt de DGT Dendro.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalDiagnosis",
+      "name": "Diagnostic universel",
+      "desc": "Inflige 1 pt de DGT Dendro et invoque un esprit de gaze.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HolisticRevivification",
+      "name": "Reviviscence holistique",
+      "desc": "Crée une ordonnance impulsive et un bouclier aseptique.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TheClassicsOfAcupuncture",
+      "name": "Acupuncture dorée",
+      "desc": "Inflige 1 pt de DGT Dendro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalDiagnosis",
+      "name": "Diagnostic universel",
+      "desc": "Inflige 1 pt de DGT Dendro et invoque un esprit de gaze.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HolisticRevivification",
+      "name": "Reviviscence holistique",
+      "desc": "Crée une ordonnance impulsive et un bouclier aseptique.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 51
 }

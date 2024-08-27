@@ -1,75 +1,151 @@
 {
-	"id": "EremiteDesertClearwater",
-	"shareid": 3206,
-	"name": "Münzevi Berrak Su",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Su",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Münzeviler"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "AgileThrust",
-			"name": "Çevik Atılım",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlitzStrike",
-			"name": "Ani Saldırı Darbesi",
-			"desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "WhirlingLashes",
-			"name": "Döner Kırbaç",
-			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Döner Kırbaç: İlk Saldırı ve <span style=\"color:#FFFFFFFF\">Döner Kırbaç: Sabit Mod için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama\" kullanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedHydro",
-			"name": "Serbest Kalan Uğursuz Ruh (Su)",
-			"desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji kazanır ve karaktere <span style=\"color:#FFFFFFFF\">Alamet Ruhunun Uyanışı: Su eklenir. (Her Düelloda bir defa)",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteDesertClearwater",
+  "shareid": 3206,
+  "name": "Münzevi Berrak Su",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Münzeviler",
+      "Münzeviler"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "AgileThrust",
+      "name": "Çevik Atılım",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Ani Saldırı Darbesi",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Döner Kırbaç",
+      "desc": "Bu karakter Döner Kırbaç: İlk Saldırı ve Döner Kırbaç: Sabit Mod için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Serbest Kalan Uğursuz Ruh (Su)",
+      "desc": "(Pasif) Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır ve karaktere Alamet Ruhunun Uyanışı: Su eklenir. (Her Düelloda bir defa)",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "AgileThrust",
+      "name": "Çevik Atılım",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Ani Saldırı Darbesi",
+      "desc": "3 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Döner Kırbaç",
+      "desc": "Bu karakter Döner Kırbaç: İlk Saldırı ve Döner Kırbaç: Sabit Mod için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Serbest Kalan Uğursuz Ruh (Su)",
+      "desc": "(Pasif) Bu karakter Hasar aldıktan sonra 7 veya daha az Cana sahipse 1 Enerji kazanır ve karaktere Alamet Ruhunun Uyanışı: Su eklenir. (Her Düelloda bir defa)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3206
 }

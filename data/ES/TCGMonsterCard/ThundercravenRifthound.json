@@ -12,6 +12,7 @@
     "weapon": "Otras armas",
     "faction": [
       "Monstruo",
+      "Monstruo",
       "Monstruo"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Devoración elemental",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de devoración elemental.",
       "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "Garras corrosivas",
+      "desc": "Inflige 1 pt. de Daño Electro y produce corrosión en el campo del rival.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Cristal electrocorrosivo",
+      "desc": "Inflige 2 pts. de Daño Electro y produce corrosión en el campo del rival.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Mordisco devorador",
+      "desc": "Inflige 6 pts. de Daño Electro y produce corrosión en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Devoración elemental",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de devoración elemental.",
+      "skillTag": [
         "Habilidad pasiva"
       ],
       "points": []

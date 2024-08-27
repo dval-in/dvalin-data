@@ -1,77 +1,142 @@
 {
-	"id": "SangonomiyaKokomi",
-	"shareid": 13,
-	"name": "Sangonomiya Kokomi",
-	"title": "Sangonomiya Kokomi - La Perla de la Sabiduría",
-	"desc": "Para superar la adversidad, hay que anticiparse a ella.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Catalizador",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "TamanooyasCasket",
-			"name": "Tamanooya's Casket"
-		},
-		"source": "Se obtiene tras retar y ganar a Sangonomiya Kokomi en un duelo amistoso en la taberna Cola de Gato",
-		"character": {
-			"id": "SangonomiyaKokomi",
-			"name": "Sangonomiya Kokomi",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TheShapeOfWater",
-			"name": "La forma del agua",
-			"desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KuragesOath",
-			"name": "Juramento de la medusa",
-			"desc": "El personaje recibe una <span style=\"color:#80C0FFFF\">aplicación Hydro e invoca una <span style=\"color:#FFFFFFFF\">medusa.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "NereidsAscension",
-			"name": "Encarnación de las nereidas",
-			"desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">manto ceremonial.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SangonomiyaKokomi",
+  "shareid": 13,
+  "name": "Sangonomiya Kokomi",
+  "title": "Sangonomiya Kokomi - La Perla de la Sabiduría",
+  "desc": "Para superar la adversidad, hay que anticiparse a ella.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "Se obtiene tras retar y ganar a Sangonomiya Kokomi en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "La forma del agua",
+      "desc": "Inflige 1 pt. de Daño Hydro.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Juramento de la medusa",
+      "desc": "El personaje recibe una aplicación Hydro e invoca una medusa.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Encarnación de las nereidas",
+      "desc": "Inflige 2 pts. de Daño Hydro. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de manto ceremonial.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TheShapeOfWater",
+      "name": "La forma del agua",
+      "desc": "Inflige 1 pt. de Daño Hydro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Juramento de la medusa",
+      "desc": "El personaje recibe una aplicación Hydro e invoca una medusa.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Encarnación de las nereidas",
+      "desc": "Inflige 2 pts. de Daño Hydro. Todos tus personajes obtienen Vida +1. Este personaje obtiene el efecto de manto ceremonial.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 13
 }

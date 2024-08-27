@@ -10,12 +10,77 @@
     "element": "Pyro",
     "weapon": "Lanza",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "Se obtiene tras retar y ganar a Chevreuse en un duelo amistoso en la taberna Cola de Gato",
     "cardType": "Carta de personaje"
   },
   "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "Bayoneta de vanguardia (modificada)",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "Fuego rápido de proximidad e intercepción",
+      "desc": "Inflige 2 pts. de Daño Pyro. Tras ejecutar esta habilidad, si tienes cartas de Bala de punta sobrecargada en tu mano, se realiza un descarte de 1 de ellas y el personaje de tu equipo que más daño haya recibido obtiene Vida +1.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "Bombardeo radial",
+      "desc": "Inflige 2 pts. de Daño Pyro y crea unas bombas secundarias en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "Formación lineal integral",
+      "desc": "Pasiva: después de que un personaje enemigo reciba daño de la reacción de Sobrecarga, crea una carta de Bala de punta sobrecargada (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
     {
       "id": "LineBayonetThrustEx",
       "name": "Bayoneta de vanguardia (modificada)",

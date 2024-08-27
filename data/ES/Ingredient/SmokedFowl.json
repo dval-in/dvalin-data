@@ -4,13 +4,21 @@
   "description": "Carne de ave que ha sido ahumada. La firme textura otorga un sabor diferente al plato.",
   "processing": [
     {
-      
       "id": "Fowl",
       "name": "Carne de ave",
       "amount": 3
     },
     {
-      
+      "id": "Salt",
+      "name": "Sal",
+      "amount": 1
+    },
+    {
+      "id": "Fowl",
+      "name": "Carne de ave",
+      "amount": 3
+    },
+    {
       "id": "Salt",
       "name": "Sal",
       "amount": 1
@@ -18,12 +26,17 @@
   ],
   "recipes": [
     {
-      
+      "id": "NorthernSmokedChicken",
+      "name": "Pollo ahumado del Norte"
+    },
+    {
       "id": "NorthernSmokedChicken",
       "name": "Pollo ahumado del Norte"
     }
   ],
   "source": [
+    "Procesar comida",
     "Procesar comida"
-  ]
+  ],
+  "version": "5.0"
 }

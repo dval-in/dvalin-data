@@ -1,77 +1,142 @@
 {
-	"id": "Collei",
-	"shareid": 47,
-	"name": "Collei",
-	"title": "\"Yeniden Doğuş Filizi\" Collei",
-	"desc": "\"'Kartının adını yüksek sesle söylersen gücü artar.' Ciddi olamazsın, değil mi?\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Doğa",
-		"weapon": "Yay",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "FloralSidewinder",
-			"name": "Floral Sidewinder"
-		},
-		"source": "Collei'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Collei",
-			"name": "Collei",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SupplicantsBowmanship",
-			"name": "Yakarışçının Okçuluğu",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Doğa",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FloralBrush",
-			"name": "Doğa Temizliği",
-			"desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Doğa",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "TrumpcardKitty",
-			"name": "Kedicik Kozu",
-			"desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Cuilein-Anbar çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Doğa",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Collei",
+  "shareid": 47,
+  "name": "Collei",
+  "title": "\"Yeniden Doğuş Filizi\" Collei",
+  "desc": "\"'Kartının adını yüksek sesle söylersen gücü artar.' Ciddi olamazsın, değil mi?\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Yay",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "FloralSidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": "Collei'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SupplicantsBowmanship",
+      "name": "Yakarışçının Okçuluğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FloralBrush",
+      "name": "Doğa Temizliği",
+      "desc": "3 Doğa Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TrumpcardKitty",
+      "name": "Kedicik Kozu",
+      "desc": "2 Doğa Hasarı verir ve 1 Cuilein-Anbar çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupplicantsBowmanship",
+      "name": "Yakarışçının Okçuluğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FloralBrush",
+      "name": "Doğa Temizliği",
+      "desc": "3 Doğa Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TrumpcardKitty",
+      "name": "Kedicik Kozu",
+      "desc": "2 Doğa Hasarı verir ve 1 Cuilein-Anbar çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 47
 }

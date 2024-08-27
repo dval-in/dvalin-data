@@ -12,6 +12,7 @@
     "weapon": "Altre armi",
     "faction": [
       "Mostro",
+      "Mostro",
       "Mostro"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Sedimentazione elementale di Hydro",
       "desc": "(Passiva) All'inizio del duello ottiene Entità elementale di Hydro.",
       "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "Ram",
+      "name": "Collisione",
+      "desc": "Infligge 1 DAN da Hydro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubbleSpray",
+      "name": "Sparabolle",
+      "desc": "Infligge 2 DAN da Hydro, il personaggio bersaglio subisce Bolla gorgogliante.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "Schianto violento",
+      "desc": "Infligge 5 DAN da Hydro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Sedimentazione elementale di Hydro",
+      "desc": "(Passiva) All'inizio del duello ottiene Entità elementale di Hydro.",
+      "skillTag": [
         "Abilità passiva"
       ],
       "points": []

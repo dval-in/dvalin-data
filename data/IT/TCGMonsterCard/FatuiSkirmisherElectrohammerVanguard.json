@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherElectrohammerVanguard",
-	"shareid": 3407,
-	"name": "Schermagliatore dei Fatui Electromartello d'assalto",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 3,
-		"element": "Electro",
-		"weapon": "Altre armi",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RapidHammerStrike",
-			"name": "Martellata rapida",
-			"desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingCharge",
-			"name": "Assalto furente",
-			"desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ThunderblastHammer",
-			"name": "Martello rombotuono",
-			"desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Equipaggiamento elementale di Electro.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Fornitura bellica",
-			"desc": "(Passiva) All'inizio del duello questo personaggio ottiene 2 punti Energia.",
-			"skilltag": ["Abilità passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherElectrohammerVanguard",
+  "shareid": 3407,
+  "name": "Schermagliatore dei Fatui Electromartello d'assalto",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RapidHammerStrike",
+      "name": "Martellata rapida",
+      "desc": "Infligge 2 DAN fisici.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingCharge",
+      "name": "Assalto furente",
+      "desc": "Infligge 3 DAN da Electro.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderblastHammer",
+      "name": "Martello rombotuono",
+      "desc": "Infligge 3 DAN da Electro, questo personaggio ottiene Equipaggiamento elementale di Electro.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Fornitura bellica",
+      "desc": "(Passiva) All'inizio del duello questo personaggio ottiene 2 punti Energia.",
+      "skilltag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "RapidHammerStrike",
+      "name": "Martellata rapida",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingCharge",
+      "name": "Assalto furente",
+      "desc": "Infligge 3 DAN da Electro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderblastHammer",
+      "name": "Martello rombotuono",
+      "desc": "Infligge 3 DAN da Electro, questo personaggio ottiene Equipaggiamento elementale di Electro.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Fornitura bellica",
+      "desc": "(Passiva) All'inizio del duello questo personaggio ottiene 2 punti Energia.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3407
 }

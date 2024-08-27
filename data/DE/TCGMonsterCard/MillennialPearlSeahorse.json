@@ -12,6 +12,7 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Glänzende Perlenrüstung",
       "desc": "Passiv – Erhält selbst zu Beginn des Kampfes Glänzende Fontemer-Perle.",
       "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Schwanzfeger",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Wirbelnder Fischschwarm",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH. Wenn die aktuelle Figur bereits mit der Glänzende Fontemer-Perle ausgerüstet ist, deren Einsatzmöglichkeit +1 (1-mal pro Runde).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Uralter Fontemer-Donner",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH, erhält selbst Glänzende Fontemer-Perle und erschafft 1 Resonanz-Korallenperle.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Glänzende Perlenrüstung",
+      "desc": "Passiv – Erhält selbst zu Beginn des Kampfes Glänzende Fontemer-Perle.",
+      "skillTag": [
         "Passive Fähigkeit"
       ],
       "points": []

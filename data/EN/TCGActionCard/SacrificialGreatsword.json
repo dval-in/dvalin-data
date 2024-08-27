@@ -1,28 +1,43 @@
 {
-	"id": "SacrificialGreatsword",
-	"shareid": 133,
-	"name": "Sacrificial Greatsword",
-	"title": "Composed: Sacrificial Greatsword",
-	"desc": "This greatsword has seen the passage of many years, and was once owned by a clan of brave and gifted warriors who fought hard and died young.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG.<span style=\"color:#FFFFFFFF\">After the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Matching Element",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 3
-			}
-		],
-		"tags": ["Weapon", "Claymore"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG.<span style=\"color:#FFFFFFFF\">After the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)(<span style=\"color:#FFFFFFFF\">Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)"
-		}
-	],
-	"version": "4.4"
+  "id": "SacrificialGreatsword",
+  "shareid": 133,
+  "name": "Sacrificial Greatsword",
+  "title": "Composed: Sacrificial Greatsword",
+  "desc": "This greatsword has seen the passage of many years, and was once owned by a clan of brave and gifted warriors who fought hard and died young.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">The character deals +1 DMG</span>.<br/><span style=\"color:#FFFFFFFF\">After the character uses an Elemental Skill:</span> Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Matching Element",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Weapon",
+      "Claymore",
+      "Weapon",
+      "Claymore"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "The character deals +1 DMG.After the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)"
+    },
+    {
+      "name": "",
+      "desc": "The character deals +1 DMG. After the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round) (Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 133
 }
