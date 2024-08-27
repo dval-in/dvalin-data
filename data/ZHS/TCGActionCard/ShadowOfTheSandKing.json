@@ -1,33 +1,46 @@
 {
-	"id": "ShadowOfTheSandKing",
-	"shareid": 164,
-	"name": "沙王的投影",
-	"title": "代施之辈·沙王的投影",
-	"desc": "「曾经，凡人的贤王与神官亲身领受圣谕，他们是大地的主人。」\\n「而如今，绿洲之中代施统治的诸多显贵，成为了神主的影子。」",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">所附属角色为出战角色期间，敌方受到元素反应伤害时：抓1张牌。（每回合1次）",
-	"attributes": {
-		"cost": 1,
-		"costType": "相同元素",
-		"cardType": "装备牌",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "相同元素",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "GildedDreams",
-			"name": "Gilded Dreams",
-			"rarity": 5
-		},
-		"tags": ["圣遗物"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">入场时：抓1张牌。<span style=\"color:#FFFFFFFF\">所附属角色为出战角色期间，敌方受到元素反应伤害时：抓1张牌。（每回合1次）（角色最多装备1件「圣遗物」）"
-		}
-	],
-	"version": "4.4"
+  "id": "ShadowOfTheSandKing",
+  "shareid": 164,
+  "name": "沙王的投影",
+  "title": "代施之辈·沙王的投影",
+  "desc": "「曾经，凡人的贤王与神官亲身领受圣谕，他们是大地的主人。」\\n「而如今，绿洲之中代施统治的诸多显贵，成为了神主的影子。」",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">所附属角色为出战角色期间，敌方受到元素反应伤害时：</span>抓1张牌。（每回合1次）",
+  "attributes": {
+    "cost": 1,
+    "costType": "相同元素",
+    "cardType": "装备牌",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "相同元素",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "相同元素",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "GildedDreams",
+      "name": "Gilded Dreams",
+      "rarity": 5
+    },
+    "tags": [
+      "圣遗物",
+      "圣遗物"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "入场时：抓1张牌。所附属角色为出战角色期间，敌方受到元素反应伤害时：抓1张牌。（每回合1次）（角色最多装备1件「圣遗物」）"
+    },
+    {
+      "name": "",
+      "desc": "入场时：抓1张牌。 所附属角色为出战角色期间，敌方受到元素反应伤害时：抓1张牌。（每回合1次） （角色最多装备1件「圣遗物」）"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 164
 }

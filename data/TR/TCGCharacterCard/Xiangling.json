@@ -1,77 +1,142 @@
 {
-	"id": "Xiangling",
-	"shareid": 18,
-	"name": "Xiangling",
-	"title": "\"Enfes Lezzet\" Xiangling",
-	"desc": "Bir şef olarak her şeye gücü yeter.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Ateş",
-		"weapon": "Mızrak",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "Crossfire",
-			"name": "Crossfire"
-		},
-		"source": "Xiangling'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Xiangling",
-			"name": "Xiangling",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "Doughfu",
-			"name": "Un-Fu",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GuobaAttack",
-			"name": "Guoba Saldırısı",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Guoba çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Pyronado",
-			"name": "Ateş Çarkı",
-			"desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Ateş Çarkı oluşturur.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Ateş",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Xiangling",
+  "shareid": 18,
+  "name": "Xiangling",
+  "title": "\"Enfes Lezzet\" Xiangling",
+  "desc": "Bir şef olarak her şeye gücü yeter.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Mızrak",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "Crossfire",
+      "name": "Crossfire"
+    },
+    "source": "Xiangling'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Doughfu",
+      "name": "Un-Fu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuobaAttack",
+      "name": "Guoba Saldırısı",
+      "desc": "1 Guoba çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Pyronado",
+      "name": "Ateş Çarkı",
+      "desc": "3 Ateş Hasarı verir ve 1 Ateş Çarkı oluşturur.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Doughfu",
+      "name": "Un-Fu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuobaAttack",
+      "name": "Guoba Saldırısı",
+      "desc": "1 Guoba çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Pyronado",
+      "name": "Ateş Çarkı",
+      "desc": "3 Ateş Hasarı verir ve 1 Ateş Çarkı oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 18
 }

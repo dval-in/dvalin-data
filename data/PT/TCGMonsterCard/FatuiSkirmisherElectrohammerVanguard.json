@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherElectrohammerVanguard",
-	"shareid": 3407,
-	"name": "Soldado dos Fatui - Vanguarda de Martelo Electro",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de Personagem",
-		"energy": 3,
-		"element": "Electro",
-		"weapon": "Outras Armas",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RapidHammerStrike",
-			"name": "Ataque Rápido de Martelo",
-			"desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingCharge",
-			"name": "Investida Feroz",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ThunderblastHammer",
-			"name": "Martelo da Explosão do Trovão",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFACFFFF\">Dano Electro, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Electro.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Electro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Reabastecimento de Combate",
-			"desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherElectrohammerVanguard",
+  "shareid": 3407,
+  "name": "Soldado dos Fatui - Vanguarda de Martelo Electro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de Personagem",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RapidHammerStrike",
+      "name": "Ataque Rápido de Martelo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingCharge",
+      "name": "Investida Feroz",
+      "desc": "Causa 3 pontos de Dano Electro.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderblastHammer",
+      "name": "Martelo da Explosão do Trovão",
+      "desc": "Causa 3 pontos de Dano Electro, este personagem é afetado por Armadura Elemental - Electro.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "RapidHammerStrike",
+      "name": "Ataque Rápido de Martelo",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingCharge",
+      "name": "Investida Feroz",
+      "desc": "Causa 3 pontos de Dano Electro.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderblastHammer",
+      "name": "Martelo da Explosão do Trovão",
+      "desc": "Causa 3 pontos de Dano Electro, este personagem é afetado por Armadura Elemental - Electro.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3407
 }

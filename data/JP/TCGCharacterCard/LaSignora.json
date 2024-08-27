@@ -1,83 +1,159 @@
 {
-	"id": "LaSignora",
-	"shareid": 277,
-	"name": "「淑女」",
-	"title": "ファトゥス第八位·「淑女」",
-	"desc": "瞳に夜明けの茜色が映り、彼女は最後、烈焔の翼を広げ、払暁へ飛んでいった。\\n「しかしあれは暁ではない、親愛なるロザリンよ。あれは、全てを燃やし尽くす火の海だ。」\\nだが、それでも構わない。彼女は分かっていた、自らがすでに烈火に呑まれていることを。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "氷元素",
-		"weapon": "他の武器",
-		"faction": ["ファデュイ"],
-		"talentCard": {
-			"id": "PainForPain",
-			"name": "Pain for Pain"
-		},
-		"source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、「淑女」に挑戦して友好対戦に勝利することで獲得",
-		"character": {
-			"id": "LaSignora",
-			"name": "La Signora"
-		}
-	},
-	"skills": [
-		{
-			"id": "FrostbladeHailstorm",
-			"name": "寒鋒霰舞",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを1与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BitingShards",
-			"name": "凛冽なる棘",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを2与え、目標キャラに<span style=\"color:#FFFFFFFF\">極寒を付与する。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CarmineChrysalis",
-			"name": "紅蓮の氷繭",
-			"desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージを4与え、本キャラのHPを2回復する。<span style=\"color:#FFFFFFFF\">氷封の灼炎魔女を解除し、本キャラは<span style=\"color:#FFFFFFFF\">「焚尽の灼炎魔女」状態に永久的に切り替わる。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "氷元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MightOfDelusion",
-			"name": "邪眼の威力",
-			"desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">氷封の灼炎魔女が付与される。",
-			"skilltag": ["固有スキル"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "LaSignora",
+  "shareid": 277,
+  "name": "「淑女」",
+  "title": "ファトゥス第八位·「淑女」",
+  "desc": "瞳に夜明けの茜色が映り、彼女は最後、烈焔の翼を広げ、払暁へ飛んでいった。\\n「しかしあれは暁ではない、親愛なるロザリンよ。あれは、全てを燃やし尽くす火の海だ。」\\nだが、それでも構わない。彼女は分かっていた、自らがすでに烈火に呑まれていることを。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "ファデュイ",
+      "ファデュイ"
+    ],
+    "talentCard": {
+      "id": "PainForPain",
+      "name": "Pain for Pain"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、「淑女」に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "LaSignora",
+      "name": "La Signora"
+    }
+  },
+  "skills": [
+    {
+      "id": "FrostbladeHailstorm",
+      "name": "寒鋒霰舞",
+      "desc": "氷元素ダメージを1与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BitingShards",
+      "name": "凛冽なる棘",
+      "desc": "氷元素ダメージを2与え、目標キャラに極寒を付与する。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CarmineChrysalis",
+      "name": "紅蓮の氷繭",
+      "desc": "氷元素ダメージを4与え、本キャラのHPを2回復する。氷封の灼炎魔女を解除し、本キャラは「焚尽の灼炎魔女」状態に永久的に切り替わる。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MightOfDelusion",
+      "name": "邪眼の威力",
+      "desc": "【固有】戦闘開始時、氷封の灼炎魔女が付与される。",
+      "skilltag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "FrostbladeHailstorm",
+      "name": "寒鋒霰舞",
+      "desc": "氷元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BitingShards",
+      "name": "凛冽なる棘",
+      "desc": "氷元素ダメージを2与え、目標キャラに極寒を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CarmineChrysalis",
+      "name": "紅蓮の氷繭",
+      "desc": "氷元素ダメージを4与え、本キャラのHPを2回復する。氷封の灼炎魔女を解除し、本キャラは「焚尽の灼炎魔女」状態に永久的に切り替わる。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MightOfDelusion",
+      "name": "邪眼の威力",
+      "desc": "【固有】戦闘開始時、氷封の灼炎魔女が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 277
 }

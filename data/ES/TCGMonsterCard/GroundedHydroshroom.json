@@ -1,75 +1,151 @@
 {
-	"id": "GroundedHydroshroom",
-	"shareid": 3205,
-	"name": "Hydrohongo Terrestre",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Lanzaesporas",
-			"desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Respiración vehemente",
-			"desc": "Inflige 3 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Chorro cargado",
-			"desc": "Inflige 5 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Conversión de estado",
-			"desc": "Pasiva: al comenzar la batalla, el personaje está en <span style=\"color:#FFFFFFFF\">ventaja sobre terreno.Tras recibir <span style=\"color:#FF9999FF\">Daño Pyro, pasa al <span style=\"color:#FFFFFFFF\">estado quemado.Tras recibir <span style=\"color:#FFACFFFF\">Daño Electro, pasa al <span style=\"color:#FFFFFFFF\">estado revitalizado.",
-			"skilltag": ["Habilidad pasiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedHydroshroom",
+  "shareid": 3205,
+  "name": "Hydrohongo Terrestre",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Monstruo"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Lanzaesporas",
+      "desc": "Inflige 1 pt. de Daño Hydro.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Respiración vehemente",
+      "desc": "Inflige 3 pts. de Daño Hydro.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Chorro cargado",
+      "desc": "Inflige 5 pts. de Daño Hydro.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Conversión de estado",
+      "desc": "Pasiva: al comenzar la batalla, el personaje está en ventaja sobre terreno.Tras recibir Daño Pyro, pasa al estado quemado.Tras recibir Daño Electro, pasa al estado revitalizado.",
+      "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Lanzaesporas",
+      "desc": "Inflige 1 pt. de Daño Hydro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Respiración vehemente",
+      "desc": "Inflige 3 pts. de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Chorro cargado",
+      "desc": "Inflige 5 pts. de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Conversión de estado",
+      "desc": "Pasiva: al comenzar la batalla, el personaje está en ventaja sobre terreno. Tras recibir Daño Pyro, pasa al estado quemado. Tras recibir Daño Electro, pasa al estado revitalizado.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3205
 }

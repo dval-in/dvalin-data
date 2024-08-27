@@ -1,77 +1,142 @@
 {
-	"id": "Klee",
-	"shareid": 22,
-	"name": "Klee",
-	"title": "Mặt Trời Chạy Trốn - Klee",
-	"desc": "Mỗi lần rút bài, đều có thể mang đến 1 lần \"Niềm Vui Bùng Nổ\".",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 3,
-		"element": "Nguyên Tố Hỏa",
-		"weapon": "Pháp Khí",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "PoundingSurprise",
-			"name": "Pounding Surprise"
-		},
-		"source": "Nhận được sau khi mời Klee giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
-		"character": {
-			"id": "Klee",
-			"name": "Klee",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "Kaboom",
-			"name": "Bằng Bằng",
-			"desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpyDumpty",
-			"name": "Bom Nảy",
-			"desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Hoa Tia Lửa.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SparksNSplash",
-			"name": "Tia Lửa Mãnh Liệt",
-			"desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa, tạo ra <span style=\"color:#FFFFFFFF\">Tia Lửa Mãnh Liệt trên sân đối phương.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Klee",
+  "shareid": 22,
+  "name": "Klee",
+  "title": "Mặt Trời Chạy Trốn - Klee",
+  "desc": "Mỗi lần rút bài, đều có thể mang đến 1 lần \"Niềm Vui Bùng Nổ\".",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 3,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Pháp Khí",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "Nhận được sau khi mời Klee giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "Bằng Bằng",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Bom Nảy",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Hoa Tia Lửa.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Tia Lửa Mãnh Liệt",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, tạo ra Tia Lửa Mãnh Liệt trên sân đối phương.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Kaboom",
+      "name": "Bằng Bằng",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Bom Nảy",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Hoa Tia Lửa.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Tia Lửa Mãnh Liệt",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, tạo ra Tia Lửa Mãnh Liệt trên sân đối phương.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 22
 }

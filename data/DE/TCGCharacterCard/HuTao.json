@@ -1,77 +1,142 @@
 {
-	"id": "HuTao",
-	"shareid": 23,
-	"name": "Hu Tao",
-	"title": "Pflaumenduft bei Tauwetter – Hu Tao",
-	"desc": "„Lass sie nur kommen, einer nach dem anderen.“",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Pyro",
-		"weapon": "Stangenwaffe",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "SanguineRogue",
-			"name": "Sanguine Rogue"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Hu Tao in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "HuTao",
-			"name": "Hu Tao",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "SecretSpearOfWangsheng",
-			"name": "Geheime Wangsheng-Lanzentechnik",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GuideToAfterlife",
-			"name": "Geleit ins Jenseits",
-			"desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Paramita-Schmetterlingstanz.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritSoother",
-			"name": "Geheime Kunst der Besänftigung",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "HuTao",
+  "shareid": 23,
+  "name": "Hu Tao",
+  "title": "Pflaumenduft bei Tauwetter – Hu Tao",
+  "desc": "„Lass sie nur kommen, einer nach dem anderen.“",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Stangenwaffe",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "SanguineRogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Hu Tao in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "HuTao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SecretSpearOfWangsheng",
+      "name": "Geheime Wangsheng-Lanzentechnik",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuideToAfterlife",
+      "name": "Geleit ins Jenseits",
+      "desc": "Erhält selbst Paramita-Schmetterlingstanz.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritSoother",
+      "name": "Geheime Kunst der Besänftigung",
+      "desc": "Verursacht 4 Pkt. Pyro-SCH, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretSpearOfWangsheng",
+      "name": "Geheime Wangsheng-Lanzentechnik",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuideToAfterlife",
+      "name": "Geleit ins Jenseits",
+      "desc": "Erhält selbst Paramita-Schmetterlingstanz.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritSoother",
+      "name": "Geheime Kunst der Besänftigung",
+      "desc": "Verursacht 4 Pkt. Pyro-SCH, stellt selbst 2 LP wieder her. Sind die LP dieser Figur nicht mehr als 6, werden SCH und Heilung durch sie um je 1 Pkt. erhöht.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 23
 }

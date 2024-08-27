@@ -1,83 +1,159 @@
 {
-	"id": "FatuiPyroAgent",
-	"shareid": 55,
-	"name": "Фатуи: Пиро агент",
-	"title": "«Клинок расплаты» агент Фатуи",
-	"desc": "«Долг нужно вернуть. Не важно, жив ты или уже нет...»",
-	"attributes": {
-		"hp": 9,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Пиро",
-		"weapon": "Прочее",
-		"faction": ["Фатуи"],
-		"talentCard": {
-			"id": "PaidInFull",
-			"name": "Paid in Full"
-		},
-		"source": "Награда за победу над Пиро агентом Фатуи в Дружеской дуэли в «Кошкином хвосте»",
-		"character": {
-			"id": "FatuiPyroAgent",
-			"name": "Fatui Pyro Agent"
-		}
-	},
-	"skills": [
-		{
-			"id": "Thrust",
-			"name": "Укол",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Prowl",
-			"name": "Подходящий момент",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 1 ед. Персонаж получает <span style=\"color:#FFFFFFFF\">Скрытность.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BladeAblaze",
-			"name": "Испепеляющий кинжал",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 5 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StealthMaster",
-			"name": "Мастер скрытности",
-			"desc": "(Пассивный навык) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Скрытность.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiPyroAgent",
+  "shareid": 55,
+  "name": "Фатуи: Пиро агент",
+  "title": "«Клинок расплаты» агент Фатуи",
+  "desc": "«Долг нужно вернуть. Не важно, жив ты или уже нет...»",
+  "attributes": {
+    "hp": 9,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": [
+      "Фатуи",
+      "Фатуи"
+    ],
+    "talentCard": {
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "Награда за победу над Пиро агентом Фатуи в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "Укол",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Подходящий момент",
+      "desc": "Наносит Пиро урон, 1 ед. Персонаж получает Скрытность.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Испепеляющий кинжал",
+      "desc": "Наносит Пиро урон, 5 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Мастер скрытности",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Скрытность.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "Thrust",
+      "name": "Укол",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Подходящий момент",
+      "desc": "Наносит Пиро урон, 1 ед. Персонаж получает Скрытность.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Испепеляющий кинжал",
+      "desc": "Наносит Пиро урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Мастер скрытности",
+      "desc": "(Пассивный навык) В начале сражения у персонажа будет Скрытность.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 55
 }

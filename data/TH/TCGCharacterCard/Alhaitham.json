@@ -1,77 +1,142 @@
 {
-	"id": "Alhaitham",
-	"shareid": 284,
-	"name": "Alhaitham",
-	"title": "คำวิจารณ์ซ่อนคม - Alhaitham",
-	"desc": "เรียนรู้ ใช้ความคิด และจัดการเรื่องต่าง ๆ",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไม้",
-		"weapon": "ดาบ",
-		"faction": ["Sumeru"],
-		"talentCard": {
-			"id": "Structuration",
-			"name": "Structuration"
-		},
-		"source": "ได้รับหลังจากเชิญ Alhaitham ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-		"character": {
-			"id": "Alhaitham",
-			"name": "Alhaitham",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "AbductiveReasoning",
-			"name": "Abductive Reasoning",
-			"desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "ธาตุไม้",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "UniversalityAnElaborationOnForm",
-			"name": "Universality: An Elaboration on Form",
-			"desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้ 2 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "ธาตุไม้",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ParticularFieldFettersOfPhenomena",
-			"name": "Particular Field: Fetters of Phenomena",
-			"desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้ 4 หน่วย ใช้ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror โดยความเสียหายนี้จะเพิ่ม<span style=\"color:#FFFFFFFF\">จำนวนเทิร์นต่อเนื่องของ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror ที่ใช้ไปหากการใช้<span style=\"color:#FFFFFFFF\">จำนวนเทิร์นต่อเนื่องของ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror คือ 0/1/2 ตัวละครจะได้รับ<span style=\"color:#FFFFFFFF\">จำนวนเทิร์นต่อเนื่องของ <span style=\"color:#FFFFFFFF\">Chisel-Light Mirror เป็น 3/2/1",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "ธาตุไม้",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Alhaitham",
+  "shareid": 284,
+  "name": "Alhaitham",
+  "title": "คำวิจารณ์ซ่อนคม - Alhaitham",
+  "desc": "เรียนรู้ ใช้ความคิด และจัดการเรื่องต่าง ๆ",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไม้",
+    "weapon": "ดาบ",
+    "faction": [
+      "Sumeru",
+      "Sumeru"
+    ],
+    "talentCard": {
+      "id": "Structuration",
+      "name": "Structuration"
+    },
+    "source": "ได้รับหลังจากเชิญ Alhaitham ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "Alhaitham",
+      "name": "Alhaitham",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "AbductiveReasoning",
+      "name": "Abductive Reasoning",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalityAnElaborationOnForm",
+      "name": "Universality: An Elaboration on Form",
+      "desc": "สร้างความเสียหายไม้ 2 หน่วย และตัวละครนี้จะได้รับ Chisel-Light Mirror",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ParticularFieldFettersOfPhenomena",
+      "name": "Particular Field: Fetters of Phenomena",
+      "desc": "สร้างความเสียหายไม้ 4 หน่วย ใช้ Chisel-Light Mirror โดยความเสียหายนี้จะเพิ่มจำนวนเทิร์นต่อเนื่องของ Chisel-Light Mirror ที่ใช้ไปหากการใช้จำนวนเทิร์นต่อเนื่องของ Chisel-Light Mirror คือ 0/1/2 ตัวละครจะได้รับจำนวนเทิร์นต่อเนื่องของ Chisel-Light Mirror เป็น 3/2/1",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbductiveReasoning",
+      "name": "Abductive Reasoning",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalityAnElaborationOnForm",
+      "name": "Universality: An Elaboration on Form",
+      "desc": "สร้างความเสียหายไม้ 2 หน่วย และตัวละครนี้จะได้รับ Chisel-Light Mirror",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ParticularFieldFettersOfPhenomena",
+      "name": "Particular Field: Fetters of Phenomena",
+      "desc": "สร้างความเสียหายไม้ 4 หน่วย ใช้ Chisel-Light Mirror โดยความเสียหายนี้จะเพิ่มจำนวนเทิร์นต่อเนื่องของ Chisel-Light Mirror ที่ใช้ไป หากการใช้จำนวนเทิร์นต่อเนื่องของ Chisel-Light Mirror คือ 0/1/2 ตัวละครจะได้รับจำนวนเทิร์นต่อเนื่องของ Chisel-Light Mirror เป็น 3/2/1",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 284
 }

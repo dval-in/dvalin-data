@@ -1,64 +1,77 @@
 {
   "id": "ColdCutPlatter",
-  "name": "Cold Cut Platter",
-  "description": "จานที่เต็มไปด้วยเนื้อสัตว์ โดยประกอบด้วยเบคอน, แฮมและไส้กรอกในปริมาณที่เท่ากัน ซึ่งนักกินทั้งหลายสามารถถกเถียงกันว่าเนื้อสัตว์ใดในสามชนิดที่ดีที่สุดและเพลิดเพลินกับรสชาติอย่างเอร็ดอร่อย",
+  "name": "Şarküteri Tabağı",
+  "description": "Şarküteri ürünlerinden oluşan bir tabak. Pastırma, jambon ve sosis dilimleri... Herkese uygun bir seçenek mevcut.",
   "rarity": 3,
   "ingredients": [
     {
-      
       "id": "Ham",
       "name": "Ham",
       "amount": 1
     },
     {
-      
       "id": "Bacon",
       "name": "Bacon",
       "amount": 1
     },
     {
-      
       "id": "Sausage",
       "name": "Sausage",
       "amount": 1
     },
     {
-      
       "id": "Mint",
       "name": "Mint",
       "amount": 1
+    },
+    {
+      "id": "Ham",
+      "name": "Jambon",
+      "amount": 1
+    },
+    {
+      "id": "Bacon",
+      "name": "Pastırma",
+      "amount": 1
+    },
+    {
+      "id": "Sausage",
+      "name": "Sosis",
+      "amount": 1
+    },
+    {
+      "id": "Mint",
+      "name": "Nane",
+      "amount": 1
     }
   ],
-  "dishType": "เมนูการโจมตี",
+  "dishType": "Saldırı Artırıcı Yemek",
   "results": {
     "suspicious": {
-      
-      "name": "Cold Cut Platter รสประหลาด",
-      "description": "เมนูเนื้อตัดเย็น ดูเหมือนจะเย็นเกินไปหน่อยซะด้วย น่าจะไม่เหมาะกับคนที่ฟันไม่ดีหรือท้องเสียง่ายนะ",
-      "effect": "เพิ่มความเสียหายกายภาพให้ สมาชิกทั้งหมดในทีม 20% เป็นเวลา 300 วินาที เมื่อเล่นในโหมดเล่นหลายคน จะมีผลกับตัวละครของตัวเองเท่านั้น"
+      "name": "Şarküteri Tabağı (Tuhaf)",
+      "description": "Şarküteri ürünlerinden oluşan bir tabak. Ne yazık ki biraz fazla soğuk, dişleri ve midesi hassas olanlar için pek doğru bir seçim olmasa gerek.",
+      "effect": "300 saniyeliğine tüm grup üyelerinin Fiziksel Hasarını %20 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır."
     },
     "normal": {
-      
-      "name": "Cold Cut Platter",
-      "description": "จานที่เต็มไปด้วยเนื้อสัตว์ โดยประกอบด้วยเบคอน, แฮมและไส้กรอกในปริมาณที่เท่ากัน ซึ่งนักกินทั้งหลายสามารถถกเถียงกันว่าเนื้อสัตว์ใดในสามชนิดที่ดีที่สุดและเพลิดเพลินกับรสชาติอย่างเอร็ดอร่อย",
-      "effect": "เพิ่มความเสียหายกายภาพให้ สมาชิกทั้งหมดในทีม 30% เป็นเวลา 300 วินาที เมื่อเล่นในโหมดเล่นหลายคน จะมีผลกับตัวละครของตัวเองเท่านั้น"
+      "name": "Şarküteri Tabağı",
+      "description": "Şarküteri ürünlerinden oluşan bir tabak. Pastırma, jambon ve sosis dilimleri... Herkese uygun bir seçenek mevcut.",
+      "effect": "300 saniyeliğine tüm grup üyelerinin Fiziksel Hasarını %30 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır."
     },
     "delicious": {
-      
-      "name": "Cold Cut Platter แสนอร่อย",
-      "description": "เมนูเนื้อตัดเย็น การปรุงรสอันยอดเยี่ยมนั้นสามารถดึงเอารสชาติของวัตถุดิบออกมาได้อย่างลงตัว ด้วยรสชาติอันแสนอร่อยของเนื้อสามชนิดที่รวมกันอยู่ในปาก สามารถทำให้คน ๆ นึงลืมเรื่องกลุ้มใจไปได้เลย",
-      "effect": "เพิ่มความเสียหายกายภาพให้ สมาชิกทั้งหมดในทีม 40% เป็นเวลา 300 วินาที เมื่อเล่นในโหมดเล่นหลายคน จะมีผลกับตัวละครของตัวเองเท่านั้น"
+      "name": "Şarküteri Tabağı (Lezzetli)",
+      "description": "Şarküteri ürünlerinden oluşan bir tabak. Baharatlar etlerin tadını zenginleştirmiş. Bu eşsiz lezzet sana bütün dertlerini unutturacak.",
+      "effect": "300 saniyeliğine tüm grup üyelerinin Fiziksel Hasarını %40 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır."
     },
     "special": {
-      
       "id": "DieHeiligeSinfonie",
-      "name": "Die Heilige Sinfonie",
-      "description": "เมนูพิเศษของ Fischl ท่ามกลางความอร่อยนั้นดูเหมือนจะมีข่าวลือลึกลับบางอย่าง หากมองไปยัง Fischl ขณะที่เพลิดเพลินอยู่กับรสชาติอัน แสนอร่อยนั้น จะมองเห็นแววตาที่เฝ้าคอยของเธอ ผ่านนิ้วที่ปิดบังหน้าอยู่...หรือนี่คือส่วนหนึ่งของความลับที่ว่านั้น?",
-      "effect": "เพิ่มความเสียหายกายภาพให้ สมาชิกทั้งหมดในทีม 55% เป็นเวลา 300 วินาที เมื่อเล่นในโหมดเล่นหลายคน จะมีผลกับตัวละครของตัวเองเท่านั้น",
+      "name": "Kutsal Senfoni",
+      "description": "Fischl'ın özel tarifi. Zarafet dolu sunumu, tabağa anlaşılması güç bir gizem katıyor. Servis sırasında Fischl'a bakan olursa yüzünün yarısını eliyle kapattığını ve parmaklarının arasından beklenti dolu bakışlar attığını fark edebilir... Acaba bu da gizemin bir parçası mı?",
+      "effect": "300 saniyeliğine tüm grup üyelerinin Fiziksel Hasarını %55 artırır. Eşli Modda oynarken bu etki yalnızca senin karakterlerine uygulanır.",
       "character": {
         "id": "Fischl",
         "name": "Fischl"
       }
     }
-  }
+  },
+  "version": "5.0"
 }

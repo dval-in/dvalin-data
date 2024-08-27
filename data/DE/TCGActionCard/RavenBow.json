@@ -1,29 +1,44 @@
 {
-	"id": "RavenBow",
-	"shareid": 126,
-	"name": "Rabenbogen",
-	"title": "Bewährtheit von Feuer und Wasser – Rabenbogen",
-	"desc": "Raben sind in den Mythen die Gesandten des Todes. Aus diesem Grund schmücken Jäger ihren Bogen mit Federn der Raben, um den bevorstehenden Tod der Beute anzukündigen.",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1.",
-	"attributes": {
-		"cost": 2,
-		"costType": "Würfel (gleich)",
-		"cardType": "Ausrüstungskarte",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Würfel (gleich)",
-				"count": 2
-			}
-		],
-		"source": "Vom anfänglichen Deck zu erhalten",
-		"tags": ["Waffe", "Bogen"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1.(Nur für <span style=\"color:#FFFFFFFF\">Bogennutzer anlegbar, und zwar max. 1 Waffe.)"
-		}
-	],
-	"version": "4.4"
+  "id": "RavenBow",
+  "shareid": 126,
+  "name": "Rabenbogen",
+  "title": "Bewährtheit von Feuer und Wasser – Rabenbogen",
+  "desc": "Raben sind in den Mythen die Gesandten des Todes. Aus diesem Grund schmücken Jäger ihren Bogen mit Federn der Raben, um den bevorstehenden Tod der Beute anzukündigen.",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">SCH durch die Figur +1</span>.",
+  "attributes": {
+    "cost": 2,
+    "costType": "Würfel (gleich)",
+    "cardType": "Ausrüstungskarte",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Würfel (gleich)",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Würfel (gleich)",
+        "count": 2
+      }
+    ],
+    "source": "Vom anfänglichen Deck zu erhalten",
+    "tags": [
+      "Waffe",
+      "Bogen",
+      "Waffe",
+      "Bogen"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "SCH durch die Figur +1.(Nur für Bogennutzer anlegbar, und zwar max. 1 Waffe.)"
+    },
+    {
+      "name": "",
+      "desc": "SCH durch die Figur +1. (Nur für Bogennutzer anlegbar, und zwar max. 1 Waffe.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 126
 }

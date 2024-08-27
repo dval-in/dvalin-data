@@ -10,12 +10,63 @@
     "element": "원소 타입 없음",
     "weapon": "기타 무기",
     "faction": [
+      "마물",
       "마물"
     ],
     "source": null,
     "cardType": "캐릭터 카드"
   },
   "skills": [
+    {
+      "id": "Ram",
+      "name": "돌진",
+      "desc": "물리 피해를 1pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BrutalRam",
+      "name": "강력한 충돌",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingUp",
+      "name": "에너지 축적",
+      "desc": "물리 피해를 3pt 주고 이 캐릭터는 기본 「우시아」/「프뉴마」 형태로 회복한다",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 1
+        }
+      ]
+    },
     {
       "id": "Ram",
       "name": "돌진",

@@ -1,75 +1,151 @@
 {
-	"id": "EremiteSunfrost",
-	"shareid": 3106,
-	"name": "Eremite Sunfrost",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 8,
-		"cardType": "Character Card",
-		"energy": 2,
-		"element": "Cryo",
-		"weapon": "Other Weapons",
-		"faction": ["The Eremites"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "DoubleHack",
-			"name": "Double Hack",
-			"desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Unaligned Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DualbladeChop",
-			"name": "Dual-Blade Chop",
-			"desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StalwartOnslaught",
-			"name": "Stalwart Onslaught",
-			"desc": "This character's <span style=\"color:#FFFFFFFF\">Prepare Skill: <span style=\"color:#FFFFFFFF\">Stalwart Onslaught: All-Out Strike.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedCryo",
-			"name": "Ominous Spirit Unleashed (Cryo)",
-			"desc": "(Passive) <span style=\"color:#FFFFFFFF\">After this character takes DMG: If this character has no more than 7 HP, they gain 1 <span style=\"color:#FFFFFFFF\">Energy and <span style=\"color:#FFFFFFFF\">Spirit of Omen's Awakening: Cryo is attached. (Once per Match)",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteSunfrost",
+  "shareid": 3106,
+  "name": "Eremite Sunfrost",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "cardType": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Other Weapons",
+    "faction": [
+      "The Eremites",
+      "The Eremites"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "DoubleHack",
+      "name": "Double Hack",
+      "desc": "Deals 2 Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Dual-Blade Chop",
+      "desc": "Deals 3 Physical DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Stalwart Onslaught",
+      "desc": "This character's Prepare Skill: Stalwart Onslaught: All-Out Strike.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Ominous Spirit Unleashed (Cryo)",
+      "desc": "(Passive) After this character takes DMG: If this character has no more than 7 HP, they gain 1 Energy and Spirit of Omen's Awakening: Cryo is attached. (Once per Match)",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "DoubleHack",
+      "name": "Double Hack",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Dual-Blade Chop",
+      "desc": "Deals 3 Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Stalwart Onslaught",
+      "desc": "This character's Prepare Skill: Stalwart Onslaught: All-Out Strike.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Ominous Spirit Unleashed (Cryo)",
+      "desc": "(Passive) After this character takes DMG: If this character has no more than 7 HP, they gain 1 Energy and Spirit of Omen's Awakening: Cryo is attached. (Once per Match)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3106
 }

@@ -1,84 +1,160 @@
 {
-	"id": "KamisatoAyaka",
-	"shareid": 5,
-	"name": "Kamisato Ayaka",
-	"title": "กระเรียนขาวกลางหิมะ - Kamisato Ayaka",
-	"desc": "กระเรียนหวนคืน คลื่นเหมันต์ซัดสาด",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุน้ำแข็ง",
-		"weapon": "ดาบ",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "KantenSenmyouBlessing",
-			"name": "Kanten Senmyou Blessing"
-		},
-		"source": "ได้รับหลังจากเชิญ Kamisato Ayaka ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-		"character": {
-			"id": "KamisatoAyaka",
-			"name": "Kamisato Ayaka",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "KamisatoArtKabuki",
-			"name": "Kamisato Art: Kabuki",
-			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtHyouka",
-			"name": "Kamisato Art: Hyouka",
-			"desc": "จะสร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 3 หน่วย",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtSoumetsu",
-			"name": "Kamisato Art: Soumetsu",
-			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 4 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Frostflake Seki no To",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "KamisatoArtSenho",
-			"name": "Kamisato Art: Senho",
-			"desc": "[ติดตัว] เมื่อตัวละครนี้ถูกเปลี่ยนเป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับ <span style=\"color:#FFFFFFFF\">Cryo Elemental Infusion",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KamisatoAyaka",
+  "shareid": 5,
+  "name": "Kamisato Ayaka",
+  "title": "กระเรียนขาวกลางหิมะ - Kamisato Ayaka",
+  "desc": "กระเรียนหวนคืน คลื่นเหมันต์ซัดสาด",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "ดาบ",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "KantenSenmyouBlessing",
+      "name": "Kanten Senmyou Blessing"
+    },
+    "source": "ได้รับหลังจากเชิญ Kamisato Ayaka ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "KamisatoAyaka",
+      "name": "Kamisato Ayaka",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "KamisatoArtKabuki",
+      "name": "Kamisato Art: Kabuki",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtHyouka",
+      "name": "Kamisato Art: Hyouka",
+      "desc": "จะสร้างความเสียหายน้ำแข็ง 3 หน่วย",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSoumetsu",
+      "name": "Kamisato Art: Soumetsu",
+      "desc": "สร้างความเสียหายน้ำแข็ง 4 หน่วย และเรียก Frostflake Seki no To",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSenho",
+      "name": "Kamisato Art: Senho",
+      "desc": "[ติดตัว] เมื่อตัวละครนี้ถูกเปลี่ยนเป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับ Cryo Elemental Infusion",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "KamisatoArtKabuki",
+      "name": "Kamisato Art: Kabuki",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtHyouka",
+      "name": "Kamisato Art: Hyouka",
+      "desc": "จะสร้างความเสียหายน้ำแข็ง 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSoumetsu",
+      "name": "Kamisato Art: Soumetsu",
+      "desc": "สร้างความเสียหายน้ำแข็ง 4 หน่วย และเรียก Frostflake Seki no To",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSenho",
+      "name": "Kamisato Art: Senho",
+      "desc": "[ติดตัว] เมื่อตัวละครนี้ถูกเปลี่ยนเป็น \"ตัวละครที่เข้าต่อสู้\" จะได้รับ Cryo Elemental Infusion",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5
 }

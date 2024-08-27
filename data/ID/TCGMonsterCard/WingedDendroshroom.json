@@ -1,75 +1,151 @@
 {
-	"id": "WingedDendroshroom",
-	"shareid": 3701,
-	"name": "Winged Dendroshroom",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Kartu Karakter",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Senjata Lain",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Spore Bullet",
-			"desc": "Mengakibatkan 1 poin <span style=\"color:#7EC236FF\">Dendro DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RollingSpray",
-			"name": "Rolling Spray",
-			"desc": "Mengakibatkan 3 poin <span style=\"color:#7EC236FF\">Dendro DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Divebomb",
-			"name": "Divebomb",
-			"desc": "Mengakibatkan 5 poin <span style=\"color:#7EC236FF\">Dendro DMG.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "State Change",
-			"desc": "[Pasif] Saat pertandingan dimulai, Karakter ini akan berada pada <span style=\"color:#FFFFFFFF\">Aerial Superiority.Jika Karakter menerima <span style=\"color:#FF9999FF\">Pyro DMG, akan berubah menjadi <span style=\"color:#FFFFFFFF\">Scorched-nya.Jika Karakter menerima <span style=\"color:#FFACFFFF\">Electro DMG, akan berubah menjadi <span style=\"color:#FFFFFFFF\">Activated.",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "WingedDendroshroom",
+  "shareid": 3701,
+  "name": "Winged Dendroshroom",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Kartu Karakter",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Spore Bullet",
+      "desc": "Mengakibatkan 1 poin Dendro DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Rolling Spray",
+      "desc": "Mengakibatkan 3 poin Dendro DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Divebomb",
+      "desc": "Mengakibatkan 5 poin Dendro DMG.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "State Change",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini akan berada pada Aerial Superiority.Jika Karakter menerima Pyro DMG, akan berubah menjadi Scorched-nya.Jika Karakter menerima Electro DMG, akan berubah menjadi Activated.",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Spore Bullet",
+      "desc": "Mengakibatkan 1 poin Dendro DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RollingSpray",
+      "name": "Rolling Spray",
+      "desc": "Mengakibatkan 3 poin Dendro DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Divebomb",
+      "name": "Divebomb",
+      "desc": "Mengakibatkan 5 poin Dendro DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "State Change",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini akan berada pada Aerial Superiority. Jika Karakter menerima Pyro DMG, akan berubah menjadi Scorched-nya. Jika Karakter menerima Electro DMG, akan berubah menjadi Activated.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3701
 }

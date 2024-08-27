@@ -1,0 +1,94 @@
+{
+  "id": "TaintedHydroPhantasm",
+  "shareId": 3209,
+  "name": "Lekeli Su Tayfı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null,
+    "cardType": "Karakter Kartı"
+  },
+  "skills": [
+    {
+      "id": "TaintedWaterStrike",
+      "name": "Lekeli Su Saldırısı",
+      "desc": "1 Su Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpoutingWaves",
+      "name": "Dalga Püskürtme",
+      "desc": "2 Su Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TaintedWaterSurge",
+      "name": "Kirli Su Dalgası",
+      "desc": "4 Su Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Element Tortulaşması: Su",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Su etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "TaintedWatersChangeTheirShape",
+      "name": "Kirli Suyun Değişimi",
+      "desc": "(Pasif) Donma durumuna girmez. Bu karakter, Canı 5'in üzerinde olmadığında verdiği Hasar 2 artar. Bu karakter bir Beceri kullandıktan sonra eğer Canı en az 6 ise rakibin hazırdaki tüm karakterlerine 1 Delme Hasarı verir.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

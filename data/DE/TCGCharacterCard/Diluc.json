@@ -1,77 +1,142 @@
 {
-	"id": "Diluc",
-	"shareid": 17,
-	"name": "Diluc",
-	"title": "Dunkle Seite der Dämmerung – Diluc",
-	"desc": "Sein Herz ist sein größter Feind.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Pyro",
-		"weapon": "Zweihänder",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "FlowingFlame",
-			"name": "Flowing Flame"
-		},
-		"source": "Vom anfänglichen Deck zu erhalten",
-		"character": {
-			"id": "Diluc",
-			"name": "Diluc",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TemperedSword",
-			"name": "Gehärteter Stahl",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingOnslaught",
-			"name": "Sengende Klinge",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Dawn",
-			"name": "Dämmerung",
-			"desc": "Verursacht 8 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH, verleiht der Figur die <span style=\"color:#FFFFFFFF\">Pyro-Kraft.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Diluc",
+  "shareid": 17,
+  "name": "Diluc",
+  "title": "Dunkle Seite der Dämmerung – Diluc",
+  "desc": "Sein Herz ist sein größter Feind.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "FlowingFlame",
+      "name": "Flowing Flame"
+    },
+    "source": "Vom anfänglichen Deck zu erhalten",
+    "character": {
+      "id": "Diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TemperedSword",
+      "name": "Gehärteter Stahl",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Sengende Klinge",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Dämmerung",
+      "desc": "Verursacht 8 Pkt. Pyro-SCH, verleiht der Figur die Pyro-Kraft.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TemperedSword",
+      "name": "Gehärteter Stahl",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Sengende Klinge",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH. Schaden +2, wenn diese Fähigkeit zum 3. Mal in 1 Runde angewendet wird.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Dämmerung",
+      "desc": "Verursacht 8 Pkt. Pyro-SCH, verleiht der Figur die Pyro-Kraft.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 17
 }

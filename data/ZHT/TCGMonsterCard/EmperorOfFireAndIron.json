@@ -11,6 +11,7 @@
     "weapon": "其他武器",
     "faction": [
       "魔物",
+      "魔物",
       "魔物"
     ],
     "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度鐵甲熔火帝皇中獲得勝利後獲得",
@@ -25,6 +26,70 @@
     }
   },
   "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "重鉗碎擊",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "烈焰燃綻",
+      "desc": "造成1點火元素傷害；如果本角色附屬有至少7層重甲蟹殼，則此傷害+1。 然後，本角色附屬2層重甲蟹殼。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "戰陣爆轟",
+      "desc": "本角色附屬6層重甲蟹殼並準備技能：熾烈轟破。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "帝王甲冑",
+      "desc": "【被動】戰鬥開始時：初始附屬5層重甲蟹殼。 我方執行任意行動後：如果我方場上存在重甲蟹殼以外的護盾狀態或護盾出戰狀態，則將其全部移除；每移除1個，就使角色附屬2層重甲蟹殼。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    },
     {
       "id": "ShatterclampStrike",
       "name": "重鉗碎擊",

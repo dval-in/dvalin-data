@@ -1,77 +1,142 @@
 {
-	"id": "Bennett",
-	"shareid": 19,
-	"name": "ベネット",
-	"title": "運命の試金石·ベネット",
-	"desc": "自分が絶対に負けると分かった時は、どう勝つのかも分かっているはずだ。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "炎元素",
-		"weapon": "片手剣",
-		"faction": ["モンド"],
-		"talentCard": {
-			"id": "GrandExpectation",
-			"name": "Grand Expectation"
-		},
-		"source": "キャッツテールでベネットを招待し、友好対戦に勝利することで獲得",
-		"character": {
-			"id": "Bennett",
-			"name": "Bennett",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "StrikeOfFortune",
-			"name": "好運の剣",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "PassionOverload",
-			"name": "溢れる情熱",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを3与える。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FantasticVoyage",
-			"name": "素晴らしい旅",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを2与え、<span style=\"color:#FFFFFFFF\">鼓舞エリアを生成する。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Bennett",
+  "shareid": 19,
+  "name": "ベネット",
+  "title": "運命の試金石·ベネット",
+  "desc": "自分が絶対に負けると分かった時は、どう勝つのかも分かっているはずだ。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "片手剣",
+    "faction": [
+      "モンド",
+      "モンド"
+    ],
+    "talentCard": {
+      "id": "GrandExpectation",
+      "name": "Grand Expectation"
+    },
+    "source": "キャッツテールでベネットを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "StrikeOfFortune",
+      "name": "好運の剣",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PassionOverload",
+      "name": "溢れる情熱",
+      "desc": "炎元素ダメージを3与える。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FantasticVoyage",
+      "name": "素晴らしい旅",
+      "desc": "炎元素ダメージを2与え、鼓舞エリアを生成する。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrikeOfFortune",
+      "name": "好運の剣",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PassionOverload",
+      "name": "溢れる情熱",
+      "desc": "炎元素ダメージを3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FantasticVoyage",
+      "name": "素晴らしい旅",
+      "desc": "炎元素ダメージを2与え、鼓舞エリアを生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 19
 }

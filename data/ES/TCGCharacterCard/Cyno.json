@@ -12,6 +12,7 @@
     "weapon": "Lanza",
     "faction": [
       "Sumeru",
+      "Sumeru",
       "Sumeru"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "Castigo de la ley",
       "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de Abrecaminos del juramento.",
       "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "InvokersSpear",
+      "name": "Lanza de la invocación",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SecretRiteChasmicSoulfarer",
+      "name": "Rito secreto: Guía de las almas abismales",
+      "desc": "Inflige 3 pts. de Daño Electro. Nivel de la posesión de abrecaminos del juramento +1.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWolfsSwiftness",
+      "name": "Rito sagrado: Celeridad lupina",
+      "desc": "Inflige 4 pts. de Daño Electro. Nivel de la posesión de abrecaminos del juramento +2.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LawfulEnforcer",
+      "name": "Castigo de la ley",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de Abrecaminos del juramento.",
+      "skillTag": [
         "Habilidad pasiva"
       ],
       "points": []

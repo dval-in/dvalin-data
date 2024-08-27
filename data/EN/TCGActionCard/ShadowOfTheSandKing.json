@@ -1,33 +1,46 @@
 {
-	"id": "ShadowOfTheSandKing",
-	"shareid": 164,
-	"name": "Shadow of the Sand King",
-	"title": "Proxy Generations: Shadow of the Sand King",
-	"desc": "\"Once, the wise mortal king and the clergy received divine oracles personally, and they were the masters of the land.\"\\n\"Today, those who rule as proxies in the oases are the shadows of the gods.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">When the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG: Draw a card. (Once per Round)",
-	"attributes": {
-		"cost": 1,
-		"costType": "Matching Element",
-		"cardType": "Equipment Card",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Matching Element",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "GildedDreams",
-			"name": "Gilded Dreams",
-			"rarity": 5
-		},
-		"tags": ["Artifact"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">When played: Draw a card.<span style=\"color:#FFFFFFFF\">When the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG: Draw a card. (Once per Round)(A character can equip a maximum of 1 Artifact)"
-		}
-	],
-	"version": "4.4"
+  "id": "ShadowOfTheSandKing",
+  "shareid": 164,
+  "name": "Shadow of the Sand King",
+  "title": "Proxy Generations: Shadow of the Sand King",
+  "desc": "\"Once, the wise mortal king and the clergy received divine oracles personally, and they were the masters of the land.\"\\n\"Today, those who rule as proxies in the oases are the shadows of the gods.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">When the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG:</span> Draw a card. (Once per Round)",
+  "attributes": {
+    "cost": 1,
+    "costType": "Matching Element",
+    "cardType": "Equipment Card",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Matching Element",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "GildedDreams",
+      "name": "Gilded Dreams",
+      "rarity": 5
+    },
+    "tags": [
+      "Artifact",
+      "Artifact"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "When played: Draw a card.When the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG: Draw a card. (Once per Round)(A character can equip a maximum of 1 Artifact)"
+    },
+    {
+      "name": "",
+      "desc": "When played: Draw a card. When the character to which this card is attached is your active character, then when an opposing character takes Elemental Reaction DMG: Draw a card. (Once per Round) (A character can equip a maximum of 1 Artifact)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 164
 }

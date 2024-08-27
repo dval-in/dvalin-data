@@ -10,12 +10,77 @@
     "element": "炎元素",
     "weapon": "長柄武器",
     "faction": [
+      "フォンテーヌ",
       "フォンテーヌ"
     ],
     "source": "キャッツテールでシュヴルーズを招待し、友好対戦に勝利することで獲得",
     "cardType": "キャラカード"
   },
   "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "戦列槍術·改",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "近迫阻止射撃·速",
+      "desc": "炎元素ダメージを2与える。 このスキル処理完了後、味方の手札にマグナムブレットが含まれていた場合、それを1枚破棄し、HPを最も失っている味方キャラのHPを1回復する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "円形爆撃戦術·轟",
+      "desc": "炎元素ダメージを2与え、相手のフィールドに二次榴弾を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "縦陣戦力統括",
+      "desc": "【固有】相手のキャラが過負荷反応によるダメージを受けた後、手札マグナムブレットを生成する。（各ラウンドで1回のみ）",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
     {
       "id": "LineBayonetThrustEx",
       "name": "戦列槍術·改",

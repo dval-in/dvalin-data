@@ -1,77 +1,142 @@
 {
-	"id": "Xiangling",
-	"shareid": 18,
-	"name": "香菱",
-	"title": "万民百味·香菱",
-	"desc": "料理人である彼女は、なんだってほとんどできる。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "キャラカード",
-		"energy": 2,
-		"element": "炎元素",
-		"weapon": "長柄武器",
-		"faction": ["璃月"],
-		"talentCard": {
-			"id": "Crossfire",
-			"name": "Crossfire"
-		},
-		"source": "キャッツテールで香菱を招待し、友好対戦に勝利することで獲得",
-		"character": {
-			"id": "Xiangling",
-			"name": "Xiangling",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "Doughfu",
-			"name": "料理技法",
-			"desc": "<span style=\"color:#FFFFFFFF\">物理ダメージを2与える。",
-			"skilltag": ["通常攻撃"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GuobaAttack",
-			"name": "グゥオパァー出撃",
-			"desc": "<span style=\"color:#FFFFFFFF\">グゥオパァーを召喚する。",
-			"skilltag": ["元素スキル"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Pyronado",
-			"name": "旋火輪",
-			"desc": "<span style=\"color:#FF9999FF\">炎元素ダメージを3与え、<span style=\"color:#FFFFFFFF\">旋火輪を生成する。",
-			"skilltag": ["元素爆発"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "炎元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "チャージ",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Xiangling",
+  "shareid": 18,
+  "name": "香菱",
+  "title": "万民百味·香菱",
+  "desc": "料理人である彼女は、なんだってほとんどできる。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "長柄武器",
+    "faction": [
+      "璃月",
+      "璃月"
+    ],
+    "talentCard": {
+      "id": "Crossfire",
+      "name": "Crossfire"
+    },
+    "source": "キャッツテールで香菱を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Xiangling",
+      "name": "Xiangling",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Doughfu",
+      "name": "料理技法",
+      "desc": "物理ダメージを2与える。",
+      "skilltag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuobaAttack",
+      "name": "グゥオパァー出撃",
+      "desc": "グゥオパァーを召喚する。",
+      "skilltag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Pyronado",
+      "name": "旋火輪",
+      "desc": "炎元素ダメージを3与え、旋火輪を生成する。",
+      "skilltag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Doughfu",
+      "name": "料理技法",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuobaAttack",
+      "name": "グゥオパァー出撃",
+      "desc": "グゥオパァーを召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Pyronado",
+      "name": "旋火輪",
+      "desc": "炎元素ダメージを3与え、旋火輪を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 18
 }

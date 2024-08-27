@@ -1,33 +1,46 @@
 {
-	"id": "AdventurersBandana",
-	"shareid": 148,
-	"name": "Bandana dell'avventuriere",
-	"title": "Esploratore dei sentieri: Bandana dell'avventuriere",
-	"desc": "\"Tutti i segreti delle stelle e dell'abisso aspettano di essere scoperti dai comuni mortali.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">Dopo che questo personaggio usa un attacco normale: ripristina 1 PS (massimo tre volte per turno).",
-	"attributes": {
-		"cost": 1,
-		"costType": "Elementi corrispondenti",
-		"cardType": "Carta equipaggiamento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Elementi corrispondenti",
-				"count": 1
-			}
-		],
-		"artifact": {
-			"id": "Adventurer",
-			"name": "Adventurer",
-			"rarity": 3
-		},
-		"tags": ["Manufatto"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Dopo che il personaggio usa un attacco normale: ripristina 1 PS (massimo tre volte per turno).(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
-		}
-	],
-	"version": "4.4"
+  "id": "AdventurersBandana",
+  "shareid": 148,
+  "name": "Bandana dell'avventuriere",
+  "title": "Esploratore dei sentieri: Bandana dell'avventuriere",
+  "desc": "\"Tutti i segreti delle stelle e dell'abisso aspettano di essere scoperti dai comuni mortali.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">Dopo che questo personaggio usa un attacco normale:</span> ripristina 1 PS (massimo tre volte per turno).",
+  "attributes": {
+    "cost": 1,
+    "costType": "Elementi corrispondenti",
+    "cardType": "Carta equipaggiamento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Elementi corrispondenti",
+        "count": 1
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Elementi corrispondenti",
+        "count": 1
+      }
+    ],
+    "artifact": {
+      "id": "Adventurer",
+      "name": "Adventurer",
+      "rarity": 3
+    },
+    "tags": [
+      "Manufatto",
+      "Manufatto"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Dopo che il personaggio usa un attacco normale: ripristina 1 PS (massimo tre volte per turno).(Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+    },
+    {
+      "name": "",
+      "desc": "Dopo che il personaggio usa un attacco normale: ripristina 1 PS (massimo tre volte per turno). (Il personaggio può equipaggiare un massimo di 1 manufatto.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 148
 }

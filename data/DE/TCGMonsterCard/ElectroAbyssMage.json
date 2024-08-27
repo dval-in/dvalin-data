@@ -1,75 +1,151 @@
 {
-	"id": "ElectroAbyssMage",
-	"shareid": 3404,
-	"name": "Elektro-Abgrundmagier",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Figurenkarte",
-		"energy": 3,
-		"element": "Elektro",
-		"weapon": "Andere Waffen",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Thunderbolt",
-			"name": "Blitzgeschoss",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LingeringLight",
-			"name": "Opferritual des Blitzlichts",
-			"desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Donnerrad.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfRollingThunder",
-			"name": "Ritus der Blitzwut",
-			"desc": "Verursacht 4 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Donnerrad.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElectroShield",
-			"name": "Elektro-Ummantelung",
-			"desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Elektro-Ummantelung.",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "ElectroAbyssMage",
+  "shareid": 3404,
+  "name": "Elektro-Abgrundmagier",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Thunderbolt",
+      "name": "Blitzgeschoss",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLight",
+      "name": "Opferritual des Blitzlichts",
+      "desc": "Erschafft 1 Donnerrad.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfRollingThunder",
+      "name": "Ritus der Blitzwut",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH, erschafft 1 Donnerrad.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElectroShield",
+      "name": "Elektro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elektro-Ummantelung.",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "Thunderbolt",
+      "name": "Blitzgeschoss",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLight",
+      "name": "Opferritual des Blitzlichts",
+      "desc": "Erschafft 1 Donnerrad.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfRollingThunder",
+      "name": "Ritus der Blitzwut",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH, erschafft 1 Donnerrad.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElectroShield",
+      "name": "Elektro-Ummantelung",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elektro-Ummantelung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3404
 }

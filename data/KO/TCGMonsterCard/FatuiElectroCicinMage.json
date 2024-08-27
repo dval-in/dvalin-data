@@ -13,6 +13,7 @@
     "faction": [
       "우인단",
       "우인단",
+      "우인단",
       "우인단"
     ],
     "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 우인단·번개 치친 술사에게 승리 후 획득",
@@ -66,6 +67,61 @@
       "name": "천둥의 가호",
       "desc": "번개 원소 피해를 1pt 주고 본 캐릭터에게 번개 원소 부착 효과를 준다. 번개 치친 보호막을 생성하고 번개 분출의 스킬 준비를 한다.",
       "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurtlingBolts",
+      "name": "번쩍이는 낙뢰",
+      "desc": "번개 원소 피해를 1pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "안개의 소환",
+      "desc": "번개 치친을 소환한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "천둥의 가호",
+      "desc": "번개 원소 피해를 1pt 주고 본 캐릭터에게 번개 원소 부착 효과를 준다. 번개 치친 보호막을 생성하고 번개 분출의 스킬 준비를 한다.",
+      "skillTag": [
         "원소폭발"
       ],
       "points": [

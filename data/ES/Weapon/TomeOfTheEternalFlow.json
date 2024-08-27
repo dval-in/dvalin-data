@@ -1,293 +1,598 @@
 {
-	"id": "TomeOfTheEternalFlow",
-	"name": "Escrituras del Fluir Sempiterno",
-	"description": "Un libro de ense\u00f1anzas que durante un tiempo pas\u00f3 de generaci\u00f3n en generaci\u00f3n en un monasterio. Ya nadie sabe de su existencia.",
-	"rarity": 5,
-	"type": "Catalizador",
-	"domain": "Reverberaci\u00f3n de las mareas",
-	"passive": "Oleada sempiterna",
-	"bonus": "Otorga un 16%/20%/24%/28%/32% m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un 14%/18%/22%/26%/30%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera 8/9/10/11/12 pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "Da\u00f1o CRIT",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 44,
-				"secondary": 19.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 110,
-				"secondary": 33.9
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 141,
-				"secondary": 33.9
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 210,
-				"secondary": 49.4
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 241,
-				"secondary": 49.4
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 275,
-				"secondary": 57.2
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 307,
-				"secondary": 57.2
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 341,
-				"secondary": 65
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 373,
-				"secondary": 65
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 408,
-				"secondary": 72.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 439,
-				"secondary": 72.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 475,
-				"secondary": 80.4
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 506,
-				"secondary": 80.4
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 542,
-				"secondary": 88.2
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "DrossOfPureSacredDewdrop",
-					"name": "Sedimento de roc\u00edo sagrado",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "RiftCore",
-					"name": "N\u00facleo de la fisura",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "MeshingGear",
-					"name": "Engranaje de malla",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "SublimationOfPureSacredDewdrop",
-					"name": "Sublimaci\u00f3n de roc\u00edo sagrado",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "RiftCore",
-					"name": "N\u00facleo de la fisura",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "MeshingGear",
-					"name": "Engranaje de malla",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "SublimationOfPureSacredDewdrop",
-					"name": "Sublimaci\u00f3n de roc\u00edo sagrado",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "ForeignSynapse",
-					"name": "Sinapsis extr\u00ednseca",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "MechanicalSpurGear",
-					"name": "Mecaengranaje recto",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "SpringOfPureSacredDewdrop",
-					"name": "Manantial de roc\u00edo sagrado",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "ForeignSynapse",
-					"name": "Sinapsis extr\u00ednseca",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "MechanicalSpurGear",
-					"name": "Mecaengranaje recto",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "SpringOfPureSacredDewdrop",
-					"name": "Manantial de roc\u00edo sagrado",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "AlienLifeCore",
-					"name": "N\u00facleo vital de otro mundo",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "ArtificedDynamicGear",
-					"name": "Engranaje mecadin\u00e1mico",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "EssenceOfPureSacredDewdrop",
-					"name": "Esencia de roc\u00edo sagrado",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "AlienLifeCore",
-					"name": "N\u00facleo vital de otro mundo",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "ArtificedDynamicGear",
-					"name": "Engranaje mecadin\u00e1mico",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Oleada sempiterna",
-		"template": "Otorga un <span style=\"color:#99FFFFFF\">{0} m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un <span style=\"color:#99FFFFFF\">{1}. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera <span style=\"color:#99FFFFFF\">{2} pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma.",
-		"params": [
-			["16%", "14%", "8"],
-			["20%", "18%", "9"],
-			["24%", "22%", "10"],
-			["28%", "26%", "11"],
-			["32%", "30%", "12"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Otorga un 16% m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un 14%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera 8 pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma."
-		},
-		{
-			"refinement": 2,
-			"desc": "Otorga un 20% m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un 18%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera 9 pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma."
-		},
-		{
-			"refinement": 3,
-			"desc": "Otorga un 24% m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un 22%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera 10 pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma."
-		},
-		{
-			"refinement": 4,
-			"desc": "Otorga un 28% m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un 26%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera 11 pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma."
-		},
-		{
-			"refinement": 5,
-			"desc": "Otorga un 32% m\u00e1s de Vida. Cuando la Vida aumenta o disminuye, el da\u00f1o de los Ataques Cargados aumenta en un 30%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duraci\u00f3n, regenera 12 pts. de Energ\u00eda Elemental. Solo se puede regenerar Energ\u00eda Elemental una vez cada 12 s de esta forma."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/TomeOfTheEternalFlow/Icon.webp"
-	}
+  "id": "TomeOfTheEternalFlow",
+  "name": "Escrituras del Fluir Sempiterno",
+  "description": "Un libro de enseñanzas que durante un tiempo pasó de generación en generación en un monasterio. Ya nadie sabe de su existencia.",
+  "rarity": 5,
+  "type": "Catalizador",
+  "domain": "Reverberación de las mareas",
+  "passive": "Oleada sempiterna",
+  "bonus": "Otorga un 16%/20%/24%/28%/32% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 14%/18%/22%/26%/30%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 8/9/10/11/12 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "Daño CRIT",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 19.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 88.2
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 44,
+        "secondary": 19.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 110,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 141,
+        "secondary": 33.9
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 210,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 241,
+        "secondary": 49.4
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 275,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 307,
+        "secondary": 57.2
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 341,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 373,
+        "secondary": 65
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 408,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 439,
+        "secondary": 72.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 475,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 506,
+        "secondary": 80.4
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 542,
+        "secondary": 88.2
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "DrossOfPureSacredDewdrop",
+          "name": "Sedimento de rocío sagrado",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "RiftCore",
+          "name": "Núcleo de la fisura",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engranaje de malla",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimación de rocío sagrado",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "RiftCore",
+          "name": "Núcleo de la fisura",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engranaje de malla",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimación de rocío sagrado",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Sinapsis extrínseca",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Mecaengranaje recto",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Manantial de rocío sagrado",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Sinapsis extrínseca",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Mecaengranaje recto",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Manantial de rocío sagrado",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Núcleo vital de otro mundo",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engranaje mecadinámico",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "EssenceOfPureSacredDewdrop",
+          "name": "Esencia de rocío sagrado",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Núcleo vital de otro mundo",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engranaje mecadinámico",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "DrossOfPureSacredDewdrop",
+          "name": "Sedimento de rocío sagrado",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "RiftCore",
+          "name": "Núcleo de la fisura",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engranaje de malla",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimación de rocío sagrado",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "RiftCore",
+          "name": "Núcleo de la fisura",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "MeshingGear",
+          "name": "Engranaje de malla",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "SublimationOfPureSacredDewdrop",
+          "name": "Sublimación de rocío sagrado",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Sinapsis extrínseca",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Mecaengranaje recto",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Manantial de rocío sagrado",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "ForeignSynapse",
+          "name": "Sinapsis extrínseca",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "MechanicalSpurGear",
+          "name": "Mecaengranaje recto",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "SpringOfPureSacredDewdrop",
+          "name": "Manantial de rocío sagrado",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Núcleo vital de otro mundo",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engranaje mecadinámico",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "EssenceOfPureSacredDewdrop",
+          "name": "Esencia de rocío sagrado",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "AlienLifeCore",
+          "name": "Núcleo vital de otro mundo",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ArtificedDynamicGear",
+          "name": "Engranaje mecadinámico",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Otorga un 16% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 14%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 8 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 2,
+      "desc": "Otorga un 20% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 18%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 9 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 3,
+      "desc": "Otorga un 24% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 22%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 10 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 4,
+      "desc": "Otorga un 28% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 26%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 11 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 5,
+      "desc": "Otorga un 32% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 30%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 12 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 1,
+      "desc": "Otorga un 16% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 14%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 8 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 2,
+      "desc": "Otorga un 20% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 18%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 9 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 3,
+      "desc": "Otorga un 24% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 22%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 10 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 4,
+      "desc": "Otorga un 28% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 26%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 11 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    },
+    {
+      "refinement": 5,
+      "desc": "Otorga un 32% más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un 30%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera 12 pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/TomeOfTheEternalFlow/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Oleada sempiterna",
+    "template": "Otorga un <span style=\"color:#99FFFFFF\">{0}</span> más de Vida. Cuando la Vida aumenta o disminuye, el daño de los Ataques Cargados aumenta en un <span style=\"color:#99FFFFFF\">{1}</span>. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones o al reiniciar su duración, regenera <span style=\"color:#99FFFFFF\">{2}</span> pts. de Energía Elemental. Solo se puede regenerar Energía Elemental una vez cada 12 s de esta forma.",
+    "params": [
+      [
+        "16%",
+        "14%",
+        "8"
+      ],
+      [
+        "20%",
+        "18%",
+        "9"
+      ],
+      [
+        "24%",
+        "22%",
+        "10"
+      ],
+      [
+        "28%",
+        "26%",
+        "11"
+      ],
+      [
+        "32%",
+        "30%",
+        "12"
+      ],
+      [
+        "16%",
+        "14%",
+        "8"
+      ],
+      [
+        "20%",
+        "18%",
+        "9"
+      ],
+      [
+        "24%",
+        "22%",
+        "10"
+      ],
+      [
+        "28%",
+        "26%",
+        "11"
+      ],
+      [
+        "32%",
+        "30%",
+        "12"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

@@ -1,287 +1,578 @@
 {
-	"id": "WindblumeOde",
-	"name": "\u98a8\u82b1\u4e4b\u980c",
-	"description": "\u9ede\u7db4\u4ee5\u7121\u540d\u82b1\u6735\u7684\u5f13\uff0c\u627f\u8f09\u8457\u540c\u6a23\u7121\u540d\u4e4b\u4eba\u7684\u6bb7\u5207\u5e0c\u671b\u3002",
-	"rarity": 4,
-	"type": "\u5f13",
-	"domain": "\u585e\u897f\u8389\u4e9e\u82d7\u5703",
-	"passive": "\u98a8\u82b1\u4e4b\u9858",
-	"bonus": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u534716%/20%/24%/28%/32%\uff0c\u6301\u7e8c6\u79d2\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u64ca\u529b",
-		"secondary": "\u5143\u7d20\u7cbe\u901a",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 36
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 64
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 64
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 93
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 93
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 107
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 107
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 122
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 122
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 136
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 136
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 151
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 151
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 165
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "FettersOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u9b25\u58eb\u7684\u67b7\u9396",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DeadLeyLineBranch",
-					"name": "\u5730\u8108\u7684\u820a\u679d",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "WhopperflowerNectar",
-					"name": "\u9a19\u9a19\u82b1\u871c",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u9b25\u58eb\u7684\u9435\u934a",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "DeadLeyLineBranch",
-					"name": "\u5730\u8108\u7684\u820a\u679d",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "WhopperflowerNectar",
-					"name": "\u9a19\u9a19\u82b1\u871c",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u9b25\u58eb\u7684\u9435\u934a",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "DeadLeyLineLeaves",
-					"name": "\u5730\u8108\u7684\u67af\u8449",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ShimmeringNectar",
-					"name": "\u5fae\u5149\u82b1\u871c",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u9b25\u58eb\u7684\u9410\u92ac",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "DeadLeyLineLeaves",
-					"name": "\u5730\u8108\u7684\u67af\u8449",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "ShimmeringNectar",
-					"name": "\u5fae\u5149\u82b1\u871c",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u9b25\u58eb\u7684\u9410\u92ac",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "LeyLineSprout",
-					"name": "\u5730\u8108\u7684\u65b0\u82bd",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "EnergyNectar",
-					"name": "\u539f\u7d20\u82b1\u871c",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "DreamOfTheDandelionGladiator",
-					"name": "\u7345\u7259\u9b25\u58eb\u7684\u7406\u60f3",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "LeyLineSprout",
-					"name": "\u5730\u8108\u7684\u65b0\u82bd",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "EnergyNectar",
-					"name": "\u539f\u7d20\u82b1\u871c",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u98a8\u82b1\u4e4b\u9858",
-		"template": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u5347<span style=\"color:#99FFFFFF\">{0}\uff0c\u6301\u7e8c6\u79d2\u3002",
-		"params": [["16%"], ["20%"], ["24%"], ["28%"], ["32%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u534716%\uff0c\u6301\u7e8c6\u79d2\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u534720%\uff0c\u6301\u7e8c6\u79d2\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u534724%\uff0c\u6301\u7e8c6\u79d2\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u534728%\uff0c\u6301\u7e8c6\u79d2\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u65bd\u653e\u5143\u7d20\u6230\u6280\u6642\uff0c\u7372\u5f97\u98a8\u4e4b\u82b1\u7684\u60a0\u53e4\u9858\u671b\u52a0\u6301\uff0c\u653b\u64ca\u529b\u63d0\u534732%\uff0c\u6301\u7e8c6\u79d2\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/WindblumeOde/Icon.webp"
-	}
+  "id": "WindblumeOde",
+  "name": "風花之頌",
+  "description": "點綴以無名花朵的弓，承載著同樣無名之人的殷切希望。",
+  "rarity": 4,
+  "type": "弓",
+  "domain": "塞西莉亞苗圃",
+  "passive": "風花之願",
+  "bonus": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升16%/20%/24%/28%/32%，持續6秒。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "元素精通",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "獅牙鬥士的枷鎖",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "騙騙花蜜",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐵鍊",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "騙騙花蜜",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐵鍊",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花蜜",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐐銬",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花蜜",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐐銬",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花蜜",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "獅牙鬥士的理想",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花蜜",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "獅牙鬥士的枷鎖",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "騙騙花蜜",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐵鍊",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "騙騙花蜜",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐵鍊",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花蜜",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐐銬",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花蜜",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "獅牙鬥士的鐐銬",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花蜜",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "獅牙鬥士的理想",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花蜜",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升16%，持續6秒。"
+    },
+    {
+      "refinement": 2,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升20%，持續6秒。"
+    },
+    {
+      "refinement": 3,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升24%，持續6秒。"
+    },
+    {
+      "refinement": 4,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升28%，持續6秒。"
+    },
+    {
+      "refinement": 5,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升32%，持續6秒。"
+    },
+    {
+      "refinement": 1,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升16%，持續6秒。"
+    },
+    {
+      "refinement": 2,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升20%，持續6秒。"
+    },
+    {
+      "refinement": 3,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升24%，持續6秒。"
+    },
+    {
+      "refinement": 4,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升28%，持續6秒。"
+    },
+    {
+      "refinement": 5,
+      "desc": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升32%，持續6秒。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/WindblumeOde/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "風花之願",
+    "template": "施放元素戰技時，獲得風之花的悠古願望加持，攻擊力提升<span style=\"color:#99FFFFFF\">{0}</span>，持續6秒。",
+    "params": [
+      [
+        "16%"
+      ],
+      [
+        "20%"
+      ],
+      [
+        "24%"
+      ],
+      [
+        "28%"
+      ],
+      [
+        "32%"
+      ],
+      [
+        "16%"
+      ],
+      [
+        "20%"
+      ],
+      [
+        "24%"
+      ],
+      [
+        "28%"
+      ],
+      [
+        "32%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

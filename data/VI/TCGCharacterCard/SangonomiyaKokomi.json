@@ -1,77 +1,142 @@
 {
-	"id": "SangonomiyaKokomi",
-	"shareid": 13,
-	"name": "Sangonomiya Kokomi",
-	"title": "Trí Tuệ Trân Châu - Sangonomiya Kokomi",
-	"desc": "Lo trước tính sau, lâm nguy không loạn.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Thủy",
-		"weapon": "Pháp Khí",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "TamanooyasCasket",
-			"name": "Tamanooya's Casket"
-		},
-		"source": "Nhận được sau khi mời Sangonomiya Kokomi giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
-		"character": {
-			"id": "SangonomiyaKokomi",
-			"name": "Sangonomiya Kokomi",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TheShapeOfWater",
-			"name": "Hình Dạng Nước Trong",
-			"desc": "Gây 1 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Nguyên Tố Thủy",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KuragesOath",
-			"name": "Lời Thề Kurage",
-			"desc": "Nhân vật này nhận <span style=\"color:#80C0FFFF\">Gán ấn Nguyên Tố Thủy, triệu hồi <span style=\"color:#FFFFFFFF\">Bake-Kurage.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Nguyên Tố Thủy",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "NereidsAscension",
-			"name": "Nghi Lễ Nereid",
-			"desc": "Gây 2 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng <span style=\"color:#FFFFFFFF\">Lễ Phục Nghi Thức.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Nguyên Tố Thủy",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SangonomiyaKokomi",
+  "shareid": 13,
+  "name": "Sangonomiya Kokomi",
+  "title": "Trí Tuệ Trân Châu - Sangonomiya Kokomi",
+  "desc": "Lo trước tính sau, lâm nguy không loạn.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Pháp Khí",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "Nhận được sau khi mời Sangonomiya Kokomi giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "Hình Dạng Nước Trong",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Lời Thề Kurage",
+      "desc": "Nhân vật này nhận Gán ấn Nguyên Tố Thủy, triệu hồi Bake-Kurage.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Nghi Lễ Nereid",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng Lễ Phục Nghi Thức.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TheShapeOfWater",
+      "name": "Hình Dạng Nước Trong",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Thủy.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Lời Thề Kurage",
+      "desc": "Nhân vật này nhận Gán ấn Nguyên Tố Thủy, triệu hồi Bake-Kurage.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Nghi Lễ Nereid",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, chữa trị 1 điểm cho tất cả nhân vật phe ta, nhân vật này áp dụng Lễ Phục Nghi Thức.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 13
 }

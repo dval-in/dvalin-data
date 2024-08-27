@@ -1,77 +1,142 @@
 {
-	"id": "Shenhe",
-	"shareid": 7,
-	"name": "Shenhe",
-	"title": "\"Yalnızlığın Ötesi\" Shenhe",
-	"desc": "Ölümlüler diyarı, tıpkı kaybolup giden bir duman gibidir.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Buz",
-		"weapon": "Mızrak",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "MysticalAbandon",
-			"name": "Mystical Abandon"
-		},
-		"source": "Shenhe'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Shenhe",
-			"name": "Shenhe",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "DawnstarPiercer",
-			"name": "Şafak Yıldızı Mızrağı",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpringSpiritSummoning",
-			"name": "Ruha Çağrı",
-			"desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Buzdan Tüy oluşturur.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DivineMaidensDeliverance",
-			"name": "Kutsal Kadının Hükmü",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Tılsım Ruhu çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Shenhe",
+  "shareid": 7,
+  "name": "Shenhe",
+  "title": "\"Yalnızlığın Ötesi\" Shenhe",
+  "desc": "Ölümlüler diyarı, tıpkı kaybolup giden bir duman gibidir.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Mızrak",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "MysticalAbandon",
+      "name": "Mystical Abandon"
+    },
+    "source": "Shenhe'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Shenhe",
+      "name": "Shenhe",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DawnstarPiercer",
+      "name": "Şafak Yıldızı Mızrağı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpringSpiritSummoning",
+      "name": "Ruha Çağrı",
+      "desc": "2 Buz Hasarı verir ve 1 Buzdan Tüy oluşturur.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DivineMaidensDeliverance",
+      "name": "Kutsal Kadının Hükmü",
+      "desc": "1 Buz Hasarı verir ve 1 Tılsım Ruhu çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DawnstarPiercer",
+      "name": "Şafak Yıldızı Mızrağı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpringSpiritSummoning",
+      "name": "Ruha Çağrı",
+      "desc": "2 Buz Hasarı verir ve 1 Buzdan Tüy oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DivineMaidensDeliverance",
+      "name": "Kutsal Kadının Hükmü",
+      "desc": "1 Buz Hasarı verir ve 1 Tılsım Ruhu çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 7
 }

@@ -10,6 +10,7 @@
     "element": "水元素",
     "weapon": "片手剣",
     "faction": [
+      "フォンテーヌ",
       "フォンテーヌ"
     ],
     "source": "キャッツテールでフリーナを招待し、友好対戦に勝利することで獲得",
@@ -55,6 +56,70 @@
       "id": "LetThePeopleRejoice",
       "name": "万民のカルナバル",
       "desc": "水元素ダメージを2与え、もろびとこぞりてを生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "アルケー：聖俗の座客",
+      "desc": "【固有】戦闘開始時、手札聖俗の座客を生成する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "SoloistsSolicitation",
+      "name": "ソリストの誘い",
+      "desc": "物理ダメージを2与える。 各ラウンドで1回のみ：手札に聖俗の座客がない場合、手札聖俗の座客を生成する。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "サロン·ソリティア",
+      "desc": "フリーナは現在「アルケー：ウーシア」状態で、サロンメンバーを召喚する。 （「アルケー：プネウマ」状態の時は、衆の水の歌い手を召喚する）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "万民のカルナバル",
+      "desc": "物理ダメージを2与え、もろびとこぞりてを生成する。",
       "skillTag": [
         "元素爆発"
       ],

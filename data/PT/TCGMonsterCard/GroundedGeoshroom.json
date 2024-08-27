@@ -1,75 +1,151 @@
 {
-	"id": "GroundedGeoshroom",
-	"shareid": 3605,
-	"name": "Cogumelo Terrestre Geo",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 7,
-		"cardType": "Carta de Personagem",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Outras Armas",
-		"faction": ["Monstro"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SporeBullet",
-			"name": "Disparo de Esporos",
-			"desc": "Causa 1 ponto de <span style=\"color:#FFE699FF\">Dano Geo.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RagingBreath",
-			"name": "Respiração Frenética",
-			"desc": "Causa 3 pontos de <span style=\"color:#FFE699FF\">Dano Geo.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ChargingBlast",
-			"name": "Explosão Carregada",
-			"desc": "Causa 5 pontos de <span style=\"color:#FFE699FF\">Dano Geo.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StateChange",
-			"name": "Transformação",
-			"desc": "(Passiva) No começo da batalha, o personagem está em <span style=\"color:#FFFFFFFF\">Vantagem de Terreno.Após o personagem receber <span style=\"color:#FF9999FF\">Dano Pyro: muda para <span style=\"color:#FFFFFFFF\">Estado Queimado.Após receber <span style=\"color:#FFACFFFF\">Dano Electro: muda para <span style=\"color:#FFFFFFFF\">Estado Ativo.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "GroundedGeoshroom",
+  "shareid": 3605,
+  "name": "Cogumelo Terrestre Geo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "cardType": "Carta de Personagem",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro",
+      "Monstro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Disparo de Esporos",
+      "desc": "Causa 1 ponto de Dano Geo.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Respiração Frenética",
+      "desc": "Causa 3 pontos de Dano Geo.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Explosão Carregada",
+      "desc": "Causa 5 pontos de Dano Geo.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Transformação",
+      "desc": "(Passiva) No começo da batalha, o personagem está em Vantagem de Terreno.Após o personagem receber Dano Pyro: muda para Estado Queimado.Após receber Dano Electro: muda para Estado Ativo.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SporeBullet",
+      "name": "Disparo de Esporos",
+      "desc": "Causa 1 ponto de Dano Geo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Respiração Frenética",
+      "desc": "Causa 3 pontos de Dano Geo.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Explosão Carregada",
+      "desc": "Causa 5 pontos de Dano Geo.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Transformação",
+      "desc": "(Passiva) No começo da batalha, o personagem está em Vantagem de Terreno. Após o personagem receber Dano Pyro: muda para Estado Queimado. Após receber Dano Electro: muda para Estado Ativo.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3605
 }

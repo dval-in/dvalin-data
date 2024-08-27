@@ -1,0 +1,77 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 4209,
+  "name": "Hydro Hilichurl Rogue",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Hilichurl"
+    ],
+    "source": null,
+    "cardType": "Kartu Karakter"
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "Whirling Scythe",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "Slash of Surging Tides",
+      "desc": "Mengakibatkan 3 poin Hydro DMG. Jika ada Karakter lawan yang terpengaruh Frozen atau Mist Bubble Prison, maka Karakter ini memperoleh 1 poin Energy. (Sekali setiap Ronde)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "Bubblefloat Blitz",
+      "desc": "Mengakibatkan 4 poin Hydro DMG dan Karakter ini terpengaruh Mist Bubble Slime. (Karakter yang mengenakan Mist Bubble Slime dapat menggunakan Teknik: Bubble Battle Tactics)",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

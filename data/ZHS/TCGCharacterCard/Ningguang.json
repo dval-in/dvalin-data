@@ -1,77 +1,142 @@
 {
-	"id": "Ningguang",
-	"shareid": 42,
-	"name": "凝光",
-	"title": "掩月天权·凝光",
-	"desc": "她保守着一个最大的秘密，那就是自己保守着璃月港的许多秘密。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "岩元素",
-		"weapon": "法器",
-		"faction": ["璃月"],
-		"talentCard": {
-			"id": "StrategicReserve",
-			"name": "Strategic Reserve"
-		},
-		"source": "在猫尾酒馆中邀请凝光进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Ningguang",
-			"name": "Ningguang",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SparklingScatter",
-			"name": "千金掷",
-			"desc": "造成1点<span style=\"color:#FFE699FF\">岩元素伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JadeScreen",
-			"name": "璇玑屏",
-			"desc": "造成2点<span style=\"color:#FFE699FF\">岩元素伤害，生成<span style=\"color:#FFFFFFFF\">璇玑屏。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "Starshatter",
-			"name": "天权崩玉",
-			"desc": "造成6点<span style=\"color:#FFE699FF\">岩元素伤害；如果<span style=\"color:#FFFFFFFF\">璇玑屏在场，就使此伤害+2。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "岩元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Ningguang",
+  "shareid": 42,
+  "name": "凝光",
+  "title": "掩月天权·凝光",
+  "desc": "她保守着一个最大的秘密，那就是自己保守着璃月港的许多秘密。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "岩元素",
+    "weapon": "法器",
+    "faction": [
+      "璃月",
+      "璃月"
+    ],
+    "talentCard": {
+      "id": "StrategicReserve",
+      "name": "Strategic Reserve"
+    },
+    "source": "在猫尾酒馆中邀请凝光进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SparklingScatter",
+      "name": "千金掷",
+      "desc": "造成1点岩元素伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JadeScreen",
+      "name": "璇玑屏",
+      "desc": "造成2点岩元素伤害，生成璇玑屏。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Starshatter",
+      "name": "天权崩玉",
+      "desc": "造成6点岩元素伤害；如果璇玑屏在场，就使此伤害+2。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparklingScatter",
+      "name": "千金掷",
+      "desc": "造成1点岩元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JadeScreen",
+      "name": "璇玑屏",
+      "desc": "造成2点岩元素伤害，生成璇玑屏。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Starshatter",
+      "name": "天权崩玉",
+      "desc": "造成6点岩元素伤害；如果璇玑屏在场，就使此伤害+2。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 42
 }

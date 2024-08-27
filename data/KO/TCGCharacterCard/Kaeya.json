@@ -1,77 +1,142 @@
 {
-	"id": "Kaeya",
-	"shareid": 3,
-	"name": "케이아",
-	"title": "한풍의 검사·케이아",
-	"desc": "그는 다른 사람에게서 「기사의 미덕」을 찾아내는 데 능하다",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 2,
-		"element": "얼음 원소",
-		"weapon": "한손검",
-		"faction": ["몬드"],
-		"talentCard": {
-			"id": "ColdbloodedStrike",
-			"name": "Cold-Blooded Strike"
-		},
-		"source": "시작 카드 덱에서 획득",
-		"character": {
-			"id": "Kaeya",
-			"name": "Kaeya",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "CeremonialBladework",
-			"name": "의전 검술",
-			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Frostgnaw",
-			"name": "서리 엄습",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 3pt 준다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GlacialWaltz",
-			"name": "살을 에는 윤무",
-			"desc": "<span style=\"color:#99FFFFFF\">얼음 원소 피해를 1pt 주고 <span style=\"color:#FFFFFFFF\">얼음 기둥을 생성한다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "얼음 원소",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Kaeya",
+  "shareid": 3,
+  "name": "케이아",
+  "title": "한풍의 검사·케이아",
+  "desc": "그는 다른 사람에게서 「기사의 미덕」을 찾아내는 데 능하다",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 2,
+    "element": "얼음 원소",
+    "weapon": "한손검",
+    "faction": [
+      "몬드",
+      "몬드"
+    ],
+    "talentCard": {
+      "id": "ColdbloodedStrike",
+      "name": "Cold-Blooded Strike"
+    },
+    "source": "시작 카드 덱에서 획득",
+    "character": {
+      "id": "Kaeya",
+      "name": "Kaeya",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "CeremonialBladework",
+      "name": "의전 검술",
+      "desc": "물리 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "서리 엄습",
+      "desc": "얼음 원소 피해를 3pt 준다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "살을 에는 윤무",
+      "desc": "얼음 원소 피해를 1pt 주고 얼음 기둥을 생성한다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialBladework",
+      "name": "의전 검술",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Frostgnaw",
+      "name": "서리 엄습",
+      "desc": "얼음 원소 피해를 3pt 준다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialWaltz",
+      "name": "살을 에는 윤무",
+      "desc": "얼음 원소 피해를 1pt 주고 얼음 기둥을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "얼음 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3
 }

@@ -1,68 +1,133 @@
 {
-	"id": "FatuiSkirmisherAnemoboxerVanguard",
-	"shareid": 3502,
-	"name": "Fatui Avcı Eri - Öncü Rüzgar Boksörü",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Rüzgar",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "HurricaneJab",
-			"name": "Deli Rüzgar Yumruğu",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GatheringTheWinds",
-			"name": "Yel Yükü",
-			"desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Fırtınalı Bariyer kazanır. <span style=\"color:#FFFFFFFF\">Beceri Hazırlama: <span style=\"color:#FFFFFFFF\">İntikam Kasırgası.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GaleforceAgitation",
-			"name": "Fırtına Kışkırtması",
-			"desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı verir ve diğer Fatui üyesi karakterlerin 1 <span style=\"color:#FFFFFFFF\">Enerji kazanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Rüzgar",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherAnemoboxerVanguard",
+  "shareid": 3502,
+  "name": "Fatui Avcı Eri - Öncü Rüzgar Boksörü",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "HurricaneJab",
+      "name": "Deli Rüzgar Yumruğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GatheringTheWinds",
+      "name": "Yel Yükü",
+      "desc": "Bu karakter Fırtınalı Bariyer kazanır. Beceri Hazırlama: İntikam Kasırgası.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GaleforceAgitation",
+      "name": "Fırtına Kışkırtması",
+      "desc": "3 Rüzgar Hasarı verir ve diğer Fatui üyesi karakterlerin 1 Enerji kazanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurricaneJab",
+      "name": "Deli Rüzgar Yumruğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GatheringTheWinds",
+      "name": "Yel Yükü",
+      "desc": "Bu karakter Fırtınalı Bariyer kazanır. Beceri Hazırlama: İntikam Kasırgası.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GaleforceAgitation",
+      "name": "Fırtına Kışkırtması",
+      "desc": "3 Rüzgar Hasarı verir ve diğer Fatui üyesi karakterlerin 1 Enerji kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3502
 }

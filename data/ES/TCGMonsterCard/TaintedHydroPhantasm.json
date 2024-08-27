@@ -1,0 +1,94 @@
+{
+  "id": "TaintedHydroPhantasm",
+  "shareId": 3209,
+  "name": "Ánima Legamosa",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": null,
+    "cardType": "Carta de personaje"
+  },
+  "skills": [
+    {
+      "id": "TaintedWaterStrike",
+      "name": "Golpe legamoso",
+      "desc": "Inflige 1 pt. de Daño Hydro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpoutingWaves",
+      "name": "Chorro ondulante",
+      "desc": "Inflige 2 pts. de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TaintedWaterSurge",
+      "name": "Aluvión legamoso",
+      "desc": "Inflige 4 pts. de Daño Hydro.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Sedimento elemental: Hydro",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de undefined.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "TaintedWatersChangeTheirShape",
+      "name": "Transformación legamosa",
+      "desc": "Pasiva: la reacción de Congelado no surte efecto. Cuando este personaje tiene 5 pts. de Vida o menos, inflige daño +2. Cuando este personaje usa una habilidad, si tiene al menos 6 pts. de Vida, inflige 1 pt. de Daño Penetrante a todos los personajes enemigos en reserva.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,84 +1,160 @@
 {
-	"id": "RaidenShogun",
-	"shareid": 32,
-	"name": "Şogun Raiden",
-	"title": "\"Zihnin Dinlenme Yeri\" Şogun Raiden",
-	"desc": "Sessiz yıldırımlar, bu geçici dünyayı darmadağın edecek.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Mızrak",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "WishesUnnumbered",
-			"name": "Wishes Unnumbered"
-		},
-		"source": "Şogun Raiden'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "RaidenShogun",
-			"name": "Raiden Shogun",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "Origin",
-			"name": "Köken",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TranscendenceBalefulOmen",
-			"name": "Bilinç Ötesi: Uğursuzluk Alameti",
-			"desc": "1 <span style=\"color:#FFFFFFFF\">Hiddetli Yargının Gözü çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SecretArtMusouShinsetsu",
-			"name": "Gizli Sanat: Musou Shinsetsu",
-			"desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir ve diğer karakterlerin 2 <span style=\"color:#FFFFFFFF\">Enerji kazanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ChakraDesiderata",
-			"name": "Çakra Desiderata",
-			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Çakra Desiderata etkisi kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "RaidenShogun",
+  "shareid": 32,
+  "name": "Şogun Raiden",
+  "title": "\"Zihnin Dinlenme Yeri\" Şogun Raiden",
+  "desc": "Sessiz yıldırımlar, bu geçici dünyayı darmadağın edecek.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Mızrak",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "WishesUnnumbered",
+      "name": "Wishes Unnumbered"
+    },
+    "source": "Şogun Raiden'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "RaidenShogun",
+      "name": "Raiden Shogun",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Origin",
+      "name": "Köken",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TranscendenceBalefulOmen",
+      "name": "Bilinç Ötesi: Uğursuzluk Alameti",
+      "desc": "1 Hiddetli Yargının Gözü çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretArtMusouShinsetsu",
+      "name": "Gizli Sanat: Musou Shinsetsu",
+      "desc": "3 Elektrik Hasarı verir ve diğer karakterlerin 2 Enerji kazanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ChakraDesiderata",
+      "name": "Çakra Desiderata",
+      "desc": "(Pasif) Savaş başladığında bu karakter Çakra Desiderata etkisi kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "Origin",
+      "name": "Köken",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TranscendenceBalefulOmen",
+      "name": "Bilinç Ötesi: Uğursuzluk Alameti",
+      "desc": "1 Hiddetli Yargının Gözü çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SecretArtMusouShinsetsu",
+      "name": "Gizli Sanat: Musou Shinsetsu",
+      "desc": "3 Elektrik Hasarı verir ve diğer karakterlerin 2 Enerji kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ChakraDesiderata",
+      "name": "Çakra Desiderata",
+      "desc": "(Pasif) Savaş başladığında bu karakter Çakra Desiderata etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 32
 }

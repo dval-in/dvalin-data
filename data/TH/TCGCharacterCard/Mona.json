@@ -1,84 +1,160 @@
 {
-	"id": "Mona",
-	"shareid": 11,
-	"name": "Mona",
-	"title": "เงาสะท้อนดวงดาว - Mona",
-	"desc": "ไม่ว่าจะแพ้หรือชนะ ทุกสิ่งล้วนถูกลิขิตไว้เช่นนี้",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุน้ำ",
-		"weapon": "สื่อเวท",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "ProphecyOfSubmersion",
-			"name": "Prophecy of Submersion"
-		},
-		"source": "ได้รับหลังจากเชิญ Mona ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-		"character": {
-			"id": "Mona",
-			"name": "Mona",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "RippleOfFate",
-			"name": "Ripple of Fate",
-			"desc": "จะสร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MirrorReflectionOfDoom",
-			"name": "Mirror Reflection of Doom",
-			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Reflection",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StellarisPhantasm",
-			"name": "Stellaris Phantasm",
-			"desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 4 หน่วย และสร้าง <span style=\"color:#FFFFFFFF\">Illusory Bubble",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IllusoryTorrent",
-			"name": "Illusory Torrent",
-			"desc": "[ติดตัว] ตอน<span style=\"color:#FFFFFFFF\">ตัวละครนี้เป็นตัวละครที่เข้าต่อสู้ เมื่อฝ่ายเราทำการเปลี่ยนตัวละคร: จะมองการเปลี่ยนนี้เป็น \"<span style=\"color:#FFFFFFFF\">ดำเนินการด่วน\" แทนที่ \"<span style=\"color:#FFFFFFFF\">ดำเนินการต่อสู้\" (เทิร์นละ 1 ครั้ง)",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "Mona",
+  "shareid": 11,
+  "name": "Mona",
+  "title": "เงาสะท้อนดวงดาว - Mona",
+  "desc": "ไม่ว่าจะแพ้หรือชนะ ทุกสิ่งล้วนถูกลิขิตไว้เช่นนี้",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำ",
+    "weapon": "สื่อเวท",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "ProphecyOfSubmersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": "ได้รับหลังจากเชิญ Mona ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "Mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "RippleOfFate",
+      "name": "Ripple of Fate",
+      "desc": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MirrorReflectionOfDoom",
+      "name": "Mirror Reflection of Doom",
+      "desc": "สร้างความเสียหายน้ำ 1 หน่วย และเรียก Reflection",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StellarisPhantasm",
+      "name": "Stellaris Phantasm",
+      "desc": "สร้างความเสียหายน้ำ 4 หน่วย และสร้าง Illusory Bubble",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IllusoryTorrent",
+      "name": "Illusory Torrent",
+      "desc": "[ติดตัว] ตอนตัวละครนี้เป็นตัวละครที่เข้าต่อสู้ เมื่อฝ่ายเราทำการเปลี่ยนตัวละคร: จะมองการเปลี่ยนนี้เป็น \"ดำเนินการด่วน\" แทนที่ \"ดำเนินการต่อสู้\" (เทิร์นละ 1 ครั้ง)",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "RippleOfFate",
+      "name": "Ripple of Fate",
+      "desc": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MirrorReflectionOfDoom",
+      "name": "Mirror Reflection of Doom",
+      "desc": "สร้างความเสียหายน้ำ 1 หน่วย และเรียก Reflection",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StellarisPhantasm",
+      "name": "Stellaris Phantasm",
+      "desc": "สร้างความเสียหายน้ำ 4 หน่วย และสร้าง Illusory Bubble",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IllusoryTorrent",
+      "name": "Illusory Torrent",
+      "desc": "[ติดตัว] ตอนตัวละครนี้เป็นตัวละครที่เข้าต่อสู้ เมื่อฝ่ายเราทำการเปลี่ยนตัวละคร: จะมองการเปลี่ยนนี้เป็น \"ดำเนินการด่วน\" แทนที่ \"ดำเนินการต่อสู้\" (เทิร์นละ 1 ครั้ง)",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 11
 }

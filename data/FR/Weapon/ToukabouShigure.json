@@ -1,287 +1,578 @@
 {
-	"id": "ToukabouShigure",
-	"name": "Pluie florale",
-	"description": "Une ombrelle en papier huil\u00e9 un peu sp\u00e9ciale. Bien que de longues errances puissent permettre de s'habituer au vent et \u00e0 la pluie, il peut \u00eatre amusant d'admirer une sc\u00e8ne pluvieuse \u00e0 l'abri sous cette ombrelle.",
-	"rarity": 4,
-	"type": "\u00c9p\u00e9e \u00e0 une main",
-	"domain": "Cour des sables mouvants",
-	"passive": "Kaidan : Liant de terre pluviom\u00e9trique",
-	"bonus": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de 16 %/20 %/24 %/28 %/32 %.",
-	"stats": {
-		"primary": "ATQ de base",
-		"secondary": "Ma\u00eetrise \u00e9l\u00e9mentaire",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 42,
-				"secondary": 36
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 109,
-				"secondary": 64
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 135,
-				"secondary": 64
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 205,
-				"secondary": 93
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 231,
-				"secondary": 93
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 266,
-				"secondary": 107
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 292,
-				"secondary": 107
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 327,
-				"secondary": 122
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 353,
-				"secondary": 122
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 388,
-				"secondary": 136
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 414,
-				"secondary": 136
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 449,
-				"secondary": 151
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 475,
-				"secondary": 151
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 510,
-				"secondary": 165
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "NarukamisWisdom",
-					"name": "Sagesse de Narukami",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedPrism",
-					"name": "Prisme endommag\u00e9",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "OldHandguard",
-					"name": "Garde-main ancien",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "NarukamisJoy",
-					"name": "Joie de Narukami",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "DamagedPrism",
-					"name": "Prisme endommag\u00e9",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "OldHandguard",
-					"name": "Garde-main ancien",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "NarukamisJoy",
-					"name": "Joie de Narukami",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "TurbidPrism",
-					"name": "Prisme trouble",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "KageuchiHandguard",
-					"name": "Garde-main kageuchi",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "NarukamisAffection",
-					"name": "Affection de Narukami",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "TurbidPrism",
-					"name": "Prisme trouble",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "KageuchiHandguard",
-					"name": "Garde-main kageuchi",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "NarukamisAffection",
-					"name": "Affection de Narukami",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "RadiantPrism",
-					"name": "Prisme radieux",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "FamedHandguard",
-					"name": "Garde-main c\u00e9l\u00e8bre",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "NarukamisValor",
-					"name": "Vaillance de Narukami",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "RadiantPrism",
-					"name": "Prisme radieux",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "FamedHandguard",
-					"name": "Garde-main c\u00e9l\u00e8bre",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Kaidan : Liant de terre pluviom\u00e9trique",
-		"template": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de <span style=\"color:#99FFFFFF\">{0}.",
-		"params": [["16 %"], ["20 %"], ["24 %"], ["28 %"], ["32 %"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de 16 %."
-		},
-		{
-			"refinement": 2,
-			"desc": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de 20 %."
-		},
-		{
-			"refinement": 3,
-			"desc": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de 24 %."
-		},
-		{
-			"refinement": 4,
-			"desc": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de 28 %."
-		},
-		{
-			"refinement": 5,
-			"desc": "Lorsqu'une attaque a touch\u00e9, elle inflige l'\u00e9tat Ombrelle maudite \u00e0 un des ennemis touch\u00e9s pendant 10 s. Cet effet peut \u00eatre d\u00e9clench\u00e9 une fois toutes les 15 s. Si l'ennemi affect\u00e9 est \u00e9limin\u00e9 pendant la dur\u00e9e de l'effet Ombrelle maudite, son TdR est imm\u00e9diatement r\u00e9initialis\u00e9. Les DGT inflig\u00e9s par le personnage \u00e9quip\u00e9 de l'arme aux ennemis affect\u00e9s par l'\u00e9tat Ombrelle maudite augmentent de 32 %."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/ToukabouShigure/Icon.webp"
-	}
+  "id": "ToukabouShigure",
+  "name": "Pluie florale",
+  "description": "Une ombrelle en papier huilé un peu spéciale. Bien que de longues errances puissent permettre de s'habituer au vent et à la pluie, il peut être amusant d'admirer une scène pluvieuse à l'abri sous cette ombrelle.",
+  "rarity": 4,
+  "type": "Épée à une main",
+  "domain": "Cour des sables mouvants",
+  "passive": "Kaidan : Liant de terre pluviométrique",
+  "bonus": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 16 %/20 %/24 %/28 %/32 %.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "Maîtrise élémentaire",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 42,
+        "secondary": 36
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 109,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 135,
+        "secondary": 64
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 205,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 231,
+        "secondary": 93
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 266,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 292,
+        "secondary": 107
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 327,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 353,
+        "secondary": 122
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 388,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 414,
+        "secondary": 136
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 449,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 475,
+        "secondary": 151
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 510,
+        "secondary": 165
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "NarukamisWisdom",
+          "name": "Sagesse de Narukami",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedPrism",
+          "name": "Prisme endommagé",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Garde-main ancien",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Joie de Narukami",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DamagedPrism",
+          "name": "Prisme endommagé",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Garde-main ancien",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Joie de Narukami",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TurbidPrism",
+          "name": "Prisme trouble",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Garde-main kageuchi",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Affection de Narukami",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "TurbidPrism",
+          "name": "Prisme trouble",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Garde-main kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Affection de Narukami",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "RadiantPrism",
+          "name": "Prisme radieux",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Garde-main célèbre",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "NarukamisValor",
+          "name": "Vaillance de Narukami",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "RadiantPrism",
+          "name": "Prisme radieux",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Garde-main célèbre",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "NarukamisWisdom",
+          "name": "Sagesse de Narukami",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedPrism",
+          "name": "Prisme endommagé",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Garde-main ancien",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Joie de Narukami",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DamagedPrism",
+          "name": "Prisme endommagé",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "OldHandguard",
+          "name": "Garde-main ancien",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "NarukamisJoy",
+          "name": "Joie de Narukami",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "TurbidPrism",
+          "name": "Prisme trouble",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Garde-main kageuchi",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Affection de Narukami",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "TurbidPrism",
+          "name": "Prisme trouble",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "KageuchiHandguard",
+          "name": "Garde-main kageuchi",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "NarukamisAffection",
+          "name": "Affection de Narukami",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "RadiantPrism",
+          "name": "Prisme radieux",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Garde-main célèbre",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "NarukamisValor",
+          "name": "Vaillance de Narukami",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "RadiantPrism",
+          "name": "Prisme radieux",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "FamedHandguard",
+          "name": "Garde-main célèbre",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 16 %."
+    },
+    {
+      "refinement": 2,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 20 %."
+    },
+    {
+      "refinement": 3,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 24 %."
+    },
+    {
+      "refinement": 4,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 28 %."
+    },
+    {
+      "refinement": 5,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 32 %."
+    },
+    {
+      "refinement": 1,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 16 %."
+    },
+    {
+      "refinement": 2,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 20 %."
+    },
+    {
+      "refinement": 3,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 24 %."
+    },
+    {
+      "refinement": 4,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 28 %."
+    },
+    {
+      "refinement": 5,
+      "desc": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de 32 %."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/ToukabouShigure/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Kaidan : Liant de terre pluviométrique",
+    "template": "Lorsqu'une attaque a touché, elle inflige l'état Ombrelle maudite à un des ennemis touchés pendant 10 s. Cet effet peut être déclenché une fois toutes les 15 s. Si l'ennemi affecté est éliminé pendant la durée de l'effet Ombrelle maudite, son TdR est immédiatement réinitialisé. Les DGT infligés par le personnage équipé de l'arme aux ennemis affectés par l'état Ombrelle maudite augmentent de <span style=\"color:#99FFFFFF\">{0}</span>.",
+    "params": [
+      [
+        "16 %"
+      ],
+      [
+        "20 %"
+      ],
+      [
+        "24 %"
+      ],
+      [
+        "28 %"
+      ],
+      [
+        "32 %"
+      ],
+      [
+        "16 %"
+      ],
+      [
+        "20 %"
+      ],
+      [
+        "24 %"
+      ],
+      [
+        "28 %"
+      ],
+      [
+        "32 %"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

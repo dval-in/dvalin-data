@@ -1,77 +1,142 @@
 {
-	"id": "Gorou",
-	"shareid": 283,
-	"name": "Горо",
-	"title": "«Пёс войны» Горо",
-	"desc": "Вожак стаи, ведущий солдат вперёд!",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Гео",
-		"weapon": "Стрелковое",
-		"faction": ["Инадзума"],
-		"talentCard": {
-			"id": "RushingHoundSwiftAsTheWind",
-			"name": "Rushing Hound: Swift as the Wind"
-		},
-		"source": "Награда за приглашение Горо в «Кошкин хвост» и победу в Дружеской дуэли",
-		"character": {
-			"id": "Gorou",
-			"name": "Gorou",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "RippingFangFletching",
-			"name": "Клыкастое оперение",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "InuzakaAllroundDefense",
-			"name": "Всесторонняя защита Инудзаки",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 2 ед., создаёт <span style=\"color:#FFFFFFFF\">Боевой штандарт генерала.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "JuugaForwardUntoVictory",
-			"name": "Дзюга: Вперёд к победе",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 2 ед., создаёт <span style=\"color:#FFFFFFFF\">Боевой штандарт генерала, призывает <span style=\"color:#FFFFFFFF\">Влияние генерала.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Gorou",
+  "shareid": 283,
+  "name": "Горо",
+  "title": "«Пёс войны» Горо",
+  "desc": "Вожак стаи, ведущий солдат вперёд!",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Гео",
+    "weapon": "Стрелковое",
+    "faction": [
+      "Инадзума",
+      "Инадзума"
+    ],
+    "talentCard": {
+      "id": "RushingHoundSwiftAsTheWind",
+      "name": "Rushing Hound: Swift as the Wind"
+    },
+    "source": "Награда за приглашение Горо в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Gorou",
+      "name": "Gorou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "RippingFangFletching",
+      "name": "Клыкастое оперение",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Всесторонняя защита Инудзаки",
+      "desc": "Наносит Гео урон, 2 ед., создаёт Боевой штандарт генерала.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Дзюга: Вперёд к победе",
+      "desc": "Наносит Гео урон, 2 ед., создаёт Боевой штандарт генерала, призывает Влияние генерала.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RippingFangFletching",
+      "name": "Клыкастое оперение",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Всесторонняя защита Инудзаки",
+      "desc": "Наносит Гео урон, 2 ед., создаёт Боевой штандарт генерала.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Дзюга: Вперёд к победе",
+      "desc": "Наносит Гео урон, 2 ед., создаёт Боевой штандарт генерала, призывает Влияние генерала.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 283
 }

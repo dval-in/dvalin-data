@@ -1,77 +1,142 @@
 {
-	"id": "Candace",
-	"shareid": 15,
-	"name": "캔디스",
-	"title": "수면 위 금빛 결의·캔디스",
-	"desc": "적색 사막과 금빛 수면을 수호하기 위한 결의",
-	"attributes": {
-		"hp": 10,
-		"cardType": "캐릭터 카드",
-		"energy": 2,
-		"element": "물 원소",
-		"weapon": "장병기",
-		"faction": ["수메르"],
-		"talentCard": {
-			"id": "TheOverflow",
-			"name": "The Overflow"
-		},
-		"source": "캣테일 술집에서 캔디스 초대 및 친선 대전 난이도 승리 후 획득",
-		"character": {
-			"id": "Candace",
-			"name": "Candace",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "GleamingSpearGuardianStance",
-			"name": "섬광 창술·수호 태세",
-			"desc": "<span style=\"color:#FFFFFFFF\">물리 피해를 2pt 준다.",
-			"skilltag": ["일반 공격"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "물 원소",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "무색 원소",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SacredRiteHeronsSanctum",
-			"name": "성스러운 의식·푸른빛 새의 비호",
-			"desc": "본 캐릭터에게 <span style=\"color:#FFFFFFFF\">푸른빛 새의 보호막을 부착하고 <span style=\"color:#FFFFFFFF\">푸른빛 새의 충격파의 <span style=\"color:#FFFFFFFF\">스킬 준비를 한다.",
-			"skilltag": ["원소전투 스킬"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "물 원소",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SacredRiteWagtailsTide",
-			"name": "성스러운 의식·회색빛 새의 물결",
-			"desc": "<span style=\"color:#80C0FFFF\">물 원소 피해를 2pt 주고 <span style=\"color:#FFFFFFFF\">적색 왕관의 축복을 생성한다.",
-			"skilltag": ["원소폭발"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "물 원소",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "원소 에너지",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Candace",
+  "shareid": 15,
+  "name": "캔디스",
+  "title": "수면 위 금빛 결의·캔디스",
+  "desc": "적색 사막과 금빛 수면을 수호하기 위한 결의",
+  "attributes": {
+    "hp": 10,
+    "cardType": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "장병기",
+    "faction": [
+      "수메르",
+      "수메르"
+    ],
+    "talentCard": {
+      "id": "TheOverflow",
+      "name": "The Overflow"
+    },
+    "source": "캣테일 술집에서 캔디스 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Candace",
+      "name": "Candace",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "섬광 창술·수호 태세",
+      "desc": "물리 피해를 2pt 준다.",
+      "skilltag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "성스러운 의식·푸른빛 새의 비호",
+      "desc": "본 캐릭터에게 푸른빛 새의 보호막을 부착하고 푸른빛 새의 충격파의 스킬 준비를 한다.",
+      "skilltag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "성스러운 의식·회색빛 새의 물결",
+      "desc": "물 원소 피해를 2pt 주고 적색 왕관의 축복을 생성한다.",
+      "skilltag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "섬광 창술·수호 태세",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "성스러운 의식·푸른빛 새의 비호",
+      "desc": "본 캐릭터에게 푸른빛 새의 보호막을 부착하고 푸른빛 새의 충격파의 스킬 준비를 한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "성스러운 의식·회색빛 새의 물결",
+      "desc": "물 원소 피해를 2pt 주고 적색 왕관의 축복을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 15
 }

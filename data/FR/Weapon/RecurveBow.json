@@ -1,287 +1,578 @@
 {
-	"id": "RecurveBow",
-	"name": "Arc courb\u00e9",
-	"description": "Avec cet arc de chasse, vous devriez pouvoir abattre un aigle en plein vol. Bien \u00e9videmment, le r\u00e9sultat d\u00e9pend enti\u00e8rement de la technique de l'archer.",
-	"rarity": 3,
-	"type": "Arc",
-	"domain": "P\u00e9pini\u00e8re de c\u00e9cilias",
-	"passive": "Moissonneur",
-	"bonus": "Restaure 8 %/10 %/12 %/14 %/16 % des PV apr\u00e8s la d\u00e9faite d'un ennemi.",
-	"stats": {
-		"primary": "ATQ de base",
-		"secondary": "PV%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 38,
-				"secondary": 10.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 86,
-				"secondary": 18
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 105,
-				"secondary": 18
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 151,
-				"secondary": 26.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 171,
-				"secondary": 26.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 193,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 212,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 234,
-				"secondary": 34.6
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 253,
-				"secondary": 34.6
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 274,
-				"secondary": 38.7
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 294,
-				"secondary": 38.7
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 314,
-				"secondary": 42.8
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 334,
-				"secondary": 42.8
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 354,
-				"secondary": 46.9
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "FettersOfTheDandelionGladiator",
-					"name": "Entraves du Chevalier du Croc de Lion",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "Dispositif du chaos",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "Parchemin divinatoire",
-					"amount": 1,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "Cha\u00eenes du Chevalier du Croc de Lion",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "Dispositif du chaos",
-					"amount": 8,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "Parchemin divinatoire",
-					"amount": 5,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "ChainsOfTheDandelionGladiator",
-					"name": "Cha\u00eenes du Chevalier du Croc de Lion",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "Circuit du chaos",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Parchemin sigill\u00e9",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "Menottes du Chevalier du Croc de Lion",
-					"amount": 2,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "Circuit du chaos",
-					"amount": 8,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Parchemin sigill\u00e9",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 25000,
-			"materials": [
-				{
-					"id": "ShacklesOfTheDandelionGladiator",
-					"name": "Menottes du Chevalier du Croc de Lion",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCore",
-					"name": "Noyau du chaos",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Parchemin maudit",
-					"amount": 4,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "DreamOfTheDandelionGladiator",
-					"name": "Id\u00e9aux du Chevalier du Croc de Lion",
-					"amount": 3,
-					"rarity": 5
-				},
-				{
-					"id": "ChaosCore",
-					"name": "Noyau du chaos",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Parchemin maudit",
-					"amount": 8,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Moissonneur",
-		"template": "Restaure <span style=\"color:#99FFFFFF\">{0} des PV apr\u00e8s la d\u00e9faite d'un ennemi.",
-		"params": [["8 %"], ["10 %"], ["12 %"], ["14 %"], ["16 %"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Restaure 8 % des PV apr\u00e8s la d\u00e9faite d'un ennemi."
-		},
-		{
-			"refinement": 2,
-			"desc": "Restaure 10 % des PV apr\u00e8s la d\u00e9faite d'un ennemi."
-		},
-		{
-			"refinement": 3,
-			"desc": "Restaure 12 % des PV apr\u00e8s la d\u00e9faite d'un ennemi."
-		},
-		{
-			"refinement": 4,
-			"desc": "Restaure 14 % des PV apr\u00e8s la d\u00e9faite d'un ennemi."
-		},
-		{
-			"refinement": 5,
-			"desc": "Restaure 16 % des PV apr\u00e8s la d\u00e9faite d'un ennemi."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/RecurveBow/Icon.webp"
-	}
+  "id": "RecurveBow",
+  "name": "Arc courbé",
+  "description": "Avec cet arc de chasse, vous devriez pouvoir abattre un aigle en plein vol. Bien évidemment, le résultat dépend entièrement de la technique de l'archer.",
+  "rarity": 3,
+  "type": "Arc",
+  "domain": "Pépinière de cécilias",
+  "passive": "Moissonneur",
+  "bonus": "Restaure 8 %/10 %/12 %/14 %/16 % des PV après la défaite d'un ennemi.",
+  "stats": {
+    "primary": "ATQ de base",
+    "secondary": "PV%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 46.9
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 38,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 86,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 105,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 151,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 171,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 193,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 212,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 234,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 253,
+        "secondary": 34.6
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 274,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 294,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 314,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 334,
+        "secondary": 42.8
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 354,
+        "secondary": 46.9
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositif du chaos",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Parchemin divinatoire",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositif du chaos",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Parchemin divinatoire",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuit du chaos",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Parchemin sigillé",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuit du chaos",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Parchemin sigillé",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Noyau du chaos",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Parchemin maudit",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Noyau du chaos",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Parchemin maudit",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "FettersOfTheDandelionGladiator",
+          "name": "Entraves du Chevalier du Croc de Lion",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositif du chaos",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Parchemin divinatoire",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositif du chaos",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Parchemin divinatoire",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "ChainsOfTheDandelionGladiator",
+          "name": "Chaînes du Chevalier du Croc de Lion",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuit du chaos",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Parchemin sigillé",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuit du chaos",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Parchemin sigillé",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "ShacklesOfTheDandelionGladiator",
+          "name": "Menottes du Chevalier du Croc de Lion",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Noyau du chaos",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Parchemin maudit",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "DreamOfTheDandelionGladiator",
+          "name": "Idéaux du Chevalier du Croc de Lion",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Noyau du chaos",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Parchemin maudit",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Restaure 8 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 2,
+      "desc": "Restaure 10 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 3,
+      "desc": "Restaure 12 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 4,
+      "desc": "Restaure 14 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 5,
+      "desc": "Restaure 16 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 1,
+      "desc": "Restaure 8 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 2,
+      "desc": "Restaure 10 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 3,
+      "desc": "Restaure 12 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 4,
+      "desc": "Restaure 14 % des PV après la défaite d'un ennemi."
+    },
+    {
+      "refinement": 5,
+      "desc": "Restaure 16 % des PV après la défaite d'un ennemi."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/RecurveBow/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Moissonneur",
+    "template": "Restaure <span style=\"color:#99FFFFFF\">{0}</span> des PV après la défaite d'un ennemi.",
+    "params": [
+      [
+        "8 %"
+      ],
+      [
+        "10 %"
+      ],
+      [
+        "12 %"
+      ],
+      [
+        "14 %"
+      ],
+      [
+        "16 %"
+      ],
+      [
+        "8 %"
+      ],
+      [
+        "10 %"
+      ],
+      [
+        "12 %"
+      ],
+      [
+        "14 %"
+      ],
+      [
+        "16 %"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

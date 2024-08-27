@@ -1,75 +1,151 @@
 {
-	"id": "LargeHydroSlime",
-	"shareid": 3207,
-	"name": "Hydroblob géant",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carte de personnage",
-		"energy": 2,
-		"element": "Hydro",
-		"weapon": "Autre arme",
-		"faction": ["Monstre"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Ram",
-			"name": "Heurt",
-			"desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Attaque normale"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Élément neutre",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BubbleSpray",
-			"name": "Jet de bulles",
-			"desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro et applique une <span style=\"color:#FFFFFFFF\">bulle gargouillante au personnage choisi.",
-			"skilltag": ["Compétence élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "JumpingSlam",
-			"name": "Saut écrasant",
-			"desc": "Inflige 5 pts de <span style=\"color:#80C0FFFF\">DGT Hydro.",
-			"skilltag": ["Déchaînement élémentaire"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Charge",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationHydro",
-			"name": "Dépôt d'élément Hydro",
-			"desc": "(Passif) Accorde une <span style=\"color:#FFFFFFFF\">Entité élémentaire Hydro au début du combat.",
-			"skilltag": ["Capacité passive"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "LargeHydroSlime",
+  "shareid": 3207,
+  "name": "Hydroblob géant",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Heurt",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skilltag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubbleSpray",
+      "name": "Jet de bulles",
+      "desc": "Inflige 2 pts de DGT Hydro et applique une bulle gargouillante au personnage choisi.",
+      "skilltag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "Saut écrasant",
+      "desc": "Inflige 5 pts de DGT Hydro.",
+      "skilltag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Dépôt d'élément Hydro",
+      "desc": "(Passif) Accorde une Entité élémentaire Hydro au début du combat.",
+      "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "Ram",
+      "name": "Heurt",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubbleSpray",
+      "name": "Jet de bulles",
+      "desc": "Inflige 2 pts de DGT Hydro et applique une bulle gargouillante au personnage choisi.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "Saut écrasant",
+      "desc": "Inflige 5 pts de DGT Hydro.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Dépôt d'élément Hydro",
+      "desc": "(Passif) Accorde une Entité élémentaire Hydro au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3207
 }

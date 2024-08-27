@@ -12,6 +12,7 @@
     "weapon": "Andere Waffen",
     "faction": [
       "Monster",
+      "Monster",
       "Monster"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Magiesauger",
       "desc": "Passiv – Erhält zu Beginn des Kampfes Magiesauger.",
       "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "Korrodierende Klauen",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Korrodierender Elektrokristall",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Magiesaugender Biss",
+      "desc": "Verursacht 6 Pkt. Elektro-SCH, erschafft auf dem Feld des Gegners 1 Korrosion.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Magiesauger",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Magiesauger.",
+      "skillTag": [
         "Passive Fähigkeit"
       ],
       "points": []

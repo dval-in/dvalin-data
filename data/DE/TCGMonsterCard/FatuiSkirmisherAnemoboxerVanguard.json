@@ -1,68 +1,133 @@
 {
-	"id": "FatuiSkirmisherAnemoboxerVanguard",
-	"shareid": 3502,
-	"name": "Fatui-Plänkler – Anemo-Faust-Stürmer",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Anemo",
-		"weapon": "Andere Waffen",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "HurricaneJab",
-			"name": "Böenschlag",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anemo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GatheringTheWinds",
-			"name": "Sturmfang",
-			"desc": "Erhält selbst <span style=\"color:#FFFFFFFF\">Sturmwindbarriere und <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor: <span style=\"color:#FFFFFFFF\">Stürmischer Konterschlag.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anemo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "GaleforceAgitation",
-			"name": "Windaufmunterung",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#80FFD7FF\">Anemo-SCH, stellt all deinen anderen Fatui-Figuren 1 Pkt. <span style=\"color:#FFFFFFFF\">Aufladung wieder her.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "Anemo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherAnemoboxerVanguard",
+  "shareid": 3502,
+  "name": "Fatui-Plänkler – Anemo-Faust-Stürmer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "HurricaneJab",
+      "name": "Böenschlag",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GatheringTheWinds",
+      "name": "Sturmfang",
+      "desc": "Erhält selbst Sturmwindbarriere und bereitet folgende Fähigkeiten vor: Stürmischer Konterschlag.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GaleforceAgitation",
+      "name": "Windaufmunterung",
+      "desc": "Verursacht 3 Pkt. Anemo-SCH, stellt all deinen anderen Fatui-Figuren 1 Pkt. Aufladung wieder her.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HurricaneJab",
+      "name": "Böenschlag",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GatheringTheWinds",
+      "name": "Sturmfang",
+      "desc": "Erhält selbst Sturmwindbarriere und bereitet folgende Fähigkeiten vor: Stürmischer Konterschlag.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GaleforceAgitation",
+      "name": "Windaufmunterung",
+      "desc": "Verursacht 3 Pkt. Anemo-SCH, stellt all deinen anderen Fatui-Figuren 1 Pkt. Aufladung wieder her.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3502
 }

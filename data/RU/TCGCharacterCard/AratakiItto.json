@@ -1,77 +1,142 @@
 {
-	"id": "AratakiItto",
-	"shareid": 46,
-	"name": "Аратаки Итто",
-	"title": "«Герой Ханамидзаки» Аратаки Итто",
-	"desc": "Аратаки «Лучший картёжник» Итто.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Гео",
-		"weapon": "Двуручное",
-		"faction": ["Инадзума"],
-		"talentCard": {
-			"id": "AratakiIchiban",
-			"name": "Arataki Ichiban"
-		},
-		"source": "Награда за приглашение Аратаки Итто в «Кошкин хвост» и победу над ним в Дружеской дуэли",
-		"character": {
-			"id": "AratakiItto",
-			"name": "Arataki Itto",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FightClubLegend",
-			"name": "Легенда бойцовского клуба",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MasatsuZetsugiAkaushiBurst",
-			"name": "Масацу дзэцуги: Взрыв акауси!",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 1 ед. и призывает помощника: <span style=\"color:#FFFFFFFF\">Уси. Персонажу достаётся <span style=\"color:#FFFFFFFF\">Невероятная сила.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RoyalDescentBeholdIttoTheEvil",
-			"name": "Явление короля: Итто Жестокий!",
-			"desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон, 4 ед. Персонажу достаётся <span style=\"color:#FFFFFFFF\">Яростный король óни.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Гео",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "AratakiItto",
+  "shareid": 46,
+  "name": "Аратаки Итто",
+  "title": "«Герой Ханамидзаки» Аратаки Итто",
+  "desc": "Аратаки «Лучший картёжник» Итто.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Гео",
+    "weapon": "Двуручное",
+    "faction": [
+      "Инадзума",
+      "Инадзума"
+    ],
+    "talentCard": {
+      "id": "AratakiIchiban",
+      "name": "Arataki Ichiban"
+    },
+    "source": "Награда за приглашение Аратаки Итто в «Кошкин хвост» и победу над ним в Дружеской дуэли",
+    "character": {
+      "id": "AratakiItto",
+      "name": "Arataki Itto",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FightClubLegend",
+      "name": "Легенда бойцовского клуба",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MasatsuZetsugiAkaushiBurst",
+      "name": "Масацу дзэцуги: Взрыв акауси!",
+      "desc": "Наносит Гео урон, 1 ед. и призывает помощника: Уси. Персонажу достаётся Невероятная сила.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RoyalDescentBeholdIttoTheEvil",
+      "name": "Явление короля: Итто Жестокий!",
+      "desc": "Наносит Гео урон, 4 ед. Персонажу достаётся Яростный король óни.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FightClubLegend",
+      "name": "Легенда бойцовского клуба",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MasatsuZetsugiAkaushiBurst",
+      "name": "Масацу дзэцуги: Взрыв акауси!",
+      "desc": "Наносит Гео урон, 1 ед. и призывает помощника: Уси. Персонажу достаётся Невероятная сила.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RoyalDescentBeholdIttoTheEvil",
+      "name": "Явление короля: Итто Жестокий!",
+      "desc": "Наносит Гео урон, 4 ед. Персонажу достаётся Яростный король óни.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 46
 }

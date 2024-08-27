@@ -1,83 +1,159 @@
 {
-	"id": "JadeplumeTerrorshroom",
-	"shareid": 60,
-	"name": "Espantohongo Plumaverde",
-	"title": "Espantohongo Plumaverde - Amo de los Hongos",
-	"desc": "Si guardas silencio y prestas atención, escucharás los pasos del rey de los hongos patrullando su territorio.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo"],
-		"talentCard": {
-			"id": "ProliferatingSpores",
-			"name": "Proliferating Spores"
-		},
-		"source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Espantohongo Plumaverde de los duelos tabernarios",
-		"character": {
-			"id": "JadeplumeTerrorshroom",
-			"name": "Jadeplume Terrorshroom"
-		}
-	},
-	"skills": [
-		{
-			"id": "MajesticDance",
-			"name": "Danza del rey fúngico",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VolatileSporeCloud",
-			"name": "Nube de esporas inestable",
-			"desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FeatherSpreading",
-			"name": "Plumaje majestuoso",
-			"desc": "Inflige 4 pts. de <span style=\"color:#7EC236FF\">Daño Dendro y consume todas las cargas de <span style=\"color:#FFFFFFFF\">revitalización. Por cada carga: daño actual +1.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RadicalVitality",
-			"name": "Revitalización",
-			"desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">revitalización.",
-			"skilltag": ["Habilidad pasiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "JadeplumeTerrorshroom",
+  "shareid": 60,
+  "name": "Espantohongo Plumaverde",
+  "title": "Espantohongo Plumaverde - Amo de los Hongos",
+  "desc": "Si guardas silencio y prestas atención, escucharás los pasos del rey de los hongos patrullando su territorio.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Monstruo"
+    ],
+    "talentCard": {
+      "id": "ProliferatingSpores",
+      "name": "Proliferating Spores"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Espantohongo Plumaverde de los duelos tabernarios",
+    "character": {
+      "id": "JadeplumeTerrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "MajesticDance",
+      "name": "Danza del rey fúngico",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Nube de esporas inestable",
+      "desc": "Inflige 3 pts. de Daño Dendro.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Plumaje majestuoso",
+      "desc": "Inflige 4 pts. de Daño Dendro y consume todas las cargas de revitalización. Por cada carga: daño actual +1.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Revitalización",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de revitalización.",
+      "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "MajesticDance",
+      "name": "Danza del rey fúngico",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Nube de esporas inestable",
+      "desc": "Inflige 3 pts. de Daño Dendro.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Plumaje majestuoso",
+      "desc": "Inflige 4 pts. de Daño Dendro y consume todas las cargas de revitalización. Por cada carga: daño actual +1.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Revitalización",
+      "desc": "Pasiva: cuando comienza el combate, este personaje obtiene el efecto de revitalización.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 60
 }

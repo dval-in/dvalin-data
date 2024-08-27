@@ -1,77 +1,142 @@
 {
-	"id": "SangonomiyaKokomi",
-	"shareid": 13,
-	"name": "Sangonomiya Kokomi",
-	"title": "\"Bilgelik İncisi\" Sangonomiya Kokomi",
-	"desc": "Zorlukları aşmak için onlara karşı hazır olman gerekir.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Su",
-		"weapon": "Katalizör",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "TamanooyasCasket",
-			"name": "Tamanooya's Casket"
-		},
-		"source": "Sangonomiya Kokomi'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "SangonomiyaKokomi",
-			"name": "Sangonomiya Kokomi",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "TheShapeOfWater",
-			"name": "Suyun Şekli",
-			"desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KuragesOath",
-			"name": "Kurage Yemini",
-			"desc": "Bu karakter <span style=\"color:#80C0FFFF\">Su Etkisi kazanır ve 1 <span style=\"color:#FFFFFFFF\">Bake-Kurage çağırır.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "NereidsAscension",
-			"name": "Nereid'in Yükselişi",
-			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter <span style=\"color:#FFFFFFFF\">Merasim Elbisesi kazanır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "SangonomiyaKokomi",
+  "shareid": 13,
+  "name": "Sangonomiya Kokomi",
+  "title": "\"Bilgelik İncisi\" Sangonomiya Kokomi",
+  "desc": "Zorlukları aşmak için onlara karşı hazır olman gerekir.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Katalizör",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "Sangonomiya Kokomi'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "Suyun Şekli",
+      "desc": "1 Su Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Kurage Yemini",
+      "desc": "Bu karakter Su Etkisi kazanır ve 1 Bake-Kurage çağırır.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Nereid'in Yükselişi",
+      "desc": "2 Su Hasarı verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter Merasim Elbisesi kazanır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TheShapeOfWater",
+      "name": "Suyun Şekli",
+      "desc": "1 Su Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Kurage Yemini",
+      "desc": "Bu karakter Su Etkisi kazanır ve 1 Bake-Kurage çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Nereid'in Yükselişi",
+      "desc": "2 Su Hasarı verir. Tüm müttefik karakterler için 1 Can yeniler. Bu karakter Merasim Elbisesi kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 13
 }

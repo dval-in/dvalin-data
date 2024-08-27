@@ -12,6 +12,7 @@
     "weapon": "อาวุธอื่น ๆ",
     "faction": [
       "มอนสเตอร์",
+      "มอนสเตอร์",
       "มอนสเตอร์"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Elemental Devourer",
       "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Elemental Devourer",
       "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "Cankering Claws",
+      "desc": "สร้างความเสียหายไฟฟ้า 1 หน่วย และทำให้เกิด Corrosion ในสนามของฝ่ายศัตรู",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Corrosive Electro Crystal",
+      "desc": "สร้างความเสียหายไฟฟ้า 2 หน่วย และทำให้เกิด Corrosion ในสนามของฝ่ายศัตรู",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Devouring Bite",
+      "desc": "สร้างความเสียหายไฟฟ้า 6 หน่วย และทำให้เกิด Corrosion ในสนามของฝ่ายศัตรู",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Elemental Devourer",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Elemental Devourer",
+      "skillTag": [
         "สกิลติดตัว"
       ],
       "points": []

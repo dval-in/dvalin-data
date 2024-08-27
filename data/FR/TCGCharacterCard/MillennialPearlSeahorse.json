@@ -12,6 +12,7 @@
     "weapon": "Autre arme",
     "faction": [
       "Monstre",
+      "Monstre",
       "Monstre"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Armure de perle",
       "desc": "(Passif) Applique une perle fontemarine au personnage au début du combat.",
       "skilltag": [
+        "Capacité passive"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "Balayage de queue",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Banc de poissons dansants",
+      "desc": "Inflige 3 pts de DGT Électro. Si le personnage est affecté par une perle fontemarine : Nombre d'utilisations +1. (1 fois par manche)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Tonnerre fontemarin",
+      "desc": "Inflige 1 pt de DGT Électro, applique une perle fontemarine au personnage et invoque un orbe de résonance.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Armure de perle",
+      "desc": "(Passif) Applique une perle fontemarine au personnage au début du combat.",
+      "skillTag": [
         "Capacité passive"
       ],
       "points": []

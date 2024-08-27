@@ -1,77 +1,142 @@
 {
-	"id": "Yanfei",
-	"shareid": 24,
-	"name": "Янь Фэй",
-	"title": "Непорочная мудрость: Янь Фэй",
-	"desc": "Закон порой слеп, а наставления старины могут нуждаться в пересмотре.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Пиро",
-		"weapon": "Катализатор",
-		"faction": ["Ли Юэ"],
-		"talentCard": {
-			"id": "RightOfFinalInterpretation",
-			"name": "Right of Final Interpretation"
-		},
-		"source": "Награда за приглашение Янь Фэй в «Кошкин хвост» и победу над ней в Дружеской дуэли",
-		"character": {
-			"id": "Yanfei",
-			"name": "Yanfei",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SealOfApproval",
-			"name": "Печать одобрения",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SignedEdict",
-			"name": "Подписанный указ",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 3 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Багровая печать.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DoneDeal",
-			"name": "По рукам",
-			"desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон, 3 ед. У персонажа возникают <span style=\"color:#FFFFFFFF\">Багровая печать и <span style=\"color:#FFFFFFFF\">Блеск.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Пиро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yanfei",
+  "shareid": 24,
+  "name": "Янь Фэй",
+  "title": "Непорочная мудрость: Янь Фэй",
+  "desc": "Закон порой слеп, а наставления старины могут нуждаться в пересмотре.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Катализатор",
+    "faction": [
+      "Ли Юэ",
+      "Ли Юэ"
+    ],
+    "talentCard": {
+      "id": "RightOfFinalInterpretation",
+      "name": "Right of Final Interpretation"
+    },
+    "source": "Награда за приглашение Янь Фэй в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Yanfei",
+      "name": "Yanfei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SealOfApproval",
+      "name": "Печать одобрения",
+      "desc": "Наносит Пиро урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "Подписанный указ",
+      "desc": "Наносит Пиро урон, 3 ед. У персонажа возникает Багровая печать.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "По рукам",
+      "desc": "Наносит Пиро урон, 3 ед. У персонажа возникают Багровая печать и Блеск.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SealOfApproval",
+      "name": "Печать одобрения",
+      "desc": "Наносит Пиро урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SignedEdict",
+      "name": "Подписанный указ",
+      "desc": "Наносит Пиро урон, 3 ед. У персонажа возникает Багровая печать.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DoneDeal",
+      "name": "По рукам",
+      "desc": "Наносит Пиро урон, 3 ед. У персонажа возникают Багровая печать и Блеск.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 24
 }

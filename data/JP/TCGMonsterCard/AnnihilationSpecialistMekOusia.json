@@ -10,12 +10,86 @@
     "element": "水元素",
     "weapon": "他の武器",
     "faction": [
+      "魔物",
       "魔物"
     ],
     "source": null,
     "cardType": "キャラカード"
   },
   "skills": [
+    {
+      "id": "ViciousKicks",
+      "name": "ヴィシャスキック",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLegblades",
+      "name": "ブレイドダンス",
+      "desc": "水元素ダメージを3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladedWaltz",
+      "name": "ブレイドワルツ",
+      "desc": "水元素ダメージを5与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SupportUnitOusia",
+      "name": "支援ユニット·ウーシア",
+      "desc": "【固有】戦闘開始時、マシナリー·区域警戒型·ウーシアを生成する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "エネルギー特徴·ウーシア",
+      "desc": "「アルケー：プネウマ」を持つキャラからのダメージを受けた後、本キャラは「無力化状態」にチェンジする。本ラウンド終了までスキルを発動できなくなる。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
     {
       "id": "ViciousKicks",
       "name": "ヴィシャスキック",

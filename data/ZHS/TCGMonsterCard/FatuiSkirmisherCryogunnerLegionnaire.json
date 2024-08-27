@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherCryogunnerLegionnaire",
-	"shareid": 3104,
-	"name": "愚人众先遣队·冰铳重卫士",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "冰元素",
-		"weapon": "其他武器",
-		"faction": ["愚人众"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CloserangeCharge",
-			"name": "近身冲撞",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FreezingSpray",
-			"name": "封冻喷剂",
-			"desc": "造成3点<span style=\"color:#99FFFFFF\">冰元素伤害。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostCannon",
-			"name": "严霜铁铳",
-			"desc": "造成3点<span style=\"color:#99FFFFFF\">冰元素伤害，本角色附属<span style=\"color:#FFFFFFFF\">元素武装·冰。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "冰元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "战备补给",
-			"desc": "【被动】战斗开始时，本角色获得2点充能。",
-			"skilltag": ["被动技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherCryogunnerLegionnaire",
+  "shareid": 3104,
+  "name": "愚人众先遣队·冰铳重卫士",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人众",
+      "愚人众"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloserangeCharge",
+      "name": "近身冲撞",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FreezingSpray",
+      "name": "封冻喷剂",
+      "desc": "造成3点冰元素伤害。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostCannon",
+      "name": "严霜铁铳",
+      "desc": "造成3点冰元素伤害，本角色附属元素武装·冰。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "战备补给",
+      "desc": "【被动】战斗开始时，本角色获得2点充能。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "CloserangeCharge",
+      "name": "近身冲撞",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FreezingSpray",
+      "name": "封冻喷剂",
+      "desc": "造成3点冰元素伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostCannon",
+      "name": "严霜铁铳",
+      "desc": "造成3点冰元素伤害，本角色附属元素武装·冰。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "战备补给",
+      "desc": "【被动】战斗开始时，本角色获得2点充能。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3104
 }

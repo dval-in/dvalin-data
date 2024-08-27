@@ -1,75 +1,151 @@
 {
-	"id": "LargeHydroSlime",
-	"shareid": 3207,
-	"name": "Büyük Su Bodurlopu",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Su",
-		"weapon": "Diğer Silahlar",
-		"faction": ["Canavar"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Ram",
-			"name": "Koçbaşı",
-			"desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BubbleSpray",
-			"name": "Balon Spreyi",
-			"desc": "2 <span style=\"color:#80C0FFFF\">Su Hasarı verir ve hedef karaktere <span style=\"color:#FFFFFFFF\">Çağlayan Baloncuk eklenir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "JumpingSlam",
-			"name": "Sıçrama Vuruşu",
-			"desc": "5 <span style=\"color:#80C0FFFF\">Su Hasarı verir.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Su",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationHydro",
-			"name": "Element Tortulaşması: Su",
-			"desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Element Yaşam Formu: Su etkisi kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "LargeHydroSlime",
+  "shareid": 3207,
+  "name": "Büyük Su Bodurlopu",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Koçbaşı",
+      "desc": "1 Su Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubbleSpray",
+      "name": "Balon Spreyi",
+      "desc": "2 Su Hasarı verir ve hedef karaktere Çağlayan Baloncuk eklenir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "Sıçrama Vuruşu",
+      "desc": "5 Su Hasarı verir.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Element Tortulaşması: Su",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Su etkisi kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "Ram",
+      "name": "Koçbaşı",
+      "desc": "1 Su Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubbleSpray",
+      "name": "Balon Spreyi",
+      "desc": "2 Su Hasarı verir ve hedef karaktere Çağlayan Baloncuk eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "Sıçrama Vuruşu",
+      "desc": "5 Su Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Element Tortulaşması: Su",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Su etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3207
 }

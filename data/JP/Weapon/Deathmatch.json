@@ -1,293 +1,598 @@
 {
-	"id": "Deathmatch",
-	"name": "\u6b7b\u95d8\u306e\u69cd",
-	"description": "\u8840\u306e\u3088\u3046\u306b\u8d64\u304f\u3066\u92ed\u3044\u9577\u69cd\u3002\u304b\u3064\u3066\u306f\u3042\u308b\u5263\u95d8\u58eb\u304c\u91cd\u5b9d\u3057\u305f\u3082\u306e\u3067\u3042\u308b\u3002\u69cd\u5148\u306f\u7121\u6570\u306e\u91ce\u7363\u3068\u4eba\u306e\u8840\u3067\u67d3\u3081\u3089\u308c\u3066\u3044\u305f\u3002",
-	"rarity": 4,
-	"type": "\u9577\u67c4\u6b66\u5668",
-	"domain": "\u30bb\u30b7\u30ea\u30a2\u306e\u82d7\u5e8a",
-	"passive": "\u5263\u95d8\u58eb",
-	"bonus": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+16%/20%/24%/28%/32%\u3001\u9632\u5fa1\u529b+16%/20%/24%/28%/32%\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+24%/30%/36%/42%/48%\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u6483\u529b",
-		"secondary": "\u4f1a\u5fc3\u7387",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 41,
-				"secondary": 8
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 99,
-				"secondary": 14.1
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 125,
-				"secondary": 14.1
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 184,
-				"secondary": 20.6
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 210,
-				"secondary": 20.6
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 238,
-				"secondary": 23.8
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 264,
-				"secondary": 23.8
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 293,
-				"secondary": 27.1
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 319,
-				"secondary": 27.1
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 347,
-				"secondary": 30.3
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 373,
-				"secondary": 30.3
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 401,
-				"secondary": 33.5
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 427,
-				"secondary": 33.5
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 454,
-				"secondary": 36.8
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "BorealWolfsMilkTooth",
-					"name": "\u51db\u98a8\u5954\u72fc\u306e\u4e73\u6b6f",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DeadLeyLineBranch",
-					"name": "\u5730\u8108\u306e\u65e7\u679d",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "WhopperflowerNectar",
-					"name": "\u30c8\u30ea\u30c3\u30af\u30d5\u30e9\u30ef\u30fc\u306e\u871c",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "BorealWolfsCrackedTooth",
-					"name": "\u51db\u98a8\u5954\u72fc\u306e\u7815\u7259",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "DeadLeyLineBranch",
-					"name": "\u5730\u8108\u306e\u65e7\u679d",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "WhopperflowerNectar",
-					"name": "\u30c8\u30ea\u30c3\u30af\u30d5\u30e9\u30ef\u30fc\u306e\u871c",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "BorealWolfsCrackedTooth",
-					"name": "\u51db\u98a8\u5954\u72fc\u306e\u7815\u7259",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "DeadLeyLineLeaves",
-					"name": "\u5730\u8108\u306e\u67af\u308c\u8449",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ShimmeringNectar",
-					"name": "\u5fae\u5149\u82b1\u306e\u871c",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "BorealWolfsBrokenFang",
-					"name": "\u51db\u98a8\u5954\u72fc\u306e\u65ad\u7259",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "DeadLeyLineLeaves",
-					"name": "\u5730\u8108\u306e\u67af\u308c\u8449",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "ShimmeringNectar",
-					"name": "\u5fae\u5149\u82b1\u306e\u871c",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "BorealWolfsBrokenFang",
-					"name": "\u51db\u98a8\u5954\u72fc\u306e\u65ad\u7259",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "LeyLineSprout",
-					"name": "\u5730\u8108\u306e\u65b0\u82bd",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "EnergyNectar",
-					"name": "\u539f\u7d20\u82b1\u306e\u871c",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "BorealWolfsNostalgia",
-					"name": "\u51db\u98a8\u5954\u72fc\u306e\u90f7\u6101",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "LeyLineSprout",
-					"name": "\u5730\u8108\u306e\u65b0\u82bd",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "EnergyNectar",
-					"name": "\u539f\u7d20\u82b1\u306e\u871c",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u5263\u95d8\u58eb",
-		"template": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{0}\u3001\u9632\u5fa1\u529b+<span style=\"color:#99FFFFFF\">{1}\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+<span style=\"color:#99FFFFFF\">{2}\u3002",
-		"params": [
-			["16%", "16%", "24%"],
-			["20%", "20%", "30%"],
-			["24%", "24%", "36%"],
-			["28%", "28%", "42%"],
-			["32%", "32%", "48%"]
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+16%\u3001\u9632\u5fa1\u529b+16%\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+24%\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+20%\u3001\u9632\u5fa1\u529b+20%\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+30%\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+24%\u3001\u9632\u5fa1\u529b+24%\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+36%\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+28%\u3001\u9632\u5fa1\u529b+28%\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+42%\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u4ee5\u4e0a\u3044\u308b\u6642\u3001\u653b\u6483\u529b+32%\u3001\u9632\u5fa1\u529b+32%\u3002\u8fd1\u304f\u306b\u6575\u304c2\u4eba\u672a\u6e80\u306e\u6642\u3001\u653b\u6483\u529b+48%\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/Deathmatch/Icon.webp"
-	}
+  "id": "Deathmatch",
+  "name": "死闘の槍",
+  "description": "血のように赤くて鋭い長槍。かつてはある剣闘士が重宝したものである。槍先は無数の野獣と人の血で染められていた。",
+  "rarity": 4,
+  "type": "長柄武器",
+  "domain": "セシリアの苗床",
+  "passive": "剣闘士",
+  "bonus": "近くに敵が2人以上いる時、攻撃力+16%/20%/24%/28%/32%、防御力+16%/20%/24%/28%/32%。近くに敵が2人未満の時、攻撃力+24%/30%/36%/42%/48%。",
+  "stats": {
+    "primary": "基礎攻撃力",
+    "secondary": "会心率",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 36.8
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 8
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 14.1
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 20.6
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 23.8
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 27.1
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 30.3
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 33.5
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 36.8
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsMilkTooth",
+          "name": "凛風奔狼の乳歯",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈の旧枝",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "トリックフラワーの蜜",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凛風奔狼の砕牙",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈の旧枝",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "トリックフラワーの蜜",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凛風奔狼の砕牙",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈の枯れ葉",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花の蜜",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凛風奔狼の断牙",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈の枯れ葉",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花の蜜",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凛風奔狼の断牙",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈の新芽",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花の蜜",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "BorealWolfsNostalgia",
+          "name": "凛風奔狼の郷愁",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈の新芽",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花の蜜",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsMilkTooth",
+          "name": "凛風奔狼の乳歯",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈の旧枝",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "トリックフラワーの蜜",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凛風奔狼の砕牙",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈の旧枝",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "WhopperflowerNectar",
+          "name": "トリックフラワーの蜜",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凛風奔狼の砕牙",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈の枯れ葉",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花の蜜",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凛風奔狼の断牙",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈の枯れ葉",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "ShimmeringNectar",
+          "name": "微光花の蜜",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凛風奔狼の断牙",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈の新芽",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花の蜜",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "BorealWolfsNostalgia",
+          "name": "凛風奔狼の郷愁",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈の新芽",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "EnergyNectar",
+          "name": "原素花の蜜",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "近くに敵が2人以上いる時、攻撃力+16%、防御力+16%。近くに敵が2人未満の時、攻撃力+24%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "近くに敵が2人以上いる時、攻撃力+20%、防御力+20%。近くに敵が2人未満の時、攻撃力+30%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "近くに敵が2人以上いる時、攻撃力+24%、防御力+24%。近くに敵が2人未満の時、攻撃力+36%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "近くに敵が2人以上いる時、攻撃力+28%、防御力+28%。近くに敵が2人未満の時、攻撃力+42%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "近くに敵が2人以上いる時、攻撃力+32%、防御力+32%。近くに敵が2人未満の時、攻撃力+48%。"
+    },
+    {
+      "refinement": 1,
+      "desc": "近くに敵が2人以上いる時、攻撃力+16%、防御力+16%。近くに敵が2人未満の時、攻撃力+24%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "近くに敵が2人以上いる時、攻撃力+20%、防御力+20%。近くに敵が2人未満の時、攻撃力+30%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "近くに敵が2人以上いる時、攻撃力+24%、防御力+24%。近くに敵が2人未満の時、攻撃力+36%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "近くに敵が2人以上いる時、攻撃力+28%、防御力+28%。近くに敵が2人未満の時、攻撃力+42%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "近くに敵が2人以上いる時、攻撃力+32%、防御力+32%。近くに敵が2人未満の時、攻撃力+48%。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/Deathmatch/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "剣闘士",
+    "template": "近くに敵が2人以上いる時、攻撃力+<span style=\"color:#99FFFFFF\">{0}</span>、防御力+<span style=\"color:#99FFFFFF\">{1}</span>。近くに敵が2人未満の時、攻撃力+<span style=\"color:#99FFFFFF\">{2}</span>。",
+    "params": [
+      [
+        "16%",
+        "16%",
+        "24%"
+      ],
+      [
+        "20%",
+        "20%",
+        "30%"
+      ],
+      [
+        "24%",
+        "24%",
+        "36%"
+      ],
+      [
+        "28%",
+        "28%",
+        "42%"
+      ],
+      [
+        "32%",
+        "32%",
+        "48%"
+      ],
+      [
+        "16%",
+        "16%",
+        "24%"
+      ],
+      [
+        "20%",
+        "20%",
+        "30%"
+      ],
+      [
+        "24%",
+        "24%",
+        "36%"
+      ],
+      [
+        "28%",
+        "28%",
+        "42%"
+      ],
+      [
+        "32%",
+        "32%",
+        "48%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

@@ -1,82 +1,169 @@
 {
-	"id": "KairagiFieryMight",
-	"shareid": 3303,
-	"name": "海乱鬼·炎威",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 2,
-		"element": "火元素",
-		"weapon": "其他武器",
-		"faction": ["海乱鬼"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ThreePointSlash",
-			"name": "三位切",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "LeapingStrike",
-			"name": "鲤跃斩",
-			"desc": "造成3点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "居合·纳刀",
-			"desc": "本角色<span style=\"color:#FFFFFFFF\">准备技能：<span style=\"color:#FFFFFFFF\">居合·焚风。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "KamunaTalismanPyro",
-			"name": "惟神召符·炎",
-			"desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">惟神召符·炎。",
-			"skilltag": ["被动技能"],
-			"points": []
-		},
-		{
-			"id": "FinalFrenzy",
-			"name": "绝境狂乱",
-			"desc": "其他我方「海乱鬼」角色被击倒时，此角色附属<span style=\"color:#FFFFFFFF\">绝境狂乱。",
-			"skilltag": ["被动技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "KairagiFieryMight",
+  "shareid": 3303,
+  "name": "海乱鬼·炎威",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 2,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": [
+      "海乱鬼",
+      "海乱鬼"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ThreePointSlash",
+      "name": "三位切",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "鲤跃斩",
+      "desc": "造成3点物理伤害。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "居合·纳刀",
+      "desc": "本角色准备技能：居合·焚风。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanPyro",
+      "name": "惟神召符·炎",
+      "desc": "【被动】战斗开始时，初始附属惟神召符·炎。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "绝境狂乱",
+      "desc": "其他我方「海乱鬼」角色被击倒时，此角色附属绝境狂乱。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "ThreePointSlash",
+      "name": "三位切",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LeapingStrike",
+      "name": "鲤跃斩",
+      "desc": "造成3点物理伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "居合·纳刀",
+      "desc": "本角色准备技能：居合·焚风。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamunaTalismanPyro",
+      "name": "惟神召符·炎",
+      "desc": "【被动】战斗开始时，初始附属惟神召符·炎。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "FinalFrenzy",
+      "name": "绝境狂乱",
+      "desc": "其他我方「海乱鬼」角色被击倒时，此角色附属绝境狂乱。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3303
 }

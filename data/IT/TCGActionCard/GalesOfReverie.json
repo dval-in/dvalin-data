@@ -1,29 +1,44 @@
 {
-	"id": "GalesOfReverie",
-	"shareid": 101,
-	"name": "Fantasticheria burrascosa",
-	"title": "Vagabondo: Fantasticheria burrascosa",
-	"desc": "\"Vento impetuoso!\"",
-	"inPlayDescription": "Quando il {REALNAME[ID(1)|DELAYHANDLE(true)]}, che ha questa carta equipaggiata, si trova nello stato di <span style=\"color:#FFFFFFFF\">Vento prospero dopo aver usato un <span style=\"color:#FFFFFFFF\">Attacco caricato: spendi 1 dado elementale in meno la volta successiva che usi Cambia personaggio, infliggendo 1 <span style=\"color:#80FFD7FF\">DAN da Anemo.",
-	"attributes": {
-		"cost": 4,
-		"costType": "Anemo",
-		"cardType": "Carta equipaggiamento",
-		"energy": [
-			{
-				"id": "Anemo",
-				"type": "Anemo",
-				"count": 4
-			}
-		],
-		"source": "Ricompensa ottenuta sfidando il Vagabondo a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
-		"tags": ["Talento", "Azione di combattimento"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">Azione di combattimento: se il tuo personaggio attivo è il <span style=\"color:#FFFFFFFF\">{REALNAME[ID(1)|DELAYHANDLE(true)]}, equipaggia questa carta.Dopo che il {REALNAME[ID(1)|DELAYHANDLE(true)]} viene equipaggiato con questa carta, utilizza immediatamente <span style=\"color:#FFD780FF\">Hanega: Canzone del vento una volta.Quando il {REALNAME[ID(1)|DELAYHANDLE(true)]}, che ha questa carta equipaggiata, si trova nello stato di <span style=\"color:#FFFFFFFF\">Vento prospero dopo aver usato un <span style=\"color:#FFFFFFFF\">Attacco caricato: spendi 1 dado elementale in meno la volta successiva che usi Cambia personaggio, infliggendo 1 <span style=\"color:#80FFD7FF\">DAN da Anemo.(Per aggiungere questa carta, il tuo mazzo deve contenere il {REALNAME[ID(1)|DELAYHANDLE(true)]}.)"
-		}
-	],
-	"version": "4.4"
+  "id": "GalesOfReverie",
+  "shareid": 101,
+  "name": "Fantasticheria burrascosa",
+  "title": "Vagabondo: Fantasticheria burrascosa",
+  "desc": "\"Vento impetuoso!\"",
+  "inPlayDescription": "Quando il {REALNAME[ID(1)|DELAYHANDLE(true)]}, che ha questa carta equipaggiata, si trova nello stato di <span style=\"color:#FFFFFFFF\">Vento prospero</span> dopo aver usato un <span style=\"color:#FFFFFFFF\">Attacco caricato</span>: spendi 1 dado elementale in meno la volta successiva che usi Cambia personaggio, infliggendo 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>.",
+  "attributes": {
+    "cost": 4,
+    "costType": "Anemo",
+    "cardType": "Carta equipaggiamento",
+    "energy": [
+      {
+        "id": "Anemo",
+        "type": "Anemo",
+        "count": 4
+      },
+      {
+        "id": "Anemo",
+        "type": "Anemo",
+        "count": 4
+      }
+    ],
+    "source": "Ricompensa ottenuta sfidando il Vagabondo a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
+    "tags": [
+      "Talento",
+      "Azione di combattimento",
+      "Talento",
+      "Azione di combattimento"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Azione di combattimento: se il tuo personaggio attivo è il {REALNAME[ID(1)|DELAYHANDLE(true)]}, equipaggia questa carta.Dopo che il {REALNAME[ID(1)|DELAYHANDLE(true)]} viene equipaggiato con questa carta, utilizza immediatamente Hanega: Canzone del vento una volta.Quando il {REALNAME[ID(1)|DELAYHANDLE(true)]}, che ha questa carta equipaggiata, si trova nello stato di Vento prospero dopo aver usato un Attacco caricato: spendi 1 dado elementale in meno la volta successiva che usi Cambia personaggio, infliggendo 1 DAN da Anemo.(Per aggiungere questa carta, il tuo mazzo deve contenere il {REALNAME[ID(1)|DELAYHANDLE(true)]}.)"
+    },
+    {
+      "name": "",
+      "desc": "Azione di combattimento: se il tuo personaggio attivo è il {REALNAME[ID(1)|DELAYHANDLE(true)]}, equipaggia questa carta. Dopo che il {REALNAME[ID(1)|DELAYHANDLE(true)]} viene equipaggiato con questa carta, utilizza immediatamente Hanega: Canzone del vento una volta. Quando il {REALNAME[ID(1)|DELAYHANDLE(true)]}, che ha questa carta equipaggiata, si trova nello stato di Vento prospero dopo aver usato un Attacco caricato: spendi 1 dado elementale in meno la volta successiva che usi Cambia personaggio, infliggendo 1 DAN da Anemo. (Per aggiungere questa carta, il tuo mazzo deve contenere il {REALNAME[ID(1)|DELAYHANDLE(true)]}.)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 101
 }

@@ -1,77 +1,142 @@
 {
-	"id": "Yaoyao",
-	"shareid": 50,
-	"name": "Yaoyao",
-	"title": "Knospe der Adepten – Yaoyao",
-	"desc": "Eine feine Jade mit adeptalen Knochen.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Dendro",
-		"weapon": "Stangenwaffe",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "Beneficent",
-			"name": "Beneficent"
-		},
-		"source": "Nach einem gewonnenen „Duell – Nett“ mit Yaoyao in der Taverne Zum Katzenschwanz zu erhalten.",
-		"character": {
-			"id": "Yaoyao",
-			"name": "Yaoyao",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "TossNTurnSpear",
-			"name": "Wackel aber wacker!",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RaphanusSkyCluster",
-			"name": "Rübchen in flauschigen Wolken",
-			"desc": "Erschafft 1 <span style=\"color:#FFFFFFFF\">Yuegui – Schleudermondhase.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "MoonjadeDescent",
-			"name": "Kaninchen-Regen im Mondschein",
-			"desc": "Verursacht 1 Pkt. <span style=\"color:#7EC236FF\">Dendro-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Gabe der Adepten.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Dendro",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yaoyao",
+  "shareid": 50,
+  "name": "Yaoyao",
+  "title": "Knospe der Adepten – Yaoyao",
+  "desc": "Eine feine Jade mit adeptalen Knochen.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Stangenwaffe",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "Beneficent",
+      "name": "Beneficent"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Yaoyao in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Yaoyao",
+      "name": "Yaoyao",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "TossNTurnSpear",
+      "name": "Wackel aber wacker!",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RaphanusSkyCluster",
+      "name": "Rübchen in flauschigen Wolken",
+      "desc": "Erschafft 1 Yuegui – Schleudermondhase.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MoonjadeDescent",
+      "name": "Kaninchen-Regen im Mondschein",
+      "desc": "Verursacht 1 Pkt. Dendro-SCH, erschafft 1 Gabe der Adepten.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TossNTurnSpear",
+      "name": "Wackel aber wacker!",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RaphanusSkyCluster",
+      "name": "Rübchen in flauschigen Wolken",
+      "desc": "Erschafft 1 Yuegui – Schleudermondhase.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MoonjadeDescent",
+      "name": "Kaninchen-Regen im Mondschein",
+      "desc": "Verursacht 1 Pkt. Dendro-SCH, erschafft 1 Gabe der Adepten.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 50
 }

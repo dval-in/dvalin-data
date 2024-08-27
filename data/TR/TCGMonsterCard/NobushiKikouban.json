@@ -1,75 +1,148 @@
 {
-	"id": "NobushiKikouban",
-	"shareid": 3405,
-	"name": "Nobushi: Kikouban",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "Karakter Kartı",
-		"energy": 2,
-		"element": "Elektrik",
-		"weapon": "Diğer Silahlar",
-		"faction": [],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ComboSlash",
-			"name": "Kombo Darbe",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MechanicalThunderbow",
-			"name": "Mekanik Elektrik Oku",
-			"desc": "3 <span style=\"color:#FFACFFFF\">Elektrik Hasarı verir.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Elektrik",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "IaiSheathed",
-			"name": "İai: Kınına Sokma",
-			"desc": "<span style=\"color:#FFFFFFFF\">Beceri Hazırlama: <span style=\"color:#FFFFFFFF\">İai: Sokma.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Aynı Element",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Zanshin",
-			"name": "Zanshin",
-			"desc": "(Pasif) Son Aşama: Eğer bu karakter aktif karakter ise 1 Enerji kazanır.",
-			"skilltag": ["Pasif Beceri"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "NobushiKikouban",
+  "shareid": 3405,
+  "name": "Nobushi: Kikouban",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ComboSlash",
+      "name": "Kombo Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MechanicalThunderbow",
+      "name": "Mekanik Elektrik Oku",
+      "desc": "3 Elektrik Hasarı verir.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "İai: Kınına Sokma",
+      "desc": "Beceri Hazırlama: İai: Sokma.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Pasif) Son Aşama: Eğer bu karakter aktif karakter ise 1 Enerji kazanır.",
+      "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ComboSlash",
+      "name": "Kombo Darbe",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MechanicalThunderbow",
+      "name": "Mekanik Elektrik Oku",
+      "desc": "3 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "İai: Kınına Sokma",
+      "desc": "Beceri Hazırlama: İai: Sokma.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Aynı Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Pasif) Son Aşama: Eğer bu karakter aktif karakter ise 1 Enerji kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3405
 }

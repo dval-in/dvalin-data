@@ -1,90 +1,172 @@
 {
-	"id": "Ganyu",
-	"shareid": 1,
-	"name": "Ganyu",
-	"title": "\"Dolunay Gözcüsü\" Ganyu",
-	"desc": "\"Bu basın açıklaması yarın yapılacak... Tüm gece çalışırsam bitirebilirim bence.\"",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Karakter Kartı",
-		"energy": 3,
-		"element": "Buz",
-		"weapon": "Yay",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "UndividedHeart",
-			"name": "Undivided Heart"
-		},
-		"source": "Ganyu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
-		"character": {
-			"id": "Ganyu",
-			"name": "Ganyu",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "LiutianArchery",
-			"name": "Liutian Okçuluğu",
-			"desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nötr Element",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "TrailOfTheQilin",
-			"name": "Qilin'in İzi",
-			"desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Buz Nilüferi oluşturur.",
-			"skilltag": ["Element Becerisi"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostflakeArrow",
-			"name": "Buzdan Ok",
-			"desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı verir ve rakibin hazırdaki karakterlerine 2 <span style=\"color:#FFFFFFFF\">Delme Hasarı verir.",
-			"skilltag": ["Normal Saldırı"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "CelestialShower",
-			"name": "Göklerin Görkemi",
-			"desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı verir ve 1 <span style=\"color:#FFFFFFFF\">Kutsal Buz İncisi çağırır.",
-			"skilltag": ["Element Patlaması"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Buz",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Enerji",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Ganyu",
+  "shareid": 1,
+  "name": "Ganyu",
+  "title": "\"Dolunay Gözcüsü\" Ganyu",
+  "desc": "\"Bu basın açıklaması yarın yapılacak... Tüm gece çalışırsam bitirebilirim bence.\"",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Yay",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "UndividedHeart",
+      "name": "Undivided Heart"
+    },
+    "source": "Ganyu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "LiutianArchery",
+      "name": "Liutian Okçuluğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "Qilin'in İzi",
+      "desc": "1 Buz Hasarı verir ve 1 Buz Nilüferi oluşturur.",
+      "skilltag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "Buzdan Ok",
+      "desc": "2 Buz Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+      "skilltag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "Göklerin Görkemi",
+      "desc": "2 Buz Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 1 Kutsal Buz İncisi çağırır.",
+      "skilltag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LiutianArchery",
+      "name": "Liutian Okçuluğu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "Qilin'in İzi",
+      "desc": "1 Buz Hasarı verir ve 1 Buz Nilüferi oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "Buzdan Ok",
+      "desc": "2 Buz Hasarı verir ve rakibin hazırdaki karakterlerine 2 Delme Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "Göklerin Görkemi",
+      "desc": "2 Buz Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 1 Kutsal Buz İncisi çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 1
 }

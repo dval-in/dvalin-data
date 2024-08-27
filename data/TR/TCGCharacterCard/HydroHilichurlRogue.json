@@ -1,0 +1,77 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 409,
+  "name": "Su Tırpanlı Dağ Zebanisi",
+  "title": "\"Dalgaların Gezgini\" Su Tırpanlı Dağ Zebanisi",
+  "desc": "Belirli bir kabileyle ilişkisi olmayan Dağ Yabanisi avareleri. Sanki gönüllü olarak sürgündeymiş gibi vahşi doğada dolanırlar.",
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Su Tırpanlı Dağ Zebanisi ile olan Dostluk Düellosunu kazanma ödülü.",
+    "cardType": "Karakter Kartı"
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "Döner Orak Vuruşu",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "Yükselen Dalga Darbesi",
+      "desc": "3 Su Hasarı verir. Eğer bir rakip karaktere Donma veya Sis Baloncuğu Hapsi ekliyse bu karakter 1 Enerji kazanır. (Her Turda bir defa)",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "Uçan Baloncuk Saldırısı",
+      "desc": "3 Su Hasarı verir. Elinde 1 Sis Baloncuğu Bodurlopu oluşturur. (Sis Baloncuğu Bodurlopu kuşanmış karakterler Baloncuk Savaşı Taktikleri Tekniğini kullanabilir.)",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

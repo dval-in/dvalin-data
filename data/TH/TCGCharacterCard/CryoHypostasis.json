@@ -12,6 +12,7 @@
     "weapon": "อาวุธอื่น ๆ",
     "faction": [
       "มอนสเตอร์",
+      "มอนสเตอร์",
       "มอนสเตอร์"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "Cryo Crystal Core",
       "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Cryo Crystal Core",
       "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "IcespikeShot",
+      "name": "Icespike Shot",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "Ice Ring Waltz",
+      "desc": "สร้างความเสียหายน้ำแข็ง 3 หน่วย และตัวละครนี้จะได้รับ Overwhelming Ice",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "Plunging Ice Shards",
+      "desc": "สร้างความเสียหายน้ำแข็ง 2 หน่วย สร้างความเสียหายทะลวง 1 หน่วย ให้แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู และเรียก Piercing Iceridge",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "Cryo Crystal Core",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Cryo Crystal Core",
+      "skillTag": [
         "สกิลติดตัว"
       ],
       "points": []

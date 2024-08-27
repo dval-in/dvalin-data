@@ -1,287 +1,578 @@
 {
-	"id": "CinnabarSpindle",
-	"name": "Huso de Cinabrio",
-	"description": "Una espada forjada con materiales que no son de este mundo. El poder que contiene podr\u00eda incluso resistir la corrupci\u00f3n de un veneno capaz de derribar a un poderoso drag\u00f3n.",
-	"rarity": 4,
-	"type": "Espada ligera",
-	"domain": "Jard\u00edn de cecilias",
-	"passive": "Coraz\u00f3n inmaculado",
-	"bonus": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 40%/50%/60%/70%/80% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o.",
-	"stats": {
-		"primary": "ATQ B\u00e1sico",
-		"secondary": "DEF%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 41,
-				"secondary": 15
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 99,
-				"secondary": 26.5
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 125,
-				"secondary": 26.5
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 184,
-				"secondary": 38.7
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 210,
-				"secondary": 38.7
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 238,
-				"secondary": 44.7
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 264,
-				"secondary": 44.7
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 293,
-				"secondary": 50.8
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 319,
-				"secondary": 50.8
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 347,
-				"secondary": 56.8
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 373,
-				"secondary": 56.8
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 401,
-				"secondary": 62.9
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 427,
-				"secondary": 62.9
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 454,
-				"secondary": 69
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "TileOfDecarabiansTower",
-					"name": "Fragmento de azulejo de Decarabian",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "Dispositivo del caos",
-					"amount": 3,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "M\u00e1scara da\u00f1ada",
-					"amount": 2,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "DebrisOfDecarabiansCity",
-					"name": "Escombro de la ciudad de Decarabian",
-					"amount": 3,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosDevice",
-					"name": "Dispositivo del caos",
-					"amount": 12,
-					"rarity": 2
-				},
-				{
-					"id": "DamagedMask",
-					"name": "M\u00e1scara da\u00f1ada",
-					"amount": 8,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "DebrisOfDecarabiansCity",
-					"name": "Escombro de la ciudad de Decarabian",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "Circuito del caos",
-					"amount": 6,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "M\u00e1scara sucia",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "FragmentOfDecarabiansEpic",
-					"name": "Fragmento de epopeya de Decarabian",
-					"amount": 3,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCircuit",
-					"name": "Circuito del caos",
-					"amount": 12,
-					"rarity": 3
-				},
-				{
-					"id": "StainedMask",
-					"name": "M\u00e1scara sucia",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 35000,
-			"materials": [
-				{
-					"id": "FragmentOfDecarabiansEpic",
-					"name": "Fragmento de epopeya de Decarabian",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "ChaosCore",
-					"name": "Caldera del caos",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "M\u00e1scara amenazante",
-					"amount": 6,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "ScatteredPieceOfDecarabiansDream",
-					"name": "Fragmento de sue\u00f1o de Decarabian",
-					"amount": 4,
-					"rarity": 5
-				},
-				{
-					"id": "ChaosCore",
-					"name": "Caldera del caos",
-					"amount": 18,
-					"rarity": 4
-				},
-				{
-					"id": "OminousMask",
-					"name": "M\u00e1scara amenazante",
-					"amount": 12,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "Coraz\u00f3n inmaculado",
-		"template": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al <span style=\"color:#99FFFFFF\">{0} de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o.",
-		"params": [["40%"], ["50%"], ["60%"], ["70%"], ["80%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 40% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o."
-		},
-		{
-			"refinement": 2,
-			"desc": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 50% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o."
-		},
-		{
-			"refinement": 3,
-			"desc": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 60% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o."
-		},
-		{
-			"refinement": 4,
-			"desc": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 70% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o."
-		},
-		{
-			"refinement": 5,
-			"desc": "El da\u00f1o infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 80% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s despu\u00e9s de que la Habilidad Elemental inflija da\u00f1o."
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/CinnabarSpindle/Icon.webp"
-	}
+  "id": "CinnabarSpindle",
+  "name": "Huso de Cinabrio",
+  "description": "Una espada forjada con materiales que no son de este mundo. El poder que contiene podría incluso resistir la corrupción de un veneno capaz de derribar a un poderoso dragón.",
+  "rarity": 4,
+  "type": "Espada ligera",
+  "domain": "Jardín de cecilias",
+  "passive": "Corazón inmaculado",
+  "bonus": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 40%/50%/60%/70%/80% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño.",
+  "stats": {
+    "primary": "ATQ Básico",
+    "secondary": "DEF%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 15
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 69
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 41,
+        "secondary": 15
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 99,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 125,
+        "secondary": 26.5
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 184,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 210,
+        "secondary": 38.7
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 238,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 264,
+        "secondary": 44.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 293,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 319,
+        "secondary": 50.8
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 347,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 373,
+        "secondary": 56.8
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 401,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 427,
+        "secondary": 62.9
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 454,
+        "secondary": 69
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Fragmento de azulejo de Decarabian",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositivo del caos",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Escombro de la ciudad de Decarabian",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositivo del caos",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Escombro de la ciudad de Decarabian",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuito del caos",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragmento de epopeya de Decarabian",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuito del caos",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragmento de epopeya de Decarabian",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Caldera del caos",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ScatteredPieceOfDecarabiansDream",
+          "name": "Fragmento de sueño de Decarabian",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Caldera del caos",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "TileOfDecarabiansTower",
+          "name": "Fragmento de azulejo de Decarabian",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositivo del caos",
+          "amount": 3,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 2,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Escombro de la ciudad de Decarabian",
+          "amount": 3,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosDevice",
+          "name": "Dispositivo del caos",
+          "amount": 12,
+          "rarity": 2
+        },
+        {
+          "id": "DamagedMask",
+          "name": "Máscara dañada",
+          "amount": 8,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "DebrisOfDecarabiansCity",
+          "name": "Escombro de la ciudad de Decarabian",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuito del caos",
+          "amount": 6,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragmento de epopeya de Decarabian",
+          "amount": 3,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCircuit",
+          "name": "Circuito del caos",
+          "amount": 12,
+          "rarity": 3
+        },
+        {
+          "id": "StainedMask",
+          "name": "Máscara sucia",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 35000,
+      "materials": [
+        {
+          "id": "FragmentOfDecarabiansEpic",
+          "name": "Fragmento de epopeya de Decarabian",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Caldera del caos",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 6,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "ScatteredPieceOfDecarabiansDream",
+          "name": "Fragmento de sueño de Decarabian",
+          "amount": 4,
+          "rarity": 5
+        },
+        {
+          "id": "ChaosCore",
+          "name": "Caldera del caos",
+          "amount": 18,
+          "rarity": 4
+        },
+        {
+          "id": "OminousMask",
+          "name": "Máscara amenazante",
+          "amount": 12,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 40% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 2,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 50% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 3,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 60% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 4,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 70% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 5,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 80% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 1,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 40% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 2,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 50% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 3,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 60% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 4,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 70% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    },
+    {
+      "refinement": 5,
+      "desc": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al 80% de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño."
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/CinnabarSpindle/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "Corazón inmaculado",
+    "template": "El daño infligido por la Habilidad Elemental aumenta en una cantidad equivalente al <span style=\"color:#99FFFFFF\">{0}</span> de la DEF. Este efecto solo puede activarse una vez cada 1.5 s y se anula 0.1 s después de que la Habilidad Elemental inflija daño.",
+    "params": [
+      [
+        "40%"
+      ],
+      [
+        "50%"
+      ],
+      [
+        "60%"
+      ],
+      [
+        "70%"
+      ],
+      [
+        "80%"
+      ],
+      [
+        "40%"
+      ],
+      [
+        "50%"
+      ],
+      [
+        "60%"
+      ],
+      [
+        "70%"
+      ],
+      [
+        "80%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

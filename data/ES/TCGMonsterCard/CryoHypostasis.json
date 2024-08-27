@@ -12,6 +12,7 @@
     "weapon": "Otras armas",
     "faction": [
       "Monstruo",
+      "Monstruo",
       "Monstruo"
     ],
     "talentCard": {
@@ -94,6 +95,79 @@
       "name": "Sedimento elemental: Cryo",
       "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de ser elemental: Cryo.",
       "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "IcespikeShot",
+      "name": "Carámbano propulsado",
+      "desc": "Inflige 1 pt. de Daño Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "Crioaro danzarín",
+      "desc": "Inflige 3 pts. de Daño Cryo y este personaje obtiene el efecto de carámbano fulminante.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "Esquirlas en picado",
+      "desc": "Inflige 2 pts. de Daño Cryo, así como 1 pt. de Daño Penetrante contra todos los personajes enemigos en reserva, y crea una púa gélida.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "Núcleo de cristal Cryo",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene un núcleo de cristal Cryo.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Sedimento elemental: Cryo",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de ser elemental: Cryo.",
+      "skillTag": [
         "Habilidad pasiva"
       ],
       "points": []

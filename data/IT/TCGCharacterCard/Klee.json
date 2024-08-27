@@ -1,77 +1,142 @@
 {
-	"id": "Klee",
-	"shareid": 22,
-	"name": "Klee",
-	"title": "Klee, Sole fugace",
-	"desc": "Ogni carta che peschi potrebbe contenere una \"sorpresa esplosiva\".",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 3,
-		"element": "Pyro",
-		"weapon": "Catalizzatore",
-		"faction": ["Mondstadt"],
-		"talentCard": {
-			"id": "PoundingSurprise",
-			"name": "Pounding Surprise"
-		},
-		"source": "Ricompensa ottenuta sfidando Klee a duello alla Coda di Gatto e battendola in un duello amichevole",
-		"character": {
-			"id": "Klee",
-			"name": "Klee",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "Kaboom",
-			"name": "Megaboom!",
-			"desc": "Infligge 1 <span style=\"color:#FF9999FF\">DAN da Pyro.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpyDumpty",
-			"name": "Coniglio Bumbum",
-			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Scintilla esplosiva.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SparksNSplash",
-			"name": "Schizzi e scintille",
-			"desc": "Infligge 3 <span style=\"color:#FF9999FF\">DAN da Pyro, genera 1 <span style=\"color:#FFFFFFFF\">Schizzi e scintille nel campo avversario.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Klee",
+  "shareid": 22,
+  "name": "Klee",
+  "title": "Klee, Sole fugace",
+  "desc": "Ogni carta che peschi potrebbe contenere una \"sorpresa esplosiva\".",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Catalizzatore",
+    "faction": [
+      "Mondstadt",
+      "Mondstadt"
+    ],
+    "talentCard": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "Ricompensa ottenuta sfidando Klee a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "Megaboom!",
+      "desc": "Infligge 1 DAN da Pyro.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Coniglio Bumbum",
+      "desc": "Infligge 3 DAN da Pyro, questo personaggio ottiene Scintilla esplosiva.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Schizzi e scintille",
+      "desc": "Infligge 3 DAN da Pyro, genera 1 Schizzi e scintille nel campo avversario.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Kaboom",
+      "name": "Megaboom!",
+      "desc": "Infligge 1 DAN da Pyro.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Coniglio Bumbum",
+      "desc": "Infligge 3 DAN da Pyro, questo personaggio ottiene Scintilla esplosiva.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Schizzi e scintille",
+      "desc": "Infligge 3 DAN da Pyro, genera 1 Schizzi e scintille nel campo avversario.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 22
 }

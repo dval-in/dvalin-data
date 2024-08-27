@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherGeochanterBracer",
-	"shareid": 3604,
-	"name": "Fatui Skirmisher - Geochanter Bracer",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุหิน",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "RockProjectile",
-			"name": "Rock Projectile",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "GeocrystalBeam",
-			"name": "Geocrystal Beam",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 3 หน่วย",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "StaffOfGeo",
-			"name": "Staff of Geo",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Geo Elemental Equipment และสร้าง <span style=\"color:#FFFFFFFF\">Crystal Shield",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Combat Resupply",
-			"desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherGeochanterBracer",
+  "shareid": 3604,
+  "name": "Fatui Skirmisher - Geochanter Bracer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุหิน",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RockProjectile",
+      "name": "Rock Projectile",
+      "desc": "สร้างความเสียหายหิน 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Geocrystal Beam",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Staff of Geo",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย และตัวละครนี้จะได้รับ Geo Elemental Equipment และสร้าง Crystal Shield",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Combat Resupply",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "RockProjectile",
+      "name": "Rock Projectile",
+      "desc": "สร้างความเสียหายหิน 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Geocrystal Beam",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Staff of Geo",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย และตัวละครนี้จะได้รับ Geo Elemental Equipment และสร้าง Crystal Shield",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Combat Resupply",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3604
 }

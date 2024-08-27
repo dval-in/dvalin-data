@@ -1,287 +1,578 @@
 {
-	"id": "SharpshootersOath",
-	"name": "\u795e\u5c04\u624b\u4e4b\u8a93",
-	"description": "\u64da\u8aaa\u66fe\u5c6c\u65bc\u6280\u85dd\u9ad8\u5f37\u7684\u5c04\u624b\uff0c\u662f\u4e00\u628a\u4e0a\u597d\u7684\u5f13\u3002\u56e0\u70ba\u6563\u767c\u51fa\u5f37\u70c8\u7684\u6c23\u606f\uff0c\u96e3\u4ee5\u7528\u65bc\u72e9\u7375\u3002",
-	"rarity": 3,
-	"type": "\u5f13",
-	"domain": "\u585e\u897f\u8389\u4e9e\u82d7\u5703",
-	"passive": "\u7cbe\u6e96",
-	"bonus": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u534724%/30%/36%/42%/48%\u3002",
-	"stats": {
-		"primary": "\u57fa\u790e\u653b\u64ca\u529b",
-		"secondary": "\u66b4\u64ca\u50b7\u5bb3",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 39,
-				"secondary": 10.2
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 94,
-				"secondary": 18
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 113,
-				"secondary": 18
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 169,
-				"secondary": 26.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 189,
-				"secondary": 26.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 216,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 236,
-				"secondary": 30.4
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 263,
-				"secondary": 34.5
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 282,
-				"secondary": 34.5
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 309,
-				"secondary": 38.6
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 329,
-				"secondary": 38.6
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 355,
-				"secondary": 42.7
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 375,
-				"secondary": 42.7
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 401,
-				"secondary": 46.9
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 5000,
-			"materials": [
-				{
-					"id": "BorealWolfsMilkTooth",
-					"name": "\u51dc\u98a8\u5954\u72fc\u7684\u59cb\u9f54",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "DeadLeyLineBranch",
-					"name": "\u5730\u8108\u7684\u820a\u679d",
-					"amount": 2,
-					"rarity": 2
-				},
-				{
-					"id": "SlimeCondensate",
-					"name": "\u53f2\u840a\u59c6\u51dd\u6db2",
-					"amount": 1,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "BorealWolfsCrackedTooth",
-					"name": "\u51dc\u98a8\u5954\u72fc\u7684\u88c2\u9f52",
-					"amount": 2,
-					"rarity": 3
-				},
-				{
-					"id": "DeadLeyLineBranch",
-					"name": "\u5730\u8108\u7684\u820a\u679d",
-					"amount": 8,
-					"rarity": 2
-				},
-				{
-					"id": "SlimeCondensate",
-					"name": "\u53f2\u840a\u59c6\u51dd\u6db2",
-					"amount": 5,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 15000,
-			"materials": [
-				{
-					"id": "BorealWolfsCrackedTooth",
-					"name": "\u51dc\u98a8\u5954\u72fc\u7684\u88c2\u9f52",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "DeadLeyLineLeaves",
-					"name": "\u5730\u8108\u7684\u67af\u8449",
-					"amount": 4,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "\u53f2\u840a\u59c6\u6e05",
-					"amount": 4,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "BorealWolfsBrokenFang",
-					"name": "\u51dc\u98a8\u5954\u72fc\u7684\u65b7\u7259",
-					"amount": 2,
-					"rarity": 4
-				},
-				{
-					"id": "DeadLeyLineLeaves",
-					"name": "\u5730\u8108\u7684\u67af\u8449",
-					"amount": 8,
-					"rarity": 3
-				},
-				{
-					"id": "SlimeSecretions",
-					"name": "\u53f2\u840a\u59c6\u6e05",
-					"amount": 6,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 25000,
-			"materials": [
-				{
-					"id": "BorealWolfsBrokenFang",
-					"name": "\u51dc\u98a8\u5954\u72fc\u7684\u65b7\u7259",
-					"amount": 4,
-					"rarity": 4
-				},
-				{
-					"id": "LeyLineSprout",
-					"name": "\u5730\u8108\u7684\u65b0\u82bd",
-					"amount": 6,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "\u53f2\u840a\u59c6\u539f\u6f3f",
-					"amount": 4,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "BorealWolfsNostalgia",
-					"name": "\u51dc\u98a8\u5954\u72fc\u7684\u61f7\u9109",
-					"amount": 3,
-					"rarity": 5
-				},
-				{
-					"id": "LeyLineSprout",
-					"name": "\u5730\u8108\u7684\u65b0\u82bd",
-					"amount": 12,
-					"rarity": 4
-				},
-				{
-					"id": "SlimeConcentrate",
-					"name": "\u53f2\u840a\u59c6\u539f\u6f3f",
-					"amount": 8,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinement_raw": {
-		"name": "\u7cbe\u6e96",
-		"template": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u5347<span style=\"color:#99FFFFFF\">{0}\u3002",
-		"params": [["24%"], ["30%"], ["36%"], ["42%"], ["48%"]]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u534724%\u3002"
-		},
-		{
-			"refinement": 2,
-			"desc": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u534730%\u3002"
-		},
-		{
-			"refinement": 3,
-			"desc": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u534736%\u3002"
-		},
-		{
-			"refinement": 4,
-			"desc": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u534742%\u3002"
-		},
-		{
-			"refinement": 5,
-			"desc": "\u91dd\u5c0d\u8981\u5bb3\u9020\u6210\u7684\u50b7\u5bb3\u63d0\u534748%\u3002"
-		}
-	],
-	"pictures": {
-		"icon": "Weapon/SharpshootersOath/Icon.webp"
-	}
+  "id": "SharpshootersOath",
+  "name": "神射手之誓",
+  "description": "據說曾屬於技藝高強的射手，是一把上好的弓。因為散發出強烈的氣息，難以用於狩獵。",
+  "rarity": 3,
+  "type": "弓",
+  "domain": "塞西莉亞苗圃",
+  "passive": "精準",
+  "bonus": "針對要害造成的傷害提升24%/30%/36%/42%/48%。",
+  "stats": {
+    "primary": "基礎攻擊力",
+    "secondary": "暴擊傷害",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 34.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 34.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 38.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 38.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 42.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 42.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 46.9
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 39,
+        "secondary": 10.2
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 94,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 113,
+        "secondary": 18
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 169,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 189,
+        "secondary": 26.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 216,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 236,
+        "secondary": 30.4
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 263,
+        "secondary": 34.5
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 282,
+        "secondary": 34.5
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 309,
+        "secondary": 38.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 329,
+        "secondary": 38.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 355,
+        "secondary": 42.7
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 375,
+        "secondary": 42.7
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 401,
+        "secondary": 46.9
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsMilkTooth",
+          "name": "凜風奔狼的始齔",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "史萊姆凝液",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凜風奔狼的裂齒",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "史萊姆凝液",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凜風奔狼的裂齒",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "史萊姆清",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凜風奔狼的斷牙",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "史萊姆清",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凜風奔狼的斷牙",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "史萊姆原漿",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "BorealWolfsNostalgia",
+          "name": "凜風奔狼的懷鄉",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "史萊姆原漿",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 5000,
+      "materials": [
+        {
+          "id": "BorealWolfsMilkTooth",
+          "name": "凜風奔狼的始齔",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 2,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "史萊姆凝液",
+          "amount": 1,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凜風奔狼的裂齒",
+          "amount": 2,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineBranch",
+          "name": "地脈的舊枝",
+          "amount": 8,
+          "rarity": 2
+        },
+        {
+          "id": "SlimeCondensate",
+          "name": "史萊姆凝液",
+          "amount": 5,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 15000,
+      "materials": [
+        {
+          "id": "BorealWolfsCrackedTooth",
+          "name": "凜風奔狼的裂齒",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 4,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "史萊姆清",
+          "amount": 4,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凜風奔狼的斷牙",
+          "amount": 2,
+          "rarity": 4
+        },
+        {
+          "id": "DeadLeyLineLeaves",
+          "name": "地脈的枯葉",
+          "amount": 8,
+          "rarity": 3
+        },
+        {
+          "id": "SlimeSecretions",
+          "name": "史萊姆清",
+          "amount": 6,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 25000,
+      "materials": [
+        {
+          "id": "BorealWolfsBrokenFang",
+          "name": "凜風奔狼的斷牙",
+          "amount": 4,
+          "rarity": 4
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 6,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "史萊姆原漿",
+          "amount": 4,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "BorealWolfsNostalgia",
+          "name": "凜風奔狼的懷鄉",
+          "amount": 3,
+          "rarity": 5
+        },
+        {
+          "id": "LeyLineSprout",
+          "name": "地脈的新芽",
+          "amount": 12,
+          "rarity": 4
+        },
+        {
+          "id": "SlimeConcentrate",
+          "name": "史萊姆原漿",
+          "amount": 8,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "針對要害造成的傷害提升24%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "針對要害造成的傷害提升30%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "針對要害造成的傷害提升36%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "針對要害造成的傷害提升42%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "針對要害造成的傷害提升48%。"
+    },
+    {
+      "refinement": 1,
+      "desc": "針對要害造成的傷害提升24%。"
+    },
+    {
+      "refinement": 2,
+      "desc": "針對要害造成的傷害提升30%。"
+    },
+    {
+      "refinement": 3,
+      "desc": "針對要害造成的傷害提升36%。"
+    },
+    {
+      "refinement": 4,
+      "desc": "針對要害造成的傷害提升42%。"
+    },
+    {
+      "refinement": 5,
+      "desc": "針對要害造成的傷害提升48%。"
+    }
+  ],
+  "pictures": {
+    "icon": "Weapon/SharpshootersOath/Icon.webp"
+  },
+  "refinementRaw": {
+    "name": "精準",
+    "template": "針對要害造成的傷害提升<span style=\"color:#99FFFFFF\">{0}</span>。",
+    "params": [
+      [
+        "24%"
+      ],
+      [
+        "30%"
+      ],
+      [
+        "36%"
+      ],
+      [
+        "42%"
+      ],
+      [
+        "48%"
+      ],
+      [
+        "24%"
+      ],
+      [
+        "30%"
+      ],
+      [
+        "36%"
+      ],
+      [
+        "42%"
+      ],
+      [
+        "48%"
+      ]
+    ]
+  },
+  "version": "5.0"
 }

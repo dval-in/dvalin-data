@@ -11,12 +11,64 @@
     "weapon": "其他武器",
     "faction": [
       "魔物",
+      "丘丘人",
+      "魔物",
       "丘丘人"
     ],
     "source": null,
     "cardType": "角色牌"
   },
   "skills": [
+    {
+      "id": "StrikingStaff",
+      "name": "法杖敲击",
+      "desc": "造成1点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ThunderclapTotem",
+      "name": "轰雷图腾",
+      "desc": "造成2点雷元素伤害，在敌方场上生成唤雷法杖。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderstrikeHex",
+      "name": "落雷术",
+      "desc": "造成5点雷元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
     {
       "id": "StrikingStaff",
       "name": "法杖敲击",

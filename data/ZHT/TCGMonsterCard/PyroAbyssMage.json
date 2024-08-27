@@ -1,82 +1,169 @@
 {
-	"id": "PyroAbyssMage",
-	"shareid": 5301,
-	"name": "火深淵法師",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 6,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "火元素",
-		"weapon": "其他武器",
-		"faction": ["魔物"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Flamewave",
-			"name": "炎波",
-			"desc": "造成1點<span style=\"color:#FF9999FF\">火元素傷害。",
-			"skilltag": ["普通攻擊"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "無色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlazingVisage",
-			"name": "灼面的祭法",
-			"desc": "造成3點<span style=\"color:#FF9999FF\">火元素傷害。",
-			"skilltag": ["元素戰技"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "RiteOfTheMoltenEruption",
-			"name": "熔焰地湧之儀",
-			"desc": "造成7點<span style=\"color:#FF9999FF\">火元素傷害。",
-			"skilltag": ["元素爆發"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "PyroShield",
-			"name": "火元素護罩",
-			"desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">火元素護罩。",
-			"skilltag": ["被動技能"],
-			"points": []
-		},
-		{
-			"id": "AegisOfTheAbyss",
-			"name": "深淵加護",
-			"desc": "【被動】護罩破碎的情況下，使用技能後：重新附屬<span style=\"color:#FFFFFFFF\">火元素護罩。",
-			"skilltag": ["被動技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "PyroAbyssMage",
+  "shareid": 5301,
+  "name": "火深淵法師",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Flamewave",
+      "name": "炎波",
+      "desc": "造成1點火元素傷害。",
+      "skilltag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingVisage",
+      "name": "灼面的祭法",
+      "desc": "造成3點火元素傷害。",
+      "skilltag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfTheMoltenEruption",
+      "name": "熔焰地湧之儀",
+      "desc": "造成7點火元素傷害。",
+      "skilltag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PyroShield",
+      "name": "火元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬火元素護罩。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "深淵加護",
+      "desc": "【被動】護罩破碎的情況下，使用技能後：重新附屬火元素護罩。",
+      "skilltag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "Flamewave",
+      "name": "炎波",
+      "desc": "造成1點火元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingVisage",
+      "name": "灼面的祭法",
+      "desc": "造成3點火元素傷害。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfTheMoltenEruption",
+      "name": "熔焰地湧之儀",
+      "desc": "造成7點火元素傷害。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PyroShield",
+      "name": "火元素護罩",
+      "desc": "【被動】戰鬥開始時，初始附屬火元素護罩。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "深淵加護",
+      "desc": "【被動】護罩破碎的情況下，使用技能後：重新附屬火元素護罩。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 5301
 }

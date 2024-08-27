@@ -1,89 +1,171 @@
 {
-	"id": "MaguuKenki",
-	"shareid": 58,
-	"name": "Maguu Kenki",
-	"title": "กลไกสารพัดนึก - Maguu Kenki",
-	"desc": "ทุกวันนี้ ยังคงยึดติดอยู่ในสถานที่ที่เหตุกรรมถูกสะบั้น",
-	"attributes": {
-		"hp": 28,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุลม",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["มอนสเตอร์"],
-		"talentCard": {
-			"id": "TranscendentAutomaton",
-			"name": "Transcendent Automaton"
-		},
-		"source": "ได้รับหลังจากเอาชนะ Maguu Kenki ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-		"character": {
-			"id": "MaguuKenki",
-			"name": "Maguu Kenki"
-		}
-	},
-	"skills": [
-		{
-			"id": "Ichimonji",
-			"name": "Ichimonji",
-			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "ธาตุลม",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "BlusteringBlade",
-			"name": "Blustering Blade",
-			"desc": "เรียก <span style=\"color:#FFFFFFFF\">Shadowsword: Lone Gale",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "ธาตุลม",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FrostyAssault",
-			"name": "Frosty Assault",
-			"desc": "เรียก <span style=\"color:#FFFFFFFF\">Shadowsword: Galloping Frost",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "PseudoTenguSweeper",
-			"name": "Pseudo Tengu Sweeper",
-			"desc": "สร้าง<span style=\"color:#80FFD7FF\">ความเสียหายลม 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ <span style=\"color:#FFFFFFFF\">Shadowsword ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Anemo",
-					"type": "ธาตุลม",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "MaguuKenki",
+  "shareid": 58,
+  "name": "Maguu Kenki",
+  "title": "กลไกสารพัดนึก - Maguu Kenki",
+  "desc": "ทุกวันนี้ ยังคงยึดติดอยู่ในสถานที่ที่เหตุกรรมถูกสะบั้น",
+  "attributes": {
+    "hp": 28,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุลม",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์",
+      "มอนสเตอร์"
+    ],
+    "talentCard": {
+      "id": "TranscendentAutomaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Maguu Kenki ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "MaguuKenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "Ichimonji",
+      "name": "Ichimonji",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlusteringBlade",
+      "name": "Blustering Blade",
+      "desc": "เรียก Shadowsword: Lone Gale",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostyAssault",
+      "name": "Frosty Assault",
+      "desc": "เรียก Shadowsword: Galloping Frost",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PseudoTenguSweeper",
+      "name": "Pseudo Tengu Sweeper",
+      "desc": "สร้างความเสียหายลม 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ Shadowsword ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Ichimonji",
+      "name": "Ichimonji",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlusteringBlade",
+      "name": "Blustering Blade",
+      "desc": "เรียก Shadowsword: Lone Gale",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostyAssault",
+      "name": "Frosty Assault",
+      "desc": "เรียก Shadowsword: Galloping Frost",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PseudoTenguSweeper",
+      "name": "Pseudo Tengu Sweeper",
+      "desc": "สร้างความเสียหายลม 4 หน่วย และทำให้เกิดเอฟเฟกต์ของสิ่งอัญเชิญ Shadowsword ทั้งหมดของฝ่ายเรา (ไม่ลดจำนวนครั้งที่สามารถใช้ได้)",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 58
 }

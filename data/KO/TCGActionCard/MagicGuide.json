@@ -1,29 +1,44 @@
 {
-	"id": "MagicGuide",
-	"shareid": 121,
-	"name": "마도 서론",
-	"title": "첨벙첨벙 찌릿찌릿·마도 서론",
-	"desc": "《마도 서론》의 12차 판본.\\n오류와 누락이 일부 존재하지만, 이 책은 현재 가장 권위 있는 마도학 입문 지침서다",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">캐릭터가 주는 피해+1pt",
-	"attributes": {
-		"cost": 2,
-		"costType": "동일한 원소",
-		"cardType": "장비 카드",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "동일한 원소",
-				"count": 2
-			}
-		],
-		"source": "시작 카드 덱에서 획득",
-		"tags": ["무기", "법구"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">캐릭터가 주는 피해+1pt(<span style=\"color:#FFFFFFFF\">「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)"
-		}
-	],
-	"version": "4.4"
+  "id": "MagicGuide",
+  "shareid": 121,
+  "name": "마도 서론",
+  "title": "첨벙첨벙 찌릿찌릿·마도 서론",
+  "desc": "《마도 서론》의 12차 판본.\\n오류와 누락이 일부 존재하지만, 이 책은 현재 가장 권위 있는 마도학 입문 지침서다",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">캐릭터가 주는 피해+1pt</span>",
+  "attributes": {
+    "cost": 2,
+    "costType": "동일한 원소",
+    "cardType": "장비 카드",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "동일한 원소",
+        "count": 2
+      },
+      {
+        "id": "MatchingElement",
+        "type": "동일한 원소",
+        "count": 2
+      }
+    ],
+    "source": "시작 카드 덱에서 획득",
+    "tags": [
+      "무기",
+      "법구",
+      "무기",
+      "법구"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "캐릭터가 주는 피해+1pt(「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)"
+    },
+    {
+      "name": "",
+      "desc": "캐릭터가 주는 피해+1pt (「법구」 캐릭터만 장착 가능. 캐릭터는 「무기」를 1개만 장착할 수 있다)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 121
 }

@@ -1,76 +1,141 @@
 {
-	"id": "FatuiCryoCicinMage",
-	"shareid": 52,
-	"name": "Fatui - Cryo Cicin Mage",
-	"title": "ม่านหมอกจุติ - Cryo Cicin Mage",
-	"desc": "Cicin จะไม่มีวันทอดทิ้งเธอ อย่างน้อยก็ตลอดเวลาที่ Mist Grass ยังคงอยู่",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุน้ำแข็ง",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "CicinsColdGlare",
-			"name": "Cicin's Cold Glare"
-		},
-		"source": "ได้รับหลังจากเอาชนะ Fatui - Cryo Cicin Mage ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-		"character": {
-			"id": "FatuiCryoCicinMage",
-			"name": "Fatui Cryo Cicin Mage"
-		}
-	},
-	"skills": [
-		{
-			"id": "CicinIcicle",
-			"name": "Cicin Icicle",
-			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MistySummons",
-			"name": "Misty Summons",
-			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Cryo Cicin",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BlizzardBranchBlossom",
-			"name": "Blizzard, Branch, Blossom",
-			"desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง 5 หน่วย ทำให้ตัวละครนี้<span style=\"color:#99FFFFFF\">ติดสถานะธาตุน้ำแข็ง และสร้าง <span style=\"color:#FFFFFFFF\">Flowing Cicin Shield",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "ธาตุน้ำแข็ง",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiCryoCicinMage",
+  "shareid": 52,
+  "name": "Fatui - Cryo Cicin Mage",
+  "title": "ม่านหมอกจุติ - Cryo Cicin Mage",
+  "desc": "Cicin จะไม่มีวันทอดทิ้งเธอ อย่างน้อยก็ตลอดเวลาที่ Mist Grass ยังคงอยู่",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Fatui - Cryo Cicin Mage ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Cicin Icicle",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Misty Summons",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และเรียก Cryo Cicin",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Blizzard, Branch, Blossom",
+      "desc": "สร้างความเสียหายน้ำแข็ง 5 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำแข็ง และสร้าง Flowing Cicin Shield",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CicinIcicle",
+      "name": "Cicin Icicle",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Misty Summons",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และเรียก Cryo Cicin",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Blizzard, Branch, Blossom",
+      "desc": "สร้างความเสียหายน้ำแข็ง 5 หน่วย ทำให้ตัวละครนี้ติดสถานะธาตุน้ำแข็ง และสร้าง Flowing Cicin Shield",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 52
 }

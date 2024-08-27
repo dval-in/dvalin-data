@@ -1,62 +1,121 @@
 {
-	"id": "HydroSlime",
-	"shareid": 3204,
-	"name": "Hydro Slime",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุน้ำ",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["มอนสเตอร์"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "Bounce",
-			"name": "Bounce",
-			"desc": "จะสร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 1 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "Slam",
-			"name": "Slam",
-			"desc": "จะสร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ 4 หน่วย",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "ธาตุน้ำ",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ElementalSedimentationHydro",
-			"name": "Elemental Sedimentation: Hydro",
-			"desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">สิ่งมีชีวิตธาตุ: น้ำ",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "HydroSlime",
+  "shareid": 3204,
+  "name": "Hydro Slime",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์",
+      "มอนสเตอร์"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "Bounce",
+      "desc": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Slam",
+      "desc": "จะสร้างความเสียหายน้ำ 4 หน่วย",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ สิ่งมีชีวิตธาตุ: น้ำ",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "Bounce",
+      "name": "Bounce",
+      "desc": "จะสร้างความเสียหายน้ำ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "Slam",
+      "desc": "จะสร้างความเสียหายน้ำ 4 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ สิ่งมีชีวิตธาตุ: น้ำ",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3204
 }

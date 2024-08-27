@@ -1,75 +1,151 @@
 {
-	"id": "EremiteStoneEnchanter",
-	"shareid": 3606,
-	"name": "Goldbrigade – Felszauberer",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Figurenkarte",
-		"energy": 2,
-		"element": "Geo",
-		"weapon": "Andere Waffen",
-		"faction": ["Goldbrigade"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "TripleGeosmash",
-			"name": "Dreifache Felsschläge",
-			"desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH.",
-			"skilltag": ["Standardangriff"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Würfel (beliebig)",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SplitrockSlam",
-			"name": "Felssplitterhagel",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH.",
-			"skilltag": ["Elementarfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousSpiritUnleashedGeo",
-			"name": "Freilassung des Geists – Geo",
-			"desc": "Verursacht 3 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH, erschafft 1 <span style=\"color:#FFFFFFFF\">Geist – Felsechse.",
-			"skilltag": ["Spezialfähigkeit"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "Geo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Aufladung",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpiritOfOmensPower",
-			"name": "Dämonische Kraft des Geistes",
-			"desc": "Passiv – Erhält nach Erleiden von SCH selbst 1 Pkt. Aufladung, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
-			"skilltag": ["Passive Fähigkeit"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "EremiteStoneEnchanter",
+  "shareid": 3606,
+  "name": "Goldbrigade – Felszauberer",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Goldbrigade",
+      "Goldbrigade"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TripleGeosmash",
+      "name": "Dreifache Felsschläge",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skilltag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Felssplitterhagel",
+      "desc": "Verursacht 3 Pkt. Geo-SCH.",
+      "skilltag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Freilassung des Geists – Geo",
+      "desc": "Verursacht 3 Pkt. Geo-SCH, erschafft 1 Geist – Felsechse.",
+      "skilltag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Dämonische Kraft des Geistes",
+      "desc": "Passiv – Erhält nach Erleiden von SCH selbst 1 Pkt. Aufladung, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
+      "skilltag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "TripleGeosmash",
+      "name": "Dreifache Felsschläge",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Felssplitterhagel",
+      "desc": "Verursacht 3 Pkt. Geo-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Freilassung des Geists – Geo",
+      "desc": "Verursacht 3 Pkt. Geo-SCH, erschafft 1 Geist – Felsechse.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Dämonische Kraft des Geistes",
+      "desc": "Passiv – Erhält nach Erleiden von SCH selbst 1 Pkt. Aufladung, wenn diese Figur nicht mehr als 7 LP hat (max. 1-mal pro Duell).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3606
 }

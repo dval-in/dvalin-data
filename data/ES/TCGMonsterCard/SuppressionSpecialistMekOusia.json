@@ -1,75 +1,151 @@
 {
-	"id": "SuppressionSpecialistMekOusia",
-	"shareid": 3308,
-	"name": "Mecaespecialista Inhibidor - Ousía",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de personaje",
-		"energy": 2,
-		"element": "Pyro",
-		"weapon": "Otras armas",
-		"faction": ["Monstruo"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "ShortrangeSnapFire",
-			"name": "Fuego cercano",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Dado indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SpreadFire",
-			"name": "Disparo emboscador",
-			"desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro, así como <span style=\"color:#FFFFFFFF\">1 pt. de <span style=\"color:#FFFFFFFF\">Daño Penetrante contra todos los enemigos en reserva.",
-			"skilltag": ["Habilidad Elemental"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombinedFire",
-			"name": "Disparo combinado",
-			"desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro y <span style=\"color:#FFFFFFFF\">prepara las habilidades <span style=\"color:#FFFFFFFF\">Disparo combinado: Combo ligero y <span style=\"color:#FFFFFFFF\">Disparo combinado: Perforación pesada respectivamente.",
-			"skilltag": ["Habilidad Definitiva"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Dados Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energía",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ArkheOusia",
-			"name": "Energía ousía",
-			"desc": "<span style=\"color:#FFFFFFFF\">Tras recibir daño cargado de arjé: pneuma, este personaje entra en <span style=\"color:#FFFFFFFF\">estado desactivado y <span style=\"color:#FFFFFFFF\">no puede usar habilidades hasta el fin de la ronda actual.",
-			"skilltag": ["Habilidad pasiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "SuppressionSpecialistMekOusia",
+  "shareid": 3308,
+  "name": "Mecaespecialista Inhibidor - Ousía",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo",
+      "Monstruo"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "Fuego cercano",
+      "desc": "Inflige 1 pt. de Daño Pyro.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "Disparo emboscador",
+      "desc": "Inflige 1 pt. de Daño Pyro, así como 1 pt. de Daño Penetrante contra todos los enemigos en reserva.",
+      "skilltag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "Disparo combinado",
+      "desc": "Inflige 2 pts. de Daño Pyro y prepara las habilidades Disparo combinado: Combo ligero y Disparo combinado: Perforación pesada respectivamente.",
+      "skilltag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energía ousía",
+      "desc": "Tras recibir daño cargado de arjé: pneuma, este personaje entra en estado desactivado y no puede usar habilidades hasta el fin de la ronda actual.",
+      "skilltag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "Fuego cercano",
+      "desc": "Inflige 1 pt. de Daño Pyro.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "Disparo emboscador",
+      "desc": "Inflige 1 pt. de Daño Pyro, así como 1 pt. de Daño Penetrante contra todos los enemigos en reserva.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "Disparo combinado",
+      "desc": "Inflige 2 pts. de Daño Pyro y prepara las habilidades Disparo combinado: Combo ligero y Disparo combinado: Perforación pesada respectivamente.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Energía ousía",
+      "desc": "Tras recibir daño cargado de arjé: pneuma, este personaje entra en estado desactivado y no puede usar habilidades hasta el fin de la ronda actual.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3308
 }

@@ -1,77 +1,142 @@
 {
-	"id": "Yoimiya",
-	"shareid": 21,
-	"name": "Yoimiya",
-	"title": "\"Frolicking Flames\" Yoimiya",
-	"desc": "Kapten dan Pelopor Tim Naganohara untuk Kompetisi Hanamizaka ke-11.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Kartu Karakter",
-		"energy": 3,
-		"element": "Pyro",
-		"weapon": "Bow",
-		"faction": ["Inazuma"],
-		"talentCard": {
-			"id": "NaganoharaMeteorSwarm",
-			"name": "Naganohara Meteor Swarm"
-		},
-		"source": "Didapatkan setelah mengundang Yoimiya ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
-		"character": {
-			"id": "Yoimiya",
-			"name": "Yoimiya",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "FireworkFlareup",
-			"name": "Firework Flare-Up",
-			"desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "NiwabiFiredance",
-			"name": "Niwabi Fire-Dance",
-			"desc": "Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Niwabi Enshou. (Skill ini tidak memberikan Energy)",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 1
-				}
-			]
-		},
-		{
-			"id": "RyuukinSaxifrage",
-			"name": "Ryuukin Saxifrage",
-			"desc": "Mengakibatkan 3 poin <span style=\"color:#FF9999FF\">Pyro DMG dan menciptakan <span style=\"color:#FFFFFFFF\">Aurous Blaze.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Pyro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Yoimiya",
+  "shareid": 21,
+  "name": "Yoimiya",
+  "title": "\"Frolicking Flames\" Yoimiya",
+  "desc": "Kapten dan Pelopor Tim Naganohara untuk Kompetisi Hanamizaka ke-11.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Kartu Karakter",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Bow",
+    "faction": [
+      "Inazuma",
+      "Inazuma"
+    ],
+    "talentCard": {
+      "id": "NaganoharaMeteorSwarm",
+      "name": "Naganohara Meteor Swarm"
+    },
+    "source": "Didapatkan setelah mengundang Yoimiya ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+    "character": {
+      "id": "Yoimiya",
+      "name": "Yoimiya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FireworkFlareup",
+      "name": "Firework Flare-Up",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Niwabi Fire-Dance",
+      "desc": "Karakter ini memperoleh status Niwabi Enshou. (Skill ini tidak memberikan Energy)",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Ryuukin Saxifrage",
+      "desc": "Mengakibatkan 3 poin Pyro DMG dan menciptakan Aurous Blaze.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FireworkFlareup",
+      "name": "Firework Flare-Up",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NiwabiFiredance",
+      "name": "Niwabi Fire-Dance",
+      "desc": "Karakter ini memperoleh status Niwabi Enshou. (Skill ini tidak memberikan Energy)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "RyuukinSaxifrage",
+      "name": "Ryuukin Saxifrage",
+      "desc": "Mengakibatkan 3 poin Pyro DMG dan menciptakan Aurous Blaze.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 21
 }

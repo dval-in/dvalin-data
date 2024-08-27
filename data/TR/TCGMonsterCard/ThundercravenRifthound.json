@@ -12,6 +12,7 @@
     "weapon": "Diğer Silahlar",
     "faction": [
       "Canavar",
+      "Canavar",
       "Canavar"
     ],
     "source": null
@@ -77,6 +78,70 @@
       "name": "Element Yutan",
       "desc": "(Pasif) Savaş başladığında bu karakter Element Yutan kazanır.",
       "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "CankeringClaws",
+      "name": "Yaralayan Pençeler",
+      "desc": "1 Elektrik Hasarı verir ve rakibinin tarafında 1 Aşınma oluşturur.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Aşındırıcı Elektrik Kristali",
+      "desc": "2 Elektrik Hasarı verir ve rakibinin tarafında 1 Aşınma oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Doyumsuz Isırık",
+      "desc": "6 Elektrik Hasarı verir ve rakibinin tarafında 1 Aşınma oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Element Yutan",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yutan kazanır.",
+      "skillTag": [
         "Pasif Beceri"
       ],
       "points": []

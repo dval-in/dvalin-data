@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherHydrogunnerLegionnaire",
-	"shareid": 3203,
-	"name": "Застрельщик Фатуи: Гидро бомбардир",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 3,
-		"element": "Гидро",
-		"weapon": "Прочее",
-		"faction": ["Фатуи"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SkilledCharge",
-			"name": "Искусный удар",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CurativeBullet",
-			"name": "Целительная бомба",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 2 ед. Восстанавливает 1 HP у 2 неактивных персонажей.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElementalBuffHydro",
-			"name": "Элементальное улучшение: Гидро",
-			"desc": "Наносит <span style=\"color:#80C0FFFF\">Гидро урон, 3 ед. Персонаж получает <span style=\"color:#FFFFFFFF\">Элементальная форма: Гидро.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Гидро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Военные припасы",
-			"desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
-			"skilltag": ["Пассивный навык"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherHydrogunnerLegionnaire",
+  "shareid": 3203,
+  "name": "Застрельщик Фатуи: Гидро бомбардир",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 3,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": [
+      "Фатуи",
+      "Фатуи"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SkilledCharge",
+      "name": "Искусный удар",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Целительная бомба",
+      "desc": "Наносит Гидро урон, 2 ед. Восстанавливает 1 HP у 2 неактивных персонажей.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Элементальное улучшение: Гидро",
+      "desc": "Наносит Гидро урон, 3 ед. Персонаж получает Элементальная форма: Гидро.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Военные припасы",
+      "desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
+      "skilltag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    },
+    {
+      "id": "SkilledCharge",
+      "name": "Искусный удар",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Целительная бомба",
+      "desc": "Наносит Гидро урон, 2 ед. Восстанавливает 1 HP у 2 неактивных персонажей.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Элементальное улучшение: Гидро",
+      "desc": "Наносит Гидро урон, 3 ед. Персонаж получает Элементальная форма: Гидро.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Военные припасы",
+      "desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3203
 }

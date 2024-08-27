@@ -1,28 +1,43 @@
 {
-	"id": "AThousandFloatingDreams",
-	"shareid": 124,
-	"name": "Sonhos Flutuantes das Mil Noites",
-	"title": "Canção das Mil Noites - Sonhos Flutuantes das Mil Noites",
-	"desc": "\"Existe um tempo predefinido para todas as coisas viverem e morrerem, assim como o ciclo infinito da noite e dia.\"\\n\"Que a história contida nesta lâmpada lhe traga sonhos esperançosos.\"",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">O personagem causa +1 de Dano.<span style=\"color:#FFFFFFFF\">Quando seu personagem desencadear uma Reação Elemental: Causa +1 de Dano. (Duas vezes por Turno)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Elementos Correspondentes",
-		"cardType": "Carta de Equipamento",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Elementos Correspondentes",
-				"count": 3
-			}
-		],
-		"tags": ["Arma", "Catalisador"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">O personagem causa +1 de Dano.<span style=\"color:#FFFFFFFF\">Quando seu personagem desencadeia uma Reação Elemental: Causa +1 de Dano. (Duas vezes por Turno)(<span style=\"color:#FFFFFFFF\">Apenas personagens usuários de Catalisador podem equipar esta carta. Um personagem pode equipar até 1 Arma)"
-		}
-	],
-	"version": "4.4"
+  "id": "AThousandFloatingDreams",
+  "shareid": 124,
+  "name": "Sonhos Flutuantes das Mil Noites",
+  "title": "Canção das Mil Noites - Sonhos Flutuantes das Mil Noites",
+  "desc": "\"Existe um tempo predefinido para todas as coisas viverem e morrerem, assim como o ciclo infinito da noite e dia.\"\\n\"Que a história contida nesta lâmpada lhe traga sonhos esperançosos.\"",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">O personagem causa +1 de Dano</span>.<br/><span style=\"color:#FFFFFFFF\">Quando seu personagem desencadear uma Reação Elemental:</span> Causa +1 de Dano. (Duas vezes por Turno)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Elementos Correspondentes",
+    "cardType": "Carta de Equipamento",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Elementos Correspondentes",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Elementos Correspondentes",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arma",
+      "Catalisador",
+      "Arma",
+      "Catalisador"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "O personagem causa +1 de Dano.Quando seu personagem desencadeia uma Reação Elemental: Causa +1 de Dano. (Duas vezes por Turno)(Apenas personagens usuários de Catalisador podem equipar esta carta. Um personagem pode equipar até 1 Arma)"
+    },
+    {
+      "name": "",
+      "desc": "O personagem causa +1 de Dano. Quando seu personagem desencadeia uma Reação Elemental: Causa +1 de Dano. (Duas vezes por Turno) (Apenas personagens usuários de Catalisador podem equipar esta carta. Um personagem pode equipar até 1 Arma)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 124
 }

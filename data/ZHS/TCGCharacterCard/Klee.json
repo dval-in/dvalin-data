@@ -1,77 +1,142 @@
 {
-	"id": "Klee",
-	"shareid": 22,
-	"name": "可莉",
-	"title": "逃跑的太阳·可莉",
-	"desc": "每一次抽牌，都可能带来一次「爆炸性惊喜」。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "火元素",
-		"weapon": "法器",
-		"faction": ["蒙德"],
-		"talentCard": {
-			"id": "PoundingSurprise",
-			"name": "Pounding Surprise"
-		},
-		"source": "在猫尾酒馆中邀请可莉进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Klee",
-			"name": "Klee",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "Kaboom",
-			"name": "砰砰",
-			"desc": "造成1点<span style=\"color:#FF9999FF\">火元素伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "JumpyDumpty",
-			"name": "蹦蹦炸弹",
-			"desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害，本角色附属<span style=\"color:#FFFFFFFF\">爆裂火花。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SparksNSplash",
-			"name": "轰轰火花",
-			"desc": "造成3点<span style=\"color:#FF9999FF\">火元素伤害，在对方场上生成<span style=\"color:#FFFFFFFF\">轰轰火花。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "火元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Klee",
+  "shareid": 22,
+  "name": "可莉",
+  "title": "逃跑的太阳·可莉",
+  "desc": "每一次抽牌，都可能带来一次「爆炸性惊喜」。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "法器",
+    "faction": [
+      "蒙德",
+      "蒙德"
+    ],
+    "talentCard": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "在猫尾酒馆中邀请可莉进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "砰砰",
+      "desc": "造成1点火元素伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "蹦蹦炸弹",
+      "desc": "造成3点火元素伤害，本角色附属爆裂火花。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "轰轰火花",
+      "desc": "造成3点火元素伤害，在对方场上生成轰轰火花。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Kaboom",
+      "name": "砰砰",
+      "desc": "造成1点火元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "蹦蹦炸弹",
+      "desc": "造成3点火元素伤害，本角色附属爆裂火花。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "轰轰火花",
+      "desc": "造成3点火元素伤害，在对方场上生成轰轰火花。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 22
 }

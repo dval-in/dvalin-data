@@ -1,73 +1,138 @@
 {
-	"id": "Razor",
-	"shareid": 27,
-	"name": "Рэйзор",
-	"title": "«Инстинкт стаи» Рэйзор",
-	"desc": "«Карты, сложно...»\\n«Но... Друзья...»",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Электро",
-		"weapon": "Двуручное",
-		"faction": ["Мондштадт"],
-		"source": "Награда за приглашение Рэйзора в «Кошкин хвост» и победу над ним в Дружеской дуэли",
-		"character": {
-			"id": "Razor",
-			"name": "Razor",
-			"rarity": 4
-		}
-	},
-	"skills": [
-		{
-			"id": "SteelFang",
-			"name": "Стальной клык",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 2 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Электро",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "ClawAndThunder",
-			"name": "Гром и когти",
-			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон, 3 ед.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Электро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "LightningFang",
-			"name": "Громовой клык",
-			"desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон, 3 ед. Персонаж получает <span style=\"color:#FFFFFFFF\">Грозовой волк.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Electro",
-					"type": "Электро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Razor",
+  "shareid": 27,
+  "name": "Рэйзор",
+  "title": "«Инстинкт стаи» Рэйзор",
+  "desc": "«Карты, сложно...»\\n«Но... Друзья...»",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Двуручное",
+    "faction": [
+      "Мондштадт",
+      "Мондштадт"
+    ],
+    "source": "Награда за приглашение Рэйзора в «Кошкин хвост» и победу над ним в Дружеской дуэли",
+    "character": {
+      "id": "Razor",
+      "name": "Razor",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SteelFang",
+      "name": "Стальной клык",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ClawAndThunder",
+      "name": "Гром и когти",
+      "desc": "Наносит Электро урон, 3 ед.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningFang",
+      "name": "Громовой клык",
+      "desc": "Наносит Электро урон, 3 ед. Персонаж получает Грозовой волк.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SteelFang",
+      "name": "Стальной клык",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ClawAndThunder",
+      "name": "Гром и когти",
+      "desc": "Наносит Электро урон, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningFang",
+      "name": "Громовой клык",
+      "desc": "Наносит Электро урон, 3 ед. Персонаж получает Грозовой волк.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 27
 }

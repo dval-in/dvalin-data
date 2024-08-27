@@ -1,28 +1,43 @@
 {
-	"id": "TulaytullahsRemembrance",
-	"shareid": 300,
-	"name": "Mémoire de Tulaytullah",
-	"title": "Larme d'azur révolue : Mémoire de Tulaytullah",
-	"desc": "« À la fin, tous les hommes, bons et mauvais, furent également broyés par la meule du destin. Tandis que la cité de saphir s'effondra et perdit ses couleurs, comme des larmes taries par un soleil brûlant. »",
-	"inPlayDescription": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.<span style=\"color:#FFFFFFFF\">Lorsque le personnage utilise une <span style=\"color:#FFFFFFFF\">attaque chargée : Dépense 1 dé d'<span style=\"color:#FFFFFFFF\">élément neutre en moins. (Déclenché 2 fois maximum par manche)",
-	"attributes": {
-		"cost": 3,
-		"costType": "Élément identique",
-		"cardType": "Carte d'équipement",
-		"energy": [
-			{
-				"id": "MatchingElement",
-				"type": "Élément identique",
-				"count": 3
-			}
-		],
-		"tags": ["Arme", "Catalyseur"]
-	},
-	"skills": [
-		{
-			"name": "",
-			"desc": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.<span style=\"color:#FFFFFFFF\">Lorsque le personnage utilise une <span style=\"color:#FFFFFFFF\">attaque chargée : Dépense 1 dé d'<span style=\"color:#FFFFFFFF\">élément neutre en moins. (Déclenché 2 fois maximum par manche)(Peut uniquement être équipé par un personnage utilisant un <span style=\"color:#FFFFFFFF\">catalyseur, un personnage pouvant équiper au maximum 1 arme)"
-		}
-	],
-	"version": "4.4"
+  "id": "TulaytullahsRemembrance",
+  "shareid": 300,
+  "name": "Mémoire de Tulaytullah",
+  "title": "Larme d'azur révolue : Mémoire de Tulaytullah",
+  "desc": "« À la fin, tous les hommes, bons et mauvais, furent également broyés par la meule du destin. Tandis que la cité de saphir s'effondra et perdit ses couleurs, comme des larmes taries par un soleil brûlant. »",
+  "inPlayDescription": "<span style=\"color:#FFFFFFFF\">DGT infligés par le personnage +1.</span><br/><span style=\"color:#FFFFFFFF\">Lorsque le personnage utilise une <span style=\"color:#FFFFFFFF\">attaque chargée</span> : </span>Dépense 1 dé d'<span style=\"color:#FFFFFFFF\">élément neutre</span> en moins. (Déclenché 2 fois maximum par manche)",
+  "attributes": {
+    "cost": 3,
+    "costType": "Élément identique",
+    "cardType": "Carte d'équipement",
+    "energy": [
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      },
+      {
+        "id": "MatchingElement",
+        "type": "Élément identique",
+        "count": 3
+      }
+    ],
+    "tags": [
+      "Arme",
+      "Catalyseur",
+      "Arme",
+      "Catalyseur"
+    ]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "DGT infligés par le personnage +1.Lorsque le personnage utilise une attaque chargée : Dépense 1 dé d'élément neutre en moins. (Déclenché 2 fois maximum par manche)(Peut uniquement être équipé par un personnage utilisant un catalyseur, un personnage pouvant équiper au maximum 1 arme)"
+    },
+    {
+      "name": "",
+      "desc": "DGT infligés par le personnage +1. Lorsque le personnage utilise une attaque chargée : Dépense 1 dé d'élément neutre en moins. (Déclenché 2 fois maximum par manche) (Peut uniquement être équipé par un personnage utilisant un catalyseur, un personnage pouvant équiper au maximum 1 arme)"
+    }
+  ],
+  "version": "4.4",
+  "shareId": 300
 }

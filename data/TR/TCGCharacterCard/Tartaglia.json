@@ -12,6 +12,7 @@
     "weapon": "Yay",
     "faction": [
       "Fatui",
+      "Fatui",
       "Fatui"
     ],
     "talentCard": {
@@ -86,6 +87,70 @@
       "name": "Dalga Tutan",
       "desc": "(Pasif) Savaş başladığında bu karakter Menzilli Saldırı Duruşu kazanır. Bu karakterin kuşandığı Yakın Saldırı Duruşu sonlandığında Menzilli Saldırı Duruşu yeniden uygulanır.",
       "skilltag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "CuttingTorrent",
+      "name": "Keskin Sel",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "Kötülüğün Mirası: Dalgaların Öfkesi",
+      "desc": "Yakın Saldırı Duruşu durumuna geçer ve 2 Su Hasarı vererek hedef karaktere Dalga etkisi uygular.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "Yıkım: Yok Etme",
+      "desc": "Tartaglia, mevcut duruşuna göre farklı saldırılar gerçekleştirir. Menzilli Saldırı Duruşu - Yıkım Atışı: $[D__KEY__DAMAGE_5] Su Hasarı verir, 2 Enerji kazanır ve hedef karaktere Dalga uygular. Yakın Saldırı Duruşu - Yok Eden Işık: 7 Su Hasarı verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "Dalga Tutan",
+      "desc": "(Pasif) Savaş başladığında bu karakter Menzilli Saldırı Duruşu kazanır. Bu karaktere ekli olan Yakın Saldırı Duruşu sonlandığında Menzilli Saldırı Duruşu yeniden uygulanır.",
+      "skillTag": [
         "Pasif Beceri"
       ],
       "points": []

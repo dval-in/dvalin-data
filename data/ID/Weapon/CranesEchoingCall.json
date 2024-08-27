@@ -1,309 +1,568 @@
 {
-	"id": "CranesEchoingCall",
-	"name": "Crane's Echoing Call",
-	"description": "Kipas pusaka yang dibentuk dari giok yang murni, dipenuhi dengan aura Kekuatan Adeptus kuno.",
-	"rarity": 5,
-	"type": "Catalyst",
-	"domain": "Hidden Palace of Lianshan Formula",
-	"passive": "Cloudfall Axiom",
-	"bonus": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 28%/41%/54%/67%/80% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,5/2,75/3/3,25/3,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu.",
-	"stats": {
-		"primary": "Base ATK",
-		"secondary": "ATK%",
-		"levels": [
-			{
-				"ascension": 0,
-				"level": 1,
-				"primary": 49,
-				"secondary": 3.6
-			},
-			{
-				"ascension": 0,
-				"level": 20,
-				"primary": 145,
-				"secondary": 6.4
-			},
-			{
-				"ascension": 1,
-				"level": 20,
-				"primary": 176,
-				"secondary": 6.4
-			},
-			{
-				"ascension": 1,
-				"level": 40,
-				"primary": 286,
-				"secondary": 9.3
-			},
-			{
-				"ascension": 2,
-				"level": 40,
-				"primary": 317,
-				"secondary": 9.3
-			},
-			{
-				"ascension": 2,
-				"level": 50,
-				"primary": 374,
-				"secondary": 10.7
-			},
-			{
-				"ascension": 3,
-				"level": 50,
-				"primary": 406,
-				"secondary": 10.7
-			},
-			{
-				"ascension": 3,
-				"level": 60,
-				"primary": 464,
-				"secondary": 12.2
-			},
-			{
-				"ascension": 4,
-				"level": 60,
-				"primary": 495,
-				"secondary": 12.2
-			},
-			{
-				"ascension": 4,
-				"level": 70,
-				"primary": 555,
-				"secondary": 13.6
-			},
-			{
-				"ascension": 5,
-				"level": 70,
-				"primary": 586,
-				"secondary": 13.6
-			},
-			{
-				"ascension": 5,
-				"level": 80,
-				"primary": 648,
-				"secondary": 15.1
-			},
-			{
-				"ascension": 6,
-				"level": 80,
-				"primary": 679,
-				"secondary": 15.1
-			},
-			{
-				"ascension": 6,
-				"level": 90,
-				"primary": 741,
-				"secondary": 16.5
-			}
-		]
-	},
-	"ascensions": [
-		{
-			"ascension": 0,
-			"level": 20,
-			"materials": []
-		},
-		{
-			"ascension": 1,
-			"level": 40,
-			"cost": 10000,
-			"materials": [
-				{
-					"id": "MistVeiledLeadElixir",
-					"name": "Mist Veiled Lead Elixir",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "FeatheryFin",
-					"name": "Feathery Fin",
-					"amount": 5,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "Divining Scroll",
-					"amount": 3,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 2,
-			"level": 50,
-			"cost": 20000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "Mist Veiled Mercury Elixir",
-					"amount": 5,
-					"rarity": 3
-				},
-				{
-					"id": "FeatheryFin",
-					"name": "Feathery Fin",
-					"amount": 18,
-					"rarity": 2
-				},
-				{
-					"id": "DiviningScroll",
-					"name": "Divining Scroll",
-					"amount": 12,
-					"rarity": 1
-				}
-			]
-		},
-		{
-			"ascension": 3,
-			"level": 60,
-			"cost": 30000,
-			"materials": [
-				{
-					"id": "MistVeiledMercuryElixir",
-					"name": "Mist Veiled Mercury Elixir",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "LunarFin",
-					"name": "Lunar Fin",
-					"amount": 9,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Sealed Scroll",
-					"amount": 9,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 4,
-			"level": 70,
-			"cost": 45000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "Mist Veiled Gold Elixir",
-					"amount": 5,
-					"rarity": 4
-				},
-				{
-					"id": "LunarFin",
-					"name": "Lunar Fin",
-					"amount": 18,
-					"rarity": 3
-				},
-				{
-					"id": "SealedScroll",
-					"name": "Sealed Scroll",
-					"amount": 14,
-					"rarity": 2
-				}
-			]
-		},
-		{
-			"ascension": 5,
-			"level": 80,
-			"cost": 55000,
-			"materials": [
-				{
-					"id": "MistVeiledGoldElixir",
-					"name": "Mist Veiled Gold Elixir",
-					"amount": 9,
-					"rarity": 4
-				},
-				{
-					"id": "ChasmlightFin",
-					"name": "Chasmlight Fin",
-					"amount": 14,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Forbidden Curse Scroll",
-					"amount": 9,
-					"rarity": 3
-				}
-			]
-		},
-		{
-			"ascension": 6,
-			"level": 90,
-			"cost": 65000,
-			"materials": [
-				{
-					"id": "MistVeiledPrimoElixir",
-					"name": "Mist Veiled Primo Elixir",
-					"amount": 6,
-					"rarity": 5
-				},
-				{
-					"id": "ChasmlightFin",
-					"name": "Chasmlight Fin",
-					"amount": 27,
-					"rarity": 4
-				},
-				{
-					"id": "ForbiddenCurseScroll",
-					"name": "Forbidden Curse Scroll",
-					"amount": 18,
-					"rarity": 3
-				}
-			]
-		}
-	],
-	"refinementRaw": {
-		"name": "Cloudfall Axiom",
-		"template": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan <span style=\"color:#99FFFFFF\">{0} DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan <span style=\"color:#99FFFFFF\">{1} Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu.",
-		"params": [
-			{
-				"0": "28%",
-				"1": "2,5"
-			},
-			{
-				"0": "41%",
-				"1": "2,75"
-			},
-			{
-				"0": "54%",
-				"1": "3"
-			},
-			{
-				"0": "67%",
-				"1": "3,25"
-			},
-			{
-				"0": "80%",
-				"1": "3,5"
-			}
-		]
-	},
-	"refinements": [
-		{
-			"refinement": 1,
-			"desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 28% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
-		},
-		{
-			"refinement": 2,
-			"desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 41% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,75 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
-		},
-		{
-			"refinement": 3,
-			"desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 54% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
-		},
-		{
-			"refinement": 4,
-			"desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 67% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3,25 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
-		},
-		{
-			"refinement": 5,
-			"desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 80% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
-		}
-	],
-	"version": "4.4",
-	"pictures": {
-		"icon": "Weapon/CranesEchoingCall/Icon.webp"
-	}
+  "id": "CranesEchoingCall",
+  "name": "Crane's Echoing Call",
+  "description": "Kipas pusaka yang dibentuk dari giok yang murni, dipenuhi dengan aura Kekuatan Adeptus kuno.",
+  "rarity": 5,
+  "type": "Catalyst",
+  "domain": "Hidden Palace of Lianshan Formula",
+  "passive": "Cloudfall Axiom",
+  "bonus": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 28%/41%/54%/67%/80% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,5/2,75/3/3,25/3,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu.",
+  "stats": {
+    "primary": "Base ATK",
+    "secondary": "ATK%",
+    "levels": [
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 3.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 16.5
+      },
+      {
+        "ascension": 0,
+        "level": 1,
+        "primary": 49,
+        "secondary": 3.6
+      },
+      {
+        "ascension": 0,
+        "level": 20,
+        "primary": 145,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 20,
+        "primary": 176,
+        "secondary": 6.4
+      },
+      {
+        "ascension": 1,
+        "level": 40,
+        "primary": 286,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 40,
+        "primary": 317,
+        "secondary": 9.3
+      },
+      {
+        "ascension": 2,
+        "level": 50,
+        "primary": 374,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 50,
+        "primary": 406,
+        "secondary": 10.7
+      },
+      {
+        "ascension": 3,
+        "level": 60,
+        "primary": 464,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 60,
+        "primary": 495,
+        "secondary": 12.2
+      },
+      {
+        "ascension": 4,
+        "level": 70,
+        "primary": 555,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 70,
+        "primary": 586,
+        "secondary": 13.6
+      },
+      {
+        "ascension": 5,
+        "level": 80,
+        "primary": 648,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 80,
+        "primary": 679,
+        "secondary": 15.1
+      },
+      {
+        "ascension": 6,
+        "level": 90,
+        "primary": 741,
+        "secondary": 16.5
+      }
+    ]
+  },
+  "ascensions": [
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "Mist Veiled Lead Elixir",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "Feathery Fin",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mist Veiled Mercury Elixir",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "Feathery Fin",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mist Veiled Mercury Elixir",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LunarFin",
+          "name": "Lunar Fin",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Mist Veiled Gold Elixir",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "LunarFin",
+          "name": "Lunar Fin",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Mist Veiled Gold Elixir",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "Chasmlight Fin",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "Mist Veiled Primo Elixir",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "Chasmlight Fin",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 0,
+      "level": 20,
+      "materials": []
+    },
+    {
+      "ascension": 1,
+      "level": 40,
+      "cost": 10000,
+      "materials": [
+        {
+          "id": "MistVeiledLeadElixir",
+          "name": "Mist Veiled Lead Elixir",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "Feathery Fin",
+          "amount": 5,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "amount": 3,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 2,
+      "level": 50,
+      "cost": 20000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mist Veiled Mercury Elixir",
+          "amount": 5,
+          "rarity": 3
+        },
+        {
+          "id": "FeatheryFin",
+          "name": "Feathery Fin",
+          "amount": 18,
+          "rarity": 2
+        },
+        {
+          "id": "DiviningScroll",
+          "name": "Divining Scroll",
+          "amount": 12,
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "ascension": 3,
+      "level": 60,
+      "cost": 30000,
+      "materials": [
+        {
+          "id": "MistVeiledMercuryElixir",
+          "name": "Mist Veiled Mercury Elixir",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "LunarFin",
+          "name": "Lunar Fin",
+          "amount": 9,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "amount": 9,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 4,
+      "level": 70,
+      "cost": 45000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Mist Veiled Gold Elixir",
+          "amount": 5,
+          "rarity": 4
+        },
+        {
+          "id": "LunarFin",
+          "name": "Lunar Fin",
+          "amount": 18,
+          "rarity": 3
+        },
+        {
+          "id": "SealedScroll",
+          "name": "Sealed Scroll",
+          "amount": 14,
+          "rarity": 2
+        }
+      ]
+    },
+    {
+      "ascension": 5,
+      "level": 80,
+      "cost": 55000,
+      "materials": [
+        {
+          "id": "MistVeiledGoldElixir",
+          "name": "Mist Veiled Gold Elixir",
+          "amount": 9,
+          "rarity": 4
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "Chasmlight Fin",
+          "amount": 14,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 9,
+          "rarity": 3
+        }
+      ]
+    },
+    {
+      "ascension": 6,
+      "level": 90,
+      "cost": 65000,
+      "materials": [
+        {
+          "id": "MistVeiledPrimoElixir",
+          "name": "Mist Veiled Primo Elixir",
+          "amount": 6,
+          "rarity": 5
+        },
+        {
+          "id": "ChasmlightFin",
+          "name": "Chasmlight Fin",
+          "amount": 27,
+          "rarity": 4
+        },
+        {
+          "id": "ForbiddenCurseScroll",
+          "name": "Forbidden Curse Scroll",
+          "amount": 18,
+          "rarity": 3
+        }
+      ]
+    }
+  ],
+  "refinementRaw": {
+    "name": "Cloudfall Axiom",
+    "template": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan <span style=\"color:#99FFFFFF\">{0}</span> DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan <span style=\"color:#99FFFFFF\">{1}</span> Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu.",
+    "params": [
+      [
+        "28%",
+        "2,5"
+      ],
+      [
+        "41%",
+        "2,75"
+      ],
+      [
+        "54%",
+        "3"
+      ],
+      [
+        "67%",
+        "3,25"
+      ],
+      [
+        "80%",
+        "3,5"
+      ]
+    ]
+  },
+  "refinements": [
+    {
+      "refinement": 1,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 28% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 2,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 41% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,75 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 3,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 54% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 4,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 67% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3,25 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 5,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 80% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 1,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 28% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 2,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 41% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 2,75 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 3,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 54% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 4,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 67% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3,25 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    },
+    {
+      "refinement": 5,
+      "desc": "Setelah Plunging Attack Karakter yang mengenakan mengenai musuh, akan meningkatkan 80% DMG yang diakibatkan oleh Plunging Attack seluruh anggota party di sekitar selama 20 detik; Saat Plunging Attack anggota party di sekitar mengenai musuh, akan memulihkan 3,5 Energy bagi Karakter yang mengenakan. Pemulihan Energy yang bisa didapatkan dengan cara ini adalah sekali setiap 0,7 detik. Saat Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran, pemulihan Energy dengan cara ini tetap bisa terpicu."
+    }
+  ],
+  "version": "4.4",
+  "pictures": {
+    "icon": "Weapon/CranesEchoingCall/Icon.webp"
+  }
 }

@@ -1,90 +1,172 @@
 {
-	"id": "Zhongli",
-	"shareid": 44,
-	"name": "Zhongli",
-	"title": "ผู้พเนจรแห่งแดนมนุษย์ - Zhongli",
-	"desc": "หินหยกที่งดงาม ส่องสว่างทั่วทั้งจักรวาล ฉายแสงดั่งดวงดาว ไร้ผู้เทียมทาน",
-	"attributes": {
-		"hp": 10,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 3,
-		"element": "ธาตุหิน",
-		"weapon": "หอก",
-		"faction": ["Liyue"],
-		"talentCard": {
-			"id": "DominanceOfEarth",
-			"name": "Dominance of Earth"
-		},
-		"source": "ได้รับหลังจากเชิญ Zhongli ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
-		"character": {
-			"id": "Zhongli",
-			"name": "Zhongli",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "RainOfStone",
-			"name": "Rain of Stone",
-			"desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "DominusLapidis",
-			"name": "Dominus Lapidis",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 1 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Stone Stele",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DominusLapidisStrikingStone",
-			"name": "Dominus Lapidis: Striking Stone",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 3 หน่วย เรียก <span style=\"color:#FFFFFFFF\">Stone Stele และทำให้เกิด <span style=\"color:#FFFFFFFF\">Jade Shield",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 5
-				}
-			]
-		},
-		{
-			"id": "PlanetBefall",
-			"name": "Planet Befall",
-			"desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ <span style=\"color:#FFFFFFFF\">Petrification",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Geo",
-					"type": "ธาตุหิน",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "Zhongli",
+  "shareid": 44,
+  "name": "Zhongli",
+  "title": "ผู้พเนจรแห่งแดนมนุษย์ - Zhongli",
+  "desc": "หินหยกที่งดงาม ส่องสว่างทั่วทั้งจักรวาล ฉายแสงดั่งดวงดาว ไร้ผู้เทียมทาน",
+  "attributes": {
+    "hp": 10,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุหิน",
+    "weapon": "หอก",
+    "faction": [
+      "Liyue",
+      "Liyue"
+    ],
+    "talentCard": {
+      "id": "DominanceOfEarth",
+      "name": "Dominance of Earth"
+    },
+    "source": "ได้รับหลังจากเชิญ Zhongli ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "Zhongli",
+      "name": "Zhongli",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "RainOfStone",
+      "name": "Rain of Stone",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DominusLapidis",
+      "name": "Dominus Lapidis",
+      "desc": "สร้างความเสียหายหิน 1 หน่วย และเรียก Stone Stele",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DominusLapidisStrikingStone",
+      "name": "Dominus Lapidis: Striking Stone",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย เรียก Stone Stele และทำให้เกิด Jade Shield",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "PlanetBefall",
+      "name": "Planet Befall",
+      "desc": "สร้างความเสียหายหิน 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Petrification",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RainOfStone",
+      "name": "Rain of Stone",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DominusLapidis",
+      "name": "Dominus Lapidis",
+      "desc": "สร้างความเสียหายหิน 1 หน่วย และเรียก Stone Stele",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DominusLapidisStrikingStone",
+      "name": "Dominus Lapidis: Striking Stone",
+      "desc": "สร้างความเสียหายหิน 3 หน่วย เรียก Stone Stele และทำให้เกิด Jade Shield",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "PlanetBefall",
+      "name": "Planet Befall",
+      "desc": "สร้างความเสียหายหิน 4 หน่วย และทำให้ตัวละครเป้าหมายได้รับ Petrification",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 44
 }

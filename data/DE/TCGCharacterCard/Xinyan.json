@@ -10,6 +10,7 @@
     "element": "Pyro",
     "weapon": "Zweihänder",
     "faction": [
+      "Liyue",
       "Liyue"
     ],
     "source": "Nach einem gewonnenen „Duell – Nett“ mit Xinyan in der Taverne Zum Katzenschwanz zu erhalten.",
@@ -40,6 +41,61 @@
       "id": "SweepingFervor",
       "name": "Schlag in die Saiten",
       "desc": "Verursacht 2 Pkt. Pyro-SCH, dabei wird zufällig 1 Karte mit den höchsten ursprünglichen Elementarwürfelkosten abgeworfen, erschafft 1 Schild der Leidenschaft.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiffRevolution",
+      "name": "Refrain der Rebellion",
+      "desc": "Verursacht 3 Pkt. phys. SCH, fügt allen inaktiven Figuren deines Gegners 2 Pkt. durchdringenden SCH zu. Erschafft durchs Abwerfen aller Karten aus deiner Hand 1 Feierliche Flammen.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOnFire",
+      "name": "Tanz der Flammen",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SweepingFervor",
+      "name": "Schlag in die Saiten",
+      "desc": "Verursacht 2 Pkt. phys. SCH, dabei wird zufällig 1 Karte mit den höchsten ursprünglichen Elementarwürfelkosten abgeworfen, erschafft 1 Schild der Leidenschaft.",
       "skillTag": [
         "Elementarfähigkeit"
       ],

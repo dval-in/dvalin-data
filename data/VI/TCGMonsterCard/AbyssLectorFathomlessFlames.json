@@ -1,90 +1,177 @@
 {
-	"id": "AbyssLectorFathomlessFlames",
-	"shareid": 56,
-	"name": "Học Sĩ Vực Sâu - Uyên Hỏa",
-	"title": "Học Sĩ Vực Sâu - Uyên Hỏa",
-	"desc": "Điển chương hiển hiện, châm ngôn khuyên nhủ.",
-	"attributes": {
-		"hp": 6,
-		"cardType": "Thẻ Nhân Vật",
-		"energy": 2,
-		"element": "Nguyên Tố Hỏa",
-		"weapon": "Vũ Khí Khác",
-		"faction": ["Ma Vật"],
-		"talentCard": {
-			"id": "EmbersRekindled",
-			"name": "Embers Rekindled"
-		},
-		"source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Học Sĩ Vực Sâu - Uyên Hỏa",
-		"character": {
-			"id": "AbyssLectorFathomlessFlames",
-			"name": "Abyss Lector: Fathomless Flames"
-		}
-	},
-	"skills": [
-		{
-			"id": "FlameOfSalvation",
-			"name": "Ngọn Lửa Cứu Rỗi",
-			"desc": "Gây 1 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Tấn Công Thường"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Nguyên Tố Không Màu",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "SearingPrecept",
-			"name": "Châm Ngôn Rực Lửa",
-			"desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa.",
-			"skilltag": ["Kỹ Năng Nguyên Tố"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "OminousStar",
-			"name": "Điềm Báo Sao Băng",
-			"desc": "Gây 3 điểm <span style=\"color:#FF9999FF\">Sát Thương Nguyên Tố Hỏa, triệu hồi <span style=\"color:#FFFFFFFF\">Ám Hỏa Lư Tâm.",
-			"skilltag": ["Kỹ Năng Nộ"],
-			"points": [
-				{
-					"id": "Pyro",
-					"type": "Nguyên Tố Hỏa",
-					"count": 4
-				},
-				{
-					"id": "Energy",
-					"type": "Năng Lượng",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FieryRebirth",
-			"name": "Ngọn Lửa Tái Sinh",
-			"desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận <span style=\"color:#FFFFFFFF\">Ngọn Lửa Tái Sinh.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		},
-		{
-			"id": "ShieldOfSurgingFlame",
-			"name": "Lá Chắn Lửa Trào",
-			"desc": "(Bị động) Khi nhân vật này kích hoạt <span style=\"color:#FFFFFFFF\">Ngọn Lửa Tái Sinh: Sẽ áp dụng <span style=\"color:#FFFFFFFF\">Lá Chắn Lửa Trào.",
-			"skilltag": ["Kỹ Năng Bị Động"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "AbyssLectorFathomlessFlames",
+  "shareid": 56,
+  "name": "Học Sĩ Vực Sâu - Uyên Hỏa",
+  "title": "Học Sĩ Vực Sâu - Uyên Hỏa",
+  "desc": "Điển chương hiển hiện, châm ngôn khuyên nhủ.",
+  "attributes": {
+    "hp": 6,
+    "cardType": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Ma Vật"
+    ],
+    "talentCard": {
+      "id": "EmbersRekindled",
+      "name": "Embers Rekindled"
+    },
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu ở chỗ Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Học Sĩ Vực Sâu - Uyên Hỏa",
+    "character": {
+      "id": "AbyssLectorFathomlessFlames",
+      "name": "Abyss Lector: Fathomless Flames"
+    }
+  },
+  "skills": [
+    {
+      "id": "FlameOfSalvation",
+      "name": "Ngọn Lửa Cứu Rỗi",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Châm Ngôn Rực Lửa",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skilltag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Điềm Báo Sao Băng",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, triệu hồi Ám Hỏa Lư Tâm.",
+      "skilltag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Ngọn Lửa Tái Sinh",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Ngọn Lửa Tái Sinh.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShieldOfSurgingFlame",
+      "name": "Lá Chắn Lửa Trào",
+      "desc": "(Bị động) Khi nhân vật này kích hoạt Ngọn Lửa Tái Sinh: Sẽ áp dụng Lá Chắn Lửa Trào.",
+      "skilltag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "FlameOfSalvation",
+      "name": "Ngọn Lửa Cứu Rỗi",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingPrecept",
+      "name": "Châm Ngôn Rực Lửa",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousStar",
+      "name": "Điềm Báo Sao Băng",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Hỏa, triệu hồi Ám Hỏa Lư Tâm.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FieryRebirth",
+      "name": "Ngọn Lửa Tái Sinh",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Ngọn Lửa Tái Sinh.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ShieldOfSurgingFlame",
+      "name": "Lá Chắn Lửa Trào",
+      "desc": "(Bị động) Khi nhân vật này kích hoạt Ngọn Lửa Tái Sinh: Sẽ áp dụng Lá Chắn Lửa Trào.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 56
 }

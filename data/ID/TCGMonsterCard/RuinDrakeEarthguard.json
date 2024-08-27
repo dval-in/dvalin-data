@@ -1,77 +1,159 @@
 {
-	"id": "RuinDrakeEarthguard",
-	"shareid": 3005,
-	"name": "Ruin Drake: Earthguard",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Kartu Karakter",
-		"energy": 2,
-		"element": "Tidak ada tipe elemen",
-		"weapon": "Senjata Lain",
-		"faction": ["Monster"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "CloseExpulsion",
-			"name": "Close Expulsion",
-			"desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Normal Attack"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Elemen Tidak Selaras",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "SuddenCharge",
-			"name": "Sudden Charge",
-			"desc": "Mengakibatkan 3 poin <span style=\"color:#FFFFFFFF\">Physical DMG.",
-			"skilltag": ["Elemental Skill"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Elemen Sama",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "EnergySurge",
-			"name": "Energy Surge",
-			"desc": "Mengakibatkan 5 poin <span style=\"color:#FFFFFFFF\">Physical DMG. Jika Karakter ini telah menyerap kekuatan elemen, maka akan melepaskan elemen yang terserap dan mengakibatkan DMG +1. Selain itu, DMG juga akan diubah menjadi DMG jenis elemen yang diserap.",
-			"skilltag": ["Elemental Burst"],
-			"points": [
-				{
-					"id": "MatchingElement",
-					"type": "Elemen Sama",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energy",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "StandardArmor",
-			"name": "Standard Armor",
-			"desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Physical DMG yang diterima Karakter ini berkurang setengah. (Dibulatkan ke atas)",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		},
-		{
-			"id": "ElementalAbsorption",
-			"name": "Elemental Absorption",
-			"desc": "[Pasif] <span style=\"color:#FFFFFFFF\">Saat Karakter belum menyerap kekuatan elemen dan menerima DMG Elemental: Serap kekuatan elemen tersebut.Saat Karakter menerima DMG Elemental dengan jenis yang sama dengan elemen yang diserap, DMG akan berkurang setengah. (Dibulatkan ke atas)",
-			"skilltag": ["Passive Skill"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "RuinDrakeEarthguard",
+  "shareid": 3005,
+  "name": "Ruin Drake: Earthguard",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Kartu Karakter",
+    "energy": 2,
+    "element": "Tidak ada tipe elemen",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloseExpulsion",
+      "name": "Close Expulsion",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skilltag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Sudden Charge",
+      "desc": "Mengakibatkan 3 poin Physical DMG.",
+      "skilltag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Energy Surge",
+      "desc": "Mengakibatkan 5 poin Physical DMG. Jika Karakter ini telah menyerap kekuatan elemen, maka akan melepaskan elemen yang terserap dan mengakibatkan DMG +1. Selain itu, DMG juga akan diubah menjadi DMG jenis elemen yang diserap.",
+      "skilltag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standard Armor",
+      "desc": "[Pasif] Physical DMG yang diterima Karakter ini berkurang setengah. (Dibulatkan ke atas)",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Elemental Absorption",
+      "desc": "[Pasif] Saat Karakter belum menyerap kekuatan elemen dan menerima DMG Elemental: Serap kekuatan elemen tersebut.Saat Karakter menerima DMG Elemental dengan jenis yang sama dengan elemen yang diserap, DMG akan berkurang setengah. (Dibulatkan ke atas)",
+      "skilltag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "CloseExpulsion",
+      "name": "Close Expulsion",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Sudden Charge",
+      "desc": "Mengakibatkan 3 poin Physical DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Energy Surge",
+      "desc": "Mengakibatkan 5 poin Physical DMG. Jika Karakter ini telah menyerap kekuatan elemen, maka akan melepaskan elemen yang terserap dan mengakibatkan DMG +1. Selain itu, DMG juga akan diubah menjadi DMG jenis elemen yang diserap.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elemen Sama",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standard Armor",
+      "desc": "[Pasif] Physical DMG yang diterima Karakter ini berkurang setengah. (Dibulatkan ke atas)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Elemental Absorption",
+      "desc": "[Pasif] Saat Karakter belum menyerap kekuatan elemen dan menerima DMG Elemental: Serap kekuatan elemen tersebut. Saat Karakter menerima DMG Elemental dengan jenis yang sama dengan elemen yang diserap, DMG akan berkurang setengah. (Dibulatkan ke atas)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3005
 }

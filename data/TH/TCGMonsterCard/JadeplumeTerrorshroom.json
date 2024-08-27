@@ -1,83 +1,159 @@
 {
-	"id": "JadeplumeTerrorshroom",
-	"shareid": 60,
-	"name": "Jadeplume Terrorshroom",
-	"title": "ราชาเห็ด - Jadeplume Terrorshroom",
-	"desc": "เงี่ยหูฟังอย่างเงียบ ๆ คุณจะได้ยินเสียงฝีเท้าของราชาเห็ดที่ลาดตระเวนอาณาเขตในป่าอันเงียบสงบ...",
-	"attributes": {
-		"hp": 30,
-		"cardType": "การ์ดตัวละคร",
-		"energy": 2,
-		"element": "ธาตุไม้",
-		"weapon": "อาวุธอื่น ๆ",
-		"faction": ["มอนสเตอร์"],
-		"talentCard": {
-			"id": "ProliferatingSpores",
-			"name": "Proliferating Spores"
-		},
-		"source": "ได้รับหลังจากเอาชนะ Jadeplume Terrorshroom ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
-		"character": {
-			"id": "JadeplumeTerrorshroom",
-			"name": "Jadeplume Terrorshroom"
-		}
-	},
-	"skills": [
-		{
-			"id": "MajesticDance",
-			"name": "Majestic Dance",
-			"desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ 2 หน่วย",
-			"skilltag": ["โจมตีปกติ"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "ธาตุไม้",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "ธาตุไร้สี",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VolatileSporeCloud",
-			"name": "Volatile Spore Cloud",
-			"desc": "จะสร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้ 3 หน่วย",
-			"skilltag": ["สกิลธาตุ"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "ธาตุไม้",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "FeatherSpreading",
-			"name": "Feather Spreading",
-			"desc": "สร้าง<span style=\"color:#7EC236FF\">ความเสียหายไม้ 4 หน่วย และใช้ <span style=\"color:#FFFFFFFF\">Radical Vitality ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
-			"skilltag": ["ท่าไม้ตาย"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "ธาตุไม้",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "พลังงาน",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "RadicalVitality",
-			"name": "Radical Vitality",
-			"desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">Radical Vitality",
-			"skilltag": ["สกิลติดตัว"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "JadeplumeTerrorshroom",
+  "shareid": 60,
+  "name": "Jadeplume Terrorshroom",
+  "title": "ราชาเห็ด - Jadeplume Terrorshroom",
+  "desc": "เงี่ยหูฟังอย่างเงียบ ๆ คุณจะได้ยินเสียงฝีเท้าของราชาเห็ดที่ลาดตระเวนอาณาเขตในป่าอันเงียบสงบ...",
+  "attributes": {
+    "hp": 30,
+    "cardType": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไม้",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์",
+      "มอนสเตอร์"
+    ],
+    "talentCard": {
+      "id": "ProliferatingSpores",
+      "name": "Proliferating Spores"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Jadeplume Terrorshroom ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "JadeplumeTerrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "MajesticDance",
+      "name": "Majestic Dance",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skilltag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Volatile Spore Cloud",
+      "desc": "จะสร้างความเสียหายไม้ 3 หน่วย",
+      "skilltag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Feather Spreading",
+      "desc": "สร้างความเสียหายไม้ 4 หน่วย และใช้ Radical Vitality ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
+      "skilltag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Radical Vitality",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Radical Vitality",
+      "skilltag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "MajesticDance",
+      "name": "Majestic Dance",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "Volatile Spore Cloud",
+      "desc": "จะสร้างความเสียหายไม้ 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "Feather Spreading",
+      "desc": "สร้างความเสียหายไม้ 4 หน่วย และใช้ Radical Vitality ทุกชั้นที่มี โดยที่แต่ละชั้น จะทำให้ความเสียหายนี้ +1",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "Radical Vitality",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Radical Vitality",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 60
 }

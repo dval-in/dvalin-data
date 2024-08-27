@@ -1,75 +1,151 @@
 {
-	"id": "FatuiSkirmisherHydrogunnerLegionnaire",
-	"shareid": 3203,
-	"name": "Soldado dos Fatui - Guarda de Canhão Hydro",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta de Personagem",
-		"energy": 3,
-		"element": "Hydro",
-		"weapon": "Outras Armas",
-		"faction": ["Fatui"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "SkilledCharge",
-			"name": "Ataque Frontal Habilidoso",
-			"desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico.",
-			"skilltag": ["Ataque Normal"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "Elemento Indefinido",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "CurativeBullet",
-			"name": "Disparo de Cura",
-			"desc": "Causa 2 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro, cura 1 ponto de vida de 2 dos seus Personagens Inativos.",
-			"skilltag": ["Habilidade Elemental"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "ElementalBuffHydro",
-			"name": "Aumento Elemental - Hydro",
-			"desc": "Causa 3 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro, este personagem é afetado por <span style=\"color:#FFFFFFFF\">Armadura Elemental - Hydro.",
-			"skilltag": ["Supremo"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "Hydro",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Carga",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "CombatResupply",
-			"name": "Reabastecimento de Combate",
-			"desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
-			"skilltag": ["Habilidade Passiva"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiSkirmisherHydrogunnerLegionnaire",
+  "shareid": 3203,
+  "name": "Soldado dos Fatui - Guarda de Canhão Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta de Personagem",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SkilledCharge",
+      "name": "Ataque Frontal Habilidoso",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skilltag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Disparo de Cura",
+      "desc": "Causa 2 pontos de Dano Hydro, cura 1 ponto de vida de 2 dos seus Personagens Inativos.",
+      "skilltag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Aumento Elemental - Hydro",
+      "desc": "Causa 3 pontos de Dano Hydro, este personagem é afetado por Armadura Elemental - Hydro.",
+      "skilltag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skilltag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "SkilledCharge",
+      "name": "Ataque Frontal Habilidoso",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Disparo de Cura",
+      "desc": "Causa 2 pontos de Dano Hydro, cura 1 ponto de vida de 2 dos seus Personagens Inativos.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Aumento Elemental - Hydro",
+      "desc": "Causa 3 pontos de Dano Hydro, este personagem é afetado por Armadura Elemental - Hydro.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimento de Combate",
+      "desc": "(Passiva) No começo da batalha, este personagem recebe 2 pontos de Carga.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3203
 }

@@ -1,76 +1,141 @@
 {
-	"id": "FatuiCryoCicinMage",
-	"shareid": 52,
-	"name": "Maga Cicin di Cryo dei Fatui",
-	"title": "Maga Cicin di Cryo, Cicin della nebbia vuota",
-	"desc": "E finché l'Erbafosca persiste, i Cicin di Cryo non l'abbandoneranno.",
-	"attributes": {
-		"hp": 10,
-		"cardType": "Carta personaggio",
-		"energy": 3,
-		"element": "Cryo",
-		"weapon": "Altre armi",
-		"faction": ["Fatui"],
-		"talentCard": {
-			"id": "CicinsColdGlare",
-			"name": "Cicin's Cold Glare"
-		},
-		"source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Maga Cicin di Cryo in un duello amichevole",
-		"character": {
-			"id": "FatuiCryoCicinMage",
-			"name": "Fatui Cryo Cicin Mage"
-		}
-	},
-	"skills": [
-		{
-			"id": "CicinIcicle",
-			"name": "Stalattite Cicin",
-			"desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo.",
-			"skilltag": ["Attacco normale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "elemento indefinito",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "MistySummons",
-			"name": "Invocazioni offuscate",
-			"desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo, invoca <span style=\"color:#FFFFFFFF\">Cicin di Cryo.",
-			"skilltag": ["Abilità elementale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "BlizzardBranchBlossom",
-			"name": "Tormenta, ramo, fioritura",
-			"desc": "Infligge 5 <span style=\"color:#99FFFFFF\">DAN da Cryo, questo personaggio riceve <span style=\"color:#99FFFFFF\">Applicazione di Cryo e genera 1 <span style=\"color:#FFFFFFFF\">Scudo fluttuante Cicin.",
-			"skilltag": ["Tripudio elementale"],
-			"points": [
-				{
-					"id": "Cryo",
-					"type": "Cryo",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Energia",
-					"count": 3
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "FatuiCryoCicinMage",
+  "shareid": 52,
+  "name": "Maga Cicin di Cryo dei Fatui",
+  "title": "Maga Cicin di Cryo, Cicin della nebbia vuota",
+  "desc": "E finché l'Erbafosca persiste, i Cicin di Cryo non l'abbandoneranno.",
+  "attributes": {
+    "hp": 10,
+    "cardType": "Carta personaggio",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Fatui",
+      "Fatui"
+    ],
+    "talentCard": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Maga Cicin di Cryo in un duello amichevole",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Stalattite Cicin",
+      "desc": "Infligge 1 DAN da Cryo.",
+      "skilltag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Invocazioni offuscate",
+      "desc": "Infligge 1 DAN da Cryo, invoca Cicin di Cryo.",
+      "skilltag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Tormenta, ramo, fioritura",
+      "desc": "Infligge 5 DAN da Cryo, questo personaggio riceve Applicazione di Cryo e genera 1 Scudo fluttuante Cicin.",
+      "skilltag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CicinIcicle",
+      "name": "Stalattite Cicin",
+      "desc": "Infligge 1 DAN da Cryo.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Invocazioni offuscate",
+      "desc": "Infligge 1 DAN da Cryo, invoca Cicin di Cryo.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Tormenta, ramo, fioritura",
+      "desc": "Infligge 5 DAN da Cryo, questo personaggio riceve Applicazione di Cryo e genera 1 Scudo fluttuante Cicin.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 52
 }

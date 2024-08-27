@@ -12,6 +12,7 @@
     "weapon": "기타 무기",
     "faction": [
       "마물",
+      "마물",
       "마물"
     ],
     "talentCard": {
@@ -85,6 +86,70 @@
       "name": "진주 갑옷",
       "desc": "[패시브] 전투 시작 시, 본 캐릭터에게 원류바다 진주가 부착된다.",
       "skilltag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    },
+    {
+      "id": "TailSweep",
+      "name": "꼬리 부채질",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "춤추는 물고기 떼",
+      "desc": "번개 원소 피해를 3pt 준다. 본 캐릭터에게 이미 원류바다 진주가 부착되어 있다면 해당 효과의 사용 가능 횟수가 1회 증가한다. (턴당 1회)",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "원류바다 고대 번개",
+      "desc": "번개 원소 피해를 1pt 주고 본 캐릭터에게 원류바다 진주를 부착한 뒤 공명 진주를 소환한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "진주 갑옷",
+      "desc": "[패시브] 전투 시작 시, 본 캐릭터에게 원류바다 진주가 부착된다.",
+      "skillTag": [
         "패시브 스킬"
       ],
       "points": []

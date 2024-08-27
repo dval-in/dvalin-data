@@ -1,0 +1,94 @@
+{
+  "id": "TaintedHydroPhantasm",
+  "shareId": 3209,
+  "name": "浊水幻灵",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null,
+    "cardType": "角色牌"
+  },
+  "skills": [
+    {
+      "id": "TaintedWaterStrike",
+      "name": "浊水轻击",
+      "desc": "造成1点水元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpoutingWaves",
+      "name": "连波喷吐",
+      "desc": "造成2点水元素伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TaintedWaterSurge",
+      "name": "浊水强迸",
+      "desc": "造成4点水元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "元素沉积·水",
+      "desc": "【被动】战斗开始时，初始附属元素生命·水。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "TaintedWatersChangeTheirShape",
+      "name": "浊水变化",
+      "desc": "【被动】不会被冻结； 本角色生命值不多于5时造成的伤害+2； 本角色使用技能后：如果本角色生命值至少为6，则对所有敌方后台角色造成1点穿透伤害。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

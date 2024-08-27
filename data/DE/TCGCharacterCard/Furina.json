@@ -10,6 +10,7 @@
     "element": "Hydro",
     "weapon": "Einhänder",
     "faction": [
+      "Fontaine",
       "Fontaine"
     ],
     "source": "Nach einem gewonnenen „Duell – Nett“ mit Furina in der Taverne Zum Katzenschwanz zu erhalten.",
@@ -55,6 +56,70 @@
       "id": "LetThePeopleRejoice",
       "name": "Möge das Volk frohlocken",
       "desc": "Verursacht 2 Pkt. Hydro-SCH, erschafft 1 Universelle Schwelgerei.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "Arkhe: Thron der Geistlichkeit und Weltlichkeit",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 Thron der Geistlichkeit und Weltlichkeit auf deiner Hand.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    },
+    {
+      "id": "SoloistsSolicitation",
+      "name": "Einladung der Solistin",
+      "desc": "Verursacht 2 Pkt. phys. SCH. 1-mal pro Runde: Erschafft, wenn du die Karte Thron der Geistlichkeit und Weltlichkeit nicht auf der Hand hast, 1 Thron der Geistlichkeit und Weltlichkeit auf deiner Hand.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "Salon solitaire",
+      "desc": "Furina befindet sich derzeit im Modus „Arkhe – Ousia“: Erschafft Salonmitglieder. (Furina erschafft stattdessen 1 Sängerin der Ströme, wenn sie sich im Modus „Arkhe – Pneuma“ befindet.)",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "Möge das Volk frohlocken",
+      "desc": "Verursacht 2 Pkt. phys. SCH, erschafft 1 Universelle Schwelgerei.",
       "skillTag": [
         "Spezialfähigkeit"
       ],

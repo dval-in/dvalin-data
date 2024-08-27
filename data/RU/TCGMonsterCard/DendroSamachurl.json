@@ -1,63 +1,125 @@
 {
-	"id": "DendroSamachurl",
-	"shareid": 3703,
-	"name": "Дендро шамачурл",
-	"title": null,
-	"desc": null,
-	"attributes": {
-		"hp": 4,
-		"cardType": "Карты персонажей",
-		"energy": 2,
-		"element": "Дендро",
-		"weapon": "Прочее",
-		"faction": ["Монстр", "Хиличурл"],
-		"source": null
-	},
-	"skills": [
-		{
-			"id": "StaffStrike",
-			"name": "Удар посохом",
-			"desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон, 1 ед.",
-			"skilltag": ["Обычная атака"],
-			"points": [
-				{
-					"id": "UnalignedElement",
-					"type": "Неопределённый элемент",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "VenomousVines",
-			"name": "Разрастание лозы",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 1 ед. Создаёт <span style=\"color:#FFFFFFFF\">Лоза противнику.",
-			"skilltag": ["Элементальный навык"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "DendroField",
-			"name": "Область Дендро",
-			"desc": "Наносит <span style=\"color:#7EC236FF\">Дендро урон, 5 ед.",
-			"skilltag": ["Взрыв стихии"],
-			"points": [
-				{
-					"id": "Dendro",
-					"type": "Дендро",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "Энергия",
-					"count": 2
-				}
-			]
-		}
-	],
-	"version": "4.4"
+  "id": "DendroSamachurl",
+  "shareid": 3703,
+  "name": "Дендро шамачурл",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "cardType": "Карты персонажей",
+    "energy": 2,
+    "element": "Дендро",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Хиличурл",
+      "Монстр",
+      "Хиличурл"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Удар посохом",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skilltag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VenomousVines",
+      "name": "Разрастание лозы",
+      "desc": "Наносит Дендро урон, 1 ед. Создаёт Лоза противнику.",
+      "skilltag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DendroField",
+      "name": "Область Дендро",
+      "desc": "Наносит Дендро урон, 5 ед.",
+      "skilltag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StaffStrike",
+      "name": "Удар посохом",
+      "desc": "Наносит Физический урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VenomousVines",
+      "name": "Разрастание лозы",
+      "desc": "Наносит Дендро урон, 1 ед. Создаёт Лоза противнику.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DendroField",
+      "name": "Область Дендро",
+      "desc": "Наносит Дендро урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Дендро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.4",
+  "shareId": 3703
 }

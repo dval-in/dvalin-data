@@ -1,0 +1,77 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 4209,
+  "name": "Hilichurl reietto di Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Hilichurl"
+    ],
+    "source": null,
+    "cardType": "Carta personaggio"
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "Falce vorticante",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "Fendente delle maree impetuose",
+      "desc": "Infligge 3 DAN da Hydro. Se il personaggio avversario è affetto da Congelamento o Prigione di bolle di nebbia, questo personaggio ottiene 1 punto Energia (una volta per turno).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "Assalto delle bolle fluttuanti",
+      "desc": "Infligge 4 DAN da Hydro. Associa Melmoso bolla di nebbia a questo personaggio. (I personaggi equipaggiati con Melmoso bolla di nebbia possono usare la tecnica: Tattiche di battaglia di bolle.)",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

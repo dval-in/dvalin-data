@@ -1,84 +1,160 @@
 {
-	"id": "Tartaglia",
-	"shareid": 12,
-	"name": "达达利亚",
-	"title": "「公子」·达达利亚",
-	"desc": "牌局亦为战场，能者方可争先。",
-	"attributes": {
-		"hp": 10,
-		"cardType": "角色牌",
-		"energy": 3,
-		"element": "水元素",
-		"weapon": "弓",
-		"faction": ["愚人众"],
-		"talentCard": {
-			"id": "AbyssalMayhemHydrospout",
-			"name": "Abyssal Mayhem: Hydrospout"
-		},
-		"source": "在猫尾酒馆中邀请达达利亚进行对局，在友好对局难度中获得胜利后获取",
-		"character": {
-			"id": "Tartaglia",
-			"name": "Tartaglia",
-			"rarity": 5
-		}
-	},
-	"skills": [
-		{
-			"id": "CuttingTorrent",
-			"name": "断雨",
-			"desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害。",
-			"skilltag": ["普通攻击"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 1
-				},
-				{
-					"id": "UnalignedElement",
-					"type": "无色元素",
-					"count": 2
-				}
-			]
-		},
-		{
-			"id": "FoulLegacyRagingTide",
-			"name": "魔王武装·狂澜",
-			"desc": "切换为<span style=\"color:#FFFFFFFF\">近战状态，然后造成2点<span style=\"color:#80C0FFFF\">水元素伤害，并使目标角色附属<span style=\"color:#FFFFFFFF\">断流。",
-			"skilltag": ["元素战技"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "HavocObliteration",
-			"name": "极恶技·尽灭闪",
-			"desc": "依据<span style=\"color:#FFFFFFFF\">达达利亚当前所处的状态，进行不同的攻击：<span style=\"color:#FFFFFFFF\">远程状态·魔弹一闪：造成$[D__KEY__DAMAGE_5]点<span style=\"color:#80C0FFFF\">水元素伤害，返还2点<span style=\"color:#FFFFFFFF\">充能，目标角色附属<span style=\"color:#FFFFFFFF\">断流。<span style=\"color:#FFFFFFFF\">近战状态·尽灭水光：造成7点<span style=\"color:#80C0FFFF\">水元素伤害。",
-			"skilltag": ["元素爆发"],
-			"points": [
-				{
-					"id": "Hydro",
-					"type": "水元素",
-					"count": 3
-				},
-				{
-					"id": "Energy",
-					"type": "充能",
-					"count": 3
-				}
-			]
-		},
-		{
-			"id": "TideWithholder",
-			"name": "遏浪",
-			"desc": "【被动】战斗开始时，初始附属<span style=\"color:#FFFFFFFF\">远程状态。角色所附属的<span style=\"color:#FFFFFFFF\">近战状态效果结束时，重新附属<span style=\"color:#FFFFFFFF\">远程状态。",
-			"skilltag": ["被动技能"],
-			"points": []
-		}
-	],
-	"version": "4.4"
+  "id": "Tartaglia",
+  "shareid": 12,
+  "name": "达达利亚",
+  "title": "「公子」·达达利亚",
+  "desc": "牌局亦为战场，能者方可争先。",
+  "attributes": {
+    "hp": 10,
+    "cardType": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "弓",
+    "faction": [
+      "愚人众",
+      "愚人众"
+    ],
+    "talentCard": {
+      "id": "AbyssalMayhemHydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "在猫尾酒馆中邀请达达利亚进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CuttingTorrent",
+      "name": "断雨",
+      "desc": "造成2点物理伤害。",
+      "skilltag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "魔王武装·狂澜",
+      "desc": "切换为近战状态，然后造成2点水元素伤害，并使目标角色附属断流。",
+      "skilltag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "极恶技·尽灭闪",
+      "desc": "依据达达利亚当前所处的状态，进行不同的攻击：远程状态·魔弹一闪：造成$[D__KEY__DAMAGE_5]点水元素伤害，返还2点充能，目标角色附属断流。近战状态·尽灭水光：造成7点水元素伤害。",
+      "skilltag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "遏浪",
+      "desc": "【被动】战斗开始时，初始附属远程状态。角色所附属的近战状态效果结束时，重新附属远程状态。",
+      "skilltag": [
+        "被动技能"
+      ],
+      "points": []
+    },
+    {
+      "id": "CuttingTorrent",
+      "name": "断雨",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "魔王武装·狂澜",
+      "desc": "切换为近战状态，然后造成2点水元素伤害，并使目标角色附属断流。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "极恶技·尽灭闪",
+      "desc": "依据达达利亚当前所处的状态，进行不同的攻击： 远程状态·魔弹一闪：造成$[D__KEY__DAMAGE_5]点水元素伤害，返还2点充能，目标角色附属断流。 近战状态·尽灭水光：造成7点水元素伤害。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "遏浪",
+      "desc": "【被动】战斗开始时，初始附属远程状态。 角色所附属的近战状态效果结束时，重新附属远程状态。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4",
+  "shareId": 12
 }
