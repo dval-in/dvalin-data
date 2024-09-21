@@ -1,0 +1,85 @@
+{
+  "id": "Dori",
+  "shareId": 35,
+  "name": "Дори",
+  "title": "«Сокровище сада снов» Дори",
+  "desc": "Чем больше моры, тем веселее!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Электро",
+    "weapon": "Двуручное",
+    "faction": [
+      "Сумеру"
+    ],
+    "talent_card": {
+      "id": "DiscretionarySupplement",
+      "name": "Discretionary Supplement"
+    },
+    "source": "Награда за приглашение Дори в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Dori",
+      "name": "Dori",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "MarvelousSworddanceModified",
+      "name": "Чарующий танец мечей (модифицированный)",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritwardingLampTroubleshooterCannon",
+      "name": "Лампа усмирения духов: Устраняющая проблемы пушка",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 2 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Снаряд гарантийного обслуживания</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AlcazarzaraysExactitude",
+      "name": "Дотошность Алькасар-сарая",
+      "desc": "Наносит <span style=\"color:#FFACFFFF\">Электро урон</span>, 1 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Джинн</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Электро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.2"
+}
