@@ -14,5 +14,5 @@ export type WeaponSecondaryMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	version?: string;
+	version: string;
 };

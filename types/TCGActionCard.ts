@@ -1,27 +1,28 @@
-export type ActionCardSkill = {
+export interface ActionCardSkill {
 	name: string;
 	desc: string;
-};
-type Entity = {
+}
+interface Entity {
 	id: string;
 	name: string;
 	rarity: number;
-};
-type Energy = {
+}
+interface Energy {
 	id: string;
 	type: string;
 	count: number;
-};
-export type TCGActionCard = {
+}
+export interface TCGActionCard {
 	id: string;
+	shareId: number;
 	name: string;
 	title: string;
 	desc: string;
 	in_play_description: string;
 	attributes: {
 		cost: number;
-		costType: string;
-		cardType: string;
+		cost_type: string;
+		card_type: string;
 		energy: Energy[];
 		source: string;
 		artifact?: Entity;
@@ -31,5 +32,5 @@ export type TCGActionCard = {
 		tags: string[];
 	};
 	skills: ActionCardSkill[];
-	version?: string;
-};
+	version: string;
+}

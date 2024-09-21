@@ -9,5 +9,5 @@ export type Fish = {
 		name: string;
 		rarity: number;
 	};
-	version?: string;
+	version: string;
 };

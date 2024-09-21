@@ -16,7 +16,7 @@ export type Ingredient = {
 	processing?: Item[];
 	recipes?: Recipe[];
 	source?: string[];
-	version?: string;
+	version: string;
 	craft?: Item[];
 	location?: string;
 };

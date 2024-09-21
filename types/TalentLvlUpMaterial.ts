@@ -15,8 +15,7 @@ export type TalentLvlUpMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	convert?: Item[][];
 	domain?: string;
 	days?: string[];
-	version?: string;
+	version: string;
 };

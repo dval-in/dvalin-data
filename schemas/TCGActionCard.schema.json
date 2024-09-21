@@ -23,6 +23,9 @@
         "id": {
           "type": "string"
         },
+        "shareId": {
+          "type": "number"
+        },
         "name": {
           "type": "string"
         },
@@ -41,10 +44,10 @@
             "cost": {
               "type": "number"
             },
-            "costType": {
+            "cost_type": {
               "type": "string"
             },
-            "cardType": {
+            "card_type": {
               "type": "string"
             },
             "energy": {
@@ -162,8 +165,8 @@
           },
           "required": [
             "cost",
-            "costType",
-            "cardType",
+            "cost_type",
+            "card_type",
             "energy",
             "source",
             "tags"
@@ -182,12 +185,14 @@
       },
       "required": [
         "id",
+        "shareId",
         "name",
         "title",
         "desc",
         "in_play_description",
         "attributes",
-        "skills"
+        "skills",
+        "version"
       ],
       "additionalProperties": false
     }

@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/JewelsMaterial",
+  "$ref": "#/definitions/JewelMaterial",
   "definitions": {
-    "JewelsMaterial": {
+    "JewelMaterial": {
       "type": "object",
       "properties": {
         "id": {
@@ -62,8 +62,8 @@
         "convert": {
           "type": "array",
           "items": {
-            "type": "object",
-            "additionalProperties": {
+            "type": "array",
+            "items": {
               "type": "object",
               "properties": {
                 "id": {
@@ -94,7 +94,8 @@
         "name",
         "description",
         "source",
-        "rarity"
+        "rarity",
+        "version"
       ],
       "additionalProperties": false
     }

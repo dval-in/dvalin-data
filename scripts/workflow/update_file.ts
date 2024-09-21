@@ -87,8 +87,9 @@ const handleFile = async (genshinDataPath: string, currentDataPath: string) => {
 							'name',
 							'title',
 							'desc',
-							'inPlayDescription',
-							'bonus'
+							'in_play_description',
+							'bonus',
+							'info'
 						].includes(key)
 					) {
 						newObj[key] = stripHtml(value as string).result;

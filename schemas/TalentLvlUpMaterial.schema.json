@@ -62,32 +62,6 @@
           ],
           "additionalProperties": false
         },
-        "convert": {
-          "type": "array",
-          "items": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "amount": {
-                  "type": "number"
-                }
-              },
-              "required": [
-                "id",
-                "name",
-                "amount"
-              ],
-              "additionalProperties": false
-            }
-          }
-        },
         "domain": {
           "type": "string"
         },
@@ -106,7 +80,8 @@
         "name",
         "description",
         "source",
-        "rarity"
+        "rarity",
+        "version"
       ],
       "additionalProperties": false
     }

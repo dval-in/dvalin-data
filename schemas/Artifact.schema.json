@@ -11,10 +11,10 @@
         "name": {
           "type": "string"
         },
-        "minRarity": {
+        "min_rarity": {
           "type": "number"
         },
-        "maxRarity": {
+        "max_rarity": {
           "type": "number"
         },
         "flower": {
@@ -112,13 +112,13 @@
           ],
           "additionalProperties": false
         },
-        "onePiece": {
+        "one_pc": {
           "type": "string"
         },
-        "twoPiece": {
+        "two_pc": {
           "type": "string"
         },
-        "fourPiece": {
+        "four_pc": {
           "type": "string"
         },
         "version": {
@@ -128,8 +128,9 @@
       "required": [
         "id",
         "name",
-        "minRarity",
-        "maxRarity"
+        "min_rarity",
+        "max_rarity",
+        "version"
       ],
       "additionalProperties": false
     }

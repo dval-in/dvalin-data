@@ -1,51 +1,50 @@
-export type SkillAttribute = {
+export interface SkillAttribute {
 	label: string;
 	values: string[];
-};
+}
 
-export type Skill = {
+export interface Skill {
 	id: string;
 	name: string;
 	description: string;
 	info: string;
 	attributes: SkillAttribute[];
-};
+}
 
-export type Passive = {
+export interface Passive {
 	id: string;
 	name: string;
 	description: string;
 	level: number;
-};
+}
 
-export type Constellation = {
+export interface Constellation {
 	id: string;
 	name: string;
 	description: string;
 	level: number;
-};
+}
 
-export type AscensionMaterial = {
+export interface AscensionMaterial {
 	id: string;
 	name: string;
 	amount: number;
 	rarity: number;
-};
+}
 
 export type AscendStat = {
 	label: string;
-	values: Array<string | number> | undefined;
+	values: (string | number)[] | null;
 };
-
-export type Ascension = {
-	level: [number];
+export interface Ascension {
+	level: [number, number];
 	cost?: number;
 	stats: AscendStat[];
 	mat1?: AscensionMaterial;
 	mat2?: AscensionMaterial;
 	mat3?: AscensionMaterial;
 	mat4?: AscensionMaterial;
-};
+}
 
 export type CharacterVoice = {
 	english: string;
@@ -60,44 +59,19 @@ export type TalentMaterial = {
 	items: AscensionMaterial[];
 };
 
-export type CharacterPicture = {
-	icon: string;
-	sideIcon: string;
-	gatchaCard: string;
-	gachaSplash: string;
-	face: string;
-	halfFace: string;
-	profile: string;
-	weaponStance: string;
-};
-
-export type Outfits = {
-	id: string;
-	name: string;
-	picture: string;
-	description: string;
-};
-
-export type Character = {
+export interface Character {
 	id: string;
 	name: string;
 	title?: string;
 	description: string;
-	weaponType: string;
+	weapon_type: string;
 	element: string;
 	gender: string;
 	substat: string;
 	affiliation: string;
 	region?: string;
 	rarity: number;
-	birthday: string; // MM-DD
-	pictures: CharacterPicture;
-	outfits: undefined | Outfits[];
-	signatureWeapon: string; // Id
-	signatureArtifactSet: undefined | string; // Id
-	specialDish: string; // Id
-	featuredBanner: string[];
-	tcgCharacterCard: undefined | string; // Id
+	birthday: [number | null, number | null];
 	constellation: string;
 	domain: string;
 	cv: CharacterVoice;
@@ -105,7 +79,6 @@ export type Character = {
 	passives: Passive[];
 	constellations: Constellation[];
 	ascension: Ascension[];
-	talentMaterials: TalentMaterial[];
+	talent_materials: TalentMaterial[];
 	version: string;
-	release: number;
-};
+}

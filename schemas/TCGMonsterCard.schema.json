@@ -58,6 +58,9 @@
         "id": {
           "type": "string"
         },
+        "shareId": {
+          "type": "number"
+        },
         "name": {
           "type": "string"
         },
@@ -73,7 +76,7 @@
             "hp": {
               "type": "number"
             },
-            "cardType": {
+            "card_type": {
               "type": "string"
             },
             "energy": {
@@ -113,7 +116,7 @@
           },
           "required": [
             "hp",
-            "cardType",
+            "card_type",
             "energy",
             "element",
             "weapon",
@@ -133,9 +136,11 @@
       },
       "required": [
         "id",
+        "shareId",
         "name",
         "attributes",
-        "skills"
+        "skills",
+        "version"
       ],
       "additionalProperties": false
     }

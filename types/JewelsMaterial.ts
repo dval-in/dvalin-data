@@ -4,11 +4,7 @@ type Item = {
 	amount: number;
 };
 
-type Convert = {
-	[key: string]: Item;
-};
-
-export type JewelsMaterial = {
+export type JewelMaterial = {
 	id: string;
 	name: string;
 	description: string;
@@ -18,6 +14,6 @@ export type JewelsMaterial = {
 		cost: number;
 		items: Item[];
 	};
-	convert?: Convert[];
-	version?: string;
+	convert?: Array<Item[]>;
+	version: string;
 };

@@ -30,7 +30,7 @@ type WeaponStat = {
 	levels: StatLevel[];
 };
 
-export type Weapon = {
+export interface Weapon {
 	id: string;
 	name: string;
 	description: string;
@@ -41,14 +41,11 @@ export type Weapon = {
 	bonus: string;
 	stats: WeaponStat;
 	ascensions: WeaponAscension[];
-	refinementRaw: {
+	refinement_raw: {
 		name: string;
 		template: string;
 		params: [string[]];
 	};
 	refinements: WeaponRefinement[];
-	version?: string;
-	pictures: {
-		icon: string;
-	};
-};
+	version: string;
+}

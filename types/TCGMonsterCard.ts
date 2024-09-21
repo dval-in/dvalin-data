@@ -1,27 +1,28 @@
-type SkillPoint = {
+interface SkillPoint {
 	id: string;
 	type: string;
 	count: number;
-};
-type Entity = {
+}
+interface Entity {
 	id: string;
 	name: string;
-};
-export type MonsterCardSkill = {
+}
+export interface MonsterCardSkill {
 	id: string;
 	name: string;
 	desc: string;
 	skillTag: string[];
 	points: SkillPoint[];
-};
-export type TCGMonsterCard = {
+}
+export interface TCGMonsterCard {
 	id: string;
+	shareId: number;
 	name: string;
 	title?: string;
 	desc?: string;
 	attributes: {
 		hp: number;
-		cardType: string;
+		card_type: string;
 		energy: number;
 		element: string;
 		weapon: string;
@@ -30,5 +31,5 @@ export type TCGMonsterCard = {
 		monster?: Entity;
 	};
 	skills: MonsterCardSkill[];
-	version?: string;
-};
+	version: string;
+}

@@ -1,21 +1,21 @@
-type ArtifactSet = {
+interface ArtifactSet {
 	id: string;
 	name: string;
 	description?: string;
-};
+}
 
-export type Artifact = {
+export interface Artifact {
 	id: string;
 	name: string;
-	minRarity: number;
-	maxRarity: number;
+	min_rarity: number;
+	max_rarity: number;
 	flower?: ArtifactSet;
 	plume?: ArtifactSet;
 	sands?: ArtifactSet;
 	goblet?: ArtifactSet;
 	circlet?: ArtifactSet;
-	onePiece?: string;
-	twoPiece?: string;
-	fourPiece?: string;
-	version?: string;
-};
+	one_pc?: string;
+	two_pc?: string;
+	four_pc?: string;
+	version: string;
+}

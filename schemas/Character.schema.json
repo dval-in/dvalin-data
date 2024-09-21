@@ -130,17 +130,25 @@
           "type": "string"
         },
         "values": {
-          "type": "array",
-          "items": {
-            "type": [
-              "string",
-              "number"
-            ]
-          }
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": [
+                  "string",
+                  "number"
+                ]
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
         }
       },
       "required": [
-        "label"
+        "label",
+        "values"
       ],
       "additionalProperties": false
     },
@@ -152,8 +160,8 @@
           "items": {
             "type": "number"
           },
-          "minItems": 1,
-          "maxItems": 1
+          "minItems": 2,
+          "maxItems": 2
         },
         "cost": {
           "type": "number"
@@ -230,70 +238,6 @@
       ],
       "additionalProperties": false
     },
-    "CharacterPicture": {
-      "type": "object",
-      "properties": {
-        "icon": {
-          "type": "string"
-        },
-        "sideIcon": {
-          "type": "string"
-        },
-        "gatchaCard": {
-          "type": "string"
-        },
-        "gachaSplash": {
-          "type": "string"
-        },
-        "face": {
-          "type": "string"
-        },
-        "halfFace": {
-          "type": "string"
-        },
-        "profile": {
-          "type": "string"
-        },
-        "weaponStance": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "icon",
-        "sideIcon",
-        "gatchaCard",
-        "gachaSplash",
-        "face",
-        "halfFace",
-        "profile",
-        "weaponStance"
-      ],
-      "additionalProperties": false
-    },
-    "Outfits": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "picture": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "picture",
-        "description"
-      ],
-      "additionalProperties": false
-    },
     "Character": {
       "type": "object",
       "properties": {
@@ -309,7 +253,7 @@
         "description": {
           "type": "string"
         },
-        "weaponType": {
+        "weapon_type": {
           "type": "string"
         },
         "element": {
@@ -331,34 +275,15 @@
           "type": "number"
         },
         "birthday": {
-          "type": "string"
-        },
-        "pictures": {
-          "$ref": "#/definitions/CharacterPicture"
-        },
-        "outfits": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Outfits"
-          }
-        },
-        "signatureWeapon": {
-          "type": "string"
-        },
-        "signatureArtifactSet": {
-          "type": "string"
-        },
-        "specialDish": {
-          "type": "string"
-        },
-        "featuredBanner": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "tcgCharacterCard": {
-          "type": "string"
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
         },
         "constellation": {
           "type": "string"
@@ -393,7 +318,7 @@
             "$ref": "#/definitions/Ascension"
           }
         },
-        "talentMaterials": {
+        "talent_materials": {
           "type": "array",
           "items": {
             "$ref": "#/definitions/TalentMaterial"
@@ -401,26 +326,19 @@
         },
         "version": {
           "type": "string"
-        },
-        "release": {
-          "type": "number"
         }
       },
       "required": [
         "id",
         "name",
         "description",
-        "weaponType",
+        "weapon_type",
         "element",
         "gender",
         "substat",
         "affiliation",
         "rarity",
         "birthday",
-        "pictures",
-        "signatureWeapon",
-        "specialDish",
-        "featuredBanner",
         "constellation",
         "domain",
         "cv",
@@ -428,9 +346,8 @@
         "passives",
         "constellations",
         "ascension",
-        "talentMaterials",
-        "version",
-        "release"
+        "talent_materials",
+        "version"
       ],
       "additionalProperties": false
     }

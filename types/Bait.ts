@@ -11,7 +11,7 @@ export type Bait = {
 	rarity: number;
 	craft: Craft;
 	fish: FishBait[];
-	version?: string;
+	version: string;
 };
 
 type CraftItem = {

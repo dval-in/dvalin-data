@@ -124,7 +124,7 @@
             "$ref": "#/definitions/WeaponAscension"
           }
         },
-        "refinementRaw": {
+        "refinement_raw": {
           "type": "object",
           "properties": {
             "name": {
@@ -173,18 +173,6 @@
         },
         "version": {
           "type": "string"
-        },
-        "pictures": {
-          "type": "object",
-          "properties": {
-            "icon": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "icon"
-          ],
-          "additionalProperties": false
         }
       },
       "required": [
@@ -198,9 +186,9 @@
         "bonus",
         "stats",
         "ascensions",
-        "refinementRaw",
+        "refinement_raw",
         "refinements",
-        "pictures"
+        "version"
       ],
       "additionalProperties": false
     }
