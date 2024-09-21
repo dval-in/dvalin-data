@@ -1,0 +1,52 @@
+{
+  "id": "NoodlesWithMountainDelicacies",
+  "name": "山幸の麺",
+  "description": "栄養バランスが良い麺。具材たっぷりで、麺とスープが良く絡む。ごく普通の作り方だが、濃厚な味を楽しめる。",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "Mushroom",
+      "name": "キノコ",
+      "amount": 3
+    },
+    {
+      "id": "RawMeat",
+      "name": "獣肉",
+      "amount": 2
+    },
+    {
+      "id": "Flour",
+      "name": "小麦粉",
+      "amount": 2
+    }
+  ],
+  "dish_type": "冒険系料理",
+  "results": {
+    "suspicious": {
+      "name": "微妙な山幸の麺",
+      "description": "栄養バランスが良い麺。強火で食材の水分が飛んだため、麺が非常に乾いている。ゆっくり食べても噎せてしまう。",
+      "effect": "スタミナを40回復する。"
+    },
+    "normal": {
+      "name": "山幸の麺",
+      "description": "栄養バランスが良い麺。具材たっぷりで、麺とスープが良く絡む。ごく普通の作り方だが、濃厚な味を楽しめる。",
+      "effect": "スタミナを50回復する。"
+    },
+    "delicious": {
+      "name": "美味しそうな山幸の麺",
+      "description": "栄養バランスが良い麺。一見普通の麺に見えるが、山の幸を吸収しており、一口で旨味の極みを感じられる。",
+      "effect": "スタミナを60回復する。"
+    },
+    "special": {
+      "id": "ColdNoodlesWithMountainDelicacies",
+      "name": "山幸の冷やし麺",
+      "description": "重雲のオリジナル料理、歯ごたえのある麺は夏に最適だ。でも重雲は冬でも主食として食べている。本当に大変だ。",
+      "effect": "スタミナを80回復する。",
+      "character": {
+        "id": "Chongyun",
+        "name": "重雲"
+      }
+    }
+  },
+  "version": "1.6"
+}
