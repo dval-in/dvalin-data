@@ -38,25 +38,45 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           LAST_COMMIT="${{ steps.get_last_commit.outputs.last_commit }}"
-          COMMITS=$(gh api repos/dvaJi/genshin-data/commits \
-            --jq '.[] | "\(.sha) \(.commit.message)"' | \
-            awk -v last="$LAST_COMMIT" '
+          REPO="dvaJi/genshin-data"
+          PER_PAGE=100
+          PAGE=1
+          ALL_COMMITS=""
+
+          while true; do
+            COMMITS=$(gh api "repos/$REPO/commits?per_page=$PER_PAGE&page=$PAGE" \
+              --jq '.[] | "\(.sha) \(.commit.message)"')
+            
+            if [ -z "$COMMITS" ]; then
+              break
+            fi
+
+            FILTERED_COMMITS=$(echo "$COMMITS" | awk -v last="$LAST_COMMIT" '
               $1 == last {exit}
               /^[^ ]+ feat: update .*data .*v[0-9]+\.[0-9]+$/ {print}
             ')
-          
-          if [ -z "$COMMITS" ]; then
+
+            ALL_COMMITS="$ALL_COMMITS$FILTERED_COMMITS"
+            
+            if echo "$COMMITS" | grep -q "$LAST_COMMIT"; then
+              break
+            fi
+
+            PAGE=$((PAGE + 1))
+          done
+
+          if [ -z "$ALL_COMMITS" ]; then
             echo "No new commits to process."
             echo "new_commits=" >> $GITHUB_OUTPUT
             exit 0
           fi
-          
-          ESCAPED_COMMITS=$(echo "$COMMITS" | sed 's/$/\n/' | tr -d '\n')
+
+          ESCAPED_COMMITS=$(echo "$ALL_COMMITS" | sed 's/$/\\n/' | tr -d '\n')
           echo "new_commits<<EOF" >> $GITHUB_OUTPUT
-          echo "$ESCAPED_COMMITS" >> $GITHUB_OUTPUT
+          echo -e "$ESCAPED_COMMITS" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
-          VERSIONS=$(echo "$COMMITS" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p' | tr '\n' ' ')
+          VERSIONS=$(echo "$ALL_COMMITS" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p' | tr '\n' ' ')
           echo "versions=$VERSIONS" >> $GITHUB_OUTPUT
 
       - name: Process new commits
