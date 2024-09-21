@@ -1,0 +1,74 @@
+{
+  "id": "Wanderer",
+  "shareId": 41,
+  "name": "Avare",
+  "title": "\"Sonsuzluğa Sürüklenme\" Avare",
+  "desc": "Sayısız musibet, bilinmez imtihanlar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Rüzgar",
+    "weapon": "Katalizör",
+    "faction": [],
+    "source": "Avare'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "YuubanMeigen",
+      "name": "Yuuban Meigen",
+      "desc": "1 Rüzgar Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HanegaSongOfTheWind",
+      "name": "Hanega: Rüzgar Şarkısı",
+      "desc": "2 Rüzgar Hasarı verir ve bu karakter Akım Harmonisi kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KyougenFiveCeremonialPlays",
+      "name": "Kyougen: Beşli Merasim Oyunu",
+      "desc": "7 Rüzgar Hasarı verir. Karaktere Akım Harmonisi eklenmişse çıkarılır ve Hasar 1 artar.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

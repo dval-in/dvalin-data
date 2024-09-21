@@ -1,0 +1,85 @@
+{
+  "id": "Sayu",
+  "shareId": 320,
+  "name": "Sayu",
+  "title": "Sayu - La Tejón Ninja",
+  "desc": "A tu lado sin dejar rastro, como el personaje de un sueño.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Mandoble",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "SkivingNewAndImproved",
+      "name": "Skiving: New and Improved"
+    },
+    "source": "Se obtiene tras retar y ganar a Sayu en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Sayu",
+      "name": "Sayu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ShuumatsubanNinjaBlade",
+      "name": "Sable ninja de Los Ocelos",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtFuuinDash",
+      "name": "Técnica “¡Yujuuu!”: Colisión de viento",
+      "desc": "Inflige 1 pt. de Daño Anemo y este personaje prepara la habilidad Tornadopatada. Si dicha habilidad causa una reacción de Torbellino, Tornadopatada pasa a infligir daño del elemento con el que reaccionó Torbellino.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtMujinaFlurry",
+      "name": "Técnica “¡Yujuuu!”: Frenesí tejón",
+      "desc": "Inflige 1 pt. de Daño Anemo e invoca un tejón daruma.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}
