@@ -1,0 +1,42 @@
+{
+  "id": "Steak",
+  "name": "Steak",
+  "description": "A grilled steak. High heat has locked the juices in, giving one high expectations for when the meat is cut open.",
+  "rarity": 1,
+  "ingredients": [
+    {
+      "id": "RawMeat",
+      "name": "Raw Meat",
+      "amount": 2
+    }
+  ],
+  "dish_type": "Recovery Dish",
+  "results": {
+    "suspicious": {
+      "name": "Suspicious Steak",
+      "description": "A grilled steak. Its color is a little bleak, almost as if it feels sorry for itself for being a sorry excuse for a steak.",
+      "effect": "Revives a character and restores 50 HP."
+    },
+    "normal": {
+      "name": "Steak",
+      "description": "A grilled steak. High heat has locked the juices in, giving one high expectations for when the meat is cut open.",
+      "effect": "Revives a character and restores 100 HP."
+    },
+    "delicious": {
+      "name": "Delicious Steak",
+      "description": "A grilled steak. Juicy, flavorsome, fragrant steak. One bite and you feel yourself come alive.",
+      "effect": "Revives a character and restores 150 HP."
+    },
+    "special": {
+      "id": "OutridersChampionSteak",
+      "name": "Outrider's Champion Steak!",
+      "description": "Amber's specialty. One side is obviously uncooked. The other side gives off a subtle scent of something burnt. Close your eyes and have a big mouthful, just to keep Amber happy if nothing else.",
+      "effect": "Revives a character and restores 10% of Max HP, then restores an additional 150 HP.",
+      "character": {
+        "id": "Amber",
+        "name": "Amber"
+      }
+    }
+  },
+  "version": "1.6"
+}
