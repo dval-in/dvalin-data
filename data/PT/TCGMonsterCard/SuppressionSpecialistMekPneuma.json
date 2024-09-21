@@ -1,0 +1,85 @@
+{
+  "id": "SuppressionSpecialistMekPneuma",
+  "shareId": 3704,
+  "name": "Mecassupressor - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "PrecisionShot",
+      "name": "Disparo Preciso",
+      "desc": "Causa 1 ponto de <span style=\"color:#7EC236FF\">Dano Dendro</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WildgrassBall",
+      "name": "Bola de Grama",
+      "desc": "Causa 3 pontos de <span style=\"color:#7EC236FF\">Dano Dendro</span>.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LaunchGrenade",
+      "name": "Lançar Granada",
+      "desc": "Causa 2 pontos de <span style=\"color:#7EC236FF\">Dano Dendro</span>, invoca <span style=\"color:#FFFFFFFF\">Munições de Detonação Atrasada</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Característica da Energia: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Após ser danificado por personagem com \"Arkhe: Ousia\"</span>, esse personagem ficará <span style=\"color:#FFFFFFFF\">Desativado</span> e <span style=\"color:#FFFFFFFF\">não poderá usar Habilidades</span> até o fim desse Turno.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "EremiteDesertClearwater",
+  "shareId": 3206,
+  "name": "Münzevi Berrak Su",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Münzeviler"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "AgileThrust",
+      "name": "Çevik Atılım",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlitzStrike",
+      "name": "Ani Saldırı Darbesi",
+      "desc": "3 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingLashes",
+      "name": "Döner Kırbaç",
+      "desc": "Bu karakter <span style=\"color:#FFFFFFFF\">Döner Kırbaç: İlk Saldırı</span> ve <span style=\"color:#FFFFFFFF\">Döner Kırbaç: Sabit Mod</span> için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedHydro",
+      "name": "Serbest Kalan Uğursuz Ruh (Su)",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Bu karakter Hasar aldıktan sonra</span> 7 veya daha az Cana sahipse 1 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır ve karaktere <span style=\"color:#FFFFFFFF\">Alamet Ruhunun Uyanışı: Su</span> eklenir. (Her Düelloda bir defa)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

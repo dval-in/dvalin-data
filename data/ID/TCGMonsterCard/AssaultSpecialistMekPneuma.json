@@ -1,0 +1,85 @@
+{
+  "id": "AssaultSpecialistMekPneuma",
+  "shareId": 3307,
+  "name": "Assault Specialist Mek - Pneuma",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "UpclosePummelling",
+      "name": "Up-Close Pummelling",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multismash",
+      "name": "Multi-Smash",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>, lalu <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Tracking Truncheon</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SprintingStrike",
+      "name": "Sprinting Strike",
+      "desc": "Mengakibatkan 5 poin <span style=\"color:#FF9999FF\">Pyro DMG</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Arkhe: Pneuma",
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah menerima DMG dari Karakter yang memiliki \"Arkhe: Ousia\": </span>Karakter ini berubah menjadi <span style=\"color:#FFFFFFFF\">nonaktif</span> dan <span style=\"color:#FFFFFFFF\">tidak dapat menggunakan skill</span> hingga Ronde berakhir.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

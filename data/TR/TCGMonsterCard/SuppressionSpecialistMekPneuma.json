@@ -1,0 +1,85 @@
+{
+  "id": "SuppressionSpecialistMekPneuma",
+  "shareId": 3704,
+  "name": "Baskılama Uzmanı Meka - Ruh",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "PrecisionShot",
+      "name": "Keskin Atış",
+      "desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WildgrassBall",
+      "name": "Yabani Ot Topu",
+      "desc": "3 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LaunchGrenade",
+      "name": "El Bombası Fırlat",
+      "desc": "2 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Gecikmeli Fünye Mühimmatı</span> çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Arkhe: Ruh",
+      "desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Öz\"e sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

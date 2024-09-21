@@ -1,0 +1,71 @@
+{
+  "id": "AssaultSpecialistMek",
+  "shareId": 3006,
+  "name": "Mecha – Typ: Angriffsspezialist",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Kein Elementartyp",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "OffensiveShieldstrike",
+      "name": "Aggressiver Schildstoß",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DoubleStrike",
+      "name": "Doppelte Schläge",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeapingSmash",
+      "name": "Springender Aufprall",
+      "desc": "Verursacht 4 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Würfel (gleich)",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

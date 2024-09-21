@@ -1,0 +1,85 @@
+{
+  "id": "EremiteSunfrost",
+  "shareId": 3106,
+  "name": "Eremita Gelosolare",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Eremiti"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "DoubleHack",
+      "name": "Doppio taglio",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Colpo doppialama",
+      "desc": "Infligge 3 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Assalto impetuoso",
+      "desc": "Questo personaggio esegue <span style=\"color:#FFFFFFFF\">Preparazione abilità</span>: <span style=\"color:#FFFFFFFF\">Assalto impetuoso: Colpo a piena potenza</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Liberazione dello spirito (Cryo)",
+      "desc": "(Passiva) <span style=\"color:#FFFFFFFF\">Quando questo personaggio subisce DAN:</span> se i PS di questo personaggio sono 7 o meno, ottiene 1 punto <span style=\"color:#FFFFFFFF\">Energia</span> e l'effetto di <span style=\"color:#FFFFFFFF\">Risveglio dello Spirito del presagio: Cryo</span> (una volta per partita).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

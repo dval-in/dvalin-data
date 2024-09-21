@@ -1,0 +1,94 @@
+{
+  "id": "Yelan",
+  "shareId": 280,
+  "name": "Yelan",
+  "title": "\"Vadi Orkidesi\" Yelan",
+  "desc": "Dünya çok büyük ve sonsuzdur, yalnız olanlar istedikleri gibi gelip giderler.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Su",
+    "weapon": "Yay",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "TurnControl",
+      "name": "Turn Control"
+    },
+    "source": "Yelan'ı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Yelan",
+      "name": "Yelan",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "StealthyBowshot",
+      "name": "Gizli Ok Saldırısı",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "Uzun Yaşam Hattı",
+      "desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve bu karakter 2 <span style=\"color:#FFFFFFFF\">Del Geç</span> kademesi kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "Berrak Zar",
+      "desc": "3 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Seçkin Zar</span> oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "Del Geç",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Del Geç</span> kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

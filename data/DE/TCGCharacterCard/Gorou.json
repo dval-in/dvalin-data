@@ -1,0 +1,85 @@
+{
+  "id": "Gorou",
+  "shareId": 283,
+  "name": "Gorou",
+  "title": "Hundekrieger – Gorou",
+  "desc": "Hier kommt der Hundekrieger, der seine Soldaten vorwärts führt!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Bogen",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "RushingHoundSwiftAsTheWind",
+      "name": "Rushing Hound: Swift as the Wind"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Gorou in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Gorou",
+      "name": "Gorou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "RippingFangFletching",
+      "name": "Gefletschte Zähne",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Inuzuka-Allzweckaufstellung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Generalbanner</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Juuga – Vorwärts zum Sieg",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFE699FF\">Geo-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Generalbanner</span> und 1 <span style=\"color:#FFFFFFFF\">Würde des Generals</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

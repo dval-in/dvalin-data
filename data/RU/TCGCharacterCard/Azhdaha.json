@@ -1,0 +1,93 @@
+{
+  "id": "Azhdaha",
+  "shareId": 278,
+  "name": "Аждаха",
+  "title": "Предок геовишапа: Аждаха",
+  "desc": "Тихий звон кандалов повелителя драконов и его глубокий злобный рык эхом разносятся в недрах гор, словно воспоминания об ушедшей эпохе.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гео",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр"
+    ],
+    "talent_card": {
+      "id": "LunarCyclesUnending",
+      "name": "Lunar Cycles Unending"
+    },
+    "source": "Награда за принятие испытания в «Кошкином хвосте» и победу над Аждахой в Дружеской дуэли",
+    "character": {
+      "id": "Azhdaha",
+      "name": "Azhdaha"
+    }
+  },
+  "skills": [
+    {
+      "id": "SunderingCharge",
+      "name": "Разбивающий удар",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AuraOfMajesty",
+      "name": "Аура величия",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 3 ед. Если при этом происходит реакция Кристалл, персонаж выполняет <span style=\"color:#FFFFFFFF\">Поглощение силы элемента</span>.<br/>Если персонаж ещё не поглотил силу элемента, то он получит <span style=\"color:#FFFFFFFF\">Каменный облик: Элементальная кристаллизация</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DecimatingRockfall",
+      "name": "Разрушительный камнепад",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 4 ед. Урон увеличивается на 1 ед. за каждый поглощённый ранее элемент.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StoneFacets",
+      "name": "Каменный облик",
+      "desc": "(Пассивный) В начале сражения у персонажа будет <span style=\"color:#FFFFFFFF\">Каменный облик: Элементальное поглощение</span>.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

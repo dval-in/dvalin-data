@@ -1,0 +1,85 @@
+{
+  "id": "SuppressionSpecialistMekOusia",
+  "shareId": 3308,
+  "name": "Baskılama Uzmanı Meka - Öz",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ShortrangeSnapFire",
+      "name": "Kısa Menzilli Seri Ateş",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpreadFire",
+      "name": "Yangın Yeri",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve rakibin hazırdaki karakterlerine <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span></span> verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombinedFire",
+      "name": "Karma Ateş",
+      "desc": "2 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir, ardından <span style=\"color:#FFFFFFFF\">Karma Ateş: Hafif Yayım Ateşi</span> ve <span style=\"color:#FFFFFFFF\">Karma Ateş: Delici Top Ateşi</span> için ayrı ayrı \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheOusia",
+      "name": "Arkhe: Öz",
+      "desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Ruh\"a sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

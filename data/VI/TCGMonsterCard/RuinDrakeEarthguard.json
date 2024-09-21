@@ -1,0 +1,89 @@
+{
+  "id": "RuinDrakeEarthguard",
+  "shareId": 3005,
+  "name": "Rồng Di Tích - Địa Vệ",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Không Nguyên Tố",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloseExpulsion",
+      "name": "Trục Xuất Tầm Gần",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Xung Kích Bất Ngờ",
+      "desc": "Gây 3 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Dòng Năng Lượng",
+      "desc": "Gây 5 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>; Nếu nhân vật này đã hấp thu năng lượng nguyên tố, sẽ phóng thích nguyên tố đã hấp thu, sát thương này +1, và đổi thành sát thương loại nguyên tố đã hấp thu.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Giáp Ngoài Tiêu Chuẩn",
+      "desc": "(Bị động) Giảm một nửa <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span> nhân vật này phải chịu. (Làm tròn lên)",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Hấp Thụ Nguyên Tố",
+      "desc": "(Bị động) <span style=\"color:#FFFFFFFF\">Trong trạng thái chưa hấp thụ nguyên tố, khi nhân vật chịu sát thương nguyên tố:</span> Hấp thu năng lượng nguyên tố này.<br/>Khi nhân vật chịu phải sát thương loại nguyên tố đã hấp thu, sát thương sẽ giảm một nửa. (Làm tròn lên)",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

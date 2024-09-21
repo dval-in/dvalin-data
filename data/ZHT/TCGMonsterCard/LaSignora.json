@@ -1,0 +1,93 @@
+{
+  "id": "LaSignora",
+  "shareId": 4105,
+  "name": "「女士」",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人眾"
+    ],
+    "talent_card": {
+      "id": "PainForPain",
+      "name": "Pain for Pain"
+    },
+    "source": null,
+    "character": {
+      "id": "LaSignora",
+      "name": "La Signora"
+    }
+  },
+  "skills": [
+    {
+      "id": "FrostbladeHailstorm",
+      "name": "霜鋒霰舞",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BitingShards",
+      "name": "凜冽之刺",
+      "desc": "造成2點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，目標角色附屬<span style=\"color:#FFFFFFFF\">嚴寒</span>。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CarmineChrysalis",
+      "name": "紅蓮冰繭",
+      "desc": "造成4點<span style=\"color:#99FFFFFF\">冰元素傷害</span>，治療本角色2點。移除<span style=\"color:#FFFFFFFF\">冰封的熾炎魔女</span>，本角色永久轉換為<span style=\"color:#FFFFFFFF\">「焚盡的熾炎魔女」</span>形態。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MightOfDelusion",
+      "name": "邪眼之威",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">冰封的熾炎魔女</span>。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

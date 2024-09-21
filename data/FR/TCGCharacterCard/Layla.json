@@ -1,0 +1,85 @@
+{
+  "id": "Layla",
+  "shareId": 279,
+  "name": "Layla",
+  "title": "Layla · Merveilleuse étoile vespérale",
+  "desc": "À la tombée de la nuit, les étoiles tourbillonnent et la lune erre au milieu des rêves.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "LightsRemit",
+      "name": "Light's Remit"
+    },
+    "source": "Récompense pour avoir invité Layla à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Layla",
+      "name": "Layla",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SwordOfTheRadiantPath",
+      "name": "Épée de radiance",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NightsOfFormalFocus",
+      "name": "Nuits de solennité",
+      "desc": "Crée un <span style=\"color:#FFFFFFFF\">rideau de sommeil</span> et une <span style=\"color:#FFFFFFFF\">étoile filante</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DreamOfTheStarstreamShaker",
+      "name": "Rêve berçant les étoiles",
+      "desc": "Inflige 3 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et invoque une <span style=\"color:#FFFFFFFF\">sphère de rêve céleste</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

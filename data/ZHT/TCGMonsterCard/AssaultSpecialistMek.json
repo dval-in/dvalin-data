@@ -1,0 +1,71 @@
+{
+  "id": "AssaultSpecialistMek",
+  "shareId": 3006,
+  "name": "攻堅特化型機關",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "無元素類型",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "OffensiveShieldstrike",
+      "name": "攻勢盾擊",
+      "desc": "造成1點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DoubleStrike",
+      "name": "雙重打擊",
+      "desc": "造成3點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeapingSmash",
+      "name": "衝躍鈍擊",
+      "desc": "造成4點<span style=\"color:#FFFFFFFF\">物理傷害</span>。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "Yelan",
+  "shareId": 280,
+  "name": "夜蘭",
+  "title": "幽谷に咲く蘭·夜蘭",
+  "desc": "渺々たる天地、往来せし幽客。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "弓",
+    "faction": [
+      "璃月"
+    ],
+    "talent_card": {
+      "id": "TurnControl",
+      "name": "Turn Control"
+    },
+    "source": "キャッツテールで夜蘭を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Yelan",
+      "name": "Yelan",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "StealthyBowshot",
+      "name": "匿影隠曜の弓",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "絡み合う命の糸",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を3与え、本キャラの<span style=\"color:#FFFFFFFF\">打破</span>の層数+2。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "深謀玲瓏賽",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を3与え、<span style=\"color:#FFFFFFFF\">玲瓏一擲</span>を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "打破",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">打破</span>が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

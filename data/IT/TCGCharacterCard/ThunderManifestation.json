@@ -1,0 +1,93 @@
+{
+  "id": "ThunderManifestation",
+  "shareId": 286,
+  "name": "Manifestazione del tuono",
+  "title": "Manifestazione del tuono, Odio persistente",
+  "desc": "Fintanto che i rancori della terra non cesseranno, i ruggenti tuoni perdureranno.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "talent_card": {
+      "id": "GrievingEcho",
+      "name": "Grieving Echo"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Manifestazione del tuono in un duello amichevole",
+    "character": {
+      "id": "ThunderManifestation",
+      "name": "Thunder Manifestation"
+    }
+  },
+  "skills": [
+    {
+      "id": "ThunderousWingslash",
+      "name": "Colpo d'ala tonante",
+      "desc": "Infligge 1 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrifefulLightning",
+      "name": "Lampo di guerra",
+      "desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro</span> al personaggio avversario affetto da <span style=\"color:#FFFFFFFF\">Parafulmine</span> (se non ci sono bersagli validi, infligge DAN al personaggio attivo).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShackles",
+      "name": "Prigione fulminante",
+      "desc": "Infligge 2 <span style=\"color:#FFACFFFF\">DAN da Electro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Prigione fulminante</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningProbe",
+      "name": "Attira fulmini",
+      "desc": "(Passiva) All'inizio del duello, crea 1 <span style=\"color:#FFFFFFFF\">Sonda per fulmini</span> sul lato dell'avversario.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

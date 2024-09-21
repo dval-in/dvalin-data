@@ -1,0 +1,76 @@
+{
+  "id": "CrimsonWitchOfEmbers",
+  "shareId": 6304,
+  "name": "Hexe der glimmenden Glut",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CrimsonLotusMoth",
+      "name": "Motte des roten Lotos",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DecimatingLash",
+      "name": "Verwüstende Peitsche",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Glühende Hitze</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WhirlingBlaze",
+      "name": "Wirbelnde Feuersbrunst",
+      "desc": "Verursacht 6 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

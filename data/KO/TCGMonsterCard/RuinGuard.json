@@ -1,0 +1,80 @@
+{
+  "id": "RuinGuard",
+  "shareId": 3004,
+  "name": "유적 가디언",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "원소 타입 없음",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "견고한 타격",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "회전 방어",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 1pt 주고 <span style=\"color:#FFFFFFFF\">고속 회전격</span>과 <span style=\"color:#FFFFFFFF\">초고속 회전격</span>의 <span style=\"color:#FFFFFFFF\">스킬 준비</span>를 한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "제압 일제 사격",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 4pt 주고 상대방 필드에 <span style=\"color:#FFFFFFFF\">유도폭탄</span>을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "동일한 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "표준 외갑",
+      "desc": "[패시브] 이 캐릭터가 받는 <span style=\"color:#FFFFFFFF\">물리 피해</span>가 절반으로 감소한다. (올림 처리)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}
