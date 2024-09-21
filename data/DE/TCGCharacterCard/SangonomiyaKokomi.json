@@ -1,0 +1,85 @@
+{
+  "id": "SangonomiyaKokomi",
+  "shareId": 13,
+  "name": "Sangonomiya Kokomi",
+  "title": "Perle der Weisheit – Sangonomiya Kokomi",
+  "desc": "Bereite dich auf einen regnerischen Tag vor, um einer Krise voraus zu sein.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Katalysator",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Sangonomiya Kokomi in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "Form des Wassers",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Eid des Kurage",
+      "desc": "Verleiht der Figur das <span style=\"color:#80C0FFFF\">Hydro-Attribut</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Bakekurage</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Nereidenaufstieg",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, stellt all deinen Figuren 1 LP wieder her und erhält selbst <span style=\"color:#FFFFFFFF\">Rituelles Federkleid</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.5"
+}

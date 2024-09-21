@@ -1,0 +1,85 @@
+{
+  "id": "Eula",
+  "shareId": 6,
+  "name": "Eula",
+  "title": "\"Dance of the Shimmering Wave\" Eula",
+  "desc": "Ini cuma permainan saja. Menang atau kalah, kamu tetap tidak akan bersalah karenanya.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "Didapatkan setelah mengundang Eula ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Favonius Bladework - Edel",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Icetide Vortex",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>. Memberikan status <span style=\"color:#FFFFFFFF\">Grimheart</span> pada Karakter ini jika belum memiliki status <span style=\"color:#FFFFFFFF\">Grimheart</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Glacial Illumination",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Lightfall Sword</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.5"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Eula",
+  "shareId": 6,
+  "name": "Eula",
+  "title": "\"Dance of the Shimmering Wave\" Eula",
+  "desc": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "Reward for inviting Eula to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Favonius Bladework - Edel",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Icetide Vortex",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>. If this character has not yet gained <span style=\"color:#FFFFFFFF\">Grimheart</span>, they will gain <span style=\"color:#FFFFFFFF\">Grimheart</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Glacial Illumination",
+      "desc": "Deals 2 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, summons 1 <span style=\"color:#FFFFFFFF\">Lightfall Sword</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.5"
+}
