@@ -1,0 +1,77 @@
+{
+  "id": "Freminet",
+  "shareId": 407,
+  "name": "Freminet",
+  "title": "ดำดิ่งสู่ภวังค์ฝัน - Freminet",
+  "desc": "ท้องฟ้าเต็มไปด้วยดวงดาว อ้างว้างและเหน็บหนาว",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "ดาบใหญ่",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "source": "ได้รับหลังจากเชิญ Freminet ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "FlowingEddies",
+      "name": "Flowing Eddies",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PressurizedFloe",
+      "name": "Pressurized Floe",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 2 หน่วย และหากตัวละครนี้ยังไม่ได้รับ <span style=\"color:#FFFFFFFF\">Pers Timer</span> จะทำให้ได้รับ <span style=\"color:#FFFFFFFF\">Pers Timer</span>",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShadowhuntersAmbush",
+      "name": "Shadowhunter's Ambush",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 4 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Subnautical Hunter Mode</span>",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

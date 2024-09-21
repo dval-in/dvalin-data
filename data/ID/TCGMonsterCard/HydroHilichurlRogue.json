@@ -1,0 +1,77 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 4209,
+  "name": "Hydro Hilichurl Rogue",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "Whirling Scythe",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "Slash of Surging Tides",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.<br/>Jika ada Karakter lawan yang terpengaruh <span style=\"color:#FFFFFFFF\">Frozen</span> atau <span style=\"color:#FFFFFFFF\">Mist Bubble Prison</span>, maka Karakter ini memperoleh 1 poin <span style=\"color:#FFFFFFFF\">Energy</span>. (Sekali setiap Ronde)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "Bubblefloat Blitz",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span> dan Karakter ini terpengaruh <span style=\"color:#FFFFFFFF\">Mist Bubble Slime</span>.<br/>(Karakter yang mengenakan <span style=\"color:#FFFFFFFF\">Mist Bubble Slime</span> dapat menggunakan Teknik: <span style=\"color:#FFFFFFFF\">Bubble Battle Tactics</span>)",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

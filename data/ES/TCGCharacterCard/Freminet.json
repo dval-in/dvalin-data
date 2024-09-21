@@ -1,0 +1,77 @@
+{
+  "id": "Freminet",
+  "shareId": 407,
+  "name": "Fréminet",
+  "title": "Fréminet - El Buzo de lo Insondable",
+  "desc": "Fría es la soledad bajo el cielo estrellado.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Mandoble",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "source": "Se obtiene tras retar y ganar a Fréminet en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "FlowingEddies",
+      "name": "Espada vortiginosa",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PressurizedFloe",
+      "name": "Criopresurización",
+      "desc": "Inflige 2 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y el personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">hora de Pers</span> si aún no lo tiene.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShadowhuntersAmbush",
+      "name": "Emboscada cazasombras",
+      "desc": "Inflige 4 pts. de <span style=\"color:#99FFFFFF\">Daño Cryo</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">modo acecho subacuático</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

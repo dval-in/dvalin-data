@@ -1,0 +1,77 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 409,
+  "name": "Lãng Khách Hilichurl Thủy",
+  "title": "Sóng Bén Phiêu Du - Lãng Khách Hilichurl Thủy",
+  "desc": "Hilichurl lang thang không thuộc bất kỳ bộ tộc nào, phiêu du khắp nơi trong hoang dã như tự mình lưu đày vậy.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Hilichurl"
+    ],
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Lãng Khách Hilichurl Thủy"
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "Lưỡi Liềm Vung Xoáy",
+      "desc": "Gây 2 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "Nhát Chém Sóng Trào",
+      "desc": "Gây 3 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>.<br/>Nếu có nhân vật phe địch đang áp dụng <span style=\"color:#FFFFFFFF\">Đóng Băng</span> hoặc <span style=\"color:#FFFFFFFF\">Bong Bóng Bao Vây</span>, thì nhân vật này sẽ nhận 1 điểm <span style=\"color:#FFFFFFFF\">Năng Lượng</span>. (Mỗi hiệp 1 lần)",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "Tấn Công Trôi Nổi",
+      "desc": "Gây 3 điểm <span style=\"color:#80C0FFFF\">Sát Thương Nguyên Tố Thủy</span>, sinh ra 1 thẻ <span style=\"color:#FFFFFFFF\">Slime Bong Bóng</span> trên tay.<br/>(Nhân vật trang bị <span style=\"color:#FFFFFFFF\">Slime Bong Bóng</span> có thể sử dụng Đặc Kỹ: <span style=\"color:#FFFFFFFF\">Chiến Pháp Bong Bóng</span>)",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}
