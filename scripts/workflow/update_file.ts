@@ -30,9 +30,9 @@ async function processLines() {
 			const newLang = langMapping[lang];
 			const newFolder = folderMapping[folder];
 
-			if (folder === 'Domains.json' || folder === 'Domains') {
+			if (folder === 'domains.json' || folder === 'domains') {
 				const link = join(baseDir, 'genshin-data/', line);
-				const newPath = join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
+				const newPath = join(baseDir, `data/${newLang}/Domains.json`);
 				const newData = await readJsonFile(link);
 				if (!newData) {
 					throw new Error(`Error reading file ${link}`);
