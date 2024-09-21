@@ -1,0 +1,84 @@
+{
+  "id": "MirrorMaiden",
+  "shareId": 54,
+  "name": "Зеркальная дева Фатуи",
+  "title": "«Посланница водной глади» Зеркальная дева Фатуи",
+  "desc": "Отражения на воде сберегут в себе тайны...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Прочее",
+    "faction": [
+      "Фатуи"
+    ],
+    "talent_card": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "Награда за победу над Зеркальной девой Фатуи в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Водяной снаряд",
+      "desc": "Наносит Гидро урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Водяной хлопок",
+      "desc": "Наносит Гидро урон, 2 ед., цель получает Преломление.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Сверкающее преломление",
+      "desc": "Наносит Гидро урон, 5 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.8"
+}

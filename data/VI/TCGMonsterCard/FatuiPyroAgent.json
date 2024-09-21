@@ -1,0 +1,93 @@
+{
+  "id": "FatuiPyroAgent",
+  "shareId": 55,
+  "name": "Fatui - Người Xử Lý Nợ Hỏa",
+  "title": "Lưỡi Dao Tính Sổ - Người Xử Lý Nợ",
+  "desc": "\"Tội chết không thể miễn, tội sống càng khó tránh...\"",
+  "attributes": {
+    "hp": 9,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Hỏa",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "Nhận được sau khi Khiêu Chiến Quán Rượu với Tiểu Hoàng Tử trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong độ khó Đánh Giải Trí với Fatui - Người Xử Lý Nợ Hỏa",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "Xung Kích",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Đợi Thời Cơ",
+      "desc": "Gây 1 điểm Sát Thương Nguyên Tố Hỏa, nhân vật này nhận Hành Động Lén Lút.",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Mũi Nhọn Thiêu Đốt",
+      "desc": "Gây 5 điểm Sát Thương Nguyên Tố Hỏa.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Nguyên Tố Hỏa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Bậc Thầy Ẩn Mình",
+      "desc": "(Bị Động) Khi bắt đầu chiến đấu, nhân vật này nhận Hành Động Lén Lút.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

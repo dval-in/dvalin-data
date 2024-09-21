@@ -1,0 +1,102 @@
+{
+  "id": "ElectroHypostasis",
+  "shareId": 57,
+  "name": "無相の雷",
+  "title": "無相の雷",
+  "desc": "高純度の雷元素生命体、コードネーム「アレフ」。\\nたとえジャンケンで負かされても、たいてい負けを認めない。",
+  "attributes": {
+    "hp": 45,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "AbsorbingPrism",
+      "name": "Absorbing Prism"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、無相の雷に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "ElectroHypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "雷晶発射",
+      "desc": "雷元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "ジャンケン三連攻撃",
+      "desc": "雷元素ダメージを2与え、その後スキル準備に入る：ジャンケン三連攻撃·チョキとジャンケン三連攻撃·パー。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "霹靂鎮鎖",
+      "desc": "雷元素ダメージを2与え、雷鎖鎮域を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectroCrystalCore",
+      "name": "雷晶核心",
+      "desc": "【固有】戦闘開始時、雷晶核心が付与される。 アクションフェーズ開始時：本キャラに雷晶核心が付与されていない場合、雷晶核心を付与する。（各対戦最大2回まで）",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "元素蓄積·雷",
+      "desc": "【固有】戦闘開始時、元素生命·雷が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}
