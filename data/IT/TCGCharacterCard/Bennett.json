@@ -1,0 +1,85 @@
+{
+  "id": "Bennett",
+  "shareId": 19,
+  "name": "Bennett",
+  "title": "Bennett, Prova del fuoco",
+  "desc": "Quando capisci che stai per perdere, devi sapere come vincere.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Spada",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "GrandExpectation",
+      "name": "Grand Expectation"
+    },
+    "source": "Ricompensa ottenuta sfidando Bennett a duello alla Coda di Gatto e battendolo in un duello amichevole",
+    "character": {
+      "id": "Bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "StrikeOfFortune",
+      "name": "Colpo di fortuna",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PassionOverload",
+      "name": "Sovraccarico di passione",
+      "desc": "Infligge 3 DAN da Pyro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FantasticVoyage",
+      "name": "Viaggio fantastico",
+      "desc": "Infligge 2 DAN da Pyro, crea 1 Campo d'ispirazione.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Diluc",
+  "shareId": 17,
+  "name": "Diluc",
+  "title": "Diluc · Ombre de l'Aurore",
+  "desc": "Son cœur est son plus grand ennemi.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "FlowingFlame",
+      "name": "Flowing Flame"
+    },
+    "source": "Obtenue dans le deck de départ",
+    "character": {
+      "id": "Diluc",
+      "name": "Diluc",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TemperedSword",
+      "name": "Épée trempée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SearingOnslaught",
+      "name": "Assaut brûlant",
+      "desc": "Inflige 3 pts de DGT Pyro. Lors de la troisième utilisation de cette capacité à chaque manche, DGT +2.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Dawn",
+      "name": "Aurore",
+      "desc": "Inflige 8 pts de DGT Pyro et accorde un enchantement Pyro au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

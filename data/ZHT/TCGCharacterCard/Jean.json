@@ -1,0 +1,85 @@
+{
+  "id": "Jean",
+  "shareId": 37,
+  "name": "琴",
+  "title": "蒲公英騎士·琴",
+  "desc": "在奪得最終的勝利之前，她總是認為自己做得還不夠好。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "單手劍",
+    "faction": [
+      "蒙德"
+    ],
+    "talent_card": {
+      "id": "LandsOfDandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": "在貓尾酒館中邀請琴進行對局，在友好對局難度中取得勝利後獲得",
+    "character": {
+      "id": "Jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladework",
+      "name": "西風劍術",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GaleBlade",
+      "name": "風壓劍",
+      "desc": "造成3點風元素傷害，使對方強制切換到下一個角色。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DandelionBreeze",
+      "name": "蒲公英之風",
+      "desc": "治療所有我方角色2點，召喚蒲公英領域。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}
