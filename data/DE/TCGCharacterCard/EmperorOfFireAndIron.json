@@ -1,0 +1,93 @@
+{
+  "id": "EmperorOfFireAndIron",
+  "shareId": 351,
+  "name": "Kaiser von Feuer und Eisen",
+  "title": "Kaiser von Feuer und Eisen",
+  "desc": "Einer der beiden Herrscher, die einst über die Fontemer-Mutanten herrschten. Diese gepanzerte Krabbe hat keine Feinde, jagt unermüdlich und wird immer größer. So wird dieser Herrscher halb in Ehrfurcht, halb im Spott als „Kaiser“ bezeichnet.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "MoltenMail",
+      "name": "Molten Mail"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kaiser von Feuer und Eisen in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "EmperorOfFireAndIron",
+      "name": "Emperor of Fire and Iron"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Hämmernde Zangen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Glutwirbel",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FF9999FF\">Pyro-SCH</span>. Erhöht diesen SCH um 1 Pkt., wenn die Figur mindestens 7 Stapelungen <span style=\"color:#FFFFFFFF\">Rüstung der Panzerkrabbe</span> hat.<br/>Verleiht dieser Figur daraufhin 2 Stapelungen <span style=\"color:#FFFFFFFF\">Rüstung der Panzerkrabbe</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Sprengung der Kampflinie",
+      "desc": "Diese Figur <span style=\"color:#FFFFFFFF\">bereitet folgende Fähigkeiten vor</span>: <span style=\"color:#FFFFFFFF\">Versengender Knall</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "Kaiserliche Rüstung",
+      "desc": "Passiv – <span style=\"color:#FFFFFFFF\">Zu Beginn des Kampfes:</span> Erhält 5 Stapelungen <span style=\"color:#FFFFFFFF\">Rüstung der Panzerkrabbe</span>.<br/><span style=\"color:#FFFFFFFF\">Nach einer beliebigen Aktion deiner Seite:</span> Entfernt all den <span style=\"color:#FFFFFFFF\">Schild</span>-Status oder <span style=\"color:#FFFFFFFF\">Schild</span>-Kampfstatus außer Rüstung der Panzerkrabbe auf deiner Seite; Verleiht der Figur für jeden entfernten Status 2 Stapelungen <span style=\"color:#FFFFFFFF\">Rüstung der Panzerkrabbe</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.6"
+}
