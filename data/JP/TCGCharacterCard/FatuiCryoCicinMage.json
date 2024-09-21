@@ -1,0 +1,84 @@
+{
+  "id": "FatuiCryoCicinMage",
+  "shareId": 52,
+  "name": "ファデュイ·氷蛍術師",
+  "title": "霧虚ろに召喚されし蛍·氷蛍術師",
+  "desc": "霧虚ろ草が尽きるまで、氷蛍は彼女の傍を離れない。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "ファデュイ"
+    ],
+    "talent_card": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、ファデュイ·氷蛍術師に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "氷蛍角錐",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "霧虚ろの呼びかけ",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与え、<span style=\"color:#FFFFFFFF\">氷蛍</span>を召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "氷の枝に白い花",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を5与え、本キャラは<span style=\"color:#99FFFFFF\">氷元素付着</span>状態になり、<span style=\"color:#FFFFFFFF\">流蛍バリア</span>を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

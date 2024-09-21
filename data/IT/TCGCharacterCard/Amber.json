@@ -1,0 +1,85 @@
+{
+  "id": "Amber",
+  "shareId": 20,
+  "name": "Amber",
+  "title": "Amber, Vigilante",
+  "desc": "Se vuoi essere un bravo giocatore...\\nDevi innanzitutto avere il coraggio di sederti a giocare.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arco",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "BunnyTriggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "Ricompensa ottenuta sfidando Amber a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Sharpshooter",
+      "name": "Tiratore scelto",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ExplosivePuppet",
+      "name": "Bambola esplosiva",
+      "desc": "Invoca 1 <span style=\"color:#FFFFFFFF\">Baron Coniglio</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FieryRain",
+      "name": "Pioggia di frecce",
+      "desc": "Infligge 2 <span style=\"color:#FF9999FF\">DAN da Pyro</span> e <span style=\"color:#FFFFFFFF\">2 <span style=\"color:#FFFFFFFF\">DAN da perforazione</span></span> a tutti i personaggi inattivi.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}
