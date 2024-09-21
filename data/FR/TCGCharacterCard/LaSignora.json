@@ -1,0 +1,93 @@
+{
+  "id": "LaSignora",
+  "shareId": 277,
+  "name": "Signora",
+  "title": "Signora · La 8e Exécutrice",
+  "desc": "L'aurore écarlate se refléta dans ses prunelles, et enfin, elle déplia ses ailes flamboyantes et s'envola vers la lumière.\\n« Mais cette lumière n'est pas l'aube, chère Rosalyne. C'est une mer de flammes qui consumera tout. »\\nPourtant, cela n'avait guère d'importance, car elle savait dans son cœur que les flammes l'avaient dévorée depuis longtemps.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "PainForPain",
+      "name": "Pain for Pain"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre Signora",
+    "character": {
+      "id": "LaSignora",
+      "name": "La Signora"
+    }
+  },
+  "skills": [
+    {
+      "id": "FrostbladeHailstorm",
+      "name": "Blizzard cinglant",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BitingShards",
+      "name": "Épine mordante",
+      "desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et applique le <span style=\"color:#FFFFFFFF\">Grand froid</span> au personnage choisi.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CarmineChrysalis",
+      "name": "Chrysalide carmin",
+      "desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>, soigne le personnage pour 2 pts et annule la forme de <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates scellée de glace</span>, le personnage changeant de façon permanente en <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MightOfDelusion",
+      "name": "Pouvoir de tromperie",
+      "desc": "(Passif) Applique la forme de <span style=\"color:#FFFFFFFF\">Sorcière des braises écarlates scellée de glace</span> au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

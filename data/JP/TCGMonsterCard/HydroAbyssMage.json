@@ -1,0 +1,94 @@
+{
+  "id": "HydroAbyssMage",
+  "shareId": 5201,
+  "name": "アビスの魔術師·水",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "水弾",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "泡影の祭法",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与え、目標キャラに<span style=\"color:#FFFFFFFF\">水の泡</span>を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "浮幻生滅の儀",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を4与え、目標キャラに<span style=\"color:#FFFFFFFF\">水の泡</span>を付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "水元素バリア",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">水元素バリア</span>が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "アビスの加護",
+      "desc": "【固有】バリアが破裂した状態でスキルを発動した後、<span style=\"color:#FFFFFFFF\">水元素バリア</span>が再び付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

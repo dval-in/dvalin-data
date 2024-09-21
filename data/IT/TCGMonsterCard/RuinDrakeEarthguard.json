@@ -1,0 +1,89 @@
+{
+  "id": "RuinDrakeEarthguard",
+  "shareId": 3005,
+  "name": "Drago delle rovine: Guardiano della terra",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Nessun tipo elementale",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloseExpulsion",
+      "name": "Espulsione ravvicinata",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Carica improvvisa",
+      "desc": "Infligge 3 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Sovratensione d'energia",
+      "desc": "Infligge 5 <span style=\"color:#FFFFFFFF\">DAN fisici</span>. Se questo personaggio ha assorbito energia elementale, converte il tipo elementale dei DAN nell'elemento assorbito e infligge DAN +1.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Armatura standard",
+      "desc": "(Passiva) I <span style=\"color:#FFFFFFFF\">DAN fisici</span> subiti da questo personaggio sono dimezzati (arrotondati per eccesso).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Assorbimento elementale",
+      "desc": "(Passiva) <span style=\"color:#FFFFFFFF\">Quando non è stato assorbito nessun elemento e questo personaggio subisce DAN elementali</span>, assorbi quell'elemento.<br/>Dimezza i DAN di quell'elemento subiti da questo personaggio (arrotondati per eccesso).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

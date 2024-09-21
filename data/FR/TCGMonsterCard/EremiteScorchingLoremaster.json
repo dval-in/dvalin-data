@@ -1,0 +1,93 @@
+{
+  "id": "EremiteScorchingLoremaster",
+  "shareId": 285,
+  "name": "Lettrée incandescente des Érémites",
+  "title": "Poésie et histoires secrètes : Lettrée incandescente",
+  "desc": "Ceux qui s'en souviennent encore ne trahiront jamais le sang de sable qui coule encore dans leurs veines.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Érémites"
+    ],
+    "talent_card": {
+      "id": "Scorpocalypse",
+      "name": "Scorpocalypse"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Lettrée incandescente des Érémites",
+    "character": {
+      "id": "EremiteScorchingLoremaster",
+      "name": "Eremite Scorching Loremaster"
+    }
+  },
+  "skills": [
+    {
+      "id": "SearingGlare",
+      "name": "Lueur torride",
+      "desc": "Inflige 1 pt de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingStrike",
+      "name": "Frappe enflammée",
+      "desc": "Inflige 3 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningPyroScorpion",
+      "name": "Éveil d'esprit sinistre du scorpion ardent",
+      "desc": "Inflige 2 pts de <span style=\"color:#FF9999FF\">DGT Pyro</span> et invoque l'<span style=\"color:#FFFFFFFF\">esprit sinistre du scorpion ardent</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Puissance d'esprit sinistre",
+      "desc": "(Passif) <span style=\"color:#FFFFFFFF\">Lorsque le personnage a subi des DGT : </span>Il obtient 1 <span style=\"color:#FFFFFFFF\">charge</span> s'il a 7 PV ou moins. (Limité à 1 fois par partie)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

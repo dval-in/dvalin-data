@@ -1,0 +1,80 @@
+{
+  "id": "RuinGuard",
+  "shareId": 3004,
+  "name": "Guardia delle rovine",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Nessun tipo elementale",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "Attacco inesorabile",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Accerchiamento a spirale",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span> e poi, separatamente, esegue <span style=\"color:#FFFFFFFF\">Preparazione abilità</span> per <span style=\"color:#FFFFFFFF\">Rotazione ad alta frequenza</span> e <span style=\"color:#FFFFFFFF\">Rotazione ultrasonica</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Sparo soppressore",
+      "desc": "Infligge 4 <span style=\"color:#FFFFFFFF\">DAN fisici</span>, genera 1 <span style=\"color:#FFFFFFFF\">Missile a ricerca</span> nell'area di gioco avversaria.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Armatura standard",
+      "desc": "(Passiva) I <span style=\"color:#FFFFFFFF\">DAN fisici</span> subiti da questo personaggio sono dimezzati (arrotondati per eccesso).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

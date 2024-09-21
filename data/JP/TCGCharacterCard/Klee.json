@@ -1,0 +1,85 @@
+{
+  "id": "Klee",
+  "shareId": 22,
+  "name": "クレー",
+  "title": "逃げ回る太陽·クレー",
+  "desc": "手札を引くたびに、「爆発的なサプライズ」をもたらしてくれるかもしれない。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "炎元素",
+    "weapon": "法器",
+    "faction": [
+      "モンド"
+    ],
+    "talent_card": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "キャッツテールでクレーを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "バンバン",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "ボンボン爆弾",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">爆裂花火</span>を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "ドッカン花火",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与え、相手のフィールドに<span style=\"color:#FFFFFFFF\">ドッカン花火</span>を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

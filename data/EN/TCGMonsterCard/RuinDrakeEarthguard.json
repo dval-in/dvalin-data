@@ -1,0 +1,89 @@
+{
+  "id": "RuinDrakeEarthguard",
+  "shareId": 3005,
+  "name": "Ruin Drake: Earthguard",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "No Elemental Type",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloseExpulsion",
+      "name": "Close Expulsion",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Sudden Charge",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Energy Surge",
+      "desc": "Deals 5 <span style=\"color:#FFFFFFFF\">Physical DMG</span>. If this character has absorbed Elemental Energy, it will release that element for +1 DMG and change DMG type to the absorbed element.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Standard Armor",
+      "desc": "(Passive) The <span style=\"color:#FFFFFFFF\">Physical DMG</span> this character receives is halved (Rounded up)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Elemental Absorption",
+      "desc": "(Passive) <span style=\"color:#FFFFFFFF\">When no element has been absorbed and this character takes Elemental DMG</span>, absorb that element.<br/>Halve DMG of that element taken by this character. (Rounded up)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

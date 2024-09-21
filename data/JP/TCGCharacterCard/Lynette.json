@@ -1,0 +1,86 @@
+{
+  "id": "Lynette",
+  "shareId": 282,
+  "name": "リネット",
+  "title": "綺影で魅せるエレガンス·リネット",
+  "desc": "水中の輪郭を窺い、月影を見透かす。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "風元素",
+    "weapon": "片手剣",
+    "faction": [
+      "フォンテーヌ",
+      "ファデュイ"
+    ],
+    "talent_card": {
+      "id": "AColdBladeLikeAShadow",
+      "name": "A Cold Blade Like a Shadow"
+    },
+    "source": "キャッツテールでリネットを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Lynette",
+      "name": "Lynette",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "RapidRitesword",
+      "name": "ラピッド·レイピア",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "EnigmaticFeint",
+      "name": "エニグマティック·フェイント",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を3与える。本ラウンドでこのスキルを初めて発動する、かつ自身のHPが8以下の場合、自身のHPを2回復する。ただし、<span style=\"color:#FFFFFFFF\">襲撃の余威</span>が付与される。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MagicTrickAstonishingShift",
+      "name": "魔術·アストニシングシフト",
+      "desc": "<span style=\"color:#80FFD7FF\">風元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">ビックラキャット·ボックス</span>を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

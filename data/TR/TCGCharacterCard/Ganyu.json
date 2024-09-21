@@ -1,0 +1,100 @@
+{
+  "id": "Ganyu",
+  "shareId": 1,
+  "name": "Ganyu",
+  "title": "\"Dolunay Gözcüsü\" Ganyu",
+  "desc": "\"Bu basın açıklaması yarın yapılacak... Tüm gece çalışırsam bitirebilirim bence.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Yay",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "UndividedHeart",
+      "name": "Undivided Heart"
+    },
+    "source": "Ganyu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Ganyu",
+      "name": "Ganyu",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "LiutianArchery",
+      "name": "Liutian Okçuluğu",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TrailOfTheQilin",
+      "name": "Qilin'in İzi",
+      "desc": "1 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Buz Nilüferi</span> oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostflakeArrow",
+      "name": "Buzdan Ok",
+      "desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir ve rakibin hazırdaki karakterlerine 2 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CelestialShower",
+      "name": "Göklerin Görkemi",
+      "desc": "2 <span style=\"color:#99FFFFFF\">Buz Hasarı</span> verir, rakibin tüm hazırdaki karakterlerine 1 <span style=\"color:#FFFFFFFF\">Delme Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Kutsal Buz İncisi</span> çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

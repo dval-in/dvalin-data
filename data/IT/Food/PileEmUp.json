@@ -1,0 +1,57 @@
+{
+  "id": "PileEmUp",
+  "name": "Stratosferico del Ludi",
+  "description": "Un piatto ricco di carne. È una pietanza tipica di Mondstadt realizzata con bistecche, patate e formaggio, che da molti anni è diventata sinonimo del Ludi Harpastum.",
+  "rarity": 3,
+  "ingredients": [
+    {
+      "id": "RawMeat",
+      "name": "Pezzo di carne cruda",
+      "amount": 3
+    },
+    {
+      "id": "Potato",
+      "name": "Patata",
+      "amount": 3
+    },
+    {
+      "id": "SmallLampGrass",
+      "name": "Lampadulina",
+      "amount": 1
+    },
+    {
+      "id": "Cheese",
+      "name": "Formaggio",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Piatto ATT+",
+  "results": {
+    "suspicious": {
+      "name": "Stratosferico del Ludi sospetto",
+      "description": "Un piatto ricco di carne, che però è stata impilata in modo errato... Già, ormai è andata così. Che sia meglio non servirlo...?",
+      "effect": "#Aumenta di un 10% il tasso di CRIT di tutti i membri del gruppo per 300 s. In modalità cooperativa, si applica solo ai tuoi personaggi."
+    },
+    "normal": {
+      "name": "Stratosferico del Ludi",
+      "description": "Un piatto ricco di carne. È una pietanza tipica di Mondstadt realizzata con bistecche, patate e formaggio, che da molti anni è diventata sinonimo del Ludi Harpastum.",
+      "effect": "#Aumenta di un 15% il tasso di CRIT di tutti i membri del gruppo per 300 s. In modalità cooperativa, si applica solo ai tuoi personaggi."
+    },
+    "delicious": {
+      "name": "Stratosferico del Ludi delizioso",
+      "description": "Un piatto ricco di carne. La carne è stata impilata in modo da essere deliziosa sia da vedere che da mangiare. Chissà se si può fare ancora più alto?",
+      "effect": "#Aumenta di un 20% il tasso di CRIT di tutti i membri del gruppo per 300 s. In modalità cooperativa, si applica solo ai tuoi personaggi."
+    },
+    "special": {
+      "id": "OnceUponATimeInMondstadt",
+      "name": "C'era una volta a Mondstadt",
+      "description": "La specialità di Diluc. Una delizia per gli occhi e per la pancia, con delle costolette che si sciolgono in bocca. Chi immaginava che Diluc sapesse cucinare così bene?",
+      "effect": "#Aumenta di un 20% il tasso di CRIT e i DAN da CRIT di tutti i membri del gruppo per 300 s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+      "character": {
+        "id": "Diluc",
+        "name": "Diluc"
+      }
+    }
+  },
+  "version": "5.0"
+}

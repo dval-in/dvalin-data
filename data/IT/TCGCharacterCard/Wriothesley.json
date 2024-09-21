@@ -1,0 +1,85 @@
+{
+  "id": "Wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "Wriothesley, Emissario di colpe silenti",
+  "desc": "Infamia abissale.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Catalizzatore",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "TerrorForTheEvildoers",
+      "name": "Terror for the Evildoers"
+    },
+    "source": "Ricompensa ottenuta sfidando Wriothesley a duello alla Coda di Gatto e battendolo in un duello amichevole",
+    "character": {
+      "id": "Wriothesley",
+      "name": "Wriothesley",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ForcefulFistsOfFrost",
+      "name": "Pugni del gelo veemente",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcefangRush",
+      "name": "Assalto della zanna di ghiaccio",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>. Questo personaggio ottiene l'effetto <span style=\"color:#FFFFFFFF\">Punizione rigente</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DarkgoldWolfbite",
+      "name": "Morso del lupo brunauro",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>, crea 1 <span style=\"color:#FFFFFFFF\">Stalattiti persistenti</span>.<br/><span style=\"color:#FFFFFFFF\">Ogni 2 volte in totale che questo personaggio subisce DAN o viene guarito in questo turno</span>, questa abilità costa 1 dado elementale in meno (massimo 2 in meno).",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

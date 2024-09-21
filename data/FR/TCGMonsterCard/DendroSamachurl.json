@@ -1,0 +1,72 @@
+{
+  "id": "DendroSamachurl",
+  "shareId": 3703,
+  "name": "Brutoshaman Dendro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Brutocollinus"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Coup de bâton",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VenomousVines",
+      "name": "Liane venimeuse",
+      "desc": "Inflige 1 pt de <span style=\"color:#7EC236FF\">DGT Dendro</span> et crée une <span style=\"color:#FFFFFFFF\">liane</span> sur le terrain adverse.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DendroField",
+      "name": "Champ Dendro",
+      "desc": "Inflige 5 pts de <span style=\"color:#7EC236FF\">DGT Dendro</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

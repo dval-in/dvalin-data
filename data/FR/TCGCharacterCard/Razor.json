@@ -1,0 +1,81 @@
+{
+  "id": "Razor",
+  "shareId": 27,
+  "name": "Razor",
+  "title": "Razor · Enfant-loup",
+  "desc": "« Les cartes, dur...\\nMais... des amis... »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Récompense pour avoir invité Razor à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Razor",
+      "name": "Razor",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SteelFang",
+      "name": "Croc d'acier",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ClawAndThunder",
+      "name": "Griffe et tonnerre",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningFang",
+      "name": "Croc éclair",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et accorde un <span style=\"color:#FFFFFFFF\">loup de tonnerre</span> au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

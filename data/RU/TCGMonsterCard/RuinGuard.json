@@ -1,0 +1,80 @@
+{
+  "id": "RuinGuard",
+  "shareId": 3004,
+  "name": "Страж руин",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Без элемента",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "Твёрдый удар",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Спиральное приближение",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 1 ед., после чего начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Частотный удар</span> и <span style=\"color:#FFFFFFFF\">Скоростной удар</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Залп на подавление",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 4 ед. Вызывает <span style=\"color:#FFFFFFFF\">Снаряд-следопыт</span> в области противника.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Совпадающий элемент",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Стандартная броня",
+      "desc": "(Пассивный навык) <span style=\"color:#FFFFFFFF\">Физический урон</span>, который получает этот персонаж, снижается вдвое (округляется в большую сторону)",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

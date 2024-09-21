@@ -1,0 +1,85 @@
+{
+  "id": "Albedo",
+  "shareId": 45,
+  "name": "Albedo",
+  "title": "\"Kreideprinz\" Albedo",
+  "desc": "Siyahlık ve beyazlık, sarılık ve kızıllık.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Kılıç",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "DescentOfDivinity",
+      "name": "Descent of Divinity"
+    },
+    "source": "Albedo'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Albedo",
+      "name": "Albedo",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkWeiss",
+      "name": "Favonius Kılıç Tekniği - Weiss",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbiogenesisSolarIsotoma",
+      "name": "Yaratılış: Güneş Çiçeği",
+      "desc": "<span style=\"color:#FFFFFFFF\">Güneş Çiçeği</span> çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfProgenitureTectonicTide",
+      "name": "Varoluş Ayini: Tektonik Dalga",
+      "desc": "4 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Eğer <span style=\"color:#FFFFFFFF\">Güneş Çiçeği</span> alandaysa, bu Hasar 2 artar.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

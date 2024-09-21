@@ -1,0 +1,71 @@
+{
+  "id": "ArithmeticEnhancerMek",
+  "shareId": 3008,
+  "name": "Meka potenziatore aritmetico",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta personaggio",
+    "energy": 1,
+    "element": "Nessun tipo elementale",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Collisione",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BrutalRam",
+      "name": "Impatto brutale",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingUp",
+      "name": "Ricarica di energia",
+      "desc": "Infligge 3 <span style=\"color:#FFFFFFFF\">DAN fisici</span> e ripristina la forma Pneuma/Ousia originale di questo personaggio.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementi corrispondenti",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

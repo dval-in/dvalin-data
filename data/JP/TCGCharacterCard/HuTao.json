@@ -1,0 +1,85 @@
+{
+  "id": "HuTao",
+  "shareId": 23,
+  "name": "胡桃",
+  "title": "雪晴梅香·胡桃",
+  "desc": "「全員あの世行き。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "炎元素",
+    "weapon": "長柄武器",
+    "faction": [
+      "璃月"
+    ],
+    "talent_card": {
+      "id": "SanguineRogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "キャッツテールで胡桃を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "HuTao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SecretSpearOfWangsheng",
+      "name": "往生秘伝槍法",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuideToAfterlife",
+      "name": "蝶導来世",
+      "desc": "本キャラに<span style=\"color:#FFFFFFFF\">冥蝶の舞</span>を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritSoother",
+      "name": "安神秘法",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を4与え、自身のHPを2回復する。本キャラのHPが6以下の場合、与えるダメージと回復量がそれぞれ+1。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

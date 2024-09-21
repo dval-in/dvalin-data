@@ -1,0 +1,85 @@
+{
+  "id": "Venti",
+  "shareId": 38,
+  "name": "Venti",
+  "title": "Venti - El bardo itinerante",
+  "desc": "“Igual que el paso del tiempo, el viento nunca se detiene.\\nEl mérito de esta obra fue mío, por supuesto,\\nya que sin los bardos, ¿quién difundiría las leyendas?”",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Arco",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "EmbraceOfWinds",
+      "name": "Embrace of Winds"
+    },
+    "source": "Se obtiene tras retar y ganar a Venti en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DivineMarksmanship",
+      "name": "Puntería divina",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SkywardSonnet",
+      "name": "Sonata celestial",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y crea un <span style=\"color:#FFFFFFFF\">campo de viento</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WindsGrandOde",
+      "name": "Gran Oda del Viento",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> e invoca un <span style=\"color:#FFFFFFFF\">Ojo del huracán</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

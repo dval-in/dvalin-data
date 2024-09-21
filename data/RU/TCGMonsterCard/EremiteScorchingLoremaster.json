@@ -1,0 +1,93 @@
+{
+  "id": "EremiteScorchingLoremaster",
+  "shareId": 285,
+  "name": "Пустынник: Пылающий повествователь",
+  "title": "«Поэзия и тайные истории» - Пылающий повествователь",
+  "desc": "Те, кто хранит память, никогда не предадут дух песков, что струится в их жилах.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Пиро",
+    "weapon": "Прочее",
+    "faction": [
+      "Пустынники"
+    ],
+    "talent_card": {
+      "id": "Scorpocalypse",
+      "name": "Scorpocalypse"
+    },
+    "source": "Награда за принятие испытания в «Кошкином хвосте» и победу над Пустынником: Пылающим повествователем в Дружеской дуэли",
+    "character": {
+      "id": "EremiteScorchingLoremaster",
+      "name": "Eremite Scorching Loremaster"
+    }
+  },
+  "skills": [
+    {
+      "id": "SearingGlare",
+      "name": "Палящий свет",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingStrike",
+      "name": "Блестящий удар",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningPyroScorpion",
+      "name": "Пробуждение духа предзнаменования: Пиро скорпион",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 2 ед. Призывает помощника: <span style=\"color:#FFFFFFFF\">Дух предзнаменования: Пиро скорпион</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Сила духа предзнаменования",
+      "desc": "(Пассивный навык) <span style=\"color:#FFFFFFFF\">Когда этот персонаж получает урон:</span> если его HP не более 7, у него прибавляется <span style=\"color:#FFFFFFFF\">Энергия</span>, 1 ед. Только 1 раз за игру.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

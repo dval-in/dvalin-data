@@ -1,0 +1,85 @@
+{
+  "id": "Klee",
+  "shareId": 22,
+  "name": "Klee",
+  "title": "Klee - El sol fugitivo",
+  "desc": "Cada vez que robas una carta, esta puede venir acompañada de una “sorpresa explosiva”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Catalizador",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "Se obtiene tras retar y ganar a Klee en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "¡Buuum!",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Bomba saltarina",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y este personaje entra en el estado de <span style=\"color:#FFFFFFFF\">flor explosiva</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Chispas explosivas",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> y crea unas <span style=\"color:#FFFFFFFF\">Chispas explosivas</span> en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

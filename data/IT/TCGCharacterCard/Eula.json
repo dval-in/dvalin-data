@@ -1,0 +1,85 @@
+{
+  "id": "Eula",
+  "shareId": 6,
+  "name": "Eula",
+  "title": "Eula, Danza dell'onda luccicante",
+  "desc": "\"È solo un gioco. Se la fortuna sarà dalla tua parte, non nutrirò rancore.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "Ricompensa ottenuta sfidando Eula a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Tecnica di Favonius - Edel",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Vortice algido",
+      "desc": "Infligge 2 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>. Se questo personaggio non ha ancora ottenuto <span style=\"color:#FFFFFFFF\">Cuortetro</span>, acquisisce <span style=\"color:#FFFFFFFF\">Cuortetro</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Illuminazione glaciale",
+      "desc": "Infligge 2 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Spada di luce cadente</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

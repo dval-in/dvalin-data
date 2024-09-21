@@ -1,0 +1,93 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 368,
+  "name": "All-Devouring Narwhal",
+  "title": "\"Cryptic Creature\" All-Devouring Narwhal",
+  "desc": "Dalam kisah-kisah paling fantastis atau hiperbola yang kelewat batas, bintang-bintang yang ditemukan di kedalaman alam semesta mungkin penuh dengan kehidupan, seperti halnya Teyvat. Sementara alam semesta itu sendiri mirip dengan lautan.\\nMungkinkah alam semesta terus-menerus mencoba menyusup ke Teyvat, atau barangkali kekuatan yang lebih tinggi justru mendirikan perbatasan untuk melindungi dunia ini?",
+  "attributes": {
+    "hp": 5,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "LightlessFeeding",
+      "name": "Lightless Feeding"
+    },
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan All-Devouring Narwhal",
+    "character": {
+      "id": "AlldevouringNarwhal",
+      "name": "All-Devouring Narwhal"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "Shattering Waves",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Starfall Shower",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE_2] poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>. Untuk setiap 3 poin Max HP tambahan yang diberikan oleh <span style=\"color:#FFFFFFFF\">Insatiable Appetite</span> yang dimiliki Karakter ini, akan mengakibatkan DMG +1 (Maksimum +3 poin). Selanjutnya, akan <span style=\"color:#FFFFFFFF\">Buang</span> 1 kartu berbiaya awal Dadu Elemental tertinggi di tanganmu.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Ravaging Devourer",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>, mengakibatkan 1 poin <span style=\"color:#FFFFFFFF\">Piercing DMG</span> ke seluruh Karakter standby lawan, dan memanggil <span style=\"color:#FFFFFFFF\">Dark Shadow</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Insatiable Appetite",
+      "desc": "[Pasif] Menciptakan <span style=\"color:#FFFFFFFF\">Deep Devourer's Domain</span> saat duel dimulai.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

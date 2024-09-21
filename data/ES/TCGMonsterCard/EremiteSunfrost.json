@@ -1,0 +1,85 @@
+{
+  "id": "EremiteSunfrost",
+  "shareId": 3106,
+  "name": "Eremita Congelafuegos",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Eremita"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "DoubleHack",
+      "name": "Tajo doble",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DualbladeChop",
+      "name": "Doble filo",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StalwartOnslaught",
+      "name": "Contusión potenciada",
+      "desc": "Este personaje <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Contusión potenciada: Golpe culminante</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedCryo",
+      "name": "Liberación de Ominoespíritu: Cryo",
+      "desc": "Pasiva: si este personaje tiene 7 pts. de Vida o menos <span style=\"color:#FFFFFFFF\">después de recibir daño</span>, obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1 y el efecto de <span style=\"color:#FFFFFFFF\">despertar de Ominoespíritu: Cryo</span> (1 vez por partida).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

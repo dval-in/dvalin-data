@@ -1,0 +1,84 @@
+{
+  "id": "FatuiCryoCicinMage",
+  "shareId": 52,
+  "name": "Maga Cicin di Cryo dei Fatui",
+  "title": "Maga Cicin di Cryo, Cicin della nebbia vuota",
+  "desc": "E finché l'Erbafosca persiste, i Cicin di Cryo non l'abbandoneranno.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Maga Cicin di Cryo in un duello amichevole",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Stalattite Cicin",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Invocazioni offuscate",
+      "desc": "Infligge 1 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, invoca <span style=\"color:#FFFFFFFF\">Cicin di Cryo</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Tormenta, ramo, fioritura",
+      "desc": "Infligge 5 <span style=\"color:#99FFFFFF\">DAN da Cryo</span>, questo personaggio riceve <span style=\"color:#99FFFFFF\">Applicazione di Cryo</span> e genera 1 <span style=\"color:#FFFFFFFF\">Scudo fluttuante Cicin</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

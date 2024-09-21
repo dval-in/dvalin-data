@@ -1,0 +1,80 @@
+{
+  "id": "RuinGuard",
+  "shareId": 3004,
+  "name": "Guardián de las Ruinas",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Sin tipo elemental",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "Asalto adusto",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "Acercamiento espiral",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y <span style=\"color:#FFFFFFFF\">prepara las habilidades</span> <span style=\"color:#FFFFFFFF\">Girogolpe frecuente</span> y <span style=\"color:#FFFFFFFF\">Girogolpe veloz</span> respectivamente.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "Disparo supresor",
+      "desc": "Inflige 4 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y crea un <span style=\"color:#FFFFFFFF\">proyectil persecutor</span> en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Dados unielementales",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Armadura estándar",
+      "desc": "Pasiva: el <span style=\"color:#FFFFFFFF\">Daño Físico</span> que recibe el personaje se reduce a la mitad (se redondea hacia arriba).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

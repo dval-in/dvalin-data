@@ -1,0 +1,85 @@
+{
+  "id": "Jean",
+  "shareId": 37,
+  "name": "Джинн",
+  "title": "«Рыцарь Одуванчик» Джинн",
+  "desc": "Никогда не верит, что сделала всё достаточно хорошо - во всяком случае, до тех пор, пока окончательная победа не будет за ней.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Одноручное",
+    "faction": [
+      "Мондштадт"
+    ],
+    "talent_card": {
+      "id": "LandsOfDandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": "Награда за приглашение Джинн в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladework",
+      "name": "Фехтовальный стиль Фавония",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GaleBlade",
+      "name": "Клинок ветра",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 3 ед. Принуждает соперника сделать активным следующего персонажа.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DandelionBreeze",
+      "name": "Одуванчиковый бриз",
+      "desc": "Восстанавливает 2 HP всем вашим персонажам, призывает помощника: <span style=\"color:#FFFFFFFF\">Поле одуванчиков</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

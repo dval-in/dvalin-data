@@ -1,0 +1,85 @@
+{
+  "id": "Eula",
+  "shareId": 6,
+  "name": "Eula",
+  "title": "Eula · Vague déferlante",
+  "desc": "Ce n'est qu'un jeu. Je n'en garderai pas rancune si la chance devait être de votre côté.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "Récompense pour avoir invité Eula à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "Escrime de Favonius : Aristocratie",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "Vortex des mers glacées",
+      "desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>. Si le personnage n'est pas affecté par un <span style=\"color:#FFFFFFFF\">cœur de glace</span>, il obtient un <span style=\"color:#FFFFFFFF\">cœur de glace</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "Lame de fond",
+      "desc": "Inflige 2 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span> et invoque une <span style=\"color:#FFFFFFFF\">épée de lumière</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

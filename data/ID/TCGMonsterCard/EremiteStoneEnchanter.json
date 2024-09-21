@@ -1,0 +1,85 @@
+{
+  "id": "EremiteStoneEnchanter",
+  "shareId": 3606,
+  "name": "Eremite Stone Enchanter",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Eremite"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TripleGeosmash",
+      "name": "Triple Geosmash",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SplitrockSlam",
+      "name": "Splitrock Slam",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFE699FF\">Geo DMG</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OminousSpiritUnleashedGeo",
+      "name": "Ominous Spirit Unleashed (Geo)",
+      "desc": "Mengakibatkan 3 poin <span style=\"color:#FFE699FF\">Geo DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Spirit of Omen: Stone Drake</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Spirit of Omen's Power",
+      "desc": "[Pasif] Setelah Karakter ini menerima DMG, jika masih memiliki 7 poin HP atau lebih sedikit, akan mendapatkan 1 poin Energy. (Sekali selama pertandingan)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

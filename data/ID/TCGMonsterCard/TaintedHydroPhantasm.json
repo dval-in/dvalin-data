@@ -1,0 +1,94 @@
+{
+  "id": "TaintedHydroPhantasm",
+  "shareId": 3209,
+  "name": "Tainted Hydro Phantasm",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TaintedWaterStrike",
+      "name": "Tainted Water Strike",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpoutingWaves",
+      "name": "Spouting Waves",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TaintedWaterSurge",
+      "name": "Tainted Water Surge",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#80C0FFFF\">Hydro DMG</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh <span style=\"color:#FFFFFFFF\">Elemental Lifeform: Hydro</span>.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "TaintedWatersChangeTheirShape",
+      "name": "Tainted Waters Change Their Shape",
+      "desc": "[Pasif] Tidak dapat terkena <span style=\"color:#FFFFFFFF\">Frozen</span>;<br/>Karakter ini mengakibatkan DMG +2 saat HP-nya tidak lebih dari 5.<br/><span style=\"color:#FFFFFFFF\">Setelah Karakter ini menggunakan Skill: </span>jika Karakter ini memiliki minimum 6 poin HP, maka akan mengakibatkan 1 poin <span style=\"color:#FFFFFFFF\">Piercing DMG</span> terhadap semua Karakter standby lawan.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

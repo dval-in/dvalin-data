@@ -1,0 +1,99 @@
+{
+  "id": "RhodeiaOfLoch",
+  "shareId": 53,
+  "name": "물의 정령·로데이아",
+  "title": "물의 주인·로데이아",
+  "desc": "「하지만, 강과 계곡이 흐르고 비가 그치지 않는 한, 물은 사라지지 않아…」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 3,
+    "element": "물 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물"
+    ],
+    "talent_card": {
+      "id": "StreamingSurge",
+      "name": "Streaming Surge"
+    },
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 물의 정령·로데이아에게 승리 후 획득",
+    "character": {
+      "id": "Oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "Surge",
+      "name": "솟구침",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 1pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OceanidMimicSummoning",
+      "name": "물의 환상",
+      "desc": "1종류의 <span style=\"color:#FFFFFFFF\">물의 환형</span>을 랜덤으로 소환한다. (다른 종류를 우선적으로 생성, 소환 구역에 동시에 최대 2종류의 물의 환형이 존재할 수 있다)",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheMyriadWilds",
+      "name": "임야백태",
+      "desc": "2종류의 <span style=\"color:#FFFFFFFF\">물의 환형</span>을 랜덤으로 소환한다. (다른 종류를 우선적으로 생성, 소환 구역에 동시에 최대 2종류의 물의 환형이 존재할 수 있다)",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "TideAndTorrent",
+      "name": "밀물과 급류",
+      "desc": "<span style=\"color:#80C0FFFF\">물 원소 피해</span>를 4pt 준다. 아군의 소환물이 1개 있을 때마다 이번 피해가 1pt 증가한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

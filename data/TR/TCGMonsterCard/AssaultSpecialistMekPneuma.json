@@ -1,0 +1,85 @@
+{
+  "id": "AssaultSpecialistMekPneuma",
+  "shareId": 3307,
+  "name": "Hücum Uzmanı Meka - Ruh",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "UpclosePummelling",
+      "name": "Göğüs Göğüse Savaş",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multismash",
+      "name": "Çoklu Saldırı",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve <span style=\"color:#FFFFFFFF\">Kovalama Copu</span> için \"<span style=\"color:#FFFFFFFF\">Beceri Hazırlama</span>\" kullanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SprintingStrike",
+      "name": "Depar Saldırısı",
+      "desc": "5 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkhePneuma",
+      "name": "Arkhe: Ruh",
+      "desc": "<span style=\"color:#FFFFFFFF\">\"Arkhe: Öz\"e sahip karakterler tarafından hasar aldıktan sonra</span> bu karakter <span style=\"color:#FFFFFFFF\">Devre dışı</span> kalır ve bu Tur sona erene kadar <span style=\"color:#FFFFFFFF\">beceri kullanamaz</span>.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

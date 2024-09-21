@@ -1,0 +1,85 @@
+{
+  "id": "ElectroAbyssMage",
+  "shareId": 3404,
+  "name": "アビスの魔術師·雷",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Thunderbolt",
+      "name": "雷弾",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLight",
+      "name": "光纏の祭法",
+      "desc": "<span style=\"color:#FFFFFFFF\">雷纏の輪</span>を召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfRollingThunder",
+      "name": "転雷疾駆の儀",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を4与え、<span style=\"color:#FFFFFFFF\">雷纏の輪</span>を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElectroShield",
+      "name": "雷元素バリア",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">雷元素バリア</span>が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

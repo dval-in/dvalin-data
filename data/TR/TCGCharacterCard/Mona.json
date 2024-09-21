@@ -1,0 +1,94 @@
+{
+  "id": "Mona",
+  "shareId": 11,
+  "name": "Mona",
+  "title": "\"Astral Yansıma\" Mona",
+  "desc": "Zafer veya yenilgi, hepsi yıldızlarda yazılı.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Su",
+    "weapon": "Katalizör",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "ProphecyOfSubmersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": "Mona'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "RippleOfFate",
+      "name": "Kader Dalgası",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MirrorReflectionOfDoom",
+      "name": "Kıyamet Yansıması",
+      "desc": "1 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Yansıma</span> çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StellarisPhantasm",
+      "name": "Kaderin Yıldızı",
+      "desc": "4 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir ve 1 <span style=\"color:#FFFFFFFF\">Hayali Baloncuk</span> oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IllusoryTorrent",
+      "name": "Hayali Akıntı",
+      "desc": "(Pasif) <span style=\"color:#FFFFFFFF\">Aktif karakterin Mona'yken \"Karakter Değiştir\" kullandığında</span> bu değişiklik, <span style=\"color:#FFFFFFFF\">Savaş Hamlesi</span> yerine <span style=\"color:#FFFFFFFF\">Hızlı Hamle</span> sayılır. (Her Turda bir defa)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

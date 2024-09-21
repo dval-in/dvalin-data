@@ -1,0 +1,93 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 368,
+  "name": "Sternenverschlingender Narwal",
+  "title": "Abgründige Kreatur – Sternenverschlingender Narwal",
+  "desc": "In den zauberhaftesten Geschichten oder in den verrücktesten Hirngespinsten können die echten Sterne in den Tiefen des Universums so voller Leben sein wie Teyvat selbst, während das Universum selbst dem Ozean gleich ist.\\nVielleicht hat ja das kosmische Eindringen nach Teyvat niemals aufgehört; oder vielleicht war es ein höherer Wille, der seine Grenzen zog, um diese Welt zu schützen.",
+  "attributes": {
+    "hp": 5,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "LightlessFeeding",
+      "name": "Lightless Feeding"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit „Sternenverschlingender Narwal“ in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "AlldevouringNarwhal",
+      "name": "All-Devouring Narwhal"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "Wellenwirbel",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Prasselnder Sternenregen",
+      "desc": "Verursacht $[D__KEY__DAMAGE_2] Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>. Für je 3 Pkt. max. LP, die <span style=\"color:#FFFFFFFF\">Unstillbarer Appetit</span> der Figur gewährt, wird dieser SCH um 1 Pkt. erhöht (max. 3 Pkt.). Danach wird 1 Karte mit den höchsten ursprünglichen Elementarwürfelkosten <span style=\"color:#FFFFFFFF\">abgeworfen</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Verwüstender Verschlinger",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>, fügt allen inaktiven Figuren deines Gegners 1 Pkt. <span style=\"color:#FFFFFFFF\">durchdringenden SCH</span> zu. Erschafft 1 <span style=\"color:#FFFFFFFF\">Schwarzes Phantom</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Unstillbarer Appetit",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 1 <span style=\"color:#FFFFFFFF\">Sphäre des Verschlingers</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "MillennialPearlSeahorse",
+  "shareId": 322,
+  "name": "千年真珠の海駿",
+  "title": "千年真珠の海駿",
+  "desc": "原海アベラントの頂点に君臨する二大覇者のうちの一種。その美しく優雅な姿から、詩人や物書きには孤高で高潔な生霊と見られ、「海駿」と呼ばれている。",
+  "attributes": {
+    "hp": 8,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "PearlSolidification",
+      "name": "Pearl Solidification"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、千年真珠の海駿に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "MillennialPearlSeahorse",
+      "name": "Millennial Pearl Seahorse"
+    }
+  },
+  "skills": [
+    {
+      "id": "TailSweep",
+      "name": "尻尾回転攻撃",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "游魚の群れ",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。<br/>本キャラがすでに<span style=\"color:#FFFFFFFF\">原海パール</span>を付与されている場合、その<span style=\"color:#FFFFFFFF\">使用可能回数</span>+1。（各ラウンドで1回のみ）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "原海の古雷",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を1与え、本キャラに<span style=\"color:#FFFFFFFF\">原海パール</span>を付与し、<span style=\"color:#FFFFFFFF\">共鳴サンゴ珠</span>を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "パールの胸甲",
+      "desc": "【固有】戦闘開始時、本キャラに<span style=\"color:#FFFFFFFF\">原海パール</span>を付与する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

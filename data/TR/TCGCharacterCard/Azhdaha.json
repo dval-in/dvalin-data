@@ -1,0 +1,93 @@
+{
+  "id": "Azhdaha",
+  "shareId": 278,
+  "name": "Azhdaha",
+  "title": "Kadim Toprak Ejderinin Atası: Azhdaha",
+  "desc": "Bu ejder kralının prangalarının hafif şıkırtısı ile derin ve öfkeli uğultusu, tıpkı geçmiş çağların hatıraları gibi dağların içinde yankılanıyor.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "LunarCyclesUnending",
+      "name": "Lunar Cycles Unending"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Azhdaha ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Azhdaha",
+      "name": "Azhdaha"
+    }
+  },
+  "skills": [
+    {
+      "id": "SunderingCharge",
+      "name": "Parçalayıcı Hücum",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AuraOfMajesty",
+      "name": "İhtişamlı Hava",
+      "desc": "3 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Bir Kristalleşme tepkimesi oluşursa bu karakter <span style=\"color:#FFFFFFFF\">Element Emilimi</span> gerçekleştirir.<br/>Bu beceri kullanılırken karakter bir elementin gücünü henüz emmemişse <span style=\"color:#FFFFFFFF\">Taş Yüzeyler: Element Kristalleşmesi</span> eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DecimatingRockfall",
+      "name": "Ölümcül Heyelan",
+      "desc": "4 <span style=\"color:#FFE699FF\">Toprak Hasarı</span> verir. Daha önce emilen her bir element için Hasar 1 artar.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StoneFacets",
+      "name": "Taş Yüzeyler",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Taş Yüzeyler: Element Emilimi</span> etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

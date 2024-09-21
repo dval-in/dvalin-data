@@ -1,0 +1,94 @@
+{
+  "id": "HydroAbyssMage",
+  "shareId": 5201,
+  "name": "Feiticeiro do Abismo Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de Personagem",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Bomba de Água",
+      "desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BubblingOffering",
+      "name": "Ritual das Bolhas Sombrias",
+      "desc": "Causa 1 ponto de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, o alvo é afetado por <span style=\"color:#FFFFFFFF\">Bolha de Névoa</span>.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfMortalWater",
+      "name": "Rito das Águas Mortais",
+      "desc": "Causa 4 pontos de <span style=\"color:#80C0FFFF\">Dano Hydro</span>, o alvo é afetado por <span style=\"color:#FFFFFFFF\">Bolha de Névoa</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HydroShield",
+      "name": "Revestimento Hydro",
+      "desc": "(Passivo) No começo do combate, é afetado por <span style=\"color:#FFFFFFFF\">Revestimento Hydro</span>.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "Defesa do Abismo",
+      "desc": "(Passiva) Após uma habilidade ser usada enquanto o revestimento está destruído: aplica novamente <span style=\"color:#FFFFFFFF\">Revestimento Hydro</span>.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

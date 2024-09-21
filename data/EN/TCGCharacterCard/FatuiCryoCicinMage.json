@@ -1,0 +1,84 @@
+{
+  "id": "FatuiCryoCicinMage",
+  "shareId": 52,
+  "name": "Fatui Cryo Cicin Mage",
+  "title": "\"Cicin of the Hollow Mist\" Cryo Cicin Mage",
+  "desc": "And so long as the Mist Grass yet lingers, the Cryo Cicins will not abandon her.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Cryo Cicin Mage",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Cicin Icicle",
+      "desc": "Deals 1 <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Misty Summons",
+      "desc": "Deals 1 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, summons <span style=\"color:#FFFFFFFF\">Cryo Cicins</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Blizzard, Branch, Blossom",
+      "desc": "Deals 5 <span style=\"color:#99FFFFFF\">Cryo DMG</span>, grants this character <span style=\"color:#99FFFFFF\">Cryo Application</span>, creates 1 <span style=\"color:#FFFFFFFF\">Flowing Cicin Shield</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

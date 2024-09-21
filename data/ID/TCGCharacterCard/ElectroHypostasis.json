@@ -1,0 +1,93 @@
+{
+  "id": "ElectroHypostasis",
+  "shareId": 57,
+  "name": "Electro Hypostasis",
+  "title": "Electro Hypostasis",
+  "desc": "Kode nama: Aleph. Entitas Electro dengan kemurnian tinggi.\\nMeskipun menang beradu suit melawannya, dia tetap saja tidak mau mengaku kalah.",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "AbsorbingPrism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Electro Hypostasis",
+    "character": {
+      "id": "ElectroHypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "Electro Crystal Projection",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#FFACFFFF\">Electro DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "Rock-Paper-Scissors Combo",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFACFFFF\">Electro DMG</span>, lalu <span style=\"color:#FFFFFFFF\">mempersiapkan Skill</span>: <span style=\"color:#FFFFFFFF\">Rock-Paper-Scissors Combo: Scissors</span> dan <span style=\"color:#FFFFFFFF\">Rock-Paper-Scissors Combo: Paper</span> secara terpisah.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "Lightning Lockdown",
+      "desc": "Mengakibatkan 2 poin <span style=\"color:#FFACFFFF\">Electro DMG</span> dan memanggil <span style=\"color:#FFFFFFFF\">Chains of Warding Thunder</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectroCrystalCore",
+      "name": "Electro Crystal Core",
+      "desc": "[Pasif] Saat pertandingan dimulai, Karakter ini memperoleh status <span style=\"color:#FFFFFFFF\">Electro Crystal Core</span>.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

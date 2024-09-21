@@ -1,0 +1,72 @@
+{
+  "id": "GeoSamachurl",
+  "shareId": 3603,
+  "name": "Brutoshaman Géo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Brutocollinus"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Coup de bâton",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SummoningOfStones",
+      "name": "Malédiction de pierre",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une <span style=\"color:#FFFFFFFF\">plinthe de pierre</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShockwaveSmash",
+      "name": "Onde de choc fracassante",
+      "desc": "Inflige 5 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

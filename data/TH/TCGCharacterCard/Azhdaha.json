@@ -1,0 +1,93 @@
+{
+  "id": "Azhdaha",
+  "shareId": 278,
+  "name": "Azhdaha",
+  "title": "บรรพบุรุษ Geovishap โบราณ - Azhdaha",
+  "desc": "เสียงสั่นเทาอันแผ่วเบาของห่วงโซ่ และเสียงคำรามแห่งความโกรธเกรี้ยวของราชามังกรนั้น ยังคงดังก้องอยู่ท่ามกลางแนวเทือกเขา ราวกับความทรงจำแห่งอดีตกาล",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุหิน",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์"
+    ],
+    "talent_card": {
+      "id": "LunarCyclesUnending",
+      "name": "Lunar Cycles Unending"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Azhdaha ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "Azhdaha",
+      "name": "Azhdaha"
+    }
+  },
+  "skills": [
+    {
+      "id": "SunderingCharge",
+      "name": "Sundering Charge",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AuraOfMajesty",
+      "name": "Aura of Majesty",
+      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 3 หน่วย หากเกิดปฏิกิริยาการตกผลึก จะทำให้ตัวละคร<span style=\"color:#FFFFFFFF\">ดูดซับพลังของธาตุที่เกี่ยวข้อง</span><br/>หากตัวละครยังไม่ได้ดูดซับพลังของธาตุในสกิลนี้ จะได้รับ <span style=\"color:#FFFFFFFF\">Stone Facets: Elemental Crystallization</span>",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DecimatingRockfall",
+      "name": "Decimating Rockfall",
+      "desc": "สร้าง<span style=\"color:#FFE699FF\">ความเสียหายหิน</span> 4 หน่วย ความเสียหาย +1 ต่อธาตุแต่ละชนิดที่ถูกดูดซับ",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "ธาตุหิน",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StoneFacets",
+      "name": "Stone Facets",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">Stone Facets: Elemental Absorption</span>",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

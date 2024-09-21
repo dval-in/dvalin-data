@@ -1,0 +1,94 @@
+{
+  "id": "Tartaglia",
+  "shareId": 12,
+  "name": "Tartaglia",
+  "title": "\"Asilzade\" Tartaglia",
+  "desc": "Madem bu masa bir savaş alanı, o halde güçlü olan kazansın.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Su",
+    "weapon": "Yay",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "AbyssalMayhemHydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Tartaglia'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CuttingTorrent",
+      "name": "Keskin Sel",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "Kötülüğün Mirası: Dalgaların Öfkesi",
+      "desc": "<span style=\"color:#FFFFFFFF\">Yakın Saldırı Duruşu</span> durumuna geçer ve 2 <span style=\"color:#80C0FFFF\">Su Hasarı</span> vererek hedef karaktere <span style=\"color:#FFFFFFFF\">Dalga</span> etkisi uygular.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "Yıkım: Yok Etme",
+      "desc": "<span style=\"color:#FFFFFFFF\">Tartaglia</span>, mevcut duruşuna göre farklı saldırılar gerçekleştirir.<br/><span style=\"color:#FFFFFFFF\">Menzilli Saldırı Duruşu - Yıkım Atışı:</span> $[D__KEY__DAMAGE_5] <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir, 2 <span style=\"color:#FFFFFFFF\">Enerji</span> kazanır ve hedef karaktere <span style=\"color:#FFFFFFFF\">Dalga</span> uygular.<br/><span style=\"color:#FFFFFFFF\">Yakın Saldırı Duruşu - Yok Eden Işık:</span> 7 <span style=\"color:#80C0FFFF\">Su Hasarı</span> verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "Dalga Tutan",
+      "desc": "(Pasif) Savaş başladığında bu karakter <span style=\"color:#FFFFFFFF\">Menzilli Saldırı Duruşu</span> kazanır. Bu karaktere ekli olan <span style=\"color:#FFFFFFFF\">Yakın Saldırı Duruşu</span> sonlandığında <span style=\"color:#FFFFFFFF\">Menzilli Saldırı Duruşu</span> yeniden uygulanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

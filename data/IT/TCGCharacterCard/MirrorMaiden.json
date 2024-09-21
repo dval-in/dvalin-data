@@ -1,0 +1,84 @@
+{
+  "id": "MirrorMaiden",
+  "shareId": 54,
+  "name": "Dama degli specchi",
+  "title": "Sacerdotessa di Snezhnaya, Emissaria dello specchio",
+  "desc": "Tutti i segreti verranno nascosti all'interno dello specchio della luminosità sfolgorante...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo la Dama degli specchi dei Fatui in un duello amichevole",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Hydrobomba",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Spezzaonde",
+      "desc": "Infligge 2 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, il personaggio bersaglio ottiene <span style=\"color:#FFFFFFFF\">Rifrazione</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Rifrazione scintillante",
+      "desc": "Infligge 5 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

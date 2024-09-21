@@ -1,0 +1,71 @@
+{
+  "id": "SuppressionSpecialistMek",
+  "shareId": 3007,
+  "name": "压制特化型机关",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "无元素类型",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "LongrangeFire",
+      "name": "长点射",
+      "desc": "造成1点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RetreatingFire",
+      "name": "后撤射击",
+      "desc": "造成3点<span style=\"color:#FFFFFFFF\">物理伤害</span>，我方切换到下一个角色。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BurstFire",
+      "name": "爆发射击",
+      "desc": "造成4点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

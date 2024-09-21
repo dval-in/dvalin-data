@@ -1,0 +1,94 @@
+{
+  "id": "Yelan",
+  "shareId": 280,
+  "name": "Yelan",
+  "title": "Orchidee im tiefen Tal – Yelan",
+  "desc": "Die Welt ist unermesslich und unendlich, die Aussteigerin kommt und geht, wie es ihr gefällt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Bogen",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "TurnControl",
+      "name": "Turn Control"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Yelan in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Yelan",
+      "name": "Yelan",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "StealthyBowshot",
+      "name": "Bogen der Unterströmung",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LingeringLifeline",
+      "name": "Seil der Todesbotin",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erhält selbst 2 Stapelungen von <span style=\"color:#FFFFFFFF\">Durchstoß</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DepthclarionDice",
+      "name": "Würfel des Strategems",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Würfel der Mystik</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Breakthrough",
+      "name": "Durchstoß",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Durchstoß</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

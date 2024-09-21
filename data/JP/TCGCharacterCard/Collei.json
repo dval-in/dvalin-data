@@ -1,0 +1,85 @@
+{
+  "id": "Collei",
+  "shareId": 47,
+  "name": "コレイ",
+  "title": "純真を抱く萌蘖·コレイ",
+  "desc": "「大声でカードの名前を呼べば、その威力も倍になる…これって絶対嘘だよな？」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "弓",
+    "faction": [
+      "スメール"
+    ],
+    "talent_card": {
+      "id": "FloralSidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": "キャッツテールでコレイを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SupplicantsBowmanship",
+      "name": "祈りの射技",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FloralBrush",
+      "name": "花触葉讃",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TrumpcardKitty",
+      "name": "ニャンコトレジャー",
+      "desc": "<span style=\"color:#7EC236FF\">草元素ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">コレアンバー</span>を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

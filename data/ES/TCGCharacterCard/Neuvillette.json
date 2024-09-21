@@ -1,0 +1,85 @@
+{
+  "id": "Neuvillette",
+  "shareId": 335,
+  "name": "Neuvillette",
+  "title": "Neuvillette - El Sentenciador de lo Inexorable",
+  "desc": "Las personas más eminentes jamás pasan un detalle por alto.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalizador",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "HeirToTheAncientSeasAuthority",
+      "name": "Heir to the Ancient Sea's Authority"
+    },
+    "source": "Se obtiene tras retar y ganar a Neuvillette en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Neuvillette",
+      "name": "Neuvillette",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "AsWaterSeeksEquilibrium",
+      "name": "Remanso acuático",
+      "desc": "Inflige 1 pt. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OTearsIShallRepay",
+      "name": "Plañido del resarcimiento",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span> y crea una <span style=\"color:#FFFFFFFF\">gota primigenia</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "OTidesIHaveReturned",
+      "name": "Retorno mareal",
+      "desc": "Inflige 2 pts. de <span style=\"color:#80C0FFFF\">Daño Hydro</span>, inflige 1 pt. de <span style=\"color:#FFFFFFFF\"><span style=\"color:#FFFFFFFF\">Daño Penetrante</span></span> a todos los enemigos en reserva y crea una <span style=\"color:#FFFFFFFF\">gota primigenia</span> con 2 usos.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "TaintedHydroPhantasm",
+  "shareId": 3209,
+  "name": "Tainted Hydro Phantasm",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "TaintedWaterStrike",
+      "name": "Tainted Water Strike",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpoutingWaves",
+      "name": "Spouting Waves",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TaintedWaterSurge",
+      "name": "Tainted Water Surge",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 4 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "Elemental Sedimentation: Hydro",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับ <span style=\"color:#FFFFFFFF\">สิ่งมีชีวิตธาตุ: น้ำ</span>",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    },
+    {
+      "id": "TaintedWatersChangeTheirShape",
+      "name": "Tainted Waters Change Their Shape",
+      "desc": "[ติดตัว] จะไม่ถูก<span style=\"color:#FFFFFFFF\">แช่แข็ง</span>:<br/>เมื่อค่าพลังชีวิตของตัวละครนี้ต่ำกว่า 5 หน่วย จะสร้างความเสียหาย +2;<br/><span style=\"color:#FFFFFFFF\">หลังจากตัวละครนี้ใช้สกิล:</span> หากตัวละครนี้มีค่าพลังชีวิตอย่างน้อย 6 หน่วย จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายทะลวง</span> 1 หน่วย แก่ตัวละครนอกสนามทั้งหมดของฝ่ายศัตรู",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

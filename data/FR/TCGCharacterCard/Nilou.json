@@ -1,0 +1,85 @@
+{
+  "id": "Nilou",
+  "shareId": 16,
+  "name": "Nilou",
+  "title": "Nilou · Danseuse du lotus lumineux",
+  "desc": "Légers sont les pas de danse du lotus, émergeant d'un rêve d'ivresse.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "TheStarrySkiesTheirFlowersRain",
+      "name": "The Starry Skies Their Flowers Rain"
+    },
+    "source": "Récompense pour avoir invité Nilou à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Nilou",
+      "name": "Nilou",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOfSamser",
+      "name": "Danse de shamshir",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "Danse des haftkarsvars",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>. Si l'équipe contient uniquement des personnages <span style=\"color:#80C0FFFF\">Hydro</span> et <span style=\"color:#7EC236FF\">Dendro</span>, crée une <span style=\"color:#FFFFFFFF\">prime du calice d'or</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "Danse d'abzendegi : Ruisseau des rêves lointains",
+      "desc": "Inflige 2 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span> et inflige un <span style=\"color:#FFFFFFFF\">éon persistant</span> au personnage choisi.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

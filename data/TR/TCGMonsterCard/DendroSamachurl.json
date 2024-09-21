@@ -1,0 +1,72 @@
+{
+  "id": "DendroSamachurl",
+  "shareId": 3703,
+  "name": "Doğa Dağ Şamanı",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Doğa",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar",
+      "Dağ Yabanisi"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Asa Saldırısı",
+      "desc": "1 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VenomousVines",
+      "name": "Zehirli Sarmaşıklar",
+      "desc": "1 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir ve rakibin alanında bir <span style=\"color:#FFFFFFFF\">Sarmaşık</span> oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DendroField",
+      "name": "Doğa Alanı",
+      "desc": "5 <span style=\"color:#7EC236FF\">Doğa Hasarı</span> verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Doğa",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

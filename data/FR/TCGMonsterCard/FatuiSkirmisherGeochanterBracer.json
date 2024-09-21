@@ -1,0 +1,85 @@
+{
+  "id": "FatuiSkirmisherGeochanterBracer",
+  "shareId": 3604,
+  "name": "Tirailleur Fatui - Mercenaire Géo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RockProjectile",
+      "name": "Projectile de roche",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Rayon calcaire",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Bâton de poussières",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>, accorde un <span style=\"color:#FFFFFFFF\">équipement Géo</span> au personnage et crée un <span style=\"color:#FFFFFFFF\">bouclier de cristal</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Réapprovisionnement de combat",
+      "desc": "(Passif) Accorde 2 charges au personnage au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

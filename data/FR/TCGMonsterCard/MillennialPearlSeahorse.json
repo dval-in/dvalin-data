@@ -1,0 +1,93 @@
+{
+  "id": "MillennialPearlSeahorse",
+  "shareId": 322,
+  "name": "Hippocampe perlé millénaire",
+  "title": "Hippocampe perlé millénaire",
+  "desc": "L'un des deux souverains qui se tenaient autrefois au sommet des espèces aberrantes de la Fontemer. Les poètes et les auteurs le considèrent comme une créature fière et noble, lui conférant ainsi son titre prestigieux.",
+  "attributes": {
+    "hp": 27,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "talent_card": {
+      "id": "PearlSolidification",
+      "name": "Pearl Solidification"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Hippocampe perlé millénaire",
+    "character": {
+      "id": "MillennialPearlSeahorse",
+      "name": "Millennial Pearl Seahorse"
+    }
+  },
+  "skills": [
+    {
+      "id": "TailSweep",
+      "name": "Balayage de queue",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Banc de poissons dansants",
+      "desc": "Inflige 3 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span>.<br/>Si le personnage est affecté par une <span style=\"color:#FFFFFFFF\">perle fontemarine</span> : <span style=\"color:#FFFFFFFF\">Nombre d'utilisations</span> +1. (1 fois par manche)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Tonnerre fontemarin",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFACFFFF\">DGT Électro</span>, applique une <span style=\"color:#FFFFFFFF\">perle fontemarine</span> au personnage et invoque un <span style=\"color:#FFFFFFFF\">orbe de résonance</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Armure de perle",
+      "desc": "(Passif) Applique une <span style=\"color:#FFFFFFFF\">perle fontemarine</span> au personnage au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

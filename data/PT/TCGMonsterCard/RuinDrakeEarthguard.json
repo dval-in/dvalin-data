@@ -1,0 +1,89 @@
+{
+  "id": "RuinDrakeEarthguard",
+  "shareId": 3005,
+  "name": "Dragão das Ruínas - Vigia Terrestre",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Sem Tipo Elemental",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloseExpulsion",
+      "name": "Expulsão de Curta Distância",
+      "desc": "Causa 2 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuddenCharge",
+      "name": "Investida Repentina",
+      "desc": "Causa 3 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "EnergySurge",
+      "name": "Onda de Energia",
+      "desc": "Causa 5 pontos de <span style=\"color:#FFFFFFFF\">Dano Físico</span>. Se esse personagem absorveu Energia Elemental, vai lançar esse elemento para +1 de Dano e mudará o tipo de Dano para o elemento absorvido.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Elementos Correspondentes",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "Armadura Padrão",
+      "desc": "(Passivo) O <span style=\"color:#FFFFFFFF\">Dano Físico</span> que esse personagem recebe é diminuído pela metade. (Para cima)",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalAbsorption",
+      "name": "Absorção Elemental",
+      "desc": "(Passivo) <span style=\"color:#FFFFFFFF\">Quando nenhum elemento tiver sido absorvido e esse personagem sofrer Dano Elemental</span>, absorve esse Elemento.<br/>Corta pela metade o Dano sofrido pelo personagem. (Para cima)",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Gorou",
+  "shareId": 283,
+  "name": "Gorou",
+  "title": "Gorou · Guerrier canin",
+  "desc": "Le chef de la meute, menant les soldats !",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Arc",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "RushingHoundSwiftAsTheWind",
+      "name": "Rushing Hound: Swift as the Wind"
+    },
+    "source": "Récompense pour avoir invité Gorou à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Gorou",
+      "name": "Gorou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "RippingFangFletching",
+      "name": "Empenne aux crocs acérés",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InuzakaAllroundDefense",
+      "name": "Défense intégrale d'Inuzaka",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFE699FF\">DGT Géo</span> et crée une <span style=\"color:#FFFFFFFF\">bannière de général</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "JuugaForwardUntoVictory",
+      "name": "Crocs bestiaux : Vers la victoire",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFE699FF\">DGT Géo</span>, crée une <span style=\"color:#FFFFFFFF\">bannière de général</span> et invoque un <span style=\"color:#FFFFFFFF\">prestige de général</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

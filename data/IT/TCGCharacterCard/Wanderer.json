@@ -1,0 +1,74 @@
+{
+  "id": "Wanderer",
+  "shareId": 41,
+  "name": "Vagabondo",
+  "title": "Vagabondo, Eternamente perduto",
+  "desc": "Patimenti incalcolabili, sfide imprevedibili",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Anemo",
+    "weapon": "Catalizzatore",
+    "faction": [],
+    "source": "Ricompensa ottenuta sfidando il Vagabondo a duello alla Coda di Gatto e battendolo in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "YuubanMeigen",
+      "name": "Yuuban Meigen",
+      "desc": "Infligge 1 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HanegaSongOfTheWind",
+      "name": "Hanega: Canzone del vento",
+      "desc": "Infligge 2 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>, questo personaggio ottiene <span style=\"color:#FFFFFFFF\">Vento prospero</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KyougenFiveCeremonialPlays",
+      "name": "Kyougen: Goban Date cerimoniale",
+      "desc": "Infligge 7 <span style=\"color:#80FFD7FF\">DAN da Anemo</span>. Se il personaggio ha associato <span style=\"color:#FFFFFFFF\">Vento prospero</span>, rimuovilo per aumentare i DAN di 1.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

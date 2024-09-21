@@ -1,0 +1,71 @@
+{
+  "id": "AssaultSpecialistMek",
+  "shareId": 3006,
+  "name": "Assault Specialist Mek",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "No Elemental Type",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "OffensiveShieldstrike",
+      "name": "Offensive Shieldstrike",
+      "desc": "Deals 1 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DoubleStrike",
+      "name": "Double Strike",
+      "desc": "Deals 3 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeapingSmash",
+      "name": "Leaping Smash",
+      "desc": "Deals 4 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

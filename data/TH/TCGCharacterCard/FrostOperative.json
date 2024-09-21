@@ -1,0 +1,93 @@
+{
+  "id": "FrostOperative",
+  "shareId": 397,
+  "name": "Fatui - Frost Operative",
+  "title": "ผลพวงการคัดสรร - Frost Operative",
+  "desc": "ผู้ที่ได้รับการคัดเลือกตั้งแต่ยังเด็ก หลังจากได้รับการศึกษา และการฝึกฝนเป็นเวลาหลายปี และผ่านการคัดเลือกมากมาย จึงจะกลายเป็น \"เจ้าหน้าที่\" ได้",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "RimeflowRapier",
+      "name": "Rimeflow Rapier"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Fatui - Frost Operative ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "FrostOperative",
+      "name": "Frost Operative"
+    }
+  },
+  "skills": [
+    {
+      "id": "SwiftPoint",
+      "name": "Swift Point",
+      "desc": "สร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostyInterjection",
+      "name": "Frosty Interjection",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 3 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThornyOnslaught",
+      "name": "Thorny Onslaught",
+      "desc": "สร้าง<span style=\"color:#99FFFFFF\">ความเสียหายน้ำแข็ง</span> 4 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Onslaught Stance</span>",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BloodbondedShadow",
+      "name": "Blood-Bonded Shadow",
+      "desc": "[ติดตัว] <span style=\"color:#FFFFFFFF\">หลังจากตัวละครนี้ใช้สกิล:</span> ทำให้ตัวละครที่เข้าต่อสู้ของฝ่ายศัตรู ได้รับ<span style=\"color:#FFFFFFFF\">บ่วงพันธะชีวัน</span>ที่มี<span style=\"color:#FFFFFFFF\">จำนวนครั้งที่ใช้ได้</span> (ตามค่าความเสียหายสุดท้ายของสกิลนี้ -2) (มากสุด 5 ชั้น)",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

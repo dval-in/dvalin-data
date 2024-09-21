@@ -1,0 +1,94 @@
+{
+  "id": "ConsecratedFlyingSerpent",
+  "shareId": 370,
+  "name": "Flugschlange heiliger Knochen",
+  "title": "Sturm der Überreste – Flugschlange heiliger Knochen",
+  "desc": "Eine aufgrund des Zehrens an heiligen Körpern entstellte Flugschlange, die sich an den wilden Winden bedient.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster",
+      "Bestie heiliger Knochen"
+    ],
+    "talent_card": {
+      "id": "DeathlyCyclone",
+      "name": "Deathly Cyclone"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit der Flugschlange heiliger Knochen in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "ConsecratedFlyingSerpent",
+      "name": "Consecrated Flying Serpent"
+    }
+  },
+  "skills": [
+    {
+      "id": "WhirlingTail",
+      "name": "Schwanzstoß",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSquall",
+      "name": "Windstrudel",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>. Zieht 1 Karte.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ScattershotVortex",
+      "name": "Streuwirbel",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>. All die <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span>-Karten werden aus deiner Hand <span style=\"color:#FFFFFFFF\">abgeworfen</span>. Verdoppelt dadurch diesen SCH für je 2 <span style=\"color:#FFFFFFFF\">abgeworfen</span>e Karten 1-mal.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsAnemo",
+      "name": "Unsterbliche Überreste – Anemo",
+      "desc": "Passiv – Erschafft zu Beginn des Kampfes 6 <span style=\"color:#FFFFFFFF\">Energieblock des Knochenfressers</span> und verteilt sie gleichmäßig in deinen Stapel.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ConsecratedScorpion",
+  "shareId": 369,
+  "name": "성해 독전갈",
+  "title": "유해의 독·성해 독전갈",
+  "desc": "위대한 존재를 삼켜 기이하게 뒤틀린 독전갈. 사악한 번개를 조종한다",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "번개 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물",
+      "성해 짐승"
+    ],
+    "talent_card": {
+      "id": "FatalFulmination",
+      "name": "Fatal Fulmination"
+    },
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 성해 독전갈에게 승리 후 획득",
+    "character": {
+      "id": "ConsecratedScorpion",
+      "name": "Consecrated Scorpion"
+    }
+  },
+  "skills": [
+    {
+      "id": "ScorpionStrike",
+      "name": "전갈 집게 공격",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "전갈 꼬리 공격",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 3pt 준다.<br/><span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 1장 생성해 아군 카드 더미 맨 위의 카드 2장 중에 랜덤으로 넣는다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "번개침 난사",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 3pt 주고, 핸드 카드에서 <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 최대 3장 <span style=\"color:#FFFFFFFF\">포기</span>한 뒤, 상대 필드에 <span style=\"color:#FFFFFFFF\">번개침 함정</span>을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "번개 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "불멸의 유해·번개",
+      "desc": "[패시브] 턴 종료 시, <span style=\"color:#FFFFFFFF\">성해 에너지 덩어리</span>를 2장 생성해 아군 카드 더미 맨 위의 카드 10장 중에 랜덤으로 넣는다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Eula",
+  "shareId": 6,
+  "name": "优菈",
+  "title": "浪沫的旋舞·优菈",
+  "desc": "这只是一场游戏，无论是取胜或落败，你都不会因此被添上罪状。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "双手剑",
+    "faction": [
+      "蒙德"
+    ],
+    "talent_card": {
+      "id": "WellspringOfWarlust",
+      "name": "Wellspring of War-Lust"
+    },
+    "source": "在猫尾酒馆中邀请优菈进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Eula",
+      "name": "Eula",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkEdel",
+      "name": "西风剑术·宗室",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcetideVortex",
+      "name": "冰潮的涡旋",
+      "desc": "造成2点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，如果本角色未附属<span style=\"color:#FFFFFFFF\">冷酷之心</span>，则使其附属<span style=\"color:#FFFFFFFF\">冷酷之心</span>。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GlacialIllumination",
+      "name": "凝浪之光剑",
+      "desc": "造成2点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，召唤<span style=\"color:#FFFFFFFF\">光降之剑</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

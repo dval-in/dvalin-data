@@ -1,0 +1,85 @@
+{
+  "id": "Kaveh",
+  "shareId": 367,
+  "name": "カーヴェ",
+  "title": "天穹の鏡·カーヴェ",
+  "desc": "仁愛と体験と美の認識。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "両手剣",
+    "faction": [
+      "スメール"
+    ],
+    "talent_card": {
+      "id": "TheArtOfBudgeting",
+      "name": "The Art of Budgeting"
+    },
+    "source": "キャッツテールでカーヴェを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Kaveh",
+      "name": "Kaveh",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SchematicSetup",
+      "name": "円規定則",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArtisticIngenuity",
+      "name": "精緻なる絵図",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与え、<span style=\"color:#FFFFFFFF\">炸裂スキャン</span>を生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PaintedDome",
+      "name": "ムカルナスの描像",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を3与え、このキャラに<span style=\"color:#FFFFFFFF\">メラックアシスト</span>を付与し、<span style=\"color:#FFFFFFFF\">炸裂スキャン</span>を2層生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

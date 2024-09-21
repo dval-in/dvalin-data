@@ -1,0 +1,76 @@
+{
+  "id": "FatuiSkirmisherAnemoboxerVanguard",
+  "shareId": 3502,
+  "name": "Soldado Fatui - Boxeador Anemo de Vanguardia",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "HurricaneJab",
+      "name": "Gancho huracanado",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GatheringTheWinds",
+      "name": "Acumulación de los vientos",
+      "desc": "Este personaje obtiene una <span style=\"color:#FFFFFFFF\">barrera de viento</span> y <span style=\"color:#FFFFFFFF\">prepara la habilidad</span> <span style=\"color:#FFFFFFFF\">Puñetazo vengador</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GaleforceAgitation",
+      "name": "Sacudida huracanada",
+      "desc": "Inflige 3 pts. de <span style=\"color:#80FFD7FF\">Daño Anemo</span> y tus demás personajes Fatui obtienen <span style=\"color:#FFFFFFFF\">Energía</span> +1.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

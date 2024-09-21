@@ -1,0 +1,93 @@
+{
+  "id": "EremiteScorchingLoremaster",
+  "shareId": 285,
+  "name": "Eremita Susurrarenas",
+  "title": "Susurrarenas - Poesía e historia",
+  "desc": "Aquellos que aún recuerdan las historias del desierto nunca podrán traicionar la sangre desértica que fluye por sus venas.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Eremita"
+    ],
+    "talent_card": {
+      "id": "Scorpocalypse",
+      "name": "Scorpocalypse"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Eremita Susurrarenas de los duelos tabernarios",
+    "character": {
+      "id": "EremiteScorchingLoremaster",
+      "name": "Eremite Scorching Loremaster"
+    }
+  },
+  "skills": [
+    {
+      "id": "SearingGlare",
+      "name": "Resplandor abrasador",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingStrike",
+      "name": "Asalto flamígero",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningPyroScorpion",
+      "name": "Despertar de Ominoespíritu - Escorpio ígneo",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FF9999FF\">Daño Pyro</span> e invoca un <span style=\"color:#FFFFFFFF\">Ominoespíritu - Escorpio ígneo</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Poder de Ominoespíritu",
+      "desc": "Pasiva: si tiene 7 pts. de Vida o menos <span style=\"color:#FFFFFFFF\">después de que reciba daño</span>, obtiene <span style=\"color:#FFFFFFFF\">Energía</span> +1 (1 vez por partida).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

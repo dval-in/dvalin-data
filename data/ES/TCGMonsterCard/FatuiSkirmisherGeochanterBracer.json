@@ -1,0 +1,85 @@
+{
+  "id": "FatuiSkirmisherGeochanterBracer",
+  "shareId": 3604,
+  "name": "Soldado Fatui - Guerrillero Geo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RockProjectile",
+      "name": "Proyectil pétreo",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFE699FF\">Daño Geo</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GeocrystalBeam",
+      "name": "Perdigones prismáticos",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StaffOfGeo",
+      "name": "Culatazo Geo",
+      "desc": "Inflige 3 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>, este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">arsenal elemental: Geo</span> y crea un <span style=\"color:#FFFFFFFF\">escudo de cristal</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Reabastecimiento de combate",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene Energía +2.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

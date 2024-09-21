@@ -1,0 +1,66 @@
+{
+  "id": "HilichurlShooter",
+  "shareId": 3002,
+  "name": "Xạ Thủ Hilichurl",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Không Nguyên Tố",
+    "weapon": "Vũ Khí Khác",
+    "faction": [
+      "Ma Vật",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Shooting",
+      "name": "Bắn",
+      "desc": "Gây 1 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Bắn Liên Tục",
+      "desc": "Gây 5 điểm <span style=\"color:#FFFFFFFF\">Sát Thương Vật Lý</span>.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Nguyên Tố Tương Đồng",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Nấp",
+      "desc": "(Bị Động) Nhân vật này khi dùng kỹ năng sẽ tự động đổi đến nhân vật tiếp theo.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

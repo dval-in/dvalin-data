@@ -1,0 +1,80 @@
+{
+  "id": "RuinGuard",
+  "shareId": 3004,
+  "name": "遗迹守卫",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 8,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "无元素类型",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SternBlow",
+      "name": "刚性打击",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiralClosein",
+      "name": "旋臂近防",
+      "desc": "造成1点<span style=\"color:#FFFFFFFF\">物理伤害</span>，然后分别<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">高频旋击</span>和<span style=\"color:#FFFFFFFF\">超速旋击</span>。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuppressiveVolley",
+      "name": "压制齐射",
+      "desc": "造成4点<span style=\"color:#FFFFFFFF\">物理伤害</span>，在敌方场上生成<span style=\"color:#FFFFFFFF\">追踪爆弹</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "相同元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StandardArmor",
+      "name": "标准外甲",
+      "desc": "【被动】此角色受到的<span style=\"color:#FFFFFFFF\">物理伤害</span>减半。（向上取整）",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "KujouSara",
+  "shareId": 31,
+  "name": "Kujou Sara",
+  "title": "Krähenfeder-Kaburaya – Kujou Sara",
+  "desc": "„Dies ist ein Akt der Rechtschaffenheit.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Bogen",
+    "faction": [
+      "Inazuma"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kujou Sara in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "KujouSara",
+      "name": "Kujou Sara",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "TenguBowmanship",
+      "name": "Tengu-Schießkunst",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TenguStormcall",
+      "name": "Tengu-Sturmbeschwörung",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Tengu Juurai – Hinterhalt</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SubjugationKoukouSendou",
+      "name": "Unterwerfung – Koukou Sendou",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Tengu Juurai – Blitzbündel</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

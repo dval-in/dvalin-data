@@ -1,0 +1,93 @@
+{
+  "id": "MillennialPearlSeahorse",
+  "shareId": 322,
+  "name": "Millenniums-Perlenseepferd",
+  "title": "Millenniums-Perlenseepferd",
+  "desc": "Einer der beiden obersten Herrscher, die an der Spitze der Fontemer-Mutanten stehen. Aufgrund seiner schlanken und anmutigen Gestalt sahen Dichter und Schriftsteller in ihm ein stolzes und edles Geschöpf und so erhielt es den Titel „Seepferd“.",
+  "attributes": {
+    "hp": 27,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "PearlSolidification",
+      "name": "Pearl Solidification"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Millenniums-Perlenseepferd in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "MillennialPearlSeahorse",
+      "name": "Millennial Pearl Seahorse"
+    }
+  },
+  "skills": [
+    {
+      "id": "TailSweep",
+      "name": "Schwanzfeger",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFFFFFFF\">phys. SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSchoolOfFish",
+      "name": "Wirbelnder Fischschwarm",
+      "desc": "Verursacht 3 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Wenn die aktuelle Figur bereits mit der <span style=\"color:#FFFFFFFF\">Glänzende Fontemer-Perle</span> ausgerüstet ist, deren <span style=\"color:#FFFFFFFF\">Einsatzmöglichkeit</span> +1 (1-mal pro Runde).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FontemerHoarthunder",
+      "name": "Uralter Fontemer-Donner",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erhält selbst <span style=\"color:#FFFFFFFF\">Glänzende Fontemer-Perle</span> und erschafft 1 <span style=\"color:#FFFFFFFF\">Resonanz-Korallenperle</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PearlArmor",
+      "name": "Glänzende Perlenrüstung",
+      "desc": "Passiv – Erhält selbst zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Glänzende Fontemer-Perle</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}

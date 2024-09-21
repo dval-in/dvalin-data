@@ -1,0 +1,93 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 368,
+  "name": "Narval stellavore",
+  "title": "Bête cryptique : Narval stellavore",
+  "desc": "Dans les histoires les plus fantastiques ou les mensonges les plus scandaleux, les étoiles situées dans les profondeurs du cosmos pourraient regorger de vie, un peu comme Teyvat, et l'univers lui-même s'apparente à un océan.\\nPeut-être que l'univers a constamment essayé d'infiltrer Teyvat, ou peut-être qu'une puissance supérieure a créé des frontières pour protéger ce monde...",
+  "attributes": {
+    "hp": 5,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "talent_card": {
+      "id": "LightlessFeeding",
+      "name": "Lightless Feeding"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Narval stellavore",
+    "character": {
+      "id": "AlldevouringNarwhal",
+      "name": "All-Devouring Narwhal"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "Vague déchaînée",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Chute d'étoiles",
+      "desc": "Inflige $[D__KEY__DAMAGE_2] {PLURAL#$[D__KEY__DAMAGE_2|nc]|pt|pts} de <span style=\"color:#FFFFFFFF\">DGT physiques</span>. Ces DGT augmentent de 1 tous les 3 PV max supplémentaires accordés par un <span style=\"color:#FFFFFFFF\">appétit insatiable</span> à ce personnage (Peut être cumulé 3 fois maximum). 1 carte dont le coût original de dés élémentaires est le plus élevé est ensuite <span style=\"color:#FFFFFFFF\">défaussée</span> depuis votre main.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Voracité ravageuse",
+      "desc": "Inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT physiques</span>, inflige 1 pt de <span style=\"color:#FFFFFFFF\">DGT de perforation</span> à tous les personnages adverses en attente et invoque une <span style=\"color:#FFFFFFFF\">ombre sombre</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Appétit insatiable",
+      "desc": "(Passif) Crée un <span style=\"color:#FFFFFFFF\">royaume dévorant</span> au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.0"
+}
