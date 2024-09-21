@@ -1,0 +1,85 @@
+{
+  "id": "KukiShinobu",
+  "shareId": 348,
+  "name": "Kuki Shinobu",
+  "title": "Besänftigerin des Leids – Kuki Shinobu",
+  "desc": "Meisterin aller Berufe, Stellvertreterin des Oni.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Einhänder",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "ToWardWeakness",
+      "name": "To Ward Weakness"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kuki Shinobu in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "KukiShinobu",
+      "name": "Kuki Shinobu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ShinobusShadowsword",
+      "name": "Shinobus fliegender Schwerthieb",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SanctifyingRing",
+      "name": "Grasring der Reinigung",
+      "desc": "Erschafft 1 Grasring. Hat die Figur mindestens 6 LP, erleidet sie selbst 2 Pkt. durchdringenden SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GyoeiNarukamiKariyamaRite",
+      "name": "Gyoei-Narukami-Kariyama-Ritual",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH, stellt dieser Figur 2 LP wieder her.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.6"
+}
