@@ -1,0 +1,85 @@
+{
+  "id": "Beidou",
+  "shareId": 30,
+  "name": "北斗",
+  "title": "無冠の龍王·北斗",
+  "desc": "「この日を覚えとけ、あんたはもうちょっとで南十字船隊頭領から大金星を上げるところだったぞ。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "両手剣",
+    "faction": [
+      "璃月"
+    ],
+    "talent_card": {
+      "id": "LightningStorm",
+      "name": "Lightning Storm"
+    },
+    "source": "キャッツテールで北斗を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Oceanborne",
+      "name": "征浪",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "浪追い",
+      "desc": "本キャラに浪追い·波囲の守りを付与し、スキル準備に入る：潮踏み。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "雷斫り",
+      "desc": "雷元素ダメージを2与え、雷獣の盾を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

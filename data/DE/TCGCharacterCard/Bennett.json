@@ -1,0 +1,85 @@
+{
+  "id": "Bennett",
+  "shareId": 19,
+  "name": "Bennett",
+  "title": "Prüfling des Schicksals – Bennett",
+  "desc": "Wenn du weißt, dass du verlieren wirst, dann weißt du auch, wie du gewinnst.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Einhänder",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "GrandExpectation",
+      "name": "Grand Expectation"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Bennett in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Bennett",
+      "name": "Bennett",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "StrikeOfFortune",
+      "name": "Glücksbringer",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PassionOverload",
+      "name": "Überschwänglichkeit",
+      "desc": "Verursacht 3 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FantasticVoyage",
+      "name": "Fantastische Reise",
+      "desc": "Verursacht 2 Pkt. Pyro-SCH, erschafft 1 Feld der Aufmunterung.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

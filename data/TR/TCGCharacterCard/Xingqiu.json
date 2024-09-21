@@ -1,0 +1,85 @@
+{
+  "id": "Xingqiu",
+  "shareId": 10,
+  "name": "Xingqiu",
+  "title": "\"Gençliğin Baharı\" Xingqiu",
+  "desc": "\"Bana mı öyle geliyor yoksa bugünlerde romanların kahramanları hep bir özel okulun öğrencisi mi oluyor...\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Kılıç",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "TheScentRemained",
+      "name": "The Scent Remained"
+    },
+    "source": "Xingqiu'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Xingqiu",
+      "name": "Xingqiu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GuhuaStyle",
+      "name": "Guhua Tarzı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FatalRainscreen",
+      "name": "Ölümcül Yağmur",
+      "desc": "2 Su Hasarı verir ve bu karaktere Su Etkisi kazandırarak 1 Yağmur Kılıcı oluşturur.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Raincutter",
+      "name": "Yağmurkesici",
+      "desc": "2 Su Hasarı verir ve bu karaktere Su Etkisi kazandırarak 1 Gökkuşağı Kılıcı Tekniği oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

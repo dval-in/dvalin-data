@@ -1,0 +1,85 @@
+{
+  "id": "Fischl",
+  "shareId": 26,
+  "name": "Fischl",
+  "title": "Prinzessin der Verurteilung! – Fischl",
+  "desc": "„Oz, mein Gefährte! Breite deine Flügel aus und webe mir ein neues Schicksal in der Finsternis dieser Nacht!“\\n„Mein Fräulein, ich kann keine Karte für dich wechseln ...“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Bogen",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "StellarPredator",
+      "name": "Stellar Predator"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Fischl in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Fischl",
+      "name": "Fischl",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "BoltsOfDownfall",
+      "name": "Pfeil der Vergebung",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Nightrider",
+      "name": "Schutz der Dunkelheit",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH, erschafft 1 Oz.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MidnightPhantasmagoria",
+      "name": "Mitternachtstraum",
+      "desc": "Verursacht 4 Pkt. Elektro-SCH, fügt allen inaktiven Figuren des Gegners 2 Pkt. durchdringenden SCH zu.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}
