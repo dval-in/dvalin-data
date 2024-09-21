@@ -1,0 +1,85 @@
+{
+  "id": "GroundedHydroshroom",
+  "shareId": 3205,
+  "name": "Champihydro terré",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 7,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SporeBullet",
+      "name": "Balle de spores",
+      "desc": "Inflige 1 pt de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingBreath",
+      "name": "Souffle rageur",
+      "desc": "Inflige 3 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ChargingBlast",
+      "name": "Charge explosive",
+      "desc": "Inflige 5 pts de <span style=\"color:#80C0FFFF\">DGT Hydro</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StateChange",
+      "name": "Changement d'état",
+      "desc": "(Passif) Fait passer le personnage en <span style=\"color:#FFFFFFFF\">avantage topographique</span> au début du combat.<br/>Lorsque le personnage a subi des <span style=\"color:#FF9999FF\">DGT Pyro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état calciné</span>.<br/>Lorsque le personnage a subi des <span style=\"color:#FFACFFFF\">DGT Électro</span>, le fait passer en <span style=\"color:#FFFFFFFF\">état activé</span>.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

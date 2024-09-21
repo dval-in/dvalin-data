@@ -1,0 +1,85 @@
+{
+  "id": "FatuiSkirmisherElectrohammerVanguard",
+  "shareId": 3407,
+  "name": "ファデュイ先遣隊·前鋒軍·雷ハンマー",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "ファデュイ"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "RapidHammerStrike",
+      "name": "迅速ハンマー",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RagingCharge",
+      "name": "猛烈突進",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderblastHammer",
+      "name": "轟雷ハンマー",
+      "desc": "<span style=\"color:#FFACFFFF\">雷元素ダメージ</span>を3与え、本キャラに<span style=\"color:#FFFFFFFF\">元素武装·雷</span>を付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "戦備補給",
+      "desc": "【固有】戦闘開始時、本キャラはチャージを2獲得する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

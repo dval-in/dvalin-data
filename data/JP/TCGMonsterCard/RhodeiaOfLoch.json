@@ -1,0 +1,108 @@
+{
+  "id": "RhodeiaOfLoch",
+  "shareId": 53,
+  "name": "純水精霊·ローデシア",
+  "title": "浄水の主·ローデシア",
+  "desc": "「しかし、川や湖があって、空から雨が降る限り、水は消えない…」",
+  "attributes": {
+    "hp": 30,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "StreamingSurge",
+      "name": "Streaming Surge"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、純水精霊·ローデシアに挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "Surge",
+      "name": "荒波",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OceanidMimicSummoning",
+      "name": "純水幻造",
+      "desc": "1種類の<span style=\"color:#FFFFFFFF\">純水の幻形</span>をランダムで召喚する。（異なる種類を優先的に生成する。召喚エリアには同時に最大2種類の純水の幻形が存在できる）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheMyriadWilds",
+      "name": "あらゆる形へ",
+      "desc": "2種類の<span style=\"color:#FFFFFFFF\">純水の幻形</span>をランダムで召喚する。（異なる種類を優先的に生成する。召喚エリアには同時に最大2種類の純水の幻形が存在できる）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "TideAndTorrent",
+      "name": "潮汐と激流",
+      "desc": "<span style=\"color:#80C0FFFF\">水元素ダメージ</span>を4与える。味方の召喚物1つにつき、このダメージ+1。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "元素蓄積·水",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">元素生命·水</span>が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

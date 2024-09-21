@@ -1,0 +1,85 @@
+{
+  "id": "FatuiSkirmisherCryogunnerLegionnaire",
+  "shareId": 3104,
+  "name": "Застрельщик Фатуи: Крио бомбардир",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": [
+      "Фатуи"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CloserangeCharge",
+      "name": "Ближнее наступление",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FreezingSpray",
+      "name": "Морозящий спрей",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostCannon",
+      "name": "Морозная пушка",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 3 ед. У персонажа появляется <span style=\"color:#FFFFFFFF\">Элементальная форма: Крио</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Военные припасы",
+      "desc": "(Пассивный навык) В начале битвы персонаж получает 2 ед. энергии.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

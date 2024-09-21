@@ -1,0 +1,85 @@
+{
+  "id": "PureElectroHypostasis",
+  "shareId": 4403,
+  "name": "Pure Electro Hypostasis",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 15,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "มอนสเตอร์"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "Electro Crystal Projection",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "Rock-Paper-Scissors Combo",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย จากนั้นจะแยกกัน<span style=\"color:#FFFFFFFF\">เตรียมสกิล</span> <span style=\"color:#FFFFFFFF\">Rock-Paper-Scissors Combo: Scissor</span> และ <span style=\"color:#FFFFFFFF\">Rock-Paper-Scissors Combo: Paper</span>",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "Lightning Lockdown",
+      "desc": "สร้าง<span style=\"color:#FFACFFFF\">ความเสียหายไฟฟ้า</span> 2 หน่วย และเรียก <span style=\"color:#FFFFFFFF\">Chains of Warding Thunder</span>",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "Elemental Sedimentation: Electro",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ <span style=\"color:#FFFFFFFF\">สิ่งมีชีวิตธาตุ: ไฟฟ้า</span>",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}
