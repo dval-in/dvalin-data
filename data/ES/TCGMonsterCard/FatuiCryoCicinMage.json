@@ -1,0 +1,84 @@
+{
+  "id": "FatuiCryoCicinMage",
+  "shareId": 52,
+  "name": "Soldado Fatui - Maga de Cicin Cryo",
+  "title": "Maga de Cicin Cryo - Invocacicines Neblinosa",
+  "desc": "Los Cicines Cryo no la abandonarán, al menos mientras aún tenga Hierba neblinosa.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra la Soldado Fatui - Maga de Cicin Cryo de los duelos tabernarios",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Estocada gélida",
+      "desc": "Inflige 1 pt. de Daño Cryo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Invocación neblinosa",
+      "desc": "Inflige 1 pt. de Daño Cryo e invoca unos Cicines Cryo.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Ventisca de flores",
+      "desc": "Inflige 5 pts. de Daño Cryo, este personaje recibe una aplicación Cryo y crea un escudo fluyente de Cicin.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.8"
+}

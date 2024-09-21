@@ -1,0 +1,93 @@
+{
+  "id": "JadeplumeTerrorshroom",
+  "shareId": 60,
+  "name": "マッシュラプトル",
+  "title": "幽蕈の王·マッシュラプトル",
+  "desc": "耳をすませば、幽林から、キノコンの王者が領土を視察する足音が聞こえる…",
+  "attributes": {
+    "hp": 30,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "ProliferatingSpores",
+      "name": "Proliferating Spores"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、マッシュラプトルに挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "JadeplumeTerrorshroom",
+      "name": "Jadeplume Terrorshroom"
+    }
+  },
+  "skills": [
+    {
+      "id": "MajesticDance",
+      "name": "キノコン王のステップ",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VolatileSporeCloud",
+      "name": "不安定な胞子雲",
+      "desc": "草元素ダメージを3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FeatherSpreading",
+      "name": "奔放な尾羽",
+      "desc": "草元素ダメージを4与える。また、活発激能の層数を全て消費し、層ごとにダメージ+1。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RadicalVitality",
+      "name": "活発激能",
+      "desc": "【固有】戦闘開始時、活発激能が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ElectroHypostasis",
+  "shareId": 57,
+  "name": "Elektrik Hipostazı",
+  "title": "Elektrik Hipostazı",
+  "desc": "Kod adı: Aleph. Yüksek saflıkta bir Elektrik oluşumu.\\nTaş kağıt makasta bile olsa Aleph hiçbir zaman yenilgiyi kabul etmez.",
+  "attributes": {
+    "hp": 45,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "AbsorbingPrism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Elektrik Hipostazı ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "ElectroHypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "Elektrik Kristali Yansıması",
+      "desc": "1 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "Taş, Kağıt, Makas Üçlüsü",
+      "desc": "2 Elektrik Hasarı verir, ardından Taş, Kağıt, Makas Üçlüsü: Makas ve Taş, Kağıt, Makas Üçlüsü: Kağıt için ayrı ayrı \"Beceri Hazırlama\" kullanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "Yıldırım Hapsi",
+      "desc": "2 Elektrik Hasarı verir ve Koruyucu Yıldırım Zincirleri çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectroCrystalCore",
+      "name": "Elektrik Kristali Çekirdeği",
+      "desc": "(Pasif) Savaş başladığında bu karakter Elektrik Kristali Çekirdeği etkisinde olur. Hamle Aşaması Başlangıcı: Bu karakter henüz Elektrik Kristali Çekirdeği kazanmadıysa yeniden Elektrik Kristali Çekirdeği kazanır. (Bir düelloda en fazla iki defa tetiklenir)",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationElectro",
+      "name": "Element Tortulaşması: Elektrik",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Elektrik etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

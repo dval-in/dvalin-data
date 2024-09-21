@@ -1,0 +1,85 @@
+{
+  "id": "Candace",
+  "shareId": 15,
+  "name": "Candace",
+  "title": "Candace - La Devota Áurea",
+  "desc": "Entre arenas granas y doradas, prevalece su juramento de protección.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Lanza",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "TheOverflow",
+      "name": "The Overflow"
+    },
+    "source": "Se obtiene tras retar y ganar a Candace en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Candace",
+      "name": "Candace",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "GleamingSpearGuardianStance",
+      "name": "Lanza radiante - En guardia",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteHeronsSanctum",
+      "name": "Rito sagrado: Garza guardiana",
+      "desc": "Este personaje obtiene un escudo de la garza y prepara la habilidad Golpe de la garza.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWagtailsTide",
+      "name": "Rito sagrado: Marea de aguzanieves",
+      "desc": "Inflige 2 pts. de Daño Hydro y otorga el estado de oración de la corona escarlata.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.8"
+}
