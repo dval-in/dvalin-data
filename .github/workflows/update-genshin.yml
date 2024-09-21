@@ -94,31 +94,17 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git clone https://github.com/dvaJi/genshin-data.git
-          # Debug: Print the contents of $COMMITS
-          echo "Contents of COMMITS:"
-          echo "$COMMITS"
-          
-          # Store commits in an array, one per line
           readarray -t COMMIT_ARRAY <<< "$COMMITS"
-          
-          # Debug: Print the number of commits
-          echo "Number of commits: ${#COMMIT_ARRAY[@]}"
-          
+
           # Process commits in reverse order
           for ((i=${#COMMIT_ARRAY[@]}-1; i>=0; i--)); do
             # Debug: Print the current commit being processed
             echo "Processing commit $i: ${COMMIT_ARRAY[i]}"
             
             # Remove line number and extract commit hash and message
-            LINE_WITHOUT_NUMBER=$(echo "${COMMIT_ARRAY[i]}" | sed 's/^[0-9]\+//')
-            COMMIT=$(echo "$LINE_WITHOUT_NUMBER" | awk '{print $1}')
-            MESSAGE=$(echo "$LINE_WITHOUT_NUMBER" | cut -d' ' -f2-)
-            
-            # If COMMIT is 38 characters (missing 2), prepend with the line number's last 2 digits
-            if [ ${#COMMIT} -eq 38 ]; then
-              LINE_NUMBER=$(echo "${COMMIT_ARRAY[i]}" | awk '{print $1}')
-              COMMIT="${LINE_NUMBER: -2}$COMMIT"
-            fi
+            LINE=$(echo "${COMMIT_ARRAY[i]}")
+            COMMIT=$(echo "$LINE" | awk '{print $1}')
+            MESSAGE=$(echo "$LINE" | cut -d' ' -f2-)
             
             # Debug: Print extracted COMMIT and MESSAGE
             echo "Extracted COMMIT: $COMMIT"
