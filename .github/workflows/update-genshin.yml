@@ -114,6 +114,12 @@ jobs:
             COMMIT=$(echo "$LINE_WITHOUT_NUMBER" | awk '{print $1}')
             MESSAGE=$(echo "$LINE_WITHOUT_NUMBER" | cut -d' ' -f2-)
             
+            # If COMMIT is 38 characters (missing 2), prepend with the line number's last 2 digits
+            if [ ${#COMMIT} -eq 38 ]; then
+              LINE_NUMBER=$(echo "${COMMIT_ARRAY[i]}" | awk '{print $1}')
+              COMMIT="${LINE_NUMBER: -2}$COMMIT"
+            fi
+            
             # Debug: Print extracted COMMIT and MESSAGE
             echo "Extracted COMMIT: $COMMIT"
             echo "Extracted MESSAGE: $MESSAGE"
@@ -123,8 +129,8 @@ jobs:
             # Debug: Print extracted VERSION
             echo "Extracted VERSION: $VERSION"
             
-            # Check if COMMIT is not empty before proceeding
-            if [ -n "$COMMIT" ]; then
+            # Check if COMMIT is not empty and 40 characters long before proceeding
+            if [ -n "$COMMIT" ] && [ ${#COMMIT} -eq 40 ]; then
               gh api "repos/dvaJi/genshin-data/git/trees/$COMMIT?recursive=1" \
                 --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
               
@@ -133,7 +139,7 @@ jobs:
               git add .
               git commit -m "feat: update dvalin data v$VERSION"
             else
-              echo "Warning: Empty COMMIT for line: ${COMMIT_ARRAY[i]}"
+              echo "Warning: Invalid COMMIT for line: ${COMMIT_ARRAY[i]}"
             fi
           done
           rm -rf genshin-data
