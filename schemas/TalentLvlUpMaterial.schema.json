@@ -26,41 +26,28 @@
         "rarity": {
           "type": "number"
         },
-        "craft": {
-          "type": "object",
-          "properties": {
-            "cost": {
-              "type": "number"
-            },
-            "items": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "id": {
-                    "type": "string"
-                  },
-                  "name": {
-                    "type": "string"
-                  },
-                  "amount": {
-                    "type": "number"
-                  }
-                },
-                "required": [
-                  "id",
-                  "name",
-                  "amount"
-                ],
-                "additionalProperties": false
+        "convert": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
               }
-            }
-          },
-          "required": [
-            "cost",
-            "items"
-          ],
-          "additionalProperties": false
+            },
+            "required": [
+              "id",
+              "name",
+              "amount"
+            ],
+            "additionalProperties": false
+          }
         },
         "domain": {
           "type": "string"
