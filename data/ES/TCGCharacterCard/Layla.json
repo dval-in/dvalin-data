@@ -1,0 +1,85 @@
+{
+  "id": "Layla",
+  "shareId": 279,
+  "name": "Laila",
+  "title": "Laila - La Estrella de la Noche",
+  "desc": "La noche cae, las estrellas centellean y la luna deambula en los sueños.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "LightsRemit",
+      "name": "Light's Remit"
+    },
+    "source": "Se obtiene tras retar y ganar a Laila en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Layla",
+      "name": "Layla",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SwordOfTheRadiantPath",
+      "name": "Senda radiante",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "NightsOfFormalFocus",
+      "name": "Noche solemne",
+      "desc": "Crea un escudo Cortina del Letargo y otorga una estrella fugaz.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DreamOfTheStarstreamShaker",
+      "name": "Sueño acunaestrellas",
+      "desc": "Inflige 3 pts. de Daño Cryo y crea una celestesfera onírica.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

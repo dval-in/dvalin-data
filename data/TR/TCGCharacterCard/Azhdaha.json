@@ -1,0 +1,93 @@
+{
+  "id": "Azhdaha",
+  "shareId": 278,
+  "name": "Azhdaha",
+  "title": "Kadim Toprak Ejderinin Atası: Azhdaha",
+  "desc": "Bu ejder kralının prangalarının hafif şıkırtısı ile derin ve öfkeli uğultusu, tıpkı geçmiş çağların hatıraları gibi dağların içinde yankılanıyor.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "LunarCyclesUnending",
+      "name": "Lunar Cycles Unending"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Azhdaha ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Azhdaha",
+      "name": "Azhdaha"
+    }
+  },
+  "skills": [
+    {
+      "id": "SunderingCharge",
+      "name": "Parçalayıcı Hücum",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AuraOfMajesty",
+      "name": "İhtişamlı Hava",
+      "desc": "3 Toprak Hasarı verir. Bir Kristalleşme tepkimesi oluşursa bu karakter Element Emilimi gerçekleştirir. Bu beceri kullanılırken karakter bir elementin gücünü henüz emmemişse Taş Yüzeyler: Element Kristalleşmesi eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DecimatingRockfall",
+      "name": "Ölümcül Heyelan",
+      "desc": "4 Toprak Hasarı verir. Daha önce emilen her bir element için Hasar 1 artar.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StoneFacets",
+      "name": "Taş Yüzeyler",
+      "desc": "(Pasif) Savaş başladığında bu karakter Taş Yüzeyler: Element Emilimi etkisi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

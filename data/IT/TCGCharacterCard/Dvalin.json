@@ -1,0 +1,99 @@
+{
+  "id": "Dvalin",
+  "shareId": 287,
+  "name": "Dvalin",
+  "title": "Dvalin, Drago d'Oriente",
+  "desc": "\"Che meraviglia se tu fossi come me, che sono testimone della tua nobile e bellissima forma mentre ti libri nel cielo azzurro, allora sapresti che vale la pena lottare per questo cielo e per questa terra.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "talent_card": {
+      "id": "RendingVortex",
+      "name": "Rending Vortex"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo Dvalin in un duello amichevole",
+    "character": {
+      "id": "Stormterror",
+      "name": "Stormterror"
+    }
+  },
+  "skills": [
+    {
+      "id": "LaceratingSlash",
+      "name": "Sferzata lacerante",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "TempestuousBarrage",
+      "name": "Barriera tempestosa",
+      "desc": "Infligge 2 DAN da Anemo, il personaggio bersaglio subisce Collasso totale.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DvalinsCleansing",
+      "name": "Flusso purificatore di Dvalin",
+      "desc": "Infligge 2 DAN da Anemo e poi, separatamente, esegue Preparazione abilità per Purificazione perpetua e Purificazione assoluta.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "CaelestinumFinaleTermini",
+      "name": "Caelestinum Finale Termini",
+      "desc": "Infligge 5 DAN da Anemo. Applica Collasso totale a tutti i personaggi avversari inattivi.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}
