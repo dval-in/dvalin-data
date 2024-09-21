@@ -1,0 +1,100 @@
+{
+  "id": "Nahida",
+  "shareId": 49,
+  "name": "ナヒーダ",
+  "title": "白草浄華·ナヒーダ",
+  "desc": "白草浄華、啓蟄の深宮",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "法器",
+    "faction": [
+      "スメール"
+    ],
+    "talent_card": {
+      "id": "TheSeedOfStoredKnowledge",
+      "name": "The Seed of Stored Knowledge"
+    },
+    "source": "キャッツテールでナヒーダを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Nahida",
+      "name": "Nahida",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Akara",
+      "name": "行相",
+      "desc": "草元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllSchemesToKnow",
+      "name": "所聞遍計",
+      "desc": "草元素ダメージを2与え、目標キャラに蘊種印を付与する。付与する前に、目標キャラにすでに蘊種印が付与されている場合、相手のチーム全員に蘊種印を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AllSchemesToKnowTathata",
+      "name": "所聞遍計·真如",
+      "desc": "草元素ダメージを3与え、相手のチーム全員に蘊種印を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "IllusoryHeart",
+      "name": "心景幻成",
+      "desc": "草元素ダメージを4与え、摩耶の宮殿を生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

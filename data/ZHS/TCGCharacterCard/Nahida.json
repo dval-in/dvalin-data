@@ -1,0 +1,100 @@
+{
+  "id": "Nahida",
+  "shareId": 49,
+  "name": "纳西妲",
+  "title": "白草净华·纳西妲",
+  "desc": "白草净华，幽宫启蛰。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "法器",
+    "faction": [
+      "须弥"
+    ],
+    "talent_card": {
+      "id": "TheSeedOfStoredKnowledge",
+      "name": "The Seed of Stored Knowledge"
+    },
+    "source": "在猫尾酒馆中邀请纳西妲进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Nahida",
+      "name": "Nahida",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Akara",
+      "name": "行相",
+      "desc": "造成1点草元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllSchemesToKnow",
+      "name": "所闻遍计",
+      "desc": "造成2点草元素伤害，目标角色附属蕴种印；如果在附属前目标角色已附属有蕴种印，就改为对所有敌方角色附属蕴种印。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AllSchemesToKnowTathata",
+      "name": "所闻遍计·真如",
+      "desc": "造成3点草元素伤害，所有敌方角色附属蕴种印。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "IllusoryHeart",
+      "name": "心景幻成",
+      "desc": "造成4点草元素伤害，生成摩耶之殿。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "HuTao",
+  "shareId": 23,
+  "name": "Hu Tao",
+  "title": "Hu Tao - La Guía del Más Allá",
+  "desc": "“¡Donde cabe uno, caben todos!”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "SanguineRogue",
+      "name": "Sanguine Rogue"
+    },
+    "source": "Se obtiene tras retar y ganar a Hu Tao en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "HuTao",
+      "name": "Hu Tao",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SecretSpearOfWangsheng",
+      "name": "Técnica de lanza de El Camino",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GuideToAfterlife",
+      "name": "Guía hacia el más allá",
+      "desc": "Este personaje obtiene una mariposa excelsa.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritSoother",
+      "name": "Calma de los espíritus",
+      "desc": "Inflige 4 pts. de Daño Pyro y obtiene Vida +2. Si el personaje tiene 6 pts. de Vida o menos, inflige daño +1 y obtiene Vida +1 adicional.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}
