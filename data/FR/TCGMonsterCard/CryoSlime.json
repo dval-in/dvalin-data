@@ -1,0 +1,70 @@
+{
+  "id": "CryoSlime",
+  "shareId": 3107,
+  "name": "Cryoblob",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "Heurt",
+      "desc": "Inflige 1 pt de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "Saut écrasant",
+      "desc": "Inflige 4 pts de <span style=\"color:#99FFFFFF\">DGT Cryo</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Dépôt d'élément Cryo",
+      "desc": "(Passif) Applique un <span style=\"color:#FFFFFFFF\">entité élémentaire Cryo</span> au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5"
+}

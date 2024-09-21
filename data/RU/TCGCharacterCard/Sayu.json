@@ -1,0 +1,85 @@
+{
+  "id": "Sayu",
+  "shareId": 320,
+  "name": "Саю",
+  "title": "«Мудзина-ниндзя» Саю",
+  "desc": "Она сопровождает вас незримо, словно спутница, явившаяся во сне.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Двуручное",
+    "faction": [
+      "Инадзума"
+    ],
+    "talent_card": {
+      "id": "SkivingNewAndImproved",
+      "name": "Skiving: New and Improved"
+    },
+    "source": "Награда за приглашение Саю в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Sayu",
+      "name": "Sayu",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "ShuumatsubanNinjaBlade",
+      "name": "Ниндзюцу Сюмацубан",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtFuuinDash",
+      "name": "Искусство Юху: Рывок Фуин",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед., у персонажа начинается <span style=\"color:#FFFFFFFF\">Подготовка навыка</span>: <span style=\"color:#FFFFFFFF\">Удар вихря Фуфу</span>.<br/>Если текущее использование навыка вызвало Рассеивание, то <span style=\"color:#FFFFFFFF\">Удар вихря Фуфу</span> наносит урон элемента Рассеивания.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "YoohooArtMujinaFlurry",
+      "name": "Искусство Юху: Сумасшествие Мудзина",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед. Призывает помощника <span style=\"color:#FFFFFFFF\">Мудзи-Мудзи Дарума</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

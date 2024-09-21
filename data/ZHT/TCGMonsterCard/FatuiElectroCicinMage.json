@@ -1,0 +1,84 @@
+{
+  "id": "FatuiElectroCicinMage",
+  "shareId": 337,
+  "name": "愚人眾·雷螢術士",
+  "title": "霧虛霆閃·雷螢術士",
+  "desc": "…正如霧虛草的氣味會令雷螢迷醉，嗜虐的術士也貪戀著戲弄對手的快感…",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人眾"
+    ],
+    "talent_card": {
+      "id": "ElectroCicinsGleam",
+      "name": "Electro Cicin's Gleam"
+    },
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度愚人眾·雷螢術士中獲得勝利後獲得",
+    "character": {
+      "id": "FatuiElectroCicinMage",
+      "name": "Fatui Electro Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "HurtlingBolts",
+      "name": "轟閃落雷",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "霧虛之召",
+      "desc": "召喚<span style=\"color:#FFFFFFFF\">雷螢</span>。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "霆雷之護",
+      "desc": "造成1點<span style=\"color:#FFACFFFF\">雷元素傷害</span>，本角色<span style=\"color:#FFACFFFF\">附著雷元素</span>，生成<span style=\"color:#FFFFFFFF\">雷螢護罩</span>並準備技能<span style=\"color:#FFFFFFFF\">霆電迸發</span>。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

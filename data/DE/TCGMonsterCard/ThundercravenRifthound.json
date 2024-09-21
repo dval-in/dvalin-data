@@ -1,0 +1,85 @@
+{
+  "id": "ThundercravenRifthound",
+  "shareId": 3409,
+  "name": "Donnerfressender Garm",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "CankeringClaws",
+      "name": "Korrodierende Klauen",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Korrosion</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CorrosiveElectroCrystal",
+      "name": "Korrodierender Elektrokristall",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Korrosion</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DevouringBite",
+      "name": "Magiesaugender Biss",
+      "desc": "Verursacht 6 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft auf dem Feld des Gegners 1 <span style=\"color:#FFFFFFFF\">Korrosion</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalDevourer",
+      "name": "Magiesauger",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes <span style=\"color:#FFFFFFFF\">Magiesauger</span>.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "LargeCryoSlime",
+  "shareId": 3108,
+  "name": "大型氷スライム",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Bounce",
+      "name": "ボンボン",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrigidSpray",
+      "name": "氷霧スプラッシュ",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Slam",
+      "name": "墜落",
+      "desc": "<span style=\"color:#99FFFFFF\">氷元素ダメージ</span>を5与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素蓄積·氷",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">元素生命·氷</span>が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5"
+}

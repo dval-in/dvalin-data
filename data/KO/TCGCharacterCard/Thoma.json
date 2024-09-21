@@ -1,0 +1,85 @@
+{
+  "id": "Thoma",
+  "shareId": 319,
+  "name": "토마",
+  "title": "바다 건너온 수호자·토마",
+  "desc": "바다 건너온 충실한 수호자",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "장병기",
+    "faction": [
+      "이나즈마"
+    ],
+    "talent_card": {
+      "id": "ASubordinatesSkills",
+      "name": "A Subordinate's Skills"
+    },
+    "source": "캣테일 술집에서 토마 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Thoma",
+      "name": "Thoma",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SwiftshatterSpear",
+      "name": "신속한 창의 기세",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingBlessing",
+      "name": "타오르는 우명의 보호",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">타오르는 우명의 방패</span>를 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CrimsonOoyoroi",
+      "name": "진홍 열화의 오오요로이",
+      "desc": "<span style=\"color:#FF9999FF\">불 원소 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">타오르는 우명의 방패</span>와 <span style=\"color:#FFFFFFFF\">열화의 오오요로이</span>를 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

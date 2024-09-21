@@ -1,0 +1,74 @@
+{
+  "id": "Wanderer",
+  "shareId": 41,
+  "name": "Странник",
+  "title": "Затерявшийся в вечности: Странник",
+  "desc": "Трудностей не счесть, испытаний не постичь.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Анемо",
+    "weapon": "Катализатор",
+    "faction": [],
+    "source": "Награда за приглашение Странника в «Кошкин хвост» и победу в Дружеской дуэли"
+  },
+  "skills": [
+    {
+      "id": "YuubanMeigen",
+      "name": "Юбан мэйгэн",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HanegaSongOfTheWind",
+      "name": "Ханэга: Песнь ветра",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 2 ед. У персонажа возникает <span style=\"color:#FFFFFFFF\">Избранник ветра</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KyougenFiveCeremonialPlays",
+      "name": "Кёгэн: Пять церемониальных актов",
+      "desc": "Наносит <span style=\"color:#80FFD7FF\">Анемо урон</span>, 7 ед. Если у персонажа есть <span style=\"color:#FFFFFFFF\">Избранник ветра</span>, эта карта пропадает, а урон увеличивается на 1 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

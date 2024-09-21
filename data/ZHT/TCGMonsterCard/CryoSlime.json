@@ -1,0 +1,70 @@
+{
+  "id": "CryoSlime",
+  "shareId": 3107,
+  "name": "冰史萊姆",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Ram",
+      "name": "衝撞",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpingSlam",
+      "name": "跳躍衝擊",
+      "desc": "造成4點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "元素沉積·冰",
+      "desc": "【被動】戰鬥開始時，初始附屬<span style=\"color:#FFFFFFFF\">元素生命·冰</span>。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5"
+}
