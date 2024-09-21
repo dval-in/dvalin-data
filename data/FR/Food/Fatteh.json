@@ -1,0 +1,57 @@
+{
+  "id": "Fatteh",
+  "name": "Fatteh",
+  "description": "Un plat de longue date de Sumeru. Le pain cuit est d'abord émietté avant d'être mélangé avec des haricots glabres bouillis et une sauce au yaourt, le tout étant finalement dégusté directement. Cette recette est transmise depuis longtemps et possède de nombreuses variantes, mais elles partagent toutes un point commun : elles sont à la fois simples et délicieuses.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "Flour",
+      "name": "Farine",
+      "amount": 3
+    },
+    {
+      "id": "GlabrousBeans",
+      "name": "Haricot glabre",
+      "amount": 2
+    },
+    {
+      "id": "Milk",
+      "name": "Lait",
+      "amount": 2
+    },
+    {
+      "id": "Mint",
+      "name": "Menthe",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Récupération",
+  "results": {
+    "suspicious": {
+      "name": "Fatteh (suspect)",
+      "description": "Un plat de longue date de Sumeru. Si on avait la patience d'enlever les haricots glabres mi-cuits et les morceaux brûlés de biscuit, la sauce au yaourt qui reste pourrait passer pour un dessert...",
+      "effect": "Réanime un personnage et restaure 250 PV."
+    },
+    "normal": {
+      "name": "Fatteh",
+      "description": "Un plat de longue date de Sumeru. Le pain cuit est d'abord émietté avant d'être mélangé avec des haricots glabres bouillis et une sauce au yaourt, le tout étant finalement dégusté directement. Cette recette est transmise depuis longtemps et possède de nombreuses variantes, mais elles partagent toutes un point commun : elles sont à la fois simples et délicieuses.",
+      "effect": "Réanime un personnage et restaure 400 PV."
+    },
+    "delicious": {
+      "name": "Fatteh (délicieux)",
+      "description": "Un plat de longue date de Sumeru. Avec les haricots glabres enrobés de la douceur soyeuse de la sauce au yaourt, la texture lisse du plat accueille votre langue comme un rêve béat. Et même après votre réveil, vous pouvez encore sentir le goût nourrissant du pain cuit entre vos lèvres...",
+      "effect": "Réanime un personnage et restaure 550 PV."
+    },
+    "special": {
+      "id": "TheEndeavor",
+      "name": "La détermination",
+      "description": "Spécialité culinaire de Kaveh. Avec la croûte dorée des biscuits arrangée pour ressembler au Palais d'Alcazarzaray, le plat s'élève majestueusement dans un pâle étang de sauce au yaourt. Bien que son créateur ait déployé un effort monumental lors de sa création, il semble avoir oublié le fait que les biscuits devront être cassés pendant la dégustation...",
+      "effect": "Réanime un personnage et restaure 15 % des PV max, puis encore 550 PV supplémentaires.",
+      "character": {
+        "id": "Kaveh",
+        "name": "Kaveh"
+      }
+    }
+  },
+  "version": "2.6"
+}
