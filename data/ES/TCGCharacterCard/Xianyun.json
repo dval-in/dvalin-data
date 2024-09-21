@@ -1,0 +1,76 @@
+{
+  "id": "Xianyun",
+  "shareId": 408,
+  "name": "Xianyun",
+  "title": "Xianyun - La Grulla Emisaria",
+  "desc": "La heroína que resurgió de entre las nubes.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Catalizador",
+    "faction": [
+      "Liyue"
+    ],
+    "source": "Se obtiene tras retar y ganar a Xianyun en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "WordOfWindAndFlower",
+      "name": "Palabra vientofloral",
+      "desc": "Inflige 1 pt. de Daño Anemo.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WhiteCloudsAtDawn",
+      "name": "Grulla del celaje",
+      "desc": "Inflige 2 pts. de Daño Anemo, obtiene el efecto de impulso célico y este personaje obtiene una carga de onda nublosa.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StarsGatherAtDusk",
+      "name": "Estrellas del crepúsculo",
+      "desc": "Inflige 1 pt. de Daño Anemo, todos tus personajes obtienen Vida +1 y crea una carta de Lucero de bambú. El personaje que tenga equipado el lucero de bambú puede usar la técnica especial Potenciación adéptica.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}
