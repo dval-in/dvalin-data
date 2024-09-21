@@ -20,7 +20,7 @@ const lines = file.split('\n').filter((line) => line.startsWith('src/data'));
 
 const fileListCreated: string[] = [];
 const updatedFileList: string[] = [];
-const errorFileList: Array<{ error: any; key: string; obj: any }> = [];
+const errorFileList: Array<{ error: any; key: string }> = [];
 
 async function processLines() {
 	for (const line of lines) {
@@ -33,6 +33,9 @@ async function processLines() {
 				const link = join(baseDir, 'genshin-data/', line);
 				const newPath = join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
 				const newData = await readJsonFile(link);
+				if (!newData) {
+					throw new Error(`Error reading file ${link}`);
+				}
 				await writeJsonFile(newPath, newData);
 				continue;
 			}
@@ -49,15 +52,18 @@ async function processLines() {
 			await writeJsonFile(dvalinPath, fileContent);
 			updatedFileList.push(dvalinPath);
 		} catch (error) {
-			errorFileList.push({ error, key: line, obj: error });
+			errorFileList.push({ key: line, error: error });
 		}
 	}
 }
 
 const handleFile = async (genshinDataPath: string, currentDataPath: string) => {
 	const genshinData = await readJsonFile(genshinDataPath);
+	if (!genshinData) {
+		throw new Error(`Error reading file ${genshinDataPath}`);
+	}
 	const currentData = await readJsonFile(currentDataPath);
-	const savedVersion = currentData.version ?? undefined;
+	const savedVersion = currentData?.version;
 	const processObject = (obj: any): any => {
 		if (Array.isArray(obj)) {
 			return obj.map((item) => processObject(item));
@@ -66,7 +72,7 @@ const handleFile = async (genshinDataPath: string, currentDataPath: string) => {
 			for (const [key, value] of Object.entries(obj)) {
 				if (key !== '_id') {
 					if (key.toLowerCase().includes('id') && typeof value === 'string') {
-						if (genshinData.contains('achievement')) {
+						if (genshinDataPath.includes('achievement')) {
 							newObj[key] = replaceRomanNumeralsPascalCased(toPascalCase(value));
 						}
 						newObj[key] = toPascalCase(value);
@@ -94,7 +100,6 @@ const handleFile = async (genshinDataPath: string, currentDataPath: string) => {
 
 	const processedData = processObject(genshinData);
 
-	// Add version to root
 	processedData.version = savedVersion ?? version;
 	return processedData;
 };
@@ -105,8 +110,3 @@ console.log('Processing complete');
 console.log('Files created:', fileListCreated.length);
 console.log('Files updated:', updatedFileList.length);
 console.log('Errors:', errorFileList.length);
-
-if (errorFileList.length > 0) {
-	console.error('Errors occurred during processing:');
-	console.error(JSON.stringify(errorFileList, null, 2));
-}

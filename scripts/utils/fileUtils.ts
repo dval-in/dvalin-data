@@ -1,11 +1,11 @@
 import { JsonObject } from './types';
 
-export async function readJsonFile(filePath: string): Promise<JsonObject> {
+export async function readJsonFile(filePath: string): Promise<JsonObject | undefined> {
 	try {
 		const file = Bun.file(filePath);
 		return await file.json();
 	} catch (error) {
-		throw new Error(`Error reading or parsing JSON file ${filePath}: ${error}`);
+		return undefined;
 	}
 }
 
