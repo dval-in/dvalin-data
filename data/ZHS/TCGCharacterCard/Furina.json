@@ -1,0 +1,94 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "芙宁娜",
+  "title": "不休独舞·芙宁娜",
+  "desc": "永世领唱，无尽圆舞。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "单手剑",
+    "faction": [
+      "枫丹"
+    ],
+    "talent_card": {
+      "id": "HearMeLetUsRaiseTheChaliceOfLove",
+      "name": "\"Hear Me — Let Us Raise the Chalice of Love!\""
+    },
+    "source": "在猫尾酒馆中邀请芙宁娜进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Furina",
+      "name": "Furina",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "独舞之邀",
+      "desc": "造成2点物理伤害。 每回合1次：如果手牌中没有圣俗杂座，则生成手牌圣俗杂座。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "孤心沙龙",
+      "desc": "芙宁娜当前处于「始基力：荒性」形态：召唤沙龙成员。 （芙宁娜处于「始基力：芒性」形态时，会改为召唤众水的歌者）",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "万众狂欢",
+      "desc": "造成2点物理伤害，生成普世欢腾。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "始基力：圣俗杂座",
+      "desc": "【被动】战斗开始时，生成手牌圣俗杂座。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

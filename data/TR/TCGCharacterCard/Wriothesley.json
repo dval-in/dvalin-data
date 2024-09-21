@@ -1,0 +1,85 @@
+{
+  "id": "Wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "\"Sessiz Günahların Temsilcisi\" Wriothesley",
+  "desc": "Suçlu sular derinden akar.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Buz",
+    "weapon": "Katalizör",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "TerrorForTheEvildoers",
+      "name": "Terror for the Evildoers"
+    },
+    "source": "Wriothesley'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Wriothesley",
+      "name": "Wriothesley",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ForcefulFistsOfFrost",
+      "name": "Güçlü Buz Yumrukları",
+      "desc": "1 Buz Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcefangRush",
+      "name": "Buzdiş Saldırısı",
+      "desc": "2 Fiziksel Hasar verir ve bu karakter Ürperten Ceza kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DarkgoldWolfbite",
+      "name": "Kara Altın Kurt Isırığı",
+      "desc": "2 Fiziksel Hasar verir ve 1 Tükenmeyen Buz Sarkıtı oluşturur. Bu karakter bu Turda Hasar alırsa veya toplamda 2 defa iyileştirilirse bu Becerinin Element Zarı maliyeti 1 azalır. (Maliyet en fazla 2 azalabilir.)",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}
