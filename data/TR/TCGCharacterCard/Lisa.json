@@ -1,0 +1,85 @@
+{
+  "id": "Lisa",
+  "shareId": 34,
+  "name": "Lisa",
+  "title": "\"Mor Gül Cadısı\" Lisa",
+  "desc": "Sihrin sırlarının peşinden gidip sessizce gerçekle karşılaşmayı bekliyorum.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Katalizör",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "PulsatingWitch",
+      "name": "Pulsating Witch"
+    },
+    "source": "Lisa'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Lisa",
+      "name": "Lisa",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LightningTouch",
+      "name": "Yıldırım Dokunuşu",
+      "desc": "1 Elektrik Hasarı verir. Bu Beceri Yüklü Saldırı olarak kullanıldığında rakibin aktif karakterine İletken eklenir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Mor Akım",
+      "desc": "2 Elektrik Hasarı verir. Rakibin aktif karakterine İletken eklenmediyse eklenir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Şimşek Gülü",
+      "desc": "2 Elektrik Hasarı verir. Şimşek Gülü çağırır. Rakibin aktif karakteri İletken kazanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.0"
+}
