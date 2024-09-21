@@ -93,14 +93,33 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git clone https://github.com/dvaJi/genshin-data.git
-          mapfile -t COMMITS <<< "$COMMITS"
+           # Debug: Print the contents of $COMMITS
+          echo "Contents of COMMITS:"
+          echo "$COMMITS"
+          
+          # Store commits in an array, one per line
+          readarray -t COMMIT_ARRAY <<< "$COMMITS"
+          
+          # Debug: Print the number of commits
+          echo "Number of commits: ${#COMMIT_ARRAY[@]}"
           
           # Process commits in reverse order
-          for ((i=${#COMMITS[@]}-1; i>=0; i--)); do
-            COMMIT=$(echo "${COMMITS[i]}" | awk '{print $1}')
-            MESSAGE=$(echo "${COMMITS[i]}" | cut -d' ' -f2-)
-            echo "Processing commit: $COMMIT"
+          for ((i=${#COMMIT_ARRAY[@]}-1; i>=0; i--)); do
+            # Debug: Print the current commit being processed
+            echo "Processing commit $i: ${COMMIT_ARRAY[i]}"
+            
+            COMMIT=$(echo "${COMMIT_ARRAY[i]}" | awk '{print $1}')
+            MESSAGE=$(echo "${COMMIT_ARRAY[i]}" | cut -d' ' -f2-)
+            
+            # Debug: Print extracted COMMIT and MESSAGE
+            echo "Extracted COMMIT: $COMMIT"
+            echo "Extracted MESSAGE: $MESSAGE"
+            
             VERSION=$(echo "$MESSAGE" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p')
+            
+            # Debug: Print extracted VERSION
+            echo "Extracted VERSION: $VERSION"
+            
             gh api "repos/dvaJi/genshin-data/git/trees/$COMMIT?recursive=1" \
               --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
             
