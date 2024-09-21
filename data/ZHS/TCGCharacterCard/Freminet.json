@@ -1,0 +1,77 @@
+{
+  "id": "Freminet",
+  "shareId": 407,
+  "name": "菲米尼",
+  "title": "潜怀遐梦·菲米尼",
+  "desc": "繁星丽天，孤怀寒芒。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "双手剑",
+    "faction": [
+      "枫丹",
+      "愚人众"
+    ],
+    "source": "在猫尾酒馆中邀请菲米尼进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "FlowingEddies",
+      "name": "洑流剑",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PressurizedFloe",
+      "name": "浮冰增压",
+      "desc": "造成2点冰元素伤害，若角色未附属佩伊刻计，则使其附属佩伊刻计。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShadowhuntersAmbush",
+      "name": "猎影潜袭",
+      "desc": "造成4点冰元素伤害，本角色附属潜猎模式。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

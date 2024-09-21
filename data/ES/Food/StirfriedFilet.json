@@ -1,0 +1,47 @@
+{
+  "id": "StirfriedFilet",
+  "name": "Carne frita",
+  "description": "Carne hecha a fuego rápido. El aroma de la carne se mezcla perfectamente con el ligero sabor picante del chile de Jueyun. Es una excelente opción como aperitivo o como plato principal.",
+  "rarity": 1,
+  "ingredients": [
+    {
+      "id": "RawMeat",
+      "name": "Carne cruda",
+      "amount": 1
+    },
+    {
+      "id": "JueyunChili",
+      "name": "Chile de Jueyun",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Platos que regeneran Vida",
+  "results": {
+    "suspicious": {
+      "name": "Carne frita extraña",
+      "description": "Carne hecha a fuego rápido. La carne, ahora chamuscada, se mezcló con chiles de Jueyun. Para ser comestible, haría falta comerla con mucho arroz.",
+      "effect": "Revive a un personaje y restaura 50 pts. de su Vida."
+    },
+    "normal": {
+      "name": "Carne frita",
+      "description": "Carne hecha a fuego rápido. El aroma de la carne se mezcla perfectamente con el ligero sabor picante del chile de Jueyun. Es una excelente opción como aperitivo o como plato principal.",
+      "effect": "Revive a un personaje y restaura 100 pts. de su Vida."
+    },
+    "delicious": {
+      "name": "Carne frita deliciosa",
+      "description": "Carne hecha a fuego rápido. El picante, en su punto perfecto, es como una reconfortante hoguera en un campo nevado capaz de despertar las papilas gustativas. Su sabor puede llegar a ser adictivo.",
+      "effect": "Revive a un personaje y restaura 150 pts. de su Vida."
+    },
+    "special": {
+      "id": "FlashfriedFilet",
+      "name": "Tiras de carne salteadas",
+      "description": "La especialidad de Beidou. Dicen que Beidou aprendió algunos trucos de cocina de Xiangling y refinó y añadió más sabor a este plato. Si puedes dejarlo limpio de una vez, tal vez puedas impresionarla.",
+      "effect": "Revive a un personaje y restaura un 10% de la Vida Máx. más 150 pts. de Vida adicionales.",
+      "character": {
+        "id": "Beidou",
+        "name": "Beidou"
+      }
+    }
+  },
+  "version": "1.6"
+}

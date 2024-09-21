@@ -1,0 +1,77 @@
+{
+  "id": "Freminet",
+  "shareId": 407,
+  "name": "Freminet",
+  "title": "\"Yearning for Unseen Depths\" Freminet",
+  "desc": "Menyendiri di bawah cahaya bintang yang begitu dingin.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Claymore",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "source": "Hadiah yang didapatkan setelah mengundang Freminet ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya"
+  },
+  "skills": [
+    {
+      "id": "FlowingEddies",
+      "name": "Flowing Eddies",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PressurizedFloe",
+      "name": "Pressurized Floe",
+      "desc": "Mengakibatkan 2 poin Cryo DMG. Memberikan status Pers Timer pada Karakter ini jika belum memiliki status Pers Timer.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShadowhuntersAmbush",
+      "name": "Shadowhunter's Ambush",
+      "desc": "Mengakibatkan 4 poin Cryo DMG. Karakter ini memperoleh status Subnautical Hunter Mode.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}

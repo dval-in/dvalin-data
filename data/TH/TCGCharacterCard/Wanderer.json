@@ -1,0 +1,74 @@
+{
+  "id": "Wanderer",
+  "shareId": 41,
+  "name": "ผู้พเนจร",
+  "title": "กัปกัลป์อสงไขย - ผู้พเนจร",
+  "desc": "ภัยร้ายนับพันหมื่นที่ไม่อาจล่วงรู้ได้",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุลม",
+    "weapon": "สื่อเวท",
+    "faction": [],
+    "source": "ได้รับหลังจากเชิญผู้พเนจรทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "YuubanMeigen",
+      "name": "Yuuban Meigen",
+      "desc": "จะสร้างความเสียหายลม 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HanegaSongOfTheWind",
+      "name": "Hanega: Song of the Wind",
+      "desc": "สร้างความเสียหายลม 2 หน่วย และตัวละครนี้ได้รับ Windfavored",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KyougenFiveCeremonialPlays",
+      "name": "Kyougen: Five Ceremonial Plays",
+      "desc": "สร้างความเสียหายลม 7 หน่วย; หากตัวละครมี Windfavored สถานะดังกล่าวจะถูกลบออก และมอบความเสียหาย +1",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "ธาตุลม",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

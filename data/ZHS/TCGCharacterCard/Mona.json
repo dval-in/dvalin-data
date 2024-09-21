@@ -1,0 +1,94 @@
+{
+  "id": "Mona",
+  "shareId": 11,
+  "name": "莫娜",
+  "title": "星天水镜·莫娜",
+  "desc": "无论胜负平弃，都是命当如此。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": [
+      "蒙德"
+    ],
+    "talent_card": {
+      "id": "ProphecyOfSubmersion",
+      "name": "Prophecy of Submersion"
+    },
+    "source": "在猫尾酒馆中邀请莫娜进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Mona",
+      "name": "Mona",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "RippleOfFate",
+      "name": "因果点破",
+      "desc": "造成1点水元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MirrorReflectionOfDoom",
+      "name": "水中幻愿",
+      "desc": "造成1点水元素伤害，召唤虚影。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StellarisPhantasm",
+      "name": "星命定轨",
+      "desc": "造成4点水元素伤害，生成泡影。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IllusoryTorrent",
+      "name": "虚实流动",
+      "desc": "【被动】此角色为出战角色，我方执行「切换角色」行动时：将此次切换视为「快速行动」而非「战斗行动」。（每回合1次）",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

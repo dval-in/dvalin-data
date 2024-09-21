@@ -1,0 +1,102 @@
+{
+  "id": "CryoHypostasis",
+  "shareId": 321,
+  "name": "Buz Hipostazı",
+  "title": "Buz Hipostazı",
+  "desc": "Kod adı: Daleth. Yüksek saflıkta bir Buz oluşumu.\\nTopla oynanan sporlarda pek de iyi değil...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "SternfrostPrism",
+      "name": "Sternfrost Prism"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Buz Hipostazı ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "CryoHypostasis",
+      "name": "Cryo Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "IcespikeShot",
+      "name": "Buz Dikeni Atışı",
+      "desc": "1 Buz Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "Buz Valsi",
+      "desc": "3 Buz Hasarı verir ve bu karakter Ezici Buz kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "Buz Parçası Bombardımanı",
+      "desc": "2 Buz Hasarı verir, rakibin tüm hazırdaki karakterlerine 1 Delme Hasarı verir ve 1 Delici Buz Tepesi çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "Buz Kristali Çekirdeği",
+      "desc": "(Pasif) Savaş başladığında bu karakter Buz Kristali Çekirdeği kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Element Tortulaşması: Buz",
+      "desc": "(Pasif) Savaş başladığında bu karakter Element Yaşam Formu: Buz kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.5"
+}

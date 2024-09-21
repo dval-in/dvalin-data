@@ -1,0 +1,85 @@
+{
+  "id": "Amber",
+  "shareId": 20,
+  "name": "Amber",
+  "title": "Amber, Vigilante",
+  "desc": "Se vuoi essere un bravo giocatore...\\nDevi innanzitutto avere il coraggio di sederti a giocare.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arco",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "BunnyTriggered",
+      "name": "Bunny Triggered"
+    },
+    "source": "Ricompensa ottenuta sfidando Amber a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Amber",
+      "name": "Amber",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Sharpshooter",
+      "name": "Tiratore scelto",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ExplosivePuppet",
+      "name": "Bambola esplosiva",
+      "desc": "Invoca 1 Baron Coniglio.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FieryRain",
+      "name": "Pioggia di frecce",
+      "desc": "Infligge 2 DAN da Pyro e 2 DAN da perforazione a tutti i personaggi inattivi.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

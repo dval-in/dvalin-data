@@ -1,0 +1,94 @@
+{
+  "id": "Chevreuse",
+  "shareId": 395,
+  "name": "슈브르즈",
+  "title": "엄정한 법의 집행자·슈브르즈",
+  "desc": "정의로운 법집행",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "장병기",
+    "faction": [
+      "폰타인"
+    ],
+    "talent_card": {
+      "id": "VanguardsCoordinatedTactics",
+      "name": "Vanguard's Coordinated Tactics"
+    },
+    "source": "캣테일 술집에서 슈브르즈 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Chevreuse",
+      "name": "Chevreuse",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "전열 창술·개량",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "신속 차단 사격술",
+      "desc": "불 원소 피해를 2pt 준다. 해당 스킬 결산 후: 아군 핸드 카드에 초강력 탄두가 있을 경우, 1장을 포기하고 피해를 가장 많이 받은 아군 캐릭터의 HP를 1pt 치유한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "원형 유탄 사격술",
+      "desc": "불 원소 피해를 2pt 주고 상대의 필드에 이중 파열탄을 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "종대 통솔자",
+      "desc": "[패시브] 상대 캐릭터가 과부하 반응 피해를 받은 후: 핸드 카드에 초강력 탄두를 생성한다. (턴당 1회)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

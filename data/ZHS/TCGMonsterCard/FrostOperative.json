@@ -1,0 +1,93 @@
+{
+  "id": "FrostOperative",
+  "shareId": 397,
+  "name": "愚人众·霜役人",
+  "title": "汰换之果·霜役人",
+  "desc": "自幼就被选中的人，经长久年月的教化与训练，在无数次的汰换后才能成为所谓的「役人」。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人众"
+    ],
+    "talent_card": {
+      "id": "RimeflowRapier",
+      "name": "Rimeflow Rapier"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度愚人众·霜役人中获得胜利后获取",
+    "character": {
+      "id": "FrostOperative",
+      "name": "Frost Operative"
+    }
+  },
+  "skills": [
+    {
+      "id": "SwiftPoint",
+      "name": "迅捷剑锋",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FrostyInterjection",
+      "name": "霜刃截击",
+      "desc": "造成3点冰元素伤害。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThornyOnslaught",
+      "name": "掠袭之刺",
+      "desc": "造成4点冰元素伤害，本角色附属掠袭锐势。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BloodbondedShadow",
+      "name": "血契掠影",
+      "desc": "【被动】本角色使用技能后：对敌方出战角色附属可用次数为（本技能最终伤害值-2）的生命之契。（最多5层）",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "RhodeiaOfLoch",
+  "shareId": 53,
+  "name": "纯水精灵·洛蒂娅",
+  "title": "净水之主·洛蒂娅",
+  "desc": "「但，只要百川奔流，雨露不休，水就不会消失…」",
+  "attributes": {
+    "hp": 30,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "StreamingSurge",
+      "name": "Streaming Surge"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度纯水精灵·洛蒂娅中获得胜利后获取",
+    "character": {
+      "id": "Oceanid",
+      "name": "Oceanid"
+    }
+  },
+  "skills": [
+    {
+      "id": "Surge",
+      "name": "翻涌",
+      "desc": "造成1点水元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OceanidMimicSummoning",
+      "name": "纯水幻造",
+      "desc": "随机召唤1种纯水幻形。（优先生成不同的类型，召唤区最多同时存在2种纯水幻形。）",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheMyriadWilds",
+      "name": "林野百态",
+      "desc": "随机召唤2种纯水幻形。（优先生成不同的类型，召唤区最多同时存在2种纯水幻形。）",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "TideAndTorrent",
+      "name": "潮涌与激流",
+      "desc": "造成4点水元素伤害；我方每有1个召唤物，再使此伤害+1。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalSedimentationHydro",
+      "name": "元素沉积·水",
+      "desc": "【被动】战斗开始时，初始附属元素生命·水。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

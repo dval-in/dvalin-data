@@ -1,0 +1,85 @@
+{
+  "id": "Venti",
+  "shareId": 38,
+  "name": "Venti",
+  "title": "Wandernder Barde – Venti",
+  "desc": "„Wie sich die vier Jahreszeiten nacheinander abwechseln, so werden auch die vier Winde nie aufhören zu wehen.“\\n„Nun war natürlich die Hauptrolle in diesem Stück meine und nicht ihre.“\\n„Hätte es keinen Barden gegeben, wer würde dann jetzt die Geschichte weitererzählen?“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Bogen",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "EmbraceOfWinds",
+      "name": "Embrace of Winds"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Venti in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Venti",
+      "name": "Venti",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DivineMarksmanship",
+      "name": "Göttliche Schießkunst",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SkywardSonnet",
+      "name": "Sonett vom Himmel",
+      "desc": "Verursacht 2 Pkt. Anemo-Schaden, erschafft 1 Sturm.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WindsGrandOde",
+      "name": "Ode vom Anemo-Archon",
+      "desc": "Verursacht 2 Pkt. Anemo-SCH, erschafft 1 Zentrum des Sturms.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

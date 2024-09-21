@@ -1,0 +1,99 @@
+{
+  "id": "MaguuKenki",
+  "shareId": 58,
+  "name": "魔偶剣鬼",
+  "title": "万般機巧·魔偶剣鬼",
+  "desc": "今日も、それは因縁断絶の地を徘徊している。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "風元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "TranscendentAutomaton",
+      "name": "Transcendent Automaton"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、魔偶剣鬼に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "MaguuKenki",
+      "name": "Maguu Kenki"
+    }
+  },
+  "skills": [
+    {
+      "id": "Ichimonji",
+      "name": "一文字",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlusteringBlade",
+      "name": "孤風刀勢",
+      "desc": "剣影·孤風を召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FrostyAssault",
+      "name": "霜馳影突",
+      "desc": "剣影·霜馳を召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PseudoTenguSweeper",
+      "name": "機巧偽天狗抄",
+      "desc": "風元素ダメージを4与え、味方のすべての剣影召喚物の効果を発動する。（使用可能回数は消費しない）",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "風元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

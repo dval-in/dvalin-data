@@ -1,0 +1,94 @@
+{
+  "id": "Chevreuse",
+  "shareId": 395,
+  "name": "Chevreuse",
+  "title": "Chevreuse - La Ejecutora de la Ley",
+  "desc": "Recta ejecutora de la justicia.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Lanza",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "VanguardsCoordinatedTactics",
+      "name": "Vanguard's Coordinated Tactics"
+    },
+    "source": "Se obtiene tras retar y ganar a Chevreuse en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Chevreuse",
+      "name": "Chevreuse",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LineBayonetThrustEx",
+      "name": "Bayoneta de vanguardia (modificada)",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShortrangeRapidInterdictionFire",
+      "name": "Fuego rápido de proximidad e intercepción",
+      "desc": "Inflige 2 pts. de Daño Pyro. Tras ejecutar esta habilidad, si tienes cartas de Bala de punta sobrecargada en tu mano, se realiza un descarte de 1 de ellas y el personaje de tu equipo que más daño haya recibido obtiene Vida +1.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RingOfBurstingGrenades",
+      "name": "Bombardeo radial",
+      "desc": "Inflige 2 pts. de Daño Pyro y crea unas bombas secundarias en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VerticalForceCoordination",
+      "name": "Formación lineal integral",
+      "desc": "Pasiva: después de que un personaje enemigo reciba daño de la reacción de Sobrecarga, crea una carta de Bala de punta sobrecargada (1 vez por ronda).",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}

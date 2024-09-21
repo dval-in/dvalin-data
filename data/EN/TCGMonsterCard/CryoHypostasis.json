@@ -1,0 +1,102 @@
+{
+  "id": "CryoHypostasis",
+  "shareId": 321,
+  "name": "Cryo Hypostasis",
+  "title": "Cryo Hypostasis",
+  "desc": "Code name: Daleth. A high-purity Cryo entity.\\nIt doesn't seem all that good at ball sports...",
+  "attributes": {
+    "hp": 30,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "SternfrostPrism",
+      "name": "Sternfrost Prism"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with Cryo Hypostasis",
+    "character": {
+      "id": "CryoHypostasis",
+      "name": "Cryo Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "IcespikeShot",
+      "name": "Icespike Shot",
+      "desc": "Deals 1 Cryo DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IceRingWaltz",
+      "name": "Ice Ring Waltz",
+      "desc": "Deals 3 Cryo DMG. This character gains Overwhelming Ice.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PlungingIceShards",
+      "name": "Plunging Ice Shards",
+      "desc": "Deals 2 Cryo DMG, deals 1 Piercing DMG to all opposing characters on standby, summons 1 Piercing Iceridge.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CryoCrystalCore",
+      "name": "Cryo Crystal Core",
+      "desc": "(Passive) When the battle begins, this character gains Cryo Crystal Core.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    },
+    {
+      "id": "ElementalSedimentationCryo",
+      "name": "Elemental Sedimentation: Cryo",
+      "desc": "(Passive) When the battle begins, this character gains Elemental Lifeform: Cryo.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.4"
+}

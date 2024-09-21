@@ -1,0 +1,84 @@
+{
+  "id": "FatuiCryoCicinMage",
+  "shareId": 52,
+  "name": "Фатуи: Маг Крио цицинов",
+  "title": "Туманный зов: маг Крио цицинов",
+  "desc": "Пока есть туманная трава, Крио цицины не покинут её.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Прочее",
+    "faction": [
+      "Фатуи"
+    ],
+    "talent_card": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Награда за победу над магом Крио цицинов в Дружеской дуэли в «Кошкином хвосте»",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Лёд цицина",
+      "desc": "Наносит Крио урон, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Туманный призыв",
+      "desc": "Наносит Крио урон, 1 ед. Призывает помощника: Крио цицин.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Цветы и ветви вьюги",
+      "desc": "Наносит Крио урон, 5 ед., даёт персонажу Эффект Крио, создаёт 1 Купол цицинов.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

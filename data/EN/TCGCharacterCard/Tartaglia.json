@@ -1,0 +1,94 @@
+{
+  "id": "Tartaglia",
+  "shareId": 12,
+  "name": "Tartaglia",
+  "title": "\"Childe\" Tartaglia",
+  "desc": "Should this table be considered a battlefield, then may the strongest claim the win.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "AbyssalMayhemHydrospout",
+      "name": "Abyssal Mayhem: Hydrospout"
+    },
+    "source": "Reward for inviting Tartaglia to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+    "character": {
+      "id": "Tartaglia",
+      "name": "Tartaglia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CuttingTorrent",
+      "name": "Cutting Torrent",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FoulLegacyRagingTide",
+      "name": "Foul Legacy: Raging Tide",
+      "desc": "Switches to Melee Stance and deals 2 Hydro DMG, and attach Riptide to the target character.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HavocObliteration",
+      "name": "Havoc: Obliteration",
+      "desc": "Performs different attacks based on the current stance that Tartaglia is in. Ranged Stance - Flash of Havoc: Deal $[D__KEY__DAMAGE_5] Hydro DMG, reclaim 2 Energy, and apply Riptide to the target character. Melee Stance - Light of Obliteration: Deal 7 Hydro DMG.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TideWithholder",
+      "name": "Tide Withholder",
+      "desc": "(Passive) When the battle begins, this character gains Ranged Stance. Once the Melee Stance attached to the character ends, reapplies Ranged Stance.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.7"
+}

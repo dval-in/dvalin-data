@@ -1,0 +1,101 @@
+{
+  "id": "Lyney",
+  "shareId": 281,
+  "name": "Lyney",
+  "title": "Lyney · Spectacle de fantasmagorie",
+  "desc": "À qui offrir le bouquet du miroir ?",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Arc",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "ConclusiveOvation",
+      "name": "Conclusive Ovation"
+    },
+    "source": "Récompense pour avoir invité Lyney à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Lyney",
+      "name": "Lyney",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CardForceTranslocation",
+      "name": "Cartomagie",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PropArrow",
+      "name": "Flèche postiche",
+      "desc": "Inflige 2 pts de DGT Pyro, invoque un chapeau félinois et accorde 1 cumul de fantasmagorie. Si le personnage a 6 PV ou plus, il subit 1 pt de DGT de perforation.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BewilderingLights",
+      "name": "Lumières de fioriture",
+      "desc": "Inflige 3 pts de DGT Pyro.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WondrousTrickMiracleParade",
+      "name": "Clou du spectacle : Parade prodigieuse",
+      "desc": "Inflige 3 pts de DGT Pyro, invoque un chapeau félinois et accorde 1 cumul de fantasmagorie.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

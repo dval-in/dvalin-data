@@ -1,0 +1,85 @@
+{
+  "id": "Xinyan",
+  "shareId": 365,
+  "name": "신염",
+  "title": "폭열 멜로디·신염",
+  "desc": "로큰롤 타임!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "불 원소",
+    "weapon": "양손검",
+    "faction": [
+      "리월"
+    ],
+    "talent_card": {
+      "id": "RockinInAFlamingWorld",
+      "name": "Rockin' in a Flaming World"
+    },
+    "source": "캣테일 술집에서 신염 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Xinyan",
+      "name": "Xinyan",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOnFire",
+      "name": "염무",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SweepingFervor",
+      "name": "정열의 연주",
+      "desc": "물리 피해를 2pt 주고 랜덤으로 기본 원소 주사위 코스트가 가장 높은 핸드 카드를 1장 포기한 뒤 정열의 보호막을 생성한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiffRevolution",
+      "name": "반항의 피치카토",
+      "desc": "물리 피해를 3pt 주고 상대의 모든 대기 캐릭터에게 관통 피해를 2pt 준다. 아군의 모든 핸드 카드를 포기하고 타오르는 분위기를 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "불 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

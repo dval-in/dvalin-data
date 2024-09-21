@@ -1,0 +1,85 @@
+{
+  "id": "Wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "\"Emissary of Solitary Iniquity\" Wriothesley",
+  "desc": "Dosa yang berlarut-larut bagaikan air.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Catalyst",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "TerrorForTheEvildoers",
+      "name": "Terror for the Evildoers"
+    },
+    "source": "Didapatkan setelah mengundang Wriothesley ke Cat's Tail dan menang dalam Pertandingan Persahabatan melawannya",
+    "character": {
+      "id": "Wriothesley",
+      "name": "Wriothesley",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ForcefulFistsOfFrost",
+      "name": "Forceful Fists of Frost",
+      "desc": "Mengakibatkan 1 poin Cryo DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcefangRush",
+      "name": "Icefang Rush",
+      "desc": "Mengakibatkan 2 poin Physical DMG. Karakter ini memperoleh status Chilling Penalty.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DarkgoldWolfbite",
+      "name": "Darkgold Wolfbite",
+      "desc": "Mengakibatkan 2 poin Physical DMG dan menciptakan Lingering Icicles. Selama Ronde ini, saat Karakter ini menerima DMG atau pemulihan setiap total mencapai 2 kali: mengonsumsi 1 Dadu Elemental lebih sedikit untuk Skill ini (Maksimum 2 buah lebih sedikit).",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}
