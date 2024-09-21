@@ -3,6 +3,7 @@ import { readJsonFile, writeJsonFile } from '../utils/fileUtils';
 import { toPascalCase, replaceRomanNumeralsPascalCased } from '../utils/stringUtils';
 import { langMapping, folderMapping } from '../utils/mappings';
 import { stripHtml } from 'string-strip-html';
+import { appendFile } from 'node:fs/promises';
 
 const baseDir = resolve('./');
 const version = Bun.argv[2] || '0.0';
@@ -72,10 +73,11 @@ const handleFile = async (genshinDataPath: string, currentDataPath: string) => {
 			for (const [key, value] of Object.entries(obj)) {
 				if (key !== '_id') {
 					if (key.toLowerCase().includes('id') && typeof value === 'string') {
-						if (genshinDataPath.includes('achievement')) {
+						if (genshinDataPath.includes('achievements')) {
 							newObj[key] = replaceRomanNumeralsPascalCased(toPascalCase(value));
+						} else {
+							newObj[key] = toPascalCase(value);
 						}
-						newObj[key] = toPascalCase(value);
 					} else {
 						newObj[key] = processObject(value);
 					}
@@ -110,3 +112,17 @@ console.log('Processing complete');
 console.log('Files created:', fileListCreated.length);
 console.log('Files updated:', updatedFileList.length);
 console.log('Errors:', errorFileList.length);
+
+const newContent =
+	`==================================== UPDATE ${version}===============================================\n` +
+	'CREATED : \n' +
+	fileListCreated +
+	'\n' +
+	'UPDATED : \n' +
+	updatedFileList +
+	'\n' +
+	'ERRORS : \n' +
+	errorFileList +
+	'\n\n';
+
+await appendFile('./update/changed_files.txt', newContent, 'utf8');

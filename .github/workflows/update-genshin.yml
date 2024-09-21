@@ -98,8 +98,6 @@ jobs:
 
           # Process commits in reverse order
           for ((i=${#COMMIT_ARRAY[@]}-1; i>=0; i--)); do
-            # Debug: Print the current commit being processed
-            echo "Processing commit $i: ${COMMIT_ARRAY[i]}"
             
             # Remove line number and extract commit hash and message
             LINE=$(echo "${COMMIT_ARRAY[i]}")
@@ -107,13 +105,12 @@ jobs:
             MESSAGE=$(echo "$LINE" | cut -d' ' -f2-)
             
             # Debug: Print extracted COMMIT and MESSAGE
-            echo "Extracted COMMIT: $COMMIT"
             echo "Extracted MESSAGE: $MESSAGE"
             
             VERSION=$(echo "$MESSAGE" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p')
-            
-            # Debug: Print extracted VERSION
-            echo "Extracted VERSION: $VERSION"
+            if [$COMMIT =="388d16c6f1ad3118f38365b77dbf9bc32474c837"]; then
+              VERSION="3.6"
+            fi
             
             # Check if COMMIT is not empty and 40 characters long before proceeding
             if [ -n "$COMMIT" ] && [ ${#COMMIT} -eq 40 ]; then
