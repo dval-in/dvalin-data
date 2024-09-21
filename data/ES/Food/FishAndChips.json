@@ -1,0 +1,57 @@
+{
+  "id": "FishAndChips",
+  "name": "Fish and chips",
+  "description": "Un aperitivo frito. Se trata de filetes de pescado empanados que se fríen en aceite hasta quedar dorados y crujientes y acompañados de una ración de patatas fritas. La combinación resultante es tan deliciosa que podrías usar cualquier salsa de acompañamiento y nunca te decepcionará.",
+  "rarity": 3,
+  "ingredients": [
+    {
+      "id": "Fish",
+      "name": "Pescado",
+      "amount": 3
+    },
+    {
+      "id": "Potato",
+      "name": "Papa",
+      "amount": 3
+    },
+    {
+      "id": "Flour",
+      "name": "Harina",
+      "amount": 3
+    },
+    {
+      "id": "Salt",
+      "name": "Sal",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Platos para aventuras",
+  "results": {
+    "suspicious": {
+      "name": "Fish and chips extraño",
+      "description": "Un aperitivo frito. Cualquier pobre ciudadano de Fontaine que tenga la desgracia de probar este plato escribiría sin duda una carta al Palacio Mermonia pidiendo la inmediata prohibición del pescado blanduzco con patatas y evitar así posibles nuevas víctimas.",
+      "effect": "#Restaura 70 pts. de Aguante."
+    },
+    "normal": {
+      "name": "Fish and chips",
+      "description": "Un aperitivo frito. Se trata de filetes de pescado empanados que se fríen en aceite hasta quedar dorados y crujientes y acompañados de una ración de patatas fritas. La combinación resultante es tan deliciosa que podrías usar cualquier salsa de acompañamiento y nunca te decepcionará.",
+      "effect": "#Restaura 85 pts. de Aguante."
+    },
+    "delicious": {
+      "name": "Fish and chips delicioso",
+      "description": "Un aperitivo frito. Los sabrosos filetes de pescado y las tiras de patata ríen a carcajadas mientras nadan por el aceite hirviendo. Cocinarlos a tan alta temperatura no hace sino intensificar sus deliciosos sabores, que se funden entre sí e inundan con su aroma la estancia. Si hay algo que sea más satisfactorio que comer patatas fritas, ¡debe ser sin duda dar un buen bocado a un filete de pescado crujiente!",
+      "effect": "#Restaura 100 pts. de Aguante."
+    },
+    "special": {
+      "id": "ExclusiveScoopGourmetColumn",
+      "name": "Noticias exclusivas: Columna gastronómica",
+      "description": "La especialidad de Charlotte. Un aperitivo que sostiene en sus manos en su incesante búsqueda de exclusivas primicias. Mientras mira a su alrededor, el ritmo excitado de sus pasos se sincroniza gradualmente con el crepitar de los crujientes filetes de pescado frito en su boca... Puede que no hubiera terminado aún con la noticia, pero la alegría y satisfacción ya habían alcanzado su punto álgido en ese momento.",
+      "effect": "#Restaura 130 pts. de Aguante.",
+      "character": {
+        "id": "Charlotte",
+        "name": "Charlotte"
+      }
+    }
+  },
+  "version": "4.0"
+}

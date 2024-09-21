@@ -1,0 +1,85 @@
+{
+  "id": "Lisa",
+  "shareId": 34,
+  "name": "Lisa",
+  "title": "Rosenhexe – Lisa",
+  "desc": "Erforsche die Geheimnisse der Magie und warte darauf, dass die Wahrheit ans Licht kommt.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Katalysator",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "PulsatingWitch",
+      "name": "Pulsating Witch"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lisa in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Lisa",
+      "name": "Lisa",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LightningTouch",
+      "name": "Elektrisierende Berührung",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>.<br/>Wenn es sich gerade bei dieser Fähigkeit um <span style=\"color:#FFFFFFFF\">heftige Schläge</span> handelt, wird der aktiven Figur deines Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter</span> verliehen.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "Lila Lichtbogen",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>. Verleiht der aktiven Figur des Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter</span>, wenn sie nicht hiervon betroffen ist.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "Rosenblitz",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#FFACFFFF\">Elektro-SCH</span>, erschafft 1 <span style=\"color:#FFFFFFFF\">Rosenblitz</span> und verleiht der aktiven Figur des Gegners <span style=\"color:#FFFFFFFF\">Blitzleiter</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.0"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Albedo",
+  "shareId": 45,
+  "name": "Альбедо",
+  "title": "Принц мела: Альбедо",
+  "desc": "Нигредо и Альбедо, Рубедо и Цитринитас.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гео",
+    "weapon": "Одноручное",
+    "faction": [
+      "Мондштадт"
+    ],
+    "talent_card": {
+      "id": "DescentOfDivinity",
+      "name": "Descent of Divinity"
+    },
+    "source": "Награда за приглашение Альбедо в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Albedo",
+      "name": "Albedo",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkWeiss",
+      "name": "Фехтовальный стиль Фавония: Мел",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbiogenesisSolarIsotoma",
+      "name": "Абиогенез: Цветок солнца",
+      "desc": "Призывает помощника: <span style=\"color:#FFFFFFFF\">Цветок солнца</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfProgenitureTectonicTide",
+      "name": "Ритуал рождения: Тектоническая волна",
+      "desc": "Наносит <span style=\"color:#FFE699FF\">Гео урон</span>, 4 ед. Если <span style=\"color:#FFFFFFFF\">Цветок солнца</span> на поле битвы, урон увеличивается на 2 ед.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Гео",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.0"
+}
