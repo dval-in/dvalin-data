@@ -1,0 +1,85 @@
+{
+  "id": "YunJin",
+  "shareId": 366,
+  "name": "云堇",
+  "title": "红毹婵娟·云堇",
+  "desc": "红毹婵娟，庄谐并举。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "长柄武器",
+    "faction": [
+      "璃月"
+    ],
+    "talent_card": {
+      "id": "DecorousHarmony",
+      "name": "Decorous Harmony"
+    },
+    "source": "在猫尾酒馆中邀请云堇进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "YunJin",
+      "name": "Yun Jin",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "CloudgrazingStrike",
+      "name": "拂云出手",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "OpeningFlourish",
+      "name": "旋云开相",
+      "desc": "生成<span style=\"color:#FFFFFFFF\">飞云旗阵</span>，本角色附属<span style=\"color:#FFFFFFFF\">旋云护盾</span>并<span style=\"color:#FFFFFFFF\">准备技能</span>：<span style=\"color:#FFFFFFFF\">长枪开相</span>。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CliffbreakersBanner",
+      "name": "破嶂见旌仪",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>，生成3层<span style=\"color:#FFFFFFFF\">飞云旗阵</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

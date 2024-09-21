@@ -1,0 +1,94 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "푸리나",
+  "title": "멈추지 않는 독무·푸리나",
+  "desc": "영원한 선창, 끝없는 왈츠",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "물 원소",
+    "weapon": "한손검",
+    "faction": [
+      "폰타인"
+    ],
+    "talent_card": {
+      "id": "HearMeLetUsRaiseTheChaliceOfLove",
+      "name": "\"Hear Me — Let Us Raise the Chalice of Love!\""
+    },
+    "source": "캣테일 술집에서 푸리나 초대 및 친선 대전 난이도 승리 후 획득",
+    "character": {
+      "id": "Furina",
+      "name": "Furina",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "독무자의 초대",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 준다.<br/><span style=\"color:#FFFFFFFF\">턴당 1회:</span> 핸드 카드에 <span style=\"color:#FFFFFFFF\">성과 속</span>이 없으면 핸드 카드 <span style=\"color:#FFFFFFFF\">성과 속</span>을 생성한다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "고고한 살롱",
+      "desc": "<span style=\"color:#FFFFFFFF\">푸리나</span>가 현재 「아르케의 힘: 우시아」 형태일 때: <span style=\"color:#FFFFFFFF\">살롱 멤버</span>를 소환한다.<br/>(푸리나가 「아르케의 힘: 프뉴마」 형태일 경우, <span style=\"color:#FFFFFFFF\">물들의 가수</span>를 소환하는 것으로 변경된다)",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "성대한 카니발",
+      "desc": "<span style=\"color:#FFFFFFFF\">물리 피해</span>를 2pt 주고 <span style=\"color:#FFFFFFFF\">열광의 도가니</span>를 생성한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "물 원소",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "아르케의 힘: 성과 속",
+      "desc": "[패시브] 전투 시작 시, 핸드 카드에 <span style=\"color:#FFFFFFFF\">성과 속</span>을 생성한다.",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

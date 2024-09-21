@@ -1,0 +1,94 @@
+{
+  "id": "ConsecratedFlyingSerpent",
+  "shareId": 370,
+  "name": "Священный летучий змей",
+  "title": "Остатки вихря: Священный летучий змей",
+  "desc": "Летучий змей, чей облик и повадки исказились в результате поедания больших форм жизни. Теперь он может управлять страшными ветрами.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Анемо",
+    "weapon": "Прочее",
+    "faction": [
+      "Монстр",
+      "Священный хищник"
+    ],
+    "talent_card": {
+      "id": "DeathlyCyclone",
+      "name": "Deathly Cyclone"
+    },
+    "source": "Награда за принятие испытания в «Кошкином хвосте» и победу над священным летучим змеем в Дружеской дуэли",
+    "character": {
+      "id": "ConsecratedFlyingSerpent",
+      "name": "Consecrated Flying Serpent"
+    }
+  },
+  "skills": [
+    {
+      "id": "WhirlingTail",
+      "name": "Кружащий хвост",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSquall",
+      "name": "Вихревой удар",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед., вы берёте 1 карту",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ScattershotVortex",
+      "name": "Шквальное торнадо",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед., происходит <span style=\"color:#FFFFFFFF\">Отказ</span> от всех карт <span style=\"color:#FFFFFFFF\">Энергетический блок Потрошителя</span> в руке. <span style=\"color:#FFFFFFFF\">Отказ</span> от каждых двух карт удваивает этот урон.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Анемо",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsAnemo",
+      "name": "Бессмертные останки: Анемо",
+      "desc": "(Пассивный навык) В начале битвы вы получаете 6 карт <span style=\"color:#FFFFFFFF\">Энергетический блок Потрошителя</span>, которые попадают в вашу колоду.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ConsecratedFlyingSerpent",
+  "shareId": 370,
+  "name": "Serpente volante consacrato",
+  "title": "Resti burrascosi: Serpente volante consacrato",
+  "desc": "Un serpente volante che si è contorto e deformato mangiando un essere superiore. Ora è in grado di manipolare temibili venti.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Bestia consacrata"
+    ],
+    "talent_card": {
+      "id": "DeathlyCyclone",
+      "name": "Deathly Cyclone"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Serpente volante consacrato in un duello amichevole",
+    "character": {
+      "id": "ConsecratedFlyingSerpent",
+      "name": "Consecrated Flying Serpent"
+    }
+  },
+  "skills": [
+    {
+      "id": "WhirlingTail",
+      "name": "Coda vorticosa",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSquall",
+      "name": "Turbine vorticoso",
+      "desc": "Infliggi 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span> e pesca 1 carta.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ScattershotVortex",
+      "name": "Vortice di dispersione",
+      "desc": "Infligge 2<span style=\"color:#FFFFFFFF\">DAN fisici</span>. Effettua la <span style=\"color:#FFFFFFFF\">Rimozione</span> di tutte le carte <span style=\"color:#FFFFFFFF\">Blocco di energia del Frantumaossa</span> nella tua mano. Raddoppia i DAN inflitti per ogni 2 carte <span style=\"color:#FFFFFFFF\">rimosse</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsAnemo",
+      "name": "Resti immortali: Anemo",
+      "desc": "(Passiva) All'inizio del duello, crea 6 carte <span style=\"color:#FFFFFFFF\">Blocco di energia del Frantumaossa</span> e distribuiscile equamente nel tuo mazzo.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 368,
+  "name": "呑星の鯨",
+  "title": "深秘の異獣·呑星の鯨",
+  "desc": "最も幻想的な物語、または荒唐無稽なでたらめの中で、宇宙の最奥にある真の星々もまた、テイワットのように活気に溢れている。そして宇宙そのものは、まるで海原のようだ。\\nもしかすると宇宙は、テイワットへと浸入し続けているのかもしれない。より上位の意志が彼らとの境界を定めたのは、おそらくこの世界を守るためだろう。",
+  "attributes": {
+    "hp": 15,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "LightlessFeeding",
+      "name": "Lightless Feeding"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、呑星の鯨に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "AlldevouringNarwhal",
+      "name": "All-Devouring Narwhal"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "波を打ち砕く跳躍",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "降り注ぐ星の雨",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を$[D__KEY__DAMAGE_2]与える。本キャラに<span style=\"color:#FFFFFFFF\">底なしの食欲</span>が提供したHP上限3につき、このダメージ+1（最大+3）。その後、元素サイコロの初期コストが最も高い手札を1枚<span style=\"color:#FFFFFFFF\">破棄</span>する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "横行する鯨の呑噬",
+      "desc": "<span style=\"color:#FFFFFFFF\">物理ダメージ</span>を1与え、相手の待機キャラ全員に<span style=\"color:#FFFFFFFF\">貫通ダメージ</span>を1与える。<span style=\"color:#FFFFFFFF\">黒い幻影</span>を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "底なしの食欲",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">呑噬の領域</span>を生成する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

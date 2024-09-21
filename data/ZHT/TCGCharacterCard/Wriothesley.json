@@ -1,0 +1,85 @@
+{
+  "id": "Wriothesley",
+  "shareId": 363,
+  "name": "萊歐斯利",
+  "title": "寂罪的密使·萊歐斯利",
+  "desc": "罪囚於斯，深水無漪。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "法器",
+    "faction": [
+      "楓丹"
+    ],
+    "talent_card": {
+      "id": "TerrorForTheEvildoers",
+      "name": "Terror for the Evildoers"
+    },
+    "source": "在貓尾酒館中邀請萊歐斯利進行對局，在友好對局難度中獲得勝利後獲得",
+    "character": {
+      "id": "Wriothesley",
+      "name": "Wriothesley",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ForcefulFistsOfFrost",
+      "name": "迅烈傾霜拳",
+      "desc": "造成1點<span style=\"color:#99FFFFFF\">冰元素傷害</span>。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcefangRush",
+      "name": "冰牙突馳",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>，本角色附屬<span style=\"color:#FFFFFFFF\">寒烈的懲裁</span>。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DarkgoldWolfbite",
+      "name": "黑金狼噬",
+      "desc": "造成2點<span style=\"color:#FFFFFFFF\">物理傷害</span>，生成<span style=\"color:#FFFFFFFF\">餘威冰錐</span>。<br/><span style=\"color:#FFFFFFFF\">本角色在本回合中受到傷害或治療每累計到2次時：</span>此技能少花費1個元素骰（最多少花費2個）。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

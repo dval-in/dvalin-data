@@ -1,0 +1,94 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "Фурина",
+  "title": "«Бесконечный танец одиночества» Фурина",
+  "desc": "Вечная муза песни и танца.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Одноручное",
+    "faction": [
+      "Фонтейн"
+    ],
+    "talent_card": {
+      "id": "HearMeLetUsRaiseTheChaliceOfLove",
+      "name": "\"Hear Me — Let Us Raise the Chalice of Love!\""
+    },
+    "source": "Награда за приглашение Фурины в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Furina",
+      "name": "Furina",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "Приглашение на одиночный танец",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.<br/><span style=\"color:#FFFFFFFF\">Один раз за раунд:</span> если у вас нет карты <span style=\"color:#FFFFFFFF\">Священные и мирские места</span> в руке, вы получаете карту <span style=\"color:#FFFFFFFF\">Священные и мирские места</span> в руку.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "Салон одиноких сердец",
+      "desc": "Когда <span style=\"color:#FFFFFFFF\">Фурина</span> в форме усия, призывается <span style=\"color:#FFFFFFFF\">Участник салона</span>.<br/>Когда Фурина в форме пневма, призывается <span style=\"color:#FFFFFFFF\">Певец Потоков</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "Да возрадуются люди",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед., вы получаете <span style=\"color:#FFFFFFFF\">Всемирное веселье</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "Архэ: Священные и мирские места",
+      "desc": "(Пассивный навык) В начале битвы вы получаете карту <span style=\"color:#FFFFFFFF\">Священные и мирские места</span>.",
+      "skillTag": [
+        "Пассивный навык"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Wriothesley",
+  "shareId": 363,
+  "name": "Wriothesley",
+  "title": "Wriothesley - El Emisario de los Culpables",
+  "desc": "Las aguas del crimen son profundas y apacibles.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Cryo",
+    "weapon": "Catalizador",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "TerrorForTheEvildoers",
+      "name": "Terror for the Evildoers"
+    },
+    "source": "Se obtiene tras retar y ganar a Wriothesley en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Wriothesley",
+      "name": "Wriothesley",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "ForcefulFistsOfFrost",
+      "name": "Combo glaciodemoledor",
+      "desc": "Inflige 1 pt. de <span style=\"color:#99FFFFFF\">Daño Cryo</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcefangRush",
+      "name": "Envite ateridor",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y este personaje obtiene el efecto de <span style=\"color:#FFFFFFFF\">sentencia gélida</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DarkgoldWolfbite",
+      "name": "Devoración aureosombría",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span> y crea un <span style=\"color:#FFFFFFFF\">carámbano remanente</span>.<br/><span style=\"color:#FFFFFFFF\">Cada 2 veces que este personaje reciba daño o curación en la ronda actual</span>, gastas 1 dado elemental menos para ejecutar esta habilidad (hasta un máximo de 2 dados menos).",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}
