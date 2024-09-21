@@ -4,4 +4,5 @@ export type WeaponEnhancementMaterial = {
 	description: string;
 	rarity: number;
 	exp: number;
+	version: string;
 };
