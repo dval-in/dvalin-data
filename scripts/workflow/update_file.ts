@@ -1,7 +1,5 @@
 import { join, resolve } from 'path';
 import { readJsonFile, writeJsonFile } from '../utils/fileUtils';
-import { transformObject } from '../utils/transformUtils';
-import { merge } from '../utils/mergeUtils';
 import { toPascalCase, replaceRomanNumeralsPascalCased } from '../utils/stringUtils';
 import { langMapping, folderMapping } from '../utils/mappings';
 
@@ -23,23 +21,6 @@ const fileListCreated: string[] = [];
 const updatedFileList: string[] = [];
 const errorFileList: Array<{ error: any; key: string; obj: any }> = [];
 
-async function handleMergeOperation(newPath: string, link: string) {
-	try {
-		const currentData = await readJsonFile(newPath);
-		const object = await readJsonFile(link);
-		const mergedResult = merge(currentData, object);
-		updatedFileList.push(newPath);
-		return transformObject(mergedResult, version);
-	} catch (error) {
-		if (error.message.includes('Error reading')) {
-			const object = await readJsonFile(link);
-			fileListCreated.push(newPath);
-			return transformObject(object, version);
-		}
-		throw error;
-	}
-}
-
 async function processLines() {
 	for (const line of lines) {
 		const [, , lang, folder, file] = line.split('/');
@@ -49,8 +30,8 @@ async function processLines() {
 		if (folder === 'domains.json' || folder === 'domains') {
 			const link = join(baseDir, 'genshin-data/', line);
 			const newPath = join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
-			const mergedResult = await handleMergeOperation(newPath, link);
-			await writeJsonFile(newPath, mergedResult);
+			const newData = await readJsonFile(link);
+			await writeJsonFile(newPath, newData);
 			continue;
 		}
 
@@ -60,12 +41,51 @@ async function processLines() {
 			newFile = replaceRomanNumeralsPascalCased(newFile);
 		}
 
-		const newPath = join(baseDir, `data/${newLang}/${newFolder}/${newFile}.json`);
-		const link = join(baseDir, 'genshin-data/', line);
-		const mergedResult = await handleMergeOperation(newPath, link);
-		await writeJsonFile(newPath, mergedResult);
+		const dvalinPath = join(baseDir, `data/${newLang}/${newFolder}/${newFile}.json`);
+		const genshinDataPath = join(baseDir, 'genshin-data/', line);
+		const fileContent = await handleFile(genshinDataPath);
+		await writeJsonFile(dvalinPath, fileContent);
+		updatedFileList.push(dvalinPath);
 	}
 }
+
+const handleFile = async (genshinDataPath: string) => {
+	const genshinData = await readJsonFile(genshinDataPath);
+
+	const processObject = (obj: any): any => {
+		if (Array.isArray(obj)) {
+			return obj.map((item) => processObject(item));
+		} else if (typeof obj === 'object' && obj !== null) {
+			const newObj: any = {};
+			for (const [key, value] of Object.entries(obj)) {
+				if (key !== '_id') {
+					if (key.toLowerCase().includes('id') && typeof value === 'string') {
+						newObj[key] = toPascalCase(value);
+					} else {
+						newObj[key] = processObject(value);
+					}
+				}
+			}
+			return newObj;
+		}
+		return obj;
+	};
+
+	const processedData = processObject(genshinData);
+
+	// Add version to root
+	processedData.version = version;
+
+	// Handle achievements
+	if (processedData.achievements && Array.isArray(processedData.achievements)) {
+		processedData.achievements = processedData.achievements.map((achievement: any) => ({
+			...achievement,
+			version: version
+		}));
+	}
+
+	return processedData;
+};
 
 await processLines();
 
