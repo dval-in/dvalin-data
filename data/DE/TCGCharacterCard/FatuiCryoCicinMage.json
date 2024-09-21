@@ -1,0 +1,84 @@
+{
+  "id": "FatuiCryoCicinMage",
+  "shareId": 52,
+  "name": "Fatui – Kryo-Cicin-Zauberin",
+  "title": "Herrin des Nebelgrases – Kryo-Cicin-Zauberin",
+  "desc": "Mindestens bis ihr das Nebelgras ausgeht, sind die Kryo-Cicin an ihrer Seite.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Kryo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "CicinsColdGlare",
+      "name": "Cicin's Cold Glare"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Fatui – Kryo-Cicin-Zauberin in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "FatuiCryoCicinMage",
+      "name": "Fatui Cryo Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "CicinIcicle",
+      "name": "Cicin-Eiszapfen",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistySummons",
+      "name": "Neblige Beschwörung",
+      "desc": "Verursacht 1 Pkt. Kryo-SCH, erschafft 1 Kryo-Cicin.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BlizzardBranchBlossom",
+      "name": "Flora, Frost, Frier!",
+      "desc": "Verursacht 5 Pkt. Kryo-SCH, verleiht der Figur das Kryo-Attribut, erschafft 1 Fließende Cicin-Ummantelung.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Kryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.7"
+}

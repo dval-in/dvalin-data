@@ -1,0 +1,93 @@
+{
+  "id": "ElectroHypostasis",
+  "shareId": 57,
+  "name": "Elektro-Hypostase",
+  "title": "Elektro-Hypostase",
+  "desc": "Codename „Alep“, ein hoch entwickeltes Elektro-Lebewesen.\\nSelbst wenn man bei Schere-Stein-Papier gewinnen sollte, so gibt es sich doch für gewöhnlich nicht geschlagen.",
+  "attributes": {
+    "hp": 8,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "AbsorbingPrism",
+      "name": "Absorbing Prism"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Elektro-Hypostase in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "ElectroHypostasis",
+      "name": "Electro Hypostasis"
+    }
+  },
+  "skills": [
+    {
+      "id": "ElectroCrystalProjection",
+      "name": "Elektro-Kristall-Projektion",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RockpaperscissorsCombo",
+      "name": "Schnick-Schnack-Schnuck",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, bereitet folgende Fähigkeiten vor: Schnick-Schnack-Schnuck – Schere und Schnick-Schnack-Schnuck – Papier.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "LightningLockdown",
+      "name": "Donnernde Ketten",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Reich der Donnerketten.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectroCrystalCore",
+      "name": "Elektro-Kristallkern",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Elektro-Kristallkern.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.7"
+}
