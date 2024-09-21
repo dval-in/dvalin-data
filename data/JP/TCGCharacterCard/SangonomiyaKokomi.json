@@ -1,0 +1,85 @@
+{
+  "id": "SangonomiyaKokomi",
+  "shareId": 13,
+  "name": "珊瑚宮心海",
+  "title": "真珠の智·珊瑚宮心海",
+  "desc": "転ばぬ先の杖、危機に瀕しても冷静沈着であるべきです。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": [
+      "稲妻"
+    ],
+    "talent_card": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "キャッツテールで珊瑚宮心海を招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "水の常形",
+      "desc": "水元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "海月の誓い",
+      "desc": "本キャラは水元素付着状態になり、化海月を召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "海人の羽衣",
+      "desc": "水元素ダメージを2与え、味方のチーム全員のHPを1回復し、本キャラに儀来羽衣を付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.5"
+}
