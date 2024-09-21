@@ -1,0 +1,77 @@
+{
+  "id": "Freminet",
+  "shareId": 407,
+  "name": "Fréminet",
+  "title": "Fréminet · Aspirant à des profondeurs invisibles",
+  "desc": "Froide est la solitude sous le ciel étoilé.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "source": "Récompense pour avoir invité Fréminet à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "FlowingEddies",
+      "name": "Tourbillon fluide",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PressurizedFloe",
+      "name": "Pressurisation des floes",
+      "desc": "Inflige 2 pts de DGT Cryo. Si le personnage n'est pas affecté par un indicateur de Pers, il obtient un indicateur de Pers.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ShadowhuntersAmbush",
+      "name": "Embuscade du chassombre",
+      "desc": "Inflige 4 pts de DGT Cryo et applique un mode traque au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.0"
+}
