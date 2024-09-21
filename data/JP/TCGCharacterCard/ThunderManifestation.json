@@ -1,0 +1,93 @@
+{
+  "id": "ThunderManifestation",
+  "shareId": 286,
+  "name": "雷音権現",
+  "title": "残されし怨恨·雷音権現",
+  "desc": "大地に晴らせぬ怨恨がある限り、雷鳴も響き続けるだろう。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "GrievingEcho",
+      "name": "Grieving Echo"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、雷音権現に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "ThunderManifestation",
+      "name": "Thunder Manifestation"
+    }
+  },
+  "skills": [
+    {
+      "id": "ThunderousWingslash",
+      "name": "雷霆の翼斬り",
+      "desc": "雷元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StrifefulLightning",
+      "name": "雷壁傾斜",
+      "desc": "雷鳴探知が付与されている相手のキャラに雷元素ダメージを3与える。（相手に条件を満たすキャラが存在しない場合、代わりにその出撃キャラにダメージを与えるようになる）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShackles",
+      "name": "轟雷禁錮",
+      "desc": "雷元素ダメージを2与え、轟雷禁錮を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LightningProbe",
+      "name": "雷霆探知",
+      "desc": "【固有】戦闘開始時、相手のフィールドに雷霆探針を生成する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.3"
+}

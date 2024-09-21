@@ -1,0 +1,86 @@
+{
+  "id": "Lynette",
+  "shareId": 282,
+  "name": "Lynette",
+  "title": "Eleganz im Schatten – Lynette",
+  "desc": "Des Sternenzelts flüchtiger Anblick im gespiegelten Mond",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Einhänder",
+    "faction": [
+      "Fontaine",
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "AColdBladeLikeAShadow",
+      "name": "A Cold Blade Like a Shadow"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Lynette in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Lynette",
+      "name": "Lynette",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "RapidRitesword",
+      "name": "Flinker Degen",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "EnigmaticFeint",
+      "name": "Rätselhafte Schattenverhüllung",
+      "desc": "Verursacht 3 Pkt. Anemo-SCH. Wenn diese Fähigkeit zum ersten Mal in dieser Runde angewendet wird und diese Figur nicht mehr als 8 LP hat, werden ihr 2 LP wiederhergestellt, wodurch ihr aber Nachbeben des Angriffs verliehen wird.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "MagicTrickAstonishingShift",
+      "name": "Zaubertrick – Erstaunlicher Wechsel",
+      "desc": "Verursacht 2 Pkt. Anemo-SCH, erschafft 1 Überraschungskatzenkiste.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

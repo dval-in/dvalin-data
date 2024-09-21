@@ -1,0 +1,85 @@
+{
+  "id": "Alhaitham",
+  "shareId": 284,
+  "name": "Alhaitham",
+  "title": "Alhaitham · Instruction d'admonestation",
+  "desc": "Apprenant, réfléchissant et s'occupant des choses...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "Structuration",
+      "name": "Structuration"
+    },
+    "source": "Récompense pour avoir invité Alhaitham à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Alhaitham",
+      "name": "Alhaitham",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "AbductiveReasoning",
+      "name": "Raisonnement abductif",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "UniversalityAnElaborationOnForm",
+      "name": "Universalité : Élaboration de forme",
+      "desc": "Inflige 2 pts de DGT Dendro et applique un miroir de diffraction au personnage.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ParticularFieldFettersOfPhenomena",
+      "name": "Champ particulier : Liens de phénomène",
+      "desc": "Inflige 4 pts de DGT Dendro, consomme le miroir de diffraction et augmente les DGT selon la durée en manches du miroir de diffraction consommé. Si la durée en manches du miroir de diffraction consommé est de 0/1/2, le personnage obtient un miroir de diffraction avec une durée en manches respective de 3/2/1.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}
