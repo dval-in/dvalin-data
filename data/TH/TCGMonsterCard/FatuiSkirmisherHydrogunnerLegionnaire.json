@@ -1,0 +1,85 @@
+{
+  "id": "FatuiSkirmisherHydrogunnerLegionnaire",
+  "shareId": 3203,
+  "name": "Fatui Skirmisher - Hydrogunner Legionnaire",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุน้ำ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "SkilledCharge",
+      "name": "Skilled Charge",
+      "desc": "จะสร้าง<span style=\"color:#FFFFFFFF\">ความเสียหายกายภาพ</span> 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CurativeBullet",
+      "name": "Curative Bullet",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 2 หน่วย และรักษา 1 หน่วย ให้แก่ตัวละครนอกสนามของฝ่ายเรา 2 ตัว",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ElementalBuffHydro",
+      "name": "Elemental Buff: Hydro",
+      "desc": "สร้าง<span style=\"color:#80C0FFFF\">ความเสียหายน้ำ</span> 3 หน่วย และตัวละครนี้จะได้รับ <span style=\"color:#FFFFFFFF\">Hydro Elemental Equipment</span>",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "CombatResupply",
+      "name": "Combat Resupply",
+      "desc": "[ติดตัว] เมื่อการต่อสู้เริ่มขึ้น ตัวละครนี้จะได้รับพลังงาน 2 หน่วย",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

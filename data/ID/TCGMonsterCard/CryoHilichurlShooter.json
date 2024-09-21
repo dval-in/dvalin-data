@@ -1,0 +1,71 @@
+{
+  "id": "CryoHilichurlShooter",
+  "shareId": 3102,
+  "name": "Cryo Hilichurl Shooter",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "IceArrow",
+      "name": "Ice Arrow",
+      "desc": "Mengakibatkan 1 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Multishot",
+      "desc": "Mengakibatkan 4 poin <span style=\"color:#99FFFFFF\">Cryo DMG</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Hide",
+      "desc": "[Pasif] Setelah Karakter ini menyerang, Karakter Aktifmu akan berganti ke Karakter berikutnya.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

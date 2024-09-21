@@ -1,0 +1,85 @@
+{
+  "id": "Klee",
+  "shareId": 22,
+  "name": "Кли",
+  "title": "«Ускользающее солнце» Кли",
+  "desc": "Каждая вытянутая вами карта может принести «взрывной сюрприз».",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Пиро",
+    "weapon": "Катализатор",
+    "faction": [
+      "Мондштадт"
+    ],
+    "talent_card": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "Награда за приглашение Кли в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "Бабах!",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 1 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Прыг-скок бомба",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. Персонажу достаётся <span style=\"color:#FFFFFFFF\">Взрывная искра</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Грохот и искры",
+      "desc": "Наносит <span style=\"color:#FF9999FF\">Пиро урон</span>, 3 ед. Создаёт <span style=\"color:#FFFFFFFF\">Грохот и искры</span> в области противника.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Пиро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

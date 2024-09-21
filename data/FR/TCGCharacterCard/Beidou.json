@@ -1,0 +1,85 @@
+{
+  "id": "Beidou",
+  "shareId": 30,
+  "name": "Beidou",
+  "title": "Beidou · Reine des mers sans couronne",
+  "desc": "« Que cette journée demeure celle où tu as failli gagner l'argent de la capitaine du Crux. »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Électro",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "LightningStorm",
+      "name": "Lightning Storm"
+    },
+    "source": "Récompense pour avoir invité Beidou à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Oceanborne",
+      "name": "Conquête des mers",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFFFFFFF\">DGT physiques</span>.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "Invocation des marées",
+      "desc": "Accorde une <span style=\"color:#FFFFFFFF\">embrasse marine des marées</span> au personnage et <span style=\"color:#FFFFFFFF\">prépare la capacité</span> : <span style=\"color:#FFFFFFFF\">Conquête des marées</span>.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "Brisure d'orage",
+      "desc": "Inflige 2 pts de <span style=\"color:#FFACFFFF\">DGT Électro</span> et crée un <span style=\"color:#FFFFFFFF\">bouclier de foudre</span>.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

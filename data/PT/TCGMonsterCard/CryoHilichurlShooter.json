@@ -1,0 +1,71 @@
+{
+  "id": "CryoHilichurlShooter",
+  "shareId": 3102,
+  "name": "Hilichurl Atirador Cryo",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Monstro",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "IceArrow",
+      "name": "Flecha Cryo",
+      "desc": "Causa 1 ponto de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "Rajada de Flechas",
+      "desc": "Causa 4 pontos de <span style=\"color:#99FFFFFF\">Dano Cryo</span>.",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "Se Esconder",
+      "desc": "(Passiva) Após executar uma ação, este personagem é automaticamente trocado pelo próximo personagem.",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "CreamStew",
+  "name": "Stufato di carne e verdure",
+  "description": "Uno stufato di carne e verdure. Il brodo denso ha un buonissimo sapore che accompagna la carne tenera e la verdura.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "RawMeat",
+      "name": "Pezzo di carne cruda",
+      "amount": 2
+    },
+    {
+      "id": "Cream",
+      "name": "Panna",
+      "amount": 2
+    },
+    {
+      "id": "Snapdragon",
+      "name": "Bocca di leone",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Piatto dell'avventuriere",
+  "results": {
+    "suspicious": {
+      "name": "Stufato di carne e verdure sospetto",
+      "description": "Uno stufato di carne e verdure. È decisamente troppo asciutto per essere un alimento che dovrebbe stare in un brodo.",
+      "effect": "#Riduce di un 15% il consumo di vigore di tutti i membri del gruppo durante gli scatti per 900 s. In modalità cooperativa, si applica solo ai tuoi personaggi."
+    },
+    "normal": {
+      "name": "Stufato di carne e verdure",
+      "description": "Uno stufato di carne e verdure. Il brodo denso ha un buonissimo sapore che accompagna la carne tenera e la verdura.",
+      "effect": "#Riduce di un 20% il consumo di vigore di tutti i membri del gruppo durante gli scatti per 900 s. In modalità cooperativa, si applica solo ai tuoi personaggi."
+    },
+    "delicious": {
+      "name": "Stufato di carne e verdure delizioso",
+      "description": "Uno stufato di carne e verdure. Gli ingredienti caldi e ricoperti di burro sono così buoni che ti viene quasi voglia di tuffarti nel piatto e coccolarli.",
+      "effect": "#Riduce di un 25% il consumo di vigore di tutti i membri del gruppo durante gli scatti per 900 s. In modalità cooperativa, si applica solo ai tuoi personaggi."
+    },
+    "special": {
+      "id": "SpicyStew",
+      "name": "Stufato piccante",
+      "description": "La specialità di Barbara. Questo piatto viene preparato con delle carote tagliate a forma di stelline... Aspetta... AH, perché è così piccante!?",
+      "effect": "#Riduce di un 25% il consumo di vigore di tutti i membri del gruppo durante gli scatti per 1.500 s. In modalità cooperativa, si applica solo ai tuoi personaggi.",
+      "character": {
+        "id": "Barbara",
+        "name": "Barbara"
+      }
+    }
+  },
+  "version": "3.4"
+}

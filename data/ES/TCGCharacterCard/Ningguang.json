@@ -1,0 +1,85 @@
+{
+  "id": "Ningguang",
+  "shareId": 42,
+  "name": "Ninguang",
+  "title": "Ninguang - La Estrella en Eclipse",
+  "desc": "Su mayor secreto es que guarda un sinfín de secretos sobre Liyue.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Catalizador",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "StrategicReserve",
+      "name": "Strategic Reserve"
+    },
+    "source": "Se obtiene tras retar y ganar a Ninguang en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SparklingScatter",
+      "name": "Lanzamiento centelleante",
+      "desc": "Inflige 1 pt. de <span style=\"color:#FFE699FF\">Daño Geo</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JadeScreen",
+      "name": "Pantalla de jade",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span> y crea una <span style=\"color:#FFFFFFFF\">pantalla de jade</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Starshatter",
+      "name": "Devastaestrellas",
+      "desc": "Inflige 6 pts. de <span style=\"color:#FFE699FF\">Daño Geo</span>. Si la <span style=\"color:#FFFFFFFF\">pantalla de jade</span> está en combate, daño +2.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

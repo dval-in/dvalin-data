@@ -1,0 +1,94 @@
+{
+  "id": "Cyno",
+  "shareId": 29,
+  "name": "Cyno",
+  "title": "Cyno, Giustiziere dei segreti",
+  "desc": "La carta contiene tutta la passione del generale Mahamatra, ardente come il sole sopra il deserto.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Lancia",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "FeatherfallJudgment",
+      "name": "Featherfall Judgment"
+    },
+    "source": "Ricompensa ottenuta sfidando Cyno a duello alla Coda di Gatto e battendolo in un duello amichevole",
+    "character": {
+      "id": "Cyno",
+      "name": "Cyno",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "InvokersSpear",
+      "name": "Lancia dell'evocatore",
+      "desc": "Infligge 2 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SecretRiteChasmicSoulfarer",
+      "name": "Rito arcano: Guida delle anime del baratro",
+      "desc": "Infligge 3 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.<br/>Aumenta di 1 il livello di Possessione di <span style=\"color:#FFFFFFFF\">Precorritore giurato</span>",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SacredRiteWolfsSwiftness",
+      "name": "Rito sacro: Destrezza del lupo",
+      "desc": "Infligge 4 <span style=\"color:#FFACFFFF\">DAN da Electro</span>.<br/>Aumenta di 2 il livello di Possessione di <span style=\"color:#FFFFFFFF\">Precorritore giurato</span>",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LawfulEnforcer",
+      "name": "Tutore della legge",
+      "desc": "(Passiva) All'inizio del duello ottiene <span style=\"color:#FFFFFFFF\">Precorritore giurato</span>.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

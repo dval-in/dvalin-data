@@ -1,0 +1,85 @@
+{
+  "id": "Collei",
+  "shareId": 47,
+  "name": "Collei",
+  "title": "Collei - La Promesa en Flor",
+  "desc": "“‘Gritar el nombre de la tarjeta hará que su poder aumente considerablemente’... ¿Esto es en serio?”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Arco",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "FloralSidewinder",
+      "name": "Floral Sidewinder"
+    },
+    "source": "Se obtiene tras retar y ganar a Collei en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Collei",
+      "name": "Collei",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SupplicantsBowmanship",
+      "name": "Elogio de la arquería",
+      "desc": "Inflige 2 pts. de <span style=\"color:#FFFFFFFF\">Daño Físico</span>.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "FloralBrush",
+      "name": "Caricia de las flores",
+      "desc": "Inflige 3 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span>.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TrumpcardKitty",
+      "name": "Secreto miauravilloso",
+      "desc": "Inflige 2 pts. de <span style=\"color:#7EC236FF\">Daño Dendro</span> e invoca a <span style=\"color:#FFFFFFFF\">Colleámbar</span>.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

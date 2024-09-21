@@ -1,0 +1,83 @@
+{
+  "id": "NobushiHitsukeban",
+  "shareId": 3305,
+  "name": "Nobushi: Hitsukeban",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Other Weapons",
+    "faction": [],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "ComboSlash",
+      "name": "Combo Slash",
+      "desc": "Deals 2 <span style=\"color:#FFFFFFFF\">Physical DMG</span>.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazeBloom",
+      "name": "Blaze Bloom",
+      "desc": "Deals 3 <span style=\"color:#FF9999FF\">Pyro DMG</span>, switches your character to the next character.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "IaiSheathed",
+      "name": "Iai: Sheathed",
+      "desc": "<span style=\"color:#FFFFFFFF\">Prepare Skill</span>: <span style=\"color:#FFFFFFFF\">Iai: Thrust</span>.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "MatchingElement",
+          "type": "Matching Element",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Zanshin",
+      "name": "Zanshin",
+      "desc": "(Passive) End Phase: If this character is the active character, they gain 1 Energy.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

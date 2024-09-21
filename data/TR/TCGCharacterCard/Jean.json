@@ -1,0 +1,85 @@
+{
+  "id": "Jean",
+  "shareId": 37,
+  "name": "Jean",
+  "title": "\"Karahindiba Şövalyesi\" Jean",
+  "desc": "En azından nihai zaferi elde edene kadar yaptığı şeyin yeterli olduğuna asla ikna olmaz.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Rüzgar",
+    "weapon": "Kılıç",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "LandsOfDandelion",
+      "name": "Lands of Dandelion"
+    },
+    "source": "Jean'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Jean",
+      "name": "Jean",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladework",
+      "name": "Favonius Kılıç Tekniği",
+      "desc": "2 <span style=\"color:#FFFFFFFF\">Fiziksel Hasar</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "GaleBlade",
+      "name": "Bora Kılıcı",
+      "desc": "3 <span style=\"color:#80FFD7FF\">Rüzgar Hasarı</span> verir ve rakibin karakteri zorla bir sonraki karakterle değiştirilir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DandelionBreeze",
+      "name": "Karahindiba Yeli",
+      "desc": "Tüm karakterlerinin Canını 2 yeniler ve 1 <span style=\"color:#FFFFFFFF\">Karahindiba Tarlası</span> çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Rüzgar",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

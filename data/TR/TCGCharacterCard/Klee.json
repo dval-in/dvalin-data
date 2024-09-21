@@ -1,0 +1,85 @@
+{
+  "id": "Klee",
+  "shareId": 22,
+  "name": "Klee",
+  "title": "\"Kaçan Güneş Işığı\" Klee",
+  "desc": "Çektiğin her kart, bir \"patlamalı sürpriz\" getirebilir.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Katalizör",
+    "faction": [
+      "Mondstadt"
+    ],
+    "talent_card": {
+      "id": "PoundingSurprise",
+      "name": "Pounding Surprise"
+    },
+    "source": "Klee'yi Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Klee",
+      "name": "Klee",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "Kaboom",
+      "name": "Bom!",
+      "desc": "1 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JumpyDumpty",
+      "name": "Zıpzıp Bodur",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve bu karakter <span style=\"color:#FFFFFFFF\">Patlayıcı Kıvılcım</span> kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SparksNSplash",
+      "name": "Kıvılcımlar ve Patlama",
+      "desc": "3 <span style=\"color:#FF9999FF\">Ateş Hasarı</span> verir ve rakibin alanında bir <span style=\"color:#FFFFFFFF\">Kıvılcımlar ve Patlama</span> oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

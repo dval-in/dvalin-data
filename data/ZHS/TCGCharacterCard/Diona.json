@@ -1,0 +1,81 @@
+{
+  "id": "Diona",
+  "shareId": 2,
+  "name": "迪奥娜",
+  "title": "猫尾特调·迪奥娜",
+  "desc": "用1%的力气调酒，99%的力气…拒绝失败。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "冰元素",
+    "weapon": "弓",
+    "faction": [
+      "蒙德"
+    ],
+    "source": "在猫尾酒馆中邀请迪奥娜进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "KtzleinStyle",
+      "name": "猎人射术",
+      "desc": "造成2点<span style=\"color:#FFFFFFFF\">物理伤害</span>。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "猫爪冻冻",
+      "desc": "造成2点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，生成<span style=\"color:#FFFFFFFF\">猫爪护盾</span>。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "最烈特调",
+      "desc": "造成1点<span style=\"color:#99FFFFFF\">冰元素伤害</span>，治疗此角色2点，召唤<span style=\"color:#FFFFFFFF\">酒雾领域</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "CryoHilichurlShooter",
+  "shareId": 3102,
+  "name": "冰箭丘丘人",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 3,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "冰元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物",
+      "丘丘人"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "IceArrow",
+      "name": "冰箭",
+      "desc": "造成1点<span style=\"color:#99FFFFFF\">冰元素伤害</span>。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Multishot",
+      "name": "几支一起",
+      "desc": "造成4点<span style=\"color:#99FFFFFF\">冰元素伤害</span>。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "冰元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Hide",
+      "name": "躲起来",
+      "desc": "【被动】此角色出招后，自动切换到下一个角色。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

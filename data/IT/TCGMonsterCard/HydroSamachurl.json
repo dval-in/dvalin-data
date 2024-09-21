@@ -1,0 +1,72 @@
+{
+  "id": "HydroSamachurl",
+  "shareId": 3202,
+  "name": "Sciamachurl di Hydro",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 4,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Hilichurl"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "StaffStrike",
+      "name": "Bastonata",
+      "desc": "Infligge 1 <span style=\"color:#FFFFFFFF\">DAN fisici</span>.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PrayerForRain",
+      "name": "Danza della pioggia",
+      "desc": "Infligge 1 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>, invoca 1 <span style=\"color:#FFFFFFFF\">Pioggia curativa</span>.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TidalImpact",
+      "name": "Raffica acquatica",
+      "desc": "Infligge 5 <span style=\"color:#80C0FFFF\">DAN da Hydro</span>.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "Diona",
+  "shareId": 2,
+  "name": "Диона",
+  "title": "«Кошкин Коктейль» Диона",
+  "desc": "1% сил уходит на смешивание коктейля, а 99% на отрицание провала...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 3,
+    "element": "Крио",
+    "weapon": "Стрелковое",
+    "faction": [
+      "Мондштадт"
+    ],
+    "source": "Награда за приглашение Дионы в «Кошкин хвост» и победу над ней в Дружеской дуэли",
+    "character": {
+      "id": "Diona",
+      "name": "Diona",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "KtzleinStyle",
+      "name": "Стиль котёнка",
+      "desc": "Наносит <span style=\"color:#FFFFFFFF\">Физический урон</span>, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "IcyPaws",
+      "name": "Морозные коготочки",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 2 ед. и создаёт <span style=\"color:#FFFFFFFF\">Щит кошачьих коготочков</span>.",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SignatureMix",
+      "name": "Авторский коктейль",
+      "desc": "Наносит <span style=\"color:#99FFFFFF\">Крио урон</span>, 1 ед., исцеляет 2 HP персонажа, призывает помощника: <span style=\"color:#FFFFFFFF\">Пьянящий туман</span>.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Крио",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

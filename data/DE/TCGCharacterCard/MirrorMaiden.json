@@ -1,0 +1,84 @@
+{
+  "id": "MirrorMaiden",
+  "shareId": 54,
+  "name": "Fatui – Spiegeljungfrau",
+  "title": "Jungfrau aus Snezhnaya – Spiegelgesandte",
+  "desc": "Alle Geheimnisse werden im gleißenden Wasserspiegel verborgen ...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Fatui – Spiegeljungfrau in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "Wassergeschosse",
+      "desc": "Verursacht 1 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "Wasserschwapp",
+      "desc": "Verursacht 2 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>, verleiht dem Ziel den Zustand <span style=\"color:#FFFFFFFF\">Wasserspiegelscherben</span>.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "Spiegelbrechung",
+      "desc": "Verursacht 5 Pkt. <span style=\"color:#80C0FFFF\">Hydro-SCH</span>.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

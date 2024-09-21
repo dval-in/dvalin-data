@@ -1,0 +1,94 @@
+{
+  "id": "PyroAbyssMage",
+  "shareId": 5301,
+  "name": "アビスの魔術師·炎",
+  "title": null,
+  "desc": null,
+  "attributes": {
+    "hp": 6,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "炎元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": null
+  },
+  "skills": [
+    {
+      "id": "Flamewave",
+      "name": "炎波",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BlazingVisage",
+      "name": "灼熱の祭法",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfTheMoltenEruption",
+      "name": "熔炎地涌の儀",
+      "desc": "<span style=\"color:#FF9999FF\">炎元素ダメージ</span>を7与える。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "PyroShield",
+      "name": "炎元素バリア",
+      "desc": "【固有】戦闘開始時、<span style=\"color:#FFFFFFFF\">炎元素バリア</span>が付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    },
+    {
+      "id": "AegisOfTheAbyss",
+      "name": "アビスの加護",
+      "desc": "【固有】バリアが破裂した状態でスキルを発動した後、<span style=\"color:#FFFFFFFF\">炎元素バリア</span>が再び付与される。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}
