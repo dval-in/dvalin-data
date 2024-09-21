@@ -2,6 +2,7 @@ import { join, resolve } from 'path';
 import { readJsonFile, writeJsonFile } from '../utils/fileUtils';
 import { toPascalCase, replaceRomanNumeralsPascalCased } from '../utils/stringUtils';
 import { langMapping, folderMapping } from '../utils/mappings';
+import { stripHtml } from 'string-strip-html';
 
 const baseDir = resolve('./');
 const version = Bun.argv[2] || '0.0';
@@ -28,7 +29,7 @@ async function processLines() {
 			const newLang = langMapping[lang];
 			const newFolder = folderMapping[folder];
 
-			if (folder === 'domains.json' || folder === 'domains') {
+			if (folder === 'Domains.json' || folder === 'Domains') {
 				const link = join(baseDir, 'genshin-data/', line);
 				const newPath = join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
 				const newData = await readJsonFile(link);
@@ -44,7 +45,7 @@ async function processLines() {
 
 			const dvalinPath = join(baseDir, `data/${newLang}/${newFolder}/${newFile}.json`);
 			const genshinDataPath = join(baseDir, 'genshin-data/', line);
-			const fileContent = await handleFile(genshinDataPath);
+			const fileContent = await handleFile(genshinDataPath, dvalinPath);
 			await writeJsonFile(dvalinPath, fileContent);
 			updatedFileList.push(dvalinPath);
 		} catch (error) {
@@ -53,9 +54,10 @@ async function processLines() {
 	}
 }
 
-const handleFile = async (genshinDataPath: string) => {
+const handleFile = async (genshinDataPath: string, currentDataPath: string) => {
 	const genshinData = await readJsonFile(genshinDataPath);
-
+	const currentData = await readJsonFile(currentDataPath);
+	const savedVersion = currentData.version ?? undefined;
 	const processObject = (obj: any): any => {
 		if (Array.isArray(obj)) {
 			return obj.map((item) => processObject(item));
@@ -64,9 +66,24 @@ const handleFile = async (genshinDataPath: string) => {
 			for (const [key, value] of Object.entries(obj)) {
 				if (key !== '_id') {
 					if (key.toLowerCase().includes('id') && typeof value === 'string') {
+						if (genshinData.contains('achievement')) {
+							newObj[key] = replaceRomanNumeralsPascalCased(toPascalCase(value));
+						}
 						newObj[key] = toPascalCase(value);
 					} else {
 						newObj[key] = processObject(value);
+					}
+					if (
+						[
+							'description',
+							'name',
+							'title',
+							'desc',
+							'inPlayDescription',
+							'bonus'
+						].includes(key)
+					) {
+						newObj[key] = stripHtml(value as string).result;
 					}
 				}
 			}
@@ -78,16 +95,7 @@ const handleFile = async (genshinDataPath: string) => {
 	const processedData = processObject(genshinData);
 
 	// Add version to root
-	processedData.version = version;
-
-	// Handle achievements
-	if (processedData.achievements && Array.isArray(processedData.achievements)) {
-		processedData.achievements = processedData.achievements.map((achievement: any) => ({
-			...achievement,
-			version: version
-		}));
-	}
-
+	processedData.version = savedVersion ?? version;
 	return processedData;
 };
 

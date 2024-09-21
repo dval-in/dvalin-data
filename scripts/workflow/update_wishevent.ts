@@ -123,7 +123,7 @@ const main = async () => {
 	const html = await fetchHtmlContent(WIKI_URL);
 	const banners = parseContentBanners(html);
 	// save the file in the data/en/banners.json using bun
-	write('./data/EN/banners.json', JSON.stringify({ banner: banners }, null, 2));
+	write('./data/EN/Banners.json', JSON.stringify({ banner: banners }, null, 2));
 };
 
 main();

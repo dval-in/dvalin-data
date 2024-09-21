@@ -24,7 +24,7 @@ const LANGUAGE_CODES = [
 	'IT'
 ];
 
-const SPECIAL_FILES = ['domains.json', 'banners.json'];
+const SPECIAL_FILES = ['Domains.json', 'Banners.json'];
 
 async function validateJson(jsonPath: string, schemaPath: string): Promise<void> {
 	const jsonContent = await readFile(jsonPath, 'utf-8');
@@ -51,7 +51,7 @@ async function validateAllJson(): Promise<void> {
 
 		// Validate special files
 		for (const specialFile of SPECIAL_FILES) {
-			if (specialFile === 'banners.json' && lang !== 'EN') {
+			if (specialFile === 'Banners.json' && lang !== 'EN') {
 				continue;
 			}
 			const jsonPath = join(langDir, specialFile);

@@ -13,10 +13,6 @@ export function isPascalCase(str: string): boolean {
  * @returns The converted string in PascalCase.
  */
 export function toPascalCase(str: string): string {
-	if (isPascalCase(str)) {
-		return str;
-	}
-
 	return (str.charAt(0).toUpperCase() + str.slice(1))
 		.replace("'", '')
 		.replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
@@ -48,7 +44,7 @@ export function toCamelCase(str: string): string {
 
 /**
  * Replaces the Roman numeral at the end of a PascalCased series name with its Arabic numeral equivalent.
- * Handles Roman numerals from I to X in mixed case due to PascalCasing.
+ * Handles Roman numerals from I to XX in mixed case due to PascalCasing.
  * @param seriesName - The PascalCased name of the series with a Roman numeral at the end.
  * @returns The series name with the Roman numeral at the end replaced by its Arabic numeral equivalent.
  */
@@ -63,7 +59,17 @@ export function replaceRomanNumeralsPascalCased(seriesName: string): string {
 		VII: 7,
 		VIII: 8,
 		IX: 9,
-		X: 10
+		X: 10,
+		XI: 11,
+		XII: 12,
+		XIII: 13,
+		XIV: 14,
+		XV: 15,
+		XVI: 16,
+		XVII: 17,
+		XVIII: 18,
+		XIX: 19,
+		XX: 20
 	};
 
 	const regex = /(I{1,3}|IV|V|VI{1,3}|IX|X)$/i;
