@@ -1,0 +1,94 @@
+{
+  "id": "Navia",
+  "shareId": 396,
+  "name": "Navia",
+  "title": "Navia, Timoniere della rosa splendente",
+  "desc": "\"La sublime rosa gialla.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Claymore",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "UndisclosedDistributionChannels",
+      "name": "Undisclosed Distribution Channels"
+    },
+    "source": "Ricompensa ottenuta sfidando Navia a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Navia",
+      "name": "Navia",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "BluntRefusal",
+      "name": "Netto rifiuto",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CeremonialCrystalshot",
+      "name": "Salva cristallina",
+      "desc": "Infligge 3 DAN da Geo e associa Infusione di Geo a questo personaggio. Poi, rimuovi fino a 5 carte Bossolo di cristallo dalla tua mano. Per ogni carta rimossa, questa abilità infligge DAN +1 e ti permette di pescare 1 carta.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "AsTheSunlitSkysSingingSalute",
+      "name": "Tributo del sole luminoso",
+      "desc": "Infligge 1 DAN da Geo, infligge 1 DAN da perforazione a tutti i personaggi avversari inattivi. Invoca 1 Saluto della Rosula dorata e crea 1 carta Bossolo di cristallo che viene poi aggiunta alla tua mano.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MutualAssistanceNetwork",
+      "name": "Rete di assistenza reciproca",
+      "desc": "(Passiva) Dopo che un personaggio avversario subisce DAN da Cristallizzazione: crea 3 carte Bossolo di cristallo e mettile nel tuo mazzo in ordine casuale.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.8"
+}
