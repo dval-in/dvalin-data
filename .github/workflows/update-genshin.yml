@@ -60,7 +60,8 @@ jobs:
               }
             ')
             echo "$FILTERED_COMMITS"
-            ALL_COMMITS="$ALL_COMMITS$FILTERED_COMMITS"
+            ALL_COMMITS="$ALL_COMMITS
+            $FILTERED_COMMITS"
             
             if echo "$COMMITS" | grep -q "$LAST_COMMIT"; then
               break
@@ -93,7 +94,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git clone https://github.com/dvaJi/genshin-data.git
-           # Debug: Print the contents of $COMMITS
+          # Debug: Print the contents of $COMMITS
           echo "Contents of COMMITS:"
           echo "$COMMITS"
           
@@ -108,8 +109,10 @@ jobs:
             # Debug: Print the current commit being processed
             echo "Processing commit $i: ${COMMIT_ARRAY[i]}"
             
-            COMMIT=$(echo "${COMMIT_ARRAY[i]}" | awk '{print $1}')
-            MESSAGE=$(echo "${COMMIT_ARRAY[i]}" | cut -d' ' -f2-)
+            # Remove line number and extract commit hash and message
+            LINE_WITHOUT_NUMBER=$(echo "${COMMIT_ARRAY[i]}" | sed 's/^[0-9]\+//')
+            COMMIT=$(echo "$LINE_WITHOUT_NUMBER" | awk '{print $1}')
+            MESSAGE=$(echo "$LINE_WITHOUT_NUMBER" | cut -d' ' -f2-)
             
             # Debug: Print extracted COMMIT and MESSAGE
             echo "Extracted COMMIT: $COMMIT"
@@ -120,13 +123,18 @@ jobs:
             # Debug: Print extracted VERSION
             echo "Extracted VERSION: $VERSION"
             
-            gh api "repos/dvaJi/genshin-data/git/trees/$COMMIT?recursive=1" \
-              --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
-            
-            bun run ./scripts/workflow/update_file.ts "$VERSION"
-            echo "$COMMIT" > .last_processed_commit
-            git add .
-            git commit -m "feat: update dvalin data v$VERSION"
+            # Check if COMMIT is not empty before proceeding
+            if [ -n "$COMMIT" ]; then
+              gh api "repos/dvaJi/genshin-data/git/trees/$COMMIT?recursive=1" \
+                --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
+              
+              bun run ./scripts/workflow/update_file.ts "$VERSION"
+              echo "$COMMIT" > .last_processed_commit
+              git add .
+              git commit -m "feat: update dvalin data v$VERSION"
+            else
+              echo "Warning: Empty COMMIT for line: ${COMMIT_ARRAY[i]}"
+            fi
           done
           rm -rf genshin-data
 
