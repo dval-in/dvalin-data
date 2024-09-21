@@ -1,0 +1,85 @@
+{
+  "id": "Nilou",
+  "shareId": 16,
+  "name": "Нилу",
+  "title": "«Танец лотоса» Нилу",
+  "desc": "Невесомые шаги, словно лотоса лепестки, являются из глубин сна.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Карты персонажей",
+    "energy": 2,
+    "element": "Гидро",
+    "weapon": "Одноручное",
+    "faction": [
+      "Сумеру"
+    ],
+    "talent_card": {
+      "id": "TheStarrySkiesTheirFlowersRain",
+      "name": "The Starry Skies Their Flowers Rain"
+    },
+    "source": "Награда за приглашение Нилу в «Кошкин хвост» и победу в Дружеской дуэли",
+    "character": {
+      "id": "Nilou",
+      "name": "Nilou",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOfSamser",
+      "name": "Танец шамшира",
+      "desc": "Наносит Физический урон, 2 ед.",
+      "skillTag": [
+        "Обычная атака"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Неопределённый элемент",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "Танец Хафткаршвар",
+      "desc": "Наносит Гидро урон, 3 ед. Даёт 1 Изобилие золотого кубка, если в отряде есть только персонажи Гидро и персонажи Дендро (персонажей других элементов в отряде быть не должно).",
+      "skillTag": [
+        "Элементальный навык"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "Танец Абзендеги: Далёкие мечты, внемлющий ручей",
+      "desc": "Наносит Гидро урон, 2 ед. Цель получает Течение вечности.",
+      "skillTag": [
+        "Взрыв стихии"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Гидро",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Энергия",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.2"
+}
