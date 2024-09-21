@@ -49,6 +49,42 @@
             "additionalProperties": false
           }
         },
+        "craft": {
+          "type": "object",
+          "properties": {
+            "cost": {
+              "type": "number"
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "amount": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "amount"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "cost",
+            "items"
+          ],
+          "additionalProperties": false
+        },
         "domain": {
           "type": "string"
         },

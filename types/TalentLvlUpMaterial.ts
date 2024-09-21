@@ -12,6 +12,10 @@ export type TalentLvlUpMaterial = {
 	location?: string;
 	rarity: number;
 	convert?: Item[];
+	craft?: {
+		cost: number;
+		items: Item[];
+	};
 	domain?: string;
 	days?: string[];
 	version: string;

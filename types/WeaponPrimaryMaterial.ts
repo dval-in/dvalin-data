@@ -15,6 +15,7 @@ export type WeaponPrimaryMaterial = {
 		cost: number;
 		items: Item[];
 	};
+	convert?: Item[];
 	domain: string;
 	days: string[];
 	version: string;
