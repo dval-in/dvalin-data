@@ -37,7 +37,7 @@ export type Food = {
 	name: string;
 	description: string;
 	ingredients: Ingredient[];
-	dishType: string;
+	dish_type: string;
 	results: FoodResult;
 	rarity: number;
 	version: string;
