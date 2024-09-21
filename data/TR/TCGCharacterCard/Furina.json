@@ -1,0 +1,94 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "\"Ebedi Yalnızlık Senfonisi\" Furina",
+  "desc": "Dans ve şarkıların ilham perisi.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Kılıç",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "HearMeLetUsRaiseTheChaliceOfLove",
+      "name": "\"Hear Me — Let Us Raise the Chalice of Love!\""
+    },
+    "source": "Furina'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "Furina",
+      "name": "Furina",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "Dansa Davet",
+      "desc": "2 Fiziksel Hasar verir. Her Turda bir defa: Elinde Kutsal ve Laik Tahtlar yoksa elinde 1 Kutsal ve Laik Tahtlar kartı oluşur.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "Yalnızlık Salonu",
+      "desc": "Furina şu anda Arkhe: Öz durumunda. Salon Üyeleri çağırır. (Furina, Arkhe: Ruh durumunda olduğunda bunun yerine Tüm Suların Şarkıcısı çağırır.)",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "Cümbüş Havası",
+      "desc": "2 Fiziksel Hasar verir ve 1 Evrensel Cümbüş oluşturur.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "Arkhe: Kutsal ve Laik Tahtlar",
+      "desc": "(Pasif) Savaş başladığında elinde 1 Kutsal ve Laik Tahtlar kartı oluşur.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

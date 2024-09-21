@@ -1,0 +1,93 @@
+{
+  "id": "AlldevouringNarwhal",
+  "shareId": 368,
+  "name": "All-Devouring Narwhal",
+  "title": "Cryptic Creature: All-Devouring Narwhal",
+  "desc": "In the most fantastical of fables, or perhaps in the most rabid of ravings, the true stars in the depths of cosmos are just as full of life as on Teyvat, while the universe itself is akin to an ocean.\\nPerhaps the universe's infiltration of Teyvat has never ceased, and perhaps the drawing of borders around this world was the work of a higher will, meant to protect it.",
+  "attributes": {
+    "hp": 15,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Other Weapons",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "LightlessFeeding",
+      "name": "Lightless Feeding"
+    },
+    "source": "Reward for accepting the Tavern Challenge at The Cat's Tail and claiming victory in a Friendly Fracas with the All-Devouring Narwhal",
+    "character": {
+      "id": "AlldevouringNarwhal",
+      "name": "All-Devouring Narwhal"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatteringWaves",
+      "name": "Shattering Waves",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StarfallShower",
+      "name": "Starfall Shower",
+      "desc": "Deals $[D__KEY__DAMAGE_2] Physical DMG. This character deals +1 DMG for every 3 additional max HP provided by Insatiable Appetite (Max +3.) After this, Discard 1 card from your Hand with the highest original Elemental Dice Cost.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RavagingDevourer",
+      "name": "Ravaging Devourer",
+      "desc": "Deals 1 Physical DMG, deals 1 Piercing DMG to all opposing characters on standby. Summons 1 Dark Shadow.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InsatiableAppetite",
+      "name": "Insatiable Appetite",
+      "desc": "(Passive) When battle begins, create 1 Deep Devourer's Domain.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

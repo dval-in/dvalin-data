@@ -1,0 +1,94 @@
+{
+  "id": "Furina",
+  "shareId": 364,
+  "name": "Furina",
+  "title": "Furina, Assolo solitario e sempiterno",
+  "desc": "Musa perpetua della musica e della danza.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Spada",
+    "faction": [
+      "Fontaine"
+    ],
+    "talent_card": {
+      "id": "HearMeLetUsRaiseTheChaliceOfLove",
+      "name": "\"Hear Me — Let Us Raise the Chalice of Love!\""
+    },
+    "source": "Ricompensa ottenuta sfidando Furina a duello alla Coda di Gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Furina",
+      "name": "Furina",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SoloistsSolicitation",
+      "name": "Solista sollecita",
+      "desc": "Infligge 2 DAN fisici. Una volta per turno: se in mano non hai carte Seggi sacri e secolari, crea 1 carta Seggi sacri e secolari nella tua mano.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SalonSolitaire",
+      "name": "Salon Solitaire",
+      "desc": "Furina è attualmente nello stato Archè: Ousia. Invoca i Membri del Salon. (Quando Furina si trova nello stato Archè: Pneuma, invece invoca il Cantante delle Mille Acque.)",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LetThePeopleRejoice",
+      "name": "Si rallegri il popolo",
+      "desc": "Infligge 2 DAN fisici, crea 1 Baldoria universale.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ArkheSeatsSacredAndSecular",
+      "name": "Archè: Seggi sacri e secolari",
+      "desc": "(Passiva) All'inizio del duello, crea 1 carta Seggi sacri e secolari nella tua mano.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}
