@@ -23,29 +23,33 @@ const errorFileList: Array<{ error: any; key: string; obj: any }> = [];
 
 async function processLines() {
 	for (const line of lines) {
-		const [, , lang, folder, file] = line.split('/');
-		const newLang = langMapping[lang];
-		const newFolder = folderMapping[folder];
+		try {
+			const [, , lang, folder, file] = line.split('/');
+			const newLang = langMapping[lang];
+			const newFolder = folderMapping[folder];
 
-		if (folder === 'domains.json' || folder === 'domains') {
-			const link = join(baseDir, 'genshin-data/', line);
-			const newPath = join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
-			const newData = await readJsonFile(link);
-			await writeJsonFile(newPath, newData);
-			continue;
+			if (folder === 'domains.json' || folder === 'domains') {
+				const link = join(baseDir, 'genshin-data/', line);
+				const newPath = join(baseDir, `data/${newLang}/${folder.split('.')[0]}.json`);
+				const newData = await readJsonFile(link);
+				await writeJsonFile(newPath, newData);
+				continue;
+			}
+
+			const fileName = file.split('.')[0];
+			let newFile = toPascalCase(fileName);
+			if (newFolder === 'AchievementCategory') {
+				newFile = replaceRomanNumeralsPascalCased(newFile);
+			}
+
+			const dvalinPath = join(baseDir, `data/${newLang}/${newFolder}/${newFile}.json`);
+			const genshinDataPath = join(baseDir, 'genshin-data/', line);
+			const fileContent = await handleFile(genshinDataPath);
+			await writeJsonFile(dvalinPath, fileContent);
+			updatedFileList.push(dvalinPath);
+		} catch (error) {
+			errorFileList.push({ error, key: line, obj: error });
 		}
-
-		const fileName = file.split('.')[0];
-		let newFile = toPascalCase(fileName);
-		if (newFolder === 'AchievementCategory') {
-			newFile = replaceRomanNumeralsPascalCased(newFile);
-		}
-
-		const dvalinPath = join(baseDir, `data/${newLang}/${newFolder}/${newFile}.json`);
-		const genshinDataPath = join(baseDir, 'genshin-data/', line);
-		const fileContent = await handleFile(genshinDataPath);
-		await writeJsonFile(dvalinPath, fileContent);
-		updatedFileList.push(dvalinPath);
 	}
 }
 

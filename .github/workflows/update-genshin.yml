@@ -53,9 +53,13 @@ jobs:
 
             FILTERED_COMMITS=$(echo "$COMMITS" | awk -v last="$LAST_COMMIT" '
               $1 == last {exit}
-              /^[^ ]+ feat: update .*data .*v[0-9]+\.[0-9]+$/ {print}
+              /feat: update .*data .*(v|version).*[0-9]+\.[0-9]+$/ {
+                gsub(/version[[:space:]]?/, "v");
+                gsub(/v[[:space:]]?/, "v");
+                print
+              }
             ')
-
+            echo "$FILTERED_COMMITS"
             ALL_COMMITS="$ALL_COMMITS$FILTERED_COMMITS"
             
             if echo "$COMMITS" | grep -q "$LAST_COMMIT"; then
@@ -89,11 +93,16 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git clone https://github.com/dvaJi/genshin-data.git
-          echo "$COMMITS"
-          echo "$COMMITS" | while read -r COMMIT MESSAGE; do
+          mapfile -t COMMITS <<< "$COMMITS"
+          
+          # Process commits in reverse order
+          for ((i=${#COMMITS[@]}-1; i>=0; i--)); do
+            COMMIT=$(echo "${COMMITS[i]}" | awk '{print $1}')
+            MESSAGE=$(echo "${COMMITS[i]}" | cut -d' ' -f2-)
+            
             VERSION=$(echo "$MESSAGE" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p')
             gh api "repos/dvaJi/genshin-data/git/trees/$COMMIT?recursive=1" \
-            --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
+              --jq '.tree[] | select(.type == "blob") | .path' > changed_files.txt
             
             bun run ./scripts/workflow/update_file.ts "$VERSION"
             echo "$COMMIT" > .last_processed_commit
