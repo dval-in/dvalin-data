@@ -1,0 +1,52 @@
+{
+  "id": "TeaBreakPancake",
+  "name": "Tea Break Pancake",
+  "description": "A stack of round pancakes. A staple originating from afternoon tea in manors. Only the best berries should be picked for this dish.",
+  "rarity": 2,
+  "ingredients": [
+    {
+      "id": "Berry",
+      "name": "Berry",
+      "amount": 3
+    },
+    {
+      "id": "Flour",
+      "name": "Flour",
+      "amount": 2
+    },
+    {
+      "id": "BirdEgg",
+      "name": "Bird Egg",
+      "amount": 1
+    }
+  ],
+  "dish_type": "Recovery Dish",
+  "results": {
+    "suspicious": {
+      "name": "Suspicious Tea Break Pancake",
+      "description": "A stack of round pancakes. A burnt scent masks what you can only assume should be a sweet taste. The berries are the only thing saving this dish.",
+      "effect": "Revives a character and restores 250 HP."
+    },
+    "normal": {
+      "name": "Tea Break Pancake",
+      "description": "A stack of round pancakes. A staple originating from afternoon tea in manors. Only the best berries should be picked for this dish.",
+      "effect": "Revives a character and restores 400 HP."
+    },
+    "delicious": {
+      "name": "Delicious Tea Break Pancake",
+      "description": "A stack of round pancakes. Tender and fluffy, the sweet-smelling pancakes taste like clouds. A heavenly delicacy, no doubt.",
+      "effect": "Revives a character and restores 550 HP."
+    },
+    "special": {
+      "id": "LighterthanairPancake",
+      "name": "Lighter-Than-Air Pancake",
+      "description": "Noelle's specialty. These thick pastries are the special afternoon snacks of the Knights of Favonius. They give people the sense that they have fallen upon a layer of fluffy clouds, and seeing Noelle's smile makes the feeling all the sweeter!",
+      "effect": "Revives a character and restores 15% of Max HP, then restores an additional 550 HP.",
+      "character": {
+        "id": "Noelle",
+        "name": "Noelle"
+      }
+    }
+  },
+  "version": "1.6"
+}
