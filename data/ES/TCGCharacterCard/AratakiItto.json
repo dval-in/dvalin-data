@@ -1,0 +1,85 @@
+{
+  "id": "AratakiItto",
+  "shareId": 46,
+  "name": "Arataki Itto",
+  "title": "Arataki Itto - El Héroe de Hanamizaka",
+  "desc": "“Arataki Itto, el campeón supremo de las cartas”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 3,
+    "element": "Geo",
+    "weapon": "Mandoble",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "AratakiIchiban",
+      "name": "Arataki Ichiban"
+    },
+    "source": "Se obtiene tras retar y ganar a Arataki Itto en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "AratakiItto",
+      "name": "Arataki Itto",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FightClubLegend",
+      "name": "Héroe del combate",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MasatsuZetsugiAkaushiBurst",
+      "name": "Exterminio del mal: ¡Embestida taurina!",
+      "desc": "Inflige 1 pt. de Daño Geo e invoca a Ushi. Este personaje obtiene una carga de fuerza sobrenatural.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RoyalDescentBeholdIttoTheEvil",
+      "name": "Rey oni maligno: ¡Itto contra todos!",
+      "desc": "Inflige 4 pts. de Daño Geo y este personaje entra en el estado de rey oni enfurecido.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.6"
+}

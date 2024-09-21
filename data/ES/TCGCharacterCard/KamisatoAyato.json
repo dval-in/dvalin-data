@@ -1,0 +1,85 @@
+{
+  "id": "KamisatoAyato",
+  "shareId": 14,
+  "name": "Kamisato Ayato",
+  "title": "Kamisato Ayato - El Vigoroso Estratega",
+  "desc": "El ciprés protegido por los dioses brilla al renacer.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "KyoukaFuushi",
+      "name": "Kyouka Fuushi"
+    },
+    "source": "Se obtiene tras retar y ganar a Kamisato Ayato en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "KamisatoAyato",
+      "name": "Kamisato Ayato",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "KamisatoArtMarobashi",
+      "name": "Estilo Kamisato - Marobashi",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtKyouka",
+      "name": "Estilo Kamisato: Belleza reflejada",
+      "desc": "Inflige 2 pts. de Daño Hydro y este personaje entra en el estado de reflejo torrencial.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "KamisatoArtSuiyuu",
+      "name": "Estilo Kamisato: Jardín ácueo",
+      "desc": "Inflige 1 pt. de Daño Hydro e invoca un jardín de paz.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.6"
+}
