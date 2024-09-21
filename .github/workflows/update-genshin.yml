@@ -51,8 +51,12 @@ jobs:
             exit 0
           fi
           
+          ESCAPED_COMMITS=$(echo "$COMMITS" | sed 's/^/commit=/' | sed 's/$/\n/' | tr -d '\n')
+          echo "new_commits<<EOF" >> $GITHUB_OUTPUT
+          echo "$ESCAPED_COMMITS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
           VERSIONS=$(echo "$COMMITS" | sed -n 's/.*v\([0-9]\+\.[0-9]\+\)$/\1/p' | tr '\n' ' ')
-          echo "new_commits=$COMMITS" >> $GITHUB_OUTPUT
           echo "versions=$VERSIONS" >> $GITHUB_OUTPUT
 
       - name: Process new commits
