@@ -1,0 +1,93 @@
+{
+  "id": "AbyssHeraldWickedTorrents",
+  "shareId": 350,
+  "name": "Emisario del Abismo - Rápidos malignos",
+  "title": "Emisario del Abismo - Rápidos malignos",
+  "desc": "Destruiré el mundo para aniquilar la vida que alberga.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "talent_card": {
+      "id": "SurgingUndercurrent",
+      "name": "Surging Undercurrent"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Emisario del Abismo - Rápidos malignos de los duelos tabernarios",
+    "character": {
+      "id": "AbyssHeraldWickedTorrents",
+      "name": "Abyss Herald: Wicked Torrents"
+    }
+  },
+  "skills": [
+    {
+      "id": "RipplingSlash",
+      "name": "Ejecución filondulante",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VortexEdge",
+      "name": "Filo vortiginoso",
+      "desc": "Inflige 2 pts. de Daño Hydro y prepara la habilidad Filos ondulantes.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TorrentialShock",
+      "name": "Torrente sísmico",
+      "desc": "Inflige 3 pts. de Daño Hydro y crea una maldición torrencial en el campo del rival.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "WateryRebirth",
+      "name": "Hidrorresurrección",
+      "desc": "Pasiva: cuando comienza el duelo, este personaje obtiene el efecto de hidrorresurrección.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.6"
+}
