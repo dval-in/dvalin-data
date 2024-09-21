@@ -1,0 +1,85 @@
+{
+  "id": "Beidou",
+  "shareId": 30,
+  "name": "Beidou",
+  "title": "Ungekrönte Königin der Meere – Beidou",
+  "desc": "„Heute hättest du beinahe Geld vom Kapitän der Crux gewonnen. Solch einen Tag solltest du nie vergessen.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 3,
+    "element": "Elektro",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "LightningStorm",
+      "name": "Lightning Storm"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Beidou in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "Beidou",
+      "name": "Beidou",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "Oceanborne",
+      "name": "Vorstoß aus der Brandung",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Tidecaller",
+      "name": "Wellenfänger",
+      "desc": "Erhält selbst Wellenfänger – Umarmende Brandung und bereitet folgende Fähigkeiten vor: Gebieter der Gezeiten.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Stormbreaker",
+      "name": "Blitzbrecher",
+      "desc": "Verursacht 2 Pkt. Elektro-SCH, erschafft 1 Donnerschild.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

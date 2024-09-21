@@ -1,0 +1,85 @@
+{
+  "id": "Ningguang",
+  "shareId": 42,
+  "name": "Ningguang",
+  "title": "Ningguang · Megrez de l'éclipse",
+  "desc": "Son plus grand secret est le fait qu'elle garde un grand nombre des secrets de Liyue.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 3,
+    "element": "Géo",
+    "weapon": "Catalyseur",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "StrategicReserve",
+      "name": "Strategic Reserve"
+    },
+    "source": "Récompense pour avoir invité Ningguang à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Ningguang",
+      "name": "Ningguang",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "SparklingScatter",
+      "name": "Géo-dispersion",
+      "desc": "Inflige 1 pt de DGT Géo.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "JadeScreen",
+      "name": "Paravent d'astrolabe",
+      "desc": "Inflige 2 pts de DGT Géo et crée un paravent d'astrolabe.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "Starshatter",
+      "name": "Éclatement des étoiles",
+      "desc": "Inflige 6 pts de DGT Géo. Si un paravent d'astrolabe est sur le terrain, DGT +2.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

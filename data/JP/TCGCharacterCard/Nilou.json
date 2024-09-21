@@ -1,0 +1,85 @@
+{
+  "id": "Nilou",
+  "shareId": 16,
+  "name": "ニィロウ",
+  "title": "絨毯に舞い落ちる蓮光·ニィロウ",
+  "desc": "蓮花の上で軽やかに舞う、世上を離れた夢に酔う。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "片手剣",
+    "faction": [
+      "スメール"
+    ],
+    "talent_card": {
+      "id": "TheStarrySkiesTheirFlowersRain",
+      "name": "The Starry Skies Their Flowers Rain"
+    },
+    "source": "キャッツテールでニィロウを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Nilou",
+      "name": "Nilou",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOfSamser",
+      "name": "弦月のダンス",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DanceOfHaftkarsvar",
+      "name": "七域のダンス",
+      "desc": "水元素ダメージを3与える。チームに水元素キャラと草元素キャラを含み、かつ他の元素キャラを含まない場合、金盃の豊穣を生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "DanceOfAbzendegiDistantDreamsListeningSpring",
+      "name": "浮蓮のダンス·遠夢聆泉",
+      "desc": "水元素ダメージを2与え、目標キャラに久遠の惑溺を付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.2"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Keqing",
+  "shareId": 28,
+  "name": "Keqing",
+  "title": "Keqing, Dominatrice del tuono",
+  "desc": "Può realizzare dei mazzi mai concepiti e vincere delle battaglie impossibili.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Electro",
+    "weapon": "Spada",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "ThunderingPenance",
+      "name": "Thundering Penance"
+    },
+    "source": "Ricompensa ottenuta sfidando Keqing a duello alla Coda di gatto e battendola in un duello amichevole",
+    "character": {
+      "id": "Keqing",
+      "name": "Keqing",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "YunlaiSwordsmanship",
+      "name": "Arte della spada Yunlai",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StellarRestoration",
+      "name": "Ripristino stellare",
+      "desc": "Infligge 3 DAN da Electro, genera una carta Stiletto saettante.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "StarwardSword",
+      "name": "Spada celestiale",
+      "desc": "Infligge 4 DAN da Electro, infligge 3 DAN da perforazione a tutti i personaggi inattivi dell'avversario.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

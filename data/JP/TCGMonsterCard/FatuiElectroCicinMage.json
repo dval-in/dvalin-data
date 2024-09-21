@@ -1,0 +1,84 @@
+{
+  "id": "FatuiElectroCicinMage",
+  "shareId": 337,
+  "name": "ファデュイ·雷蛍術師",
+  "title": "霧虚ろの電光·雷蛍術師",
+  "desc": "霧虚ろ草の匂いは雷蛍を酔わせられるように、嗜虐性のある術師も相手を弄ぶ快感に執着する…",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "ファデュイ"
+    ],
+    "talent_card": {
+      "id": "ElectroCicinsGleam",
+      "name": "Electro Cicin's Gleam"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、ファデュイ·雷蛍術師に挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "FatuiElectroCicinMage",
+      "name": "Fatui Electro Cicin Mage"
+    }
+  },
+  "skills": [
+    {
+      "id": "HurtlingBolts",
+      "name": "轟閃の落雷",
+      "desc": "雷元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MistyCall",
+      "name": "霧虚ろの召喚",
+      "desc": "雷蛍を召喚する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderingShield",
+      "name": "雷霆の守護",
+      "desc": "雷元素ダメージを1与え、本キャラは雷元素付着状態になり、雷蛍バリアを生成し、スキル準備に入る：雷霆迸発。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.5"
+}

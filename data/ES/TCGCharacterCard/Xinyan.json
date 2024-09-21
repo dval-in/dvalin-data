@@ -1,0 +1,85 @@
+{
+  "id": "Xinyan",
+  "shareId": 365,
+  "name": "Xinyan",
+  "title": "Xinyan - La Melodía Incandescente",
+  "desc": "¡Hora de roquear!",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Mandoble",
+    "faction": [
+      "Liyue"
+    ],
+    "talent_card": {
+      "id": "RockinInAFlamingWorld",
+      "name": "Rockin' in a Flaming World"
+    },
+    "source": "Se obtiene tras retar y ganar a Xinyan en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Xinyan",
+      "name": "Xinyan",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "DanceOnFire",
+      "name": "Baile ardiente",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SweepingFervor",
+      "name": "Desenfreno",
+      "desc": "Inflige 2 pts. de Daño Físico. Se realiza un descarte de 1 carta con el mayor coste original de dados elementales y crea un escudo de la pasión.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiffRevolution",
+      "name": "Melodía de la rebelión",
+      "desc": "Inflige 3 pts. de Daño Físico, así como 2 pts. de Daño Penetrante contra todos los personajes enemigos en reserva. Además, se realiza un descarte de todas las cartas que tengas en la mano y crea un ambiente abrasador.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Dados Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.7"
+}

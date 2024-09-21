@@ -1,0 +1,85 @@
+{
+  "id": "Tighnari",
+  "shareId": 48,
+  "name": "Tignari",
+  "title": "Tignari - El Caminante de la Espesura",
+  "desc": "Dicho de otra forma, experiencia no es lo mismo que sabiduría.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Arco",
+    "faction": [
+      "Sumeru"
+    ],
+    "talent_card": {
+      "id": "KeenSight",
+      "name": "Keen Sight"
+    },
+    "source": "Se obtiene tras retar y ganar a Tignari en un duelo amistoso en la taberna Cola de Gato",
+    "character": {
+      "id": "Tighnari",
+      "name": "Tighnari",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "KhandaBarrierbuster",
+      "name": "Khanda rompebarreras",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VijnanaphalaMine",
+      "name": "Frutos del vijñana",
+      "desc": "Inflige 2 pts. de Daño Dendro y este personaje entra en el estado de perforación vijñana.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FashionersTanglevineShaft",
+      "name": "Flecha enredadora artificial",
+      "desc": "Inflige 4 pts. de Daño Dendro, así como Daño Penetrante +1 contra todos los personajes en reserva enemigos.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "2.6"
+}

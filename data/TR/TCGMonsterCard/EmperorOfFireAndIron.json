@@ -1,0 +1,93 @@
+{
+  "id": "EmperorOfFireAndIron",
+  "shareId": 351,
+  "name": "Ateş ve Demir İmparatoru",
+  "title": "Ateş ve Demir İmparatoru",
+  "desc": "Fontemer Denizi sapkın türlerinin zirvesindeki iki hükümdardan biri. Av olmaktan kaçıp sürekli avlanarak beslenip büyüyen, kendine zırh olarak devamlı yeni kabuklar arayan bir Zırhlı Yengeç. İmparatorluk unvanı ise yarı şaka yarı ciddi olarak konulmuştur.",
+  "attributes": {
+    "hp": 24,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Ateş",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "MoltenMail",
+      "name": "Molten Mail"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Ateş ve Demir İmparatoru ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "EmperorOfFireAndIron",
+      "name": "Emperor of Fire and Iron"
+    }
+  },
+  "skills": [
+    {
+      "id": "ShatterclampStrike",
+      "name": "Tuzla Buz Eden Saldırı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "BusterBlaze",
+      "name": "Alev Kapanı",
+      "desc": "1 Ateş Hasarı verir. Bu karakter en az 7 Zırhlı Yengeç Kabuğu kademesine sahipse bu Hasar 1 artar. Ardından bu karakter 2 Zırhlı Yengeç Kabuğu kademesi kazanır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BattlelineDetonation",
+      "name": "Savaş Hattı Patlaması",
+      "desc": "Bu karakter 6 kademe Zırhlı Yengeç Kabuğu kazanır ve Haşlayıcı Patlama için Beceri Hazırlama kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImperialPanoply",
+      "name": "İmparatorluk Zırhı",
+      "desc": "(Pasif) Savaş başladığında 5 Zırhlı Yengeç Kabuğu kademesi kazanır. Senin tarafından herhangi bir hamle yapıldığında eğer tarafında Zırhlı Yengeç Kabuğu dışında Kalkan Durumu veya Kalkan Savaş Durumu varsa diğer etkiler iptal edilir. İptal edilen her etki için bu karakter 2 Zırhlı Yengeç Kabuğu kademesi kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.6"
+}

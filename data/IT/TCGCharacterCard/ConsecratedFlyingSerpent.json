@@ -1,0 +1,94 @@
+{
+  "id": "ConsecratedFlyingSerpent",
+  "shareId": 370,
+  "name": "Serpente volante consacrato",
+  "title": "Resti burrascosi: Serpente volante consacrato",
+  "desc": "Un serpente volante che si è contorto e deformato mangiando un essere superiore. Ora è in grado di manipolare temibili venti.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Anemo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro",
+      "Bestia consacrata"
+    ],
+    "talent_card": {
+      "id": "DeathlyCyclone",
+      "name": "Deathly Cyclone"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Serpente volante consacrato in un duello amichevole",
+    "character": {
+      "id": "ConsecratedFlyingSerpent",
+      "name": "Consecrated Flying Serpent"
+    }
+  },
+  "skills": [
+    {
+      "id": "WhirlingTail",
+      "name": "Coda vorticosa",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SwirlingSquall",
+      "name": "Turbine vorticoso",
+      "desc": "Infliggi 2 DAN fisici e pesca 1 carta.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ScattershotVortex",
+      "name": "Vortice di dispersione",
+      "desc": "Infligge 2DAN fisici. Effettua la Rimozione di tutte le carte Blocco di energia del Frantumaossa nella tua mano. Raddoppia i DAN inflitti per ogni 2 carte rimosse.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Anemo",
+          "type": "Anemo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsAnemo",
+      "name": "Resti immortali: Anemo",
+      "desc": "(Passiva) All'inizio del duello, crea 6 carte Blocco di energia del Frantumaossa e distribuiscile equamente nel tuo mazzo.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

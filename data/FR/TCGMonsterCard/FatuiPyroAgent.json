@@ -1,0 +1,93 @@
+{
+  "id": "FatuiPyroAgent",
+  "shareId": 55,
+  "name": "Usurier Pyro des Fatui",
+  "title": "Lame de règlement : Usurier",
+  "desc": "« Aucune fuite face à ses dettes, qu'on soit vivant ou non... »",
+  "attributes": {
+    "hp": 9,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre l'Usurier Pyro des Fatui",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "Poussée",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Opportunité",
+      "desc": "Inflige 1 pt de DGT Pyro et accorde une infiltration au personnage.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Lame incinératrice",
+      "desc": "Inflige 5 pts de DGT Pyro.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Expert en infiltration",
+      "desc": "(Passif) Accorde une infiltration au début du combat.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.8"
+}

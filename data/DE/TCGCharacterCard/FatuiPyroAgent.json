@@ -1,0 +1,93 @@
+{
+  "id": "FatuiPyroAgent",
+  "shareId": 55,
+  "name": "Fatui – Pyro-Schuldeneintreiber",
+  "title": "Klinge der Abrechnung – Schuldeneintreiber",
+  "desc": "„Du kannst deinen Schulden nicht entkommen, ob du noch lebst oder schon tot bist ...“",
+  "attributes": {
+    "hp": 9,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Fatui – Pyro-Schuldeneintreiber in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "Dolchstoß",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Zeitlicher Angriff",
+      "desc": "Verursacht 1 Pkt. Pyro-SCH, erhält selbst Einschleichen.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Flammende Klinge",
+      "desc": "Verursacht 5 Pkt. Pyro-SCH.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Schleichmeister",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Einschleichen.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

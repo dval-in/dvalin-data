@@ -1,0 +1,93 @@
+{
+  "id": "FatuiPyroAgent",
+  "shareId": 55,
+  "name": "Fatui - Pyro Agent",
+  "title": "ใบมีดแห่งการชำระ - Agent",
+  "desc": "\"หนี้แห่งความตายไม่อาจหลีกหนี หนี้แห่งชีวิตยิ่งยากจะหลบเลี่ยง...\"",
+  "attributes": {
+    "hp": 9,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟ",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "Fatui"
+    ],
+    "talent_card": {
+      "id": "PaidInFull",
+      "name": "Paid in Full"
+    },
+    "source": "ได้รับหลังจากเอาชนะ Fatui - Pyro Agent ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail",
+    "character": {
+      "id": "FatuiPyroAgent",
+      "name": "Fatui Pyro Agent"
+    }
+  },
+  "skills": [
+    {
+      "id": "Thrust",
+      "name": "Thrust",
+      "desc": "จะสร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Prowl",
+      "name": "Prowl",
+      "desc": "สร้างความเสียหายไฟ 1 หน่วย และตัวละครนี้จะได้รับ Stealth",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BladeAblaze",
+      "name": "Blade Ablaze",
+      "desc": "จะสร้างความเสียหายไฟ 5 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StealthMaster",
+      "name": "Stealth Master",
+      "desc": "[ติดตัว] เมื่อเริ่มการต่อสู้ ในตอนแรกเริ่มจะได้รับสถานะ Stealth",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "3.4"
+}

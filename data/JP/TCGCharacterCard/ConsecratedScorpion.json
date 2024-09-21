@@ -1,0 +1,94 @@
+{
+  "id": "ConsecratedScorpion",
+  "shareId": 369,
+  "name": "聖骸サソリ",
+  "title": "亡骸の残毒·聖骸サソリ",
+  "desc": "偉大なる生命体を蝕むことで歪み、変異したサソリ。恐ろしい迅雷を操る。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "他の武器",
+    "faction": [
+      "魔物",
+      "聖骸獣"
+    ],
+    "talent_card": {
+      "id": "FatalFulmination",
+      "name": "Fatal Fulmination"
+    },
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、聖骸サソリに挑戦して友好対戦に勝利することで獲得",
+    "character": {
+      "id": "ConsecratedScorpion",
+      "name": "Consecrated Scorpion"
+    }
+  },
+  "skills": [
+    {
+      "id": "ScorpionStrike",
+      "name": "サソリの挟み撃ち",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "StingingSpine",
+      "name": "サソリの尻尾刺し",
+      "desc": "物理ダメージを3与える。 喰骸エネルギークラスターを1枚生成し、ランダムで味方のデッキの一番上にある2枚のカードのうちに配置する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "ThunderboreBlast",
+      "name": "雷刺乱落",
+      "desc": "物理ダメージを3与え、手札から喰骸エネルギークラスターを最大3枚まで破棄し、相手のフィールドに雷棘トラップを生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ImmortalRemnantsElectro",
+      "name": "朽ちぬ亡骸·雷",
+      "desc": "【固有】ラウンド終了時、喰骸エネルギークラスターを2枚生成し、ランダムで味方のデッキの一番上にある10枚のカードのうちに配置する。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "4.7"
+}

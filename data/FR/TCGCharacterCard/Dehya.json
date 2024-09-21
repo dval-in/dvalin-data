@@ -1,0 +1,86 @@
+{
+  "id": "Dehya",
+  "shareId": 25,
+  "name": "Dehya",
+  "title": "Dehya · Crinière ardente",
+  "desc": "Les yeux d'un rapace, l'âme d'un lion, et la fille libre du désert.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Pyro",
+    "weapon": "Épée à deux mains",
+    "faction": [
+      "Sumeru",
+      "Érémites"
+    ],
+    "talent_card": {
+      "id": "StalwartAndTrue",
+      "name": "Stalwart and True"
+    },
+    "source": "Récompense pour avoir invité Dehya à une partie amicale dans La Queue de Chat et remporté la victoire",
+    "character": {
+      "id": "Dehya",
+      "name": "Dehya",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "SandstormAssault",
+      "name": "Assaut sablé",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "MoltenInferno",
+      "name": "Enfer en fusion",
+      "desc": "Invoque une zone de sanctuaire ardent. Si une zone de sanctuaire ardent est déjà présente, inflige d'abord 1 pt de DGT Pyro.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LeonineBite",
+      "name": "Morsure léonine",
+      "desc": "Inflige 3 pts de DGT Pyro et prépare la capacité : Pied plongeant d'incinération.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 4
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.1"
+}

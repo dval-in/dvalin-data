@@ -1,0 +1,85 @@
+{
+  "id": "Albedo",
+  "shareId": 45,
+  "name": "阿贝多",
+  "title": "白垩之子·阿贝多",
+  "desc": "黑土与白垩，赤成与黄金。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "单手剑",
+    "faction": [
+      "蒙德"
+    ],
+    "talent_card": {
+      "id": "DescentOfDivinity",
+      "name": "Descent of Divinity"
+    },
+    "source": "在猫尾酒馆中邀请阿贝多进行对局，在友好对局难度中获得胜利后获取",
+    "character": {
+      "id": "Albedo",
+      "name": "Albedo",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "FavoniusBladeworkWeiss",
+      "name": "西风剑术·白",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AbiogenesisSolarIsotoma",
+      "name": "创生法·拟造阳华",
+      "desc": "召唤阳华。",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RiteOfProgenitureTectonicTide",
+      "name": "诞生式·大地之潮",
+      "desc": "造成4点岩元素伤害，如果阳华在场，就使此伤害+2。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.0"
+}

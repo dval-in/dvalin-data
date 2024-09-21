@@ -1,0 +1,101 @@
+{
+  "id": "Lyney",
+  "shareId": 281,
+  "name": "リネ",
+  "title": "幻光で惑わすトリック·リネ",
+  "desc": "鏡中に咲くものを抱き、花捧ぐ人を求めゆく。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "炎元素",
+    "weapon": "弓",
+    "faction": [
+      "フォンテーヌ",
+      "ファデュイ"
+    ],
+    "talent_card": {
+      "id": "ConclusiveOvation",
+      "name": "Conclusive Ovation"
+    },
+    "source": "キャッツテールでリネを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Lyney",
+      "name": "Lyney",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "CardForceTranslocation",
+      "name": "フォース·カード",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "PropArrow",
+      "name": "プロップアロー",
+      "desc": "炎元素ダメージを2与える。ファニーキャット·ハットを召喚し、プロップ残数を1層獲得する。 このキャラのHPが6以上の場合、自身に貫通ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BewilderingLights",
+      "name": "ビウィルダー·ライト",
+      "desc": "炎元素ダメージを3与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WondrousTrickMiracleParade",
+      "name": "大魔術·ミラクルパレード",
+      "desc": "炎元素ダメージを3与え、ファニーキャット·ハットを召喚し、プロップ残数を1層蓄積する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.3"
+}

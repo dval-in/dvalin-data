@@ -1,0 +1,84 @@
+{
+  "id": "MirrorMaiden",
+  "shareId": 54,
+  "name": "愚人眾·藏鏡仕女",
+  "title": "冬國仕女·水鏡使者",
+  "desc": "一切隱密，都將深藏於瀲光的水鏡之中…",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "其他武器",
+    "faction": [
+      "愚人眾"
+    ],
+    "talent_card": {
+      "id": "MirrorCage",
+      "name": "Mirror Cage"
+    },
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度愚人眾·藏鏡仕女中取得勝利後獲得",
+    "character": {
+      "id": "MirrorMaiden",
+      "name": "Mirror Maiden"
+    }
+  },
+  "skills": [
+    {
+      "id": "WaterBall",
+      "name": "水彈",
+      "desc": "造成1點水元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "InfluxBlast",
+      "name": "瀲波綻破",
+      "desc": "造成2點水元素傷害，目標角色附屬水光破鏡。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RippledReflection",
+      "name": "粼鏡折光",
+      "desc": "造成5點水元素傷害。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.4"
+}

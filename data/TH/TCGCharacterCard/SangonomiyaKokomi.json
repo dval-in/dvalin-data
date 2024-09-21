@@ -1,0 +1,85 @@
+{
+  "id": "SangonomiyaKokomi",
+  "shareId": 13,
+  "name": "Sangonomiya Kokomi",
+  "title": "ไข่มุกแห่งปัญญา - Sangonomiya Kokomi",
+  "desc": "ต้องเตรียมตัวไว้ให้พร้อมล่วงหน้า ถึงจะสามารถเอาตัวรอดเมื่อต้องเผชิญกับอันตรายได้",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำ",
+    "weapon": "สื่อเวท",
+    "faction": [
+      "Inazuma"
+    ],
+    "talent_card": {
+      "id": "TamanooyasCasket",
+      "name": "Tamanooya's Casket"
+    },
+    "source": "ได้รับหลังจากเชิญ Sangonomiya Kokomi ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร",
+    "character": {
+      "id": "SangonomiyaKokomi",
+      "name": "Sangonomiya Kokomi",
+      "rarity": 5
+    }
+  },
+  "skills": [
+    {
+      "id": "TheShapeOfWater",
+      "name": "The Shape of Water",
+      "desc": "สร้างความเสียหายน้ำ 1 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "KuragesOath",
+      "name": "Kurage's Oath",
+      "desc": "ตัวละครนี้จะติดสถานะธาตุน้ำ และเรียก Bake-Kurage",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "NereidsAscension",
+      "name": "Nereid's Ascension",
+      "desc": "สร้างความเสียหายน้ำ 2 หน่วย รักษาตัวละครทั้งหมดของฝ่ายเรา 1 หน่วย และตัวละครนี้จะได้รับ Ceremonial Garment",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "ธาตุน้ำ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "3.5"
+}

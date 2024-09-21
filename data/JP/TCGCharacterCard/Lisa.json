@@ -1,0 +1,85 @@
+{
+  "id": "Lisa",
+  "shareId": 34,
+  "name": "リサ",
+  "title": "薔薇の魔女·リサ",
+  "desc": "魔導の秘密を追い求め、真の運命を静かに待つ。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "法器",
+    "faction": [
+      "モンド"
+    ],
+    "talent_card": {
+      "id": "PulsatingWitch",
+      "name": "Pulsating Witch"
+    },
+    "source": "キャッツテールでリサを招待し、友好対戦に勝利することで獲得",
+    "character": {
+      "id": "Lisa",
+      "name": "Lisa",
+      "rarity": 4
+    }
+  },
+  "skills": [
+    {
+      "id": "LightningTouch",
+      "name": "指先の雷",
+      "desc": "雷元素ダメージを1与える。 このスキルが重撃である場合、敵の出撃キャラに導雷を付与する。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "VioletArc",
+      "name": "蒼雷",
+      "desc": "雷元素ダメージを2与える。敵の出撃キャラに導雷が付与されていない場合、導雷を付与する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "LightningRose",
+      "name": "薔薇の雷光",
+      "desc": "雷元素ダメージを2与えて薔薇雷光を召喚し、相手の出撃キャラに導雷を付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "4.0"
+}
