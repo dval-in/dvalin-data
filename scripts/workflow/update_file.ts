@@ -125,4 +125,4 @@ const newContent =
 	errorFileList +
 	'\n\n';
 
-await appendFile('./update/changed_files.txt', newContent, 'utf8');
+await appendFile('./changed_files.txt', newContent, 'utf8');
