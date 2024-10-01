@@ -43,13 +43,31 @@ const fetchSteps = async (url: string): Promise<string[]> => {
 
 	const stepsHeading = document.querySelector('h2 > span.mw-headline[id="Steps"]');
 	if (stepsHeading) {
-		const olElement = stepsHeading.parentElement?.nextElementSibling;
-		if (olElement && olElement.tagName.toLowerCase() === 'ol') {
-			return Array.from(olElement.querySelectorAll('li')).map(
-				(li: any) => li.textContent?.trim() || ''
-			);
+		const steps: string[] = [];
+		let currentElement = stepsHeading.parentElement?.nextElementSibling;
+
+		while (currentElement) {
+			if (currentElement.tagName.toLowerCase() === 'dl') {
+				steps.push(currentElement.textContent?.trim() || '');
+			} else if (currentElement.tagName.toLowerCase() === 'ol') {
+				const listItems = Array.from(currentElement.querySelectorAll('li'));
+				listItems.forEach((li: any, index) => {
+					const stepText = li.textContent?.trim() || '';
+					if (index === 0 && steps.length > 0) {
+						steps[steps.length - 1] += ' || ' + stepText;
+					} else {
+						steps.push(stepText);
+					}
+				});
+			} else {
+				break; // Stop if we encounter an element that's neither <dl> nor <ol>
+			}
+			currentElement = currentElement.nextElementSibling;
 		}
+
+		return steps;
 	}
+
 	return [];
 };
 
