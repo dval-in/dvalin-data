@@ -134,51 +134,50 @@ const parseCategoryPage = async (url: string, category: string): Promise<Achieve
 
 const main = async () => {
 	const categories = await getAchievementCategories();
-	console.log(categories);
-	// for (const category of categories) {
-	// 	const fullUrl = new URL(category.href, base_url).toString();
-	// 	console.log(`Parsing category: ${category.text}`);
-	// 	const currentData = await readJsonFile(
-	// 		`./data/EN/AchievementCategory/${category.text}.json`
-	// 	);
-	// 	if (currentData === undefined) {
-	// 		console.warn(`Warning: No data found for category: ${category.text}`);
-	// 		continue;
-	// 	}
-	// 	const achievementData: { id: number; name: string }[] = currentData.achievements.map(
-	// 		(achievement: {
-	// 			id: number;
-	// 			name: string;
-	// 			desc: string;
-	// 			reward: number;
-	// 			hidden: boolean;
-	// 			order: number;
-	// 		}) => {
-	// 			return {
-	// 				id: achievement.id,
-	// 				name: achievement.name
-	// 			};
-	// 		}
-	// 	);
+	for (const category of categories) {
+		const fullUrl = new URL(category.href, base_url).toString();
+		console.log(`Parsing category: ${category.text}`);
+		const currentData = await readJsonFile(
+			`./data/EN/AchievementCategory/${category.text}.json`
+		);
+		if (currentData === undefined) {
+			console.warn(`Warning: No data found for category: ${category.text}`);
+			continue;
+		}
+		const achievementData: { id: number; name: string }[] = currentData.achievements.map(
+			(achievement: {
+				id: number;
+				name: string;
+				desc: string;
+				reward: number;
+				hidden: boolean;
+				order: number;
+			}) => {
+				return {
+					id: achievement.id,
+					name: achievement.name
+				};
+			}
+		);
 
-	// 	const categoryData = await parseCategoryPage(fullUrl, category.text);
-	// 	categoryData.forEach((data) => {
-	// 		const found = achievementData.find(
-	// 			(a) =>
-	// 				a.name.toLowerCase().replace(/[^a-z0-9]/g, '') ===
-	// 				data.achievement.toLowerCase().replace(/[^a-z0-9]/g, '')
-	// 		);
-	// 		if (found) {
-	// 			data.id = found.id;
-	// 		} else {
-	// 			console.warn(`Warning: Achievement not found: ${data.achievement}`);
-	// 		}
-	// 	});
-	// 	await Bun.write(
-	// 		`./data/EN/AchievementCategory/${category.text}Extra.json`,
-	// 		JSON.stringify(categoryData, null, 2)
-	// 	);
-	// }
+		const categoryData = await parseCategoryPage(fullUrl, category.text);
+		categoryData.forEach((data) => {
+			const found = achievementData.find(
+				(a) =>
+					a.name.toLowerCase().replace(/[^a-z0-9]/g, '') ===
+					data.achievement.toLowerCase().replace(/[^a-z0-9]/g, '')
+			);
+			if (found) {
+				data.id = found.id;
+			} else {
+				console.warn(`Warning: Achievement not found: ${data.achievement}`);
+			}
+		});
+		await Bun.write(
+			`./data/EN/AchievementCategory/${category.text}Extra.json`,
+			JSON.stringify(categoryData, null, 2)
+		);
+	}
 };
 
 main();
