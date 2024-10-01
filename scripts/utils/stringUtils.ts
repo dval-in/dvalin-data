@@ -13,9 +13,11 @@ export function isPascalCase(str: string): boolean {
  * @returns The converted string in PascalCase.
  */
 export function toPascalCase(str: string): string {
-	return (str.charAt(0).toUpperCase() + str.slice(1))
-		.replace("'", '')
-		.replace(/[^a-zA-Z0-9]+(.)/g, (_, chr) => chr.toUpperCase());
+	return str
+		.split(/[^a-zA-Z0-9']+/)
+		.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+		.join('')
+		.replace(/'/g, '');
 }
 
 /**
