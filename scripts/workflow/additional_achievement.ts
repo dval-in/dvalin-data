@@ -162,28 +162,31 @@ const main = async () => {
 			console.warn(`Warning: No data found for category: ${category.text}`);
 			continue;
 		}
-		const achievementData: { id: number; name: string }[] = currentData.achievements.map(
-			(achievement: {
-				id: number;
-				name: string;
-				desc: string;
-				reward: number;
-				hidden: boolean;
-				order: number;
-			}) => {
-				return {
-					id: achievement.id,
-					name: achievement.name
-				};
-			}
-		);
+		const achievementData: { id: number; name: string; reward: number }[] =
+			currentData.achievements.map(
+				(achievement: {
+					id: number;
+					name: string;
+					desc: string;
+					reward: number;
+					hidden: boolean;
+					order: number;
+				}) => {
+					return {
+						id: achievement.id,
+						name: achievement.name,
+						reward: achievement.reward
+					};
+				}
+			);
 
 		const categoryData = await parseCategoryPage(fullUrl, category.text);
 		categoryData.forEach((data) => {
 			const found = achievementData.find(
 				(a) =>
 					a.name.toLowerCase().replace(/[^a-z0-9]/g, '') ===
-					data.achievement.toLowerCase().replace(/[^a-z0-9]/g, '')
+						data.achievement.toLowerCase().replace(/[^a-z0-9]/g, '') &&
+					a.reward === parseInt(data.primo)
 			);
 			if (found) {
 				data.id = found.id;
