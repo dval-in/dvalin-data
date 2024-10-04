@@ -1,0 +1,15 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "node",
+		"declaration": true,
+		"outDir": "./dist",
+		"noEmit": false,
+		"emitDeclarationOnly": true,
+		"allowImportingTsExtensions": false
+	},
+	"include": ["types/**/*"],
+	"exclude": ["node_modules", "dist"]
+}

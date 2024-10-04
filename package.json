@@ -1,9 +1,17 @@
 {
 	"name": "dvalin-data",
+	"version": "1.0.2",
 	"type": "module",
+	"main": "dist/types/index.d.ts",
+	"types": "dist/types/index.d.ts",
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"lint": "eslint .",
-		"validate-json": "bun run scripts/workflow/validate_json.ts"
+		"validate-json": "bun run scripts/workflow/validate_json.ts",
+		"build": "tsc -p tsconfig.build.json",
+		"prepublishOnly": "bun run build"
 	},
 	"lint-staged": {
 		"types/**/*.ts": [
