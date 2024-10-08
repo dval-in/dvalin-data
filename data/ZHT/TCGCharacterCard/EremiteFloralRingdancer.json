@@ -1,0 +1,85 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "鍍金旅團·葉輪舞者",
+  "title": "旋舞之憶·葉輪舞者",
+  "desc": "「沙之民有音樂與舞蹈的傳統，起初是對神的禮讚，後來則是討取王者歡心的演藝與戰鬥技術。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "其他武器",
+    "faction": [
+      "鍍金旅團"
+    ],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度鍍金旅團·葉輪舞者中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "葉輪輕掃",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "蔓延旋舞",
+      "desc": "造成$[D__KEY__DAMAGE_3]點草元素傷害，生成1層靈蛇祝福。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "厄靈甦醒·草之靈蛇",
+      "desc": "造成4點草元素傷害。整場牌局限制1次，將1張厄靈·草之靈蛇加入我方手牌。 （裝備有厄靈·草之靈蛇的角色可以使用特技：藤蔓鋒鱗）",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "厄靈之能",
+      "desc": "【被動】此角色受到傷害後：如果此角色生命值不多於7，則獲得1點充能。（每回合1次）",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.1"
+}

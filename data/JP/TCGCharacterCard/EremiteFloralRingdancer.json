@@ -1,0 +1,85 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "エルマイト旅団・フローラルリングダンサー",
+  "title": "旋舞の記憶・フローラルリングダンサー",
+  "desc": "「砂の民には音楽と舞踏の伝統がある。最初は神への礼賛。それから王の歓心を買うための演武と戦闘の技術となった。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "他の武器",
+    "faction": [
+      "エルマイト旅団"
+    ],
+    "source": "キャッツテールのリトルプリンスのところで酒場挑戦を行い、エルマイト旅団・フローラルリングダンサーに挑戦して友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "薙ぎ払うフローラルリング",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "螺旋の舞",
+      "desc": "草元素ダメージを$[D__KEY__DAMAGE_3]与え、霊蛇の祝福を1層生成する。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "悪霊蘇生・草の霊蛇",
+      "desc": "草元素ダメージを4与える。各対戦ごとに1回のみ、悪霊・草の霊蛇を1枚手札に加える。 （悪霊・草の霊蛇を装備したキャラは特技ツル草の鋭鱗を使用できる）",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "悪霊の力",
+      "desc": "【固有】本キャラがダメージを受けた後、本キャラのHPが7以下の場合、チャージを1獲得する。（各ラウンドで1回のみ）",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.1"
+}

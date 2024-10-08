@@ -1,0 +1,85 @@
+{
+  "id": "AbyssLectorVioletLightning",
+  "shareId": 421,
+  "name": "Abgrundsänger – Lila Blitze",
+  "title": "Abgrundsänger – Lila Blitze",
+  "desc": "Gelobt sei der Abgrund, der Korrosion Weisheit.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Abgrundsänger – Lila Blitze in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "DenOfThunder",
+      "name": "Aggregation der Abgrundblitze",
+      "desc": "Verursacht 1 Pkt. Elektro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShockOfTheEnigmaticAbyss",
+      "name": "Erschütterung des rätselhaften Abgrunds",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH. Wenn das Ziel bereits vom Elektro-Attribut betroffen ist, stiehlst du ihm 1 Pkt. Aufladung (Wenn die Aufladung der Figur bereits voll ist, wird diese der nächsten Figur gewährt, die keine volle Aufladung besitzt).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WildThunderburst",
+      "name": "Wildes Donnergrollen",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH. Verursachter SCH +2, wenn die Aufladung des Ziels nicht mehr als 1 beträgt.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectricRebirth",
+      "name": "Neugeburt des Donners",
+      "desc": "Passiv – Erhält zu Beginn des Kampfes Neugeburt des Donners.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.1"
+}
