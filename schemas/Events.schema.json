@@ -1,72 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$ref": "#/definitions/Events",
   "definitions": {
-    "Events": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/Event"
-      }
-    },
-    "Event": {
-      "type": "object",
-      "properties": {
-        "postId": {
-          "type": "string"
-        },
-        "gameId": {
-          "$ref": "#/definitions/Game"
-        },
-        "messageType": {
-          "$ref": "#/definitions/MessageType"
-        },
-        "createdAt": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "tags": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Tag"
-          }
-        },
-        "language": {
-          "$ref": "#/definitions/LanguageCode"
-        },
-        "subject": {
-          "type": "string"
-        },
-        "content": {
-          "type": "string"
-        },
-        "contentOriginal": {
-          "type": "string"
-        },
-        "links": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Link"
-          }
-        },
-        "articleUrl": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "postId",
-        "gameId",
-        "messageType",
-        "createdAt",
-        "tags",
-        "language",
-        "subject",
-        "content",
-        "contentOriginal",
-        "links",
-        "articleUrl"
-      ],
-      "additionalProperties": false
-    },
     "Game": {
       "type": "string",
       "enum": [
@@ -142,6 +76,24 @@
         "es-es"
       ]
     },
+    "LinkType": {
+      "type": "string",
+      "enum": [
+        "Image",
+        "HoyoLink",
+        "Hoyolab",
+        "MihoyoHoyoverse",
+        "Twitter",
+        "Facebook",
+        "Youtube",
+        "Twitch",
+        "Vk",
+        "Telegram",
+        "Relative",
+        "Unknown",
+        "Malformed"
+      ]
+    },
     "Link": {
       "type": "object",
       "properties": {
@@ -183,23 +135,70 @@
       ],
       "additionalProperties": false
     },
-    "LinkType": {
-      "type": "string",
-      "enum": [
-        "Image",
-        "HoyoLink",
-        "Hoyolab",
-        "MihoyoHoyoverse",
-        "Twitter",
-        "Facebook",
-        "Youtube",
-        "Twitch",
-        "Vk",
-        "Telegram",
-        "Relative",
-        "Unknown",
-        "Malformed"
-      ]
+    "Event": {
+      "type": "object",
+      "properties": {
+        "postId": {
+          "type": "string"
+        },
+        "gameId": {
+          "$ref": "#/definitions/Game"
+        },
+        "messageType": {
+          "$ref": "#/definitions/MessageType"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Tag"
+          }
+        },
+        "language": {
+          "$ref": "#/definitions/LanguageCode"
+        },
+        "subject": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "contentOriginal": {
+          "type": "string"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Link"
+          }
+        },
+        "articleUrl": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "postId",
+        "gameId",
+        "messageType",
+        "createdAt",
+        "tags",
+        "language",
+        "subject",
+        "content",
+        "contentOriginal",
+        "links",
+        "articleUrl"
+      ],
+      "additionalProperties": false
+    },
+    "Events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Event"
+      }
     }
   }
 }

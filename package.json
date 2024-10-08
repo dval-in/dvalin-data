@@ -1,50 +1,51 @@
 {
-	"name": "dvalin-data",
-	"version": "1.0.2",
-	"type": "module",
-	"main": "dist/types/index.d.ts",
-	"types": "dist/types/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"lint": "eslint .",
-		"validate-json": "bun run scripts/workflow/validate_json.ts",
-		"build": "tsc -p tsconfig.build.json",
-		"prepublishOnly": "bun run build"
-	},
-	"lint-staged": {
-		"types/**/*.ts": [
-			"eslint .",
-			"bun run scripts/workflow/generate-schemas.ts",
-			"git add schemas/*.schema.json"
-		]
-	},
-	"dependencies": {
-		"ajv": "^8.17.1",
-		"i": "^0.3.7",
-		"jsdom": "^25.0.1",
-		"string-strip-html": "^13.4.8",
-		"ts-json-schema-generator": "^2.3.0"
-	},
-	"devDependencies": {
-		"@commitlint/config-conventional": "^19.5.0",
-		"@commitlint/cli": "^19.5.0",
-		"@types/bun": "^1.1.10",
-		"axios": "^1.7.7",
-		"bun-types": "^1.1.29",
-		"cheerio": "^1.0.0",
-		"eslint": "^9.12.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-prettier": "^5.2.1",
-		"prettier": "^3.3.3",
-		"typescript": "^5.6.2",
-		"typescript-eslint": "^8.8.1"
-	},
-	"engines": {
-		"bun": "^1.1.18",
-		"pnpm": "please-use-bun",
-		"npm": "please-use-bun",
-		"yarn": "please-use-bun"
-	}
+  "name": "dvalin-data",
+  "version": "1.0.2",
+  "type": "module",
+  "main": "dist/types/index.d.ts",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "validate-json": "bun run scripts/workflow/validate_json.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "bun run build"
+  },
+  "lint-staged": {
+    "types/**/*.ts": [
+      "eslint .",
+      "bun run scripts/workflow/generate-schemas.ts",
+      "git add schemas/*.schema.json"
+    ]
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "glob": "^11.0.0",
+    "i": "^0.3.7",
+    "jsdom": "^25.0.1",
+    "string-strip-html": "^13.4.8",
+    "ts-json-schema-generator": "^2.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.5.0",
+    "@commitlint/cli": "^19.5.0",
+    "@types/bun": "^1.1.10",
+    "axios": "^1.7.7",
+    "bun-types": "^1.1.29",
+    "cheerio": "^1.0.0",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.1"
+  },
+  "engines": {
+    "bun": "^1.1.18",
+    "pnpm": "please-use-bun",
+    "npm": "please-use-bun",
+    "yarn": "please-use-bun"
+  }
 }
