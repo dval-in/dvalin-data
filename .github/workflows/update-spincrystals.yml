@@ -2,8 +2,8 @@ name: Spincrystals Update
 
 on:
   schedule:
-    # Runs at 1:00 AM every Thursday every 2 weeks
-    - cron: '0 1 * * 4/2'
+    # Runs every day at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -22,9 +22,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20.x'
-
-      - name: Install missing packages
-        run: sudo apt-get update && sudo apt-get install -y git curl unzip
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
