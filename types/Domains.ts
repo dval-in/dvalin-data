@@ -11,5 +11,4 @@ type DomainType = {
 export type Domains = {
 	characters: DomainType[];
 	weapons: DomainType[];
-	version: string;
 };
