@@ -1,0 +1,85 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "Eremite Floral Ring-Dancer",
+  "title": "\"Whirling Memories\" Eremite Floral Ring-Dancer",
+  "desc": "\"ชาวทะเลทรายนั้นมีประเพณีเกี่ยวกับดนตรีและการร่ายรำ ในตอนแรกเริ่ม เป็นการสดุดีแด่ทวยเทพ ต่อมาจึงเปลี่ยนเป็นการแสดง และเทคนิคการต่อสู้เพื่อเอาใจราชาของพวกเขา\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไม้",
+    "weapon": "อาวุธอื่น ๆ",
+    "faction": [
+      "กลุ่ม Eremite"
+    ],
+    "source": "ได้รับหลังจากเอาชนะ Eremite Floral Ring-Dancer ระดับความยากฉันมิตร จากการดูเอลในร้านเหล้าที่ Prince ใน Cat's Tail"
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "Floral-Ring Caress",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "Spiraling Whirl",
+      "desc": "สร้างความเสียหายไม้ $[D__KEY__DAMAGE_3] หน่วย และสร้าง Spirit-Serpent's Blessing 1 ชั้น",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "Spirit of Omen's Awakening: Dendro Spirit-Serpent",
+      "desc": "สร้างความเสียหายไม้ 4 หน่วย โดยจะจำกัดดูเอลละ 1 ครั้ง และเพิ่ม Spirit of Omen: Dendro Spirit-Serpent 1 ใบ เข้ามาในมือของเรา (ตัวละครที่ติดตั้งการ์ด Spirit of Omen: Dendro Spirit-Serpent สามารถใช้เทคนิคได้: Viny Razorscale)",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "ธาตุไม้",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Spirit of Omen's Power",
+      "desc": "[ติดตัว] หลังจากที่ตัวละครนี้ได้รับความเสียหาย: หากค่าพลังชีวิตของตัวละครนี้ต่ำกว่า 7 จะได้รับพลังงาน 1 หน่วย (เทิร์นละ 1 ครั้ง)",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.1"
+}

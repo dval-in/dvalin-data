@@ -1,0 +1,85 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "Pirouettière florale des Érémites",
+  "title": "Souvenirs tourbillonnants : Pirouettière florale",
+  "desc": "« Les enfants du désert ont une riche tradition de chants et de danses. Utilisés à l'origine pour louer et servir les dieux, ces arts ont ensuite été adaptés pour le combat et la séduction des rois. »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Érémites"
+    ],
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre la Pirouettière florale des Érémites"
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "Balayage floral",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "Danse tourbillonnante",
+      "desc": "Inflige $[D__KEY__DAMAGE_3] pts de DGT Dendro et crée 1 cumul de bénédiction du serpent spirituel.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "Éveil d'esprit sinistre du serpent spiriflore",
+      "desc": "Inflige 4 pts de DGT Dendro, et ajoute 1 carte [Esprit sinistre du serpent spiriflore] dans votre main (Limité à 1 fois par partie). (Les personnages équipés avec [Esprit sinistre du serpent spiriflore] peuvent utiliser l'habilité : Liane rasoir)",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Puissance d'esprit sinistre",
+      "desc": "(Passif) Lorsque le personnage a subi des DGT : Il obtient 1 charge s'il a 7 PV ou moins. (1 fois par manche)",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.1"
+}

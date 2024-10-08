@@ -1,0 +1,85 @@
+{
+  "id": "AbyssLectorVioletLightning",
+  "shareId": 421,
+  "name": "深淵詠者·紫電",
+  "title": "深淵詠者·紫電",
+  "desc": "高頌淵藪，侵蝕之智。",
+  "attributes": {
+    "hp": 6,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度深淵詠者·紫電中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "DenOfThunder",
+      "name": "淵藪落雷",
+      "desc": "造成1點雷元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShockOfTheEnigmaticAbyss",
+      "name": "秘淵虛霆",
+      "desc": "造成3點雷元素傷害。 如果目標已附著雷元素，則奪取對方1點充能。（如果奪取時此角色充能已滿，則改為由下一個充能未滿的角色獲得充能）",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WildThunderburst",
+      "name": "狂迸駭雷",
+      "desc": "造成3點雷元素傷害。 如果目標充能不多於1，造成的傷害+2。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectricRebirth",
+      "name": "雷之新生",
+      "desc": "【被動】戰鬥開始時，初始附屬雷之新生。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.1"
+}
