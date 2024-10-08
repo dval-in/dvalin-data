@@ -52,7 +52,6 @@ const parseData = async (url: string): Promise<SpincrystalData[]> => {
 
 const main = async () => {
     const data = await parseData(url);
-    console.log(data);
     await Bun.write('./data/EN/RadiantSpincrystal.json', JSON.stringify(data, null, 2));
 };
 
