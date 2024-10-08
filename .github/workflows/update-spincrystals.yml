@@ -1,0 +1,52 @@
+name: Spincrystals Update
+
+on:
+  schedule:
+    # Runs at 1:00 AM every Thursday every 2 weeks
+    - cron: '0 1 * * 4/2'
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-banners:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+
+      - name: Install missing packages
+        run: sudo apt-get update && sudo apt-get install -y git curl unzip
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install project dependencies
+        run: bun install
+
+      - name: Run update script
+        run: bun run ./scripts/workflow/update_spincrystal.ts
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6.1.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto-update Spincrystal data"
+          title: "Auto-update: Spincrystal Data Update"
+          body: |
+            This is an automated pull request to update Spincrystal data.
+        
+            Please review the changes and merge if everything looks correct.
+          branch: auto-update-spincrystal-data
+          base: main
+          delete-branch: true
