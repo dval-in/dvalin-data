@@ -1,0 +1,1 @@
+find ./data -type f -name '*Wolffang*.json' -exec sh -c 'git mv "$0" "$(echo "$0" | sed s/Wolffang/WolfFang/)"' {} \;
