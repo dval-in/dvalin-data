@@ -1,55 +1,29 @@
-import { JSDOM } from 'jsdom';
 import { toPascalCase } from '../utils/stringUtils';
 import { write } from 'bun';
 import { ContentBanner } from '../../types/Banners';
+import { fetchHtmlContent } from '../utils/htmlFetch';
 
-const fetchHtmlContent = async (url: string): Promise<string> => {
-	try {
-		const response = await fetch(url);
-
-		if (!response.ok) {
-			throw new Error(`HTTP error! status: ${response.status}`);
-		}
-
-		const html = await response.text();
-		return html;
-	} catch (error) {
-		console.error('Error fetching the HTML content:', error);
-		throw error;
+const serverTimeToUTC = (dateString, isNAServer = true) => {
+	if (dateString === 'Indefinite') {
+		return dateString;
 	}
+
+	const date = new Date(dateString);
+
+	// Determine if it's during Daylight Saving Time
+	const isDST = (date) => {
+		const jan = new Date(date.getFullYear(), 0, 1).getTimezoneOffset();
+		const jul = new Date(date.getFullYear(), 6, 1).getTimezoneOffset();
+		return Math.max(jan, jul) !== date.getTimezoneOffset();
+	};
+
+	let offset = isNAServer ? (isDST(date) ? 5 : 6) : -8;
+	date.setHours(date.getHours() + offset);
+
+	return date.toISOString();
 };
 
-const parseDuration = (
-	duration: string,
-	isEndDuration: boolean = false,
-	isAfterPatch: boolean = false
-): string => {
-	try {
-		// Attempt to parse the date and convert to ISO string
-		const date = new Date(duration);
-		// Check if the date is valid
-		if (!isNaN(date.getTime())) {
-			if (isEndDuration) {
-				date.setHours(17, 59, 59, 999);
-			} else if (isAfterPatch) {
-				date.setHours(0, 0, 0, 0);
-			} else {
-				date.setHours(18, 0, 0, 0);
-			}
-			return date.toISOString();
-		}
-		// If parsing fails or results in an invalid date, return the original string
-		return duration;
-	} catch (error) {
-		// If any error occurs during parsing, return the original string
-		return duration;
-	}
-};
-
-const parseContentBanners = (html: string): ContentBanner[] => {
-	const dom = new JSDOM(html);
-	const document = dom.window._document;
-
+const parseContentBanners = async (document: Document): Promise<ContentBanner[]> => {
 	const banners: ContentBanner[] = [];
 	const versionHeaders = document.querySelectorAll('h3');
 
@@ -60,25 +34,44 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 		const version = header.textContent?.trim().replace('Version ', '') || '';
 
 		const table = header.nextElementSibling?.nextElementSibling as HTMLTableElement;
-		let dateAfterPatch: string = '';
 		if (table && table.tagName === 'TABLE') {
 			const rows = table.querySelectorAll('tbody tr');
 
-			rows.forEach((row) => {
+			const rowPromises = Array.from(rows).map(async (row) => {
 				const cells = row.querySelectorAll('td');
 				if (cells.length >= 3) {
 					const titleAttr = cells[0].querySelectorAll('a')[1]
 						? cells[0].querySelectorAll('a')[1].getAttribute('title') || ''
 						: cells[0].querySelectorAll('a')[0].getAttribute('title') || '';
+					const titleHref = cells[0].querySelectorAll('a')[1]
+						? cells[0].querySelectorAll('a')[1].getAttribute('href') || ''
+						: cells[0].querySelectorAll('a')[0].getAttribute('href') || '';
+
+					const bannerDocument = await fetchHtmlContent(
+						`https://genshin-impact.fandom.com${titleHref}`
+					);
+					const startDurationElement = bannerDocument.querySelector(
+						'td[data-source="time_start"]'
+					);
+					const startDuration = serverTimeToUTC(
+						startDurationElement ? startDurationElement.textContent?.trim() : null,
+						false
+					);
+					const endDurationElement = bannerDocument.querySelector(
+						'td[data-source="time_end"]'
+					);
+					const endDuration = serverTimeToUTC(
+						endDurationElement ? endDurationElement.textContent?.trim() : null
+					);
+					const linkHref = bannerDocument
+						.querySelector('div[data-source="link"] a.external')
+						?.getAttribute('href');
 					const name = titleAttr.split('/')[0].trim();
 					const featured = Array.from(cells[1].querySelectorAll('.card-caption a')).map(
 						(a) => toPascalCase(a.getAttribute('title')?.trim() || '')
 					);
 					const duration = cells[2].textContent?.trim() || '';
-					const [startDuration, endDuration] = duration.split('–').map((d) => d.trim());
-					if (dateAfterPatch === '') {
-						dateAfterPatch = startDuration;
-					}
+
 					let type: ContentBanner['type'];
 					if (name.includes('Epitome Invocation')) {
 						type = 'Weapon';
@@ -95,21 +88,21 @@ const parseContentBanners = (html: string): ContentBanner[] => {
 						type = 'Character';
 					}
 
-					banners.push({
+					return {
 						version,
 						name,
-						startDuration: parseDuration(
-							startDuration,
-							false,
-							dateAfterPatch === startDuration
-						),
-						duration: parseDuration(endDuration, true),
+						startDuration: startDuration ?? 'Indefinite',
+						duration: endDuration ?? 'Indefinite',
 						featured,
 						type,
+						link: linkHref ?? '',
 						id: toPascalCase(name) + version
-					});
+					};
 				}
 			});
+
+			const rowResults = await Promise.all(rowPromises);
+			banners.push(...(rowResults.filter(Boolean) as ContentBanner[]));
 		}
 	}
 
@@ -120,9 +113,10 @@ const WIKI_URL = 'https://genshin-impact.fandom.com/wiki/Wish/History';
 
 const main = async () => {
 	// get all banner from the wiki
-	const html = await fetchHtmlContent(WIKI_URL);
-	const banners = parseContentBanners(html);
+	const document = await fetchHtmlContent(WIKI_URL);
+	const banners = await parseContentBanners(document);
 	// save the file in the data/en/banners.json using bun
+	console.log(banners);
 	write('./data/EN/Banners.json', JSON.stringify({ banner: banners }, null, 2));
 };
 

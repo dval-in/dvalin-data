@@ -2,8 +2,8 @@ name: Banner Update
 
 on:
   schedule:
-    # Run at 19:00 UTC every day
-    - cron: '0 19 * * *'
+   # Runs every day at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:

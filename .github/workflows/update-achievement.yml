@@ -2,8 +2,8 @@ name: Achievement Update
 
 on:
   schedule:
-    # Runs at 1:00 AM every Thursday
-    - cron: '0 1 * * 4'
+    # Runs every day at midnight UTC
+    - cron: "0 0 * * *" 
   workflow_dispatch:  # Allows manual triggering
 
 jobs:

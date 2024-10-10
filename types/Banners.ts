@@ -6,6 +6,7 @@ export type ContentBanner = {
 	featured: string[];
 	type: 'Beginner' | 'Permanent' | 'Character' | 'Weapon' | 'Chronicled';
 	id: string;
+	link: string;
 };
 
 export type Banner = {
