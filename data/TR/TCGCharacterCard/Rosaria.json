@@ -1,0 +1,76 @@
+{
+  "id": "Rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "\"Dikenli Gül\" Rosaria",
+  "desc": "\"Gölgeyi ışık yaratır ama gölge ışıkla kontrol edilemez.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Buz",
+    "weapon": "Mızrak",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Rosaria'yı Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "SpearOfTheChurch",
+      "name": "Kilisenin Mızrağı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Hiddetli İtiraf",
+      "desc": "1 Buz Hasarı verir, 2 kademe Zaafları Bul oluşturur. (Zaafları Bul etkisi tetiklendikten sonra Can Damarına Saldır oluşturur.)",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Son Ayin",
+      "desc": "1 Buz Hasarı verir, 2 kademe Zaafları Bul oluşturur ve Dondurucu Buz Mızrağı çağırır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Buz",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

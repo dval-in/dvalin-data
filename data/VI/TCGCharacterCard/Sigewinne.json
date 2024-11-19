@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Long Nữ Diệu Biến - Sigewinne",
+  "desc": "\"Linh hồn thánh thiện, hãy nghe lòng tôi.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Thủy",
+    "weapon": "Cung",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Nhận được sau khi mời Sigewinne giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "Trị Liệu Theo Mục Tiêu",
+      "desc": "Gây 2 điểm Sát Thương Vật Lý.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "Trị Liệu Nảy Nảy Nảy",
+      "desc": "Sinh ra 1 lá Bong Bóng Chữa Trị Lớn, đưa vào vị trí lá thứ 3 từ trên xuống trong kho bài phe ta, nhân vật này áp dụng 3 tầng Khế Ước Sinh Mệnh. (Sau khi kích hoạt hiệu quả của Bong Bóng Chữa Trị Lớn, sẽ sinh ra Bong Bóng Chữa Trị Vừa và đưa vào kho bài đối phương; Sau khi kích hoạt hiệu quả của Bong Bóng Chữa Trị Vừa, sẽ sinh ra Bong Bóng Chữa Trị Nhỏ và đưa vào kho bài phe ta)",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "Ống Tiêm Siêu Bão Hòa",
+      "desc": "Gây 2 điểm Sát Thương Nguyên Tố Thủy, sau đó Chuẩn Bị Kỹ Năng: Xung Kích Của Tấm Lòng Và Dược Liệu.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Nguyên Tố Thủy",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "Điều Trị Triệt Để",
+      "desc": "(Bị động) Khi nhân vật phe ta nhận chữa trị, sau khi Khế Ước Sinh Mệnh mà nhân vật này áp dụng được giải trừ hoàn toàn, nhân vật này sẽ nhận thêm 1 điểm HP Tối Đa. (Mỗi nhân vật tối đa hiệu quả 3 lần) Khi phe ta đổi sang nhân vật này: Nếu trong trận phe ta tồn tại Nguồn Nước Trong, sẽ -1 Số Lần Khả Dụng của nó và nhân vật này nhận 1 điểm Năng Lượng.",
+      "skillTag": [
+        "Kỹ Năng Bị Động"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

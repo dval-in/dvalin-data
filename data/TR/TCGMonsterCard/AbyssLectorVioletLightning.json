@@ -1,0 +1,93 @@
+{
+  "id": "AbyssLectorVioletLightning",
+  "shareId": 421,
+  "name": "Hiçlik Vaizi: Mor Şimşek",
+  "title": "Hiçlik Vaizi: Mor Şimşek",
+  "desc": "Aşınmanın Bilgeliği Hiçliğe saygılar olsun.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Elektrik",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "ChainLightningCascade",
+      "name": "Chain Lightning Cascade"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Hiçlik Vaizi: Mor Şimşek ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "AbyssLectorVioletLightning",
+      "name": "Abyss Lector: Violet Lightning"
+    }
+  },
+  "skills": [
+    {
+      "id": "DenOfThunder",
+      "name": "Yıldırım Yuvası",
+      "desc": "1 Elektrik Hasarı verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShockOfTheEnigmaticAbyss",
+      "name": "Esrarengiz Hiçlik Şoku",
+      "desc": "3 Elektrik Hasarı verir. Eğer hedef Elektrik etkisindeyse ondan 1 Enerji çalar. (Eğer bu karakterin Enerjisi zaten doluysa çalınan Enerji, Enerjisi dolu olmayan sıradaki karaktere verilir.)",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WildThunderburst",
+      "name": "Şiddetli Yıldırım Patlaması",
+      "desc": "3 Elektrik Hasarı verir. Hedefin 1'den fazla Enerjisi yoksa fazladan 2 Hasar verir.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektrik",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectricRebirth",
+      "name": "Elektriğin Yeniden Doğuşu",
+      "desc": "(Pasif) Savaş başladığında Elektriğin Yeniden Doğuşu kazanır. Bu karakter Elektriğin Yeniden Doğuşu tetiklediğinde Şimşek Tılsımı kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

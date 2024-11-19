@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "\"Muhteşem Ejdervarisi\" Sigewinne",
+  "desc": "\"Saf Ruh, dileklerime kulak ver.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Su",
+    "weapon": "Yay",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Sigewinne'i Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "Odaklı Tedavi",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "Zıplayan Hidroterapi",
+      "desc": "1 Devasa Canlandıran Baloncuk oluşturur ve destene üstten üçüncü kart olarak eklenir. Bu karakter 3 kademe Hayat Bağı kazanır. (Devasa Canlandıran Baloncuk etkisi tetiklendikten sonra bir Orta Canlandıran Baloncuk oluşturur ve rakibinin destesine eklenir. Orta Canlandıran Baloncuk etkisi tetiklendikten sonra bir Küçük Canlandıran Baloncuk oluşturur ve destene eklenir.)",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "Aşırı Doygun Şırınga",
+      "desc": "2 Su Hasarı verir. Ardından İyi Niyetli Tıbbi Müdahale için \"Beceri Hazırlama\" kullanır.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Su",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "Detaylı Muayene, Kapsamlı Tedavi",
+      "desc": "(Pasif) Karakterin iyileştirildiğinde ve ona ekli olan Hayat Bağı tamamen kaldırıldığında bu karakter ek 1 Maks. Can kazanır. (Karakter başına en fazla 3 defa.) Bu karaktere geçiş yaptığında senin tarafında Kaynak Suyu Damlacığı varsa Kullanım Hakkı 1 azalır ve bu karakter 1 Enerji kazanır.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

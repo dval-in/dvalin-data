@@ -1,0 +1,93 @@
+{
+  "id": "AbyssLectorVioletLightning",
+  "shareId": 421,
+  "name": "深渊咏者·紫电",
+  "title": "深渊咏者·紫电",
+  "desc": "高颂渊薮，侵蚀之智。",
+  "attributes": {
+    "hp": 6,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "talent_card": {
+      "id": "ChainLightningCascade",
+      "name": "Chain Lightning Cascade"
+    },
+    "source": "在猫尾酒馆中小王子处进行酒馆挑战，在友好对局难度深渊咏者·紫电中获得胜利后获取",
+    "character": {
+      "id": "AbyssLectorVioletLightning",
+      "name": "Abyss Lector: Violet Lightning"
+    }
+  },
+  "skills": [
+    {
+      "id": "DenOfThunder",
+      "name": "渊薮落雷",
+      "desc": "造成1点雷元素伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShockOfTheEnigmaticAbyss",
+      "name": "秘渊虚霆",
+      "desc": "造成3点雷元素伤害。 如果目标已附着雷元素，则夺取对方1点充能。（如果夺取时此角色充能已满，则改为由下一个充能未满的角色获得充能）",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WildThunderburst",
+      "name": "狂迸骇雷",
+      "desc": "造成3点雷元素伤害。 如果目标充能不多于1，造成的伤害+2。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectricRebirth",
+      "name": "雷之新生",
+      "desc": "【被动】战斗开始时，初始附属雷之新生。 本角色触发雷之新生时：为其附属轰霆护罩。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

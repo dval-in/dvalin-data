@@ -1,0 +1,93 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "Eremita danzatrice dell'anello floreale",
+  "title": "Eremita danzatrice dell'anello floreale, Ricordi vorticanti",
+  "desc": "\"I figli del deserto hanno una ricca tradizione di danze e canzoni. Inizialmente erano usate per elogiare e servire gli dèi, in seguito furono adattate per combattere e per sedurre i re.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Altre armi",
+    "faction": [
+      "Eremiti"
+    ],
+    "talent_card": {
+      "id": "SpiritSerpentsSwirl",
+      "name": "Spirit Serpent's Swirl"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo l'Eremita danzatrice dell'anello floreale in un duello amichevole",
+    "character": {
+      "id": "EremiteFloralRingdancer",
+      "name": "Eremite Floral Ring-Dancer"
+    }
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "Carezza dell'anello floreale",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "Spirale vorticosa",
+      "desc": "Infligge $[D__KEY__DAMAGE_3] DAN da Dendro, genera 1 accumulo di Benedizione del serpente spirituale.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "Risveglio dello Spirito del presagio: Serpente spirituale di Dendro",
+      "desc": "Infligge 4 DAN da Dendro. Una volta a partita, associa Spirito del presagio: Serpente spirituale di Dendro a questo personaggio. (I personaggi con Spirito del presagio: Serpente spirituale di Dendro associato possono usare la tecnica: Lamascaglie di rampicanti.)",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Potere dello Spirito del presagio",
+      "desc": "(Passiva) Quando questo personaggio subisce DAN: se i PS di questo personaggio sono 7 o meno, ottiene 1 punto Energia (una volta per turno).",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

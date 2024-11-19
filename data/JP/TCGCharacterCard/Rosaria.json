@@ -1,0 +1,76 @@
+{
+  "id": "Rosaria",
+  "shareId": 432,
+  "name": "ロサリア",
+  "title": "荊冠の恩典・ロサリア",
+  "desc": "「影は光から生まれるが、光が影を御すことはできない。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "氷元素",
+    "weapon": "長柄武器",
+    "faction": [
+      "モンド"
+    ],
+    "source": "キャッツテールでロサリアを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "SpearOfTheChurch",
+      "name": "教会槍術",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "罪喰いの懺悔",
+      "desc": "氷元素ダメージを1与え、弱点看破を2層生成する。（弱点看破の効果発動時、弱点突破を生成する。）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "臨終の聖礼",
+      "desc": "氷元素ダメージを1与え、弱点看破を2層生成し、極寒の氷槍を召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "氷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

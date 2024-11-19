@@ -1,0 +1,76 @@
+{
+  "id": "Rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "Rosaria - La Beata Impía",
+  "desc": "“Las sombras nacen de la luz, pero la luz no las domina”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lanza",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Se obtiene tras retar y ganar a Rosaria en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "SpearOfTheChurch",
+      "name": "Lanza eclesiástica",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Confesión impronunciable",
+      "desc": "Inflige 1 pt. de Daño Cryo y otorga 2 cargas de undefined. Al activar el efecto de undefined, crea un undefined.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Extremaunción",
+      "desc": "Inflige 1 pt. de Daño Cryo, otorga 2 cargas de undefined e invoca una lanza gélida.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

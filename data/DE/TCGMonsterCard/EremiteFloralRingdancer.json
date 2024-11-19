@@ -1,0 +1,93 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "Goldbrigade – Blumentänzerin",
+  "title": "Wirbelnde Erinnerungen – Blumentänzerin",
+  "desc": "„Das Volk der Wüste hegt eine lange Tradition der Musik und des Tanzes, zunächst als Tribut für die Götter, später als Technik des Schauspiels und des Kampfes zur Freude des Königs.“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Goldbrigade"
+    ],
+    "talent_card": {
+      "id": "SpiritSerpentsSwirl",
+      "name": "Spirit Serpent's Swirl"
+    },
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit „Goldbrigade – Blumentänzerin“ in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten.",
+    "character": {
+      "id": "EremiteFloralRingdancer",
+      "name": "Eremite Floral Ring-Dancer"
+    }
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "Blütenschneider",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "Ausbreitender Wirbeltanz",
+      "desc": "Verursacht $[D__KEY__DAMAGE_3] Pkt. Dendro-SCH, erschafft 1 Stapelung Segen der Geistschlange.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "Erwachen des Geistes – Laubschlange",
+      "desc": "Verursacht 4 Pkt. Dendro-SCH. Verleiht sich selbst Geist – Laubschlange (max. 1-mal pro Duell). (Figuren, die mit Geist – Laubschlange ausgerüstet sind, können die Spezialtechnik anwenden: Rankende scharfe Schuppen)",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Dämonische Kraft des Geistes",
+      "desc": "Passiv – Nachdem die Figur SCH erlitten hat: Erhält 1 Pkt. Aufladung, wenn diese Figur nicht mehr als 7 LP hat (1-mal pro Runde).",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Sigewinne · Merveilleuse fille-dragonne",
+  "desc": "« Esprit sanctificateur, écoute mon souhait. »",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Arc",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Récompense pour avoir invité Sigewinne à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "Traitement ciblé",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "Hydrothérapie rebondissante",
+      "desc": "Crée 1 carte [Grande bulle d'eau curative] en 3e position en haut de votre deck et applique 3 cumuls d'engagement vital au personnage. (Déclencher l'effet d'une grande bulle d'eau curative crée une carte [Moyenne bulle d'eau curative] dans le deck de l'adversaire, tandis que déclencher l'effet d'une moyenne bulle d'eau curative crée une carte [Petite bulle d'eau curative] dans votre deck.)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "Injection sur-saturée",
+      "desc": "Inflige 2 pts de DGT Hydro et prépare la capacité : Intervention médicale de pure intention.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "Traitement minutieux prescrit",
+      "desc": "(Passif) Lorsque votre personnage reçoit des soins et que son engagement vital est complètement annulé : Les PV max du personnage augmentent de 1 en plus. (3 fois maximum par personnage) Lorsque vous basculez pour ce personnage : Si une goutte d'eau de source est sur votre terrain, le nombre d'utilisations diminue de 1 et le personnage obtient 1 charge.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

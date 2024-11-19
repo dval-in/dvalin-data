@@ -1,0 +1,93 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "도금 여단·풀고리 무용수",
+  "title": "원무의 추억·풀고리 무용수",
+  "desc": "「사막의 백성들에겐 음악과 춤의 전통이 있는데 시작은 신을 향한 예찬이었으며, 후에는 왕의 환심을 사거나 싸우기 위한 기술로 활용되었다」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "풀 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "도금 여단"
+    ],
+    "talent_card": {
+      "id": "SpiritSerpentsSwirl",
+      "name": "Spirit Serpent's Swirl"
+    },
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 도금 여단·풀고리 무용수에게 승리 후 획득",
+    "character": {
+      "id": "EremiteFloralRingdancer",
+      "name": "Eremite Floral Ring-Dancer"
+    }
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "풀고리 쓸기",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "풀 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "만연하는 원무",
+      "desc": "풀 원소 피해를 $[D__KEY__DAMAGE_3]pt 주고 영혼의 뱀 축복을 1스택 생성한다",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "풀 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "악령 소생·영혼의 풀뱀",
+      "desc": "풀 원소 피해를 4pt 준다. 대전당 1회 제한. 자신에게 악령·영혼의 풀뱀을 부착한다. (악령·영혼의 풀뱀을 장착한 캐릭터는 특수 스킬 사용 가능: 날카로운 넝쿨 비늘)",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "풀 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "악령의 힘",
+      "desc": "[패시브] 이 캐릭터가 피해를 받은 후: 이 캐릭터의 HP가 7pt 이하이면 원소 에너지를 1pt 획득한다. (턴당 1회)",
+      "skillTag": [
+        "패시브 스킬"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}
