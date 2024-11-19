@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "希格雯",
+  "title": "龙女妙变·希格雯",
+  "desc": "「圣洁之灵，请听我愿。」",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "弓",
+    "faction": [
+      "枫丹"
+    ],
+    "source": "在猫尾酒馆中邀请希格雯进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "靶向治疗",
+      "desc": "造成2点物理伤害。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "弹跳水疗法",
+      "desc": "生成1张激愈水球·大，将其置于我方牌库顶部第3张牌的位置，本角色附属3层生命之契。（触发激愈水球·大的效果后，会生成激愈水球·中并置入对方牌库；触发激愈水球·中的效果后，会生成激愈水球·小并置入我方牌库）",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "过饱和心意注射",
+      "desc": "造成2点水元素伤害，然后准备技能：满满心意药剂冲击。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "细致入微的诊疗",
+      "desc": "【被动】我方角色受到治疗，使其所附属的生命之契被完全移除后，该角色获得1点额外最大生命值。（对每名角色最多生效3次） 我方切换到本角色时：如果我方场上存在源水之滴，则使其可用次数-1，本角色获得1点充能。",
+      "skillTag": [
+        "被动技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

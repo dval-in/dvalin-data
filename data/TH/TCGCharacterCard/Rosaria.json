@@ -1,0 +1,76 @@
+{
+  "id": "Rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "ความเมตตาที่เสียดแทง - Rosaria",
+  "desc": "\"เงามืดมาจากแสงสว่าง แต่แสงสว่างไม่ควบคุมเงามืดได้\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุน้ำแข็ง",
+    "weapon": "หอก",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "ได้รับหลังจากเชิญ Rosaria ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "SpearOfTheChurch",
+      "name": "Spear of the Church",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Ravaging Confession",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และสร้าง ตรวจจับจุดอ่อน 2 ชั้น (เมื่อทำให้เกิดเอฟเฟกต์ของ ตรวจจับจุดอ่อน จะสร้าง โจมตีจุดอ่อน)",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Rites of Termination",
+      "desc": "สร้างความเสียหายน้ำแข็ง 1 หน่วย และทำให้เกิด ตรวจจับจุดอ่อน 2 ชั้น เพื่อเรียก Evercold Frostlance",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "ธาตุน้ำแข็ง",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

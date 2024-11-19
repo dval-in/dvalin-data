@@ -1,0 +1,93 @@
+{
+  "id": "AbyssLectorVioletLightning",
+  "shareId": 421,
+  "name": "Chantre de l'Abîme - Foudre pourpre",
+  "title": "Chantre de l'Abîme - Foudre pourpre",
+  "desc": "Loué soit l'Abîme, la sagesse de la corrosion.",
+  "attributes": {
+    "hp": 6,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "talent_card": {
+      "id": "ChainLightningCascade",
+      "name": "Chain Lightning Cascade"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Chantre de l'Abîme « Foudre pourpre »",
+    "character": {
+      "id": "AbyssLectorVioletLightning",
+      "name": "Abyss Lector: Violet Lightning"
+    }
+  },
+  "skills": [
+    {
+      "id": "DenOfThunder",
+      "name": "Repaire du tonnerre",
+      "desc": "Inflige 1 pt de DGT Électro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ShockOfTheEnigmaticAbyss",
+      "name": "Choc de l'abîme énigmatique",
+      "desc": "Inflige 3 pts de DGT Électro. Si l'élément Électro est déjà appliqué à la cible : Lui vole 1 charge. (Si les charges du personnage sont au maximum, la charge volée est donnée au prochain personnage à qui il manque des charges)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "WildThunderburst",
+      "name": "Tonnerre frénétique",
+      "desc": "Inflige 3 pts de DGT Électro. Si la cible n'a pas plus d'une charge : DGT infligés +2.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ElectricRebirth",
+      "name": "Renaissance électrifiée",
+      "desc": "(Passif) Applique une renaissance électrifiée au début du combat. Lorsque le personnage déclenche une renaissance électrifiée : Lui applique une égide fulminante.",
+      "skillTag": [
+        "Capacité passive"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

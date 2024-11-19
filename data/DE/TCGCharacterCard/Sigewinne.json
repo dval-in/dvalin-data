@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Wunderbare Drachenerbin – Sigewinne",
+  "desc": "„Reiner Geist, erhöre meinen Wunsch“",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Bogen",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Sigewinne in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "Gezielte Behandlung",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "Hüpfende Hydrotherapie",
+      "desc": "Erschafft 1 Großer heilender Wasserballon, fügt die Karte als dritte Karte von oben deinem Deck hinzu. Verleiht dieser Figur 3 Stapelungen Eid des Lebens (Erschafft beim Auslösen des Effekts von Großer heilender Wasserballon 1 Mittlerer heilender Wasserballon und fügt ihn dem Deck des Gegners hinzu; erschafft beim Auslösen des Effekts von Mittlerer heilender Wasserballon 1 Kleiner heilender Wasserballon und fügt ihn deinem Deck hinzu).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "Übereifrige Injektion",
+      "desc": "Verursacht 2 Pkt. Hydro-SCH, bereitet folgende Fähigkeiten vor: Trankvorstoß mit besten Absichten.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "Detaillierte Diagnose, sorgfältige Behandlung",
+      "desc": "Passiv – Wenn eine Figur von dir geheilt wird und der zu ihr gehörende Eid des Lebens vollständig entfernt wird, max. LP dieser Figur +1 (max. 3-mal pro Figur). Beim Wechseln zu dieser Figur: Wenn bei dir auf dem Feld Quellwassertropfen existiert, Einsatzmöglichkeit -1, verleiht dieser Figur 1 Pkt. Aufladung.",
+      "skillTag": [
+        "Passive Fähigkeit"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

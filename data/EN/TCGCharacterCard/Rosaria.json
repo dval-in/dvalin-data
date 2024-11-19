@@ -1,0 +1,76 @@
+{
+  "id": "Rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "\"Thorny Benevolence\" Rosaria",
+  "desc": "\"Light creates shadow, but shadow will not be controlled by light.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Polearm",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Reward for inviting Rosaria to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "SpearOfTheChurch",
+      "name": "Spear of the Church",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Ravaging Confession",
+      "desc": "Deals 1 Cryo DMG, creates 2 stacks of Scope Out Soft Spots. (When the Scope Out Soft Spots effect is triggered, creates Strike Where It Hurts.)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Rites of Termination",
+      "desc": "Deals 1 Cryo DMG, creates 2 stacks of Scope Out Soft Spots, and summons Evercold Frostlance.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

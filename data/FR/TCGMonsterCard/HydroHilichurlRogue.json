@@ -1,0 +1,85 @@
+{
+  "id": "HydroHilichurlRogue",
+  "shareId": 409,
+  "name": "Brutovéreux Hydro",
+  "title": "Vagabond des marées : Brutovéreux Hydro",
+  "desc": "Brutocollinus nomade qui n'est affilié à aucune tribu spécifique. On le trouve souvent errant dans la nature, comme s'il s'était imposé lui-même un exil.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre",
+      "Brutocollinus"
+    ],
+    "talent_card": {
+      "id": "HydrodartSlime",
+      "name": "Hydrodart Slime"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Brutovéreux Hydro",
+    "character": {
+      "id": "HydroHilichurlRogue",
+      "name": "Hydro Hilichurl Rogue"
+    }
+  },
+  "skills": [
+    {
+      "id": "WhirlingScythe",
+      "name": "Faux tourbillonnante",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SlashOfSurgingTides",
+      "name": "Coup de marée montante",
+      "desc": "Inflige 3 pts de DGT Hydro. Si un personnage adverse est affecté par un Gel ou une prison d'écume : Ce personnage obtient 1 charge. (1 fois par manche)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BubblefloatBlitz",
+      "name": "Offensive de bulles flottantes",
+      "desc": "Inflige 4 pts de DGT Hydro et applique un Blob écumeux au personnage. (Les personnages équipés avec [Blob écumeux] peuvent utiliser l'habilité : Tactique écumeuse)",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

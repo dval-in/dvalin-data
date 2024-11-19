@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "Sigewinne - La Heredera Dragontina",
+  "desc": "“Espíritu inmaculado, escucha mi deseo”.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Arco",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Se obtiene tras retar y ganar a Sigewinne en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "Terapia dirigida",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "Hidroterapia de rebote",
+      "desc": "Crea 1 carta de Acuaglóbulo revitalizante grande y la coloca en la tercera posición de tu pila de cartas. Este personaje obtiene 3 cargas de pacto vital. Tras activar el efecto de Acuaglóbulo revitalizante grande, se crea un Acuaglóbulo revitalizante mediano y se coloca en la pila de cartas del rival. Tras activar el efecto de Acuaglóbulo revitalizante mediano, se crea un Acuaglóbulo revitalizante pequeño y se coloca en tu pila de cartas.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "Inyección de bondad sobresaturada",
+      "desc": "Inflige 2 pts. de Daño Hydro y prepara la habilidad Inyección de amor.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "Diagnóstico detallado, tratamiento meticuloso",
+      "desc": "Pasiva: cuando tu personaje recibe una curación y el efecto del pacto vital se consume por completo, dicho personaje obtiene 1 pt. de Vida Máx. adicional (hasta 3 veces por personaje). Al cambiar a este personaje, si en tu campo hay alguna gota primigenia, su número de usos se reduce en 1 y este personaje obtiene Energía +1.",
+      "skillTag": [
+        "Habilidad pasiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

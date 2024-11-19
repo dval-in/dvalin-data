@@ -1,0 +1,76 @@
+{
+  "id": "Rosaria",
+  "shareId": 432,
+  "name": "Rosaria",
+  "title": "Rosaria, Benevolenza spinosa",
+  "desc": "\"La luce crea l'ombra, ma l'ombra non può essere controllata dalla luce.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Cryo",
+    "weapon": "Lancia",
+    "faction": [
+      "Mondstadt"
+    ],
+    "source": "Ricompensa ottenuta sfidando Rosaria a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "SpearOfTheChurch",
+      "name": "Lancia della Chiesa",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "RavagingConfession",
+      "name": "Confessione devastante",
+      "desc": "Infligge 1 DAN da Cryo, crea 2 accumuli di Esaminare i punti deboli (quando l'effetto di Esaminare i punti deboli viene innescato, crea Colpisci dove fa più male).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "RitesOfTermination",
+      "name": "Sacramento finale",
+      "desc": "Infligge 1 DAN da Cryo, crea 2 accumuli di Esaminare i punti deboli e invoca Lancia del gelo eterno.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Cryo",
+          "type": "Cryo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.2"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "Eremite Floral Ring-Dancer",
+  "title": "\"Whirling Memories\" Eremite Floral Ring-Dancer",
+  "desc": "\"Keturunan di padang pasir memiliki tradisi nyanyian dan tarian yang beragam. Awalnya semua ini digunakan untuk memuji dan melayani para dewa, namun kemudian seni-seni ini diadaptasi untuk pertempuran dan merayu raja.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Eremite"
+    ],
+    "talent_card": {
+      "id": "SpiritSerpentsSwirl",
+      "name": "Spirit Serpent's Swirl"
+    },
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Eremite Floral Ring-Dancer",
+    "character": {
+      "id": "EremiteFloralRingdancer",
+      "name": "Eremite Floral Ring-Dancer"
+    }
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "Floral-Ring Caress",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "Spiraling Whirl",
+      "desc": "Mengakibatkan $[D__KEY__DAMAGE_3] poin Dendro DMG dan menciptakan 1 lapis Spirit-Serpent's Blessing.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "Spirit of Omen's Awakening: Dendro Spirit-Serpent",
+      "desc": "Mengakibatkan 4 poin Dendro DMG. Sekali selama pertandingan, memberikan Spirit of Omen: Dendro Spirit-Serpent kepada diri sendiri. (Karakter yang mengenakan Spirit of Omen: Dendro Spirit-Serpent dapat menggunakan Teknik: Viny Razorscale)",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Spirit of Omen's Power",
+      "desc": "[Pasif] Setelah Karakter ini menerima DMG: Jika HP Karakter tidak lebih dari 7 poin, maka akan mendapatkan 1 poin Energy. (Sekali setiap Ronde)",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

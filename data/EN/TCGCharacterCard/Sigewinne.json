@@ -1,0 +1,85 @@
+{
+  "id": "Sigewinne",
+  "shareId": 433,
+  "name": "Sigewinne",
+  "title": "\"Wondrous Dragonheir\" Sigewinne",
+  "desc": "\"Pure spirit, heed my wish.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Bow",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Reward for inviting Sigewinne to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "TargetedTreatment",
+      "name": "Targeted Treatment",
+      "desc": "Deals 2 Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "ReboundHydrotherapy",
+      "name": "Rebound Hydrotherapy",
+      "desc": "Create 1 Large Bolstering Bubblebalm and insert as the third card from the top of your deck. This character gains 3 stacks of Bond of Life. (After the Large Bolstering Bubblebalm effect is triggered, create a Medium Bolstering Bubblebalm and place in your opponent's deck. After the Medium Bolstering Bubblebalm effect is triggered, create a Small Bolstering Bubblebalm and place in your deck.)",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SuperSaturatedSyringing",
+      "name": "Super Saturated Syringing",
+      "desc": "Deals 2 Hydro DMG, then performs \"Prepare Skill\" for Medical Intervention of Pure Intention.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "DetailedDiagnosisThoroughTreatment",
+      "name": "Detailed Diagnosis, Thorough Treatment",
+      "desc": "(Passive) When your character is healed, after causing the Bond of Life attached to them to be completely removed, this character gains 1 extra Max HP. (Up to 3 times per character) When you switch to this character: If your side has Sourcewater Droplet, -1 to their Usage(s), and this character gains 1 Energy.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}

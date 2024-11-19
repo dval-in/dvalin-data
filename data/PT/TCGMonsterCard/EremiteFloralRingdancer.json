@@ -1,0 +1,93 @@
+{
+  "id": "EremiteFloralRingdancer",
+  "shareId": 422,
+  "name": "Eremita Dançarina Floral",
+  "title": "\"Memórias Rodopiantes\" Eremita Dançarina Floral",
+  "desc": "\"As crianças do deserto têm uma rica tradição de canções e danças. Originalmente usadas para louvar e servir aos deuses, o ofício foi mais tarde adaptado para batalha e sedução de reis.\"",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de Personagem",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Outras Armas",
+    "faction": [
+      "Eremitas"
+    ],
+    "talent_card": {
+      "id": "SpiritSerpentsSwirl",
+      "name": "Spirit Serpent's Swirl"
+    },
+    "source": "Recompensa por aceitar o Desafio da Taverna na Cauda do Gato e conquistar a vitória em uma Partida Amistosa com Eremita Dançarina Floral",
+    "character": {
+      "id": "EremiteFloralRingdancer",
+      "name": "Eremite Floral Ring-Dancer"
+    }
+  },
+  "skills": [
+    {
+      "id": "FloralringCaress",
+      "name": "Carícia do Anel Floral",
+      "desc": "Causa 2 pontos de Dano Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemento Indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiralingWhirl",
+      "name": "Valsa Rodopiante",
+      "desc": "Causa $[D__KEY__DAMAGE_3] de Dano Dendro, cria 3 acúmulos de Bênção da Serpente Espiritual.",
+      "skillTag": [
+        "Habilidade Elemental"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensAwakeningDendroSpiritserpent",
+      "name": "Despertar do Espírito Ominoso: Serpente Dendro",
+      "desc": "Causa 4 pontos de Dano Dendro. Uma vez a cada Partida, aplica Espírito Ominoso: Serpente Dendro a esse personagem. (Personagens com Espírito Ominoso: Serpente Dendro equipado podem usar a Técnica: Escamas de Videiras Afiadas)",
+      "skillTag": [
+        "Supremo"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Carga",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SpiritOfOmensPower",
+      "name": "Poder do Espírito Ominoso",
+      "desc": "(Passivo) Após o personagem receber Dano: Caso este personagem tenha menos do que 7 de Vida, ganha 1 Carga. (Uma vez por Turno)",
+      "skillTag": [
+        "Habilidade Passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.2"
+}
