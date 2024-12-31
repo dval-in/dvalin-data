@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Thắp Nến Diệt Bóng Tối - Clorinde",
+  "desc": "Tiêu diệt bóng ma, bảo vệ đêm dài.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Thẻ Nhân Vật",
+    "energy": 2,
+    "element": "Nguyên Tố Lôi",
+    "weapon": "Kiếm Đơn",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Nhận được sau khi mời Clorinde giao đấu trong Quán Rượu Đuôi Mèo, và giành chiến thắng trong Đánh Giải Trí"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "Lời Thề Marechaussee",
+      "desc": "Gây 1 điểm Sát Thương Vật Lý. Nếu nhân vật này áp dụng Gác Đêm, sẽ khiến kỹ năng này giảm tiêu hao 1 Nguyên Tố Không Màu.",
+      "skillTag": [
+        "Tấn Công Thường"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nguyên Tố Không Màu",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "Thanh Trừng Bóng Tối",
+      "desc": "Áp dụng Gác Đêm cho bản thân, xóa bỏ toàn bộ Khế Ước Sinh Mệnh của bản thân. Sau đó, gây Sát Thương Nguyên Tố Lôi và tự chữa trị dựa trên số tầng đã xóa bỏ. (Sát thương và chữa trị tối đa 4 điểm)",
+      "skillTag": [
+        "Kỹ Năng Nguyên Tố"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "Tia Sáng Cuối Cùng",
+      "desc": "Gây 3 điểm Sát Thương Nguyên Tố Lôi, áp dụng 4 tầng Khế Ước Sinh Mệnh cho bản thân.",
+      "skillTag": [
+        "Kỹ Năng Nộ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Nguyên Tố Lôi",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Năng Lượng",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

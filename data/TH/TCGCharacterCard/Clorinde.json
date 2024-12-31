@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "ล่าเงาพิทักษ์ราตรี - Clorinde",
+  "desc": "ล่าเงาปีศาจ พิทักษ์รัตติกาล",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 2,
+    "element": "ธาตุไฟฟ้า",
+    "weapon": "ดาบ",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "ได้รับหลังจากเชิญ Clorinde ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "Oath of Hunting Shadows",
+      "desc": "สร้างความเสียหายกายภาพ 1 หน่วย หากตัวละครนี้ได้รับ Night Vigil สกิลนี้จะใช้ธาตุไร้สีน้อยลง 1 ลูก",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "Hunter's Vigil",
+      "desc": "ตนเองได้รับ Night Vigil และลบล้าง บ่วงพันธะชีวัน ทั้งหมดของตัวเอง จากนั้นสร้าง ความเสียหายไฟฟ้า ตามจำนวนชั้นที่ถูกลบล้าง และรักษาตัวเอง (ความเสียหายและการรักษาสูงสุด 4 หน่วย)",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "Last Lightfall",
+      "desc": "สร้างความเสียหายไฟฟ้า 3 หน่วย และตัวเองได้รับ บ่วงพันธะชีวัน 4 ชั้น",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "ธาตุไฟฟ้า",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

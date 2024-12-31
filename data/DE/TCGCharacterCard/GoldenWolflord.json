@@ -1,0 +1,76 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "Goldener Garmfürst",
+  "title": "König der Garme – Goldener Garmfürst",
+  "desc": "Ein entartetes Monster aus einer anderen Welt. Dieses Monster ist der unangefochtene Herrscher der Garmwölfe und verfügt über die Macht, seinen Untergebenen zu befehlen, den Raum aufzulösen.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Andere Waffen",
+    "faction": [
+      "Monster"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit dem Goldenen Garmfürsten in der Tavernen-Herausforderung bei „Prinz“ in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "Volltreffer des Garmfürsten",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "Ruf aus der Garmwelt",
+      "desc": "Verursacht 1 Pkt. Geo-SCH und verleiht der gewählten Figur 2 Stapelungen Korrosion des Goldes, erschafft 1 Garmschädel.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "Zerfressen durch Gold",
+      "desc": "Verursacht 3 Pkt. Geo-SCH, fügt allen inaktiven Figuren des Gegners 1 Pkt. durchdringenden SCH zu und verleiht allen Figuren des Gegners Korrosion des Goldes.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

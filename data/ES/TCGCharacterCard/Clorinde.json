@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Clorinde - La Cazasombras Portavelas",
+  "desc": "Conquistadora de fantasmas, guardiana de la noche.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Espada ligera",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Se obtiene tras retar y ganar a Clorinde en un duelo amistoso en la taberna Cola de Gato"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "Credo fantasmal",
+      "desc": "Inflige 1 pt. de Daño Físico. Si este personaje está en el estado de patrulla nocturna, gasta 1 dado indefinido menos en lanzar esta habilidad.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "Caza noctámbula",
+      "desc": "Entra en el estado de Patrulla nocturna y elimina todas las acumulaciones de pacto vital. Después, inflige Daño Electro y regenera Vida según la cantidad de cargas consumidas (máximo 4 pts. de daño y Vida).",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "Destello final",
+      "desc": "Inflige 3 pts. de Daño Electro y obtiene 4 acumulaciones de pacto vital.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}
