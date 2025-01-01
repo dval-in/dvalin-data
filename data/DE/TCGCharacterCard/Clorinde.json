@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Kerzenträgerin, Häscherin der Schatten – Clorinde",
+  "desc": "Bezwingerin der Phantome, Wächterin der Nacht",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Elektro",
+    "weapon": "Einhänder",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Clorinde in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "Eid der Schattenjäger",
+      "desc": "Verursacht 1 Pkt. phys. SCH. Wenn die Figur mit Nachtpatrouille ausgerüstet ist, wird für diese Fähigkeit 1 Würfel (beliebig) weniger verbraucht.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "Nächtliche Jagd",
+      "desc": "Verleiht sich selbst Nachtpatrouille und entfernt sämtlichen eigenen Eid des Lebens. Verursacht anschließend basierend auf den entfernten Stapelungen Elektro-SCH und heilt sich selbst (max. 4 Pkt. Schaden und Heilung).",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "Sterbende Lichtstrahlen",
+      "desc": "Verursacht 3 Pkt. Elektro-SCH, verleiht sich selbst 4 Stapelungen Eid des Lebens.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Elektro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

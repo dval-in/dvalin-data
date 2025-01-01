@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Clorinde, Cacciatrice d'ombre",
+  "desc": "Trionfatrice di spettri, Guardiana della lunga notte.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Electro",
+    "weapon": "Spada",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Ricompensa ottenuta sfidando Clorinde a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "Patto delle Ombre Cacciatrici",
+      "desc": "Infligge 1 DAN fisici. Se questo personaggio ha associata Vigilante della notte, questa abilità costa 1 elemento indefinito in meno.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "Veglia della cacciatrice",
+      "desc": "Associa Vigilante della notte a sé stessa, dopodiché rimuovi tutto il tuo Legame vitale. In base al numero di accumuli rimossi, infliggi DAN da Electro e ripristina i PS (i DAN e la guarigione sono limitati a 4).",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "Fulgore finale",
+      "desc": "Infligge 3 DAN da Electro, e associa 4 accumuli di Legame vitale a sé stessa.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Electro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

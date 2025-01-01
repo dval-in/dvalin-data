@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "クロリンデ",
+  "title": "燭火を携えた影の狩人・クロリンデ",
+  "desc": "魔影を滅し、永夜を守らん。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "片手剣",
+    "faction": [
+      "フォンテーヌ"
+    ],
+    "source": "キャッツテールでクロリンデを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "影追いの誓い",
+      "desc": "物理ダメージを1与える。本キャラが夜巡りを付与されている場合、このスキルに必要な無色元素-1。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "夜狩の巡回",
+      "desc": "自身に夜巡りを付与し、自身のすべての命の契約を取り除く。取り除かれた層数に応じて雷元素ダメージを与え、自身を治療する。（ダメージ、治療ともに最大4まで）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "消えゆく残光",
+      "desc": "雷元素ダメージを3与え、自身に命の契約を4層付与する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

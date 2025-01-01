@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "Clorinde",
+  "title": "Clorinde · Porteuse de bougie et chasseuse d'ombres",
+  "desc": "Pourfendeuse de fantômes, protégeant la longue nuit...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Électro",
+    "weapon": "Épée à une main",
+    "faction": [
+      "Fontaine"
+    ],
+    "source": "Récompense pour avoir invité Clorinde à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "Crédo des ombres chasseuses",
+      "desc": "Inflige 1 pt de DGT physiques. Si le personnage est sous l'effet d'une vigile nocturne, cette capacité dépense 1 dé élément neutre en moins.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "Ronde de la nuitée",
+      "desc": "Applique une vigile nocturne au personnage et annule tout son engagement vital, puis inflige des DGT Électro et soigne le personnage selon la quantité de cumuls annulés. (Maximum 4 pts de DGT et de soins)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "Fin de la clarté",
+      "desc": "Inflige 3 pts de DGT Électro et applique 4 cumuls d'engagement vital au personnage.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "Électro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

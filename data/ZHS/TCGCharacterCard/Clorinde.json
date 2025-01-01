@@ -1,0 +1,76 @@
+{
+  "id": "Clorinde",
+  "shareId": 445,
+  "name": "克洛琳德",
+  "title": "秉烛狝影·克洛琳德",
+  "desc": "洞灭魔影，持护长夜。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "雷元素",
+    "weapon": "单手剑",
+    "faction": [
+      "枫丹"
+    ],
+    "source": "在猫尾酒馆中邀请克洛琳德进行对局，在友好对局难度中获得胜利后获取"
+  },
+  "skills": [
+    {
+      "id": "OathOfHuntingShadows",
+      "name": "逐影之誓",
+      "desc": "造成1点物理伤害。如果本角色附属夜巡，则此技能少花费1个无色元素。",
+      "skillTag": [
+        "普通攻击"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "无色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HuntersVigil",
+      "name": "狩夜之巡",
+      "desc": "自身附属夜巡，移除自身所有生命之契。然后根据所移除的层数，造成雷元素伤害，并治疗自身。（伤害和治疗最多4点）",
+      "skillTag": [
+        "元素战技"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "LastLightfall",
+      "name": "残光将终",
+      "desc": "造成3点雷元素伤害，自身附属4层生命之契。",
+      "skillTag": [
+        "元素爆发"
+      ],
+      "points": [
+        {
+          "id": "Electro",
+          "type": "雷元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}
