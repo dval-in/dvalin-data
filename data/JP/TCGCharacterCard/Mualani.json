@@ -1,0 +1,76 @@
+{
+  "id": "Mualani",
+  "shareId": 444,
+  "name": "ムアラニ",
+  "title": "ざぶざぶウェーブチェイサー・ムアラニ",
+  "desc": "波に乗って突き進む流泉。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": [
+      "ナタ"
+    ],
+    "source": "キャッツテールでムアラニを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "CoolingTreatment",
+      "name": "クーリングトリートメント",
+      "desc": "水元素ダメージを1与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SurfsharkWavebreaker",
+      "name": "サメサメウェーブブレイカー",
+      "desc": "自身ががぶがぶサメくんを装備して夜魂の加護に入り、「夜魂値」を2獲得する。（キャラが夜魂の加護に入った後、このスキルは使用できなくなる） （がぶがぶサメくんを装備したキャラは特技ざぶざぶサメくんを使用できる。）",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Boomsharkalaka",
+      "name": "爆瀑ロケット",
+      "desc": "水元素ダメージを2与え、サメサメロケットを召喚する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

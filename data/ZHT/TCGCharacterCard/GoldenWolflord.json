@@ -1,0 +1,76 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "黃金王獸",
+  "title": "狼群魔主·黃金王獸",
+  "desc": "來自異界的扭曲魔獸，統領獸境群狼的王者，擁有指揮狼群溶解空間的權威。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "岩元素",
+    "weapon": "其他武器",
+    "faction": [
+      "魔物"
+    ],
+    "source": "在貓尾酒館中小王子處進行酒館挑戰，在友好對局難度黃金王獸中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "王狼直擊",
+      "desc": "造成2點物理傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "獸境轟召",
+      "desc": "造成1點岩元素傷害，目標角色附屬2層黃金侵蝕，召喚獸境犬首。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "黃金侵絞",
+      "desc": "造成3點岩元素傷害，對所有敵方後臺角色造成1點穿透傷害，並使所有敵方角色附屬黃金侵蝕。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "岩元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

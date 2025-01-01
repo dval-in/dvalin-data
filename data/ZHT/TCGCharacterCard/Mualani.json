@@ -1,0 +1,76 @@
+{
+  "id": "Mualani",
+  "shareId": 444,
+  "name": "瑪拉妮",
+  "title": "嘩啦啦逐浪客·瑪拉妮",
+  "desc": "流泉不息，踏浪前行。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 2,
+    "element": "水元素",
+    "weapon": "法器",
+    "faction": [
+      "納塔"
+    ],
+    "source": "在貓尾酒館中邀請瑪拉妮進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "CoolingTreatment",
+      "name": "降溫處理",
+      "desc": "造成1點水元素傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SurfsharkWavebreaker",
+      "name": "踏鯊破浪",
+      "desc": "自身附屬咬咬鯊魚，然後進入夜魂加持，並獲得2點「夜魂值」。（角色進入夜魂加持後不可使用此技能） （附屬咬咬鯊魚的角色可以使用特技：鯊鯊衝浪板）",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Boomsharkalaka",
+      "name": "爆瀑飛彈",
+      "desc": "造成2點水元素傷害，召喚鯊鯊飛彈。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "水元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "Mualani",
+  "shareId": 444,
+  "name": "Mualani",
+  "title": "Mualani · Chasseuse des vagues rugissantes",
+  "desc": "Surfant sur les eaux pérennes...",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Catalyseur",
+    "faction": [
+      "Natlan"
+    ],
+    "source": "Récompense pour avoir invité Mualani à une partie amicale dans La Queue de Chat et remporté la victoire"
+  },
+  "skills": [
+    {
+      "id": "CoolingTreatment",
+      "name": "Réfrigération",
+      "desc": "Inflige 1 pt de DGT Hydro.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SurfsharkWavebreaker",
+      "name": "Squalisurf brise-vagues",
+      "desc": "Applique une morsure squalidée au personnage, puis le fait passer en bénédiction noctâme et lui accorde 2 pts de noctâme. (Un personnage ne peut plus utiliser cette capacité après être passé en bénédiction noctâme) (Les personnages équipés avec [Morsure squalidée] peuvent utiliser l'habilité : Planche « Requinou »)",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Boomsharkalaka",
+      "name": "Requin-pact boum",
+      "desc": "Inflige 2 pts de DGT Hydro et invoque un missile de Requinou.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}

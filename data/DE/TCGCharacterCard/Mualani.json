@@ -1,0 +1,76 @@
+{
+  "id": "Mualani",
+  "shareId": 444,
+  "name": "Mualani",
+  "title": "Plitsch-Platsch-Wellenjägerin – Mualani",
+  "desc": "Wellenreiterin der unerschöpflichen Quellen",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Hydro",
+    "weapon": "Katalysator",
+    "faction": [
+      "Natlan"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Mualani in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "CoolingTreatment",
+      "name": "Kühlende Behandlung",
+      "desc": "Verursacht 1 Pkt. Hydro-SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "SurfsharkWavebreaker",
+      "name": "Haifischreitende Wellenspalterin",
+      "desc": "Verleiht sich selbst Bissiger Hai und tritt danach in Nachtseelensegen ein und erhält außerdem 2 „Nachtseelenpunkte“. (Diese Fähigkeit kann nicht verwendet werden, nachdem die Figur in Nachtseelensegen eingetreten ist) (Figuren, die mit Bissiger Hai ausgerüstet sind, können die Spezialtechnik anwenden: Haifisch-Surfbrett)",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "Boomsharkalaka",
+      "name": "Haibitzen-Geschoss",
+      "desc": "Verursacht 2 Pkt. Hydro-SCH, erschafft 1 Haifischgeschoss.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Hydro",
+          "type": "Hydro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.3"
+}
