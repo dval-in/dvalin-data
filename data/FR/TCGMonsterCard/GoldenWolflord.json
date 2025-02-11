@@ -1,0 +1,84 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "Loup alpha doré",
+  "title": "Seigneur lupin : Loup alpha doré",
+  "desc": "Une bête distordue venue d'un autre monde. Cette créature est le souverain des canidés de faille et détient le pouvoir de leur ordonner de dissoudre l'espace lui-même.",
+  "attributes": {
+    "hp": 40,
+    "card_type": "Carte de personnage",
+    "energy": 2,
+    "element": "Géo",
+    "weapon": "Autre arme",
+    "faction": [
+      "Monstre"
+    ],
+    "talent_card": {
+      "id": "BeastlyCorrosion",
+      "name": "Beastly Corrosion"
+    },
+    "source": "Récompense pour avoir accepté un défi de taverne auprès de Prince à La Queue de Chat et remporté la victoire lors d'une partie amicale contre le Loup alpha doré",
+    "character": {
+      "id": "GoldenWolflord",
+      "name": "Golden Wolflord"
+    }
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "Frappe d'alpha",
+      "desc": "Inflige 2 pts de DGT physiques.",
+      "skillTag": [
+        "Attaque normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Élément neutre",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "Rameutage de faille",
+      "desc": "Inflige 1 pt de DGT Géo, applique 2 cumuls de corrosion dorée au personnage choisi et invoque un Crâne de faille.",
+      "skillTag": [
+        "Compétence élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "Ingérence dorée",
+      "desc": "Inflige 3 pts de DGT Géo, inflige 1 pt de DGT de perforation à tous les personnages adverses en attente et applique une corrosion dorée à tous les personnages adverses.",
+      "skillTag": [
+        "Déchaînement élémentaire"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Géo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Charge",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}

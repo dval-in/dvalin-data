@@ -1,0 +1,84 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "황금 늑대왕",
+  "title": "늑대 무리의 마왕·황금 늑대왕",
+  "desc": "이세계에서 온 뒤틀린 마수. 수계 늑대 무리를 통치하는 왕. 늑대 무리의 공간을 녹이는 능력을 지휘하는 권능을 지니고 있다",
+  "attributes": {
+    "hp": 40,
+    "card_type": "캐릭터 카드",
+    "energy": 2,
+    "element": "바위 원소",
+    "weapon": "기타 무기",
+    "faction": [
+      "마물"
+    ],
+    "talent_card": {
+      "id": "BeastlyCorrosion",
+      "name": "Beastly Corrosion"
+    },
+    "source": "캣테일 술집의 왕자님을 통해 술집 도전 진행 및 친선 대전 난이도의 황금 늑대왕에게 승리 후 획득",
+    "character": {
+      "id": "GoldenWolflord",
+      "name": "Golden Wolflord"
+    }
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "늑대왕 강타",
+      "desc": "물리 피해를 2pt 준다.",
+      "skillTag": [
+        "일반 공격"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "바위 원소",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "무색 원소",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "수계의 부름",
+      "desc": "바위 원소 피해를 1pt 주고 대상 캐릭터에게 황금 침식을 2스택 부착하며 수계 늑대 머리를 소환한다.",
+      "skillTag": [
+        "원소전투 스킬"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "바위 원소",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "옥죄는 황금",
+      "desc": "바위 원소 피해를 3pt 주고 상대의 모든 대기 캐릭터에게 관통 피해를 1pt 주며 모든 상대 캐릭터에게 황금 침식을 부착한다.",
+      "skillTag": [
+        "원소폭발"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "바위 원소",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "원소 에너지",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}

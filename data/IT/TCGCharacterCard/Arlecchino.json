@@ -1,0 +1,85 @@
+{
+  "id": "Arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "Arlecchino, Mezzaluna di presagi nefasti",
+  "desc": "Luna cruenta tra stelle evanescenti.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Carta personaggio",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Lancia",
+    "faction": [
+      "Fatui"
+    ],
+    "source": "Ricompensa ottenuta sfidando Arlecchino a duello alla Coda di Gatto e battendola in un duello amichevole"
+  },
+  "skills": [
+    {
+      "id": "InvitationToABeheading",
+      "name": "Invito alla decapitazione",
+      "desc": "Infligge 2 DAN fisici. Se possibile, consuma fino a 3 accumuli di Legame vitale del bersaglio e aumenta i DAN di una quantità equivalente.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllIsAsh",
+      "name": "Cenere alla cenere",
+      "desc": "Crea 5 accumuli di Direttiva del debito di sangue sul lato dell'avversario e infligge 2 DAN da Pyro.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BalemoonRising",
+      "name": "Ascesa della Luna cruenta",
+      "desc": "Infligge 4 DAN da Pyro. Rimuovi tutti gli accumuli di Legame vitale e ripristina 1 PS per ogni accumulo.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheBalemoonAloneMayKnow",
+      "name": "Cognizione della Luna cruenta",
+      "desc": "Il personaggio non riceverà effetti di guarigione fatta eccezione per Ascesa della Luna cruenta. Quando Legame vitale è associato a sé stessi: i DAN fisici inflitti dal personaggio vengono convertiti in DAN da Pyro.",
+      "skillTag": [
+        "Abilità passiva"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.4"
+}

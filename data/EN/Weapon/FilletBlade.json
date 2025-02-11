@@ -3,10 +3,14 @@
   "name": "Fillet Blade",
   "description": "A sharp filleting knife. The blade is long, thin, and incredibly sharp.",
   "rarity": 3,
-  "type": "Sword",
+  "type": {
+    "id": "Sword",
+    "name": "Sword"
+  },
   "domain": "Hidden Palace of Lianshan Formula",
   "passive": "Gash",
   "bonus": "On hit, has a 50% chance to deal 240%/280%/320%/360%/400% ATK DMG to a single opponent. Can only occur once every 15/14/13/12/11s.",
+  "specialProp": "ATK%",
   "stats": {
     "primary": "Base ATK",
     "secondary": "ATK%",
@@ -256,7 +260,7 @@
   ],
   "refinement_raw": {
     "name": "Gash",
-    "template": "On hit, has a 50% chance to deal <span style=\"color:#99FFFFFF\">{0}</span> ATK DMG to a single target. Can only occur once every <span style=\"color:#99FFFFFF\">{1}</span>s.",
+    "template": "On hit, has a 50% chance to deal <span style=\"color:#99FFFFFF\">{0}</span> ATK DMG to a single opponent. Can only occur once every <span style=\"color:#99FFFFFF\">{1}</span>s.",
     "params": [
       [
         "240%",
@@ -299,7 +303,7 @@
     },
     {
       "refinement": 5,
-      "desc": "On hit, has a 50% chance to deal 400% ATK DMG to a single target. Can only occur once every 11s."
+      "desc": "On hit, has a 50% chance to deal 400% ATK DMG to a single opponent. Can only occur once every 11s."
     }
   ],
   "version": "1.6"
