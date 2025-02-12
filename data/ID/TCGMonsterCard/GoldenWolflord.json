@@ -1,0 +1,84 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "Golden Wolflord",
+  "title": "\"King of the Riftwolves\" Golden Wolflord",
+  "desc": "Binatang buas dari dunia lain. Makhluk ini adalah penguasa Riftwolf, dan memiliki kekuatan untuk memerintahkan mereka semua.",
+  "attributes": {
+    "hp": 40,
+    "card_type": "Kartu Karakter",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Senjata Lain",
+    "faction": [
+      "Monster"
+    ],
+    "talent_card": {
+      "id": "BeastlyCorrosion",
+      "name": "Beastly Corrosion"
+    },
+    "source": "Didapatkan setelah menerima Tantangan Tavern di Cat's Tail dan menang dalam Pertandingan Persahabatan melawan Golden Wolflord",
+    "character": {
+      "id": "GoldenWolflord",
+      "name": "Golden Wolflord"
+    }
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "Wolflord's Strike",
+      "desc": "Mengakibatkan 2 poin Physical DMG.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Elemen Tidak Selaras",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "Howling Riftcall",
+      "desc": "Mengakibatkan 1 poin Geo DMG, memberikan 2 lapis Golden Corrosion kepada Karakter target, dan memanggil Rifthound Skull.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "Golden Cankerbind",
+      "desc": "Mengakibatkan 3 poin Geo DMG, mengakibatkan 1 poin Piercing DMG ke seluruh Karakter standby lawan, dan memberikan Golden Corrosion kepada seluruh Karakter lawan.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "Arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "\"Dire Balemoon\" Arlecchino",
+  "desc": "Solitary Balemoon in a Sky of Fading Stars.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Character Card",
+    "energy": 3,
+    "element": "Pyro",
+    "weapon": "Polearm",
+    "faction": [
+      "Fatui"
+    ],
+    "source": "Reward for inviting Arlecchino to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her"
+  },
+  "skills": [
+    {
+      "id": "InvitationToABeheading",
+      "name": "Invitation to a Beheading",
+      "desc": "Deal 2 Physical DMG. If possible, consume up to 3 stacks of the target's Bond of Life and increase DMG by the same amount.",
+      "skillTag": [
+        "Normal Attack"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Unaligned Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllIsAsh",
+      "name": "All Is Ash",
+      "desc": "Create 5 stacks of Blood-Debt Directive on the opponent's side of the field and deal 2 Pyro DMG.",
+      "skillTag": [
+        "Elemental Skill"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BalemoonRising",
+      "name": "Balemoon Rising",
+      "desc": "Deal 4 Pyro DMG. Remove all of your stacks of Bond of Life and heal yourself for 1 HP per stack.",
+      "skillTag": [
+        "Elemental Burst"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Pyro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energy",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheBalemoonAloneMayKnow",
+      "name": "The Balemoon Alone May Know",
+      "desc": "Characters won't receive healing from sources other than Balemoon Rising. When Bond of Life is attached to self: Physical DMG dealt by characters is converted to Pyro DMG.",
+      "skillTag": [
+        "Passive Skill"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.4"
+}

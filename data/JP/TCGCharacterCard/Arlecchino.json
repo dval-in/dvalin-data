@@ -1,0 +1,85 @@
+{
+  "id": "Arlecchino",
+  "shareId": 454,
+  "name": "アルレッキーノ",
+  "title": "暝天の凶月・アルレッキーノ",
+  "desc": "晦暝の群星、孤独なる凶月。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 3,
+    "element": "炎元素",
+    "weapon": "長柄武器",
+    "faction": [
+      "ファデュイ"
+    ],
+    "source": "キャッツテールでアルレッキーノを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "InvitationToABeheading",
+      "name": "斬首への招待状",
+      "desc": "物理ダメージを2与える。可能であれば、目標の命の契約を最大3層まで消費して、消費した層数に応じてダメージをアップする。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllIsAsh",
+      "name": "万象、灰に帰す",
+      "desc": "相手のフィールドに血償の勅令を5層生成し、炎元素ダメージを2与える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BalemoonRising",
+      "name": "昇りゆく凶月",
+      "desc": "炎元素ダメージを4与える。自身のすべての命の契約を取り除き、1層につき自身のHPを1回復する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "炎元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheBalemoonAloneMayKnow",
+      "name": "悟れるものは凶月のみ",
+      "desc": "キャラが昇りゆく凶月以外の治療を受けなくなる。 自身に命の契約が付与されている場合 、キャラの与える物理ダメージが炎元素ダメージへと変わる。",
+      "skillTag": [
+        "固有スキル"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.4"
+}
