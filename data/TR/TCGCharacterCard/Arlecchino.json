@@ -1,0 +1,85 @@
+{
+  "id": "Arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "\"Uğursuz Ayın Karanlığı\" Arlecchino",
+  "desc": "Karanlık Yıldızlarla Dolu Gökyüzündeki Yalnız Ay.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Karakter Kartı",
+    "energy": 3,
+    "element": "Ateş",
+    "weapon": "Mızrak",
+    "faction": [
+      "Fatui"
+    ],
+    "source": "Arlecchino'yu Kedi Kuyruğu'nda bir düelloya davet etme ve onunla yaptığın Dostluk Düellosunu kazanma ödülü."
+  },
+  "skills": [
+    {
+      "id": "InvitationToABeheading",
+      "name": "İnfaza Çağrı",
+      "desc": "2 Fiziksel Hasar verir. Mümkünse hedeften 3 kademe Hayat Bağı tüketir ve aynı oranda Hasarı artırır.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllIsAsh",
+      "name": "Hepsi Kül Oldu",
+      "desc": "Rakibinin alanında 5 kademe Kan Borcu Fermanı oluşturur ve 2 Ateş Hasarı verir.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BalemoonRising",
+      "name": "Uğursuz Ayın Doğuşu",
+      "desc": "4 Ateş Hasarı verir. Tüm Hayat Bağı kademelerini kaldırır ve kademe başına kendisi için 1 Can yeniler.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "Ateş",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheBalemoonAloneMayKnow",
+      "name": "Yalnızca Uğursuz Ay Bilebilir",
+      "desc": "Karakterler Uğursuz Ayın Doğuşu dışındaki kaynaklardan iyileştirme alamaz. Hayat Bağıkendisine ekliyken karakterlerin verdiği Fiziksel Hasar, Ateş Hasarı olarak değişir.",
+      "skillTag": [
+        "Pasif Beceri"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.4"
+}

@@ -2,13 +2,24 @@
   "id": "TravelerPyro",
   "name": "Gezgin (Ateş)",
   "description": "Ailesinden geriye kalan son kişi elinden alındığı için Yedileri bulmak üzere bir yolculuğa çıkan, başka dünyadan gelen bir gezgin.",
-  "weapon_type": "Kılıç",
-  "element": "Ateş",
-  "gender": "Erkek/Dişi",
+  "weapon_type": {
+    "id": "Sword",
+    "name": "Kılıç"
+  },
+  "element": {
+    "id": "Pyro",
+    "name": "Ateş"
+  },
+  "gender": {
+    "id": "Malefemale",
+    "name": "Erkek/Dişi"
+  },
   "release": 1735758000,
   "substat": "Saldırı%",
   "affiliation": "-",
-  "region": "MAINACTOR",
+  "region": {
+    "id": ""
+  },
   "rarity": 5,
   "birthday": [
     null,
@@ -214,7 +225,7 @@
     {
       "id": "FlowfireBlade",
       "name": "Akaralev Kılıcı",
-      "description": "Yeryüzünü bile yakabilen kavurucu bir alev kuşanır. Dokunulduğunda ve Basılı Tutulduğunda farklı etkilere sahiptir. Dokun Öfkeli bir yangınla alevler çağırır. Kullanıldığında Gezgin, 42 Gece Ruhu puanı kazanır ve Gece Ruhunun Lütfu durumuna girerek mevcut aktif karakteri takip eden bir Yakıcı Eşik çağırır. Yakıcı Eşik düşmanlara yaklaştığında yakındaki düşmanlara belirli aralıklarla Gece Ruhu tesirli Ateş Hasarı verir. Basılı Tut Sakin bir biçimde ateş göndererek yakındaki düşmanlara Gece Ruhu tesirli Ateş Alan Hasarı verir. Kullanıldığında Gezgin, 42 Gece Ruhu puanı kazanır ve Gece Ruhunun Lütfu durumuna girerek mevcut aktif karakteri takip eden bir Kavurucu Eşik çağırır. Kavurucu Eşik içindeki mevcut aktif karakter düşmanlara Hasar verdiğinde Eşik, Ortak Saldırı yaparak Gezginin Saldırısına bağlı olarak Ateş Hasarı verir. Bu etki 3 saniyede bir gerçekleşebilir. Gece Ruhunun Lütfu: Gezgin Devamlı olarak Gece Ruhu puanı harcar. Gezginin Gece Ruhunun Lütfu durumu en fazla 12sn sürer ve Gece Ruhu puanı tükendiğinde veya beceri tekrar kullanıldığında bu durum sona erer. Yakıcı ve Kavurucu Eşikler, Gezginin Gece Ruhunun Lütfu durumu sona erdiğinde kaybolur. Aynı anda Gezgin tarafından çağrılan yalnızca 1 Yakıcı veya Kavurucu Eşik var olabilir.",
+      "description": "Yeryüzünü bile yakabilen kavurucu bir alev kuşanır. Dokunulduğunda ve Basılı Tutulduğunda farklı etkilere sahiptir. Dokun Öfkeli bir yangınla alevler çağırır. Kullanıldığında Gezgin, 42 Gece Ruhu puanı kazanır ve Gece Ruhunun Lütfu durumuna girerek mevcut aktif karakteri takip eden bir Yakıcı Eşik çağırır. Yakıcı Eşik düşmanlara yaklaştığında yakındaki düşmanlara belirli aralıklarla Gece Ruhu tesirli Ateş Hasarı verir. Basılı Tut Sakin bir biçimde ateş göndererek yakındaki düşmanlara Gece Ruhu tesirli Ateş Alan Hasarı verir. Kullanıldığında Gezgin, 42 Gece Ruhu puanı kazanır ve Gece Ruhunun Lütfu durumuna girerek mevcut aktif karakteri takip eden bir Kavurucu Eşik çağırır. Kavurucu Eşik içindeki mevcut aktif karakter düşmanlara Hasar verdiğinde Eşik, Ortak Saldırı yaparak Gezginin Saldırısına bağlı olarak Ateş Hasarı verir. Bu etki 3 saniyede bir gerçekleşebilir. Gece Ruhunun Lütfu: Gezgin Devamlı olarak Gece Ruhu puanı harcar. Gezginin Gece Ruhunun Lütfu durumu en fazla 12sn sürer ve Gece Ruhu puanı tükendiğinde bu durum sona erer. Eğer bu Element Becerisi etkinken tekrar kullanılırsa Gezginin Gece Ruhu puanı 42 puana döner. Yakıcı ve Kavurucu Eşikler, Gezginin Gece Ruhunun Lütfu durumu sona erdiğinde kaybolur. Aynı anda Gezgin tarafından çağrılan yalnızca 1 Yakıcı veya Kavurucu Eşik var olabilir.",
       "info": "Paimon ile beraber akan alevlerin değişen renklerini izlediniz.",
       "attributes": [
         {
@@ -398,7 +409,7 @@
     {
       "id": "EmbersUnspent",
       "name": "Tükenmeyen Kor",
-      "description": "Yakıcı Eşik veya Kavurucu Eşik içindeki mevcut aktif karakter Yanma, Buharlaşma, Erime, Yüksek Voltaj, Filizlenme, Ateş Girdabı veya Ateş Kristalleşmesi tepkimesi tetiklediğinde Gezgin 5 Enerji yeniler. Bu etki 12 saniyede bir tetiklenebilir. Ayrıca yakındaki bir grup üyesi Gece Ruhu Patlaması tetiklediğinde Gezgin 4 Enerji yeniler.",
+      "description": "Yakıcı Eşik veya Kavurucu Eşik içindeki mevcut aktif karakter Ateş ile ilgili bir tepkime tetiklediğinde Gezgin 5 Enerji yeniler. Bu etki 12 saniyede bir tetiklenebilir. Ayrıca yakındaki bir grup üyesi Gece Ruhu Patlaması tetiklediğinde Gezgin 4 Enerji yeniler.",
       "level": 4
     }
   ],
@@ -412,7 +423,7 @@
     {
       "id": "EverlitCandle",
       "name": "Sönmeyen Mum",
-      "description": "Akaralev Kılıcı Element Becerisi kullanıldıktan sonraki 12sn içinde yakındaki grup üyeleri bir düşman üzerinde Yanma, Buharlaşma, Erime, Yüksek Voltaj, Filizlenme, Ateş Girdabı veya Ateş Kristalleşmesi tepkimesi tetiklediğinde Gezgin 14 Gece Ruhu puanı yeniler. Her bir Akaralev Kılıcı kullanımı bu şekilde en fazla 28 Gece Ruhu puanı yenileyebilir.",
+      "description": "Akaralev Kılıcı Element Becerisi kullanıldıktan sonraki 12sn içinde yakındaki grup üyeleri bir düşman üzerinde Ateş ile ilgili bir tepkime tetiklediğinde Gezgin 14 Gece Ruhu puanı yeniler. Her bir Akaralev Kılıcı kullanımı bu şekilde en fazla 28 Gece Ruhu puanı yenileyebilir.",
       "level": 2
     },
     {

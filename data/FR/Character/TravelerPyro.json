@@ -2,13 +2,24 @@
   "id": "TravelerPyro",
   "name": "Voyageur (Pyro)",
   "description": "Un voyageur venant d'un autre monde qui a été séparé de sa sœur. Il débute son périple à la recherche des Sept Archons de Teyvat dans l'espoir de la retrouver.",
-  "weapon_type": "Épée à une main",
-  "element": "Pyro",
-  "gender": "Homme/Femme",
+  "weapon_type": {
+    "id": "Sword",
+    "name": "Épée à une main"
+  },
+  "element": {
+    "id": "Pyro",
+    "name": "Pyro"
+  },
+  "gender": {
+    "id": "Malefemale",
+    "name": "Homme/Femme"
+  },
   "release": 1735758000,
   "substat": "ATQ%",
   "affiliation": "——",
-  "region": "MAINACTOR",
+  "region": {
+    "id": ""
+  },
   "rarity": 5,
   "birthday": [
     null,
@@ -214,7 +225,7 @@
     {
       "id": "FlowfireBlade",
       "name": "Fléau des flammes",
-      "description": "Manipule une flamme brûlante qui peut incinérer la terre entière. Différents effets se produisent selon la méthode de déclenchement : Appui simple Appelle la puissance des flammes de manière déchaînée. Après utilisation, le voyageur obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil enflammé qui suit le personnage déployé. En s'approchant d'ennemis, le seuil enflammé inflige des DGT Pyro infusés de noctâmes aux ennemis proches de façon intermittente. Appui long Appelle la puissance des flammes de manière posée pour infliger des DGT Pyro de zone infusés de noctâme aux ennemis proches. Après utilisation, le voyageur obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil brûlant qui suit le personnage déployé. Lorsqu'un personnage déployé en son sein inflige des DGT à un ennemi, le seuil brûlant déclenche une attaque coordonnée infligeant des DGT Pyro infusés de noctâme selon l'ATQ du voyageur. Cet effet peut être déclenché une fois toutes les 3 s. Bénédiction noctâme : Voyageur La bénédiction noctâme du voyageur consomme de façon continue ses points de noctâme, dure un maximum de 12 s et prend fin une fois les points épuisés ou lors d'une nouvelle utilisation de la compétence. Les seuils enflammés et brûlants disparaissent lorsque la bénédiction noctâme du voyageur prend fin et il ne peut exister qu'un seul seuil enflammé ou brûlant invoqué par le voyageur à la fois.",
+      "description": "Manipule une flamme brûlante qui peut incinérer la terre entière. Différents effets se produisent selon la méthode de déclenchement : Appui simple Appelle la puissance des flammes de manière déchaînée. Après utilisation, le voyageur obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil enflammé qui suit le personnage déployé. En s'approchant d'ennemis, le seuil enflammé inflige des DGT Pyro infusés de noctâme aux ennemis proches de façon intermittente. Appui long Appelle la puissance des flammes de manière posée pour infliger des DGT Pyro de zone infusés de noctâme aux ennemis proches. Après utilisation, le voyageur obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil brûlant qui suit le personnage déployé. Lorsqu'un personnage déployé en son sein inflige des DGT à un ennemi, le seuil brûlant déclenche une attaque coordonnée infligeant des DGT Pyro infusés de noctâme selon l'ATQ du voyageur. Cet effet peut être déclenché une fois toutes les 3 s. Bénédiction noctâme : Voyageur La bénédiction noctâme du voyageur consomme de façon continue ses points de noctâme, dure un maximum de 12 s et prend fin une fois les points épuisés. Utiliser à nouveau la compétence élémentaire pendant cette durée réinitialise le noctâme du voyageur à 42 pts. Les seuils enflammés et brûlants disparaissent lorsque la bénédiction noctâme du voyageur prend fin et il ne peut exister qu'un seul seuil enflammé ou brûlant invoqué par le voyageur à la fois.",
       "info": "Paimon et vous avez étudié les couleurs changeantes des flammes.",
       "attributes": [
         {
@@ -398,7 +409,7 @@
     {
       "id": "EmbersUnspent",
       "name": "Feu de braise imbrûlée",
-      "description": "Lorsqu'un personnage déployé à l'intérieur d'un seuil enflammé ou d'un seuil brûlant a déclenché une réaction de Brûlure, d'Évaporation, de Fonte, de Surcharge, de Bourgeonnement, de Dispersion Pyro ou de Cristallisation Pyro sur un ennemi, le voyageur récupère 5 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 12 s. De plus, le voyageur récupère également 4 pts d'énergie élémentaire lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme.",
+      "description": "Lorsqu'un personnage déployé à l'intérieur d'un seuil enflammé ou d'un seuil brûlant a déclenché une réaction liée à l'élément Pyro sur un ennemi, le voyageur récupère 5 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 12 s. De plus, le voyageur récupère également 4 pts d'énergie élémentaire lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme.",
       "level": 4
     }
   ],
@@ -412,7 +423,7 @@
     {
       "id": "EverlitCandle",
       "name": "Feu de chandelle pérenne",
-      "description": "Pendant 12 s après avoir utilisé la compétence élémentaire Fléau des flammes, le voyageur récupère 14 pts de noctâme lorsqu'un membre de l'équipe à proximité a déclenché une réaction de Brûlure, d'Évaporation, de Fonte, de Surcharge, de Bourgeonnement, de Dispersion Pyro ou de Cristallisation Pyro sur un ennemi. Chaque utilisation de Fléau des flammes peut restaurer un maximum 28 pts de noctâme de cette manière.",
+      "description": "Pendant 12 s après avoir utilisé la compétence élémentaire Fléau des flammes, le voyageur récupère 14 pts de noctâme lorsqu'un membre de l'équipe à proximité a déclenché une réaction liée à l'élément Pyro sur un ennemi. Chaque utilisation de Fléau des flammes peut restaurer un maximum 28 pts de noctâme de cette manière.",
       "level": 2
     },
     {

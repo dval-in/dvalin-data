@@ -1,0 +1,85 @@
+{
+  "id": "Arlecchino",
+  "shareId": 454,
+  "name": "Arlecchino",
+  "title": "เดือนดับผู้เดียวดาย - Arlecchino",
+  "desc": "ดาราอับแสง จันทร์โฉดเดียวดาย",
+  "attributes": {
+    "hp": 10,
+    "card_type": "การ์ดตัวละคร",
+    "energy": 3,
+    "element": "ธาตุไฟ",
+    "weapon": "หอก",
+    "faction": [
+      "Fatui"
+    ],
+    "source": "ได้รับหลังจากเชิญ Arlecchino ทำการดูเอลใน Cat's Tail และเอาชนะในระดับความยากฉันมิตร"
+  },
+  "skills": [
+    {
+      "id": "InvitationToABeheading",
+      "name": "Invitation to a Beheading",
+      "desc": "สร้างความเสียหายกายภาพ 2 หน่วย หากเป็นไปได้ จะใช้บ่วงพันธะชีวันของเป้าหมายสูงสุด 3 ชั้น เพื่อเพิ่มความเสียหายที่เท่ากัน",
+      "skillTag": [
+        "โจมตีปกติ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "ธาตุไร้สี",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllIsAsh",
+      "name": "All Is Ash",
+      "desc": "สร้าง Blood-Debt Directive 5 ชั้น ในสนามของฝ่ายศัตรู และทำให้เกิดความเสียหายไฟ 2 หน่วย",
+      "skillTag": [
+        "สกิลธาตุ"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BalemoonRising",
+      "name": "Balemoon Rising",
+      "desc": "สร้างความเสียหายไฟ 4 หน่วย และลบล้าง บ่วงพันธะชีวันทั้งหมดของตนเอง โดยที่ทุกการลบล้าง 1 ชั้น จะรักษาพลังชีวิตของตนเอง 1 หน่วย",
+      "skillTag": [
+        "ท่าไม้ตาย"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "ธาตุไฟ",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "พลังงาน",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheBalemoonAloneMayKnow",
+      "name": "The Balemoon Alone May Know",
+      "desc": "ตัวละครจะไม่ได้รับการรักษานอกเหนือจาก Balemoon Rising เมื่อตนเองได้รับบ่วงพันธะชีวัน: ความเสียหายกายภาพที่ตัวละครสร้าง จะเปลี่ยนเป็นความเสียหายไฟ",
+      "skillTag": [
+        "สกิลติดตัว"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.4"
+}

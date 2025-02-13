@@ -1,0 +1,76 @@
+{
+  "id": "Kinich",
+  "shareId": 455,
+  "name": "キィニチ",
+  "title": "廻焔を継ぐ狩人・キィニチ",
+  "desc": "対価を求める懸木の遊火者。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "キャラカード",
+    "energy": 2,
+    "element": "草元素",
+    "weapon": "両手剣",
+    "faction": [
+      "ナタ"
+    ],
+    "source": "キャッツテールでキィニチを招待し、友好対戦に勝利することで獲得"
+  },
+  "skills": [
+    {
+      "id": "NightsunStyle",
+      "name": "武闘術・白夜",
+      "desc": "物理ダメージを2与える。",
+      "skillTag": [
+        "通常攻撃"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CanopyHunterRidingHigh",
+      "name": "懸狩り・宙の遊猟",
+      "desc": "味方キャラを1体選択し、自身にカギ縄リンクを付与し、夜魂の加護状態に入る。草元素ダメージを2与え、その後、選択した味方キャラと位置を入れ替える。",
+      "skillTag": [
+        "元素スキル"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HailToTheAlmightyDragonlord",
+      "name": "偉大なる聖龍を崇拝せよ",
+      "desc": "草元素ダメージを1与え、偉大なる聖龍アハウを生成する。",
+      "skillTag": [
+        "元素爆発"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "草元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "チャージ",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}
