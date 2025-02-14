@@ -1,0 +1,84 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "Kurtların Altın Efendisi",
+  "title": "\"Hiçlik Kurtlarının Kralı\" Kurtların Altın Efendisi",
+  "desc": "Başka dünyadan kötü bir canavardır. Bu yaratık Hiçlik Kurtlarının hükümdarıdır ve onlara uzayı yok etmeyi emretme gücüne sahiptir.",
+  "attributes": {
+    "hp": 40,
+    "card_type": "Karakter Kartı",
+    "energy": 2,
+    "element": "Toprak",
+    "weapon": "Diğer Silahlar",
+    "faction": [
+      "Canavar"
+    ],
+    "talent_card": {
+      "id": "BeastlyCorrosion",
+      "name": "Beastly Corrosion"
+    },
+    "source": "Kedi Kuyruğu'ndaki Han Mücadelesini kabul etme ve Kurtların Altın Efendisi ile olan Dostluk Düellosunu kazanma ödülü.",
+    "character": {
+      "id": "GoldenWolflord",
+      "name": "Golden Wolflord"
+    }
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "Kurtların Efendisi'nin Saldırısı",
+      "desc": "2 Fiziksel Hasar verir.",
+      "skillTag": [
+        "Normal Saldırı"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Nötr Element",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "Yarığın Uluyan Çağrısı",
+      "desc": "1 Toprak Hasarı verir, hedef karaktere 2 kademe Altın Aşınma ekler ve Hiçlik Kurdu Kafatası çağırır.",
+      "skillTag": [
+        "Element Becerisi"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "Altın Taarruz",
+      "desc": "3 Toprak Hasarı verir, hazırdaki tüm rakip karakterlere 1 Delme Hasarı verir ve tüm rakip karakterlere Altın Aşınma ekler.",
+      "skillTag": [
+        "Element Patlaması"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Toprak",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Enerji",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "Rey Acechador Dorado",
+  "title": "Monarca de los lobos - Rey Acechador Dorado",
+  "desc": "Un monstruo retorcido procedente de otro mundo. Es el rey de los Acechadores y tiene el poder de dirigirlos para disolver el mismo espacio.",
+  "attributes": {
+    "hp": 40,
+    "card_type": "Carta de personaje",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Otras armas",
+    "faction": [
+      "Monstruo"
+    ],
+    "talent_card": {
+      "id": "BeastlyCorrosion",
+      "name": "Beastly Corrosion"
+    },
+    "source": "Se obtiene de Príncipe de la taberna Cola de Gato tras ganar el duelo amistoso contra el Rey Acechador Dorado de los duelos tabernarios",
+    "character": {
+      "id": "GoldenWolflord",
+      "name": "Golden Wolflord"
+    }
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "Zarpazo del Rey Acechador",
+      "desc": "Inflige 2 pts. de Daño Físico.",
+      "skillTag": [
+        "Ataque Normal"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Dado indefinido",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "Aullido acechador",
+      "desc": "Inflige 1 pt. de Daño Geo. Al personaje objetivo se le aplican 2 cargas de corrosión dorada e invoca unas calaveras de Acechador.",
+      "skillTag": [
+        "Habilidad Elemental"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "Intrusión dorada",
+      "desc": "Inflige 3 pts. de Daño Geo, así como 1 pt. de Daño Penetrante contra todos los personajes enemigos en reserva y les aplica el efecto de corrosión dorada.",
+      "skillTag": [
+        "Habilidad Definitiva"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energía",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}

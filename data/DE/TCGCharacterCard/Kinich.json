@@ -1,0 +1,76 @@
+{
+  "id": "Kinich",
+  "shareId": 455,
+  "name": "Kinich",
+  "title": "Wendefeuerjagd – Kinich",
+  "desc": "Flammenträger der Baumkronen, gewinnorientierter Erfüllungsgehilfe.",
+  "attributes": {
+    "hp": 10,
+    "card_type": "Figurenkarte",
+    "energy": 2,
+    "element": "Dendro",
+    "weapon": "Zweihänder",
+    "faction": [
+      "Natlan"
+    ],
+    "source": "Nach einem gewonnenen „Duell – Nett“ mit Kinich in der Taverne Zum Katzenschwanz zu erhalten."
+  },
+  "skills": [
+    {
+      "id": "NightsunStyle",
+      "name": "Stil der Nachtsonne",
+      "desc": "Verursacht 2 Pkt. phys. SCH.",
+      "skillTag": [
+        "Standardangriff"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "Würfel (beliebig)",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "CanopyHunterRidingHigh",
+      "name": "Seiljäger – Hoch hinaus",
+      "desc": "Wählt eine deiner Figuren, verleiht sich selbst Kletterseil-Verbindung und tritt in den Zustand Nachtseelensegen ein. Verursacht 2 Pkt. Dendro-SCH und tauscht anschließend mit der gewählten Figur die Position.",
+      "skillTag": [
+        "Elementarfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "HailToTheAlmightyDragonlord",
+      "name": "Gegrüßt sei der Allmächtige Drachenfürst",
+      "desc": "Verursacht 1 Pkt. Dendro-SCH, erschafft 1 Allmächtiger Drachenfürst Ajaw.",
+      "skillTag": [
+        "Spezialfähigkeit"
+      ],
+      "points": [
+        {
+          "id": "Dendro",
+          "type": "Dendro",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Aufladung",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}
