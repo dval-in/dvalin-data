@@ -1,0 +1,84 @@
+{
+  "id": "GoldenWolflord",
+  "shareId": 434,
+  "name": "Signore dei lupi dorato",
+  "title": "Signore dei lupi dorato, Re dei Lupi della Faglia",
+  "desc": "Una diabolica bestia di un altro mondo. Questa creatura governa i Lupi della Faglia e detiene il potere di ordinargli di dissolvere lo spazio stesso.",
+  "attributes": {
+    "hp": 40,
+    "card_type": "Carta personaggio",
+    "energy": 2,
+    "element": "Geo",
+    "weapon": "Altre armi",
+    "faction": [
+      "Mostro"
+    ],
+    "talent_card": {
+      "id": "BeastlyCorrosion",
+      "name": "Beastly Corrosion"
+    },
+    "source": "Ricompensa ottenuta accettando la sfida della taverna alla Coda di Gatto e battendo il Signore dei lupi dorato in un duello amichevole",
+    "character": {
+      "id": "GoldenWolflord",
+      "name": "Golden Wolflord"
+    }
+  },
+  "skills": [
+    {
+      "id": "WolflordsStrike",
+      "name": "Colpo del Signore dei lupi",
+      "desc": "Infligge 2 DAN fisici.",
+      "skillTag": [
+        "Attacco normale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "elemento indefinito",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "HowlingRiftcall",
+      "name": "Richiamo della Faglia ululante",
+      "desc": "Infligge 1 DAN da Geo, associa 2 accumuli di Corrosione aurea al personaggio bersaglio e invoca 1 Teschio di Segugio della Faglia.",
+      "skillTag": [
+        "Abilità elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "GoldenCankerbind",
+      "name": "Intrusione dorata",
+      "desc": "Infligge 3 DAN da Geo, infligge 1 DAN da perforazione a tutti i personaggi avversari inattivi, quindi associa Corrosione aurea a tutti i personaggi avversari.",
+      "skillTag": [
+        "Tripudio elementale"
+      ],
+      "points": [
+        {
+          "id": "Geo",
+          "type": "Geo",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "Energia",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "version": "5.4"
+}

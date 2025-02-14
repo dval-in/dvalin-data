@@ -1,0 +1,85 @@
+{
+  "id": "Arlecchino",
+  "shareId": 454,
+  "name": "阿蕾奇諾",
+  "title": "孤暝厄月·阿蕾奇諾",
+  "desc": "繁星晦暗，厄月孤存。",
+  "attributes": {
+    "hp": 10,
+    "card_type": "角色牌",
+    "energy": 3,
+    "element": "火元素",
+    "weapon": "長柄武器",
+    "faction": [
+      "愚人眾"
+    ],
+    "source": "在貓尾酒館中邀請阿蕾奇諾進行對局，在友好對局難度中獲得勝利後獲得"
+  },
+  "skills": [
+    {
+      "id": "InvitationToABeheading",
+      "name": "斬首之邀",
+      "desc": "造成2點物理傷害，若可能，消耗目標至多3層生命之契，提高等量傷害。",
+      "skillTag": [
+        "普通攻擊"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 1
+        },
+        {
+          "id": "UnalignedElement",
+          "type": "無色元素",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "AllIsAsh",
+      "name": "萬相化灰",
+      "desc": "在對方場上生成5層血償勒令，然後造成2點火元素傷害。",
+      "skillTag": [
+        "元素戰技"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "BalemoonRising",
+      "name": "厄月將升",
+      "desc": "造成4點火元素傷害，移除自身所有生命之契，每移除1層，治療自身1點。",
+      "skillTag": [
+        "元素爆發"
+      ],
+      "points": [
+        {
+          "id": "Pyro",
+          "type": "火元素",
+          "count": 3
+        },
+        {
+          "id": "Energy",
+          "type": "充能",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "TheBalemoonAloneMayKnow",
+      "name": "唯厄月可知曉",
+      "desc": "角色不會受到厄月將升以外的治療。 自身附屬生命之契時： 角色造成的物理傷害變為火元素傷害。",
+      "skillTag": [
+        "被動技能"
+      ],
+      "points": []
+    }
+  ],
+  "version": "5.4"
+}
